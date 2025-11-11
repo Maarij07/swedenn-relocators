@@ -7,25 +7,18 @@ import InputAdornment from '@mui/material/InputAdornment';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
-
-// Import your countries data - adjust path as needed
 import { countries } from '../data/countries';
 
-// Utility function to get country by label or code
 const getCountry = (inputValue) => {
   if (!inputValue) return { code: '', label: '', phone: '' };
-  
   if (typeof inputValue === 'string') {
     return countries.find((country) => country.label === inputValue) || { code: '', label: '', phone: '' };
   }
-  
   return countries.find((country) => country.label === inputValue.label) || inputValue;
 };
 
-// FlagIcon Component
 const FlagIcon = ({ code, sx }) => {
   if (!code) return null;
-  
   return (
     <img
       loading="lazy"
@@ -50,7 +43,7 @@ const PlaneIconWrapper = styled(Box)(({ theme }) => ({
   alignItems: 'center',
   justifyContent: 'center',
   position: 'relative',
-  margin: '3rem 0',
+  margin: '3rem 0', // keep original (don’t touch animation alignment)
   width: '100%',
   [theme.breakpoints.up('lg')]: {
     margin: 0,
@@ -61,142 +54,95 @@ const PlaneIconWrapper = styled(Box)(({ theme }) => ({
 const DashedLine = styled(Box)(({ theme }) => ({
   position: 'relative',
   width: '100%',
-  height: '2px',
-  background: 'repeating-linear-gradient(to right, #94a3b8 0, #94a3b8 10px, transparent 10px, transparent 20px)',
+  height: '3px',
+  background: 'repeating-linear-gradient(to right, #000000 0, #000000 15px, transparent 15px, transparent 30px)',
   [theme.breakpoints.up('lg')]: {
-    width: '18rem',
-    height: '2px',
-    background: 'repeating-linear-gradient(to right, #94a3b8 0, #94a3b8 12px, transparent 12px, transparent 24px)',
+    width: '28rem',
+    height: '4px',
+    background: 'repeating-linear-gradient(to right, #000000 0, #000000 20px, transparent 20px, transparent 40px)',
   },
   [theme.breakpoints.up('xl')]: {
-    width: '22rem',
+    width: '32rem',
+    height: '4px',
   },
-  [theme.breakpoints.up('2xl')]: {
-    width: '26rem',
+  [theme.breakpoints.up('4k')]: {
+    width: '40rem',
+    height: '6px',
   },
 }));
 
 const PlaneCircle = styled(Box)(({ theme }) => ({
-  width: '3.5rem',
-  height: '3.5rem',
+  width: '4rem',
+  height: '4rem',
   borderRadius: '50%',
-  border: '3px solid #94a3b8',
+  border: '3px solid #3b82f6',
   backgroundColor: '#ffffff',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   flexShrink: 0,
-  boxShadow: '0 4px 16px rgba(148, 163, 184, 0.15)',
+  boxShadow: '0 0 0 8px rgba(59, 130, 246, 0.1)',
   position: 'absolute',
   left: '0',
   top: '50%',
-  transform: 'translateY(-50%)',
   zIndex: 10,
-  transition: 'left 0.8s cubic-bezier(0.4, 0, 0.2, 1)',
-  [theme.breakpoints.up('lg')]: {
-    width: '4rem',
-    height: '4rem',
-    border: '3px solid #94a3b8',
-  },
-  [theme.breakpoints.up('xl')]: {
-    width: '4.5rem',
-    height: '4.5rem',
-  },
-  [theme.breakpoints.up('2xl')]: {
-    width: '5rem',
-    height: '5rem',
-  },
+  transition: 'left 0.8s cubic-bezier(0.4, 0, 0.2, 1)', // keep plane smooth
 }));
 
-// Watermark styling
 const WatermarkText = styled(Typography)(({ theme }) => ({
   position: 'absolute',
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  fontSize: '6rem',
+  fontSize: '8rem',
   fontWeight: 900,
-  color: 'rgba(148, 163, 184, 0.03)',
-  letterSpacing: '0.2em',
+  color: 'rgba(203, 213, 225, 0.15)',
+  letterSpacing: '0.1em',
   userSelect: 'none',
   pointerEvents: 'none',
   whiteSpace: 'nowrap',
   zIndex: 0,
   [theme.breakpoints.up('md')]: {
-    fontSize: '10rem',
+    fontSize: '12rem',
   },
   [theme.breakpoints.up('lg')]: {
-    fontSize: '14rem',
-  },
-  [theme.breakpoints.up('xl')]: {
     fontSize: '16rem',
-  },
-  [theme.breakpoints.up('2xl')]: {
-    fontSize: '20rem',
   },
 }));
 
-// Filter countries for source and destination
 const fromCountries = countries.filter(c => 
   ['AD', 'AL', 'AT', 'BY', 'BE', 'BA', 'BG', 'HR', 'CY', 'CZ'].includes(c.code)
 );
-
-const toCountries = countries.filter(c => 
-  ['SE', 'DK'].includes(c.code)
-);
+const toCountries = countries.filter(c => ['SE', 'DK'].includes(c.code));
 
 export default function CountrySelector() {
   const [fromCountry, setFromCountry] = useState(null);
   const [toCountry, setToCountry] = useState(null);
-  
-  // Calculate plane position based on selections - with responsive sizes
-  const getPlaneStyle = () => {
-    if (!fromCountry && !toCountry) {
-      return { left: '0%' };
-    }
-    if (fromCountry && !toCountry) {
-      return { 
-        left: {
-          xs: 'calc(50% - 1.75rem)',
-          lg: 'calc(50% - 2rem)',
-          xl: 'calc(50% - 2.25rem)',
-          '2xl': 'calc(50% - 2.5rem)'
-        }
-      };
-    }
-    if (fromCountry && toCountry) {
-      return { 
-        left: {
-          xs: 'calc(100% - 3.5rem)',
-          lg: 'calc(100% - 4rem)',
-          xl: 'calc(100% - 4.5rem)',
-          '2xl': 'calc(100% - 5rem)'
-        }
-      };
-    }
-    return { left: '0%' };
+
+  const getPlanePosition = () => {
+    if (!fromCountry && !toCountry) return '0%';
+    if (fromCountry && !toCountry) return '50%';
+    if (fromCountry && toCountry) return 'calc(100% - 4rem)';
+    return '0%';
   };
 
   const renderOption = (props, option) => {
     const country = getCountry(option);
     if (!country.label) return null;
-
     const { key, ...otherProps } = props;
-
     return (
       <li key={key} {...otherProps}>
         <FlagIcon
           code={country.code}
-          sx={{ mr: 1.5, width: 22, height: 22, borderRadius: '50%', objectFit: 'cover' }}
+          sx={{ mr: 0.75, width: 22, height: 22, borderRadius: '50%', objectFit: 'cover' }} // tighter
         />
-        {country.label} ({country.code}) +{country.phone}
+        {country.label}
       </li>
     );
   };
 
-  const renderInput = (params, isDestination, selectedValue) => {
+  const renderInput = (params, selectedValue) => {
     const country = getCountry(selectedValue);
-
     return (
       <TextField
         {...params}
@@ -209,7 +155,7 @@ export default function CountrySelector() {
         InputProps={{
           ...params.InputProps,
           startAdornment: country?.code ? (
-            <InputAdornment position="start">
+            <InputAdornment position="start" sx={{ mr: 0.5 }}> {/* tighter flag-text spacing */}
               <FlagIcon
                 code={country.code}
                 sx={{ width: 24, height: 24, borderRadius: '50%', objectFit: 'cover' }}
@@ -223,26 +169,21 @@ export default function CountrySelector() {
             borderRadius: '8px',
             '& fieldset': {
               borderWidth: '2px',
-              borderColor: isDestination ? '#3b82f6' : '#e2e8f0',
-              transition: 'all 0.3s ease',
+              borderColor: '#e2e8f0',
             },
             '&:hover fieldset': {
-              borderColor: isDestination ? '#2563eb' : '#cbd5e1',
+              borderColor: '#cbd5e1',
             },
             '&.Mui-focused fieldset': {
-              borderColor: isDestination ? '#2563eb' : '#3b82f6',
+              borderColor: '#3b82f6',
               borderWidth: '2px',
             },
           },
           '& .MuiInputBase-input': {
-            fontSize: { xs: '0.9rem', lg: '0.95rem', xl: '1rem', '3xl': '1.125rem', '4k': '1.5rem' },
+            fontSize: { xs: '0.9rem', lg: '0.95rem' },
             color: '#1e293b',
             fontWeight: 500,
-            padding: { xs: '12px 14px', '4k': '18px 20px' },
-            '&::placeholder': {
-              color: '#94a3b8',
-              opacity: 1,
-            },
+            padding: { xs: '12px 12px' },
           },
         }}
       />
@@ -253,92 +194,67 @@ export default function CountrySelector() {
     <Box
       component="section"
       sx={{
-        py: { xs: 6, sm: 8, lg: 10, xl: 12, '2xl': 14, '3xl': 16, '4k': 0 },
+        pt: { xs: 3, sm: 4, lg: 6, xl: 8 }, // reduced top gap only
+        pb: { xs: 6, sm: 8, lg: 10, xl: 12 },
         backgroundColor: '#ffffff',
-        minHeight: { xs: '60vh', lg: '70vh' },
         display: 'flex',
         alignItems: 'center',
         position: 'relative',
         overflow: 'hidden',
       }}
     >
-      {/* Watermark */}
       <WatermarkText>RELOCATION</WatermarkText>
 
       <Box
         sx={{
           maxWidth: { lg: '1400px', '2xl': '1600px', '4k': '2400px' },
           mx: 'auto',
-          px: { xs: 2, sm: 3, lg: 4, xl: 6, '4k': 12 },
+          px: { xs: 4, sm: 6, lg: 8, xl: 12, '4k': 24 },
           width: '100%',
           position: 'relative',
           zIndex: 1,
         }}
       >
-        {/* Heading */}
-        <Box sx={{ textAlign: 'center', mb: { xs: 5, sm: 6, lg: 8, xl: 10, '3xl': 12, '4k': 16 } }}>
+        <Box sx={{ textAlign: 'center', mb: { xs: 3, sm: 4, lg: 6, xl: 8 } }}> {/* reduced mb */}
           <Typography
             variant="h2"
             sx={{
-              fontSize: { 
-                xs: '1.75rem', 
-                sm: '2rem', 
-                md: '2.25rem',
-                lg: '2.75rem', 
-                xl: '3rem',
-                '2xl': '3.25rem',
-                '3xl': '3.75rem',
-                '4k': '5.5rem'
-              },
+              fontSize: { xs: '2rem', sm: '2.5rem', lg: '3.25rem' },
               fontWeight: 700,
-              mb: { xs: 1.5, lg: 2, '4k': 3 },
-              color: '#1e293b',
-              lineHeight: 1.2,
+              mb: { xs: 1.5, lg: 2 },
+              color: '#000000',
+              lineHeight: 1.15,
             }}
           >
-            Choose Your{' '}
-            <Box component="span" sx={{ color: '#3b82f6' }}>
-              Relocation Journey
-            </Box>{' '}
-            Today
+            Choose Your <Box component="span" sx={{ color: '#3b82f6' }}>Relocation Journey</Box> Today
           </Typography>
           <Typography
             sx={{
-              fontSize: { 
-                xs: '0.95rem', 
-                sm: '1rem', 
-                lg: '1.125rem',
-                xl: '1.25rem',
-                '3xl': '1.5rem',
-                '4k': '2rem'
-              },
-              color: '#64748b',
-              fontWeight: 500,
+              fontSize: { xs: '0.95rem', lg: '1.125rem' },
+              color: '#000000',
+              fontWeight: 600,
             }}
           >
             From your home today to your home tomorrow
           </Typography>
         </Box>
 
-        {/* Dropdowns */}
         <Box
           sx={{
             display: 'flex',
             flexDirection: { xs: 'column', lg: 'row' },
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: { xs: 0, lg: 0 },
-            maxWidth: { lg: '1100px', xl: '1200px', '2xl': '1300px' },
-            mx: 'auto',
+            alignItems: { xs: 'stretch', lg: 'flex-end' },
+            justifyContent: { xs: 'flex-start', lg: 'space-between' },
+            gap: { xs: 2, lg: 3 },
           }}
         >
           {/* From */}
-          <Box sx={{ width: '100%', maxWidth: { xs: '100%', lg: '26rem', xl: '28rem', '2xl': '30rem', '4k': '36rem' } }}>
+          <Box sx={{ width: '100%', maxWidth: { lg: '22rem', xl: '24rem' }, flexShrink: 0 }}>
             <Typography
               sx={{
-                fontSize: { xs: '0.875rem', lg: '1rem', '3xl': '1.125rem', '4k': '1.5rem' },
+                fontSize: { xs: '0.875rem', lg: '0.95rem' },
                 fontWeight: 600,
-                mb: { xs: 1.5, '4k': 2 },
+                mb: 1,
                 color: '#1e293b',
               }}
             >
@@ -351,21 +267,16 @@ export default function CountrySelector() {
               getOptionLabel={(option) => option?.label || ''}
               autoHighlight
               renderOption={renderOption}
-              renderInput={(params) => renderInput(params, false, fromCountry)}
+              renderInput={(params) => renderInput(params, fromCountry)}
             />
           </Box>
 
-          {/* Plane Icon with Smooth Position Transition */}
-          <PlaneIconWrapper sx={{ px: { xs: 0, lg: 2, xl: 3, '2xl': 4 } }}>
+          {/* Plane (unchanged animation!) */}
+          <PlaneIconWrapper sx={{ px: { xs: 0, lg: 4 }, flexShrink: 0, pb: { lg: '0.75rem' } }}>
             <DashedLine>
-              <PlaneCircle sx={getPlaneStyle()}>
+              <PlaneCircle sx={{ left: getPlanePosition(), transform: 'translate(-50%, -50%)' }}>
                 <svg 
-                  style={{ 
-                    width: '1.8rem', 
-                    height: '1.8rem', 
-                    color: '#94a3b8',
-                    transform: 'rotate(90deg)'
-                  }} 
+                  style={{ width: '2.2rem', height: '2.2rem', color: '#000000', transform: 'rotate(90deg)' }} 
                   fill="currentColor" 
                   viewBox="0 0 24 24"
                 >
@@ -376,12 +287,12 @@ export default function CountrySelector() {
           </PlaneIconWrapper>
 
           {/* To */}
-          <Box sx={{ width: '100%', maxWidth: { xs: '100%', lg: '26rem', xl: '28rem', '2xl': '30rem', '4k': '36rem' } }}>
+          <Box sx={{ width: '100%', maxWidth: { lg: '22rem', xl: '24rem' }, flexShrink: 0 }}>
             <Typography
               sx={{
-                fontSize: { xs: '0.875rem', lg: '1rem', '3xl': '1.125rem', '4k': '1.5rem' },
+                fontSize: { xs: '0.875rem', lg: '0.95rem' },
                 fontWeight: 600,
-                mb: { xs: 1.5, '4k': 2 },
+                mb: 1,
                 color: '#1e293b',
               }}
             >
@@ -394,7 +305,7 @@ export default function CountrySelector() {
               getOptionLabel={(option) => option?.label || ''}
               autoHighlight
               renderOption={renderOption}
-              renderInput={(params) => renderInput(params, true, toCountry)}
+              renderInput={(params) => renderInput(params, toCountry)}
             />
           </Box>
         </Box>

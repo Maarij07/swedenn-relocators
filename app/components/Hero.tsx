@@ -5,11 +5,11 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-gradient-to-b from-white via-[#f9fbff] to-[#dbe9ff]">
       
       {/* Top spacing = navbar height + extra breathing */}
-      <div className="pt-[140px] sm:pt-[160px] lg:pt-[176px] xl:pt-[192px] 4k:pt-[200px] pb-32 sm:pb-36 lg:pb-40 xl:pb-44 3xl:pb-48 4k:pb-52">
-        {/* EXACT same as navbar - DO NOT CHANGE THIS */}
+      <div className="pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 3xl:pb-36 4k:pb-40">
+        {/* EXACT same container as navbar and CountrySelector */}
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           
-          <div className="grid lg:grid-cols-2 gap-10 sm:gap-12 md:gap-14 lg:gap-16 xl:gap-20 2xl:gap-24 3xl:gap-32 4k:gap-48 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16 2xl:gap-20 3xl:gap-24 4k:gap-32 items-center">
             
             {/* LEFT SIDE */}
             <div className="space-y-6 sm:space-y-7 md:space-y-8 lg:space-y-9 3xl:space-y-12 4k:space-y-16">
@@ -27,40 +27,30 @@ export default function Hero() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 3xl:gap-6 4k:gap-8 pt-2">
-                <button className="px-7 sm:px-8 md:px-9 3xl:px-14 4k:px-22 py-3 sm:py-3.5 md:py-4 3xl:py-6 4k:py-9 text-[14px] sm:text-[15px] md:text-base 3xl:text-lg 4k:text-3xl font-medium text-white bg-black rounded-lg hover:bg-gray-800 transition-all duration-300">
+                {/* BOTH buttons BLACK with white text */}
+                <button className="px-7 sm:px-8 md:px-9 3xl:px-14 4k:px-22 py-3 sm:py-3.5 md:py-4 3xl:py-6 4k:py-9 text-[14px] sm:text-[15px] md:text-base 3xl:text-lg 4k:text-3xl font-semibold text-white bg-black rounded-lg hover:bg-gray-800 transition-all duration-300 shadow-md">
                   Our Services
                 </button>
-                <button className="px-7 sm:px-8 md:px-9 3xl:px-14 4k:px-22 py-3 sm:py-3.5 md:py-4 3xl:py-6 4k:py-9 text-[14px] sm:text-[15px] md:text-base 3xl:text-lg 4k:text-3xl font-medium text-black bg-white border-2 4k:border-[5px] border-black rounded-lg hover:bg-gray-50 transition-all duration-300">
+                <button className="px-7 sm:px-8 md:px-9 3xl:px-14 4k:px-22 py-3 sm:py-3.5 md:py-4 3xl:py-6 4k:py-9 text-[14px] sm:text-[15px] md:text-base 3xl:text-lg 4k:text-3xl font-semibold text-white bg-black rounded-lg hover:bg-gray-800 transition-all duration-300 shadow-md">
                   Book Appointment
                 </button>
               </div>
             </div>
 
-            {/* RIGHT SIDE - VIDEO */}
-            <div className="relative w-full max-w-2xl 3xl:max-w-3xl 4k:max-w-6xl mx-auto lg:mx-0">
+            {/* RIGHT SIDE - SUPER SIMPLE VIDEO */}
+            <div className="relative w-full max-w-2xl 3xl:max-w-3xl 4k:max-w-6xl mx-auto lg:mx-0 lg:ml-auto">
               
-              {/* Blue border container */}
-              <div className="relative rounded-2xl sm:rounded-3xl 3xl:rounded-[2.5rem] 4k:rounded-[4rem] border-[4px] sm:border-[5px] 3xl:border-[6px] 4k:border-[8px] border-blue-600 overflow-hidden shadow-2xl bg-blue-600 p-3 sm:p-4 3xl:p-5 4k:p-8">
-                
-                {/* Inner video container with its own border */}
-                <div className="relative rounded-xl sm:rounded-2xl 3xl:rounded-[2rem] 4k:rounded-[3rem] overflow-hidden">
-                  <div className="relative aspect-video bg-black">
-                    <iframe
-                      src="https://share.synthesia.io/embeds/videos/7ffc5155-81ff-4153-b235-6fa60d54a4ef"
-                      className="w-full h-full"
-                      allow="autoplay; fullscreen"
-                      allowFullScreen
-                      style={{ border: 'none' }}
-                      title="Immigration & Relocation"
-                    />
-                  </div>
-                </div>
-              </div>
-              
-              {/* SINGLE Bottom Badge - OUTSIDE the blue border */}
-              <div className="absolute -bottom-4 sm:-bottom-5 3xl:-bottom-6 4k:-bottom-10 left-1/2 -translate-x-1/2 z-20">
-                <div className="bg-black text-white text-[10px] sm:text-[11px] md:text-xs 3xl:text-base 4k:text-2xl font-semibold px-5 sm:px-6 md:px-8 3xl:px-12 4k:px-18 py-2 sm:py-2.5 md:py-3 3xl:py-4 4k:py-7 rounded-full shadow-xl whitespace-nowrap uppercase tracking-wider">
-                  Immigration & Relocation Assistance
+              {/* Simple video with rounded corners - NO frame, NO badge, NOTHING */}
+              <div className="relative rounded-2xl sm:rounded-3xl 3xl:rounded-[2.5rem] 4k:rounded-[4rem] overflow-hidden shadow-2xl">
+                <div className="relative aspect-video bg-black">
+                  <iframe
+                    src="https://share.synthesia.io/embeds/videos/7ffc5155-81ff-4153-b235-6fa60d54a4ef"
+                    className="w-full h-full"
+                    allow="autoplay; fullscreen"
+                    allowFullScreen
+                    style={{ border: 'none' }}
+                    title="Immigration & Relocation"
+                  />
                 </div>
               </div>
             </div>
