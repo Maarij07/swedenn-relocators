@@ -121,7 +121,7 @@ export function HousingCarousel() {
   return (
     <Box
       sx={{
-        py: { xs: 6, sm: 8, lg: 10, xl: 12 },
+        py: { xs: 4, sm: 6, lg: 8, xl: 10 },
         backgroundColor: '#f8fafc',
       }}
     >
@@ -230,11 +230,11 @@ export function HousingCarousel() {
             onScroll={carousel.onScroll}
             sx={{
               display: 'flex',
-              gap: { xs: 3, sm: 4, lg: 5 },
+              gap: { xs: 2, sm: 3, lg: 4 },
               overflowX: 'auto',
               scrollBehavior: 'smooth',
               pb: 2,
-              px: { xs: 0, md: 6 },
+              px: { xs: 0, md: 0 },
               '&::-webkit-scrollbar': {
                 height: 0,
               },
@@ -255,8 +255,8 @@ function HousingCard({ item }: { item: HousingItem }) {
   return (
     <Card
       sx={{
-        minWidth: { xs: 260, sm: 300, md: 340, lg: 360 },
-        maxWidth: { xs: 260, sm: 300, md: 340, lg: 360 },
+        minWidth: { xs: 240, sm: 280, md: 300, lg: 'calc((100% - 64px)/3)' },
+        maxWidth: { xs: 240, sm: 280, md: 300, lg: 'calc((100% - 64px)/3)' },
         boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
         border: '1px solid #e2e8f0',
         borderRadius: '16px',
@@ -274,7 +274,7 @@ function HousingCard({ item }: { item: HousingItem }) {
       <Box
         sx={{
           width: '100%',
-          height: { xs: '180px', sm: '200px', md: '220px', lg: '240px' },
+          height: { xs: '160px', sm: '180px', md: '200px', lg: '220px' },
           backgroundColor: '#f0f2f5',
           display: 'flex',
           alignItems: 'center',

@@ -201,7 +201,7 @@ export default function CountrySelector() {
     <Box
       component="section"
       sx={{
-        pt: { xs: 3, sm: 4, lg: 6, xl: 8 },
+        pt: { xs: 2, sm: 3, lg: 4, xl: 5 },
         pb: { xs: 6, sm: 8, lg: 10, xl: 12 },
         backgroundColor: '#ffffff',
         display: 'flex',
@@ -214,9 +214,9 @@ export default function CountrySelector() {
 
       <Box
         sx={{
-          maxWidth: { lg: '1000px', '2xl': '1200px', '4k': '1800px' },
+          maxWidth: { lg: '1400px', '2xl': '1600px', '4k': '2400px' },
           mx: 'auto',
-          px: { xs: 3, sm: 4, lg: 6, xl: 10, '4k': 20 },
+          px: { xs: 4, sm: 6, lg: 8, xl: 12, '4k': 24 },
           width: '100%',
           position: 'relative',
           zIndex: 1,
@@ -251,12 +251,13 @@ export default function CountrySelector() {
             display: 'flex',
             flexDirection: { xs: 'column', lg: 'row' },
             alignItems: { xs: 'stretch', lg: 'center' },
-            justifyContent: 'center',
-            gap: { xs: 2, lg: 1.5, xl: 2 },
+            justifyContent: { xs: 'center', lg: 'space-between' },
+            gap: { xs: 2, lg: 2 },
+            width: '100%'
           }}
         >
           {/* From */}
-          <Box sx={{ width: '100%', maxWidth: { xs: '280px', lg: '240px', xl: '260px', '4k': '320px' }, mx: 'auto', lg: { mx: 0 } }}>
+          <Box sx={{ width: '100%', maxWidth: { xs: '280px', lg: '240px', xl: '260px', '4k': '320px' }, mx: { xs: 'auto', lg: 0 } }}>
             <Typography
               sx={{
                 fontSize: { xs: '0.875rem', lg: '0.95rem', '4k': '1.1rem' },
@@ -294,7 +295,7 @@ export default function CountrySelector() {
           </PlaneIconWrapper>
 
           {/* To */}
-          <Box sx={{ width: '100%', maxWidth: { xs: '280px', lg: '240px', xl: '260px', '4k': '320px' }, mx: 'auto', lg: { mx: 0 } }}>
+          <Box sx={{ width: '100%', maxWidth: { xs: '280px', lg: '240px', xl: '260px', '4k': '320px' }, mx: { xs: 'auto', lg: 0 } }}>
             <Typography
               sx={{
                 fontSize: { xs: '0.875rem', lg: '0.95rem', '4k': '1.1rem' },

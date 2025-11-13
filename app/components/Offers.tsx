@@ -189,7 +189,7 @@ export default function Offers() {
     <Box
       component="section"
       sx={{
-        py: { xs: 8, sm: 10, lg: 12, xl: 14 },
+        py: { xs: 6, sm: 8, lg: 10, xl: 12 },
         backgroundColor: '#ffffff',
       }}
     >
@@ -280,7 +280,7 @@ export default function Offers() {
             id="offers-scroll"
             sx={{
               display: 'flex',
-              gap: { xs: 3, sm: 4, md: 5, lg: 6, '4k': 8 },
+              gap: { xs: 2, sm: 3, md: 4, lg: 5, '4k': 6 },
               overflowX: 'auto',
               scrollBehavior: 'smooth',
               pb: { xs: 2, md: 3, '4k': 4 },
@@ -294,8 +294,8 @@ export default function Offers() {
             <AnimatedCard
               key={offer.id}
               sx={{
-                minWidth: { xs: '260px', sm: '300px', md: '340px', lg: '360px' },
-                maxWidth: { xs: '260px', sm: '300px', md: '340px', lg: '360px' },
+                minWidth: { xs: '240px', sm: '280px', md: '300px', lg: '320px' },
+                maxWidth: { xs: '240px', sm: '280px', md: '300px', lg: '320px' },
                 boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
                 border: '1px solid #e2e8f0',
                 borderRadius: '16px',
@@ -314,7 +314,7 @@ export default function Offers() {
               <Box
                 sx={{
                   width: '100%',
-                  height: { xs: '180px', sm: '200px', md: '220px', lg: '240px' },
+                  height: { xs: '160px', sm: '180px', md: '200px', lg: '220px' },
                   backgroundColor: '#f0f2f5',
                   display: 'flex',
                   alignItems: 'center',

@@ -23,13 +23,17 @@ export function useCarousel(config: CarouselConfig = {}) {
 
   const scroll = useCallback((direction: 'left' | 'right') => {
     if (carouselRef.current) {
-      const scrollAmount = 400;
-      const newScrollLeft =
-        direction === 'left'
-          ? carouselRef.current.scrollLeft - scrollAmount
-          : carouselRef.current.scrollLeft + scrollAmount;
+      const container = carouselRef.current;
+      const firstChild = container.firstElementChild as HTMLElement | null;
+      const styles = getComputedStyle(container);
+      const gapPx = parseInt(styles.columnGap || styles.gap || '0', 10) || 0;
+      const cardWidth = firstChild ? firstChild.getBoundingClientRect().width : 320;
+      const step = cardWidth + gapPx; // scroll by exactly one card
 
-      carouselRef.current.scrollTo({
+      const newScrollLeft =
+        direction === 'left' ? container.scrollLeft - step : container.scrollLeft + step;
+
+      container.scrollTo({
         left: newScrollLeft,
         behavior: 'smooth',
       });
