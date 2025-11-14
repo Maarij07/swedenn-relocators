@@ -53,6 +53,7 @@ const AnimatedCard = styled(Card)<{ cardsize?: 'small' | 'large' }>(({ theme, ca
   position: 'relative',
   display: 'flex',
   flexDirection: 'column',
+  height: '100%',
   '&:hover': {
     boxShadow: '0 8px 24px rgba(0, 0, 0, 0.06)',
     transform: 'translateY(-4px)',
@@ -61,16 +62,6 @@ const AnimatedCard = styled(Card)<{ cardsize?: 'small' | 'large' }>(({ theme, ca
 
 const services: Service[] = [
   {
-    id: 'family',
-    title: 'Relocating for Family Reunification',
-    description:
-      "Under Directive 2004/38/EC and Swedish national laws, EU citizens and their family members have the right to reunite and reside together in Sweden. We provide guidance throughout the reunification process to ensure compliance and a smooth relocation.",
-    icon: '',
-    image: '/image1.png',
-    coverImage: '/fr.png',
-    cardSize: 'large',
-  },
-  {
     id: 'business',
     title: 'Relocate for Business',
     description:
@@ -78,6 +69,16 @@ const services: Service[] = [
     icon: '',
     image: '/image2.png',
     cardSize: 'small',
+  },
+  {
+    id: 'family',
+    title: 'Relocating for Family Reunification',
+    description:
+      "Under Directive 2004/38/EC and Swedish national laws, EU citizens and their family members have the right to reunite and reside together in Sweden. We provide guidance throughout the reunification process to ensure compliance and a smooth relocation.",
+    icon: '',
+    image: '/image1.png',
+    coverImage: '/fr.svg',
+    cardSize: 'large',
   },
   {
     id: 'work',
@@ -95,7 +96,7 @@ const services: Service[] = [
       "We know the importance of having your parents close. Through family reunification, we help bring dependent parents to Sweden or other Nordic countries, ensuring they receive the care and support they need.",
     icon: '',
     image: '/image4.png',
-    coverImage: '/pr.png',
+    coverImage: '/pr.svg',
     cardSize: 'large',
   },
   {
@@ -127,7 +128,6 @@ export default function Services() {
         background: 'linear-gradient(to bottom, #f8fafc 0%, #ffffff 100%)',
       }}
     >
-      {/* EXACT HERO SECTION CONTAINER - PERFECT ALIGNMENT */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         
         {/* Header */}
@@ -173,8 +173,9 @@ export default function Services() {
           sx={{
             display: 'grid',
             gridTemplateColumns: { xs: '1fr', lg: 'repeat(2, 1fr)' },
-            gap: { xs: 3, sm: 4, lg: 5 },
-            alignItems: 'start',
+            gap: { xs: 2, sm: 2.5, lg: 3 },
+            gridAutoRows: 'minmax(200px, auto)',
+            alignItems: 'stretch',
           }}
         >
           {services.map((service) => (
@@ -182,14 +183,16 @@ export default function Services() {
               key={service.id}
               cardsize={service.cardSize}
               sx={{
-                boxShadow: '0 2px 12px rgba(0, 0, 0, 0.04)',
-                border: '1px solid rgba(226, 232, 240, 0.6)',
+                boxShadow: 'none',
+                border: 'none',
                 borderRadius: '16px',
-                backgroundColor: '#ffffff',
-                overflow: 'visible',
+                backgroundColor: '#dbeafe',
+                overflow: 'hidden',
+                margin: 0,
                 '&:hover': {
-                  border: '1px solid rgba(59, 130, 246, 0.2)',
-                  boxShadow: '0 8px 24px rgba(0, 0, 0, 0.06)',
+                  transform: 'translateY(-4px)',
+                  boxShadow: '0 8px 20px rgba(59, 130, 246, 0.15)',
+                  zIndex: 1,
                 },
               }}
             >
@@ -199,6 +202,7 @@ export default function Services() {
                   display: 'flex',
                   flexDirection: 'column',
                   flex: 1,
+                  height: '100%',
                 }}
               >
                 {/* LAYOUT FOR LARGE CARDS: Image first, then Icon+Title */}
@@ -234,7 +238,7 @@ export default function Services() {
                             style={{
                               width: '100%',
                               height: 'auto',
-                              maxHeight: '300px',
+                              maxHeight: '250px',
                               objectFit: 'contain',
                               filter: 'drop-shadow(0 4px 10px rgba(59, 130, 246, 0.1))',
                             }}
@@ -351,6 +355,7 @@ export default function Services() {
                     lineHeight: 1.6,
                     mb: 1.5,
                     fontWeight: 400,
+                    flex: 1,
                   }}
                 >
                   {service.description}

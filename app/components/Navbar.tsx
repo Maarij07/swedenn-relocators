@@ -109,7 +109,7 @@ export default function Navbar() {
             <a href="/" className="flex items-center flex-shrink-0">
               <div className="relative w-36 sm:w-44 lg:w-48 4k:w-96 h-10 sm:h-12 4k:h-24">
                 <Image 
-                  src="/logo.png" 
+                  src="/logo.svg" 
                   alt="Sweden Relocators" 
                   fill
                   className="object-contain object-left"

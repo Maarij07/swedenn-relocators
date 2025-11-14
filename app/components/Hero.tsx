@@ -15,7 +15,7 @@ const fadeInUp = `
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-white via-[#f9fbff] to-[#dbe9ff]">
+    <section className="relative overflow-hidden bg-[#EBF4FF]">
       <style>{fadeInUp}</style>
       
       {/* Top spacing = navbar height + extra breathing */}
