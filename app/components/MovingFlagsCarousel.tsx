@@ -43,7 +43,7 @@ export function MovingFlagsCarousel() {
   return (
     <Box
       sx={{
-        py: { xs: 2, sm: 3, lg: 4 },
+        py: { xs: 0.5, sm: 0.75, lg: 1 },
         backgroundColor: '#ffffff',
         overflow: 'hidden',
       }}
@@ -58,36 +58,12 @@ export function MovingFlagsCarousel() {
           maxWidth: { lg: '1400px', '2xl': '1600px', '4k': '2400px' },
           width: '100%',
           px: { xs: 2, sm: 3, lg: 4 },
-          py: { xs: 1, sm: 1.25, lg: 1.5 },
+          py: { xs: 0.5, sm: 0.75, lg: 1 },
           backgroundColor: '#f8fafc',
-          borderRadius: '999px',
-          boxShadow: 'inset 0 0 0 1px #e2e8f0',
+          borderRadius: '12px',
+          boxShadow: 'none',
           overflow: 'hidden',
           position: 'relative',
-          
-          '&::before': {
-            content: '""',
-            position: 'absolute',
-            left: 0,
-            top: 0,
-            bottom: 0,
-            width: { xs: '28px', sm: '36px', lg: '44px' },
-            background: 'linear-gradient(to right, #f8fafc 0%, transparent 100%)',
-            zIndex: 10,
-            pointerEvents: 'none',
-          },
-          
-          '&::after': {
-            content: '""',
-            position: 'absolute',
-            right: 0,
-            top: 0,
-            bottom: 0,
-            width: { xs: '28px', sm: '36px', lg: '44px' },
-            background: 'linear-gradient(to left, #f8fafc 0%, transparent 100%)',
-            zIndex: 10,
-            pointerEvents: 'none',
-          },
         }}
       >
         <Box
@@ -114,7 +90,7 @@ export function MovingFlagsCarousel() {
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                gap: { xs: 0.5, sm: 1 },
+                gap: { xs: 0.25, sm: 0.5 },
                 minWidth: 'max-content',
                 flexShrink: 0,
               }}
@@ -124,8 +100,8 @@ export function MovingFlagsCarousel() {
                 src={`https://flagcdn.com/w40/${country.code}.png`}
                 alt={country.name}
                 sx={{
-                  width: { xs: 18, sm: 22, lg: 26, '4k': 32 },
-                  height: { xs: 12, sm: 16, lg: 20, '4k': 24 },
+                  width: { xs: 16, sm: 18, lg: 22, '4k': 26 },
+                  height: { xs: 10, sm: 12, lg: 14, '4k': 16 },
                   borderRadius: '2px',
                   boxShadow: '0 1px 2px rgba(0,0,0,0.08)',
                   objectFit: 'cover',
@@ -137,7 +113,7 @@ export function MovingFlagsCarousel() {
               />
               <Typography
                 sx={{
-                  fontSize: { xs: '0.55rem', sm: '0.65rem', lg: '0.75rem', '4k': '0.85rem' },
+                  fontSize: { xs: '0.5rem', sm: '0.6rem', lg: '0.7rem', '4k': '0.8rem' },
                   fontWeight: 500,
                   color: '#64748b',
                   textAlign: 'center',
@@ -160,7 +136,7 @@ export function MovingFlagsCarousel() {
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                gap: { xs: 0.5, sm: 1 },
+                gap: { xs: 0.25, sm: 0.5 },
                 minWidth: 'max-content',
                 flexShrink: 0,
               }}
@@ -170,8 +146,8 @@ export function MovingFlagsCarousel() {
                 src={`https://flagcdn.com/w40/${country.code}.png`}
                 alt={country.name}
                 sx={{
-                  width: { xs: 18, sm: 22, lg: 26, '4k': 32 },
-                  height: { xs: 12, sm: 16, lg: 20, '4k': 24 },
+                  width: { xs: 16, sm: 18, lg: 22, '4k': 26 },
+                  height: { xs: 10, sm: 12, lg: 14, '4k': 16 },
                   borderRadius: '2px',
                   boxShadow: '0 1px 2px rgba(0,0,0,0.08)',
                   objectFit: 'cover',
@@ -183,7 +159,7 @@ export function MovingFlagsCarousel() {
               />
               <Typography
                 sx={{
-                  fontSize: { xs: '0.55rem', sm: '0.65rem', lg: '0.75rem', '4k': '0.85rem' },
+                  fontSize: { xs: '0.5rem', sm: '0.6rem', lg: '0.7rem', '4k': '0.8rem' },
                   fontWeight: 500,
                   color: '#64748b',
                   textAlign: 'center',

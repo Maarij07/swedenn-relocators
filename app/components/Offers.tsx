@@ -158,7 +158,6 @@ export default function Offers() {
         const scrollAmount = 400;
         const newPos = scrollPos + scrollAmount;
         
-        // Reset to beginning if reached end
         if (newPos > container.scrollWidth - container.clientWidth - 50) {
           container.scrollLeft = 0;
           setScrollPos(0);
@@ -167,7 +166,7 @@ export default function Offers() {
           setScrollPos(newPos);
         }
       }
-    }, 5000); // Auto-scroll every 5 seconds - synchronized with Housing carousel
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [scrollPos, isAutoScroll]);
@@ -181,7 +180,6 @@ export default function Offers() {
       container.scrollLeft = newPos;
       setScrollPos(newPos);
     }
-    // Resume auto-scroll after 10 seconds of manual interaction
     setTimeout(() => setIsAutoScroll(true), 10000);
   };
 
@@ -193,14 +191,9 @@ export default function Offers() {
         backgroundColor: '#ffffff',
       }}
     >
-      <Box
-        sx={{
-          maxWidth: { lg: '1400px', '2xl': '1600px', '4k': '2400px' },
-          mx: 'auto',
-          px: { xs: 4, sm: 6, lg: 8, xl: 12, '4k': 24 },
-          width: '100%',
-        }}
-      >
+      {/* EXACT HERO SECTION CONTAINER */}
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+        
         {/* Header */}
         <Box sx={{ mb: { xs: 6, sm: 8, lg: 10 }, position: 'relative' }}>
           <Typography
@@ -240,7 +233,7 @@ export default function Offers() {
           </Typography>
         </Box>
 
-        {/* Carousel Container with Corner Buttons */}
+        {/* Carousel Container */}
         <Box sx={{ position: 'relative' }}>
           {/* Corner Buttons */}
           <IconButton
@@ -345,19 +338,25 @@ export default function Offers() {
                   flex: 1,
                 }}
               >
-                {/* Meta Info - Simple text without emojis */}
+                {/* Meta Info with Icons */}
                 <Box
                   sx={{
                     display: 'flex',
                     alignItems: 'center',
                     gap: 2,
-                    fontSize: '0.8rem',
+                    fontSize: '0.875rem',
                     color: '#64748b',
                     fontWeight: 500,
                   }}
                 >
-                  <span>{offer.days}</span>
-                  <span>{offer.count}</span>
+                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}>
+                    <img src="/watch.svg" alt="Duration" style={{ width: '16px', height: '16px', opacity: 0.7 }} />
+                    <span>{offer.days}</span>
+                  </Box>
+                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}>
+                    <img src="/people.svg" alt="People" style={{ width: '16px', height: '16px', opacity: 0.7 }} />
+                    <span>{offer.count}</span>
+                  </Box>
                 </Box>
 
                 {/* Title */}
@@ -440,7 +439,7 @@ export default function Offers() {
           ))}
           </Box>
         </Box>
-      </Box>
+      </div>
     </Box>
   );
 }

@@ -36,7 +36,7 @@ export default function Hero() {
               <p className="text-[14px] sm:text-[15px] md:text-base lg:text-[17px] xl:text-[18px] 3xl:text-[20px] 4k:text-[2rem] text-gray-600 leading-[1.7] max-w-xl 3xl:max-w-2xl 4k:max-w-5xl">
                 We provide comprehensive relocation and immigration support for individuals,
                 employees, and companies, covering residence permits, housing, school placements,
-                and integration — all seamlessly managed through our secure web and mobile platform
+                and integration  all seamlessly managed through our secure web and mobile platform
                 across Sweden, Denmark, and the wider Nordic region.
               </p>
 

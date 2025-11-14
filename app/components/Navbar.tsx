@@ -30,10 +30,10 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white">
       
       {/* Top Info Bar with Scrolling Animation */}
-      <div className="bg-gray-50 border-b-2 border-gray-300 shadow-sm overflow-hidden">
+      <div className="bg-gray-50 border-b border-gray-200 overflow-hidden">
         <style jsx>{`
           @keyframes scroll {
             0% { transform: translateX(0); }
@@ -53,32 +53,32 @@ export default function Navbar() {
         `}</style>
         
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-          <div className="flex items-center justify-between h-9 sm:h-10 4k:h-16 text-[11px] sm:text-xs 4k:text-xl text-gray-700">
+          <div className="flex items-center justify-between h-9 sm:h-10 4k:h-16 text-[11px] sm:text-xs 4k:text-xl text-gray-600">
             
             {/* Left side stats with animation */}
             <div className="hidden md:flex items-center overflow-hidden flex-1">
               <div className="flex items-center gap-8 lg:gap-12 4k:gap-16 animate-scroll">
                 {/* First set */}
-                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg font-medium">Employment Rate: 69.6%</span>
-                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg font-medium">Education Rate: 85.2%</span>
-                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg font-medium">Gender Ratio: 1:1</span>
-                <span className="scroll-item flex items-center gap-2 4k:gap-3 text-xs lg:text-sm 4k:text-lg font-medium">
+                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">Employment Rate: 69.6%</span>
+                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">Education Rate: 85.2%</span>
+                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">Gender Ratio: 1:1</span>
+                <span className="scroll-item flex items-center gap-2 4k:gap-3 text-xs lg:text-sm 4k:text-lg">
                   <span className="text-base 4k:text-2xl">🇸🇪</span>
                   <span>Sweden</span>
                 </span>
-                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg font-medium">GDP: US$ 610.1 billion</span>
-                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg font-medium">Total Population: 10.65 million</span>
+                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">GDP: US$ 610.1 billion</span>
+                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">Total Population: 10.65 million</span>
                 
                 {/* Duplicate for seamless loop */}
-                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg font-medium">Employment Rate: 69.6%</span>
-                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg font-medium">Education Rate: 85.2%</span>
-                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg font-medium">Gender Ratio: 1:1</span>
-                <span className="scroll-item flex items-center gap-2 4k:gap-3 text-xs lg:text-sm 4k:text-lg font-medium">
+                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">Employment Rate: 69.6%</span>
+                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">Education Rate: 85.2%</span>
+                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">Gender Ratio: 1:1</span>
+                <span className="scroll-item flex items-center gap-2 4k:gap-3 text-xs lg:text-sm 4k:text-lg">
                   <span className="text-base 4k:text-2xl">🇸🇪</span>
                   <span>Sweden</span>
                 </span>
-                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg font-medium">GDP: US$ 610.1 billion</span>
-                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg font-medium">Total Population: 10.65 million</span>
+                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">GDP: US$ 610.1 billion</span>
+                <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">Total Population: 10.65 million</span>
               </div>
             </div>
             
@@ -86,7 +86,7 @@ export default function Navbar() {
             <div className="ml-auto flex items-center gap-4 lg:gap-6 4k:gap-12">
               <button
                 onClick={() => setLanguageSelectorOpen(true)}
-                className="flex items-center gap-2 4k:gap-4 px-3 py-2 lg:px-4 lg:py-2.5 rounded-lg hover:bg-gray-200 transition-colors"
+                className="flex items-center gap-2 4k:gap-4 px-3 py-1.5 lg:px-4 lg:py-2 rounded-lg hover:bg-gray-200 transition-colors"
               >
                 <img
                   src={`https://flagcdn.com/w40/us.png`}
@@ -101,7 +101,7 @@ export default function Navbar() {
       </div>
 
       {/* Main Navigation */}
-      <div className="bg-white shadow-md">
+      <div className="bg-white shadow-sm border-b border-gray-200">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           <div className="flex items-center justify-between h-16 sm:h-20 4k:h-32">
             
@@ -143,62 +143,120 @@ export default function Navbar() {
                 New in Sweden
               </a>
               
-              {/* Services Dropdown */}
-              <div className="relative group">
-                <button 
-                  className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
-                  onMouseEnter={() => toggleDropdown('services')}
-                  onMouseLeave={closeAllDropdowns}
-                >
-                  Services
-                  <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.services ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openDropdowns.services && (
-                  <div 
-                    className="dropdown-menu absolute left-0 mt-2 w-96 4k:w-[32rem] bg-white rounded-lg shadow-2xl border border-gray-200 py-6 px-6 z-50"
-                    onMouseEnter={() => toggleDropdown('services')}
-                    onMouseLeave={closeAllDropdowns}
-                  >
-                    <div className="space-y-4">
-                      <div className="pb-4 border-b border-gray-100">
-                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">IMMIGRATION</h3>
-                        <a href="#" className="block px-3 py-2.5 text-sm 4k:text-base text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors">
-                          <div className="font-semibold">Asylum</div>
-                          <div className="text-xs text-gray-600 mt-0.5">You must be in Sweden to apply for asylum</div>
-                        </a>
-                        <a href="#" className="block px-3 py-2.5 text-sm 4k:text-base text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors">
-                          <div className="font-semibold">Relocate to Sweden</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Personal identification number</div>
-                        </a>
-                        <a href="#" className="block px-3 py-2.5 text-sm 4k:text-base text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors">
-                          <div className="font-semibold">Work Permit</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Work permit refers to a legal document</div>
-                        </a>
-                      </div>
-                      <div className="pb-4 border-b border-gray-100">
-                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">BUSINESS</h3>
-                        <a href="#" className="block px-3 py-2.5 text-sm 4k:text-base text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors">
-                          <div className="font-semibold">Business Permit</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Swedish business culture and practices</div>
-                        </a>
-                        <a href="#" className="block px-3 py-2.5 text-sm 4k:text-base text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors">
-                          <div className="font-semibold">Company Registration</div>
-                          <div className="text-xs text-gray-600 mt-0.5">If you're planning to register a company</div>
-                        </a>
-                      </div>
-                      <div>
-                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">FAMILY</h3>
-                        <a href="#" className="block px-3 py-2.5 text-sm 4k:text-base text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors">
-                          <div className="font-semibold">Family Reunification</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Family reunification is a legal process</div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                )}
-              </div>
+              {/* Services Dropdown - Black headings that don't change on hover */}
+<div className="relative group">
+  <button 
+    className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
+    onMouseEnter={() => toggleDropdown('services')}
+    onMouseLeave={closeAllDropdowns}
+  >
+    Services
+    <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.services ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+  {openDropdowns.services && (
+    <div 
+      className="dropdown-menu absolute left-1/2 -translate-x-1/2 mt-2 w-[90vw] max-w-[1000px] bg-white rounded-xl shadow-2xl border border-gray-100 py-10 px-12 z-50"
+      onMouseEnter={() => toggleDropdown('services')}
+      onMouseLeave={closeAllDropdowns}
+    >
+      <div className="grid grid-cols-4 gap-12">
+        {/* IMMIGRATION Column */}
+        <div>
+          <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">IMMIGRATION</h3>
+          <div className="space-y-4">
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Asylum</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">You must be in Sweden to apply for asylum</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Relocate to Sweden</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">Personal identification number</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Relocate to Denmark</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">CPR is the Central Civil Registration</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Work Permit</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">Work permit refers to a legal document</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Study in EU</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">If you're considering studying in Europe</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Global Visit Visas</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">For visiting Sweden for a short period</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Appeal Cases</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">Expert help with immigration appeals</div>
+            </a>
+          </div>
+        </div>
+
+        {/* BUSINESS Column */}
+        <div>
+          <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">BUSINESS</h3>
+          <div className="space-y-4">
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Business Permit</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">Swedish business culture and practices</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Business Visit</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">Foreign individuals wanting to visit Sweden</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Logistics Services</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">Streamline your move with our logistics...</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Company Registration</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">If you're planning to register a company</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">EOR & Payroll</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">We provide you with an easy solution</div>
+            </a>
+          </div>
+        </div>
+
+        {/* FAMILY Column */}
+        <div>
+          <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">FAMILY</h3>
+          <div className="space-y-4">
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Family Reunification</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">Family reunification is a legal process</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens' Parents Permit</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">Parents of a child under 18 years</div>
+            </a>
+          </div>
+        </div>
+
+        {/* CITIZENSHIP Column */}
+        <div>
+          <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">CITIZENSHIP</h3>
+          <div className="space-y-4">
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">Citizenship</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">When you live in Sweden for a certain period...</div>
+            </a>
+            <a href="#" className="block">
+              <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens' Relocation</div>
+              <div className="text-[13px] text-gray-600 leading-relaxed">Family reunification means family members...</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  )}
+</div>
               
               <a 
                 href="/about" 
@@ -319,7 +377,7 @@ export default function Navbar() {
               </a>
             </div>
 
-            {/* CTA Buttons - White bg with border & Black bg */}
+            {/* CTA Buttons */}
             <div className="hidden lg:flex items-center gap-3 4k:gap-6 flex-shrink-0">
               <button className="px-5 xl:px-6 4k:px-12 py-2.5 xl:py-3 4k:py-6 text-sm xl:text-[15px] 4k:text-2xl font-medium text-black bg-white border-2 border-black rounded-lg hover:bg-gray-50 transition-all whitespace-nowrap">
                 Book Appointment
