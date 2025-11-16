@@ -137,7 +137,8 @@ export default function Navbar() {
                   animation: slideDown 0.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
                 }
 .dropdown-menu--services {
-                  width: min(100vw - 32px, 1000px);
+                  /* Narrower on laptops so all 4 columns stay fully visible */
+                  width: min(100vw - 40px, 820px);
                 }
                 @media (min-width: 1280px) {
                   .dropdown-menu--services {
@@ -169,11 +170,11 @@ export default function Navbar() {
   </a>
   {openDropdowns.services && (
     <div 
-      className="dropdown-menu dropdown-menu--services absolute left-0 xl:left-1/2 xl:-translate-x-1/2 mt-2 bg-white rounded-xl shadow-2xl border border-gray-100 py-8 sm:py-10 px-4 sm:px-8 xl:px-12 z-50"
+      className="dropdown-menu dropdown-menu--services absolute left-1/2 -translate-x-1/2 mt-2 bg-white rounded-xl shadow-2xl border border-gray-100 py-8 sm:py-10 px-3 sm:px-6 xl:px-12 z-50"
       onMouseEnter={() => toggleDropdown('services')}
       onMouseLeave={closeAllDropdowns}
     >
-      <div className="grid grid-cols-4 gap-12">
+      <div className="grid grid-cols-4 gap-8 xl:gap-12">
         {/* IMMIGRATION Column */}
         <div>
           <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">IMMIGRATION</h3>

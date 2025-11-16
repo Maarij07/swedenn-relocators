@@ -89,7 +89,7 @@ export function HousingCarousel() {
     <Box
       sx={{
         py: { xs: '80px', sm: '96px', lg: '112px', xl: '128px', '3xl': '144px', '4k': '160px' },
-        backgroundColor: '#f8fafc',
+       backgroundColor: '#ffffff',
       }}
     >
       {/* EXACT same container as Hero/Services (Tailwind classes) */}

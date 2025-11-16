@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import theme from './theme';
 import './globals.css';
 import ClientI18nProvider from './ClientI18nProvider';
+import CookieConsent from './components/CookieConsent';
 
 export const metadata = {
   title: 'Sweden Relocators',
@@ -27,6 +28,7 @@ export default function RootLayout({
               <Navbar />
               {children}
               <Footer />
+              <CookieConsent />
             </ClientI18nProvider>
           </ThemeProvider>
         </AppRouterCacheProvider>

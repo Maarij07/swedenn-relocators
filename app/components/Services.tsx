@@ -127,7 +127,7 @@ export default function Services() {
       component="section"
       sx={{
         py: { xs: 8, sm: 10, lg: 12, xl: 14 },
-        background: 'linear-gradient(to bottom, #f8fafc 0%, #ffffff 100%)',
+        background: '#ffffff',
       }}
     >
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">

@@ -188,12 +188,12 @@ export default function VisaApplicationJourney() {
                       )}
                     </Box>
 
-                    <Box sx={{ mt: 3, position: 'absolute', top: '100%' }}>
+                   <Box sx={{ mt: 3, position: 'absolute', top: '100%' }}>
                       <Typography
                         sx={{
                           fontSize: { xs: '0.75rem', sm: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
-                          color: isActive ? '#3b82f6' : isCompleted ? '#374151' : '#9ca3af',
-                          fontWeight: isActive ? 700 : isCompleted ? 600 : 500,
+                          color: isActive ? '#3b82f6' : isCompleted ? '#1e293b' : '#94a3b8',
+                          fontWeight: isActive || isCompleted ? 700 : 500,
                           whiteSpace: 'nowrap',
                         }}
                       >
@@ -225,8 +225,8 @@ export default function VisaApplicationJourney() {
               >
                 <Box
                   sx={{
-                    width: { xs: 20, sm: 22, lg: 24, '3xl': 28, '4k': 36 },
-                    height: { xs: 20, sm: 22, lg: 24, '3xl': 28, '4k': 36 },
+                    width: { xs: 28, sm: 32, lg: 36, '3xl': 42, '4k': 54 },
+                    height: { xs: 28, sm: 32, lg: 36, '3xl': 42, '4k': 54 },
                     animation: 'planeBob 1.5s ease-in-out infinite',
                     '@keyframes planeBob': {
                       '0%': { transform: 'translateY(0px)' },
@@ -238,7 +238,7 @@ export default function VisaApplicationJourney() {
                   <Image 
                     src="/aeroplane.svg" 
                     alt="Plane" 
-                    width={24} 
+                    width={30} 
                     height={24}
                     style={{ width: '100%', height: '100%' }}
                   />

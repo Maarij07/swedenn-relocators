@@ -11,7 +11,7 @@ export function GlobalVisaPlatform() {
     <Box
       sx={{
         py: { xs: '5rem', sm: '6rem', lg: '7rem', xl: '8rem', '3xl': '9rem', '4k': '10rem' },
-        backgroundColor: '#f8fafc',
+        backgroundColor: '#ffffff',
       }}
     >
       {/* EXACT same container as Hero/Services (Tailwind classes) */}
