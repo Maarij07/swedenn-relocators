@@ -10,7 +10,8 @@ interface DropdownMenu {
 }
 
 export default function Navbar() {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
+  const isSv = i18n.language === 'sv';
   const [isOpen, setIsOpen] = useState(false);
   const [languageSelectorOpen, setLanguageSelectorOpen] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState('en');
@@ -95,7 +96,9 @@ export default function Navbar() {
                   alt="Language"
                   className="w-5 h-4 4k:w-10 4k:h-8 rounded-sm object-cover"
                 />
-                <span className="text-sm lg:text-base 4k:text-xl text-gray-700 font-medium hidden sm:inline">{t('navbar.language.english')}</span>
+                <span className="text-sm lg:text-base 4k:text-xl text-gray-700 font-medium hidden sm:inline">
+                  {isSv ? 'Engelska' : 'English'}
+                </span>
               </button>
             </div>
           </div>
@@ -275,7 +278,7 @@ export default function Navbar() {
                 href="/about" 
                 className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
 >
-                {t('navbar.links.aboutUs')}
+                {isSv ? 'Om oss' : 'About us'}
               </a>
               
               {/* Housing Dropdown */}
@@ -386,17 +389,17 @@ export default function Navbar() {
                 href="/contact" 
                 className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
 >
-                {t('navbar.links.contactUs')}
+                {isSv ? 'Kontakta oss' : 'Contact us'}
               </a>
             </div>
 
             {/* CTA Buttons */}
             <div className="hidden lg:flex items-center gap-3 4k:gap-6 flex-shrink-0">
               <button className="px-5 xl:px-6 4k:px-12 py-2.5 xl:py-3 4k:py-6 text-sm xl:text-[15px] 4k:text-2xl font-medium text-black bg-white border-2 border-black rounded-lg hover:bg-gray-50 transition-all whitespace-nowrap">
-                {t('navbar.buttons.bookAppointment')}
+                {isSv ? 'Boka möte' : 'Book Appointment'}
               </button>
               <button className="px-5 xl:px-6 4k:px-12 py-2.5 xl:py-3 4k:py-6 text-sm xl:text-[15px] 4k:text-2xl font-medium text-white bg-black rounded-lg hover:bg-gray-800 transition-all whitespace-nowrap">
-                {t('navbar.buttons.login')}
+                {isSv ? 'Logga in' : 'Login'}
               </button>
             </div>
 

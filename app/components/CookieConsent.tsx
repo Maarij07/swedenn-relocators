@@ -1,12 +1,27 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const STORAGE_KEY = "sweden-relocators-cookie-consent";
 
 type ConsentChoice = "all" | "essential" | "custom";
 
 export default function CookieConsent() {
+  const { i18n } = useTranslation();
+  const isSv = i18n.language === "sv";
+
+  const texts = {
+    title: isSv ? "Cookie-inställningar" : "Cookie settings",
+    body: isSv
+      ? "Vår webbplats använder cookies för att förbättra din upplevelse och hjälpa oss i vårt marknadsföringsarbete. Mer information finns i vår"
+      : "Our website uses cookies to improve your user experience and assist in our marketing efforts. More info can be found in our",
+    policy: isSv ? "cookiepolicy" : "cookie policy",
+    changePrefs: isSv ? "Ändra inställningar" : "Change preferences",
+    onlyEssential: isSv ? "Acceptera endast nödvändiga cookies" : "Only accept essential cookies",
+    acceptAll: isSv ? "Acceptera alla cookies" : "Accept all cookies",
+  };
+
   const [open, setOpen] = useState(false);
 
   // Show banner only if user hasn't made a choice before
@@ -53,15 +68,14 @@ export default function CookieConsent() {
             }
           }
         `}</style>
-        <h2 className="text-xl font-semibold mb-2">Cookie settings</h2>
+        <h2 className="text-xl font-semibold mb-2">{texts.title}</h2>
         <p className="text-gray-600 text-sm leading-relaxed mb-4">
-          Our website uses cookies to improve your user experience and assist in our
-          marketing efforts. More info can be found in our
+          {texts.body}{" "}
           <button
             type="button"
             className="ml-1 text-blue-700 font-semibold underline underline-offset-2 hover:text-blue-900"
           >
-            cookie policy
+            {texts.policy}
           </button>
           .
         </p>
@@ -72,21 +86,21 @@ export default function CookieConsent() {
             onClick={() => handleChoice("custom")}
             className="w-full border border-[#0A4A8A] text-[#0A4A8A] font-semibold py-2.5 rounded-lg uppercase tracking-wide text-xs hover:bg-blue-50 transition-colors"
           >
-            Change preferences
+            {texts.changePrefs}
           </button>
           <button
             type="button"
             onClick={() => handleChoice("essential")}
             className="w-full bg-[#0A4A8A] text-white font-semibold py-2.5 rounded-lg uppercase tracking-wide text-xs hover:bg-[#083664] transition-colors"
           >
-            Only accept essential cookies
+            {texts.onlyEssential}
           </button>
           <button
             type="button"
             onClick={() => handleChoice("all")}
             className="w-full bg-[#0A4A8A] text-white font-semibold py-2.5 rounded-lg uppercase tracking-wide text-xs hover:bg-[#083664] transition-colors"
           >
-            Accept all cookies
+            {texts.acceptAll}
           </button>
         </div>
       </div>

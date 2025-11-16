@@ -5,8 +5,21 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
+import { useTranslation } from 'react-i18next';
 
 export function GlobalVisaPlatform() {
+  const { i18n } = useTranslation();
+  const isSv = i18n.language === 'sv';
+
+  const texts = {
+    subtitle: isSv
+      ? 'Du kan ansöka var du än befinner dig i världen'
+      : 'You can apply from anywhere in the world',
+    mainTitle: isSv ? 'Allt-i-ett global visumplattform' : 'All-in-One Global Visa Platform',
+    subheading: isSv ? 'En enda ansökan för alla visum du behöver' : 'One unified application for all visas you need',
+    button: isSv ? 'Skicka via DHL' : 'Send Via DHL',
+  };
+
   return (
     <Box
       sx={{
@@ -32,32 +45,32 @@ export function GlobalVisaPlatform() {
               mb: '0.5rem',
             }}
           >
-            You can apply from anywhere in the world
+            {texts.subtitle}
           </Typography>
 
           {/* Main title */}
           <Typography
             sx={{
               fontSize: { xs: '2rem', sm: '2.75rem', md: '3rem', lg: '3.5rem', '4k': '5rem' },
-              fontWeight: 500,
+              fontWeight: 800,
               color: '#3b82f6',
               mb: '0.5rem',
               lineHeight: 1.2,
             }}
           >
-            All-in-One Global Visa Platform
+            {texts.mainTitle}
           </Typography>
 
           {/* Subheading */}
           <Typography
             sx={{
               fontSize: { xs: '1.125rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' },
-              fontWeight: 500,
+              fontWeight: 700,
               color: '#1e293b',
               lineHeight: 1.3,
             }}
           >
-            One unified application for all visas you need
+            {texts.subheading}
           </Typography>
         </Box>
 
@@ -93,12 +106,12 @@ export function GlobalVisaPlatform() {
                 <Typography
                   sx={{
                     fontSize: { xs: '1.5rem', sm: '1.75rem', md: '2rem', lg: '2.25rem', '4k': '3rem' },
-                    fontWeight: 800,
+                    fontWeight: 700,
                     color: '#1e293b',
                     lineHeight: 1.3,
                   }}
                 >
-                  All-in-One Global Visa Platform
+                  {texts.mainTitle}
                 </Typography>
 
                 {/* Description */}
@@ -109,7 +122,9 @@ export function GlobalVisaPlatform() {
                     lineHeight: 1.7,
                   }}
                 >
-                  You could be anywhere in the world, if you're here and reading this, you can sign up on our portal or app and apply for visas globally. With our Universal Visa Application Form, you apply once, your details are securely stored, and you can reuse them for multiple destinations including Schengen, the UK, US, Canada, Australia, New Zealand, Japan, and more.
+                  {isSv
+                    ? 'Du kan befinna dig var som helst i världen – om du är här kan du registrera dig i vår portal eller app och ansöka om visum globalt. Med vårt universella visumformulär fyller du i uppgifterna en gång, de lagras säkert och kan återanvändas för flera destinationer som Schengen, Storbritannien, USA, Kanada, Australien, Nya Zeeland, Japan och fler.'
+                    : "You could be anywhere in the world, if you're here and reading this, you can sign up on our portal or app and apply for visas globally. With our Universal Visa Application Form, you apply once, your details are securely stored, and you can reuse them for multiple destinations including Schengen, the UK, US, Canada, Australia, New Zealand, Japan, and more."}
                 </Typography>
 
                 {/* Description 2 */}
@@ -120,7 +135,9 @@ export function GlobalVisaPlatform() {
                     lineHeight: 1.7,
                   }}
                 >
-                  We manage every step for you: application preparation, expert consultation, appointment scheduling, hotel bookings, health insurance, and travel reservations, so you save time, reduce costs, and keep everything organized in one secure platform. For embassy submissions, you can simply download your complete file from the portal or have it securely delivered by DHL.
+                  {isSv
+                    ? 'Vi hanterar varje steg åt dig: ansökningsförberedelser, expertkonsultation, tidsbokning, hotellbokningar, sjukförsäkring och resebokningar – så sparar du tid, minskar kostnaderna och håller allt samlat på en säker plattform. Inför ambassébesök kan du enkelt ladda ner hela din ansökningsfil från portalen eller få den säkert levererad med DHL.'
+                    : 'We manage every step for you: application preparation, expert consultation, appointment scheduling, hotel bookings, health insurance, and travel reservations, so you save time, reduce costs, and keep everything organized in one secure platform. For embassy submissions, you can simply download your complete file from the portal or have it securely delivered by DHL.'}
                 </Typography>
 
                 {/* Button */}
@@ -143,7 +160,7 @@ export function GlobalVisaPlatform() {
                       boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
                     }}
                   >
-                    Send Via DHL
+                    {texts.button}
                   </Button>
                 </Box>
               </Box>

@@ -12,8 +12,8 @@ import CardContent from '@mui/material/CardContent';
 
 interface Service {
   id: string;
-  title: string;
-  description: string;
+  titleKey: string;
+  descriptionKey: string;
   icon: string;
   image: string;
   coverImage?: string;
@@ -64,18 +64,16 @@ const AnimatedCard = styled(Card)<{ cardsize?: 'small' | 'large' }>(({ theme, ca
 const services: Service[] = [
   {
     id: 'business',
-    title: 'Relocate for Business',
-    description:
-      "We help you establish a business or franchise in Sweden with full support, including residence permit guidance. To qualify, you'll need a solid business plan, investment capital, and sufficient funds for two years.",
+    titleKey: 'services.cards.business.title',
+    descriptionKey: 'services.cards.business.description',
     icon: '',
     image: '/image2.png',
     cardSize: 'small',
   },
   {
     id: 'family',
-    title: 'Relocating for Family Reunification',
-    description:
-      "Under Directive 2004/38/EC and Swedish national laws, EU citizens and their family members have the right to reunite and reside together in Sweden. We provide guidance throughout the reunification process to ensure compliance and a smooth relocation.",
+    titleKey: 'services.cards.family.title',
+    descriptionKey: 'services.cards.family.description',
     icon: '',
     image: '/image1.png',
     coverImage: '/fr.svg',
@@ -83,18 +81,16 @@ const services: Service[] = [
   },
   {
     id: 'work',
-    title: 'Relocating with a Work Permit',
-    description:
-      "We assist you in securing a work permit in Sweden, guiding both employers and employees through every step of the process. To qualify, you'll need a valid job offer, employment contract, and compliance with salary and insurance requirements.",
+    titleKey: 'services.cards.work.title',
+    descriptionKey: 'services.cards.work.description',
     icon: '',
     image: '/image3.png',
     cardSize: 'small',
   },
   {
     id: 'parents',
-    title: 'Dependent Parents Relocation',
-    description:
-      "We know the importance of having your parents close. Through family reunification, we help bring dependent parents to Sweden or other Nordic countries, ensuring they receive the care and support they need.",
+    titleKey: 'services.cards.parents.title',
+    descriptionKey: 'services.cards.parents.description',
     icon: '',
     image: '/image4.png',
     coverImage: '/pr.svg',
@@ -102,18 +98,16 @@ const services: Service[] = [
   },
   {
     id: 'study',
-    title: 'Relocating for Study in Sweden',
-    description:
-      "We support you in applying for a residence permit to pursue studies in Sweden. To qualify, you'll need admission to a recognized program, proof of financial means, and valid health insurance.",
+    titleKey: 'services.cards.study.title',
+    descriptionKey: 'services.cards.study.description',
     icon: '',
     image: '/image5.png',
     cardSize: 'small',
   },
   {
     id: 'ltr',
-    title: 'Relocating with LTR Permits',
-    description:
-      "If you hold a long-term residence permit in another EU country, you may have the right to move to Sweden with your family. Family reunification rules allow eligible relatives to join you.",
+    titleKey: 'services.cards.ltr.title',
+    descriptionKey: 'services.cards.ltr.description',
     icon: '',
     image: '/image6.png',
     cardSize: 'small',
@@ -121,12 +115,14 @@ const services: Service[] = [
 ];
 
 export default function Services() {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
+  const isSv = i18n.language === 'sv';
   return (
     <Box
       component="section"
       sx={{
-        py: { xs: 8, sm: 10, lg: 12, xl: 14 },
+        pt: { xs: 4, sm: 6, lg: 7, xl: 8 },
+        pb: { xs: 8, sm: 10, lg: 12, xl: 14 },
         background: '#ffffff',
       }}
     >
@@ -294,7 +290,7 @@ export default function Services() {
                           lineHeight: 1.3,
                         }}
                       >
-                        {service.title}
+                        {t(service.titleKey)}
                       </Typography>
                     </Box>
                   </>
@@ -344,7 +340,7 @@ export default function Services() {
                         lineHeight: 1.3,
                       }}
                     >
-                      {service.title}
+                      {t(service.titleKey)}
                     </Typography>
                   </Box>
                 )}
@@ -360,7 +356,7 @@ export default function Services() {
                     flex: 1,
                   }}
                 >
-                  {service.description}
+                  {t(service.descriptionKey)}
                 </Typography>
 
                 {/* Button */}

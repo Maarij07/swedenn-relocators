@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import InputAdornment from '@mui/material/InputAdornment';
@@ -109,8 +110,20 @@ const fromCountries = countries.filter(c =>
 const toCountries = countries.filter(c => ['SE', 'DK'].includes(c.code));
 
 export default function CountrySelector() {
+  const { i18n } = useTranslation();
   const [fromCountry, setFromCountry] = useState(null);
   const [toCountry, setToCountry] = useState(null);
+
+  const isSv = i18n.language === 'sv';
+  const texts = {
+    titlePart1: isSv ? 'Välj din' : 'Choose Your',
+    titleHighlight: isSv ? 'flyttresa' : 'Relocation Journey',
+    titlePart2: isSv ? 'idag' : 'Today',
+    subtitle: isSv ? 'Från ditt hem idag till ditt hem i morgon' : 'From your home today to your home tomorrow',
+    fromLabel: isSv ? 'Flyttar från' : 'Relocating From',
+    toLabel: isSv ? 'Flyttar till' : 'Relocating To',
+    placeholder: isSv ? 'Välj ett land' : 'Choose a country',
+  };
 
   const getPlanePosition = () => {
     if (!fromCountry && !toCountry) return '0%';
@@ -139,7 +152,7 @@ export default function CountrySelector() {
     return (
       <TextField
         {...params}
-        placeholder="Choose a country"
+        placeholder={texts.placeholder}
         variant="outlined"
         inputProps={{
           ...params.inputProps,
@@ -184,17 +197,19 @@ export default function CountrySelector() {
   };
 
   return (
-    <section className="pt-8 sm:pt-12 lg:pt-16 xl:pt-20 pb-24 sm:pb-32 lg:pb-40 xl:pb-48 bg-white relative overflow-hidden">
+    <section className="pt-8 sm:pt-10 lg:pt-14 xl:pt-16 pb-10 sm:pb-12 lg:pb-14 xl:pb-16 bg-white relative overflow-hidden">
       <WatermarkText>RELOCATION</WatermarkText>
 
       {/* EXACT SAME CONTAINER AS HERO SECTION */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 relative z-10">
-        <div className="text-center mb-12 sm:mb-16 lg:mb-24 xl:mb-32">
-          <h2 className="text-[2rem] sm:text-[2.5rem] lg:text-[3.25rem] font-bold mb-6 sm:mb-8 text-black leading-[1.15]">
-            Choose Your <span className="text-blue-600">Relocation Journey</span> Today
+        <div className="text-center mb-8 sm:mb-10 lg:mb-14 xl:mb-16">
+          <h2 className="text-[2rem] sm:text-[2.5rem] lg:text-[3.25rem] font-extrabold mb-4 sm:mb-6 text-black leading-[1.15]">
+            {texts.titlePart1}{' '}
+            <span className="text-blue-600">{texts.titleHighlight}</span>{' '}
+            {texts.titlePart2}
           </h2>
-          <p className="text-[15px] lg:text-[18px] text-black font-semibold">
-            From your home today to your home tomorrow
+          <p className="text-[15px] lg:text-[18px] text-black font-medium">
+            {texts.subtitle}
           </p>
         </div>
 
@@ -225,7 +240,7 @@ export default function CountrySelector() {
                 color: '#1e293b',
               }}
             >
-              Relocating From
+              {texts.fromLabel}
             </Typography>
             <Autocomplete
               value={fromCountry}
@@ -289,7 +304,7 @@ export default function CountrySelector() {
                   color: '#1e293b',
                 }}
               >
-                Relocating To
+                {texts.toLabel}
               </Typography>
               <Autocomplete
                 value={toCountry}

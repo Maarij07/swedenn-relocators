@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Button from '@mui/material/Button';
@@ -28,7 +29,7 @@ interface HousingItem {
   secondaryButtonAction: string;
 }
 
-const housingData: HousingItem[] = [
+const baseHousingData: HousingItem[] = [
   {
     id: '1',
     title: 'Short Term Rental',
@@ -76,6 +77,49 @@ const housingData: HousingItem[] = [
 ];
 
 export function HousingCarousel() {
+  const { i18n } = useTranslation();
+  const isSv = i18n.language === 'sv';
+
+  const texts = {
+    eyebrow: isSv ? 'Hitta ditt perfekta hem' : 'Find Your Perfect Home',
+    heading: isSv ? 'Boendeförslag' : 'Housing Opportunities',
+    subheading: isSv ? 'i Sverige och Norden' : 'in Sweden & Nordic Region',
+    postedDate: isSv ? 'Publicerat datum' : 'Posted date',
+    bookedSuffix: isSv ? ' bokningar' : ' Booked',
+  };
+  const housingData: HousingItem[] = isSv
+    ? [
+        {
+          ...baseHousingData[0],
+          title: 'Korttidsuthyrning',
+          location: 'Bhutan',
+          startDate: '21 feb – 27 feb',
+          priceLabel: 'Per natt',
+          badgeLabel: 'Per natt',
+          primaryButtonText: 'Boka nu',
+          secondaryButtonText: 'Bli värd',
+        },
+        {
+          ...baseHousingData[1],
+          title: 'Långtidsuthyrning',
+          location: 'Bhutan',
+          startDate: '21 feb – 27 feb',
+          priceLabel: 'Månadshyra',
+          badgeLabel: 'Månadshyra',
+          primaryButtonText: 'Hyr nu',
+          secondaryButtonText: 'Hyra ut din bostad',
+        },
+        {
+          ...baseHousingData[2],
+          title: 'Sälj din bostad',
+          location: 'Bhutan',
+          startDate: '21 feb – 27 feb',
+          badgeLabel: 'Lista nu',
+          primaryButtonText: 'Lista nu',
+          secondaryButtonText: 'Bolånestöd',
+        },
+      ]
+    : baseHousingData;
   const carousel = useCarousel({
     autoPlay: true,
     autoPlayInterval: 5000,
@@ -107,7 +151,7 @@ export function HousingCarousel() {
               textAlign: 'center',
             }}
           >
-            Find Your Perfect Home
+            {texts.eyebrow}
           </Typography>
           {/* Match Services heading typography: bold black line, slightly smaller blue line */}
           <Typography
@@ -120,7 +164,7 @@ export function HousingCarousel() {
               lineHeight: 1.2,
             }}
           >
-            Housing Opportunities
+            {texts.heading}
           </Typography>
           <Typography
             sx={{
@@ -131,7 +175,7 @@ export function HousingCarousel() {
               lineHeight: 1.2,
             }}
           >
-            in Sweden & Nordic Region
+            {texts.subheading}
           </Typography>
         </Box>
 
@@ -227,7 +271,7 @@ export function HousingCarousel() {
             }}
           >
             {housingData.map((item) => (
-              <HousingCard key={item.id} item={item} />
+              <HousingCard key={item.id} item={item} texts={texts} />
             ))}
           </Box>
         </Box>
@@ -236,7 +280,12 @@ export function HousingCarousel() {
   );
 }
 
-function HousingCard({ item }: { item: HousingItem }) {
+interface HousingTexts {
+  postedDate: string;
+  bookedSuffix: string;
+}
+
+function HousingCard({ item, texts }: { item: HousingItem; texts: HousingTexts }) {
   return (
     <Card
       sx={{
@@ -349,7 +398,7 @@ function HousingCard({ item }: { item: HousingItem }) {
             fontWeight: 500,
           }}
         >
-          Posted date: {item.startDate}
+          {texts.postedDate}: {item.startDate}
         </Typography>
 
         {/* Title */}
@@ -419,9 +468,10 @@ function HousingCard({ item }: { item: HousingItem }) {
                 color: '#64748b',
                 fontWeight: 500,
               }}
-            >
-              {item.inquiries} Booked
-            </Typography>
+        >
+          {item.inquiries}
+          {texts.bookedSuffix}
+        </Typography>
           </Box>
         </Box>
 

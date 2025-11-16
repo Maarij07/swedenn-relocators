@@ -37,10 +37,47 @@
       "bookAppointment": "Book Appointment"
     }
   },
+  "countrySelector": {
+    "title": {
+      "part1": "Choose Your",
+      "highlight": "Relocation Journey",
+      "part2": "Today"
+    },
+    "subtitle": "From your home today to your home tomorrow",
+    "fromLabel": "Relocating From",
+    "toLabel": "Relocating To",
+    "placeholder": "Choose a country"
+  },
   "services": {
     "badge": "Empowering your skills to relocate and succeed in the Nordics",
     "title": "Trusted Legal Relocation Solutions For Individuals",
     "subtitle": "Move To and From Sweden",
-    "viewDetails": "View Details"
+    "viewDetails": "View Details",
+    "cards": {
+      "business": {
+        "title": "Relocate for Business",
+        "description": "We help you establish a business or franchise in Sweden with full support, including residence permit guidance. To qualify, you'll need a solid business plan, investment capital, and sufficient funds for two years."
+      },
+      "family": {
+        "title": "Relocating for Family Reunification",
+        "description": "Under Directive 2004/38/EC and Swedish national laws, EU citizens and their family members have the right to reunite and reside together in Sweden. We provide guidance throughout the reunification process to ensure compliance and a smooth relocation."
+      },
+      "work": {
+        "title": "Relocating with a Work Permit",
+        "description": "We assist you in securing a work permit in Sweden, guiding both employers and employees through every step of the process. To qualify, you'll need a valid job offer, employment contract, and compliance with salary and insurance requirements."
+      },
+      "parents": {
+        "title": "Dependent Parents Relocation",
+        "description": "We know the importance of having your parents close. Through family reunification, we help bring dependent parents to Sweden or other Nordic countries, ensuring they receive the care and support they need."
+      },
+      "study": {
+        "title": "Relocating for Study in Sweden",
+        "description": "We support you in applying for a residence permit to pursue studies in Sweden. To qualify, you'll need admission to a recognized program, proof of financial means, and valid health insurance."
+      },
+      "ltr": {
+        "title": "Relocating with LTR Permits",
+        "description": "If you hold a long-term residence permit in another EU country, you may have the right to move to Sweden with your family. Family reunification rules allow eligible relatives to join you."
+      }
+    }
   }
 }

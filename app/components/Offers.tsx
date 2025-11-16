@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { keyframes } from '@emotion/react';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -43,109 +44,240 @@ const AnimatedCard = styled(Card)({
   },
 });
 
-const offers: Offer[] = [
-  {
-    id: 'au-pair',
-    title: 'Au Pair Services',
-    description: "Find the right au pair for your family's needs",
-    price: '€49',
-    days: '1-14 days',
-    image: '/s1.svg',
-    count: 17,
-  },
-  {
-    id: 'departure',
-    title: 'Departure Services',
-    description: 'Comprehensive airport assistance upon departure',
-    price: '€49',
-    days: '1-14 days',
-    image: '/s2.svg',
-    count: 15,
-  },
-  {
-    id: 'entrepreneur',
-    title: 'Entrepreneur Resources',
-    description: 'Comprehensive business setup and entrepreneurial support services for Sweden',
-    price: '€49',
-    days: '1-14 days',
-    image: '/s3.svg',
-    count: 18,
-  },
-  {
-    id: 'health-insurance',
-    title: 'Health Insurance Services',
-    description: 'Complete health insurance solutions and medical coverage for your Sweden relocation',
-    price: '€49',
-    days: '1-14 days',
-    image: '/s4.svg',
-    count: 13,
-  },
-  {
-    id: 'host-family',
-    title: 'Host Family Services',
-    description: 'Connecting you with verified host families for comfortable accommodation in Sweden',
-    price: '€49',
-    days: '1-14 days',
-    image: '/s5.svg',
-    count: 19,
-  },
-  {
-    id: 'pet-relocation',
-    title: 'Pet Relocation Support',
-    description: 'Personalized pet relocation support services tailored to your furry friends needs',
-    price: '€49',
-    days: '1-14 days',
-    image: '/s6.svg',
-    count: 27,
-  },
-  {
-    id: 'financial',
-    title: 'Relocation Financial Management',
-    description: 'Complete financial management services for your Sweden relocation journey',
-    price: '€49',
-    days: '1-14 days',
-    image: '/s7.svg',
-    count: 24,
-  },
-  {
-    id: 'arrival',
-    title: 'Arrival Services',
-    description: 'Comprehensive airport assistance upon arrival',
-    price: '€49',
-    days: '1-14 days',
-    image: '/s8.svg',
-    count: 13,
-  },
-  {
-    id: 'tax-services',
-    title: 'Investment Services',
-    description: 'Expert investment guidance and financial planning services for Sweden residents',
-    price: '€49',
-    days: '1-14 days',
-    image: '/s9.svg',
-    count: 22,
-  },
-  {
-    id: 'legal-support',
-    title: 'Lawyer Connect',
-    description: 'Access to qualified Swedish lawyers for legal advice and documentation support',
-    price: '€49',
-    days: '1-14 days',
-    image: '/s10.svg',
-    count: 16,
-  },
-  {
-    id: 'integration',
-    title: 'Logistics Solution',
-    description: 'Comprehensive logistics and transportation services for your relocation needs',
-    price: '€49',
-    days: '1-14 days',
-    image: '/s11.svg',
-    count: 21,
-  },
-];
-
 export default function Offers() {
+  const { i18n } = useTranslation();
+  const isSv = i18n.language === 'sv';
+
+  const texts = {
+    eyebrow: isSv
+      ? 'Från det att du anländer tills du reser hem'
+      : 'From the moment you arrive until the time you leave',
+    heading: isSv ? 'Viktiga tjänster för alla' : 'Essential Services for Everyone',
+    subheading: isSv ? 'För privatpersoner och företag' : 'For Individuals & Companies',
+    handlingFee: isSv ? '/ serviceavgift' : '/ handling fee',
+    sendRequest: isSv ? 'Skicka förfrågan' : 'Send Request',
+  };
+
+  const offers: Offer[] = isSv
+    ? [
+        {
+          id: 'au-pair',
+          title: 'Au pair-tjänster',
+          description: 'Hitta rätt au pair utifrån din familjs behov',
+          price: '€49',
+          days: '1–14 dagar',
+          image: '/s1.svg',
+          count: 17,
+        },
+        {
+          id: 'departure',
+          title: 'Avresetjänster',
+          description: 'Fullständig hjälp på flygplatsen vid avresa',
+          price: '€49',
+          days: '1–14 dagar',
+          image: '/s2.svg',
+          count: 15,
+        },
+        {
+          id: 'entrepreneur',
+          title: 'Resurser för entreprenörer',
+          description:
+            'Stöd för företagsstart och entreprenörskapstjänster anpassade för Sverige',
+          price: '€49',
+          days: '1–14 dagar',
+          image: '/s3.svg',
+          count: 18,
+        },
+        {
+          id: 'health-insurance',
+          title: 'Sjukförsäkringstjänster',
+          description:
+            'Kompletta sjukförsäkringslösningar och medicinskt skydd för din flytt till Sverige',
+          price: '€49',
+          days: '1–14 dagar',
+          image: '/s4.svg',
+          count: 13,
+        },
+        {
+          id: 'host-family',
+          title: 'Värdfamiljstjänster',
+          description:
+            'Vi matchar dig med verifierade värdfamiljer för ett tryggt och bekvämt boende i Sverige',
+          price: '€49',
+          days: '1–14 dagar',
+          image: '/s5.svg',
+          count: 19,
+        },
+        {
+          id: 'pet-relocation',
+          title: 'Hjälp med husdjursflytt',
+          description:
+            'Personligt anpassat stöd för att flytta dina husdjur på ett tryggt sätt',
+          price: '€49',
+          days: '1–14 dagar',
+          image: '/s6.svg',
+          count: 27,
+        },
+        {
+          id: 'financial',
+          title: 'Ekonomihantering vid relocation',
+          description:
+            'Fullständig ekonomihantering för hela din flyttresa till Sverige',
+          price: '€49',
+          days: '1–14 dagar',
+          image: '/s7.svg',
+          count: 24,
+        },
+        {
+          id: 'arrival',
+          title: 'Ankomsttjänster',
+          description: 'Fullständig hjälp på flygplatsen vid ankomst',
+          price: '€49',
+          days: '1–14 dagar',
+          image: '/s8.svg',
+          count: 13,
+        },
+        {
+          id: 'tax-services',
+          title: 'Investeringstjänster',
+          description:
+            'Rådgivning kring investeringar och finansiell planering för boende i Sverige',
+          price: '€49',
+          days: '1–14 dagar',
+          image: '/s9.svg',
+          count: 22,
+        },
+        {
+          id: 'legal-support',
+          title: 'Juristkontakt',
+          description:
+            'Tillgång till kvalificerade svenska jurister för juridisk rådgivning och dokumentation',
+          price: '€49',
+          days: '1–14 dagar',
+          image: '/s10.svg',
+          count: 16,
+        },
+        {
+          id: 'integration',
+          title: 'Logistiklösning',
+          description:
+            'Helhetslösningar för logistik och transporter kopplade till din flytt',
+          price: '€49',
+          days: '1–14 dagar',
+          image: '/s11.svg',
+          count: 21,
+        },
+      ]
+    : [
+        {
+          id: 'au-pair',
+          title: 'Au Pair Services',
+          description: "Find the right au pair for your family's needs",
+          price: '€49',
+          days: '1-14 days',
+          image: '/s1.svg',
+          count: 17,
+        },
+        {
+          id: 'departure',
+          title: 'Departure Services',
+          description: 'Comprehensive airport assistance upon departure',
+          price: '€49',
+          days: '1-14 days',
+          image: '/s2.svg',
+          count: 15,
+        },
+        {
+          id: 'entrepreneur',
+          title: 'Entrepreneur Resources',
+          description:
+            'Comprehensive business setup and entrepreneurial support services for Sweden',
+          price: '€49',
+          days: '1-14 days',
+          image: '/s3.svg',
+          count: 18,
+        },
+        {
+          id: 'health-insurance',
+          title: 'Health Insurance Services',
+          description:
+            'Complete health insurance solutions and medical coverage for your Sweden relocation',
+          price: '€49',
+          days: '1-14 days',
+          image: '/s4.svg',
+          count: 13,
+        },
+        {
+          id: 'host-family',
+          title: 'Host Family Services',
+          description:
+            'Connecting you with verified host families for comfortable accommodation in Sweden',
+          price: '€49',
+          days: '1-14 days',
+          image: '/s5.svg',
+          count: 19,
+        },
+        {
+          id: 'pet-relocation',
+          title: 'Pet Relocation Support',
+          description:
+            "Personalized pet relocation support services tailored to your furry friends needs",
+          price: '€49',
+          days: '1-14 days',
+          image: '/s6.svg',
+          count: 27,
+        },
+        {
+          id: 'financial',
+          title: 'Relocation Financial Management',
+          description:
+            'Complete financial management services for your Sweden relocation journey',
+          price: '€49',
+          days: '1-14 days',
+          image: '/s7.svg',
+          count: 24,
+        },
+        {
+          id: 'arrival',
+          title: 'Arrival Services',
+          description: 'Comprehensive airport assistance upon arrival',
+          price: '€49',
+          days: '1-14 days',
+          image: '/s8.svg',
+          count: 13,
+        },
+        {
+          id: 'tax-services',
+          title: 'Investment Services',
+          description:
+            'Expert investment guidance and financial planning services for Sweden residents',
+          price: '€49',
+          days: '1-14 days',
+          image: '/s9.svg',
+          count: 22,
+        },
+        {
+          id: 'legal-support',
+          title: 'Lawyer Connect',
+          description:
+            'Access to qualified Swedish lawyers for legal advice and documentation support',
+          price: '€49',
+          days: '1-14 days',
+          image: '/s10.svg',
+          count: 16,
+        },
+        {
+          id: 'integration',
+          title: 'Logistics Solution',
+          description:
+            'Comprehensive logistics and transportation services for your relocation needs',
+          price: '€49',
+          days: '1-14 days',
+          image: '/s11.svg',
+          count: 21,
+        },
+      ];
+
   const [scrollPos, setScrollPos] = useState(0);
   const [isAutoScroll, setIsAutoScroll] = useState(true);
 
@@ -207,7 +339,7 @@ export default function Offers() {
               textAlign: 'center',
             }}
           >
-            From the moment you arrive until the time you leave
+            {texts.eyebrow}
           </Typography>
           <Typography
             sx={{
@@ -219,7 +351,7 @@ export default function Offers() {
               lineHeight: 1.2,
             }}
           >
-            Essential Services for Everyone
+            {texts.heading}
           </Typography>
           <Typography
             sx={{
@@ -229,7 +361,7 @@ export default function Offers() {
               textAlign: 'center',
             }}
           >
-            For Individuals & Companies
+            {texts.subheading}
           </Typography>
         </Box>
 
@@ -403,17 +535,17 @@ export default function Offers() {
                     }}
                   >
                     {offer.price}
-                    <Typography
-                      component="span"
-                      sx={{
-                        fontSize: '0.8rem',
-                        color: '#64748b',
-                        fontWeight: 500,
-                        ml: 0.5,
-                      }}
-                    >
-                      / handling fee
-                    </Typography>
+                      <Typography
+                        component="span"
+                        sx={{
+                          fontSize: '0.8rem',
+                          color: '#64748b',
+                          fontWeight: 500,
+                          ml: 0.5,
+                        }}
+                      >
+                        {texts.handlingFee}
+                      </Typography>
                   </Typography>
                   <Button
                     sx={{
@@ -431,7 +563,7 @@ export default function Offers() {
                       },
                     }}
                   >
-                    Send Request
+                    {texts.sendRequest}
                   </Button>
                 </Box>
               </CardContent>

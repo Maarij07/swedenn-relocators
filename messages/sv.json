@@ -37,10 +37,47 @@
       "bookAppointment": "Boka möte"
     }
   },
+  "countrySelector": {
+    "title": {
+      "part1": "Välj din",
+      "highlight": "flyttresa",
+      "part2": "idag"
+    },
+    "subtitle": "Från ditt hem idag till ditt hem i morgon",
+    "fromLabel": "Flyttar från",
+    "toLabel": "Flyttar till",
+    "placeholder": "Välj ett land"
+  },
   "services": {
     "badge": "Stärker dina möjligheter att flytta och lyckas i Norden",
     "title": "Trygga juridiska relocation-lösningar för privatpersoner",
     "subtitle": "Flytta till och från Sverige",
-    "viewDetails": "Visa detaljer"
+    "viewDetails": "Visa detaljer",
+    "cards": {
+      "business": {
+        "title": "Flytta för företagande",
+        "description": "Vi hjälper dig att starta företag eller franchise i Sverige med fullständigt stöd, inklusive vägledning kring uppehållstillstånd. Du behöver en hållbar affärsplan, investeringskapital och tillräckliga medel för två år."
+      },
+      "family": {
+        "title": "Flytt för familjeåterförening",
+        "description": "Enligt direktiv 2004/38/EG och svensk lag har EU-medborgare och deras familjemedlemmar rätt att återförenas och bo tillsammans i Sverige. Vi guidar dig genom hela processen så att allt sker korrekt och smidigt."
+      },
+      "work": {
+        "title": "Flytt med arbetstillstånd",
+        "description": "Vi hjälper dig att få arbetstillstånd i Sverige och vägleder både arbetsgivare och anställda genom varje steg. Du behöver ett giltigt jobberbjudande, anställningsavtal samt lön och försäkringar som uppfyller kraven."
+      },
+      "parents": {
+        "title": "Flytt för beroende föräldrar",
+        "description": "Vi vet hur viktigt det är att ha sina föräldrar nära. Genom familjeåterförening hjälper vi dig att ta hit beroende föräldrar till Sverige eller andra nordiska länder så att de får den omsorg och trygghet de behöver."
+      },
+      "study": {
+        "title": "Flytta för studier i Sverige",
+        "description": "Vi stöttar dig i ansökan om uppehållstillstånd för studier i Sverige. Du behöver antagning till ett godkänt program, ekonomiska medel och giltig sjukförsäkring."
+      },
+      "ltr": {
+        "title": "Flytt med LTR-tillstånd",
+        "description": "Om du har ett långvarigt uppehållstillstånd i ett annat EU-land kan du ha rätt att flytta till Sverige med din familj. Reglerna för familjeåterförening gör det möjligt för anhöriga att ansluta sig."
+      }
+    }
   }
 }
