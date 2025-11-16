@@ -232,7 +232,7 @@ export default function Services() {
                         >
                           <img
                             src={service.coverImage}
-                            alt={`${service.title} illustration`}
+                            alt={`${t(service.titleKey)} illustration`}
                             style={{
                               width: '100%',
                               height: 'auto',
@@ -274,7 +274,7 @@ export default function Services() {
                       >
                         <img
                           src={service.image}
-                          alt={service.title}
+                          alt={t(service.titleKey)}
                           style={{
                             width: '55%',
                             height: '55%',
@@ -324,7 +324,7 @@ export default function Services() {
                     >
                       <img
                         src={service.image}
-                        alt={service.title}
+                        alt={t(service.titleKey)}
                         style={{
                           width: '55%',
                           height: '55%',
