@@ -10,6 +10,7 @@ import {
   MenuItem,
   FormControl,
   InputLabel,
+  Pagination,
 } from '@mui/material';
 import Image from 'next/image';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
@@ -22,11 +23,49 @@ const steps = [
   { name: 'Submit' },
 ] as const;
 
+const visaApplications = [
+  {
+    id: 1,
+    title: 'Sweden Visit Visa Application',
+    caseNumber: '52385971',
+    authority: 'MGVKT',
+    status: 'In Progress',
+    duration: '10 days',
+    registeredOn: '2025-07-11',
+    country: 'Sweden',
+  },
+  {
+    id: 2,
+    title: 'Sweden Work Visa Application',
+    caseNumber: '98234561',
+    authority: 'MGVKT',
+    status: 'Submitted',
+    duration: '15 days',
+    registeredOn: '2025-06-02',
+    country: 'Sweden',
+  },
+  {
+    id: 3,
+    title: 'Sweden Study Visa Application',
+    caseNumber: '77451239',
+    authority: 'MGVKT',
+    status: 'Approved',
+    duration: '7 days',
+    registeredOn: '2025-05-18',
+    country: 'Sweden',
+  },
+] as const;
+
 type StepIndex = 0 | 1 | 2 | 3 | 4;
 
 export default function VisaApplicationJourney() {
-  const [activeStep, setActiveStep] = useState<StepIndex>(0);
+  const [activeStep, setActiveStep] = useState<number>(0);
   const [isManual, setIsManual] = useState(false);
+  const [visaPage, setVisaPage] = useState(1);
+
+  // Step 1 (Create Account) dropdown state
+  const [accountType, setAccountType] = useState<string>('');
+  const [accountCategory, setAccountCategory] = useState<string>('');
 
   // Upload documents state (Upload Document step)
   const [documents, setDocuments] = useState<
@@ -37,14 +76,23 @@ export default function VisaApplicationJourney() {
     }>
   >([]);
 
-  // Inline calendar state (Appointment step)
-  const [calendarDate, setCalendarDate] = useState(() => new Date());
+// Inline calendar state (Appointment step)
+  const [calendarDate, setCalendarDate] = useState(() => new Date(2025, 9, 1)); // October 2025 to match Figma
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
+  const [viewMode, setViewMode] = useState<'Month' | 'Week' | 'Day' | 'Agenda'>('Month');
 
   const startOfMonth = new Date(calendarDate.getFullYear(), calendarDate.getMonth(), 1);
   const endOfMonth = new Date(calendarDate.getFullYear(), calendarDate.getMonth() + 1, 0);
   const startWeekday = startOfMonth.getDay();
   const daysInMonth = endOfMonth.getDate();
+
+  // Sample appointments matching Figma design
+  const appointments = [
+    { id: 1, title: 'Global Visa Center', startDate: new Date(2025, 9, 4), time: '2:15 PM', color: '#7dd3fc', textColor: '#0369a1', duration: 1 },
+    { id: 2, title: 'Biometric Process', startDate: new Date(2025, 9, 9), time: '2:45p', color: '#86efac', textColor: '#15803d', duration: 3 },
+    { id: 3, title: 'Collect Passport', startDate: new Date(2025, 9, 17), time: '3p', color: '#c4b5fd', textColor: '#5b21b6', duration: 2 },
+    { id: 4, title: 'Approval', startDate: new Date(2025, 9, 12), time: '4:15 PM', color: '#fde68a', textColor: '#92400e', duration: 2 },
+  ];
 
   const visibleDays = Array.from({ length: startWeekday + daysInMonth }, (_, i) => {
     const dayNum = i - startWeekday + 1;
@@ -54,6 +102,14 @@ export default function VisaApplicationJourney() {
 
   const goMonth = (delta: number) => {
     setCalendarDate((prev) => new Date(prev.getFullYear(), prev.getMonth() + delta, 1));
+  };
+
+  // Helper to check if date has appointment
+  const getAppointmentsForDate = (date: Date) => {
+    return appointments.filter(apt => {
+      const aptDate = apt.startDate;
+      return date >= aptDate && date < new Date(aptDate.getTime() + apt.duration * 24 * 60 * 60 * 1000);
+    });
   };
 
   // Upload document handlers
@@ -90,9 +146,13 @@ export default function VisaApplicationJourney() {
 
   const percent = useMemo(() => (activeStep / (steps.length - 1)) * 100, [activeStep]);
   const contentKey = useMemo(() => `step-${activeStep}`, [activeStep]);
+  const currentVisa = useMemo(
+    () => visaApplications[visaPage - 1] ?? visaApplications[0],
+    [visaPage]
+  );
 
   return (
-    <Box sx={{ width: '100%', backgroundColor: '#ffffff', py: { xs: '3rem', sm: '4rem', md: '5rem', lg: '6rem', '3xl': '7rem', '4k': '8rem' }, overflowX: 'hidden' }}>
+    <Box sx={{ width: '100%', backgroundColor: '#EBF4FF', py: { xs: '3rem', sm: '4rem', md: '5rem', lg: '6rem', '3xl': '7rem', '4k': '8rem' }, overflowX: 'hidden' }}>
       {/* EXACT same container as Hero/Services (Tailwind classes) */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         {/* ---------- TIMELINE ---------- */}
@@ -188,7 +248,7 @@ export default function VisaApplicationJourney() {
                       )}
                     </Box>
 
-                   <Box sx={{ mt: 3, position: 'absolute', top: '100%' }}>
+                    <Box sx={{ mt: 3, position: 'absolute', top: '100%' }}>
                       <Typography
                         sx={{
                           fontSize: { xs: '0.75rem', sm: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
@@ -252,13 +312,11 @@ export default function VisaApplicationJourney() {
         <Box
           key={contentKey}
           sx={{
-            // Step 1 & 2 should be on pure white like the Figma; later steps keep light grey card
             backgroundColor: activeStep === 0 || activeStep === 1 ? '#ffffff' : '#f8fafc',
             borderRadius: '12px',
             overflow: 'hidden',
             p: { xs: '1.5rem', sm: '2rem', md: '2.5rem', lg: '3rem', '3xl': '3.5rem', '4k': '4.5rem' },
             minHeight: { xs: 320, sm: 380, md: 450, '3xl': 520, '4k': 680 },
-            // Fast fade / slide animation whenever step changes
             '@keyframes stepFadeIn': {
               '0%': { opacity: 0, transform: 'translateY(10px)' },
               '100%': { opacity: 1, transform: 'translateY(0)' },
@@ -266,168 +324,591 @@ export default function VisaApplicationJourney() {
             animation: 'stepFadeIn 0.35s ease-out',
           }}
         >
-          {/* Step 0 */}
+          {/* Step 0 - Create Account (Figma layout with dropdowns) */}
           {activeStep === 0 && (
-            <Box sx={{ 
-              display: 'grid',
-              gridTemplateColumns: { xs: '1fr', lg: 'repeat(2, minmax(0, 1fr))' },
-              gap: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '3.5rem', xl: '4rem', '2xl': '5rem', '3xl': '6rem', '4k': '8rem' },
-              alignItems: 'center',
-            }}>
-              <Box sx={{ position: 'relative', height: { xs: 200, sm: 240, md: 280, lg: 320, '3xl': 380, '4k': 500 } }}>
-                <Image src="/t1.png" alt="Create Account" fill style={{ objectFit: 'contain' }} />
-              </Box>
-
-              <Box sx={{ 
-                display: 'flex', 
-                flexDirection: 'column', 
-                justifyContent: 'center', 
-                gap: { xs: 1.5, sm: 1.75, md: 2, '3xl': 2.5, '4k': 3 },
-                maxWidth: { lg: '50rem', '3xl': '60rem', '4k': '96rem' },
-                mx: { xs: 'auto', lg: 0 },
-                ml: { lg: 'auto' },
-              }}>
-                <Typography variant="h5" sx={{ 
-                  fontWeight: 700, 
-                  fontSize: { xs: '1.25rem', sm: '1.4rem', md: '1.5rem', '3xl': '1.75rem', '4k': '2.5rem' },
-                  mb: 1 
-                }}>
-                  Get Started - Set Up Your Account With Us!
-                </Typography>
-                <Typography sx={{ 
-                  color: '#64748b', 
-                  fontSize: { xs: '0.875rem', sm: '0.9375rem', md: '1rem', '3xl': '1.125rem', '4k': '1.5rem' },
-                  mb: 2 
-                }}>
-                  Choose the type of account you need to create
-                </Typography>
-                <Button
-                  variant="contained"
+            <Box
+              sx={{
+                backgroundColor: '#ffffff',
+                borderRadius: '28px',
+                boxShadow: '0 24px 60px rgba(15,23,42,0.10)',
+                p: { xs: 2.25, sm: 2.75, md: 3.25 },
+                display: 'flex',
+              }}
+            >
+              <Box
+                sx={{
+                  display: 'grid',
+                  gridTemplateColumns: { xs: '1fr', lg: 'repeat(2, minmax(0, 1fr))' },
+                  gap: {
+                    xs: '2rem',
+                    sm: '2.5rem',
+                    md: '3rem',
+                    lg: '3.5rem',
+                    xl: '4rem',
+                    '2xl': '5rem',
+                    '3xl': '6rem',
+                    '4k': '8rem',
+                  },
+                  alignItems: 'stretch',
+                  width: '100%',
+                }}
+              >
+                {/* LEFT: big account illustration card */}
+                <Box
                   sx={{
-                    backgroundColor: '#1e293b',
-                    color: '#ffffff',
-                    textTransform: 'none',
-                    mb: 3,
-                    fontSize: { xs: '0.85rem', sm: '0.9rem', '3xl': '1rem', '4k': '1.4rem' },
-                    py: { xs: 1.2, '3xl': 1.5, '4k': 2 },
+                    backgroundColor: '#fff7f3',
+                    borderRadius: '24px',
+                    boxShadow: '0 20px 50px rgba(15,23,42,0.10)',
+                    px: { xs: 3, md: 3.5 },
+                    pt: { xs: 3, md: 3.5 },
+                    pb: { xs: 2.5, md: 3 },
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'space-between',
+                    minHeight: { xs: 320, md: 380, lg: 420 },
                   }}
                 >
-                  Choose the type of account you need to create
-                </Button>
+                  {/* Top text */}
+                  <Box>
+                    <Typography
+                      sx={{
+                        fontSize: { xs: '0.85rem', sm: '0.9rem', '3xl': '1rem', '4k': '1.25rem' },
+                        letterSpacing: '0.08em',
+                        textTransform: 'uppercase',
+                        color: '#f97316',
+                        fontWeight: 700,
+                        mb: 1,
+                      }}
+                    >
+                      INDIVIDUAL (PRIVATE ACCOUNT)
+                    </Typography>
+                    <Typography
+                      sx={{
+                        fontSize: { xs: '0.9rem', sm: '0.95rem', '3xl': '1.05rem', '4k': '1.35rem' },
+                        color: '#0f172a',
+                        fontWeight: 600,
+                      }}
+                    >
+                      Set up your account to apply for yourself and your family.
+                    </Typography>
+                  </Box>
 
-                <FormControl fullWidth sx={{ mb: 2 }}>
-                  <InputLabel>Account Type</InputLabel>
-                  <Select defaultValue="individual" label="Account Type">
-                    <MenuItem value="individual">INDIVIDUAL (PRIVATE ACCOUNT)</MenuItem>
-                    <MenuItem value="corporate">CORPORATE ACCOUNT</MenuItem>
-                  </Select>
-                </FormControl>
+                  {/* Illustration */}
+                  <Box
+                    sx={{
+                      mt: { xs: 3, md: 4 },
+                      mb: { xs: 2, md: 3 },
+                      flex: 1,
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <Box
+                      sx={{
+                        position: 'relative',
+                        width: '100%',
+                        maxWidth: 320,
+                        height: { xs: 200, md: 230, lg: 260 },
+                      }}
+                    >
+                      <Image
+                        src="/t1.svg"
+                        alt="Individual account illustration"
+                        fill
+                        style={{ objectFit: 'contain' }}
+                      />
+                    </Box>
+                  </Box>
 
-                <FormControl fullWidth sx={{ mb: 3 }}>
-                  <InputLabel>Account Subtype</InputLabel>
-                  <Select defaultValue="subtype1" label="Account Subtype">
-                    <MenuItem value="subtype1">INDIVIDUAL (PRIVATE ACCOUNT) Subtype</MenuItem>
-                  </Select>
-                </FormControl>
+                  {/* Social icons row at the very bottom (centered) */}
+                  <Box
+                    sx={{
+                      display: 'flex',
+                      justifyContent: 'center',
+                      gap: 2,
+                      mt: { xs: 1.5, md: 2 },
+                    }}
+                  >
+                    {[
+                      { src: '/facebook.svg', alt: 'Facebook' },
+                      { src: '/insta.svg', alt: 'Instagram' },
+                      { src: '/x.svg', alt: 'X' },
+                      { src: '/playstore.svg', alt: 'Playstore' },
+                    ].map((icon) => (
+                      <Box
+                        key={icon.alt}
+                        component="a"
+                        href="#"
+                        sx={{
+                          width: 32,
+                          height: 32,
+                          borderRadius: '50%',
+                          backgroundColor: '#f1f5f9',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          cursor: 'pointer',
+                          transition: 'all 0.2s ease',
+                          boxShadow: '0 6px 16px rgba(15,23,42,0.10)',
+                          '&:hover': {
+                            backgroundColor: '#e2e8f0',
+                            transform: 'translateY(-1px)',
+                          },
+                        }}
+                      >
+                        <Image src={icon.src} alt={icon.alt} width={18} height={18} />
+                      </Box>
+                    ))}
+                  </Box>
+                </Box>
 
-                <Button
-                  variant="contained"
+                {/* RIGHT: Get Started form with dropdowns */}
+                <Box
                   sx={{
-                    backgroundColor: '#cbd5e1',
-                    color: '#64748b',
-                    textTransform: 'none',
-                    fontSize: { xs: '0.85rem', sm: '0.9rem', '3xl': '1rem', '4k': '1.4rem' },
-                    py: { xs: 1.2, '3xl': 1.5, '4k': 2 },
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: { xs: 2, md: 2.5 },
+                    justifyContent: 'space-between',
                   }}
                 >
-                  Select account type to continue
-                </Button>
+                  {/* Top pill */}
+                  <Box
+                    sx={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      alignSelf: 'flex-start',
+                      px: 3,
+                      py: 0.8,
+                      borderRadius: '999px',
+                      backgroundColor: '#0f172a',
+                      boxShadow: '0 12px 32px rgba(15,23,42,0.45)',
+                      mb: 1,
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        color: '#ffffff',
+                        fontWeight: 600,
+                        fontSize: { xs: '0.8rem', sm: '0.85rem', '3xl': '0.95rem', '4k': '1.1rem' },
+                      }}
+                    >
+                      Choose the type of account you want to create
+                    </Typography>
+                  </Box>
+
+                  {/* Heading + login link */}
+                  <Box>
+                    <Typography
+                      sx={{
+                        fontWeight: 700,
+                        mb: 1,
+                        fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.2rem' },
+                        color: '#0f172a',
+                      }}
+                    >
+                      Get Started - Set Up Your Account With Us!
+                    </Typography>
+                    <Typography
+                      sx={{
+                        color: '#64748b',
+                        fontSize: { xs: '0.85rem', sm: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
+                      }}
+                    >
+                      Already have an account?{' '}
+                      <Box
+                        component="span"
+                        sx={{
+                          color: '#3b82f6',
+                          fontWeight: 600,
+                          cursor: 'pointer',
+                          textDecoration: 'underline',
+                        }}
+                      >
+                        Login here
+                      </Box>
+                    </Typography>
+                  </Box>
+
+                  {/* Dropdowns section */}
+                  <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2.5, mt: 1 }}>
+                    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
+                      <Typography
+                        sx={{
+                          fontWeight: 600,
+                          color: '#0f172a',
+                          fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
+                        }}
+                      >
+                        Account Type
+                      </Typography>
+                      <FormControl fullWidth size="small">
+                        <Select
+                          displayEmpty
+                          value={accountType}
+                          onChange={(e) => setAccountType(e.target.value as string)}
+                          sx={{
+                            borderRadius: '10px',
+                            backgroundColor: '#f9fafb',
+                            boxShadow: '0 8px 20px rgba(148,163,184,0.25)',
+                          }}
+                        >
+                          <MenuItem value="">
+                            <em>Choose the type of account</em>
+                          </MenuItem>
+                          <MenuItem value="individual">INDIVIDUAL (PRIVATE ACCOUNT)</MenuItem>
+                          <MenuItem value="organization">ORGANIZATION (AGENT ACCOUNT)</MenuItem>
+                        </Select>
+                      </FormControl>
+                    </Box>
+
+                    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
+                      <Typography
+                        sx={{
+                          fontWeight: 600,
+                          color: '#0f172a',
+                          fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
+                        }}
+                      >
+                        Individual Private Account Category
+                      </Typography>
+                      <FormControl fullWidth size="small">
+                        <Select
+                          displayEmpty
+                          value={accountCategory}
+                          onChange={(e) => setAccountCategory(e.target.value as string)}
+                          sx={{
+                            borderRadius: '10px',
+                            backgroundColor: '#f9fafb',
+                            boxShadow: '0 8px 20px rgba(148,163,184,0.25)',
+                          }}
+                        >
+                          <MenuItem value="">
+                            <em>Select account category to continue</em>
+                          </MenuItem>
+                          <MenuItem value="family">Full Family / Friends</MenuItem>
+                          <MenuItem value="work_study">Work, Study & Job Seeker Visas</MenuItem>
+                          <MenuItem value="visit">Visit Visa (tourism and short visits)</MenuItem>
+                        </Select>
+                      </FormControl>
+                    </Box>
+                  </Box>
+
+                  {/* E-mail field */}
+                  <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.2, mt: 1 }}>
+                    <Typography
+                      sx={{
+                        fontWeight: 600,
+                        color: '#0f172a',
+                        fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
+                      }}
+                    >
+                      E-mail
+                    </Typography>
+                    <TextField
+                      placeholder="Enter your email address"
+                      type="email"
+                      fullWidth
+                      size="small"
+                      sx={{
+                        '& .MuiOutlinedInput-root': {
+                          borderRadius: '10px',
+                          backgroundColor: '#ffffff',
+                          boxShadow: '0 8px 22px rgba(148,163,184,0.25)',
+                        },
+                      }}
+                    />
+                  </Box>
+
+                  {/* Buttons */}
+                  <Box sx={{ display: 'flex', gap: 2, mt: 2 }}>
+                    <Button
+                      variant="outlined"
+                      sx={{
+                        color: '#3b82f6',
+                        borderColor: '#3b82f6',
+                        textTransform: 'none',
+                        fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
+                        py: { xs: 1, md: 1.2 },
+                      }}
+                    >
+                      Back
+                    </Button>
+                    <Button
+                      variant="contained"
+                      sx={{
+                        backgroundColor: '#3b82f6',
+                        textTransform: 'none',
+                        flex: 1,
+                        fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
+                        py: { xs: 1, md: 1.2 },
+                        '&:hover': {
+                          backgroundColor: '#2563eb',
+                        },
+                      }}
+                      disabled={!accountType || !accountCategory}
+                    >
+                      Create Account
+                    </Button>
+                  </Box>
+                </Box>
               </Box>
             </Box>
           )}
 
-          {/* Step 1 */}
+          {/* Step 1 - Apply */}
           {activeStep === 1 && (
             <Box
               sx={{
-                display: 'grid',
-                gridTemplateColumns: { xs: '1fr', lg: 'repeat(2, minmax(0, 1fr))' },
-                gap: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '3.5rem', xl: '4rem', '2xl': '5rem', '3xl': '6rem', '4k': '8rem' },
-                alignItems: 'stretch',
+                backgroundColor: '#ffffff',
+                borderRadius: '28px',
+                boxShadow: '0 24px 60px rgba(15,23,42,0.10)',
+                p: { xs: 2.25, sm: 2.75, md: 3.25 },
+                display: 'flex',
               }}
             >
-              {/* Left: Form */}
-              <Box sx={{ display: 'flex', flexDirection: 'column', gap: { xs: 1.5, md: 2 } }}>
-                <Typography variant="h6" sx={{ fontWeight: 700, color: '#3b82f6', mb: 1, fontSize: { xs: '0.95rem', '3xl': '1.1rem', '4k': '1.5rem' } }}>
-                  STEP 2: Apply
-                </Typography>
-                <Typography variant="h5" sx={{ fontWeight: 700, mb: 2, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
-                  Personal Information
-                </Typography>
-
-                <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 2 }}>
-                  <TextField label="First Name" placeholder="Enter your first name" size="small" />
-                  <TextField label="Last Name" placeholder="Enter your last name" size="small" />
-                  <TextField label="Date of Birth" type="date" InputLabelProps={{ shrink: true }} size="small" />
-                  <FormControl size="small">
-                    <InputLabel>Gender</InputLabel>
-                    <Select label="Gender">
-                      <MenuItem value="male">Male</MenuItem>
-                      <MenuItem value="female">Female</MenuItem>
-                    </Select>
-                  </FormControl>
-                  <TextField label="Passport Number" placeholder="Enter passport number" size="small" />
-                  <TextField label="Passport Expiry" type="date" InputLabelProps={{ shrink: true }} size="small" />
-                </Box>
-
-                <TextField label="Email" placeholder="Enter email" fullWidth size="small" sx={{ mt: 2 }} />
-                <TextField
-                  label="Additional Notes"
-                  placeholder="Enter any additional information"
-                  fullWidth
-                  multiline
-                  rows={3}
-                  size="small"
-                />
-
-                <Box sx={{ display: 'flex', gap: 2, mt: 2 }}>
-                  <Button variant="outlined" sx={{ color: '#3b82f6', borderColor: '#3b82f6', textTransform: 'none' }}>
-                    Back
-                  </Button>
-                  <Button variant="contained" sx={{ backgroundColor: '#3b82f6', textTransform: 'none', flex: 1 }}>
-                    Next
-                  </Button>
-                </Box>
-              </Box>
-
-              {/* Right: Card Image - ENLARGED */}
               <Box
                 sx={{
-                  position: 'relative',
+                  display: 'grid',
+                  gridTemplateColumns: { xs: '1fr', lg: 'repeat(2, minmax(0, 1fr))' },
+                  gap: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '3.5rem', xl: '4rem', '2xl': '5rem', '3xl': '6rem', '4k': '8rem' },
+                  alignItems: 'stretch',
                   width: '100%',
-                  maxWidth: { lg: '50rem', '3xl': '60rem', '4k': '96rem' },
-                  mx: { xs: 'auto', lg: 0 },
-                  ml: { lg: 'auto' },
-                  minHeight: { xs: 400, sm: 480, md: 560, lg: 640, '3xl': 720, '4k': 900 },
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
                 }}
               >
+                {/* Left: Form */}
+                <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                  {/* Inner card to match Figma spacing + shadow */}
+                  <Box
+                    sx={{
+                      backgroundColor: '#ffffff',
+                      borderRadius: '24px',
+                      boxShadow: '0 20px 60px rgba(15,23,42,0.08)',
+                      border: '1px solid #e5e7eb',
+                      p: { xs: 2.25, md: 3 },
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: { xs: 1.5, md: 2 },
+                      minHeight: { xs: 280, md: 320 },
+                    }}
+                  >
+                    {/* Top pill: All-in-One Global Visa Platform */}
+                    <Box
+                      sx={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: 1,
+                        alignSelf: 'flex-start',
+                        px: 2.5,
+                        py: 0.75,
+                        borderRadius: '999px',
+                        backgroundColor: '#0f172a',
+                        boxShadow: '0 10px 30px rgba(15,23,42,0.35)',
+                        mb: 1.5,
+                      }}
+                    >
+                      <Box sx={{ position: 'relative', width: 18, height: 18 }}>
+                        <Image
+                          src="/globalplatform.svg"
+                          alt="All-in-One Global Visa Platform"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </Box>
+                      <Typography
+                        sx={{
+                          color: '#ffffff',
+                          fontWeight: 600,
+                          fontSize: { xs: '0.8rem', sm: '0.82rem', md: '0.85rem', '3xl': '0.95rem', '4k': '1.1rem' },
+                        }}
+                      >
+                        All-in-One Global Visa Platform
+                      </Typography>
+                    </Box>
+
+                    <Typography variant="h6" sx={{ fontWeight: 700, color: '#3b82f6', fontSize: { xs: '0.95rem', '3xl': '1.1rem', '4k': '1.5rem' } }}>
+                      STEP 2: Apply
+                    </Typography>
+                    <Typography variant="h5" sx={{ fontWeight: 700, mb: 1.5, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
+                      Personal Information
+                    </Typography>
+
+                    <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 2 }}>
+                      <TextField label="First Name" placeholder="Enter your first name" size="small" />
+                      <TextField label="Last Name" placeholder="Enter your last name" size="small" />
+                      <TextField label="Date of Birth" type="date" InputLabelProps={{ shrink: true }} size="small" />
+                      <FormControl size="small">
+                        <InputLabel>Gender</InputLabel>
+                        <Select label="Gender">
+                          <MenuItem value="male">Male</MenuItem>
+                          <MenuItem value="female">Female</MenuItem>
+                        </Select>
+                      </FormControl>
+                      <TextField label="Passport Number" placeholder="Enter passport number" size="small" />
+                      <TextField label="Passport Expiry" type="date" InputLabelProps={{ shrink: true }} size="small" />
+                    </Box>
+
+                    <TextField label="Email" placeholder="Enter email" fullWidth size="small" sx={{ mt: 1.5 }} />
+                    <TextField
+                      label="Additional Notes"
+                      placeholder="Enter any additional information"
+                      fullWidth
+                      multiline
+                      rows={3}
+                      size="small"
+                    />
+
+                    <Box sx={{ display: 'flex', gap: 2, mt: 2 }}>
+                      <Button variant="outlined" sx={{ color: '#3b82f6', borderColor: '#3b82f6', textTransform: 'none' }}>
+                        Back
+                      </Button>
+                      <Button variant="contained" sx={{ backgroundColor: '#3b82f6', textTransform: 'none', flex: 1 }}>
+                        Next
+                      </Button>
+                    </Box>
+                  </Box>
+                </Box>
+
+                {/* Right: Application overview sidebar */}
                 <Box
                   sx={{
-                    position: 'relative',
-                    width: '100%',
+                    backgroundColor: '#ffffff',
+                    borderRadius: '28px',
+                    border: '1px solid rgba(148,163,184,0.18)',
+                    boxShadow: '0 18px 40px rgba(15,23,42,0.06)',
+                    px: { xs: 2.25, sm: 2.75, md: 3 },
+                    py: { xs: 2.25, sm: 2.75, md: 3 },
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'stretch',
+                    width: { xs: '100%', lg: 360 },
+                    mx: { xs: 'auto', lg: 0 },
+                    ml: { lg: 'auto' },
+                    gap: 2,
                     height: '100%',
                   }}
                 >
-                  <Image src="/apply.svg" alt="Apply" fill style={{ objectFit: 'contain' }} />
+                  {/* Top title */}
+                  <Box>
+                    <Typography
+                      sx={{
+                        fontSize: { xs: '0.85rem', sm: '0.9rem', md: '0.95rem', '3xl': '1.05rem', '4k': '1.3rem' },
+                        fontWeight: 700,
+                        color: '#0f172a',
+                        mb: 0.5,
+                      }}
+                    >
+                      Application Overview
+                    </Typography>
+                    <Typography
+                      sx={{
+                        fontSize: { xs: '0.8rem', sm: '0.82rem', md: '0.85rem', '3xl': '0.95rem', '4k': '1.2rem' },
+                        color: '#94a3b8',
+                      }}
+                    >
+                      Track each step of your visa application as you complete it.
+                    </Typography>
+                  </Box>
+
+                  {/* Steps list with vertical bar behind icons */}
+                  <Box
+                    component="ul"
+                    sx={{
+                      position: 'relative',
+                      listStyle: 'none',
+                      m: 0,
+                      mt: 1.25,
+                      p: 0,
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: 1.25,
+                    }}
+                  >
+                    {/* Vertical bar from Figma (bar.svg) */}
+                    <Box
+                      sx={{
+                        position: 'absolute',
+                        left: 20,
+                        top: 24,
+                        bottom: 24,
+                        width: 2,
+                        pointerEvents: 'none',
+                      }}
+                    >
+                      <Image
+                        src="/bar.svg"
+                        alt="steps connector"
+                        fill
+                        style={{ objectFit: 'fill' }}
+                      />
+                    </Box>
+
+                    {[
+                      { label: 'Application Overview', icon: '/tick.svg', active: false, completed: true },
+                      { label: 'Personal Information', icon: '/2.svg', active: true, completed: false },
+                      { label: 'Purpose of Visit', icon: '/3.svg', active: false, completed: false },
+                      { label: 'Travel Details', icon: '/4.svg', active: false, completed: false },
+                      { label: 'Financial Details', icon: '/5.svg', active: false, completed: false },
+                      { label: 'Accommodation Details', icon: '/6.svg', active: false, completed: false },
+                      { label: 'Additional Details', icon: '/7.svg', active: false, completed: false },
+                      { label: 'Additional Services', icon: '/8.svg', active: false, completed: false },
+                      { label: 'Other Information', icon: '/9.svg', active: false, completed: false },
+                      { label: 'Document Checklist', icon: '/10.svg', active: false, completed: false },
+                      { label: 'Consent and Declarations', icon: '/11.svg', active: false, completed: false },
+                    ].map((step) => {
+                      const isActive = step.active;
+                      const label = step.label;
+                      return (
+                        <Box
+                          key={label}
+                          component="li"
+                          sx={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: 1.25,
+                            px: 2,
+                            py: 0.85,
+                            borderRadius: '999px',
+                            cursor: 'default',
+                            backgroundColor: isActive ? 'rgba(37,99,235,0.06)' : 'transparent',
+                          }}
+                        >
+                          {/* Icon from Figma (already circular) */}
+                          <Box>
+                            <Image src={step.icon} alt={label} width={20} height={20} />
+                          </Box>
+
+                          <Typography
+                            sx={{
+                              fontSize: { xs: '0.8rem', sm: '0.82rem', md: '0.85rem', '3xl': '0.95rem', '4k': '1.2rem' },
+                              fontWeight: isActive ? 600 : 500,
+                              color: isActive ? '#111827' : '#4b5563',
+                            }}
+                          >
+                            {label}
+                          </Typography>
+                        </Box>
+                      );
+                    })}
+                  </Box>
+
+                  {/* Bottom helper text */}
+                  <Box sx={{ mt: 'auto', pt: 1.5 }}>
+                    <Typography
+                      sx={{
+                        fontSize: { xs: '0.75rem', sm: '0.78rem', md: '0.8rem', '3xl': '0.9rem', '4k': '1.1rem' },
+                        color: '#9ca3af',
+                      }}
+                    >
+                      You can always come back and edit any section before submitting your application.
+                    </Typography>
+                  </Box>
                 </Box>
               </Box>
             </Box>
           )}
 
-          {/* Step 2 */}
+          {/* Step 2 - Upload Documents */}
           {activeStep === 2 && (
             <Box>
               <Typography variant="h5" sx={{ fontWeight: 700, mb: 1, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
@@ -585,54 +1066,99 @@ export default function VisaApplicationJourney() {
             </Box>
           )}
 
-          {/* Step 3 */}
+         {/* Step 3 - Schedule Appointment */}
           {activeStep === 3 && (
             <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-              <Typography variant="h5" sx={{ fontWeight: 700, mb: 1, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
-                Schedule Your Appointment
-              </Typography>
-              <Typography sx={{ color: '#64748b', mb: 3, fontSize: { xs: '0.875rem', sm: '0.9375rem', '3xl': '1.05rem', '4k': '1.4rem' } }}>
-                Select a date that works best for you. The calendar below shows available dates.
+              <Typography variant="h5" sx={{ fontWeight: 700, mb: 2, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
+                Upcoming Appointments
               </Typography>
 
               <Box
                 sx={{
                   flex: 1,
                   backgroundColor: '#ffffff',
-                  borderRadius: '12px',
-                  p: { xs: 2.5, md: 3 },
+                  borderRadius: '16px',
+                  p: { xs: 3, md: 4 },
                   display: 'flex',
                   flexDirection: 'column',
+                  border: '1px solid #e5e7eb',
                 }}
               >
-                <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 2 }}>
-                  <Button
-                    variant="text"
-                    size="small"
-                    sx={{ textTransform: 'none', color: '#64748b' }}
-                    onClick={() => goMonth(-1)}
-                  >
-                    Previous
-                  </Button>
-                  <Typography sx={{ fontWeight: 600, fontSize: { xs: '0.95rem', '3xl': '1.1rem', '4k': '1.5rem' } }}>
-                    {calendarDate.toLocaleString('default', { month: 'long', year: 'numeric' })}
-                  </Typography>
-                  <Button
-                    variant="text"
-                    size="small"
-                    sx={{ textTransform: 'none', color: '#64748b' }}
-                    onClick={() => goMonth(1)}
-                  >
-                    Next
-                  </Button>
+                {/* Calendar Header */}
+                <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 3 }}>
+                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+                    <Button
+                      variant="text"
+                      size="small"
+                      sx={{ minWidth: 'auto', p: 0.5, color: '#64748b' }}
+                      onClick={() => goMonth(-1)}
+                    >
+                      ‹
+                    </Button>
+                    <Typography sx={{ fontWeight: 700, fontSize: { xs: '1.1rem', '3xl': '1.25rem', '4k': '1.65rem' }, color: '#0f172a' }}>
+                      {calendarDate.toLocaleString('default', { month: 'long', year: 'numeric' })}
+                    </Typography>
+                    <Button
+                      variant="text"
+                      size="small"
+                      sx={{ minWidth: 'auto', p: 0.5, color: '#64748b' }}
+                      onClick={() => goMonth(1)}
+                    >
+                      ›
+                    </Button>
+                    <Button
+                      variant="outlined"
+                      size="small"
+                      sx={{ 
+                        textTransform: 'none', 
+                        borderColor: '#e5e7eb',
+                        color: '#64748b',
+                        fontSize: '0.875rem',
+                        px: 2,
+                        borderRadius: '6px',
+                      }}
+                    >
+                      Today
+                    </Button>
+                  </Box>
+
+                  {/* View mode toggles */}
+                  <Box sx={{ display: 'flex', gap: 0.5, alignItems: 'center' }}>
+                    <Button
+                      size="small"
+                      sx={{ minWidth: 'auto', p: 0.75, color: '#9ca3af' }}
+                    >
+                      ☰
+                    </Button>
+                    {(['Month', 'Week', 'Day', 'Agenda'] as const).map((mode) => (
+                      <Button
+                        key={mode}
+                        size="small"
+                        onClick={() => setViewMode(mode)}
+                        sx={{
+                          textTransform: 'none',
+                          color: viewMode === mode ? '#0f172a' : '#9ca3af',
+                          fontWeight: viewMode === mode ? 600 : 400,
+                          fontSize: '0.875rem',
+                          px: 1.5,
+                          minWidth: 'auto',
+                          '&:hover': { backgroundColor: '#f9fafb' },
+                        }}
+                      >
+                        {mode}
+                      </Button>
+                    ))}
+                  </Box>
                 </Box>
 
+                {/* Day headers */}
                 <Box
                   sx={{
                     display: 'grid',
                     gridTemplateColumns: 'repeat(7, minmax(0, 1fr))',
+                    borderBottom: '1px solid #e5e7eb',
+                    pb: 1,
                     mb: 1,
-                    gap: 0.5,
                   }}
                 >
                   {['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map((day) => (
@@ -640,9 +1166,9 @@ export default function VisaApplicationJourney() {
                       key={day}
                       sx={{
                         textAlign: 'center',
-                        fontSize: { xs: '0.75rem', '3xl': '0.85rem', '4k': '1.1rem' },
+                        fontSize: { xs: '0.8rem', '3xl': '0.9rem', '4k': '1.15rem' },
                         fontWeight: 600,
-                        color: '#94a3b8',
+                        color: '#6b7280',
                       }}
                     >
                       {day}
@@ -650,79 +1176,111 @@ export default function VisaApplicationJourney() {
                   ))}
                 </Box>
 
+                {/* Calendar Grid */}
                 <Box
                   sx={{
                     display: 'grid',
                     gridTemplateColumns: 'repeat(7, minmax(0, 1fr))',
-                    gap: 0.75,
+                    gap: 0,
+                    flex: 1,
+                    position: 'relative',
                   }}
                 >
                   {visibleDays.map((date, index) => {
                     if (!date) {
-                      return <Box key={index} />;
+                      return (
+                        <Box
+                          key={index}
+                          sx={{
+                            borderRight: '1px solid #f3f4f6',
+                            borderBottom: '1px solid #f3f4f6',
+                            minHeight: { xs: 80, md: 100, '3xl': 120, '4k': 150 },
+                            p: 1,
+                            backgroundColor: '#fafafa',
+                          }}
+                        />
+                      );
                     }
 
-                    const isSelected = selectedDate && isSameDay(selectedDate, date);
+                    const dayAppointments = getAppointmentsForDate(date);
+                    const isFirstDayOfAppointment = (apt: typeof appointments[0]) => {
+                      return isSameDay(date, apt.startDate);
+                    };
+                    
                     const isToday = isSameDay(new Date(), date);
+                    const isPastMonth = date.getMonth() !== calendarDate.getMonth();
 
                     return (
                       <Box
                         key={index}
-                        onClick={() => setSelectedDate(date)}
                         sx={{
-                          height: { xs: 44, '3xl': 52, '4k': 68 },
-                          borderRadius: '8px',
-                          border: isSelected ? '2px solid #3b82f6' : '1px solid #e2e8f0',
-                          backgroundColor: isSelected ? '#eff6ff' : '#ffffff',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          cursor: 'pointer',
+                          borderRight: '1px solid #f3f4f6',
+                          borderBottom: '1px solid #f3f4f6',
+                          minHeight: { xs: 80, md: 100, '3xl': 120, '4k': 150 },
+                          p: 1,
+                          backgroundColor: '#ffffff',
                           position: 'relative',
+                          cursor: 'pointer',
                           '&:hover': {
-                            borderColor: '#3b82f6',
+                            backgroundColor: '#f9fafb',
                           },
                         }}
                       >
                         <Typography
                           sx={{
-                            fontSize: { xs: '0.85rem', '3xl': '0.95rem', '4k': '1.25rem' },
-                            fontWeight: isSelected ? 700 : 500,
-                            color: isSelected ? '#1d4ed8' : '#0f172a',
+                            fontSize: { xs: '0.85rem', '3xl': '0.95rem', '4k': '1.2rem' },
+                            fontWeight: 500,
+                            color: isPastMonth ? '#d1d5db' : isToday ? '#3b82f6' : '#374151',
+                            mb: 0.5,
                           }}
                         >
                           {date.getDate()}
                         </Typography>
-                        {isToday && (
-                          <Box
-                            sx={{
-                              position: 'absolute',
-                              bottom: 6,
-                              width: 4,
-                              height: 4,
-                              borderRadius: '9999px',
-                              backgroundColor: '#22c55e',
-                            }}
-                          />
-                        )}
+
+                        {/* Render appointment ribbons */}
+                        {dayAppointments.map((apt) => {
+                          if (!isFirstDayOfAppointment(apt)) return null;
+                          
+                          // Calculate column span based on duration
+                          const dayOfWeek = date.getDay();
+                          const remainingDaysInWeek = 7 - dayOfWeek;
+                          const spanDays = Math.min(apt.duration, remainingDaysInWeek);
+
+                          return (
+                            <Box
+                              key={apt.id}
+                              sx={{
+                                position: 'absolute',
+                                left: 0,
+                                right: spanDays > 1 ? `calc(-${(spanDays - 1) * 100}% - ${(spanDays - 1)}px)` : 0,
+                                top: '32px',
+                                backgroundColor: apt.color,
+                                borderRadius: '6px',
+                                px: 1.5,
+                                py: 0.75,
+                                fontSize: { xs: '0.75rem', '3xl': '0.85rem', '4k': '1.05rem' },
+                                fontWeight: 600,
+                                color: apt.textColor,
+                                zIndex: 10,
+                                boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
+                                whiteSpace: 'nowrap',
+                                overflow: 'hidden',
+                                textOverflow: 'ellipsis',
+                              }}
+                            >
+                              {apt.time} {apt.title}
+                            </Box>
+                          );
+                        })}
                       </Box>
                     );
                   })}
                 </Box>
-
-                {selectedDate && (
-                  <Typography sx={{ mt: 3, fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, color: '#64748b' }}>
-                    Selected date:{' '}
-                    <Box component="span" sx={{ fontWeight: 600, color: '#0f172a' }}>
-                      {selectedDate.toLocaleDateString()}
-                    </Box>
-                  </Typography>
-                )}
               </Box>
             </Box>
           )}
 
-          {/* Step 4 */}
+          {/* Step 4 - Submit Application */}
           {activeStep === 4 && (
             <Box>
               <Typography variant="h5" sx={{ fontWeight: 700, mb: 1, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
@@ -740,17 +1298,18 @@ export default function VisaApplicationJourney() {
                   alignItems: 'stretch',
                 }}
               >
-                {/* Left side: show the SVG only, no extra white card behind */}
+                {/* Left side card */}
                 <Box
                   sx={{
-                    backgroundColor: 'transparent',
-                    borderRadius: 0,
-                    p: 0,
+                    backgroundColor: '#ffffff',
+                    borderRadius: '24px',
+                    p: { xs: 2.5, md: 3 },
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    minHeight: { xs: 380, md: 460, lg: 520, '3xl': 600, '4k': 780 },
-                    boxShadow: 'none',
+                    minHeight: { xs: 260, md: 300, lg: 320, '3xl': 340, '4k': 420 },
+                    boxShadow: '0 12px 40px rgba(15,23,42,0.08)',
+                    border: '1px solid #e5e7eb',
                   }}
                 >
                   <Box sx={{ position: 'relative', width: '100%', height: '100%' }}>
@@ -772,14 +1331,13 @@ export default function VisaApplicationJourney() {
                     color: '#111827',
                     display: 'flex',
                     flexDirection: 'column',
-                    minHeight: { xs: 420, md: 500, lg: 560, '3xl': 640, '4k': 820 },
+                    minHeight: { xs: 360, md: 400, lg: 430, '3xl': 460, '4k': 520 },
                     boxShadow: '0 10px 40px rgba(15,23,42,0.12)',
                     overflow: 'hidden',
                     border: '1px solid rgba(148,163,184,0.15)',
                   }}
                 >
                   {/* Top flag section */}
-                  {/* Top flag + document tab as a single Figma asset */}
                   <Box sx={{ position: 'relative', mb: 3 }}>
                     <Box 
                       sx={{ 
@@ -801,9 +1359,9 @@ export default function VisaApplicationJourney() {
                   </Box>
 
                   {/* Main content */}
-                  <Box sx={{ mt: { xs: 3.5, md: 4 }, flex: 1, display: 'flex', flexDirection: 'column', gap: { xs: 2, md: 2.5 } }}>
+                  <Box sx={{ mt: { xs: 2.5, md: 3 }, flex: 1, display: 'flex', flexDirection: 'column', gap: { xs: 2, md: 2.5 } }}>
                     <Typography sx={{ fontSize: { xs: '1.1rem', md: '1.2rem', '3xl': '1.35rem', '4k': '1.75rem' }, fontWeight: 700, mb: 0.5, color: '#0f172a' }}>
-                      Sweden Visit Visa Application
+                      {currentVisa.title}
                     </Typography>
 
                     {/* Details grid */}
@@ -819,10 +1377,10 @@ export default function VisaApplicationJourney() {
                       }}
                     >
                       {[
-                        ['Case Number', '52385971'],
-                        ['Authority', 'MGVKT'],
-                        ['Status', 'In Progress'],
-                        ['Duration', '10 days'],
+                        ['Case Number', currentVisa.caseNumber],
+                        ['Authority', currentVisa.authority],
+                        ['Status', currentVisa.status],
+                        ['Duration', currentVisa.duration],
                       ].map(([label, value]) => (
                         <Box key={label} sx={{ display: 'flex', flexDirection: 'column', gap: 0.75 }}>
                           <Typography sx={{ fontSize: { xs: '0.7rem', md: '0.75rem', '3xl': '0.85rem', '4k': '1.1rem' }, color: '#64748b', fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
@@ -865,7 +1423,7 @@ export default function VisaApplicationJourney() {
                           Registered on:
                         </Typography>
                         <Typography sx={{ fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, fontWeight: 700, color: '#0f172a' }}>
-                          2025-07-11
+                          {currentVisa.registeredOn}
                         </Typography>
                       </Box>
                       <Box>
@@ -873,10 +1431,31 @@ export default function VisaApplicationJourney() {
                           Country
                         </Typography>
                         <Typography sx={{ fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, fontWeight: 700, color: '#0f172a' }}>
-                          Sweden
+                          {currentVisa.country}
                         </Typography>
                       </Box>
                     </Box>
+                  </Box>
+
+                  {/* Pagination like carousel controls from kit */}
+                  <Box sx={{ mt: { xs: 2.5, md: 3 }, display: 'flex', justifyContent: 'center' }}>
+                    <Pagination
+                      count={visaApplications.length}
+                      page={visaPage}
+                      onChange={(_, page) => setVisaPage(page)}
+                      shape="circular"
+                      color="primary"
+                      size="small"
+                      sx={{
+                        '& .MuiPaginationItem-root': {
+                          color: '#9ca3af',
+                        },
+                        '& .MuiPaginationItem-root.Mui-selected': {
+                          backgroundColor: '#38bdf8',
+                          color: '#0f172a',
+                        },
+                      }}
+                    />
                   </Box>
 
                   {/* CTA button */}
@@ -904,17 +1483,18 @@ export default function VisaApplicationJourney() {
                   </Box>
                 </Box>
 
-                {/* Right side: SVG only, no outer white card */}
+                {/* Right side card */}
                 <Box
                   sx={{
-                    backgroundColor: 'transparent',
-                    borderRadius: 0,
-                    p: 0,
+                    backgroundColor: '#ffffff',
+                    borderRadius: '24px',
+                    p: { xs: 2.5, md: 3 },
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    minHeight: { xs: 380, md: 460, lg: 520, '3xl': 600, '4k': 780 },
-                    boxShadow: 'none',
+                    minHeight: { xs: 260, md: 300, lg: 320, '3xl': 340, '4k': 420 },
+                    boxShadow: '0 12px 40px rgba(15,23,42,0.08)',
+                    border: '1px solid #e5e7eb',
                   }}
                 >
                   <Box sx={{ position: 'relative', width: '100%', height: '100%' }}>

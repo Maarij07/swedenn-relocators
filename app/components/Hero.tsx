@@ -31,7 +31,7 @@ export default function Hero() {
     btnAppointment: isSv ? 'Boka möte' : 'Book Appointment',
   };
   return (
-    <section className="relative overflow-hidden bg-[#EBF4FF]">
+   <section className="relative overflow-hidden bg-gradient-to-b from-transparent via-[#EBF4FF]/50 to-[#EBF4FF]">
       <style>{fadeInUp}</style>
       
       {/* Top spacing = navbar height + extra breathing */}

@@ -405,11 +405,12 @@ export default function Offers() {
             id="offers-scroll"
             sx={{
               display: 'flex',
-              gap: { xs: 2, sm: 3, md: 4, lg: 5, '4k': 6 },
+              gap: { xs: 2, sm: 3, md: 4 },
               overflowX: 'auto',
               scrollBehavior: 'smooth',
-              pb: { xs: 2, md: 3, '4k': 4 },
-              pr: { xs: 2, md: 3 },
+              pb: { xs: 2, md: 3 },
+              px: 0,
+              justifyContent: { lg: 'center' },
               '&::-webkit-scrollbar': {
                 height: 0,
               },
@@ -419,8 +420,18 @@ export default function Offers() {
             <AnimatedCard
               key={offer.id}
               sx={{
-                minWidth: { xs: '240px', sm: '280px', md: '300px', lg: '320px' },
-                maxWidth: { xs: '240px', sm: '280px', md: '300px', lg: '320px' },
+                minWidth: {
+                  xs: '260px',
+                  sm: '280px',
+                  md: '320px',
+                  lg: 'calc((100% - 64px) / 3)',
+                },
+                maxWidth: {
+                  xs: '260px',
+                  sm: '280px',
+                  md: '320px',
+                  lg: 'calc((100% - 64px) / 3)',
+                },
                 boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
                 border: '1px solid #e2e8f0',
                 borderRadius: '16px',

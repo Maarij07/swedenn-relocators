@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import { useTranslation } from 'react-i18next';
+import { MovingFlagsCarousel } from './MovingFlagsCarousel';
 
 export function GlobalVisaPlatform() {
   const { i18n } = useTranslation();
@@ -17,56 +18,58 @@ export function GlobalVisaPlatform() {
       : 'You can apply from anywhere in the world',
     mainTitle: isSv ? 'Allt-i-ett global visumplattform' : 'All-in-One Global Visa Platform',
     subheading: isSv ? 'En enda ansökan för alla visum du behöver' : 'One unified application for all visas you need',
-    button: isSv ? 'Skicka via DHL' : 'Send Via DHL',
+    button: isSv ? 'Ansök nu' : 'Apply Now',
   };
 
   return (
     <Box
       sx={{
-        py: { xs: '5rem', sm: '6rem', lg: '7rem', xl: '8rem', '3xl': '9rem', '4k': '10rem' },
+        py: { xs: '4rem', sm: '5rem', lg: '6rem', xl: '7rem' },
         backgroundColor: '#ffffff',
       }}
     >
-      {/* EXACT same container as Hero/Services (Tailwind classes) */}
+      {/* Container */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         {/* Header - Centered Title Section */}
         <Box
           sx={{
             textAlign: 'center',
-            mb: { xs: '1.5rem', sm: '2rem', lg: '2.5rem' },
+            mb: { xs: '2rem', sm: '2.5rem', lg: '3rem' },
           }}
         >
-          {/* Blue subtitle */}
+          {/* Top helper text */}
           <Typography
             sx={{
-              fontSize: { xs: '0.875rem', sm: '1rem', '4k': '1.25rem' },
-              color: '#3b82f6',
-              fontWeight: 600,
+              fontSize: { xs: '0.75rem', sm: '0.8rem', md: '0.9rem' },
+              color: '#60a5fa',
+              fontWeight: 500,
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
               mb: '0.5rem',
             }}
           >
             {texts.subtitle}
           </Typography>
 
-          {/* Main title */}
+          {/* Main title in primary blue, matching other hero headings */}
           <Typography
             sx={{
-              fontSize: { xs: '2rem', sm: '2.75rem', md: '3rem', lg: '3.5rem', '4k': '5rem' },
+              fontSize: { xs: '1.5rem', sm: '1.9rem', md: '2.1rem', lg: '2.35rem', xl: '2.6rem' },
               fontWeight: 800,
-              color: '#3b82f6',
-              mb: '0.5rem',
-              lineHeight: 1.2,
+              color: '#2563eb',
+              lineHeight: 1.25,
             }}
           >
             {texts.mainTitle}
           </Typography>
 
-          {/* Subheading */}
+          {/* Bold black subheading right under main title */}
           <Typography
             sx={{
-              fontSize: { xs: '1.125rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' },
-              fontWeight: 700,
-              color: '#1e293b',
+              mt: '0.35rem',
+              fontSize: { xs: '1.05rem', sm: '1.15rem', md: '1.25rem', lg: '1.35rem' },
+              fontWeight: 800,
+              color: '#111827',
               lineHeight: 1.3,
             }}
           >
@@ -74,107 +77,115 @@ export function GlobalVisaPlatform() {
           </Typography>
         </Box>
 
-        {/* Main Content Grid - Using EXACT Hero classes */}
+        {/* Flags Carousel - Clean horizontal bar */}
+        <Box sx={{ mb: { xs: '3rem', sm: '3.5rem', lg: '4rem' } }}>
+          <MovingFlagsCarousel />
+        </Box>
+
+        {/* Main Content Grid */}
         <Box
           sx={{
             display: 'grid',
-            gridTemplateColumns: { xs: '1fr', lg: 'repeat(2, 1fr)' },
-            gap: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '3.5rem', xl: '4rem', '2xl': '5rem', '3xl': '6rem', '4k': '8rem' },
+            gridTemplateColumns: { xs: '1fr', lg: '1fr 1fr' },
+            gap: { xs: '3rem', sm: '3.5rem', md: '4rem', lg: '5rem', xl: '6rem' },
             alignItems: 'center',
           }}
         >
-          {/* Left - Content Card */}
+          {/* Left - Content */}
           <Box
             sx={{
-              // This aligns with the logo on large screens
-              maxWidth: { xs: '100%', '3xl': '48rem', '4k': '80rem' },
-              mx: { xs: 'auto', lg: 0 },
+              display: 'flex',
+              flexDirection: 'column',
+              gap: { xs: '1.5rem', sm: '2rem' },
+              order: { xs: 2, lg: 1 },
             }}
           >
-            <Card
+            {/* Text card with subtle shadow, similar to Figma reference */}
+            <Box
               sx={{
-                boxShadow: '0 10px 30px rgba(0, 0, 0, 0.12)',
-                border: '1px solid #e2e8f0',
-                borderRadius: '16px',
-                p: { xs: '1.25rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' },
                 backgroundColor: '#ffffff',
+                borderRadius: { xs: '18px', sm: '20px', md: '22px' },
+                px: { xs: '1.5rem', sm: '2rem', md: '2.5rem' },
+                py: { xs: '1.5rem', sm: '2rem', md: '2.25rem' },
+                boxShadow: '0 22px 45px rgba(15, 23, 42, 0.08)',
+                border: '1px solid rgba(148, 163, 184, 0.12)',
               }}
             >
-              {/* Card Content */}
-              <Box sx={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                {/* Title in Card */}
-                <Typography
+              {/* Title */}
+              <Typography
+                sx={{
+                  fontSize: { xs: '1.5rem', sm: '1.75rem', md: '2rem', lg: '2.25rem' },
+                  fontWeight: 700,
+                  color: '#1e293b',
+                  lineHeight: 1.3,
+                  mb: { xs: '0.75rem', sm: '1rem' },
+                }}
+              >
+                {texts.mainTitle}
+              </Typography>
+
+              {/* Description */}
+              <Typography
+                sx={{
+                  fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem' },
+                  color: '#64748b',
+                  lineHeight: 1.7,
+                  mb: '0.75rem',
+                }}
+              >
+                {isSv
+                  ? 'Du kan befinna dig var som helst i världen. Om du är här och läser detta, kan du registrera dig på vår portal eller app och ansöka om visum globalt. Med vårt universella visumformulär behöver du bara ansöka en gång, dina uppgifter lagras säkert, och du kan återanvända dem för flera destinationer inklusive Schengen, Storbritannien, USA, Kanada, Australien, Nya Zeeland, Japan och mer.'
+                  : "You could be anywhere in the world, if you're here and reading this, you can sign up on our portal or app and apply for visas globally. With our Universal Visa Application Form, you apply once, your details are securely stored, and you can reuse them for multiple destinations including Schengen, the UK, US, Canada, Australia, New Zealand, Japan, and more."}
+              </Typography>
+
+              {/* Second Description */}
+              <Typography
+                sx={{
+                  fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem' },
+                  color: '#64748b',
+                  lineHeight: 1.7,
+                }}
+              >
+                {isSv
+                  ? 'Vi hanterar varje steg åt dig: ansökningsförberedelse, expertkonsultation, tidsbokning, hotellbokningar, sjukförsäkring och resebokningar, så att du sparar tid, minskar kostnaderna och håller allt organiserat på en säker plattform. För ambassadinsändningar kan du enkelt ladda ner din kompletta fil från portalen eller få den säkert levererad av DHL.'
+                  : 'We manage every step for you: application preparation, expert consultation, appointment scheduling, hotel bookings, health insurance, and travel reservations, so you save time, reduce costs, and keep everything organized in one secure platform. For embassy submissions, you can simply download your complete file from the portal or have it securely delivered by DHL.'}
+              </Typography>
+
+              {/* Button */}
+              <Box sx={{ pt: '1.25rem' }}>
+                <Button
+                  variant="contained"
                   sx={{
-                    fontSize: { xs: '1.5rem', sm: '1.75rem', md: '2rem', lg: '2.25rem', '4k': '3rem' },
-                    fontWeight: 700,
-                    color: '#1e293b',
-                    lineHeight: 1.3,
+                    py: { xs: '0.625rem', sm: '0.75rem', md: '0.875rem' },
+                    px: { xs: '1.5rem', sm: '1.75rem', md: '2rem' },
+                    fontSize: { xs: '0.875rem', sm: '0.9375rem', md: '1rem' },
+                    fontWeight: 600,
+                    textTransform: 'none',
+                    backgroundColor: '#1e293b',
+                    color: 'white',
+                    borderRadius: '6px',
+                    width: 'fit-content',
+                    '&:hover': {
+                      backgroundColor: '#0f172a',
+                    },
+                    boxShadow: '0 4px 12px rgba(15, 23, 42, 0.18)',
                   }}
                 >
-                  {texts.mainTitle}
-                </Typography>
-
-                {/* Description */}
-                <Typography
-                  sx={{
-                    fontSize: { xs: '0.875rem', sm: '0.9375rem', md: '1rem', lg: '1.0625rem', xl: '1.125rem', '3xl': '1.25rem', '4k': '2rem' },
-                    color: '#64748b',
-                    lineHeight: 1.7,
-                  }}
-                >
-                  {isSv
-                    ? 'Du kan befinna dig var som helst i världen – om du är här kan du registrera dig i vår portal eller app och ansöka om visum globalt. Med vårt universella visumformulär fyller du i uppgifterna en gång, de lagras säkert och kan återanvändas för flera destinationer som Schengen, Storbritannien, USA, Kanada, Australien, Nya Zeeland, Japan och fler.'
-                    : "You could be anywhere in the world, if you're here and reading this, you can sign up on our portal or app and apply for visas globally. With our Universal Visa Application Form, you apply once, your details are securely stored, and you can reuse them for multiple destinations including Schengen, the UK, US, Canada, Australia, New Zealand, Japan, and more."}
-                </Typography>
-
-                {/* Description 2 */}
-                <Typography
-                  sx={{
-                    fontSize: { xs: '0.875rem', sm: '0.9375rem', md: '1rem', lg: '1.0625rem', xl: '1.125rem', '3xl': '1.25rem', '4k': '2rem' },
-                    color: '#64748b',
-                    lineHeight: 1.7,
-                  }}
-                >
-                  {isSv
-                    ? 'Vi hanterar varje steg åt dig: ansökningsförberedelser, expertkonsultation, tidsbokning, hotellbokningar, sjukförsäkring och resebokningar – så sparar du tid, minskar kostnaderna och håller allt samlat på en säker plattform. Inför ambassébesök kan du enkelt ladda ner hela din ansökningsfil från portalen eller få den säkert levererad med DHL.'
-                    : 'We manage every step for you: application preparation, expert consultation, appointment scheduling, hotel bookings, health insurance, and travel reservations, so you save time, reduce costs, and keep everything organized in one secure platform. For embassy submissions, you can simply download your complete file from the portal or have it securely delivered by DHL.'}
-                </Typography>
-
-                {/* Button */}
-                <Box sx={{ pt: '0.5rem' }}>
-                  <Button
-                    variant="contained"
-                    sx={{
-                      py: { xs: '0.75rem', sm: '0.875rem', md: '1rem', '3xl': '1.5rem', '4k': '2.25rem' },
-                      px: { xs: '1.75rem', sm: '2rem', md: '2.25rem', '3xl': '3.5rem', '4k': '5.5rem' },
-                      fontSize: { xs: '0.875rem', sm: '0.9375rem', md: '1rem', '3xl': '1.125rem', '4k': '1.875rem' },
-                      fontWeight: 600,
-                      textTransform: 'none',
-                      backgroundColor: '#1e293b',
-                      color: 'white',
-                      borderRadius: '0.5rem',
-                      width: 'fit-content',
-                      '&:hover': {
-                        backgroundColor: '#0f172a',
-                      },
-                      boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
-                    }}
-                  >
-                    {texts.button}
-                  </Button>
-                </Box>
+                  {texts.button}
+                </Button>
               </Box>
-            </Card>
+            </Box>
           </Box>
 
-          {/* Right - Image with EXACT Hero alignment */}
+          {/* Right - Image */}
           <Box
             sx={{
-              position: 'relative',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
               width: '100%',
-              maxWidth: { xs: '100%', '3xl': '48rem', '4k': '96rem' },
-              mx: { xs: 'auto', lg: 0 },
-              ml: { lg: 'auto' }, // This aligns with the right buttons
+              order: { xs: 1, lg: 2 },
+              position: 'relative',
             }}
           >
             <Box
@@ -183,6 +194,7 @@ export function GlobalVisaPlatform() {
               alt="Global Visa Platform Illustration"
               sx={{
                 width: '100%',
+                maxWidth: { xs: '20rem', sm: '24rem', md: '28rem', lg: '32rem', xl: '36rem' },
                 height: 'auto',
                 objectFit: 'contain',
               }}

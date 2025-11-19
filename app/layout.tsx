@@ -3,6 +3,11 @@ import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ConnectingTalentSection from './components/ConnectingTalentSection';
+import PayrollEORSection from './components/PayrollEORSection';
+import BusinessMarketplaceSection from './components/BusinessMarketplaceSection';
+import RelocationSuccessSection from './components/RelocationSuccessSection';
+import BlogsSection from './components/BlogsSection';
 import theme from './theme';
 import './globals.css';
 import ClientI18nProvider from './ClientI18nProvider';
@@ -27,6 +32,11 @@ export default function RootLayout({
             <ClientI18nProvider>
               <Navbar />
               {children}
+              <ConnectingTalentSection />
+              <PayrollEORSection />
+              <BusinessMarketplaceSection />
+              <RelocationSuccessSection />
+              <BlogsSection />
               <Footer />
               <CookieConsent />
             </ClientI18nProvider>

@@ -33,10 +33,10 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent">
       
       {/* Top Info Bar with Scrolling Animation */}
-      <div className="bg-gray-50 border-b border-gray-200 overflow-hidden">
+      <div className="bg-white/80 border-b border-gray-100 overflow-hidden backdrop-blur-sm">
         <style jsx>{`
           @keyframes scroll {
             0% { transform: translateX(0); }
@@ -106,7 +106,8 @@ export default function Navbar() {
       </div>
 
       {/* Main Navigation */}
-      <div className="bg-white shadow-sm border-b border-gray-200">
+      {/* Main Navigation */}
+<div className="bg-white">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           <div className="flex items-center justify-between h-16 sm:h-20 4k:h-32">
             

@@ -46,14 +46,15 @@ const FlagIcon = ({ code, sx }) => {
     <img
       loading="lazy"
       width="20"
-      src={`https://flagcdn.com/w20/${code.toLowerCase()}.png`}
-      srcSet={`https://flagcdn.com/w40/${code.toLowerCase()}.png 2x`}
+      src={`https://flagcdn.com/w80/${code.toLowerCase()}.png`}
+      srcSet={`https://flagcdn.com/w160/${code.toLowerCase()}.png 2x`}
       alt={`${code} flag`}
       style={{
         width: sx?.width || 20,
         height: sx?.height || 20,
-        borderRadius: sx?.borderRadius,
+        borderRadius: sx?.borderRadius || '2px',
         objectFit: sx?.objectFit || 'cover',
+        imageRendering: 'auto',
         marginRight: sx?.mr ? `${sx.mr * 8}px` : undefined,
         marginLeft: sx?.ml ? `${sx.ml * 8}px` : undefined,
       }}
@@ -80,27 +81,6 @@ const PlaneCircle = styled(Box)(({ theme }) => ({
   [theme.breakpoints.up('lg')]: {
     width: '3.5rem',
     height: '3.5rem',
-  },
-}));
-
-const WatermarkText = styled(Typography)(({ theme }) => ({
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  fontSize: '6rem',
-  fontWeight: 900,
-  color: 'rgba(59, 130, 246, 0.06)',
-  letterSpacing: '0.1em',
-  userSelect: 'none',
-  pointerEvents: 'none',
-  whiteSpace: 'nowrap',
-  zIndex: 0,
-  [theme.breakpoints.up('md')]: {
-    fontSize: '9rem',
-  },
-  [theme.breakpoints.up('lg')]: {
-    fontSize: '12rem',
   },
 }));
 
@@ -140,7 +120,7 @@ export default function CountrySelector() {
       <li key={key} {...otherProps}>
         <FlagIcon
           code={country.code}
-          sx={{ mr: 0.75, width: 22, height: 22, borderRadius: '50%', objectFit: 'cover' }}
+          sx={{ mr: 0.75, width: 24, height: 16, borderRadius: '2px', objectFit: 'cover' }}
         />
         {country.label}
       </li>
@@ -164,7 +144,7 @@ export default function CountrySelector() {
             <InputAdornment position="start" sx={{ mr: 0.5 }}>
               <FlagIcon
                 code={country.code}
-                sx={{ width: 24, height: 24, borderRadius: '50%', objectFit: 'cover' }}
+                sx={{ width: 28, height: 20, borderRadius: '2px', objectFit: 'cover' }}
               />
             </InputAdornment>
           ) : null,
@@ -198,8 +178,6 @@ export default function CountrySelector() {
 
   return (
     <section className="pt-8 sm:pt-10 lg:pt-14 xl:pt-16 pb-10 sm:pb-12 lg:pb-14 xl:pb-16 bg-white relative overflow-hidden">
-      <WatermarkText>RELOCATION</WatermarkText>
-
       {/* EXACT SAME CONTAINER AS HERO SECTION */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 relative z-10">
         <div className="text-center mb-8 sm:mb-10 lg:mb-14 xl:mb-16">

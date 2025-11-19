@@ -43,24 +43,22 @@ export function MovingFlagsCarousel() {
   return (
     <Box
       sx={{
-        py: { xs: 0.5, sm: 0.75, lg: 1 },
+        py: { xs: 0.25, sm: 0.4, lg: 0.5 },
         backgroundColor: '#ffffff',
         overflow: 'hidden',
       }}
     >
       {/* Flags Carousel Container */}
-      <Box
+        <Box
         sx={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          mx: 'auto',
-          maxWidth: { lg: '1400px', '2xl': '1600px', '4k': '2400px' },
           width: '100%',
-          px: { xs: 2, sm: 3, lg: 4 },
-          py: { xs: 0.5, sm: 0.75, lg: 1 },
+          px: 0,
+          py: { xs: 0.5, sm: 0.6, lg: 0.75 },
           backgroundColor: '#f8fafc',
-          borderRadius: '12px',
+          borderRadius: 0,
           boxShadow: 'none',
           overflow: 'hidden',
           position: 'relative',
@@ -97,14 +95,15 @@ export function MovingFlagsCarousel() {
             >
               <Box
                 component="img"
-                src={`https://flagcdn.com/w40/${country.code}.png`}
+                src={`https://flagcdn.com/w160/${country.code}.png`}
                 alt={country.name}
                 sx={{
-                  width: { xs: 16, sm: 18, lg: 22, '4k': 26 },
-                  height: { xs: 10, sm: 12, lg: 14, '4k': 16 },
+                  width: { xs: 20, sm: 24, lg: 28, '4k': 32 },
+                  height: { xs: 14, sm: 16, lg: 20, '4k': 24 },
                   borderRadius: '2px',
                   boxShadow: '0 1px 2px rgba(0,0,0,0.08)',
                   objectFit: 'cover',
+                  imageRendering: 'auto',
                   transition: 'transform 0.3s ease',
                   '&:hover': {
                     transform: 'scale(1.15)',
@@ -113,14 +112,12 @@ export function MovingFlagsCarousel() {
               />
               <Typography
                 sx={{
-                  fontSize: { xs: '0.5rem', sm: '0.6rem', lg: '0.7rem', '4k': '0.8rem' },
+                  fontSize: { xs: '0.55rem', sm: '0.65rem', lg: '0.75rem', '4k': '0.85rem' },
                   fontWeight: 500,
                   color: '#64748b',
                   textAlign: 'center',
                   whiteSpace: 'nowrap',
-                  maxWidth: { xs: '36px', sm: '44px', lg: '52px' },
-                  overflow: 'hidden',
-                  textOverflow: 'ellipsis',
+                  maxWidth: { xs: '64px', sm: '80px', lg: '96px', '4k': '112px' },
                 }}
               >
                 {country.name}
@@ -143,14 +140,15 @@ export function MovingFlagsCarousel() {
             >
             <Box
                 component="img"
-                src={`https://flagcdn.com/w40/${country.code}.png`}
+                src={`https://flagcdn.com/w160/${country.code}.png`}
                 alt={country.name}
                 sx={{
-                  width: { xs: 16, sm: 18, lg: 22, '4k': 26 },
-                  height: { xs: 10, sm: 12, lg: 14, '4k': 16 },
+                  width: { xs: 20, sm: 24, lg: 28, '4k': 32 },
+                  height: { xs: 14, sm: 16, lg: 20, '4k': 24 },
                   borderRadius: '2px',
                   boxShadow: '0 1px 2px rgba(0,0,0,0.08)',
                   objectFit: 'cover',
+                  imageRendering: 'auto',
                   transition: 'transform 0.3s ease',
                   '&:hover': {
                     transform: 'scale(1.15)',
@@ -159,14 +157,12 @@ export function MovingFlagsCarousel() {
               />
               <Typography
                 sx={{
-                  fontSize: { xs: '0.5rem', sm: '0.6rem', lg: '0.7rem', '4k': '0.8rem' },
+                  fontSize: { xs: '0.55rem', sm: '0.65rem', lg: '0.75rem', '4k': '0.85rem' },
                   fontWeight: 500,
                   color: '#64748b',
                   textAlign: 'center',
                   whiteSpace: 'nowrap',
-                  maxWidth: { xs: '36px', sm: '44px', lg: '52px' },
-                  overflow: 'hidden',
-                  textOverflow: 'ellipsis',
+                  maxWidth: { xs: '64px', sm: '80px', lg: '96px', '4k': '112px' },
                 }}
               >
                 {country.name}

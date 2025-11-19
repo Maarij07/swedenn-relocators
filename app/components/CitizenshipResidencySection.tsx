@@ -12,6 +12,26 @@ import { useTranslation } from 'react-i18next';
 const citizenshipFlags = ['ag', 'dm', 'gd', 'kn', 'lc', 'vc', 'mt', 'cy'];
 const residencyFlags = ['pt', 'gr', 'es', 'it', 'ie', 'ca', 'au', 'ae'];
 
+// Country names mapping
+const countryNames: Record<string, string> = {
+  'ag': 'Antigua and Barbuda',
+  'dm': 'Dominica',
+  'gd': 'Grenada',
+  'kn': 'Saint Kitts and Nevis',
+  'lc': 'Saint Lucia',
+  'vc': 'Saint Vincent and the Grenadines',
+  'mt': 'Malta',
+  'cy': 'Cyprus',
+  'pt': 'Portugal',
+  'gr': 'Greece',
+  'es': 'Spain',
+  'it': 'Italy',
+  'ie': 'Ireland',
+  'ca': 'Canada',
+  'au': 'Australia',
+  'ae': 'United Arab Emirates'
+};
+
 export default function CitizenshipResidencySection() {
   const { i18n } = useTranslation();
   const isSv = i18n.language === 'sv';
@@ -134,20 +154,37 @@ export default function CitizenshipResidencySection() {
                 {citizenshipFlags.map((code) => (
                   <Box
                     key={code}
-                    component="img"
-                    src={`https://flagcdn.com/w80/${code}.png`}
-                    alt={`${code} flag`}
                     sx={{
                       width: 32,
                       height: 32,
                       borderRadius: '999px',
-                      objectFit: 'cover',
-                      imageRendering: 'auto',
+                      overflow: 'hidden',
                       boxShadow: '0 6px 12px rgba(15,23,42,0.12)',
                       border: '1px solid #e2e8f0',
                       backgroundColor: '#ffffff',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                      '&:hover': {
+                        transform: 'scale(1.12)',
+                        boxShadow: '0 8px 16px rgba(15,23,42,0.2)',
+                        zIndex: 1,
+                      },
                     }}
-                  />
+                    title={countryNames[code] || code.toUpperCase()}
+                  >
+                    <Box
+                      component="img"
+                      src={`https://flagcdn.com/48x36/${code}.png`}
+                      alt={`${countryNames[code] || code.toUpperCase()} flag`}
+                      sx={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                      }}
+                    />
+                  </Box>
                 ))}
               </Box>
 
@@ -226,20 +263,37 @@ export default function CitizenshipResidencySection() {
                 {residencyFlags.map((code) => (
                   <Box
                     key={code}
-                    component="img"
-                    src={`https://flagcdn.com/w80/${code}.png`}
-                    alt={`${code} flag`}
                     sx={{
                       width: 32,
                       height: 32,
                       borderRadius: '999px',
-                      objectFit: 'cover',
-                      imageRendering: 'auto',
+                      overflow: 'hidden',
                       boxShadow: '0 6px 12px rgba(15,23,42,0.12)',
                       border: '1px solid #e2e8f0',
                       backgroundColor: '#ffffff',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                      '&:hover': {
+                        transform: 'scale(1.12)',
+                        boxShadow: '0 8px 16px rgba(15,23,42,0.2)',
+                        zIndex: 1,
+                      },
                     }}
-                  />
+                    title={countryNames[code] || code.toUpperCase()}
+                  >
+                    <Box
+                      component="img"
+                      src={`https://flagcdn.com/48x36/${code}.png`}
+                      alt={`${countryNames[code] || code.toUpperCase()} flag`}
+                      sx={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                      }}
+                    />
+                  </Box>
                 ))}
               </Box>
 

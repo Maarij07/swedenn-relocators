@@ -7,10 +7,10 @@ import Services from './Services';
 import Offers from './Offers';
 
 const HousingCarousel = dynamic(() => import('./HousingCarousel').then(m => m.HousingCarousel));
-const MovingFlagsCarousel = dynamic(() => import('./MovingFlagsCarousel').then(m => m.MovingFlagsCarousel));
 const GlobalVisaPlatform = dynamic(() => import('./GlobalVisaPlatform').then(m => m.GlobalVisaPlatform));
 const VisaApplicationJourney = dynamic(() => import('./VisaApplicationJourney').then(m => m.default), { ssr: false });
 const CitizenshipResidencySection = dynamic(() => import('./CitizenshipResidencySection'));
+const VerticalFeatureCarousel = dynamic(() => import('./VerticalFeatureCarousel').then(m => m.default));
 
 export default function Home() {
   return (
@@ -20,10 +20,10 @@ export default function Home() {
       <Services />
       <Offers />
       <HousingCarousel />
-      <MovingFlagsCarousel />
       <GlobalVisaPlatform />
       <VisaApplicationJourney />
       <CitizenshipResidencySection />
+      <VerticalFeatureCarousel />
     </>
   );
 }

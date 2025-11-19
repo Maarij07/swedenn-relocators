@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Same main font as the Minimal kit */
+@import "@fontsource-variable/public-sans";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -25,7 +28,18 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+  /* Font stack copied from the Minimal kit */
+  font-family: "Public Sans Variable",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
 
 /* Ensure smooth scaling on all screen sizes */
@@ -33,6 +47,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 /* Add after your existing styles */
 
 @media (min-width: 3840px) {
@@ -49,5 +64,19 @@ body {
     zoom: 2.5;
     -moz-transform: scale(2.5);
     -moz-transform-origin: 0 0;
+  }
+}
+
+/* Slightly reduce overall scale on standard large desktops so 100% feels less zoomed,
+   without touching 4K (>=3840px) rules above. */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  body {
+    zoom: 0.9;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 3839px) {
+  body {
+    zoom: 0.95;
   }
 }

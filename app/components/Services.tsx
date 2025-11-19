@@ -123,7 +123,7 @@ export default function Services() {
       sx={{
         pt: { xs: 4, sm: 6, lg: 7, xl: 8 },
         pb: { xs: 8, sm: 10, lg: 12, xl: 14 },
-        background: '#ffffff',
+        background: '#EBF4FF',
       }}
     >
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
