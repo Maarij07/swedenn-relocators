@@ -14,6 +14,7 @@ import {
 } from '@mui/material';
 import Image from 'next/image';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
+import { useTranslation } from 'react-i18next';
 
 const steps = [
   { name: 'Create Account' },
@@ -59,6 +60,9 @@ const visaApplications = [
 type StepIndex = 0 | 1 | 2 | 3 | 4;
 
 export default function VisaApplicationJourney() {
+  const { i18n } = useTranslation();
+  const isSv = i18n.language === 'sv';
+
   const [activeStep, setActiveStep] = useState<number>(0);
   const [isManual, setIsManual] = useState(false);
   const [visaPage, setVisaPage] = useState(1);
@@ -146,6 +150,15 @@ export default function VisaApplicationJourney() {
 
   const percent = useMemo(() => (activeStep / (steps.length - 1)) * 100, [activeStep]);
   const contentKey = useMemo(() => `step-${activeStep}`, [activeStep]);
+
+  const stepLabelSv: Record<string, string> = {
+    'Create Account': 'Skapa konto',
+    Apply: 'Ansök',
+    'Upload Document': 'Ladda upp dokument',
+    Appointment: 'Boka tid',
+    Submit: 'Skicka in',
+  };
+
   const currentVisa = useMemo(
     () => visaApplications[visaPage - 1] ?? visaApplications[0],
     [visaPage]
@@ -257,7 +270,7 @@ export default function VisaApplicationJourney() {
                           whiteSpace: 'nowrap',
                         }}
                       >
-                        {s.name}
+                        {isSv ? stepLabelSv[s.name] ?? s.name : s.name}
                       </Typography>
                     </Box>
                   </Box>
@@ -493,7 +506,9 @@ export default function VisaApplicationJourney() {
                         fontSize: { xs: '0.8rem', sm: '0.85rem', '3xl': '0.95rem', '4k': '1.1rem' },
                       }}
                     >
-                      Choose the type of account you want to create
+                      {isSv
+                        ? 'Välj vilken typ av konto du vill skapa'
+                        : 'Choose the type of account you want to create'}
                     </Typography>
                   </Box>
 
@@ -507,7 +522,9 @@ export default function VisaApplicationJourney() {
                         color: '#0f172a',
                       }}
                     >
-                      Get Started - Set Up Your Account With Us!
+                      {isSv
+                        ? 'Kom igång – skapa ditt konto hos oss!'
+                        : 'Get Started - Set Up Your Account With Us!'}
                     </Typography>
                     <Typography
                       sx={{
@@ -515,7 +532,7 @@ export default function VisaApplicationJourney() {
                         fontSize: { xs: '0.85rem', sm: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
                       }}
                     >
-                      Already have an account?{' '}
+                      {isSv ? 'Har du redan ett konto? ' : 'Already have an account? '}
                       <Box
                         component="span"
                         sx={{
@@ -525,7 +542,7 @@ export default function VisaApplicationJourney() {
                           textDecoration: 'underline',
                         }}
                       >
-                        Login here
+                        {isSv ? 'Logga in här' : 'Login here'}
                       </Box>
                     </Typography>
                   </Box>
@@ -540,7 +557,7 @@ export default function VisaApplicationJourney() {
                           fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
                         }}
                       >
-                        Account Type
+                        {isSv ? 'Kontotyp' : 'Account Type'}
                       </Typography>
                       <FormControl fullWidth size="small">
                         <Select
@@ -554,10 +571,14 @@ export default function VisaApplicationJourney() {
                           }}
                         >
                           <MenuItem value="">
-                            <em>Choose the type of account</em>
+                            <em>{isSv ? 'Välj kontotyp' : 'Choose the type of account'}</em>
                           </MenuItem>
-                          <MenuItem value="individual">INDIVIDUAL (PRIVATE ACCOUNT)</MenuItem>
-                          <MenuItem value="organization">ORGANIZATION (AGENT ACCOUNT)</MenuItem>
+                          <MenuItem value="individual">
+                            {isSv ? 'INDIVIDUELLT (PRIVAT KONTO)' : 'INDIVIDUAL (PRIVATE ACCOUNT)'}
+                          </MenuItem>
+                          <MenuItem value="organization">
+                            {isSv ? 'ORGANISATION (AGENTKONTO)' : 'ORGANIZATION (AGENT ACCOUNT)'}
+                          </MenuItem>
                         </Select>
                       </FormControl>
                     </Box>
@@ -570,7 +591,9 @@ export default function VisaApplicationJourney() {
                           fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
                         }}
                       >
-                        Individual Private Account Category
+                        {isSv
+                          ? 'Kategori för privat individuellt konto'
+                          : 'Individual Private Account Category'}
                       </Typography>
                       <FormControl fullWidth size="small">
                         <Select
@@ -584,11 +607,17 @@ export default function VisaApplicationJourney() {
                           }}
                         >
                           <MenuItem value="">
-                            <em>Select account category to continue</em>
+                            <em>{isSv ? 'Välj kontokategori för att fortsätta' : 'Select account category to continue'}</em>
                           </MenuItem>
-                          <MenuItem value="family">Full Family / Friends</MenuItem>
-                          <MenuItem value="work_study">Work, Study & Job Seeker Visas</MenuItem>
-                          <MenuItem value="visit">Visit Visa (tourism and short visits)</MenuItem>
+                          <MenuItem value="family">
+                            {isSv ? 'Hela familjen / vänner' : 'Full Family / Friends'}
+                          </MenuItem>
+                          <MenuItem value="work_study">
+                            {isSv ? 'Arbete, studier & arbetssökandevisum' : 'Work, Study & Job Seeker Visas'}
+                          </MenuItem>
+                          <MenuItem value="visit">
+                            {isSv ? 'Besöksvisum (turism och korta besök)' : 'Visit Visa (tourism and short visits)'}
+                          </MenuItem>
                         </Select>
                       </FormControl>
                     </Box>
@@ -603,7 +632,7 @@ export default function VisaApplicationJourney() {
                         fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
                       }}
                     >
-                      E-mail
+                      {isSv ? 'E‑post' : 'E-mail'}
                     </Typography>
                     <TextField
                       placeholder="Enter your email address"
@@ -632,7 +661,7 @@ export default function VisaApplicationJourney() {
                         py: { xs: 1, md: 1.2 },
                       }}
                     >
-                      Back
+                      {isSv ? 'Tillbaka' : 'Back'}
                     </Button>
                     <Button
                       variant="contained"
@@ -648,7 +677,7 @@ export default function VisaApplicationJourney() {
                       }}
                       disabled={!accountType || !accountCategory}
                     >
-                      Create Account
+                      {isSv ? 'Skapa konto' : 'Create Account'}
                     </Button>
                   </Box>
                 </Box>
@@ -727,10 +756,10 @@ export default function VisaApplicationJourney() {
                     </Box>
 
                     <Typography variant="h6" sx={{ fontWeight: 700, color: '#3b82f6', fontSize: { xs: '0.95rem', '3xl': '1.1rem', '4k': '1.5rem' } }}>
-                      STEP 2: Apply
+                      {isSv ? 'STEG 2: Ansök' : 'STEP 2: Apply'}
                     </Typography>
                     <Typography variant="h5" sx={{ fontWeight: 700, mb: 1.5, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
-                      Personal Information
+                      {isSv ? 'Personuppgifter' : 'Personal Information'}
                     </Typography>
 
                     <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 2 }}>
@@ -798,7 +827,7 @@ export default function VisaApplicationJourney() {
                         mb: 0.5,
                       }}
                     >
-                      Application Overview
+                      {isSv ? 'Översikt av ansökan' : 'Application Overview'}
                     </Typography>
                     <Typography
                       sx={{
@@ -806,7 +835,9 @@ export default function VisaApplicationJourney() {
                         color: '#94a3b8',
                       }}
                     >
-                      Track each step of your visa application as you complete it.
+                      {isSv
+                        ? 'Följ varje steg i din visumansökan medan du slutför den.'
+                        : 'Track each step of your visa application as you complete it.'}
                     </Typography>
                   </Box>
 
@@ -900,7 +931,9 @@ export default function VisaApplicationJourney() {
                         color: '#9ca3af',
                       }}
                     >
-                      You can always come back and edit any section before submitting your application.
+                      {isSv
+                        ? 'Du kan alltid gå tillbaka och ändra valfri sektion innan du skickar in din ansökan.'
+                        : 'You can always come back and edit any section before submitting your application.'}
                     </Typography>
                   </Box>
                 </Box>
@@ -912,34 +945,36 @@ export default function VisaApplicationJourney() {
           {activeStep === 2 && (
             <Box>
               <Typography variant="h5" sx={{ fontWeight: 700, mb: 1, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
-                Upload Documents
+                {isSv ? 'Ladda upp dokument' : 'Upload Documents'}
               </Typography>
               <Typography sx={{ color: '#64748b', fontSize: { xs: '0.875rem', sm: '0.9375rem', '3xl': '1.05rem', '4k': '1.4rem' }, mb: 3 }}>
-                Management · Documents · Upload Documents
+                {isSv
+                  ? 'Hantera · Dokument · Ladda upp dokument'
+                  : 'Management · Documents · Upload Documents'}
               </Typography>
 
               <Box sx={{ backgroundColor: '#ffffff', p: { xs: 2.5, md: 3 }, borderRadius: '8px', mb: 3 }}>
                 <Typography variant="h6" sx={{ fontWeight: 700, mb: 3, fontSize: { xs: '1.1rem', '3xl': '1.25rem', '4k': '1.75rem' } }}>
-                  Document Details
+                  {isSv ? 'Dokumentdetaljer' : 'Document Details'}
                 </Typography>
 
                 <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: 'repeat(3, minmax(0, 1fr))' }, gap: 2, mb: 3 }}>
                   <FormControl size="small">
-                    <InputLabel>Who is the document for?</InputLabel>
+                    <InputLabel>{isSv ? 'Vem är dokumentet för?' : 'Who is the document for?'}</InputLabel>
                     <Select label="Who is the document for?">
                       <MenuItem value="john">John Doe</MenuItem>
                       <MenuItem value="other">Someone else</MenuItem>
                     </Select>
                   </FormControl>
                   <FormControl size="small">
-                    <InputLabel>Document Type</InputLabel>
+                    <InputLabel>{isSv ? 'Dokumenttyp' : 'Document Type'}</InputLabel>
                     <Select label="Document Type">
                       <MenuItem value="identity">Identity Documents</MenuItem>
                       <MenuItem value="financial">Financial Documents</MenuItem>
                     </Select>
                   </FormControl>
                   <FormControl size="small">
-                    <InputLabel>Document Sub Type</InputLabel>
+                    <InputLabel>{isSv ? 'Dokumentunderkategori' : 'Document Sub Type'}</InputLabel>
                     <Select label="Document Sub Type">
                       <MenuItem value="passport-valid">Passport (valid and visa pages)</MenuItem>
                       <MenuItem value="passport-other">Passport (other pages)</MenuItem>
@@ -948,7 +983,7 @@ export default function VisaApplicationJourney() {
                 </Box>
 
                 <TextField
-                  label="Document Details"
+                  label={isSv ? 'Dokumentinformation' : 'Document Details'}
                   placeholder="e.g. Passport"
                   fullWidth
                   multiline
@@ -967,7 +1002,9 @@ export default function VisaApplicationJourney() {
                 />
 
                 <Box sx={{ mb: 3 }}>
-                  <Typography sx={{ fontWeight: 600, mb: 2, fontSize: { xs: '0.95rem', '3xl': '1.05rem', '4k': '1.4rem' } }}>Uploaded Documents</Typography>
+                  <Typography sx={{ fontWeight: 600, mb: 2, fontSize: { xs: '0.95rem', '3xl': '1.05rem', '4k': '1.4rem' } }}>
+                    {isSv ? 'Uppladdade dokument' : 'Uploaded Documents'}
+                  </Typography>
                   <Box
                     sx={{
                       border: '2px dashed #cbd5e1',
@@ -986,9 +1023,11 @@ export default function VisaApplicationJourney() {
                   >
                     <CloudUploadIcon sx={{ color: '#3b82f6', fontSize: { xs: 32, '3xl': 38, '4k': 50 } }} />
                     <Box>
-                      <Typography sx={{ fontWeight: 600, fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' } }}>Click to upload documents</Typography>
+                      <Typography sx={{ fontWeight: 600, fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' } }}>
+                        {isSv ? 'Klicka för att ladda upp dokument' : 'Click to upload documents'}
+                      </Typography>
                       <Typography sx={{ color: '#94a3b8', fontSize: { xs: '0.8rem', '3xl': '0.9rem', '4k': '1.2rem' } }}>
-                        PNG, JPG or PDF up to 10 MB each
+                        {isSv ? 'PNG, JPG eller PDF upp till 10 MB per fil' : 'PNG, JPG or PDF up to 10 MB each'}
                       </Typography>
                     </Box>
                   </Box>
@@ -1049,7 +1088,7 @@ export default function VisaApplicationJourney() {
 
                 <Box sx={{ display: 'flex', gap: 2 }}>
                   <Button variant="outlined" sx={{ color: '#3b82f6', borderColor: '#3b82f6', textTransform: 'none' }}>
-                    Back
+                    {isSv ? 'Tillbaka' : 'Back'}
                   </Button>
                   <Button
                     variant="contained"
@@ -1059,7 +1098,7 @@ export default function VisaApplicationJourney() {
                       console.log('Uploading documents:', documents);
                     }}
                   >
-                    Upload All Documents
+                    {isSv ? 'Ladda upp alla dokument' : 'Upload All Documents'}
                   </Button>
                 </Box>
               </Box>
@@ -1070,7 +1109,7 @@ export default function VisaApplicationJourney() {
           {activeStep === 3 && (
             <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
               <Typography variant="h5" sx={{ fontWeight: 700, mb: 2, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
-                Upcoming Appointments
+                {isSv ? 'Kommande bokningar' : 'Upcoming Appointments'}
               </Typography>
 
               <Box
@@ -1284,10 +1323,12 @@ export default function VisaApplicationJourney() {
           {activeStep === 4 && (
             <Box>
               <Typography variant="h5" sx={{ fontWeight: 700, mb: 1, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
-                Submit Your Application
+                {isSv ? 'Skicka in din ansökan' : 'Submit Your Application'}
               </Typography>
               <Typography sx={{ color: '#64748b', mb: 3, fontSize: { xs: '0.875rem', sm: '0.9375rem', '3xl': '1.05rem', '4k': '1.4rem' } }}>
-                Review your details and submit. You can track the full process from your dashboard.
+                {isSv
+                  ? 'Granska dina uppgifter och skicka in. Du kan följa hela processen från din dashboard.'
+                  : 'Review your details and submit. You can track the full process from your dashboard.'}
               </Typography>
 
               <Box
@@ -1326,15 +1367,17 @@ export default function VisaApplicationJourney() {
                 <Box
                   sx={{
                     backgroundColor: '#ffffff',
-                    borderRadius: '28px',
-                    p: { xs: 3, md: 3.5, '3xl': 4, '4k': 5 },
+                    borderRadius: '30px',
+                    p: { xs: 2.75, md: 3, '3xl': 3.5, '4k': 4.25 },
                     color: '#111827',
                     display: 'flex',
                     flexDirection: 'column',
                     minHeight: { xs: 360, md: 400, lg: 430, '3xl': 460, '4k': 520 },
-                    boxShadow: '0 10px 40px rgba(15,23,42,0.12)',
+                    maxWidth: 360,
+                    mx: 'auto',
+                    boxShadow: '0 14px 40px rgba(15,23,42,0.08)',
+                    border: '1px solid #e5e7eb',
                     overflow: 'hidden',
-                    border: '1px solid rgba(148,163,184,0.15)',
                   }}
                 >
                   {/* Top flag section */}
@@ -1364,47 +1407,120 @@ export default function VisaApplicationJourney() {
                       {currentVisa.title}
                     </Typography>
 
-                    {/* Details grid */}
+                    {/* Details grid – Figma style: labels left, pills right */}
                     <Box
                       sx={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
-                        gap: { xs: 1.5, md: 2 },
-                        backgroundColor: '#f8fafc',
-                        borderRadius: '16px',
-                        p: { xs: 2, md: 2.5, '3xl': 3, '4k': 4 },
-                        border: '1px solid #e2e8f0',
+                        display: 'flex',
+                        alignItems: 'stretch',
+                        gap: { xs: 2, md: 2.5 },
+                        backgroundColor: '#f9fafb',
+                        borderRadius: '22px',
+                        p: { xs: 2, md: 2.25, '3xl': 2.75, '4k': 3.25 },
+                        border: '1px solid #e5e7eb',
+                        boxShadow: '0 10px 26px rgba(15,23,42,0.06)',
                       }}
                     >
-                      {[
-                        ['Case Number', currentVisa.caseNumber],
-                        ['Authority', currentVisa.authority],
-                        ['Status', currentVisa.status],
-                        ['Duration', currentVisa.duration],
-                      ].map(([label, value]) => (
-                        <Box key={label} sx={{ display: 'flex', flexDirection: 'column', gap: 0.75 }}>
-                          <Typography sx={{ fontSize: { xs: '0.7rem', md: '0.75rem', '3xl': '0.85rem', '4k': '1.1rem' }, color: '#64748b', fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                            {label}
-                          </Typography>
+                      {/* Left column: labels only */}
+                      <Box
+                        sx={{
+                          display: 'flex',
+                          flexDirection: 'column',
+                          justifyContent: 'space-between',
+                          gap: { xs: 1.25, md: 1.5 },
+                        }}
+                      >
+                        {['Case Number', 'Authority', 'Status', 'Duration'].map((label) => (
                           <Typography
+                            key={label}
                             sx={{
-                              fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
-                              fontWeight: 700,
-                              color: label === 'Duration' ? '#ffffff' : '#0f172a',
-                              backgroundColor: label === 'Duration' ? '#38bdf8' : '#e5e7eb',
-                              borderRadius: '999px',
-                              px: { xs: 1.5, md: 2 },
-                              py: { xs: 0.6, md: 0.75 },
-                              display: 'inline-flex',
-                              alignItems: 'center',
-                              justifyContent: 'center',
-                              width: 'fit-content',
+                              fontSize: { xs: '0.7rem', md: '0.75rem', '3xl': '0.85rem', '4k': '1.1rem' },
+                              color: '#94a3b8',
+                              fontWeight: 500,
                             }}
                           >
-                            {value}
+                            {label}
                           </Typography>
-                        </Box>
-                      ))}
+                        ))}
+                      </Box>
+
+                      {/* Right column: pills only */}
+                      <Box
+                        sx={{
+                          display: 'flex',
+                          flexDirection: 'column',
+                          justifyContent: 'space-between',
+                          gap: { xs: 1.25, md: 1.5 },
+                          alignItems: 'flex-start',
+                        }}
+                      >
+                        {/* Case number */}
+                        <Typography
+                          sx={{
+                            fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
+                            fontWeight: 700,
+                            color: '#0f172a',
+                            backgroundColor: '#e5e7eb',
+                            borderRadius: '999px',
+                            px: { xs: 1.9, md: 2.3 },
+                            py: { xs: 0.55, md: 0.7 },
+                            minWidth: 120,
+                            textAlign: 'center',
+                          }}
+                        >
+                          {currentVisa.caseNumber}
+                        </Typography>
+
+                        {/* Authority */}
+                        <Typography
+                          sx={{
+                            fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
+                            fontWeight: 700,
+                            color: '#0f172a',
+                            backgroundColor: '#e5e7eb',
+                            borderRadius: '999px',
+                            px: { xs: 1.9, md: 2.3 },
+                            py: { xs: 0.55, md: 0.7 },
+                            minWidth: 120,
+                            textAlign: 'center',
+                          }}
+                        >
+                          {currentVisa.authority}
+                        </Typography>
+
+                        {/* Status */}
+                        <Typography
+                          sx={{
+                            fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
+                            fontWeight: 700,
+                            color: '#0f172a',
+                            backgroundColor: '#e5e7eb',
+                            borderRadius: '999px',
+                            px: { xs: 1.9, md: 2.3 },
+                            py: { xs: 0.55, md: 0.7 },
+                            minWidth: 120,
+                            textAlign: 'center',
+                          }}
+                        >
+                          {currentVisa.status}
+                        </Typography>
+
+                        {/* Duration – blue pill */}
+                        <Typography
+                          sx={{
+                            fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
+                            fontWeight: 700,
+                            color: '#ffffff',
+                            backgroundColor: '#38bdf8',
+                            borderRadius: '999px',
+                            px: { xs: 1.9, md: 2.3 },
+                            py: { xs: 0.55, md: 0.7 },
+                            minWidth: 120,
+                            textAlign: 'center',
+                          }}
+                        >
+                          {currentVisa.duration}
+                        </Typography>
+                      </Box>
                     </Box>
 
                     {/* Footer info */}
@@ -1420,7 +1536,7 @@ export default function VisaApplicationJourney() {
                     >
                       <Box>
                         <Typography sx={{ fontSize: { xs: '0.7rem', md: '0.75rem', '3xl': '0.85rem', '4k': '1.1rem' }, color: '#64748b', mb: 0.5 }}>
-                          Registered on:
+                          {isSv ? 'Registrerad den:' : 'Registered on:'}
                         </Typography>
                         <Typography sx={{ fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, fontWeight: 700, color: '#0f172a' }}>
                           {currentVisa.registeredOn}
@@ -1428,7 +1544,7 @@ export default function VisaApplicationJourney() {
                       </Box>
                       <Box>
                         <Typography sx={{ fontSize: { xs: '0.7rem', md: '0.75rem', '3xl': '0.85rem', '4k': '1.1rem' }, color: '#64748b', mb: 0.5 }}>
-                          Country
+                          {isSv ? 'Land' : 'Country'}
                         </Typography>
                         <Typography sx={{ fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, fontWeight: 700, color: '#0f172a' }}>
                           {currentVisa.country}
@@ -1478,7 +1594,7 @@ export default function VisaApplicationJourney() {
                         },
                       }}
                     >
-                      View Details
+                      {isSv ? 'Visa detaljer' : 'View Details'}
                     </Button>
                   </Box>
                 </Box>

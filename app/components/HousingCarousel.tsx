@@ -9,6 +9,7 @@ import Chip from '@mui/material/Chip';
 import IconButton from '@mui/material/IconButton';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { useTranslation } from 'react-i18next';
 
 type ScrollDirection = 'left' | 'right';
 
@@ -93,16 +94,19 @@ function useCarousel({ autoPlay = true, autoPlayInterval = 3000 } = {}) {
 }
 
 export const HousingCarousel: React.FC = () => {
+  const { i18n } = useTranslation();
+  const isSv = i18n.language === 'sv';
+
   const housingServices = [
     {
       id: 'short-rental',
-      title: 'Short Term Rental',
-      badge: '221 Views',
+      title: isSv ? 'Korttidsuthyrning' : 'Short Term Rental',
+      badge: isSv ? '221 visningar' : '221 Views',
       rating: 4.9,
       image: '/h1.svg',
-      info: 'Short Stays, Long Comfort',
-      primaryAction: 'Reserve Now',
-      secondaryAction: 'Become A Host',
+      info: isSv ? 'Korta vistelser, lång komfort' : 'Short Stays, Long Comfort',
+      primaryAction: isSv ? 'Boka nu' : 'Reserve Now',
+      secondaryAction: isSv ? 'Bli värd' : 'Become A Host',
       locationIcon: '/location1.svg',
       cardColor: '#f0fdf4',
       headingBg: '#bbf7d0',
@@ -110,12 +114,12 @@ export const HousingCarousel: React.FC = () => {
     },
     {
       id: 'long-rental',
-      title: 'Long Term Rental',
-      badge: '153 Interested',
+      title: isSv ? 'Långtidsuthyrning' : 'Long Term Rental',
+      badge: isSv ? '153 intresserade' : '153 Interested',
       image: '/h2.svg',
-      info: 'Long-Term Housing Made Effortless',
-      primaryAction: 'Rent Now',
-      secondaryAction: 'Sublet Your Property',
+      info: isSv ? 'Långsiktigt boende gjort enkelt' : 'Long-Term Housing Made Effortless',
+      primaryAction: isSv ? 'Hyra nu' : 'Rent Now',
+      secondaryAction: isSv ? 'Uthyr din bostad' : 'Sublet Your Property',
       locationIcon: '/location1.svg',
       cardColor: '#fefce8',
       headingBg: '#fef08a',
@@ -123,12 +127,12 @@ export const HousingCarousel: React.FC = () => {
     },
     {
       id: 'buy-property',
-      title: 'Buy - Sell Property',
-      badge: '202 Visitors',
+      title: isSv ? 'Köp - Sälj bostad' : 'Buy - Sell Property',
+      badge: isSv ? '202 besökare' : '202 Visitors',
       image: '/h3.svg',
-      info: 'Buy-Sell & Mortgage Support',
-      primaryAction: 'Buy Now',
-      secondaryAction: 'Sell Your Property',
+      info: isSv ? 'Köp, sälj & bolånestöd' : 'Buy-Sell & Mortgage Support',
+      primaryAction: isSv ? 'Köp nu' : 'Buy Now',
+      secondaryAction: isSv ? 'Sälj din bostad' : 'Sell Your Property',
       locationIcon: '/location1.svg',
       cardColor: '#ecfeff',
       headingBg: '#a5f3fc',
@@ -142,14 +146,16 @@ export const HousingCarousel: React.FC = () => {
         {/* Heading Section */}
         <Box sx={{ maxWidth: '900px', mx: 'auto', textAlign: 'center', mb: 5 }}>
           <Typography sx={{ color: '#60a5fa', fontWeight: 500, fontSize: '0.9rem', mb: 1, letterSpacing: 0.5 }}>
-            Housing Solutions You Can Trust, Delivered on Time
+            {isSv
+              ? 'Trygga bostadslösningar, levererade i tid'
+              : 'Housing Solutions You Can Trust, Delivered on Time'}
           </Typography>
           <Typography sx={{ fontWeight: 900, fontSize: { xs: '2rem', md: '2.5rem' }, mb: 0.5, lineHeight: 1.1 }}>
-            End-to-End{' '}
+            {isSv ? 'Helhetslösningar för ' : 'End-to-End '}
             <Box component="span" sx={{ color: '#3b82f6', fontWeight: 900 }}>
-              Housing & Real Estate
+              {isSv ? 'bostad & fastigheter' : 'Housing & Real Estate'}
             </Box>{' '}
-            Support
+            {isSv ? 'stöd' : 'Support'}
           </Typography>
         </Box>
 

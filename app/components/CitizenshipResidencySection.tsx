@@ -179,8 +179,9 @@ export default function CitizenshipResidencySection() {
                       src={`https://flagcdn.com/48x36/${code}.png`}
                       alt={`${countryNames[code] || code.toUpperCase()} flag`}
                       sx={{
-                        width: '100%',
-                        height: '100%',
+                        width: 28,
+                        height: 28,
+                        borderRadius: '50%',
                         objectFit: 'cover',
                       }}
                     />
@@ -288,8 +289,9 @@ export default function CitizenshipResidencySection() {
                       src={`https://flagcdn.com/48x36/${code}.png`}
                       alt={`${countryNames[code] || code.toUpperCase()} flag`}
                       sx={{
-                        width: '100%',
-                        height: '100%',
+                        width: 28,
+                        height: 28,
+                        borderRadius: '50%',
                         objectFit: 'cover',
                       }}
                     />

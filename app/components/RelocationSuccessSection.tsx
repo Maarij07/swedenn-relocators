@@ -3,34 +3,121 @@
 import Image from 'next/image';
 import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
+import { useTranslation } from 'react-i18next';
 
-const SUCCESS_ITEMS = [
-  { label: 'Study in Sweden Applications', value: 94, icon: 's.svg' },
-  { label: 'EU Family Reunification', value: 92, icon: 'eu.svg' },
-  { label: 'Work Permit Applications', value: 96, icon: 'wp.svg' },
-  { label: 'LTR Residents EU Countries', value: 98, icon: 'lt.svg' },
-  { label: 'Relocation with Investment Solutions', value: 93, icon: 'inv.svg' },
+const SUCCESS_ITEMS_EN = [
+  {
+    label: 'Study in Sweden Applications',
+    value: 94,
+    icon: 's.svg',
+    barColor: '#60a5fa',
+    trackColor: '#e5f0ff',
+  },
+  {
+    label: 'EU Family Reunification',
+    value: 100,
+    icon: 'eu.svg',
+    barColor: '#4ade80',
+    trackColor: '#dcfce7',
+  },
+  {
+    label: 'Work Permit Applications',
+    value: 98,
+    icon: 'wp.svg',
+    barColor: '#fdba74',
+    trackColor: '#ffedd5',
+  },
+  {
+    label: 'LTR Residents EU Countries',
+    value: 96,
+    icon: 'lt.svg',
+    barColor: '#facc15',
+    trackColor: '#fef9c3',
+  },
+  {
+    label: 'Relocation with Investment Solutions',
+    value: 78,
+    icon: 'inv.svg',
+    barColor: '#fca5a5',
+    trackColor: '#fee2e2',
+  },
+];
+
+const SUCCESS_ITEMS_SV = [
+  {
+    label: 'Studier i Sverige-ansökningar',
+    value: 94,
+    icon: 's.svg',
+    barColor: '#60a5fa',
+    trackColor: '#e5f0ff',
+  },
+  {
+    label: 'EU-familjeåterförening',
+    value: 100,
+    icon: 'eu.svg',
+    barColor: '#4ade80',
+    trackColor: '#dcfce7',
+  },
+  {
+    label: 'Arbetstillståndsansökningar',
+    value: 98,
+    icon: 'wp.svg',
+    barColor: '#fdba74',
+    trackColor: '#ffedd5',
+  },
+  {
+    label: 'Långvariga bosättningar EU-länder',
+    value: 96,
+    icon: 'lt.svg',
+    barColor: '#facc15',
+    trackColor: '#fef9c3',
+  },
+  {
+    label: 'Relocation med investeringslösningar',
+    value: 78,
+    icon: 'inv.svg',
+    barColor: '#fca5a5',
+    trackColor: '#fee2e2',
+  },
 ];
 
 export default function RelocationSuccessSection() {
+  const { i18n } = useTranslation();
+  const isSv = i18n.language === 'sv';
+
+  // Select the appropriate success items based on language
+  const successItems = isSv ? SUCCESS_ITEMS_SV : SUCCESS_ITEMS_EN;
+
+  // Translations for UI elements
+  const texts = {
+    whyChooseUs: isSv ? 'VARFÖR VÄLJA OSS' : 'Why Choose Us',
+    teamProvide: isSv ? 'Vårt erfarna team erbjuder' : 'Our Experienced Team Provide',
+    relocationServices: isSv ? 'RELOCATION‑TJÄNSTER' : 'RELOCATION SERVICES',
+    readMore: isSv ? 'Läs mer' : 'Read More',
+    successGraph: isSv ? 'Vår framgångsgraf' : 'Our Success Graph',
+    description: isSv
+      ? 'Över ett decenniums beprövad erfarenhet av smidiga relocation‑ och immigrationslösningar med mycket höga framgångstal.'
+      : 'A decade of proven expertise, providing seamless relocation and immigration solutions with outstanding success rates.',
+  };
+
   return (
     <section className="bg-[#EBF4FF]">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
         {/* Centered headings with Read More button */}
         <div className="relative text-center mb-10 sm:mb-12 lg:mb-14">
           <p className="text-[0.7rem] sm:text-xs font-semibold tracking-[0.2em] text-slate-400 uppercase mb-2.5">
-            Why Choose Us
+            {texts.whyChooseUs}
           </p>
           <div className="relative">
             <h2 className="text-slate-900 font-extrabold leading-tight text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] 2xl:text-[2.75rem] 4k:text-[3.25rem] mb-2">
-              Our Experienced Team Provide
+              {texts.teamProvide}
             </h2>
             <button className="absolute top-0 right-0 sm:right-4 lg:right-6 inline-flex items-center justify-center rounded-lg bg-slate-900 text-white text-[0.65rem] sm:text-[0.75rem] font-semibold px-3.5 sm:px-4 py-1.5 sm:py-2 whitespace-nowrap shadow-[0 12px 30px rgba(15,23,42,0.25)] hover:bg-slate-800 transition-colors">
-              Read More
+              {texts.readMore}
             </button>
           </div>
           <h3 className="text-[1.35rem] sm:text-[1.5rem] lg:text-[1.75rem] 2xl:text-[2rem] 4k:text-[2.5rem] font-extrabold tracking-tight text-[#3b82f6]">
-            RELOCATION SERVICES
+            {texts.relocationServices}
           </h3>
         </div>
 
@@ -67,16 +154,16 @@ export default function RelocationSuccessSection() {
               {/* Header with title */}
               <div className="mb-6 sm:mb-7 lg:mb-8">
                 <h4 className="text-base sm:text-lg lg:text-[1.125rem] font-bold text-slate-900 mb-1.5 lg:mb-2">
-                  Our Success Graph
+                  {texts.successGraph}
                 </h4>
                 <p className="text-[0.7rem] sm:text-xs lg:text-[0.8125rem] text-slate-500 leading-relaxed max-w-sm">
-                  A decade of proven expertise, providing seamless relocation and immigration solutions with outstanding success rates.
+                  {texts.description}
                 </p>
               </div>
 
               {/* Success items list */}
               <div className="space-y-3 sm:space-y-3.5">
-                {SUCCESS_ITEMS.map((item) => (
+                {successItems.map((item) => (
                   <div key={item.label} className="flex gap-3">
                     {/* Icon - Direct SVG */}
                     <Image
@@ -101,12 +188,10 @@ export default function RelocationSuccessSection() {
                         sx={{
                           height: { xs: 7, sm: 8 },
                           borderRadius: 999,
-                          bgcolor: '#e0f2fe',
-                          boxShadow: 'inset 0 0 0 1px rgba(15,23,42,0.05)',
+                          bgcolor: item.trackColor,
                           '& .MuiLinearProgress-bar': {
                             borderRadius: 999,
-                            background: 'linear-gradient(90deg, #06b6d4 0%, #0891b2 100%)',
-                            boxShadow: '0 4px 12px rgba(6,182,212,0.3)',
+                            backgroundColor: item.barColor,
                           },
                         }}
                       />

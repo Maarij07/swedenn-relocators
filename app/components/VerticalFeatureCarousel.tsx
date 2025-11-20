@@ -2,6 +2,7 @@
 
 import React, { useMemo, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 interface FeatureItem {
   id: number;
@@ -11,7 +12,7 @@ interface FeatureItem {
   image: string;
 }
 
-const features: FeatureItem[] = [
+const featuresEn: FeatureItem[] = [
   {
     id: 1,
     title: 'All-in-One Platform',
@@ -46,6 +47,41 @@ const features: FeatureItem[] = [
   },
 ];
 
+const featuresSv: FeatureItem[] = [
+  {
+    id: 1,
+    title: 'Allt-i-ett-plattform',
+    description:
+      'Hantera alla dina relocationsbehov via en enda säker plattform. Från boende till dokumentation – allt är sömlöst integrerat.',
+    cta: 'Utforska',
+    image: '/a1.svg',
+  },
+  {
+    id: 2,
+    title: 'Expertrådgivning',
+    description:
+      'Få personlig stöttning från migrations- och relocationsexperter som kan Norden utan och innan.',
+    cta: 'Läs mer',
+    image: '/a2.svg',
+  },
+  {
+    id: 3,
+    title: 'Globalt nätverk',
+    description:
+      'Koppla upp dig mot vårt breda partnernätverk i Sverige, Danmark och övriga Norden för sömlös service.',
+    cta: 'Anslut',
+    image: '/a3.svg',
+  },
+  {
+    id: 4,
+    title: 'Företagslösningar',
+    description:
+      'Effektiviserade relocationprogram för anställda, anpassade för företag i alla storlekar. Hantera ert rörliga arbetskraftsbehov smidigt.',
+    cta: 'Upptäck',
+    image: '/c1.svg',
+  },
+];
+
 function getCardPosition(index: number, active: number, total: number) {
   if (index === active)
     return { y: 0, scale: 1, opacity: 1, zIndex: 3 } as const;
@@ -62,8 +98,13 @@ function getCardPosition(index: number, active: number, total: number) {
 }
 
 export default function VerticalFeatureCarousel() {
+  const { i18n } = useTranslation();
+  const isSv = i18n.language === 'sv';
+
+  const featureSet = isSv ? featuresSv : featuresEn;
+
   const [active, setActive] = useState(0);
-  const max = features.length - 1;
+  const max = featureSet.length - 1;
   const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
@@ -80,8 +121,8 @@ export default function VerticalFeatureCarousel() {
   const handleNext = () => setActive((i) => (i >= max ? 0 : i + 1));
 
   const positions = useMemo(
-    () => features.map((_, idx) => getCardPosition(idx, active, features.length)),
-    [active]
+    () => featureSet.map((_, idx) => getCardPosition(idx, active, featureSet.length)),
+    [active, featureSet]
   );
 
   return (
@@ -92,13 +133,24 @@ export default function VerticalFeatureCarousel() {
         {/* Heading – match Hero typography + alignment */}
         <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-16 xl:mb-20">
           <p className="text-[11px] sm:text-xs md:text-sm lg:text-sm font-semibold tracking-[0.18em] text-blue-600 mb-3 uppercase">
-            Our Services
+            {isSv ? 'Våra tjänster' : 'Our Services'}
           </p>
           <h2 className="text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 3xl:text-[3.25rem] 4k:text-[4rem] leading-[1.2] font-extrabold">
-            <span className="text-gray-900">Empowering </span>
-            <span className="text-blue-600">Business </span>
-            <span className="text-gray-900">with Digital </span>
-            <span className="text-blue-600">Solutions</span>
+            {isSv ? (
+              <>
+                <span className="text-gray-900">Vi stärker </span>
+                <span className="text-blue-600">företag </span>
+                <span className="text-gray-900">med digitala </span>
+                <span className="text-blue-600">lösningar</span>
+              </>
+            ) : (
+              <>
+                <span className="text-gray-900">Empowering </span>
+                <span className="text-blue-600">Business </span>
+                <span className="text-gray-900">with Digital </span>
+                <span className="text-blue-600">Solutions</span>
+              </>
+            )}
           </h2>
         </div>
 
@@ -124,7 +176,7 @@ export default function VerticalFeatureCarousel() {
         {/* CAROUSEL STAGE – extra height so centered card stays below heading */}
         <div className="relative w-full mb-4">
           <div className="relative w-full h-full min-h-[340px] md:min-h-[420px] lg:min-h-[460px] xl:min-h-[520px]">
-            {features.map((item, idx) => {
+            {featureSet.map((item, idx) => {
               const pos = positions[idx];
               const isActive = idx === active;
 
