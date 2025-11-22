@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 
 const BLOGS = [
@@ -117,9 +118,11 @@ export default function BlogsSection() {
 
         {/* Show more button */}
         <div className="flex justify-center">
-          <button className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 sm:px-8 py-2.5 text-[0.8rem] sm:text-[0.85rem] font-semibold text-slate-900 shadow-[0_10px_30px_rgba(15,23,42,0.06)] hover:bg-slate-50 transition-colors">
-            {texts.showMore}
-          </button>
+          <Link href="/blogs">
+            <button className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 sm:px-8 py-2.5 text-[0.8rem] sm:text-[0.85rem] font-semibold text-slate-900 shadow-[0_10px_30px_rgba(15,23,42,0.06)] hover:bg-slate-50 transition-colors">
+              {texts.showMore}
+            </button>
+          </Link>
         </div>
       </div>
     </section>
