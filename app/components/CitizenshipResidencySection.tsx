@@ -106,7 +106,7 @@ export default function CitizenshipResidencySection() {
           {/* Left Card - CBI */}
           <Card
             elevation={0}
-            className="rounded-2xl border border-slate-200 shadow-[0_18px_45px_rgba(15,23,42,0.06)] flex flex-col"
+            className="rounded-2xl border border-slate-200 shadow-[0_30px_60px_rgba(15,23,42,0.25),_0_15px_35px_rgba(59,130,246,0.15)] flex flex-col"
             sx={{ backgroundColor: '#ffffff' }}
           >
             <CardContent className="p-6 sm:p-7 lg:p-8 flex flex-col h-full">
@@ -176,12 +176,11 @@ export default function CitizenshipResidencySection() {
                   >
                     <Box
                       component="img"
-                      src={`https://flagcdn.com/48x36/${code}.png`}
+                      src={`https://flagcdn.com/w160/${code}.png`}
                       alt={`${countryNames[code] || code.toUpperCase()} flag`}
                       sx={{
-                        width: 28,
-                        height: 28,
-                        borderRadius: '50%',
+                        width: '100%',
+                        height: '100%',
                         objectFit: 'cover',
                       }}
                     />
@@ -216,7 +215,7 @@ export default function CitizenshipResidencySection() {
           {/* Right Card - RBI */}
           <Card
             elevation={0}
-            className="rounded-2xl border border-slate-200 shadow-[0_18px_45px_rgba(15,23,42,0.06)] flex flex-col"
+            className="rounded-2xl border border-slate-200 shadow-[0_30px_60px_rgba(15,23,42,0.25),_0_15px_35px_rgba(59,130,246,0.15)] flex flex-col"
             sx={{ backgroundColor: '#ffffff' }}
           >
             <CardContent className="p-6 sm:p-7 lg:p-8 flex flex-col h-full">
@@ -286,12 +285,11 @@ export default function CitizenshipResidencySection() {
                   >
                     <Box
                       component="img"
-                      src={`https://flagcdn.com/48x36/${code}.png`}
+                      src={`https://flagcdn.com/w160/${code}.png`}
                       alt={`${countryNames[code] || code.toUpperCase()} flag`}
                       sx={{
-                        width: 28,
-                        height: 28,
-                        borderRadius: '50%',
+                        width: '100%',
+                        height: '100%',
                         objectFit: 'cover',
                       }}
                     />

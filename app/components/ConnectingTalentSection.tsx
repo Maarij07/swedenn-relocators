@@ -13,22 +13,34 @@ const CARDS_EN = [
     statsIcon: '/peoples.svg',
     statsText: '223 candidates',
     features: [
-      ['Remote/Physical Jobs', 'Optimum Salary'],
-      ['Full/Part Timings', 'Hierarchical Positions'],
+      [
+        { text: 'Remote/Physical Jobs', icon: '/progress.svg' },
+        { text: 'Optimum Salary', icon: '/money.svg' }
+      ],
+      [
+        { text: 'Full/Part Timings', icon: '/watch.svg' },
+        { text: 'Hierarchical Positions', icon: '/people.svg' }
+      ],
     ],
     buttonText: 'Announce Job',
   },
   {
     id: 2,
     icon: '/b2.svg',
-    bgColor: '#0052cc',
+    bgColor: '#1e3a8a',
     title: 'Profile-Job Seeker',
     subtitle: 'Posted date: 28 Jul 2025 7:00 AM',
-    statsIcon: '/peoples.svg',
+    statsIcon: '/trendup.svg',
     statsText: '2,203 companies',
     features: [
-      ['Desired Location', 'Best Salary Offerings'],
-      ['Flexible Availability', 'Future Career Goals'],
+      [
+        { text: 'Desired Location', icon: '/place.svg' },
+        { text: 'Best Salary Offerings', icon: '/money.svg' }
+      ],
+      [
+        { text: 'Flexible Availability', icon: '/watch.svg' },
+        { text: 'Future Career Goals', icon: '/people.svg' }
+      ],
     ],
     buttonText: 'Create C.V',
   },
@@ -44,22 +56,34 @@ const CARDS_SV = [
     statsIcon: '/peoples.svg',
     statsText: '223 kandidater',
     features: [
-      ['Distans- och platsbaserade jobb', 'Optimala lönelösningar'],
-      ['Heltid / deltid', 'Roller på flera nivåer'],
+      [
+        { text: 'Distans- och platsbaserade jobb', icon: '/progress.svg' },
+        { text: 'Optimala lönelösningar', icon: '/money.svg' }
+      ],
+      [
+        { text: 'Heltid / deltid', icon: '/watch.svg' },
+        { text: 'Roller på flera nivåer', icon: '/people.svg' }
+      ],
     ],
     buttonText: 'Publicera jobb',
   },
   {
     id: 2,
     icon: '/b2.svg',
-    bgColor: '#0052cc',
+    bgColor: '#1e3a8a',
     title: 'Profil – arbetssökande',
     subtitle: 'Publicerad: 28 juli 2025 kl. 07:00',
-    statsIcon: '/peoples.svg',
+    statsIcon: '/trendup.svg',
     statsText: '2 203 företag',
     features: [
-      ['Önskad plats', 'Bästa löneerbjudanden'],
-      ['Flexibel tillgänglighet', 'Framtida karriärmål'],
+      [
+        { text: 'Önskad plats', icon: '/place.svg' },
+        { text: 'Bästa löneerbjudanden', icon: '/money.svg' }
+      ],
+      [
+        { text: 'Flexibel tillgänglighet', icon: '/watch.svg' },
+        { text: 'Framtida karriärmål', icon: '/people.svg' }
+      ],
     ],
     buttonText: 'Skapa CV',
   },
@@ -128,18 +152,31 @@ export default function ConnectingTalentSection() {
                   </button>
                 </div>
 
-                <div className="mt-5 flex items-center gap-2 text-slate-600">
-                  <Image src={card.statsIcon} alt="Stats" width={18} height={18} />
-                  <span className="text-sm sm:text-base">{card.statsText}</span>
+                <div className="mt-5 flex items-center gap-2">
+                  <Image
+                    src={card.statsIcon}
+                    alt="Stats"
+                    width={18}
+                    height={18}
+                  />
+                  <span className="text-sm sm:text-base text-slate-600">{card.statsText}</span>
                 </div>
 
                 <div className="mt-6 grid grid-cols-2 gap-4">
                   {card.features.map((column, colIndex) => (
                     <ul key={colIndex} className="space-y-3 text-slate-600 text-sm sm:text-base">
                       {column.map((feature) => (
-                        <li key={feature} className="flex items-center gap-2">
-                          <span className="inline-block w-2 h-2 rounded-full bg-slate-300" />
-                          {feature}
+                        <li key={feature.text} className="flex items-center gap-2">
+                          <div className="w-5 h-5 flex-shrink-0">
+                            <Image
+                              src={feature.icon}
+                              alt=""
+                              width={20}
+                              height={20}
+                              className="w-full h-full object-contain"
+                            />
+                          </div>
+                          <span>{feature.text}</span>
                         </li>
                       ))}
                     </ul>

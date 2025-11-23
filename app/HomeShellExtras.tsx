@@ -12,7 +12,7 @@ export default function HomeShellExtras() {
 
   // Hide these sections on the services page and blogs page
   // so they only show their own content + footer.
-  if (pathname === '/services' || pathname?.startsWith('/services/') || pathname === '/blogs' || pathname?.startsWith('/blogs/')) {
+  if (pathname === '/services' || pathname?.startsWith('/services/') || pathname === '/blogs' || pathname?.startsWith('/blogs/') || pathname === '/about' || pathname?.startsWith('/about/') || pathname === '/contact' || pathname?.startsWith('/contact/')) {
     return null;
   }
 

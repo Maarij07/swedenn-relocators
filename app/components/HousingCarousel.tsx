@@ -1,97 +1,39 @@
 'use client';
 
-import React, { useRef, useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { keyframes } from '@emotion/react';
+import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Chip from '@mui/material/Chip';
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
 import IconButton from '@mui/material/IconButton';
+import Chip from '@mui/material/Chip';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { useTranslation } from 'react-i18next';
 
-type ScrollDirection = 'left' | 'right';
+const slideUpAnimation = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
 
-function useCarousel({ autoPlay = true, autoPlayInterval = 3000 } = {}) {
-  const carouselRef = useRef<HTMLDivElement | null>(null);
-  const [canScrollLeft, setCanScrollLeft] = useState(false);
-  const [canScrollRight, setCanScrollRight] = useState(true);
-  const [isHovering, setIsHovering] = useState(false);
-
-  const checkScroll = useCallback(() => {
-    const element = carouselRef.current;
-    if (!element) return;
-
-    const scrollLeft = element.scrollLeft || 0;
-    const scrollWidth = element.scrollWidth || 0;
-    const clientWidth = element.clientWidth || 0;
-
-    setCanScrollLeft(scrollLeft > 0);
-    setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 10);
-  }, []);
-
-  const onScroll = useCallback(() => {
-    checkScroll();
-  }, [checkScroll]);
-
-  const scroll = useCallback((direction: ScrollDirection) => {
-    const element = carouselRef.current;
-    if (!element) return;
-
-    const clientWidth = element.clientWidth || 0;
-    const scrollLeft = element.scrollLeft || 0;
-    const scrollAmount = clientWidth * 0.8;
-    const newScrollLeft = direction === 'left'
-      ? scrollLeft - scrollAmount
-      : scrollLeft + scrollAmount;
-
-    element.scrollTo({
-      left: newScrollLeft,
-      behavior: 'smooth',
-    });
-  }, []);
-
-  useEffect(() => {
-    checkScroll();
-    const element = carouselRef.current;
-    if (element) {
-      element.addEventListener('scroll', onScroll);
-      return () => element.removeEventListener('scroll', onScroll);
-    }
-  }, [checkScroll, onScroll]);
-
-  useEffect(() => {
-    if (!autoPlay || isHovering) return;
-
-    const interval = setInterval(() => {
-      if (canScrollRight) {
-        scroll('right');
-      } else {
-        // Reset to start for infinite loop
-        const element = carouselRef.current;
-        if (element) {
-          element.scrollTo({ left: 0, behavior: 'smooth' });
-        }
-      }
-    }, autoPlayInterval);
-
-    return () => clearInterval(interval);
-  }, [autoPlay, autoPlayInterval, canScrollRight, scroll, isHovering]);
-
-  const handleMouseEnter = () => setIsHovering(true);
-  const handleMouseLeave = () => setIsHovering(false);
-
-  return {
-    carouselRef,
-    canScrollLeft,
-    canScrollRight,
-    onScroll,
-    scroll,
-    handleMouseEnter,
-    handleMouseLeave,
-  };
-}
+const AnimatedCard = styled(Card)({
+  animation: `${slideUpAnimation} 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards`,
+  opacity: 0,
+  transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+  '&:hover': {
+    boxShadow: '0 12px 40px rgba(0, 0, 0, 0.08)',
+    transform: 'translateY(-8px)',
+  },
+});
 
 export const HousingCarousel: React.FC = () => {
   const { i18n } = useTranslation();
@@ -108,7 +50,6 @@ export const HousingCarousel: React.FC = () => {
       primaryAction: isSv ? 'Boka nu' : 'Reserve Now',
       secondaryAction: isSv ? 'Bli värd' : 'Become A Host',
       locationIcon: '/location1.svg',
-      cardColor: '#f0fdf4',
       headingBg: '#bbf7d0',
       headingColor: '#166534',
     },
@@ -121,7 +62,6 @@ export const HousingCarousel: React.FC = () => {
       primaryAction: isSv ? 'Hyra nu' : 'Rent Now',
       secondaryAction: isSv ? 'Uthyr din bostad' : 'Sublet Your Property',
       locationIcon: '/location1.svg',
-      cardColor: '#fefce8',
       headingBg: '#fef08a',
       headingColor: '#854d0e',
     },
@@ -134,21 +74,49 @@ export const HousingCarousel: React.FC = () => {
       primaryAction: isSv ? 'Köp nu' : 'Buy Now',
       secondaryAction: isSv ? 'Sälj din bostad' : 'Sell Your Property',
       locationIcon: '/location1.svg',
-      cardColor: '#ecfeff',
       headingBg: '#a5f3fc',
       headingColor: '#155e75',
     },
   ];
 
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isTransitioning, setIsTransitioning] = useState(true);
+  const extendedServices = [...housingServices, ...housingServices, ...housingServices];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => {
+        const next = prev + 1;
+        if (next >= housingServices.length * 2) {
+          setTimeout(() => {
+            setIsTransitioning(false);
+            setCurrentIndex(housingServices.length);
+            setTimeout(() => setIsTransitioning(true), 50);
+          }, 700);
+          return next;
+        }
+        return next;
+      });
+    }, 4000);
+    return () => clearInterval(interval);
+  }, [housingServices.length]);
+
+  const handleNext = () => {
+    setIsTransitioning(true);
+    setCurrentIndex((prev) => prev + 1);
+  };
+
+  const handlePrev = () => {
+    setIsTransitioning(true);
+    setCurrentIndex((prev) => prev - 1);
+  };
+
   return (
-    <Box sx={{ py: 6, backgroundColor: '#EBF4FF' }}>
+    <Box sx={{ py: { xs: 6, sm: 8, lg: 10, xl: 12 }, backgroundColor: '#EBF4FF' }}>
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-        {/* Heading Section */}
-        <Box sx={{ maxWidth: '900px', mx: 'auto', textAlign: 'center', mb: 5 }}>
+        <Box sx={{ maxWidth: '900px', mx: 'auto', textAlign: 'center', mb: { xs: 6, sm: 8, lg: 10 } }}>
           <Typography sx={{ color: '#60a5fa', fontWeight: 500, fontSize: '0.9rem', mb: 1, letterSpacing: 0.5 }}>
-            {isSv
-              ? 'Trygga bostadslösningar, levererade i tid'
-              : 'Housing Solutions You Can Trust, Delivered on Time'}
+            {isSv ? 'Trygga bostadslösningar, levererade i tid' : 'Housing Solutions You Can Trust, Delivered on Time'}
           </Typography>
           <Typography sx={{ fontWeight: 900, fontSize: { xs: '2rem', md: '2.5rem' }, mb: 0.5, lineHeight: 1.1 }}>
             {isSv ? 'Helhetslösningar för ' : 'End-to-End '}
@@ -159,199 +127,51 @@ export const HousingCarousel: React.FC = () => {
           </Typography>
         </Box>
 
-        {/* Cards grid */}
-        <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: 'repeat(3, minmax(0, 1fr))' }, gap: 3 }}>
-          {housingServices.map((service) => (
-            <Card
-              key={service.id}
-              sx={{
-                borderRadius: 4,
-                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.05)',
-                border: 'none',
-                backgroundColor: service.cardColor,
-                p: 0,
-                overflow: 'hidden',
-                position: 'relative',
-                display: 'flex',
-                flexDirection: 'column',
-              }}
-            >
-              {/* Top section with badge, rating, and image */}
-              <Box sx={{ 
-                width: '100%', 
-                pt: 2, 
-                pb: 0, 
-                display: 'flex', 
-                flexDirection: 'column', 
-                alignItems: 'center', 
-                position: 'relative',
-                background: service.cardColor,
-              }}>
-                {/* Badge */}
-                <Chip 
-                  label={service.badge} 
-                  sx={{ 
-                    position: 'absolute', 
-                    top: 16, 
-                    left: 16, 
-                    background: '#1f2937', 
-                    color: '#fff', 
-                    fontWeight: 600, 
-                    fontSize: '0.8rem', 
-                    height: 28,
-                    borderRadius: 2,
-                  }} 
-                />
-                
-                {/* Rating */}
-                {service.rating && (
-                  <Box sx={{ 
-                    position: 'absolute', 
-                    top: 16, 
-                    right: 16, 
-                    background: '#fbbf24', 
-                    color: '#fff', 
-                    px: 1.5, 
-                    py: 0.3,
-                    height: 28,
-                    borderRadius: 2, 
-                    fontWeight: 700, 
-                    fontSize: '0.85rem', 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    gap: 0.3,
-                  }}>
-                    ★ {service.rating}
-                  </Box>
-                )}
-                
-                {/* Image */}
-                <Box 
-                  component="img" 
-                  src={service.image} 
-                  alt={service.title} 
-                  sx={{ 
-                    width: 200, 
-                    height: 160, 
-                    objectFit: 'contain',
-                    mb: 2,
-                    mt: 4,
-                  }} 
-                />
-              </Box>
-
-              {/* Heading with colored background */}
-              <Box sx={{ 
-                width: '100%', 
-                display: 'flex', 
-                justifyContent: 'center',
-                px: 3,
-                mb: 2,
-              }}>
-                <Box sx={{
-                  background: service.headingBg,
-                  color: service.headingColor,
-                  fontWeight: 700,
-                  fontSize: '1.1rem',
-                  px: 3,
-                  py: 1.2,
-                  borderRadius: 2,
-                  textAlign: 'center',
-                  width: '100%',
-                }}>
-                  {service.title}
+        <Box sx={{ position: 'relative', mx: { xs: 4, sm: 6, md: 8 } }}>
+          <IconButton onClick={handlePrev} sx={{ position: 'absolute', top: '50%', left: { xs: -40, sm: -48, md: -56 }, transform: 'translateY(-50%)', zIndex: 10, bgcolor: '#000000', color: 'white', width: { xs: 32, sm: 36, md: 40 }, height: { xs: 32, sm: 36, md: 40 }, boxShadow: '0 4px 12px rgba(0,0,0,0.2)', '&:hover': { bgcolor: '#1e293b' } }}><ArrowBackIcon sx={{ fontSize: { xs: 18, sm: 20 } }} /></IconButton>
+          <IconButton onClick={handleNext} sx={{ position: 'absolute', top: '50%', right: { xs: -40, sm: -48, md: -56 }, transform: 'translateY(-50%)', zIndex: 10, bgcolor: '#000000', color: 'white', width: { xs: 32, sm: 36, md: 40 }, height: { xs: 32, sm: 36, md: 40 }, boxShadow: '0 4px 12px rgba(0,0,0,0.2)', '&:hover': { bgcolor: '#1e293b' } }}><ArrowForwardIcon sx={{ fontSize: { xs: 18, sm: 20 } }} /></IconButton>
+          <Box sx={{ overflow: 'hidden', width: '100%' }}>
+            <Box sx={{ display: 'flex', transition: isTransitioning ? 'transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)' : 'none', transform: `translateX(-${currentIndex * (100 / 3)}%)` }}>
+              {extendedServices.map((service, idx) => (
+                <Box key={`${service.id}-${idx}`} sx={{ minWidth: 'calc(100% / 3)', px: { xs: 1.5, sm: 2, md: 2.5 } }}>
+                  <AnimatedCard sx={{ boxShadow: '0 4px 20px rgba(0, 0, 0, 0.06)', border: 'none', borderRadius: '20px', backgroundColor: '#ffffff', overflow: 'hidden', display: 'flex', flexDirection: 'column', height: '100%' }}>
+                    <Box sx={{ width: '100%', height: { xs: '200px', sm: '220px', md: '240px' }, backgroundColor: '#F3F5F7', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '20px 20px 0 0', boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)', position: 'relative' }}>
+                      <Chip label={service.badge} sx={{ position: 'absolute', top: 16, left: 16, background: '#1f2937', color: '#fff', fontWeight: 600, fontSize: '0.75rem', height: 28, borderRadius: 2 }} />
+                      {service.rating && (
+                        <Box sx={{ position: 'absolute', top: 16, right: 16, background: '#fbbf24', color: '#fff', px: 1.5, py: 0.3, height: 28, borderRadius: 2, fontWeight: 700, fontSize: '0.85rem', display: 'flex', alignItems: 'center', gap: 0.3 }}>
+                          ★ {service.rating}
+                        </Box>
+                      )}
+                      <Box sx={{ width: '80%', height: '80%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <img src={service.image} alt={service.title} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                      </Box>
+                    </Box>
+                    <CardContent sx={{ p: { xs: 2.5, sm: 3, md: 3.5 }, display: 'flex', flexDirection: 'column', gap: { xs: 1.5, sm: 2 }, flex: 1, backgroundColor: '#ffffff' }}>
+                      <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                        <Box sx={{ background: service.headingBg, color: service.headingColor, fontWeight: 700, fontSize: '1rem', px: 2.5, py: 1, borderRadius: 2, textAlign: 'center', width: '100%' }}>
+                          {service.title}
+                        </Box>
+                      </Box>
+                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
+                        <Box component="img" src={service.locationIcon} alt="location" sx={{ width: 16, height: 16 }} />
+                        <Typography sx={{ fontSize: '0.85rem', color: '#ef4444', fontWeight: 500 }}>{service.info}</Typography>
+                      </Box>
+                      <Box sx={{ mt: 'auto', display: 'flex', flexDirection: 'column', gap: 1.5 }}>
+                        <Button variant="outlined" fullWidth sx={{ background: '#fff', color: '#374151', fontWeight: 600, borderRadius: 2.5, border: 'none', boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)', py: 1.2, fontSize: '0.9rem', textTransform: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 0.5, '&:hover': { background: '#f9fafb', border: 'none', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.15)' } }}>
+                          {service.primaryAction}
+                          <span style={{ fontSize: '1.2rem', marginLeft: '4px' }}>›</span>
+                        </Button>
+                        <Button variant="contained" fullWidth sx={{ background: '#1f2937', color: '#fff', fontWeight: 600, borderRadius: 2.5, py: 1.2, fontSize: '0.9rem', boxShadow: 'none', textTransform: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 0.5, '&:hover': { background: '#374151', boxShadow: 'none' } }}>
+                          {service.secondaryAction}
+                          <span style={{ fontSize: '1.2rem', marginLeft: '4px' }}>›</span>
+                        </Button>
+                      </Box>
+                    </CardContent>
+                  </AnimatedCard>
                 </Box>
-              </Box>
-              
-              {/* Card content */}
-              <Box sx={{ 
-                px: 3, 
-                pb: 3,
-                flex: 1, 
-                display: 'flex', 
-                flexDirection: 'column',
-                background: service.cardColor,
-              }}>
-                {/* Info with location icon */}
-                <Box sx={{ mb: 2 }}>
-                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
-                    <Box 
-                      component="img" 
-                      src={service.locationIcon} 
-                      alt="location" 
-                      sx={{ width: 16, height: 16 }} 
-                    />
-                    <Typography sx={{ 
-                      fontSize: '0.9rem', 
-                      color: '#ef4444', 
-                      fontWeight: 500 
-                    }}>
-                      {service.info}
-                    </Typography>
-                  </Box>
-                </Box>
-                
-                {/* Buttons */}
-                <Box sx={{ mt: 'auto', display: 'flex', flexDirection: 'column', gap: 1.5 }}>
-                  {/* Primary Action - White button with arrow */}
-                  <Button 
-                    variant="outlined" 
-                    fullWidth 
-                    sx={{
-                      background: '#fff',
-                      color: '#374151',
-                      fontWeight: 600,
-                      borderRadius: 2.5,
-                      border: 'none',
-                      boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)',
-                      py: 1.3,
-                      fontSize: '0.95rem',
-                      textTransform: 'none',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      gap: 0.5,
-                      '&:hover': {
-                        background: '#f9fafb',
-                        border: 'none',
-                        boxShadow: '0 2px 4px rgba(0, 0, 0, 0.15)',
-                      },
-                    }}
-                  >
-                    {service.primaryAction}
-                    <span style={{ fontSize: '1.2rem', marginLeft: '4px' }}>›</span>
-                  </Button>
-                  
-                  {/* Secondary Action - Dark button with arrow */}
-                  <Button 
-                    variant="contained" 
-                    fullWidth 
-                    sx={{
-                      background: '#1f2937',
-                      color: '#fff',
-                      fontWeight: 600,
-                      borderRadius: 2.5,
-                      py: 1.3,
-                      fontSize: '0.95rem',
-                      boxShadow: 'none',
-                      textTransform: 'none',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      gap: 0.5,
-                      '&:hover': {
-                        background: '#374151',
-                        boxShadow: 'none',
-                      },
-                    }}
-                  >
-                    {service.secondaryAction}
-                    <span style={{ fontSize: '1.2rem', marginLeft: '4px' }}>›</span>
-                  </Button>
-                </Box>
-              </Box>
-            </Card>
-          ))}
+              ))}
+            </Box>
+          </Box>
         </Box>
       </div>
     </Box>

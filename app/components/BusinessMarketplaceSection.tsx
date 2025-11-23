@@ -9,31 +9,27 @@ const BUSINESS_CARDS_EN = [
     icon: '/b1.svg',
     category: 'Restaurant in Central Malmo',
     location: 'The Heart of Malmo, Sweden',
-    visitors: '120 Visitors',
-    headerVisitors: '120 Visitors',
     image: '/r1.svg',
     postedDate: 'Posted date: 2025-08-28 03:00 PM',
     price: '300,000 SEK',
     title: 'Restaurant Business for Sale',
     city: 'Malmo',
     listedDate: 'Listed on 2025-08-12',
-    visitorCount: '250 Visitors',
+    visitorCount: '120 Visitors',
     buttonText: 'Buy Now',
   },
   {
     id: 2,
-    icon: '/b2.svg',
+    icon: '/b1.svg',
     category: 'Advertisement Agency',
     location: 'Online Business Opportunity',
-    visitors: '85 Visitors',
-    headerVisitors: '85 Visitors',
     image: '/r2.svg',
     postedDate: 'Posted date: 2025-08-28 02:30 PM',
     price: '150,000 SEK',
     title: 'Online Advertisement Agency with clients',
     city: 'Malmo',
     listedDate: 'Listed on 2025-08-23',
-    visitorCount: '1k Visitors',
+    visitorCount: '15 Visitors',
     buttonText: 'List Your Business',
   },
 ];
@@ -44,31 +40,27 @@ const BUSINESS_CARDS_SV = [
     icon: '/b1.svg',
     category: 'Restaurang i centrala Malmö',
     location: 'Hjärtat av Malmö, Sverige',
-    visitors: '120 besökare',
-    headerVisitors: '120 besökare',
     image: '/r1.svg',
     postedDate: 'Publicerad: 2025-08-28 kl. 15:00',
     price: '300,000 SEK',
     title: 'Restaurangverksamhet till salu',
     city: 'Malmö',
     listedDate: 'Listad 2025-08-12',
-    visitorCount: '250 besökare',
+    visitorCount: '120 besökare',
     buttonText: 'Köp nu',
   },
   {
     id: 2,
-    icon: '/b2.svg',
+    icon: '/b1.svg',
     category: 'Reklambyrå',
     location: 'Affärsmöjlighet online',
-    visitors: '85 besökare',
-    headerVisitors: '85 besökare',
     image: '/r2.svg',
     postedDate: 'Publicerad: 2025-08-28 kl. 14:30',
     price: '150,000 SEK',
     title: 'Online‑reklambyrå med kunder',
     city: 'Malmö',
     listedDate: 'Listad 2025-08-23',
-    visitorCount: '1k besökare',
+    visitorCount: '15 besökare',
     buttonText: 'Lista ditt företag',
   },
 ];
@@ -118,12 +110,19 @@ export default function BusinessMarketplaceSection() {
                     </p>
                   </div>
                 </div>
-                <span className="inline-flex h-6 items-center rounded-full bg-slate-50 px-2 text-[0.65rem] text-slate-400">
-                  {card.headerVisitors}
-                </span>
+                <button className="w-8 h-8 rounded-full flex items-center justify-center text-slate-400 hover:text-slate-600">
+                  ⋮
+                </button>
               </div>
 
-              <div className="px-5 pt-4">
+              <div className="px-5 pt-3 pb-2">
+                <div className="flex items-center gap-2 text-slate-600 text-xs sm:text-sm">
+                  <Image src="/peoples.svg" alt="Visitors" width={14} height={14} />
+                  <span>{card.visitorCount}</span>
+                </div>
+              </div>
+
+              <div className="px-5 pt-2">
                 <div className="relative rounded-2xl overflow-hidden bg-slate-100">
                   <Image
                     src={card.image}
@@ -145,7 +144,7 @@ export default function BusinessMarketplaceSection() {
                   {card.title}
                 </h3>
 
-                <div className="space-y-1.5 text-slate-500">
+                <div className="space-y-1.5 text-slate-500 text-xs sm:text-sm">
                   <div className="flex items-center gap-2">
                     <Image src="/location.svg" alt="Location" width={14} height={14} />
                     <span>{card.city}</span>
@@ -153,10 +152,6 @@ export default function BusinessMarketplaceSection() {
                   <div className="flex items-center gap-2">
                     <Image src="/time.svg" alt="Updated" width={14} height={14} />
                     <span>{card.listedDate}</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Image src="/peoples.svg" alt="Visitors" width={14} height={14} />
-                    <span>{card.visitorCount}</span>
                   </div>
                 </div>
 

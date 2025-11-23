@@ -24,7 +24,8 @@ export function GlobalVisaPlatform() {
   return (
     <Box
       sx={{
-        py: { xs: '4rem', sm: '5rem', lg: '6rem', xl: '7rem' },
+        pt: { xs: '4rem', sm: '5rem', lg: '6rem', xl: '7rem' },
+        pb: { xs: '2rem', sm: '2.5rem', lg: '3rem', xl: '3.5rem' },
         backgroundColor: '#ffffff',
       }}
     >
@@ -100,15 +101,31 @@ export function GlobalVisaPlatform() {
               order: { xs: 2, lg: 1 },
             }}
           >
-            {/* Text card with subtle shadow, similar to Figma reference */}
+            {/* Text card with enhanced 3D shadow and depth */}
             <Box
               sx={{
                 backgroundColor: '#ffffff',
                 borderRadius: { xs: '18px', sm: '20px', md: '22px' },
                 px: { xs: '1.5rem', sm: '2rem', md: '2.5rem' },
                 py: { xs: '1.5rem', sm: '2rem', md: '2.25rem' },
-                boxShadow: '0 22px 45px rgba(15, 23, 42, 0.08)',
-                border: '1px solid rgba(148, 163, 184, 0.12)',
+                boxShadow: '0 20px 50px rgba(15, 23, 42, 0.15), 0 8px 20px rgba(59, 130, 246, 0.08), 0 2px 8px rgba(0, 0, 0, 0.06)',
+                border: '1px solid rgba(148, 163, 184, 0.15)',
+                position: 'relative',
+                '&::before': {
+                  content: '""',
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  borderRadius: { xs: '18px', sm: '20px', md: '22px' },
+                  padding: '1px',
+                  background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(147, 197, 253, 0.05))',
+                  WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
+                  WebkitMaskComposite: 'xor',
+                  maskComposite: 'exclude',
+                  pointerEvents: 'none',
+                },
               }}
             >
               {/* Title */}

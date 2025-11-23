@@ -15,6 +15,7 @@ import {
 import Image from 'next/image';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import { useTranslation } from 'react-i18next';
+import { MovingFlagsCarousel } from './MovingFlagsCarousel';
 
 const steps = [
   { name: 'Create Account' },
@@ -71,6 +72,9 @@ export default function VisaApplicationJourney() {
   const [accountType, setAccountType] = useState<string>('');
   const [accountCategory, setAccountCategory] = useState<string>('');
 
+  // Step 2 (Personal Information) dropdown state
+  const [gender, setGender] = useState<string>('');
+
   // Upload documents state (Upload Document step)
   const [documents, setDocuments] = useState<
     Array<{
@@ -80,7 +84,7 @@ export default function VisaApplicationJourney() {
     }>
   >([]);
 
-// Inline calendar state (Appointment step)
+  // Inline calendar state (Appointment step)
   const [calendarDate, setCalendarDate] = useState(() => new Date(2025, 9, 1)); // October 2025 to match Figma
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [viewMode, setViewMode] = useState<'Month' | 'Week' | 'Day' | 'Agenda'>('Month');
@@ -165,11 +169,11 @@ export default function VisaApplicationJourney() {
   );
 
   return (
-    <Box sx={{ width: '100%', backgroundColor: '#EBF4FF', py: { xs: '3rem', sm: '4rem', md: '5rem', lg: '6rem', '3xl': '7rem', '4k': '8rem' }, overflowX: 'hidden' }}>
+    <Box sx={{ width: '100%', backgroundColor: '#FFFFFF', pt: { xs: '0.25rem', sm: '0.5rem', md: '0.75rem', lg: '1rem', '3xl': '1.25rem', '4k': '1.5rem' }, pb: { xs: '3rem', sm: '4rem', md: '5rem', lg: '6rem', '3xl': '7rem', '4k': '8rem' }, overflowX: 'hidden' }}>
       {/* EXACT same container as Hero/Services (Tailwind classes) */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         {/* ---------- TIMELINE ---------- */}
-        <Box sx={{ mb: { xs: 8, sm: 10, lg: 12 }, px: { xs: 2, sm: 4, md: 6, lg: 8 } }}>
+        <Box sx={{ mb: { xs: 4, sm: 5, lg: 6 } }}>
           <Box sx={{ position: 'relative', py: { xs: 6, sm: 7, lg: 8 } }}>
             {/* Main timeline container */}
             <Box
@@ -308,10 +312,10 @@ export default function VisaApplicationJourney() {
                     },
                   }}
                 >
-                  <Image 
-                    src="/aeroplane.svg" 
-                    alt="Plane" 
-                    width={30} 
+                  <Image
+                    src="/aeroplane.svg"
+                    alt="Plane"
+                    width={30}
                     height={24}
                     style={{ width: '100%', height: '100%' }}
                   />
@@ -319,6 +323,11 @@ export default function VisaApplicationJourney() {
               </Box>
             </Box>
           </Box>
+        </Box>
+
+        {/* ---------- FLAG SLIDER ---------- */}
+        <Box sx={{ mb: { xs: 4, sm: 5, lg: 6 } }}>
+          <MovingFlagsCarousel />
         </Box>
 
         {/* ---------- CONTENT AREA ---------- */}
@@ -346,8 +355,23 @@ export default function VisaApplicationJourney() {
                 boxShadow: '0 24px 60px rgba(15,23,42,0.10)',
                 p: { xs: 2.25, sm: 2.75, md: 3.25 },
                 display: 'flex',
+                position: 'relative',
+                overflow: 'hidden',
               }}
             >
+              {/* Light background only on left half */}
+              <Box
+                sx={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  bottom: 0,
+                  width: '50%',
+                  backgroundColor: '#f8f9fa',
+                  borderRadius: '24px 0 0 24px',
+                  zIndex: 0,
+                }}
+              />
               <Box
                 sx={{
                   display: 'grid',
@@ -364,14 +388,15 @@ export default function VisaApplicationJourney() {
                   },
                   alignItems: 'stretch',
                   width: '100%',
+                  position: 'relative',
+                  zIndex: 1,
                 }}
               >
                 {/* LEFT: big account illustration card */}
                 <Box
                   sx={{
-                    backgroundColor: '#fff7f3',
+                    backgroundColor: 'transparent',
                     borderRadius: '24px',
-                    boxShadow: '0 20px 50px rgba(15,23,42,0.10)',
                     px: { xs: 3, md: 3.5 },
                     pt: { xs: 3, md: 3.5 },
                     pb: { xs: 2.5, md: 3 },
@@ -549,7 +574,8 @@ export default function VisaApplicationJourney() {
 
                   {/* Dropdowns section */}
                   <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2.5, mt: 1 }}>
-                    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
+                    {/* Account Type */}
+                    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, position: 'relative' }}>
                       <Typography
                         sx={{
                           fontWeight: 600,
@@ -559,31 +585,123 @@ export default function VisaApplicationJourney() {
                       >
                         {isSv ? 'Kontotyp' : 'Account Type'}
                       </Typography>
-                      <FormControl fullWidth size="small">
-                        <Select
-                          displayEmpty
-                          value={accountType}
-                          onChange={(e) => setAccountType(e.target.value as string)}
-                          sx={{
-                            borderRadius: '10px',
-                            backgroundColor: '#f9fafb',
-                            boxShadow: '0 8px 20px rgba(148,163,184,0.25)',
-                          }}
-                        >
-                          <MenuItem value="">
-                            <em>{isSv ? 'Välj kontotyp' : 'Choose the type of account'}</em>
-                          </MenuItem>
-                          <MenuItem value="individual">
-                            {isSv ? 'INDIVIDUELLT (PRIVAT KONTO)' : 'INDIVIDUAL (PRIVATE ACCOUNT)'}
-                          </MenuItem>
-                          <MenuItem value="organization">
-                            {isSv ? 'ORGANISATION (AGENTKONTO)' : 'ORGANIZATION (AGENT ACCOUNT)'}
-                          </MenuItem>
-                        </Select>
-                      </FormControl>
+                      <Box
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setAccountType(accountType === 'open' ? '' : 'open');
+                        }}
+                        sx={{
+                          borderRadius: '10px',
+                          backgroundColor: '#ffffff',
+                          border: accountType === 'open' ? '2px solid #3b82f6' : '1px solid #e5e7eb',
+                          px: 2,
+                          py: 1.5,
+                          cursor: 'pointer',
+                          transition: 'all 0.2s ease',
+                          '&:hover': {
+                            borderColor: '#3b82f6',
+                          },
+                        }}
+                      >
+                        <Typography sx={{ fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, color: accountType && accountType !== 'open' ? '#0f172a' : '#94a3b8', fontStyle: accountType && accountType !== 'open' ? 'normal' : 'italic' }}>
+                          {accountType === 'individual' ? (isSv ? 'INDIVIDUELLT (PRIVAT KONTO)' : 'INDIVIDUAL (PRIVATE ACCOUNT)') : accountType === 'organization' ? (isSv ? 'ORGANISATION (AGENTKONTO)' : 'ORGANIZATION (AGENT ACCOUNT)') : (isSv ? 'Välj kontotyp' : 'Choose the type of account')}
+                        </Typography>
+                        {accountType && accountType !== 'open' && (
+                          <Typography sx={{ fontSize: '0.8rem', color: '#64748b', mt: 0.3 }}>
+                            {accountType === 'individual' ? (isSv ? 'Skapa ditt konto för att ansöka för dig själv och din familj' : 'Set up your account to apply for yourself and your family') : (isSv ? 'För agenter och organisationer' : 'For agents and organizations')}
+                          </Typography>
+                        )}
+                      </Box>
+                      {accountType === 'open' && (
+                        <>
+                          {/* Backdrop to close on click outside */}
+                          <Box
+                            onClick={() => setAccountType('')}
+                            sx={{
+                              position: 'fixed',
+                              top: 0,
+                              left: 0,
+                              right: 0,
+                              bottom: 0,
+                              zIndex: 999,
+                            }}
+                          />
+                          {/* Dropdown overlay */}
+                          <Box
+                            onClick={(e) => e.stopPropagation()}
+                            sx={{
+                              position: 'absolute',
+                              top: '100%',
+                              left: 0,
+                              right: 0,
+                              mt: 0.5,
+                              border: '1px solid #e5e7eb',
+                              borderRadius: '10px',
+                              overflow: 'hidden',
+                              backgroundColor: '#ffffff',
+                              boxShadow: '0 10px 40px rgba(0, 0, 0, 0.1)',
+                              zIndex: 1000,
+                              animation: 'slideDown 0.2s ease-out',
+                              '@keyframes slideDown': {
+                                '0%': {
+                                  opacity: 0,
+                                  transform: 'translateY(-8px)',
+                                },
+                                '100%': {
+                                  opacity: 1,
+                                  transform: 'translateY(0)',
+                                },
+                              },
+                            }}
+                          >
+                            <Box
+                              onClick={() => setAccountType('individual')}
+                              sx={{
+                                px: 2,
+                                py: 1.5,
+                                cursor: 'pointer',
+                                backgroundColor: '#ffffff',
+                                transition: 'background-color 0.15s ease',
+                                '&:hover': {
+                                  backgroundColor: '#f3f4f6',
+                                },
+                              }}
+                            >
+                              <Typography sx={{ fontWeight: 600, fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, color: '#0f172a' }}>
+                                {isSv ? 'INDIVIDUELLT (PRIVAT KONTO)' : 'INDIVIDUAL (PRIVATE ACCOUNT)'}
+                              </Typography>
+                              <Typography sx={{ fontSize: '0.8rem', color: '#64748b', mt: 0.3 }}>
+                                {isSv ? 'Skapa ditt konto för att ansöka för dig själv och din familj' : 'Set up your account to apply for yourself and your family'}
+                              </Typography>
+                            </Box>
+                            <Box
+                              onClick={() => setAccountType('organization')}
+                              sx={{
+                                px: 2,
+                                py: 1.5,
+                                cursor: 'pointer',
+                                backgroundColor: '#ffffff',
+                                borderTop: '1px solid #e5e7eb',
+                                transition: 'background-color 0.15s ease',
+                                '&:hover': {
+                                  backgroundColor: '#f3f4f6',
+                                },
+                              }}
+                            >
+                              <Typography sx={{ fontWeight: 600, fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, color: '#0f172a' }}>
+                                {isSv ? 'ORGANISATION (AGENTKONTO)' : 'ORGANIZATION (AGENT ACCOUNT)'}
+                              </Typography>
+                              <Typography sx={{ fontSize: '0.8rem', color: '#64748b', mt: 0.3 }}>
+                                {isSv ? 'För agenter och organisationer' : 'For agents and organizations'}
+                              </Typography>
+                            </Box>
+                          </Box>
+                        </>
+                      )}
                     </Box>
 
-                    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
+                    {/* Account Category */}
+                    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, position: 'relative' }}>
                       <Typography
                         sx={{
                           fontWeight: 600,
@@ -591,35 +709,144 @@ export default function VisaApplicationJourney() {
                           fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
                         }}
                       >
-                        {isSv
-                          ? 'Kategori för privat individuellt konto'
-                          : 'Individual Private Account Category'}
+                        {isSv ? 'INDIVIDUELLT (PRIVAT KONTO) Underkategori' : 'INDIVIDUAL (PRIVATE ACCOUNT) Subtype'}
                       </Typography>
-                      <FormControl fullWidth size="small">
-                        <Select
-                          displayEmpty
-                          value={accountCategory}
-                          onChange={(e) => setAccountCategory(e.target.value as string)}
-                          sx={{
-                            borderRadius: '10px',
-                            backgroundColor: '#f9fafb',
-                            boxShadow: '0 8px 20px rgba(148,163,184,0.25)',
-                          }}
-                        >
-                          <MenuItem value="">
-                            <em>{isSv ? 'Välj kontokategori för att fortsätta' : 'Select account category to continue'}</em>
-                          </MenuItem>
-                          <MenuItem value="family">
-                            {isSv ? 'Hela familjen / vänner' : 'Full Family / Friends'}
-                          </MenuItem>
-                          <MenuItem value="work_study">
-                            {isSv ? 'Arbete, studier & arbetssökandevisum' : 'Work, Study & Job Seeker Visas'}
-                          </MenuItem>
-                          <MenuItem value="visit">
-                            {isSv ? 'Besöksvisum (turism och korta besök)' : 'Visit Visa (tourism and short visits)'}
-                          </MenuItem>
-                        </Select>
-                      </FormControl>
+                      <Box
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setAccountCategory(accountCategory === 'open' ? '' : 'open');
+                        }}
+                        sx={{
+                          borderRadius: '10px',
+                          backgroundColor: '#ffffff',
+                          border: accountCategory === 'open' ? '2px solid #3b82f6' : '1px solid #e5e7eb',
+                          px: 2,
+                          py: 1.5,
+                          cursor: 'pointer',
+                          transition: 'all 0.2s ease',
+                          '&:hover': {
+                            borderColor: '#3b82f6',
+                          },
+                        }}
+                      >
+                        <Typography sx={{ fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, color: accountCategory && accountCategory !== 'open' ? '#0f172a' : '#94a3b8', fontStyle: accountCategory && accountCategory !== 'open' ? 'normal' : 'italic' }}>
+                          {accountCategory === 'family' ? (isSv ? 'EU-familjetillstånd' : 'EU Family Permits') : accountCategory === 'work_study' ? (isSv ? 'Arbete, studier & arbetssökandevisum' : 'Work, Study & Job-Seeker Visas') : accountCategory === 'visit' ? (isSv ? 'Besöksvisum' : 'Visit Visa Services') : (isSv ? 'INDIVIDUELLT (PRIVAT KONTO) Underkategori' : 'INDIVIDUAL (PRIVATE ACCOUNT) Subtype')}
+                        </Typography>
+                        {accountCategory && accountCategory !== 'open' && (
+                          <Typography sx={{ fontSize: '0.8rem', color: '#64748b', mt: 0.3 }}>
+                            {accountCategory === 'family' ? (isSv ? 'Återförening med make/maka, barn, föräldrar och släktingar under EU-lag' : 'Reunite with spouse, children, parents & in-laws under EU law') : accountCategory === 'work_study' ? (isSv ? 'Ansök om tillstånd för arbete, studier eller söka jobb' : 'Apply for permits to work, study, or look for jobs') : (isSv ? 'Turism, familj- och affärsbesök världen över' : 'Tourist, family, and business visit visas worldwide')}
+                          </Typography>
+                        )}
+                      </Box>
+                      {accountCategory === 'open' && (
+                        <>
+                          {/* Backdrop to close on click outside */}
+                          <Box
+                            onClick={() => setAccountCategory('')}
+                            sx={{
+                              position: 'fixed',
+                              top: 0,
+                              left: 0,
+                              right: 0,
+                              bottom: 0,
+                              zIndex: 999,
+                            }}
+                          />
+                          {/* Dropdown overlay */}
+                          <Box
+                            onClick={(e) => e.stopPropagation()}
+                            sx={{
+                              position: 'absolute',
+                              top: '100%',
+                              left: 0,
+                              right: 0,
+                              mt: 0.5,
+                              border: '1px solid #e5e7eb',
+                              borderRadius: '10px',
+                              overflow: 'hidden',
+                              backgroundColor: '#ffffff',
+                              boxShadow: '0 10px 40px rgba(0, 0, 0, 0.1)',
+                              maxHeight: 300,
+                              overflowY: 'auto',
+                              zIndex: 1000,
+                              animation: 'slideDown 0.2s ease-out',
+                              '@keyframes slideDown': {
+                                '0%': {
+                                  opacity: 0,
+                                  transform: 'translateY(-8px)',
+                                },
+                                '100%': {
+                                  opacity: 1,
+                                  transform: 'translateY(0)',
+                                },
+                              },
+                            }}
+                          >
+                            <Box
+                              onClick={() => setAccountCategory('family')}
+                              sx={{
+                                px: 2,
+                                py: 1.5,
+                                cursor: 'pointer',
+                                backgroundColor: '#ffffff',
+                                transition: 'background-color 0.15s ease',
+                                '&:hover': {
+                                  backgroundColor: '#f3f4f6',
+                                },
+                              }}
+                            >
+                              <Typography sx={{ fontWeight: 600, fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, color: '#0f172a' }}>
+                                {isSv ? 'EU-familjetillstånd' : 'EU Family Permits'}
+                              </Typography>
+                              <Typography sx={{ fontSize: '0.8rem', color: '#64748b', mt: 0.3 }}>
+                                {isSv ? 'Återförening med make/maka, barn, föräldrar och släktingar under EU-lag' : 'Reunite with spouse, children, parents & in-laws under EU law'}
+                              </Typography>
+                            </Box>
+                            <Box
+                              onClick={() => setAccountCategory('work_study')}
+                              sx={{
+                                px: 2,
+                                py: 1.5,
+                                cursor: 'pointer',
+                                backgroundColor: '#ffffff',
+                                borderTop: '1px solid #e5e7eb',
+                                transition: 'background-color 0.15s ease',
+                                '&:hover': {
+                                  backgroundColor: '#f3f4f6',
+                                },
+                              }}
+                            >
+                              <Typography sx={{ fontWeight: 600, fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, color: '#0f172a' }}>
+                                {isSv ? 'Arbete, studier & arbetssökandevisum' : 'Work, Study & Job-Seeker Visas'}
+                              </Typography>
+                              <Typography sx={{ fontSize: '0.8rem', color: '#64748b', mt: 0.3 }}>
+                                {isSv ? 'Ansök om tillstånd för arbete, studier eller söka jobb' : 'Apply for permits to work, study, or look for jobs'}
+                              </Typography>
+                            </Box>
+                            <Box
+                              onClick={() => setAccountCategory('visit')}
+                              sx={{
+                                px: 2,
+                                py: 1.5,
+                                cursor: 'pointer',
+                                backgroundColor: '#ffffff',
+                                borderTop: '1px solid #e5e7eb',
+                                transition: 'background-color 0.15s ease',
+                                '&:hover': {
+                                  backgroundColor: '#f3f4f6',
+                                },
+                              }}
+                            >
+                              <Typography sx={{ fontWeight: 600, fontSize: { xs: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, color: '#0f172a' }}>
+                                {isSv ? 'Besöksvisum' : 'Visit Visa Services'}
+                              </Typography>
+                              <Typography sx={{ fontSize: '0.8rem', color: '#64748b', mt: 0.3 }}>
+                                {isSv ? 'Turism, familj- och affärsbesök världen över' : 'Tourist, family, and business visit visas worldwide'}
+                              </Typography>
+                            </Box>
+                          </Box>
+                        </>
+                      )}
                     </Box>
                   </Box>
 
@@ -714,11 +941,10 @@ export default function VisaApplicationJourney() {
                       borderRadius: '24px',
                       boxShadow: '0 20px 60px rgba(15,23,42,0.08)',
                       border: '1px solid #e5e7eb',
-                      p: { xs: 2.25, md: 3 },
+                      p: { xs: 1.5, md: 2 },
                       display: 'flex',
                       flexDirection: 'column',
-                      gap: { xs: 1.5, md: 2 },
-                      minHeight: { xs: 280, md: 320 },
+                      gap: { xs: 1, md: 1.2 },
                     }}
                   >
                     {/* Top pill: All-in-One Global Visa Platform */}
@@ -755,44 +981,453 @@ export default function VisaApplicationJourney() {
                       </Typography>
                     </Box>
 
-                    <Typography variant="h6" sx={{ fontWeight: 700, color: '#3b82f6', fontSize: { xs: '0.95rem', '3xl': '1.1rem', '4k': '1.5rem' } }}>
+                    <Typography variant="h6" sx={{ fontWeight: 700, color: '#3b82f6', fontSize: '0.85rem' }}>
                       {isSv ? 'STEG 2: Ansök' : 'STEP 2: Apply'}
                     </Typography>
-                    <Typography variant="h5" sx={{ fontWeight: 700, mb: 1.5, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
+                    <Typography variant="h5" sx={{ fontWeight: 700, mb: 0.3, fontSize: '1.1rem' }}>
                       {isSv ? 'Personuppgifter' : 'Personal Information'}
                     </Typography>
+                    <Typography sx={{ fontSize: '0.75rem', color: '#64748b', mb: 1 }}>
+                      {isSv ? 'Fyll i dina personuppgifter' : 'Fill Name (as per passport)'}
+                    </Typography>
 
-                    <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 2 }}>
-                      <TextField label="First Name" placeholder="Enter your first name" size="small" />
-                      <TextField label="Last Name" placeholder="Enter your last name" size="small" />
-                      <TextField label="Date of Birth" type="date" InputLabelProps={{ shrink: true }} size="small" />
-                      <FormControl size="small">
-                        <InputLabel>Gender</InputLabel>
-                        <Select label="Gender">
-                          <MenuItem value="male">Male</MenuItem>
-                          <MenuItem value="female">Female</MenuItem>
-                        </Select>
-                      </FormControl>
-                      <TextField label="Passport Number" placeholder="Enter passport number" size="small" />
-                      <TextField label="Passport Expiry" type="date" InputLabelProps={{ shrink: true }} size="small" />
+                    {/* Form Fields */}
+                    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.2 }}>
+                      {/* First Name & Last Name */}
+                      <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 2 }}>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+                          <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                            {isSv ? 'Förnamn' : 'First Name'}
+                          </Typography>
+                          <TextField
+                            placeholder="Demo"
+                            fullWidth
+                            sx={{
+                              '& .MuiOutlinedInput-root': {
+                                borderRadius: '10px',
+                                backgroundColor: '#ffffff',
+                                '& fieldset': {
+                                  border: '1px solid #e5e7eb',
+                                },
+                                '&:hover fieldset': {
+                                  borderColor: '#3b82f6',
+                                },
+                                '&.Mui-focused fieldset': {
+                                  border: '2px solid #3b82f6',
+                                },
+                              },
+                            }}
+                          />
+                        </Box>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+                          <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                            {isSv ? 'Efternamn' : 'Last Name'}
+                          </Typography>
+                          <TextField
+                            placeholder="Vemsen"
+                            fullWidth
+                            sx={{
+                              '& .MuiOutlinedInput-root': {
+                                borderRadius: '10px',
+                                backgroundColor: '#ffffff',
+                                '& fieldset': {
+                                  border: '1px solid #e5e7eb',
+                                },
+                                '&:hover fieldset': {
+                                  borderColor: '#3b82f6',
+                                },
+                                '&.Mui-focused fieldset': {
+                                  border: '2px solid #3b82f6',
+                                },
+                              },
+                            }}
+                          />
+                        </Box>
+                      </Box>
+
+                      {/* Date of Birth & Gender */}
+                      <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 2 }}>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+                          <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                            {isSv ? 'Födelsedatum' : 'Date of Birth'}
+                          </Typography>
+                          <TextField
+                            type="date"
+                            defaultValue="2005-10-15"
+                            fullWidth
+                            sx={{
+                              '& .MuiOutlinedInput-root': {
+                                borderRadius: '10px',
+                                backgroundColor: '#ffffff',
+                                '& fieldset': {
+                                  border: '1px solid #e5e7eb',
+                                },
+                                '&:hover fieldset': {
+                                  borderColor: '#3b82f6',
+                                },
+                                '&.Mui-focused fieldset': {
+                                  border: '2px solid #3b82f6',
+                                },
+                              },
+                            }}
+                          />
+                        </Box>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5, position: 'relative' }}>
+                          <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                            {isSv ? 'Kön' : 'Gender'}
+                          </Typography>
+                          <Box
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setGender(gender === 'open' ? '' : 'open');
+                            }}
+                            sx={{
+                              borderRadius: '10px',
+                              backgroundColor: '#ffffff',
+                              border: gender === 'open' ? '2px solid #3b82f6' : '1px solid #e5e7eb',
+                              px: 2,
+                              py: 1.5,
+                              cursor: 'pointer',
+                              transition: 'all 0.2s ease',
+                              '&:hover': {
+                                borderColor: '#3b82f6',
+                              },
+                            }}
+                          >
+                            <Typography sx={{ fontSize: '0.9rem', color: gender && gender !== 'open' ? '#0f172a' : '#94a3b8' }}>
+                              {gender === 'male' ? 'Male' : gender === 'female' ? 'Female' : 'Select'}
+                            </Typography>
+                          </Box>
+                          {gender === 'open' && (
+                            <>
+                              <Box
+                                onClick={() => setGender('')}
+                                sx={{
+                                  position: 'fixed',
+                                  top: 0,
+                                  left: 0,
+                                  right: 0,
+                                  bottom: 0,
+                                  zIndex: 999,
+                                }}
+                              />
+                              <Box
+                                onClick={(e) => e.stopPropagation()}
+                                sx={{
+                                  position: 'absolute',
+                                  top: '100%',
+                                  left: 0,
+                                  right: 0,
+                                  mt: 0.5,
+                                  border: '1px solid #e5e7eb',
+                                  borderRadius: '10px',
+                                  overflow: 'hidden',
+                                  backgroundColor: '#ffffff',
+                                  boxShadow: '0 10px 40px rgba(0, 0, 0, 0.1)',
+                                  zIndex: 1000,
+                                  animation: 'slideDown 0.2s ease-out',
+                                  '@keyframes slideDown': {
+                                    '0%': {
+                                      opacity: 0,
+                                      transform: 'translateY(-8px)',
+                                    },
+                                    '100%': {
+                                      opacity: 1,
+                                      transform: 'translateY(0)',
+                                    },
+                                  },
+                                }}
+                              >
+                                <Box
+                                  onClick={() => setGender('male')}
+                                  sx={{
+                                    px: 2,
+                                    py: 1.5,
+                                    cursor: 'pointer',
+                                    backgroundColor: '#ffffff',
+                                    transition: 'background-color 0.15s ease',
+                                    '&:hover': {
+                                      backgroundColor: '#f3f4f6',
+                                    },
+                                  }}
+                                >
+                                  <Typography sx={{ fontSize: '0.9rem', color: '#0f172a' }}>Male</Typography>
+                                </Box>
+                                <Box
+                                  onClick={() => setGender('female')}
+                                  sx={{
+                                    px: 2,
+                                    py: 1.5,
+                                    cursor: 'pointer',
+                                    backgroundColor: '#ffffff',
+                                    borderTop: '1px solid #e5e7eb',
+                                    transition: 'background-color 0.15s ease',
+                                    '&:hover': {
+                                      backgroundColor: '#f3f4f6',
+                                    },
+                                  }}
+                                >
+                                  <Typography sx={{ fontSize: '0.9rem', color: '#0f172a' }}>Female</Typography>
+                                </Box>
+                              </Box>
+                            </>
+                          )}
+                        </Box>
+                      </Box>
+
+                      {/* Nationality & Passport Number */}
+                      <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 2 }}>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+                          <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                            {isSv ? 'Nationalitet' : 'Nationality'}
+                          </Typography>
+                          <TextField
+                            placeholder="Canada"
+                            fullWidth
+                            sx={{
+                              '& .MuiOutlinedInput-root': {
+                                borderRadius: '10px',
+                                backgroundColor: '#ffffff',
+                                '& fieldset': {
+                                  border: '1px solid #e5e7eb',
+                                },
+                                '&:hover fieldset': {
+                                  borderColor: '#3b82f6',
+                                },
+                                '&.Mui-focused fieldset': {
+                                  border: '2px solid #3b82f6',
+                                },
+                              },
+                            }}
+                          />
+                        </Box>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+                          <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                            {isSv ? 'Passnummer' : 'Passport Number'}
+                          </Typography>
+                          <TextField
+                            placeholder="AB123456"
+                            fullWidth
+                            sx={{
+                              '& .MuiOutlinedInput-root': {
+                                borderRadius: '10px',
+                                backgroundColor: '#ffffff',
+                                '& fieldset': {
+                                  border: '1px solid #e5e7eb',
+                                },
+                                '&:hover fieldset': {
+                                  borderColor: '#3b82f6',
+                                },
+                                '&.Mui-focused fieldset': {
+                                  border: '2px solid #3b82f6',
+                                },
+                              },
+                            }}
+                          />
+                        </Box>
+                      </Box>
+
+                      {/* Passport Issue Date & Passport Expiry Date */}
+                      <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 2 }}>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+                          <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                            {isSv ? 'Passutfärdandedatum' : 'Passport Issue Date'}
+                          </Typography>
+                          <TextField
+                            type="date"
+                            defaultValue="2020-10-16"
+                            fullWidth
+                            sx={{
+                              '& .MuiOutlinedInput-root': {
+                                borderRadius: '10px',
+                                backgroundColor: '#ffffff',
+                                '& fieldset': {
+                                  border: '1px solid #e5e7eb',
+                                },
+                                '&:hover fieldset': {
+                                  borderColor: '#3b82f6',
+                                },
+                                '&.Mui-focused fieldset': {
+                                  border: '2px solid #3b82f6',
+                                },
+                              },
+                            }}
+                          />
+                        </Box>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+                          <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                            {isSv ? 'Pass utgångsdatum' : 'Passport Expiry Date'}
+                          </Typography>
+                          <TextField
+                            type="date"
+                            defaultValue="2030-10-15"
+                            fullWidth
+                            sx={{
+                              '& .MuiOutlinedInput-root': {
+                                borderRadius: '10px',
+                                backgroundColor: '#ffffff',
+                                '& fieldset': {
+                                  border: '1px solid #e5e7eb',
+                                },
+                                '&:hover fieldset': {
+                                  borderColor: '#3b82f6',
+                                },
+                                '&.Mui-focused fieldset': {
+                                  border: '2px solid #3b82f6',
+                                },
+                              },
+                            }}
+                          />
+                        </Box>
+                      </Box>
+
+                      {/* Contact Number */}
+                      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+                        <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                          {isSv ? 'Kontaktnummer' : 'Contact Number'}
+                        </Typography>
+                        <TextField
+                          placeholder="+12345678540"
+                          fullWidth
+                          sx={{
+                            '& .MuiOutlinedInput-root': {
+                              borderRadius: '10px',
+                              backgroundColor: '#ffffff',
+                              '& fieldset': {
+                                border: '1px solid #e5e7eb',
+                              },
+                              '&:hover fieldset': {
+                                borderColor: '#3b82f6',
+                              },
+                              '&.Mui-focused fieldset': {
+                                border: '2px solid #3b82f6',
+                              },
+                            },
+                          }}
+                        />
+                      </Box>
+
+                      {/* Email */}
+                      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+                        <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                          {isSv ? 'E-post' : 'Email'}
+                        </Typography>
+                        <TextField
+                          placeholder="demovemsen@live.se"
+                          type="email"
+                          fullWidth
+                          sx={{
+                            '& .MuiOutlinedInput-root': {
+                              borderRadius: '10px',
+                              backgroundColor: '#ffffff',
+                              '& fieldset': {
+                                border: '1px solid #e5e7eb',
+                              },
+                              '&:hover fieldset': {
+                                borderColor: '#3b82f6',
+                              },
+                              '&.Mui-focused fieldset': {
+                                border: '2px solid #3b82f6',
+                              },
+                            },
+                          }}
+                        />
+                      </Box>
+
+                      {/* Current Residential Address */}
+                      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+                        <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                          {isSv ? 'Nuvarande bostadsadress' : 'Current Residential Address'}
+                        </Typography>
+                        <TextField
+                          placeholder="John Smith, 2GB Av, Brampton, Montreal QC H3R 1X4"
+                          multiline
+                          rows={2}
+                          fullWidth
+                          sx={{
+                            '& .MuiOutlinedInput-root': {
+                              borderRadius: '10px',
+                              backgroundColor: '#ffffff',
+                              '& fieldset': {
+                                border: '1px solid #e5e7eb',
+                              },
+                              '&:hover fieldset': {
+                                borderColor: '#3b82f6',
+                              },
+                              '&.Mui-focused fieldset': {
+                                border: '2px solid #3b82f6',
+                              },
+                            },
+                          }}
+                        />
+                      </Box>
+
+                      {/* Additional Notes */}
+                      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+                        <Typography sx={{ fontWeight: 600, fontSize: '0.9rem', color: '#0f172a' }}>
+                          {isSv ? 'Ytterligare anteckningar' : 'Additional Notes'}
+                        </Typography>
+                        <TextField
+                          placeholder="Add any additional information"
+                          multiline
+                          rows={2}
+                          fullWidth
+                          sx={{
+                            '& .MuiOutlinedInput-root': {
+                              borderRadius: '10px',
+                              backgroundColor: '#ffffff',
+                              '& fieldset': {
+                                border: '1px solid #e5e7eb',
+                              },
+                              '&:hover fieldset': {
+                                borderColor: '#3b82f6',
+                              },
+                              '&.Mui-focused fieldset': {
+                                border: '2px solid #3b82f6',
+                              },
+                            },
+                          }}
+                        />
+                      </Box>
                     </Box>
 
-                    <TextField label="Email" placeholder="Enter email" fullWidth size="small" sx={{ mt: 1.5 }} />
-                    <TextField
-                      label="Additional Notes"
-                      placeholder="Enter any additional information"
-                      fullWidth
-                      multiline
-                      rows={3}
-                      size="small"
-                    />
-
-                    <Box sx={{ display: 'flex', gap: 2, mt: 2 }}>
-                      <Button variant="outlined" sx={{ color: '#3b82f6', borderColor: '#3b82f6', textTransform: 'none' }}>
-                        Back
+                    {/* Buttons */}
+                    <Box sx={{ display: 'flex', gap: 2, mt: 1.5 }}>
+                      <Button
+                        variant="outlined"
+                        onClick={() => setActiveStep(0)}
+                        sx={{
+                          color: '#3b82f6',
+                          borderColor: '#3b82f6',
+                          textTransform: 'none',
+                          fontSize: '0.9rem',
+                          py: 1.2,
+                          px: 3,
+                          borderRadius: '10px',
+                          '&:hover': {
+                            borderColor: '#2563eb',
+                            backgroundColor: '#eff6ff',
+                          },
+                        }}
+                      >
+                        {isSv ? 'Tillbaka' : 'Back'}
                       </Button>
-                      <Button variant="contained" sx={{ backgroundColor: '#3b82f6', textTransform: 'none', flex: 1 }}>
-                        Next
+                      <Button
+                        variant="contained"
+                        onClick={() => setActiveStep(2)}
+                        sx={{
+                          backgroundColor: '#3b82f6',
+                          textTransform: 'none',
+                          flex: 1,
+                          fontSize: '0.9rem',
+                          py: 1.2,
+                          borderRadius: '10px',
+                          '&:hover': {
+                            backgroundColor: '#2563eb',
+                          },
+                        }}
+                      >
+                        {isSv ? 'Nästa' : 'Next'}
                       </Button>
                     </Box>
                   </Box>
@@ -855,25 +1490,6 @@ export default function VisaApplicationJourney() {
                       gap: 1.25,
                     }}
                   >
-                    {/* Vertical bar from Figma (bar.svg) */}
-                    <Box
-                      sx={{
-                        position: 'absolute',
-                        left: 20,
-                        top: 24,
-                        bottom: 24,
-                        width: 2,
-                        pointerEvents: 'none',
-                      }}
-                    >
-                      <Image
-                        src="/bar.svg"
-                        alt="steps connector"
-                        fill
-                        style={{ objectFit: 'fill' }}
-                      />
-                    </Box>
-
                     {[
                       { label: 'Application Overview', icon: '/tick.svg', active: false, completed: true },
                       { label: 'Personal Information', icon: '/2.svg', active: true, completed: false },
@@ -1105,7 +1721,7 @@ export default function VisaApplicationJourney() {
             </Box>
           )}
 
-         {/* Step 3 - Schedule Appointment */}
+          {/* Step 3 - Schedule Appointment */}
           {activeStep === 3 && (
             <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
               <Typography variant="h5" sx={{ fontWeight: 700, mb: 2, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
@@ -1148,8 +1764,8 @@ export default function VisaApplicationJourney() {
                     <Button
                       variant="outlined"
                       size="small"
-                      sx={{ 
-                        textTransform: 'none', 
+                      sx={{
+                        textTransform: 'none',
                         borderColor: '#e5e7eb',
                         color: '#64748b',
                         fontSize: '0.875rem',
@@ -1245,7 +1861,7 @@ export default function VisaApplicationJourney() {
                     const isFirstDayOfAppointment = (apt: typeof appointments[0]) => {
                       return isSameDay(date, apt.startDate);
                     };
-                    
+
                     const isToday = isSameDay(new Date(), date);
                     const isPastMonth = date.getMonth() !== calendarDate.getMonth();
 
@@ -1279,7 +1895,7 @@ export default function VisaApplicationJourney() {
                         {/* Render appointment ribbons */}
                         {dayAppointments.map((apt) => {
                           if (!isFirstDayOfAppointment(apt)) return null;
-                          
+
                           // Calculate column span based on duration
                           const dayOfWeek = date.getDay();
                           const remainingDaysInWeek = 7 - dayOfWeek;
@@ -1333,294 +1949,259 @@ export default function VisaApplicationJourney() {
 
               <Box
                 sx={{
-                  display: 'grid',
-                  gridTemplateColumns: { xs: '1fr', md: 'repeat(3, minmax(0, 1fr))' },
-                  gap: { xs: 3, sm: 3.5, md: 4, '3xl': 5, '4k': 6 },
-                  alignItems: 'stretch',
+                  display: { xs: 'flex', lg: 'flex' },
+                  flexDirection: { xs: 'column', lg: 'row' },
+                  gap: { xs: 3, lg: 1.5 },
+                  alignItems: 'start',
+                  justifyContent: 'center',
                 }}
               >
-                {/* Left side card */}
+                {/* Left side - Application Process SVG with 3D shadow */}
                 <Box
                   sx={{
-                    backgroundColor: '#ffffff',
-                    borderRadius: '24px',
-                    p: { xs: 2.5, md: 3 },
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    minHeight: { xs: 260, md: 300, lg: 320, '3xl': 340, '4k': 420 },
-                    boxShadow: '0 12px 40px rgba(15,23,42,0.08)',
-                    border: '1px solid #e5e7eb',
+                    position: 'relative',
+                    width: { lg: '300px' },
+                    minWidth: { lg: '300px' },
+                    flexShrink: 0,
+                    height: { lg: 600 },
+                    display: { xs: 'none', lg: 'block' },
+                    filter: 'drop-shadow(0 4px 12px rgba(15,23,42,0.08))',
+                    transition: 'transform 0.3s ease, filter 0.3s ease',
+                    '&:hover': {
+                      transform: 'translateY(-4px)',
+                      filter: 'drop-shadow(0 8px 20px rgba(15,23,42,0.12))',
+                    },
                   }}
                 >
-                  <Box sx={{ position: 'relative', width: '100%', height: '100%' }}>
-                    <Image
-                      src="/ApplicationProcess.svg"
-                      alt="Application Process"
-                      fill
-                      style={{ objectFit: 'contain' }}
-                    />
-                  </Box>
+                  <Image
+                    src="/ApplicationProcess.svg"
+                    alt="Application Process"
+                    fill
+                    style={{ objectFit: 'contain' }}
+                  />
                 </Box>
 
-                {/* Middle card - EXACT FIGMA STYLING */}
+                {/* Middle card - Visa application */}
                 <Box
                   sx={{
                     backgroundColor: '#ffffff',
-                    borderRadius: '30px',
-                    p: { xs: 2.75, md: 3, '3xl': 3.5, '4k': 4.25 },
-                    color: '#111827',
+                    borderRadius: '20px',
+                    p: 2.25,
                     display: 'flex',
                     flexDirection: 'column',
-                    minHeight: { xs: 360, md: 400, lg: 430, '3xl': 460, '4k': 520 },
-                    maxWidth: 360,
-                    mx: 'auto',
-                    boxShadow: '0 14px 40px rgba(15,23,42,0.08)',
-                    border: '1px solid #e5e7eb',
-                    overflow: 'hidden',
+                    width: '100%',
+                    maxWidth: 340,
+                    boxShadow: '0 8px 32px rgba(59, 130, 246, 0.12), 0 2px 8px rgba(0, 0, 0, 0.06)',
+                    border: '1px solid rgba(59, 130, 246, 0.08)',
+                    position: 'relative',
+                    '&::before': {
+                      content: '""',
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      right: 0,
+                      bottom: 0,
+                      borderRadius: '20px',
+                      padding: '1px',
+                      background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(147, 197, 253, 0.05))',
+                      WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
+                      WebkitMaskComposite: 'xor',
+                      maskComposite: 'exclude',
+                      pointerEvents: 'none',
+                    },
                   }}
                 >
-                  {/* Top flag section */}
-                  <Box sx={{ position: 'relative', mb: 3 }}>
-                    <Box 
-                      sx={{ 
-                        position: 'relative', 
-                        width: '100%', 
-                        height: { xs: 140, md: 160, lg: 180, '3xl': 200, '4k': 260 }, 
-                        borderRadius: '20px', 
+                  {/* Flag section with doc icon */}
+                  <Box sx={{ position: 'relative', overflow: 'visible', mb: 1.75, mx: -2.25, mt: -2.25 }}>
+                    <Box
+                      sx={{
+                        position: 'relative',
+                        width: '100%',
+                        height: 175,
+                        borderRadius: '20px 20px 16px 16px',
                         overflow: 'hidden',
-                        boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
                       }}
                     >
                       <Image
                         src="/Rectangle 606.svg"
-                        alt="Sweden Visa Header"
+                        alt="Sweden Visa"
                         fill
                         style={{ objectFit: 'cover' }}
                       />
                     </Box>
                   </Box>
 
-                  {/* Main content */}
-                  <Box sx={{ mt: { xs: 2.5, md: 3 }, flex: 1, display: 'flex', flexDirection: 'column', gap: { xs: 2, md: 2.5 } }}>
-                    <Typography sx={{ fontSize: { xs: '1.1rem', md: '1.2rem', '3xl': '1.35rem', '4k': '1.75rem' }, fontWeight: 700, mb: 0.5, color: '#0f172a' }}>
-                      {currentVisa.title}
-                    </Typography>
+                  {/* Title */}
+                  <Typography
+                    sx={{
+                      fontSize: '1rem',
+                      fontWeight: 600,
+                      mb: 2.5,
+                      color: '#0f172a',
+                      textAlign: 'center',
+                      mt: 1,
+                    }}
+                  >
+                    {currentVisa.title}
+                  </Typography>
 
-                    {/* Details grid – Figma style: labels left, pills right */}
-                    <Box
-                      sx={{
-                        display: 'flex',
-                        alignItems: 'stretch',
-                        gap: { xs: 2, md: 2.5 },
-                        backgroundColor: '#f9fafb',
-                        borderRadius: '22px',
-                        p: { xs: 2, md: 2.25, '3xl': 2.75, '4k': 3.25 },
-                        border: '1px solid #e5e7eb',
-                        boxShadow: '0 10px 26px rgba(15,23,42,0.06)',
-                      }}
-                    >
-                      {/* Left column: labels only */}
-                      <Box
+                  {/* Details list */}
+                  <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5, mb: 2.5 }}>
+                    {/* Case Number */}
+                    <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <Typography sx={{ fontSize: '0.8rem', color: '#94a3b8', fontWeight: 500 }}>
+                        Case Number
+                      </Typography>
+                      <Typography
                         sx={{
-                          display: 'flex',
-                          flexDirection: 'column',
-                          justifyContent: 'space-between',
-                          gap: { xs: 1.25, md: 1.5 },
+                          fontSize: '0.8rem',
+                          fontWeight: 600,
+                          color: '#0f172a',
+                          backgroundColor: '#f1f5f9',
+                          borderRadius: '6px',
+                          px: 1.5,
+                          py: 0.5,
                         }}
                       >
-                        {['Case Number', 'Authority', 'Status', 'Duration'].map((label) => (
-                          <Typography
-                            key={label}
-                            sx={{
-                              fontSize: { xs: '0.7rem', md: '0.75rem', '3xl': '0.85rem', '4k': '1.1rem' },
-                              color: '#94a3b8',
-                              fontWeight: 500,
-                            }}
-                          >
-                            {label}
-                          </Typography>
-                        ))}
-                      </Box>
-
-                      {/* Right column: pills only */}
-                      <Box
-                        sx={{
-                          display: 'flex',
-                          flexDirection: 'column',
-                          justifyContent: 'space-between',
-                          gap: { xs: 1.25, md: 1.5 },
-                          alignItems: 'flex-start',
-                        }}
-                      >
-                        {/* Case number */}
-                        <Typography
-                          sx={{
-                            fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
-                            fontWeight: 700,
-                            color: '#0f172a',
-                            backgroundColor: '#e5e7eb',
-                            borderRadius: '999px',
-                            px: { xs: 1.9, md: 2.3 },
-                            py: { xs: 0.55, md: 0.7 },
-                            minWidth: 120,
-                            textAlign: 'center',
-                          }}
-                        >
-                          {currentVisa.caseNumber}
-                        </Typography>
-
-                        {/* Authority */}
-                        <Typography
-                          sx={{
-                            fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
-                            fontWeight: 700,
-                            color: '#0f172a',
-                            backgroundColor: '#e5e7eb',
-                            borderRadius: '999px',
-                            px: { xs: 1.9, md: 2.3 },
-                            py: { xs: 0.55, md: 0.7 },
-                            minWidth: 120,
-                            textAlign: 'center',
-                          }}
-                        >
-                          {currentVisa.authority}
-                        </Typography>
-
-                        {/* Status */}
-                        <Typography
-                          sx={{
-                            fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
-                            fontWeight: 700,
-                            color: '#0f172a',
-                            backgroundColor: '#e5e7eb',
-                            borderRadius: '999px',
-                            px: { xs: 1.9, md: 2.3 },
-                            py: { xs: 0.55, md: 0.7 },
-                            minWidth: 120,
-                            textAlign: 'center',
-                          }}
-                        >
-                          {currentVisa.status}
-                        </Typography>
-
-                        {/* Duration – blue pill */}
-                        <Typography
-                          sx={{
-                            fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' },
-                            fontWeight: 700,
-                            color: '#ffffff',
-                            backgroundColor: '#38bdf8',
-                            borderRadius: '999px',
-                            px: { xs: 1.9, md: 2.3 },
-                            py: { xs: 0.55, md: 0.7 },
-                            minWidth: 120,
-                            textAlign: 'center',
-                          }}
-                        >
-                          {currentVisa.duration}
-                        </Typography>
-                      </Box>
+                        {currentVisa.caseNumber}
+                      </Typography>
                     </Box>
 
-                    {/* Footer info */}
-                    <Box
-                      sx={{
-                        display: 'flex',
-                        justifyContent: 'space-between',
-                        alignItems: 'center',
-                        pt: { xs: 2, md: 2.5 },
-                        borderTop: '1px dashed rgba(148,163,184,0.3)',
-                        mt: 'auto',
-                      }}
-                    >
-                      <Box>
-                        <Typography sx={{ fontSize: { xs: '0.7rem', md: '0.75rem', '3xl': '0.85rem', '4k': '1.1rem' }, color: '#64748b', mb: 0.5 }}>
-                          {isSv ? 'Registrerad den:' : 'Registered on:'}
-                        </Typography>
-                        <Typography sx={{ fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, fontWeight: 700, color: '#0f172a' }}>
-                          {currentVisa.registeredOn}
-                        </Typography>
-                      </Box>
-                      <Box>
-                        <Typography sx={{ fontSize: { xs: '0.7rem', md: '0.75rem', '3xl': '0.85rem', '4k': '1.1rem' }, color: '#64748b', mb: 0.5 }}>
-                          {isSv ? 'Land' : 'Country'}
-                        </Typography>
-                        <Typography sx={{ fontSize: { xs: '0.85rem', md: '0.9rem', '3xl': '1rem', '4k': '1.3rem' }, fontWeight: 700, color: '#0f172a' }}>
-                          {currentVisa.country}
-                        </Typography>
-                      </Box>
+                    {/* Authority */}
+                    <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <Typography sx={{ fontSize: '0.8rem', color: '#94a3b8', fontWeight: 500 }}>
+                        Authority
+                      </Typography>
+                      <Typography
+                        sx={{
+                          fontSize: '0.8rem',
+                          fontWeight: 600,
+                          color: '#0f172a',
+                          backgroundColor: '#f1f5f9',
+                          borderRadius: '6px',
+                          px: 1.5,
+                          py: 0.5,
+                        }}
+                      >
+                        {currentVisa.authority}
+                      </Typography>
+                    </Box>
+
+                    {/* Status */}
+                    <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <Typography sx={{ fontSize: '0.8rem', color: '#94a3b8', fontWeight: 500 }}>
+                        Status
+                      </Typography>
+                      <Typography
+                        sx={{
+                          fontSize: '0.8rem',
+                          fontWeight: 600,
+                          color: '#0f172a',
+                          backgroundColor: '#f1f5f9',
+                          borderRadius: '6px',
+                          px: 1.5,
+                          py: 0.5,
+                        }}
+                      >
+                        {currentVisa.status}
+                      </Typography>
+                    </Box>
+
+                    {/* Duration */}
+                    <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <Typography sx={{ fontSize: '0.8rem', color: '#94a3b8', fontWeight: 500 }}>
+                        Duration
+                      </Typography>
+                      <Typography
+                        sx={{
+                          fontSize: '0.8rem',
+                          fontWeight: 600,
+                          color: '#ffffff',
+                          backgroundColor: '#38bdf8',
+                          borderRadius: '6px',
+                          px: 1.5,
+                          py: 0.5,
+                        }}
+                      >
+                        {currentVisa.duration}
+                      </Typography>
                     </Box>
                   </Box>
 
-                  {/* Pagination like carousel controls from kit */}
-                  <Box sx={{ mt: { xs: 2.5, md: 3 }, display: 'flex', justifyContent: 'center' }}>
-                    <Pagination
-                      count={visaApplications.length}
-                      page={visaPage}
-                      onChange={(_, page) => setVisaPage(page)}
-                      shape="circular"
-                      color="primary"
-                      size="small"
-                      sx={{
-                        '& .MuiPaginationItem-root': {
-                          color: '#9ca3af',
-                        },
-                        '& .MuiPaginationItem-root.Mui-selected': {
-                          backgroundColor: '#38bdf8',
-                          color: '#0f172a',
-                        },
-                      }}
-                    />
+                  {/* Bottom metadata */}
+                  <Box
+                    sx={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      mb: 2.5,
+                      pt: 2,
+                      borderTop: '1px solid #f1f5f9',
+                    }}
+                  >
+                    <Box>
+                      <Typography sx={{ fontSize: '0.7rem', color: '#94a3b8', mb: 0.3 }}>
+                        Registered on
+                      </Typography>
+                      <Typography sx={{ fontSize: '0.85rem', fontWeight: 600, color: '#0f172a' }}>
+                        {currentVisa.registeredOn}
+                      </Typography>
+                    </Box>
+                    <Box sx={{ textAlign: 'right' }}>
+                      <Typography sx={{ fontSize: '0.7rem', color: '#94a3b8', mb: 0.3 }}>
+                        Country
+                      </Typography>
+                      <Typography sx={{ fontSize: '0.85rem', fontWeight: 600, color: '#0f172a' }}>
+                        {currentVisa.country}
+                      </Typography>
+                    </Box>
                   </Box>
 
                   {/* CTA button */}
-                  <Box sx={{ mt: { xs: 3, md: 3.5 } }}>
-                    <Button
-                      variant="contained"
-                      fullWidth
-                      sx={{
-                        backgroundColor: '#38bdf8',
-                        color: '#0f172a',
-                        textTransform: 'none',
-                        fontWeight: 700,
-                        py: { xs: 1.3, md: 1.5, '3xl': 1.7, '4k': 2.2 },
-                        fontSize: { xs: '0.95rem', md: '1rem', '3xl': '1.1rem', '4k': '1.4rem' },
-                        borderRadius: '999px',
-                        boxShadow: '0 4px 14px rgba(56,189,248,0.4)',
-                        '&:hover': { 
-                          backgroundColor: '#0ea5e9',
-                          boxShadow: '0 6px 20px rgba(56,189,248,0.5)',
-                        },
-                      }}
-                    >
-                      {isSv ? 'Visa detaljer' : 'View Details'}
-                    </Button>
-                  </Box>
+                  <Button
+                    variant="contained"
+                    fullWidth
+                    sx={{
+                      backgroundColor: '#0f172a',
+                      color: '#ffffff',
+                      textTransform: 'none',
+                      fontSize: '0.9rem',
+                      fontWeight: 600,
+                      py: 1.2,
+                      borderRadius: '12px',
+                      boxShadow: '0 4px 14px rgba(15,23,42,0.3)',
+                      '&:hover': {
+                        backgroundColor: '#1e293b',
+                        boxShadow: '0 6px 20px rgba(15,23,42,0.4)',
+                      },
+                    }}
+                  >
+                    {isSv ? 'Visa detaljer' : 'View Details'}
+                  </Button>
                 </Box>
 
-                {/* Right side card */}
+                {/* Right side - Global Visa Applications SVG with 3D shadow */}
                 <Box
                   sx={{
-                    backgroundColor: '#ffffff',
-                    borderRadius: '24px',
-                    p: { xs: 2.5, md: 3 },
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    minHeight: { xs: 260, md: 300, lg: 320, '3xl': 340, '4k': 420 },
-                    boxShadow: '0 12px 40px rgba(15,23,42,0.08)',
-                    border: '1px solid #e5e7eb',
+                    position: 'relative',
+                    width: { lg: '300px' },
+                    minWidth: { lg: '300px' },
+                    flexShrink: 0,
+                    height: { lg: 600 },
+                    display: { xs: 'none', lg: 'block' },
+                    filter: 'drop-shadow(0 4px 12px rgba(15,23,42,0.08))',
+                    transition: 'transform 0.3s ease, filter 0.3s ease',
+                    '&:hover': {
+                      transform: 'translateY(-4px)',
+                      filter: 'drop-shadow(0 8px 20px rgba(15,23,42,0.12))',
+                    },
                   }}
                 >
-                  <Box sx={{ position: 'relative', width: '100%', height: '100%' }}>
-                    <Image
-                      src="/GlobalVisa.svg"
-                      alt="Global Visa Applications"
-                      fill
-                      style={{ objectFit: 'contain' }}
-                    />
-                  </Box>
+                  <Image
+                    src="/GlobalVisa.svg"
+                    alt="Global Visa Applications"
+                    fill
+                    style={{ objectFit: 'contain' }}
+                  />
                 </Box>
               </Box>
             </Box>

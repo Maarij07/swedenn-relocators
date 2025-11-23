@@ -49,7 +49,7 @@ export function MovingFlagsCarousel() {
       }}
     >
       {/* Flags Carousel Container */}
-        <Box
+      <Box
         sx={{
           display: 'flex',
           alignItems: 'center',
@@ -68,106 +68,65 @@ export function MovingFlagsCarousel() {
           sx={{
             display: 'flex',
             gap: { xs: 3, sm: 4, lg: 6, '4k': 8 },
-            animation: 'scroll 30s linear infinite',
+            animation: 'scroll 40s linear infinite',
             '@keyframes scroll': {
               '0%': {
                 transform: 'translateX(0)',
               },
               '100%': {
-                transform: 'translateX(calc(-100% - 12px))',
+                transform: 'translateX(-50%)',
               },
             },
             willChange: 'transform',
           }}
         >
-          {/* Original set */}
-          {countries.map((country, idx) => (
-            <Box
-              key={`original-${idx}`}
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                gap: { xs: 0.25, sm: 0.5 },
-                minWidth: 'max-content',
-                flexShrink: 0,
-              }}
-            >
-              <Box
-                component="img"
-                src={`https://flagcdn.com/w160/${country.code}.png`}
-                alt={country.name}
-                sx={{
-                  width: { xs: 20, sm: 24, lg: 28, '4k': 32 },
-                  height: { xs: 14, sm: 16, lg: 20, '4k': 24 },
-                  borderRadius: '2px',
-                  boxShadow: '0 1px 2px rgba(0,0,0,0.08)',
-                  objectFit: 'cover',
-                  imageRendering: 'auto',
-                  transition: 'transform 0.3s ease',
-                  '&:hover': {
-                    transform: 'scale(1.15)',
-                  },
-                }}
-              />
-              <Typography
-                sx={{
-                  fontSize: { xs: '0.55rem', sm: '0.65rem', lg: '0.75rem', '4k': '0.85rem' },
-                  fontWeight: 500,
-                  color: '#64748b',
-                  textAlign: 'center',
-                  whiteSpace: 'nowrap',
-                  maxWidth: { xs: '64px', sm: '80px', lg: '96px', '4k': '112px' },
-                }}
-              >
-                {country.name}
-              </Typography>
-            </Box>
-          ))}
-
-          {/* Duplicate set for seamless loop */}
-          {countries.map((country, idx) => (
-            <Box
-              key={`duplicate-${idx}`}
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                gap: { xs: 0.25, sm: 0.5 },
-                minWidth: 'max-content',
-                flexShrink: 0,
-              }}
-            >
-            <Box
-                component="img"
-                src={`https://flagcdn.com/w160/${country.code}.png`}
-                alt={country.name}
-                sx={{
-                  width: { xs: 20, sm: 24, lg: 28, '4k': 32 },
-                  height: { xs: 14, sm: 16, lg: 20, '4k': 24 },
-                  borderRadius: '2px',
-                  boxShadow: '0 1px 2px rgba(0,0,0,0.08)',
-                  objectFit: 'cover',
-                  imageRendering: 'auto',
-                  transition: 'transform 0.3s ease',
-                  '&:hover': {
-                    transform: 'scale(1.15)',
-                  },
-                }}
-              />
-              <Typography
-                sx={{
-                  fontSize: { xs: '0.55rem', sm: '0.65rem', lg: '0.75rem', '4k': '0.85rem' },
-                  fontWeight: 500,
-                  color: '#64748b',
-                  textAlign: 'center',
-                  whiteSpace: 'nowrap',
-                  maxWidth: { xs: '64px', sm: '80px', lg: '96px', '4k': '112px' },
-                }}
-              >
-                {country.name}
-              </Typography>
-            </Box>
+          {/* Render the countries array 4 times for seamless infinite loop - no gaps! */}
+          {[...Array(4)].map((_, setIndex) => (
+            <React.Fragment key={`set-${setIndex}`}>
+              {countries.map((country, idx) => (
+                <Box
+                  key={`${setIndex}-${idx}`}
+                  sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    gap: { xs: 0.25, sm: 0.5 },
+                    minWidth: 'max-content',
+                    flexShrink: 0,
+                  }}
+                >
+                  <Box
+                    component="img"
+                    src={`https://flagcdn.com/w160/${country.code}.png`}
+                    alt={country.name}
+                    sx={{
+                      width: { xs: 20, sm: 24, lg: 28, '4k': 32 },
+                      height: { xs: 14, sm: 16, lg: 20, '4k': 24 },
+                      borderRadius: '2px',
+                      boxShadow: '0 1px 2px rgba(0,0,0,0.08)',
+                      objectFit: 'cover',
+                      imageRendering: 'auto',
+                      transition: 'transform 0.3s ease',
+                      '&:hover': {
+                        transform: 'scale(1.15)',
+                      },
+                    }}
+                  />
+                  <Typography
+                    sx={{
+                      fontSize: { xs: '0.55rem', sm: '0.65rem', lg: '0.75rem', '4k': '0.85rem' },
+                      fontWeight: 500,
+                      color: '#64748b',
+                      textAlign: 'center',
+                      whiteSpace: 'nowrap',
+                      maxWidth: { xs: '64px', sm: '80px', lg: '96px', '4k': '112px' },
+                    }}
+                  >
+                    {country.name}
+                  </Typography>
+                </Box>
+              ))}
+            </React.Fragment>
           ))}
         </Box>
       </Box>
