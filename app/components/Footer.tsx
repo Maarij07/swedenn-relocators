@@ -3,8 +3,12 @@
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 
+import { useParams } from 'next/navigation';
+
 export default function Footer() {
   const { i18n } = useTranslation();
+  const params = useParams();
+  const locale = params?.locale as string || 'en';
   const isSv = i18n.language === 'sv';
 
   return (
@@ -68,22 +72,22 @@ export default function Footer() {
                 </h4>
                 <ul className="space-y-1.5 text-xs sm:text-[13px] text-[#cbd5e1]">
                   <li>
-                    <a href="/about" className="hover:text-white transition-colors">
+                    <a href={`/${locale}/about`} className="hover:text-white transition-colors">
                       {isSv ? 'Om oss' : 'About us'}
                     </a>
                   </li>
                   <li>
-                    <a href="/contact" className="hover:text-white transition-colors">
+                    <a href={`/${locale}/contact`} className="hover:text-white transition-colors">
                       {isSv ? 'Kontakta oss' : 'Contact us'}
                     </a>
                   </li>
                   <li>
-                    <a href="/services" className="hover:text-white transition-colors">
+                    <a href={`/${locale}/services`} className="hover:text-white transition-colors">
                       {isSv ? 'Våra tjänster' : 'Our services'}
                     </a>
                   </li>
                   <li>
-                    <a href="/blogs" className="hover:text-white transition-colors">
+                    <a href={`/${locale}/blogs`} className="hover:text-white transition-colors">
                       {isSv ? 'Bloggar' : 'Blogs'}
                     </a>
                   </li>

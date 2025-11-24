@@ -12,7 +12,13 @@ export default function HomeShellExtras() {
 
   // Hide these sections on the services page and blogs page
   // so they only show their own content + footer.
-  if (pathname === '/services' || pathname?.startsWith('/services/') || pathname === '/blogs' || pathname?.startsWith('/blogs/') || pathname === '/about' || pathname?.startsWith('/about/') || pathname === '/contact' || pathname?.startsWith('/contact/')) {
+  // Check if pathname contains the sections, handling locale prefixes
+  const isServices = pathname?.includes('/services');
+  const isBlogs = pathname?.includes('/blogs');
+  const isAbout = pathname?.includes('/about');
+  const isContact = pathname?.includes('/contact');
+
+  if (isServices || isBlogs || isAbout || isContact) {
     return null;
   }
 

@@ -134,15 +134,15 @@ export const HousingCarousel: React.FC = () => {
             <Box sx={{ display: 'flex', transition: isTransitioning ? 'transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)' : 'none', transform: `translateX(-${currentIndex * (100 / 3)}%)` }}>
               {extendedServices.map((service, idx) => (
                 <Box key={`${service.id}-${idx}`} sx={{ minWidth: 'calc(100% / 3)', px: { xs: 1.5, sm: 2, md: 2.5 } }}>
-                  <AnimatedCard sx={{ boxShadow: '0 4px 20px rgba(0, 0, 0, 0.06)', border: 'none', borderRadius: '20px', backgroundColor: '#ffffff', overflow: 'hidden', display: 'flex', flexDirection: 'column', height: '100%' }}>
-                    <Box sx={{ width: '100%', height: { xs: '200px', sm: '220px', md: '240px' }, backgroundColor: '#F3F5F7', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '20px 20px 0 0', boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)', position: 'relative' }}>
-                      <Chip label={service.badge} sx={{ position: 'absolute', top: 16, left: 16, background: '#1f2937', color: '#fff', fontWeight: 600, fontSize: '0.75rem', height: 28, borderRadius: 2 }} />
+                  <AnimatedCard sx={{ boxShadow: '0 4px 20px rgba(0, 0, 0, 0.06)', border: '1px solid #e5e7eb', borderRadius: '20px', backgroundColor: '#ffffff', overflow: 'hidden', display: 'flex', flexDirection: 'column', height: '100%' }}>
+                    <Box sx={{ width: '100%', height: { xs: '200px', sm: '220px', md: '240px' }, backgroundColor: '#F3F5F7', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '20px 20px 0 0', position: 'relative', p: { xs: 2.5, sm: 3, md: 3 } }}>
+                      <Chip label={service.badge} sx={{ position: 'absolute', top: 16, left: 16, background: '#1f2937', color: '#fff', fontWeight: 600, fontSize: '0.75rem', height: 28, borderRadius: 2, zIndex: 2 }} />
                       {service.rating && (
-                        <Box sx={{ position: 'absolute', top: 16, right: 16, background: '#fbbf24', color: '#fff', px: 1.5, py: 0.3, height: 28, borderRadius: 2, fontWeight: 700, fontSize: '0.85rem', display: 'flex', alignItems: 'center', gap: 0.3 }}>
+                        <Box sx={{ position: 'absolute', top: 16, right: 16, background: '#fbbf24', color: '#fff', px: 1.5, py: 0.3, height: 28, borderRadius: 2, fontWeight: 700, fontSize: '0.85rem', display: 'flex', alignItems: 'center', gap: 0.3, zIndex: 2 }}>
                           ★ {service.rating}
                         </Box>
                       )}
-                      <Box sx={{ width: '80%', height: '80%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                      <Box sx={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <img src={service.image} alt={service.title} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                       </Box>
                     </Box>

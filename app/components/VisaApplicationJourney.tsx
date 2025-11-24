@@ -336,8 +336,8 @@ export default function VisaApplicationJourney() {
           sx={{
             backgroundColor: activeStep === 0 || activeStep === 1 ? '#ffffff' : '#f8fafc',
             borderRadius: '12px',
-            overflow: 'hidden',
-            p: { xs: '1.5rem', sm: '2rem', md: '2.5rem', lg: '3rem', '3xl': '3.5rem', '4k': '4.5rem' },
+            // overflow: 'hidden',
+            p: 0,
             minHeight: { xs: 320, sm: 380, md: 450, '3xl': 520, '4k': 680 },
             '@keyframes stepFadeIn': {
               '0%': { opacity: 0, transform: 'translateY(10px)' },

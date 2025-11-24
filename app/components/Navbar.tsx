@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import LanguageSelector from './LanguageSelector';
 import { useTranslation } from 'react-i18next';
+import { useParams } from 'next/navigation';
 
 interface DropdownMenu {
   [key: string]: boolean;
@@ -11,6 +12,8 @@ interface DropdownMenu {
 
 export default function Navbar() {
   const { i18n, t } = useTranslation();
+  const params = useParams();
+  const locale = params?.locale as string || 'en';
   const isSv = i18n.language === 'sv';
   const [isOpen, setIsOpen] = useState(false);
   const [languageSelectorOpen, setLanguageSelectorOpen] = useState(false);
@@ -34,7 +37,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent">
-      
+
       {/* Top Info Bar with Scrolling Animation */}
       <div className="bg-white/80 border-b border-gray-100 overflow-hidden backdrop-blur-sm">
         <style jsx>{`
@@ -54,10 +57,10 @@ export default function Navbar() {
             flex-shrink: 0;
           }
         `}</style>
-        
+
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           <div className="flex items-center justify-between h-9 sm:h-10 4k:h-16 text-[11px] sm:text-xs 4k:text-xl text-gray-600">
-            
+
             {/* Left side stats with animation */}
             <div className="hidden md:flex items-center overflow-hidden flex-1">
               <div className="flex items-center gap-8 lg:gap-12 4k:gap-16 animate-scroll">
@@ -71,7 +74,7 @@ export default function Navbar() {
                 </span>
                 <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">{t('navbar.topBar.gdp')}</span>
                 <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">{t('navbar.topBar.population')}</span>
-                
+
                 {/* Duplicate for seamless loop */}
                 <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">{t('navbar.topBar.employmentRate')}</span>
                 <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">{t('navbar.topBar.educationRate')}</span>
@@ -84,7 +87,7 @@ export default function Navbar() {
                 <span className="scroll-item whitespace-nowrap text-xs lg:text-sm 4k:text-lg">{t('navbar.topBar.population')}</span>
               </div>
             </div>
-            
+
             {/* RIGHT side - Language Selector */}
             <div className="ml-auto flex items-center gap-4 lg:gap-6 4k:gap-12">
               <button
@@ -106,17 +109,16 @@ export default function Navbar() {
       </div>
 
       {/* Main Navigation */}
-      {/* Main Navigation */}
-<div className="bg-white">
+      <div className="bg-white">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           <div className="flex items-center justify-between h-16 sm:h-20 4k:h-32">
-            
+
             {/* Logo */}
-            <a href="/" className="flex items-center flex-shrink-0">
+            <a href={`/${locale}`} className="flex items-center flex-shrink-0">
               <div className="relative w-36 sm:w-44 lg:w-48 4k:w-96 h-10 sm:h-12 4k:h-24">
-                <Image 
-                  src="/logo.svg" 
-                  alt="Sweden Relocators" 
+                <Image
+                  src="/logo.svg"
+                  alt="Sweden Relocators"
                   fill
                   className="object-contain object-left"
                   priority
@@ -140,7 +142,7 @@ export default function Navbar() {
                 .dropdown-menu {
                   animation: slideDown 0.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
                 }
-.dropdown-menu--services {
+                .dropdown-menu--services {
                   /* Narrower on laptops so all 4 columns stay fully visible */
                   width: min(100vw - 40px, 820px);
                 }
@@ -151,151 +153,151 @@ export default function Navbar() {
                   }
                 }
               `}</style>
-              
-              <a 
-                href="/new-in-sweden" 
+
+              <a
+                href={`/${locale}/new-in-sweden`}
                 className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
->
+              >
                 {t('navbar.links.newInSweden')}
               </a>
-              
+
               {/* Services Dropdown - label navigates to /services on click */}
-<div className="relative group">
-  <a
-    href="/services"
-    className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
-    onMouseEnter={() => toggleDropdown('services')}
-    onMouseLeave={closeAllDropdowns}
-  >
-    {t('navbar.links.services')}
-    <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.services ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
-    </svg>
-  </a>
-  {openDropdowns.services && (
-    <div 
-      className="dropdown-menu dropdown-menu--services absolute left-1/2 -translate-x-1/2 mt-2 bg-white rounded-xl shadow-2xl border border-gray-100 py-8 sm:py-10 px-3 sm:px-6 xl:px-12 z-50"
-      onMouseEnter={() => toggleDropdown('services')}
-      onMouseLeave={closeAllDropdowns}
-    >
-      <div className="grid grid-cols-4 gap-8 xl:gap-12">
-        {/* IMMIGRATION Column */}
-        <div>
-          <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">IMMIGRATION</h3>
-          <div className="space-y-4">
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Asylum</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">You must be in Sweden to apply for asylum</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Relocate to Sweden</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">Personal identification number</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Relocate to Denmark</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">CPR is the Central Civil Registration</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Work Permit</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">Work permit refers to a legal document</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Study in EU</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">If you're considering studying in Europe</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Global Visit Visas</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">For visiting Sweden for a short period</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Appeal Cases</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">Expert help with immigration appeals</div>
-            </a>
-          </div>
-        </div>
+              <div className="relative group">
+                <a
+                  href={`/${locale}/services`}
+                  className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
+                  onMouseEnter={() => toggleDropdown('services')}
+                  onMouseLeave={closeAllDropdowns}
+                >
+                  {t('navbar.links.services')}
+                  <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.services ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </a>
+                {openDropdowns.services && (
+                  <div
+                    className="dropdown-menu dropdown-menu--services absolute left-1/2 -translate-x-1/2 mt-2 bg-white rounded-xl shadow-2xl border border-gray-100 py-8 sm:py-10 px-3 sm:px-6 xl:px-12 z-50"
+                    onMouseEnter={() => toggleDropdown('services')}
+                    onMouseLeave={closeAllDropdowns}
+                  >
+                    <div className="grid grid-cols-4 gap-8 xl:gap-12">
+                      {/* IMMIGRATION Column */}
+                      <div>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">IMMIGRATION</h3>
+                        <div className="space-y-4">
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Asylum</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">You must be in Sweden to apply for asylum</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Relocate to Sweden</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Personal identification number</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Relocate to Denmark</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">CPR is the Central Civil Registration</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Work Permit</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Work permit refers to a legal document</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Study in EU</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">If you're considering studying in Europe</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Global Visit Visas</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">For visiting Sweden for a short period</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Appeal Cases</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Expert help with immigration appeals</div>
+                          </a>
+                        </div>
+                      </div>
 
-        {/* BUSINESS Column */}
-        <div>
-          <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">BUSINESS</h3>
-          <div className="space-y-4">
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Business Permit</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">Swedish business culture and practices</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Business Visit</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">Foreign individuals wanting to visit Sweden</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Logistics Services</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">Streamline your move with our logistics...</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Company Registration</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">If you're planning to register a company</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">EOR & Payroll</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">We provide you with an easy solution</div>
-            </a>
-          </div>
-        </div>
+                      {/* BUSINESS Column */}
+                      <div>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">BUSINESS</h3>
+                        <div className="space-y-4">
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Business Permit</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Swedish business culture and practices</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Business Visit</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Foreign individuals wanting to visit Sweden</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Logistics Services</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Streamline your move with our logistics...</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Company Registration</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">If you're planning to register a company</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EOR & Payroll</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">We provide you with an easy solution</div>
+                          </a>
+                        </div>
+                      </div>
 
-        {/* FAMILY Column */}
-        <div>
-          <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">FAMILY</h3>
-          <div className="space-y-4">
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Family Reunification</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">Family reunification is a legal process</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens' Parents Permit</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">Parents of a child under 18 years</div>
-            </a>
-          </div>
-        </div>
+                      {/* FAMILY Column */}
+                      <div>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">FAMILY</h3>
+                        <div className="space-y-4">
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Family Reunification</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Family reunification is a legal process</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens' Parents Permit</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Parents of a child under 18 years</div>
+                          </a>
+                        </div>
+                      </div>
 
-        {/* CITIZENSHIP Column */}
-        <div>
-          <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">CITIZENSHIP</h3>
-          <div className="space-y-4">
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">Citizenship</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">When you live in Sweden for a certain period...</div>
-            </a>
-            <a href="#" className="block">
-              <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens' Relocation</div>
-              <div className="text-[13px] text-gray-600 leading-relaxed">Family reunification means family members...</div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  )}
-</div>
-              
-              <a 
-                href="/about" 
+                      {/* CITIZENSHIP Column */}
+                      <div>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">CITIZENSHIP</h3>
+                        <div className="space-y-4">
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Citizenship</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">When you live in Sweden for a certain period...</div>
+                          </a>
+                          <a href="#" className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens' Relocation</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Family reunification means family members...</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              <a
+                href={`/${locale}/about`}
                 className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
->
+              >
                 {isSv ? 'Om oss' : 'About us'}
               </a>
-              
+
               {/* Housing Dropdown */}
               <div className="relative group">
-                <button 
+                <button
                   className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
                   onMouseEnter={() => toggleDropdown('housing')}
                   onMouseLeave={closeAllDropdowns}
->
+                >
                   {t('navbar.links.housing')}
                   <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.housing ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
                 {openDropdowns.housing && (
-                  <div 
+                  <div
                     className="dropdown-menu absolute left-0 mt-2 w-[28rem] 4k:w-[32rem] bg-white rounded-lg shadow-2xl border border-gray-200 py-6 px-6 z-50"
                     onMouseEnter={() => toggleDropdown('housing')}
                     onMouseLeave={closeAllDropdowns}
@@ -331,21 +333,21 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
-              
+
               {/* Assessment Dropdown */}
               <div className="relative group">
-                <button 
+                <button
                   className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
                   onMouseEnter={() => toggleDropdown('assessment')}
                   onMouseLeave={closeAllDropdowns}
->
+                >
                   {t('navbar.links.assessment')}
                   <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.assessment ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
                 {openDropdowns.assessment && (
-                  <div 
+                  <div
                     className="dropdown-menu absolute left-0 mt-2 w-[28rem] 4k:w-[32rem] bg-white rounded-lg shadow-2xl border border-gray-200 py-6 px-6 z-50"
                     onMouseEnter={() => toggleDropdown('assessment')}
                     onMouseLeave={closeAllDropdowns}
@@ -385,11 +387,11 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
-              
-              <a 
-                href="/contact" 
+
+              <a
+                href={`/${locale}/contact`}
                 className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
->
+              >
                 {isSv ? 'Kontakta oss' : 'Contact us'}
               </a>
             </div>
@@ -423,25 +425,25 @@ export default function Navbar() {
           {/* Mobile Menu */}
           {isOpen && (
             <div className="lg:hidden pb-6 pt-2 space-y-1 border-t border-gray-100">
-              <a href="/new-in-sweden" className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
+              <a href={`/${locale}/new-in-sweden`} className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
                 {t('navbar.links.newInSweden')}
               </a>
-              <a href="/services" className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
+              <a href={`/${locale}/services`} className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
                 {t('navbar.links.services')}
               </a>
-              <a href="/about" className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
+              <a href={`/${locale}/about`} className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
                 {t('navbar.links.aboutUs')}
               </a>
-              <a href="/housing" className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
+              <a href={`/${locale}/housing`} className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
                 {t('navbar.links.housing')}
               </a>
-              <a href="/assessment" className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
+              <a href={`/${locale}/assessment`} className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
                 {t('navbar.links.assessment')}
               </a>
-              <a href="/contact" className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
+              <a href={`/${locale}/contact`} className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
                 {t('navbar.links.contactUs')}
               </a>
-              
+
               <div className="pt-4 space-y-3 border-t border-gray-100 mt-4">
                 <button className="w-full px-4 py-3 text-base text-black bg-white border-2 border-black rounded-lg hover:bg-gray-50 transition-colors">
                   {t('navbar.buttons.bookAppointment')}

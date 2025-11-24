@@ -79,5 +79,285 @@
         "description": "Om du har ett långvarigt uppehållstillstånd i ett annat EU-land kan du ha rätt att flytta till Sverige med din familj. Reglerna för familjeåterförening gör det möjligt för anhöriga att ansluta sig."
       }
     }
+  },
+  "about": {
+    "hero": {
+      "title": "Om oss",
+      "subtitle": "Välkommen till SWEDEN RELOCATORS AB",
+      "description": "SWEDEN RELOCATORS AB grundades 2015."
+    },
+    "whoWeAre": {
+      "label": "Vilka vi är",
+      "title": "Din pålitliga partner för <blue>Relocation</blue>",
+      "p1": "Sweden Relocators AB grundades 2015 och specialiserar sig på att erbjuda skräddarsydda relocation- och mobilitetslösningar för individer och organisationer som flyttar till Norden. Vi förenklar processen att bosätta sig i ett nytt land genom att erbjuda omfattande tjänster som riktar sig till både arbetsgivare och anställda. Oavsett om du flyttar för arbete, studier eller investeringsmöjligheter säkerställer vi en smidig övergång med tjänster som destinationsstöd, globala mobilitetslösningar, immigrationsstöd, flytthantering och fastighetsförvaltning.",
+      "p2": "Vår webb- och appbaserade portal erbjuder en innovativ lösning för att hantera flyttar. Arbetsgivare kan övervaka framstegen för anställdas överföringar, medan anställda kan spåra ansökningar, utforska bostäder och skolor samt hantera utgifter effektivt - allt på ett ställe."
+    },
+    "solutions": {
+      "employer": {
+        "title": "Företagslösningar",
+        "description": "Vi hjälper arbetsgivare att hantera komplexiteten i att flytta sin personal. Tjänsterna inkluderar:",
+        "list": [
+          "Utformning av globala mobilitetsprogram: Skräddarsydda strategier för efterlevnad i hela organisationen.",
+          "Visum- och arbetstillståndshjälp: Expertstöd för strömlinjeformade immigrationsprocesser.",
+          "Flyttkoordinering: Hantering av logistik, transport av bohag och bostad för anställda och deras familjer.",
+          "Kulturella integrationsprogram: Workshops och utbildning för att hjälpa anställda att anpassa sig smidigt."
+        ]
+      },
+      "employee": {
+        "title": "Lösningar för anställda",
+        "description": "För privatpersoner och deras familjer erbjuder vi heltäckande stöd för att underlätta övergången, inklusive:",
+        "list": [
+          "Immigrationstjänster: Hjälp med visumansökningar och uppehållstillstånd.",
+          "Bostads- och skolsökning: Tillgång till bostadsalternativ och skolor baserat på livsstil, budget och preferenser.",
+          "Orientering och inflyttningsstöd: Språkkurser och kulturell orienteringsutbildning.",
+          "Digitala relocation-verktyg: Uppdateringar i realtid och ekonomisk hantering via vår app och portal."
+        ]
+      },
+      "nordic": {
+        "title": "Nordic Relocators - Danmark",
+        "p1": "Genom att utöka vår expertis över hela Norden erbjuder Nordic Relocators specialiserade tjänster för flytt till Danmark. Oavsett om du flyttar ett helt team eller en enskild anställd erbjuder vi skräddarsydda lösningar för att möta Danmarks specifika krav. Från visumansökningar till bostad och kulturell integration är våra tjänster utformade för att säkerställa en framgångsrik flytt.",
+        "p2": "På Sweden Relocators AB och Nordic Relocators är vi engagerade i att göra varje flytt effektiv, stressfri och givande, och hjälper både arbetsgivare och anställda att trivas i sin nya nordiska miljö."
+      }
+    },
+    "specializations": {
+      "label": "Specialiseringar",
+      "title": "Vad vi <blue>gör bäst</blue>",
+      "cards": {
+        "student": {
+          "title": "Antagningstjänster för studenter",
+          "description": "Hjälp med att välja rätt utbildningsprogram och hantering av uppehållstillstånd för internationella studenter."
+        },
+        "work": {
+          "title": "Arbete & Företag",
+          "description": "Hjälp med att registrera företag, köpa ett nytt företag och förbereda arbetstillståndsansökningar för anställda och arbetsgivare."
+        },
+        "family": {
+          "title": "Familjerelocation",
+          "description": "Vi erbjuder hjälp med din familjevisumprocess inklusive dina beroende föräldrar och andra familjemedlemmar."
+        },
+        "investment": {
+          "title": "Investeringslösningar",
+          "description": "Det finns olika möjligheter för affärsverksamhet, leta efter den bästa möjligheten att bygga din framtid."
+        }
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Kontakta oss",
+      "subtitle": "Hitta oss på din närmaste plats, eller nå oss digitalt när som helst via vår webb och app."
+    },
+    "formSection": {
+      "title": "Våra tjänster för en smidig <blue>flytt till Sverige</blue>",
+      "heading1": "Kontakta oss gärna.",
+      "heading2": "Vi ser fram emot att höra från dig.",
+      "form": {
+        "name": "Namn",
+        "email": "E-post",
+        "subject": "Ämne",
+        "message": "Meddelande",
+        "placeholderMessage": "Skriv ditt meddelande här",
+        "submit": "Skicka nu"
+      }
+    },
+    "locations": {
+      "sweden": "Sverige",
+      "denmark": "Danmark",
+      "portugal": "Portugal",
+      "address": "Adress",
+      "contactNumber": "Kontaktnummer",
+      "emailAddress": "E-postadress",
+      "viewOnMap": "Visa på karta"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "badge": "Tydlig vägledning, rätt stöd, din väg framåt",
+      "titleLine1": "Din digitala gateway till",
+      "titleLine2": "Relocation- & Immigrationstjänster",
+      "description": "Vi levererar sömlösa lösningar för privatpersoner och företag inom en säker plattform."
+    },
+    "secondaryBand": {
+      "text": "Immigrationslösningar för individer-familjer-företag"
+    },
+    "cards": [
+      {
+        "title": "Familjeåterförening - Nationella lagar",
+        "description": "Stöd för att återförenas med din familj enligt nationella uppehållsregler."
+      },
+      {
+        "title": "Familjeåterförening - EU-lagar",
+        "description": "Vägledning för familjetillstånd baserat på EU:s regler om fri rörlighet."
+      },
+      {
+        "title": "Arbetstillstånd Sverige",
+        "description": "Helhetsstöd för svenska arbetstillstånd och arbetsgivardokumentation."
+      },
+      {
+        "title": "Egenföretagare i Sverige",
+        "description": "Hjälp att etablera och hantera din status som egenföretagare i Sverige."
+      },
+      {
+        "title": "Studera i Sverige",
+        "description": "Ansökningsförberedelser och stöd för svenska universitet och högskolor."
+      },
+      {
+        "title": "CBS/BB-program",
+        "description": "Specialiserade program för affärs-, investerings- och flyttplanering."
+      },
+      {
+        "title": "Svenskt medborgarskap",
+        "description": "Behörighetsgranskning och ansökningsstöd för att bli svensk medborgare."
+      },
+      {
+        "title": "Stöd för hela familjen",
+        "description": "Helhetslösningar för partners, barn och utökade familjemedlemmar."
+      },
+      {
+        "title": "Överklagandeärenden",
+        "description": "Strukturerade överklagandestrategier och dokumentgranskning vid avslag."
+      },
+      {
+        "title": "Destinationstjänster",
+        "description": "Orientering, lokala registreringar och inflyttningsstöd vid ankomst."
+      },
+      {
+        "title": "Bostadslösningar",
+        "description": "Kort- och långsiktig bostadssökning med hyresvärdskoordinering."
+      },
+      {
+        "title": "Köpa / Sälja fastighet",
+        "description": "Vägledning genom hela köp- eller säljprocessen av fastigheter."
+      },
+      {
+        "title": "Bokföringslösningar",
+        "description": "Redovisnings- och bokföringstjänster för privatpersoner och företag."
+      },
+      {
+        "title": "EOR & Lönehantering",
+        "description": "Employer of record och regelefterlevande lönehantering för din svenska personal."
+      },
+      {
+        "title": "Ekonomisk förvaltning",
+        "description": "Helhetsöversyn och rapportering av din verksamhets ekonomi."
+      },
+      {
+        "title": "Juridisk assistans",
+        "description": "Tillgång till juridisk expertis för komplexa flytt- och immigrationsfrågor."
+      },
+      {
+        "title": "Bemanningslösningar",
+        "description": "Rekryterings- och bemanningslösningar skräddarsydda för nordiska marknader."
+      },
+      {
+        "title": "Personalhantering",
+        "description": "HR, onboarding och löpande personalstöd i Sverige."
+      },
+      {
+        "title": "Logistikhantering",
+        "description": "Koordinerad logistik för din flytt, leveranser och omlokaliseringar."
+      },
+      {
+        "title": "Husdjursflytt",
+        "description": "Säker och regelrätt flytt av husdjur med fullt dokumentationsstöd."
+      },
+      {
+        "title": "Flytta till Danmark",
+        "description": "Omfattande tjänster för att flytta och bosätta sig i Danmark."
+      }
+    ],
+    "readMore": "Läs mer",
+    "howToStart": {
+      "badge": "Våra kompletta digitala lösningar är utformade för både",
+      "title": "Privatkunder & Företagsorganisationer",
+      "individual": {
+        "title": "Hur man börjar - Privatperson",
+        "steps": [
+          "Ladda ner appen eller skapa ett konto på vår webbplats",
+          "Boka en konsultation för att få den hjälp du behöver",
+          "Onboarda med oss – signera serviceavtal",
+          "Betala din faktura och ladda upp nödvändiga dokument",
+          "Kontrollera din ansökningsstatus & kontakta din representant vid behov"
+        ],
+        "cta": "Registrera dig nu",
+        "note": "För att komma igång rekommenderar vi att du använder vårt bedömningsverktyg för att kontrollera din grundläggande behörighet.",
+        "subNote": "Låt oss förenkla din flyttresa"
+      },
+      "company": {
+        "title": "Hur man börjar - Företag",
+        "steps": [
+          "Skapa ett konto på vår webbplats",
+          "Lägg enkelt till anställda, hantera deras profiler och välj de tjänster du behöver",
+          "Realtidsåtkomst och samordning för anställda och företag",
+          "Andra tjänster tillgängliga som: bokföring, jobbannonsering, företags- eller fastighetslistning",
+          "Dela åtkomst inom ditt team på rätt avdelning"
+        ],
+        "cta": "Registrera dig nu",
+        "note": "Välj rätt typ vid registrering så att vi bättre kan förstå dina behov.",
+        "subNote": "Allt-i-ett digitala lösningar för företag"
+      }
+    }
+  },
+  "blogsPage": {
+    "hero": {
+      "title": "Bloggar",
+      "description": "Håll dig informerad och inspirerad - Utforska våra senaste artiklar."
+    },
+    "secondaryBand": {
+      "badge": "Tydlig vägledning, rätt stöd, din väg framåt",
+      "titleLine1": "Våra tjänster för en smidig ",
+      "titleLine2": "flytt till Sverige"
+    },
+    "cards": [
+      {
+        "title": "5 saker som hjälper dig att mötas? Du flyttar till Sverige",
+        "description": "Detta val kräver en smart men resan beror på olika faktorer och för framgången av resan..."
+      },
+      {
+        "title": "5 svenska maträtter du måste prova",
+        "description": "Utnyttja lågt hängande frukt för att identifiera ett ungefärligt mervärdesaktivitet för betatestning. Åsidosätt..."
+      },
+      {
+        "title": "En guide om studentvisum och antagning i Sverige",
+        "description": "Väx organiskt den holistiska världsbilden av disruptiv innovation via mångfald på arbetsplatsen och..."
+      },
+      {
+        "title": "Hur man bygger en framgångsrik start-up i Sverige",
+        "description": "Sverige är känt som landet för start-ups eftersom det finns många framgångsrika startups och enhörningar..."
+      },
+      {
+        "title": "Arbetstillstånd i Sverige - Komplett guide",
+        "description": "Väx organiskt den holistiska världsbilden av disruptiv innovation via mångfald på arbetsplatsen och..."
+      },
+      {
+        "title": "Varför du först bör flytta ut från Sverige",
+        "description": "Väx organiskt den holistiska världsbilden av disruptiv innovation via mångfald på arbetsplatsen och..."
+      },
+      {
+        "title": "Immigrera till Sverige - Vad du behöver veta",
+        "description": "Väx organiskt den holistiska världsbilden av disruptiv innovation via mångfald på arbetsplatsen och..."
+      },
+      {
+        "title": "Affärsutmaningar för expats i Sverige",
+        "description": "Väx organiskt den holistiska världsbilden av disruptiv innovation via mångfald på arbetsplatsen och..."
+      },
+      {
+        "title": "Varför du inte ska vara rädd för att besöka Sverige",
+        "description": "Väx organiskt den holistiska världsbilden av disruptiv innovation via mångfald på arbetsplatsen och..."
+      },
+      {
+        "title": "6 bästa småföretagsidéer i Sverige",
+        "description": "Väx organiskt den holistiska världsbilden av disruptiv innovation via mångfald på arbetsplatsen och..."
+      },
+      {
+        "title": "5 vanliga problem som invandrare möter i Sverige",
+        "description": "Väx organiskt den holistiska världsbilden av disruptiv innovation via mångfald på arbetsplatsen och..."
+      },
+      {
+        "title": "6 anledningar till varför studenter är bästa platsen att studera",
+        "description": "Väx organiskt den holistiska världsbilden av disruptiv innovation via mångfald på arbetsplatsen och..."
+      }
+    ],
+    "readMore": "Läs mer"
   }
 }

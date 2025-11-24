@@ -57,10 +57,10 @@ export default function CitizenshipResidencySection() {
         </p>
 
         {/* Heading */}
-        <h2 className="text-center text-[1.9rem] sm:text-[2.4rem] lg:text-[2.9rem] 4k:text-[3.6rem] font-extrabold text-slate-900 leading-tight mb-2">
+        <h2 className="text-center text-[1.9rem] sm:text-[2.4rem] lg:text-[2.9rem] 4k:text-[3.6rem] font-bold text-gray-900 leading-tight mb-2">
           <span className="text-sky-600">{isSv ? 'Medborgarskap & uppehållstillstånd' : 'Citizenship & Residency'}</span> {isSv ? 'genom investering' : 'by Investment'}
         </h2>
-        <p className="text-center text-[0.95rem] sm:text-base lg:text-[1.05rem] text-slate-600 max-w-2xl mx-auto mb-8 sm:mb-10 lg:mb-12">
+        <p className="text-center text-[0.95rem] sm:text-base lg:text-[1.05rem] text-gray-600 max-w-2xl mx-auto mb-8 sm:mb-10 lg:mb-12">
           {texts.intro}
         </p>
 
@@ -106,7 +106,7 @@ export default function CitizenshipResidencySection() {
           {/* Left Card - CBI */}
           <Card
             elevation={0}
-            className="rounded-2xl border border-slate-200 shadow-[0_30px_60px_rgba(15,23,42,0.25),_0_15px_35px_rgba(59,130,246,0.15)] flex flex-col"
+            className="rounded-2xl border border-gray-200 shadow-[0_30px_60px_rgba(15,23,42,0.25),_0_15px_35px_rgba(59,130,246,0.15)] flex flex-col"
             sx={{ backgroundColor: '#ffffff' }}
           >
             <CardContent className="p-6 sm:p-7 lg:p-8 flex flex-col h-full">
@@ -115,7 +115,7 @@ export default function CitizenshipResidencySection() {
                 sx={{
                   fontSize: { xs: '1.2rem', sm: '1.35rem', lg: '1.45rem', '4k': '1.8rem' },
                   fontWeight: 700,
-                  color: '#0f172a',
+                  color: '#111827',
                   mb: 1,
                 }}
               >
@@ -124,7 +124,7 @@ export default function CitizenshipResidencySection() {
               <Typography
                 sx={{
                   fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.2rem' },
-                  color: '#475569',
+                  color: '#4b5563',
                   mb: 3,
                 }}
               >
@@ -133,7 +133,7 @@ export default function CitizenshipResidencySection() {
                   : 'These programs offer a direct path to citizenship in exchange for a qualifying investment in the host country.'}
               </Typography>
 
-              <ul className="space-y-1.5 text-[0.9rem] sm:text-[0.95rem] lg:text-[1rem] text-slate-700 mb-4">
+              <ul className="space-y-1.5 text-[0.9rem] sm:text-[0.95rem] lg:text-[1rem] text-gray-700 mb-4">
                 {isSv ? (
                   <>
                     <li>• Karibiska länder: Antigua och Barbuda, Dominica, Grenada, Saint Kitts &amp; Nevis, Saint Lucia.</li>
@@ -160,7 +160,7 @@ export default function CitizenshipResidencySection() {
                       borderRadius: '999px',
                       overflow: 'hidden',
                       boxShadow: '0 6px 12px rgba(15,23,42,0.12)',
-                      border: '1px solid #e2e8f0',
+                      border: '1px solid #e5e7eb',
                       backgroundColor: '#ffffff',
                       display: 'flex',
                       alignItems: 'center',
@@ -215,7 +215,7 @@ export default function CitizenshipResidencySection() {
           {/* Right Card - RBI */}
           <Card
             elevation={0}
-            className="rounded-2xl border border-slate-200 shadow-[0_30px_60px_rgba(15,23,42,0.25),_0_15px_35px_rgba(59,130,246,0.15)] flex flex-col"
+            className="rounded-2xl border border-gray-200 shadow-[0_30px_60px_rgba(15,23,42,0.25),_0_15px_35px_rgba(59,130,246,0.15)] flex flex-col"
             sx={{ backgroundColor: '#ffffff' }}
           >
             <CardContent className="p-6 sm:p-7 lg:p-8 flex flex-col h-full">
@@ -242,7 +242,7 @@ export default function CitizenshipResidencySection() {
                   : 'RBI programs grant temporary or permanent residency, which may lead to citizenship after a defined period.'}
               </Typography>
 
-              <ul className="space-y-1.5 text-[0.9rem] sm:text-[0.95rem] lg:text-[1rem] text-slate-700 mb-4">
+              <ul className="space-y-1.5 text-[0.9rem] sm:text-[0.95rem] lg:text-[1rem] text-gray-700 mb-4">
                 {isSv ? (
                   <>
                     <li>• EU:s gyllene visum: Portugal, Spanien, Grekland, Italien och andra godkända program.</li>

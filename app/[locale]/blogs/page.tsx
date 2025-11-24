@@ -1,5 +1,8 @@
+'use client';
+
 import Image from 'next/image';
-import Navbar from '../components/Navbar';
+import Navbar from '../../components/Navbar';
+import { useTranslation } from 'react-i18next';
 
 const fadeInUp = `
   @keyframes fadeInUp {
@@ -14,22 +17,14 @@ const fadeInUp = `
   }
 `;
 
-const blogCards: { id: number; title: string; description: string }[] = [
-  { id: 1, title: '5 Things To Help U Meet? You\'re Relocating To Sweden', description: 'This choice demands a smart but journey depends on various factors and for the success of the jour...' },
-  { id: 2, title: '5 Swedish Foods You Must Try', description: 'Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the...' },
-  { id: 3, title: 'A Guide About Student Visa And Admission In Sweden', description: 'Organically grow the holistic world view of disruptive innovation via workplace diversity and e...' },
-  { id: 4, title: 'How To Build A Successful Start-Up In Sweden', description: 'Sweden is known as the land of start-ups because there are many successful startups and unicorns...' },
-  { id: 5, title: 'Work Permit In Sweden - Complete Guide', description: 'Organically grow the holistic world view of disruptive innovation via workplace diversity and e...' },
-  { id: 6, title: 'Why You Should First Moving Out Of Sweden', description: 'Organically grow the holistic world view of disruptive innovation via workplace diversity and e...' },
-  { id: 7, title: 'Immigrating To Sweden -What You Need To Know', description: 'Organically grow the holistic world view of disruptive innovation via workplace diversity and e...' },
-  { id: 8, title: 'Business Challenges For Expatriates In Sweden', description: 'Organically grow the holistic world view of disruptive innovation via workplace diversity and e...' },
-  { id: 9, title: 'Why You Shouldn\'t Be Afraid Of Visiting Sweden', description: 'Organically grow the holistic world view of disruptive innovation via workplace diversity and e...' },
-  { id: 10, title: '6 Best Small Business Ideas In Sweden', description: 'Organically grow the holistic world view of disruptive innovation via workplace diversity and e...' },
-  { id: 11, title: '5 Common Problems Faced By Immigrants In Sweden', description: 'Organically grow the holistic world view of disruptive innovation via workplace diversity and e...' },
-  { id: 12, title: '6 Reasons Why Students Are Best Place To Study', description: 'Organically grow the holistic world view of disruptive innovation via workplace diversity and e...' },
-];
-
 export default function BlogsPage() {
+  const { t } = useTranslation();
+
+  const blogCards = (t('blogsPage.cards', { returnObjects: true }) as Array<{ title: string; description: string }>).map((card, index) => ({
+    ...card,
+    id: index + 1
+  }));
+
   return (
     <main className="min-h-screen bg-white">
       <Navbar />
@@ -46,10 +41,10 @@ export default function BlogsPage() {
               style={{ animation: 'fadeInUp 0.8s ease-out' }}
             >
               <h1 className="text-[1.9rem] sm:text-[2.25rem] md:text-[2.5rem] lg:text-[2.9rem] xl:text-[3.1rem] 2xl:text-[3.3rem] 3xl:text-[4rem] 4k:text-[6rem] font-bold leading-tight text-gray-900 mb-4">
-                Blogs
+                {t('blogsPage.hero.title')}
               </h1>
               <p className="mt-4 text-[14px] sm:text-[15px] md:text-base lg:text-[17px] xl:text-[18px] 3xl:text-[20px] 4k:text-[2rem] text-gray-600 leading-relaxed">
-                Stay Informed and Inspired - Explore Our Latest Articles.
+                {t('blogsPage.hero.description')}
               </p>
             </div>
           </div>
@@ -64,11 +59,11 @@ export default function BlogsPage() {
             style={{ animation: 'fadeInUp 0.9s ease-out' }}
           >
             <p className="text-[11px] sm:text-xs md:text-sm 4k:text-xl tracking-[0.18em] uppercase text-blue-600 mb-3">
-              Clear Guidance, Right Support, Your Path Forward
+              {t('blogsPage.secondaryBand.badge')}
             </p>
             <h2 className="text-[1.9rem] sm:text-[2.25rem] md:text-[2.5rem] lg:text-[2.9rem] xl:text-[3.1rem] 2xl:text-[3.3rem] 3xl:text-[4rem] 4k:text-[6rem] font-bold leading-tight">
-              <span className="text-gray-900">Our Services for a Seamless </span>
-              <span className="text-blue-600">Move to Sweden</span>
+              <span className="text-gray-900">{t('blogsPage.secondaryBand.titleLine1')}</span>
+              <span className="text-blue-600">{t('blogsPage.secondaryBand.titleLine2')}</span>
             </h2>
           </div>
         </div>
@@ -109,7 +104,7 @@ export default function BlogsPage() {
 
                   <div className="pt-2 mt-auto">
                     <button className="inline-flex items-center justify-center px-5 py-2.5 text-[13px] sm:text-[14px] font-semibold text-white bg-[#032B5F] rounded-full hover:bg-[#021C3D] transition-colors">
-                      Read More
+                      {t('blogsPage.readMore')}
                     </button>
                   </div>
                 </div>

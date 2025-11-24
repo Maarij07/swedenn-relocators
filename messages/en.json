@@ -79,5 +79,285 @@
         "description": "If you hold a long-term residence permit in another EU country, you may have the right to move to Sweden with your family. Family reunification rules allow eligible relatives to join you."
       }
     }
+  },
+  "about": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "Welcome To SWEDEN RELOCATORS AB",
+      "description": "SWEDEN RELOCATORS AB was established in 2015."
+    },
+    "whoWeAre": {
+      "label": "Who We Are",
+      "title": "Your Trusted <blue>Relocation</blue> Partner",
+      "p1": "Founded in 2015, Sweden Relocators AB specializes in providing tailored relocation and mobility solutions for individuals and organizations moving to Nordic countries. We simplify the process of settling into a new country by offering comprehensive services that cater to both employers and employees. Whether you're relocating for work, education, or investment opportunities, we ensure a seamless transition with services like Destination Assistance, Global Mobility Solutions, Immigration Support, Move Management, and Property Management.",
+      "p2": "Our web- and app-based portal provides an innovative solution for managing relocations. Employers can oversee the progress of employee transfers, while employees can track applications, explore housing and schools, and manage expenses efficiently - all in one place."
+    },
+    "solutions": {
+      "employer": {
+        "title": "Employer Solutions",
+        "description": "We assist employers in managing the complexities of relocating their workforce. Services include:",
+        "list": [
+          "Global Mobility Program Design: Tailored strategies for organization-wide compliance.",
+          "Visa and Work Permit Assistance: Expert support for streamlined immigration processes.",
+          "Move Coordination: Handling logistics, household goods shipment, and housing for employees and their families.",
+          "Cultural Integration Programs: Workshops and training to help employees adapt smoothly."
+        ]
+      },
+      "employee": {
+        "title": "Employee Solutions",
+        "description": "For individuals and their families, we provide end-to-end support to ease their transition, including:",
+        "list": [
+          "Immigration Services: Assistance with visa applications and residence permits.",
+          "Housing and School Search: Access to housing options and schools based on lifestyle, budget, and preferences.",
+          "Orientation and Settling-In Support: Language courses and cultural orientation training.",
+          "Digital Relocation Tools: Real-time updates and financial management through our app and portal."
+        ]
+      },
+      "nordic": {
+        "title": "Nordic Relocators - Denmark",
+        "p1": "Expanding our expertise across the Nordic region, Nordic Relocators offers specialized services for moving to Denmark. Whether you're relocating an entire team or a single employee, we provide tailored solutions to address Denmark's specific requirements. From visa applications to housing and cultural integration, our services are designed to ensure a successful move.",
+        "p2": "At Sweden Relocators AB and Nordic Relocators, we're committed to making every relocation efficient, stress-free, and rewarding, helping both employers and employees thrive in their new Nordic environment."
+      }
+    },
+    "specializations": {
+      "label": "Specializations",
+      "title": "What we <blue>do best</blue>",
+      "cards": {
+        "student": {
+          "title": "Student Admission Services",
+          "description": "Assistance in choosing the right degree program and residence permit processing for international students."
+        },
+        "work": {
+          "title": "Work & Business",
+          "description": "Assistance in registering a business, buying a new business, and preparing work permit applications for employees and employers."
+        },
+        "family": {
+          "title": "Family Relocation",
+          "description": "We provide assistance in your family visa processing including your dependent parents and other family members."
+        },
+        "investment": {
+          "title": "Investment Solutions",
+          "description": "There are various opportunities for business ventures, look for the best opportunity to build your future."
+        }
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Find us at your nearest location, or reach us digitally anytime through our web and app."
+    },
+    "formSection": {
+      "title": "Our Services for a Seamless <blue>Move to Sweden</blue>",
+      "heading1": "Feel free to contact us.",
+      "heading2": "We'll be glad to hear from you, buddy.",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "placeholderMessage": "Enter your message here",
+        "submit": "Submit Now"
+      }
+    },
+    "locations": {
+      "sweden": "Sweden",
+      "denmark": "Denmark",
+      "portugal": "Portugal",
+      "address": "Address",
+      "contactNumber": "Contact Number",
+      "emailAddress": "Email Address",
+      "viewOnMap": "View On Map"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "badge": "Clear Guidance, Right Support, Your Path Forward",
+      "titleLine1": "Your Digital Gateway To",
+      "titleLine2": "Relocation & Immigration Services",
+      "description": "We are delivering seamless solutions for individuals and businesses within one secure platform."
+    },
+    "secondaryBand": {
+      "text": "Immigration Solutions For Individual-Families- Businesses"
+    },
+    "cards": [
+      {
+        "title": "Family Reunification - National Laws",
+        "description": "Support for reuniting with your family under national residence rules."
+      },
+      {
+        "title": "Family Reunification - EU Laws",
+        "description": "Guidance for family permits based on EU freedom of movement rules."
+      },
+      {
+        "title": "Work Permit Sweden",
+        "description": "End-to-end assistance for Swedish work permits and employer documentation."
+      },
+      {
+        "title": "Self-Employed in Sweden",
+        "description": "Help to establish and manage your self-employed status in Sweden."
+      },
+      {
+        "title": "Study in Sweden",
+        "description": "Application preparation and support for Swedish universities and colleges."
+      },
+      {
+        "title": "CBS/BB Programme",
+        "description": "Specialised programmes for business, investment and relocation planning."
+      },
+      {
+        "title": "Swedish Citizenship",
+        "description": "Eligibility review and application support for becoming a Swedish citizen."
+      },
+      {
+        "title": "All-Relative Family Support",
+        "description": "Holistic solutions for partners, children and extended family members."
+      },
+      {
+        "title": "Appeal Cases",
+        "description": "Structured appeal strategies and documentation review for refusals."
+      },
+      {
+        "title": "Destination Services",
+        "description": "Orientation, local registrations and settling-in support on arrival."
+      },
+      {
+        "title": "Housing Solutions",
+        "description": "Short- and long-term housing search with landlord coordination."
+      },
+      {
+        "title": "Buy / Sell Property",
+        "description": "Guidance across the full property purchase or sale lifecycle."
+      },
+      {
+        "title": "Bookkeeping Solutions",
+        "description": "Accounting and bookkeeping services for individuals and companies."
+      },
+      {
+        "title": "EOR & Payroll",
+        "description": "Employer of record and compliant payroll for your Swedish workforce."
+      },
+      {
+        "title": "Financial Management",
+        "description": "End-to-end financial oversight and reporting for your operations."
+      },
+      {
+        "title": "Lawyers Assistance",
+        "description": "Access to legal expertise for complex relocation and immigration matters."
+      },
+      {
+        "title": "Manpower Solutions",
+        "description": "Recruitment and staffing solutions tailored to Nordic markets."
+      },
+      {
+        "title": "Employee Management",
+        "description": "HR, onboarding and ongoing employee support in Sweden."
+      },
+      {
+        "title": "Logistics Management",
+        "description": "Coordinated logistics for your move, shipments and relocations."
+      },
+      {
+        "title": "Pet Relocation",
+        "description": "Safe and compliant relocation of pets with full documentation support."
+      },
+      {
+        "title": "Relocate to Denmark",
+        "description": "Comprehensive services for relocating and settling in Denmark."
+      }
+    ],
+    "readMore": "Read More",
+    "howToStart": {
+      "badge": "Our complete digital solutions are designed for both",
+      "title": "Individual Clients & Corporate Organizations",
+      "individual": {
+        "title": "How To Start - Individual",
+        "steps": [
+          "Download the app or create an account on our website",
+          "Book a consultation session to get the help you need",
+          "Onboard with us – sign service agreement",
+          "Pay your invoice and upload the required documents",
+          "Check your application status & contact your rep if needed"
+        ],
+        "cta": "Sign Up Now",
+        "note": "To get started, we recommend using our assessment tool to check your basic eligibility.",
+        "subNote": "Let us simplify your relocation journey"
+      },
+      "company": {
+        "title": "How To Start - Company",
+        "steps": [
+          "Create an account on our website",
+          "Easily add employees, manage their profiles, and choose the services you need",
+          "Real-time access and coordination for employees and companies",
+          "Other services available like: bookkeeping, job posting, business, or property listing",
+          "Share access across your team in the correct department"
+        ],
+        "cta": "Sign Up Now",
+        "note": "Select the correct type during sign-up so we can better understand your needs.",
+        "subNote": "All-in-one digital solutions for companies"
+      }
+    }
+  },
+  "blogsPage": {
+    "hero": {
+      "title": "Blogs",
+      "description": "Stay Informed and Inspired - Explore Our Latest Articles."
+    },
+    "secondaryBand": {
+      "badge": "Clear Guidance, Right Support, Your Path Forward",
+      "titleLine1": "Our Services for a Seamless ",
+      "titleLine2": "Move to Sweden"
+    },
+    "cards": [
+      {
+        "title": "5 Things To Help U Meet? You're Relocating To Sweden",
+        "description": "This choice demands a smart but journey depends on various factors and for the success of the jour..."
+      },
+      {
+        "title": "5 Swedish Foods You Must Try",
+        "description": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the..."
+      },
+      {
+        "title": "A Guide About Student Visa And Admission In Sweden",
+        "description": "Organically grow the holistic world view of disruptive innovation via workplace diversity and e..."
+      },
+      {
+        "title": "How To Build A Successful Start-Up In Sweden",
+        "description": "Sweden is known as the land of start-ups because there are many successful startups and unicorns..."
+      },
+      {
+        "title": "Work Permit In Sweden - Complete Guide",
+        "description": "Organically grow the holistic world view of disruptive innovation via workplace diversity and e..."
+      },
+      {
+        "title": "Why You Should First Moving Out Of Sweden",
+        "description": "Organically grow the holistic world view of disruptive innovation via workplace diversity and e..."
+      },
+      {
+        "title": "Immigrating To Sweden -What You Need To Know",
+        "description": "Organically grow the holistic world view of disruptive innovation via workplace diversity and e..."
+      },
+      {
+        "title": "Business Challenges For Expatriates In Sweden",
+        "description": "Organically grow the holistic world view of disruptive innovation via workplace diversity and e..."
+      },
+      {
+        "title": "Why You Shouldn't Be Afraid Of Visiting Sweden",
+        "description": "Organically grow the holistic world view of disruptive innovation via workplace diversity and e..."
+      },
+      {
+        "title": "6 Best Small Business Ideas In Sweden",
+        "description": "Organically grow the holistic world view of disruptive innovation via workplace diversity and e..."
+      },
+      {
+        "title": "5 Common Problems Faced By Immigrants In Sweden",
+        "description": "Organically grow the holistic world view of disruptive innovation via workplace diversity and e..."
+      },
+      {
+        "title": "6 Reasons Why Students Are Best Place To Study",
+        "description": "Organically grow the holistic world view of disruptive innovation via workplace diversity and e..."
+      }
+    ],
+    "readMore": "Read More"
   }
 }

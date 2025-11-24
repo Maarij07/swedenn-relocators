@@ -1,4 +1,4 @@
-import Navbar from '../components/Navbar';
+import Navbar from '../../components/Navbar';
 import { Briefcase, User, Globe, GraduationCap, Users, TrendingUp } from 'lucide-react';
 
 const fadeInUp = `

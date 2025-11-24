@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import { useRouter, usePathname } from 'next/navigation';
 import i18n from '../../i18n';
 import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
@@ -52,6 +53,9 @@ export default function LanguageSelector({
   currentLanguage = 'en',
   onLanguageChange,
 }: LanguageSelectorProps) {
+  const router = useRouter();
+  const pathname = usePathname();
+
   const handleLanguageSelect = (languageCode: string) => {
     if (onLanguageChange) {
       onLanguageChange(languageCode);
@@ -62,6 +66,20 @@ export default function LanguageSelector({
       i18n.changeLanguage(languageCode).catch((err) => {
         console.error('Failed to change language', err);
       });
+
+      // Redirect to the new locale
+      const segments = pathname?.split('/') || [];
+      // segments[0] is empty, segments[1] is locale (en/sv) or empty (root)
+      if (segments.length > 1 && (segments[1] === 'en' || segments[1] === 'sv')) {
+        segments[1] = languageCode;
+        const newPath = segments.join('/');
+        router.push(newPath);
+      } else {
+        // If no locale prefix (e.g. root), just append or replace?
+        // Root redirects to /en usually, so we might be at /en already.
+        // If we are at /, we can't easily guess. But assuming we are at /en or /sv:
+        router.push(`/${languageCode}`);
+      }
     }
 
     onClose();
