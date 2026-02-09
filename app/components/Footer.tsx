@@ -164,7 +164,7 @@ export default function Footer() {
               </div>
             </div>
 
-            
+            {/* Get Our Free App & Partner Network */}
             <div className="col-span-2 flex flex-col max-w-md">
               {/* Top: GET OUR FREE APP heading and JOIN OUR PARTNER NETWORK button */}
               <div className="flex items-start justify-between gap-4 mb-6">
