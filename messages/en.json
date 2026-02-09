@@ -298,6 +298,14 @@
       }
     }
   },
+  "digitalPlatforms": {
+    "badge": "Transparency Brings Peace of Mind",
+    "heading": "Our All-in-One Digital Platforms for Individuals and Companies",
+    "subheading": "Seamless Relocation & Immigration solutions for Employees, Individuals, Families, & Companies",
+    "description": "Our app and web portal provide a complete end-to-end relocation and immigration solution for individuals and companies. Services include Man Power Solutions, Visa Tracking, Eligibility Assessments, Compliance Management, Housing Solutions, Payroll, Logistics, Health insurances, Pet Relocation, and Full Departure-to-Arrival support and many more. All of this is managed in one secure platform, accessible anytime via web or mobile.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
   "blogsPage": {
     "hero": {
       "title": "Blogs",

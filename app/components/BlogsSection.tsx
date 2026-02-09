@@ -107,10 +107,12 @@ export default function BlogsSection() {
                 <p className="text-[0.8rem] sm:text-[0.85rem] text-slate-500 leading-relaxed flex-1">
                   {blog.description}
                 </p>
-                <button className="mt-2 inline-flex items-center text-[0.8rem] sm:text-[0.85rem] font-semibold text-[#2563eb] hover:text-[#1d4ed8]">
-                  {texts.readMore}
-                  <span className="ml-1 text-xs">→</span>
-                </button>
+                <div className="flex justify-end pt-2">
+                  <button className="inline-flex items-center px-4 py-2 rounded-lg border border-slate-200 text-[0.8rem] sm:text-[0.85rem] font-semibold text-[#2563eb] hover:text-[#1d4ed8] hover:border-[#2563eb] transition-colors">
+                    {texts.readMore}
+                    <span className="ml-1 text-xs">→</span>
+                  </button>
+                </div>
               </div>
             </article>
           ))}

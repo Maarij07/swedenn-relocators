@@ -155,9 +155,48 @@ export default function Footer() {
                 <p className="text-xs sm:text-[13px] text-[#cbd5e1]">
                   {isSv ? 'Ladda ner vår app' : 'Download our App'}
                 </p>
-                <div className="flex items-center gap-3">
-                  <Image src="/app.svg" alt="Download on the App Store" width={120} height={36} className="object-contain" />
-                  <Image src="/play.svg" alt="Get it on Google Play" width={130} height={40} className="object-contain" />
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2.5">
+                  <a
+                    href="#"
+                    className="inline-flex items-center gap-2.5 px-4 py-2 bg-white border border-slate-200 rounded-full shadow-[0_10px_40px_rgba(0,0,0,0.15)] hover:shadow-[0_15px_50px_rgba(0,0,0,0.2)] transition-all duration-300"
+                  >
+                    <Image
+                      src="/apple.svg"
+                      alt="Apple"
+                      width={20}
+                      height={20}
+                      className="w-5 h-5"
+                    />
+                    <div className="flex flex-col items-start">
+                      <span className="text-[0.38rem] font-light text-slate-600 uppercase tracking-wide">
+                        DOWNLOAD ON THE
+                      </span>
+                      <span className="font-semibold text-[0.65rem] text-slate-900 -mt-0.5">
+                        App Store
+                      </span>
+                    </div>
+                  </a>
+
+                  <a
+                    href="#"
+                    className="inline-flex items-center gap-2.5 px-4 py-2 bg-white border border-slate-200 rounded-full shadow-[0_10px_40px_rgba(0,0,0,0.15)] hover:shadow-[0_15px_50px_rgba(0,0,0,0.2)] transition-all duration-300"
+                  >
+                    <Image
+                      src="/playstore.svg"
+                      alt="Google Play"
+                      width={20}
+                      height={20}
+                      className="w-5 h-5"
+                    />
+                    <div className="flex flex-col items-start">
+                      <span className="text-[0.38rem] font-light text-slate-600 uppercase tracking-wide">
+                        GET IT ON
+                      </span>
+                      <span className="font-semibold text-[0.65rem] text-slate-900 -mt-0.5">
+                        Google Play
+                      </span>
+                    </div>
+                  </a>
                 </div>
               </div>
 
@@ -166,14 +205,24 @@ export default function Footer() {
                   {isSv ? 'FÖLJ OSS' : 'FOLLOW US'}
                 </h4>
                 <div className="flex items-center gap-2.5">
-                  {['/f1.svg', '/f2.svg', '/f3.svg', '/f4.svg', '/f5.svg', '/f6.svg'].map((icon) => (
-                    <button
-                      key={icon}
+                  {[
+                    { icon: '/f1.svg', url: 'https://facebook.com/swedenrelocators', label: 'Facebook' },
+                    { icon: '/f2.svg', url: 'https://instagram.com/swedenrelocators', label: 'Instagram' },
+                    { icon: '/f3.svg', url: 'https://linkedin.com/company/swedenrelocators', label: 'LinkedIn' },
+                    { icon: '/f4.svg', url: 'https://twitter.com/swedenrelocators', label: 'Twitter' },
+                    { icon: '/f5.svg', url: 'https://youtube.com/@swedenrelocators', label: 'YouTube' },
+                    { icon: '/f6.svg', url: 'https://wa.me/46723276276', label: 'WhatsApp' },
+                  ].map((social) => (
+                    <a
+                      key={social.icon}
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-[0_6px_18px_rgba(15,23,42,0.45)] hover:bg-slate-100 transition-colors"
-                      aria-label="social link"
+                      aria-label={social.label}
                     >
-                      <Image src={icon} alt={icon} width={16} height={16} className="object-contain" />
-                    </button>
+                      <Image src={social.icon} alt={social.label} width={16} height={16} className="object-contain" />
+                    </a>
                   ))}
                 </div>
               </div>
