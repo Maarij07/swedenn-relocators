@@ -120,9 +120,11 @@ export default function PayrollEORSection() {
                     </li>
                   ))}
                 </ul>
-                <button className="px-5 py-2.5 rounded-lg bg-black text-white text-sm sm:text-base font-semibold hover:bg-slate-800 transition-colors">
-                  {service.buttonText}
-                </button>
+                <div className="flex justify-end">
+                  <button className="px-5 py-2.5 rounded-lg bg-black text-white text-sm sm:text-base font-semibold hover:bg-slate-800 transition-colors">
+                    {service.buttonText}
+                  </button>
+                </div>
               </div>
             </div>
           ))}

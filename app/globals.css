@@ -43,6 +43,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Add cursor pointer to all buttons */
+button,
+[role="button"],
+.MuiButton-root,
+.MuiIconButton-root {
+  cursor: pointer;
+}
+
+
 /* Add after your existing styles */
 
 @media (min-width: 3840px) {

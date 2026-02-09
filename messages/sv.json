@@ -298,6 +298,14 @@
       }
     }
   },
+  "digitalPlatforms": {
+    "badge": "Transparens ger sinnesfrid",
+    "heading": "Vår allt-i-ett digital plattform för privatpersoner och företag",
+    "subheading": "Sömlös flytt- och immigrationslösningar för medarbetare, privatpersoner, familjer och företag",
+    "description": "Vår app och webbportal erbjuder en komplett lösning från början till slut för flytt och immigration för privatpersoner och företag. Tjänster inkluderar smarta lösningar, visumspårning, behörighetsprövning, compliance-hantering, boendelösningar, lönehantering, logistik, sjukförsäkring, husdjursflyttning och fullständig ankomst- och avresehjälp. Allt detta hanteras på en säker plattform, tillgänglig när som helst via webben eller mobilappen.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
   "blogsPage": {
     "hero": {
       "title": "Bloggar",
