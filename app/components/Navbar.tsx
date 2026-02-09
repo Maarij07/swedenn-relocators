@@ -185,31 +185,31 @@ export default function Navbar() {
                       <div>
                         <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">IMMIGRATION</h3>
                         <div className="space-y-4">
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/asylum`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Asylum</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">You must be in Sweden to apply for asylum</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/relocate-to-sweden`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Relocate to Sweden</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">Personal identification number</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/relocate-to-denmark`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Relocate to Denmark</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">CPR is the Central Civil Registration</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/work-permit`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Work Permit</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">Work permit refers to a legal document</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/study-in-eu`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Study in EU</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">If you're considering studying in Europe</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/global-visit-visas`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Global Visit Visas</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">For visiting Sweden for a short period</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/appeal-cases`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Appeal Cases</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">Expert help with immigration appeals</div>
                           </a>
@@ -220,23 +220,23 @@ export default function Navbar() {
                       <div>
                         <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">BUSINESS</h3>
                         <div className="space-y-4">
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/business-permit`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Business Permit</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">Swedish business culture and practices</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/business-visit`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Business Visit</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">Foreign individuals wanting to visit Sweden</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/logistics-services`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Logistics Services</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">Streamline your move with our logistics...</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/company-registration`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Company Registration</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">If you're planning to register a company</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/eor-payroll`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">EOR & Payroll</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">We provide you with an easy solution</div>
                           </a>
@@ -247,11 +247,11 @@ export default function Navbar() {
                       <div>
                         <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">FAMILY</h3>
                         <div className="space-y-4">
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/family-reunification`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Family Reunification</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">Family reunification is a legal process</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/eu-citizens-parents-permit`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens' Parents Permit</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">Parents of a child under 18 years</div>
                           </a>
@@ -262,11 +262,11 @@ export default function Navbar() {
                       <div>
                         <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">CITIZENSHIP</h3>
                         <div className="space-y-4">
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/citizenship`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Citizenship</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">When you live in Sweden for a certain period...</div>
                           </a>
-                          <a href="#" className="block">
+                          <a href={`/${locale}/services/eu-citizens-relocation`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens' Relocation</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">Family reunification means family members...</div>
                           </a>

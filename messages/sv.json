@@ -359,5 +359,715 @@
       }
     ],
     "readMore": "Läs mer"
+  },
+  "workPermit": {
+    "hero": {
+      "title": "Omfattande guide till traballtillstånd i Sverige",
+      "subtitle": "Utforska variationen av arbetstillstånd tillgängliga för olika typer av anställning i Sverige, var och en med unika krav."
+    },
+    "intro": {
+      "heading": "Förstå arbetstillstånd i Sverige",
+      "description": "Sverige erbjuder en rad arbetstillstånd för olika typer av anställning, var och en med unika krav. Om du planerar att arbeta i Sverige är det viktigt att förstå de tillgängliga alternativen och säkerställa att du uppfyller de uppdaterade kriterierna.",
+      "toolLink": "Sweden Relocators erbjuder ett bedömningsverktyg för arbetstillstånd på vår webbplats, vilket gör att du snabbt kan bestämma din behörighet och det bästa tillståndet för dina omständigheter."
+    },
+    "permitTypes": {
+      "heading": "Typer av arbetstillstånd i Sverige",
+      "requirementsLabel": "Krav",
+      "processingTimeLabel": "Handläggningstid",
+      "durationLabel": "Varaktighet",
+      "permits": [
+        {
+          "id": "standard",
+          "title": "Standardaltsområde för anställning",
+          "description": "För individer som har säkrat anställning i Sverige",
+          "requirements": [
+            {"label": "Arbetserbjudande", "description": "Du måste ha ett bekräftat arbetserbjudande från en svensk arbetsgivare."},
+            {"label": "Minimilön", "description": "Cirka 30 000 SEK före skatt. Måste uppfylla svenska kollektivavtal eller branschstandarder."},
+            {"label": "Anställningsvillkor", "description": "Måste följa svenska standarder för hälsa, försäkring och pensionsbidrag."},
+            {"label": "Annonseringskrav", "description": "Jobbet måste annonseras inom EU/EES i minst 10 dagar innan en medborgare från tredje land anställs."}
+          ],
+          "waitingTime": "1-4 månader",
+          "duration": "Upp till 2 år, med möjlighet till förlängning"
+        },
+        {
+          "id": "euBlueCard",
+          "title": "EU Blue Card",
+          "description": "För högt kvalificerade yrkesmän med efterfrågade färdigheter i EU",
+          "requirements": [
+            {"label": "Högre utbildning", "description": "Universitetsexamen eller minst 5 års relevant yrkesexperience krävs."},
+            {"label": "Lönetrösklar", "description": "Arbetserbjudande med lön som överskrider EU Blue Cards minimikrav för Sverige."}
+          ],
+          "waitingTime": "3-4 månader",
+          "duration": "Upp till 4 år baserat på anställningskontrakt"
+        },
+        {
+          "id": "seasonal",
+          "title": "Säsongarbetartillstånd",
+          "description": "För kortsiktigt säsongsarbete inom jordbruk (bärplockar och växtarbetare)",
+          "requirements": [
+            {"label": "Anställningskontrakt", "description": "Kontrakt från svensk arbetsgivare för säsongsarbete upp till 6 månader."},
+            {"label": "Löner och förmåner", "description": "Måste överensstämma med svenska kollektivavtal."},
+            {"label": "Sjukförsäkring", "description": "Måste ha sjukförsäkring som täcker vistelsen."}
+          ],
+          "waitingTime": "1-3 månader",
+          "duration": "Anställningskontraktets varaktighet, vanligtvis upp till 6 månader"
+        },
+        {
+          "id": "auPair",
+          "title": "Au Pair-tillstånd",
+          "description": "För unga individer (18-30 år) som bor hos en värdafamilj",
+          "requirements": [
+            {"label": "Ålderskrav", "description": "Måste vara mellan 18 och 30 år gammal."},
+            {"label": "Värdafamiljekontrakt", "description": "Formellt avtal som specificerar arbetsuppgifter, arbetstimmar och lön."},
+            {"label": "Språkstudier", "description": "Krävs att ta svenska språkkurser under vistelsen."},
+            {"label": "Minsta ersättning", "description": "Värdafamiljen måste tillhandahålla ersättning som uppfyller Sveriges au pair-lönestandarder."}
+          ],
+          "waitingTime": "1-2 månader",
+          "duration": "Upp till ett år"
+        },
+        {
+          "id": "workingHoliday",
+          "title": "Arbetssemestervisa",
+          "description": "För unga människor från specifika länder för att arbeta och resa",
+          "requirements": [
+            {"label": "Berättigade länder", "description": "Australien, Nya Zeeland, Sydkorea, Kanada, Japan, Argentina och andra."},
+            {"label": "Ålderskrav", "description": "Vanligtvis för individer mellan 18 och 30 år."},
+            {"label": "Tillräckliga medel", "description": "Bevis på medel för att försörja sig själv initialt."}
+          ],
+          "waitingTime": "1-2 månader",
+          "duration": "Giltigt för ett år med vissa anställningsbegränsningar"
+        },
+        {
+          "id": "selfEmployment",
+          "title": "Egenföretagares tillstånd",
+          "description": "För företagare och egenföretagare som etablerar en verksamhet",
+          "requirements": [
+            {"label": "Affärsplan", "description": "Genomförbar affärsplan som visar lönsamhet inom två år."},
+            {"label": "Tillräckliga medel", "description": "Bevis på medel för att stödja verksamhet och personliga utgifter under initialfasen."},
+            {"label": "Affärserfarenhet", "description": "Dokumenterad erfarenhet av att driva ett företag eller branschspecifik expertis."}
+          ],
+          "waitingTime": "3-6 månader",
+          "duration": "Initialt 2 år, med förlängningsalternativ"
+        },
+        {
+          "id": "sportsAndCultural",
+          "title": "Idrots- och kulturarbetartillstånd",
+          "description": "För individer som arbetar inom idrott, konst eller kulturella områden",
+          "requirements": [
+            {"label": "Anställning eller sponsring", "description": "Arbetserbjudande från svensk organisation inom idrott eller kultur."},
+            {"label": "Lönestandarder", "description": "Löner i överensstämmelse med kollektivavtal och svenska standarder."}
+          ],
+          "waitingTime": "1-2 månader",
+          "duration": "Kontraktets varaktighet med förlängningsalternativ"
+        },
+        {
+          "id": "researcher",
+          "title": "Forskartillstånd",
+          "description": "För forskare som erbjuds positioner vid ackrediterade svenska institutioner",
+          "requirements": [
+            {"label": "Värdavtal", "description": "Avtal med forskningsinstitution som detaljer aktivitet, finansiering och villkor."},
+            {"label": "Projektfinansiering", "description": "Ekonomiskt stöd för forskningsprojektets varaktighet."}
+          ],
+          "waitingTime": "1-3 månader",
+          "duration": "Längden på forskningsprojektet med förlängningsalternativ"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Ansökningsprocess och väntetider",
+      "intro": "Ansökningsprocessen och väntetiderna varierar beroende på tillståndstyp, omständigheter och aktuell arbetsbörda på Migrationsverket.",
+      "waitingTimes": [
+        {"permit": "Standardaltsområde", "time": "1-4 månader"},
+        {"permit": "EU Blue Card", "time": "3-4 månader"},
+        {"permit": "Säsongarbetartillstånd", "time": "1-3 månader"},
+        {"permit": "Au Pair-tillstånd", "time": "1-2 månader"},
+        {"permit": "Arbetssemestervisa", "time": "1-2 månader"},
+        {"permit": "Egenföretagares tillstånd", "time": "3-6 månader"},
+        {"permit": "Idrots- och kulturarbetartillstånd", "time": "1-2 månader"},
+        {"permit": "Forskartillstånd", "time": "1-3 månader"}
+      ]
+    },
+    "generalRequirements": {
+      "heading": "Allmänna krav för alla arbetstillstånd",
+      "description": "Oavsett tillståndstyp måste alla sökande uppfylla dessa grundläggande krav:",
+      "requirements": [
+        {"title": "Giltigt pass", "description": "Måste vara giltigt för hela perioden för din avsedda vistelse."},
+        {"title": "Sjukförsäkring", "description": "Vissa tillstånd (arbetssemester, au pair) kräver sjukförsäkring."},
+        {"title": "Ren brottsregister", "description": "Allvarliga brottsregister kan resultera i tillståndsavslag."}
+      ]
+    },
+    "support": {
+      "heading": "Hur Sweden Relocators kan hjälpa dig",
+      "description": "Sweden Relocators ger fullständigt stöd för alla typer av arbetstillstånd, vilket säkerställer en smidig och effektiv process:",
+      "services": [
+        {"title": "Behörighetsbedömning", "description": "Använd vårt bedömningsverktyg för arbetstillstånd för att hitta det bästa tillståndet för dina omständigheter."},
+        {"title": "Dokumentförberedelse", "description": "Vi hjälper till att sammanställa anställningskontrakt, finansiella uttalanden och sjukförsäkringsbevis."},
+        {"title": "Ansökan & spårning", "description": "Vi hanterar inlämningen och håller dig uppdaterad genom varje ansökningsstadium."},
+        {"title": "Support efter tillstånd", "description": "Boendeassistans, bankkontoöppning och registrering hos svenska myndigheter."}
+      ]
+    },
+    "cta": {
+      "heading": "Börja din arbetstillståndsresa idag",
+      "description": "Kontakta Sweden Relocators för att påbörja din ansökan om arbetstillstånd och starta din karriärresa i Sverige.",
+      "button": "Kom igång",
+      "subtext": "Besök vår arbetsstillståndssektion eller kontakta oss för mer information."
+    }
+  },
+  "citizenship": {
+    "hero": {
+      "title": "Svenskt medborgarskap: Krav, ansökningsvägar och handläggningstider",
+      "subtitle": "Att bli svensk medborgare är en viktig milstolpe som ger fulla rättigheter och ansvar i Sverige. Medborgarskapet ger tillgång till ett svenskt pass, rätten att rösta, möjligheten att kandidera till politiska uppdrag och fri rörlighet i EU och Schengenområdet."
+    },
+    "intro": {
+      "heading": "Vad svenskt medborgarskap erbjuder",
+      "description": "Medborgarskapet stärker din rättsliga säkerhet och gör det lättare att leva, arbeta och investera i Sverige permanent. Det ger dig inte bara rätten till ett svenskt pass utan även säker juridisk status, EU:s rörlighet och full deltagande i svensk demokrati.",
+      "note": "Sweden Relocators ger expertguidning vid varje steg i processen för att säkerställa att din ansökan är fullständig, korrekt och överensstämmande med gällande lagar."
+    },
+    "generalRequirements": {
+      "heading": "Allmänna krav för svenskt medborgarskap",
+      "description": "För att ansöka om svenskt medborgarskap som vuxen måste du vanligtvis uppfylla följande villkor:",
+      "requirements": [
+        {
+          "title": "Ålderskrav",
+          "description": "Du måste vara minst 18 år för att ansöka självständigt. Barn under 18 år kan ansöka tillsammans med en förälder eller genom anmälan i särskilda fall."
+        },
+        {
+          "title": "Permanent uppehålls- eller vistelsestatus",
+          "description": "Tredjelandsmedborgare måste ha ett permanent uppehållstillstånd. EU/EES-medborgare måste ha en permanent uppehållsrätt, vanligtvis förvärvad efter fem år av kontinuerlig laglig vistelse."
+        },
+        {
+          "title": "Vistelsebosättning i Sverige",
+          "description": "Standardregel: 5 år kontinuerlig vistelse. Flyktingar eller statslösa: 4 år. Makar/registrerade partner/sammanboende med svenska medborgare: 3 år. Nordiska medborgare: 2 år (ordinär) eller 5 år (anmälan)."
+        },
+        {
+          "title": "God vandel",
+          "description": "Sökanden måste visa god vandel, vilket innebär ingen nyligen allvarlig brottshistorik, inga olösta skulder hos Kronofogden och allmän efterlevnad av svensk lag."
+        },
+        {
+          "title": "Avsikt att stanna i Sverige",
+          "description": "Migrationsverket överväger om du har starka band till Sverige, såsom anställning, familj eller långsiktigt boende, vilket visar din genuina avsikt att stanna."
+        }
+      ]
+    },
+    "specialCategories": {
+      "heading": "Särskilda kategorier och vägar till medborgarskap",
+      "categories": [
+        {
+          "id": "nordic",
+          "title": "Nordiska medborgare",
+          "description": "Nordiska medborgare (Danmark, Finland, Island, Norge) åtnjuter de mest flexibla reglerna:",
+          "details": [
+            "Ordinär ansökan: Berättigad efter 2 års vistelse i Sverige.",
+            "Anmälan: Berättigad efter 5 års vistelse. Detta är ett förenklat förfarande."
+          ]
+        },
+        {
+          "id": "eueea",
+          "title": "EU/EES-medborgare",
+          "description": "EU/EES-medborgare kan ansöka efter 5 års kontinuerlig vistelse när permanent uppehållsrätt är förvärvad.",
+          "details": [
+            "Måste visa bevis på vistelse, inkomst och efterlevnad av svensk lag.",
+            "Processen är något enklare eftersom inget uppehållstillstånd krävs."
+          ]
+        },
+        {
+          "id": "refugees",
+          "title": "Flyktingar och statslösa",
+          "description": "Erkända flyktingar och statslösa kan ansöka efter 4 års vistelse.",
+          "details": [
+            "Flyktingstatus måste vara officiellt erkänd enligt internationell eller svensk lag."
+          ]
+        },
+        {
+          "id": "spouses",
+          "title": "Makar eller partner till svenska medborgare",
+          "description": "Makar eller registrerade partner kan ansöka efter 3 års vistelse.",
+          "details": [
+            "Paret måste ha bott tillsammans i Sverige i minst 2 år.",
+            "Starka band till Sverige krävs och relationen måste pågå."
+          ]
+        },
+        {
+          "id": "children",
+          "title": "Barn under 18 år",
+          "description": "Barn kan ansöka genom förenklade förfaranden.",
+          "details": [
+            "Kan ansöka tillsammans med en förälder eller genom förenklad anmälan.",
+            "Adopterade barn förvärvar automatiskt svenskt medborgarskap vid adoption före 12 års ålder."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Ansökningsprocess",
+      "intro": "Medborgarskapsansökan omfattar flera viktiga steg:",
+      "steps": [
+        {
+          "title": "Förbered dokument",
+          "description": "Erforderliga dokument inkluderar: Giltigt pass eller nationellt id, Bosättningsbevis (registrering hos Skatteverket), Inkomst- eller anställningshandlingar, Polisattest eller skuldskuld vid behov."
+        },
+        {
+          "title": "Skicka in ansökan",
+          "description": "Ansökningar kan skickas online via Migrationsverkets e-tjänst eller genom ett pappersformulär. Barn och nordiska medborgare som använder anmälanförfarandet har förenklade procedurer."
+        },
+        {
+          "title": "Migrationsverkets granskning",
+          "description": "Migrationsverket verifierar vistelsehistorik, identitet, vandel och ekonomisk stabilitet. De kan begära ytterligare information under processen."
+        },
+        {
+          "title": "Beslut",
+          "description": "Vid godkännande får du ett medborgarskapsbevis. Vid avslag kan du överklaga till en administrativ domstol."
+        }
+      ]
+    },
+    "waitingTimes": {
+      "heading": "Handläggningstider och väntetider",
+      "intro": "Handläggningstiderna varierar beroende på kategori och bakgrund:",
+      "times": [
+        {"category": "Ordinära ansökningar", "time": "18–36 månader"},
+        {"category": "Nordiska medborgare (anmälan)", "time": "6–12 månader"},
+        {"category": "Flyktingar och makar", "time": "Vanligtvis snabbare än standard"},
+        {"category": "Notering", "time": "Migrationsverket tillkännagav nyligen strängare kontroller (mars 2025), vilket kan öka väntetiderna för vissa fall."}
+      ]
+    },
+    "support": {
+      "heading": "Hur Sweden Relocators kan hjälpa dig",
+      "description": "Att ansöka om svenskt medborgarskap kan vara komplext och tidskrävande. Sweden Relocators erbjuder professionell support vid varje steg:",
+      "services": [
+        {
+          "title": "Behörighetsbedömning",
+          "description": "Vi kontrollerar din vistelsehistorik, familjesituation och tillståndsstatus för att fastställa din bästa väg."
+        },
+        {
+          "title": "Dokumentförberedelse",
+          "description": "Vi säkerställer noggrannhet, översättningar och fullständighet för att förhindra förseningar."
+        },
+        {
+          "title": "Ansökansinlämning och övervakning",
+          "description": "Vi hanterar din ansökan och spårar uppdateringar direkt med Migrationsverket."
+        },
+        {
+          "title": "Överklagandehjälp",
+          "description": "Om din ansökan nekas hjälper vårt juridiska team till att förbereda och lämna in överklaganden."
+        },
+        {
+          "title": "Långsiktig strategi",
+          "description": "Vägledning om hur du upprätthåller vistelsevillkoren, undviker luckor och förbereder dig för medborgarskap."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Börja din väg till svenskt medborgarskap idag",
+      "description": "Kontakta Sweden Relocators för att bedöma din behörighet och påbörja din medborgarskapsansökan med experthjälp.",
+      "button": "Kom igång",
+      "subtext": "Lag om svenskt medborgarskap (2001:82). Regler och processer kan ändras. Konsultera alltid Migrationsverket för den senaste informationen."
+    }
+  },
+  "studyInEu": {
+    "hero": {
+      "title": "Studera i Sverige och EU",
+      "subtitle": "Förverkliga dina akademiska drömmar vid Europas toppuniversitet med expertvägledning från Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Din väg till europisk utbildning",
+      "description": "Sverige och Europeiska unionen erbjuder världsklass utbildning med överkomliga undervisningsavgifter, engelsktalsade program och utmärkta möjligheter efter studierna. Oavsett om du drömmer om att studera teknik i Sverige, företagsekonomi i Danmark eller medicin i Tyskland – vi vägleder dig genom varje steg av ansöknings- och visumprocessen."
+    },
+    "countries": [
+      {
+        "id": "sweden",
+        "name": "Studera i Sverige",
+        "intro": "Sverige är en av Europas mest populära destinationer för internationella studenter. Med världsrankat klassade universitet, innovativa undervisningsmetoder och starkt rykte för forskning erbjuder det både högkvalitativ utbildning och utmärkt livsstil.",
+        "tuitionFees": {
+          "heading": "Genomsnittliga undervisningsavgifter per år",
+          "fees": [
+            {
+              "category": "EU/EEA och schweiziska studenter",
+              "amount": "Gratis vid offentliga universitet"
+            },
+            {
+              "category": "Icke-EU/EEA studenter",
+              "amount": "SEK 80 000 – 295 000 (€7 500 – €25 500) beroende på program och universitet"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Ansökningsperioder",
+          "intakes": [
+            {
+              "period": "Höstintag",
+              "details": "Oktober – januari (studierna börjar i augusti/september)"
+            },
+            {
+              "period": "Vårintag",
+              "details": "Juni – augusti (studierna börjar i januari)"
+            }
+          ]
+        },
+        "popularFields": "Teknik, IT, Företagsekonomi, Biovetenskap, Miljöstudier",
+        "visaRequirements": {
+          "heading": "Visa- och uppehållstillståndsvillkor",
+          "requirements": [
+            "EU/EEA: Inget visum krävs",
+            "Icke-EU/EEA: Uppehållstillstånd krävs för studier längre än tre månader",
+            "Bevis på medel: cirka SEK 10 300 per månad för levnadskostnader",
+            "Sjukförsäkring krävs för vistelser under ett år"
+          ]
+        },
+        "workRights": "Studenter kan arbeta obegränsat under studierna och kan efter examen ansöka om ettårsuppehållstillstånd för att söka jobb eller starta företag."
+      },
+      {
+        "id": "denmark",
+        "name": "Studera i Danmark",
+        "intro": "Danmark förenar akademisk excellens med affärsvänlig miljö. Över 500 engelsktalsade program erbjuds vid ledande universitet och högskolor.",
+        "tuitionFees": {
+          "heading": "Genomsnittliga undervisningsavgifter per år",
+          "fees": [
+            {
+              "category": "EU/EEA studenter",
+              "amount": "Gratis vid offentliga institutioner"
+            },
+            {
+              "category": "Icke-EU/EEA studenter",
+              "amount": "€7 000 – €17 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Ansökningsperioder",
+          "intakes": [
+            {
+              "period": "Höstintag",
+              "details": "Ansökningar stänger i mars (studierna börjar i augusti/september)"
+            },
+            {
+              "period": "Vårintag",
+              "details": "Ansökningar stänger i september (studierna börjar i januari/februari, begränsade kurser)"
+            }
+          ]
+        },
+        "popularFields": "Design, Arkitektur, Företagsekonomi, Teknik, IT, Biovetenskap",
+        "visaRequirements": {
+          "heading": "Visa- och uppehållstillståndsvillkor",
+          "requirements": [
+            "Bevis på medel: cirka €1 000 per månad för levnadskostnader",
+            "Sjukförsäkring måste ordnas före ankomst"
+          ]
+        },
+        "workRights": "Studenter kan arbeta upp till 20 timmar per vecka under terminer och heltid under helperioder."
+      },
+      {
+        "id": "germany",
+        "name": "Studera i Tyskland",
+        "intro": "Tyskland är en av Europas mest överkomliga och attraktiva studiestäder med närmare 400 000 internationella studenter.",
+        "tuitionFees": {
+          "heading": "Genomsnittliga undervisningsavgifter per år",
+          "fees": [
+            {
+              "category": "Offentliga universitet",
+              "amount": "Gratis eller €0 – €3 000 (endast administrativa företagsavgifter)"
+            },
+            {
+              "category": "Privata universitet",
+              "amount": "€6 000 – €12 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Ansökningsperioder",
+          "intakes": [
+            {
+              "period": "Vintersemester",
+              "details": "Ansökningar maj – juli (börjar september/oktober)"
+            },
+            {
+              "period": "Sommarsemester",
+              "details": "Ansökningar november – januari (börjar mars/april)"
+            }
+          ]
+        },
+        "popularFields": "Teknik, Företagsekonomi, Datavetenskap, Medicin, Naturvetenskap",
+        "visaRequirements": {
+          "heading": "Visa- och uppehållstillståndsvillkor",
+          "requirements": [
+            "Bevis på ekonomiska medel: cirka €11 000 per år på blockerat konto",
+            "Obligatorisk sjukförsäkring krävs"
+          ]
+        },
+        "workRights": "20 timmar per vecka under terminen, heltid under raster."
+      },
+      {
+        "id": "uk",
+        "name": "Studera i Storbritannien",
+        "intro": "Storbritannien är hem för några av världens topuniversitet och ett internationellt erkänt utbildningssystem.",
+        "tuitionFees": {
+          "heading": "Genomsnittliga undervisningsavgifter per år",
+          "fees": [
+            {
+              "category": "EU/EEA studenter",
+              "amount": "€10 000 – €13 000"
+            },
+            {
+              "category": "Icke-EU studenter",
+              "amount": "€12 000 – €25 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Ansökningsperioder",
+          "intakes": [
+            {
+              "period": "September/oktober",
+              "details": "Huvudsakligt intag"
+            },
+            {
+              "period": "Januari/februari",
+              "details": "Sekundärt intag, begränsade program"
+            },
+            {
+              "period": "Maj",
+              "details": "Sommarintag vid utvalda universitet"
+            }
+          ]
+        },
+        "popularFields": "Juridik, Företagsekonomi, Teknik, Medicin, Samhällsvetenskap",
+        "visaRequirements": {
+          "heading": "Visa- och uppehållstillståndsvillkor",
+          "requirements": [
+            "Studentvisum krävs för icke-EU/EEA",
+            "Bevis på betald undervisning plus €1 200 per månad (London) eller mindre utanför London"
+          ]
+        },
+        "workRights": "20 timmar per vecka under terminen, heltid under lov."
+      },
+      {
+        "id": "latvia",
+        "name": "Studera i Lettland",
+        "intro": "Lettland erbjuder överkomlig utbildning och lugna levnadsförhållanden.",
+        "tuitionFees": {
+          "heading": "Genomsnittliga undervisningsavgifter per år",
+          "fees": [
+            {
+              "category": "Allmänt",
+              "amount": "€3 000 – €6 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Ansökningsperioder",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Huvudsakligt intag"
+            },
+            {
+              "period": "Februari",
+              "details": "Sekundärt intag"
+            }
+          ]
+        },
+        "popularFields": "Medicin, Företagsekonomi, IT, Teknik",
+        "visaRequirements": {
+          "heading": "Visa- och uppehållstillståndsvillkor",
+          "requirements": [
+            "Studentvisum och bevis på levnadskostnader krävs",
+            "Sjukförsäkring är obligatorisk"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "lithuania",
+        "name": "Studera i Litauen",
+        "intro": "Litauen erbjuder starka akademiska traditioner och över 350 engelsktalsade program.",
+        "tuitionFees": {
+          "heading": "Genomsnittliga undervisningsavgifter per år",
+          "fees": [
+            {
+              "category": "Allmänt",
+              "amount": "€3 000 – €7 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Ansökningsperioder",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Huvudsakligt intag"
+            },
+            {
+              "period": "Februari",
+              "details": "Sekundärt intag"
+            }
+          ]
+        },
+        "popularFields": "Företagsekonomi, Medicin, Teknik, Ekonomi",
+        "visaRequirements": {
+          "heading": "Visa- och uppehållstillståndsvillkor",
+          "requirements": [
+            "Uppehållstillstånd krävs för icke-EU studenter",
+            "Finansiellt bevis och försäkring behövs"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "czechRepublic",
+        "name": "Studera i Tjeckien",
+        "intro": "Tjeckien är en växande destination för internationella studenter i Centraleuropa.",
+        "tuitionFees": {
+          "heading": "Genomsnittliga undervisningsavgifter per år",
+          "fees": [
+            {
+              "category": "Offentliga universitet",
+              "amount": "€2 000 – €5 000"
+            },
+            {
+              "category": "Privata universitet",
+              "amount": "€5 000 – €10 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Ansökningsperioder",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Huvudsakligt intag"
+            },
+            {
+              "period": "Februari",
+              "details": "Begränsade program"
+            }
+          ]
+        },
+        "popularFields": "Medicin, Företagsekonomi, Teknik, Konst",
+        "visaRequirements": {
+          "heading": "Visa- och uppehållstillståndsvillkor",
+          "requirements": [
+            "Studentvisum krävs för icke-EU studenter",
+            "Bevis på ekonomiska medel och bostad måste visas"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "norway",
+        "name": "Studera i Norge",
+        "intro": "Norge är känt för kostnadsfri utbildning vid offentliga universitet.",
+        "tuitionFees": {
+          "heading": "Genomsnittliga undervisningsavgifter per år",
+          "fees": [
+            {
+              "category": "Offentliga universitet",
+              "amount": "Gratis (endast €50–€100 administrativ avgift)"
+            },
+            {
+              "category": "Privata universitet",
+              "amount": "€5 000 – €10 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Ansökningsperioder",
+          "intakes": [
+            {
+              "period": "Höst",
+              "details": "Augusti/september start, huvudsakligt intag"
+            },
+            {
+              "period": "Vår",
+              "details": "Begränsat till utvalda program"
+            }
+          ]
+        },
+        "popularFields": "Energi, Marinvetenskap, Teknik, IT, Naturvetenskap",
+        "visaRequirements": {
+          "heading": "Visa- och uppehållstillståndsvillkor",
+          "requirements": [
+            "Bevis på cirka €12 000 per år för levnadskostnader krävs",
+            "Sjukförsäkring är obligatorisk"
+          ]
+        },
+        "workRights": "20 timmar per vecka under terminen, heltid under helperioder."
+      },
+      {
+        "id": "finland",
+        "name": "Studera i Finland",
+        "intro": "Finland erbjuder modern utbildning med starkt fokus på forskning och innovation.",
+        "tuitionFees": {
+          "heading": "Genomsnittliga undervisningsavgifter per år",
+          "fees": [
+            {
+              "category": "EU/EEA studenter",
+              "amount": "Gratis vid offentliga universitet"
+            },
+            {
+              "category": "Icke-EU studenter",
+              "amount": "€8 000 – €20 000 beroende på program och universitet"
+            },
+            {
+              "category": "Doktorsprogram",
+              "amount": "Kostnadsfritt för alla studenter"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Ansökningsperioder",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Huvudsakligt intag – ansökningar november – januari"
+            },
+            {
+              "period": "Januari",
+              "details": "Sekundärt intag, begränsade program – ansökningar i september"
+            }
+          ]
+        },
+        "popularFields": "IT, Teknik, Design, Företagsekonomi, Utbildning",
+        "visaRequirements": {
+          "heading": "Visa- och uppehållstillståndsvillkor",
+          "requirements": [
+            "Uppehållstillstånd krävs för icke-EU studenter",
+            "Bevis på medel: minst €800 per månad (€9 600 per år)",
+            "Sjukförsäkring krävs"
+          ]
+        },
+        "workRights": "Studenter kan arbeta 20–25 timmar per vecka under terminer och heltid under helperioder. Uppehållstillstånd efter studierna är tillgängligt för examinerade."
+      }
+    ],
+    "whyChoose": {
+      "heading": "Varför välja Sweden Relocators AB",
+      "services": [
+        {
+          "title": "Komplett ansökningsvägledning",
+          "description": "Fullständig ansökningsvägledning för kandidat-, master- och doktorsprogram i Sverige och EU"
+        },
+        {
+          "title": "Dokumenttjänster",
+          "description": "Dokumentintyg, översättning och förberedelse för universitet och migrationsöverordningar"
+        },
+        {
+          "title": "Visa- och uppehållsstöd",
+          "description": "Visa- och uppehållstillståndsansökningar hanteras med precision"
+        },
+        {
+          "title": "Finansiellt stöd",
+          "description": "Stipendium och finansiell rådgivning anpassad för varje land"
+        },
+        {
+          "title": "Stöd efter studier",
+          "description": "Löpande stöd för förnyelse av uppehållstillstånd och arbete efter studierna"
+        }
+      ],
+      "description": "På Sweden Relocators AB gör vi att studera i Sverige och Europa är enkelt, transparent och stressfritt. Från din första ansökan till din examen och bortom – vi vägleder dig vid varje steg."
+    },
+    "cta": {
+      "heading": "Börja din studieresor i Europa idag",
+      "description": "Kontakta Sweden Relocators för expertguidning om din ansökan och visumprocess.",
+      "button": "Kom igång",
+      "subtext": "Utbildningsregler varierar per land. Se alltid officiella universitet- och immigrationssidor för den senaste informationen."
+    }
   }
 }

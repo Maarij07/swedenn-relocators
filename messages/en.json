@@ -359,5 +359,715 @@
       }
     ],
     "readMore": "Read More"
+  },
+  "workPermit": {
+    "hero": {
+      "title": "Comprehensive Guide to Work Permits in Sweden",
+      "subtitle": "Explore the variety of work permits available for different types of employment in Sweden, with unique requirements for each option."
+    },
+    "intro": {
+      "heading": "Understanding Work Permits in Sweden",
+      "description": "Sweden offers a variety of work permits for different types of employment, each with unique requirements. If you're planning to work in Sweden, it's essential to understand the options available and ensure you meet the updated criteria.",
+      "toolLink": "Sweden Relocators offers a Work Permit Assessment Tool on our website, allowing you to quickly determine your eligibility and the best permit for your circumstances."
+    },
+    "permitTypes": {
+      "heading": "Types of Work Permits in Sweden",
+      "requirementsLabel": "Requirements",
+      "processingTimeLabel": "Processing Time",
+      "durationLabel": "Duration",
+      "permits": [
+        {
+          "id": "standard",
+          "title": "Standard Work Permit for Employment",
+          "description": "For individuals who have secured employment in Sweden",
+          "requirements": [
+            {"label": "Job Offer", "description": "You must have a confirmed job offer with a Swedish employer."},
+            {"label": "Minimum Salary", "description": "Around SEK 30,000 before taxes. Must meet Swedish collective agreements or industry standards."},
+            {"label": "Employment Conditions", "description": "Must adhere to Swedish standards for health, insurance, and pension contributions."},
+            {"label": "Advertisement Requirement", "description": "Job must be advertised within EU/EEA for at least 10 days before hiring a non-EU citizen."}
+          ],
+          "waitingTime": "1-4 months",
+          "duration": "Up to 2 years, with possibility of extension"
+        },
+        {
+          "id": "euBlueCard",
+          "title": "EU Blue Card",
+          "description": "For highly qualified professionals with skills in demand across the EU",
+          "requirements": [
+            {"label": "Higher Education", "description": "University degree or at least 5 years of relevant professional experience required."},
+            {"label": "Salary Threshold", "description": "Job offer with salary exceeding the EU Blue Card minimum threshold for Sweden."}
+          ],
+          "waitingTime": "3-4 months",
+          "duration": "Up to 4 years based on employment contract"
+        },
+        {
+          "id": "seasonal",
+          "title": "Seasonal Worker Permit",
+          "description": "For short-term seasonal work in agriculture (berry pickers and plant workers)",
+          "requirements": [
+            {"label": "Employment Contract", "description": "Contract from Swedish employer for seasonal work up to 6 months."},
+            {"label": "Wages and Benefits", "description": "Must be in line with Swedish collective agreements."},
+            {"label": "Health Insurance", "description": "Must have health insurance covering the stay."}
+          ],
+          "waitingTime": "1-3 months",
+          "duration": "Duration of employment contract, typically up to 6 months"
+        },
+        {
+          "id": "auPair",
+          "title": "Au Pair Permit",
+          "description": "For young individuals (18–30 years) living with a host family",
+          "requirements": [
+            {"label": "Age Requirement", "description": "Must be between 18 and 30 years old."},
+            {"label": "Host Family Contract", "description": "Formal agreement specifying duties, working hours, and pay."},
+            {"label": "Language Study", "description": "Required to take Swedish language courses during stay."},
+            {"label": "Minimum Allowance", "description": "Host family must provide allowance meeting Sweden's au pair wage standard."}
+          ],
+          "waitingTime": "1-2 months",
+          "duration": "Up to one year"
+        },
+        {
+          "id": "workingHoliday",
+          "title": "Working Holiday Visa",
+          "description": "For young people from specific countries to work and travel",
+          "requirements": [
+            {"label": "Eligible Countries", "description": "Australia, New Zealand, South Korea, Canada, Japan, Argentina, and others."},
+            {"label": "Age Requirement", "description": "Typically for individuals between 18 and 30 years."},
+            {"label": "Sufficient Funds", "description": "Proof of funds to support oneself initially."}
+          ],
+          "waitingTime": "1-2 months",
+          "duration": "Valid for one year with certain employment restrictions"
+        },
+        {
+          "id": "selfEmployment",
+          "title": "Self-Employment Permit",
+          "description": "For entrepreneurs and self-employed individuals establishing a business",
+          "requirements": [
+            {"label": "Business Plan", "description": "Viable business plan demonstrating profitability within two years."},
+            {"label": "Sufficient Funds", "description": "Proof of funds to support business and personal expenses during initial phase."},
+            {"label": "Business Experience", "description": "Documented experience in running a business or industry-specific expertise."}
+          ],
+          "waitingTime": "3-6 months",
+          "duration": "Initially 2 years, with extension options"
+        },
+        {
+          "id": "sportsAndCultural",
+          "title": "Sports and Cultural Worker Permit",
+          "description": "For individuals working in sports, arts, or cultural fields",
+          "requirements": [
+            {"label": "Employment or Sponsorship", "description": "Job offer from Swedish organization within sports or culture."},
+            {"label": "Salary Standards", "description": "Wages consistent with collective agreements and Swedish standards."}
+          ],
+          "waitingTime": "1-2 months",
+          "duration": "Duration of contract with extension options"
+        },
+        {
+          "id": "researcher",
+          "title": "Researcher Permit",
+          "description": "For researchers offered positions with accredited Swedish institutions",
+          "requirements": [
+            {"label": "Host Agreement", "description": "Agreement with research institution detailing activity, funding, and conditions."},
+            {"label": "Project Funding", "description": "Financial support for the research project duration."}
+          ],
+          "waitingTime": "1-3 months",
+          "duration": "Length of research project with extension options"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Application Process and Waiting Times",
+      "intro": "The application process and waiting times vary based on permit type, circumstances, and current Migration Agency workload.",
+      "waitingTimes": [
+        {"permit": "Standard Work Permit", "time": "1-4 months"},
+        {"permit": "EU Blue Card", "time": "3-4 months"},
+        {"permit": "Seasonal Worker Permit", "time": "1-3 months"},
+        {"permit": "Au Pair Permit", "time": "1-2 months"},
+        {"permit": "Working Holiday Visa", "time": "1-2 months"},
+        {"permit": "Self-Employment Permit", "time": "3-6 months"},
+        {"permit": "Sports and Cultural Worker Permit", "time": "1-2 months"},
+        {"permit": "Researcher Permit", "time": "1-3 months"}
+      ]
+    },
+    "generalRequirements": {
+      "heading": "General Requirements for All Work Permits",
+      "description": "Regardless of permit type, all applicants must meet these core requirements:",
+      "requirements": [
+        {"title": "Valid Passport", "description": "Must be valid for the entire period of your intended stay."},
+        {"title": "Health Insurance", "description": "Some permits (Working Holiday, Au Pair) require health insurance coverage."},
+        {"title": "Clean Criminal Record", "description": "Serious criminal records may result in permit denial."}
+      ]
+    },
+    "support": {
+      "heading": "How Sweden Relocators Can Assist You",
+      "description": "Sweden Relocators provides full support for all types of work permits, ensuring a smooth and efficient process:",
+      "services": [
+        {"title": "Eligibility Assessment", "description": "Use our Work Permit Assessment Tool to find the best permit for your circumstances."},
+        {"title": "Document Preparation", "description": "We assist in compiling employment contracts, financial statements, and health insurance proof."},
+        {"title": "Application & Tracking", "description": "We handle submission and keep you updated through each application stage."},
+        {"title": "Post-Permit Support", "description": "Housing assistance, bank account setup, and registration with Swedish authorities."}
+      ]
+    },
+    "cta": {
+      "heading": "Start Your Work Permit Journey Today",
+      "description": "Contact Sweden Relocators to begin your work permit application and start your career journey in Sweden.",
+      "button": "Get Started",
+      "subtext": "Visit our Work Permit Section or contact us for more information."
+    }
+  },
+  "citizenship": {
+    "hero": {
+      "title": "Swedish Citizenship: Requirements, Application Paths, and Processing Times",
+      "subtitle": "Becoming a Swedish citizen is a significant milestone that grants full rights and responsibilities in Sweden. Citizenship provides access to a Swedish passport, the right to vote, the ability to stand for political office, and freedom of movement across the EU and Schengen Area."
+    },
+    "intro": {
+      "heading": "What Swedish Citizenship Offers",
+      "description": "Swedish citizenship strengthens your legal security, making it easier to live, work, and invest in Sweden permanently. It grants you not only the right to a Swedish passport but also secure legal status, EU freedom of movement, and full participation in Swedish democracy.",
+      "note": "Sweden Relocators provides expert guidance on every step of the process, ensuring your application is complete, accurate, and compliant with current laws."
+    },
+    "generalRequirements": {
+      "heading": "General Requirements for Swedish Citizenship",
+      "description": "To apply for Swedish citizenship as an adult, you must generally meet the following conditions:",
+      "requirements": [
+        {
+          "title": "Age Requirement",
+          "description": "You must be at least 18 years old to apply independently. Children under 18 can apply together with a parent or via notification in specific cases."
+        },
+        {
+          "title": "Permanent Residence or Permanent Right of Residence",
+          "description": "Non-EU/EEA citizens must hold a permanent residence permit (permanent uppehållstillstånd). EU/EEA citizens must hold a permanent right of residence (permanent uppehållsrätt), usually acquired after five years of continuous legal residence."
+        },
+        {
+          "title": "Length of Residence in Sweden",
+          "description": "Standard Rule: 5 years of continuous residence. Refugees or stateless persons: 4 years. Spouses/registered partners/cohabitants of Swedish citizens: 3 years. Nordic citizens: 2 years (ordinary) or 5 years (notification)."
+        },
+        {
+          "title": "Good Conduct",
+          "description": "Applicants must demonstrate good conduct, meaning no recent serious criminal record, no unresolved debts with Kronofogden (the Enforcement Authority), and general compliance with Swedish law."
+        },
+        {
+          "title": "Intent to Remain in Sweden",
+          "description": "Migrationsverket considers whether you have strong ties to Sweden, such as employment, family, or long-term housing, showing your genuine intention to remain."
+        }
+      ]
+    },
+    "specialCategories": {
+      "heading": "Special Categories and Paths to Citizenship",
+      "categories": [
+        {
+          "id": "nordic",
+          "title": "Nordic Citizens",
+          "description": "Nordic citizens (Denmark, Finland, Iceland, Norway) benefit from the most flexible rules:",
+          "details": [
+            "Ordinary Application: Eligible after 2 years of residence in Sweden.",
+            "Notification Process (anmälan): Eligible after 5 years of residence. This is a simplified procedure."
+          ]
+        },
+        {
+          "id": "eueea",
+          "title": "EU/EEA Citizens",
+          "description": "EU/EEA citizens can apply after 5 years of continuous residence, once permanent right of residence is acquired.",
+          "details": [
+            "Must show proof of residence, income, and compliance with Swedish law.",
+            "The process is slightly simpler since no residence permit is required."
+          ]
+        },
+        {
+          "id": "refugees",
+          "title": "Refugees and Stateless Persons",
+          "description": "Recognized refugees and stateless individuals can apply after 4 years of residence.",
+          "details": [
+            "Refugee status must be officially recognized under international or Swedish law."
+          ]
+        },
+        {
+          "id": "spouses",
+          "title": "Spouses or Partners of Swedish Citizens",
+          "description": "Spouses or registered partners can apply after 3 years of residence.",
+          "details": [
+            "The couple must have lived together in Sweden for at least 2 years.",
+            "Strong ties to Sweden are required, and the relationship must be ongoing."
+          ]
+        },
+        {
+          "id": "children",
+          "title": "Children under 18",
+          "description": "Children can apply through simplified procedures.",
+          "details": [
+            "Can apply together with a parent or through a simplified notification.",
+            "Adopted children automatically acquire Swedish citizenship if adopted before age 12."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Application Process",
+      "intro": "The citizenship application involves several key steps:",
+      "steps": [
+        {
+          "title": "Prepare Documents",
+          "description": "Required documents include: Valid passport or national ID, Proof of residence (registration with Skatteverket), Income or employment records, Police or debt clearance if applicable."
+        },
+        {
+          "title": "Submit Application",
+          "description": "Applications can be submitted online via Migrationsverket's e-service or through a paper form. Children and Nordic citizens using the notification process have simplified procedures."
+        },
+        {
+          "title": "Migrationsverket Review",
+          "description": "The Migration Agency verifies residence history, identity, conduct, and financial stability. They may request additional information during the process."
+        },
+        {
+          "title": "Decision",
+          "description": "If approved, you receive a certificate of Swedish citizenship. If rejected, you may appeal to an administrative court."
+        }
+      ]
+    },
+    "waitingTimes": {
+      "heading": "Processing Times and Waiting Periods",
+      "intro": "Processing times vary based on category and background:",
+      "times": [
+        {"category": "Standard applications", "time": "18–36 months"},
+        {"category": "Nordic citizens (notification)", "time": "6–12 months"},
+        {"category": "Refugees and spouses", "time": "Typically faster than standard"},
+        {"category": "Note", "time": "Migrationsverket recently announced stricter checks (March 2025), which may increase waiting times for certain cases."}
+      ]
+    },
+    "support": {
+      "heading": "How Sweden Relocators Can Assist You",
+      "description": "Applying for Swedish citizenship can be complex and time-consuming. Sweden Relocators offers professional support at every stage:",
+      "services": [
+        {
+          "title": "Eligibility Assessment",
+          "description": "We check your residence history, family situation, and permit status to determine your best pathway."
+        },
+        {
+          "title": "Document Preparation",
+          "description": "Ensuring accuracy, translations, and completeness to prevent delays in processing."
+        },
+        {
+          "title": "Application Submission and Monitoring",
+          "description": "We manage your application and track updates directly with Migrationsverket."
+        },
+        {
+          "title": "Appeals Assistance",
+          "description": "If your application is denied, our legal team helps prepare and file appeals."
+        },
+        {
+          "title": "Long-Term Strategy",
+          "description": "Guidance on how to maintain residence requirements, avoid gaps, and prepare for citizenship."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Begin Your Path to Swedish Citizenship Today",
+      "description": "Contact Sweden Relocators to assess your eligibility and start your citizenship application with expert support.",
+      "button": "Get Started",
+      "subtext": "Swedish Citizenship Act (2001:82). Rules and processes may change. Always consult Migrationsverket for the most current information."
+    }
+  },
+  "studyInEu": {
+    "hero": {
+      "title": "Study in Sweden and the EU",
+      "subtitle": "Pursue your academic dreams in Europe's top universities with expert guidance from Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Your Gateway to European Education",
+      "description": "Sweden and the European Union offer world-class education with affordable tuition, English-taught programs, and excellent post-study opportunities. Whether you aspire to study engineering in Sweden, business in Denmark, or medicine in Germany, we guide you through every step of the admission and visa process."
+    },
+    "countries": [
+      {
+        "id": "sweden",
+        "name": "Study in Sweden",
+        "intro": "Sweden is one of Europe's most popular destinations for international students. With globally ranked universities, innovative teaching methods, and a strong reputation for research, it offers both high-quality education and an excellent lifestyle.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "EU/EEA and Swiss Students",
+              "amount": "Free at public universities"
+            },
+            {
+              "category": "Non-EU/EEA Students",
+              "amount": "SEK 80,000 – 295,000 (€7,500 – €25,500) depending on program and university"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "Autumn Intake",
+              "details": "October – January (studies start in August/September)"
+            },
+            {
+              "period": "Spring Intake",
+              "details": "June – August (studies start in January)"
+            }
+          ]
+        },
+        "popularFields": "Engineering, IT, Business, Life Sciences, Environmental Studies",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "EU/EEA: No visa required",
+            "Non-EU/EEA: Residence permit required for studies longer than three months",
+            "Proof of funds: approx. SEK 10,300 per month for living costs",
+            "Health insurance required for stays under one year"
+          ]
+        },
+        "workRights": "Students can work unlimited hours during studies, and after graduation can apply for a one-year post-study residence permit to find a job or start a business."
+      },
+      {
+        "id": "denmark",
+        "name": "Study in Denmark",
+        "intro": "Denmark combines academic excellence with a business-friendly environment. Over 500 English-taught programs are offered across leading universities and colleges.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "EU/EEA Students",
+              "amount": "Free at public institutions"
+            },
+            {
+              "category": "Non-EU/EEA Students",
+              "amount": "€7,000 – €17,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "Autumn Intake",
+              "details": "Applications close in March (studies start in August/September)"
+            },
+            {
+              "period": "Spring Intake",
+              "details": "Applications close in September (studies start in January/February, limited courses)"
+            }
+          ]
+        },
+        "popularFields": "Design, Architecture, Business, Engineering, IT, Life Sciences",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Proof of funds: approx. €1,000 per month for living expenses",
+            "Health insurance must be secured before arrival"
+          ]
+        },
+        "workRights": "Students can work up to 20 hours per week during semesters and full-time during holidays."
+      },
+      {
+        "id": "germany",
+        "name": "Study in Germany",
+        "intro": "Germany is one of the most affordable and attractive study destinations in Europe, with nearly 400,000 international students.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "Public Universities",
+              "amount": "Free or €0 – €3,000 (administrative fees only)"
+            },
+            {
+              "category": "Private Universities",
+              "amount": "€6,000 – €12,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "Winter Semester",
+              "details": "Applications May – July (start September/October)"
+            },
+            {
+              "period": "Summer Semester",
+              "details": "Applications November – January (start March/April)"
+            }
+          ]
+        },
+        "popularFields": "Engineering, Business, Computer Science, Medicine, Natural Sciences",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Proof of finances: approx. €11,000 per year in a blocked account",
+            "Mandatory health insurance required"
+          ]
+        },
+        "workRights": "20 hours per week during semester, full-time during breaks."
+      },
+      {
+        "id": "uk",
+        "name": "Study in the United Kingdom",
+        "intro": "The UK is home to some of the world's top universities and an internationally recognized degree system.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "EU/EEA Students",
+              "amount": "€10,000 – €13,000"
+            },
+            {
+              "category": "Non-EU Students",
+              "amount": "€12,000 – €25,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "September/October",
+              "details": "Main intake"
+            },
+            {
+              "period": "January/February",
+              "details": "Secondary intake, limited programs"
+            },
+            {
+              "period": "May",
+              "details": "Summer intake at selected universities"
+            }
+          ]
+        },
+        "popularFields": "Law, Business, Engineering, Medicine, Social Sciences",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Student visa required for non-EU/EEA",
+            "Proof of tuition paid plus €1,200 per month (London) or lower outside London"
+          ]
+        },
+        "workRights": "20 hours per week during term, full-time during vacations."
+      },
+      {
+        "id": "latvia",
+        "name": "Study in Latvia",
+        "intro": "Latvia provides affordable education and peaceful living conditions.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "General",
+              "amount": "€3,000 – €6,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Main intake"
+            },
+            {
+              "period": "February",
+              "details": "Secondary intake"
+            }
+          ]
+        },
+        "popularFields": "Medicine, Business, IT, Engineering",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Student visa and proof of living expenses required",
+            "Health insurance mandatory"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "lithuania",
+        "name": "Study in Lithuania",
+        "intro": "Lithuania offers strong academic traditions and over 350 English-taught programs.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "General",
+              "amount": "€3,000 – €7,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Main intake"
+            },
+            {
+              "period": "February",
+              "details": "Secondary intake"
+            }
+          ]
+        },
+        "popularFields": "Business, Medicine, Engineering, Economics",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Residence permit required for non-EU students",
+            "Financial proof and insurance needed"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "czechRepublic",
+        "name": "Study in Czech Republic",
+        "intro": "The Czech Republic is a growing destination for international students in Central Europe.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "Public Universities",
+              "amount": "€2,000 – €5,000"
+            },
+            {
+              "category": "Private Universities",
+              "amount": "€5,000 – €10,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Main intake"
+            },
+            {
+              "period": "February",
+              "details": "Limited programs"
+            }
+          ]
+        },
+        "popularFields": "Medicine, Business, Engineering, Arts",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Student visa required for non-EU students",
+            "Proof of finances and accommodation must be shown"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "norway",
+        "name": "Study in Norway",
+        "intro": "Norway is known for tuition-free education at public universities.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "Public Universities",
+              "amount": "Free (only €50–€100 administrative fee)"
+            },
+            {
+              "category": "Private Universities",
+              "amount": "€5,000 – €10,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "Autumn",
+              "details": "August/September start, main intake"
+            },
+            {
+              "period": "Spring",
+              "details": "Limited to selected programs"
+            }
+          ]
+        },
+        "popularFields": "Energy, Marine Sciences, Engineering, IT, Natural Sciences",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Proof of approx. €12,000 per year for living costs required",
+            "Health insurance mandatory"
+          ]
+        },
+        "workRights": "20 hours per week during semester, full-time during holidays."
+      },
+      {
+        "id": "finland",
+        "name": "Study in Finland",
+        "intro": "Finland offers modern education and a strong focus on research and innovation.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "EU/EEA Students",
+              "amount": "Free at public universities"
+            },
+            {
+              "category": "Non-EU Students",
+              "amount": "€8,000 – €20,000 depending on program and university"
+            },
+            {
+              "category": "Doctoral Programs",
+              "amount": "Tuition-free for all students"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Main intake — applications November – January"
+            },
+            {
+              "period": "January",
+              "details": "Secondary intake, limited programs — applications in September"
+            }
+          ]
+        },
+        "popularFields": "IT, Engineering, Design, Business, Education",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Residence permit required for non-EU students",
+            "Proof of funds: minimum €800 per month (€9,600 per year)",
+            "Health insurance required"
+          ]
+        },
+        "workRights": "Students may work 20–25 hours per week during semesters and full-time during holidays. Post-study work permit available for graduates."
+      }
+    ],
+    "whyChoose": {
+      "heading": "Why Choose Sweden Relocators AB",
+      "services": [
+        {
+          "title": "Complete Admission Guidance",
+          "description": "Complete admission guidance for Bachelor's, Master's, and PhD programs across Sweden and the EU"
+        },
+        {
+          "title": "Document Services",
+          "description": "Document attestation, translation, and preparation for universities and migration authorities"
+        },
+        {
+          "title": "Visa and Residence Support",
+          "description": "Visa and residence permit applications handled with precision"
+        },
+        {
+          "title": "Financial Assistance",
+          "description": "Scholarship and financial advice tailored to each country"
+        },
+        {
+          "title": "Post-Study Support",
+          "description": "Ongoing support for residence permit renewal and post-study employment"
+        }
+      ],
+      "description": "At Sweden Relocators AB, we make studying in Sweden and Europe simple, transparent, and stress-free. From your first application to your graduation and beyond, we guide you every step of the way."
+    },
+    "cta": {
+      "heading": "Begin Your Study Journey in Europe Today",
+      "description": "Contact Sweden Relocators to get expert guidance on your application and visa process.",
+      "button": "Get Started",
+      "subtext": "Education regulations vary by country. Always consult official university and immigration websites for the most current information."
+    }
   }
 }
