@@ -1,0 +1,195 @@
+{
+  "euCitizensRelocation": {
+    "hero": {
+      "title": "Familiesammenføring for EU-borgere i Sverige",
+      "subtitle": "Omfattende støtte til EU-borgere og deres familier"
+    },
+    "intro": {
+      "heading": "Tag din EU-familie med til Sverige",
+      "description": "Når du flytter til Sverige som EU-borger, har du en lovbestemt ret til at tage din familie med dig, så dine nærmeste kan slutte sig til dig og nyde Sveriges høje livskvalitet, sundhedsvæsen, uddannelse og sociale ydelser. Sweden Relocators tilbyder professionel støtte til EU-familiesammenføring, herunder vurdering af berettigelse, dokumentation, opholdskort, registrering af personnummer, bolig og integration.",
+      "infoBox": "EU-familiesammenføring i Sverige er baseret på direktiv 2004/38/EF, som giver EU-borgere bosat i Sverige ret til at medbringe familiemedlemmer og få adgang til sundhedsvæsen, uddannelse og sociale ydelser på samme vilkår som andre beboere."
+    },
+    "whatIs": {
+      "heading": "Hvad er EU-familiesammenføring?",
+      "description": "EU-familiesammenføring i Sverige reguleres af direktiv 2004/38/EF om EU-borgeres og deres familiers ret til fri bevægelighed og ophold inden for EU. Ordningen giver EU-borgere, der bor i Sverige, mulighed for at tage både nærmeste og udvidede familiemedlemmer med, forudsat at visse betingelser er opfyldt."
+    },
+    "immediateFamilyHeading": "Nærmeste familiemedlemmer, der er berettiget til familiesammenføring",
+    "immediateFamily": [
+      {
+        "type": "Ægtefælle eller registreret partner",
+        "description": "Omfatter både heteroseksuelle og homoseksuelle ægteskaber samt registrerede partnerskaber, der anerkendes efter svensk lov."
+      },
+      {
+        "type": "Samlever",
+        "description": "Hvis forholdet er langvarigt og anerkendt i Sverige som svarende til ægteskab."
+      },
+      {
+        "type": "Børn under 21 år",
+        "description": "Biologiske eller adopterede børn af EU-borgeren eller dennes ægtefælle/partner."
+      },
+      {
+        "type": "Forsørgede børn over 21 år",
+        "description": "Hvis de er økonomisk afhængige af EU-borgeren."
+      },
+      {
+        "type": "Forsørgede forældre og bedsteforældre",
+        "description": "Slægtninge i opstigende linje, som er økonomisk afhængige."
+      }
+    ],
+    "extendedFamily": {
+      "heading": "Udvidede familiemedlemmer og afhængighed",
+      "description": "I visse tilfælde kan udvidede familiemedlemmer også være berettigede, hvis der kan dokumenteres et reelt afhængighedsforhold. Dette kan omfatte voksne søskende, voksne børn, der bor i samme husstand, samt andre slægtninge med stærke afhængighedsbånd. Kravene til familiesammenføring for udvidet familie er strengere og kræver tydelig dokumentation for afhængighed."
+    },
+    "longTermPermitHeading": "Indehavere af EU-opholdstilladelse for varigt ophold",
+    "longTermPermitRequirements": [
+      "Have en gyldig opholdstilladelse for varigt ophold udstedt af en anden EU-stat",
+      "Have tilstrækkelige økonomiske midler og passende bolig i Sverige",
+      "Ansøge om ophold i Sverige sammen med deres nærmeste familiemedlemmer"
+    ],
+    "residenceCard": {
+      "heading": "Opholdskort til familiemedlemmer",
+      "intro": "Familiemedlemmer, der planlægger at opholde sig i Sverige i mere end tre måneder, skal ansøge om et opholdskort hos Migrationsverket (den svenske migrationsmyndighed).",
+      "documentsLabel": "Påkrævede dokumenter:",
+      "documents": [
+        "Gyldigt pas",
+        "Dokumentation for familierelation (vielsesattest, registreret partnerskab eller fødselsattest)",
+        "Dokumentation for økonomisk afhængighed (for forældre, bedsteforældre eller børn over 21 år)",
+        "Dokumentation for EU-borgerens bopæl i Sverige (lejekontrakt, ejerskab af bolig eller ansættelseskontrakt)",
+        "Økonomisk dokumentation for, at EU-borgeren kan forsørge sig selv og sin familie"
+      ],
+      "note": "Opholdskort er som regel gyldige i fem år eller så længe EU-borgeren opholder sig i Sverige."
+    },
+    "personnummer": {
+      "heading": "Personnummer (svensk personnummer)",
+      "intro": "Når familiemedlemmer har modtaget deres opholdskort, skal de registrere sig hos Skatteverket (den svenske skattemyndighed) for at få et personnummer. Dette nummer er nødvendigt for at:",
+      "uses": [
+        "Få adgang til sundhedsvæsenet",
+        "Indskrive børn i skoler",
+        "Åbne en bankkonto",
+        "Indgå kontrakter (bolig, mobilabonnement, el og andre ydelser)"
+      ]
+    },
+    "healthcare": {
+      "heading": "Sundhedsvæsen og sygeforsikring",
+      "description": "Familiemedlemmer får adgang til det offentlige sundhedsvæsen i Sverige, når de har fået et personnummer. Indtil da kræves privat sygeforsikring. For familiemedlemmer, der ikke er EU-borgere, anbefales en omfattende sygeforsikring med en dækningssum på mindst 30.000 EUR."
+    },
+    "education": {
+      "heading": "Uddannelse og børnepasning",
+      "programs": [
+        {
+          "name": "Obligatorisk skolegang",
+          "description": "Gratis undervisning for børn i alderen 6–16 år, inklusive skolemad"
+        },
+        {
+          "name": "Førskole (Förskola)",
+          "description": "Tilgængelig for børn i alderen 1–5 år med subsidierede priser"
+        },
+        {
+          "name": "Internationale skoler",
+          "description": "Muligheder for familier, der ønsker undervisning på engelsk eller andre sprog"
+        }
+      ]
+    },
+    "bankAccounts": {
+      "heading": "Bankkonti og økonomisk integration",
+      "intro": "Efter at have fået et personnummer kan familiemedlemmer åbne en svensk bankkonto. De krævede dokumenter omfatter typisk:",
+      "documents": [
+        "ID-kort udstedt af Skatteverket",
+        "Opholdskort",
+        "Dokumentation for adresse",
+        "Dokumentation for indkomst (hvis relevant)"
+      ],
+      "note": "En bankkonto giver adgang til digitale betalinger, netbank og Swish (Sveriges mobile betalingssystem)."
+    },
+    "language": {
+      "heading": "Sprog- og integrationsstøtte",
+      "description": "At lære svensk er afgørende for integration. Familiemedlemmer kan deltage i SFI-kurser (Svensk for indvandrere), når de er registreret og har fået et personnummer. Disse gratis, statsfinansierede kurser forbedrer daglig kommunikation og jobmuligheder. Sweden Relocators tilbyder også kulturel introduktion for at hjælpe familier med hurtigere at falde til."
+    },
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Vurdering af berettigelse",
+        "description": "Sweden Relocators vurderer, om familiemedlemmer opfylder EU-reglerne."
+      },
+      {
+        "step": "2",
+        "title": "Forberedelse af dokumenter",
+        "description": "Indsamling og oversættelse af nødvendige dokumenter."
+      },
+      {
+        "step": "3",
+        "title": "Indsendelse til Migrationsverket",
+        "description": "Indsendelse af ansøgninger om opholdskort."
+      },
+      {
+        "step": "4",
+        "title": "Opfølgning og kommunikation",
+        "description": "Håndtering af eventuelle forespørgsler fra migrationsmyndigheden."
+      },
+      {
+        "step": "5",
+        "title": "Registrering hos Skatteverket",
+        "description": "Hjælp med personnummer, ID-kort og skatteregistrering."
+      },
+      {
+        "step": "6",
+        "title": "Integrationstjenester",
+        "description": "Støtte til bolig, skoler, sundhedsvæsen og sprog."
+      }
+    ],
+    "services": {
+      "heading": "Sådan støtter Sweden Relocators familier",
+      "description": "Vores omfattende tjenester og digitale portal sikrer, at din familiesammenføring forløber gnidningsfrit, korrekt og uden stress.",
+      "servicesList": [
+        {
+          "title": "Berettigelsestjek og juridiske vurderinger",
+          "description": "Vi sikrer, at dine familiemedlemmer opfylder EU-lovgivningens krav."
+        },
+        {
+          "title": "Dokumentforberedelse og autoriserede oversættelser",
+          "description": "Alle dokumenter forberedes og oversættes professionelt til brug for svenske myndigheder."
+        },
+        {
+          "title": "Indsendelse og opfølgning på ansøgninger",
+          "description": "Vi indsender ansøgninger og følger processen hos Migrationsverket."
+        },
+        {
+          "title": "Støtte ved klager",
+          "description": "Ved afslag yder vi fuld støtte gennem hele klageprocessen."
+        },
+        {
+          "title": "Bolig- og skolesøgning",
+          "description": "Vi hjælper med at finde bolig og indskrive børn i skoler."
+        },
+        {
+          "title": "Forsikrings- og sundhedsstøtte",
+          "description": "Vejledning om adgang til det svenske sundhedsvæsen og forsikringskrav."
+        }
+      ]
+    },
+    "whySweden": [
+      {
+        "title": "Stærkt velfærdssystem",
+        "description": "Adgang til omfattende sundhedspleje, uddannelse og sociale ydelser."
+      },
+      {
+        "title": "Gratis uddannelse og sundhedsvæsen",
+        "description": "Uddannelse og sundhedsydelser i verdensklasse for alle beboere."
+      },
+      {
+        "title": "Trygt og familievenligt",
+        "description": "Sverige tilbyder et sikkert, inkluderende og familievenligt miljø."
+      },
+      {
+        "title": "Sikre opholdsrettigheder",
+        "description": "Juridisk beskyttelse under både EU-retten og svensk migrationslovgivning."
+      }
+    ],
+    "cta": {
+      "heading": "Klar til at starte din EU-familiesammenføring?",
+      "description": "Sweden Relocators er her for at sikre, at din flytning forløber gnidningsfrit, korrekt og uden stress. Kontakt os i dag for at påbegynde familiesammenføringen. Vores digitale portal gør det muligt at administrere profiler, uploade dokumenter og følge processen i realtid.",
+      "button": "Start EU-familiesammenføring",
+      "subtext": "Vores ekspertteam guider din familie gennem hvert trin i EU-familiesammenføringsprocessen i Sverige."
+    }
+  }
+}

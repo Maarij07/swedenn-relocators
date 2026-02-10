@@ -1,0 +1,217 @@
+{
+  "euCitizensParentsPermit": {
+    "hero": {
+      "title": "EU-Aufenthaltserlaubnis für unterhaltsberechtigte Eltern und andere Familienangehörige gemäß Richtlinie 2004/38/EG",
+      "subtitle": "Fachanleitung zur Mitnahme unterhaltsberechtigter Familienangehöriger nach Schweden"
+    },
+    "intro": {
+      "heading": "Familieneinheit durch EU-Freizügigkeit",
+      "description": "Nach der EU-Richtlinie 2004/38/EG können EU/EWR-Bürger, die ihr Freizügigkeitsrecht in Schweden ausüben, einen Aufenthaltstitel für ihre unterhaltenen Familienangehörigen von außerhalb der EU beantragen, einschließlich Eltern und anderer Familienangehöriger. Diese Richtlinie zielt darauf ab, die Familieneinheit zu erleichtern, indem EU-Bürger Familienangehörige, die wirtschaftlich oder sozial von ihnen abhängig sind, nach Schweden bringen können. Hier ist ein umfassender Überblick über die Anforderungen, das Antragsverfahren und spezielle Fälle für unterhaltsberechtigte Eltern und andere Familienangehörige."
+    },
+    "whoQualifies": {
+      "heading": "Wer qualifiziert sich als unterhaltsberechtigter Familienangehöriger?",
+      "intro": "Um nach der Richtlinie 2004/38/EG berechtigt zu sein, muss der nicht-EU-Familienangehörige in eine der folgenden Kategorien fallen:",
+      "categories": [
+        {
+          "number": 1,
+          "title": "Unterhaltsberechtigte Eltern",
+          "description": "Eltern eines EU-Bürgers oder deren Ehepartner/Partner, die auf den EU-Bürger zur finanziellen Unterstützung oder anderer wesentlicher Betreuung angewiesen sind."
+        },
+        {
+          "number": 2,
+          "title": "Andere unterhaltsberechtigte Familienangehörige",
+          "description": "Dies kann Geschwister oder erweiterte Familienmitglieder einschließen, wenn ein klares Unterhaltverhältnis besteht, besonders wenn der Familienangehörige und der EU-Bürger zuvor im selben Land gelebt haben."
+        },
+        {
+          "number": 3,
+          "title": "Kinder oder Stiefkinder",
+          "description": "Kinder über 21 Jahren können sich auch als unterhaltsabhängig qualifizieren, wenn sie auf den EU-Bürger zur Unterstützung angewiesen sind, obwohl dies anders bewertet wird als bei Minderjährigen."
+        }
+      ]
+    },
+    "keyConditions": {
+      "heading": "Schlüsselbedingungen für die Berechtigung",
+      "conditions": [
+        {
+          "number": 1,
+          "title": "Nachweis der Abhängigkeit",
+          "description": "Der Antragsteller muss Nachweise erbringen, die finanzielle oder persönliche Abhängigkeit vom EU-Bürger zeigen. Dies kann einen gemeinsamen Wohnsitz, regelmäßige finanzielle Unterstützung oder Dokumentation emotionaler und sozialer Abhängigkeit umfassen."
+        },
+        {
+          "number": 2,
+          "title": "Früheres Zusammenleben",
+          "description": "Bei erweiterten Familienangehörigen (wie Geschwistern oder erwachsenen Kindern) muss der Antragsteller nachweisen, dass er mit dem EU-Bürger in seinem Heimatland gelebt hat, unmittelbar bevor dieser nach Schweden zog."
+        },
+        {
+          "number": 3,
+          "title": "Rechtzeitiger Antrag",
+          "description": "Anträge sollten idealerweise so bald wie möglich nach der Ankunft des EU-Bürgers in Schweden eingereicht werden. Verzögerte Anträge können die Genehmigungswahrscheinlichkeit verringern, besonders wenn die Abhängigkeit erst nach der Umsiedlung entstanden ist."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Antragsverfahren für einen Aufenthaltstitel gemäß Richtlinie 2004/38/EG",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Vorbereitung der Dokumentation für Abhängigkeit und Beziehung",
+          "intro": "Die Sammlung erforderlicher Dokumentation ist entscheidend. Wichtige Dokumente umfassen:",
+          "documents": [
+            {
+              "title": "Identitätsnachweis",
+              "description": "Gültiger Reisepass des nicht-EU-Familienangehörigen."
+            },
+            {
+              "title": "Nachweis der Beziehung",
+              "details": [
+                "Für Eltern: Geburtsurkunde des EU-Bürgers, die die Eltern-Kind-Beziehung nachweist.",
+                "Für andere Familienangehörige: Dokumente, die die Familienbeziehung nachweisen (z.B. Geburtsurkunden oder Familienregister)."
+              ]
+            },
+            {
+              "title": "Nachweis der Abhängigkeit",
+              "description": "Dies kann Kontoauszüge, Nachweise regelmäßiger Geldtransfers, Nachweise gemeinsamer Wohnung und andere Dokumente umfassen, die Abhängigkeit vom EU-Bürger für finanzielle oder emotionale Unterstützung zeigen."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Antrag Einreichen",
+          "intro": "Der nicht-EU-Familienangehörige muss einen Aufenthaltstitel beantragen, der online oder über eine schwedische Botschaft oder ein Konsulat im Heimatland des Antragstellers bei der Schwedischen Migrationsbehörde eingereicht werden kann.",
+          "details": [
+            "Angaben des Antragstellers: Informationen über den EU-Bürger, seinen Aufenthaltstatus in Schweden und persönliche Angaben des Unterhaltsberechtigten.",
+            "Unterstützende Dokumente: Alle erforderlichen Dokumente, die das Unterhaltverhältnis und den Wohnsitz des EU-Bürgers in Schweden nachweisen."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Überprüfung durch die Migrationsbehörde",
+          "intro": "Die Migrationsbehörde bewertet die Beziehung und Abhängigkeit basierend auf den bereitgestellten Nachweisen. Sie können zusätzliche Dokumentation oder Klarstellungen verlangen. Die Überprüfung konzentriert sich auf:",
+          "details": [
+            "Verifikation der Abhängigkeit: Bestätigung, dass der nicht-EU-Familienangehörige tatsächlich auf den EU-Bürger angewiesen ist.",
+            "Familienbeziehung: Verifikation der Familienbeziehung des Antragstellers zum EU-Bürger und Sicherstellung, dass die Abhängigkeit vor der Umsiedlung nach Schweden bestand."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Entscheidung und Ausstellung des Aufenthaltstitels",
+          "description": "Bei Genehmigung erhält der nicht-EU-Familienangehörige einen Aufenthaltstitel, der fünf Jahre gültig ist oder die erwartete Dauer des Aufenthalts des EU-Bürgers in Schweden (je nachdem, was kürzer ist). Der Aufenthaltstitel berechtigt den Inhaber, in Schweden unter den gleichen Bedingungen wie EU-Familienangehörige zu leben, zu arbeiten und Zugang zum Gesundheitswesen zu haben."
+        }
+      ]
+    },
+    "specificCases": {
+      "heading": "Spezifische Fälle: Anforderungen für unterhaltsberechtigte Eltern und andere Familienangehörige",
+      "dependentParents": {
+        "heading": "Aufenthaltstitel für unterhaltsberechtigte Eltern",
+        "intro": "Für unterhaltsberechtigte Eltern umfassen die Hauptbedingungen den Nachweis wirtschaftlicher oder gesundheitlicher Abhängigkeit vom EU-Bürger. Beispiele akzeptabler Dokumentation können Folgendes umfassen:",
+        "documentation": [
+          {
+            "title": "Nachweis finanzieller Unterstützung",
+            "description": "Bankkonten, Überweisungsbelege oder Nachweis regelmäßiger finanzieller Unterstützung vom EU-Bürger."
+          },
+          {
+            "title": "Gesundheitliche Abhängigkeit",
+            "description": "Ärztliche Bescheinigungen oder Dokumentation besonderer Anforderungen, die Nähe zum EU-Bürger zur Unterstützung und Betreuung erfordern."
+          }
+        ],
+        "note": "In Fällen, in denen der Elternteil erhebliche Gesundheitsansprüche hat, kann zusätzliche Dokumentation erforderlich sein, um nachzuweisen, dass angemessene Betreuungsoptionen im Heimatland nicht verfügbar sind."
+      },
+      "otherFamilyMembers": {
+        "heading": "Aufenthaltstitel für andere unterhaltsberechtigte Familienangehörige",
+        "intro": "Für andere unterhaltsberechtigte Familienangehörige (z.B. erwachsene Geschwister oder erweiterte Familienmitglieder) sind die Anforderungen normalerweise strenger:",
+        "requirements": [
+          {
+            "title": "Nachweis gemeinsamen Haushalts",
+            "description": "Nachweis, dass der Familienangehörige vor der Umsiedlung nach Schweden mit dem EU-Bürger lebte, wie ein gemeinsamen Mietvertrag oder Nebenkosten."
+          },
+          {
+            "title": "Emotionale und soziale Abhängigkeit",
+            "description": "Eidesstattliche Versicherungen oder Stellungnahmen, die eine starke soziale und emotionale Bindung zeigen, können erforderlich sein, besonders wenn die Beziehung über finanzielle Abhängigkeit hinausgeht."
+          }
+        ]
+      }
+    },
+    "maintenanceRequirement": {
+      "heading": "Unterhaltsvoraussetzung für den EU-Sponsor",
+      "intro": "Nach schwedischen Vorschriften muss der EU-Bürger in der Lage sein, finanzielle Unterstützung und angemessene Unterkunft für seinen nicht-EU-Familienangehörigen zu bieten. Dies umfasst:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Stabiles Einkommen",
+          "description": "Nachweis von Beschäftigung, regelmäßigem Einkommen oder finanziellen Ressourcen, die zeigen, dass der EU-Bürger sich selbst und seinen Unterhaltsberechtigten unterstützen kann."
+        },
+        {
+          "number": 2,
+          "title": "Wohnungsanforderung",
+          "description": "Der EU-Bürger muss über angemessene Unterkunft verfügen, die schwedische Standards für Wohnfläche und Privatsphäre erfüllt. Dies kann Mietverträge, Eigentumsnachweis oder eine Untervermietung mit Zustimmung des Vermieters umfassen."
+        }
+      ],
+      "note": "Die Unterhaltsvoraussetzung gilt nicht für minderjährige Kinder (unter 18 Jahren). Dies bedeutet, dass wenn ein Elternteil einen minderjährigen in Schweden beitreten möchte, das Kind keine Einkommens- oder Wohnungsanforderungen erfüllen muss."
+    },
+    "additionalConsiderations": {
+      "heading": "Zusätzliche Überlegungen",
+      "timeliness": {
+        "heading": "Rechtzeitigkeit des Antrags",
+        "description": "Anträge, die kurz nach der Umsiedlung des EU-Bürgers nach Schweden eingereicht werden, haben eine höhere Erfolgsquote. Lange Verzögerungen bei der Antragstellung können den Prozess komplizieren, da Behörden die vorherige Abhängigkeit hinterfragen könnten. Idealerweise sollten Anträge für unterhaltsberechtigte Familienangehörige wenige Monate nach der Ankunft des EU-Bürgers in Schweden eingereicht werden."
+      },
+      "changes": {
+        "heading": "Änderungen des Abhängigkeitsstatus",
+        "description": "Wenn sich der Abhängigkeitsstatus ändert (zum Beispiel wenn der nicht-EU-Familienangehörige finanziell unabhängig wird), kann dies den Status des Aufenthaltstitels beeinflussen. Die Schwedische Migrationsbehörde kann diese Fälle regelmäßig überprüfen, um die Compliance mit Aufenthaltsvorschriften sicherzustellen."
+      },
+      "renewal": {
+        "heading": "Erneuerung des Aufenthaltstitels",
+        "description": "Aufenthaltstitel für unterhaltsberechtigte Familienangehörige sind normalerweise bis zu fünf Jahre gültig. Eine Erneuerung ist möglich, solange das Unterhaltverhältnis bestehen bleibt und der EU-Bürger Einwohner Schwedens bleibt. Erneuerungsanträge sollten lange vor dem Ablaufdatum eingereicht werden, mit aktualisierter Dokumentation, die fortgesetzte Abhängigkeit nachweist."
+      }
+    },
+    "howWeHelp": {
+      "heading": "Wie Sweden Relocators mit EU-Aufenthaltstitel-Anträgen helfen kann",
+      "intro": "Die Navigation des Prozesses zur Erlangung eines EU-Aufenthaltstitels für unterhaltsberechtigte Familienangehörige gemäß Richtlinie 2004/38/EG kann komplex sein. Sweden Relocators bietet Fachanleitung und hilft sicherzustellen, dass alle Dokumentation in Ordnung ist, und leitet Sie durch jeden Schritt des Antragsverfahrens.",
+      "subheading": "Unsere Dienstleistungen umfassen:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Berechtigungsprüfung",
+          "description": "Wir überprüfen die spezifischen Umstände Ihrer Familie, um festzustellen, ob Ihre nicht-EU-Familienangehörigen als unterhaltsabhängig nach schwedischem Recht qualifizieren."
+        },
+        {
+          "number": 2,
+          "title": "Dokumentenvorbereitung",
+          "description": "Unser Team hilft bei der Sammlung und Vorbereitung aller erforderlichen Dokumente, einschließlich Nachweis der Beziehung, Abhängigkeit und finanziellen Unterstützung."
+        },
+        {
+          "number": 3,
+          "title": "Antragstellung und Überwachung",
+          "description": "Wir unterstützen bei der Antragstellung und überwachen den Fortschritt bei der Migrationsbehörde, um zeitnahe Aktualisierungen zu gewährleisten."
+        },
+        {
+          "number": 4,
+          "title": "Berufungsunterstützung",
+          "description": "Im Falle einer Antrag-ablenung bieten wir Beratung zum Berufungsverfahren und helfen, Ihren Fall zur Überprüfung zu stärken."
+        }
+      ]
+    },
+    "benefitsOfService": {
+      "heading": "Vorteile unserer Dienstleistung",
+      "benefits": [
+        {
+          "title": "Erfahrene Anleitung",
+          "description": "Vertrautheit mit Richtlinie 2004/38/EG und den Anforderungen der Migrationsbehörde ermöglicht uns, präzise, wirksame Beratung anzubieten."
+        },
+        {
+          "title": "Umfassende Unterstützung",
+          "description": "Von der Berechtigungsprüfung bis zur Dokumentenvorbereitung und Berufungsunterstützung bearbeiten wir alle Aspekte Ihres Antrags."
+        },
+        {
+          "title": "Personalisierter Service",
+          "description": "Jeder Fall ist einzigartig und wir passen unseren Ansatz an Ihre speziellen Familieninteressen an, um die effektivsten Lösungen zu bieten."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Bringen Sie Ihre Lieben heute nach Schweden",
+      "description": "Wenn Sie Hilfe bei der Erlangung eines EU-Aufenthaltstitels für Ihre unterhaltsberechtigten Eltern oder andere Familienangehörigen benötigen, ist Sweden Relocators hier, um zu helfen. Kontaktieren Sie uns heute, um die Berechtigung Ihrer Familie zu besprechen und zu erfahren, wie wir Ihre Reise zur Wiedervereinigung mit Ihren Lieben unterstützen können.",
+      "button": "Erste Schritte",
+      "subtext": "Besuchen Sie unseren EU-Bürger-Eltern-Erlaubnis-Abschnitt oder kontaktieren Sie uns für weitere Informationen. Unser Team ist bereit, Ihnen zu helfen, sich mit Ihrer Familie zu reunieren."
+    }
+  }
+}

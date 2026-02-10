@@ -1,0 +1,171 @@
+{
+  "asylum": {
+    "hero": {
+      "title": "Asyl in Schweden: Professionelle Unterstützung für eine sichere Zukunft",
+      "subtitle": "Experten Anleitung durch das schwedische Asylverfahren"
+    },
+    "intro": {
+      "heading": "Was Wir Bieten",
+      "description": "Wenn Sie Asyl in Schweden beantragen, kann der Prozess überwältigend erscheinen. Bei Sweden Relocators unterstützt unser Team erfahrener Einwanderungsspezialisten Sie durch jeden Schritt des Asylverfahrens bei der Migrationsbehörde und stellt sicher, dass Ihr Fall mit größter Sorgfalt und Professionalität bearbeitet wird."
+    },
+    "whyChooseExpert": {
+      "heading": "Warum Einen Experten Wählen?",
+      "description": "Das Asylverfahren in Schweden kann komplex sein. Unser Expertenteam kann auf folgende Weise einen Unterschied für Sie machen:",
+      "benefits": [
+        {
+          "title": "Seelenfrieden",
+          "description": "Mit unserem professionellen Team an Ihrer Seite können Sie sich auf andere Aspekte Ihres Umzugs nach Schweden konzentrieren. Wir sind entschlossen, sicherzustellen, dass Ihr Asylantrag effektiv und mit Einfühlungsvermögen bearbeitet wird."
+        },
+        {
+          "title": "Klare und Transparente Anleitung",
+          "description": "Unsere Spezialisten vereinfachen komplexe rechtliche Anforderungen, um sicherzustellen, dass Sie jeden Schritt verstehen. Egal wie kompliziert Ihr Fall seems, unser Team ist bereit, Ihnen zu helfen, Ihre Asylgründe klar und wirksam zu erläutern."
+        },
+        {
+          "title": "Sofortiger Zugang zu Einem Rechtsanwalt",
+          "description": "Unsere Einwanderungsanwälte beginnen sofort nach Ihrem Kontakt mit der Bearbeitung Ihres Falls, bieten sofortige Antworten auf Ihre Bedenken und stellen sicher, dass Ihr Fall schnell bearbeitet wird."
+        }
+      ]
+    },
+    "eligibility": {
+      "heading": "Berechtigung für Asyl in Schweden",
+      "whoCanApply": {
+        "heading": "Wer Kann Asyl Beantragen?",
+        "intro": "Um Asyl in Schweden zu beantragen, müssen Sie sich physisch im Land oder an seiner Grenze aufhalten. Ein Antrag von außerhalb Schwedens ist nicht möglich.",
+        "description": "Jeder Asylantrag wird individuell geprüft. Die Migrationsbehörde gewährt nur nach 1951 der UN-Flüchtlingskonvention Schutz."
+      },
+      "refugeeDefinition": {
+        "heading": "Flüchtlingsdefinition und Kriterien",
+        "intro": "Nach schwedischem Recht und internationalen Richtlinien gilt eine Person als Flüchtling, wenn sie in ihrem Herkunftsland Verfolgung oder schwerwiegende Bedrohungen aufgrund folgender Factoren ausgesetzt ist:",
+        "criteria": [
+          "Rasse",
+          "Nationalität, Sprache oder Ethnische Zugehörigkeit",
+          "Religion",
+          "Politische Überzeugung oder Aktivismus",
+          "Geschlechtsidentität",
+          "Sexuelle Orientierung",
+          "Zugehörigkeit zu einer bestimmten sozialen Gruppe"
+        ],
+        "additionalInfo": "Wenn Gruppen oder Personen in Ihrem Herkunftsland Sie oder Ihre Angehörigen bedrohen, kann dies Ihren Antrag beeinflussen. Allerdings erfordert ein positives Ergebnis klare Beweise für Verfolgung. Im Verfahren werden Sie aufgefordert, die Risiken zu beschreiben, denen Sie ausgesetzt sind, wenn Sie in Ihr Land zurückkehren.",
+        "outcome": "Bei Genehmigung erhalten Sie einen Aufenthaltstitel von drei Jahren oder 13 Monaten, abhängig von den Umständen."
+      }
+    },
+    "applicationProcess": {
+      "heading": "Asylantrag in Schweden",
+      "intro": "Schritt-für-Schritt Prozess",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Physische Anwesenheit Erforderlich",
+          "description": "Sie müssen sich physisch in Schweden oder an der schwedischen Grenze aufhalten, um Asyl zu beantragen."
+        },
+        {
+          "step": 2,
+          "title": "Anmeldegesprach bei der Migrationsbehörde",
+          "description": "Nach Einreichung Ihres Antrags werden Sie zu einem Gespräch bei der Migrationsbehörde eingeladen. Bei diesem Gespräch können Sie Ihren Rechtsvertreter oder Anwalt wählen. In diesem Stadium können Sie uns für Ihre Unterstützung wählen."
+        },
+        {
+          "step": 3,
+          "title": "Rechtliche Vertretung und Fallvorbereitung",
+          "description": "Wenn Sie uns als Ihren Vertreter wählen, wird die Migrationsbehörde uns zur Unterstützung Ihres Falls kontaktieren. Unser Team wird mit Ihnen einen Termin vereinbaren, um Informationen zu Ihrem Hintergrund und Ihren Gründen für die Asylbeantragung zu sammeln. Wir bereiten Sie auch auf zukünftige Interviews und Dokumenteneinreichungen vor."
+        }
+      ]
+    },
+    "legalRepresentative": {
+      "heading": "Unsere Rolle als Ihr Rechtsvertreter",
+      "intro": "Als Ihr Rechtsvertreter werden wir:",
+      "services": [
+        "Während des gesamten Asylverfahrens laufende Unterstützung und rechtliche Beratung leisten.",
+        "Die Migrationsbehörde dabei unterstützen, Ihre Asylgründe zu verstehen.",
+        "Sicherstellen, dass Ihre Rechte geschützt sind.",
+        "Sie bei Einsprüchen unterstützen, falls Ihr Antrag abgelehnt wird."
+      ],
+      "additionalSupport": "Darüber hinaus bieten wir umfangreiche Umzugsservices an, um Sie mit Ihren Familienangehörigen zu vereinigen, wenn Ihr Antrag erfolgreich ist."
+    },
+    "familyReunification": {
+      "heading": "Familienzusammenführung für Flüchtlinge",
+      "subheading": "Bringen Sie Ihre Familie nach Schweden",
+      "description": "Schweden erkennt Familienzusammenführung als grundlegendes Recht an. Wenn Sie Asyl erhalten haben, kann Ihre Familie möglicherweise zu Ihnen nach Schweden kommen.",
+      "whoCanApply": {
+        "heading": "Wer Kann sich für Familienzusammenführung Qualifizieren?",
+        "intro": "Ihre Familie kann einen Aufenthaltstitel für die Familienzusammenführung beantragen, wenn Sie folgendes haben:",
+        "eligibilityTypes": [
+          "Einen permanenten Aufenthaltstitel",
+          "Einen befristeten Aufenthaltstitel als Flüchtling mit Chancen auf Verlängerung",
+          "Einen befristeten Aufenthaltstitel aufgrund von Rückkehrhindernissen mit Chancen auf Verlängerung"
+        ]
+      },
+      "euEeaCitizens": {
+        "heading": "Für EU/EWR-Bürger",
+        "description": "Wenn Sie EU/EWR-Bürger sind, können Sie von einem vereinfachten Verfahren profitieren, um Ihre Familie nach Schweden zu bringen."
+      },
+      "temporaryPermit": {
+        "heading": "Wenn Sie Einen Befristeten Aufenthaltstitel Haben",
+        "description": "Für erfolgreiche Anträge auf Familienzusammenführung benötigen Sie einen gültigen Aufenthaltstitel zum Zeitpunkt des Antrags. Wenn sich Ihr Titel in Verlängerung befindet, prüft die Behörde zuerst Ihren Status.",
+        "familyMembers": "In der Regel können Ehegatten, Partner und Kinder unter 18 Jahren bei Ihnen bleiben.",
+        "maintenance": "Sie müssen nachweisen, dass Sie Ihre Familie finanziell unterstützen und angemessene Wohnungen bereitstellen können."
+      }
+    },
+    "familyReunificationAssistance": {
+      "heading": "Wie Wir Sie Bei der Familienzusammenführung Unterstützen",
+      "description": "Unser Team bietet umfassende Unterstützung für den Prozess der Familienzusammenführung:",
+      "services": [
+        {
+          "title": "Antragsvorbereitung",
+          "description": "Unterstützung bei der Vorbereitung und Einreichung des Aufenthaltsantrags für Ihre Familienangehörigen."
+        },
+        {
+          "title": "Dokumentenüberprüfung",
+          "description": "Sicherstellung, dass alle erforderlichen Unterlagen vorliegen, um Verzögerungen zu vermeiden."
+        },
+        {
+          "title": "Gebührenleitfaden",
+          "description": "Klare Informationen über die anfallenden Gebühren."
+        },
+        {
+          "title": "Registrierungshilfe",
+          "description": "Unterstützung bei der Registrierung des Antrags bei der Migrationsbehörde."
+        },
+        {
+          "title": "Regelmäßiges Follow-up",
+          "description": "Kontinuierliche Überwachung mit regelmäßigen Updates."
+        },
+        {
+          "title": "Terminkoordination",
+          "description": "Koordination wichtiger Termine bei der Migrationsbehörde."
+        },
+        {
+          "title": "Begleitete Besuche",
+          "description": "Unser Team begleitet Sie zu Terminen und bietet persönliche Unterstützung."
+        }
+      ]
+    },
+    "additionalSupport": {
+      "heading": "Zusätzliche Unterstützung für Asylbewerber und Neuzukömlinge",
+      "intro": "Neben Asyl- und Familienzusammenführungsdiensten bieten wir auch:",
+      "services": [
+        {
+          "title": "Umzugsunterstützung",
+          "description": "Umfangreiche Hilfe bei Wohnungsvermittlung, Bildung, Gesundheitsversorgung und sozialer Integration."
+        },
+        {
+          "title": "Dolmetsch- und Übersetzungsdienste",
+          "description": "Unterstützung beim Übersetzen von Dokumenten und Dolmetschen bei Behördenterminen."
+        },
+        {
+          "title": "Juristische Unterstützung bei Einsprüchen",
+          "description": "Hilfe bei der Einreichung von Einsprüchen und Gerichtsverfahren."
+        },
+        {
+          "title": "Beratungsdienste",
+          "description": "Professionelle Unterstützung für Ihr emotionales Wohlbefinden während schwieriger Zeiten."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Starten Sie Ihren Asylantrag Heute",
+      "description": "Kontaktieren Sie Sweden Relocators, um Ihren Asylantrag mit Fachkompetenz und Unterstützung zu beginnen.",
+      "button": "Loslegen",
+      "subtext": "Besuchen Sie unseren Asylbereich oder kontaktieren Sie uns für weitere Informationen. Unser Team hilft Ihnen, Ihre Zukunft in Schweden zu sichern."
+    }
+  }
+}

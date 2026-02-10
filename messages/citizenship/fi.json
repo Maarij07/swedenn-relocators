@@ -2,41 +2,41 @@
   "citizenship": {
     "hero": {
       "title": "Ruotsalainen kansalaisuus: Vaatimukset, hakupolut ja käsittelyajat",
-      "subtitle": "Ruotsalaiseksi kansalaiseksi tuleminen on merkittävä virstanpylväs, joka antaa täydet oikeudet ja velvollisuudet Ruotsissa. Kansalaisuus mahdollistaa ruotsalaisen passin hankinnan, äänioikeuden, mahdollisuuden pyrkiä poliittiseen virkaan sekä vapaan liikkuvuuden EU:ssa ja Schengen-alueella."
+      "subtitle": "Ruotsalaiseksi kansalaiseksi tuleminen on merkittävä askel, joka antaa täydet oikeudet ja velvollisuudet Ruotsissa. Kansalaisuus mahdollistaa ruotsalaisen passin saamisen, äänioikeuden, oikeuden pyrkiä poliittisiin tehtäviin ja vapaan liikkuvuuden EU:ssa ja Schengen-alueella."
     },
     "intro": {
       "heading": "Mitä ruotsalainen kansalaisuus tarjoaa",
-      "description": "Ruotsalainen kansalaisuus vahvistaa oikeudellista turvallisuuttasi ja helpottaa pysyvää asumista, työskentelyä ja sijoittamista Ruotsiin. Se antaa sinulle paitsi oikeuden ruotsalaiseen passiin myös turvallisen oikeudellisen aseman, EU:n vapaan liikkuvuuden ja täydet oikeudet osallistua ruotsalaiseen demokratiaan.",
-      "note": "Sweden Relocators tarjoaa asiantuntevaa ohjausta koko prosessin ajan ja varmistaa, että hakemuksesi on täydellinen, tarkka ja nykyisten lakien mukainen."
+      "description": "Ruotsalainen kansalaisuus vahvistaa oikeudellista turvallisuuttasi ja helpottaa pysyvää asumista, työskentelyä ja sijoittamista Ruotsiin. Se ei anna vain oikeutta ruotsalaiseen passiin, vaan myös turvallisen oikeudellisen aseman, EU:n liikkumisvapauden ja täyden osallistumismahdollisuuden ruotsalaiseen demokratiaan.",
+      "note": "Sweden Relocators tarjoaa asiantuntevaa ohjausta koko prosessin ajan ja varmistaa, että hakemuksesi on täydellinen, tarkka ja vastaa voimassa olevia lakeja."
     },
     "generalRequirements": {
-      "heading": "Yleiset vaatimukset ruotsalaiseksi kansalaiseksi",
+      "heading": "Yleiset vaatimukset ruotsalaiseen kansalaisuuteen",
       "description": "Hakeaksesi ruotsalaista kansalaisuutta aikuisena sinun tulee yleensä täyttää seuraavat edellytykset:",
       "requirements": [
         {
           "title": "Ikävaatimus",
-          "description": "Sinun tulee olla vähintään 18-vuotias hakeaksesi itsenäisesti. Alle 18-vuotiaat lapset voivat hakea yhdessä vanhemman kanssa tai ilmoituksella tietyissä tapauksissa."
+          "description": "Sinun tulee olla vähintään 18-vuotias hakeaksesi itsenäisesti. Alle 18-vuotiaat lapset voivat hakea yhdessä vanhemman kanssa tai ilmoittautumalla tietyissä tapauksissa."
         },
         {
           "title": "Pysyvä oleskelulupa tai pysyvä oikeus oleskella",
-          "description": "EU:n tai ETA:n ulkopuoliset kansalaiset tarvitsevat pysyvän oleskeluluvan (permanent uppehållstillstånd). EU/ETA-kansalaiset tarvitsevat pysyvän oikeuden oleskella (permanent uppehållsrätt), joka saavutetaan yleensä viiden vuoden jatkuvan laillisen oleskelun jälkeen."
+          "description": "Muiden kuin EU/ETA:n kansalaisien tulee omaa pysyvä oleskelulupa (permanent uppehållstillstånd). EU/ETA:n kansalaisilla tulee olla pysyvä oikeus oleskella (permanent uppehållsrätt), joka yleensä saadaan viiden vuoden jatkuvan laillisen oleskelun jälkeen."
         },
         {
           "title": "Oleskelun kesto Ruotsissa",
-          "description": "Yleinen sääntö: 5 vuotta jatkuvaa oleskelua. Pakolaiset tai kansattomat henkilöt: 4 vuotta. Ruotsalaisen kansalaisen puoliso/rekisteröity kumppani/asumusero: 3 vuotta. Pohjoismaiset kansalaiset: 2 vuotta (tavallinen) tai 5 vuotta (ilmoitus)."
+          "description": "Yleinen sääntö: 5 vuotta jatkuvaa oleskelua. Pakolaiset tai kansattomat henkilöt: 4 vuotta. Ruotsalaisen kansalaisen puoliso/rekisteröity parisuhdemies/-nainen/asumuseroon kuuluva: 3 vuotta. Pohjoismaiset kansalaiset: 2 vuotta (tavallinen) tai 5 vuotta (ilmoittautuminen)."
         },
         {
           "title": "Hyvä käytös",
-          "description": "Hakijoiden tulee osoittaa hyvä käytös, mikä tarkoittaa, ettei heillä ole viimeaikaisia vakavia rikoksia, maksamattomia velkoja Kronofogdenille (Pakkolunastusvirasto) tai muita ristiriitoja ruotsalaisten lakien kanssa."
+          "description": "Hakijoiden tulee osoittaa hyvä käytös, eli ei viimeaikaisia vakavia rikoksia, ei ratkaisemattomia velkoja Kronofogdenille (Pakkolunastusvirasto) ja yleinen lainmukainen käyttäytyminen ruotsalaisen lain mukaisesti."
         },
         {
           "title": "Aikomus jäädä Ruotsiin",
-          "description": "Migrationsverket arvioi, onko sinulla vahvoja siteitä Ruotsiin, kuten työ, perhe tai pitkäaikainen asuminen, jotka osoittavat aidon aikomuksen jäädä pysyvästi."
+          "description": "Migrationsverket arvioi, onko sinulla vahvoja siteitä Ruotsiin, kuten työ, perhe tai pitkäaikainen asunto, mikä osoittaa aidon aikomuksen jäädä."
         }
       ]
     },
     "specialCategories": {
-      "heading": "Eri luokat ja polut kansalaisuuteen",
+      "heading": "Erityisryhmät ja kansalaisuuden hakupolut",
       "categories": [
         {
           "id": "nordic",
@@ -44,15 +44,15 @@
           "description": "Pohjoismaiset kansalaiset (Tanska, Suomi, Islanti, Norja) hyötyvät joustavimmista säännöistä:",
           "details": [
             "Tavallinen hakemus: Oikeutettu 2 vuoden oleskelun jälkeen Ruotsissa.",
-            "Ilmoitusmenettely (anmälan): Oikeutettu 5 vuoden oleskelun jälkeen. Tämä on yksinkertaistettu menettely."
+            "Ilmoittautumisprosessi (anmälan): Oikeutettu 5 vuoden oleskelun jälkeen. Tämä on yksinkertaistettu menettely."
           ]
         },
         {
           "id": "eueea",
-          "title": "EU/ETA-kansalaiset",
-          "description": "EU/ETA-kansalaiset voivat hakea 5 vuoden jatkuvan oleskelun jälkeen, kun pysyvä oikeus oleskella on saavutettu.",
+          "title": "EU/ETA:n kansalaiset",
+          "description": "EU/ETA:n kansalaiset voivat hakea 5 vuoden jatkuvan oleskelun jälkeen, kun pysyvä oikeus oleskella on saatu.",
           "details": [
-            "On näytettävä todiste oleskelusta, tulotasosta ja ruotsalaisten lakien noudattamisesta.",
+            "Täytyy esittää todisteita oleskelusta, tulotasosta ja lainmukaisesta käyttäytymisestä.",
             "Menettely on hieman yksinkertaisempi, koska oleskelulupaa ei tarvita."
           ]
         },
@@ -61,25 +61,25 @@
           "title": "Pakolaiset ja kansattomat henkilöt",
           "description": "Tunnustetut pakolaiset ja kansattomat henkilöt voivat hakea 4 vuoden oleskelun jälkeen.",
           "details": [
-            "Pakolaisuus tulee olla virallisesti tunnustettu kansainvälisen tai ruotsalaisen lain mukaisesti."
+            "Pakolaisuus on virallisesti tunnustettava kansainvälisen tai ruotsalaisen lain mukaan."
           ]
         },
         {
           "id": "spouses",
           "title": "Puoliso tai kumppani ruotsalaisen kansalaisen kanssa",
-          "description": "Puolisot tai rekisteröidyt kumppanit voivat hakea 3 vuoden oleskelun jälkeen.",
+          "description": "Puoliso tai rekisteröity kumppani voi hakea 3 vuoden oleskelun jälkeen.",
           "details": [
-            "Parin tulee olla asunut yhdessä Ruotsissa vähintään 2 vuotta.",
+            "Pariskunta on asunut yhdessä Ruotsissa vähintään 2 vuotta.",
             "Vahvat sidonnaisuudet Ruotsiin vaaditaan, ja suhde tulee olla jatkuva."
           ]
         },
         {
           "id": "children",
           "title": "Alle 18-vuotiaat lapset",
-          "description": "Lapset voivat hakea yksinkertaistetussa menettelyssä.",
+          "description": "Lapset voivat hakea yksinkertaistetulla menettelyllä.",
           "details": [
-            "Voivat hakea yhdessä vanhemman kanssa tai yksinkertaisella ilmoituksella.",
-            "Adoptoidut lapset saavat automaattisesti ruotsalaisen kansalaisuuden, jos heidät on adoptoitu ennen 12-vuotiaaksi tuloa."
+            "Voivat hakea yhdessä vanhemman kanssa tai yksinkertaisella ilmoittautumisella.",
+            "Adoptoidut lapset saavat automaattisesti ruotsalaisen kansalaisuuden, jos heidät on adoptoitu ennen 12-vuoden ikää."
           ]
         }
       ]
@@ -90,60 +90,60 @@
       "steps": [
         {
           "title": "Valmistele asiakirjat",
-          "description": "Tarvittavat asiakirjat sisältävät: Voimassa olevan passin tai kansallisen henkilötodistuksen, Todisteen oleskelusta (rekisteröinti Verovirastossa), Tulotai työtodistukset, Mahdolliset poliisitai velkatodistukset."
+          "description": "Vaadittavat asiakirjat sisältävät: Voimassa olevan passin tai kansallisen henkilötodistuksen, Oleskelun todisteen (rekisteröinti Verottajan kanssa), Tulotaikeuden tai työsuhteen tiedot, Mahdolliset poliisi- tai maksuhyvitykset."
         },
         {
-          "title": "Jätä hakemus",
-          "description": "Hakemukset voidaan jättää verkossa Migrationsverketin verkkopalvelun kautta tai paperimuotoisena lomakkeena. Lapset ja pohjoismaiset kansalaiset, jotka käyttävät ilmoitusmenettelyä, nauttivat yksinkertaisemmista menettelyistä."
+          "title": "Toimita hakemus",
+          "description": "Hakemukset voidaan toimittaa verkossa Migrationsverketin verkkopalvelussa tai paperilomakkeella. Lapset ja pohjoismaiset kansalaiset, jotka käyttävät ilmoittautumisprosessia, saavat yksinkertaistetut menettelyt."
         },
         {
           "title": "Migrationsverketin tarkistus",
-          "description": "Maahanmuuttoviranomainen tarkistaa oleskeluhistorian, identiteetin, käytöksen ja taloudellisen aseman. He voivat pyytää lisätietoja prosessin aikana."
+          "description": "Maahanmuuttovirasto tarkistaa oleskeluhistorian, henkilöllisyyden, käytöksen ja taloudellisen vakauden. He voivat pyytää lisätietoja prosessin aikana."
         },
         {
           "title": "Päätös",
-          "description": "Hyväksymisestä saat ruotsalaisen kansalaisuustodistuksen. Hylkäämisestä voit valittaa hallinto-oikeuteen."
+          "description": "Hyväksyttäessä saat todistuksen ruotsalaisesta kansalaisuudesta. Hylättäessä voit valittaa hallinto-oikeuteen."
         }
       ]
     },
     "waitingTimes": {
       "heading": "Käsittelyajat ja odotusajat",
-      "intro": "Käsittelyajat vaihtelevat kategorian ja taustan mukaan:",
+      "intro": "Käsittelyajat vaihtelevat luokan ja taustan mukaan:",
       "times": [
         {"category": "Tavalliset hakemukset", "time": "18–36 kuukautta"},
-        {"category": "Pohjoismaiset kansalaiset (ilmoitus)", "time": "6–12 kuukautta"},
+        {"category": "Pohjoismaiset kansalaiset (ilmoittautuminen)", "time": "6–12 kuukautta"},
         {"category": "Pakolaiset ja puolisot", "time": "Yleensä nopeampi kuin tavallinen"},
-        {"category": "Huom", "time": "Migrationsverket ilmoitti äskettäin tiukemmista tarkastuksista (maaliskuu 2025), mikä voi pidentää odotusaikoja tietyissä tapauksissa."}
+        {"category": "Huom", "time": "Migrationsverket ilmoitti äskettäin tiukemmista tarkistuksista (maaliskuu 2025), mikä voi kasvattaa odotusaikoja tietyissä tapauksissa."}
       ]
     },
     "support": {
       "heading": "Miten Sweden Relocators voi auttaa sinua",
-      "description": "Ruotsalaisen kansalaisuuden hakeminen voi olla monimutkaista ja aikaa vievää. Sweden Relocators tarjoaa ammattilaista tukea jokaisessa vaiheessa:",
+      "description": "Ruotsalaisen kansalaisuuden hakeminen voi olla monimutkaista ja aikaa vievää. Sweden Relocators tarjoaa ammattilaista tukea kaikissa vaiheissa:",
       "services": [
         {
-          "title": "Kelpoisuusarviointi",
-          "description": "Tarkistamme oleskeluhistoriasi, perhetilanteesi ja lupatilanteesi määrittääksemme paras polkusi eteenpäin."
+          "title": "Oikeutetustarkistus",
+          "description": "Tarkistamme oleskeluhistoriasi, perhetilanteesi ja lupatilanteesi määrittääksemme parhaan vaihtoehtosi."
         },
         {
           "title": "Asiakirjojen valmistelu",
-          "description": "Varmistamme tarkkuuden, käännösten ja täydellisyyden estääksemme viivästyksiä käsittelyssä."
+          "description": "Varmistamme tarkkuuden, käännösten ja täydellisyyden estääksemme käsittelyn viivästyksiä."
         },
         {
           "title": "Hakemuksen jättö ja seuranta",
-          "description": "Käsittelemme hakemustasi ja pidämme sinut ajan tasalla suoraan Migrationsverketin kanssa."
+          "description": "Käsittelemme hakemustasi ja seuraamme päivityksiä suoraan Migrationsverketista."
         },
         {
           "title": "Valitusapu",
-          "description": "Jos hakemuksesi hylätään, oikeudellinen tiimimme auttaa valmistelemaan ja jättämään valitukset."
+          "description": "Jos hakemuksesi hylätään, lakitiimimme auttaa valmistelemaan ja jättämään valitukset."
         },
         {
-          "title": "Pitkän aikavälin strategia",
-          "description": "Ohjaus siitä, miten ylläpitää oleskeluvaatimuksia, välttää aukkoja ja valmistautua kansalaisuuteen."
+          "title": "Pitkäaikainen strategia",
+          "description": "Ohjausta siitä, miten ylläpitää oleskeluvaatimuksia, välttää aukkoja ja valmistautua kansalaisuuteen."
         }
       ]
     },
     "cta": {
-      "heading": "Aloita matkasi kohti ruotsalaista kansalaisuutta jo tänään",
+      "heading": "Aloita matkasi kohti ruotsalaista kansalaisuutta tänään",
       "description": "Ota yhteyttä Sweden Relocatorsiin arvioidaksesi oikeutesi ja aloittaaksesi kansalaisuushakemuksesi asiantuntemuksen avulla.",
       "button": "Aloita",
       "subtext": "Ruotsalaisen kansalaisuuslain (2001:82) mukaan. Säännöt ja menettelyt voivat muuttua. Konsultoi aina Migrationsverketia saadaksesi ajantasaisinta tietoa."

@@ -1,0 +1,48 @@
+{
+  "companyRegistration": {
+    "hero": {
+      "title": "Kattava Opas Yritysrekisteröintiin Ruotsissa",
+      "subtitle": "Asiantuntijaohje yrityksesi perustamiseksi laillisesti Ruotsiin"
+    },
+    "intro": {
+      "heading": "Yrityksen Perustaminen Ruotsiin",
+      "description": "Yrityksen perustaminen Ruotsiin tarjoaa pääsyn yhteen Euroopan vakaimmista talouksista, tukevaan liiketoimintakulttuuriin ja erittäin koulutettuun työvoimaan. Yritysrekisteröinti on olennainen vaihe kaikille, jotka suunnittelevat yritystä Ruotsissa, koska se perustaa yrityksen laillisesti ja antaa sille mahdollisuuden harjoittaa liiketoimintaa, tehdä sopimuksia ja käyttää olennaisia palveluita. Tämä opas käsittelee erilaisia yritystyyppejä Ruotsissa, kunkin edut ja haitat sekä miksi ja milloin yritysrekisteröinti on välttämätöntä."
+    },
+    "whyImportant": {
+      "heading": "Miksi Yritysrekisteröinti on Tärkeää?",
+      "reasons": [
+        {
+          "number": 1,
+          "title": "Laillinen Tunnustaminen",
+          "description": "Yrityksesi rekisteröiminen antaa sille oikeudellisen statuksen Ruotsissa, mikä mahdollistaa sopimusten tekemisen, pankkitilien avaamisen ja liiketoiminnan harjoittamisen laillisesti."
+        },
+        {
+          "number": 2,
+          "title": "Verotuksen Noudattaminen",
+          "description": "Rekisteröityjä yrityksiä voidaan vaatia rekisteröitymään arvonlisäverottajiksi ja niiden on noudatettava Ruotsin verolainsäädäntöä, mikä mahdollistaa läpinäkyvän rahoitustoiminnan."
+        },
+        {
+          "number": 3,
+          "title": "Hyötyjen Saavutettavuus",
+          "description": "Rekisteröidyt yritykset voivat hyötyä hallituksen kannustimista, verovähennöksistä ja pääsystä lainoihin ja rahoitukseen Ruotsin rahoituslaitoksista."
+        },
+        {
+          "number": 4,
+          "title": "Uskottavuus ja Luotto",
+          "description": "Rekisteröityjä yrityksiä pitävät asiakkaat, toimittajat ja kumppanit luotettavampina, koska ne osoittavat sitoutumisen lailliseen noudattamiseen ja läpinäkyvyyteen."
+        },
+        {
+          "number": 5,
+          "title": "Rajoitettu Vastuu",
+          "description": "Tietyt yritystyypeistä, kuten osakeyhtiöt, tarjoavat rajoitetun vastuun suojan ja suojaavat omistajan henkilökohtaista omaisuutta yrityksen veloista ja velvoitteista."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Aloita Yritysrekisteröintisi Tänään",
+      "description": "Jos olet valmis perustamaan yrityksesi Ruotsiin, ota yhteyttä Sweden Relocators tänään asiantuntijaauttamiseksi. Opastavat sinut jokaisen yritysrekisteröintiprosessin vaiheen läpi ja varmistamme yrityksellesi sujuvan alun Ruotsin kukoistavilla markkinoilla.",
+      "button": "Aloita",
+      "subtext": "Vieraile yritysrekisteröintiin osiossa tai ota meihin yhteyttä lisätiedoiksi. Tiimimme on valmis auttamaan sinua perustamaan yrityksesi Ruotsiin."
+    }
+  }
+}

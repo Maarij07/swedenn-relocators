@@ -1,0 +1,171 @@
+{
+  "asylum": {
+    "hero": {
+      "title": "Asilo in Svezia: Supporto Professionale per un Futuro Sicuro",
+      "subtitle": "Guida esperta attraverso il processo di asilo svedese"
+    },
+    "intro": {
+      "heading": "Cosa Offriamo",
+      "description": "Se stai cercando asilo in Svezia, comprendere il processo legale può essere travolgente. In Sweden Relocators, il nostro team di specialisti immigrazione esperti ti guida attraverso ogni fase del processo di asilo presso l'Agenzia svedese per i migranti, garantendo che il tuo caso sia gestito con la massima cura e professionalità."
+    },
+    "whyChooseExpert": {
+      "heading": "Perché Scegliere un Esperto?",
+      "description": "Navigare il processo di asilo in Svezia può essere complesso. Ecco come il nostro team di esperti può fare la differenza per te:",
+      "benefits": [
+        {
+          "title": "Tranquillità",
+          "description": "Con il nostro team professionale che gestisce il tuo caso, puoi concentrarti su altri aspetti del tuo trasferimento in Svezia. Siamo impegnati a garantire che la tua domanda di asilo sia gestita in modo efficace e con compassione."
+        },
+        {
+          "title": "Guida Chiara e Trasparente",
+          "description": "I nostri specialisti semplificano i complessi requisiti legali, garantendo che tu comprenda ogni fase. Non importa quanto complicato sia il tuo caso, il nostro team è pronto ad aiutarti a chiarire e presentare efficacemente i tuoi motivi di asilo."
+        },
+        {
+          "title": "Accesso Immediato a un Esperto Legale",
+          "description": "I nostri avvocati immigrazione iniziano a lavorare sul tuo caso non appena tu ci contatti, fornendo una risposta immediata alle tue preoccupazioni e garantendo che il tuo caso sia trattato rapidamente."
+        }
+      ]
+    },
+    "eligibility": {
+      "heading": "Idoneità per l'Asilo in Svezia",
+      "whoCanApply": {
+        "heading": "Chi Può Richiedere Asilo?",
+        "intro": "Per richiedere asilo in Svezia, devi essere fisicamente presente nel paese o al suo confine. Non è possibile presentare domanda da un altro paese o presso un'ambasciata svedese all'estero.",
+        "description": "Ogni caso di richiedente asilo viene esaminato individualmente. L'Agenzia svedese per i migranti concede il permesso di soggiorno solo se il richiedente soddisfa i criteri per essere considerato rifugiato secondo le leggi svedesi e la Convenzione di Ginevra del 1951."
+      },
+      "refugeeDefinition": {
+        "heading": "Definizione di Rifugiato e Criteri",
+        "intro": "Secondo le leggi svedesi e le linee guida internazionali, una persona si qualifica come rifugiata se affronta persecuzione o minacce gravi nel suo paese d'origine in base a :",
+        "criteria": [
+          "Razza",
+          "Nazionalità, Lingua o Gruppo Etnico",
+          "Religione",
+          "Convinzione Politica o Attivismo",
+          "Identità di Genere",
+          "Orientamento Sessuale",
+          "Appartenenza a un Particolare Gruppo Sociale"
+        ],
+        "additionalInfo": "Se gruppi o individui nel tuo paese d'origine ti minacciano o i tuoi cari, ciò può influenzare la tua domanda. Tuttavia, una decisione positiva richiede prove chiare di persecuzione. Durante il processo di richiesta, ti verrà chiesto di descrivere i rischi che affronteresti se tornassi nel tuo paese.",
+        "outcome": "Se il tuo caso viene accettato, puoi ricevere un permesso di soggiorno valido per tre anni o 13 mesi, a seconda delle circostanze della tua situazione."
+      }
+    },
+    "applicationProcess": {
+      "heading": "Passaggi per Richiedere Asilo in Svezia",
+      "intro": "Processo Passo a Passo",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Presenza Fisica Richiesta",
+          "description": "Devi essere fisicamente presente in Svezia o al confine svedese per richiedere asilo."
+        },
+        {
+          "step": 2,
+          "title": "Riunione Iniziale presso l'Agenzia dei Migranti",
+          "description": "Una volta presentata la tua domanda, sarai invitato a una riunione iniziale presso l'Agenzia svedese per i migranti. Durante questo incontro, avrai la possibilità di scegliere il tuo rappresentante legale o avvocato. In questa fase, puoi scegliere il nostro team esperto per supportarti."
+        },
+        {
+          "step": 3,
+          "title": "Rappresentanza Legale e Preparazione della Causa",
+          "description": "Se ci scegli come tuo rappresentante, l'Agenzia svedese per i migranti ci contatterà per assistere il tuo caso. Il nostro team organizzerà una chiamata con te per raccogliere dettagli sul tuo background e sui tuoi motivi per richiedere asilo. Ti prepareremo anche per futuri colloqui e presentazioni di documenti."
+        }
+      ]
+    },
+    "legalRepresentative": {
+      "heading": "Il Nostro Ruolo come Tuo Rappresentante Legale",
+      "intro": "Come tuo rappresentante legale, noi:",
+      "services": [
+        "Forniremo supporto continuo e consulenza legale durante l'intero processo di asilo.",
+        "Aiuteremo a chiarire i tuoi motivi di asilo all'Agenzia svedese per i migranti.",
+        "Assicureremo che i tuoi diritti siano protetti.",
+        "Ti aiuteremo a navigare gli appelli se la tua richiesta iniziale viene respinta."
+      ],
+      "additionalSupport": "Inoltre, forniamo servizi di trasferimento completo per aiutarti a riunificarti con i tuoi familiari se la tua domanda ha successo."
+    },
+    "familyReunification": {
+      "heading": "Riunificazione Familiare per Rifugiati",
+      "subheading": "Porta la Tua Famiglia in Svezia",
+      "description": "La Svezia riconosce la riunificazione familiare come diritto essenziale, consentendo ai familiari di unirsi ai rifugiati o alle persone con permessi di soggiorno specifici. Se ti è stato concesso asilo o un altro tipo di permesso di soggiorno idoneo, la tua famiglia potrebbe essere in grado di raggiungerti in Svezia.",
+      "whoCanApply": {
+        "heading": "Chi Può Beneficiare della Riunificazione Familiare?",
+        "intro": "La tua famiglia può essere idonea a richiedere un permesso di soggiorno per raggiungerti in Svezia se possiedi:",
+        "eligibilityTypes": [
+          "Un permesso di soggiorno permanente",
+          "Un permesso di soggiorno temporaneo come rifugiato, con ragionevoli possibilità di proroga a lungo termine",
+          "Un permesso di soggiorno temporaneo basato su impedimenti al ritorno o circostanze difficili, con probabilità di ottenere una proroga a lungo termine"
+        ]
+      },
+      "euEeaCitizens": {
+        "heading": "Per i Cittadini dell'UE/SEE",
+        "description": "Se sei un cittadino dell'UE/SEE o imparentato con uno, puoi beneficiare di una procedura semplificata per portare i familiari in Svezia basata sul diritto alla libera circolazione in Europa."
+      },
+      "temporaryPermit": {
+        "heading": "Se Possiedi un Permesso di Soggiorno Temporaneo",
+        "description": "Affinché le domande di riunificazione familiare abbiano successo, devi disporre di un permesso di soggiorno valido al momento della domanda. Se il tuo permesso è in fase di proroga, l'Agenzia svedese per i migranti valuterà prima la tua idoneità a mantenere lo status di residenza prima di decidere sulla riunificazione familiare.",
+        "familyMembers": "In genere, i familiari immediati come il tuo coniuge, partner registrato, partner convivente o figli sotto i 18 anni sono idonei a raggiungerti. In casi eccezionali, anche altri parenti possono qualificarsi, ma solo a determinate condizioni.",
+        "maintenance": "Si applica un requisito di mantenimento, il che significa che devi dimostrare di poter sostenere finanziariamente i tuoi familiari e fornire alloggi adeguati che soddisfino gli standard svedesi."
+      }
+    },
+    "familyReunificationAssistance": {
+      "heading": "Come Ti Aiutiamo con la Riunificazione Familiare",
+      "description": "Il nostro team offre supporto completo per il processo di riunificazione familiare, coprendo tutti gli aspetti per renderlo il più agevole possibile:",
+      "services": [
+        {
+          "title": "Preparazione della Domanda",
+          "description": "Assistenza nella preparazione e presentazione della domanda di permesso di soggiorno per i tuoi familiari."
+        },
+        {
+          "title": "Verifica dei Documenti",
+          "description": "Assicurazione che tutti i documenti necessari siano in ordine per minimizzare i ritardi."
+        },
+        {
+          "title": "Guida alle Tasse Governative",
+          "description": "Informazioni chiare sulle tasse governative coinvolte."
+        },
+        {
+          "title": "Supporto di Registrazione",
+          "description": "Assistenza nella registrazione della domanda presso l'Agenzia svedese per i migranti."
+        },
+        {
+          "title": "Seguiti Regolari",
+          "description": "Monitoraggio continuo del progresso della tua domanda con aggiornamenti tempestivi."
+        },
+        {
+          "title": "Coordinamento degli Appuntamenti",
+          "description": "Coordinamento degli incontri essenziali presso l'Agenzia svedese per i migranti."
+        },
+        {
+          "title": "Visite Accompagnate",
+          "description": "Il nostro team ti accompagnerà durante gli incontri presso l'Agenzia svedese per i migranti."
+        }
+      ]
+    },
+    "additionalSupport": {
+      "heading": "Servizi di Supporto Aggiuntivi per Richiedenti Asilo e Nuovi Arrivati",
+      "intro": "In aggiunta ai servizi di asilo e riunificazione familiare, offriamo anche:",
+      "services": [
+        {
+          "title": "Assistenza al Trasferimento",
+          "description": "Aiuto completo con alloggi, istruzione, assistenza sanitaria e integrazione sociale in Svezia."
+        },
+        {
+          "title": "Servizi di Traduzione e Interpretazione",
+          "description": "Assistenza nella traduzione dei documenti necessari e interpretazione durante gli incontri con l'Agenzia svedese per i migranti."
+        },
+        {
+          "title": "Assistenza Legale per Appelli e Revisioni",
+          "description": "Supporto nella presentazione di appelli, preparazione per udienze in tribunale e gestione di procedure legali complesse."
+        },
+        {
+          "title": "Servizi di Consulenza",
+          "description": "Supporto professionale per il benessere emotivo durante tempi difficili."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Inizia la Tua Domanda di Asilo Oggi",
+      "description": "Contatta Sweden Relocators per iniziare la tua domanda di asilo con guida esperta e supporto ad ogni fase.",
+      "button": "Iniziare",
+      "subtext": "Visita la nostra sezione Asilo o contattaci per ulteriori informazioni. Il nostro team è qui per aiutarti a garantire il tuo futuro in Svezia."
+    }
+  }
+}

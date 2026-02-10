@@ -1,0 +1,217 @@
+{
+  "euCitizensParentsPermit": {
+    "hero": {
+      "title": "EU-uppehållskort för beroende föräldrar och andra familjemedlemmar enligt direktiv 2004/38/EG",
+      "subtitle": "Expertägledning för att ta med beroende familjemedlemmar till Sverige"
+    },
+    "intro": {
+      "heading": "Familjeenhet genom EU:s fria rörlighet",
+      "description": "Enligt EU-direktiv 2004/38/EG kan EU/EES-medborgare som utövar sin rätt till fri rörlighet i Sverige ansöka om uppehållskort för sina beroende familjemedlemmar från utanför EU, inklusive föräldrar och andra familjemedlemmar. Detta direktiv syftar till att underlätta familjeenhet genom att tillåta EU-medborgare att ta med familjemedlemmar som är ekonomiskt eller socialt beroende av dem för att leva i Sverige. Här är en djupgående titt på kraven, ansökningsprocessen och särskilda fall för beroende föräldrar och andra familjemedlemmar."
+    },
+    "whoQualifies": {
+      "heading": "Vilka kvalificerar sig som beroende familjemedlemmar?",
+      "intro": "För att vara berättigad enligt direktiv 2004/38/EG måste den icke-EU-familjemedlemmen falla in under en av följande kategorier:",
+      "categories": [
+        {
+          "number": 1,
+          "title": "Beroende Föräldrar",
+          "description": "Föräldrar till en EU-medborgare eller deras make/partner som är beroende av EU-medborgaren för ekonomisk support eller annan väsentlig omvårdnad."
+        },
+        {
+          "number": 2,
+          "title": "Andra Beroende Familjemedlemmar",
+          "description": "Detta kan inkludera syskon eller utvidgad familj om det finns en tydlig beroendeförhållande, särskilt om familjemedlemmen och EU-medborgaren bodde tillsammans i det tidigare hemland."
+        },
+        {
+          "number": 3,
+          "title": "Barn eller Styvbarn",
+          "description": "Barn över 21 år kan också kvalificera sig som beroende om de är beroende av EU-medborgaren för support, även om detta bedöms annorlunda än för minderåriga."
+        }
+      ]
+    },
+    "keyConditions": {
+      "heading": "Nyckkelvillkor för Behörighet",
+      "conditions": [
+        {
+          "number": 1,
+          "title": "Bevis på Beroende",
+          "description": "Sökanden måste tillhandahålla bevis som visar ekonomiskt eller personligt beroende av EU-medborgaren. Detta kan inkludera bevis på gemensamt boende, regelbundna ekonomiska bidrag eller dokumentation av emotionella och sociala beroende."
+        },
+        {
+          "number": 2,
+          "title": "Tidigare Boende Tillsammans",
+          "description": "I fall som involverar utvidgad familj (såsom syskon eller vuxna barn) måste sökanden visa att de bodde tillsammans med EU-medborgaren i sitt hemland omedelbar innan EU-medborgaren flyttade till Sverige."
+        },
+        {
+          "number": 3,
+          "title": "Snabb Ansökan",
+          "description": "Ansökningar bör helst lämnas så snart som möjligt efter att EU-medborgaren anländer till Sverige. Försenade ansökningar kan minska sannolikheten för godkännande, särskilt om beroendet har utvecklats först efter EU-medborgaren på nytt bosatte sig."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Ansökningsprocess för Uppehållskort enligt Direktiv 2004/38/EG",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Förbereda Dokumentation för Beroende och Förhållande",
+          "intro": "Att samla in nödvändig dokumentation är avgörande. Viktiga dokument inkluderar:",
+          "documents": [
+            {
+              "title": "Identitetsbevis",
+              "description": "Giltigt pass för icke-EU-familjemedlemmen."
+            },
+            {
+              "title": "Bevis på Förhållande",
+              "details": [
+                "För föräldrar: Födelsebevis för EU-medborgaren som visar det föräldra-förhållandet.",
+                "För andra familjemedlemmar: Dokument som visar familjeförhållandet (t.ex. födelsebevis eller familjeregister)."
+              ]
+            },
+            {
+              "title": "Bevis på Beroende",
+              "description": "Detta kan inkludera kontoutdrag, bevis på regelbundna ekonomiska överföringar, bevis på gemensamt boende och andra dokument som demonstrerar beroende av EU-medborgaren för ekonomisk eller emotionell support."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Skicka in Ansökan",
+          "intro": "Icke-EU-familjemedlemmen måste ansöka om ett uppehållskort, vilket kan skickas in till Migrationsverket antingen online eller genom en svensk ambassad eller konsulat i sökandes hemland.",
+          "details": [
+            "Sökande Detaljer: Information om EU-medborgaren, deras uppehålls status i Sverige och den beroendes personliga uppgifter.",
+            "Stöddokument: Alla obligatoriska dokument som påvisar beroendeförhållandet och bevis på boende för EU-medborgaren i Sverige."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Migrationsverkets Granskning",
+          "intro": "Migrationsverket kommer att bedöma förhållandet och beroendet baserat på det tillhandahållen bevisen. De kan begära ytterligare dokumentation eller förtydliganden vid behov. Granskningen fokuserar på:",
+          "details": [
+            "Verifiering av Beroende: Att bekräfta att icke-EU-familjemedlemmen är verkligt beroende av EU-medborgaren.",
+            "Familjeförhållande: Verifiering av sökandes familjesamband om EU-medborgaren och att beroendet fanns innan flytt till Sverige."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Beslut och Utgivning av Uppehållskort",
+          "description": "Om det godkänns får icke-EU-familjemedlemmen ett uppehållskort som gäller under fem år eller den förväntade varaktigheten av EU-medborgaren vistelse i Sverige (beroende på vilket som är kortare). Uppehållskortet tillåter innehavaren att bo, arbeta och få tillgång till sjukvård i Sverige under samma villkor som EU-familjemedlemmar."
+        }
+      ]
+    },
+    "specificCases": {
+      "heading": "Särskilda Fall: Krav för Beroende Föräldrar och Andra Familjemedlemmar",
+      "dependentParents": {
+        "heading": "Uppehållstillstånd för Beroende Föräldrar",
+        "intro": "För beroende föräldrar inkluderar de primära villkoren att visa ekonomiska eller hälsorelaterade beroende av EU-medborgaren. Exempel på acceptabel dokumentation kan inkludera:",
+        "documentation": [
+          {
+            "title": "Bevis på Ekonomisk Support",
+            "description": "Banköverföringar, mottagningskvitton eller bevis på regelbunden ekonomisk support från EU-medborgaren."
+          },
+          {
+            "title": "Hälsorelaterat Beroende",
+            "description": "Medicinska intyg eller dokumentation av särskilda behov som kräver närhet till EU-medborgaren för support och vård."
+          }
+        ],
+        "note": "I fall där föräldern har väsentligt hälsobehov kan ytterligare dokumentation krävas för att visa att lämpliga omvårdnadsalternativ inte är tillgängliga i sitt hemland."
+      },
+      "otherFamilyMembers": {
+        "heading": "Uppehållstillstånd för Andra Beroende Familjemedlemmar",
+        "intro": "För andra beroende familjemedlemmar (t.ex. vuxna syskon eller utvidgad familj) är kraven vanligtvis mer strikta:",
+        "requirements": [
+          {
+            "title": "Bevis på Gemensamt Hushål",
+            "description": "Bevis att familjemedlemmen bodde tillsammans med EU-medborgaren innan deras flytt till Sverige, såsom ett gemensamt leasingavtal eller elräkningar."
+          },
+          {
+            "title": "Emotionellt och Socialt Beroende",
+            "description": "Egna förklaringar eller uttalanden som påvisar en starkt social och emotionell band kan krävas, särskilt om förhållandet sträcker sig bortom ekonomisk beroende."
+          }
+        ]
+      }
+    },
+    "maintenanceRequirement": {
+      "heading": "Underhållskrav för EU-Sponsorn",
+      "intro": "Enligt svenska bestämmelser måste EU-medborgaren kunna ge ekonomisk support och lämpligt boende för sin icke-EU-familjemedlemme. Detta inkluderar:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Stabil Inkomst",
+          "description": "Bevis på anställning, regelbundna inkomster eller ekonomiska resurser som visar att EU-medborgaren kan försörja sig själva och sitt beroende."
+        },
+        {
+          "number": 2,
+          "title": "Bostadskrav",
+          "description": "EU-medborgaren måste ha lämpligt boende som uppfyller svenska standarder för boplats och privatliv. Detta kan inkludera hyresavtal, bevis på egendom eller ett underlease med godkännande från hyresvärden."
+        }
+      ],
+      "note": "Underhållskravet gäller inte minderåriga barn (under 18 år). Detta innebär att om en förälder ansöker om att ansluta sig till ett minderårigt barn i Sverige behöver barnet inte uppfylla inkomst- eller bostadskrav."
+    },
+    "additionalConsiderations": {
+      "heading": "Ytterligare Överväganden",
+      "timeliness": {
+        "heading": "Snabbhet i Ansökan",
+        "description": "Ansökningar som lämnats in strax efter EU-medborgaren på nytt bosatte sig i Sverige är mer sannolika att lyckas. Långa förseningar i ansökningstiden kan komplicera processen, eftersom myndigheterna kan ifrågasätta existensen av tidigare beroende. Helst bör ansökningar för beroende familjemedlemmar lämnas in inom några månader efter EU-medborgaren ankomst till Sverige."
+      },
+      "changes": {
+        "heading": "Förändringar i BeroendeStatus",
+        "description": "Om beroendestatusen ändras (till exempel om icke-EU-familjemedlemmen blir ekonomiskt oberoende) kan det påverka statusen av uppehållskortet. Migrationsverket kan periodiskt granska dessa fall för att säkerställa överensstämmelse med vistelsekriterierna."
+      },
+      "renewal": {
+        "heading": "Förnyelse av Uppehållskortet",
+        "description": "Uppehållskort för beroende familjemedlemmar är vanligtvis giltiga i upp till fem år. Förnyelse är möjlig förutsatt att beroendeförhållandet fortsätter och EU-medborgaren förblir bosatt i Sverige. Förnyelsesansökningar bör lämnas in långt i förväg före utgångsdatumet, med uppdaterad dokumentation som visar fortsatt beroende."
+      }
+    },
+    "howWeHelp": {
+      "heading": "Hur Sweden Relocators kan Assistera med EU-Uppehållskortansökningar",
+      "intro": "Att navigera processen för att få ett EU-uppehållskort för beroende familjemedlemmar enligt direktiv 2004/38/EG kan vara komplicerat. Sweden Relocators tillhandahåller expertassistans och hjälper till att säkerställa att all dokumentation är i ordning och vägleder dig genom varje steg i ansökningsprocessen.",
+      "subheading": "Våra Tjänster Inkluderar:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Behörighetsbedömning",
+          "description": "Vi granskar din familjs specifika omständigheter för att avgöra om dina icke-EU-familjemedlemmar kvalificerar sig som beroende enligt svensk lag."
+        },
+        {
+          "number": 2,
+          "title": "Dokumentberedning",
+          "description": "Vårt team hjälper till att samla in och förbereda alla obligatoriska dokument, inklusive bevis på förhållande, beroende och ekonomisk support."
+        },
+        {
+          "number": 3,
+          "title": "Ansökning och Övervakning",
+          "description": "Vi assisterar med ansökningsinlämnandet och övervakar framstegen hos Migrationsverket för att säkerställa aktuella uppdateringar."
+        },
+        {
+          "number": 4,
+          "title": "Överklagandestöd",
+          "description": "I fall av ansökningsavslag erbjuder vi vägledning om överklagandeprocessen för att förstärka ditt ärende för omprövning."
+        }
+      ]
+    },
+    "benefitsOfService": {
+      "heading": "Fördelar med vår Tjänst",
+      "benefits": [
+        {
+          "title": "Erfarenomvänd Vägledning",
+          "description": "Förtrogenhet med direktiv 2004/38/EG och Migrationsverkets krav tillåter oss att erbjuda exakt, effektiv rådgivning."
+        },
+        {
+          "title": "Omfattande Stöd",
+          "description": "Från behörighetverifiering till dokumentberedning och överklagandestöd hanterar vi alla aspekter av din ansökan."
+        },
+        {
+          "title": "Personaliserad Tjänst",
+          "description": "Varje fall är unikt och vi skräddarsyr vår approach för din familjs specifika behov, vilket ger de mest effektiva lösningarna."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ta Dina Älskade till Sverige Idag",
+      "description": "Om du behöver assistans med att få ett EU-uppehållskort för dina beroende föräldrar eller andra familjemedlemmar är Sweden Relocators här för att hjälpa. Kontakta oss idag för att diskutera din familjs behörighet och lära dig hur vi kan stödja din resa för att återförena dig med dina älskade.",
+      "button": "Kom Igång",
+      "subtext": "Besök vår EU Medborgare Föräldrar Tillståndssektion eller kontakta oss för mer information. Vårt team är redo att hjälpa dig att återförena dig med din familj."
+    }
+  }
+}

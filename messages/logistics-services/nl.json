@@ -1,0 +1,135 @@
+{
+  "logisticsServices": {
+    "hero": {
+      "title": "Logistiekbeheer met Sweden Relocators Partnernetwerk",
+      "subtitle": "Naadloze logistieke oplossingen voor verhuizing en bedrijfsexpansie"
+    },
+    "intro": {
+      "heading": "Uitgebreide Logistieke Oplossingen voor Elke Behoefte",
+      "description": "Verhuizing en bedrijfsexpansie hangen vaak af van betrouwbare logistiek. Wij bieden naadloze logistieke beheeroplossingen die gericht zijn op het wegnemen van stress bij grensoverschrijdende verhuizingen via ons zorgvuldig geselecteerde netwerk van logistieke partners van derden. Wij coördineren alles, van verpakking en internationaal transport tot douaneverklaringen, opslagfaciliteiten, vrachtbehandeling en bezorging op de laatste kilometer.",
+      "toolLink": "Ons doel is eenvoudig: ervoor zorgen dat uw persoonlijke bezittingen, kantoorinapparatuur of commerciële goederen veilig, op tijd en tegen concurrerende tarieven op hun bestemming aankomen."
+    },
+    "services": {
+      "heading": "Onze Kernlogistieke Diensten",
+      "requirementsLabel": "Wat Wij Beheren",
+      "services": [
+        {
+          "id": "packing",
+          "title": "Verpakking en Verzending",
+          "description": "Professionele verpakking en wereldwijde verzendingsdiensten met internationaal-graad materialen",
+          "requirements": [
+            {"label": "Professionele Materialen", "description": "Internationaal-graad verpakkingsmaterialen en veilige afhandelingsprocedures"},
+            {"label": "Wereldwijde Dekking", "description": "Persoonlijke bezittingen, bedrijfsmiddelen en gespecialiseerde lading"},
+            {"label": "Veiligheidsgarantie", "description": "Veilig transport dat ervoor zorgt dat items veilig en efficiënt de bestemming bereiken"}
+          ]
+        },
+        {
+          "id": "customs",
+          "title": "Douane en Naleving",
+          "description": "Deskundige navigatie van douanevoorschriften en internationale protocollen",
+          "requirements": [
+            {"label": "Zweedse Douane", "description": "Douanebehandelingsondersteuning in overeenstemming met de Zweedse Douane"},
+            {"label": "EU-handelsregels", "description": "Volledige naleving van EU-handelsregels en internationale protocollen"},
+            {"label": "Documentatie", "description": "Alle documentatie voorbereid om vertragingen tot een minimum te beperken"}
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Opslag- en Opslagoplossingen",
+          "description": "Flexibele opslagopties in moderne, veilige faciliteiten",
+          "requirements": [
+            {"label": "Veiligheid", "description": "Veilige opslag met 24/7 monitoring beschikbaar"},
+            {"label": "Klimaatbeheersing", "description": "Klimaatgeregelde faciliteiten voor gevoelige goederen"},
+            {"label": "Flexibiliteit", "description": "Korte- en lange-termijnopslagopties met flexibele contracten"}
+          ]
+        },
+        {
+          "id": "freight",
+          "title": "Vrachtbeheer",
+          "description": "Kosteneffectieve transportopties met realtime tracking",
+          "requirements": [
+            {"label": "Meerdere Opties", "description": "Luchtvracht voor urgente zendingen, zeetransport voor bulklading, wegtransport voor regionale verhuizingen"},
+            {"label": "Tracking", "description": "Realtime tracking zodat u altijd weet waar uw zending zich bevindt"},
+            {"label": "Flexibiliteit", "description": "Kosteneffectieve en flexibele transportoplossingen"}
+          ]
+        },
+        {
+          "id": "lastmile",
+          "title": "Bezorging Laatste Kilometer",
+          "description": "Coördineer uiteindelijke bezorging met optionele uitpakking en montagediensten",
+          "requirements": [
+            {"label": "Rechtsdige Bezorging", "description": "Aankomst op uw thuis, kantoor of bedrijfslocatie op tijd"},
+            {"label": "Optionele Diensten", "description": "Uitpakking en montagediensten beschikbaar"},
+            {"label": "Stressvrij", "description": "Zorgt voor een volledig stressvrije overgang"}
+          ]
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Waarom Sweden Relocators voor Logistiek Kiezen?",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Wereldwijd Bereik met Lokale Expertise",
+          "description": "Ons partnernetwerk strekt zich uit over Europa, Azië, Noord-Amerika en verder. Wereldwijde dekking gecombineerd met lokale Zweedse expertise zorgt ervoor dat elke zending aan internationale en lokale normen voldoet."
+        },
+        {
+          "id": 2,
+          "title": "End-to-End Coördinatie",
+          "description": "Één contactpunt gedurende de gehele logistieke reis, van advies en verpakking tot bezorging en installatie, wat consistentie en duidelijke communicatie garandeert."
+        },
+        {
+          "id": 3,
+          "title": "Kosteneffectieve Oplossingen",
+          "description": "Door met een geverifieerd netwerk van leveranciers samen te werken, onderhandelen we competitieve tarieven terwijl we de hoogste servicekwaliteit handhaven."
+        },
+        {
+          "id": 4,
+          "title": "Veilig en Betrouwbaar Transport",
+          "description": "Veiligheid is onze prioriteit. Onze partners gebruiken moderne systemen voor veilige verpakking, afhandeling en transport om uw goederen in elk stadium te beschermen."
+        },
+        {
+          "id": 5,
+          "title": "Transparante Tracking en Updates",
+          "description": "Geavanceerde trackingsystemen en regelmatige updates houden u op de hoogte. Ken altijd de status van uw zending voor volledige gemoedsrust."
+        }
+      ]
+    },
+    "process": {
+      "heading": "Hoe Onze Logistieke Beheerdienst Werkt",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Advies en Planning",
+          "description": "We beginnen met een advies om uw behoeften, tijdlijn en budget te begrijpen. Op basis hiervan ontwerpen we een aangepast logistiek plan."
+        },
+        {
+          "number": 2,
+          "title": "Verpakking en Afhaling",
+          "description": "Professionele verpakking en veilige afhaling worden geregeld via onze partners van derden, zodat items correct voor transport worden voorbereid."
+        },
+        {
+          "number": 3,
+          "title": "Verzending en Tracking",
+          "description": "Of het nu met het vliegtuig, per schip of over land is, uw zending wordt in real-time gevolgd met geschatte aankomstmeldingen gedurende het proces."
+        },
+        {
+          "number": 4,
+          "title": "Douaneverklaring en Naleving",
+          "description": "Alle douanedocumentatie wordt voorbereid en van tevoren geverifieerd, wat een soepele afhandeling met de Zweedse Douane of enige bestemmingsautoriteit garandeert."
+        },
+        {
+          "number": 5,
+          "title": "Bezorging en Uitpakking",
+          "description": "Bij aankomst beheren onze logistieke partners uiteindelijke bezorging, uitpakking en montage indien nodig, zodat u zich zonder moeite kunt vestigen."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Klaar om Uw Logistiek te Vereenvoudigen?",
+      "description": "Met Sweden Relocators logistieke beheer krijgt u toegang tot een betrouwbaar partnernetwerk dat elk aspect van uw verhuizing of zending kan verwerken. Dien vandaag een serviceverzoek in.",
+      "button": "Krijg Uw Logistieke Oferte",
+      "subtext": "Of het nu gaat om persoonlijke verhuizing of commerciële logistiek, vertel ons uw behoeften en wij regelen diensten met onze vertrouwde logistieke partners."
+    }
+  }
+}

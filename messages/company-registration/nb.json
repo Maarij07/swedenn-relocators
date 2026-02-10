@@ -1,0 +1,48 @@
+{
+  "companyRegistration": {
+    "hero": {
+      "title": "Omfattende Guide til Bedriftsregistrering i Sverige",
+      "subtitle": "Faglig veiledning for etablering av virksomheten din lovlig i Sverige"
+    },
+    "intro": {
+      "heading": "Oppstart av Bedrift i Sverige",
+      "description": "Oppstart av bedrift i Sverige gir tilgang til en av Europas mest stabile økonomier, en støttende forretningskultur og en svært kvalifisert arbeidsstyrke. Bedriftsregistrering er et vesentlig trinn for alle som planlegger å drive virksomhet i Sverige, da det juridisk etablerer bedriften og gir den mulighet til å drive forretningsvirksomhet, inngå kontrakter og få tilgang til vesentlige tjenester. Denne veiledningen dekker de ulike typene av bedrifter i Sverige, fordelene og ulempene ved hver, og hvorfor og når bedriftsregistrering er nødvendig."
+    },
+    "whyImportant": {
+      "heading": "Hvorfor er Bedriftsregistrering Viktig?",
+      "reasons": [
+        {
+          "number": 1,
+          "title": "Juridisk Anerkjennelse",
+          "description": "Registrering av bedriften din gir den juridisk status i Sverige, noe som gjør det mulig for den å inngå kontrakter, åpne bankkonti og drive forretningsvirksomhet lovlig."
+        },
+        {
+          "number": 2,
+          "title": "Skatteoverholdelse",
+          "description": "Registrerte bedrifter kan søke om merverdiavgiftregistrering og må overholde norske skatteregler, noe som muliggjør transparent økonomisk drift."
+        },
+        {
+          "number": 3,
+          "title": "Tilgang til Fordeler",
+          "description": "Registrerte bedrifter kan dra nytte av myndighetsstimuli, skattefradrag og tilgang til lån og finansiering fra svenske finansinstitusjoner."
+        },
+        {
+          "number": 4,
+          "title": "Troverdighet og Tillit",
+          "description": "Registrerte bedrifter er mer pålitelig av kunder, leverandører og partnere, da de viser engasjement for juridisk overholdelse og transparens."
+        },
+        {
+          "number": 5,
+          "title": "Begrenset Ansvar",
+          "description": "Visse bedriftstyper, som aksjeselskaper, gir beskyttet begrenset ansvar og beskytter eierens personlige eiendeler mot bedriftsgjelder og forpliktelser."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Start Bedriftsregistreringen din i Dag",
+      "description": "Hvis du er klar til å etablere virksomheten din i Sverige, ta kontakt med Sweden Relocators i dag for faglig bistand. Vi vil veilede deg gjennom hvert trinn i bedriftsregistreringsprosessen og sikre en jevn start for virksomheten din på Sveriges blomstrende marked.",
+      "button": "Kom i gang",
+      "subtext": "Besøk vår bedriftsregistreringsseksjon eller kontakt oss for mer informasjon. Vårt team er klar til å hjelpe deg med å etablere virksomheten din i Sverige."
+    }
+  }
+}

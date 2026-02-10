@@ -1,0 +1,88 @@
+{
+  "companyRegistration": {
+    "hero": {
+      "title": "Guía Completa de Registro de Empresas en Suecia",
+      "subtitle": "Orientación experta para establecer su negocio legalmente en Suecia"
+    },
+    "intro": {
+      "heading": "Iniciar un Negocio en Suecia",
+      "description": "Iniciar un negocio en Suecia ofrece acceso a una de las economías más estables de Europa, una cultura empresarial de apoyo y una fuerza laboral altamente calificada. El registro de empresas es un paso esencial para cualquiera que planee operar un negocio en Suecia, ya que establece legalmente la empresa y le permite realizar actividades comerciales, celebrar contratos y acceder a servicios esenciales. Esta guía cubre los diversos tipos de empresas en Suecia, los pros y contras de cada uno, y por qué y cuándo es necesario el registro de empresas."
+    },
+    "whyImportant": {
+      "heading": "¿Por Qué es Importante el Registro de Empresas?",
+      "reasons": [
+        {
+          "number": 1,
+          "title": "Reconocimiento Legal",
+          "description": "Registrar su empresa le da un estado legal en Suecia, permitiéndole celebrar contratos, abrir cuentas bancarias y realizar actividades comerciales legalmente."
+        },
+        {
+          "number": 2,
+          "title": "Cumplimiento Fiscal",
+          "description": "Las empresas registradas pueden solicitar el registro de IVA y deben cumplir con las normas fiscales suecas, permitiendo operaciones financieras transparentes."
+        },
+        {
+          "number": 3,
+          "title": "Acceso a Beneficios",
+          "description": "Las empresas registradas pueden beneficiarse de incentivos gubernamentales, deducciones fiscales y acceso a préstamos y financiamiento de instituciones financieras suecas."
+        },
+        {
+          "number": 4,
+          "title": "Credibilidad y Confianza",
+          "description": "Las empresas registradas son más confiables por clientes, proveedores y socios, ya que demuestran un compromiso con el cumplimiento legal y la transparencia."
+        },
+        {
+          "number": 5,
+          "title": "Responsabilidad Limitada",
+          "description": "Ciertos tipos de empresas, como las sociedades anónimas, proporcionan protección de responsabilidad limitada, protegiendo los activos personales del propietario de las deudas y obligaciones comerciales."
+        }
+      ]
+    },
+    "companyTypes": {
+      "heading": "Tipos de Empresas en Suecia",
+      "intro": "Suecia ofrece varios tipos de estructuras comerciales, cada una con ventajas, desventajas y requisitos específicos. La estructura correcta depende de sus objetivos comerciales, escala y tolerancia al riesgo.",
+      "types": [
+        {
+          "number": 1,
+          "name": "Trabajador Autónomo (Enskild Firma)",
+          "description": "Un negocio autónomo es propiedad y es operado por un individuo, lo que lo convierte en la forma empresarial más simple en Suecia. Es ideal para autónomos, consultores y pequeños negocios con requisitos de capital mínimos.",
+          "advantages": [
+            "Simple de establecer y mantener.",
+            "Control total sobre decisiones comerciales.",
+            "Requisitos administrativos y regulatorios más bajos.",
+            "Las ganancias se gravan como ingresos personales, lo que puede simplificar la declaración de impuestos."
+          ],
+          "disadvantages": [
+            "Responsabilidad ilimitada: El propietario es personalmente responsable de todas las deudas y obligaciones comerciales.",
+            "Acceso limitado al capital: A menudo restringido a fondos personales o pequeños préstamos.",
+            "Puede carecer de credibilidad para grandes clientes o inversores en comparación con entidades incorporadas."
+          ],
+          "when": "Ideal para personas que inician un pequeño negocio o trabajan como autónomos. El registro generalmente se recomienda si tiene la intención de operar bajo un nombre comercial o necesita un número de IVA."
+        },
+        {
+          "number": 2,
+          "name": "Sociedad Anónima (Aktiebolag o AB)",
+          "description": "Una sociedad anónima (AB) es una entidad legal separada de sus accionistas y ofrece protección de responsabilidad limitada. Esta es la estructura más popular para startups, pequeños negocios y grandes corporaciones.",
+          "advantages": [
+            "Responsabilidad limitada: Los accionistas no son personalmente responsables de las deudas comerciales más allá de su inversión.",
+            "Más fácil atraer inversores: Credibilidad y potencial para emitir acciones.",
+            "Flexibilidad en el crecimiento: Adecuado para negocios con planes de expansión o búsqueda de financiamiento externo.",
+            "Beneficios fiscales: Las ganancias corporativas se gravan a una tasa corporativa, que puede ser más favorable para ganancias mayores."
+          ],
+          "disadvantages": [
+            "Mayor requisito de capital inicial: Capital social mínimo de SEK 25.000.",
+            "Administración más compleja: Requiere informes anuales, reuniones de junta directiva y cumplimiento de regulaciones corporativas.",
+            "Obligaciones de accionistas: Los accionistas tienen responsabilidades específicas, como asistir a asambleas generales y aprobar estados financieros."
+          ],
+          "when": "El registro de una sociedad anónima es ideal al buscar inversiones externas, minimizar riesgos personales o planear un crecimiento comercial significativo. También es una estructura apropiada si necesita proteger sus activos personales."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Comience su Registro de Empresas Hoy",
+      "description": "Si está listo para establecer su negocio en Suecia, comuníquese con Sweden Relocators hoy para obtener asistencia experta. Lo guiaremos a través de cada paso del proceso de registro de empresas, asegurando un inicio suave para su empresa en el próspero mercado de Suecia.",
+      "button": "Empezar",
+      "subtext": "Visite nuestra Sección de Registro de Empresas o contáctenos para obtener más información. Nuestro equipo está listo para ayudarlo a establecer su negocio en Suecia."
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "eorPayroll": {
+    "hero": {
+      "title": "Employer of Record (EOR) & Salarisadministratie in Zweden",
+      "subtitle": "Breid je bedrijf uit naar Zweden zonder een lokale entiteit op te richten"
+    },
+    "intro": {
+      "heading": "Gestroomlijnde EOR & Salaris voor Internationale Groei",
+      "description": "Je bedrijf uitbreiden naar Zweden of internationale medewerkers beheren hoeft niet ingewikkeld te zijn. Bij Sweden Relocators bieden we een complete Employer of Record (EOR) en salarisoplossing via onze online portal en mobiele app, waarmee bedrijven personeel in Zweden kunnen inhuren en beheren zonder een lokale juridische entiteit op te richten. Onze diensten combineren naleving, salarisadministratie en medewerkersondersteuning in één gestroomlijnd systeem.",
+      "infoBox": "Of je nu een startup bent die de Zweedse markt test, een multinationaal bedrijf dat extern personeel inhuurt, of een bedrijf dat medewerkers verhuist, onze EOR & salarisdiensten zorgen voor juridische naleving, nauwkeurige salarisadministratie en medewerkerstevredenheid."
+    },
+    "whatIsEOR": {
+      "heading": "Wat is een Employer of Record (EOR)?",
+      "description": "Een Employer of Record (EOR) is een betrouwbare derde partij die de wettelijke werkgever wordt van je personeel in Zweden. Terwijl jij het dagelijkse werk leidt, nemen wij ons de juridische, administratieve en nalevingsaspecten van de tewerkstelling aan. Dit omvat het opstellen van arbeidsovereenkomsten die voldoen aan het Zweedse arbeidsrecht, het registreren van medewerkers bij Skatteverket (de Zweedse belastingdienst), het beheren van salarissen, belastingaangiften en sociale premies, het beheren van voordelen, pensioenen en verzekeringen, en het waarborgen van naleving van Zweedse tewerkstellingsnormen en EU-voorschriften. Voor bedrijven betekent dit dat je snel kunt uitbreiden naar Zweden zonder een dochteronderneming op te richten of maanden te besteden aan regelgevende instelling."
+    },
+    "whyCompaniesUse": {
+      "heading": "Waarom Bedrijven EOR-Diensten in Zweden Gebruiken",
+      "intro": "Zweden is een van de sterkste economieën van Europa, bekend om zijn innovatiegedreven markten, hoogopgeleide werknemers en sterke juridische bescherming voor werknemers. Maar voor buitenlandse bedrijven kan het inhuren van personeel in Zweden uitdagend zijn om de volgende redenen:",
+      "challenges": [
+        {
+          "title": "Complexe Arbeidswetten",
+          "description": "Zweden handhaaft sterke werknemersrechten onder de Wet op de Arbeidsbescherming (LAS)."
+        },
+        {
+          "title": "Strikte Belastingnaleving",
+          "description": "Werkgevers moeten zich registreren bij Skatteverket en PAYE-belastingaangiften, pensioenen en werkgeversbijdragen beheren."
+        },
+        {
+          "title": "Tijdrovende Instelling",
+          "description": "Het oprichten van een lokale entiteit (AB) kan maanden duren en de bedrijfsuitbreiding vertragen."
+        },
+        {
+          "title": "Hoge Nalevingsrisico's",
+          "description": "Fouten in salarisadministratie, belastingen of voordelenbeheer kunnen leiden tot boetes of geschillen."
+        }
+      ],
+      "conclusion": "Onze EOR-service lost deze uitdagingen op door als je wettelijke werkgever te fungeren, waardoor je je kunt richten op groei terwijl wij de naleving afhandelen."
+    },
+    "howItWorks": {
+      "heading": "Hoe de EOR-Service van Sweden Relocators Werkt",
+      "description": "We bieden een stapsgewijze digitale proces voor het inhuren en beheren van medewerkers in Zweden:",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Bedrijfsregistratie",
+          "description": "Registreer als werkgever in onze portal."
+        },
+        {
+          "step": 2,
+          "title": "Medewerker Onboarding",
+          "description": "Voeg medewerkergegevens toe (contracten, salarissen, voordelen) via ons digitale platform."
+        },
+        {
+          "step": 3,
+          "title": "Juridische Naleving",
+          "description": "We stellen arbeidsovereenkomsten op die voldoen aan Zweedse en EU-wetgeving."
+        },
+        {
+          "step": 4,
+          "title": "Salarisverwerking",
+          "description": "Ons systeem berekent nettosalarissen, belastingaangiften en sociale premies."
+        },
+        {
+          "step": 5,
+          "title": "Lopende Ondersteuning",
+          "description": "We beheren voordelen, pensioenen en HR-naleving gedurende de hele tewerkstelling."
+        },
+        {
+          "step": 6,
+          "title": "Offboarding",
+          "description": "Als contracten eindigen, beheren we opzeggingstermijnen, ontslagvergoedingen en naleving van beëindiging."
+        }
+      ]
+    },
+    "payrollProcess": {
+      "heading": "Salarisadministratie in Zweden - Volledig Proces",
+      "intro": "Salarisadministratie in Zweden is sterk gereguleerd en nauwkeurigheid is cruciaal. Onze salarisdiensten zijn volledig geïntegreerd met ons EOR-systeem om soepele, nalevingsconforme betalingen te waarborgen.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Medewerker Instellen",
+          "description": "Voer medewerkergegevens in de portal in: salaris, voordelen, pensioen en aftrekposten. Registreer bij Skatteverket voor PAYE-belastingen en sociale premies."
+        },
+        {
+          "step": 2,
+          "title": "Maandelijkse Salarisverwerking",
+          "description": "Geautomatiseerde salarisberekeningen inclusief belastingen, pensioenen en verzekeringen. Werkgeversbijdragen (arbetsgivaravgifter) worden berekend en gerapporteerd. Naleving van collectieve arbeidsovereenkomsten (indien van toepassing)."
+        },
+        {
+          "step": 3,
+          "title": "Salarisbetalingen",
+          "description": "Directe bankoverschrijvingen naar medewerkerrekeningen. Medewerkers krijgen toegang tot digitale loonstrookjes met volledige uitsplitsing van inkomsten en aftrekposten."
+        },
+        {
+          "step": 4,
+          "title": "Belastingnaleving",
+          "description": "Maandelijkse belastingaangiften aan Skatteverket. Jaarlijkse rapportage van inkomstenverklaringen voor medewerkers. Veilige records opgeslagen in de portal voor toegang van werkgevers en medewerkers."
+        },
+        {
+          "step": 5,
+          "title": "Voordelenadministratie",
+          "description": "Opzet van pensioenen, zorgverzekeringen en ouderschapsvoordelen conform Zweedse standaarden. Automatische administratie via het salarissysteem."
+        }
+      ]
+    },
+    "complianceAndLegal": {
+      "heading": "Naleving en Juridische Referenties",
+      "intro": "Onze EOR & salarisdiensten opereren strikt binnen Zweedse en EU-voorschriften:",
+      "references": [
+        {
+          "title": "Wet op de Arbeidsbescherming (LAS)",
+          "description": "Regelt arbeidszekerheid en ontslagregels."
+        },
+        {
+          "title": "Zweedse Belastingdienst (Skatteverket)",
+          "description": "Toezicht op PAYE, werkgeversbijdragen en aangiften."
+        },
+        {
+          "title": "Sociale Verzekeringscode",
+          "description": "Regelt pensioenen, ouderschapsverlof en werknemersbescherming."
+        },
+        {
+          "title": "GDPR-Naleving",
+          "description": "Garandeert bescherming van medewerkergegevens."
+        },
+        {
+          "title": "EU-Richtlijnen",
+          "description": "Inclusief regels voor vrije verkeersregeling en werknemersrechten volgens EU-wetgeving."
+        }
+      ],
+      "conclusion": "Door Sweden Relocators te gebruiken, voorkomt je bedrijf nalevingsrisico's en zorgt ervoor dat alle tewerkstellingsverplichtingen worden nageleefd."
+    },
+    "benefitsForCompanies": {
+      "heading": "Voordelen voor Bedrijven",
+      "benefits": [
+        {
+          "title": "Snelle Uitbreiding",
+          "description": "Huur personeel in Zweden in zonder een dochteronderneming op te richten."
+        },
+        {
+          "title": "Tijd- en Kostenbesparing",
+          "description": "Vermijd juridische instelling, boekhouding en HR-administratie."
+        },
+        {
+          "title": "Blijf Nalevingsconform",
+          "description": "Alle tewerkstelling, belastingen en salarisadministratie worden binnen Zweedse wetgeving afgehandeld."
+        },
+        {
+          "title": "Gemakkelijk Schalen",
+          "description": "Voeg snel medewerkers toe of verwijder ze op basis van bedrijfsbehoeften."
+        },
+        {
+          "title": "Eén Digitale Platform",
+          "description": "Beheer alles via onze portal en app."
+        }
+      ]
+    },
+    "benefitsForEmployees": {
+      "heading": "Voordelen voor Medewerkers",
+      "benefits": [
+        {
+          "title": "Tijdige Salarisbetalingen",
+          "description": "Betrouwbare salarisadministratie met transparante loonstrookjes."
+        },
+        {
+          "title": "Voordelen & Pensioenen",
+          "description": "Volledige naleving met Zweedse voordelensystemen."
+        },
+        {
+          "title": "Juridische Bescherming",
+          "description": "Arbeidsovereenkomsten volgen Zweedse standaarden."
+        },
+        {
+          "title": "Vertrouwen & Stabiliteit",
+          "description": "Medewerkers voelen zich veilig, wat de retentie verbetert."
+        }
+      ]
+    },
+    "whoShouldUse": {
+      "heading": "Voor Wie Zijn EOR & Salarisdiensten Bedoeld?",
+      "intro": "Onze oplossingen zijn ideaal voor:",
+      "solutions": [
+        {
+          "title": "Startups & MKB",
+          "description": "Huur personeel in zonder zware instellingskosten."
+        },
+        {
+          "title": "Globale Bedrijven",
+          "description": "Breid uit naar Zweden zonder lokale registratie."
+        },
+        {
+          "title": "Projectgebaseerde Werving",
+          "description": "Kortetermijn- of seizoensarbeiders worden gemakkelijk beheerd."
+        },
+        {
+          "title": "Externe Teams",
+          "description": "Werk externe medewerkers in Zweden wettelijk in."
+        },
+        {
+          "title": "Verhuizingen",
+          "description": "Verplaats medewerkers naar Zweden met volledige HR-ondersteuning."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Waarom Sweden Relocators Kiezen?",
+      "reasons": [
+        {
+          "title": "Alles-in-één Digitale Portal",
+          "description": "Beheer contracten, salaris en naleving in één systeem."
+        },
+        {
+          "title": "Expertkennis van Zweeds Arbeidsrecht",
+          "description": "Verminder juridische en belastingrisico's."
+        },
+        {
+          "title": "Transparante Processen",
+          "description": "Realtime rapporten en records voor werkgevers en medewerkers."
+        },
+        {
+          "title": "End-to-End Verhuisondersteuning",
+          "description": "Naast EOR helpen we met huisvesting, visa en integratie."
+        },
+        {
+          "title": "Meertalige Ondersteuning",
+          "description": "Hulp in het Engels, Zweeds, Urdu, Arabisch, Perzisch en meer."
+        }
+      ]
+    },
+    "gettingStarted": {
+      "heading": "Aan de Slag",
+      "steps": [
+        "Registreer je bedrijf in onze portal.",
+        "Voeg medewerkers toe met salaris- en contractgegevens.",
+        "Activeer Salaris & Naleving – Wij regelen de rest.",
+        "Richt je op Bedrijfsgroei terwijl wij de tewerkstelling beheren."
+      ]
+    },
+    "conclusion": {
+      "heading": "Breid met Vertrouwen uit naar Zweden",
+      "description": "Met de Employer of Record (EOR) en Salarisdiensten van Sweden Relocators kan je bedrijf met vertrouwen uitbreiden naar Zweden. Wij nemen de juridische, fiscale en salariscomplexiteit voor onze rekening, terwijl jij je richt op het opbouwen van je bedrijf. Of je nu één medewerker of een heel team nodig hebt, ons platform zorgt voor soepele personeelsbeheer."
+    },
+    "cta": {
+      "heading": "Klaar om je Bedrijf uit te Breiden naar Zweden?",
+      "description": "Laat Sweden Relocators de complexiteit van EOR- en salarisbeheer voor zijn rekening nemen. Onze experts begeleiden je door het hele proces en zorgen voor volledige juridische naleving en medewerkerstevredenheid.",
+      "button": "Aan de Slag met EOR-Diensten",
+      "subtext": "Ons toegewijde team staat klaar om al je vragen te beantwoorden over het inhuren van personeel in Zweden."
+    }
+  }
+}

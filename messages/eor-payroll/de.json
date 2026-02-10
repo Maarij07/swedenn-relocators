@@ -1,0 +1,250 @@
+{
+  "eorPayroll": {
+    "hero": {
+      "title": "Employer of Record (EOR) & Lohnabrechnungsdienste in Schweden",
+      "subtitle": "Erweitern Sie Ihr Unternehmen in Schweden, ohne eine lokale Einheit zu eröffnen"
+    },
+    "intro": {
+      "heading": "Optimierte EOR & Lohnabrechnung für internationales Wachstum",
+      "description": "Die Erweiterung Ihres Unternehmens nach Schweden oder die Verwaltung internationaler Mitarbeiter muss nicht kompliziert sein. Bei Sweden Relocators bieten wir eine vollständige Employer of Record (EOR) und Lohnabrechnungslösung über unser Online-Portal und unsere mobile App an, die Unternehmen dabei hilft, Mitarbeiter in Schweden einzustellen und zu verwalten, ohne eine lokale rechtliche Einheit zu eröffnen. Unsere Dienstleistungen vereinen Compliance, Lohnabrechnung und Mitarbeitersupport in einem optimierten System.",
+      "infoBox": "Ob Sie ein Startup sind, das den schwedischen Markt testet, ein multinationales Unternehmen, das Remote-Mitarbeiter einstellt, oder ein Unternehmen, das Mitarbeiter umsiedelt, unsere EOR & Lohnabrechnungsdienste gewährleisten die rechtliche Einhaltung, genaue Lohnabrechnung und Mitarbeiterzufriedenheit."
+    },
+    "whatIsEOR": {
+      "heading": "Was ist ein Employer of Record (EOR)?",
+      "description": "Ein Employer of Record (EOR) ist ein vertrauenswürdiger Drittanbieter, der der rechtliche Arbeitgeber Ihrer Arbeitskräfte in Schweden wird. Während Sie die tägliche Arbeit leiten, kümmern wir uns um die rechtlichen, administrativen und Compliance-Aspekte der Beschäftigung. Dies umfasst die Erstellung von Arbeitsverträgen, die den schwedischen Arbeitsrecht entsprechen, die Registrierung von Mitarbeitern beim Skatteverket (schwedische Steuerbehörde), die Verwaltung von Löhnen, Steuerabzügen und Sozialabgaben, die Verwaltung von Leistungen, Renten und Versicherungen sowie die Gewährleistung der Einhaltung schwedischer Beschäftigungsstandards und EU-Vorschriften. Für Unternehmen bedeutet dies, dass Sie schnell nach Schweden expandieren können, ohne eine Tochtergesellschaft zu gründen oder Monate mit regulatorischen Einrichtungen zu verbringen."
+    },
+    "whyCompaniesUse": {
+      "heading": "Warum Unternehmen EOR-Dienste in Schweden nutzen",
+      "intro": "Schweden ist eine der stärksten Volkswirtschaften Europas, bekannt für seine innovationsgetriebenen Märkte, hochqualifizierte Arbeitskräfte und starke rechtliche Schutzmaßnahmen für Mitarbeiter. Aber für ausländische Unternehmen kann die Einstellung von Personal in Schweden aufgrund der folgenden Gründe herausfordernd sein:",
+      "challenges": [
+        {
+          "title": "Komplexe Arbeitsgesetze",
+          "description": "Schweden setzt starke Arbeitnehmerrechte gemäß dem Kündigungsschutzgesetz (LAS) durch."
+        },
+        {
+          "title": "Strenge Steuercompliance",
+          "description": "Arbeitgeber müssen sich beim Skatteverket registrieren und PAYE-Steuerabzüge, Renten und Arbeitgeberbeiträge verwalten."
+        },
+        {
+          "title": "Zeitaufwändige Einrichtung",
+          "description": "Die Gründung einer lokalen Einheit (AB) kann Monate dauern und die Geschäftsausweitung verzögern."
+        },
+        {
+          "title": "Hohe Compliance-Risiken",
+          "description": "Fehler in der Lohnabrechnung, Steuererhebung oder Leistungsverwaltung können zu Strafen oder Streitigkeiten führen."
+        }
+      ],
+      "conclusion": "Unser EOR-Service löst diese Herausforderungen, indem wir als Ihr rechtlicher Arbeitgeber fungieren und Sie sich auf das Wachstum konzentrieren können, während wir die Compliance übernehmen."
+    },
+    "howItWorks": {
+      "heading": "Wie der EOR-Service von Sweden Relocators funktioniert",
+      "description": "Wir bieten einen schrittweisen digitalen Prozess für die Einstellung und Verwaltung von Mitarbeitern in Schweden an:",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Unternehmensregistrierung",
+          "description": "Registrieren Sie sich als Arbeitgeber in unserem Portal."
+        },
+        {
+          "step": 2,
+          "title": "Mitarbeiter-Onboarding",
+          "description": "Fügen Sie Mitarbeiterdaten (Verträge, Gehälter, Leistungen) über unsere digitale Plattform hinzu."
+        },
+        {
+          "step": 3,
+          "title": "Rechtliche Compliance",
+          "description": "Wir stellen Arbeitsverträge aus, die dem schwedischen und EU-Recht entsprechen."
+        },
+        {
+          "step": 4,
+          "title": "Lohnabrechnungsverarbeitung",
+          "description": "Unser System berechnet Nettogehälter, Steuerabzüge und Sozialabgaben."
+        },
+        {
+          "step": 5,
+          "title": "Laufende Unterstützung",
+          "description": "Wir verwalten Leistungen, Renten und HR-Compliance während der gesamten Beschäftigung."
+        },
+        {
+          "step": 6,
+          "title": "Offboarding",
+          "description": "Wenn Verträge enden, verwalten wir Kündigungsfristen, Abfindungen und die ordnungsgemäße Beendigung."
+        }
+      ]
+    },
+    "payrollProcess": {
+      "heading": "Lohnabrechnungsdienste in Schweden - Vollständiger Prozess",
+      "intro": "Die Lohnabrechnung in Schweden ist stark reguliert, und Genauigkeit ist entscheidend. Unsere Lohnabrechnungsdienste sind vollständig in unser EOR-System integriert, um reibungslose, konforme Zahlungen zu gewährleisten.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Mitarbeiter-Einrichtung",
+          "description": "Geben Sie Mitarbeiterdaten in das Portal ein: Gehalt, Leistungen, Rente und Abzüge. Registrieren Sie sich beim Skatteverket für PAYE-Steuer und Sozialabgaben."
+        },
+        {
+          "step": 2,
+          "title": "Monatliche Lohnabrechnungsverarbeitung",
+          "description": "Automatisierte Gehaltsberechnungen einschließlich Steuern, Renten und Versicherungen. Arbeitgeberbeiträge (arbetsgivaravgifter) werden berechnet und gemeldet. Einhaltung von Tarifverträgen (falls zutreffend)."
+        },
+        {
+          "step": 3,
+          "title": "Gehaltszahlungen",
+          "description": "Direkte Banküberweisungen auf Mitarbeiterkonten. Mitarbeiter erhalten Zugriff auf digitale Gehaltsabrechnungen mit vollständiger Aufschlüsselung von Einnahmen und Abzügen."
+        },
+        {
+          "step": 4,
+          "title": "Steuercompliance",
+          "description": "Monatliche Steuererklärungen an das Skatteverket. Jährliche Meldung von Einkommensbescheiden für Mitarbeiter. Sichere Aufzeichnungen im Portal für den Zugriff von Arbeitgebern und Mitarbeitern."
+        },
+        {
+          "step": 5,
+          "title": "Leistungsverwaltung",
+          "description": "Einrichtung von Renten, Krankenversicherungen und Elternzeitleistungen entsprechend schwedischen Standards. Automatische Verwaltung durch das Lohnabrechnungssystem."
+        }
+      ]
+    },
+    "complianceAndLegal": {
+      "heading": "Compliance und rechtliche Referenzen",
+      "intro": "Unsere EOR & Lohnabrechnungsdienste operieren streng innerhalb schwedischer und EU-Vorschriften:",
+      "references": [
+        {
+          "title": "Kündigungsschutzgesetz (LAS)",
+          "description": "Regelt den Kündigungsschutz und Kündigungsregeln."
+        },
+        {
+          "title": "Schwedische Steuerbehörde (Skatteverket)",
+          "description": "Überwacht PAYE, Arbeitgeberbeiträge und Meldungen."
+        },
+        {
+          "title": "Sozialversicherungsgesetz",
+          "description": "Regelt Renten, Elternzeit und Arbeitnehmerschutz."
+        },
+        {
+          "title": "DSGVO-Compliance",
+          "description": "Gewährleistet den Schutz von Mitarbeiterdaten."
+        },
+        {
+          "title": "EU-Richtlinien",
+          "description": "Einschließlich Freizügigkeitsregeln und Arbeitnehmerrechte gemäß EU-Recht."
+        }
+      ],
+      "conclusion": "Durch die Nutzung von Sweden Relocators vermeidet Ihr Unternehmen Compliance-Risiken und stellt sicher, dass alle Beschäftigungspflichten erfüllt werden."
+    },
+    "benefitsForCompanies": {
+      "heading": "Vorteile für Unternehmen",
+      "benefits": [
+        {
+          "title": "Schnelle Expansion",
+          "description": "Stellen Sie Mitarbeiter in Schweden ein, ohne eine Tochtergesellschaft zu gründen."
+        },
+        {
+          "title": "Zeit- und Kosteneinsparung",
+          "description": "Vermeiden Sie rechtliche Einrichtung, Buchhaltung und HR-Administration."
+        },
+        {
+          "title": "Compliance-Einhaltung",
+          "description": "Alle Beschäftigung, Steuern und Lohnabrechnung werden innerhalb des schwedischen Rechts gehandhabt."
+        },
+        {
+          "title": "Einfache Skalierung",
+          "description": "Fügen Sie Mitarbeiter schnell nach Geschäftsanforderungen hinzu oder entfernen Sie sie."
+        },
+        {
+          "title": "Eine digitale Plattform",
+          "description": "Verwalten Sie alles über unser Portal und unsere App."
+        }
+      ]
+    },
+    "benefitsForEmployees": {
+      "heading": "Vorteile für Mitarbeiter",
+      "benefits": [
+        {
+          "title": "Pünktliche Gehaltszahlungen",
+          "description": "Zuverlässige Lohnabrechnung mit transparenten Gehaltsabrechnungen."
+        },
+        {
+          "title": "Leistungen & Renten",
+          "description": "Vollständige Einhaltung mit schwedischen Leistungssystemen."
+        },
+        {
+          "title": "Rechtlicher Schutz",
+          "description": "Arbeitsverträge entsprechen schwedischen Standards."
+        },
+        {
+          "title": "Vertrauen & Stabilität",
+          "description": "Mitarbeiter fühlen sich sicher, was die Bindung verbessert."
+        }
+      ]
+    },
+    "whoShouldUse": {
+      "heading": "Für wen sind EOR & Lohnabrechnungsdienste geeignet?",
+      "intro": "Unsere Lösungen sind ideal für:",
+      "solutions": [
+        {
+          "title": "Startups & KMU",
+          "description": "Stellen Sie Mitarbeiter ein, ohne hohe Einrichtungskosten."
+        },
+        {
+          "title": "Globale Unternehmen",
+          "description": "Erweitern Sie nach Schweden, ohne lokale Registrierung."
+        },
+        {
+          "title": "Projektbasierte Einstellungen",
+          "description": "Kurzzeit- oder Saisonarbeiter werden einfach verwaltet."
+        },
+        {
+          "title": "Remote-Teams",
+          "description": "Stellen Sie Remote-Mitarbeiter in Schweden konform ein."
+        },
+        {
+          "title": "Umzüge",
+          "description": "Verschieben Sie Mitarbeiter nach Schweden mit vollständigem HR-Support."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Warum Sweden Relocators wählen?",
+      "reasons": [
+        {
+          "title": "Alles-in-einem digitalen Portal",
+          "description": "Verwalten Sie Verträge, Lohnabrechnung und Compliance in einem System."
+        },
+        {
+          "title": "Expertenwissen im schwedischen Arbeitsrecht",
+          "description": "Reduzieren Sie rechtliche und Steuerrisiken."
+        },
+        {
+          "title": "Transparente Prozesse",
+          "description": "Echtzeit-Berichte und Aufzeichnungen für Arbeitgeber und Mitarbeiter."
+        },
+        {
+          "title": "Rundum-Umzugssupport",
+          "description": "Neben EOR helfen wir bei Wohnung, Visa und Integration."
+        },
+        {
+          "title": "Mehrsprachiger Support",
+          "description": "Hilfe auf Englisch, Schwedisch, Urdu, Arabisch, Persisch und mehr."
+        }
+      ]
+    },
+    "gettingStarted": {
+      "heading": "Erste Schritte",
+      "steps": [
+        "Registrieren Sie Ihr Unternehmen in unserem Portal.",
+        "Fügen Sie Mitarbeiter mit Gehalts- und Vertragsdetails hinzu.",
+        "Aktivieren Sie Lohnabrechnung & Compliance – Wir kümmern uns um den Rest.",
+        "Konzentrieren Sie sich auf Geschäftswachstum, während wir die Beschäftigung verwalten."
+      ]
+    },
+    "conclusion": {
+      "heading": "Mit Vertrauen nach Schweden expandieren",
+      "description": "Mit den Employer of Record (EOR) und Lohnabrechnungsdiensten von Sweden Relocators kann Ihr Unternehmen mit Vertrauen nach Schweden expandieren. Wir kümmern uns um die rechtlichen, steuerlichen und Lohnabrechnungskomplexitäten, während Sie sich auf den Aufbau Ihres Unternehmens konzentrieren. Ob Sie einen Mitarbeiter oder ein ganzes Team benötigen, unsere Plattform gewährleistet eine reibungslose Personalverwaltung."
+    },
+    "cta": {
+      "heading": "Bereit, Ihr Unternehmen nach Schweden zu expandieren?",
+      "description": "Lassen Sie Sweden Relocators die Komplexität der EOR- und Lohnabrechnungsverwaltung übernehmen. Unsere Experten führen Sie durch den gesamten Prozess und gewährleisten vollständige rechtliche Einhaltung und Mitarbeiterzufriedenheit.",
+      "button": "Erste Schritte mit EOR-Diensten",
+      "subtext": "Unser engagiertes Team steht bereit, alle Ihre Fragen zur Einstellung von Mitarbeitern in Schweden zu beantworten."
+    }
+  }
+}

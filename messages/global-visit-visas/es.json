@@ -1,0 +1,240 @@
+{
+  "globalVisitVisas": {
+    "hero": {
+      "title": "Servicios de Visado Global – Su puerta a viajes internacionales sin problemas",
+      "subtitle": "Soporte confiable de visados para turismo, negocios, educación y reubicación en todo el mundo"
+    },
+    "intro": {
+      "heading": "Viajar internacionalmente es simple",
+      "description": "En Sweden Relocators, hacemos que los viajes internacionales sean simples, transparentes y sin estrés a través de nuestra Iniciativa del Programa Global de Visados. Nuestro servicio está diseñado para individuos, familias, estudiantes y profesionales que desean soporte confiable de visados sin la confusión de navegar múltiples sistemas de embajadas.",
+      "toolLink": "Nuestro único formulario universal de visado le permite solicitar múltiples destinos con la misma información, ahorrando tiempo y reduciendo errores mediante nuestro portal web seguro y aplicación móvil."
+    },
+    "services": {
+      "heading": "Soporte Integral de Visados",
+      "requirementsLabel": "Lo que manejamos",
+      "services": [
+        {
+          "id": "clientid",
+          "title": "ID de Cliente Personalizada",
+          "description": "Cada cliente recibe un ID único al registrarse",
+          "requirements": [
+            {"label": "Múltiples Familias", "description": "Gestione múltiples solicitudes para diferentes miembros de la familia y destinos al mismo tiempo"},
+            {"label": "Acceso Seguro", "description": "Rastree todas sus solicitudes de visado desde un solo panel"}
+          ]
+        },
+        {
+          "id": "assessment",
+          "title": "Evaluación y Preparación de Solicitudes",
+          "description": "Evaluación completa de antecedentes y preparación de expediente completo",
+          "requirements": [
+            {"label": "Revisión de Antecedentes", "description": "Revisamos su propósito de viaje, solvencia financiera e historial de viajes"},
+            {"label": "Estándares de Embajada", "description": "Archivo completo preparado incluyendo formularios, cartas de presentación y documentos de apoyo adaptados al destino"}
+          ]
+        },
+        {
+          "id": "appointment",
+          "title": "Programación y Confirmación de Citas",
+          "description": "Reservamos su cita en la embajada con llamada de confirmación directa",
+          "requirements": [
+            {"label": "Reserva en Embajada", "description": "Cita programada con la embajada correspondiente o centro VFS Global"},
+            {"label": "Verificación de Preparación", "description": "Nuestro personal llama directamente para revisar los requisitos y asegurar que todos los detalles sean correctos"}
+          ]
+        },
+        {
+          "id": "liaison",
+          "title": "Enlace con la Embajada",
+          "description": "Comunicación profesional con embajadas en su nombre",
+          "requirements": [
+            {"label": "Clarificación de Consultas", "description": "Nuestro equipo maneja la comunicación con la embajada y aclara cualquier duda"},
+            {"label": "Representación Profesional", "description": "Reduce riesgos de retrasos, solicitudes de documentos adicionales o rechazos"}
+          ]
+        },
+        {
+          "id": "file",
+          "title": "Preparación Completa de Archivos y Entrega",
+          "description": "Su expediente listo para enviar se entrega en su domicilio",
+          "requirements": [
+            {"label": "Confirmación de Hotel", "description": "Reservas de hotel confirmadas y reservas de vuelos incluidas"},
+            {"label": "Documentación Financiera", "description": "Seguro de viaje y documentación financiera requerida compilados"}
+          ]
+        },
+        {
+          "id": "digital",
+          "title": "Gestión Digital Segura de Archivos",
+          "description": "Almacenamiento de documentos conforme al GDPR y reutilización para viajeros frecuentes",
+          "requirements": [
+            {"label": "Seguridad", "description": "Todos los documentos almacenados de manera segura en un sistema conforme al GDPR"},
+            {"label": "Reutilización", "description": "Guarde información para futuras solicitudes, ahorrando tiempo y esfuerzo"}
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "heading": "Categorías de Visado que Apoyamos",
+      "intro": "Nuestro programa cubre los principales destinos a nivel mundial",
+      "visas": [
+        "Visado Schengen para Europa",
+        "Visado del Reino Unido",
+        "Visado de Estados Unidos",
+        "Visado de Canadá",
+        "Visado de Australia",
+        "Visado de Nueva Zelanda",
+        "Visado de Irlanda",
+        "Visado de Japón",
+        "Visado de Corea del Sur",
+        "Visado de China"
+      ],
+      "additional": "Otros destinos también se apoyan mediante soluciones personalizadas basadas en embajadas."
+    },
+    "purposes": {
+      "heading": "Propósitos de Visado que Cubrimos",
+      "purposes": [
+        {
+          "id": 1,
+          "title": "Turismo",
+          "description": "Se organizan pruebas de alojamiento, seguro de salud y cobertura financiera para una aprobación fluida"
+        },
+        {
+          "id": 2,
+          "title": "Visitar Familia o Amigos",
+          "description": "Se preparan cartas de invitación verificadas, documentos de patrocinio y evidencia de relación"
+        },
+        {
+          "id": 3,
+          "title": "Reunificación Familiar en la UE",
+          "description": "Revisión detallada de vivienda, ingresos y cumplimiento de residencia para permisos familiares"
+        },
+        {
+          "id": 4,
+          "title": "Viajes de Negocios y Conferencias",
+          "description": "Se organizan invitaciones corporativas, confirmaciones de patrocinio y documentación profesional"
+        },
+        {
+          "id": 5,
+          "title": "Estudio en el Extranjero",
+          "description": "Se verifican cartas de admisión, prueba de fondos y credenciales educativas"
+        },
+        {
+          "id": 6,
+          "title": "Trabajos de Corto Plazo",
+          "description": "Se completan contratos laborales y verificaciones de cumplimiento laboral"
+        },
+        {
+          "id": 7,
+          "title": "Tratamiento Médico",
+          "description": "Se preparan confirmaciones de hospital, registros médicos y patrocinio financiero"
+        },
+        {
+          "id": 8,
+          "title": "Eventos Culturales y Deportivos",
+          "description": "Se compilan registros de eventos e invitaciones oficiales"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Proceso de Solicitud de Visado",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registro",
+          "description": "Regístrese a través de nuestro sitio web o aplicación para crear una cuenta y recibir su ID de cliente único"
+        },
+        {
+          "number": 2,
+          "title": "Evaluación",
+          "description": "Nuestro equipo revisa su propósito, elegibilidad y documentos requeridos para su destino"
+        },
+        {
+          "number": 3,
+          "title": "Preparación",
+          "description": "Creamos su expediente completo de solicitud de acuerdo con los estándares de la embajada"
+        },
+        {
+          "number": 4,
+          "title": "Cita",
+          "description": "Aseguramos y confirmamos su cita en la embajada, con una llamada para verificar su preparación"
+        },
+        {
+          "number": 5,
+          "title": "Entrega",
+          "description": "Su expediente final se entrega en su domicilio con todos los detalles de la cita incluidos"
+        },
+        {
+          "number": 6,
+          "title": "Presentación",
+          "description": "Asista a la cita con su pasaporte y expediente completo"
+        },
+        {
+          "number": 7,
+          "title": "Seguimiento y Reutilización",
+          "description": "Rastree el progreso en nuestro portal y reutilice su información para futuras solicitudes de visado"
+        }
+      ]
+    },
+    "languages": {
+      "heading": "Asistencia Multilingüe",
+      "description": "Para que el idioma nunca sea una barrera, ofrecemos soporte multilingüe en inglés, sueco, urdu, árabe, punjabi, serbio, kurdo, persa y muchos otros idiomas. Nuestros consultores explican las reglas de visado en el idioma con el que se sienta más cómodo."
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "faqs": [
+        {
+          "id": 1,
+          "question": "¿Organizan reservas de hotel y seguros de viaje para los visados?",
+          "answer": "Sí, proporcionamos reservas de hotel aprobadas por la embajada, itinerarios de vuelos y seguros de viaje para fortalecer su solicitud de visado."
+        },
+        {
+          "id": 2,
+          "question": "¿Cómo puedo verificar si soy elegible para un visado?",
+          "answer": "Nuestra herramienta de evaluación y nuestros expertos analizan sus documentos e historial de viajes para confirmar su elegibilidad para el destino elegido."
+        },
+        {
+          "id": 3,
+          "question": "¿Manejan visas de estudiantes y familiares?",
+          "answer": "Sí, gestionamos solicitudes de estudiantes, visitas familiares y reunificación familiar en la UE con documentación completa y verificaciones de cumplimiento."
+        },
+        {
+          "id": 4,
+          "question": "¿Puedo solicitar múltiples visados con el mismo expediente?",
+          "answer": "Sí, nuestro sistema le permite reutilizar sus documentos almacenados para diferentes países y tipos de visado, ahorrando tiempo y esfuerzo."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Por qué elegir Sweden Relocators",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Formulario Universal de Visado",
+          "description": "Solicite múltiples destinos con la misma información, reduciendo errores y ahorrando tiempo"
+        },
+        {
+          "id": 2,
+          "title": "Coordinación con Embajadas",
+          "description": "La representación profesional ante embajadas asegura un procesamiento fluido y reduce los riesgos de rechazo"
+        },
+        {
+          "id": 3,
+          "title": "Soporte Multilingüe",
+          "description": "Asistencia en más de 9 idiomas garantiza comprensión clara de los requisitos"
+        },
+        {
+          "id": 4,
+          "title": "Organización Completa de Viajes",
+          "description": "Reservas de hotel, vuelos y seguros todo gestionado para solicitudes más sólidas"
+        },
+        {
+          "id": 5,
+          "title": "Herramientas Digitales Seguras",
+          "description": "Sistema conforme al GDPR con portal seguro y aplicación móvil para gestionar documentos fácilmente"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "¿Listo para viajar por el mundo?",
+      "description": "Con la Iniciativa del Programa Global de Visados de Sweden Relocators combinamos tecnología, experiencia y soporte personal para hacer que los viajes internacionales sean simples. Comience hoy su solicitud de visado.",
+      "button": "Iniciar Solicitud de Visado",
+      "subtext": "Nuestro equipo lo guiará en cada paso para asegurar que su solicitud sea exitosa."
+    }
+  }
+}

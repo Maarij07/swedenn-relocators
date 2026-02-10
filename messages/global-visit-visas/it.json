@@ -1,0 +1,240 @@
+{
+  "globalVisitVisas": {
+    "hero": {
+      "title": "Servizi di Visto Globale – La tua porta per viaggi internazionali senza problemi",
+      "subtitle": "Supporto affidabile per visti turistici, di lavoro, studio e trasferimento in tutto il mondo"
+    },
+    "intro": {
+      "heading": "Viaggiare all'estero reso semplice",
+      "description": "Con Sweden Relocators rendiamo i viaggi internazionali semplici, trasparenti e senza stress attraverso la nostra Iniziativa del Programma Globale Visti. Il nostro servizio è pensato per individui, famiglie, studenti e professionisti che desiderano supporto affidabile per i visti senza confusione derivante dalla gestione di più sistemi consolari.",
+      "toolLink": "Il nostro modulo di visto universale unico consente di fare domanda per più destinazioni con le stesse informazioni, risparmiando tempo e riducendo errori tramite il nostro portale web sicuro e l'app mobile."
+    },
+    "services": {
+      "heading": "Supporto Completo per Visti",
+      "requirementsLabel": "Cosa Gestiamo",
+      "services": [
+        {
+          "id": "clientid",
+          "title": "ID Cliente Personalizzato",
+          "description": "Ogni cliente riceve un ID unico al momento della registrazione",
+          "requirements": [
+            {"label": "Più famiglie", "description": "Gestisci più domande per diversi membri della famiglia e destinazioni contemporaneamente"},
+            {"label": "Accesso sicuro", "description": "Monitora tutte le tue domande di visto da un'unica dashboard"}
+          ]
+        },
+        {
+          "id": "assessment",
+          "title": "Valutazione e Preparazione della Domanda",
+          "description": "Valutazione completa del background e preparazione del file",
+          "requirements": [
+            {"label": "Revisione del Background", "description": "Verifichiamo lo scopo del viaggio, la solidità finanziaria e la storia dei viaggi"},
+            {"label": "Standard Consolari", "description": "File completo preparato, compresi moduli, lettere di accompagnamento e documenti di supporto personalizzati per la destinazione"}
+          ]
+        },
+        {
+          "id": "appointment",
+          "title": "Prenotazione e Conferma dell'Appuntamento",
+          "description": "Prenotiamo il tuo appuntamento presso il consolato con conferma telefonica diretta",
+          "requirements": [
+            {"label": "Prenotazione Consolato", "description": "Appuntamento fissato presso il consolato o il centro VFS Global competente"},
+            {"label": "Controllo Prontezza", "description": "Il nostro staff chiama direttamente per verificare i requisiti e assicurarsi che tutti i dettagli siano corretti"}
+          ]
+        },
+        {
+          "id": "liaison",
+          "title": "Collegamento con il Consolato",
+          "description": "Comunicazione professionale con i consolati per tuo conto",
+          "requirements": [
+            {"label": "Chiarimento delle Domande", "description": "Il nostro team gestisce le comunicazioni con il consolato e chiarisce eventuali domande"},
+            {"label": "Rappresentanza Professionale", "description": "Riduce il rischio di ritardi, richieste di documenti aggiuntivi o rifiuti"}
+          ]
+        },
+        {
+          "id": "file",
+          "title": "Preparazione Completa del File e Consegna",
+          "description": "Il tuo file pronto per la presentazione consegnato a casa",
+          "requirements": [
+            {"label": "Conferma Hotel", "description": "Prenotazioni alberghiere e voli confermati inclusi"},
+            {"label": "Documentazione Finanziaria", "description": "Assicurazione di viaggio e documentazione finanziaria richiesta compilata"}
+          ]
+        },
+        {
+          "id": "digital",
+          "title": "Gestione Sicura dei File Digitali",
+          "description": "Archiviazione dei documenti conforme al GDPR e riutilizzabile per viaggiatori frequenti",
+          "requirements": [
+            {"label": "Sicurezza", "description": "Tutti i documenti archiviati in modo sicuro in un sistema conforme al GDPR"},
+            {"label": "Riutilizzabilità", "description": "Salva le informazioni per future domande risparmiando tempo e fatica"}
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "heading": "Categorie di Visti Supportate",
+      "intro": "Il nostro programma copre le principali destinazioni a livello mondiale",
+      "visas": [
+        "Visto Schengen per l'Europa",
+        "Visto per il Regno Unito",
+        "Visto per gli Stati Uniti",
+        "Visto per il Canada",
+        "Visto per l'Australia",
+        "Visto per la Nuova Zelanda",
+        "Visto per l'Irlanda",
+        "Visto per il Giappone",
+        "Visto per la Corea del Sud",
+        "Visto per la Cina"
+      ],
+      "additional": "Altre destinazioni sono supportate tramite soluzioni personalizzate basate sui consolati."
+    },
+    "purposes": {
+      "heading": "Scopi dei Visti Coperti",
+      "purposes": [
+        {
+          "id": 1,
+          "title": "Turismo",
+          "description": "Prova di alloggio, assicurazione sanitaria e copertura finanziaria organizzata per una facile approvazione"
+        },
+        {
+          "id": 2,
+          "title": "Visita a Familiari o Amici",
+          "description": "Lettere di invito verificate, documenti di sponsorizzazione e prove di relazione preparate"
+        },
+        {
+          "id": 3,
+          "title": "Ricongiungimento Familiare UE",
+          "description": "Revisione dettagliata di alloggio, reddito e conformità alla residenza per permessi familiari"
+        },
+        {
+          "id": 4,
+          "title": "Viaggi di Lavoro e Conferenze",
+          "description": "Inviti aziendali, conferme di sponsorizzazione e documentazione professionale organizzata"
+        },
+        {
+          "id": 5,
+          "title": "Studio all'Estero",
+          "description": "Lettere di ammissione, prova di fondi e credenziali educative verificate"
+        },
+        {
+          "id": 6,
+          "title": "Lavori a Breve Termine",
+          "description": "Contratti di lavoro e controlli di conformità legale completati"
+        },
+        {
+          "id": 7,
+          "title": "Trattamento Medico",
+          "description": "Conferme ospedaliere, cartelle cliniche e sponsorizzazione finanziaria preparate"
+        },
+        {
+          "id": 8,
+          "title": "Eventi Culturali e Sportivi",
+          "description": "Registrazioni agli eventi e inviti ufficiali compilati"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Processo di Richiesta del Visto",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registrati",
+          "description": "Iscriviti tramite il nostro sito web o app per creare un account e ricevere il tuo ID cliente unico"
+        },
+        {
+          "number": 2,
+          "title": "Valutazione",
+          "description": "Il nostro team esamina il tuo scopo, l'idoneità e i documenti richiesti per la destinazione"
+        },
+        {
+          "number": 3,
+          "title": "Preparazione",
+          "description": "Creiamo il tuo file completo secondo gli standard consolari"
+        },
+        {
+          "number": 4,
+          "title": "Appuntamento",
+          "description": "Garantiamo e confermiamo il tuo appuntamento presso il consolato, con una chiamata per verificare la tua preparazione"
+        },
+        {
+          "number": 5,
+          "title": "Consegna",
+          "description": "Il tuo file finale viene consegnato a casa con tutti i dettagli dell'appuntamento inclusi"
+        },
+        {
+          "number": 6,
+          "title": "Presentazione",
+          "description": "Partecipa all'appuntamento con passaporto e file completo"
+        },
+        {
+          "number": 7,
+          "title": "Tracciamento e Riutilizzo",
+          "description": "Monitora i progressi nel nostro portale e riutilizza le informazioni per future domande di visto"
+        }
+      ]
+    },
+    "languages": {
+      "heading": "Assistenza Multilingue",
+      "description": "Affinché la lingua non sia mai una barriera, offriamo supporto multilingue in inglese, svedese, urdu, arabo, punjabi, serbo, curdo, persiano e molte altre lingue. I nostri consulenti spiegano le regole dei visti nella lingua in cui ti senti più a tuo agio."
+    },
+    "faq": {
+      "heading": "Domande Frequenti",
+      "faqs": [
+        {
+          "id": 1,
+          "question": "Organizzate prenotazioni alberghiere e assicurazioni di viaggio per i visti?",
+          "answer": "Sì, forniamo prenotazioni alberghiere approvate dal consolato, itinerari di volo e assicurazioni di viaggio per rafforzare la tua domanda di visto."
+        },
+        {
+          "id": 2,
+          "question": "Come posso verificare se sono idoneo per un visto?",
+          "answer": "Il nostro strumento di valutazione e i nostri esperti analizzano i tuoi documenti e la storia dei viaggi per confermare l'idoneità per la destinazione scelta."
+        },
+        {
+          "id": 3,
+          "question": "Gestite visti per studenti e famiglie?",
+          "answer": "Sì, gestiamo le domande per studenti, visite familiari e ricongiungimento familiare UE con documentazione completa e controlli di conformità."
+        },
+        {
+          "id": 4,
+          "question": "Posso richiedere più visti con lo stesso file?",
+          "answer": "Sì, il nostro sistema consente di riutilizzare i documenti salvati per diversi paesi e tipi di visto, risparmiando tempo e fatica."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Perché scegliere Sweden Relocators",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Modulo Visto Universale",
+          "description": "Fai domanda per più destinazioni con le stesse informazioni, riducendo errori e risparmiando tempo"
+        },
+        {
+          "id": 2,
+          "title": "Coordinamento Consolare",
+          "description": "Rappresentanza professionale con i consolati assicura un processo fluido e riduce i rischi di rifiuto"
+        },
+        {
+          "id": 3,
+          "title": "Supporto Multilingue",
+          "description": "Assistenza in oltre 9 lingue per garantire la chiara comprensione dei requisiti"
+        },
+        {
+          "id": 4,
+          "title": "Organizzazione Completa del Viaggio",
+          "description": "Prenotazioni alberghiere, voli e assicurazioni tutte gestite per domande più solide"
+        },
+        {
+          "id": 5,
+          "title": "Strumenti Digitali Sicuri",
+          "description": "Sistema conforme al GDPR con portale sicuro e app mobile per una facile gestione dei documenti"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Pronto a viaggiare in tutto il mondo?",
+      "description": "Con l'Iniziativa del Programma Globale Visti di Sweden Relocators, uniamo tecnologia, competenza e supporto personale per rendere i viaggi internazionali semplici. Inizia oggi la tua domanda di visto.",
+      "button": "Inizia la tua richiesta di visto",
+      "subtext": "Il nostro team ti guiderà in ogni fase per garantire il successo della tua domanda."
+    }
+  }
+}

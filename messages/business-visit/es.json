@@ -1,0 +1,163 @@
+{
+  "businessVisit": {
+    "hero": {
+      "title": "Visa de negocios para Suecia: Apoyo integral para un proceso fluido",
+      "subtitle": "Asesoría experta para su visita temporal de negocios a Suecia"
+    },
+    "intro": {
+      "heading": "¿Está planeando un viaje corto de negocios o oficial a Suecia?",
+      "description": "Ya sea que usted o su empresa estén organizando un breve viaje de negocios a Suecia, nuestro equipo está aquí para simplificar el proceso de solicitud de visa de negocios para usted. Nos encargamos de todo el proceso de solicitud, para que pueda concentrarse en sus metas comerciales con total tranquilidad."
+    },
+    "whyYouNeedVisa": {
+      "heading": "¿Por qué necesita una visa de negocios para Suecia?",
+      "intro": "Una visa de negocios es esencial si planea realizar actividades profesionales en Suecia, como asistir a reuniones, negociar contratos, participar en conferencias o explorar oportunidades de inversión. Esta visa es adecuada para emprendedores, representantes de empresas y profesionales que necesitan quedarse temporalmente en Suecia con fines comerciales. La visa suele ser válida por hasta 90 días dentro de un período de 180 días, permitiendo múltiples entradas dependiendo de las necesidades de su trabajo.",
+      "subheading": "La visa de negocios sueca le permite:",
+      "benefits": [
+        {
+          "title": "Participar en actividades profesionales",
+          "description": "Asistir a reuniones de negocios, conferencias y sesiones de capacitación en Suecia."
+        },
+        {
+          "title": "Construir asociaciones",
+          "description": "Establecer y mantener relaciones con empresas o clientes suecos."
+        },
+        {
+          "title": "Evaluar oportunidades de inversión",
+          "description": "Evaluar oportunidades de inversión y negocios en Suecia."
+        },
+        {
+          "title": "Gestionar negocios",
+          "description": "Supervisar proyectos de negocios e iniciativas que requieren presencia física por un tiempo limitado."
+        }
+      ]
+    },
+    "basicRequirements": {
+      "heading": "Requisitos básicos para la visa de negocios (para solicitantes)",
+      "intro": "Para asegurar un proceso de solicitud sin problemas, se requieren los siguientes documentos:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Formulario de solicitud",
+          "description": "Formulario completamente rellenado y firmado por el solicitante."
+        },
+        {
+          "number": 2,
+          "title": "Fotografía",
+          "description": "Una fotografía reciente tamaño pasaporte (no mayor a seis meses), con fondo blanco y sin cobertura en la cabeza, a menos que sea por razones religiosas."
+        },
+        {
+          "number": 3,
+          "title": "Prueba de medios financieros",
+          "description": "Demostrar que tiene fondos suficientes para mantenerse durante su estancia, incluyendo su viaje de regreso. Generalmente, necesitará al menos 450 SEK por día, que también puede ser cubierto por la empresa patrocinadora. Envíe un estado de cuenta bancario original de los últimos seis meses o prueba de otros activos si los estados bancarios no están disponibles."
+        },
+        {
+          "number": 4,
+          "title": "Requisitos del pasaporte",
+          "details": [
+            "Debe tener al menos dos páginas en blanco.",
+            "Debe ser válido por al menos tres meses después de la fecha de finalización de su viaje planeado.",
+            "Incluir todos los pasaportes anteriores de los últimos siete años.",
+            "Incluir una fotocopia de la página biométrica y cualquier visa Schengen reciente."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Carta de invitación",
+          "description": "Una carta formal de invitación de la empresa o persona sueca en papel membretado oficial. La carta debe incluir:",
+          "details": [
+            "La dirección completa y los datos de contacto de la empresa que invita.",
+            "Nombre y puesto de la persona de contacto o firmante.",
+            "El propósito y la duración esperada de su estancia.",
+            "Quién se hará cargo de los gastos de viaje y alojamiento.",
+            "Una declaración garantizando que el solicitante abandonará Suecia antes de la expiración de la visa."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Certificado de empleo",
+          "description": "Prueba de empleo, con detalles de:",
+          "details": [
+            "Fecha de inicio del empleo.",
+            "Posición actual, salario y propósito del viaje.",
+            "Aprobación de la licencia durante el período del viaje."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Seguro de salud",
+          "description": "Seguro de viaje que cubra toda el área Schengen y que sea válido durante toda su estancia. La póliza debe cubrir al menos 30,000 EUR para cubrir los gastos de tratamiento médico de emergencia, atención hospitalaria, repatriación o muerte."
+        },
+        {
+          "number": 8,
+          "title": "Reserva de boletos de viaje",
+          "description": "Proporcione una reserva de boletos de ida y vuelta. No se requieren boletos finales, pero sí es obligatorio confirmar la reserva inicial."
+        },
+        {
+          "number": 9,
+          "title": "Prueba de alojamiento",
+          "description": "Una reserva de hotel confirmada u otra prueba de alojamiento (se requiere reserva primaria)."
+        }
+      ]
+    },
+    "employerRequirements": {
+      "heading": "Requisitos adicionales para empleadores o empresas patrocinadoras",
+      "intro": "El empleador o la empresa patrocinadora debe proporcionar los siguientes documentos:",
+      "requirements": [
+        {
+          "title": "Registro comercial y tarjeta fiscal",
+          "description": "Copia original y traducida al inglés o sueco del registro comercial de la empresa y de la tarjeta fiscal para confirmar la legitimidad de la empresa."
+        }
+      ]
+    },
+    "additionalDocuments": {
+      "heading": "Documentos adicionales que pueden ser requeridos",
+      "intro": "Algunos documentos pueden ser solicitados según su situación específica:",
+      "documents": [
+        {
+          "title": "Certificado de movimiento",
+          "description": "Requerido si es un viajero primerizo, su pasaporte no cubre los últimos siete años o si hay una brecha de más de tres meses entre su pasaporte actual y el anterior."
+        },
+        {
+          "title": "Otros documentos solicitados por la embajada",
+          "description": "Se pueden solicitar documentos adicionales por parte de la embajada dependiendo de las circunstancias individuales."
+        }
+      ]
+    },
+    "foreignInvestors": {
+      "heading": "Visa de negocios para inversionistas extranjeros",
+      "description": "Una visa de negocios sueca también es ideal para ciudadanos extranjeros que deseen invertir en Suecia y hacer visitas periódicas para gestionar sus intereses comerciales. Esta visa permite entradas múltiples y es válida para estancias cortas de hasta 90 días dentro de un período de 180 días, renovable hasta cinco años. Esta flexibilidad es especialmente útil para los inversionistas que necesitan supervisar el desarrollo comercial o hacer visitas frecuentes sin tener que solicitar un permiso de residencia.",
+      "additional": "Para viajes de negocios a corto plazo de menos de tres meses, esta visa es suficiente sin necesidad de un permiso de residencia. Sin embargo, si planea quedarse más tiempo o mudarse a largo plazo, se puede requerir un permiso de residencia."
+    },
+    "howWeAssist": {
+      "heading": "Cómo le ayudamos",
+      "intro": "Con nuestro equipo manejando el proceso de visa, puede estar seguro de que cada detalle será gestionado de manera profesional. Ofrecemos:",
+      "services": [
+        {
+          "title": "Preparación y presentación de documentos",
+          "description": "Ayuda en la recopilación, verificación y presentación de todos los documentos necesarios para asegurar un proceso fluido."
+        },
+        {
+          "title": "Asesoría sobre los requisitos financieros",
+          "description": "Asesoramiento sobre los documentos financieros necesarios para cumplir con los requisitos de visa suecos."
+        },
+        {
+          "title": "Agendamiento de citas",
+          "description": "Coordinación de citas necesarias con la embajada sueca o el consulado para la presentación de documentos y entrevistas."
+        },
+        {
+          "title": "Soporte continuo y actualizaciones",
+          "description": "Actualizaciones regulares sobre el estado de su visa y respuestas oportunas a cualquier solicitud adicional de la embajada."
+        }
+      ]
+    },
+    "closing": {
+      "description": "Nuestro servicio integral de visa le permite centrarse en sus objetivos comerciales mientras nos encargamos de la burocracia. Contáctenos hoy para obtener más información sobre cómo podemos facilitar su breve viaje de negocios a Suecia y apoyar su éxito profesional."
+    },
+    "cta": {
+      "heading": "Comience su solicitud de visa de negocios hoy",
+      "description": "Contacte a Sweden Relocators para comenzar su solicitud de visa de negocios con apoyo y orientación de expertos en cada paso del proceso.",
+      "button": "Comenzar ahora",
+      "subtext": "Visite nuestra sección de Visitas de Negocios o contáctenos para obtener más información. Nuestro equipo está listo para ayudarle a hacer negocios en Suecia."
+    }
+  }
+}

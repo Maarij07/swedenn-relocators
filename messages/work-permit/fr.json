@@ -1,0 +1,155 @@
+{
+  "workPermit": {
+    "hero": {
+      "title": "Guide complet des permis de travail en Suède",
+      "subtitle": "Découvrez la variété des permis de travail disponibles pour différents types d'emploi en Suède, chacun avec des exigences spécifiques."
+    },
+    "intro": {
+      "heading": "Comprendre les permis de travail en Suède",
+      "description": "La Suède propose plusieurs types de permis de travail pour différents types d'emploi, chacun avec des exigences uniques. Si vous prévoyez de travailler en Suède, il est essentiel de connaître les options disponibles et de vous assurer que vous répondez aux critères à jour.",
+      "toolLink": "Sweden Relocators propose un outil d'évaluation des permis de travail sur notre site Web, vous permettant de déterminer rapidement votre éligibilité et le meilleur permis pour votre situation."
+    },
+    "permitTypes": {
+      "heading": "Types de permis de travail en Suède",
+      "requirementsLabel": "Exigences",
+      "processingTimeLabel": "Délai de traitement",
+      "durationLabel": "Durée",
+      "permits": [
+        {
+          "id": "standard",
+          "title": "Permis de travail standard pour emploi",
+          "description": "Pour les personnes ayant obtenu un emploi en Suède",
+          "requirements": [
+            {"label": "Offre d'emploi", "description": "Vous devez avoir une offre d'emploi confirmée d'un employeur suédois."},
+            {"label": "Salaire minimum", "description": "Environ 30 000 SEK avant impôts. Doit respecter les conventions collectives suédoises ou les normes de l'industrie."},
+            {"label": "Conditions d'emploi", "description": "Doit respecter les normes suédoises en matière de santé, d'assurance et de cotisations retraite."},
+            {"label": "Obligation de publicité", "description": "L'emploi doit être publié dans l'UE/EEE pendant au moins 10 jours avant d'embaucher un non-UE."}
+          ],
+          "waitingTime": "1-4 mois",
+          "duration": "Jusqu'à 2 ans, avec possibilité de prolongation"
+        },
+        {
+          "id": "euBlueCard",
+          "title": "Carte Bleue UE",
+          "description": "Pour les professionnels hautement qualifiés avec des compétences recherchées dans l'UE",
+          "requirements": [
+            {"label": "Diplôme supérieur", "description": "Diplôme universitaire ou au moins 5 ans d'expérience professionnelle pertinente requis."},
+            {"label": "Seuil salarial", "description": "Offre d'emploi avec salaire supérieur au seuil minimum de la Carte Bleue UE pour la Suède."}
+          ],
+          "waitingTime": "3-4 mois",
+          "duration": "Jusqu'à 4 ans selon le contrat de travail"
+        },
+        {
+          "id": "seasonal",
+          "title": "Permis pour travailleur saisonnier",
+          "description": "Pour le travail saisonnier à court terme dans l'agriculture (cueilleurs de baies et ouvriers agricoles)",
+          "requirements": [
+            {"label": "Contrat de travail", "description": "Contrat d'un employeur suédois pour travail saisonnier jusqu'à 6 mois."},
+            {"label": "Salaires et avantages", "description": "Doivent être conformes aux conventions collectives suédoises."},
+            {"label": "Assurance santé", "description": "Doit disposer d'une assurance santé couvrant le séjour."}
+          ],
+          "waitingTime": "1-3 mois",
+          "duration": "Durée du contrat de travail, généralement jusqu'à 6 mois"
+        },
+        {
+          "id": "auPair",
+          "title": "Permis Au Pair",
+          "description": "Pour les jeunes (18–30 ans) vivant chez une famille d'accueil",
+          "requirements": [
+            {"label": "Âge requis", "description": "Doit avoir entre 18 et 30 ans."},
+            {"label": "Contrat avec la famille d'accueil", "description": "Accord formel précisant les tâches, les horaires et la rémunération."},
+            {"label": "Cours de langue", "description": "Doit suivre des cours de suédois pendant le séjour."},
+            {"label": "Allocation minimale", "description": "La famille d'accueil doit fournir une allocation conforme aux normes suédoises pour au pair."}
+          ],
+          "waitingTime": "1-2 mois",
+          "duration": "Jusqu'à un an"
+        },
+        {
+          "id": "workingHoliday",
+          "title": "Visa vacances-travail",
+          "description": "Pour les jeunes de certains pays afin de travailler et voyager",
+          "requirements": [
+            {"label": "Pays éligibles", "description": "Australie, Nouvelle-Zélande, Corée du Sud, Canada, Japon, Argentine, et autres."},
+            {"label": "Âge requis", "description": "Généralement pour les personnes de 18 à 30 ans."},
+            {"label": "Ressources suffisantes", "description": "Preuve de fonds pour subvenir à ses besoins au début du séjour."}
+          ],
+          "waitingTime": "1-2 mois",
+          "duration": "Valide pour un an avec certaines restrictions d'emploi"
+        },
+        {
+          "id": "selfEmployment",
+          "title": "Permis pour travail indépendant",
+          "description": "Pour les entrepreneurs et travailleurs indépendants créant une entreprise",
+          "requirements": [
+            {"label": "Plan d'affaires", "description": "Plan d'affaires viable démontrant la rentabilité dans les deux ans."},
+            {"label": "Fonds suffisants", "description": "Preuve de fonds pour soutenir l'entreprise et les dépenses personnelles initiales."},
+            {"label": "Expérience professionnelle", "description": "Expérience documentée dans la gestion d'entreprise ou expertise spécifique au secteur."}
+          ],
+          "waitingTime": "3-6 mois",
+          "duration": "Initialement 2 ans, avec options de prolongation"
+        },
+        {
+          "id": "sportsAndCultural",
+          "title": "Permis pour travailleurs sportifs et culturels",
+          "description": "Pour les personnes travaillant dans le sport, les arts ou la culture",
+          "requirements": [
+            {"label": "Emploi ou parrainage", "description": "Offre d'emploi d'une organisation suédoise dans le sport ou la culture."},
+            {"label": "Normes salariales", "description": "Salaires conformes aux conventions collectives et aux standards suédois."}
+          ],
+          "waitingTime": "1-2 mois",
+          "duration": "Durée du contrat avec options de prolongation"
+        },
+        {
+          "id": "researcher",
+          "title": "Permis pour chercheurs",
+          "description": "Pour les chercheurs ayant des postes dans des institutions suédoises accréditées",
+          "requirements": [
+            {"label": "Accord d'accueil", "description": "Accord avec l'institution de recherche détaillant l'activité, le financement et les conditions."},
+            {"label": "Financement du projet", "description": "Soutien financier pour la durée du projet de recherche."}
+          ],
+          "waitingTime": "1-3 mois",
+          "duration": "Durée du projet de recherche avec options de prolongation"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Processus de demande et délais",
+      "intro": "Le processus de demande et les délais varient en fonction du type de permis, des circonstances et de la charge actuelle de l'Agence suédoise des migrations.",
+      "waitingTimes": [
+        {"permit": "Permis de travail standard", "time": "1-4 mois"},
+        {"permit": "Carte Bleue UE", "time": "3-4 mois"},
+        {"permit": "Permis pour travailleur saisonnier", "time": "1-3 mois"},
+        {"permit": "Permis Au Pair", "time": "1-2 mois"},
+        {"permit": "Visa vacances-travail", "time": "1-2 mois"},
+        {"permit": "Permis pour travail indépendant", "time": "3-6 mois"},
+        {"permit": "Permis pour travailleurs sportifs et culturels", "time": "1-2 mois"},
+        {"permit": "Permis pour chercheurs", "time": "1-3 mois"}
+      ]
+    },
+    "generalRequirements": {
+      "heading": "Exigences générales pour tous les permis de travail",
+      "description": "Quel que soit le type de permis, tous les demandeurs doivent respecter ces exigences de base :",
+      "requirements": [
+        {"title": "Passeport valide", "description": "Doit être valable pour toute la durée prévue de votre séjour."},
+        {"title": "Assurance santé", "description": "Certains permis (Vacances-travail, Au Pair) nécessitent une couverture santé."},
+        {"title": "Casier judiciaire vierge", "description": "Des antécédents criminels graves peuvent entraîner un refus de permis."}
+      ]
+    },
+    "support": {
+      "heading": "Comment Sweden Relocators peut vous aider",
+      "description": "Sweden Relocators fournit un soutien complet pour tous les types de permis de travail, assurant un processus fluide et efficace :",
+      "services": [
+        {"title": "Évaluation de l'éligibilité", "description": "Utilisez notre outil d'évaluation des permis de travail pour trouver le meilleur permis pour votre situation."},
+        {"title": "Préparation des documents", "description": "Nous aidons à compiler les contrats de travail, relevés financiers et preuves d'assurance santé."},
+        {"title": "Soumission et suivi", "description": "Nous gérons la soumission et vous tenons informé à chaque étape de la demande."},
+        {"title": "Support après obtention du permis", "description": "Assistance pour le logement, l'ouverture de compte bancaire et l'enregistrement auprès des autorités suédoises."}
+      ]
+    },
+    "cta": {
+      "heading": "Commencez votre demande de permis de travail dès aujourd'hui",
+      "description": "Contactez Sweden Relocators pour lancer votre demande de permis de travail et débuter votre carrière en Suède.",
+      "button": "Commencer maintenant",
+      "subtext": "Visitez notre section Permis de travail ou contactez-nous pour plus d'informations."
+    }
+  }
+}

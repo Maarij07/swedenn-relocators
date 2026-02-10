@@ -1,0 +1,163 @@
+{
+  "businessVisit": {
+    "hero": {
+      "title": "Forretningsvisum til Sverige: Omfattende støtte til en problemfri proces",
+      "subtitle": "Ekspertvejledning til din midlertidige forretningsrejse til Sverige"
+    },
+    "intro": {
+      "heading": "Planlægger du en kort forretnings- eller officiel rejse til Sverige?",
+      "description": "Uanset om du eller din virksomhed arrangerer en kort forretningsrejse til Sverige, er vores team her for at effektivisere forretningsvisumprocessen for dig. Vi håndterer hele ansøgningsprocessen, så du kan fokusere på dine forretningsmål med fuldstændig ro i sindet."
+    },
+    "whyYouNeedVisa": {
+      "heading": "Hvorfor har du brug for et forretningsvisum til Sverige?",
+      "intro": "Et forretningsvisum er nødvendigt, hvis du planlægger at udføre professionelle aktiviteter i Sverige, såsom at deltage i møder, forhandle kontrakter, deltage i konferencer eller udforske investeringsmuligheder. Dette visum er velegnet til iværksættere, virksomhedsrepræsentanter og fagfolk, der har brug for midlertidig ophold i Sverige til forretningsformål. Visummet er typisk gyldigt i op til 90 dage indenfor en 180-dages periode, hvilket tillader flere indrejser afhængigt af dine arbejdsbehov.",
+      "subheading": "Det svenske forretningsvisum giver dig mulighed for at:",
+      "benefits": [
+        {
+          "title": "Deltage i professionelle aktiviteter",
+          "description": "Deltage i forretningsmøder, konferencer og træningssessioner i Sverige."
+        },
+        {
+          "title": "Opbygge partnerskaber",
+          "description": "Etablere og opretholde relationer med svenske virksomheder eller kunder."
+        },
+        {
+          "title": "Vurdere investeringsmuligheder",
+          "description": "Vurdere potentielle investeringer og forretningsmuligheder i Sverige."
+        },
+        {
+          "title": "Administrere forretninger",
+          "description": "Overvåge forretningsprojekter og initiativer, der kræver fysisk tilstedeværelse i en begrænset periode."
+        }
+      ]
+    },
+    "basicRequirements": {
+      "heading": "Grundlæggende krav for forretningsvisum (for ansøgere)",
+      "intro": "For at sikre en problemfri ansøgningsproces kræves følgende dokumenter:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Ansøgningsskema",
+          "description": "Et fuldt udfyldt og underskrevet skema fra ansøgeren."
+        },
+        {
+          "number": 2,
+          "title": "Fotografi",
+          "description": "Et nyligt pasfoto i farve (ikke ældre end seks måneder), med hvid baggrund og uden hovedbeklædning, medmindre det er af religiøse årsager."
+        },
+        {
+          "number": 3,
+          "title": "Bevis for økonomiske midler",
+          "description": "Vis, at du har tilstrækkelige midler til at forsørge dig selv under dit ophold, inklusive din returrejse. Typisk vil du have brug for mindst 450 SEK per dag, som også kan dækkes af den sponsorerende virksomhed. Indsend en original bankudskrift fra de sidste seks måneder eller bevis for andre aktiver, hvis bankudskrifter ikke er tilgængelige."
+        },
+        {
+          "number": 4,
+          "title": "Paskrav",
+          "details": [
+            "Har mindst to tomme sider.",
+            "Skal være gyldigt i mindst tre måneder efter slutningen af din planlagte rejse.",
+            "Inkluderer alle tidligere pas fra de sidste syv år.",
+            "Inkluder en fotokopi af den biometriske side og eventuelle seneste Schengen-visum."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Invitationsbrev",
+          "description": "Et formelt invitationsbrev fra den svenske virksomhed eller person på officielt brevpapir. Brevet skal indeholde:",
+          "details": [
+            "Den fulde adresse og kontaktoplysninger for den inviterende virksomhed.",
+            "Navn og stilling på kontaktpersonen eller underskriveren.",
+            "Formålet med og den forventede varighed af dit ophold.",
+            "Hvem der betaler for rejse- og opholdsomkostninger.",
+            "En erklæring, der garanterer, at ansøgeren vil forlade Sverige før visumets udløb."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Arbejdsgivererklæring",
+          "description": "Bevis for ansættelse, med detaljer om:",
+          "details": [
+            "Startdato for ansættelsen.",
+            "Nuvarande stilling, løn og formålet med rejsen.",
+            "Godkendelse af ferie i den periode, rejsen varer."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Sundhedsforsikring",
+          "description": "Rejseforsikring, der dækker hele Schengenområdet, og som er gyldig i hele din opholdstid. Forsikringen skal dække mindst EUR 30.000 for at dække omkostninger ved akut medicinsk behandling, hospitalspleje, repatriering eller dødsfald."
+        },
+        {
+          "number": 8,
+          "title": "Rejsebilletreservation",
+          "description": "Foreslå en tur-retur flybilletreservation. Endelige billetter er ikke nødvendige, men den første bookingbekræftelse er obligatorisk."
+        },
+        {
+          "number": 9,
+          "title": "Bevis for ophold",
+          "description": "En bekræftet hotelreservation eller andet bevis for ophold (primær reservation kræves)."
+        }
+      ]
+    },
+    "employerRequirements": {
+      "heading": "Yderligere krav for arbejdsgivere eller sponsorerende virksomheder",
+      "intro": "Arbejdsdator eller den sponsorerende virksomhed skal fremlægge følgende dokumenter:",
+      "requirements": [
+        {
+          "title": "Kommerciel registrering og skattekort",
+          "description": "Original og kopi af virksomhedens kommercielle registrering og skattekort, oversat til engelsk eller svensk, for at bekræfte virksomhedens legitimitet."
+        }
+      ]
+    },
+    "additionalDocuments": {
+      "heading": "Yderligere dokumenter, der kan kræves",
+      "intro": "Visse dokumenter kan blive anmodet om afhængigt af din specifikke situation:",
+      "documents": [
+        {
+          "title": "Bevægelsescertifikat",
+          "description": "Krav, hvis du er en førstegangsrejsende, dit pas dækker ikke de sidste syv år, eller hvis der er et hul på mere end tre måneder mellem dit nuværende og tidligere pas."
+        },
+        {
+          "title": "Andre dokumenter anmodet af ambassaden",
+          "description": "Yderligere dokumenter kan anmodes af ambassaden afhængigt af individuelle omstændigheder."
+        }
+      ]
+    },
+    "foreignInvestors": {
+      "heading": "Forretningsvisum til udenlandske investorer",
+      "description": "Et svensk forretningsvisum er også ideelt for udenlandske statsborgere, der ønsker at investere i Sverige og foretage periodiske besøg for at administrere forretningsinteresser. Dette visum tillader flere indrejser og er gyldigt for korte ophold op til 90 dage indenfor en 180-dages periode, fornybar op til fem år. Denne fleksibilitet er især fordelagtig for investorer, der har brug for at overvåge forretningsudvikling eller foretage hyppige besøg uden at ansøge om opholdstilladelse.",
+      "additional": "For kortvarige forretningsrejser på mindre end tre måneder er dette visum tilstrækkeligt uden behov for opholdstilladelse. Hvis du planlægger at blive længere eller flytte i en længere periode, kan der kræves opholdstilladelse."
+    },
+    "howWeAssist": {
+      "heading": "Hvordan vi hjælper dig",
+      "intro": "Med vores team, der håndterer visumprocessen, kan du være sikker på, at hver detalje bliver professionelt håndteret. Vi tilbyder:",
+      "services": [
+        {
+          "title": "Dokumentforberedelse og indsendelse",
+          "description": "Hjælp med at indsamle, verificere og indsende alle nødvendige dokumenter for at sikre en problemfri proces."
+        },
+        {
+          "title": "Vejledning om finansielle krav",
+          "description": "Rådgivning om de økonomiske dokumenter, der kræves for at opfylde de svenske visumkrav."
+        },
+        {
+          "title": "Aftaleplanlægning",
+          "description": "Koordinering af nødvendige aftaler med den svenske ambassade eller konsulat for dokumentindsendelse og interviews."
+        },
+        {
+          "title": "Løbende support og opdateringer",
+          "description": "Regelmæssige opdateringer om din visumstatus og rettidige svar på eventuelle ekstra anmodninger fra ambassaden."
+        }
+      ]
+    },
+    "closing": {
+      "description": "Vores omfattende visumservice gør, at du kan fokusere på dine forretningsmål, mens vi tager os af papirmøllen. Kontakt os i dag for at få mere at vide om, hvordan vi kan lette din kortvarige forretningsrejse til Sverige og støtte din professionelle succes."
+    },
+    "cta": {
+      "heading": "Start din ansøgning om forretningsvisum i dag",
+      "description": "Kontakt Sweden Relocators for at begynde din ansøgning om forretningsvisum med ekspertstøtte og vejledning hele vejen.",
+      "button": "Kom i gang",
+      "subtext": "Besøg vores Business Visit-afsnit eller kontakt os for yderligere information. Vores team er klar til at hjælpe dig med at drive forretning i Sverige."
+    }
+  }
+}

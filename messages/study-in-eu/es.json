@@ -1,0 +1,409 @@
+{
+  "studyInEu": {
+    "hero": {
+      "title": "Estudia en Suecia y la UE",
+      "subtitle": "Realiza tus sueños académicos en las mejores universidades de Europa con orientación experta de Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Tu puerta de entrada a la educación europea",
+      "description": "Suecia y la Unión Europea ofrecen educación de clase mundial con matículas asequibles, programas en inglés y excelentes oportunidades posteriores al estudio. Ya sea que aspires a estudiar ingeniería en Suecia, negocios en Dinamarca o medicina en Alemania, te guiaremos en cada paso del proceso de admisión y visa."
+    },
+    "countries": [
+      {
+        "id": "sweden",
+        "name": "Estudia en Suecia",
+        "intro": "Suecia es uno de los destinos más populares de Europa para estudiantes internacionales. Con universidades clasificadas globalmente, métodos de enseñanza innovadores y una sólida reputación en investigación, ofrece tanto educación de alta calidad como un estilo de vida excelente.",
+        "tuitionFees": {
+          "heading": "Matrícula promedio por año",
+          "fees": [
+            {
+              "category": "Estudiantes de la UE/EEE y Suiza",
+              "amount": "Gratuito en universidades públicas"
+            },
+            {
+              "category": "Estudiantes de fuera de la UE/EEE",
+              "amount": "SEK 80.000 – 295.000 (€7.500 – €25.500) según el programa y la universidad"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Períodos de admisión",
+          "intakes": [
+            {
+              "period": "Admisión de otoño",
+              "details": "Octubre – enero (estudios comienzan agosto/septiembre)"
+            },
+            {
+              "period": "Admisión de primavera",
+              "details": "Junio – agosto (estudios comienzan enero)"
+            }
+          ]
+        },
+        "popularFields": "Ingeniería, TI, Negocios, Ciencias de la Vida, Estudios Ambientales",
+        "visaRequirements": {
+          "heading": "Requisitos de visa y residencia",
+          "requirements": [
+            "UE/EEE: No se requiere visa",
+            "Fuera de la UE/EEE: Se requiere permiso de residencia para estudios de más de tres meses",
+            "Comprobante de fondos: aproximadamente SEK 10.300 por mes para gastos de manutención",
+            "Seguro de salud requerido para estadías menores a un año"
+          ]
+        },
+        "workRights": "Los estudiantes pueden trabajar sin límite de horas durante los estudios, y después de la graduación pueden solicitar un permiso de residencia de un año para buscar trabajo o iniciar un negocio."
+      },
+      {
+        "id": "denmark",
+        "name": "Estudia en Dinamarca",
+        "intro": "Dinamarca combina la excelencia académica con un entorno amigable para los negocios. Se ofrecen más de 500 programas en inglés en las principales universidades y colegios.",
+        "tuitionFees": {
+          "heading": "Matrícula promedio por año",
+          "fees": [
+            {
+              "category": "Estudiantes de la UE/EEE",
+              "amount": "Gratuito en instituciones públicas"
+            },
+            {
+              "category": "Estudiantes de fuera de la UE/EEE",
+              "amount": "€7.000 – €17.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Períodos de admisión",
+          "intakes": [
+            {
+              "period": "Admisión de otoño",
+              "details": "El plazo de solicitud cierra en marzo (estudios comienzan agosto/septiembre)"
+            },
+            {
+              "period": "Admisión de primavera",
+              "details": "El plazo de solicitud cierra en septiembre (estudios comienzan enero/febrero, cursos limitados)"
+            }
+          ]
+        },
+        "popularFields": "Diseño, Arquitectura, Negocios, Ingeniería, TI, Ciencias de la Vida",
+        "visaRequirements": {
+          "heading": "Requisitos de visa y residencia",
+          "requirements": [
+            "Comprobante de fondos: aproximadamente €1.000 por mes para gastos de manutención",
+            "El seguro de salud debe estar asegurado antes de la llegada"
+          ]
+        },
+        "workRights": "Los estudiantes pueden trabajar hasta 20 horas por semana durante los semestres y tiempo completo durante las vacaciones."
+      },
+      {
+        "id": "germany",
+        "name": "Estudia en Alemania",
+        "intro": "Alemania es uno de los destinos de estudio más asequibles y atractivos de Europa, con casi 400.000 estudiantes internacionales.",
+        "tuitionFees": {
+          "heading": "Matrícula promedio por año",
+          "fees": [
+            {
+              "category": "Universidades públicas",
+              "amount": "Gratuito o €0 – €3.000 (solo tarifas administrativas)"
+            },
+            {
+              "category": "Universidades privadas",
+              "amount": "€6.000 – €12.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Períodos de admisión",
+          "intakes": [
+            {
+              "period": "Semestre de invierno",
+              "details": "Solicitud mayo – julio (comienza septiembre/octubre)"
+            },
+            {
+              "period": "Semestre de verano",
+              "details": "Solicitud noviembre – enero (comienza marzo/abril)"
+            }
+          ]
+        },
+        "popularFields": "Ingeniería, Negocios, Informática, Medicina, Ciencias Naturales",
+        "visaRequirements": {
+          "heading": "Requisitos de visa y residencia",
+          "requirements": [
+            "Comprobante de finanzas: aproximadamente €11.000 por año en una cuenta bloqueada",
+            "Se requiere seguro de salud obligatorio"
+          ]
+        },
+        "workRights": "20 horas por semana durante el semestre, tiempo completo durante las vacaciones."
+      },
+      {
+        "id": "uk",
+        "name": "Estudia en el Reino Unido",
+        "intro": "El Reino Unido es hogar de algunas de las mejores universidades del mundo y un sistema de títulos internacionalmente reconocido.",
+        "tuitionFees": {
+          "heading": "Matrícula promedio por año",
+          "fees": [
+            {
+              "category": "Estudiantes de la UE/EEE",
+              "amount": "€10.000 – €13.000"
+            },
+            {
+              "category": "Estudiantes de fuera de la UE",
+              "amount": "€12.000 – €25.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Períodos de admisión",
+          "intakes": [
+            {
+              "period": "Septiembre/octubre",
+              "details": "Admisión principal"
+            },
+            {
+              "period": "Enero/febrero",
+              "details": "Admisión secundaria, programas limitados"
+            },
+            {
+              "period": "Mayo",
+              "details": "Admisión de verano en universidades seleccionadas"
+            }
+          ]
+        },
+        "popularFields": "Derecho, Negocios, Ingeniería, Medicina, Ciencias Sociales",
+        "visaRequirements": {
+          "heading": "Requisitos de visa y residencia",
+          "requirements": [
+            "Se requiere visa de estudiante para no UE/EEE",
+            "Comprobante de matrícula pagada más €1.200 por mes (Londres) u otro según la ubicación"
+          ]
+        },
+        "workRights": "20 horas por semana durante el término, tiempo completo durante las vacaciones."
+      },
+      {
+        "id": "latvia",
+        "name": "Estudia en Letonia",
+        "intro": "Letonia proporciona educación asequible y condiciones de vida tranquilas.",
+        "tuitionFees": {
+          "heading": "Matrícula promedio por año",
+          "fees": [
+            {
+              "category": "General",
+              "amount": "€3.000 – €6.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Períodos de admisión",
+          "intakes": [
+            {
+              "period": "Septiembre",
+              "details": "Admisión principal"
+            },
+            {
+              "period": "Febrero",
+              "details": "Admisión secundaria"
+            }
+          ]
+        },
+        "popularFields": "Medicina, Negocios, TI, Ingeniería",
+        "visaRequirements": {
+          "heading": "Requisitos de visa y residencia",
+          "requirements": [
+            "Se requiere visa de estudiante y comprobante de gastos de manutención",
+            "El seguro de salud es obligatorio"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "lithuania",
+        "name": "Estudia en Lituania",
+        "intro": "Lituania ofrece fuertes tradiciones académicas y más de 350 programas en inglés.",
+        "tuitionFees": {
+          "heading": "Matrícula promedio por año",
+          "fees": [
+            {
+              "category": "General",
+              "amount": "€3.000 – €7.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Períodos de admisión",
+          "intakes": [
+            {
+              "period": "Septiembre",
+              "details": "Admisión principal"
+            },
+            {
+              "period": "Febrero",
+              "details": "Admisión secundaria"
+            }
+          ]
+        },
+        "popularFields": "Negocios, Medicina, Ingeniería, Economía",
+        "visaRequirements": {
+          "heading": "Requisitos de visa y residencia",
+          "requirements": [
+            "Se requiere permiso de residencia para estudiantes de fuera de la UE",
+            "Se requiere comprobante financiero y seguros"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "czechRepublic",
+        "name": "Estudia en la República Checa",
+        "intro": "La República Checa es un destino creciente para estudiantes internacionales en Europa Central.",
+        "tuitionFees": {
+          "heading": "Matrícula promedio por año",
+          "fees": [
+            {
+              "category": "Universidades públicas",
+              "amount": "€2.000 – €5.000"
+            },
+            {
+              "category": "Universidades privadas",
+              "amount": "€5.000 – €10.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Períodos de admisión",
+          "intakes": [
+            {
+              "period": "Septiembre",
+              "details": "Admisión principal"
+            },
+            {
+              "period": "Febrero",
+              "details": "Programas limitados"
+            }
+          ]
+        },
+        "popularFields": "Medicina, Negocios, Ingeniería, Artes",
+        "visaRequirements": {
+          "heading": "Requisitos de visa y residencia",
+          "requirements": [
+            "Se requiere visa de estudiante para estudiantes de fuera de la UE",
+            "Debe probarse comprobante de finanzas y alojamiento"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "norway",
+        "name": "Estudia en Noruega",
+        "intro": "Noruega es conocida por la educación gratuita en universidades públicas.",
+        "tuitionFees": {
+          "heading": "Matrícula promedio por año",
+          "fees": [
+            {
+              "category": "Universidades públicas",
+              "amount": "Gratuito (solo tarifa administrativa €50–€100)"
+            },
+            {
+              "category": "Universidades privadas",
+              "amount": "€5.000 – €10.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Períodos de admisión",
+          "intakes": [
+            {
+              "period": "Otoño",
+              "details": "Comienza agosto/septiembre, admisión principal"
+            },
+            {
+              "period": "Primavera",
+              "details": "Limitado a programas seleccionados"
+            }
+          ]
+        },
+        "popularFields": "Energía, Ciencias Marinas, Ingeniería, TI, Ciencias Naturales",
+        "visaRequirements": {
+          "heading": "Requisitos de visa y residencia",
+          "requirements": [
+            "Se requiere comprobante de aproximadamente €12.000 por año para gastos de manutención",
+            "El seguro de salud es obligatorio"
+          ]
+        },
+        "workRights": "20 horas por semana durante el semestre, tiempo completo durante las vacaciones."
+      },
+      {
+        "id": "finland",
+        "name": "Estudia en Finlandia",
+        "intro": "Finlandia ofrece educación moderna con un fuerte enfoque en investigación e innovación.",
+        "tuitionFees": {
+          "heading": "Matrícula promedio por año",
+          "fees": [
+            {
+              "category": "Estudiantes de la UE/EEE",
+              "amount": "Gratuito en universidades públicas"
+            },
+            {
+              "category": "Estudiantes de fuera de la UE",
+              "amount": "€8.000 – €20.000 según el programa y la universidad"
+            },
+            {
+              "category": "Programas de doctorado",
+              "amount": "Gratuito para todos los estudiantes"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Períodos de admisión",
+          "intakes": [
+            {
+              "period": "Septiembre",
+              "details": "Admisión principal — solicitud noviembre – enero"
+            },
+            {
+              "period": "Enero",
+              "details": "Admisión secundaria, programas limitados — solicitud en septiembre"
+            }
+          ]
+        },
+        "popularFields": "TI, Ingeniería, Diseño, Negocios, Educación",
+        "visaRequirements": {
+          "heading": "Requisitos de visa y residencia",
+          "requirements": [
+            "Se requiere permiso de residencia para estudiantes de fuera de la UE",
+            "Comprobante de fondos: mínimo €800 por mes (€9.600 por año)",
+            "Se requiere seguro de salud"
+          ]
+        },
+        "workRights": "Los estudiantes pueden trabajar 20–25 horas por semana durante los semestres y tiempo completo durante las vacaciones. Después de la graduación, el permiso de trabajo está disponible para graduados."
+      }
+    ],
+    "whyChoose": {
+      "heading": "Por qué elegir Sweden Relocators AB",
+      "services": [
+        {
+          "title": "Asesoramiento completo de admisión",
+          "description": "Asesoramiento completo de admisión para programas de Licenciatura, Maestría y Doctorado en Suecia y la UE"
+        },
+        {
+          "title": "Servicios documentales",
+          "description": "Legalización de documentos, traducción y preparación para universidades y autoridades de migración"
+        },
+        {
+          "title": "Apoyo de visa y residencia",
+          "description": "Las solicitudes de visa y permiso de residencia se manejan con precisión"
+        },
+        {
+          "title": "Asistencia financiera",
+          "description": "Asesoramiento de becas y finanzas adaptado a cada país"
+        },
+        {
+          "title": "Apoyo posterior al estudio",
+          "description": "Apoyo continuo para la renovación del permiso de residencia y el empleo posterior al estudio"
+        }
+      ],
+      "description": "En Sweden Relocators AB, hacemos que estudiar en Suecia y Europa sea simple, transparente y sin estrés. Desde tu primera solicitud hasta tu graduación y más allá, te guiaremos en cada paso."
+    },
+    "cta": {
+      "heading": "Comienza tu viaje de estudio en Europa hoy",
+      "description": "Contacta a Sweden Relocators para obtener orientación experta en tu solicitud y proceso de visa.",
+      "button": "Empezar",
+      "subtext": "Las regulaciones educativas varían según el país. Siempre consulta sitios web universitarios e de inmigración oficiales para la información más actualizada."
+    }
+  }
+}

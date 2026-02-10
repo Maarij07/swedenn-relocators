@@ -1,0 +1,218 @@
+{
+  "euCitizensParentsPermit": {
+    "hero": {
+      "title": "EU:n oleskelukortti riippuvaisille vanhemmille ja muille perheenjäsenille direktiivin 2004/38/EY mukaisesti",
+      "subtitle": "Asiantuntijaohjaus riippuvaisten perheenjäsenten tuomiseksi Ruotsiin"
+    },
+    "intro": {
+      "heading": "Perheen Yhdistäminen EU:n vapaan liikkuvuuden kautta",
+      "description": "EU:n direktiivin 2004/38/EY mukaisesti EU/ETA-kansalaiset, jotka käyttävät oikeuttaan vapaan liikkuvuuden harjoittamiseen Ruotsissa, voivat hakea oleskelukorttiaan heidän riippuvaisille perheenjäsenilleen EU:n ulkopuolelta, mukaan lukien vanhemmat ja muut perheenjäsenet. Tämä direktiivi pyrkii edistämään perheen yhdistämistä antamalla EU-kansalaisille mahdollisuuden tuoda perheenjäseniä, jotka ovat heistä taloudellisesti tai sosiaalisesti riippuvaisia, asumaan Ruotsiin. Tässä on syvällinen katsaus vaatimuksiin, hakuprosessiin ja erityisiä tapauksia riippuvaisille vanhemmille ja muille perheenjäsenille."
+    },
+    "whoQualifies": {
+      "heading": "Kuka Kelpaavat Riippuvaiseksi Perheenjäseneksi?",
+      "intro": "Ollakseen kelvollinen direktiivin 2004/38/EY mukaisesti ei-EU-perheenjäsenen on kuuluttava johonkin seuraavista luokista:",
+      "categories": [
+        {
+          "number": 1,
+          "title": "Riippuvaiset Vanhemmat",
+          "description": "EU-kansalaisen tai tämän puolison/kumppanin vanhemmat, jotka ovat riippuvaisia EU-kansalaisesta taloudellisen tuen tai muun olennaiset hoidon osalta."
+        },
+        {
+          "number": 2,
+          "title": "Muut Riippuvaiset Perheenjäsenet",
+          "description": "Tämä voi sisältää sisarukset tai lähempää perheenjäsenet, jos on selkeä riippuvuussuhde, erityisesti jos perheenjäsen ja EU-kansalainen asuivat yhdessä aiemmassa asuinmaassa."
+        },
+        {
+          "number": 3,
+          "title": "Lapset tai Omat Lapset",
+          "description": "Yli 21-vuotiaat lapset voivat myös kelvata riippuvaisiksi, jos he ovat riippuvaisia EU-kansalaisesta, vaikka tämä arvioidaan eri tavalla kuin alaikäisille."
+        }
+      ]
+    },
+    "keyConditions": {
+      "heading": "Avainedellytykset Kelpoisuudelle",
+      "conditions": [
+        {
+          "number": 1,
+          "title": "Riippuvuuden Todiste",
+          "description": "Hakijan on esitettävä todisteet, jotka osoittavat taloudellisen tai henkilökohtaisen riippuvuuden EU-kansalaisesta. Tämä voi sisältää yhteisen asuinpaikan todistuk, säännölliset taloudelliset tuet tai emotionaalisen ja sosiaalisen riippuvuuden dokumentaation."
+        },
+        {
+          "number": 2,
+          "title": "Aiempi Yhteiselämä",
+          "description": "Tapauksissa, joissa on mukana lainempireita (kuten sisaruksia tai aikuisia lapsia), hakijan on osoitettava, että hän asui EU-kansalaisen kanssa kotimaillaan heti ennen kuin EU-kansalainen muutti Ruotsiin."
+        },
+        {
+          "number": 3,
+          "title": "Oikea-aikainen Hakemus",
+          "description": "Hakemukset olisi ihanteellisesti tehtävä niin pian kuin mahdollista EU-kansalaisen saavuttua Ruotsiin. Myöhästyneet hakemukset voivat vähentää hyväksymisen todennäköisyyttä, erityisesti jos riippuvuus kehittyi vasta EU-kansalaisen muuton jälkeen."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Hakuprosessi Oleskelukortille direktiivin 2004/38/EY mukaisesti",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Valmista Dokumentaatio Riippuvuudesta ja Suhteesta",
+          "intro": "Tarvittavan dokumentaation kerääminen on kriittistä. Tärkeät dokumentit sisältävät:",
+          "documents": [
+            {
+              "title": "Henkilöllisyystodistus",
+              "description": "Voimassa oleva passi ei-EU-perheenjäsenelle."
+            },
+            {
+              "title": "Suhteen Todiste",
+              "details": [
+                "Vanhemmille: EU-kansalaisen syntymätodistus, joka osoittaa vanhemmuussuhteen.",
+                "Muille perheenjäsenille: Asiakirjat, jotka osoittavat perhesuhteet (esim. syntymätodistukset tai perherekisterit)."
+              ]
+            },
+            {
+              "title": "Riippuvuuden Todiste",
+              "description": "Tämä voi sisältää pankkiote, säännöllisten rahansiirtojen todisteet, yhteisen asunnon todisteet ja muut asiakirjat, jotka osoittavat riippuvuuden EU-kansalaisesta taloudellisesta tai emotionaalisesta tuesta."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Jätä Hakemus",
+          "intro": "Ei-EU-perheenjäsenen on haettava oleskelukortissa, jonka voi jättää Ruotsin Maahanmuuttovirastolle (Migrationsverket) verkkojen välityksellä tai ruotsalaise suurlähetystön kautta hakijan kotimaassa tai konsulaatissa.",
+          "details": [
+            "Hakijan Tiedot: Tiedot EU-kansalaisesta, heidän oleskelustatus Ruotsissa ja riippuvaisen henkilötiedot.",
+            "Tukemat Asiakirjat: Kaikki vaaditut asiakirjat, jotka osoittavat riippuvuussuhteen ja todistavat EU-kansalaisen asumisen Ruotsissa."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Maahanmuuttoviraston Katsaus",
+          "intro": "Maahanmuuttovirasto arvioi suhteen ja riippuvuuden esitettyjen todisteiden perusteella. He voivat pyytää lisä dokumentaatio tai selvennysksia tarvittaessa. Katsaus keskittyy:",
+          "details": [
+            "Riippuvuuden Vahvistaminen: Vahvistus, että ei-EU-perheenjäsen on todella riippuvainen EU-kansalaisesta.",
+            "Perhesuhde: Vahvistus hakijan perhesuhteet EU-kansalaiseen ja varmistus, että riippuvuus oli olemassa ennen muuttoa Ruotsiin."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Päätös ja Oleskelukorttin Myöntäminen",
+          "description": "Jos hyväksytty, ei-EU-perheenjäsen saa oleskelukorttin, joka on voimassa viisi vuotta tai EU-kansalaisen Ruotsissa oleskelun odotettu kesto (riippuen siitä, kumpi on lyhempi). Oleskelukortti antaa haltijalle oikeuden asua, työskennella ja saada terveyspalveluja Ruotsissa samoissa olosuhteissa kuin EU-perheenjäset."
+        }
+      ]
+    },
+    "specificCases": {
+      "heading": "Erityistapaukset: Vaatimukset Riippuvaisille Vanhemmille ja Muille Perheenjäsenille",
+      "dependentParents": {
+        "heading": "Oleskelulupa Riippuvaisille Vanhemmille",
+        "intro": "Riippuvaisille vanhemmille pääasiallisia ehtoja ovat taloudellisen tai terveydellisen riippuvuuden osoittaminen EU-kansalaisesta. Hyväksyttävän dokumentaation esimerkkejä voivat olla:",
+        "documentation": [
+          {
+            "title": "Taloudellisen Tuen Todiste",
+            "description": "Pankkisiirrot, rahansiirtojen kuitit tai todisteet säännöllisista taloudellisen tuen EU-kansalaiselta."
+          },
+          {
+            "title": "Terveydellinen Riippuvuus",
+            "description": "Lääkintötodistukset tai erityisten tarpeiden dokumentaatio, joka vaatii lähellä oloa EU-kansalaiselle tuen ja hoidon osalta."
+          }
+        ],
+        "note": "Tapauksissa, joissa vanhemmalla on merkittäviä terveydellisiä tarpeita, voidaan vaatia lisädokumentaatio osoittamaan, että asianmukaisia hoitovaihtoehtoja ei ole saatavana kotimaan alueella."
+      },
+      "otherFamilyMembers": {
+        "heading": "Oleskelulupa Muille Riippuvaisille Perheenjäsenille",
+        "intro": "Muille riippuvaisille perheenjäsenille (kuten aikuisille sisaruksille tai etäisemmille perheenjäsenille) vaatimukset ovat yleensä tiukemmat:",
+        "requirements": [
+          {
+            "title": "Yhteisen Kotitalouden Todiste",
+            "description": "Todiste siitä, että perheenjäsen asui EU-kansalaisen kanssa ennen heidän muuttoaan Ruotsiin, kuten yhteinen vuokrasopimus tai sähkölaskut."
+          },
+          {
+            "title": "Emotionaalinen ja Sosiaalinen Riippuvuus",
+            "description": "Valaistuja julistuksia tai vakuutuksia, jotka osoittavat vahva sosiaalinen ja emotionaalinen sitoutumus saattavat olla vaadittu, varsinkin jos suhde ylittää taloudellisen riippuvuuden."
+          }
+        ]
+      }
+    },
+    "maintenanceRequirement": {
+      "heading": "Kunnossapitovelvoite EU-Sponsorille",
+      "intro": "Ruotsin säännösten mukaan EU-kansalaisen on kyettävä antamaan taloudellisen tuen ja asianmukaisen asunnon heidän ei-EU-perheenjäsenelleen. Tämä sisältää:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Vakaa Tulot",
+          "description": "Todiste työstä, säännöllisiä tuloja tai taloudellisia varoja, joissa osoitetaan, että EU-kansalainen voi ylläpitää itseään ja riippuvaistaan."
+        },
+        {
+          "number": 2,
+          "title": "Asumisvaatimus",
+          "description": "EU-kansalaisella on oltava asianmukainen asunto, joka täyttää ruotsalaiset asuinpinta-alan ja yksityisyyden standardit. Tämä voi sisältää vuokrasopimukset, asunnon omistajuuden todisteet tai alivuokraukseen vuokranantajan luvalla."
+        }
+      ],
+      "note": "Kunnossapitovelvoite ei koske alaikäisiä lapsia (alle 18 vuotta). Tämä tarkoittaa, että jos vanhempi hakee alaikäisen lapsen mukaan Ruotsiin, lapsella ei ole oltava tuloja tai asumisvaatimuksia."
+    },
+    "additionalConsiderations": {
+      "heading": "Muut Huomioon Otettavat Tekijät",
+      "timeliness": {
+        "heading": "Hakemuksen Ajoitus",
+        "description": "Hakemukset, jotka jätetään pian EU-kansalaisen muuton Ruotsiin jälkeen, ovat todennäköisemmin onnistuneet. Pitkät viiveet hakemuksen jätössä voivat vaikeuttaa prosessia, koska viranomaiset voivat kyseenalaistaa aiemman riippuvuuden olemassaolon. Ihannetapauksessa riippuvaisten perheenjäsenten hakemukset olisi jätettävä muutaman kuukauden kuluessa EU-kansalaisen saavuttua Ruotsiin."
+      },
+      "changes": {
+        "heading": "Muutokset Riippuvuustilassa",
+        "description": "Jos riippuvuustilamuuttuu (esimerkiksi jos ei-EU-perheenjäsen tulee taloudellisesti riippumattomaksi), se voi vaikuttaa oleskelukorttin tilaan. Ruotsin Maahanmuuttovirasto voi säännöllisesti katsastaa nämä tapaukset oleskelukriteerien noudattamisen varmistamiseksi."
+      },
+      "renewal": {
+        "heading": "Oleskelukorttin Uusiminen",
+        "description": "Riippuvaisille perheenjäsenille myönnetyt oleskelukortit ovat yleensä voimassa viisi vuotta. Uusiminen on mahdollista edellyttäen, että riippuvuussuhde jatkuu ja EU-kansalainen pysyy Ruotsin asukkaana. Uusimishakemukset tulee jättää kauan ennen voimassaolon päätymistä päivitetyllä dokumentaatiolla, jotka osoittava jatkuvaa riippuvuutta."
+      }
+    },
+    "howWeHelp": {
+      "heading": "Kuinka Sweden Relocators voi Auttaa EU:n Oleskelukortinhakemusten Kanssa",
+      "intro": "EU:n oleskelukortinhakemusprosessin navigointi riippuvaisille perheenjäsenille direktiivin 2004/38/EY mukaisesti voi olla monimutkaista. Sweden Relocators tarjoaa asiantuntija-apua, auttaa varmistamaan, että kaikki dokumentaatio on kunnossa, ja ohjaa sinua hakuprosessin jokaisen vaiheen läpi.",
+      "subheading": "Palvelumme Sisältävät:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Kelpoisuuden Arviointi",
+          "description": "Arvioimme perheesi erityiset olosuhteet määrittääksemme, ovatko ei-EU-perheenjäsenesi oikeutettuja riippuvaisiksi ruotsalaisen lain mukaisesti."
+        },
+        {
+          "number": 2,
+          "title": "Dokumentaation Valmistaminen",
+          "description": "Tiimimme auttaa keräämään ja valmistelemaan kaikki vaadittavat asiakirjat, mukaan lukien suhteen, riippuvuuden ja taloudellisen tuen todisteet."
+        },
+        {
+          "number": 3,
+          "title": "Hakemuksen Jättö ja Seuranta",
+          "description": "Avustamme hakemuksen jättämisessä ja seuramme edistymistä Maahanmuuttoviraston kanssa oikea-aikaisten päivitysten varmistamiseksi."
+        },
+        {
+          "number": 4,
+          "title": "Valitusapu",
+          "description": "Hakemuksenhyväksymisepäonnistumistapauksessa tarjoamme ohjausta valitusprosessiin, jotka auttavat vahvistamaan tapaustasi uudelleenharkintaa varten."
+        }
+      ]
+    },
+    "benefitsOfService": {
+      "heading": "Palvelumme Edut",
+      "benefits": [
+        {
+          "title": "Asiantuntijaohjausta",
+          "description": "Tutustuminen direktiiviin 2004/38/EY ja Maahanmuuttoviraston vaatimuksiin antaa meille mahdollisuuden tarjota tarkkaa ja tehokasta neuvontaa."
+        },
+        {
+          "title": "Kattava Tuki",
+          "description": "Kelpoisuuden arvioinnista dokumentaation valmisteluun ja valitusapuun hallitsemme kaikki hakemuksesi näkökulmat."
+        },
+        {
+          "title": "Henkilökohtainen Palvelu",
+          "description": "Jokainen tapaus on uniikki ja mukautan lähestymistapaani perheesi erityistarpeisiin, jotta voimme tarjota tehokkaimmat ratkaisut."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Tuo Rakkaasi Ruotsiin Tänään",
+      "description": "Jos tarvitset apua EU:n oleskelukortinhakemukseen riippuvaisille vanhemmillesi tai muille perheenjäsenille, Sweden Relocators on täällä auttamaan. Ota meihin yhteyttä tänään keskustellaksesi perheesi kelpoistuksesta ja tietäaksesi, kuinka voimme tukea matkaa rakkaidesi kanssa yhdistymiseen."
+      ,
+      "button": "Aloita",
+      "subtext": "Vieraile EU:n Palauttavat Vanhemmat Lupasivuilla tai ota meihin yhteyttä lisätiedoille. Tiimimme on valmis auttamaan sinua perheesi kanssa liittymisessä."
+    }
+  }
+}

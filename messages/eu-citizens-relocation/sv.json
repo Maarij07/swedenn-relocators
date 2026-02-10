@@ -1,0 +1,195 @@
+{
+  "euCitizensRelocation": {
+    "hero": {
+      "title": "EU-familjeåterförening i Sverige",
+      "subtitle": "Omfattande stöd för EU-medborgare och deras familjer"
+    },
+    "intro": {
+      "heading": "Ta med din EU-familj till Sverige",
+      "description": "Att flytta till Sverige som EU-medborgare ger dig en lagstadgad rätt att ta med din familj, så att dina närstående kan ansluta sig och ta del av Sveriges höga livskvalitet, sjukvård, utbildning och sociala förmåner. Sweden Relocators erbjuder professionellt stöd vid EU-familjeåterförening, inklusive behörighetsbedömning, dokumentation, uppehållskort, personnummerregistrering, bostad och integration.",
+      "infoBox": "EU-familjeåterförening i Sverige baseras på direktiv 2004/38/EG, som ger EU-medborgare bosatta i Sverige rätt att ta med familjemedlemmar och få tillgång till sjukvård, utbildning och sociala förmåner på samma villkor som andra bosatta."
+    },
+    "whatIs": {
+      "heading": "Vad är EU-familjeåterförening?",
+      "description": "EU-familjeåterförening i Sverige regleras av direktiv 2004/38/EG om EU-medborgares och deras familjers rätt att fritt röra sig och uppehålla sig inom EU. Det ger EU-medborgare som bor i Sverige möjlighet att ta med både närmaste och utvidgade familjemedlemmar, förutsatt att vissa villkor uppfylls."
+    },
+    "immediateFamilyHeading": "Närmaste familjemedlemmar som är berättigade till återförening",
+    "immediateFamily": [
+      {
+        "type": "Make/maka eller registrerad partner",
+        "description": "Omfattar både olikkönade och samkönade äktenskap samt registrerade partnerskap som erkänns enligt svensk lag."
+      },
+      {
+        "type": "Sambo",
+        "description": "Om relationen är långvarig och erkänns som jämförbar med äktenskap i Sverige."
+      },
+      {
+        "type": "Barn under 21 år",
+        "description": "Biologiska eller adopterade barn till EU-medborgaren eller deras make/partner."
+      },
+      {
+        "type": "Ekonomiskt beroende barn över 21 år",
+        "description": "Om de är ekonomiskt beroende av EU-medborgaren."
+      },
+      {
+        "type": "Ekonomiskt beroende föräldrar och mor- eller farföräldrar",
+        "description": "Släktingar i rakt uppstigande led som är ekonomiskt beroende."
+      }
+    ],
+    "extendedFamily": {
+      "heading": "Utvidgade familjemedlemmar och beroende",
+      "description": "I vissa fall kan även utvidgade familjemedlemmar beviljas om ett beroendeförhållande kan styrkas. Detta kan inkludera vuxna syskon, vuxna barn som bor i samma hushåll samt andra släktingar med starka beroendeband. Kraven för utvidgad familjeåterförening är strängare och kräver tydlig dokumentation av beroende."
+    },
+    "longTermPermitHeading": "Innehavare av EU-uppehållstillstånd för varaktigt bosatta",
+    "longTermPermitRequirements": [
+      "Inneha ett giltigt uppehållstillstånd för varaktigt bosatta utfärdat av en annan EU-stat",
+      "Ha tillräckliga ekonomiska medel och bostad i Sverige",
+      "Ansöka om uppehåll i Sverige tillsammans med sina närmaste familjemedlemmar"
+    ],
+    "residenceCard": {
+      "heading": "Uppehållskort för familjemedlemmar",
+      "intro": "Familjemedlemmar som planerar att stanna i Sverige längre än tre månader måste ansöka om uppehållskort hos Migrationsverket.",
+      "documentsLabel": "Nödvändiga handlingar:",
+      "documents": [
+        "Giltigt pass",
+        "Bevis på familjerelation (vigselbevis, registreringsbevis för partnerskap eller födelsebevis)",
+        "Bevis på ekonomiskt beroende (för föräldrar, mor- eller farföräldrar eller barn över 21 år)",
+        "Bevis på EU-medborgarens bosättning i Sverige (hyresavtal, bostadsägande eller anställningsavtal)",
+        "Ekonomiskt underlag som visar att EU-medborgaren kan försörja sig själv och sin familj"
+      ],
+      "note": "Uppehållskort är vanligtvis giltiga i fem år eller så länge EU-medborgaren är bosatt i Sverige."
+    },
+    "personnummer": {
+      "heading": "Personnummer (svenskt personnummer)",
+      "intro": "När familjemedlemmar har fått sitt uppehållskort måste de registrera sig hos Skatteverket för att få ett personnummer. Detta nummer är nödvändigt för att:",
+      "uses": [
+        "Få tillgång till sjukvård",
+        "Registrera barn i skola",
+        "Öppna bankkonto",
+        "Teckna avtal (bostad, mobilabonnemang, el och andra tjänster)"
+      ]
+    },
+    "healthcare": {
+      "heading": "Sjukvård och sjukförsäkring",
+      "description": "Familjemedlemmar får tillgång till den svenska offentliga sjukvården när de har ett personnummer. Fram till dess krävs privat sjukförsäkring. För familjemedlemmar som inte är EU-medborgare rekommenderas en heltäckande sjukförsäkring med ett täckningsbelopp på minst 30 000 EUR."
+    },
+    "education": {
+      "heading": "Utbildning och barnomsorg",
+      "programs": [
+        {
+          "name": "Obligatorisk skolgång",
+          "description": "Kostnadsfri utbildning för barn i åldern 6–16 år, inklusive skolmåltider"
+        },
+        {
+          "name": "Förskola",
+          "description": "Tillgänglig för barn i åldern 1–5 år med subventionerade avgifter"
+        },
+        {
+          "name": "Internationella skolor",
+          "description": "Alternativ för familjer som önskar undervisning på engelska eller andra språk"
+        }
+      ]
+    },
+    "bankAccounts": {
+      "heading": "Bankkonton och ekonomisk etablering",
+      "intro": "Efter att ha fått ett personnummer kan familjemedlemmar öppna ett svenskt bankkonto. Vanligtvis krävs följande handlingar:",
+      "documents": [
+        "ID-kort från Skatteverket",
+        "Uppehållskort",
+        "Adressbevis",
+        "Inkomstbevis (om tillämpligt)"
+      ],
+      "note": "Ett bankkonto ger tillgång till digitala betalningar, internetbank och Swish."
+    },
+    "language": {
+      "heading": "Språk- och integrationsstöd",
+      "description": "Att lära sig svenska är avgörande för integration. Familjemedlemmar kan delta i SFI (Svenska för invandrare) när de har registrerats och fått ett personnummer. Dessa kostnadsfria, statligt finansierade kurser förbättrar vardagskommunikation och möjligheter till arbete. Sweden Relocators erbjuder även kulturell introduktion för att hjälpa familjer att snabbare komma till rätta."
+    },
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Bedömning av behörighet",
+        "description": "Sweden Relocators kontrollerar om familjemedlemmar uppfyller kraven enligt EU-reglerna."
+      },
+      {
+        "step": "2",
+        "title": "Förberedelse av dokument",
+        "description": "Insamling och översättning av nödvändiga handlingar."
+      },
+      {
+        "step": "3",
+        "title": "Inlämning till Migrationsverket",
+        "description": "Ansökan om uppehållskort skickas in."
+      },
+      {
+        "step": "4",
+        "title": "Uppföljning och kommunikation",
+        "description": "Hantering av eventuella kompletteringar från Migrationsverket."
+      },
+      {
+        "step": "5",
+        "title": "Registrering hos Skatteverket",
+        "description": "Stöd med personnummer, ID-kort och skatteregistrering."
+      },
+      {
+        "step": "6",
+        "title": "Integrationstjänster",
+        "description": "Stöd med bostad, skolor, sjukvård och språkinlärning."
+      }
+    ],
+    "services": {
+      "heading": "Så hjälper Sweden Relocators familjer",
+      "description": "Våra heltäckande tjänster och vår digitala portal säkerställer att din familjeåterförening sker smidigt, korrekt och utan stress.",
+      "servicesList": [
+        {
+          "title": "Behörighetskontroller och juridiska bedömningar",
+          "description": "Vi säkerställer att dina familjemedlemmar uppfyller kraven enligt EU-lagstiftningen."
+        },
+        {
+          "title": "Dokumenthantering och auktoriserade översättningar",
+          "description": "Alla handlingar förbereds och översätts professionellt för svenska myndigheter."
+        },
+        {
+          "title": "Ansökningsinlämning och uppföljning",
+          "description": "Vi skickar in ansökningar och följer processen hos Migrationsverket."
+        },
+        {
+          "title": "Stöd vid överklaganden",
+          "description": "Vid avslag erbjuder vi fullt stöd genom hela överklagandeprocessen."
+        },
+        {
+          "title": "Bostads- och skolsökning",
+          "description": "Vi hjälper till att hitta bostad och registrera barn i skolor."
+        },
+        {
+          "title": "Försäkrings- och sjukvårdsstöd",
+          "description": "Rådgivning kring tillgång till svensk sjukvård och försäkringskrav."
+        }
+      ]
+    },
+    "whySweden": [
+      {
+        "title": "Starkt välfärdssystem",
+        "description": "Tillgång till omfattande sjukvård, utbildning och socialförsäkringar."
+      },
+      {
+        "title": "Gratis utbildning och sjukvård",
+        "description": "Utbildning och sjukvård i världsklass för alla bosatta."
+      },
+      {
+        "title": "Tryggt och familjevänligt",
+        "description": "Sverige erbjuder en säker, inkluderande och högkvalitativ miljö för familjer."
+      },
+      {
+        "title": "Trygga uppehållsrättigheter",
+        "description": "Juridiskt skydd enligt både EU-rätten och svensk migrationslagstiftning."
+      }
+    ],
+    "cta": {
+      "heading": "Redo att starta din EU-familjeåterförening?",
+      "description": "Sweden Relocators finns här för att säkerställa att din flytt sker smidigt, korrekt och utan stress. Kontakta oss idag för att påbörja er familjeåterförening. Vår digitala portal gör det möjligt att hantera profiler, ladda upp dokument och följa processen i realtid.",
+      "button": "Starta EU-familjeåterförening",
+      "subtext": "Vårt expertteam guidar din familj genom varje steg i EU-familjeåterföreningen i Sverige."
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "businessVisit": {
+    "hero": {
+      "title": "Liikematkaviisumi Ruotsiin: Kattava tuki sujuvaan prosessiin",
+      "subtitle": "Asiantuntijaopastus tilapäiselle liikematkallesi Ruotsiin"
+    },
+    "intro": {
+      "heading": "Suunnitteletko lyhyttä liikematkaa tai virallista matkaa Ruotsiin?",
+      "description": "Olipa kyseessä sinun tai yrityksesi järjestämä lyhyt liikematka Ruotsiin, tiimimme on täällä yksinkertaistamassa liikematkaviisumin hakuprosessia puolestasi. Hoidamme koko hakuprosessin, jotta voit keskittyä liiketoimintatavoitteisiisi täysin mielenrauhalla."
+    },
+    "whyYouNeedVisa": {
+      "heading": "Miksi tarvitset liikematkaviisumin Ruotsiin?",
+      "intro": "Liikematkaviisumi on välttämätön, jos suunnittelet ammatillisten toimintojen harjoittamista Ruotsissa, kuten osallistumista kokouksiin, sopimusten neuvottelemista, konferensseihin osallistumista tai sijoitusmahdollisuuksien tutkimista. Tämä viisumi sopii yrittäjille, yritysrekisteröijille ja ammattilaisille, jotka tarvitsevat tilapäistä oleskelua Ruotsissa liiketoimintatarkoituksiin. Viisumi on yleensä voimassa enintään 90 päivää 180 päivän aikana, ja se sallii useita sisäänpääsyjä työn tarpeidesi mukaan.",
+      "subheading": "Ruotsin liikematkaviisumi mahdollistaa seuraavat asiat:",
+      "benefits": [
+        {
+          "title": "Osallistuminen ammatillisiin aktiviteetteihin",
+          "description": "Osallistuminen liikekokouksiin, konferensseihin ja koulutussessioihin Ruotsissa."
+        },
+        {
+          "title": "Yhteistyösuhteiden rakentaminen",
+          "description": "Rakentaa ja ylläpitää suhteita ruotsalaisiin yrityksiin tai asiakkaisiin."
+        },
+        {
+          "title": "Sijoitusmahdollisuuksien arviointi",
+          "description": "Arvioida mahdollisia sijoitus- ja liiketoimintamahdollisuuksia Ruotsissa."
+        },
+        {
+          "title": "Liiketoiminnan hallinta",
+          "description": "Valvoa liiketoimintaprojekteja ja aloitteita, jotka vaativat fyysistä läsnäoloa rajoitetuksi ajaksi."
+        }
+      ]
+    },
+    "basicRequirements": {
+      "heading": "Perusvaatimukset liikematkaviisumille (hakijoille)",
+      "intro": "Varmistaaksesi sujuvan hakuprosessin, seuraavat asiakirjat ovat pakollisia:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Hakemuslomake",
+          "description": "Täytetty ja allekirjoitettu lomake hakijalta."
+        },
+        {
+          "number": 2,
+          "title": "Valokuva",
+          "description": "Äskettäin otettu passikuvallinen valokuva (ei yli kuusi kuukautta vanha), valkoisella taustalla ja ilman pään peitettä, ellei se ole uskonnollisista syistä sallittua."
+        },
+        {
+          "number": 3,
+          "title": "Todistus taloudellisista varoista",
+          "description": "Todista, että sinulla on riittävästi varoja elättääksesi itsesi oleskelusi aikana, mukaan lukien paluulippusi. Yleensä sinun on oltava vähintään 450 SEK päivässä, ja tämä voidaan kattaa sponsoriyrityksellä. Lähetä alkuperäinen pankkivaihtoehto viimeisten kuuden kuukauden ajalta tai muulla tavoin omaisuutesi todistukset, jos pankkitilit eivät ole saatavilla."
+        },
+        {
+          "number": 4,
+          "title": "Passivaatimukset",
+          "details": [
+            "Pitäisi olla vähintään kaksi tyhjää sivua.",
+            "Pitäisi olla voimassa vähintään kolme kuukautta matkan päättymisestä.",
+            "Sisältää kaikki aiemmat passit viimeisten seitsemän vuoden ajalta.",
+            "Sisältää valokuvan biometrisestä sivusta ja kaikki viimeisimmät Schengen-viisumit."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Kutsukirje",
+          "description": "Virallinen kutsukirje Ruotsin yritykseltä tai henkilöltä virallisella kirjeheadillä. Kirjeessä tulee olla seuraavat tiedot:",
+          "details": [
+            "Kutsuvan yrityksen täydellinen osoite ja yhteystiedot.",
+            "Nimen ja aseman henkilöstä tai allekirjoittajasta.",
+            "Oleskelusi tarkoitus ja arvioitu kesto.",
+            "Kuka maksaa matka- ja majoituskustannukset.",
+            "Vakuutus, että hakija lähtee Ruotsista viisumin voimassaolon päätyttyä."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Työtodistus",
+          "description": "Työtodistus, jossa on seuraavat tiedot:",
+          "details": [
+            "Työsuhteen alkamispäivämäärä.",
+            "Nykyinen asema, palkka ja matkan tarkoitus.",
+            "Vapaus hyväksytään matkan ajaksi."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Sairausvakuutus",
+          "description": "Matkavakuutus, joka kattaa koko Schengen-alueen ja on voimassa koko oleskelusi ajan. Vakuutuksen tulee kattaa vähintään 30 000 euroa hätähoidon, sairaalahoitoon, palautuksen tai kuoleman kustannukset."
+        },
+        {
+          "number": 8,
+          "title": "Matkalippuvaraus",
+          "description": "Anna menolippu ja paluulippu. Lopullisia lippuja ei vaadita, mutta alkuperäinen varausvahvistus on pakollinen."
+        },
+        {
+          "number": 9,
+          "title": "Majoitusilmoitus",
+          "description": "Vahvistettu hotellivaraus tai muu majoitusilmoitus (perusvaraus vaaditaan)."
+        }
+      ]
+    },
+    "employerRequirements": {
+      "heading": "Lisävaatimukset työnantajille tai sponsoriyrityksille",
+      "intro": "Työnantajan tai sponsoriyrityksen on esitettävä seuraavat asiakirjat:",
+      "requirements": [
+        {
+          "title": "Kaupallinen rekisteröinti ja verokortti",
+          "description": "Yrityksen kaupallisen rekisteröinnin ja verokortin alkuperäinen ja kopio, käännetty englanniksi tai ruotsiksi yrityksen laillisuuden vahvistamiseksi."
+        }
+      ]
+    },
+    "additionalDocuments": {
+      "heading": "Lisäasiakirjat, joita voidaan vaatia",
+      "intro": "Tietyt asiakirjat voidaan pyytää tapauskohtaisesti:",
+      "documents": [
+        {
+          "title": "Liikkumattomuustodistus",
+          "description": "Vaaditaan, jos olet ensimmäistä kertaa matkustava henkilö, passisi ei kata viimeisiä seitsemää vuotta, tai jos on yli kolme kuukautta eroa nykyisen ja edellisen passin välillä."
+        },
+        {
+          "title": "Muista asiakirjoista, jotka suurlähetystö voi pyytää",
+          "description": "Lisäasiakirjat voivat suurlähetystö pyytää yksilöllisten olosuhteiden mukaan."
+        }
+      ]
+    },
+    "foreignInvestors": {
+      "heading": "Liikematkaviisumi ulkomaalaisille sijoittajille",
+      "description": "Ruotsin liikematkaviisumi on myös ihanteellinen ulkomaisille kansalaisille, jotka haluavat investoida Ruotsiin ja tehdä säännöllisiä matkoja liiketoiminnan hallintaan. Tämä viisumi sallii useita sisäänpääsyjä ja on voimassa lyhyille vierailuille jopa 90 päiväksi 180 päivän aikana, ja se voidaan uusia jopa viideksi vuodeksi. Tämä joustavuus on erityisen hyödyllinen sijoittajille, jotka tarvitsevat valvontaa liiketoiminnan kehittämisestä tai tekevät säännöllisiä matkoja ilman oleskelulupaa.",
+      "additional": "Lyhytaikaisille liikematkustuksille, jotka kestävät alle kolme kuukautta, tämä viisumi on riittävä eikä tarvitse oleskelulupaa. Jos suunnittelet pidempää oleskelua tai muuttoa pidemmäksi ajaksi, oleskelulupa saatetaan tarvita."
+    },
+    "howWeAssist": {
+      "heading": "Kuinka autamme sinua",
+      "intro": "Tiimimme hoitaessa viisumiprosessia, voit olla varma, että kaikki yksityiskohdat käsitellään ammattimaisesti. Tarjoamme:",
+      "services": [
+        {
+          "title": "Dokumenttien valmistelu ja jättämistä",
+          "description": "Apua kaikkien tarvittavien asiakirjojen kokoamiseen, tarkistamiseen ja jättämiseen sujuvan prosessin varmistamiseksi."
+        },
+        {
+          "title": "Opastusta taloudellisista vaatimuksista",
+          "description": "Neuvoja taloudellisten asiakirjojen hankkimiseen ja suomen viisumin vaatimusten täyttämiseen."
+        },
+        {
+          "title": "Ajanvarausten tekeminen",
+          "description": "Suunnittelu tarvittavat tapaamiset Ruotsin suurlähetystö tai konsulaatti asiakirjat jättämistä ja haastattelut."
+        },
+        {
+          "title": "Jatkuva tuki ja päivitykset",
+          "description": "Säännölliset päivitykset viisumistatuksestasi ja nopeat vastaukset mahdollisiin suurlähetystön lisäpyyntöihin."
+        }
+      ]
+    },
+    "closing": {
+      "description": "Meidän kattava viisumipalvelu mahdollistaa sinun keskittyvän liiketoiminnan tavoitteisiin, samalla kuin me hoidamme paperityöt. Ota yhteyttä tänään saadaksesi lisätietoja siitä, kuinka voimme helpottaa lyhytaikaista liikematkustasi Ruotsiin ja tukea ammatillista menestystäsi."
+    },
+    "cta": {
+      "heading": "Aloita liikematkaviisumihakemuksesi tänään",
+      "description": "Ota yhteyttä Sweden Relocators aloittaaksesi liikematkaviisumihakemuksesi asiantuntevalla tuella ja ohjauksella joka vaiheessa.",
+      "button": "Aloita nyt",
+      "subtext": "Vieraile Business Visit -osiossamme tai ota meihin yhteyttä lisätietoja varten. Tiimimme on valmis auttamaan sinua liiketoiminnassasi Ruotsissa."
+    }
+  }
+}

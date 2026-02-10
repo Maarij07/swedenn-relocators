@@ -1,0 +1,409 @@
+{
+  "studyInEu": {
+    "hero": {
+      "title": "Opiskele Ruotsissa ja EU:ssa",
+      "subtitle": "Toteuta akateemiset unelmasi Euroopan parhaissa yliopistoissa Sweden Relocators AB:n asiantuntevalla ohjauksella"
+    },
+    "intro": {
+      "heading": "Sinun porttisi eurooppalaiseen koulutukseen",
+      "description": "Ruotsi ja Euroopan unioni tarjoavat maailmanluokan koulutusta edullisilla lukukausimaksuilla, opetusohjelmin englanniksi ja erinomaisilla näkymillä opintojen jälkeen. Olivatpa uelmasi insinööriopinnot Ruotsissa, liiketalousopinnot Tanskassa tai lääketiede Saksassa, ohjaamme sinua hakemis- ja viisumiprosessin jokaisessa vaiheessa."
+    },
+    "countries": [
+      {
+        "id": "sweden",
+        "name": "Opiskele Ruotsissa",
+        "intro": "Ruotsi on yksi Euroopan suosituimmista kohteista kansainvälisille opiskelijoille. Globaalisti luokitellut yliopistot, innovatiiviset opetusmetodit ja vahva tutkimuksen maine tarjoavat sekä korkealaatuista koulutusta että erinomaista elämäntapaa.",
+        "tuitionFees": {
+          "heading": "Keskimääräiset vuosittaiset lukukausimaksut",
+          "fees": [
+            {
+              "category": "EU/ETA- ja Sveitsin opiskelijat",
+              "amount": "Ilmainen julkisissa yliopistoissa"
+            },
+            {
+              "category": "EU/ETA-ulkopuoliset opiskelijat",
+              "amount": "SEK 80.000 – 295.000 (€7.500 – €25.500) riippuen ohjelmasta ja yliopistosta"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Hakukaudet",
+          "intakes": [
+            {
+              "period": "Syksyn hakukausi",
+              "details": "Lokakuu – tammikuu (opinnot alkavat elokuu/syyskuu)"
+            },
+            {
+              "period": "Kevään hakukausi",
+              "details": "Kesäkuu – elokuu (opinnot alkavat tammikuu)"
+            }
+          ]
+        },
+        "popularFields": "Tekniikka, IT, Liiketalous, Biotiede, Ympäristöopinnot",
+        "visaRequirements": {
+          "heading": "Viisumi- ja oleskelulupavaatimukset",
+          "requirements": [
+            "EU/ETA: Viisumia ei vaadita",
+            "EU/ETA-ulkopuoliset: Oleskelulupa vaaditaan yli kolmen kuukauden opintoihin",
+            "Varojen todistus: noin SEK 10.300 kuukaudessa elinkustannuksiin",
+            "Sairausvakuutus vaaditaan alle vuoden oleskelulle"
+          ]
+        },
+        "workRights": "Opiskelijat voivat työskennellä rajoituksetta opintojen aikana, ja valmistumisen jälkeen he voivat hakea yksivuotista oleskelulupaa työpaikan etsintää tai yrityksen perustamista varten."
+      },
+      {
+        "id": "denmark",
+        "name": "Opiskele Tanskassa",
+        "intro": "Tanska yhdistää akateemisen erinomaisuuden ja liiketoiminta-ystävällisen ympäristön. Yli 500 englanninkielistä ohjelmaa tarjotaan pääyliopistoissa ja korkeakouluissa.",
+        "tuitionFees": {
+          "heading": "Keskimääräiset vuosittaiset lukukausimaksut",
+          "fees": [
+            {
+              "category": "EU/ETA-opiskelijat",
+              "amount": "Ilmainen julkisissa laitoksissa"
+            },
+            {
+              "category": "EU/ETA-ulkopuoliset opiskelijat",
+              "amount": "€7.000 – €17.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Hakukaudet",
+          "intakes": [
+            {
+              "period": "Syksyn hakukausi",
+              "details": "Hakuaika sulkeutuu maaliskuussa (opinnot alkavat elokuu/syyskuu)"
+            },
+            {
+              "period": "Kevään hakukausi",
+              "details": "Hakuaika sulkeutuu syyskuussa (opinnot alkavat tammikuu/helmikuu, rajalliset kurssit)"
+            }
+          ]
+        },
+        "popularFields": "Muotoilu, Arkkitehtuuri, Liiketalous, Tekniikka, IT, Biotiede",
+        "visaRequirements": {
+          "heading": "Viisumi- ja oleskelulupavaatimukset",
+          "requirements": [
+            "Varojen todistus: noin €1.000 kuukaudessa elinkustannuksiin",
+            "Sairausvakuutus on turvattu ennen saapumista"
+          ]
+        },
+        "workRights": "Opiskelijat voivat työskennellä enintään 20 tuntia viikossa lukukausien aikana ja kokopäivää koululoman aikana."
+      },
+      {
+        "id": "germany",
+        "name": "Opiskele Saksassa",
+        "intro": "Saksa on yksi Euroopan edullisimmista ja houkuttelevimmista opiskelun kohteista, lähes 400.000 kansainvälisen opiskelijan kanssa.",
+        "tuitionFees": {
+          "heading": "Keskimääräiset vuosittaiset lukukausimaksut",
+          "fees": [
+            {
+              "category": "Julkiset yliopistot",
+              "amount": "Ilmainen tai €0 – €3.000 (vain hallintomaksut)"
+            },
+            {
+              "category": "Yksityiset yliopistot",
+              "amount": "€6.000 – €12.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Hakukaudet",
+          "intakes": [
+            {
+              "period": "Talvilukukausi",
+              "details": "Hakemus toukokuu – heinäkuu (alkaa syyskuu/lokakuu)"
+            },
+            {
+              "period": "Kesälukukausi",
+              "details": "Hakemus marraskuu – tammikuu (alkaa maaliskuu/huhtikuu)"
+            }
+          ]
+        },
+        "popularFields": "Tekniikka, Liiketalous, Tietojenkäsittelytiede, Lääketiede, Luonnontieteet",
+        "visaRequirements": {
+          "heading": "Viisumi- ja oleskelulupavaatimukset",
+          "requirements": [
+            "Varojen todistus: noin €11.000 vuodessa lukitulla tilillä",
+            "Pakollinen sairausvakuutus vaaditaan"
+          ]
+        },
+        "workRights": "20 tuntia viikossa lukukauden aikana, kokopäivää koululoman aikana."
+      },
+      {
+        "id": "uk",
+        "name": "Opiskele Yhdistyneessä kuningaskunnassa",
+        "intro": "Yhdistynyt kuningaskunta on kotona maailman joillekin parhailla yliopistoilla ja kansainvälisesti tunnustetulla tutkinnon järjestelmällä.",
+        "tuitionFees": {
+          "heading": "Keskimääräiset vuosittaiset lukukausimaksut",
+          "fees": [
+            {
+              "category": "EU/ETA-opiskelijat",
+              "amount": "€10.000 – €13.000"
+            },
+            {
+              "category": "EU-ulkopuoliset opiskelijat",
+              "amount": "€12.000 – €25.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Hakukaudet",
+          "intakes": [
+            {
+              "period": "Syyskuu/lokakuu",
+              "details": "Päähaun"
+            },
+            {
+              "period": "Tammikuu/helmikuu",
+              "details": "Toissijainen haku, rajalliset ohjelmat"
+            },
+            {
+              "period": "Toukokuu",
+              "details": "Kesän haku valituissa yliopistoissa"
+            }
+          ]
+        },
+        "popularFields": "Laki, Liiketalous, Tekniikka, Lääketiede, Yhteiskuntatieteet",
+        "visaRequirements": {
+          "heading": "Viisumi- ja oleskelulupavaatimukset",
+          "requirements": [
+            "Opiskelijaviisumi vaaditaan EU/ETA-ulkopuolisille",
+            "Maksetun lukukausimaksun todistus plus €1.200/kk (Lontoo) tai vähemmän muualla"
+          ]
+        },
+        "workRights": "20 tuntia viikossa lukukauden aikana, kokopäivää koululoman aikana."
+      },
+      {
+        "id": "latvia",
+        "name": "Opiskele Latviassa",
+        "intro": "Latvia tarjoaa edullista koulutusta ja rauhallisia elinkeinoja.",
+        "tuitionFees": {
+          "heading": "Keskimääräiset vuosittaiset lukukausimaksut",
+          "fees": [
+            {
+              "category": "Yleinen",
+              "amount": "€3.000 – €6.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Hakukaudet",
+          "intakes": [
+            {
+              "period": "Syyskuu",
+              "details": "Päähaun"
+            },
+            {
+              "period": "Helmikuu",
+              "details": "Toissijainen haun"
+            }
+          ]
+        },
+        "popularFields": "Lääketiede, Liiketalous, IT, Tekniikka",
+        "visaRequirements": {
+          "heading": "Viisumi- ja oleskelulupavaatimukset",
+          "requirements": [
+            "Opiskelijaviisumi ja elinkustannusten todistus vaaditaan",
+            "Sairausvakuutus on pakollinen"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "lithuania",
+        "name": "Opiskele Liettuassa",
+        "intro": "Liettua tarjoaa vahvoja akateemisia perintöjä ja yli 350 englanninkielistä ohjelmaa.",
+        "tuitionFees": {
+          "heading": "Keskimääräiset vuosittaiset lukukausimaksut",
+          "fees": [
+            {
+              "category": "Yleinen",
+              "amount": "€3.000 – €7.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Hakukaudet",
+          "intakes": [
+            {
+              "period": "Syyskuu",
+              "details": "Päähaun"
+            },
+            {
+              "period": "Helmikuu",
+              "details": "Toissijainen haun"
+            }
+          ]
+        },
+        "popularFields": "Liiketalous, Lääketiede, Tekniikka, Taloustiede",
+        "visaRequirements": {
+          "heading": "Viisumi- ja oleskelulupavaatimukset",
+          "requirements": [
+            "Oleskelulupa vaaditaan EU-ulkopuolisille opiskelijoille",
+            "Rahoitustodistus ja vakuutukset vaaditaan"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "czechRepublic",
+        "name": "Opiskele Tšekin tasavallassa",
+        "intro": "Tšekin tasavalta on kasvava kohde kansainvälisille opiskelijoille Keski-Euroopassa.",
+        "tuitionFees": {
+          "heading": "Keskimääräiset vuosittaiset lukukausimaksut",
+          "fees": [
+            {
+              "category": "Julkiset yliopistot",
+              "amount": "€2.000 – €5.000"
+            },
+            {
+              "category": "Yksityiset yliopistot",
+              "amount": "€5.000 – €10.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Hakukaudet",
+          "intakes": [
+            {
+              "period": "Syyskuu",
+              "details": "Päähaun"
+            },
+            {
+              "period": "Helmikuu",
+              "details": "Rajalliset ohjelmat"
+            }
+          ]
+        },
+        "popularFields": "Lääketiede, Liiketalous, Tekniikka, Taide",
+        "visaRequirements": {
+          "heading": "Viisumi- ja oleskelulupavaatimukset",
+          "requirements": [
+            "Opiskelijaviisumi vaaditaan EU-ulkopuolisille opiskelijoille",
+            "Rahoitus- ja asuntotodistus on esitettävä"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "norway",
+        "name": "Opiskele Norjassa",
+        "intro": "Norja tunnetaan ilmaisesta koulutuksesta julkisissa yliopistoissa.",
+        "tuitionFees": {
+          "heading": "Keskimääräiset vuosittaiset lukukausimaksut",
+          "fees": [
+            {
+              "category": "Julkiset yliopistot",
+              "amount": "Ilmainen (vain €50–€100 hallintomaksut)"
+            },
+            {
+              "category": "Yksityiset yliopistot",
+              "amount": "€5.000 – €10.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Hakukaudet",
+          "intakes": [
+            {
+              "period": "Syksy",
+              "details": "Alkaa elokuu/syyskuu, päähaun"
+            },
+            {
+              "period": "Kevät",
+              "details": "Rajattu valittuihin ohjelmiin"
+            }
+          ]
+        },
+        "popularFields": "Energia, Meritutkimus, Tekniikka, IT, Luonnontieteet",
+        "visaRequirements": {
+          "heading": "Viisumi- ja oleskelulupavaatimukset",
+          "requirements": [
+            "Noin €12.000/vuosi elinkustannuksiin todistus vaaditaan",
+            "Sairausvakuutus on pakollinen"
+          ]
+        },
+        "workRights": "20 tuntia viikossa lukukauden aikana, kokopäivää koululoman aikana."
+      },
+      {
+        "id": "finland",
+        "name": "Opiskele Suomessa",
+        "intro": "Suomi tarjoaa modernia koulutusta vahvalla tutkimukseen ja innovaatioon keskittymisellä.",
+        "tuitionFees": {
+          "heading": "Keskimääräiset vuosittaiset lukukausimaksut",
+          "fees": [
+            {
+              "category": "EU/ETA-opiskelijat",
+              "amount": "Ilmainen julkisissa yliopistoissa"
+            },
+            {
+              "category": "EU-ulkopuoliset opiskelijat",
+              "amount": "€8.000 – €20.000 ohjelmasta ja yliopistosta riippuen"
+            },
+            {
+              "category": "Tohtorin ohjelmat",
+              "amount": "Ilmainen kaikille opiskelijoille"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Hakukaudet",
+          "intakes": [
+            {
+              "period": "Syyskuu",
+              "details": "Päähaun — hakemus marraskuu – tammikuu"
+            },
+            {
+              "period": "Tammikuu",
+              "details": "Toissijainen haku, rajalliset ohjelmat — hakemus syyskuussa"
+            }
+          ]
+        },
+        "popularFields": "IT, Tekniikka, Muotoilu, Liiketalous, Koulutus",
+        "visaRequirements": {
+          "heading": "Viisumi- ja oleskelulupavaatimukset",
+          "requirements": [
+            "Oleskelulupa vaaditaan EU-ulkopuolisille opiskelijoille",
+            "Varojen todistus: vähintään €800/kk (€9.600/vuosi)",
+            "Sairausvakuutus vaaditaan"
+          ]
+        },
+        "workRights": "Opiskelijat voivat työskennellä 20–25 tuntia viikossa lukukausien aikana ja kokopäivää koululoman aikana. Valmistumisen jälkeen työntekijälupa on saatavilla valmistuneille."
+      }
+    ],
+    "whyChoose": {
+      "heading": "Miksi valita Sweden Relocators AB",
+      "services": [
+        {
+          "title": "Kattava pääsyneuvonta",
+          "description": "Kattava pääsyneuvonta kandidaatti-, maisterin ja tohtorin ohjelmille Ruotsissa ja EU:ssa"
+        },
+        {
+          "title": "Asiakirjapalvelut",
+          "description": "Asiakirjojen laillistaminen, käännös ja valmistelu yliopistoille ja siirtolaisuusviranomaisille"
+        },
+        {
+          "title": "Viisumi- ja oleskelutuki",
+          "description": "Viisumi- ja oleskelulupahakemusasiat käsitellään tarkasti"
+        },
+        {
+          "title": "Taloudellinen tuki",
+          "description": "Apurahojen ja talouden neuvonta, joka on räätälöity jokaiselle maalle"
+        },
+        {
+          "title": "Tuki-opintojen jälkeen",
+          "description": "Jatkuva tuki oleskelulupan uusimiseen ja työllisyyteen opintojen jälkeen"
+        }
+      ],
+      "description": "Sweden Relocators AB:ssä teemme Ruotsissa ja Euroopassa opiskelun yksinkertaiseksi, läpinäkyväksi ja stressittömäksi. Ensimmäisestä hakemuksestasi valmistumiseesi ja sen jälkeen ohjaamme sinua jokaisessa vaiheessa."
+    },
+    "cta": {
+      "heading": "Aloita Euroopan opiskelumatka tänään",
+      "description": "Ota yhteyttä Sweden Relocators saadaksesi asiantuntevaa ohjausta hakemuksestasi ja viisumiprosessistasi.",
+      "button": "Aloita",
+      "subtext": "Koulutussäädökset vaihtelevat maittain. Tarkista aina virallisista yliopisto- ja maahanmuuttopalvelujen verkkosivuista uusimmat tiedot."
+    }
+  }
+}

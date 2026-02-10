@@ -1,0 +1,155 @@
+{
+  "workPermit": {
+    "hero": {
+      "title": "Umfassender Leitfaden zu Arbeitserlaubnissen in Schweden",
+      "subtitle": "Entdecken Sie die verschiedenen Arbeitserlaubnisse für unterschiedliche Beschäftigungsarten in Schweden, jeweils mit eigenen Anforderungen."
+    },
+    "intro": {
+      "heading": "Arbeitserlaubnisse in Schweden verstehen",
+      "description": "Schweden bietet verschiedene Arbeitserlaubnisse für unterschiedliche Beschäftigungsarten an, jede mit eigenen Anforderungen. Wenn Sie planen, in Schweden zu arbeiten, ist es wichtig, die verfügbaren Optionen zu kennen und sicherzustellen, dass Sie die aktuellen Kriterien erfüllen.",
+      "toolLink": "Sweden Relocators bietet auf unserer Website ein Tool zur Überprüfung der Arbeitserlaubnis, mit dem Sie schnell Ihre Berechtigung und die beste Erlaubnis für Ihre Situation bestimmen können."
+    },
+    "permitTypes": {
+      "heading": "Arten von Arbeitserlaubnissen in Schweden",
+      "requirementsLabel": "Anforderungen",
+      "processingTimeLabel": "Bearbeitungszeit",
+      "durationLabel": "Dauer",
+      "permits": [
+        {
+          "id": "standard",
+          "title": "Standard-Arbeitserlaubnis für Beschäftigung",
+          "description": "Für Personen, die eine Anstellung in Schweden erhalten haben",
+          "requirements": [
+            {"label": "Arbeitsangebot", "description": "Sie müssen ein bestätigtes Arbeitsangebot eines schwedischen Arbeitgebers haben."},
+            {"label": "Mindestgehalt", "description": "Ca. 30.000 SEK vor Steuern. Muss schwedischen Tarifverträgen oder Branchenstandards entsprechen."},
+            {"label": "Beschäftigungsbedingungen", "description": "Muss den schwedischen Standards für Gesundheit, Versicherung und Rentenbeiträge entsprechen."},
+            {"label": "Werbungspflicht", "description": "Die Stelle muss mindestens 10 Tage innerhalb der EU/EEA ausgeschrieben sein, bevor ein Nicht-EU-Bürger eingestellt wird."}
+          ],
+          "waitingTime": "1-4 Monate",
+          "duration": "Bis zu 2 Jahre, mit Verlängerungsmöglichkeit"
+        },
+        {
+          "id": "euBlueCard",
+          "title": "EU Blue Card",
+          "description": "Für hochqualifizierte Fachkräfte mit in der EU gefragten Fähigkeiten",
+          "requirements": [
+            {"label": "Hochschulabschluss", "description": "Universitätsabschluss oder mindestens 5 Jahre relevante Berufserfahrung erforderlich."},
+            {"label": "Gehaltsgrenze", "description": "Arbeitsangebot mit Gehalt über der Mindestgrenze der EU Blue Card für Schweden."}
+          ],
+          "waitingTime": "3-4 Monate",
+          "duration": "Bis zu 4 Jahre entsprechend dem Arbeitsvertrag"
+        },
+        {
+          "id": "seasonal",
+          "title": "Saisonarbeiter-Erlaubnis",
+          "description": "Für kurzfristige Saisonarbeit in der Landwirtschaft (Beerenpflücker, Pflanzenarbeiter)",
+          "requirements": [
+            {"label": "Arbeitsvertrag", "description": "Vertrag mit schwedischem Arbeitgeber für saisonale Arbeit bis zu 6 Monaten."},
+            {"label": "Löhne und Leistungen", "description": "Müssen den schwedischen Tarifverträgen entsprechen."},
+            {"label": "Krankenversicherung", "description": "Muss eine Krankenversicherung für den Aufenthalt haben."}
+          ],
+          "waitingTime": "1-3 Monate",
+          "duration": "Dauer des Arbeitsvertrags, typischerweise bis zu 6 Monate"
+        },
+        {
+          "id": "auPair",
+          "title": "Au-pair-Erlaubnis",
+          "description": "Für junge Personen (18–30 Jahre), die bei einer Gastfamilie leben",
+          "requirements": [
+            {"label": "Altersanforderung", "description": "Muss zwischen 18 und 30 Jahre alt sein."},
+            {"label": "Gastfamilienvertrag", "description": "Formaler Vertrag mit Aufgaben, Arbeitszeiten und Vergütung."},
+            {"label": "Sprachstudium", "description": "Es ist erforderlich, während des Aufenthalts Schwedischkurse zu besuchen."},
+            {"label": "Mindestvergütung", "description": "Die Gastfamilie muss eine Vergütung gemäß dem schwedischen Au-pair-Standard zahlen."}
+          ],
+          "waitingTime": "1-2 Monate",
+          "duration": "Bis zu einem Jahr"
+        },
+        {
+          "id": "workingHoliday",
+          "title": "Working-Holiday-Visum",
+          "description": "Für junge Menschen aus bestimmten Ländern, um zu arbeiten und zu reisen",
+          "requirements": [
+            {"label": "Berechtigte Länder", "description": "Australien, Neuseeland, Südkorea, Kanada, Japan, Argentinien und andere."},
+            {"label": "Altersanforderung", "description": "Typischerweise für Personen zwischen 18 und 30 Jahren."},
+            {"label": "Ausreichende Mittel", "description": "Nachweis von Mitteln zur anfänglichen Selbstversorgung."}
+          ],
+          "waitingTime": "1-2 Monate",
+          "duration": "Gültig für ein Jahr mit bestimmten Beschäftigungsbeschränkungen"
+        },
+        {
+          "id": "selfEmployment",
+          "title": "Erlaubnis für Selbstständige",
+          "description": "Für Unternehmer und Selbstständige, die ein Unternehmen gründen",
+          "requirements": [
+            {"label": "Geschäftsplan", "description": "Nachweis eines tragfähigen Geschäftsplans, der innerhalb von zwei Jahren Rentabilität zeigt."},
+            {"label": "Ausreichende Mittel", "description": "Nachweis von Mitteln zur Unterstützung des Geschäfts und der persönlichen Ausgaben in der Anfangsphase."},
+            {"label": "Berufserfahrung", "description": "Dokumentierte Erfahrung in der Unternehmensführung oder branchenspezifische Expertise."}
+          ],
+          "waitingTime": "3-6 Monate",
+          "duration": "Zunächst 2 Jahre, mit Verlängerungsoptionen"
+        },
+        {
+          "id": "sportsAndCultural",
+          "title": "Erlaubnis für Sport- und Kulturschaffende",
+          "description": "Für Personen, die im Sport-, Kunst- oder Kulturbereich arbeiten",
+          "requirements": [
+            {"label": "Beschäftigung oder Sponsoring", "description": "Arbeitsangebot von einer schwedischen Organisation im Sport- oder Kulturbereich."},
+            {"label": "Gehaltsstandards", "description": "Löhne entsprechend Tarifverträgen und schwedischen Standards."}
+          ],
+          "waitingTime": "1-2 Monate",
+          "duration": "Dauer des Vertrags mit Verlängerungsmöglichkeiten"
+        },
+        {
+          "id": "researcher",
+          "title": "Forscher-Erlaubnis",
+          "description": "Für Forscher mit Positionen an akkreditierten schwedischen Institutionen",
+          "requirements": [
+            {"label": "Gastvereinbarung", "description": "Vereinbarung mit Forschungseinrichtung über Tätigkeit, Finanzierung und Bedingungen."},
+            {"label": "Projektfinanzierung", "description": "Finanzielle Unterstützung für die Dauer des Forschungsprojekts."}
+          ],
+          "waitingTime": "1-3 Monate",
+          "duration": "Dauer des Forschungsprojekts mit Verlängerungsmöglichkeiten"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Bewerbungsprozess und Bearbeitungszeiten",
+      "intro": "Der Bewerbungsprozess und die Bearbeitungszeiten variieren je nach Erlaubnisart, Umständen und aktueller Auslastung der Migrationsbehörde.",
+      "waitingTimes": [
+        {"permit": "Standard-Arbeitserlaubnis", "time": "1-4 Monate"},
+        {"permit": "EU Blue Card", "time": "3-4 Monate"},
+        {"permit": "Saisonarbeiter-Erlaubnis", "time": "1-3 Monate"},
+        {"permit": "Au-pair-Erlaubnis", "time": "1-2 Monate"},
+        {"permit": "Working-Holiday-Visum", "time": "1-2 Monate"},
+        {"permit": "Erlaubnis für Selbstständige", "time": "3-6 Monate"},
+        {"permit": "Erlaubnis für Sport- und Kulturschaffende", "time": "1-2 Monate"},
+        {"permit": "Forscher-Erlaubnis", "time": "1-3 Monate"}
+      ]
+    },
+    "generalRequirements": {
+      "heading": "Allgemeine Anforderungen für alle Arbeitserlaubnisse",
+      "description": "Unabhängig von der Erlaubnisart müssen alle Antragsteller diese Kernanforderungen erfüllen:",
+      "requirements": [
+        {"title": "Gültiger Reisepass", "description": "Muss für den gesamten Zeitraum Ihres geplanten Aufenthalts gültig sein."},
+        {"title": "Krankenversicherung", "description": "Einige Erlaubnisse (Working Holiday, Au-pair) erfordern eine Krankenversicherung."},
+        {"title": "Sauberes Strafregister", "description": "Schwere Straftaten können zur Ablehnung der Erlaubnis führen."}
+      ]
+    },
+    "support": {
+      "heading": "Wie Sweden Relocators Sie unterstützen kann",
+      "description": "Sweden Relocators bietet volle Unterstützung für alle Arten von Arbeitserlaubnissen und sorgt für einen reibungslosen und effizienten Ablauf:",
+      "services": [
+        {"title": "Berechtigungsprüfung", "description": "Nutzen Sie unser Tool zur Überprüfung der Arbeitserlaubnis, um die beste Erlaubnis für Ihre Situation zu finden."},
+        {"title": "Dokumentenaufbereitung", "description": "Wir helfen bei der Zusammenstellung von Arbeitsverträgen, Finanznachweisen und Krankenversicherungsnachweisen."},
+        {"title": "Antrag & Tracking", "description": "Wir übernehmen die Einreichung und halten Sie während des gesamten Antragsprozesses auf dem Laufenden."},
+        {"title": "Unterstützung nach Erteilung", "description": "Hilfe bei Wohnungssuche, Bankkontoeröffnung und Anmeldung bei schwedischen Behörden."}
+      ]
+    },
+    "cta": {
+      "heading": "Starten Sie noch heute Ihre Arbeitserlaubnis",
+      "description": "Kontaktieren Sie Sweden Relocators, um Ihren Antrag auf eine Arbeitserlaubnis zu starten und Ihre Karriere in Schweden zu beginnen.",
+      "button": "Jetzt starten",
+      "subtext": "Besuchen Sie unseren Bereich Arbeitserlaubnisse oder kontaktieren Sie uns für weitere Informationen."
+    }
+  }
+}

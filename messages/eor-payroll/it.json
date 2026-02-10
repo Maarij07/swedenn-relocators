@@ -1,0 +1,250 @@
+{
+  "eorPayroll": {
+    "hero": {
+      "title": "Employer of Record (EOR) & Servizi di Paghe in Svezia",
+      "subtitle": "Espandi la tua attività in Svezia senza aprire un'entità locale"
+    },
+    "intro": {
+      "heading": "EOR & Paghe Semplificate per la Crescita Internazionale",
+      "description": "Espandere la tua attività in Svezia o gestire dipendenti internazionali non deve essere complicato. Presso Sweden Relocators, forniamo una soluzione completa di Employer of Record (EOR) e paghe attraverso il nostro portale online e app mobile, aiutando le aziende ad assumere e gestire personale in Svezia senza aprire un'entità legale locale. I nostri servizi combinano conformità, paghe e supporto ai dipendenti in un sistema semplificato.",
+      "infoBox": "Che tu sia una startup che testa il mercato svedese, un'azienda multinazionale che assume personale remoto, o un'azienda che ricolloca dipendenti, i nostri servizi EOR & paghe garantiscono conformità legale, paghe accurate e soddisfazione dei dipendenti."
+    },
+    "whatIsEOR": {
+      "heading": "Cosa è un Employer of Record (EOR)?",
+      "description": "Un Employer of Record (EOR) è una terza parte fidata che diventa il datore di lavoro legale della tua forza lavoro in Svezia. Mentre tu dirigi il lavoro quotidiano, ci occupiamo degli aspetti legali, amministrativi e di conformità dell'impiego. Questo include redigere contratti di lavoro conformi al diritto del lavoro svedese, registrare i dipendenti presso Skatteverket (Agenzia delle Entrate svedese), gestire salari, ritenute fiscali e contributi sociali, gestire benefici, pensioni e assicurazioni, e garantire la conformità con gli standard di occupazione svedesi e le normative UE. Per le aziende, questo significa che puoi espanderti rapidamente in Svezia senza costituire una sussidiaria o spendere mesi per l'installazione normativa."
+    },
+    "whyCompaniesUse": {
+      "heading": "Perché le Aziende Utilizzano Servizi EOR in Svezia",
+      "intro": "La Svezia è una delle economie più forti d'Europa, nota per i suoi mercati guidati dall'innovazione, forza lavoro altamente qualificata e solide protezioni legali per i dipendenti. Ma per le aziende straniere, assumere personale in Svezia può essere impegnativo per i seguenti motivi:",
+      "challenges": [
+        {
+          "title": "Leggi del Lavoro Complesse",
+          "description": "La Svezia applica forti diritti dei lavoratori secondo la Legge sulla Protezione dell'Impiego (LAS)."
+        },
+        {
+          "title": "Conformità Fiscale Rigida",
+          "description": "I datori di lavoro devono registrarsi presso Skatteverket e gestire le ritenute fiscali PAYE, pensioni e contributi del datore di lavoro."
+        },
+        {
+          "title": "Installazione Dispendiosa in Tempo",
+          "description": "Stabilire un'entità locale (AB) può richiedere mesi, ritardando l'espansione commerciale."
+        },
+        {
+          "title": "Alti Rischi di Conformità",
+          "description": "Errori nelle paghe, tasse o amministrazione dei benefici possono comportare sanzioni o controversie."
+        }
+      ],
+      "conclusion": "Il nostro servizio EOR risolve queste sfide fungendo da tuo datore di lavoro legale, permettendoti di concentrarti sulla crescita mentre noi gestiamo la conformità."
+    },
+    "howItWorks": {
+      "heading": "Come Funziona il Servizio EOR di Sweden Relocators",
+      "description": "Forniamo un processo digitale passo-passo per assumere e gestire dipendenti in Svezia:",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Registrazione Aziendale",
+          "description": "Registrati come datore di lavoro sul nostro portale."
+        },
+        {
+          "step": 2,
+          "title": "Onboarding Dipendenti",
+          "description": "Aggiungi i dettagli dei dipendenti (contratti, salari, benefici) tramite la nostra piattaforma digitale."
+        },
+        {
+          "step": 3,
+          "title": "Conformità Legale",
+          "description": "Emissione di contratti di lavoro che seguono le leggi svedesi ed europee."
+        },
+        {
+          "step": 4,
+          "title": "Elaborazione Paghe",
+          "description": "Il nostro sistema calcola salari netti, ritenute fiscali e contributi sociali."
+        },
+        {
+          "step": 5,
+          "title": "Supporto Continuo",
+          "description": "Gestiamo benefici, pensioni e conformità HR durante tutto l'impiego."
+        },
+        {
+          "step": 6,
+          "title": "Offboarding",
+          "description": "Se i contratti terminano, gestiamo periodi di preavviso, indennità di licenziamento e conformità alla cessazione."
+        }
+      ]
+    },
+    "payrollProcess": {
+      "heading": "Servizi di Paghe in Svezia - Processo Completo",
+      "intro": "Le paghe in Svezia sono altamente regolamentate e la precisione è cruciale. I nostri servizi di paghe sono completamente integrati con il nostro sistema EOR per garantire pagamenti fluidi e conformi.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Impostazione Dipendenti",
+          "description": "Inserisci i dettagli dei dipendenti nel portale: salario, benefici, pensione e detrazioni. Registrazione presso Skatteverket per tasse PAYE e contributi sociali."
+        },
+        {
+          "step": 2,
+          "title": "Elaborazione Mensile Paghe",
+          "description": "Calcoli automatici degli stipendi inclusi tasse, pensioni e assicurazioni. Contributi del datore di lavoro (arbetsgivaravgifter) sono calcolati e segnalati. Conformità con accordi collettivi (se applicabile)."
+        },
+        {
+          "step": 3,
+          "title": "Pagamenti Stipendio",
+          "description": "Versamenti bancari diretti sui conti dei dipendenti. I dipendenti accedono alle buste paga digitali con completa scomposizione di redditi e detrazioni."
+        },
+        {
+          "step": 4,
+          "title": "Conformità Fiscale",
+          "description": "Dichiarazioni fiscali mensili a Skatteverket. Segnalazione annuale di dichiarazioni reddito per i dipendenti. Record sicuri conservati nel portale per accesso di datori di lavoro e dipendenti."
+        },
+        {
+          "step": 5,
+          "title": "Amministrazione Benefici",
+          "description": "Attivazione di pensioni, assicurazioni sanitarie e benefici di congedo parentale conformi agli standard svedesi. Amministrazione automatica attraverso il sistema di paghe."
+        }
+      ]
+    },
+    "complianceAndLegal": {
+      "heading": "Conformità e Riferimenti Legali",
+      "intro": "I nostri servizi EOR & paghe operano strettamente entro le normative svedesi ed europee:",
+      "references": [
+        {
+          "title": "Legge sulla Protezione dell'Impiego (LAS)",
+          "description": "Regola la sicurezza dell'impiego e le regole di licenziamento."
+        },
+        {
+          "title": "Agenzia delle Entrate Svedese (Skatteverket)",
+          "description": "Sorveglia PAYE, contributi del datore di lavoro e segnalazioni."
+        },
+        {
+          "title": "Codice Previdenziale",
+          "description": "Regola pensioni, congedo parentale e protezioni dei dipendenti."
+        },
+        {
+          "title": "Conformità GDPR",
+          "description": "Garantisce la protezione dei dati dei dipendenti."
+        },
+        {
+          "title": "Direttive UE",
+          "description": "Incluso regole di libera circolazione e diritti dei lavoratori secondo il diritto UE."
+        }
+      ],
+      "conclusion": "Utilizzando Sweden Relocators, la tua azienda evita rischi di conformità e garantisce che tutti gli obblighi di impiego siano soddisfatti."
+    },
+    "benefitsForCompanies": {
+      "heading": "Vantaggi per le Aziende",
+      "benefits": [
+        {
+          "title": "Espansione Rapida",
+          "description": "Assumi personale in Svezia senza aprire una sussidiaria."
+        },
+        {
+          "title": "Risparmio Tempo & Costi",
+          "description": "Evita installazione legale, contabilità e amministrazione HR."
+        },
+        {
+          "title": "Mantieni Conformità",
+          "description": "Tutto l'impiego, tasse e paghe gestiti entro il diritto svedese."
+        },
+        {
+          "title": "Scalabilità Facile",
+          "description": "Aggiungi o rimuovi dipendenti rapidamente in base alle esigenze aziendali."
+        },
+        {
+          "title": "Una Piattaforma Digitale",
+          "description": "Gestisci tutto tramite il nostro portale e app."
+        }
+      ]
+    },
+    "benefitsForEmployees": {
+      "heading": "Vantaggi per i Dipendenti",
+      "benefits": [
+        {
+          "title": "Pagamenti Stipendio Puntuale",
+          "description": "Paghe affidabili con buste paga trasparenti."
+        },
+        {
+          "title": "Benefici & Pensioni",
+          "description": "Conformità completa con i sistemi di benefici svedesi."
+        },
+        {
+          "title": "Protezione Legale",
+          "description": "Contratti di lavoro seguono gli standard svedesi."
+        },
+        {
+          "title": "Fiducia & Stabilità",
+          "description": "I dipendenti si sentono sicuri, migliorando la retention."
+        }
+      ]
+    },
+    "whoShouldUse": {
+      "heading": "Chi Dovrebbe Utilizzare Servizi EOR & Paghe?",
+      "intro": "Le nostre soluzioni sono ideali per:",
+      "solutions": [
+        {
+          "title": "Startup & PMI",
+          "description": "Assumi personale senza costi di installazione pesanti."
+        },
+        {
+          "title": "Aziende Globali",
+          "description": "Espandi in Svezia senza registrazione locale."
+        },
+        {
+          "title": "Assunzioni Basate su Progetti",
+          "description": "Lavoratori a breve termine o stagionali gestiti facilmente."
+        },
+        {
+          "title": "Team Remoti",
+          "description": "Impiega lavoratori remoti in Svezia conformemente alla legge."
+        },
+        {
+          "title": "Ricollocazioni",
+          "description": "Sposta dipendenti in Svezia con supporto HR completo."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Perché Scegliere Sweden Relocators?",
+      "reasons": [
+        {
+          "title": "Portale Digitale Tutto-in-Uno",
+          "description": "Gestisci contratti, paghe e conformità in un unico sistema."
+        },
+        {
+          "title": "Conoscenza Esperta del Diritto del Lavoro Svedese",
+          "description": "Riduci rischi legali e fiscali."
+        },
+        {
+          "title": "Processi Trasparenti",
+          "description": "Report in tempo reale e record per datori di lavoro e dipendenti."
+        },
+        {
+          "title": "Supporto Ricollocazione End-to-End",
+          "description": "Oltre EOR, aiutiamo con alloggio, visti e integrazione."
+        },
+        {
+          "title": "Supporto Multilingue",
+          "description": "Assistenza in inglese, svedese, urdu, arabo, persiano e altro."
+        }
+      ]
+    },
+    "gettingStarted": {
+      "heading": "Per Iniziare",
+      "steps": [
+        "Registra la tua azienda sul nostro portale.",
+        "Aggiungi dipendenti con dettagli di salario e contratto.",
+        "Attiva Paghe & Conformità – Noi ci occupiamo del resto.",
+        "Concentrati sulla Crescita Aziendale mentre noi gestiamo l'impiego."
+      ]
+    },
+    "conclusion": {
+      "heading": "Espandi in Svezia con Fiducia",
+      "description": "Con i servizi Employer of Record (EOR) e Paghe di Sweden Relocators, la tua azienda può espandersi in Svezia con fiducia. Gestiamo le complessità legali, fiscali e di pagamento, mentre tu ti concentri sulla costruzione della tua attività. Che tu abbia bisogno di un dipendente o di un intero team, la nostra piattaforma garantisce una gestione fluida della forza lavoro."
+    },
+    "cta": {
+      "heading": "Pronto ad Espandere la tua Attività in Svezia?",
+      "description": "Lascia che Sweden Relocators gestisca la complessità della gestione EOR e paghe. I nostri esperti ti guideranno attraverso l'intero processo, garantendo completa conformità legale e soddisfazione dei dipendenti.",
+      "button": "Inizia con Servizi EOR",
+      "subtext": "Il nostro team dedicato è pronto a rispondere a tutte le tue domande sull'assunzione di personale in Svezia."
+    }
+  }
+}

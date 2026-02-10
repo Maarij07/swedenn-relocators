@@ -1,0 +1,135 @@
+{
+  "logisticsServices": {
+    "hero": {
+      "title": "Logistikstyring med Sweden Relocators Partnernetværk",
+      "subtitle": "Sømløse logistikløsninger til flytning og virksomhedsudvidelse"
+    },
+    "intro": {
+      "heading": "Omfattende Logistikløsninger til Enhver Behov",
+      "description": "Flytning og virksomhedsudvidelse afhænger ofte af pålidelig logistik. Vi leverer sømløse logistikstyringsløsninger designet til at fjerne stresset ved grænseoverskridende flytninger gennem vores omhyggeligt valgte netværk af tredjepartslogistikpartnere. Vi koordinerer alt fra indpakning og internationale forsendelser til toldsklarering, oplagring, fragtbehandling og levering på sidste kilometer.",
+      "toolLink": "Vores mål er enkelt: at sikre, at dine personlige ejendele, kontorudstyr eller handelsvarer når deres destination sikkert, til tiden og til konkurrencedygtige takster."
+    },
+    "services": {
+      "heading": "Vores Kernlogistiktjenester",
+      "requirementsLabel": "Hvad Vi Håndterer",
+      "services": [
+        {
+          "id": "packing",
+          "title": "Indpakning og Forsendelse",
+          "description": "Professionel indpakning og global forsendelsestjenester ved hjælp af internationalt gradet materiale",
+          "requirements": [
+            {"label": "Professionelle Materialer", "description": "Internationalt gradet indpakingsmateriale og sikre håndteringsprocedurer"},
+            {"label": "Global Dækning", "description": "Personlige ejendele, virksomhedsaktiver og specialiseret last"},
+            {"label": "Sikkerhedsgaranti", "description": "Sikker transport der sikrer, at varer når destinationen sikkert og effektivt"}
+          ]
+        },
+        {
+          "id": "customs",
+          "title": "Told og Overholdelse",
+          "description": "Ekspertstyrning af toldregulativer og internationale protokoller",
+          "requirements": [
+            {"label": "Dansk Told", "description": "Toldsklaringsstøtte i overholdelse af danske toldregulativer"},
+            {"label": "EU-handelsregler", "description": "Fuldstændig overholdelse af EU-handelsregler og internationale protokoller"},
+            {"label": "Dokumentation", "description": "Hele dokumentationen forberedt på forhånd for at minimere forsinkelser"}
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Lager- og Oplagringslø sninger",
+          "description": "Fleksible oplagingsmuligheder i moderne, sikre faciliteter",
+          "requirements": [
+            {"label": "Sikkerhed", "description": "Sikker oplagring med 24/7 overvågning tilgængelig"},
+            {"label": "Klimakontrol", "description": "Klimakontrollerede faciliteter for følsomme varer"},
+            {"label": "Fleksibilitet", "description": "Kortfristet og langtidsoplagring såvel som fleksible kontrakter"}
+          ]
+        },
+        {
+          "id": "freight",
+          "title": "Fragthåndtering",
+          "description": "Omkostningseffektive transportmuligheder med realtidssporing",
+          "requirements": [
+            {"label": "Flere Muligheder", "description": "Luftfragt for hastende forsendelser, søfragt for bulklast, vejfragt for regionale flytninger"},
+            {"label": "Sporing", "description": "Realtidssporing så du altid ved, hvor din forsendelse er"},
+            {"label": "Fleksibilitet", "description": "Omkostningseffektive og fleksible transportløsninger"}
+          ]
+        },
+        {
+          "id": "lastmile",
+          "title": "Levering Sidste Kilometer",
+          "description": "Koordiner slutleveringen med valgfrie udpaknings- og montageService",
+          "requirements": [
+            {"label": "Rettidig Levering", "description": "Ankomst til dit hjem, kontor eller forretningssted til tiden"},
+            {"label": "Valgfrie Tjenester", "description": "Udpaknings- og montagetjenester tilgængelige"},
+            {"label": "Stressfrit", "description": "Sikrer en helt stressfri overgang"}
+          ]
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Hvorfor Vælge Sweden Relocators til Logistik?",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Globalt Omfang med Lokal Ekspertise",
+          "description": "Vores partnernetværk strækker sig over Europa, Asien, Nordamerika og derover. Globalt dækning kombineret med lokal dansk ekspertise sikrer, at hver forsendelse opfylder internationale og lokale standarder."
+        },
+        {
+          "id": 2,
+          "title": "End-to-End Koordination",
+          "description": "Ét kontaktpunkt gennem hele logistikrejsen, fra konsultation og indpakning til levering og installation, hvilket sikrer konsistens og klar kommunikation."
+        },
+        {
+          "id": 3,
+          "title": "Omkostningseffektive Løsninger",
+          "description": "Ved at arbejde med et verificeret netværk af leverandører forhandler vi konkurrencedygtige takster, mens vi opretholder den højeste servicekvalitet."
+        },
+        {
+          "id": 4,
+          "title": "Sikker og Pålidelig Transport",
+          "description": "Sikkerhed er vores prioritet. Vores partnere bruger moderne systemer til sikker indpakning, håndtering og transport for at beskytte dine varer på ethvert trin."
+        },
+        {
+          "id": 5,
+          "title": "Gennemsigtig Sporing og Opdateringer",
+          "description": "Avancerede sporings systems og regelmæssige opdateringer holder dig informeret. Kend altid status for din forsendelse for fuldstændig sindsro."
+        }
+      ]
+    },
+    "process": {
+      "heading": "Hvordan Vores Logistikstyringstjenester Fungerer",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Konsultation og Planlægning",
+          "description": "Vi starter med en konsultation for at forstå dine behov, tidsplan og budget. På baggrund heraf designer vi en tilpasset logistikplan."
+        },
+        {
+          "number": 2,
+          "title": "Indpakning og Afhentning",
+          "description": "Professionel indpakning og sikker afhentning organiseres via vores tredjepartspartnere, hvilket sikrer, at varer er korrekt forberedt til transport."
+        },
+        {
+          "number": 3,
+          "title": "Forsendelse og Sporing",
+          "description": "Uanset om det er med fly, skib eller vej, spores din forsendelse i realtid med estimerede ankomstmeldinger gennem hele processen."
+        },
+        {
+          "number": 4,
+          "title": "Toldsklarering og Overholdelse",
+          "description": "Al tolddokumentering udarbejdes og verificeres på forhånd, hvilket sikrer smooth clearance med Toldvæsenet eller enhver destinationsmyndighed."
+        },
+        {
+          "number": 5,
+          "title": "Levering og Udpakning",
+          "description": "Ved ankomst håndterer vores logistikpartnere endelig levering, udpakning og montering hvis nødvendigt, så du kan bosætte dig uden besvær."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Klar til at Forenkle din Logistik?",
+      "description": "Med Sweden Relocators logistikstyring får du adgang til et pålideligt partnernetværk, der kan håndtere ethvert aspekt af din flytning eller forsendelse. Indsend en serviceanmodning i dag.",
+      "button": "Få Dit Logistiktilbud",
+      "subtext": "Uanset om det er personlig flytning eller erhvervslogistik, fortæl os dine behov, og vi arrangerer tjenester med vores pålidelige logistikpartnere."
+    }
+  }
+}

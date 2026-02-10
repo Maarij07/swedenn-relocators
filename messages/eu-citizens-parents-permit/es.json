@@ -1,0 +1,217 @@
+{
+  "euCitizensParentsPermit": {
+    "hero": {
+      "title": "Tarjeta de Residencia de la UE para Padres Dependientes y Otros Miembros de la Familia según la Directiva 2004/38/CE",
+      "subtitle": "Orientación experta para llevar a los miembros de la familia dependientes a Suecia"
+    },
+    "intro": {
+      "heading": "Unidad Familiar a través de la Libre Circulación en la UE",
+      "description": "De conformidad con la Directiva UE 2004/38/CE, los ciudadanos de la UE/EEE que ejercen su derecho de libre circulación en Suecia pueden solicitar una tarjeta de residencia para sus miembros de la familia dependientes de fuera de la UE, incluyendo padres y otros miembros de la familia. Esta directiva tiene como objetivo facilitar la unidad familiar al permitir que los ciudadanos de la UE traigan a los miembros de la familia que son económica o socialmente dependientes de ellos para vivir en Suecia. Aquí hay una descripción detallada de los requisitos, el proceso de solicitud y los casos especiales para padres dependientes y otros miembros de la familia."
+    },
+    "whoQualifies": {
+      "heading": "¿Quién se Califica como Miembro de la Familia Dependiente?",
+      "intro": "Para ser elegible según la Directiva 2004/38/CE, el miembro de la familia no comunitario debe entrar en una de las siguientes categorías:",
+      "categories": [
+        {
+          "number": 1,
+          "title": "Padres Dependientes",
+          "description": "Padres de un ciudadano de la UE o su cónyuge/pareja que dependen del ciudadano de la UE para el apoyo financiero u otra asistencia esencial."
+        },
+        {
+          "number": 2,
+          "title": "Otros Miembros de la Familia Dependientes",
+          "description": "Esto puede incluir hermanos o familiares lejanos si existe una relación de dependencia clara, particularmente si el miembro de la familia y el ciudadano de la UE vivieron juntos en el país de residencia anterior."
+        },
+        {
+          "number": 3,
+          "title": "Hijos o Hijastros",
+          "description": "Los hijos mayores de 21 años también pueden calificar como dependientes si dependen del ciudadano de la UE para el apoyo, aunque esto se evalúa de manera diferente que para menores."
+        }
+      ]
+    },
+    "keyConditions": {
+      "heading": "Condiciones Clave para la Elegibilidad",
+      "conditions": [
+        {
+          "number": 1,
+          "title": "Prueba de Dependencia",
+          "description": "El solicitante debe proporcionar evidencia que muestre dependencia financiera o personal del ciudadano de la UE. Esto podría incluir prueba de residencia compartida, apoyo financiero regular o documentación de dependencia emocional y social."
+        },
+        {
+          "number": 2,
+          "title": "Convivencia Anterior",
+          "description": "En casos que involucran miembros de la familia extendida (como hermanos o hijos adultos), el solicitante debe demostrar que vivió con el ciudadano de la UE en su país de origen inmediatamente antes de que el ciudadano de la UE se mudara a Suecia."
+        },
+        {
+          "number": 3,
+          "title": "Solicitud Oportuna",
+          "description": "Las solicitudes deben ser idealmente presentadas lo antes posible después de que el ciudadano de la UE llegue a Suecia. Las solicitudes tardías pueden reducir la probabilidad de aprobación, especialmente si la dependencia se desarrolló solo después de la reubicación del ciudadano de la UE."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Proceso de Solicitud para una Tarjeta de Residencia según la Directiva 2004/38/CE",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Preparar Documentación de Dependencia y Relación",
+          "intro": "Reunir la documentación necesaria es crucial. Los documentos clave incluyen:",
+          "documents": [
+            {
+              "title": "Prueba de Identidad",
+              "description": "Pasaporte válido del miembro de la familia no comunitario."
+            },
+            {
+              "title": "Prueba de Relación",
+              "details": [
+                "Para padres: Certificado de nacimiento del ciudadano de la UE que muestre la relación parental.",
+                "Para otros miembros de la familia: Documentos que muestren la relación familiar (por ejemplo, certificados de nacimiento o registros familiares)."
+              ]
+            },
+            {
+              "title": "Prueba de Dependencia",
+              "description": "Esto puede incluir extractos bancarios, prueba de transferencias financieras regulares, prueba de vivienda compartida, y otros documentos que demuestren dependencia del ciudadano de la UE para apoyo financiero o emocional."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Enviar la Solicitud",
+          "intro": "El miembro de la familia no comunitario debe solicitar una tarjeta de residencia, que se puede enviar a la Agencia de Migración Sueca (Migrationsverket) en línea o a través de una embajada o consulado sueco en el país de origen del solicitante.",
+          "details": [
+            "Detalles del Solicitante: Información sobre el ciudadano de la UE, su estado de residencia en Suecia y los detalles personales del dependiente.",
+            "Documentos de Apoyo: Todos los documentos requeridos que demuestren la relación de dependencia y la prueba de manutención para el ciudadano de la UE en Suecia."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Revisión de la Agencia de Migración",
+          "intro": "La Agencia de Migración evaluará la relación y la dependencia basándose en la evidencia proporcionada. Pueden solicitar documentación adicional o aclaraciones si es necesario. La revisión se enfoca en:",
+          "details": [
+            "Verificación de Dependencia: Confirmación de que el miembro de la familia no comunitario es realmente dependiente del ciudadano de la UE.",
+            "Relación Familiar: Verificación de la conexión familiar del solicitante con el ciudadano de la UE y aseguramiento de que la dependencia existía antes de mudarse a Suecia."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Decisión e Emisión de la Tarjeta de Residencia",
+          "description": "Si se aprueba, el miembro de la familia no comunitario recibirá una tarjeta de residencia válida por cinco años o la duración esperada de la residencia del ciudadano de la UE en Suecia (lo que sea más corto). La tarjeta de residencia permite al titular vivir, trabajar y acceder a la atención médica en Suecia bajo las mismas condiciones que los miembros de la familia de la UE."
+        }
+      ]
+    },
+    "specificCases": {
+      "heading": "Casos Especiales: Requisitos para Padres Dependientes y Otros Miembros de la Familia",
+      "dependentParents": {
+        "heading": "Permiso de Residencia para Padres Dependientes",
+        "intro": "Para padres dependientes, las condiciones principales incluyen demostrar dependencia económica o relacionada con la salud del ciudadano de la UE. Los ejemplos de documentación aceptable pueden incluir:",
+        "documentation": [
+          {
+            "title": "Prueba de Apoyo Financiero",
+            "description": "Transferencias bancarias, recibos de remesas o prueba de apoyo financiero regular del ciudadano de la UE."
+          },
+          {
+            "title": "Dependencia Relacionada con la Salud",
+            "description": "Certificados médicos o documentación de necesidades especiales que requieren proximidad al ciudadano de la UE para apoyo y cuidado."
+          }
+        ],
+        "note": "En casos donde el padre tiene necesidades de salud significativas, se puede requerir documentación adicional para demostrar que las opciones de cuidado adecuadas no están disponibles en su país de origen."
+      },
+      "otherFamilyMembers": {
+        "heading": "Permiso de Residencia para Otros Miembros de la Familia Dependientes",
+        "intro": "Para otros miembros de la familia dependientes (por ejemplo, hermanos adultos o familiares lejanos), los requisitos son típicamente más estrictos:",
+        "requirements": [
+          {
+            "title": "Prueba de Hogar Compartido",
+            "description": "Evidencia de que el miembro de la familia vivía con el ciudadano de la UE antes de su reubicación a Suecia, como un contrato de arrendamiento compartido o facturas de servicios públicos."
+          },
+          {
+            "title": "Dependencia Emocional y Social",
+            "description": "Las declaraciones bajo juramento o testimonios que demuestren un vínculo social y emocional fuerte pueden ser requeridos, especialmente si la relación va más allá de la dependencia financiera."
+          }
+        ]
+      }
+    },
+    "maintenanceRequirement": {
+      "heading": "Requisito de Manutención para el Patrocinador de la UE",
+      "intro": "Según la normativa sueca, el ciudadano de la UE debe ser capaz de proporcionar apoyo financiero y alojamiento adecuado para su miembro de la familia no comunitario. Esto incluye:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Ingresos Estables",
+          "description": "Prueba de empleo, ingresos regulares o recursos financieros que demuestren que el ciudadano de la UE puede mantenerse a sí mismo y a su dependiente."
+        },
+        {
+          "number": 2,
+          "title": "Requisito de Vivienda",
+          "description": "El ciudadano de la UE debe tener alojamiento adecuado que cumpla con los estándares suecos para espacio de vida y privacidad. Esto puede incluir contratos de arrendamiento, prueba de propiedad de vivienda o un subarrendamiento con aprobación del propietario."
+        }
+      ],
+      "note": "El requisito de manutención no se aplica a menores de edad (menores de 18 años). Esto significa que si un padre está solicitando unirse a un niño menor en Suecia, el niño no necesita cumplir con los requisitos de ingresos o vivienda."
+    },
+    "additionalConsiderations": {
+      "heading": "Consideraciones Adicionales",
+      "timeliness": {
+        "heading": "Oportunidad de la Solicitud",
+        "description": "Las solicitudes presentadas poco después de la reubicación del ciudadano de la UE a Suecia tienen más probabilidades de éxito. Los largos retrasos en la presentación de la solicitud pueden complicar el proceso, ya que las autoridades podrían cuestionar la existencia de dependencia previa. Idealmente, las solicitudes para miembros de la familia dependientes deben ser presentadas dentro de unos pocos meses de la llegada del ciudadano de la UE a Suecia."
+      },
+      "changes": {
+        "heading": "Cambios en el Estado de Dependencia",
+        "description": "Si el estado de dependencia cambia (por ejemplo, si el miembro de la familia no comunitario se vuelve financieramente independiente), puede impactar el estado de la tarjeta de residencia. La Agencia de Migración Sueca puede revisar periódicamente estos casos para garantizar el cumplimiento de los criterios de residencia."
+      },
+      "renewal": {
+        "heading": "Renovación de la Tarjeta de Residencia",
+        "description": "Las tarjetas de residencia para miembros de la familia dependientes son típicamente válidas hasta cinco años. La renovación es posible, siempre que la relación de dependencia continúe y el ciudadano de la UE siga siendo residente de Suecia. Las solicitudes de renovación deben presentarse mucho antes de la fecha de vencimiento, con documentación actualizada que demuestre dependencia continua."
+      }
+    },
+    "howWeHelp": {
+      "heading": "Cómo Sweden Relocators Puede Asistir con Solicitudes de Tarjeta de Residencia de la UE",
+      "intro": "Navegar el proceso para obtener una tarjeta de residencia de la UE para miembros de la familia dependientes según la Directiva 2004/38/CE puede ser complejo. Sweden Relocators proporciona asistencia experta, ayudando a garantizar que toda la documentación esté en orden, y guiándole a través de cada paso del proceso de solicitud.",
+      "subheading": "Nuestros Servicios Incluyen:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Evaluación de Elegibilidad",
+          "description": "Revisamos las circunstancias específicas de su familia para determinar si sus miembros de la familia no comunitarios califican como dependientes según la ley sueca."
+        },
+        {
+          "number": 2,
+          "title": "Preparación de Documentos",
+          "description": "Nuestro equipo ayuda a recopilar y preparar todos los documentos requeridos, incluida la prueba de relación, dependencia y apoyo financiero."
+        },
+        {
+          "number": 3,
+          "title": "Sometimiento de Solicitud y Monitoreo",
+          "description": "Asistimos con la presentación de la solicitud y monitoreamos el progreso con la Agencia de Migración para garantizar actualizaciones oportunas."
+        },
+        {
+          "number": 4,
+          "title": "Apoyo en Apelaciones",
+          "description": "En casos de denegación de solicitud, ofrecemos orientación sobre el proceso de apelación, ayudando a fortalecer su caso para su reconsideración."
+        }
+      ]
+    },
+    "benefitsOfService": {
+      "heading": "Beneficios de Nuestro Servicio",
+      "benefits": [
+        {
+          "title": "Orientación Experta",
+          "description": "La familiaridad con la Directiva 2004/38/CE y los requisitos de la Agencia de Migración nos permite ofrecer orientación precisa y eficaz."
+        },
+        {
+          "title": "Apoyo Integral",
+          "description": "Desde la verificación de elegibilidad hasta la preparación de documentos y apoyo en apelaciones, manejamos todos los aspectos de su solicitud."
+        },
+        {
+          "title": "Servicio Personalizado",
+          "description": "Cada caso es único, y adaptamos nuestro enfoque a las necesidades específicas de su familia, proporcionando las soluciones más efectivas."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Lleve a sus Seres Queridos a Suecia Hoy",
+      "description": "Si necesita asistencia para obtener una tarjeta de residencia de la UE para sus padres dependientes u otros miembros de la familia, Sweden Relocators está aquí para ayudar. Contáctenos hoy para discutir la elegibilidad de su familia y aprender cómo podemos apoyar su viaje para reunirse con sus seres queridos.",
+      "button": "Empezar",
+      "subtext": "Visite nuestra Sección de Permiso de Padres Ciudadanos de la UE o contáctenos para más información. Nuestro equipo está listo para ayudarlo a reunirse con su familia."
+    }
+  }
+}

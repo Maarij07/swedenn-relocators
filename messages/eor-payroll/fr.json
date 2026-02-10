@@ -1,0 +1,250 @@
+{
+  "eorPayroll": {
+    "hero": {
+      "title": "Employeur de Record (EOR) & Services de paie en Suède",
+      "subtitle": "Développez votre entreprise en Suède sans créer d'entité locale"
+    },
+    "intro": {
+      "heading": "EOR & Paie simplifiés pour la croissance internationale",
+      "description": "Développer votre entreprise en Suède ou gérer des employés internationaux ne doit pas être compliqué. Chez Sweden Relocators, nous fournissons une solution complète d'Employeur de Record (EOR) et de paie via notre portail en ligne et notre application mobile, aidant les entreprises à embaucher et gérer du personnel en Suède sans créer d'entité juridique locale. Nos services combinent conformité, paie et support aux employés dans un système rationalisé.",
+      "infoBox": "Que vous soyez une startup testant le marché suédois, une multinationale embauchant du personnel à distance, ou une entreprise relocalisant des employés, nos services EOR & paie garantissent la conformité légale, une paie précise et la satisfaction des employés."
+    },
+    "whatIsEOR": {
+      "heading": "Qu'est-ce qu'un Employeur de Record (EOR) ?",
+      "description": "Un Employeur de Record (EOR) est un tiers de confiance qui devient l'employeur légal de votre main-d'œuvre en Suède. Alors que vous dirigez le travail quotidien, nous nous occupons des aspects juridiques, administratifs et de conformité de l'emploi. Cela inclut la rédaction de contrats de travail conformes au droit du travail suédois, l'enregistrement des employés auprès du Skatteverket (Agence fiscale suédoise), la gestion des salaires, des retenues fiscales et des cotisations sociales, la gestion des avantages, des pensions et des assurances, ainsi que la garantie de la conformité avec les normes d'emploi suédoises et les réglementations de l'UE. Pour les entreprises, cela signifie que vous pouvez vous développer rapidement en Suède sans créer de filiale ou passer des mois sur la mise en place réglementaire."
+    },
+    "whyCompaniesUse": {
+      "heading": "Pourquoi les entreprises utilisent des services EOR en Suède",
+      "intro": "La Suède est l'une des économies les plus fortes d'Europe, connue pour ses marchés axés sur l'innovation, sa main-d'œuvre hautement qualifiée et ses solides protections légales pour les employés. Mais pour les entreprises étrangères, embaucher du personnel en Suède peut être difficile pour les raisons suivantes :",
+      "challenges": [
+        {
+          "title": "Lois du travail complexes",
+          "description": "La Suède applique de solides droits des travailleurs en vertu de la loi sur la protection de l'emploi (LAS)."
+        },
+        {
+          "title": "Conformité fiscale stricte",
+          "description": "Les employeurs doivent s'inscrire auprès du Skatteverket et gérer les retenues d'impôt PAYE, les pensions et les cotisations patronales."
+        },
+        {
+          "title": "Installation chronophage",
+          "description": "Établir une entité locale (AB) peut prendre plusieurs mois et retarder l'expansion commerciale."
+        },
+        {
+          "title": "Risques de conformité élevés",
+          "description": "Les erreurs dans la paie, les impôts ou l'administration des avantages peuvent entraîner des pénalités ou des litiges."
+        }
+      ],
+      "conclusion": "Notre service EOR résout ces défis en agissant comme votre employeur légal, vous permettant de vous concentrer sur la croissance tandis que nous nous occupons de la conformité."
+    },
+    "howItWorks": {
+      "heading": "Comment fonctionne le service EOR de Sweden Relocators",
+      "description": "Nous fournissons un processus numérique étape par étape pour embaucher et gérer des employés en Suède :",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Inscription de l'entreprise",
+          "description": "Inscrivez-vous comme employeur sur notre portail."
+        },
+        {
+          "step": 2,
+          "title": "Intégration des employés",
+          "description": "Ajoutez les détails des employés (contrats, salaires, avantages) via notre plateforme numérique."
+        },
+        {
+          "step": 3,
+          "title": "Conformité légale",
+          "description": "Nous établissons des contrats de travail conformes au droit suédois et européen."
+        },
+        {
+          "step": 4,
+          "title": "Traitement de la paie",
+          "description": "Notre système calcule les salaires nets, les retenues fiscales et les cotisations sociales."
+        },
+        {
+          "step": 5,
+          "title": "Support continu",
+          "description": "Nous gérons les avantages, les pensions et la conformité RH tout au long de l'emploi."
+        },
+        {
+          "step": 6,
+          "title": "Désengagement",
+          "description": "Si les contrats prennent fin, nous gérons les préavis, les indemnités de licenciement et la conformité de la résiliation."
+        }
+      ]
+    },
+    "payrollProcess": {
+      "heading": "Services de paie en Suède - Processus complet",
+      "intro": "La paie en Suède est très réglementée et la précision est cruciale. Nos services de paie sont entièrement intégrés à notre système EOR pour garantir des paiements fluides et conformes.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Configuration des employés",
+          "description": "Saisissez les détails des employés dans le portail : salaire, avantages, pension et déductions. Inscrivez-vous auprès du Skatteverket pour les impôts PAYE et les cotisations sociales."
+        },
+        {
+          "step": 2,
+          "title": "Traitement mensuel de la paie",
+          "description": "Calculs de salaire automatisés incluant les impôts, les pensions et les assurances. Les cotisations patronales (arbetsgivaravgifter) sont calculées et déclarées. Conformité avec les conventions collectives (le cas échéant)."
+        },
+        {
+          "step": 3,
+          "title": "Paiements de salaire",
+          "description": "Dépôts bancaires directs sur les comptes des employés. Les employés accèdent aux bulletins de paie numériques montrant la ventilation complète des revenus et des déductions."
+        },
+        {
+          "step": 4,
+          "title": "Conformité fiscale",
+          "description": "Déclarations fiscales mensuelles au Skatteverket. Rapports annuels des déclarations de revenus pour les employés. Dossiers sécurisés stockés dans le portail pour l'accès de l'employeur et de l'employé."
+        },
+        {
+          "step": 5,
+          "title": "Administration des avantages",
+          "description": "Mise en place des pensions, de l'assurance santé et des prestations de congé parental conformément aux normes suédoises. Administration automatique via le système de paie."
+        }
+      ]
+    },
+    "complianceAndLegal": {
+      "heading": "Conformité et références légales",
+      "intro": "Nos services EOR & paie opèrent strictement dans le cadre des réglementations suédoises et européennes :",
+      "references": [
+        {
+          "title": "Loi sur la protection de l'emploi (LAS)",
+          "description": "Régule la sécurité de l'emploi et les règles de licenciement."
+        },
+        {
+          "title": "Agence fiscale suédoise (Skatteverket)",
+          "description": "Surveille les impôts PAYE, les cotisations patronales et les déclarations."
+        },
+        {
+          "title": "Code de la sécurité sociale",
+          "description": "Régule les pensions, le congé parental et la protection des employés."
+        },
+        {
+          "title": "Conformité RGPD",
+          "description": "Garantit la protection des données des employés."
+        },
+        {
+          "title": "Directives de l'UE",
+          "description": "Y compris les règles de libre circulation et les droits des travailleurs selon le droit de l'UE."
+        }
+      ],
+      "conclusion": "En utilisant Sweden Relocators, votre entreprise évite les risques de conformité et garantit que toutes les obligations d'emploi sont respectées."
+    },
+    "benefitsForCompanies": {
+      "heading": "Avantages pour les entreprises",
+      "benefits": [
+        {
+          "title": "Développement rapide",
+          "description": "Embauchez du personnel en Suède sans créer de filiale."
+        },
+        {
+          "title": "Gain de temps et de coûts",
+          "description": "Évitez l'installation juridique, la comptabilité et l'administration RH."
+        },
+        {
+          "title": "Restez conforme",
+          "description": "Tout l'emploi, les impôts et la paie sont gérés dans le cadre du droit suédois."
+        },
+        {
+          "title": "Échellez facilement",
+          "description": "Ajoutez ou supprimez des employés rapidement selon les besoins de l'entreprise."
+        },
+        {
+          "title": "Une plateforme numérique",
+          "description": "Gérez tout via notre portail et notre application."
+        }
+      ]
+    },
+    "benefitsForEmployees": {
+      "heading": "Avantages pour les employés",
+      "benefits": [
+        {
+          "title": "Paiements de salaire ponctuels",
+          "description": "Paie fiable avec des bulletins de paie transparents."
+        },
+        {
+          "title": "Avantages & Pensions",
+          "description": "Conformité complète avec les systèmes d'avantages suédois."
+        },
+        {
+          "title": "Protection légale",
+          "description": "Les contrats de travail suivent les normes suédoises."
+        },
+        {
+          "title": "Confiance & Stabilité",
+          "description": "Les employés se sentent en sécurité, ce qui améliore la rétention."
+        }
+      ]
+    },
+    "whoShouldUse": {
+      "heading": "Qui devrait utiliser les services EOR & Paie ?",
+      "intro": "Nos solutions sont idéales pour :",
+      "solutions": [
+        {
+          "title": "Startups & PME",
+          "description": "Embauchez du personnel sans coûts d'installation lourds."
+        },
+        {
+          "title": "Entreprises globales",
+          "description": "Développez en Suède sans inscription locale."
+        },
+        {
+          "title": "Embauche basée sur des projets",
+          "description": "Les travailleurs à court terme ou saisonniers sont gérés facilement."
+        },
+        {
+          "title": "Équipes à distance",
+          "description": "Employez des travailleurs à distance en Suède conformément à la loi."
+        },
+        {
+          "title": "Relocalisations",
+          "description": "Déplacez des employés en Suède avec un support RH complet."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Pourquoi choisir Sweden Relocators ?",
+      "reasons": [
+        {
+          "title": "Portail numérique tout-en-un",
+          "description": "Gérez les contrats, la paie et la conformité dans un seul système."
+        },
+        {
+          "title": "Connaissance experte du droit du travail suédois",
+          "description": "Réduisez les risques juridiques et fiscaux."
+        },
+        {
+          "title": "Processus transparents",
+          "description": "Rapports en temps réel et dossiers pour les employeurs et les employés."
+        },
+        {
+          "title": "Support de relocalisation de bout en bout",
+          "description": "Au-delà de l'EOR, nous aidons avec le logement, les visas et l'intégration."
+        },
+        {
+          "title": "Support multilingue",
+          "description": "Assistance en anglais, suédois, ourdou, arabe, persan et plus encore."
+        }
+      ]
+    },
+    "gettingStarted": {
+      "heading": "Pour commencer",
+      "steps": [
+        "Inscrivez votre entreprise sur notre portail.",
+        "Ajoutez des employés avec les détails de salaire et de contrat.",
+        "Activez la Paie & Conformité – Nous nous occupons du reste.",
+        "Concentrez-vous sur la croissance de l'entreprise pendant que nous gérons l'emploi."
+      ]
+    },
+    "conclusion": {
+      "heading": "Développez en Suède avec confiance",
+      "description": "Avec les services Employer of Record (EOR) et de Paie de Sweden Relocators, votre entreprise peut se développer en Suède en toute confiance. Nous gérons les complexités juridiques, fiscales et de paie, tandis que vous vous concentrez sur la construction de votre entreprise. Que vous ayez besoin d'un employé ou d'une équipe entière, notre plateforme garantit une gestion fluide de la main-d'œuvre."
+    },
+    "cta": {
+      "heading": "Prêt à développer votre entreprise en Suède ?",
+      "description": "Laissez Sweden Relocators gérer la complexité de la gestion EOR et de la paie. Nos experts vous guideront tout au long du processus, garantissant une conformité légale complète et la satisfaction des employés.",
+      "button": "Commencer avec les services EOR",
+      "subtext": "Notre équipe dédiée est prête à répondre à toutes vos questions sur l'embauche de personnel en Suède."
+    }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "studyInEu": {
+    "hero": {
+      "title": "Studer i Sverige og EU",
+      "subtitle": "Realisér dine akademiske drømme på Europas bedste universiteter med ekspertvejledning fra Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Din vej til europæisk uddannelse",
+      "description": "Sverige og den Europæiske Union tilbyder verdensklasse uddannelse med overkommelige undervisningsgebyrer, engelsksprogede programmer og fremragende karrieremuligheder efter studiet. Uanset om du ønsker at studere teknik i Sverige, økonomi i Danmark eller medicin i Tyskland, vejleder vi dig gennem hvert trin af optagelses- og visumprocessen."
+    },
+    "countries": [
+      {
+        "id": "sweden",
+        "name": "Studer i Sverige",
+        "intro": "Sverige er en af Europas mest populære destinationer for internationale studerende. Med globalt anerkendte universiteter, innovative undervisningsmetoder og et stærkt ry inden for forskning tilbyder det både højkvalitativ uddannelse og en fremragende livsstil.",
+        "tuitionFees": {
+          "heading": "Gennemsnitligt undervisningsgebyr pr. år",
+          "fees": [
+            {
+              "category": "EU/EØS- og schweiziske studerende",
+              "amount": "Gratis på offentlige universiteter"
+            },
+            {
+              "category": "Studerende uden for EU/EØS",
+              "amount": "SEK 80.000 – 295.000 (€7.500 – €25.500) afhængig af program og universitet"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Optagelsesperioder",
+          "intakes": [
+            {
+              "period": "Efterårsperiode",
+              "details": "Oktober – januar (studier starter august/september)"
+            },
+            {
+              "period": "Forårperiode",
+              "details": "Juni – august (studier starter januar)"
+            }
+          ]
+        },
+        "popularFields": "Ingeniørvidenskab, IT, Økonomi, Biovetenskap, Miljøstudier",
+        "visaRequirements": {
+          "heading": "Visum- og opholdsregler",
+          "requirements": [
+            "EU/EØS: Intet visum påkrævet",
+            "Uden for EU/EØS: Opholdstilladelse påkrævet for studier længere end tre måneder",
+            "Bevis for finanser: omkring SEK 10.300 pr. måned til leveomkostninger",
+            "Sygeforsikring påkrævet for ophold under et år"
+          ]
+        },
+        "workRights": "Studerende kan arbejde ubegrænset under studierne, og efter eksamen kan ansøge om et etårigt opholdstilladelse for at søge arbejde eller starte sin egen virksomhed."
+      },
+      {
+        "id": "denmark",
+        "name": "Studer i Danmark",
+        "intro": "Danmark kombinerer akademisk excellence med et virksomhedsvenlligt miljø. Over 500 engelsksprogede programmer tilbydes på de ledende universiteter og højskoler.",
+        "tuitionFees": {
+          "heading": "Gennemsnitligt undervisningsgebyr pr. år",
+          "fees": [
+            {
+              "category": "EU/EØS-studerende",
+              "amount": "Gratis på offentlige institutioner"
+            },
+            {
+              "category": "Studerende uden for EU/EØS",
+              "amount": "€7.000 – €17.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Optagelsesperioder",
+          "intakes": [
+            {
+              "period": "Efterårsperiode",
+              "details": "Ansøgningsfristen lukker i marts (studier starter august/september)"
+            },
+            {
+              "period": "Forårperiode",
+              "details": "Ansøgningsfristen lukker i september (studier starter januar/februar, begrænsede kurser)"
+            }
+          ]
+        },
+        "popularFields": "Design, Arkitektur, Økonomi, Ingeniørvidenskab, IT, Biovetenskap",
+        "visaRequirements": {
+          "heading": "Visum- og opholdsregler",
+          "requirements": [
+            "Bevis for finanser: omkring €1.000 pr. måned til leveomkostninger",
+            "Sygeforsikring skal sikres før ankomst"
+          ]
+        },
+        "workRights": "Studerende kan arbejde op til 20 timer pr. uge under semestre og fuldtid under ferier."
+      },
+      {
+        "id": "germany",
+        "name": "Studer i Tyskland",
+        "intro": "Tyskland er en af Europas mest overkommelige og attraktive studiedestinationer med næsten 400.000 internationale studerende.",
+        "tuitionFees": {
+          "heading": "Gennemsnitligt undervisningsgebyr pr. år",
+          "fees": [
+            {
+              "category": "Offentlige universiteter",
+              "amount": "Gratis eller €0 – €3.000 (kun administrative gebyrer)"
+            },
+            {
+              "category": "Private universiteter",
+              "amount": "€6.000 – €12.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Optagelsesperioder",
+          "intakes": [
+            {
+              "period": "Vintersemester",
+              "details": "Ansøgning maj – juli (starter september/oktober)"
+            },
+            {
+              "period": "Sommersemester",
+              "details": "Ansøgning november – januar (starter marts/april)"
+            }
+          ]
+        },
+        "popularFields": "Ingeniørvidenskab, Økonomi, Datalogi, Medicin, Naturvidenskab",
+        "visaRequirements": {
+          "heading": "Visum- og opholdsregler",
+          "requirements": [
+            "Finansielle bevis: omkring €11.000 pr. år på en blokeret konto",
+            "Obligatorisk sygeforsikring påkrævet"
+          ]
+        },
+        "workRights": "20 timer pr. uge under semester, fuldtid under ferier."
+      },
+      {
+        "id": "uk",
+        "name": "Studer i Storbritannien",
+        "intro": "Storbritannien er hjemsted for nogle af verdens bedste universiteter og et internationalt anerkendt eksamensystem.",
+        "tuitionFees": {
+          "heading": "Gennemsnitligt undervisningsgebyr pr. år",
+          "fees": [
+            {
+              "category": "EU/EØS-studerende",
+              "amount": "€10.000 – €13.000"
+            },
+            {
+              "category": "Studerende uden for EU",
+              "amount": "€12.000 – €25.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Optagelsesperioder",
+          "intakes": [
+            {
+              "period": "September/oktober",
+              "details": "Hovedoptagelsesperiode"
+            },
+            {
+              "period": "Januar/februar",
+              "details": "Sekundær optagelsesperiode, begrænsede programmer"
+            },
+            {
+              "period": "Maj",
+              "details": "Sommeroptagelsesperiode på udvalgte universiteter"
+            }
+          ]
+        },
+        "popularFields": "Jura, Økonomi, Ingeniørvidenskab, Medicin, Samfundsvidenskab",
+        "visaRequirements": {
+          "heading": "Visum- og opholdsregler",
+          "requirements": [
+            "Studentvisum påkrævet for ikke-EU/EØS",
+            "Bevis for betalt undervisning plus €1.200 pr. måned (London) eller mindre uden for London"
+          ]
+        },
+        "workRights": "20 timer pr. uge under undervisningsperiode, fuldtid under ferier."
+      },
+      {
+        "id": "latvia",
+        "name": "Studer i Letland",
+        "intro": "Letland tilbyder overkommelig uddannelse og fredelige leve- og arbejdsforhold.",
+        "tuitionFees": {
+          "heading": "Gennemsnitligt undervisningsgebyr pr. år",
+          "fees": [
+            {
+              "category": "Generelt",
+              "amount": "€3.000 – €6.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Optagelsesperioder",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hovedoptagelsesperiode"
+            },
+            {
+              "period": "Februar",
+              "details": "Sekundær optagelsesperiode"
+            }
+          ]
+        },
+        "popularFields": "Medicin, Økonomi, IT, Ingeniørvidenskab",
+        "visaRequirements": {
+          "heading": "Visum- og opholdsregler",
+          "requirements": [
+            "Studentvisum og bevis for leveomkostninger påkrævet",
+            "Sygeforsikring er obligatorisk"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "lithuania",
+        "name": "Studer i Litauen",
+        "intro": "Litauen tilbyder stærke akademiske traditioner og over 350 engelsksprogede programmer.",
+        "tuitionFees": {
+          "heading": "Gennemsnitligt undervisningsgebyr pr. år",
+          "fees": [
+            {
+              "category": "Generelt",
+              "amount": "€3.000 – €7.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Optagelsesperioder",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hovedoptagelsesperiode"
+            },
+            {
+              "period": "Februar",
+              "details": "Sekundær optagelsesperiode"
+            }
+          ]
+        },
+        "popularFields": "Økonomi, Medicin, Ingeniørvidenskab, Økonomistuider",
+        "visaRequirements": {
+          "heading": "Visum- og opholdsregler",
+          "requirements": [
+            "Opholdstilladelse påkrævet for studerende uden for EU",
+            "Finansielle bevis og forsikring er påkrævet"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "czechRepublic",
+        "name": "Studer i Tjekkiet",
+        "intro": "Tjekkiet er en voksende destination for internationale studerende i Centraleuropa.",
+        "tuitionFees": {
+          "heading": "Gennemsnitligt undervisningsgebyr pr. år",
+          "fees": [
+            {
+              "category": "Offentlige universiteter",
+              "amount": "€2.000 – €5.000"
+            },
+            {
+              "category": "Private universiteter",
+              "amount": "€5.000 – €10.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Optagelsesperioder",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hovedoptagelsesperiode"
+            },
+            {
+              "period": "Februar",
+              "details": "Begrænsede programmer"
+            }
+          ]
+        },
+        "popularFields": "Medicin, Økonomi, Ingeniørvidenskab, Kunst",
+        "visaRequirements": {
+          "heading": "Visum- og opholdsregler",
+          "requirements": [
+            "Studentvisum påkrævet for studerende uden for EU",
+            "Bevis for økonomi og boligforhold skal vises"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "norway",
+        "name": "Studer i Norge",
+        "intro": "Norge er kendt for gebyrfri uddannelse på offentlige universiteter.",
+        "tuitionFees": {
+          "heading": "Gennemsnitligt undervisningsgebyr pr. år",
+          "fees": [
+            {
+              "category": "Offentlige universiteter",
+              "amount": "Gratis (kun €50–€100 administrativt gebyr)"
+            },
+            {
+              "category": "Private universiteter",
+              "amount": "€5.000 – €10.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Optagelsesperioder",
+          "intakes": [
+            {
+              "period": "Efterår",
+              "details": "Start august/september, hovedoptagelsesperiode"
+            },
+            {
+              "period": "Forår",
+              "details": "Begrenset til udvalgte programmer"
+            }
+          ]
+        },
+        "popularFields": "Energi, Marinevidenskab, Ingeniørvidenskab, IT, Naturvidenskab",
+        "visaRequirements": {
+          "heading": "Visum- og opholdsregler",
+          "requirements": [
+            "Bevis for omkring €12.000 pr. år til leveomkostninger påkrævet",
+            "Sygeforsikring er obligatorisk"
+          ]
+        },
+        "workRights": "20 timer pr. uge under semester, fuldtid under ferier."
+      },
+      {
+        "id": "finland",
+        "name": "Studer i Finland",
+        "intro": "Finland tilbyder moderne uddannelse med stærkt fokus på forskning og innovation.",
+        "tuitionFees": {
+          "heading": "Gennemsnitligt undervisningsgebyr pr. år",
+          "fees": [
+            {
+              "category": "EU/EØS-studerende",
+              "amount": "Gratis på offentlige universiteter"
+            },
+            {
+              "category": "Studerende uden for EU",
+              "amount": "€8.000 – €20.000 afhængig af program og universitet"
+            },
+            {
+              "category": "Doktorkurser",
+              "amount": "Gebyrfrit for alle studerende"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Optagelsesperioder",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hovedoptagelsesperiode — ansøgning november – januar"
+            },
+            {
+              "period": "Januar",
+              "details": "Sekundær optagelsesperiode, begrænsede programmer — ansøgning i september"
+            }
+          ]
+        },
+        "popularFields": "IT, Ingeniørvidenskab, Design, Økonomi, Uddannelse",
+        "visaRequirements": {
+          "heading": "Visum- og opholdsregler",
+          "requirements": [
+            "Opholdstilladelse påkrævet for studerende uden for EU",
+            "Finansielle bevis: minimum €800 pr. måned (€9.600 pr. år)",
+            "Sygeforsikring er obligatorisk"
+          ]
+        },
+        "workRights": "Studerende må arbejde 20–25 timer pr. uge under semestre og fuldtid under ferier. Efter examen er arbejdstilladelse tilgængelig for kandidater."
+      }
+    ],
+    "whyChoose": {
+      "heading": "Hvorfor vælge Sweden Relocators AB",
+      "services": [
+        {
+          "title": "Fuldstændig optagelsesvejledning",
+          "description": "Fuldstændig optagelsesvejledning for Bachelor-, Master- og PhD-programmer i Sverige og EU"
+        },
+        {
+          "title": "Dokumenttjenester",
+          "description": "Dokumentlegalisering, oversættelse og forberedelse til universiteter og migrationskilder"
+        },
+        {
+          "title": "Visum- og opholdshjælp",
+          "description": "Visum- og opholdstilladelsesansøgninger håndteres med præcision"
+        },
+        {
+          "title": "Økonomisk bistand",
+          "description": "Stipendier og økonomisk rådgivning tilpasset hvert land"
+        },
+        {
+          "title": "Støtte efter studierne",
+          "description": "Løbende støtte til fornyelse af opholdstilladelse og beskæftigelse efter studium"
+        }
+      ],
+      "description": "Hos Sweden Relocators AB gør vi studium i Sverige og Europa enkelt, transparent og stressfrit. Fra din første ansøgning til din eksamen og derefter vejleder vi dig ved hvert trin."
+    },
+    "cta": {
+      "heading": "Begynd din uddannelsesrejse i Europa i dag",
+      "description": "Kontakt Sweden Relocators for ekspertvejledning om din ansøgning og visumproces.",
+      "button": "Kom i gang",
+      "subtext": "Uddannelsesbestemmelser varierer fra land til land. Kontakt altid officielle universitet- og immigrationssider for de seneste oplysninger."
+    }
+  }
+}

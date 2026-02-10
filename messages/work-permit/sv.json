@@ -1,0 +1,155 @@
+{
+  "workPermit": {
+    "hero": {
+      "title": "Omfattande guide till arbetstillstånd i Sverige",
+      "subtitle": "Utforska de olika arbetstillstånden som finns för olika typer av anställning i Sverige, varje med unika krav."
+    },
+    "intro": {
+      "heading": "Förstå arbetstillstånd i Sverige",
+      "description": "Sverige erbjuder olika arbetstillstånd för olika typer av anställning, alla med unika krav. Om du planerar att arbeta i Sverige är det viktigt att förstå vilka alternativ som finns och att säkerställa att du uppfyller de aktuella kriterierna.",
+      "toolLink": "Sweden Relocators erbjuder ett verktyg för bedömning av arbetstillstånd på vår webbplats, vilket gör att du snabbt kan avgöra din behörighet och det bästa tillståndet för din situation."
+    },
+    "permitTypes": {
+      "heading": "Typer av arbetstillstånd i Sverige",
+      "requirementsLabel": "Krav",
+      "processingTimeLabel": "Handläggningstid",
+      "durationLabel": "Varaktighet",
+      "permits": [
+        {
+          "id": "standard",
+          "title": "Standard arbetstillstånd för anställning",
+          "description": "För personer som har fått anställning i Sverige",
+          "requirements": [
+            {"label": "Jobberbjudande", "description": "Du måste ha ett bekräftat jobberbjudande från en svensk arbetsgivare."},
+            {"label": "Minimilön", "description": "Cirka 30 000 SEK före skatt. Måste uppfylla svenska kollektivavtal eller branschstandarder."},
+            {"label": "Anställningsvillkor", "description": "Måste följa svenska standarder för hälsa, försäkring och pensionsbidrag."},
+            {"label": "Annonseringskrav", "description": "Jobbet måste annonseras inom EU/EEA i minst 10 dagar innan en icke-EU-medborgare anställs."}
+          ],
+          "waitingTime": "1-4 månader",
+          "duration": "Upp till 2 år, med möjlighet till förlängning"
+        },
+        {
+          "id": "euBlueCard",
+          "title": "EU Blue Card",
+          "description": "För högt kvalificerade yrkespersoner med efterfrågade färdigheter inom EU",
+          "requirements": [
+            {"label": "Högre utbildning", "description": "Universitetsutbildning eller minst 5 års relevant yrkeserfarenhet krävs."},
+            {"label": "Lönetröskel", "description": "Jobberbjudande med lön över EU Blue Card:s minimigräns för Sverige."}
+          ],
+          "waitingTime": "3-4 månader",
+          "duration": "Upp till 4 år beroende på anställningsavtal"
+        },
+        {
+          "id": "seasonal",
+          "title": "Säsongsarbetartillstånd",
+          "description": "För kortsiktigt säsongsarbete inom jordbruket (bärplockare och växtarbetare)",
+          "requirements": [
+            {"label": "Anställningskontrakt", "description": "Kontrakt från svensk arbetsgivare för säsongsarbete upp till 6 månader."},
+            {"label": "Lön och förmåner", "description": "Måste följa svenska kollektivavtal."},
+            {"label": "Sjukförsäkring", "description": "Måste ha sjukförsäkring som täcker vistelsen."}
+          ],
+          "waitingTime": "1-3 månader",
+          "duration": "Anställningskontraktets längd, vanligtvis upp till 6 månader"
+        },
+        {
+          "id": "auPair",
+          "title": "Au Pair-tillstånd",
+          "description": "För unga personer (18–30 år) som bor hos en värdfamilj",
+          "requirements": [
+            {"label": "Ålderskrav", "description": "Måste vara mellan 18 och 30 år."},
+            {"label": "Värdfamiljekontrakt", "description": "Formellt avtal som specificerar uppgifter, arbetstider och ersättning."},
+            {"label": "Språkkurs", "description": "Obligatoriskt att ta svenska språkkurser under vistelsen."},
+            {"label": "Minimibelopp", "description": "Värdfamiljen måste ge ersättning som uppfyller Sveriges au pair-standard."}
+          ],
+          "waitingTime": "1-2 månader",
+          "duration": "Upp till ett år"
+        },
+        {
+          "id": "workingHoliday",
+          "title": "Working Holiday-visum",
+          "description": "För unga från vissa länder att arbeta och resa",
+          "requirements": [
+            {"label": "Behöriga länder", "description": "Australien, Nya Zeeland, Sydkorea, Kanada, Japan, Argentina och andra."},
+            {"label": "Ålderskrav", "description": "Vanligtvis för personer mellan 18 och 30 år."},
+            {"label": "Tillräckliga medel", "description": "Bevis på medel för att försörja sig inledningsvis."}
+          ],
+          "waitingTime": "1-2 månader",
+          "duration": "Giltigt ett år med vissa anställningsbegränsningar"
+        },
+        {
+          "id": "selfEmployment",
+          "title": "Tillstånd för egenföretagare",
+          "description": "För entreprenörer och egenföretagare som startar ett företag",
+          "requirements": [
+            {"label": "Affärsplan", "description": "Hållbar affärsplan som visar lönsamhet inom två år."},
+            {"label": "Tillräckliga medel", "description": "Bevis på medel för att stödja verksamheten och personliga utgifter under den initiala fasen."},
+            {"label": "Erfarenhet", "description": "Dokumenterad erfarenhet av att driva företag eller branschspecifik expertis."}
+          ],
+          "waitingTime": "3-6 månader",
+          "duration": "Initialt 2 år, med möjlighet till förlängning"
+        },
+        {
+          "id": "sportsAndCultural",
+          "title": "Tillstånd för idrotts- och kulturarbetare",
+          "description": "För personer som arbetar inom sport, konst eller kultur",
+          "requirements": [
+            {"label": "Anställning eller sponsring", "description": "Jobberbjudande från svensk organisation inom sport eller kultur."},
+            {"label": "Lönestandarder", "description": "Löner i enlighet med kollektivavtal och svenska standarder."}
+          ],
+          "waitingTime": "1-2 månader",
+          "duration": "Kontraktets längd med möjlighet till förlängning"
+        },
+        {
+          "id": "researcher",
+          "title": "Forskartillstånd",
+          "description": "För forskare erbjudna positioner vid ackrediterade svenska institutioner",
+          "requirements": [
+            {"label": "Värdöverenskommelse", "description": "Överenskommelse med forskningsinstitution som beskriver aktivitet, finansiering och villkor."},
+            {"label": "Projektfinansiering", "description": "Finansiellt stöd för forskningsprojektets varaktighet."}
+          ],
+          "waitingTime": "1-3 månader",
+          "duration": "Forskningsprojektets längd med möjlighet till förlängning"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Ansökningsprocess och handläggningstider",
+      "intro": "Ansökningsprocessen och handläggningstiderna varierar beroende på tillståndstyp, omständigheter och aktuell arbetsbelastning hos Migrationsverket.",
+      "waitingTimes": [
+        {"permit": "Standard arbetstillstånd", "time": "1-4 månader"},
+        {"permit": "EU Blue Card", "time": "3-4 månader"},
+        {"permit": "Säsongsarbetartillstånd", "time": "1-3 månader"},
+        {"permit": "Au Pair-tillstånd", "time": "1-2 månader"},
+        {"permit": "Working Holiday-visum", "time": "1-2 månader"},
+        {"permit": "Tillstånd för egenföretagare", "time": "3-6 månader"},
+        {"permit": "Tillstånd för idrotts- och kulturarbetare", "time": "1-2 månader"},
+        {"permit": "Forskartillstånd", "time": "1-3 månader"}
+      ]
+    },
+    "generalRequirements": {
+      "heading": "Allmänna krav för alla arbetstillstånd",
+      "description": "Oavsett typ av tillstånd måste alla sökande uppfylla dessa grundläggande krav:",
+      "requirements": [
+        {"title": "Giltigt pass", "description": "Måste vara giltigt under hela den planerade vistelsen."},
+        {"title": "Sjukförsäkring", "description": "Vissa tillstånd (Working Holiday, Au Pair) kräver sjukförsäkring."},
+        {"title": "Rent brottsregister", "description": "Allvarliga brott kan leda till avslag på ansökan."}
+      ]
+    },
+    "support": {
+      "heading": "Hur Sweden Relocators kan hjälpa dig",
+      "description": "Sweden Relocators erbjuder fullt stöd för alla typer av arbetstillstånd, vilket säkerställer en smidig och effektiv process:",
+      "services": [
+        {"title": "Behörighetsbedömning", "description": "Använd vårt verktyg för arbetstillstånd för att hitta det bästa tillståndet för din situation."},
+        {"title": "Dokumentförberedelse", "description": "Vi hjälper till med att sammanställa anställningskontrakt, ekonomiska dokument och försäkringsbevis."},
+        {"title": "Ansökan & uppföljning", "description": "Vi hanterar inskick och håller dig uppdaterad under hela ansökningsprocessen."},
+        {"title": "Stöd efter tillstånd", "description": "Hjälp med boende, bankkonto och registrering hos svenska myndigheter."}
+      ]
+    },
+    "cta": {
+      "heading": "Starta din arbetstillståndsresa idag",
+      "description": "Kontakta Sweden Relocators för att påbörja din ansökan om arbetstillstånd och starta din karriär i Sverige.",
+      "button": "Kom igång",
+      "subtext": "Besök vår sektion för arbetstillstånd eller kontakta oss för mer information."
+    }
+  }
+}

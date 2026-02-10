@@ -1,0 +1,240 @@
+{
+  "globalVisitVisas": {
+    "hero": {
+      "title": "Globale Visadienstleistungen – Ihr Zugang zu reibungslosem internationalen Reisen",
+      "subtitle": "Zuverlässige Visumunterstützung für Tourismus, Geschäft, Bildung und Umzug weltweit"
+    },
+    "intro": {
+      "heading": "Internationale Reisen einfach gemacht",
+      "description": "Bei Sweden Relocators machen wir internationale Reisen einfach, transparent und stressfrei durch unsere globale Visa-Programminitiative. Unser Service richtet sich an Einzelpersonen, Familien, Studierende und Fachkräfte, die zuverlässige Visumunterstützung wünschen, ohne sich durch mehrere Botschaftssysteme navigieren zu müssen.",
+      "toolLink": "Unser einzigartiges universelles Visumformular ermöglicht es Ihnen, mit denselben Informationen Anträge für mehrere Destinationen zu stellen, wodurch Zeit gespart und Fehler über unser sicheres Webportal und unsere mobile App reduziert werden."
+    },
+    "services": {
+      "heading": "Umfassende Visumunterstützung",
+      "requirementsLabel": "Was wir übernehmen",
+      "services": [
+        {
+          "id": "clientid",
+          "title": "Persönliche Kunden-ID",
+          "description": "Jeder Kunde erhält bei der Registrierung eine eindeutige ID",
+          "requirements": [
+            {"label": "Mehrere Familien", "description": "Verwalten Sie mehrere Anträge für verschiedene Familienmitglieder und Destinationen gleichzeitig"},
+            {"label": "Sicherer Zugriff", "description": "Verfolgen Sie alle Ihre Visumanträge über ein zentrales Dashboard"}
+          ]
+        },
+        {
+          "id": "assessment",
+          "title": "Antragsbewertung und Vorbereitung",
+          "description": "Vollständige Hintergrundbewertung und komplette Aktenvorbereitung",
+          "requirements": [
+            {"label": "Hintergrundprüfung", "description": "Wir prüfen Ihren Reisezweck, Ihre finanzielle Situation und Ihre Reisehistorie"},
+            {"label": "Botschaftsstandards", "description": "Vollständige Akte inklusive Formulare, Anschreiben und unterstützender Dokumente, abgestimmt auf die Destination"}
+          ]
+        },
+        {
+          "id": "appointment",
+          "title": "Terminvereinbarung und Bestätigung",
+          "description": "Wir buchen Ihren Botschaftstermin mit direktem Bestätigungsanruf",
+          "requirements": [
+            {"label": "Botschaftsbuchung", "description": "Terminvereinbarung bei der zuständigen Botschaft oder dem VFS Global Center"},
+            {"label": "Bereitschaftsprüfung", "description": "Unser Team ruft an, um die Anforderungen zu prüfen und sicherzustellen, dass alle Angaben korrekt sind"}
+          ]
+        },
+        {
+          "id": "liaison",
+          "title": "Botschaftsvertretung",
+          "description": "Professionelle Kommunikation mit Botschaften in Ihrem Namen",
+          "requirements": [
+            {"label": "Klärung von Anfragen", "description": "Unser Team übernimmt die Kommunikation mit der Botschaft und klärt offene Fragen"},
+            {"label": "Professionelle Vertretung", "description": "Reduziert das Risiko von Verzögerungen, zusätzlichen Dokumentanforderungen oder Ablehnungen"}
+          ]
+        },
+        {
+          "id": "file",
+          "title": "Vollständige Aktenvorbereitung und Zustellung",
+          "description": "Ihre einreichungsfertigen Unterlagen werden zu Ihnen nach Hause geliefert",
+          "requirements": [
+            {"label": "Hotelbestätigung", "description": "Bestätigte Hotelbuchungen und Flugreservierungen sind enthalten"},
+            {"label": "Finanzielle Dokumentation", "description": "Reiseversicherung und erforderliche finanzielle Nachweise werden zusammengestellt"}
+          ]
+        },
+        {
+          "id": "digital",
+          "title": "Sichere digitale Dokumentenverwaltung",
+          "description": "DSGVO-konforme Dokumentenspeicherung und Wiederverwendung für Vielreisende",
+          "requirements": [
+            {"label": "Sicherheit", "description": "Alle Dokumente werden sicher in einem DSGVO-konformen System gespeichert"},
+            {"label": "Wiederverwendbarkeit", "description": "Informationen für zukünftige Anträge speichern und Zeit sowie Aufwand sparen"}
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "heading": "Visumkategorien, die wir unterstützen",
+      "intro": "Unser Programm deckt wichtige Destinationen weltweit ab",
+      "visas": [
+        "Schengen-Visum für Europa",
+        "Visum für das Vereinigte Königreich",
+        "Visum für die Vereinigten Staaten",
+        "Visum für Kanada",
+        "Visum für Australien",
+        "Visum für Neuseeland",
+        "Visum für Irland",
+        "Visum für Japan",
+        "Visum für Südkorea",
+        "Visum für China"
+      ],
+      "additional": "Weitere Destinationen werden ebenfalls durch maßgeschneiderte, botschaftsbasierte Lösungen unterstützt."
+    },
+    "purposes": {
+      "heading": "Visumzwecke, die wir abdecken",
+      "purposes": [
+        {
+          "id": 1,
+          "title": "Tourismus",
+          "description": "Nachweise über Unterkunft, Krankenversicherung und finanzielle Absicherung werden für eine reibungslose Genehmigung organisiert"
+        },
+        {
+          "id": 2,
+          "title": "Besuch von Familie oder Freunden",
+          "description": "Verifizierte Einladungsschreiben, Sponsoring-Dokumente und Nachweise der Beziehung werden vorbereitet"
+        },
+        {
+          "id": 3,
+          "title": "EU-Familienzusammenführung",
+          "description": "Detaillierte Prüfung von Wohnraum, Einkommen und Einhaltung der Aufenthaltsbestimmungen"
+        },
+        {
+          "id": 4,
+          "title": "Geschäfts- und Konferenzreisen",
+          "description": "Unternehmenseinladungen, Sponsorenbestätigungen und professionelle Dokumentation werden organisiert"
+        },
+        {
+          "id": 5,
+          "title": "Studium im Ausland",
+          "description": "Zulassungsbescheide, Finanzierungsnachweise und Bildungsunterlagen werden geprüft"
+        },
+        {
+          "id": 6,
+          "title": "Kurzfristige Arbeitseinsätze",
+          "description": "Arbeitgeberverträge und arbeitsrechtliche Compliance-Prüfungen werden durchgeführt"
+        },
+        {
+          "id": 7,
+          "title": "Medizinische Behandlung",
+          "description": "Krankenhausbestätigungen, medizinische Unterlagen und finanzielle Sponsoringnachweise werden vorbereitet"
+        },
+        {
+          "id": 8,
+          "title": "Kulturelle und sportliche Veranstaltungen",
+          "description": "Veranstaltungsregistrierungen und offizielle Einladungen werden zusammengestellt"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Visumantragsprozess",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registrierung",
+          "description": "Registrieren Sie sich über unsere Website oder App, um ein Konto zu erstellen und Ihre eindeutige Kunden-ID zu erhalten"
+        },
+        {
+          "number": 2,
+          "title": "Bewertung",
+          "description": "Unser Team prüft Ihren Zweck, Ihre Berechtigung und die erforderlichen Unterlagen für Ihre Destination"
+        },
+        {
+          "number": 3,
+          "title": "Vorbereitung",
+          "description": "Wir erstellen Ihre vollständigen Antragsunterlagen gemäß den Standards der Botschaft"
+        },
+        {
+          "number": 4,
+          "title": "Termin",
+          "description": "Wir sichern und bestätigen Ihren Botschaftstermin inklusive eines Anrufs zur Überprüfung Ihrer Vorbereitung"
+        },
+        {
+          "number": 5,
+          "title": "Zustellung",
+          "description": "Ihre finalen Unterlagen werden mit allen Termindetails zu Ihnen nach Hause geliefert"
+        },
+        {
+          "number": 6,
+          "title": "Einreichung",
+          "description": "Nehmen Sie den Termin mit Ihrem Reisepass und den vollständigen Unterlagen wahr"
+        },
+        {
+          "number": 7,
+          "title": "Nachverfolgung und Wiederverwendung",
+          "description": "Verfolgen Sie den Status im Portal und verwenden Sie Ihre Informationen für zukünftige Visumanträge erneut"
+        }
+      ]
+    },
+    "languages": {
+      "heading": "Mehrsprachige Unterstützung",
+      "description": "Damit Sprache niemals ein Hindernis darstellt, bieten wir mehrsprachige Unterstützung auf Englisch, Schwedisch, Urdu, Arabisch, Punjabi, Serbisch, Kurdisch, Persisch und vielen weiteren Sprachen an. Unsere Berater erklären die Visabestimmungen in der Sprache, in der Sie sich am wohlsten fühlen."
+    },
+    "faq": {
+      "heading": "Häufig gestellte Fragen",
+      "faqs": [
+        {
+          "id": 1,
+          "question": "Organisieren Sie Hotelbuchungen und Reiseversicherungen für Visa?",
+          "answer": "Ja, wir stellen botschaftsgenehmigte Hotelreservierungen, Flugpläne und Reiseversicherungen zur Verfügung, um Ihren Visumantrag zu stärken."
+        },
+        {
+          "id": 2,
+          "question": "Wie kann ich prüfen, ob ich für ein Visum berechtigt bin?",
+          "answer": "Unser Bewertungstool und unsere Experten analysieren Ihre Unterlagen und Ihre Reisehistorie, um Ihre Berechtigung zu bestätigen."
+        },
+        {
+          "id": 3,
+          "question": "Bearbeiten Sie Studenten- und Familienvisa?",
+          "answer": "Ja, wir betreuen Studentenbewerbungen, Familienbesuche und EU-Familienzusammenführungen mit vollständiger Dokumentation und Compliance-Prüfungen."
+        },
+        {
+          "id": 4,
+          "question": "Kann ich mehrere Visa mit denselben Unterlagen beantragen?",
+          "answer": "Ja, unser System ermöglicht die Wiederverwendung gespeicherter Dokumente für verschiedene Länder und Visatypen, wodurch Zeit und Aufwand gespart werden."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Warum Sweden Relocators wählen",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Universelles Visumformular",
+          "description": "Beantragen Sie mehrere Destinationen mit denselben Informationen, reduzieren Sie Fehler und sparen Sie Zeit"
+        },
+        {
+          "id": 2,
+          "title": "Botschaftskoordinierung",
+          "description": "Professionelle Vertretung gegenüber Botschaften sorgt für eine reibungslose Bearbeitung und reduziert das Ablehnungsrisiko"
+        },
+        {
+          "id": 3,
+          "title": "Mehrsprachiger Support",
+          "description": "Unterstützung in über 9 Sprachen gewährleistet ein klares Verständnis der Anforderungen"
+        },
+        {
+          "id": 4,
+          "title": "Komplette Reiseorganisation",
+          "description": "Hotelbuchungen, Flugreservierungen und Versicherungen werden für stärkere Anträge übernommen"
+        },
+        {
+          "id": 5,
+          "title": "Sichere digitale Tools",
+          "description": "DSGVO-konformes System mit sicherem Portal und mobiler App für einfache Dokumentenverwaltung"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Bereit, die Welt zu bereisen?",
+      "description": "Mit dem globalen Visumprogramm von Sweden Relocators kombinieren wir Technologie, Fachwissen und persönliche Betreuung, um internationale Reisen einfach zu machen. Starten Sie noch heute Ihren Visumantrag.",
+      "button": "Visumantrag starten",
+      "subtext": "Unser Team begleitet Sie Schritt für Schritt, um den Erfolg Ihres Antrags sicherzustellen."
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "logisticsServices": {
+    "hero": {
+      "title": "Gestion de la Logistique avec le Réseau de Partenaires Sweden Relocators",
+      "subtitle": "Solutions logistiques transparentes pour relocalisation et expansion commerciale"
+    },
+    "intro": {
+      "heading": "Solutions Logistiques Complètes pour Chaque Besoin",
+      "description": "La relocalisation et l'expansion commerciale dépendent souvent de la logistique fiable. Nous proposons des solutions de gestion de la logistique transparente conçues pour éliminer le stress de la traversée frontalière grâce à notre réseau de partenaires logistiques tiers soigneusement sélectionnés. Nous coordonnons tout, de l'emballage et de l'expédition internationale au dédouanement, au stockage, à l'expédition de fret et à la livraison du dernier kilomètre.",
+      "toolLink": "Notre objectif est simple : assurer que vos biens personnels, équipements de bureau ou marchandises commerciales atteignent leur destination en toute sécurité, à temps et à des tarifs compétitifs."
+    },
+    "services": {
+      "heading": "Nos Services Logistiques Principaux",
+      "requirementsLabel": "Ce Que Nous Gérons",
+      "services": [
+        {
+          "id": "packing",
+          "title": "Emballage et Expédition",
+          "description": "Services professionnels d'emballage et d'expédition mondiale utilisant des matériaux de qualité internationale",
+          "requirements": [
+            {"label": "Matériaux Professionnels", "description": "Matériaux d'emballage de qualité internationale et procédures de manipulation sécurisées"},
+            {"label": "Couverture Mondiale", "description": "Biens personnels, actifs d'entreprise et fret spécialisé"},
+            {"label": "Garantie de Sécurité", "description": "Transport sécurisé garantissant que les articles arrivent à destination en toute sécurité et efficacité"}
+          ]
+        },
+        {
+          "id": "customs",
+          "title": "Douanes et Conformité",
+          "description": "Navigation experte des réglementations douanières et des protocoles internationaux",
+          "requirements": [
+            {"label": "Douanes Suédoises", "description": "Support de dédouanement conforme aux douanes suédoises"},
+            {"label": "Règles Commerciales UE", "description": "Conformité complète avec les règles commerciales de l'UE et les protocoles internationaux"},
+            {"label": "Documentation", "description": "Toute la documentation préparée à l'avance pour minimiser les retards"}
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Solutions d'Entreposage",
+          "description": "Options de stockage flexibles dans des installations modernes et sécurisées",
+          "requirements": [
+            {"label": "Sécurité", "description": "Stockage sécurisé avec surveillance 24/7 disponible"},
+            {"label": "Contrôle Climatique", "description": "Installations climatisées pour marchandises sensibles"},
+            {"label": "Flexibilité", "description": "Options de stockage à court et long terme avec contrats flexibles"}
+          ]
+        },
+        {
+          "id": "freight",
+          "title": "Gestion du Fret",
+          "description": "Options de transport économiques avec suivi en temps réel",
+          "requirements": [
+            {"label": "Plusieurs Options", "description": "Fret aérien pour envois urgents, fret maritime pour cargo en vrac, transport routier pour déménagements régionaux"},
+            {"label": "Suivi", "description": "Suivi en temps réel pour que vous sachiez toujours où se trouve votre expédition"},
+            {"label": "Flexibilité", "description": "Solutions de transport économiques et flexibles"}
+          ]
+        },
+        {
+          "id": "lastmile",
+          "title": "Livraison du Dernier Kilomètre",
+          "description": "Coordonner la livraison finale avec services de dépliage et d'assemblage optionnels",
+          "requirements": [
+            {"label": "Livraison Opportune", "description": "Arrivée à votre domicile, bureau ou lieu commercial à temps"},
+            {"label": "Services Optionnels", "description": "Services de dépliage et d'assemblage disponibles"},
+            {"label": "Sans Stress", "description": "Assure une transition complètement sans stress"}
+          ]
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Pourquoi Choisir Sweden Relocators pour la Logistique?",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Portée Mondiale avec Expertise Locale",
+          "description": "Notre réseau de partenaires s'étend en Europe, Asie, Amérique du Nord et au-delà. La couverture mondiale associée à l'expertise locale suédoise garantit que chaque expédition respecte les normes internationales et locales."
+        },
+        {
+          "id": 2,
+          "title": "Coordination de Bout en Bout",
+          "description": "Un point de contact unique tout au long du voyage logistique, de la consultation et de l'emballage à la livraison et à la configuration, assurant cohérence et communication claire."
+        },
+        {
+          "id": 3,
+          "title": "Solutions Économiques",
+          "description": "En travaillant avec un réseau de fournisseurs vérifiés, nous négocions des tarifs compétitifs tout en maintenant la plus haute qualité de service."
+        },
+        {
+          "id": 4,
+          "title": "Transport Sûr et Fiable",
+          "description": "La sécurité est notre priorité. Nos partenaires utilisent des systèmes modernes pour l'emballage sécurisé, la manutention et le transport afin de protéger vos marchandises à chaque étape."
+        },
+        {
+          "id": 5,
+          "title": "Suivi Transparent et Mises à Jour",
+          "description": "Des systèmes de suivi avancés et des mises à jour régulières vous tiennent informé. Connaissez toujours le statut de votre expédition pour une tranquillité d'esprit totale."
+        }
+      ]
+    },
+    "process": {
+      "heading": "Comment Fonctionne Notre Service de Gestion de la Logistique",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Consultation et Planification",
+          "description": "Nous commençons par une consultation pour comprendre vos besoins, votre calendrier et votre budget. Sur cette base, nous concevons un plan logistique personnalisé."
+        },
+        {
+          "number": 2,
+          "title": "Emballage et Enlèvement",
+          "description": "L'emballage professionnel et l'enlèvement sécurisé sont arrangés par nos partenaires tiers, assurant que les articles sont correctement préparés pour le transit."
+        },
+        {
+          "number": 3,
+          "title": "Expédition et Suivi",
+          "description": "Que ce soit par voie aérienne, maritime ou terrestre, votre expédition est suivie en temps réel avec les estimations d'arrivée fournies tout au long."
+        },
+        {
+          "number": 4,
+          "title": "Dédouanement et Conformité",
+          "description": "Toute la documentation douanière est préparée et vérifiée à l'avance, assurant un dédouanement en douceur avec les douanes suédoises ou toute autre autorité de destination."
+        },
+        {
+          "number": 5,
+          "title": "Livraison et Dépliage",
+          "description": "À l'arrivée, nos partenaires logistiques gèrent la livraison finale, le dépliage et l'assemblage si nécessaire, vous permettant de vous installer sans tracas."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Prêt à Simplifier votre Logistique?",
+      "description": "Avec la gestion de la logistique Sweden Relocators, vous accédez à un réseau de partenaires fiable qui peut gérer chaque aspect de votre relocalisation ou expédition. Soumettez une demande de service aujourd'hui.",
+      "button": "Obtenez Votre Devis Logistique",
+      "subtext": "Qu'il s'agisse de relocalisation personnelle ou de logistique commerciale, dites-nous vos besoins et nous organiserons les services avec nos partenaires logistiques de confiance."
+    }
+  }
+}

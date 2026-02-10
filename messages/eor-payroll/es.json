@@ -1,0 +1,250 @@
+{
+  "eorPayroll": {
+    "hero": {
+      "title": "Empleador de Registro (EOR) & Servicios de Nómina en Suecia",
+      "subtitle": "Expande tu negocio a Suecia sin abrir una entidad local"
+    },
+    "intro": {
+      "heading": "EOR & Nómina Optimizada para Crecimiento Internacional",
+      "description": "Expandir tu negocio a Suecia o gestionar empleados internacionales no tiene que ser complicado. En Sweden Relocators, ofrecemos una solución completa de Empleador de Registro (EOR) y nómina a través de nuestro portal en línea y aplicación móvil, ayudando a las empresas a contratar y gestionar personal en Suecia sin abrir una entidad legal local. Nuestros servicios combinan cumplimiento, nómina y soporte a empleados en un sistema optimizado.",
+      "infoBox": "Ya sea que seas una startup probando el mercado sueco, una empresa multinacional contratando personal remoto, o una empresa reubicando empleados, nuestros servicios EOR & nómina garantizan cumplimiento legal, nómina precisa y satisfacción del empleado."
+    },
+    "whatIsEOR": {
+      "heading": "¿Qué es un Empleador de Registro (EOR)?",
+      "description": "Un Empleador de Registro (EOR) es una tercera parte confiable que se convierte en el empleador legal de tu fuerza laboral en Suecia. Mientras tú diriges el trabajo diario, nosotros manejamos los aspectos legales, administrativos y de cumplimiento del empleo. Esto incluye redactar contratos de trabajo conforme a la ley laboral sueca, registrar empleados con Skatteverket (Agencia Tributaria Sueca), gestionar salarios, retenciones fiscales y contribuciones sociales, manejar beneficios, pensiones y seguros, y garantizar el cumplimiento con los estándares de empleo suecos y regulaciones de la UE. Para las empresas, esto significa que puedes expandirte rápidamente a Suecia sin constituir una subsidiaria o pasar meses en configuración regulatoria."
+    },
+    "whyCompaniesUse": {
+      "heading": "Por qué las Empresas Usan Servicios EOR en Suecia",
+      "intro": "Suecia es una de las economías más fuertes de Europa, conocida por sus mercados impulsados por la innovación, fuerza laboral altamente calificada y fuertes protecciones legales para empleados. Pero para empresas extranjeras, contratar personal en Suecia puede ser desafiante por las siguientes razones:",
+      "challenges": [
+        {
+          "title": "Leyes Laborales Complejas",
+          "description": "Suecia aplica fuertes derechos de trabajadores bajo la Ley de Protección del Empleo (LAS)."
+        },
+        {
+          "title": "Cumplimiento Fiscal Estricto",
+          "description": "Los empleadores deben registrarse con Skatteverket y gestionar retenciones fiscales PAYE, pensiones y contribuciones patronales."
+        },
+        {
+          "title": "Configuración que Consume Tiempo",
+          "description": "Establecer una entidad local (AB) puede tomar meses, retrasando la expansión comercial."
+        },
+        {
+          "title": "Altos Riesgos de Cumplimiento",
+          "description": "Errores en nómina, impuestos o administración de beneficios pueden resultar en multas o disputas."
+        }
+      ],
+      "conclusion": "Nuestro servicio EOR resuelve estos desafíos actuando como tu empleador legal, permitiéndote enfocarte en el crecimiento mientras nosotros manejamos el cumplimiento."
+    },
+    "howItWorks": {
+      "heading": "Cómo Funciona el Servicio EOR de Sweden Relocators",
+      "description": "Ofrecemos un proceso digital paso a paso para contratar y gestionar empleados en Suecia:",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Registro de Empresa",
+          "description": "Regístrate como empleador en nuestro portal."
+        },
+        {
+          "step": 2,
+          "title": "Incorporación de Empleados",
+          "description": "Agrega detalles de empleados (contratos, salarios, beneficios) a través de nuestra plataforma digital."
+        },
+        {
+          "step": 3,
+          "title": "Cumplimiento Legal",
+          "description": "Emitimos contratos de trabajo que siguen la ley sueca y europea."
+        },
+        {
+          "step": 4,
+          "title": "Procesamiento de Nómina",
+          "description": "Nuestro sistema calcula salarios netos, retenciones fiscales y contribuciones sociales."
+        },
+        {
+          "step": 5,
+          "title": "Soporte Continuo",
+          "description": "Manejamos beneficios, pensiones y cumplimiento de RRHH durante todo el empleo."
+        },
+        {
+          "step": 6,
+          "title": "Desvinculación",
+          "description": "Si los contratos terminan, gestionamos períodos de aviso, indemnizaciones por despido y cumplimiento de terminación."
+        }
+      ]
+    },
+    "payrollProcess": {
+      "heading": "Servicios de Nómina en Suecia - Proceso Completo",
+      "intro": "La nómina en Suecia está altamente regulada y la precisión es crucial. Nuestros servicios de nómina están completamente integrados con nuestro sistema EOR para garantizar pagos fluidos y conformes.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Configuración de Empleados",
+          "description": "Ingresa detalles de empleados en el portal: salario, beneficios, pensión y deducciones. Regístrate con Skatteverket para impuestos PAYE y contribuciones sociales."
+        },
+        {
+          "step": 2,
+          "title": "Procesamiento Mensual de Nómina",
+          "description": "Cálculos de salario automatizados incluyendo impuestos, pensiones y seguros. Contribuciones patronales (arbetsgivaravgifter) se calculan y reportan. Cumplimiento con convenios colectivos (si aplica)."
+        },
+        {
+          "step": 3,
+          "title": "Pagos de Salario",
+          "description": "Depósitos bancarios directos en cuentas de empleados. Empleados acceden a recibos de pago digitales mostrando desglose completo de ingresos y deducciones."
+        },
+        {
+          "step": 4,
+          "title": "Cumplimiento Fiscal",
+          "description": "Declaraciones fiscales mensuales a Skatteverket. Reporte anual de declaraciones de ingresos para empleados. Registros seguros almacenados en el portal para acceso de empleadores y empleados."
+        },
+        {
+          "step": 5,
+          "title": "Administración de Beneficios",
+          "description": "Configuración de pensiones, seguros médicos y beneficios de licencia parental conforme a estándares suecos. Administración automática a través del sistema de nómina."
+        }
+      ]
+    },
+    "complianceAndLegal": {
+      "heading": "Cumplimiento y Referencias Legales",
+      "intro": "Nuestros servicios EOR & nómina operan estrictamente dentro de regulaciones suecas y de la UE:",
+      "references": [
+        {
+          "title": "Ley de Protección del Empleo (LAS)",
+          "description": "Regula la seguridad laboral y reglas de despido."
+        },
+        {
+          "title": "Agencia Tributaria Sueca (Skatteverket)",
+          "description": "Supervisa PAYE, contribuciones patronales y declaraciones."
+        },
+        {
+          "title": "Código de Seguridad Social",
+          "description": "Regula pensiones, licencia parental y protecciones de empleados."
+        },
+        {
+          "title": "Cumplimiento GDPR",
+          "description": "Garantiza protección de datos de empleados."
+        },
+        {
+          "title": "Directivas de la UE",
+          "description": "Incluyendo reglas de libre circulación y derechos de trabajadores según ley de la UE."
+        }
+      ],
+      "conclusion": "Al usar Sweden Relocators, tu empresa evita riesgos de cumplimiento y garantiza que todas las obligaciones de empleo se cumplan."
+    },
+    "benefitsForCompanies": {
+      "heading": "Beneficios para Empresas",
+      "benefits": [
+        {
+          "title": "Expansión Rápida",
+          "description": "Contrata personal en Suecia sin abrir subsidiaria."
+        },
+        {
+          "title": "Ahorro de Tiempo y Costos",
+          "description": "Evita configuración legal, contabilidad y administración de RRHH."
+        },
+        {
+          "title": "Mantén Cumplimiento",
+          "description": "Todo empleo, impuestos y nómina manejados dentro de la ley sueca."
+        },
+        {
+          "title": "Escalabilidad Fácil",
+          "description": "Agrega o elimina empleados rápidamente según necesidades comerciales."
+        },
+        {
+          "title": "Una Plataforma Digital",
+          "description": "Gestiona todo a través de nuestro portal y app."
+        }
+      ]
+    },
+    "benefitsForEmployees": {
+      "heading": "Beneficios para Empleados",
+      "benefits": [
+        {
+          "title": "Pagos de Salario Puntuales",
+          "description": "Nómina confiable con recibos de pago transparentes."
+        },
+        {
+          "title": "Beneficios y Pensiones",
+          "description": "Cumplimiento completo con sistemas de beneficios suecos."
+        },
+        {
+          "title": "Protección Legal",
+          "description": "Contratos de trabajo siguen estándares suecos."
+        },
+        {
+          "title": "Confianza y Estabilidad",
+          "description": "Empleados se sienten seguros, mejorando la retención."
+        }
+      ]
+    },
+    "whoShouldUse": {
+      "heading": "¿Quién Debería Usar Servicios EOR & Nómina?",
+      "intro": "Nuestras soluciones son ideales para:",
+      "solutions": [
+        {
+          "title": "Startups y PYMES",
+          "description": "Contrata personal sin costos pesados de configuración."
+        },
+        {
+          "title": "Empresas Globales",
+          "description": "Expande a Suecia sin registro local."
+        },
+        {
+          "title": "Contratación Basada en Proyectos",
+          "description": "Trabajadores a corto plazo o temporales manejados fácilmente."
+        },
+        {
+          "title": "Equipos Remotos",
+          "description": "Emplea trabajadores remotos en Suecia conforme a la ley."
+        },
+        {
+          "title": "Reubicaciones",
+          "description": "Mueve empleados a Suecia con soporte completo de RRHH."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "¿Por qué Elegir Sweden Relocators?",
+      "reasons": [
+        {
+          "title": "Portal Digital Todo-en-Uno",
+          "description": "Gestiona contratos, nómina y cumplimiento en un sistema."
+        },
+        {
+          "title": "Conocimiento Experto en Ley Laboral Sueca",
+          "description": "Reduce riesgos legales y fiscales."
+        },
+        {
+          "title": "Procesos Transparentes",
+          "description": "Reportes en tiempo real y registros para empleadores y empleados."
+        },
+        {
+          "title": "Soporte de Reubicación Integral",
+          "description": "Más allá de EOR, ayudamos con vivienda, visas e integración."
+        },
+        {
+          "title": "Soporte Multilingüe",
+          "description": "Asistencia en inglés, sueco, urdu, árabe, persa y más."
+        }
+      ]
+    },
+    "gettingStarted": {
+      "heading": "Para Comenzar",
+      "steps": [
+        "Registra tu empresa en nuestro portal.",
+        "Agrega empleados con detalles de salario y contrato.",
+        "Activa Nómina y Cumplimiento – Nosotros manejamos el resto.",
+        "Enfócate en el Crecimiento Empresarial mientras nosotros manejamos el empleo."
+      ]
+    },
+    "conclusion": {
+      "heading": "Expande a Suecia con Confianza",
+      "description": "Con los servicios Employer of Record (EOR) y Nómina de Sweden Relocators, tu empresa puede expandirse a Suecia con confianza. Manejamos las complejidades legales, fiscales y de nómina, mientras tú te enfocas en construir tu negocio. Ya sea que necesites un empleado o un equipo completo, nuestra plataforma garantiza gestión fluida de fuerza laboral."
+    },
+    "cta": {
+      "heading": "¿Listo para Expandir tu Negocio a Suecia?",
+      "description": "Deja que Sweden Relocators maneje la complejidad de la gestión EOR y nómina. Nuestros expertos te guiarán a través de todo el proceso, garantizando cumplimiento legal completo y satisfacción del empleado.",
+      "button": "Comienza con Servicios EOR",
+      "subtext": "Nuestro equipo dedicado está listo para responder todas tus preguntas sobre contratación de personal en Suecia."
+    }
+  }
+}

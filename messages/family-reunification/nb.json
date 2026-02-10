@@ -1,0 +1,186 @@
+{
+  "familyReunification": {
+    "hero": {
+      "title": "Familjesamling i Sverige",
+      "subtitle": "Gjennomgripende Veileder Under Svensk Nasjonal Lov"
+    },
+    "intro": {
+      "heading": "Få Familien Din til Sverige",
+      "description": "Svenske familiesamlingslover tillater personer som holder ulike typer oppholdstillatelser - inkludert arbeidsgivertillatelser, næringstillatelser, doktor- og studenttillatelser, samt permanente oppholdstillatelser - så vel som flygtninge, å bringe familiemedlemmer til Sverige. Hver saktype har spesifikke krav og vurderes under ulike bestemmelser i svensk nasjonal lov.",
+      "infoBox": "Naviger komplekse familiesamlingskrav med ekspertkunnskaper i svensk nasjonal lov og spesifikk vurdering av tillatelelstype."
+    },
+    "lawsHeading": "Viktige Svenske Lover som Styrer Familiesamling",
+    "laws": [
+      {
+        "name": "Utlendingsloven (Utlänningslagen)",
+        "description": "Hoveddelslovgivningen som styrer oppholdstillatelser og familiesamling for alle ikke-svenske borgere."
+      },
+      {
+        "name": "Midlertidig Utlendinglov (Tillfälliga Utlänningslagen)",
+        "description": "En midlertidig lov som påvirker familiestandarder, primært for flygtninge og personer som trenger subsidiær beskyttelse."
+      },
+      {
+        "name": "Svensk Statsborgerskaplov (Lag om Svenskt Medborgarskap)",
+        "description": "Relevant for svenske borgere og permanente bosatte som inviterer familiemedlemmer."
+      },
+      {
+        "name": "Sosial Trygdskode (Socialförsäkringsbalken)",
+        "description": "Gir veiledning om akseptable inntektskilder for underholdsplikt."
+      }
+    ],
+    "eligibility": {
+      "heading": "Hvem Kan bli Sponset?",
+      "description": "Familiesamling er generelt tilgjengelig for kvalifiserte familiemedlemmer under svensk lov. Hver relasjonstype har spesifikke kvalifiksjonskriterier.",
+      "familyMembers": [
+        {
+          "type": "Ektefelle eller Registrert Partner",
+          "description": "Lovlig gift eller registrerte partnere"
+        },
+        {
+          "type": "Samboende Partner",
+          "description": "Samboende, uregistrerte partnere kan være kvalifisert hvis forholdet er godt dokumentert"
+        },
+        {
+          "type": "Barn Under 18 År",
+          "description": "Mindreårige barn av tillatelesholder eller deres ektefelle/partner"
+        },
+        {
+          "type": "Foreldre (For Mindreårige Tillatelsesholdere)",
+          "description": "For tillatelsesholdere under 18 år kan foreldre eller verger være kvalifisert"
+        },
+        {
+          "type": "Utvidet Familie",
+          "description": "Andre familiemedlemmer kan vurderes av humanitære årsaker"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Underholdsplikt og Boligkrav",
+      "description": "Underholdsplikt (Försörjningskrav) er essensielt for de fleste familiesamlingsgelder og sikrer at hovedsøkeren har tilstrekkelig inntekt og passelig bolig til å støtte familiemedlemmer.",
+      "maintenanceLabel": "Inntektskrav",
+      "housingLabel": "Boligkrav",
+      "maintenance": [
+        "Stabil inntekt til å dekke levekostnader",
+        "Arbeidskontrakter eller bevis på egenarbeid",
+        "Seneste lønnslister og skattemeldinger",
+        "Dokumentasjon av sosiale stønader der relevant"
+      ],
+      "housing": [
+        "Leieavtale eller eiendomsbevis",
+        "Tilstrekkelig rom for alle familiemedlemmer",
+        "Bevis for månedlig leie eller eiergebyrer",
+        "Oppfyller Svenske boligkvaliteter"
+      ]
+    },
+    "assessmentHeading": "Vurderingskriterier Etter Tillatelelstype",
+    "assessmentCriteria": [
+      {
+        "title": "Arbeidsgivertillatelsesholdere",
+        "requirements": ["Langsiktig arbeid med tilstrekkelig lønn", "Arbeidskontrakter og lønnslister", "Bevis for finansiell stabilitet", "Passende boligarrangement"]
+      },
+      {
+        "title": "Næringstillatelsesholdere",
+        "requirements": ["Lønnsom virksomhet som gir tilstrekkelig inntekt", "Skattemeldinger og forretningsuttalelser", "Forhåndsomfattende skatteansettelser fra Svenske Skatteetaten", "Påvist virksomhetsdyktig"]
+      },
+      {
+        "title": "Doktorstudierende og Forskere",
+        "requirements": ["Stabil finansiering eller stipendier", "Programvarighet generelt over ett år", "Inntektsdokumentation fra utdanningsinstitusjon", "Boligarrangement i Sverige"]
+      },
+      {
+        "title": "Permanente Oppholdstillatelsesholdere",
+        "requirements": ["Langsidig opphold med sterke bånd til Sverige", "Inntektsvurdering med mulig fleksibilitet", "Vurdering av boligkvaliteter", "Muligvis mer milde krav"]
+      },
+      {
+        "title": "Flygtninge og Subsidiær Beskyttelsesholdere",
+        "requirements": ["Mulig fritak fra underholdsplikt innen 3 måneder", "Bevis på forhold før ankomst til Sverige", "Dokumentasjon av familieforhold", "Vurdert under Midlertidig Utlendinglov"]
+      }
+    ],
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Forbered Dokumentasjon",
+        "description": "Saml alle påkrevde dokumenter, inkludert pass, bevis på forhold (ekteskap- eller fødselsattest), boligavtaler og inntektsbekreftelse."
+      },
+      {
+        "step": "2",
+        "title": "Send Inn Søknad",
+        "description": "Send inn søknader online via Svenske Migrationsverkets portal eller hos en svensk ambassade/konsulat, inkludert bevis på forhold og bolig-/inntektsbekreftelse."
+      },
+      {
+        "step": "3",
+        "title": "Migrationsverkets Vurdering",
+        "description": "Svenske Migrationsverket verifiserer at alle krav er oppfylt, vurderer inntekt, bolig og familiequalifiksjon i henhold til din spesifikke tillatelelstype."
+      },
+      {
+        "step": "4",
+        "title": "Vedtak og Melding",
+        "description": "Etter vurdering utsteder etaten et vedtak. Hvis godkjent, kan familiemedlemmer motta oppholdstillatelser som korresponderer med sponsors tillatelsesvarighet."
+      }
+    ],
+    "legalProvisions": {
+      "heading": "Spesifikke Juridiske Bestemmelser",
+      "description": "Familiesamling i Sverige er styrt av spesifikke juridiske bestemmelser tilpasset ulike tillatelelstyper og familiesituasjoner.",
+      "acts": [
+        {
+          "name": "Utlendingsloven (Utlänningslagen)",
+          "details": "Primær juridisk rammeverk for familiesamling som dekker inntekt, bolig og forholdsverifisering med underholdsplikt og boligkrav."
+        },
+        {
+          "name": "Midlertidig Utlendinglov (Tillfälliga Utlänningslagen)",
+          "details": "Anvender strengere underholdsplikt for flygtninge med vekt på økonomisk uavhengighet utover tre-månedersperioden."
+        },
+        {
+          "name": "Sosial Trygdskode (Socialförsäkringsbalken)",
+          "details": "Definerer akseptable inntektskilder, særlig relevant for sponsorer som er avhengig av stønader eller arbeidsledighet."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Våre Tjenester",
+      "description": "Sweden Relocators tilbyr omfattende støtte for å hjelpe deg navigere familiesamling i Sverige og sikre at søknaden din oppfyller alle svenske juridiske standarder.",
+      "servicesList": [
+        {
+          "title": "Kvalifikasjonsvurdering",
+          "description": "Vi vurderer din spesifikke tillatelelstype, inntekt, bolig og familiekvalifikasjon for å bestemme den beste tilnærmingen."
+        },
+        {
+          "title": "Dokumentforberedelse",
+          "description": "Hjelp med å samle alle nødvendige dokumenter, oversette utenlandske dokumenter om nødvendig, og sikre fullstendig nøyaktighet."
+        },
+        {
+          "title": "Søknads innlevering og Oppfølging",
+          "description": "Sender inn søknaden din på dine vegne og oppfølging med Svenske Migrationsverket."
+        },
+        {
+          "title": "Anke støtte",
+          "description": "Hvis søknaden din avslås, gir vi veiledning gjennom ankeprosessen og styrker saken din."
+        },
+        {
+          "title": "Juridisk Overholdelse Garanti",
+          "description": "Vi sikrer at all dokumentasjon oppfyller svenske juridiske standarder og spesifikke tillatelelstype-krav."
+        }
+      ]
+    },
+    "whyChooseHeading": "Hvorfor Velge Sweden Relocators?",
+    "whyChoose": [
+      {
+        "title": "Ekspertkunnskaper",
+        "description": "Dypgående kunnskaper om svenske familiesamlingslover og krav for alle tillatelelstyper."
+      },
+      {
+        "title": "Personlig Støtte",
+        "description": "Vi tilpasser vår støtte til din spesifikke tillatelelstype og omstendigheter for maksimalt framgang."
+      },
+      {
+        "title": "Effektiv Behandling",
+        "description": "Ved å sikre nøyaktighet og overholdelse hjelper vi deg å unngå forsinkelser eller avslag, noe som gjør prosessen smidigere og mer effektiv."
+      }
+    ],
+    "cta": {
+      "heading": "Klar for å få Familien Din i Sverige?",
+      "description": "Familiesamling er en kompleks prosess med spesifikke krav for hver tillatelelstype. La Sweden Relocators veilede deg gjennom familiesamlingsprosessen i Sverige og sikre at alle juridiske krav er oppfylt for en vellykket søknad.",
+      "button": "Start Din Familiesamlingsøknad",
+      "subtext": "Vårt ekspertteam vil veilede deg gjennom hvert trinn av den svenske familiesamlingsprosessen."
+    }
+  }
+}

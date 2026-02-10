@@ -1,0 +1,48 @@
+{
+  "companyRegistration": {
+    "hero": {
+      "title": "Allesomvattende Gids voor Bedrijfsregistratie in Zweden",
+      "subtitle": "Deskundig inleiding voor het legaal opstellen van uw bedrijf in Zweden"
+    },
+    "intro": {
+      "heading": "Het Starten van een Bedrijf in Zweden",
+      "description": "Het starten van een bedrijf in Zweden biedt toegang tot een van de meest stabiele economieën in Europa, een ondersteunende bedrijfscultuur en een zeer gekwalificeerde beroepsbevolking. Bedrijfsregistratie is een essentiële stap voor iedereen die van plan is een bedrijf in Zweden uit te voeren, omdat het het bedrijf wettelijk vrijstelt en het in staat stelt zakelijke activiteiten uit te voeren, contracten aan te gaan en essentiële diensten te gebruiken. Deze gids behandelt de verschillende soorten bedrijven in Zweden, de voordelen en nadelen van elk, en waarom en wanneer bedrijfsregistratie nodig is."
+    },
+    "whyImportant": {
+      "heading": "Waarom is Bedrijfsregistratie Belangrijk?",
+      "reasons": [
+        {
+          "number": 1,
+          "title": "Juridische Erkenning",
+          "description": "Het registreren van uw bedrijf geeft het juridische status in Zweden, waardoor het contracten kan sluiten, bankrekeningen kan openen en zakelijke activiteiten legaal kan uitvoeren."
+        },
+        {
+          "number": 2,
+          "title": "Naleving van Belastingen",
+          "description": "Geregistreerde bedrijven kunnen zich registreren voor btw en moeten zich houden aan Zweedse belastingwetgeving, wat transparante financiële activiteiten mogelijk maakt."
+        },
+        {
+          "number": 3,
+          "title": "Toegang tot Voordelen",
+          "description": "Geregistreerde bedrijven kunnen profiteren van overheidsestimuleringen, belastingaftrekken en toegang tot leningen en financiering van Zweedse financiële instellingen."
+        },
+        {
+          "number": 4,
+          "title": "Geloofwaardigheid en Vertrouwen",
+          "description": "Geregistreerde bedrijven zijn meer vertrouwd door klanten, leveranciers en partners, aangezien zij een engagement voor juridische naleving en transparantie tonen."
+        },
+        {
+          "number": 5,
+          "title": "Beperkte Aansprakelijkheid",
+          "description": "Bepaalde bedrijfstypen, zoals naamloze vennootschappen, bieden beperkte aansprakelijkheidsbescherming en beschermen de persoonlijke bezittingen van de eigenaar tegen bedrijfsschulden en verplichtingen."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Begin vandaag met uw Bedrijfsregistratie",
+      "description": "Als u klaar bent om uw bedrijf in Zweden op te zetten, neem vandaag contact op met Sweden Relocators voor deskundige hulp. Wij leiden u door elke stap van het bedrijfsregistratieproces, wat een soepele start voor uw bedrijf op Zwedens bloeiende markt garandeert.",
+      "button": "Aan de slag",
+      "subtext": "Bezoek onze sectie Bedrijfsregistratie of neem contact met ons op voor meer informatie. Ons team staat klaar om u te helpen uw bedrijf in Zweden op te zetten."
+    }
+  }
+}

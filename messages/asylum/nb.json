@@ -1,0 +1,171 @@
+{
+  "asylum": {
+    "hero": {
+      "title": "Asyl i Norge: Profesjonell Støtte for en Sikker Fremtid",
+      "subtitle": "Ekspertretning gjennom den norske asylprosessen"
+    },
+    "intro": {
+      "heading": "Hva Vi Tilbyr",
+      "description": "Hvis du søker asyl i Norge, kan det være overveldende å forstå den juridiske prosessen og oppfylle kravene. Hos Sweden Relocators hjelper vårt team av erfarne immigrasjonsspecialister deg gjennom hvert trinn av asylprosessen hos Utlendingsdirektoratet, som sikrer at din sak håndteres med størst mulig omsorg og profesjonalitet."
+    },
+    "whyChooseExpert": {
+      "heading": "Hvorfor Velge en Expert?",
+      "description": "Å navigere asylprosessen i Norge kan være kompleks, med spesifikke regler og tidsfrister. Her er hvordan vårt ekspertteam kan gjøre en forskjell for deg:",
+      "benefits": [
+        {
+          "title": "Sinnsro",
+          "description": "Med vårt profesjonelle team som håndterer din sak, kan du fokusere på andre aspekter av å bosette deg i Norge. Vi er forpliktet til å sikre at din asylsøknad håndteres effektivt og med medfølelse."
+        },
+        {
+          "title": "Klar og Gjennomsiktig Retning",
+          "description": "Våre spesialister forenkler komplekse juridiske krav, noe som sikrer at du forstår hvert trinn. Uansett hvor komplisert din sak kan virke, er vårt team beredt til å hjelpe deg med å klargjøre og effektivt presentere dine asylgrunnlag."
+        },
+        {
+          "title": "Umiddelbar Tilgang til Juridisk Expert",
+          "description": "Våre immigrasjonsadvokater begynner å arbeide med din sak så snart du kontakter oss, noe som gir et umiddelbar svar på dine bekymringer og sikrer at din sak prioriteres og behandles raskt."
+        }
+      ]
+    },
+    "eligibility": {
+      "heading": "Kvalifikasjon for Asyl i Norge",
+      "whoCanApply": {
+        "heading": "Hvem Kan Søke Asyl?",
+        "intro": "For å søke asyl i Norge må du være fysisk til stede i landet eller ved grensen. Det er ikke mulig å søke fra et annet land eller ved en norsk ambassade i utlandet.",
+        "description": "Hver asylsøkers sak blir vurdert individuelt, og Utlendingsdirektoratet gir kun oppholdsløve hvis søkeren oppfyller kriteriene for å betraktes som flyktning under både norsk lov og FNs flyktingekonvensjon."
+      },
+      "refugeeDefinition": {
+        "heading": "Flyktingdefinisjon og Kriterier",
+        "intro": "Under norsk lov og internasjonale retningslinjer kvalifiserer en person som flyktning hvis de møter forfølgelse eller alvorlige trusler i sitt hjemland basert på:",
+        "criteria": [
+          "Rase",
+          "Nasjonalitet, Språk eller Etnisk Gruppe",
+          "Religion",
+          "Politisk Overbevisning eller Aktivisme",
+          "Kjønnsidentitet",
+          "Seksuell Orientering",
+          "Medlemskap i en Bestemt Sosial Gruppe"
+        ],
+        "additionalInfo": "Hvis grupper eller personer i ditt hjemland truer deg eller dine nærmeste, kan dette påvirke søknaden din. En positiv avgjørelse krever imidlertid klare bevis på forfølgelse relatert til en av disse faktorene. Under søknadsprosessen blir du bedt om å beskrive risikoen du står overfor hvis du skulle returnere til ditt land.",
+        "outcome": "Hvis din sak aksepteres, kan du få oppholdsløve gyldig for enten tre år eller 13 måneder, avhengig av detaljer i din situasjon."
+      }
+    },
+    "applicationProcess": {
+      "heading": "Trinn for å Søke Asyl i Norge",
+      "intro": "Trinn-for-Trinn Prosess",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Fysisk Tilstedeværelse Påkrevd",
+          "description": "Du må være fysisk til stede i Norge eller ved den norske grensen for å søke asyl."
+        },
+        {
+          "step": 2,
+          "title": "Innledende Møte ved Direktoratet",
+          "description": "Når du har levert søknaden din, blir du invitert til et innledende møte ved Direktoratet. Under dette møtet får du muligheten til å velge din juridiske representant eller advokat. I dette stadiet kan du velge vårt erfarne team for å støtte deg."
+        },
+        {
+          "step": 3,
+          "title": "Juridisk Representasjon og Saksforberedelse",
+          "description": "Hvis du velger oss som din representant, vil Direktoratet kontakte oss for å bistå med din sak. Vårt team vil planlegge et anrop med deg for å samle detaljer om din bakgrunn og grunnen til å søke asyl. Vi vil også forberede deg for fremtidige intervjuer og dokumentinnsendinger."
+        }
+      ]
+    },
+    "legalRepresentative": {
+      "heading": "Vår Rolle som Din Juridiske Representant",
+      "intro": "Som din juridiske representant vil vi:",
+      "services": [
+        "Gi løpende støtte og juridisk rådgivning gjennom hele asylprosessen.",
+        "Hjelpe til med å klargjøre dine asylgrunnlag for Direktoratet, ved å bruke vår dype kunnskap om norsk asyllovgivning.",
+        "Sikre at dine rettigheter er beskyttet, spesielt fordi asylsøkere ikke forventes å være kjent med norske juridiske prosesser.",
+        "Hjelpe deg å navigere anker hvis din innledende søknad avslås. Vi kan hjelpe til med å anke til både Utlendingsnemnda og Domstolen hvis nødvendig."
+      ],
+      "additionalSupport": "I tillegg tilbyr vi omfattende relokasjonservice for å hjelpe deg med å bli gjenforent med familiemedlemmer hvis søknaden din er vellykket."
+    },
+    "familyReunification": {
+      "heading": "Familiegjenforening for Flyktinger",
+      "subheading": "Bring Din Familie til Norge",
+      "description": "Norge anerkjenner familiegjenforening som en vesentlig rettighet, slik at familiemedlemmer kan slutte seg til flyktinger eller personer med spesifikke oppholdsløver. Hvis du har fått asyl eller en annen type berechtigenede oppholdsløve, kan din familie muligens slutte seg til deg i Norge.",
+      "whoCanApply": {
+        "heading": "Hvem Kan Kvalifisere for Familiegjenforening?",
+        "intro": "Din familie kan være berettiget til å søke om oppholdsløve for å slutte seg til deg i Norge hvis du har:",
+        "eligibilityTypes": [
+          "En permanent oppholdsløve",
+          "En midlertidig oppholdsløve som flyktning, med rimelige sjanser for langsiktig forlengelse",
+          "En midlertidig oppholdsløve basert på returhindringer eller tyngende omstendigheter, med sannsynlighet for langsiktig forlengelse"
+        ]
+      },
+      "euEeaCitizens": {
+        "heading": "For EU/EØS-borgere",
+        "description": "Hvis du er en EU/EØS-borger eller relatert til en, kan du dra fordel av en forenklet prosess for å bringe familiemedlemmer til Norge basert på retten til fri bevegelse i Europa. Denne forenklede visumprosessen kan gjøre det mulig for familiemedlemmer å reise med deg eller slutte seg til deg i Norge."
+      },
+      "temporaryPermit": {
+        "heading": "Hvis Du Holder en Midlertidig Oppholdsløve",
+        "description": "For at søknader om familiegjenforening skal være vellykkede, må du holde en gyldig oppholdsløve på søknadstidspunktet. Hvis løven din er under forlengelse, vil Direktoratet først vurdere din berektigenelse til å opprettholde bosted før de avgjør familiegjenforening.",
+        "familyMembers": "Generelt er nærmeste familiemedlemmer som din ektefelle, registrert partner, samboende partner eller barn under 18 år kvalifisert til å slutte seg til deg. I ekstraordinære tilfeller kan andre slektninger også kvalifisere, men bare under visse betingelser.",
+        "maintenance": "Et forsørgelseskrav gjelder, noe som betyr at du må vise at du kan økonomisk støtte familiemedlemmene dine og tilby passende bolig som oppfyller norske standarder."
+      }
+    },
+    "familyReunificationAssistance": {
+      "heading": "Hvordan Vi Hjelper deg Med Familiegjenforening",
+      "description": "Vårt team tilbyr fullstendig støtte for familiegjenforeningsprosessen, som dekker alle aspekter for å gjøre det så smidig som mulig:",
+      "services": [
+        {
+          "title": "Søknadsforberedelse",
+          "description": "Assistanse med å forberede og sende inn oppholdsløvesøknaden for familiemedlemmene dine, inkludert dokumentveiledning."
+        },
+        {
+          "title": "Dokumentverifisering",
+          "description": "Sikring av at alle nødvendige dokumenter er i orden, for å minimere forsinkelser og komplikasjoner."
+        },
+        {
+          "title": "Veiledning om Statlige Avgifter",
+          "description": "Klar informasjon om de statlige avgiftene som er involvert, slik at du alltid er klar over kostnadene."
+        },
+        {
+          "title": "Registreringsstøtte",
+          "description": "Assistanse med å registrere søknaden ved Direktoratet for å sikre nøyaktighet og fullstendighet."
+        },
+        {
+          "title": "Regelmessig Oppfølging",
+          "description": "Kontinuerlig overvåking av søknadens framgang med raske oppdateringer for å holde deg informert."
+        },
+        {
+          "title": "Avtalekoordinering",
+          "description": "Koordinering av essensielle møter ved Direktoratet for intervjuer, biometri og andre prosedyremessige trinn."
+        },
+        {
+          "title": "Ledsagede Besøk",
+          "description": "Vårt team vil ledsage deg under besøk ved Direktoratet, noe som gir personlig støtte og veiledning under viktige øyeblikk i prosessen."
+        }
+      ]
+    },
+    "additionalSupport": {
+      "heading": "Ytterligere Støttetjenester for Asylsøkere og Nyankomne",
+      "intro": "Utover asyl- og familiegjenforieningstjenester tilbyr vi også:",
+      "services": [
+        {
+          "title": "Relokasjonsstøtte",
+          "description": "Omfattende hjelp med bolig, utdanning, helsevesen og sosial integrering i Norge for å lette overgangen din."
+        },
+        {
+          "title": "Tolk- og Oversettelsetjenester",
+          "description": "Assistanse med å oversette nødvendige dokumenter og tolking under møter med Direktoratets tjenestemenn."
+        },
+        {
+          "title": "Juridisk Bistand for Anker og Gjennomgang",
+          "description": "Støtte i innlevering av anker, forberedelse til rettsforhandlinger og håndtering av komplekse juridiske prosedyrer."
+        },
+        {
+          "title": "Rådgivningstjenester",
+          "description": "Profesjonell støtte for følelsesmessig velvære under utfordrende tider, som hjelper deg å føle deg sikker og støttet."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Start Din Asylsøknad I Dag",
+      "description": "Kontakt Sweden Relocators for å begynne med din asylsøknad med ekspertretning og støtte ved hvert trinn.",
+      "button": "Kom I Gang",
+      "subtext": "Besøk vår Asylseksjon eller kontakt oss for mer informasjon. Vårt team er her for å hjelpe deg sikre din fremtid i Norge."
+    }
+  }
+}

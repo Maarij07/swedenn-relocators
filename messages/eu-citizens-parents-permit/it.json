@@ -1,0 +1,217 @@
+{
+  "euCitizensParentsPermit": {
+    "hero": {
+      "title": "Carta di Residenza UE per Genitori Dipendenti e altri Familiari secondo la Direttiva 2004/38/CE",
+      "subtitle": "Guida esperta per portare i familiari dipendenti in Svezia"
+    },
+    "intro": {
+      "heading": "Unità Familiare attraverso la Libera Circolazione UE",
+      "description": "Secondo la Direttiva UE 2004/38/CE, i cittadini dell'UE/SEE che esercitano il loro diritto di libera circolazione in Svezia possono richiedere una carta di residenza per i loro familiari dipendenti al di fuori dell'UE, inclusi genitori e altri familiari. Questa direttiva mira a facilitare l'unità familiare consentendo ai cittadini dell'UE di portare familiari che dipendono economicamente o socialmente da loro per vivere in Svezia. Ecco una panoramica approfondita dei requisiti, della procedura di domanda e dei casi specifici per genitori dipendenti e altri familiari."
+    },
+    "whoQualifies": {
+      "heading": "Chi si Qualifica come Familiare Dipendente?",
+      "intro": "Per essere idoneo secondo la Direttiva 2004/38/CE, il familiare non-UE deve rientrare in una delle seguenti categorie:",
+      "categories": [
+        {
+          "number": 1,
+          "title": "Genitori Dipendenti",
+          "description": "Genitori di un cittadino dell'UE o del loro coniuge/partner che dipendono dal cittadino dell'UE per il sostegno finanziario o altri aiuti essenziali."
+        },
+        {
+          "number": 2,
+          "title": "Altri Familiari Dipendenti",
+          "description": "Questo può includere fratelli o parenti lontani se esiste una relazione di dipendenza chiara, particolarmente se il familiare e il cittadino dell'UE vivevano insieme nel precedente paese di residenza."
+        },
+        {
+          "number": 3,
+          "title": "Figli o Figliastri",
+          "description": "I figli sopra i 21 anni possono anche qualificarsi come dipendenti se dipendono dal cittadino dell'UE per il sostegno, anche se questo è valutato diversamente rispetto ai minori."
+        }
+      ]
+    },
+    "keyConditions": {
+      "heading": "Condizioni Chiave per l'Idoneità",
+      "conditions": [
+        {
+          "number": 1,
+          "title": "Prova di Dipendenza",
+          "description": "Il richiedente deve fornire prove mostrando dipendenza finanziaria o personale dal cittadino dell'UE. Questo potrebbe includere prova di residenza condivisa, sostegno finanziario regolare o documentazione di dipendenza emotiva e sociale."
+        },
+        {
+          "number": 2,
+          "title": "Convivenza Precedente",
+          "description": "Nei casi che coinvolgono familiari allargati (come fratelli o figli adulti), il richiedente deve dimostrare di aver vissuto con il cittadino dell'UE nel suo paese d'origine immediatamente prima che il cittadino dell'UE si trasferisse in Svezia."
+        },
+        {
+          "number": 3,
+          "title": "Domanda Tempestiva",
+          "description": "Le domande dovrebbero idealmente essere presentate il prima possibile dopo l'arrivo del cittadino dell'UE in Svezia. Le domande ritardate possono ridurre la probabilità di approvazione, specialmente se la dipendenza si è sviluppata solo dopo il trasferimento del cittadino dell'UE."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Procedura di Domanda per una Carta di Residenza secondo la Direttiva 2004/38/CE",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Preparare Documentazione di Dipendenza e Relazione",
+          "intro": "Raccogliere la documentazione necessaria è cruciale. I documenti chiave includono:",
+          "documents": [
+            {
+              "title": "Prova di Identità",
+              "description": "Passaporto valido del familiare non-UE."
+            },
+            {
+              "title": "Prova di Relazione",
+              "details": [
+                "Per i genitori: Certificato di nascita del cittadino dell'UE mostrando la relazione parentale.",
+                "Per gli altri familiari: Documenti mostrando la relazione familiare (ad esempio, certificati di nascita o registri familiari)."
+              ]
+            },
+            {
+              "title": "Prova di Dipendenza",
+              "description": "Questo può includere estratti bancari, prova di trasferimenti finanziari regolari, prova di residenza condivisa, e altri documenti che dimostrino dipendenza dal cittadino dell'UE per sostegno finanziario o emotivo."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Presentare la Domanda",
+          "intro": "Il familiare non-UE deve richiedere una carta di residenza, che può essere presentata all'Agenzia Svedese per le Migrazioni (Migrationsverket) online o tramite un'ambasciata o un consolato svedese nel paese d'origine del richiedente.",
+          "details": [
+            "Dettagli del Richiedente: Informazioni sul cittadino dell'UE, il suo stato di residenza in Svezia e i dettagli personali del dipendente.",
+            "Documenti di Supporto: Tutti i documenti richiesti che dimostrino la relazione di dipendenza e la prova di mantenimento per il cittadino dell'UE in Svezia."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Revisione dell'Agenzia per le Migrazioni",
+          "intro": "L'Agenzia per le Migrazioni valuterà la relazione e la dipendenza sulla base delle prove fornite. Possono richiedere documentazione aggiuntiva o chiarimenti se necessario. La revisione si concentra su:",
+          "details": [
+            "Verifica di Dipendenza: Conferma che il familiare non-UE è veramente dipendente dal cittadino dell'UE.",
+            "Relazione Familiare: Verifica del collegamento familiare del richiedente con il cittadino dell'UE e assicurazione che la dipendenza esisteva prima del trasferimento in Svezia."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Decisione e Emissione della Carta di Residenza",
+          "description": "Se approvata, il familiare non-UE riceverà una carta di residenza valida per cinque anni o la durata prevista della residenza del cittadino dell'UE in Svezia (a seconda di quale sia più breve). La carta di residenza consente al titolare di vivere, lavorare e accedere all'assistenza sanitaria in Svezia nelle stesse condizioni dei familiari dell'UE."
+        }
+      ]
+    },
+    "specificCases": {
+      "heading": "Casi Specifici: Requisiti per Genitori Dipendenti e altri Familiari",
+      "dependentParents": {
+        "heading": "Permesso di Residenza per Genitori Dipendenti",
+        "intro": "Per i genitori dipendenti, le condizioni primarie includono la dimostrazione della dipendenza economica o legata alla salute dal cittadino dell'UE. Esempi di documentazione accettabile possono includere:",
+        "documentation": [
+          {
+            "title": "Prova di Sostegno Finanziario",
+            "description": "Trasferimenti bancari, ricevute di rimesse o prova di sostegno finanziario regolare dal cittadino dell'UE."
+          },
+          {
+            "title": "Dipendenza Legata alla Salute",
+            "description": "Certificati medici o documentazione di esigenze speciali che richiedono prossimità al cittadino dell'UE per sostegno e cura."
+          }
+        ],
+        "note": "Nei casi in cui il genitore ha esigenze di salute sostanziali, la documentazione aggiuntiva può essere richiesta per dimostrare che le opzioni di assistenza appropriate non sono disponibili nel loro paese d'origine."
+      },
+      "otherFamilyMembers": {
+        "heading": "Permesso di Residenza per Altri Familiari Dipendenti",
+        "intro": "Per altri familiari dipendenti (ad esempio, fratelli adulti o parenti lontani), i requisiti sono in genere più rigorosi:",
+        "requirements": [
+          {
+            "title": "Prova di Famiglia Condivisa",
+            "description": "Prova che il familiare viveva con il cittadino dell'UE prima del loro trasferimento in Svezia, come ad esempio un contratto di affitto condiviso o fatture di servizi."
+          },
+          {
+            "title": "Dipendenza Emotiva e Sociale",
+            "description": "Le dichiarazioni giurate o le attestazioni che dimostrino un forte legame sociale ed emotivo possono essere richieste, specialmente se la relazione va oltre la semplice dipendenza finanziaria."
+          }
+        ]
+      }
+    },
+    "maintenanceRequirement": {
+      "heading": "Requisito di Mantenimento per lo Sponsor UE",
+      "intro": "Secondo le normative svedesi, il cittadino dell'UE deve essere in grado di fornire sostegno finanziario e sistemazione adeguata per il suo familiare non-UE. Questo include:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Reddito Stabile",
+          "description": "Prova di impiego, reddito regolare o risorse finanziarie che dimostrino che il cittadino dell'UE può mantenersi da solo e il suo dipendente."
+        },
+        {
+          "number": 2,
+          "title": "Requisito di Alloggio",
+          "description": "Il cittadino dell'UE deve avere una sistemazione adeguata che soddisfi gli standard svedesi per lo spazio abitativo e la privacy. Questo può includere contratti di affitto, prova di proprietà dell'abitazione o un subaffitto con approvazione del proprietario."
+        }
+      ],
+      "note": "Il requisito di mantenimento non si applica ai figli minori (sotto i 18 anni). Questo significa che se un genitore sta chiedendo di unirsi a un minore in Svezia, il minore non ha bisogno di soddisfare i requisiti di reddito o alloggio."
+    },
+    "additionalConsiderations": {
+      "heading": "Considerazioni Aggiuntive",
+      "timeliness": {
+        "heading": "Tempestività della Domanda",
+        "description": "Le domande presentate poco dopo il trasferimento del cittadino dell'UE in Svezia hanno maggiori probabilità di successo. I lunghi ritardi nella presentazione della domanda possono complicare il processo, poiché le autorità potrebbero mettere in discussione l'esistenza della dipendenza precedente. Idealmente, le domande per familiari dipendenti dovrebbero essere presentate entro pochi mesi dall'arrivo del cittadino dell'UE in Svezia."
+      },
+      "changes": {
+        "heading": "Cambiamenti nello Stato di Dipendenza",
+        "description": "Se lo stato di dipendenza cambia (ad esempio, se il familiare non-UE diventa finanziariamente indipendente), può influire sullo stato della carta di residenza. L'Agenzia Svedese per le Migrazioni può periodicamente rivedere questi casi per garantire il rispetto dei criteri di residenza."
+      },
+      "renewal": {
+        "heading": "Rinnovo della Carta di Residenza",
+        "description": "Le carte di residenza per familiari dipendenti sono generalmente valide fino a cinque anni. Il rinnovo è possibile, purché la relazione di dipendenza continui e il cittadino dell'UE rimanga residente della Svezia. Le domande di rinnovo devono essere presentate molto prima della data di scadenza, con documentazione aggiornata che dimostri la dipendenza continua."
+      }
+    },
+    "howWeHelp": {
+      "heading": "Come Sweden Relocators Può Assistere con le Domande di Carta di Residenza UE",
+      "intro": "Navigare il processo per ottenere una carta di residenza UE per familiari dipendenti secondo la Direttiva 2004/38/CE può essere complesso. Sweden Relocators fornisce assistenza esperta, aiutando a garantire che tutta la documentazione sia in ordine, e guidandovi attraverso ogni fase della procedura di domanda.",
+      "subheading": "I Nostri Servizi Includono:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Valutazione dell'Idoneità",
+          "description": "Esaminiamo le circostanze specifiche della vostra famiglia per determinare se i vostri familiari non-UE si qualifichino come dipendenti secondo la legge svedese."
+        },
+        {
+          "number": 2,
+          "title": "Preparazione della Documentazione",
+          "description": "Il nostro team aiuta a raccogliere e preparare tutti i documenti richiesti, inclusa la prova di relazione, dipendenza e sostegno finanziario."
+        },
+        {
+          "number": 3,
+          "title": "Presentazione della Domanda e Monitoraggio",
+          "description": "Assistiamo con la presentazione della domanda e monitoriamo i progressi presso l'Agenzia per le Migrazioni per garantire aggiornamenti tempestivi."
+        },
+        {
+          "number": 4,
+          "title": "Supporto in Ricorso",
+          "description": "In caso di rifiuto della domanda, offriamo orientamento sul processo di ricorso, aiutando a rafforzare il vostro caso per la riconsiderazione."
+        }
+      ]
+    },
+    "benefitsOfService": {
+      "heading": "Vantaggi del Nostro Servizio",
+      "benefits": [
+        {
+          "title": "Orientamento Esperto",
+          "description": "La familiarità con la Direttiva 2004/38/CE e i requisiti dell'Agenzia per le Migrazioni ci consente di offrire consulenza precisa ed efficace."
+        },
+        {
+          "title": "Supporto Completo",
+          "description": "Dalla verifica dell'idoneità alla preparazione della documentazione e al supporto in ricorso, gestiamo tutti gli aspetti della vostra domanda."
+        },
+        {
+          "title": "Servizio Personalizzato",
+          "description": "Ogni caso è unico, e adattiamo il nostro approccio alle esigenze specifiche della vostra famiglia, fornendo le soluzioni più efficaci."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Portate i Vostri Cari in Svezia Oggi",
+      "description": "Se avete bisogno di assistenza per ottenere una carta di residenza UE per i vostri genitori dipendenti o altri familiari, Sweden Relocators è qui per aiutarvi. Contattateci oggi per discutere l'idoneità della vostra famiglia e imparare come possiamo supportare il vostro viaggio per riunirvi ai vostri cari.",
+      "button": "Inizia",
+      "subtext": "Visitate la nostra Sezione dei Permessi dei Genitori Cittadini UE o contattateci per ulteriori informazioni. Il nostro team è pronto ad aiutarvi a riunirvi con la vostra famiglia."
+    }
+  }
+}

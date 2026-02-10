@@ -1,0 +1,171 @@
+{
+  "asylum": {
+    "hero": {
+      "title": "Asile en Suède : Soutien Professionnel pour un Avenir Sûr",
+      "subtitle": "Assistance d'experts dans la procédure d'asile suédoise"
+    },
+    "intro": {
+      "heading": "Ce Que Nous Offrons",
+      "description": "Si vous demandez l'asile en Suède, comprendre le processus juridique peut être accablant. Chez Sweden Relocators, notre équipe de spécialistes en immigration expérimentés vous guide à chaque étape de la procédure d'asile auprès de l'Agence suédoise des migrations, garantissant que votre cas est traité avec le plus grand soin et professionnalisme."
+    },
+    "whyChooseExpert": {
+      "heading": "Pourquoi Choisir un Expert ?",
+      "description": "La navigation dans la procédure d'asile en Suède peut être complexe. Voici comment notre équipe d'experts peut faire la différence pour vous :",
+      "benefits": [
+        {
+          "title": "Tranquillité d'Esprit",
+          "description": "Avec notre équipe professionnelle gérant votre cas, vous pouvez vous concentrer sur d'autres aspects de votre installation en Suède. Nous sommes engagés à garantir que votre demande d'asile est traitée efficacement et avec compassion."
+        },
+        {
+          "title": "Guidance Claire et Transparente",
+          "description": "Nos spécialistes simplifient les requirements légales complexes, garantissant que vous comprenez chaque étape. Peu importe à quel point votre case peut être compliquée, notre équipe est prête à vous aider à clarifier et présenter efficacement vos motifs d'asile."
+        },
+        {
+          "title": "Accès Immédiat à un Expert Juridique",
+          "description": "Nos avocats en immigration commencent à travailler sur votre cas dès que vous nous contactez, en fournissant une réponse immédiate à vos préoccupations et en garantissant que votre case est traitée rapidement."
+        }
+      ]
+    },
+    "eligibility": {
+      "heading": "Éligibilité pour l'Asile en Suède",
+      "whoCanApply": {
+        "heading": "Qui Peut Demander l'Asile ?",
+        "intro": "Pour demander l'asile en Suède, vous devez être physiquement présent dans le pays ou à sa frontière. Il n'est pas possible de demander une autre pays ou à une ambassade suédoise à l'étranger.",
+        "description": "Chaque cas de demandeur d'asile est examiné individuellement. L'Agence des migrations n'accorde un permis de résidence que si le demandeur répond aux critères de réfugié selon le droit suédois et la Convention de 1951 sur les réfugiés."
+      },
+      "refugeeDefinition": {
+        "heading": "Définition et Critères de Réfugié",
+        "intro": "Selon le droit suédois et les directives internationales, une personne se qualifie comme réfugiée si elle fait face à une persécution ou à des menaces graves dans son pays d'origine en raison de :",
+        "criteria": [
+          "Race",
+          "Nationalité, Langue ou Groupe Ethnique",
+          "Religion",
+          "Croyance Politique ou Activisme",
+          "Identité de Genre",
+          "Orientation Sexuelle",
+          "Appartenance à un Groupe Social Particulier"
+        ],
+        "additionalInfo": "Si des groups ou des individus dans votre pays d'origine vous menacent ou vos proches, cela peut affecter votre demande. Mais une décision positive nécessite des preuves claires de persécution. Pendant la procedure, on vous demandera de décrire les risques auxquels vous êtes exposé si vous retourniez dans votre pays.",
+        "outcome": "Si votre case est acceptée, vous pouvez recevoir un permis de résidence valide pour trois ans ou 13 mois, selon les circonstances de votre situation."
+      }
+    },
+    "applicationProcess": {
+      "heading": "Étapes pour Demander l'Asile en Suède",
+      "intro": "Processus Étape par Étape",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Présence Physique Requise",
+          "description": "Vous devez être physiquement present en Suède ou à la frontière suédoise pour demander l'asile."
+        },
+        {
+          "step": 2,
+          "title": "Réunion Initiale à l'Agence des Migrations",
+          "description": "Une fois votre demande soumise, vous serez invité à une réunion initiale à l'Agence des migrations. Pendant cette réunion, vous aurez la possibilité de choisir votre représentant juridique ou votre avocat. À ce stade, vous pouvez choisir notre équipe expérimentée pour vous soutenir."
+        },
+        {
+          "step": 3,
+          "title": "Représentation Juridique et Préparation du Dossier",
+          "description": "Si vous nous choisissez comme représentant, l'Agence des migrations nous contactera pour assister votre dossier. Notre équipe programmera un appel avec vous pour recueillir les détails de vos antécédents et de vos raisons de deman der l'asile. Nous vous prépareront également pour les futurs entretiens et les soumissions de documents."
+        }
+      ]
+    },
+    "legalRepresentative": {
+      "heading": "Notre Rôle en Tant que Votre Représentant Juridique",
+      "intro": "En tant que votre représentant juridique, nous :",
+      "services": [
+        "Fournirons un soutien continu et des conseils juridiques tout au long de la procédure d'asile.",
+        "Aiderons à clarifier vos motivations d'asile auprès de l'Agence des migrations.",
+        "Assurerons que vos droits sont protégés.",
+        "Vous aiderons à naviguer les appels si votre demande initiale est rejetée."
+      ],
+      "additionalSupport": "De plus, nous fournissons des services de relocation comprehensive pour vous aider à vous réunir avec vos members de famille si votre demande est réussie."
+    },
+    "familyReunification": {
+      "heading": "Regroupement Familial pour les Réfugiés",
+      "subheading": "Amener Votre Famille en Suède",
+      "description": "La Suède reconnait le regroupement familial comme un droit essential, permettant aux members de la famille de rejoindre les réfugiés ou les personnes ayant des permits de résidence spécifiques. Si vous avez obtenu l'asile ou un autre type de permit de résidence éligible, votre famille peut être en mesure de vous rejoindre en Suède.",
+      "whoCanApply": {
+        "heading": "Qui Peut Se Qualifier pour le Regroupement Familial ?",
+        "intro": "Votre famille peut être eligible pour demander un permit de résidence pour vous rejoindre en Suède si vous déteniez :",
+        "eligibilityTypes": [
+          "Un permit de résidence permanent",
+          "Un permit de résidence temporaire en tant que réfugié, avec des chances raisonnables de prolongation à long terme",
+          "Un permit de résidence temporaire basé sur des obstacles au retour ou des circonstances pénibles, avec probabilité d'obtenir une prolongation à long terme"
+        ]
+      },
+      "euEeaCitizens": {
+        "heading": "Pour les Citoyens de l'UE/EEE",
+        "description": "Si vous êtes un citoyen de l'UE/EEE ou apparenté à celui-ci, vous pouvez bénéficier d'une procédure simplifiée pour amener des members de la famille en Suède basée sur le droit de libre circulation en Europe."
+      },
+      "temporaryPermit": {
+        "heading": "Si Vous Déteniez un Permit de Résidence Temporaire",
+        "description": "Pour que les demandes de regroupement familial réussissent, vous devez detenir un permit de résidence valide au moment de la demande. Si votre permit est en cours de prolongation, l'Agence des migrations évaluera d'abord votre eligibilité pour conserver votre statut de résidence avant de décider du regroupement familial.",
+        "familyMembers": "Généralement, les members immédiats de la famille tels que votre épouse, partenaire registré, partenaire en cohabitation ou enfants de moins de 18 ans sont eligible pour vous rejoindre. Dans les cas exceptionnels, d'autres parents peuvent aussi se qualifier, mais seulement dans certaines conditions.",
+        "maintenance": "Une exigence d'entretien s'applique, ce qui signifie que vous devez démontrer que vous pouvez soutenir financially vos members de famille et fournir un logement convenable qui répond aux normes suédoises."
+      }
+    },
+    "familyReunificationAssistance": {
+      "heading": "Comment Nous Vous Aidons Avec le Regroupement Familial",
+      "description": "Notre équipe offre un soutien complete pour la procédure de regroupement familial, couvrant tous les aspects pour le rendre aussi fluide que possible :",
+      "services": [
+        {
+          "title": "Préparation de la Demande",
+          "description": "Assistance à la préparation et à la soumission de la demande de permit de résidence pour vos members de famille."
+        },
+        {
+          "title": "Vérification des Document",
+          "description": "Assurer que tous les documents nécessaires sont en ordure pour minimiser les retards."
+        },
+        {
+          "title": "Guidance sur les Frais Gouvernementaux",
+          "description": "Informations clairs sur les frais gouvernementaux impliqués."
+        },
+        {
+          "title": "Support d'Enregistrement",
+          "description": "Assistance à l'enregistrement de la demande auprès de l'Agence des migrations."
+        },
+        {
+          "title": "Suivi Régulier",
+          "description": "Surveillance continue de la progression de votre demande avec des mise à jour rapides."
+        },
+        {
+          "title": "Coordination des Rendez-vous",
+          "description": "Coordination des réunions essentielles à l'Agence des migrations."
+        },
+        {
+          "title": "Visites Accompagnées",
+          "description": "Notre équipe vous accompagnera lors des visites à l'Agence des migrations."
+        }
+      ]
+    },
+    "additionalSupport": {
+      "heading": "Services d'Support Supplémentaires pour les Demandeurs d'Asile et les Nouveaux Arrivants",
+      "intro": "En plus des services d'asile et de regroupement familial, nous offrons également :",
+      "services": [
+        {
+          "title": "Assistance au Relocation",
+          "description": "Aide comprehensive en matière de logement, d'éducation, de soins de santé et d'intégration sociale en Suède."
+        },
+        {
+          "title": "Services de Traduction et d'Interprétation",
+          "description": "Assistance à la traduction de documents nécessaires et à l'interprétation lors des réunions avec l'Agence des migrations."
+        },
+        {
+          "title": "Aide Juridique pour les Appels",
+          "description": "Support pour déposer des appels et préparer les audiences devant les tribunaux."
+        },
+        {
+          "title": "Services de Conseil",
+          "description": "Soutien professionel pour le bien-être émotionnel pendant les périodes difficiles."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Commencez Votre Demande d'Asile Aujourd'hui",
+      "description": "Contactez Sweden Relocators pour commencer votre demande d'asile avec des guidance d'experts et un soutien à chaque étape.",
+      "button": "Commencer",
+      "subtext": "Visitez notre section Asile ou contactez-nous pour plus d'informations. Notre équipe est là pour vous aider à sécuriser votre avenir en Suède."
+    }
+  }
+}

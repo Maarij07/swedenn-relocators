@@ -1,0 +1,240 @@
+{
+  "globalVisitVisas": {
+    "hero": {
+      "title": "Globala visumtjänster – din väg till smidiga internationella resor",
+      "subtitle": "Tillförlitligt visumstöd för turism, affärer, studier och flytt världen över"
+    },
+    "intro": {
+      "heading": "Internationella resor gjort enkelt",
+      "description": "På Sweden Relocators gör vi internationella resor enkla, transparenta och stressfria genom vårt globala visumprogram. Vår tjänst är utformad för privatpersoner, familjer, studenter och yrkesverksamma som vill ha pålitligt visumstöd utan krånglet med att navigera mellan olika ambassadsystem.",
+      "toolLink": "Vårt unika universella visumformulär gör det möjligt att ansöka till flera destinationer med samma information, vilket sparar tid och minskar fel via vår säkra webbportal och mobilapp."
+    },
+    "services": {
+      "heading": "Omfattande visumstöd",
+      "requirementsLabel": "Vad vi hanterar",
+      "services": [
+        {
+          "id": "clientid",
+          "title": "Personligt klient-ID",
+          "description": "Varje kund får ett unikt ID vid registrering",
+          "requirements": [
+            {"label": "Flera familjer", "description": "Hantera flera ansökningar för olika familjemedlemmar och destinationer samtidigt"},
+            {"label": "Säker åtkomst", "description": "Följ alla dina visumansökningar från en och samma kontrollpanel"}
+          ]
+        },
+        {
+          "id": "assessment",
+          "title": "Ansökningsbedömning och förberedelse",
+          "description": "Fullständig bakgrundsbedömning och komplett dokumentförberedelse",
+          "requirements": [
+            {"label": "Bakgrundsgranskning", "description": "Vi granskar ditt reseändamål, din ekonomiska situation och din resehistorik"},
+            {"label": "Ambassadstandarder", "description": "Komplett ärende förbereds inklusive formulär, följebrev och stödjande dokument anpassade efter destination"}
+          ]
+        },
+        {
+          "id": "appointment",
+          "title": "Tidsbokning och bekräftelse",
+          "description": "Vi bokar din ambassadtid med direkt bekräftelsesamtal",
+          "requirements": [
+            {"label": "Ambassadbokning", "description": "Tid bokas hos relevant ambassad eller VFS Global-center"},
+            {"label": "Redo-kontroll", "description": "Vår personal ringer för att granska kraven och säkerställa att alla detaljer är korrekta"}
+          ]
+        },
+        {
+          "id": "liaison",
+          "title": "Ambassadkontakt",
+          "description": "Professionell kommunikation med ambassader å dina vägnar",
+          "requirements": [
+            {"label": "Frågehantering", "description": "Vårt team hanterar kommunikationen med ambassaden och klargör eventuella frågor"},
+            {"label": "Professionell representation", "description": "Minskar risken för förseningar, extra dokumentkrav eller avslag"}
+          ]
+        },
+        {
+          "id": "file",
+          "title": "Komplett ärendeförberedelse och leverans",
+          "description": "Ditt färdiga ansökningsunderlag levererat hem till dig",
+          "requirements": [
+            {"label": "Hotellbekräftelse", "description": "Bekräftade hotellbokningar och flygreservationer ingår"},
+            {"label": "Finansiell dokumentation", "description": "Reseförsäkring och nödvändig finansiell dokumentation sammanställs"}
+          ]
+        },
+        {
+          "id": "digital",
+          "title": "Säker digital dokumenthantering",
+          "description": "GDPR-kompatibel dokumentlagring och återanvändning för frekventa resenärer",
+          "requirements": [
+            {"label": "Säkerhet", "description": "Alla dokument lagras säkert i ett GDPR-kompatibelt system"},
+            {"label": "Återanvändning", "description": "Spara information för framtida ansökningar och spara tid och arbete"}
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "heading": "Visumkategorier vi stödjer",
+      "intro": "Vårt program täcker stora destinationer världen över",
+      "visas": [
+        "Schengenvisum för Europa",
+        "Visum till Storbritannien",
+        "Visum till USA",
+        "Visum till Kanada",
+        "Visum till Australien",
+        "Visum till Nya Zeeland",
+        "Visum till Irland",
+        "Visum till Japan",
+        "Visum till Sydkorea",
+        "Visum till Kina"
+      ],
+      "additional": "Andra destinationer stöds också genom skräddarsydda ambassadbaserade lösningar."
+    },
+    "purposes": {
+      "heading": "Visumändamål vi täcker",
+      "purposes": [
+        {
+          "id": 1,
+          "title": "Turism",
+          "description": "Bevis på boende, sjukförsäkring och ekonomisk täckning ordnas för smidig handläggning"
+        },
+        {
+          "id": 2,
+          "title": "Besök hos familj eller vänner",
+          "description": "Verifierade inbjudningsbrev, sponsordokument och relationsbevis förbereds"
+        },
+        {
+          "id": 3,
+          "title": "EU-familjeåterförening",
+          "description": "Detaljerad granskning av bostad, inkomst och efterlevnad av uppehållsregler"
+        },
+        {
+          "id": 4,
+          "title": "Affärs- och konferensresor",
+          "description": "Företagsinbjudningar, sponsorbekräftelser och professionell dokumentation ordnas"
+        },
+        {
+          "id": 5,
+          "title": "Studier utomlands",
+          "description": "Antagningsbrev, bevis på ekonomiska medel och utbildningsintyg verifieras"
+        },
+        {
+          "id": 6,
+          "title": "Korttidsarbete",
+          "description": "Arbetsgivaravtal och kontroller av arbetsrättslig efterlevnad genomförs"
+        },
+        {
+          "id": 7,
+          "title": "Medicinsk behandling",
+          "description": "Sjukhusbekräftelser, medicinska journaler och ekonomisk sponsring förbereds"
+        },
+        {
+          "id": 8,
+          "title": "Kulturella och idrottsevenemang",
+          "description": "Evenemangsregistreringar och officiella inbjudningar sammanställs"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Visumansökningsprocess",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registrering",
+          "description": "Registrera dig via vår webbplats eller app för att skapa ett konto och få ditt unika klient-ID"
+        },
+        {
+          "number": 2,
+          "title": "Bedömning",
+          "description": "Vårt team granskar ditt ändamål, din behörighet och nödvändiga dokument för din destination"
+        },
+        {
+          "number": 3,
+          "title": "Förberedelse",
+          "description": "Vi skapar ditt kompletta ansökningsunderlag enligt ambassadens krav"
+        },
+        {
+          "number": 4,
+          "title": "Tidsbokning",
+          "description": "Vi säkrar och bekräftar din ambassadtid, inklusive ett samtal för att kontrollera din beredskap"
+        },
+        {
+          "number": 5,
+          "title": "Leverans",
+          "description": "Ditt slutliga underlag levereras hem till dig med alla tidsbokningsdetaljer"
+        },
+        {
+          "number": 6,
+          "title": "Inlämning",
+          "description": "Besök ambassaden med ditt pass och kompletta ansökningsunderlag"
+        },
+        {
+          "number": 7,
+          "title": "Spårning och återanvändning",
+          "description": "Följ ärendets status i vår portal och återanvänd din information för framtida visumansökningar"
+        }
+      ]
+    },
+    "languages": {
+      "heading": "Flerspråkig assistans",
+      "description": "För att säkerställa att språk aldrig är ett hinder erbjuder vi flerspråkigt stöd på engelska, svenska, urdu, arabiska, punjabi, serbiska, kurdiska, persiska och många andra språk. Våra konsulter förklarar visumregler på det språk du känner dig mest bekväm med."
+    },
+    "faq": {
+      "heading": "Vanliga frågor",
+      "faqs": [
+        {
+          "id": 1,
+          "question": "Ordnar ni hotellbokningar och reseförsäkring för visum?",
+          "answer": "Ja, vi tillhandahåller ambassadgodkända hotellbokningar, flygintyg och reseförsäkring för att stärka din visumansökan."
+        },
+        {
+          "id": 2,
+          "question": "Hur kan jag kontrollera om jag är berättigad till ett visum?",
+          "answer": "Vårt bedömningsverktyg och våra experter analyserar dina dokument och din resehistorik för att bekräfta din behörighet."
+        },
+        {
+          "id": 3,
+          "question": "Hanterar ni student- och familjevisum?",
+          "answer": "Ja, vi hanterar studentansökningar, familjebesök och EU-familjeåterförening med fullständig dokumentation och efterlevnadskontroller."
+        },
+        {
+          "id": 4,
+          "question": "Kan jag ansöka om flera visum med samma underlag?",
+          "answer": "Ja, vårt system gör det möjligt att återanvända lagrade dokument för olika länder och visumtyper, vilket sparar tid och arbete."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Varför välja Sweden Relocators",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Universellt visumformulär",
+          "description": "Ansök till flera destinationer med samma information, vilket minskar fel och sparar tid"
+        },
+        {
+          "id": 2,
+          "title": "Ambassadsamordning",
+          "description": "Professionell representation gentemot ambassader säkerställer smidig handläggning och minskar risken för avslag"
+        },
+        {
+          "id": 3,
+          "title": "Flerspråkigt stöd",
+          "description": "Hjälp på över 9 språk säkerställer tydlig förståelse av kraven"
+        },
+        {
+          "id": 4,
+          "title": "Kompletta researrangemang",
+          "description": "Hotellbokningar, flygreservationer och försäkring hanteras för starkare ansökningar"
+        },
+        {
+          "id": 5,
+          "title": "Säkra digitala verktyg",
+          "description": "GDPR-kompatibelt system med säker portal och mobilapp för enkel dokumenthantering"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Redo att resa världen över?",
+      "description": "Med Sweden Relocators globala visumprogram kombinerar vi teknik, expertis och personlig service för att göra internationella resor enkla. Börja din visumansökan redan idag.",
+      "button": "Starta din visumansökan",
+      "subtext": "Vårt team guidar dig genom varje steg för att säkerställa att din ansökan lyckas."
+    }
+  }
+}

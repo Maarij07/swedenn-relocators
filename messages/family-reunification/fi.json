@@ -1,0 +1,187 @@
+{
+  "familyReunification": {
+    "hero": {
+      "title": "Perheen Yhdistäminen Ruotsissa",
+      "subtitle": "Kattava Opas Ruotsin Kansallisen Lainsäädännön Mukaisesti"
+    },
+    "intro": {
+      "heading": "Tuo Perheesi Ruotsiin",
+      "description": "Ruotsin perheen yhdistämislait sallivat henkilöille, joilla on erilaisia oleskelulupajatyyppejä - mukaan lukien työluvat, yritysluvannat, tohtorintutkinto- ja opiskelijaluvannat sekä pysyvät oleskeluluvat - sekä pakolaiset tuoda perheenjäseniä Ruotsiin. Jokaisella tapaustyypillä on erityisiä vaatimuksia ja ne arvioidaan Ruotsin kansallisen lainsäädännön eri määräysten mukaisesti.",
+      "infoBox": "Hallitse monimutkaisia perheen yhdistämisvaatimuksia asiantuntevalla tiedolla Ruotsin kansallisesta lainsäädännöstä ja tietyn oleskelulupajatyypin arvioinnista."
+    },
+    "lawsHeading": "Perheen Yhdistämistä Säätelevät Tärkeim­mät Ruotsin Lait",
+    "laws": [
+      {
+        "name": "Ulkomaalaislaki (Utlänningslagen)",
+        "description": "Pääasiallinen lainsäädäntö, joka säätelee oleskelulupien ja perheen yhdistämisen kaikkien ei-ruotsalaisten kansalaisten kohdalla."
+      },
+      {
+        "name": "Väliaikainen Ulkomaalaislaki (Tillfälliga Utlänningslagen)",
+        "description": "Väliaikainen laki, joka vaikuttaa perheen yhdistämisvaatimuksiin, erityisesti pakolaisille ja henkilöille, jotka tarvitsevat toissijaiset suojelua."
+      },
+      {
+        "name": "Ruotsin Kansalaisuuslaki (Lag om Svenskt Medborgarskap)",
+        "description": "Olennainen ruotsalaisille kansalaisille ja pysyville asukkaille, jotka kutsuvat perheenjäseniä."
+      },
+      {
+        "name": "Sosiaalivakuutuskoodi (Socialförsäkringsbalken)",
+        "description": "Antaa ohjeita hyväksyttävistä tulolähteistä elätysvaatimukseen."
+      }
+    ],
+    "eligibility": {
+      "heading": "Kuka Voi Olla Puolesta Puolestaan?",
+      "description": "Perheen yhdistäminen on yleensä saatavilla kelpoisille perheenjäsenille Ruotsin lain mukaisesti. Jokaisella suhteen tyypillä on erityiset kelpoisuuskriteerit.",
+      "familyMembers": [
+        {
+          "type": "Puoliso tai Rekisteröity Kumppani",
+          "description": "Laillisesti naimisissa olevat tai rekisteröidyt kumppanit"
+        },
+        {
+          "type": "Yhdessä Asuva Kumppani",
+          "description": "Pitkäaikaiset rekisteröimattomat kumppanit voivat olla kelpoisia, jos suhde on hyvin dokumentoitu"
+        },
+        {
+          "type": "Lapset Alle 18-vuotiaina",
+          "description": "Alaikäiset lapset luvanhaltijan tai hänen puolisochaan/kumppanistaan"
+        },
+        {
+          "type": "Vanhemmat (Alaikäisille Luvanhaltijoille)",
+          "description": "Alle 18-vuotiaille luvanhaltijoille vanhemmat tai lailliset huoltajat voivat olla kelpoisia"
+        },
+        {
+          "type": "Laajennettu Perhe",
+          "description": "Muita perheenjäseniä voidaan harkita humanitaarisista syistä"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Elätys- ja Asuntokriteerit",
+      "description": "Elätysvaatimus (Försörjningskrav) on olennainen useimmille perheen yhdistämishakemuksille ja varmistaa, että pääasiallisella hakijalla on riittävät tulot ja sopiva asunto perheenjäsenten tukemiseksi.",
+      "maintenanceLabel": "Tulokriteerit",
+      "housingLabel": "Asuntokriteerit",
+      "maintenance": [
+        "Vakaat tulot elinkustannuksien kattamiseksi",
+        "Työsopimukset tai itsenäisen ammatin todisteet",
+        "Viimeaikaiset palkkalaskelmat ja veroilmoitukset",
+        "Sosiaaliset etuudet, jos sovellettavissa"
+      ],
+      "housing": [
+        "Vuokrasopimus tai omistuskirja",
+        "Riittävät huoneet kaikille perheenjäsenille",
+        "Todistus kuukauden vuokrasta tai omistuskustannuksista",
+        "Täyttää Ruotsin asuntostandardit"
+      ]
+    },
+    "assessmentHeading": "Arviointiperustat Lupatyypeittäin",
+    "assessmentCriteria": [
+      {
+        "title": "Työlupien Haltijat",
+        "requirements": ["Pitkäaikainen työskentely riittävällä palkalla", "Työsopimukset ja palkkalaskelmat", "Todisteet taloudellisesta vakavaraisuudesta", "Asianmukainen asuntojärjestely"]
+      },
+      {
+        "title": "Yrityslupaiden Haltijat",
+        "requirements": ["Kannattava yritys, joka tuottaa riittävät tulot", "Veroilmoitukset ja yritysselostukset", "Ruotsin veroviraston alustavat veroratkaisut", "Osoitettu liiketoiminnan elinkelpoisuus"]
+      },
+      {
+        "title": "Jatko-opiskelijat ja Tutkijat",
+        "requirements": ["Vakaa rahoitus tai apuraha", "Ohjelman kesto yleensä yli vuoden", "Tuloasiakirjat oppilaitoksesta", "Asuntojärjestelyt Ruotsissa"]
+      },
+      {
+        "title": "Pysyvien Oleskelulupien Haltijat",
+        "requirements": ["Pitkäaikainen asuminen Ruotsiin vahvoilla siteillä", "Tulokriteereiden arviointi mahdollisella joustavuudella", "Asuntostandardien arviointi", "Mahdollisesti joustavammat vaatimukset"]
+      },
+      {
+        "title": "Pakolaiset ja Toissijaisiin Suojeluun Oikeutetut",
+        "requirements": ["Mahdollinen vapautus elätysvaatimuksesta 3 kuukauden sisällä", "Todisteet suhteesta ennen Ruotsiin saapumista", "Perhesuhteiden dokumentointi", "Arvioitu väliaikaisen ulkomaalaislain mukaisesti"]
+      }
+    ],
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Valmista Asiakirjat",
+        "description": "Kerää kaikki vaaditut asiakirjat, mukaan lukien passi, suhteen todisteet (avioliitto- tai syntymätodistukset), asuntosopimukset ja tulevahvistus."
+      },
+      {
+        "step": "2",
+        "title": "Lähetä Hakemus",
+        "description": "Lähetä hakemukset verkossa Ruotsin Maahanmuutto­viraston portaalin kautta tai Ruotsin suurlähettilöstön/konsulaatin kautta, mukaan lukien suhteen todisteet ja asunto-/tulosähköpostivahvistus."
+      },
+      {
+        "step": "3",
+        "title": "Maahanmuuttovirasto Tarkistus",
+        "description": "Ruotsin Maahanmuuttovirasto tarkistaa, että kaikki vaatimukset täyttyvät, arvioi tulot, asunto ja perheenjäsenten kelpoisuuden henkilökohtaisen lupatyypin mukaisesti."
+      },
+      {
+        "step": "4",
+        "title": "Päätös ja Ilmoitus",
+        "description": "Arvioinnin jälkeen virasto tekee päätöksen. Jos se hyväksytään, perheenjäsenet voivat saada oleskeluluvat, jotka vastaavat puolestapuhujan luvalle määrättyä kestoa."
+      }
+    ],
+    "legalProvisions": {
+      "heading": "Tietyt Juridiset Määrittelyt",
+      "description": "Perheen yhdistäminen Ruotsissa säädelään erityisillä juridiisilla määrittelyillä, jotka on mukaute­ttu eri lupajtyypeille ja perhetilanteille."
+    ,
+      "acts": [
+        {
+          "name": "Ulkomaalaislaki (Utlänningslagen)",
+          "details": "Perheen yhdistämisen pääasiallinen oikeudellinen kehys, joka kattaa tulot, asunnon ja suhteiden todentamisen samoin kuin elätys- ja asuntostandardit."
+        },
+        {
+          "name": "Väliaikainen Ulkomaalaislaki (Tillfälliga Utlänningslagen)",
+          "details": "Soveltaa tiukempia elätysvaatimuksia pakolaisille ja korostaa taloudellista riippumattomuutta kolmen kuukauden jakson jälkeen."
+        },
+        {
+          "name": "Sosiaalivakuutuskoodi (Socialförsäkringsbalken)",
+          "details": "Määrittää hyväksyttävät tulolähdet, erityisen merkityksellinen sponsoreille, jotka luottavat etuuksiin tai työttömyyteen."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Palvelumme",
+      "description": "Sweden Relocators tarjoaa kattavaa tukea auttaaksesi navigoimaan perheen yhdistämisessä Ruotsissa ja varmistamalla, että hakemuksesi täyttää kaikki ruotsin oikeudelliset standardit.",
+      "servicesList": [
+        {
+          "title": "Kelpoisuuden Arviointi",
+          "description": "Arvioimme sinun erityisen liipaisimet, tulot, asunnon ja perheenjäsenten kelpoisuuden määrittääksemme parhaan lähestymistavan."
+        },
+        {
+          "title": "Asiakirjan Valmentaminen",
+          "description": "Apua kaikkien tarvittavien asiakirjojen keräämisessä, ulkomaalaisten asiakirjojen kääntämisessä tarvittaessa ja täydellisen tarkkuuden varmistamisessa."
+        },
+        {
+          "title": "Hakemuksen Lähettäminen ja Seuranta",
+          "description": "Lähettää hakemuksesi puolestasi ja seuranta Ruotsin Maahanmuutto­viraston kanssa."
+        },
+        {
+          "title": "Oikaisuvaatimus Tuki",
+          "description": "Jos hakemuksesi hylätään, tarjoamme ohjausta oikaisuvaatimusprosessissa vahvistaaksemme tapaustasi."
+        },
+        {
+          "title": "Juridiinen Vaatimustenmukaisuus Takuu",
+          "description": "Takaamme, että kaikki asiakirjat täyttävät ruotsin oikeudelliset standardit ja erityiset lupatyyppien vaatimukset."
+        }
+      ]
+    },
+    "whyChooseHeading": "Miksi Valita Sweden Relocators?",
+    "whyChoose": [
+      {
+        "title": "Asiantunteva Tieto",
+        "description": "Syvällinen tietämys ruotsin perheen yhdistämislaeista ja vaatimuksista kaikille lupajtyypeille."
+      },
+      {
+        "title": "Henkilökohtainen Tuki",
+        "description": "Mukauttamme tukeamme erityiseen lupajtyyppiisi ja olosuhteisiin maksimaalisen onnistumisen saavuttamiseksi."
+      },
+      {
+        "title": "Tehokas Käsittely",
+        "description": "Varmistamalla tarkkuuden ja vaatimustenmukaisuuden auttamme sinua välttämään viivästyksiä tai hylkäyksiä, joten prosessi on sujuvampi ja tehokkaampi."
+      }
+    ],
+    "cta": {
+      "heading": "Oletko Valmis Yhdistämään Perheesi Ruotsissa?",
+      "description": "Perheen yhdistäminen on monimutkainen prosessi, jolla on erityisiä vaatimuksia kullekin lupajtyypille. Oske Sweden Relocators opastaa sinua perheen yhdistämisprosessissa Ruotsissa ja varmistaa, että kaikki oikeudelliset vaatimukset täyttyvät onnistuneen hakemuksen saavuttamiseksi.",
+      "button": "Aloita Perheen Yhdistämishakemuksesi",
+      "subtext": "Asiantuntijajoukkomme opastaa sinua jokaisen vaiheen läpi ruotsin perheen yhdistämisprosessissa."
+    }
+  }
+}

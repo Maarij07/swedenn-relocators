@@ -1,0 +1,186 @@
+{
+  "familyReunification": {
+    "hero": {
+      "title": "Gezinshereniging in Zweden",
+      "subtitle": "Uitgebreide Gids Volgens Zweedse Nationale Wet"
+    },
+    "intro": {
+      "heading": "Breng Uw Gezin naar Zweden",
+      "description": "Zweedse wetten over gezinshereniging stellen personen met verschillende soorten verblijfsvergunningen - inclusief werkvergunningen, zakenvergunningen, promovendus- en studentenvergunningen, alsmede permanente verblijfsvergunningen - evenals vluchtelingen, in staat familieleden naar Zweden te brengen. Elk geval heeft specifieke vereisten en wordt beoordeeld onder verschillende bepalingen van de Zweedse nationale wet.",
+      "infoBox": "Navigeer door complexe vereisten voor gezinshereniging met deskundige kennis van Zweedse nationale wet en specifieke beoordelingen van vergunningstypen."
+    },
+    "lawsHeading": "Belangrijkste Zweedse Wetten voor Gezinshereniging",
+    "laws": [
+      {
+        "name": "Vreemdelingenwet (Utlänningslagen)",
+        "description": "De hoofdwetgeving die verblijfsvergunningen en gezinshereniging voor alle niet-Zweedse burgers regelt."
+      },
+      {
+        "name": "Tijdelijke Vreemdelingenwet (Tillfälliga Utlänningslagen)",
+        "description": "Een tijdelijke wet die de vereisten voor gezinshereniging beïnvloedt, vooral voor vluchtelingen en personen die subsidiaire bescherming nodig hebben."
+      },
+      {
+        "name": "Zweedse Nationaliteitswet (Lag om Svenskt Medborgarskap)",
+        "description": "Relevant voor Zweedse burgers en permanente ingezetenen die familieleden uitnodigen."
+      },
+      {
+        "name": "Sociale Zekerheidscode (Socialförsäkringsbalken)",
+        "description": "Biedt richtlijnen over acceptabele inkomstenso bronnen voor de onderhoudseis."
+      }
+    ],
+    "eligibility": {
+      "heading": "Wie Kan Gesponsord Worden?",
+      "description": "Gezinshereniging is in het algemeen beschikbaar voor in aanmerking komende familieleden onder Zweedse wet. Elk type relatie heeft specifieke geschiktheidscriteria.",
+      "familyMembers": [
+        {
+          "type": "Echtgenoot of Geregistreerde Partner",
+          "description": "Wettelijk gehuwde of geregistreerde partners"
+        },
+        {
+          "type": "Samenwonende Partner",
+          "description": "Langetermijn, niet-geregistreerde partners kunnen in aanmerking komen als de relatie goed is gedocumenteerd"
+        },
+        {
+          "type": "Kinderen Onder de 18 Jaar",
+          "description": "Minderjarige kinderen van de vergunninghouder of hun echtgenoot/partner"
+        },
+        {
+          "type": "Ouders (Voor Minderjarige Vergunninghouders)",
+          "description": "Voor vergunninghouders onder de 18 jaar kunnen ouders of wettelijke voogden in aanmerking komen"
+        },
+        {
+          "type": "Uitgebreide Familie",
+          "description": "Andere familieleden kunnen om humanitaire redenen in overweging worden genomen"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Onderhouds- en Huisvestingsvereisten",
+      "description": "De Onderhoudseis (Försörjningskrav) is essentieel voor de meeste gezinsherenigingsaanvragen en zorgt ervoor dat de hoofdaanvrager voldoende inkomsten en passende huisvesting heeft om familieleden te ondersteunen.",
+      "maintenanceLabel": "Inkomstensvereisten",
+      "housingLabel": "Huisvestingsvereisten",
+      "maintenance": [
+        "Stabiel inkomen om levensonderhoud te dekken",
+        "Arbeidscontracten of bewijs van zelfstandigheid",
+        "Recente loonstroken en belastingaangiften",
+        "Documentatie van sociale uitkeringen waar van toepassing"
+      ],
+      "housing": [
+        "Huurcontract of eigendomsbewijs",
+        "Voldoende kamers voor alle familieleden",
+        "Bewijs van maandelijks huishoudinkomen of eigendomskosten",
+        "Voldoet aan Zweedse huisvestingsnormen"
+      ]
+    },
+    "assessmentHeading": "Beoordelingscriteria per Vergunningstype",
+    "assessmentCriteria": [
+      {
+        "title": "Werkvergunninghouders",
+        "requirements": ["Langetermijnwerkgeving met voldoende salaris", "Arbeidscontracten en loonstroken", "Bewijs van financiële stabiliteit", "Passend huisvestingsarrangement"]
+      },
+      {
+        "title": "Zakenvergunninghouders",
+        "requirements": ["Winstgevend bedrijf dat adequate inkomsten oplevert", "Belastingaangiften en bedrijfsoverzichten", "Voorlopige belastingbeschikkingen van de Zweedse Belastingdienst", "Aangetoonde bedrijfsviabiliteit"]
+      },
+      {
+        "title": "Promovendi en Onderzoekers",
+        "requirements": ["Stabiele financiering of beurzen", "Programmaduuur in het algemeen langer dan een jaar", "Inkomstensdocumentatie van onderwijsinstelling", "Huisvestingsregelingen in Zweden"]
+      },
+      {
+        "title": "Permanente Verblijfsvergunninghouders",
+        "requirements": ["Langdurig verblijf met sterke banden met Zweden", "Inkomstensbeoordeling met mogelijke flexibiliteit", "Beoordeling van huisvestingsnormen", "Mogelijk soepelere vereisten"]
+      },
+      {
+        "title": "Vluchtelingen en Houders van Subsidiaire Bescherming",
+        "requirements": ["Mogelijke vrijstelling van onderhoudseis binnen 3 maanden", "Bewijs van relatie vóór aankomst in Zweden", "Documentatie van familiebanden", "Beoordeeld onder de Tijdelijke Vreemdelingenwet"]
+      }
+    ],
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Documentatie Voorbereiding",
+        "description": "Verzamel alle vereiste documenten, inclusief paspoorten, relatiebewijs (huwijk- of geboortecertificaten), huisvestingsovereenkomsten en inkomensverificatie."
+      },
+      {
+        "step": "2",
+        "title": "Aanvraag Indienen",
+        "description": "Dien aanvragen online in via het portaal van de Zweedse Migratiebehoorte of bij een Zweedse ambassade/consulaat, inclusief relatiebewijs en huisvestings-/inkomensverificatie."
+      },
+      {
+        "step": "3",
+        "title": "Migratiebehoorte Beoordeling",
+        "description": "De Zweedse Migratiebehoorte verifieert dat aan alle vereisten is voldaan, en beoordeelt inkomsten, huisvesting en familieberechtigung op basis van uw specifieke vergunningstype."
+      },
+      {
+        "step": "4",
+        "title": "Besluit en Kennisgeving",
+        "description": "Na beoordeling geeft de behoorte een besluit. Indien goedgekeurd, kunnen familieleden verblijfsvergunningen ontvangen die overeenkomen met de duur van de vergunning van de sponsor."
+      }
+    ],
+    "legalProvisions": {
+      "heading": "Specifieke Juridische Bepalingen",
+      "description": "Gezinshereniging in Zweden wordt geregeld door specifieke juridische bepalingen die zijn aangepast aan verschillende vergunningstypen en familiaire situaties.",
+      "acts": [
+        {
+          "name": "Vreemdelingenwet (Utlänningslagen)",
+          "details": "Primair juridisch kader voor gezinshereniging, met betrekking tot inkomsten, huisvesting en relatieverificatie met onderhouds- en huisvestingsnormen."
+        },
+        {
+          "name": "Tijdelijke Vreemdelingenwet (Tillfälliga Utlänningslagen)",
+          "details": "Past striktere onderhoudseis toe voor vluchtelingen, met nadruk op financiële zelfstandigheid voorbij de driemandsperiode."
+        },
+        {
+          "name": "Sociale Zekerheidscode (Socialförsäkringsbalken)",
+          "details": "Definieert acceptabele inkomstensbronnen, vooral relevant voor sponsors die afhankelijk zijn van uitkeringen of werkloosheid."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Onze Diensten",
+      "description": "Sweden Relocators biedt uitgebreide ondersteuning om u te helpen navigeren door gezinshereniging in Zweden en ervoor te zorgen dat uw aanvraag aan alle Zweedse wettelijke normen voldoet.",
+      "servicesList": [
+        {
+          "title": "Geschiktheidsbeoordeling",
+          "description": "Wij beoordelen uw specifieke vergunningstype, inkomsten, huisvesting en familieberechtigung om de beste benadering te bepalen."
+        },
+        {
+          "title": "Documentvoorbereiding",
+          "description": "Hulp bij het verzamelen van alle benodigde documenten, het vertalen van buitenlandse documenten indien nodig, en het waarborgen van volledige nauwkeurigheid."
+        },
+        {
+          "title": "Indiening en Monitoring van Aanvraag",
+          "description": "Uw aanvraag namens u indienen en opvolging bij de Zweedse Migratiebehoorte."
+        },
+        {
+          "title": "Hoger Beroep Ondersteuning",
+          "description": "Als uw aanvraag wordt afgewezen, bieden wij begeleiding door het beroepsproces, waardoor uw zaak sterker wordt."
+        },
+        {
+          "title": "Juridische Nalevingszekerheid",
+          "description": "Wij waarborgen dat alle documentatie aan Zweedse wettelijke normen en specifieke vergunningstype-vereisten voldoet."
+        }
+      ]
+    },
+    "whyChooseHeading": "Waarom Sweden Relocators Kiezen?",
+    "whyChoose": [
+      {
+        "title": "Deskundige Kennis",
+        "description": "Grondige kennis van Zweedse gezinsherenigingswetten en vereisten voor alle vergunningstypen."
+      },
+      {
+        "title": "Persoonlijke Ondersteuning",
+        "description": "Wij passen onze ondersteuning aan uw specifieke vergunningstype en omstandigheden aan voor maximaal succes."
+      },
+      {
+        "title": "Efficiënte Verwerking",
+        "description": "Door nauwkeurigheid en naleving te garanderen, helpen wij u vertragingen of afwijzingen te voorkomen, wat het proces soepeler en efficiënter maakt."
+      }
+    ],
+    "cta": {
+      "heading": "Klaar om Uw Gezin in Zweden Herenigd te Zien?",
+      "description": "Gezinshereniging is een complex proces met specifieke vereisten voor elk vergunningstype. Laat Sweden Relocators u begeleiden door het gezinsherenig­ingsproces in Zweden, en zorg dat alle wettelijke vereisten voor een succesvolle aanvraag zijn gehaald.",
+      "button": "Start Uw Gezinsherenigingsaanvraag",
+      "subtext": "Ons deskundig team zal u begeleiden door elke stap van het Zweedse gezinsherenig­ingsproces."
+    }
+  }
+}

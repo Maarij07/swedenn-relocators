@@ -1,0 +1,186 @@
+{
+  "familyReunification": {
+    "hero": {
+      "title": "Riunificazione Familiare in Svezia",
+      "subtitle": "Guida Completa Secondo la Legge Nazionale Svedese"
+    },
+    "intro": {
+      "heading": "Porta la Tua Famiglia in Svezia",
+      "description": "Le leggi svedesi sulla riunificazione familiare consentono a persone che possiedono vari tipi di permessi di soggiorno - inclusi permessi di lavoro, permessi commerciali, permessi di dottorato e studenti, nonché permessi di soggiorno permanente - così come rifugiati, di portare familiari in Svezia. Ogni tipo di caso ha requisiti specifici e viene valutato secondo diverse disposizioni della legge nazionale svedese.",
+      "infoBox": "Naviga i complessi requisiti di riunificazione familiare con competenza esperta della legge nazionale svedese e valutazioni specifiche del tipo di permesso."
+    },
+    "lawsHeading": "Leggi Svedesi Chiave che Regolano la Riunificazione Familiare",
+    "laws": [
+      {
+        "name": "Legge sull'Immigrazione (Utlänningslagen)",
+        "description": "La principale legislazione che disciplina i permessi di soggiorno e la riunificazione familiare per tutti i cittadini non svedesi."
+      },
+      {
+        "name": "Legge Temporanea sull'Immigrazione (Tillfälliga Utlänningslagen)",
+        "description": "Una legge temporanea che riguarda i requisiti di riunificazione familiare, principalmente per i rifugiati e le persone che necessitano protezione sussidiaria."
+      },
+      {
+        "name": "Legge sulla Cittadinanza Svedese (Lag om Svenskt Medborgarskap)",
+        "description": "Pertinente per i cittadini svedesi e i residenti permanenti che invitano membri della famiglia."
+      },
+      {
+        "name": "Codice dell'Assicurazione Sociale (Socialförsäkringsbalken)",
+        "description": "Fornisce linee guida sulle fonti di reddito accettabili per il requisito di mantenimento."
+      }
+    ],
+    "eligibility": {
+      "heading": "Chi Può Essere Sponsorizzato?",
+      "description": "La riunificazione familiare è generalmente disponibile per i familiari idonei secondo la legge svedese. Ogni tipo di relazione ha criteri di idoneità specifici.",
+      "familyMembers": [
+        {
+          "type": "Coniuge o Partner Registrato",
+          "description": "Partner legalmente sposati o registrati"
+        },
+        {
+          "type": "Partner Convivente",
+          "description": "I partner a lungo termine non registrati possono qualificarsi se la relazione è ben documentata"
+        },
+        {
+          "type": "Figli Minori di 18 Anni",
+          "description": "Figli minori del titolare del permesso o del loro coniuge/partner"
+        },
+        {
+          "type": "Genitori (Per Titolari di Permesso Minorenn)",
+          "description": "Per i titolari di permesso minori di 18 anni, i genitori o i tutori legali possono essere idonei"
+        },
+        {
+          "type": "Famiglia Allargata",
+          "description": "Altri membri della famiglia possono essere considerati per motivi umanitari"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Requisiti di Mantenimento e Alloggio",
+      "description": "Il Requisito di Mantenimento (Försörjningskrav) è essenziale per la maggior parte delle domande di riunificazione familiare, garantendo che il richiedente principale abbia reddito sufficiente e abitazioni appropriate per mantenere i familiari.",
+      "maintenanceLabel": "Requisiti di Reddito",
+      "housingLabel": "Requisiti di Alloggio",
+      "maintenance": [
+        "Reddito stabile per coprire le spese di sussistenza",
+        "Contratti di lavoro o prova di lavoro autonomo",
+        "Buste paga recenti e dichiarazioni fiscali",
+        "Documentazione dei benefici sociali se applicabile"
+      ],
+      "housing": [
+        "Contratto di affitto o prova di proprietà",
+        "Numero sufficiente di stanze per tutti i membri della famiglia",
+        "Prova dell'affitto mensile o dei costi di proprietà",
+        "Conforme agli standard abitativi svedesi"
+      ]
+    },
+    "assessmentHeading": "Criteri di Valutazione per Tipo di Permesso",
+    "assessmentCriteria": [
+      {
+        "title": "Titolari di Permesso di Lavoro",
+        "requirements": ["Impiego a lungo termine con stipendio sufficiente", "Contratti di lavoro e buste paga", "Prova di stabilità finanziaria", "Accordo abitativo appropriato"]
+      },
+      {
+        "title": "Titolari di Permesso Commerciale",
+        "requirements": ["Affari redditizi che forniscono reddito adeguato", "Dichiarazioni fiscali e rendiconti commerciali", "Accertamenti fiscali preliminari dall'Agenzia delle Entrate Svedese", "Viabilità commerciale dimostrata"]
+      },
+      {
+        "title": "Dottorandi e Ricercatori",
+        "requirements": ["Finanziamento stabile o borse di studio", "Durata del programma generalmente superiore a un anno", "Documentazione del reddito dall'istituzione educativa", "Accordi abitativi in Svezia"]
+      },
+      {
+        "title": "Titolari di Permesso di Soggiorno Permanente",
+        "requirements": ["Soggiorno a lungo termine con forti legami con la Svezia", "Valutazione del reddito con possibile flessibilità", "Valutazione degli standard abitativi", "Requisiti possibilmente più indulgenti"]
+      },
+      {
+        "title": "Rifugiati e Titolari di Protezione Sussidiaria",
+        "requirements": ["Possibile esenzione dal requisito di mantenimento entro 3 mesi", "Prova di relazione prima dell'arrivo in Svezia", "Documentazione della relazione familiare", "Valutato secondo la Legge Temporanea sull'Immigrazione"]
+      }
+    ],
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Preparare la Documentazione",
+        "description": "Raccogli tutti i documenti richiesti, inclusi passaporti, prova di relazione (certificati di matrimonio o di nascita), accordi di alloggio e verifica del reddito."
+      },
+      {
+        "step": "2",
+        "title": "Presentare la Domanda",
+        "description": "Presenta le domande online tramite il portale dell'Agenzia Svedese per l'Immigrazione o presso un'ambasciata/consolato svedese, inclusa la prova di relazione e la verifica dell'alloggio/reddito."
+      },
+      {
+        "step": "3",
+        "title": "Revisione dell'Agenzia per l'Immigrazione",
+        "description": "L'Agenzia Svedese per l'Immigrazione verifica che tutti i requisiti siano soddisfatti, valutando il reddito, l'alloggio e l'idoneità familiare in base al tuo tipo di permesso specifico."
+      },
+      {
+        "step": "4",
+        "title": "Decisione e Notifica",
+        "description": "Dopo la valutazione, l'agenzia emette una decisione. Se approvata, i familiari possono ricevere permessi di soggiorno che corrispondano alla durata del permesso dello sponsor."
+      }
+    ],
+    "legalProvisions": {
+      "heading": "Disposizioni Legali Specifiche",
+      "description": "La riunificazione familiare in Svezia è disciplinata da disposizioni legali specifiche adattate ai diversi tipi di permessi e situazioni familiari.",
+      "acts": [
+        {
+          "name": "Legge sull'Immigrazione (Utlänningslagen)",
+          "details": "Quadro giuridico principale per la riunificazione familiare, che copre il reddito, l'alloggio e la verifica della relazione con standard di mantenimento e alloggio."
+        },
+        {
+          "name": "Legge Temporanea sull'Immigrazione (Tillfälliga Utlänningslagen)",
+          "details": "Applica requisiti di mantenimento più severi per i rifugiati, enfatizzando l'indipendenza finanziaria oltre il periodo di tre mesi."
+        },
+        {
+          "name": "Codice dell'Assicurazione Sociale (Socialförsäkringsbalken)",
+          "details": "Definisce le fonti di reddito accettabili, particolarmente rilevante per gli sponsor che si affidano a prestazioni o disoccupazione."
+        }
+      ]
+    },
+    "services": {
+      "heading": "I Nostri Servizi",
+      "description": "Sweden Relocators fornisce un supporto completo per aiutarti a navigare la riunificazione familiare in Svezia e garantire che la tua domanda soddisfi tutti gli standard legali svedesi.",
+      "servicesList": [
+        {
+          "title": "Valutazione dell'Idoneità",
+          "description": "Abbiamo valutiamo il tuo tipo di permesso specifico, il reddito, l'alloggio e l'idoneità familiare per determinare il miglior approccio."
+        },
+        {
+          "title": "Preparazione dei Documenti",
+          "description": "Assistenza nella raccolta di tutti i documenti necessari, nella traduzione di documenti stranieri se necessario, e nel garantire la completa precisione."
+        },
+        {
+          "title": "Presentazione e Monitoraggio della Domanda",
+          "description": "Presentare la tua domanda per tuo conto e seguire l'Agenzia Svedese per l'Immigrazione."
+        },
+        {
+          "title": "Supporto per Appelli",
+          "description": "Se la tua domanda viene rifiutata, forniamo guida attraverso il processo di appello, rafforzando il tuo caso."
+        },
+        {
+          "title": "Garanzia di Conformità Legale",
+          "description": "Garantiamo che tutta la documentazione soddisfi gli standard legali svedesi e i requisiti specifici del tipo di permesso."
+        }
+      ]
+    },
+    "whyChooseHeading": "Perché Scegliere Sweden Relocators?",
+    "whyChoose": [
+      {
+        "title": "Conoscenza Esperta",
+        "description": "Conoscenza approfondita delle leggi svedesi sulla riunificazione familiare e dei requisiti per tutti i tipi di permessi."
+      },
+      {
+        "title": "Supporto Personalizzato",
+        "description": "Adattiamo il nostro supporto al tuo tipo di permesso specifico e alle circostanze per il massimo successo."
+      },
+      {
+        "title": "Elaborazione Efficiente",
+        "description": "Garantendo precisione e conformità, ti aiutiamo a evitare ritardi o rifiuti, rendendo il processo più fluido ed efficiente."
+      }
+    ],
+    "cta": {
+      "heading": "Pronto a Riunirti con la Tua Famiglia in Svezia?",
+      "description": "La riunificazione familiare è un processo complesso con requisiti specifici per ogni tipo di permesso. Lascia che Sweden Relocators ti guidi attraverso il processo di riunificazione familiare in Svezia, assicurando che tutti i requisiti legali siano soddisfatti per una domanda di successo.",
+      "button": "Inizia la Tua Domanda di Riunificazione Familiare",
+      "subtext": "Il nostro team di esperti ti guiderà in ogni fase del processo svedese di riunificazione familiare."
+    }
+  }
+}

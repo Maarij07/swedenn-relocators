@@ -1,0 +1,171 @@
+{
+  "asylum": {
+    "hero": {
+      "title": "Asyl i Danmark: Professionel Support til en Sikker Fremtid",
+      "subtitle": "Ekspertvejledning gennem den danske asylproces"
+    },
+    "intro": {
+      "heading": "Hvad Vi Tilbyder",
+      "description": "Hvis du søger asyl i Danmark, kan det være overvældende at forstå den juridiske proces og opfylde kravene. Hos Sweden Relocators hjælper vores team af erfarne immigrationspecialister dig gennem hvert trin af asylprocessen hos Styrelsen for International Rekruttering og Integration, hvilket sikrer, at din sag håndteres med den største omhu og professionalisme."
+    },
+    "whyChooseExpert": {
+      "heading": "Hvorfor Vælge en Expert?",
+      "description": "At navigere asylprocessen i Danmark kan være kompleks med specifikke regler og tidsfrister. Her er hvad vores ekspertteam kan gøre for dig:",
+      "benefits": [
+        {
+          "title": "Sindsro",
+          "description": "Med vores professionelle team, der håndterer din sag, kan du fokusere på andre aspekter af at bosætte dig i Danmark. Vi er forpligtet til at sikre, at din asylansøgning håndteres effektivt og med medfølelse."
+        },
+        {
+          "title": "Klar og Transparent Vejledning",
+          "description": "Vores specialister forenkler komplekse juridiske krav, hvilket sikrer, at du forstår hvert trin. Uanset hvor kompliceret din sag kan virke, er vores team klar til at hjælpe dig med at præcisere og effektivt præsentere dine asylgrunde."
+        },
+        {
+          "title": "Øjeblikkelig Adgang til Juridisk Expert",
+          "description": "Vores immigrationsadvokater begynder at arbejde på din sag, så snart du kontakter os, hvilket giver et øjeblikkelig svar på dine bekymringer og sikrer, at din sag prioriteres og behandles hurtigt."
+        }
+      ]
+    },
+    "eligibility": {
+      "heading": "Berettigelse til Asyl i Danmark",
+      "whoCanApply": {
+        "heading": "Hvem Kan Ansøge om Asyl?",
+        "intro": "For at ansøge om asyl i Danmark skal du være fysisk til stede i landet eller ved dets grænse. Det er ikke muligt at ansøge fra et andet land eller ved en dansk ambassade i udlandet.",
+        "description": "Hver asylsøgers sag gennemgås individuelt, og Styrelsen for International Rekruttering og Integration giver kun opholdstilladelse, hvis ansøgeren opfylder kriterierne for at blive betragtet som flygtning under både dansk lov og FN's flygtingekonvention."
+      },
+      "refugeeDefinition": {
+        "heading": "Flyktingdefinition og Kriterier",
+        "intro": "Under dansk lov og internationale retningslinjer kvalificeres en person som flygtning, hvis de møder forfølgelse eller alvorlige trusler i deres hjemland baseret på:",
+        "criteria": [
+          "Race",
+          "Nationalitet, Sprog eller Etnisk Gruppe",
+          "Religion",
+          "Politisk Overbevisning eller Aktivisme",
+          "Kønsidentitet",
+          "Seksuel Orientering",
+          "Medlemskab i en Bestemt Socialgruppe"
+        ],
+        "additionalInfo": "Hvis grupper eller personer i dit hjemland truer dig eller dine nærmeste, kan dette påvirke din ansøgning. En positiv afgørelse kræver dog klare beviser på forfølgelse relateret til en af disse faktorer. Under ansøgningsprocessen bliver du bedt om at beskrive de risici, du står over for, hvis du skulle vende tilbage til dit land.",
+        "outcome": "Hvis din sag accepteres, kan du få opholdstilladelse gyldig i enten tre år eller 13 måneder, afhængigt af situationens detaljer."
+      }
+    },
+    "applicationProcess": {
+      "heading": "Trin til at Ansøge om Asyl i Danmark",
+      "intro": "Trinvis Proces",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Fysisk Tilstedeværelse Påkrævet",
+          "description": "Du skal være fysisk til stede i Danmark eller ved den danske grænse for at ansøge om asyl."
+        },
+        {
+          "step": 2,
+          "title": "Indledende Møde på Styrelsen",
+          "description": "Når du har indgivet din ansøgning, bliver du inviteret til et indledende møde på Styrelsen. Under dette møde får du mulighed for at vælge din juridiske repræsentant eller advokat. På dette stadium kan du vælge vores erfarne team til at støtte dig."
+        },
+        {
+          "step": 3,
+          "title": "Juridisk Repræsentation og Sagsforberedelse",
+          "description": "Hvis du vælger os som din repræsentant, vil Styrelsen kontakte os for at bistå med din sag. Vores team vil planlægge et opkald med dig for at indsamle detaljer om din baggrund og dine grunde til at søge asyl. Vi vil også forberede dig til fremtidige interviews og dokumentindsendelse."
+        }
+      ]
+    },
+    "legalRepresentative": {
+      "heading": "Vores Rolle som Din Juridiske Repræsentant",
+      "intro": "Som din juridiske repræsentant vil vi:",
+      "services": [
+        "Yde løbende støtte og juridisk rådgivning gennem hele asylprocessen.",
+        "Hjælpe med at præcisere dine asylgrunde for Styrelsen, ved at udnytte vores dybde viden om dansk asyllovgivning.",
+        "Sikre, at dine rettigheder er beskyttet, især fordi asylsøgere ikke forventes at være fortrolige med danske juridiske processer.",
+        "Hjælpe dig med at navigere klager, hvis din indledende ansøgning afslås. Vi kan hjælpe med at klage til både Flygtningenævnet og Landsdelen, hvis det er nødvendigt."
+      ],
+      "additionalSupport": "Derudover tilbyder vi omfattende relokationstjenester til at hjælpe dig med at genforenes med familiemedlemmer, hvis din ansøgning er succesfuld."
+    },
+    "familyReunification": {
+      "heading": "Familiesammenføring for Flygtninge",
+      "subheading": "Bringer Din Familie til Danmark",
+      "description": "Danmark anerkender familiesammenføring som en væsentlig ret, som giver familiemedlemmer mulighed for at slutte sig til flygtninge eller personer med specifikke opholdstilladelser. Hvis du har fået asyl eller en anden type berettiget opholdstilladelse, kan din familie muligvis blive sammenført med dig i Danmark.",
+      "whoCanApply": {
+        "heading": "Hvem Kan Kvalificere sig til Familiesammenføring?",
+        "intro": "Din familie kan være berettiget til at ansøge om opholdstilladelse for at slutte sig til dig i Danmark, hvis du har:",
+        "eligibilityTypes": [
+          "En permanent opholdstilladelse",
+          "En midlertidig opholdstilladelse som flygtning med rimelige chancer for langsigtet forlængelse",
+          "En midlertidig opholdstilladelse baseret på tilbagevenden hindringer eller presserende omstændigheder med sandsynlighed for langsigtet forlængelse"
+        ]
+      },
+      "euEeaCitizens": {
+        "heading": "For EU/EØS-borgere",
+        "description": "Hvis du er en EU/EØS-borger eller relateret til en, kan du drage fordel af en forenklet proces til at bringe familiemedlemmer til Danmark baseret på ret til fri bevægelighed inden for Europa. Denne faciliterede visumproces kan gøre det muligt for familiemedlemmer at rejse med dig eller slutte sig til dig i Danmark."
+      },
+      "temporaryPermit": {
+        "heading": "Hvis Du Har en Midlertidig Opholdstilladelse",
+        "description": "For at familiesammenføringsansøgninger skal være vellykkede, skal du have en gyldig opholdstilladelse på tidspunktet for ansøgningen. Hvis din tilladelse er under forlængelse, vil Styrelsen først vurdere din berettigelse til at bevare opholdsstatus, før der træffes afgørelse om familiesammenføring.",
+        "familyMembers": "Generelt er nærmeste familiemedlemmer såsom din ægtefælle, registreret partner, samlever eller børn under 18 år berettiget til at slutte sig til dig. I undtagelsestilfælde kan andre slægtninge også kvalificere, men kun under visse betingelser.",
+        "maintenance": "Et forsørgelskrav gælder, hvilket betyder, at du skal påvise, at du kan økonomisk støtte dine familiemedlemmer og give passende bolig på dansk standard."
+      }
+    },
+    "familyReunificationAssistance": {
+      "heading": "Hvordan Vi Hjælper dig Med Familiesammenføring",
+      "description": "Vores team tilbyder fuld support til familiesammenføringsprocesen, der dækker alle aspekter for at gøre det så problemfrit som muligt:",
+      "services": [
+        {
+          "title": "Ansøgningsforberedelse",
+          "description": "Assistance med at forberede og indsende opholdstilladelsesansøgningen for dine familiemedlemmer, herunder dokumentvejledning."
+        },
+        {
+          "title": "Dokumentverifikation",
+          "description": "Sikring af, at alle nødvendige dokumenter er i orden for at minimere forsinkelser og komplikationer."
+        },
+        {
+          "title": "Vejledning om Statslige Gebyrer",
+          "description": "Klar information om de statlige gebyrer, der er involveret, så du altid er klar over omkostningerne."
+        },
+        {
+          "title": "Registreringsstøtte",
+          "description": "Assistance med at registrere ansøgningen på Styrelsen for at sikre nøjagtighed og fuldstændighed."
+        },
+        {
+          "title": "Regelmæssig Opfølgning",
+          "description": "Løbende overvågning af din ansøgnings progression med hurtige opdateringer for at holde dig informeret."
+        },
+        {
+          "title": "Aftalekoordinering",
+          "description": "Koordinering af væsentlige møder på Styrelsen for interviews, biometri og andre procedurerelaterede trin."
+        },
+        {
+          "title": "Ledsagede Besøg",
+          "description": "Vores team vil ledsage dig under besøg på Styrelsen, hvilket giver in-person støtte og vejledning under vigtige momenter i processen."
+        }
+      ]
+    },
+    "additionalSupport": {
+      "heading": "Yderligere Supporttjenester for Asylsøgere og Nykommere",
+      "intro": "Ud over asyl- og familiesammenføringstjenester tilbyder vi også:",
+      "services": [
+        {
+          "title": "Relokationsassistance",
+          "description": "Omfattende hjælp med bolig, uddannelse, sundhedspleje og social integration i Danmark for at lette din overgang."
+        },
+        {
+          "title": "Tolke- og Oversættelsestjenester",
+          "description": "Assistance med at oversætte nødvendige dokumenter og tolkning under møder med Styrelsens repræsentanter."
+        },
+        {
+          "title": "Juridisk Bistand til Klager og Gennemgang",
+          "description": "Support i indsendelse af klager, forberedelse til domstolssamlinger og administration af komplekse juridiske procedurer."
+        },
+        {
+          "title": "Rådgivningstjenester",
+          "description": "Professionel støtte til følelsesmæssig velbefindende under vanskelige tider, der hjælper dig med at føle dig sikker og støttet."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Start Din Asylansøgning I Dag",
+      "description": "Kontakt Sweden Relocators for at påbegynde din asylansøgning med ekspertguidance og support ved hvert trin.",
+      "button": "Kom I Gang",
+      "subtext": "Besøg vores asylsektion eller kontakt os for mere information. Vores team er her for at hjælpe dig med at sikre din fremtid i Danmark."
+    }
+  }
+}

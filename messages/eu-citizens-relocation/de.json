@@ -1,0 +1,195 @@
+{
+  "euCitizensRelocation": {
+    "hero": {
+      "title": "Familienzusammenführung für EU-Bürger in Schweden",
+      "subtitle": "Umfassende Unterstützung für EU-Bürger und ihre Familien"
+    },
+    "intro": {
+      "heading": "Bringen Sie Ihre EU-Familie nach Schweden",
+      "description": "Wenn Sie als EU-Bürger nach Schweden ziehen, haben Sie ein gesetzliches Recht auf Familienzusammenführung. Dadurch können Ihre Angehörigen zu Ihnen ziehen und von der hohen Lebensqualität in Schweden profitieren – einschließlich Gesundheitsversorgung, Bildung und sozialer Leistungen. Sweden Relocators bietet professionelle Unterstützung bei der Familienzusammenführung für EU-Bürger, einschließlich Prüfung der Anspruchsberechtigung, Dokumentenvorbereitung, Aufenthaltskarten, Personnummer-Registrierung, Wohnungssuche und Integration.",
+      "infoBox": "Die Familienzusammenführung für EU-Bürger in Schweden basiert auf der Richtlinie 2004/38/EG, die EU-Bürgern mit Wohnsitz in Schweden das Recht einräumt, Familienangehörige mitzubringen und unter denselben Bedingungen wie andere Einwohner Zugang zu Gesundheitsversorgung, Bildung und sozialen Leistungen zu erhalten."
+    },
+    "whatIs": {
+      "heading": "Was ist die Familienzusammenführung für EU-Bürger?",
+      "description": "Die Familienzusammenführung für EU-Bürger in Schweden basiert auf der Richtlinie 2004/38/EG über das Recht von EU-Bürgern und ihren Familienangehörigen auf Freizügigkeit und Aufenthalt innerhalb der Europäischen Union. Dieses System ermöglicht es EU-Bürgern mit Wohnsitz in Schweden, sowohl unmittelbare als auch erweiterte Familienangehörige mitzubringen, sofern bestimmte Voraussetzungen erfüllt sind."
+    },
+    "immediateFamilyHeading": "Unmittelbare Familienangehörige, die zur Familienzusammenführung berechtigt sind",
+    "immediateFamily": [
+      {
+        "type": "Ehepartner oder eingetragener Partner",
+        "description": "Umfasst sowohl gleichgeschlechtliche als auch verschiedengeschlechtliche Ehen sowie eingetragene Partnerschaften, die nach schwedischem Recht anerkannt sind."
+      },
+      {
+        "type": "Unverheirateter Partner (Lebensgemeinschaft)",
+        "description": "Wenn die Beziehung langfristig besteht und in Schweden als eheähnlich anerkannt wird."
+      },
+      {
+        "type": "Kinder unter 21 Jahren",
+        "description": "Leibliche oder adoptierte Kinder des EU-Bürgers oder dessen Ehepartners/Partners."
+      },
+      {
+        "type": "Unterhaltsberechtigte Kinder über 21 Jahre",
+        "description": "Sofern sie finanziell vom EU-Bürger abhängig sind."
+      },
+      {
+        "type": "Unterhaltsberechtigte Eltern und Großeltern",
+        "description": "Verwandte in aufsteigender Linie, die finanziell abhängig sind."
+      }
+    ],
+    "extendedFamily": {
+      "heading": "Erweiterte Familienangehörige und Abhängigkeit",
+      "description": "In bestimmten Fällen können auch erweiterte Familienangehörige berechtigt sein, sofern eine tatsächliche Abhängigkeit nachgewiesen werden kann. Dazu können erwachsene Geschwister, erwachsene Kinder im gemeinsamen Haushalt oder andere Verwandte mit starken Abhängigkeitsverhältnissen zählen. Für die Familienzusammenführung erweiterter Familienangehöriger gelten strengere Anforderungen und es ist eine klare Dokumentation der Abhängigkeit erforderlich."
+    },
+    "longTermPermitHeading": "Inhaber einer langfristigen EU-Aufenthaltserlaubnis",
+    "longTermPermitRequirements": [
+      "Inhaber einer gültigen langfristigen Aufenthaltserlaubnis eines anderen EU-Mitgliedstaates sein",
+      "Über ausreichende finanzielle Mittel und angemessenen Wohnraum in Schweden verfügen",
+      "Gemeinsam mit den unmittelbaren Familienangehörigen einen Aufenthaltsantrag in Schweden stellen"
+    ],
+    "residenceCard": {
+      "heading": "Aufenthaltskarte für Familienangehörige",
+      "intro": "Familienangehörige, die sich länger als drei Monate in Schweden aufhalten möchten, müssen eine Aufenthaltskarte bei der schwedischen Migrationsbehörde (Migrationsverket) beantragen.",
+      "documentsLabel": "Erforderliche Unterlagen:",
+      "documents": [
+        "Gültiger Reisepass",
+        "Nachweis der familiären Beziehung (Heiratsurkunde, eingetragene Partnerschaft oder Geburtsurkunde)",
+        "Nachweis der finanziellen Abhängigkeit (für Eltern, Großeltern oder Kinder über 21 Jahre)",
+        "Nachweis des Wohnsitzes des EU-Bürgers in Schweden (Mietvertrag, Wohneigentum oder Arbeitsvertrag)",
+        "Nachweis ausreichender finanzieller Mittel zur Selbst- und Familienversorgung"
+      ],
+      "note": "Aufenthaltskarten sind in der Regel fünf Jahre gültig oder für die Dauer des Aufenthalts des EU-Bürgers in Schweden."
+    },
+    "personnummer": {
+      "heading": "Personnummer (schwedische Personenkennziffer)",
+      "intro": "Nach Erhalt der Aufenthaltskarte müssen sich Familienangehörige beim schwedischen Finanzamt (Skatteverket) registrieren, um eine Personnummer zu erhalten. Diese ist erforderlich für:",
+      "uses": [
+        "Zugang zum Gesundheitswesen",
+        "Anmeldung von Kindern in Schulen",
+        "Eröffnung eines Bankkontos",
+        "Abschluss von Verträgen (Wohnung, Mobilfunk, Strom und andere Dienstleistungen)"
+      ]
+    },
+    "healthcare": {
+      "heading": "Gesundheitsversorgung und Krankenversicherung",
+      "description": "Nach Erhalt der Personnummer haben Familienangehörige Zugang zum öffentlichen Gesundheitssystem in Schweden. Bis dahin ist eine private Krankenversicherung erforderlich. Für nicht-EU-Familienangehörige wird eine umfassende Krankenversicherung mit einer Mindestdeckungssumme von 30.000 EUR empfohlen."
+    },
+    "education": {
+      "heading": "Bildung und Kinderbetreuung",
+      "programs": [
+        {
+          "name": "Schulpflicht",
+          "description": "Kostenlose Schulbildung für Kinder im Alter von 6 bis 16 Jahren, einschließlich Schulverpflegung"
+        },
+        {
+          "name": "Vorschule (Förskola)",
+          "description": "Verfügbar für Kinder im Alter von 1 bis 5 Jahren zu subventionierten Gebühren"
+        },
+        {
+          "name": "Internationale Schulen",
+          "description": "Optionen für Familien, die Unterricht auf Englisch oder in anderen Sprachen bevorzugen"
+        }
+      ]
+    },
+    "bankAccounts": {
+      "heading": "Bankkonten und finanzielle Integration",
+      "intro": "Nach Erhalt der Personnummer können Familienangehörige ein schwedisches Bankkonto eröffnen. In der Regel werden folgende Unterlagen benötigt:",
+      "documents": [
+        "Von Skatteverket ausgestellter Personalausweis",
+        "Aufenthaltskarte",
+        "Adressnachweis",
+        "Einkommensnachweis (falls zutreffend)"
+      ],
+      "note": "Ein Bankkonto ermöglicht den Zugang zu digitalen Zahlungen, Online-Banking und Swish (mobiles Zahlungssystem in Schweden)."
+    },
+    "language": {
+      "heading": "Sprach- und Integrationsunterstützung",
+      "description": "Das Erlernen der schwedischen Sprache ist entscheidend für eine erfolgreiche Integration. Nach der Registrierung und dem Erhalt der Personnummer können Familienangehörige an SFI-Kursen (Schwedisch für Einwanderer) teilnehmen. Diese kostenlosen, staatlich finanzierten Kurse verbessern die Alltagskommunikation und die Beschäftigungschancen. Sweden Relocators bietet zudem kulturelle Orientierung, um Familien die Eingewöhnung zu erleichtern."
+    },
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Prüfung der Anspruchsberechtigung",
+        "description": "Sweden Relocators prüft, ob die Familienangehörigen die EU-Voraussetzungen erfüllen."
+      },
+      {
+        "step": "2",
+        "title": "Vorbereitung der Unterlagen",
+        "description": "Sammlung und Übersetzung der erforderlichen Dokumente."
+      },
+      {
+        "step": "3",
+        "title": "Antragstellung bei Migrationsverket",
+        "description": "Einreichung der Anträge auf Aufenthaltskarten."
+      },
+      {
+        "step": "4",
+        "title": "Nachverfolgung und Kommunikation",
+        "description": "Bearbeitung von Rückfragen der Migrationsbehörde."
+      },
+      {
+        "step": "5",
+        "title": "Registrierung bei Skatteverket",
+        "description": "Unterstützung bei der Beantragung der Personnummer, des Ausweises und der Steuerregistrierung."
+      },
+      {
+        "step": "6",
+        "title": "Integrationsservices",
+        "description": "Unterstützung bei Wohnung, Schulen, Gesundheitsversorgung und Sprache."
+      }
+    ],
+    "services": {
+      "heading": "So unterstützt Sweden Relocators Familien",
+      "description": "Unsere umfassenden Dienstleistungen und unser digitales Portal sorgen dafür, dass Ihre Familienzusammenführung reibungslos, regelkonform und stressfrei verläuft.",
+      "servicesList": [
+        {
+          "title": "Anspruchsprüfung und rechtliche Bewertungen",
+          "description": "Wir prüfen, ob Ihre Familienangehörigen die Anforderungen des EU-Rechts erfüllen."
+        },
+        {
+          "title": "Dokumentenvorbereitung und beglaubigte Übersetzungen",
+          "description": "Alle Unterlagen werden professionell für die schwedischen Behörden vorbereitet und übersetzt."
+        },
+        {
+          "title": "Antragseinreichung und Nachverfolgung",
+          "description": "Wir reichen die Anträge ein und begleiten den Prozess bei Migrationsverket."
+        },
+        {
+          "title": "Unterstützung bei Rechtsmitteln",
+          "description": "Im Falle einer Ablehnung bieten wir umfassende Unterstützung im Einspruchsverfahren."
+        },
+        {
+          "title": "Wohnungs- und Schulsuche",
+          "description": "Wir helfen bei der Wohnungssuche und der Anmeldung von Kindern in Schulen."
+        },
+        {
+          "title": "Versicherungs- und Gesundheitsberatung",
+          "description": "Beratung zu Versicherungsanforderungen und Zugang zum schwedischen Gesundheitssystem."
+        }
+      ]
+    },
+    "whySweden": [
+      {
+        "title": "Starkes Sozialsystem",
+        "description": "Zugang zu umfassender Gesundheitsversorgung, hochwertiger Bildung und sozialen Leistungen."
+      },
+      {
+        "title": "Kostenlose Bildung und Gesundheitsversorgung",
+        "description": "Bildungs- und Gesundheitsleistungen auf Weltklasseniveau für alle Einwohner."
+      },
+      {
+        "title": "Sicher und familienfreundlich",
+        "description": "Schweden bietet ein sicheres, inklusives und familienfreundliches Umfeld."
+      },
+      {
+        "title": "Stabile Aufenthaltsrechte",
+        "description": "Rechtlicher Schutz nach EU-Recht und schwedischem Migrationsrecht."
+      }
+    ],
+    "cta": {
+      "heading": "Bereit, Ihre EU-Familienzusammenführung zu starten?",
+      "description": "Sweden Relocators sorgt dafür, dass Ihr Umzug reibungslos, korrekt und stressfrei verläuft. Kontaktieren Sie uns noch heute, um mit der Familienzusammenführung zu beginnen. Über unser digitales Portal können Sie Profile verwalten, Dokumente hochladen und den Fortschritt in Echtzeit verfolgen.",
+      "button": "EU-Familienzusammenführung starten",
+      "subtext": "Unser Expertenteam begleitet Ihre Familie durch jeden Schritt der EU-Familienzusammenführung in Schweden."
+    }
+  }
+}

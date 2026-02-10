@@ -1,0 +1,135 @@
+{
+  "logisticsServices": {
+    "hero": {
+      "title": "Gestione della Logistica con la Rete di Partner Sweden Relocators",
+      "subtitle": "Soluzioni logistiche senza interruzioni per trasferimento e espansione aziendale"
+    },
+    "intro": {
+      "heading": "Soluzioni Logistiche Comprehensive per Ogni Esigenza",
+      "description": "Il trasferimento e l'espansione aziendale spesso dipendono dalla logistica affidabile. Forniamo soluzioni di gestione logistica senza interruzioni progettate per eliminare lo stress del trasferimento da una frontiera all'altra attraverso la nostra rete di partner logistici di terze parti attentamente selezionata. Coordiniamo tutto, dall'imballaggio e dalla spedizione internazionale alle autorizzazioni doganali, allo stoccaggio, al trasporto merci e alla consegna dell'ultimo miglio.",
+      "toolLink": "Il nostro obiettivo è semplice: assicurare che i tuoi effetti personali, attrezzature da ufficio o merci commerciali raggiungano la destinazione in sicurezza, puntualmente e a tariffe competitive."
+    },
+    "services": {
+      "heading": "I Nostri Servizi Logistici Principali",
+      "requirementsLabel": "Cosa Gestiamo",
+      "services": [
+        {
+          "id": "packing",
+          "title": "Imballaggio e Spedizione",
+          "description": "Servizi professionali di imballaggio e spedizione globale utilizzando materiali di qualità internazionale",
+          "requirements": [
+            {"label": "Materiali Professionali", "description": "Materiali di imballaggio di qualità internazionale e procedure di movimentazione sicure"},
+            {"label": "Copertura Globale", "description": "Effetti personali, asset aziendali e carichi specializzati"},
+            {"label": "Garanzia di Sicurezza", "description": "Trasporto sicuro che garantisce che gli articoli raggiungono la destinazione in sicurezza ed efficienza"}
+          ]
+        },
+        {
+          "id": "customs",
+          "title": "Dogane e Conformità",
+          "description": "Navigazione esperta di normative doganali e protocolli internazionali",
+          "requirements": [
+            {"label": "Dogane Svedesi", "description": "Supporto alle autorizzazioni doganali conformemente alle dogane svedesi"},
+            {"label": "Norme Commerciali UE", "description": "Piena conformità alle norme commerciali dell'UE e ai protocolli internazionali"},
+            {"label": "Documentazione", "description": "Tutti i documenti preparati in anticipo per ridurre al minimo i ritardi"}
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Soluzioni di Magazzinaggio",
+          "description": "Opzioni di stoccaggio flessibili in strutture moderne e sicure",
+          "requirements": [
+            {"label": "Sicurezza", "description": "Stoccaggio sicuro con monitoraggio 24/7 disponibile"},
+            {"label": "Controllo Climatico", "description": "Strutture climatizzate per merci sensibili"},
+            {"label": "Flessibilità", "description": "Opzioni di stoccaggio a breve e lungo termine con contratti flessibili"}
+          ]
+        },
+        {
+          "id": "freight",
+          "title": "Gestione dei Carichi",
+          "description": "Opzioni di trasporto convenienti con tracciamento in tempo reale",
+          "requirements": [
+            {"label": "Multiple Opzioni", "description": "Trasporto aereo per spedizioni urgenti, trasporto marittimo per carichi sfusi, trasporto stradale per traslochi regionali"},
+            {"label": "Tracciamento", "description": "Tracciamento in tempo reale in modo che tu sappia sempre dove si trova la tua spedizione"},
+            {"label": "Flessibilità", "description": "Soluzioni di trasporto convenienti e flessibili"}
+          ]
+        },
+        {
+          "id": "lastmile",
+          "title": "Consegna Ultimo Miglio",
+          "description": "Coordina la consegna finale con servizi opzionali di disimballaggio e assemblaggio",
+          "requirements": [
+            {"label": "Consegna Tempestiva", "description": "Arrivo a casa, ufficio o luogo commerciale puntuale"},
+            {"label": "Servizi Opzionale", "description": "Servizi di disimballaggio e assemblaggio disponibili"},
+            {"label": "Senza Stress", "description": "Garantisce una transizione completamente senza stress"}
+          ]
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Perché Scegliere Sweden Relocators per la Logistica?",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Portata Globale con Competenza Locale",
+          "description": "La nostra rete di partner si estende su Europa, Asia, Nord America e oltre. La copertura globale combinata con l'esperienza locale svedese garantisce che ogni spedizione soddisfi gli standard internazionali e locali."
+        },
+        {
+          "id": 2,
+          "title": "Coordinamento End-to-End",
+          "description": "Un unico punto di contatto per tutto il viaggio logistico, dalla consulenza e dall'imballaggio alla consegna e all'installazione, garantendo coerenza e comunicazione chiara."
+        },
+        {
+          "id": 3,
+          "title": "Soluzioni Convenienti",
+          "description": "Lavorando con una rete verificata di fornitori, negoziamo tariffe competitive mantenendo la più alta qualità di servizio."
+        },
+        {
+          "id": 4,
+          "title": "Trasporto Sicuro e Affidabile",
+          "description": "La sicurezza è la nostra priorità. I nostri partner utilizzano sistemi moderni per imballaggio sicuro, movimentazione e trasporto per proteggere le tue merci in ogni fase."
+        },
+        {
+          "id": 5,
+          "title": "Tracciamento Trasparente e Aggiornamenti",
+          "description": "Sistemi di tracciamento avanzati e aggiornamenti regolari ti tengono informato. Conosci sempre lo stato della tua spedizione per una completa tranquillità."
+        }
+      ]
+    },
+    "process": {
+      "heading": "Come Funziona il Nostro Servizio di Gestione della Logistica",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Consulenza e Pianificazione",
+          "description": "Iniziamo con una consulenza per comprendere le tue esigenze, tempi e budget. Su questa base, progettiamo un piano logistico personalizzato."
+        },
+        {
+          "number": 2,
+          "title": "Imballaggio e Ritiro",
+          "description": "L'imballaggio professionale e il ritiro sicuro sono organizzati attraverso i nostri partner di terze parti, garantendo che gli articoli siano correttamente preparati per il transito."
+        },
+        {
+          "number": 3,
+          "title": "Spedizione e Tracciamento",
+          "description": "Che sia per via aerea, marittima o terrestre, la tua spedizione viene tracciata in tempo reale con aggiornamenti di arrivo stimati forniti durante il processo."
+        },
+        {
+          "number": 4,
+          "title": "Autorizzazione Doganale e Conformità",
+          "description": "Tutta la documentazione doganale è preparata e verificata in anticipo, garantendo una corretta autorizzazione con le dogane svedesi o qualsiasi autorità di destinazione."
+        },
+        {
+          "number": 5,
+          "title": "Consegna e Disimballaggio",
+          "description": "All'arrivo, i nostri partner logistici gestiscono la consegna finale, il disimballaggio e l'assemblaggio se necessario, permettendoti di insediarti senza problemi."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Pronto a Semplificare la Tua Logistica?",
+      "description": "Con la gestione della logistica di Sweden Relocators, ottieni accesso a una rete di partner affidabile che può gestire ogni aspetto del tuo trasferimento o spedizione. Invia una richiesta di servizio oggi.",
+      "button": "Ottieni il Tuo Preventivo di Logistica",
+      "subtext": "Che si tratti di trasferimento personale o logistica aziendale, raccontaci le tue esigenze e organizzeremo i servizi con i nostri partner logistici di fiducia."
+    }
+  }
+}

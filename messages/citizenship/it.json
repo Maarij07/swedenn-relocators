@@ -2,64 +2,64 @@
   "citizenship": {
     "hero": {
       "title": "Cittadinanza svedese: Requisiti, percorsi di applicazione e tempi di elaborazione",
-      "subtitle": "Diventare cittadino svedese è un traguardo significativo che garantisce diritti e doveri completi in Svezia. La cittadinanza offre l'accesso a un passaporto svedese, il diritto di voto, la possibilità di candidarsi a cariche politiche e la libera circolazione nell'UE e nello spazio Schengen."
+      "subtitle": "Diventare cittadino svedese è un traguardo significativo che garantisce pieni diritti e responsabilità in Svezia. La cittadinanza consente di ottenere un passaporto svedese, il diritto di voto, la possibilità di candidarsi a cariche politiche e la libera circolazione nell'UE e nello spazio Schengen."
     },
     "intro": {
       "heading": "Cosa offre la cittadinanza svedese",
-      "description": "La cittadinanza svedese rafforza la vostra sicurezza giuridica e facilita la vita, il lavoro e gli investimenti permanenti in Svezia. Essa vi fornisce non solo il diritto a un passaporto svedese, ma anche uno status giuridico sicuro, la libertà di movimento all'interno dell'UE e una piena partecipazione alla democrazia svedese.",
-      "note": "Sweden Relocators fornisce consulenza esperta a ogni fase del processo e garantisce che la vostra domanda sia completa, accurata e conforme alle leggi attuali."
+      "description": "La cittadinanza svedese rafforza la tua sicurezza giuridica e facilita la vita, il lavoro e gli investimenti permanenti in Svezia. Non solo ti dà diritto a un passaporto svedese, ma anche uno status giuridico sicuro, la libertà di movimento nell'UE e una piena partecipazione alla democrazia svedese.",
+      "note": "Sweden Relocators fornisce consulenza esperta ad ogni fase del processo e garantisce che la tua domanda sia completa, accurata e conforme alle leggi attuali."
     },
     "generalRequirements": {
       "heading": "Requisiti generali per la cittadinanza svedese",
-      "description": "Per richiedere la cittadinanza svedese come adulto, in genere è necessario soddisfare le seguenti condizioni:",
+      "description": "Per richiedere la cittadinanza svedese come adulto, devi generalmente soddisfare i seguenti requisiti:",
       "requirements": [
         {
           "title": "Requisito di età",
-          "description": "È necessario avere almeno 18 anni per presentare domanda in modo indipendente. I minori di 18 anni possono presentare domanda insieme a un genitore o tramite comunicazione in casi specifici."
+          "description": "Devi avere almeno 18 anni per presentare domanda in modo indipendente. I minori di 18 anni possono presentare domanda insieme a un genitore o tramite comunicazione in casi specifici."
         },
         {
-          "title": "Permesso di soggiorno permanente o diritto permanente di soggiornare",
-          "description": "I cittadini non appartenenti all'UE/SEE devono possedere un permesso di soggiorno permanente (permanent uppehållstillstånd). I cittadini UE/SEE devono possedere un diritto permanente di soggiornare (permanent uppehållsrätt), generalmente acquisito dopo cinque anni di residenza legale continua."
+          "title": "Residenza permanente o diritto permanente di soggiorno",
+          "description": "I cittadini non appartenenti all'UE/SEE devono possedere un permesso di soggiorno permanente (permanent uppehållstillstånd). I cittadini UE/SEE devono possedere un diritto permanente di soggiorno (permanent uppehållsrätt), generalmente acquisito dopo cinque anni di residenza legale continua."
         },
         {
           "title": "Durata della residenza in Svezia",
-          "description": "Regola standard: 5 anni di residenza continua. Rifugiati o persone apolidi: 4 anni. Coniuge/partner registrato/civile di un cittadino svedese: 3 anni. Cittadini nordici: 2 anni (normale) o 5 anni (comunicazione)."
+          "description": "Regola standard: 5 anni di residenza continua. Richiedenti asilo o persone apolidi: 4 anni. Coniuge/partner registrato/civile di un cittadino svedese: 3 anni. Cittadini nordici: 2 anni (ordinario) o 5 anni (comunicazione)."
         },
         {
           "title": "Buona condotta",
-          "description": "I richiedenti devono dimostrare buona condotta, ovvero assenza di precedenti penali gravi recenti, debiti irrisolti con il Kronofogden (l'autorità di recupero crediti) e rispetto generale delle leggi svedesi."
+          "description": "I richiedenti devono dimostrare buona condotta, ovvero nessuna condanna penale recente, nessun debito insoluto presso il Kronofogden (l'autorità di recupero crediti) e rispetto generale della legge svedese."
         },
         {
           "title": "Intenzione di rimanere in Svezia",
-          "description": "Migrationsverket valuta se si hanno forti legami con la Svezia, come occupazione, famiglia o sistemazione abitativa a lungo termine, che dimostrino la reale intenzione di rimanere."
+          "description": "Il Migrationsverket valuta se hai forti legami con la Svezia, come occupazione, famiglia o alloggio a lungo termine, che dimostrino la tua reale intenzione di rimanere."
         }
       ]
     },
     "specialCategories": {
-      "heading": "Categorie speciali e percorsi verso la cittadinanza",
+      "heading": "Categorie speciali e percorsi di cittadinanza",
       "categories": [
         {
           "id": "nordic",
           "title": "Cittadini nordici",
           "description": "I cittadini nordici (Danimarca, Finlandia, Islanda, Norvegia) beneficiano delle regole più flessibili:",
           "details": [
-            "Domanda ordinaria: Idoneo dopo 2 anni di residenza in Svezia.",
-            "Procedura di comunicazione (anmälan): Idoneo dopo 5 anni di residenza. Si tratta di una procedura semplificata."
+            "Domanda ordinaria: Ammissibile dopo 2 anni di residenza in Svezia.",
+            "Procedura di comunicazione (anmälan): Ammissibile dopo 5 anni di residenza. Questa è una procedura semplificata."
           ]
         },
         {
           "id": "eueea",
           "title": "Cittadini UE/SEE",
-          "description": "I cittadini UE/SEE possono presentare domanda dopo 5 anni di residenza continua, una volta acquisito il diritto permanente di soggiornare.",
+          "description": "I cittadini UE/SEE possono presentare domanda dopo 5 anni di residenza continua, una volta ottenuto il diritto permanente di soggiorno.",
           "details": [
-            "Devono fornire prova di residenza, reddito e rispetto delle leggi svedesi.",
+            "Devono dimostrare documentazione relativa alla residenza, reddito e rispetto della legge svedese.",
             "Il processo è leggermente più semplice poiché non è richiesto alcun permesso di soggiorno."
           ]
         },
         {
           "id": "refugees",
-          "title": "Rifugiati e persone apolidi",
-          "description": "I rifugiati e le persone apolidi riconosciuti possono presentare domanda dopo 4 anni di residenza.",
+          "title": "Richiedenti asilo e persone apolidi",
+          "description": "I richiedenti asilo riconosciuti e le persone apolidi possono presentare domanda dopo 4 anni di residenza.",
           "details": [
             "Lo status di rifugiato deve essere ufficialmente riconosciuto ai sensi del diritto internazionale o svedese."
           ]
@@ -67,7 +67,7 @@
         {
           "id": "spouses",
           "title": "Coniuge o partner di un cittadino svedese",
-          "description": "Coniuge o partner registrato può presentare domanda dopo 3 anni di residenza.",
+          "description": "Il coniuge o partner registrato può presentare domanda dopo 3 anni di residenza.",
           "details": [
             "La coppia deve aver vissuto insieme in Svezia per almeno 2 anni.",
             "Sono richiesti forti legami con la Svezia e la relazione deve essere duratura."
@@ -90,39 +90,39 @@
       "steps": [
         {
           "title": "Preparare i documenti",
-          "description": "I documenti richiesti includono: Passaporto valido o documento nazionale d'identità, Prova di residenza (registrazione presso Skatteverket), Documentazione di reddito o occupazione, Certificato penale o prove di debiti se applicabile."
+          "description": "I documenti richiesti includono: Passaporto valido o documento nazionale d'identità, Prova di residenza (registrazione presso il Skatteverket), Documentazione di reddito o occupazione, Certificato penale o prova di assenza di debiti se applicabile."
         },
         {
           "title": "Presentare la domanda",
-          "description": "Le domande possono essere presentate online tramite il servizio elettronico di Migrationsverket o mediante modulo cartaceo. I bambini e i cittadini nordici che utilizzano la procedura di comunicazione hanno procedure semplificate."
+          "description": "Le domande possono essere presentate online tramite il servizio elettronico del Migrationsverket o mediante modulo cartaceo. Bambini e cittadini nordici che utilizzano la procedura di comunicazione hanno procedure semplificate."
         },
         {
-          "title": "Esame da parte di Migrationsverket",
-          "description": "L'agenzia verifica la storia della residenza, l'identità, la condotta e la stabilità finanziaria. Durante il processo possono essere richieste ulteriori informazioni."
+          "title": "Esame da parte del Migrationsverket",
+          "description": "L'agenzia verifica la storia della residenza, l'identità, la condotta e la stabilità finanziaria. Durante il processo possono essere richieste informazioni aggiuntive."
         },
         {
           "title": "Decisione",
-          "description": "In caso di approvazione, riceverete un certificato di cittadinanza svedese. In caso di rifiuto, è possibile fare ricorso davanti a un tribunale amministrativo."
+          "description": "In caso di approvazione, riceverai un certificato di cittadinanza svedese. In caso di rifiuto, puoi fare ricorso davanti a un tribunale amministrativo."
         }
       ]
     },
     "waitingTimes": {
       "heading": "Tempi di elaborazione e periodi di attesa",
-      "intro": "I tempi di elaborazione variano in base alla categoria e al contesto:",
+      "intro": "I tempi di elaborazione variano in base alla categoria e all'origine:",
       "times": [
         {"category": "Domande standard", "time": "18–36 mesi"},
         {"category": "Cittadini nordici (comunicazione)", "time": "6–12 mesi"},
-        {"category": "Rifugiati e coniugi", "time": "Di solito più rapidi rispetto allo standard"},
-        {"category": "Nota", "time": "Migrationsverket ha recentemente annunciato controlli più rigorosi (marzo 2025), che potrebbero aumentare i tempi di attesa per alcuni casi."}
+        {"category": "Richiedenti asilo e coniugi", "time": "Generalmente più veloce dello standard"},
+        {"category": "Nota", "time": "Il Migrationsverket ha recentemente annunciato controlli più rigorosi (marzo 2025), che potrebbero aumentare i tempi di attesa per alcuni casi."}
       ]
     },
     "support": {
-      "heading": "Come Sweden Relocators può aiutarvi",
+      "heading": "Come Sweden Relocators può aiutarti",
       "description": "Richiedere la cittadinanza svedese può essere complesso e richiedere molto tempo. Sweden Relocators offre supporto professionale in tutte le fasi:",
       "services": [
         {
           "title": "Valutazione dell'idoneità",
-          "description": "Controlliamo la vostra storia di residenza, la situazione familiare e lo stato delle autorizzazioni per determinare il miglior approccio possibile."
+          "description": "Controlliamo la tua storia di residenza, la situazione familiare e lo stato delle autorizzazioni per determinare il tuo miglior percorso."
         },
         {
           "title": "Preparazione dei documenti",
@@ -130,23 +130,23 @@
         },
         {
           "title": "Presentazione e monitoraggio della domanda",
-          "description": "Gestiamo la vostra domanda e vi teniamo aggiornati direttamente con Migrationsverket."
+          "description": "Gestiamo la tua domanda e monitoriamo gli aggiornamenti direttamente presso il Migrationsverket."
         },
         {
-          "title": "Assistenza per ricorsi",
-          "description": "Se la vostra domanda viene respinta, il nostro team legale vi aiuta a preparare e presentare ricorsi."
+          "title": "Assistenza per i ricorsi",
+          "description": "Se la tua domanda viene respinta, il nostro team legale ti aiuta a preparare e presentare ricorsi."
         },
         {
           "title": "Strategia a lungo termine",
-          "description": "Consulenza su come mantenere i requisiti di residenza, evitare lacune e prepararsi per la cittadinanza."
+          "description": "Consulenza su come mantenere i requisiti di residenza, evitare interruzioni e prepararsi per la cittadinanza."
         }
       ]
     },
     "cta": {
-      "heading": "Iniziate oggi il vostro percorso verso la cittadinanza svedese",
-      "description": "Contattate Sweden Relocators per valutare la vostra idoneità e iniziare la vostra domanda di cittadinanza svedese con supporto esperto.",
+      "heading": "Inizia oggi il tuo percorso verso la cittadinanza svedese",
+      "description": "Contatta Sweden Relocators per valutare la tua idoneità e iniziare la tua domanda di cittadinanza svedese con supporto esperto.",
       "button": "Inizia",
-      "subtext": "Legge sulla cittadinanza svedese (2001:82). Le regole e le procedure possono cambiare. Consultate sempre Migrationsverket per ottenere le informazioni più recenti."
+      "subtext": "Legge sulla cittadinanza svedese (2001:82). Le regole e le procedure possono cambiare. Consulta sempre il Migrationsverket per ottenere le informazioni più recenti."
     }
   }
 }

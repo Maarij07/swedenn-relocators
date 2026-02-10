@@ -1,0 +1,135 @@
+{
+  "logisticsServices": {
+    "hero": {
+      "title": "Logistiikan Hallinta Sweden Relocators -kumppaniverkostoilla",
+      "subtitle": "Saumattomia logistiikkiaratkaisuja muuttoon ja liiketoiminnan laajentamiseen"
+    },
+    "intro": {
+      "heading": "Kokonaiset Logistiikan Ratkaisut Jokaiselle Tarpeelle",
+      "description": "Muutto ja liiketoiminnan laajentaminen riippuvat usein luotettavasta logistiikasta. Tarjoamme saumattomia logistiikan hallintaratkaisuja, jotka on suunniteltu poistamaan muuttamisen stressi rajat ylittävässä liikkumisvuudella huolellisesti valittujen kolmantien osapuolen logistiikkakumppaniemme verkoston kautta. Koordinoimme kaiken pakkauksesta ja kansainvälisestä kuljetuksesta tulliselvitykseen, varastointiin, rahdinkuljetukseen ja viimeisen mailin toimintoon.",
+      "toolLink": "Tavoitteemme on yksinkertainen: varmistaa, että henkilökohtaisia omaisuutta, toimistokalustoa tai liikekaloaita saavuttavat kohteensa turvallisesti, ajoissa ja kilpailukykyisin hinnoin."
+    },
+    "services": {
+      "heading": "Meidän Päälogistiikkapalvelut",
+      "requirementsLabel": "Mitä Käsittelemme",
+      "services": [
+        {
+          "id": "packing",
+          "title": "Pakkaus ja Toimitus",
+          "description": "Ammattitaitoinen pakkaus ja maailmanlaajuiset toimituspalvelut kansainvälisen standardin materiaaleilla",
+          "requirements": [
+            {"label": "Ammatilliset Materiaalit", "description": "Kansainvälisen standardin pakkaamiseen käytettävät materiaalit ja turvallinen käsittelymenetelmät"},
+            {"label": "Maailmanlaajuinen Kattavuus", "description": "Henkilökohtaiset omaisuus, yrityksen omaisuus ja erikoistettu rahti"},
+            {"label": "Turvallisuuden Takuu", "description": "Turvallinen kuljetus, joka varmistaa, että tuotteet saavuttavat kohteen turvallisesti ja tehokkain"}
+          ]
+        },
+        {
+          "id": "customs",
+          "title": "Tulli ja Vaatimustenhmukaisen",
+          "description": "Asiantuntijatutkimus tulli säädöksistä ja kansainvälisistä menettelytavoista",
+          "requirements": [
+            {"label": "Suomalaiset Tulli", "description": "Tulli selvitystuki suomalaistentulli-säädösten mukaisesti"},
+            {"label": "EU-kauppasäädöt", "description": "Täysi noudattaminen EU-kauppasäädöksistä ja kansainvälisistä menettelytavoista"},
+            {"label": "Dokumentointi", "description": "Kaikki asiakirjat valmistellun etukäteen viivästymisien minimoimiseksi"}
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Varasto- ja Varastointiratkaisut",
+          "description": "Joustavat varastointivaihtoehdot modernissa, turvallista tiloissa",
+          "requirements": [
+            {"label": "Turvallisuus", "description": "Turvallinen varastointi 24/7 valvonnalla"},
+            {"label": "Ilmaston Hallinta", "description": "Ilmastoitu tilat herkille tuotteille"},
+            {"label": "Joustavuus", "description": "Lyhyt- ja pitkäaikaisen varastointivaihtoehdot joustavia sopimuksilla"}
+          ]
+        },
+        {
+          "id": "freight",
+          "title": "Rahdin Hallinta",
+          "description": "Kustannustehokkaita kuljetusvaihtoehdot reaaliaikaisen seurannan kanssa",
+          "requirements": [
+            {"label": "Useat Vaihtoehdonta", "description": "Ilmairahtit kiireelliä lähetyksiä varten, merirahtit suurille kuormille, kuljetus alueellisille muutoille"},
+            {"label": "Seuranta", "description": "Reaaliaikaseuranta niin että tiedetään aina missä lähete on"},
+            {"label": "Joustavuus", "description": "Kustannustehokkaita ja joustavia kuljetusvaihtoehdot"}
+          ]
+        },
+        {
+          "id": "lastmile",
+          "title": "Viimeisin Kilometri Toiminto",
+          "description": "Koordinoi lopputoimituksena valinnaistain purku- ja kokoamispalveluiden kanssa",
+          "requirements": [
+            {"label": "Oikea-aikainen Toiminto", "description": "Saapuminen kotiisi, toimistossasi tai liikepaikaasi ajallaan"},
+            {"label": "Valinnaiset Palvelut", "description": "Purkausta ja kokoamispalvelutai käytettävissä"},
+            {"label": "Stressitöntä", "description": "Varmistaa täysin stressittömän siirtymisen"}
+          ]
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Miksi Valita Sweden Relocators Logistiikalle?",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Maailmanlaajuinen Kattavuus Paikallisella Asiantuntemuksella",
+          "description": "Kumppaniverkostomme kattaa Euroopan, Aasian, Pohjois-Amerikan ja yli. Maailmanlaajuinen kattavuus yhdistettynä paikalliseen suomalaiseen asiantuntemukseen varmistaa, että jokainen toimitus täyttää kansainväliset ja paikalliset standardit."
+        },
+        {
+          "id": 2,
+          "title": "Loppusta Loppuun -koordinaation",
+          "description": "Yksittäinen yhteyshenkilö koko logistisen matkan ajan neuvonnasta ja pakkauksesta toimitukseen ja asennukseen, mikä varmistaa johdonmukaisuuden ja selkeän viestinnän."
+        },
+        {
+          "id": 3,
+          "title": "Kustannustehokkaita Ratkaisuja",
+          "description": "Hankittujen toimittajien verkoston kanssa työskennelemme kilpailukykyisistä hinnoista samalla, kun säilytämme enimmäisen palvelun laadun."
+        },
+        {
+          "id": 4,
+          "title": "Turvallista ja Luotettava Kuljetus",
+          "description": "Turvallisuus on prioriteettimme. Kumppanimme käyttävät modernia järjestelmiä turvalliseen pakkaukseen, käsittelyyn ja kuljettamiseen tavaroiden suojaamiseksi jokaisessa vaiheessa."
+        },
+        {
+          "id": 5,
+          "title": "Avoin Seuranta ja Päivitykset",
+          "description": "Kehittyneet seurantajärjestelmät ja säännölliset päivitykset pitävät sinut informaationa. Tunne aina lähettesi tila täydellisen raskauden tunne vuoksi."
+        }
+      ]
+    },
+    "process": {
+      "heading": "Kuinka Logistiikan Hallintapalvelumme Toimii",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Neuvonta ja Suunnittelu",
+          "description": "Aloitamme neuvonnalla ymmärtääksemme tarpeitasi, aikaväliä ja budjettia. Tämän perusteella suunnittelemme mukauttuja logistikkasuunnitelman."
+        },
+        {
+          "number": 2,
+          "title": "Pakkaus ja Nouto",
+          "description": "Ammattitaitoinen pakkaus ja turvallinen nouto järjestetään kolmannen osapuolen kumppanien kautta, mikä varmistaa, että tuotteet ovat kunnolla valmisteita kuljetusta varten."
+        },
+        {
+          "number": 3,
+          "title": "Toimitus ja Seuranta",
+          "description": "Riippumatta siitä, lento-, meri- tai tiekuljetuksesta, lähete seurataan reaaliajassa arvioidulla saapumisaikaa koko prosessin ajan."
+        },
+        {
+          "number": 4,
+          "title": "Tulli selvitys ja Vaatimustenmukaisuus",
+          "description": "Kaikki tulli asiakirjat valmistellaan ja tarkistetaan etukäteen, mikä varmistaa sujuvan tullia suomalaisten tullin tai muun kohteenkäyntiä viranomaisen kanssa."
+        },
+        {
+          "number": 5,
+          "title": "Toimitus ja Purku",
+          "description": "Saapuessa logistiikkakumppanimme hoitavat lopputoimituksen, purnauksen ja asennuksen tarpeen mukaan, mikä mahdollistaa asettumisen ilman vaivaa."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Valmis yksinkertaistamaan Logistiikkaa?",
+      "description": "Sweden Relocators logistiikan hallinnalla saat pääsyn luotettavaan kumppaniverkostoon, joka voi käsitellä jokaisen muuton tai toimituksen aspektin. Lähetä palvelupyyntö tänään.",
+      "button": "Hanki Logistiikkatarjouksesi",
+      "subtext": "Olipa kyseessä henkilökohtainen muutto tai liike-logistiikka, kerro meille tarpeesi ja järjestämme palvelut luotettavien logistiikkakumppanien avulla."
+    }
+  }
+}

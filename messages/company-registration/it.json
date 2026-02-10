@@ -1,0 +1,48 @@
+{
+  "companyRegistration": {
+    "hero": {
+      "title": "Guida Completa alla Registrazione Aziendale in Svezia",
+      "subtitle": "Guida esperta per stabilire la tua azienda legalmente in Svezia"
+    },
+    "intro": {
+      "heading": "Avvio di un'Azienda in Svezia",
+      "description": "Iniziare un'azienda in Svezia offre accesso a una delle economie più stabili dell'Europa, una cultura commerciale di supporto e una forza lavoro altamente qualificata. La registrazione aziendale è un passo essenziale per chiunque progetti di gestire un'azienda in Svezia, poiché stabilisce legalmente l'azienda e le consente di svolgere attività commerciali, stipulare contratti e accedere a servizi essenziali. Questa guida copre i vari tipi di aziende in Svezia, i vantaggi e gli svantaggi di ciascuno, e perché e quando la registrazione aziendale è necessaria."
+    },
+    "whyImportant": {
+      "heading": "Perché la Registrazione Aziendale è Importante?",
+      "reasons": [
+        {
+          "number": 1,
+          "title": "Riconoscimento Legale",
+          "description": "La registrazione della tua azienda le conferisce uno status legale in Svezia, consentendole di stipulare contratti, aprire conti bancari e svolgere attività commerciali legalmente."
+        },
+        {
+          "number": 2,
+          "title": "Conformità Fiscale",
+          "description": "Le aziende registrate possono richiedere la registrazione IVA e devono rispettare le normative fiscali svedesi, consentendo operazioni finanziarie trasparenti."
+        },
+        {
+          "number": 3,
+          "title": "Accesso ai Vantaggi",
+          "description": "Le aziende registrate possono beneficiare di incentivi governativi, detrazioni fiscali e accesso a prestiti e finanziamenti da istituti finanziari svedesi."
+        },
+        {
+          "number": 4,
+          "title": "Credibilità e Fiducia",
+          "description": "Le aziende registrate sono più affidabili da clienti, fornitori e partner, poiché dimostrano un impegno verso la conformità legale e la trasparenza."
+        },
+        {
+          "number": 5,
+          "title": "Responsabilità Limitata",
+          "description": "Alcuni tipi di aziende, come le società per azioni, forniscono protezione dalla responsabilità limitata, proteggendo i beni personali del proprietario dai debiti e dalle obbligazioni aziendali."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Inizia la tua Registrazione Aziendale Oggi",
+      "description": "Se sei pronto a stabilire la tua azienda in Svezia, contatta Sweden Relocators oggi per assistenza da esperti. Ti guideremo attraverso ogni fase del processo di registrazione aziendale, garantendo un inizio regolare per la tua azienda nel fiorente mercato svedese.",
+      "button": "Iniziare",
+      "subtext": "Visita la nostra Sezione di Registrazione Aziendale o contattaci per ulteriori informazioni. Il nostro team è pronto ad aiutarti a stabilire il tuo business in Svezia."
+    }
+  }
+}
