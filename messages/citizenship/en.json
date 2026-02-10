@@ -1,0 +1,152 @@
+{
+  "citizenship": {
+    "hero": {
+      "title": "Swedish Citizenship: Requirements, Application Paths, and Processing Times",
+      "subtitle": "Becoming a Swedish citizen is a significant milestone that grants full rights and responsibilities in Sweden. Citizenship provides access to a Swedish passport, the right to vote, the ability to stand for political office, and freedom of movement across the EU and Schengen Area."
+    },
+    "intro": {
+      "heading": "What Swedish Citizenship Offers",
+      "description": "Swedish citizenship strengthens your legal security, making it easier to live, work, and invest in Sweden permanently. It grants you not only the right to a Swedish passport but also secure legal status, EU freedom of movement, and full participation in Swedish democracy.",
+      "note": "Sweden Relocators provides expert guidance on every step of the process, ensuring your application is complete, accurate, and compliant with current laws."
+    },
+    "generalRequirements": {
+      "heading": "General Requirements for Swedish Citizenship",
+      "description": "To apply for Swedish citizenship as an adult, you must generally meet the following conditions:",
+      "requirements": [
+        {
+          "title": "Age Requirement",
+          "description": "You must be at least 18 years old to apply independently. Children under 18 can apply together with a parent or via notification in specific cases."
+        },
+        {
+          "title": "Permanent Residence or Permanent Right of Residence",
+          "description": "Non-EU/EEA citizens must hold a permanent residence permit (permanent uppehållstillstånd). EU/EEA citizens must hold a permanent right of residence (permanent uppehållsrätt), usually acquired after five years of continuous legal residence."
+        },
+        {
+          "title": "Length of Residence in Sweden",
+          "description": "Standard Rule: 5 years of continuous residence. Refugees or stateless persons: 4 years. Spouses/registered partners/cohabitants of Swedish citizens: 3 years. Nordic citizens: 2 years (ordinary) or 5 years (notification)."
+        },
+        {
+          "title": "Good Conduct",
+          "description": "Applicants must demonstrate good conduct, meaning no recent serious criminal record, no unresolved debts with Kronofogden (the Enforcement Authority), and general compliance with Swedish law."
+        },
+        {
+          "title": "Intent to Remain in Sweden",
+          "description": "Migrationsverket considers whether you have strong ties to Sweden, such as employment, family, or long-term housing, showing your genuine intention to remain."
+        }
+      ]
+    },
+    "specialCategories": {
+      "heading": "Special Categories and Paths to Citizenship",
+      "categories": [
+        {
+          "id": "nordic",
+          "title": "Nordic Citizens",
+          "description": "Nordic citizens (Denmark, Finland, Iceland, Norway) benefit from the most flexible rules:",
+          "details": [
+            "Ordinary Application: Eligible after 2 years of residence in Sweden.",
+            "Notification Process (anmälan): Eligible after 5 years of residence. This is a simplified procedure."
+          ]
+        },
+        {
+          "id": "eueea",
+          "title": "EU/EEA Citizens",
+          "description": "EU/EEA citizens can apply after 5 years of continuous residence, once permanent right of residence is acquired.",
+          "details": [
+            "Must show proof of residence, income, and compliance with Swedish law.",
+            "The process is slightly simpler since no residence permit is required."
+          ]
+        },
+        {
+          "id": "refugees",
+          "title": "Refugees and Stateless Persons",
+          "description": "Recognized refugees and stateless individuals can apply after 4 years of residence.",
+          "details": [
+            "Refugee status must be officially recognized under international or Swedish law."
+          ]
+        },
+        {
+          "id": "spouses",
+          "title": "Spouses or Partners of Swedish Citizens",
+          "description": "Spouses or registered partners can apply after 3 years of residence.",
+          "details": [
+            "The couple must have lived together in Sweden for at least 2 years.",
+            "Strong ties to Sweden are required, and the relationship must be ongoing."
+          ]
+        },
+        {
+          "id": "children",
+          "title": "Children under 18",
+          "description": "Children can apply through simplified procedures.",
+          "details": [
+            "Can apply together with a parent or through a simplified notification.",
+            "Adopted children automatically acquire Swedish citizenship if adopted before age 12."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Application Process",
+      "intro": "The citizenship application involves several key steps:",
+      "steps": [
+        {
+          "title": "Prepare Documents",
+          "description": "Required documents include: Valid passport or national ID, Proof of residence (registration with Skatteverket), Income or employment records, Police or debt clearance if applicable."
+        },
+        {
+          "title": "Submit Application",
+          "description": "Applications can be submitted online via Migrationsverket's e-service or through a paper form. Children and Nordic citizens using the notification process have simplified procedures."
+        },
+        {
+          "title": "Migrationsverket Review",
+          "description": "The Migration Agency verifies residence history, identity, conduct, and financial stability. They may request additional information during the process."
+        },
+        {
+          "title": "Decision",
+          "description": "If approved, you receive a certificate of Swedish citizenship. If rejected, you may appeal to an administrative court."
+        }
+      ]
+    },
+    "waitingTimes": {
+      "heading": "Processing Times and Waiting Periods",
+      "intro": "Processing times vary based on category and background:",
+      "times": [
+        {"category": "Standard applications", "time": "18–36 months"},
+        {"category": "Nordic citizens (notification)", "time": "6–12 months"},
+        {"category": "Refugees and spouses", "time": "Typically faster than standard"},
+        {"category": "Note", "time": "Migrationsverket recently announced stricter checks (March 2025), which may increase waiting times for certain cases."}
+      ]
+    },
+    "support": {
+      "heading": "How Sweden Relocators Can Assist You",
+      "description": "Applying for Swedish citizenship can be complex and time-consuming. Sweden Relocators offers professional support at every stage:",
+      "services": [
+        {
+          "title": "Eligibility Assessment",
+          "description": "We check your residence history, family situation, and permit status to determine your best pathway."
+        },
+        {
+          "title": "Document Preparation",
+          "description": "Ensuring accuracy, translations, and completeness to prevent delays in processing."
+        },
+        {
+          "title": "Application Submission and Monitoring",
+          "description": "We manage your application and track updates directly with Migrationsverket."
+        },
+        {
+          "title": "Appeals Assistance",
+          "description": "If your application is denied, our legal team helps prepare and file appeals."
+        },
+        {
+          "title": "Long-Term Strategy",
+          "description": "Guidance on how to maintain residence requirements, avoid gaps, and prepare for citizenship."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Begin Your Path to Swedish Citizenship Today",
+      "description": "Contact Sweden Relocators to assess your eligibility and start your citizenship application with expert support.",
+      "button": "Get Started",
+      "subtext": "Swedish Citizenship Act (2001:82). Rules and processes may change. Always consult Migrationsverket for the most current information."
+    }
+  }
+}

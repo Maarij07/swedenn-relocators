@@ -1,0 +1,215 @@
+{
+  "businessPermit": {
+    "hero": {
+      "title": "Oppholdstillatelse for egen næringsvirksomhet i Sverige",
+      "subtitle": "Start og utvikle din bedrift med ekspertveiledning fra Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Oppholdstillatelse for egen næringsvirksomhet: Din vei til entreprenørskap i Sverige",
+      "description": "Hvis du er statsborger utenfor EU/EØS og har som mål å starte eller utvikle en bedrift i Sverige, trenger du en oppholdstillatelse for egen næringsvirksomhet fra det svenske Utlänningsverket (Migrationsverket). Denne tillatelsen gir ikke-EU-entreprenører mulighet til å bo i Sverige mens de bygger opp og driver en bedrift. Sverige er kjent for sin sterke økonomi og tilbyr et åpent forretningsmiljø med en blomstrende startup-kultur, robust infrastruktur og en dyktig arbeidsstyrke, noe som gjør det til et ideelt sted for entreprenører."
+    },
+    "whyChooseSweden": {
+      "heading": "Hvorfor velge Sverige for din bedrift?",
+      "intro": "Sveriges forretningsklima tilbyr mange fordeler:",
+      "advantages": [
+        {
+          "title": "Innovativt miljø",
+          "description": "Sverige har en samarbeidsvennlig og transparent forretningskultur som fremmer innovasjon."
+        },
+        {
+          "title": "Tilgang til EU-markedene",
+          "description": "Som EU-medlem gir Sverige bedrifter tilgang til et stort og stabilt marked."
+        },
+        {
+          "title": "Støttende økonomisk økosystem",
+          "description": "Svenske institusjoner tilbyr ulike finansieringsmuligheter for entreprenører, inkludert offentlige og private lån og tilskudd."
+        },
+        {
+          "title": "Høykvalitets infrastruktur",
+          "description": "Sveriges avanserte infrastruktur og digitale kapasiteter gjør det til et globalt senter for teknologibedrifter."
+        }
+      ],
+      "businessStructures": {
+        "intro": "Sverige tilbyr flere bedriftsstrukturer, slik som:",
+        "structures": [
+          {
+            "name": "Enkeltpersonforetak (Enskild Firma)",
+            "description": "Ideelt for individuelle entreprenører"
+          },
+          {
+            "name": "Handelsselskap eller Kommandittselskap (Handelsbolag/Kommanditbolag)",
+            "description": "Egnet for partnerskap eller små familiebedrifter"
+          },
+          {
+            "name": "Aksjeselskap (Aktiebolag)",
+            "description": "Vanlig valg for de som søker å vokse og skala sin bedrift, og som tilbyr begrenset ansvarsbeskyttelse"
+          },
+          {
+            "name": "Økonomisk forening (Ekonomisk Förening)",
+            "description": "Brukes av samarbeider eller fellesskapsdrevne initiativer"
+          }
+        ]
+      }
+    },
+    "keyRequirements": {
+      "heading": "Nøkkelkrav for oppholdstillatelse for egen næringsvirksomhet",
+      "intro": "For å være kvalifisert for en oppholdstillatelse for egen næringsvirksomhet må du dokumentere at du har tilstrekkelige økonomiske ressurser, en gjennomførbar forretningsplan og relevant erfaring innen din bransje. Tillatelsen gis vanligvis for opptil to år med mulighet for fornyelse basert på bedriftens suksess.",
+      "requirements": [
+        {
+          "id": 1,
+          "title": "Gyldig pass",
+          "description": "Du må ha et gyldig pass for hele varigheten av tillatelsen. Tillatelsens gyldighet vil ikke overstige passets utløpsdato. Legg ved kopier av relevante passagesider for å bekrefte identitet, gyldighet og oppholdstillatelser i andre land."
+        },
+        {
+          "id": 2,
+          "title": "Eierskap og bedriftskontroll",
+          "description": "Du må eie minst 50% av bedriften og ha full beslutningsmyndighet over dens drift. Du bør også være aktivt involvert i bedriftens daglige drift og ha primært ansvar for dens ledelse og retning."
+        },
+        {
+          "id": 3,
+          "title": "Økonomiske krav for bedrift og personlig støtte",
+          "description": "Startkapital: Du må legge frem bankutsagn som viser tilstrekkelige midler til å etablere og drive bedriften i minst to år. Personlig støtte: Du må ha tilstrekkelig personlig inntekt til å støtte deg selv og eventuelle medreisende familiemedlemmer de første to årene. Estimerte minimumskrav er: SEK 200 000 for deg selv, SEK 100 000 for ektefelle/partner og SEK 50 000 for hvert barn som reiser med."
+        },
+        {
+          "id": 4,
+          "title": "Levedyktig forretningsplan",
+          "description": "En detaljert forretningsplan er avgjørende. Utlänningsverket vil vurdere din forretningsplan for gjennomførbarhet og lønnsomhet. Inkluder kontrakter med leverandører og kunder, leiekontrakter for eiendom hvis relevant, nødvendige bransjetillatelser og økonomiske prognoser som en investeringsbudsjett, likviditetsbudsjett og et beregnet balanseregnskap (resultatregnskap)."
+        },
+        {
+          "id": 5,
+          "title": "Relevant erfaring og ferdigheter",
+          "description": "Utlänningsverket krever dokumentasjon for at du har nødvendig erfaring i bransjen og ferdigheter til å effektivt styre din bedrift. Legg ved dokumentasjon på tidligere arbeidserfaring, utdanning eller tidligere bedriftseierskap relatert til bransjen du planlegger å gå inn i."
+        },
+        {
+          "id": 6,
+          "title": "Språkkompetanse",
+          "description": "Selv om det ikke er et strengt krav, anbefales det å ha kompetanse i svensk eller engelsk for å lette kommunikasjonen i det svenske forretningsmiljøet og med myndighetene."
+        },
+        {
+          "id": 7,
+          "title": "Betaling av søknadsgebyr og registrering av personnummer",
+          "description": "Søknadsgebyret for oppholdstillatelse for egen næringsvirksomhet må betales, og en kvittering for denne betalingen skal legges ved søknaden din. Hvis du planlegger å bo i Sverige i mer enn ett år, må du også søke om et personnummer ved å registrere deg hos den svenske Skatteetaten. Dette nummeret er avgjørende for tilgang til helsevesenet, åpning av bankkontoer og andre essensielle tjenester."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Trinn-for-trinn prosess for søknad om oppholdstillatelse for egen næringsvirksomhet",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Samle nødvendige dokumenter",
+          "description": "Samle alle nødvendige dokumenter, inkludert et gyldig pass, bevis på bedriftseierskap og din forretningsplan. Sørg for at alle dokumenter oppfyller Utlänningsverkets standarder og legg ved oversatte kopier hvis de ikke er på svensk eller engelsk."
+        },
+        {
+          "number": 2,
+          "title": "Send inn søknaden",
+          "description": "Send inn søknaden din elektronisk gjennom Utlänningsverkets e-tjeneste eller hos en svensk ambassade eller konsulat i ditt hjemland. Legg ved alle støttedokumenter som kreves av Utlänningsverket. Inkluder søkerinformasjon med personlige detaljer, bedriftsinformasjon og økonomisk dokumentasjon. Sørg for at forretningsplanen og bankutsagnet nøyaktig reflekterer din evne til å drive en bærekraftig bedrift i Sverige."
+        },
+        {
+          "number": 3,
+          "title": "Utlänningsverkets gjennomgang og evaluering",
+          "description": "Myndigheten vil evaluere søknaden din basert på Økonomisk Gjennomførbarhet (for å sikre at du har tilstrekkelig kapital til å opprettholde virksomheten), Bedriftslevdyktighet (vurdere forretningsplanen din for å avgjøre om den rimeligvis kan generere nok fortjeneste) og Personlig og Næringsspesifikk Bakgrunn (vurdere din bransjeerfaring, språkkompetanse og forståelse av det svenske forretningsklimaet)."
+        },
+        {
+          "number": 4,
+          "title": "Beskjed om avgjørelse",
+          "description": "Når søknaden har blitt gjennomgått, vil Utlänningsverket fatte en beslutning. Ved godkjenning vil du motta en oppholdstillatelse for egen næringsvirksomhet, gyldig i opptil to år. Forlengelser kan gis basert på bedriftens økonomiske suksess og din fortsatte kvalifikasjon."
+        }
+      ]
+    },
+    "businessStructuresDetail": {
+      "heading": "Bedriftsstrukturer i Sverige",
+      "intro": "Sverige tilbyr flere bedriftsstrukturer. Velg den som best passer din forretningsmodell og mål:",
+      "structures": [
+        {
+          "name": "Enkeltpersonforetak (Enskild Firma)",
+          "description": "Ideelt for individuelle entreprenører uten partnere."
+        },
+        {
+          "name": "Handelsselskap eller Kommandittselskap (Handelsbolag/Kommanditbolag)",
+          "description": "Egnet for partnerskap eller små familiebedrifter."
+        },
+        {
+          "name": "Aksjeselskap (Aktiebolag)",
+          "description": "Vanlig valg for de som søker å vokse og skala sin bedrift, og som tilbyr begrenset ansvarsbeskyttelse."
+        },
+        {
+          "name": "Økonomisk forening (Ekonomisk Förening)",
+          "description": "Generelt brukt av samarbeider eller fellesskapsdrevne initiativer."
+        }
+      ],
+      "note": "Hver struktur har spesifikke krav og skatteimplikasjoner. Å velge riktig struktur er avgjørende for etterlevelse av svenske bedriftsregler."
+    },
+    "advantagesOfSwedenBusiness": {
+      "heading": "Fordelene med Sveriges forretningsklima",
+      "intro": "Sverige tilbyr et stabilt og transparent miljø med fordeler som fremmer langsiktig bedriftsvekst:",
+      "advantages": [
+        {
+          "title": "Innovativ kultur",
+          "description": "Med lav korruptivitet og minimal byråkrati fremmer Sverige entreprenørdrevet innovasjon."
+        },
+        {
+          "title": "Økonomisk tilgjengelighet",
+          "description": "Sverige tilbyr en rekke finansieringsmuligheter, inkludert banklån, statlige tilskudd og engelsinvestorer."
+        },
+        {
+          "title": "Tilgang til dyktige ressurser",
+          "description": "Landet har en høyt utdannet arbeidsstyrke, med sterke tekniske og ledelsesferdigheter, spesielt nyttig for teknologi- og innovationsfokuserte bedrifter."
+        },
+        {
+          "title": "Etablert infrastruktur",
+          "description": "Sveriges avanserte infrastruktur, effektiv logistikk og omfattende digitale nettverk gjør det ideelt for både nasjonale og internasjonale virksomheter."
+        }
+      ]
+    },
+    "howWeCanAssist": {
+      "heading": "Hvordan Sweden Relocators kan bistå deg",
+      "intro": "Å navigere kravene for en oppholdstillatelse for egen næringsvirksomhet kan være komplekst. Sweden Relocators gir omfattende støtte for å sikre en vellykket søknadsprosess, fra dokumentasjonsstøtte til veiledning i forretningsplan.",
+      "services": [
+        {
+          "title": "Søknadsveiledning",
+          "description": "Vi hjelper med å samle og organisere nødvendige dokumenter og sikrer at alle krav oppfylles i henhold til Utlänningsverkets standarder."
+        },
+        {
+          "title": "Utvikling av forretningsplan",
+          "description": "Vårt team hjelper deg med å skape en overbevisende forretningsplan som demonstrerer økonomisk bærekraftighet og stemmer overens med forventningene på det svenske markedet."
+        },
+        {
+          "title": "Økonomisk og inntektsdokumentasjon",
+          "description": "Hjelp til å dokumentere økonomiske ressurser for å bevise din evne til å støtte både bedriften og din familie."
+        },
+        {
+          "title": "Ongoing Support",
+          "description": "Vi tilbyr støtte gjennom hele søknadsprosessen, svarer på forespørsler fra Utlänningsverket og veileder deg gjennom eventuelle ytterligere krav."
+        },
+        {
+          "title": "Hjelp med anke",
+          "description": "Hvis søknaden din avvises, gir vi veiledning i ankeprosessen og hjelper deg med å styrke ditt tilfelle for omprøving."
+        }
+      ]
+    },
+    "whyWorkWithUs": {
+      "heading": "Hvorfor jobbe med Sweden Relocators?",
+      "reasons": [
+        {
+          "title": "Ekspertkunnskap",
+          "description": "Vårt team holder seg oppdatert på de siste kravene fra Utlänningsverket og gir nøyaktig og effektiv veiledning."
+        },
+        {
+          "title": "Personlig service",
+          "description": "Vi forstår at hver bedrift er unik, og vi tilpasser vår støtte for å møte de spesifikke behovene i din bransje og personlige situasjon."
+        },
+        {
+          "title": "Effektiv prosess",
+          "description": "Ved å håndtere kompleksiteten i søknadsprosessen hjelper vi deg med å unngå forsinkelser og øker din sjanse for suksess."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Etablér din bedrift i Sverige i dag",
+      "description": "Hvis du er klar til å etablere din bedrift i Sverige og trenger støtte med søknaden om oppholdstillatelse for egen næringsvirksomhet, er Sweden Relocators her for å hjelpe. Kontakt oss i dag for å starte din bedriftsreise i Sverige med selvtillit.",
+      "button": "Kom i gang",
+      "subtext": "Kravene for egen næringsvirksomhet er gjenstand for endringer. Søk alltid råd fra Utlänningsverket for å få den mest oppdaterte informasjonen."
+    }
+  }
+}

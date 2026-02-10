@@ -1,0 +1,240 @@
+{
+  "globalVisitVisas": {
+    "hero": {
+      "title": "Global Visa Services – Your Gateway to Seamless International Travel",
+      "subtitle": "Reliable visa support for tourism, business, education, and relocation worldwide"
+    },
+    "intro": {
+      "heading": "International Travel Made Simple",
+      "description": "At Sweden Relocators, we make international travel simple, transparent, and stress-free through our Global Visa Program Initiative. Our service is designed for individuals, families, students, and professionals who want reliable visa support without the confusion of navigating multiple embassy systems.",
+      "toolLink": "Our unique one universal visa form allows you to apply for multiple destinations with the same information, saving time and reducing errors through our secure web portal and mobile app."
+    },
+    "services": {
+      "heading": "Comprehensive Visa Support",
+      "requirementsLabel": "What We Handle",
+      "services": [
+        {
+          "id": "clientid",
+          "title": "Personalized Client ID",
+          "description": "Every client receives a unique ID upon registration",
+          "requirements": [
+            {"label": "Multiple Families", "description": "Manage multiple applications for different family members and destinations at the same time"},
+            {"label": "Secure Access", "description": "Track all your visa applications from a single dashboard"}
+          ]
+        },
+        {
+          "id": "assessment",
+          "title": "Application Assessment and Preparation",
+          "description": "Full background assessment and complete file preparation",
+          "requirements": [
+            {"label": "Background Review", "description": "We review your purpose of travel, financial strength, and travel history"},
+            {"label": "Embassy Standards", "description": "Complete file prepared including forms, cover letters, and supporting documents tailored to destination"}
+          ]
+        },
+        {
+          "id": "appointment",
+          "title": "Appointment Scheduling and Confirmation",
+          "description": "We book your embassy appointment with direct confirmation call",
+          "requirements": [
+            {"label": "Embassy Booking", "description": "Appointment scheduled with relevant embassy or VFS Global center"},
+            {"label": "Readiness Check", "description": "Our staff calls directly to review requirements and ensure all details are correct"}
+          ]
+        },
+        {
+          "id": "liaison",
+          "title": "Embassy Liaison",
+          "description": "Professional communication with embassies on your behalf",
+          "requirements": [
+            {"label": "Query Clarification", "description": "Our team handles embassy communication and clarifies any queries"},
+            {"label": "Professional Representation", "description": "Reduces risks of delays, additional document requests, or rejections"}
+          ]
+        },
+        {
+          "id": "file",
+          "title": "Complete File Preparation and Delivery",
+          "description": "Your ready-to-submit file delivered to your home",
+          "requirements": [
+            {"label": "Hotel Confirmation", "description": "Confirmed hotel bookings and flight reservations included"},
+            {"label": "Financial Documentation", "description": "Travel insurance and required financial documentation compiled"}
+          ]
+        },
+        {
+          "id": "digital",
+          "title": "Secure Digital File Management",
+          "description": "GDPR-compliant document storage and reuse for frequent travelers",
+          "requirements": [
+            {"label": "Security", "description": "All documents stored securely in GDPR-compliant system"},
+            {"label": "Reusability", "description": "Save information for future applications saving time and effort"}
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "heading": "Visa Categories We Support",
+      "intro": "Our program covers major destinations worldwide",
+      "visas": [
+        "Schengen Visa for Europe",
+        "United Kingdom Visa",
+        "United States Visa",
+        "Canada Visa",
+        "Australia Visa",
+        "New Zealand Visa",
+        "Ireland Visa",
+        "Japan Visa",
+        "South Korea Visa",
+        "China Visa"
+      ],
+      "additional": "Other destinations are also supported through customized embassy-based solutions."
+    },
+    "purposes": {
+      "heading": "Visa Purposes We Cover",
+      "purposes": [
+        {
+          "id": 1,
+          "title": "Tourism",
+          "description": "Proof of accommodation, health insurance, and financial coverage arranged for smooth approval"
+        },
+        {
+          "id": 2,
+          "title": "Visiting Family or Friends",
+          "description": "Verified invitation letters, sponsorship documents, and relationship evidence prepared"
+        },
+        {
+          "id": 3,
+          "title": "EU Family Reunification",
+          "description": "Detailed review of housing, income, and residency compliance for family permits"
+        },
+        {
+          "id": 4,
+          "title": "Business and Conference Travel",
+          "description": "Corporate invitations, sponsorship confirmations, and professional documentation arranged"
+        },
+        {
+          "id": 5,
+          "title": "Study Abroad",
+          "description": "Admission letters, proof of funds, and educational credentials verified"
+        },
+        {
+          "id": 6,
+          "title": "Short-Term Work Assignments",
+          "description": "Employer contracts and labor compliance checks completed"
+        },
+        {
+          "id": 7,
+          "title": "Medical Treatment",
+          "description": "Hospital confirmations, medical records, and financial sponsorship prepared"
+        },
+        {
+          "id": 8,
+          "title": "Cultural and Sports Events",
+          "description": "Event registrations and official invitations compiled"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Visa Application Process",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Register",
+          "description": "Sign up via our website or app to create an account and receive your unique Client ID"
+        },
+        {
+          "number": 2,
+          "title": "Assessment",
+          "description": "Our team reviews your purpose, eligibility, and required documents for your destination"
+        },
+        {
+          "number": 3,
+          "title": "Preparation",
+          "description": "We create your complete application file according to embassy standards"
+        },
+        {
+          "number": 4,
+          "title": "Appointment",
+          "description": "We secure and confirm your embassy appointment, with a call to check your readiness"
+        },
+        {
+          "number": 5,
+          "title": "Delivery",
+          "description": "Your final file is delivered to your home with all appointment details included"
+        },
+        {
+          "number": 6,
+          "title": "Submission",
+          "description": "Attend the appointment with your passport and complete file"
+        },
+        {
+          "number": 7,
+          "title": "Tracking and Reuse",
+          "description": "Track progress in our portal and reuse your information for future visa applications"
+        }
+      ]
+    },
+    "languages": {
+      "heading": "Multilingual Assistance",
+      "description": "To make sure language is never a barrier, we provide multilingual support in English, Swedish, Urdu, Arabic, Punjabi, Serbian, Kurdish, Persian, and many other languages. Our consultants explain visa rules in the language you are most comfortable with."
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "id": 1,
+          "question": "Do you arrange hotel bookings and travel insurance for visas?",
+          "answer": "Yes, we provide embassy-approved hotel reservations, flight itineraries, and travel insurance to strengthen your visa application."
+        },
+        {
+          "id": 2,
+          "question": "How can I check if I am eligible for a visa?",
+          "answer": "Our assessment tool and experts analyze your documents and travel history to confirm eligibility for your chosen destination."
+        },
+        {
+          "id": 3,
+          "question": "Do you handle student and family visas?",
+          "answer": "Yes, we manage student applications, family visits, and EU family reunification with complete documentation and compliance checks."
+        },
+        {
+          "id": 4,
+          "question": "Can I apply for multiple visas with the same file?",
+          "answer": "Yes, our system allows you to reuse your stored documents for different countries and visa types, saving time and effort."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Why Choose Sweden Relocators",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Universal Visa Form",
+          "description": "Apply to multiple destinations with the same information, reducing errors and saving time"
+        },
+        {
+          "id": 2,
+          "title": "Embassy Coordination",
+          "description": "Professional representation with embassies ensures smooth processing and reduces rejection risks"
+        },
+        {
+          "id": 3,
+          "title": "Multilingual Support",
+          "description": "Assistance in 9+ languages ensures clear understanding of requirements"
+        },
+        {
+          "id": 4,
+          "title": "Complete Travel Arrangements",
+          "description": "Hotel bookings, flight reservations, and insurance all handled for stronger applications"
+        },
+        {
+          "id": 5,
+          "title": "Secure Digital Tools",
+          "description": "GDPR-compliant system with secure portal and mobile app for easy document management"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ready to Travel the World?",
+      "description": "With Sweden Relocators Global Visa Program Initiative, we combine technology, expertise, and personal support to make international travel simple. Get started with your visa application today.",
+      "button": "Start Your Visa Application",
+      "subtext": "Our team will guide you through every step to ensure your application succeeds."
+    }
+  }
+}

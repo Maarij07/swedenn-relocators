@@ -1,0 +1,152 @@
+{
+  "citizenship": {
+    "hero": {
+      "title": "Zweedse Staatsburgerschap: Vereisten, Aanvraagwegen en Behandelingsdata",
+      "subtitle": "Zweedse staatsburger worden is een belangrijke mijlpaal die volledige rechten en plichten in Zweden geeft. Staatsburgerschap biedt toegang tot een Zweeds paspoort, stemrecht, de mogelijkheid om zich kandidaat te stellen voor politieke functies en vrije beweging binnen de EU en de Schengenzone."
+    },
+    "intro": {
+      "heading": "Wat Zweeds staatsburgerschap biedt",
+      "description": "Zweeds staatsburgerschap versterkt uw juridische zekerheid en maakt het gemakkelijker om permanent in Zweden te wonen, werken en investeren. Het geeft u niet alleen recht op een Zweeds paspoort, maar ook een veilige juridische status, EU-vrijheid van beweging en volledige deelname aan de Zweedse democratie.",
+      "note": "Sweden Relocators biedt deskundige begeleiding bij elk stadium van het proces en zorgt ervoor dat uw aanvraag volledig, nauwkeurig en in overeenstemming is met de geldende wetgeving."
+    },
+    "generalRequirements": {
+      "heading": "Algemene vereisten voor Zweeds staatsburgerschap",
+      "description": "Om als volwassene aan te vragen voor Zweeds staatsburgerschap moet u over het algemeen aan de volgende voorwaarden voldoen:",
+      "requirements": [
+        {
+          "title": "Leeftijdseis",
+          "description": "U moet minimaal 18 jaar oud zijn om zelfstandig aan te vragen. Kinderen jonger dan 18 kunnen samen met een ouder aanvragen of via een melding in specifieke gevallen."
+        },
+        {
+          "title": "Vaste verblijfsvergunning of permanent recht op verblijf",
+          "description": "Niet-EU/EER-staatsburgers moeten beschikken over een permanente verblijfsvergunning (permanent uppehållstillstånd). EU/EER-staatsburgers moeten een permanent recht op verblijf hebben (permanent uppehållsrätt), meestal verkregen na vijf jaar onafgebroken legaal verblijf."
+        },
+        {
+          "title": "Duur van het verblijf in Zweden",
+          "description": "Standaardregel: 5 jaar onafgebroken verblijf. Vluchtelingen of staatsloze personen: 4 jaar. Echtgenoot/geregistreerd partner/samenwonende partner van een Zweedse staatsburger: 3 jaar. Noord-Europese staatsburgers: 2 jaar (gewoon) of 5 jaar (melding)."
+        },
+        {
+          "title": "Goed gedrag",
+          "description": "Aanvragers moeten goed gedrag tonen, wat inhoudt geen recente ernstige strafbare feiten, geen onbetaalde schulden bij de Kronofogden (de invorderingsautoriteit) en algemene naleving van Zweedse wetgeving."
+        },
+        {
+          "title": "Voornemen om in Zweden te blijven",
+          "description": "Migrationsverket beoordeelt of u sterke banden met Zweden hebt, zoals werk, familie of langdurige huisvesting, die uw echte voornemen om te blijven aantonen."
+        }
+      ]
+    },
+    "specialCategories": {
+      "heading": "Speciale categorieën en routes naar staatsburgerschap",
+      "categories": [
+        {
+          "id": "nordic",
+          "title": "Noord-Europese staatsburgers",
+          "description": "Noord-Europese staatsburgers (Denemarken, Finland, IJsland, Noorwegen) profiteren van de meest flexibele regels:",
+          "details": [
+            "Gewone aanvraag: In aanmerking komend na 2 jaar verblijf in Zweden.",
+            "Meldingsprocedure (anmälan): In aanmerking komend na 5 jaar verblijf. Dit is een vereenvoudigde procedure."
+          ]
+        },
+        {
+          "id": "eueea",
+          "title": "EU/EER-staatsburgers",
+          "description": "EU/EER-staatsburgers kunnen aanvragen na 5 jaar onafgebroken verblijf, zodra het permanente recht op verblijf is verkregen.",
+          "details": [
+            "Moeten bewijs leveren van verblijf, inkomen en naleving van Zweedse wetgeving.",
+            "Het proces is iets eenvoudiger omdat er geen verblijfsvergunning nodig is."
+          ]
+        },
+        {
+          "id": "refugees",
+          "title": "Vluchtelingen en staatsloze personen",
+          "description": "Erkende vluchtelingen en staatsloze personen kunnen aanvragen na 4 jaar verblijf.",
+          "details": [
+            "De vluchtelingenstatus moet officieel worden erkend volgens internationale of Zweedse wetgeving."
+          ]
+        },
+        {
+          "id": "spouses",
+          "title": "Echtgenoot of partner van een Zweedse staatsburger",
+          "description": "Echtgenoot of geregistreerde partner kan aanvragen na 3 jaar verblijf.",
+          "details": [
+            "Het koppel moet minstens 2 jaar samen in Zweden hebben gewoond.",
+            "Sterke banden met Zweden zijn vereist en de relatie moet voortduren."
+          ]
+        },
+        {
+          "id": "children",
+          "title": "Kinderen jonger dan 18 jaar",
+          "description": "Kinderen kunnen aanvragen via vereenvoudigde procedures.",
+          "details": [
+            "Kunnen samen met een ouder aanvragen of via een vereenvoudigde melding.",
+            "Geadopteerde kinderen verwerven automatisch Zweeds staatsburgerschap als ze voor hun 12e verjaardag zijn geadopteerd."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Aanvraagproces",
+      "intro": "De aanvraag voor staatsburgerschap omvat verschillende sleutelstappen:",
+      "steps": [
+        {
+          "title": "Documenten voorbereiden",
+          "description": "Vereiste documenten omvatten: Geldig paspoort of nationale identiteitskaart, Bewijs van verblijf (registratie bij Skatteverket), Inkomen- of werkdocumentatie, Strafregister of schuldenbewijs indien van toepassing."
+        },
+        {
+          "title": "Aanvraag indienen",
+          "description": "Aanvragen kunnen online worden ingediend via de e-service van Migrationsverket of via een papieren formulier. Kinderen en Noord-Europese burgers die gebruikmaken van de meldingsprocedure hebben vereenvoudigde procedures."
+        },
+        {
+          "title": "Beoordeling door Migrationsverket",
+          "description": "De instantie verifieert het verblijfshistorie, identiteit, gedrag en financiële stabiliteit. Tijdens het proces kunnen aanvullende gegevens worden gevraagd."
+        },
+        {
+          "title": "Besluit",
+          "description": "Bij goedkeuring ontvangt u een certificaat voor Zweeds staatsburgerschap. Bij afwijzing kunt u in beroep gaan bij een bestuursrechter."
+        }
+      ]
+    },
+    "waitingTimes": {
+      "heading": "Behandelingsdata en wachttijden",
+      "intro": "De behandelingsdata verschillen per categorie en achtergrond:",
+      "times": [
+        {"category": "Standaardaanvragen", "time": "18–36 maanden"},
+        {"category": "Noord-Europese burgers (melding)", "time": "6–12 maanden"},
+        {"category": "Vluchtelingen en echtgenoten", "time": "Meestal sneller dan standaard"},
+        {"category": "Opmerking", "time": "Migrationsverket kondigde onlangs strengere controles aan (maart 2025), wat de wachttijden voor sommige zaken kan verlengen."}
+      ]
+    },
+    "support": {
+      "heading": "Hoe Sweden Relocators u kan helpen",
+      "description": "Het aanvragen van Zweeds staatsburgerschap kan complex en tijdrovend zijn. Sweden Relocators biedt professionele ondersteuning in elk stadium:",
+      "services": [
+        {
+          "title": "Beoordeling van geschiktheid",
+          "description": "We controleren uw verblijfshistorie, gezinssituatie en vergunningstatus om uw beste aanpak te bepalen."
+        },
+        {
+          "title": "Documentvoorbereiding",
+          "description": "We zorgen voor nauwkeurigheid, vertalingen en volledigheid om vertragingen bij de verwerking te voorkomen."
+        },
+        {
+          "title": "Aanvraag indienen en volgen",
+          "description": "We beheren uw aanvraag en houden u direct op de hoogte van Migrationsverket."
+        },
+        {
+          "title": "Beroepsassistentie",
+          "description": "Als uw aanvraag wordt afgewezen, helpt ons juridisch team u bij het voorbereiden en indienen van beroepen."
+        },
+        {
+          "title": "Lange termijn strategie",
+          "description": "Begeleiding over hoe u aan de verblijfsvereisten kunt blijven voldoen, gaten kunt vermijden en u kunt voorbereiden op het staatsburgerschap."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Begin vandaag nog aan uw weg naar Zweeds staatsburgerschap",
+      "description": "Neem contact op met Sweden Relocators om uw geschiktheid te beoordelen en uw aanvraag voor Zweeds staatsburgerschap te starten met deskundige ondersteuning.",
+      "button": "Aan de slag",
+      "subtext": "Wet op het Zweedse staatsburgerschap (2001:82). Regels en procedures kunnen wijzigen. Raadpleeg altijd Migrationsverket voor de meest actuele informatie."
+    }
+  }
+}

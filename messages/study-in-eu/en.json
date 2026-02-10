@@ -1,0 +1,409 @@
+{
+  "studyInEu": {
+    "hero": {
+      "title": "Study in Sweden and the EU",
+      "subtitle": "Pursue your academic dreams in Europe's top universities with expert guidance from Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Your Gateway to European Education",
+      "description": "Sweden and the European Union offer world-class education with affordable tuition, English-taught programs, and excellent post-study opportunities. Whether you aspire to study engineering in Sweden, business in Denmark, or medicine in Germany, we guide you through every step of the admission and visa process."
+    },
+    "countries": [
+      {
+        "id": "sweden",
+        "name": "Study in Sweden",
+        "intro": "Sweden is one of Europe's most popular destinations for international students. With globally ranked universities, innovative teaching methods, and a strong reputation for research, it offers both high-quality education and an excellent lifestyle.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "EU/EEA and Swiss Students",
+              "amount": "Free at public universities"
+            },
+            {
+              "category": "Non-EU/EEA Students",
+              "amount": "SEK 80,000 – 295,000 (€7,500 – €25,500) depending on program and university"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "Autumn Intake",
+              "details": "October – January (studies start in August/September)"
+            },
+            {
+              "period": "Spring Intake",
+              "details": "June – August (studies start in January)"
+            }
+          ]
+        },
+        "popularFields": "Engineering, IT, Business, Life Sciences, Environmental Studies",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "EU/EEA: No visa required",
+            "Non-EU/EEA: Residence permit required for studies longer than three months",
+            "Proof of funds: approx. SEK 10,300 per month for living costs",
+            "Health insurance required for stays under one year"
+          ]
+        },
+        "workRights": "Students can work unlimited hours during studies, and after graduation can apply for a one-year post-study residence permit to find a job or start a business."
+      },
+      {
+        "id": "denmark",
+        "name": "Study in Denmark",
+        "intro": "Denmark combines academic excellence with a business-friendly environment. Over 500 English-taught programs are offered across leading universities and colleges.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "EU/EEA Students",
+              "amount": "Free at public institutions"
+            },
+            {
+              "category": "Non-EU/EEA Students",
+              "amount": "€7,000 – €17,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "Autumn Intake",
+              "details": "Applications close in March (studies start in August/September)"
+            },
+            {
+              "period": "Spring Intake",
+              "details": "Applications close in September (studies start in January/February, limited courses)"
+            }
+          ]
+        },
+        "popularFields": "Design, Architecture, Business, Engineering, IT, Life Sciences",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Proof of funds: approx. €1,000 per month for living expenses",
+            "Health insurance must be secured before arrival"
+          ]
+        },
+        "workRights": "Students can work up to 20 hours per week during semesters and full-time during holidays."
+      },
+      {
+        "id": "germany",
+        "name": "Study in Germany",
+        "intro": "Germany is one of the most affordable and attractive study destinations in Europe, with nearly 400,000 international students.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "Public Universities",
+              "amount": "Free or €0 – €3,000 (administrative fees only)"
+            },
+            {
+              "category": "Private Universities",
+              "amount": "€6,000 – €12,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "Winter Semester",
+              "details": "Applications May – July (start September/October)"
+            },
+            {
+              "period": "Summer Semester",
+              "details": "Applications November – January (start March/April)"
+            }
+          ]
+        },
+        "popularFields": "Engineering, Business, Computer Science, Medicine, Natural Sciences",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Proof of finances: approx. €11,000 per year in a blocked account",
+            "Mandatory health insurance required"
+          ]
+        },
+        "workRights": "20 hours per week during semester, full-time during breaks."
+      },
+      {
+        "id": "uk",
+        "name": "Study in the United Kingdom",
+        "intro": "The UK is home to some of the world's top universities and an internationally recognized degree system.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "EU/EEA Students",
+              "amount": "€10,000 – €13,000"
+            },
+            {
+              "category": "Non-EU Students",
+              "amount": "€12,000 – €25,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "September/October",
+              "details": "Main intake"
+            },
+            {
+              "period": "January/February",
+              "details": "Secondary intake, limited programs"
+            },
+            {
+              "period": "May",
+              "details": "Summer intake at selected universities"
+            }
+          ]
+        },
+        "popularFields": "Law, Business, Engineering, Medicine, Social Sciences",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Student visa required for non-EU/EEA",
+            "Proof of tuition paid plus €1,200 per month (London) or lower outside London"
+          ]
+        },
+        "workRights": "20 hours per week during term, full-time during vacations."
+      },
+      {
+        "id": "latvia",
+        "name": "Study in Latvia",
+        "intro": "Latvia provides affordable education and peaceful living conditions.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "General",
+              "amount": "€3,000 – €6,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Main intake"
+            },
+            {
+              "period": "February",
+              "details": "Secondary intake"
+            }
+          ]
+        },
+        "popularFields": "Medicine, Business, IT, Engineering",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Student visa and proof of living expenses required",
+            "Health insurance mandatory"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "lithuania",
+        "name": "Study in Lithuania",
+        "intro": "Lithuania offers strong academic traditions and over 350 English-taught programs.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "General",
+              "amount": "€3,000 – €7,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Main intake"
+            },
+            {
+              "period": "February",
+              "details": "Secondary intake"
+            }
+          ]
+        },
+        "popularFields": "Business, Medicine, Engineering, Economics",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Residence permit required for non-EU students",
+            "Financial proof and insurance needed"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "czechRepublic",
+        "name": "Study in Czech Republic",
+        "intro": "The Czech Republic is a growing destination for international students in Central Europe.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "Public Universities",
+              "amount": "€2,000 – €5,000"
+            },
+            {
+              "category": "Private Universities",
+              "amount": "€5,000 – €10,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Main intake"
+            },
+            {
+              "period": "February",
+              "details": "Limited programs"
+            }
+          ]
+        },
+        "popularFields": "Medicine, Business, Engineering, Arts",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Student visa required for non-EU students",
+            "Proof of finances and accommodation must be shown"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "norway",
+        "name": "Study in Norway",
+        "intro": "Norway is known for tuition-free education at public universities.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "Public Universities",
+              "amount": "Free (only €50–€100 administrative fee)"
+            },
+            {
+              "category": "Private Universities",
+              "amount": "€5,000 – €10,000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "Autumn",
+              "details": "August/September start, main intake"
+            },
+            {
+              "period": "Spring",
+              "details": "Limited to selected programs"
+            }
+          ]
+        },
+        "popularFields": "Energy, Marine Sciences, Engineering, IT, Natural Sciences",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Proof of approx. €12,000 per year for living costs required",
+            "Health insurance mandatory"
+          ]
+        },
+        "workRights": "20 hours per week during semester, full-time during holidays."
+      },
+      {
+        "id": "finland",
+        "name": "Study in Finland",
+        "intro": "Finland offers modern education and a strong focus on research and innovation.",
+        "tuitionFees": {
+          "heading": "Average Tuition Fees per Year",
+          "fees": [
+            {
+              "category": "EU/EEA Students",
+              "amount": "Free at public universities"
+            },
+            {
+              "category": "Non-EU Students",
+              "amount": "€8,000 – €20,000 depending on program and university"
+            },
+            {
+              "category": "Doctoral Programs",
+              "amount": "Tuition-free for all students"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Admission Intakes",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Main intake — applications November – January"
+            },
+            {
+              "period": "January",
+              "details": "Secondary intake, limited programs — applications in September"
+            }
+          ]
+        },
+        "popularFields": "IT, Engineering, Design, Business, Education",
+        "visaRequirements": {
+          "heading": "Visa and Residence Requirements",
+          "requirements": [
+            "Residence permit required for non-EU students",
+            "Proof of funds: minimum €800 per month (€9,600 per year)",
+            "Health insurance required"
+          ]
+        },
+        "workRights": "Students may work 20–25 hours per week during semesters and full-time during holidays. Post-study work permit available for graduates."
+      }
+    ],
+    "whyChoose": {
+      "heading": "Why Choose Sweden Relocators AB",
+      "services": [
+        {
+          "title": "Complete Admission Guidance",
+          "description": "Complete admission guidance for Bachelor's, Master's, and PhD programs across Sweden and the EU"
+        },
+        {
+          "title": "Document Services",
+          "description": "Document attestation, translation, and preparation for universities and migration authorities"
+        },
+        {
+          "title": "Visa and Residence Support",
+          "description": "Visa and residence permit applications handled with precision"
+        },
+        {
+          "title": "Financial Assistance",
+          "description": "Scholarship and financial advice tailored to each country"
+        },
+        {
+          "title": "Post-Study Support",
+          "description": "Ongoing support for residence permit renewal and post-study employment"
+        }
+      ],
+      "description": "At Sweden Relocators AB, we make studying in Sweden and Europe simple, transparent, and stress-free. From your first application to your graduation and beyond, we guide you every step of the way."
+    },
+    "cta": {
+      "heading": "Begin Your Study Journey in Europe Today",
+      "description": "Contact Sweden Relocators to get expert guidance on your application and visa process.",
+      "button": "Get Started",
+      "subtext": "Education regulations vary by country. Always consult official university and immigration websites for the most current information."
+    }
+  }
+}

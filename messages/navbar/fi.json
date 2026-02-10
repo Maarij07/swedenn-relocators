@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "Työllisyysaste: 69,6%",
+      "educationRate": "Koulutusaste: 85,2%",
+      "genderRatio": "Sukupuoli suhde: ~1:1",
+      "countryName": "Ruotsi",
+      "gdp": "BKT: 610,1 miljardia USD",
+      "population": "Kokonaisväestö: 10,65 miljoonaa"
+    },
+    "links": {
+      "newInSweden": "Uusi Ruotsissa",
+      "services": "Palvelut",
+      "housing": "Asuminen",
+      "about": "Tietoa meistä",
+      "contact": "Ota meihin yhteyttä",
+      "bookAppointment": "Varaa aika",
+      "login": "Kirjaudu sisään",
+      "assessment": "Arviointi"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

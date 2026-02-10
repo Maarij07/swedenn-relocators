@@ -1,0 +1,152 @@
+{
+  "citizenship": {
+    "hero": {
+      "title": "Schwedische Staatsbürgerschaft: Anforderungen, Bewerbungswege und Bearbeitungszeiten",
+      "subtitle": "Die schwedische Staatsbürgerschaft zu erhalten ist ein bedeutender Meilenstein, der volle Rechte und Pflichten in Schweden gewährt. Die Staatsbürgerschaft ermöglicht den Erhalt eines schwedischen Passes, das Wahlrecht, die Möglichkeit, für ein politisches Amt zu kandidieren, und die freie Bewegung innerhalb der EU und des Schengen-Raums."
+    },
+    "intro": {
+      "heading": "Was die schwedische Staatsbürgerschaft bietet",
+      "description": "Die schwedische Staatsbürgerschaft stärkt Ihre rechtliche Sicherheit und erleichtert das dauerhafte Leben, Arbeiten und Investieren in Schweden. Sie gewährt Ihnen nicht nur das Recht auf einen schwedischen Pass, sondern auch einen sicheren rechtlichen Status, die Freizügigkeit in der EU und die volle Teilhabe an der schwedischen Demokratie.",
+      "note": "Sweden Relocators bietet Expertenberatung für jeden Schritt des Verfahrens und stellt sicher, dass Ihre Bewerbung vollständig, genau und den aktuellen Gesetzen entsprechend ist."
+    },
+    "generalRequirements": {
+      "heading": "Allgemeine Anforderungen für die schwedische Staatsbürgerschaft",
+      "description": "Um als Erwachsener um die schwedische Staatsbürgerschaft zu bitten, müssen Sie im Allgemeinen folgende Bedingungen erfüllen:",
+      "requirements": [
+        {
+          "title": "Altersanforderung",
+          "description": "Sie müssen mindestens 18 Jahre alt sein, um eigenständig zu beantragen. Kinder unter 18 Jahren können zusammen mit einem Elternteil oder über eine Mitteilung in bestimmten Fällen beantragen."
+        },
+        {
+          "title": "Dauerhaftes Aufenthaltsrecht oder dauerhaftes Recht auf Aufenthalt",
+          "description": "Nicht-EU-/EWR-Staatsangehörige müssen über eine dauerhafte Aufenthaltserlaubnis (permanent uppehållstillstånd) verfügen. EU-/EWR-Staatsangehörige müssen über ein dauerhaftes Recht auf Aufenthalt (permanent uppehållsrätt) verfügen, das in der Regel nach fünf Jahren ununterbrochenen rechtmäßigen Aufenthalts erworben wird."
+        },
+        {
+          "title": "Dauer des Aufenthalts in Schweden",
+          "description": "Standardregel: 5 Jahre ununterbrochener Aufenthalt. Flüchtlinge oder staatenlose Personen: 4 Jahre. Ehepartner/registrierte Partner/Lebensgefährten eines schwedischen Staatsbürgers: 3 Jahre. Nordeuropäische Staatsangehörige: 2 Jahre (gewöhnlich) oder 5 Jahre (Anmeldung)."
+        },
+        {
+          "title": "Gutes Benehmen",
+          "description": "Bewerber müssen gutes Benehmen nachweisen, was bedeutet, dass sie keine schwerwiegenden Straftaten in jüngster Zeit begangen haben, keine ausstehenden Schulden gegenüber dem Kronofogden (das Vollstreckungsamt) haben und allgemein die schwedischen Gesetze beachten."
+        },
+        {
+          "title": "Absicht, in Schweden zu bleiben",
+          "description": "Das Migrationsverket prüft, ob Sie starke Bindungen nach Schweden haben, wie Beschäftigung, Familie oder langfristige Wohnmöglichkeiten, die Ihre echte Absicht zeigen, zu bleiben."
+        }
+      ]
+    },
+    "specialCategories": {
+      "heading": "Besondere Kategorien und Wege zur Staatsbürgerschaft",
+      "categories": [
+        {
+          "id": "nordic",
+          "title": "Nordeuropäische Staatsangehörige",
+          "description": "Nordeuropäische Staatsangehörige (Dänemark, Finnland, Island, Norwegen) profitieren von den flexibelsten Regeln:",
+          "details": [
+            "Gewöhnlicher Antrag: Berechtigt nach 2 Jahren Aufenthalt in Schweden.",
+            "Anmeldeverfahren (anmälan): Berechtigt nach 5 Jahren Aufenthalt. Dies ist ein vereinfachtes Verfahren."
+          ]
+        },
+        {
+          "id": "eueea",
+          "title": "EU-/EWR-Staatsangehörige",
+          "description": "EU-/EWR-Staatsangehörige können nach 5 Jahren ununterbrochenen Aufenthalts beantragen, sobald das dauerhafte Recht auf Aufenthalt erworben wurde.",
+          "details": [
+            "Müssen Nachweise über Aufenthalt, Einkommen und Einhaltung der schwedischen Gesetze vorlegen.",
+            "Das Verfahren ist etwas einfacher, da keine Aufenthaltserlaubnis erforderlich ist."
+          ]
+        },
+        {
+          "id": "refugees",
+          "title": "Flüchtlinge und staatenlose Personen",
+          "description": "Anerkannte Flüchtlinge und staatenlose Personen können nach 4 Jahren Aufenthalt beantragen.",
+          "details": [
+            "Der Flüchtlingsstatus muss gemäß internationalem oder schwedischem Recht offiziell anerkannt sein."
+          ]
+        },
+        {
+          "id": "spouses",
+          "title": "Ehepartner oder Partner eines schwedischen Staatsbürgers",
+          "description": "Ehepartner oder registrierte Partner können nach 3 Jahren Aufenthalt beantragen.",
+          "details": [
+            "Das Paar muss mindestens 2 Jahre lang gemeinsam in Schweden gelebt haben.",
+            "Starke Bindungen nach Schweden sind erforderlich, und die Beziehung muss bestehen bleiben."
+          ]
+        },
+        {
+          "id": "children",
+          "title": "Kinder unter 18 Jahren",
+          "description": "Kinder können über vereinfachte Verfahren beantragen.",
+          "details": [
+            "Können zusammen mit einem Elternteil oder über eine vereinfachte Mitteilung beantragen.",
+            "Adoptierte Kinder erhalten automatisch die schwedische Staatsbürgerschaft, wenn sie vor ihrem 12. Lebensjahr adoptiert wurden."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Antragsverfahren",
+      "intro": "Der Antrag auf Staatsbürgerschaft umfasst mehrere wichtige Schritte:",
+      "steps": [
+        {
+          "title": "Dokumente vorbereiten",
+          "description": "Erforderliche Dokumente umfassen: Gültiger Reisepass oder Personalausweis, Nachweis des Aufenthalts (Registrierung bei Skatteverket), Einkommens- oder Arbeitsnachweise, eventuell ein polizeiliches Führungszeugnis oder Nachweis über ausstehende Schulden."
+        },
+        {
+          "title": "Antrag einreichen",
+          "description": "Anträge können online über den E-Service des Migrationsverkets oder per Papierformular eingereicht werden. Für Kinder und nordeuropäische Staatsangehörige, die das Anmeldeverfahren nutzen, gelten vereinfachte Verfahren."
+        },
+        {
+          "title": "Prüfung durch das Migrationsverket",
+          "description": "Die Behörde überprüft die Aufenthaltsdauer, Identität, Verhalten und wirtschaftliche Stabilität. Während des Verfahrens können zusätzliche Informationen angefordert werden."
+        },
+        {
+          "title": "Entscheidung",
+          "description": "Bei Genehmigung erhalten Sie ein Zertifikat für die schwedische Staatsbürgerschaft. Im Falle einer Ablehnung können Sie beim Verwaltungsgericht Einspruch einlegen."
+        }
+      ]
+    },
+    "waitingTimes": {
+      "heading": "Bearbeitungszeiten und Wartezeiten",
+      "intro": "Die Bearbeitungszeiten variieren je nach Kategorie und Hintergrund:",
+      "times": [
+        {"category": "Standardanträge", "time": "18–36 Monate"},
+        {"category": "Nordeuropäische Staatsangehörige (Anmeldung)", "time": "6–12 Monate"},
+        {"category": "Flüchtlinge und Ehepartner", "time": "In der Regel schneller als Standard"},
+        {"category": "Hinweis", "time": "Das Migrationsverket hat kürzlich strengere Kontrollen bekannt gegeben (März 2025), was die Wartezeiten für bestimmte Fälle verlängern kann."}
+      ]
+    },
+    "support": {
+      "heading": "Wie Sweden Relocators Sie unterstützen kann",
+      "description": "Der Antrag auf schwedische Staatsbürgerschaft kann komplex und zeitaufwendig sein. Sweden Relocators bietet professionelle Unterstützung in jedem Schritt:",
+      "services": [
+        {
+          "title": "Berechtigungsprüfung",
+          "description": "Wir prüfen Ihre Aufenthaltsdauer, Familiensituation und den Status Ihrer Erlaubnis, um Ihren besten Weg nach vorne festzustellen."
+        },
+        {
+          "title": "Dokumentenvorbereitung",
+          "description": "Sicherstellung von Genauigkeit, Übersetzungen und Vollständigkeit, um Verzögerungen bei der Bearbeitung zu vermeiden."
+        },
+        {
+          "title": "Einreichung und Überwachung des Antrags",
+          "description": "Wir bearbeiten Ihren Antrag und halten Sie direkt mit dem Migrationsverket auf dem Laufenden."
+        },
+        {
+          "title": "Hilfe bei Berufungen",
+          "description": "Wenn Ihr Antrag abgelehnt wird, hilft unser juristisches Team bei der Vorbereitung und Einreichung von Berufungen."
+        },
+        {
+          "title": "Langfristige Strategie",
+          "description": "Beratung darüber, wie man die Aufenthaltsanforderungen aufrechterhält, Lücken vermeidet und sich auf die Staatsbürgerschaft vorbereitet."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Beginnen Sie noch heute Ihren Weg zur schwedischen Staatsbürgerschaft",
+      "description": "Kontaktieren Sie Sweden Relocators, um Ihre Berechtigung zu prüfen und mit Expertenunterstützung mit Ihrem Antrag auf schwedische Staatsbürgerschaft zu beginnen.",
+      "button": "Loslegen",
+      "subtext": "Gesetz über die schwedische Staatsbürgerschaft (2001:82). Regeln und Verfahren können sich ändern. Konsultieren Sie immer das Migrationsverket für die neuesten Informationen."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "Arbeidsledighet: 69,6%",
+      "educationRate": "Utdanningsgrad: 85,2%",
+      "genderRatio": "Kjønnsfordelning: ~1:1",
+      "countryName": "Sverige",
+      "gdp": "BNP: 610,1 milliarder USD",
+      "population": "Samlet befolkning: 10,65 millioner"
+    },
+    "links": {
+      "newInSweden": "Ny i Sverige",
+      "services": "Tjenester",
+      "housing": "Boliger",
+      "about": "Om oss",
+      "contact": "Kontakt oss",
+      "bookAppointment": "Bestill møte",
+      "login": "Logg inn",
+      "assessment": "Vurdering"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

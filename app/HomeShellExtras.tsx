@@ -17,8 +17,9 @@ export default function HomeShellExtras() {
   const isBlogs = pathname?.includes('/blogs');
   const isAbout = pathname?.includes('/about');
   const isContact = pathname?.includes('/contact');
+  const isNewInSweden = pathname?.includes('/new-in-sweden');
 
-  if (isServices || isBlogs || isAbout || isContact) {
+  if (isServices || isBlogs || isAbout || isContact || isNewInSweden) {
     return null;
   }
 

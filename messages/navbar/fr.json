@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "Taux d'emploi: 69,6%",
+      "educationRate": "Taux d'éducation: 85,2%",
+      "genderRatio": "Ratio hommes-femmes: ~1:1",
+      "countryName": "Suède",
+      "gdp": "PIB: 610,1 milliards USD",
+      "population": "Population totale: 10,65 millions"
+    },
+    "links": {
+      "newInSweden": "Nouveau en Suède",
+      "services": "Services",
+      "housing": "Logement",
+      "about": "À propos de nous",
+      "contact": "Nous contacter",
+      "bookAppointment": "Réserver un rendez-vous",
+      "login": "Connexion",
+      "assessment": "Évaluation"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

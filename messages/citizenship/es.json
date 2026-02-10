@@ -1,0 +1,152 @@
+{
+  "citizenship": {
+    "hero": {
+      "title": "Ciudadanía sueca: Requisitos, vías de solicitud y tiempos de procesamiento",
+      "subtitle": "Convertirse en ciudadano sueco es un hito significativo que otorga derechos y obligaciones completos en Suecia. La ciudadanía proporciona acceso a un pasaporte sueco, derecho a voto, posibilidad de presentarse a cargos políticos y libre circulación en la UE y el espacio Schengen."
+    },
+    "intro": {
+      "heading": "Qué ofrece la ciudadanía sueca",
+      "description": "La ciudadanía sueca fortalece su seguridad jurídica y facilita vivir, trabajar e invertir permanentemente en Suecia. No solo le da derecho a un pasaporte sueco, sino también un estatus jurídico seguro, libertad de movimiento dentro de la UE y plena participación en la democracia sueca.",
+      "note": "Sweden Relocators proporciona orientación experta en cada paso del proceso y asegura que su solicitud sea completa, precisa y conforme a las leyes actuales."
+    },
+    "generalRequirements": {
+      "heading": "Requisitos generales para la ciudadanía sueca",
+      "description": "Para solicitar la ciudadanía sueca como adulto, generalmente debe cumplir con las siguientes condiciones:",
+      "requirements": [
+        {
+          "title": "Requisito de edad",
+          "description": "Debe tener al menos 18 años para solicitar independientemente. Los niños menores de 18 años pueden solicitar junto con un padre o mediante notificación en casos específicos."
+        },
+        {
+          "title": "Residencia permanente o derecho permanente de residir",
+          "description": "Los ciudadanos no pertenecientes a la UE/EEE deben poseer una autorización de residencia permanente (permanent uppehållstillstånd). Los ciudadanos de la UE/EEE deben poseer un derecho permanente de residir (permanent uppehållsrätt), generalmente adquirido después de cinco años de residencia legal continua."
+        },
+        {
+          "title": "Duración de la residencia en Suecia",
+          "description": "Regla estándar: 5 años de residencia continua. Refugiados o personas apátridas: 4 años. Cónyuge/pareja registrada/conviviente de ciudadano sueco: 3 años. Ciudadanos nórdicos: 2 años (normal) o 5 años (notificación)."
+        },
+        {
+          "title": "Buena conducta",
+          "description": "Los solicitantes deben demostrar buena conducta, lo que significa ninguna condena penal grave reciente, deudas pendientes con Kronofogden (la autoridad de cobranza) y cumplimiento general de las leyes suecas."
+        },
+        {
+          "title": "Intención de permanecer en Suecia",
+          "description": "Migrationsverket evalúa si tiene fuertes vínculos con Suecia, como empleo, familia o vivienda a largo plazo, que demuestren su intención genuina de quedarse."
+        }
+      ]
+    },
+    "specialCategories": {
+      "heading": "Categorías especiales y vías hacia la ciudadanía",
+      "categories": [
+        {
+          "id": "nordic",
+          "title": "Ciudadanos nórdicos",
+          "description": "Los ciudadanos nórdicos (Dinamarca, Finlandia, Islandia, Noruega) se benefician de las reglas más flexibles:",
+          "details": [
+            "Solicitud ordinaria: Elegible después de 2 años de residencia en Suecia.",
+            "Procedimiento de notificación (anmälan): Elegible después de 5 años de residencia. Este es un procedimiento simplificado."
+          ]
+        },
+        {
+          "id": "eueea",
+          "title": "Ciudadanos de la UE/EEE",
+          "description": "Los ciudadanos de la UE/EEE pueden solicitar después de 5 años de residencia continua, una vez adquirido el derecho permanente de residir.",
+          "details": [
+            "Deben demostrar prueba de residencia, ingresos y cumplimiento de las leyes suecas.",
+            "El proceso es ligeramente más simple ya que no se requiere autorización de residencia."
+          ]
+        },
+        {
+          "id": "refugees",
+          "title": "Refugiados y personas apátridas",
+          "description": "Los refugiados y personas apátridas reconocidos pueden solicitar después de 4 años de residencia.",
+          "details": [
+            "El estatus de refugiado debe ser oficialmente reconocido según el derecho internacional o sueco."
+          ]
+        },
+        {
+          "id": "spouses",
+          "title": "Cónyuges o parejas de ciudadano sueco",
+          "description": "Cónyuges o parejas registradas pueden solicitar después de 3 años de residencia.",
+          "details": [
+            "La pareja debe haber vivido junta en Suecia durante al menos 2 años.",
+            "Se requieren fuertes vínculos con Suecia y la relación debe ser duradera."
+          ]
+        },
+        {
+          "id": "children",
+          "title": "Niños menores de 18 años",
+          "description": "Los niños pueden solicitar a través de procedimientos simplificados.",
+          "details": [
+            "Pueden solicitar junto con un padre o mediante una notificación simplificada.",
+            "Los niños adoptados adquieren automáticamente la ciudadanía sueca si fueron adoptados antes de cumplir 12 años."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Proceso de solicitud",
+      "intro": "La solicitud de ciudadanía implica varios pasos clave:",
+      "steps": [
+        {
+          "title": "Preparar documentos",
+          "description": "Los documentos requeridos incluyen: Pasaporte válido o identificación nacional, Prueba de residencia (inscripción en Skatteverket), Documentación de ingresos o empleo, Antecedentes penales o certificado de deudas si corresponde."
+        },
+        {
+          "title": "Enviar solicitud",
+          "description": "Las solicitudes se pueden enviar en línea a través del servicio electrónico de Migrationsverket o mediante formulario físico. Los niños y ciudadanos nórdicos que utilizan el procedimiento de notificación tienen procedimientos simplificados."
+        },
+        {
+          "title": "Revisión por Migrationsverket",
+          "description": "La agencia verifica el historial de residencia, identidad, conducta y estabilidad financiera. Pueden solicitar información adicional durante el proceso."
+        },
+        {
+          "title": "Decisión",
+          "description": "Si se aprueba, recibirá un certificado de ciudadanía sueca. Si se niega, puede apelar ante un tribunal administrativo."
+        }
+      ]
+    },
+    "waitingTimes": {
+      "heading": "Tiempos de procesamiento y periodos de espera",
+      "intro": "Los tiempos de procesamiento varían según la categoría y el contexto:",
+      "times": [
+        {"category": "Solicitudes estándar", "time": "18–36 meses"},
+        {"category": "Ciudadanos nórdicos (notificación)", "time": "6–12 meses"},
+        {"category": "Refugiados y cónyuges", "time": "Generalmente más rápido que lo estándar"},
+        {"category": "Nota", "time": "Migrationsverket anunció recientemente controles más estrictos (marzo 2025), lo que podría aumentar los tiempos de espera para algunos casos."}
+      ]
+    },
+    "support": {
+      "heading": "Cómo Sweden Relocators puede ayudarle",
+      "description": "Solicitar la ciudadanía sueca puede ser complejo y llevar mucho tiempo. Sweden Relocators ofrece apoyo profesional en cada etapa:",
+      "services": [
+        {
+          "title": "Evaluación de elegibilidad",
+          "description": "Verificamos su historial de residencia, situación familiar y estado de autorizaciones para determinar su mejor opción."
+        },
+        {
+          "title": "Preparación de documentos",
+          "description": "Garantizamos precisión, traducciones y completitud para evitar retrasos en el procesamiento."
+        },
+        {
+          "title": "Presentación y seguimiento de la solicitud",
+          "description": "Gestionamos su solicitud y lo mantenemos informado directamente con Migrationsverket."
+        },
+        {
+          "title": "Asistencia en apelaciones",
+          "description": "Si su solicitud es denegada, nuestro equipo legal lo ayuda a preparar y presentar apelaciones."
+        },
+        {
+          "title": "Estrategia a largo plazo",
+          "description": "Orientación sobre cómo mantener los requisitos de residencia, evitar lagunas y prepararse para la ciudadanía."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Comience su camino hacia la ciudadanía sueca hoy",
+      "description": "Contacte con Sweden Relocators para evaluar su elegibilidad y comenzar su solicitud de ciudadanía sueca con apoyo experto.",
+      "button": "Empezar",
+      "subtext": "Ley de ciudadanía sueca (2001:82). Las reglas y procedimientos pueden cambiar. Consulte siempre a Migrationsverket para obtener la información más reciente."
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "logisticsServices": {
+    "hero": {
+      "title": "Logistics Management with Sweden Relocators Partner Network",
+      "subtitle": "Seamless logistics solutions for relocation and business expansion"
+    },
+    "intro": {
+      "heading": "Comprehensive Logistics Solutions for Every Need",
+      "description": "Relocation and business expansion often depend on reliable logistics. We provide seamless logistics management solutions designed to remove the stress from moving across borders through our carefully selected third-party logistics partners. We coordinate everything from packing and international shipping to customs clearance, storage, freight forwarding, and last-mile delivery.",
+      "toolLink": "Our goal is simple: to ensure that your personal belongings, office equipment, or business goods reach their destination safely, on time, and at competitive rates."
+    },
+    "services": {
+      "heading": "Our Core Logistics Services",
+      "requirementsLabel": "What We Handle",
+      "services": [
+        {
+          "id": "packing",
+          "title": "Packing and Shipping",
+          "description": "Professional packing and global shipping services using international-grade materials",
+          "requirements": [
+            {"label": "Professional Materials", "description": "International-grade packing materials and secure handling procedures"},
+            {"label": "Global Coverage", "description": "Personal belongings, corporate assets, and specialized cargo"},
+            {"label": "Safety Guarantee", "description": "Secure transport ensuring items reach destination safely and efficiently"}
+          ]
+        },
+        {
+          "id": "customs",
+          "title": "Customs and Compliance",
+          "description": "Expert navigation of customs regulations and international protocols",
+          "requirements": [
+            {"label": "Swedish Customs", "description": "Customs clearance support complying with Swedish Customs (Tullverket)"},
+            {"label": "EU Trade Rules", "description": "Full compliance with EU trade rules and international protocols"},
+            {"label": "Documentation", "description": "All documentation prepared in advance to minimize delays"}
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Warehouse and Storage Solutions",
+          "description": "Flexible storage options in modern, secure facilities",
+          "requirements": [
+            {"label": "Security", "description": "Secure storage with 24/7 monitoring available"},
+            {"label": "Climate Control", "description": "Climate-controlled facilities for sensitive goods"},
+            {"label": "Flexibility", "description": "Short-term and long-term storage options with flexible contracts"}
+          ]
+        },
+        {
+          "id": "freight",
+          "title": "Freight Management",
+          "description": "Cost-effective transport options with real-time tracking",
+          "requirements": [
+            {"label": "Multiple Options", "description": "Air freight for urgent shipments, sea freight for bulk cargo, road transport for regional moves"},
+            {"label": "Tracking", "description": "Real-time tracking so you always know where your shipment is"},
+            {"label": "Flexibility", "description": "Cost-effective and flexible transport solutions"}
+          ]
+        },
+        {
+          "id": "lastmile",
+          "title": "Last-Mile Delivery",
+          "description": "Coordinate final delivery with optional unpacking and assembly services",
+          "requirements": [
+            {"label": "Timely Delivery", "description": "Arrival at your home, office, or business location on time"},
+            {"label": "Optional Services", "description": "Unpacking and assembly services available"},
+            {"label": "Stress-Free", "description": "Ensures a completely stress-free transition"}
+          ]
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Why Choose Sweden Relocators for Logistics?",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Global Reach with Local Expertise",
+          "description": "Our partner network spans across Europe, Asia, North America, and beyond. Global coverage combined with local Swedish expertise ensures every shipment meets international and local standards."
+        },
+        {
+          "id": 2,
+          "title": "End-to-End Coordination",
+          "description": "One point of contact throughout the logistics journey, from consultation and packing to delivery and setup, ensuring consistency and clear communication."
+        },
+        {
+          "id": 3,
+          "title": "Cost-Effective Solutions",
+          "description": "By working with a vetted network of providers, we negotiate competitive rates while maintaining the highest service quality."
+        },
+        {
+          "id": 4,
+          "title": "Safe and Reliable Transport",
+          "description": "Security is our priority. Our partners use modern systems for secure packing, handling, and transport to protect your goods at every stage."
+        },
+        {
+          "id": 5,
+          "title": "Transparent Tracking and Updates",
+          "description": "Advanced tracking systems and regular updates keep you informed. Always know the status of your shipment for complete peace of mind."
+        }
+      ]
+    },
+    "process": {
+      "heading": "How Our Logistics Management Service Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Consultation and Planning",
+          "description": "We begin with a consultation to understand your needs, timeline, and budget. Based on this, we design a customized logistics plan."
+        },
+        {
+          "number": 2,
+          "title": "Packing and Pickup",
+          "description": "Professional packing and secure pickup are arranged through our third-party partners, ensuring items are properly prepared for transit."
+        },
+        {
+          "number": 3,
+          "title": "Shipping and Tracking",
+          "description": "Whether by air, sea, or road, your shipment is tracked in real time with estimated arrival updates provided throughout."
+        },
+        {
+          "number": 4,
+          "title": "Customs Clearance and Compliance",
+          "description": "All customs documentation is prepared and verified in advance, ensuring smooth clearance with Swedish Customs (Tullverket) or any destination authority."
+        },
+        {
+          "number": 5,
+          "title": "Delivery and Unpacking",
+          "description": "On arrival, our logistics partners manage final delivery, unpacking, and assembly if required, allowing you to settle in without hassle."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ready to Simplify Your Logistics?",
+      "description": "With Sweden Relocators logistics management, you get access to a reliable partner network that can handle every aspect of your relocation or shipment. Submit a service request today.",
+      "button": "Get Your Logistics Quote",
+      "subtext": "Whether it's personal relocation or business logistics, just tell us your needs and we'll arrange services with our trusted logistics partners."
+    }
+  }
+}

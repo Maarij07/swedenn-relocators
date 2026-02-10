@@ -1,0 +1,152 @@
+{
+  "citizenship": {
+    "hero": {
+      "title": "Svensk statsborgerskap: Krav, søknadsmetoder og behandlingstider",
+      "subtitle": "Å bli svensk statsborger er en betydningsfull milepæl som gir full rett og plikter i Sverige. Statsborgerskap gir tilgang til et svensk pass, stemmerett, muligheten til å stille til valg til politisk embete og fri bevegelse i EU og Schengenområdet."
+    },
+    "intro": {
+      "heading": "Hva svensk statsborgerskap tilbyr",
+      "description": "Svensk statsborgerskap styrker din juridiske sikkerhet og gjør det lettere å bo, arbeide og investere i Sverige permanent. Det gir deg ikke bare retten til et svensk pass, men også sikker juridisk status, EU-frihet for bevegelse og full deltakelse i den svenske demokratien.",
+      "note": "Sweden Relocators gir ekspertveiledning i alle trinn av prosessen og sikrer at søknaden din er komplett, nøyaktig og i samsvar med gjeldende lover."
+    },
+    "generalRequirements": {
+      "heading": "Generelle krav for svensk statsborgerskap",
+      "description": "For å søke om svensk statsborgerskap som voksen må du generelt oppfylle følgende betingelser:",
+      "requirements": [
+        {
+          "title": "Alderskrav",
+          "description": "Du må være minst 18 år for å søke uavhengig. Barn under 18 år kan søke sammen med en forelder eller via melding i spesielle tilfeller."
+        },
+        {
+          "title": "Permanent oppholdstillatelse eller permanent rett til opphold",
+          "description": "Ikke-EU/EØS-borgere må ha en permanent oppholdstillatelse (permanent uppehållstillstånd). EU/EØS-borgere må ha en permanent rett til opphold (permanent uppehållsrätt), vanligvis oppnådd etter fem års sammenhengende lovlig opphold."
+        },
+        {
+          "title": "Lengde på opphold i Sverige",
+          "description": "Standardregel: 5 år med sammenhengende opphold. Flyktninger eller statsløse personer: 4 år. Ektemake/registrerte partnere/samboere med svensk statsborger: 3 år. Nordiske borgere: 2 år (vanlig) eller 5 år (melding)."
+        },
+        {
+          "title": "God oppførsel",
+          "description": "Søkere må vise god oppførsel, noe som betyr ingen nylige alvorlige kriminelle forhold, ingen ubetalte gjeld til Kronofogden (Inkassomyndigheten) og generelt etterlevelse av svensk lovverk."
+        },
+        {
+          "title": "Hensikt om å bli i Sverige",
+          "description": "Migrationsverket vurderer om du har sterke bånd til Sverige, slik som arbeid, familie eller langsiktig bolig, som viser din reelle intensjon om å bli."
+        }
+      ]
+    },
+    "specialCategories": {
+      "heading": "Spesielle kategorier og veier til statsborgerskap",
+      "categories": [
+        {
+          "id": "nordic",
+          "title": "Nordiske borgere",
+          "description": "Nordiske borgere (Danmark, Finland, Island, Norge) får de mest fleksible reglene:",
+          "details": [
+            "Vanlig søknad: Kvalifisert etter 2 års opphold i Sverige.",
+            "Meldingsprosess (anmälan): Kvalifisert etter 5 års opphold. Dette er en forenklet prosedyre."
+          ]
+        },
+        {
+          "id": "eueea",
+          "title": "EU/EØS-borgere",
+          "description": "EU/EØS-borgere kan søke etter 5 års sammenhengende opphold, når permanent rett til opphold er oppnådd.",
+          "details": [
+            "Må vise dokumentasjon for opphold, inntekt og etterlevelse av svensk lovverk.",
+            "Prosessen er litt enklere siden ingen oppholdstillatelse kreves."
+          ]
+        },
+        {
+          "id": "refugees",
+          "title": "Flyktninger og statsløse personer",
+          "description": "Anerkjente flyktninger og statsløse personer kan søke etter 4 års opphold.",
+          "details": [
+            "Flyktningestatus må være offisielt anerkjent i henhold til internasjonal eller svensk lov."
+          ]
+        },
+        {
+          "id": "spouses",
+          "title": "Ektemake eller partner til svensk statsborger",
+          "description": "Ektemake eller registrert partner kan søke etter 3 års opphold.",
+          "details": [
+            "Paret må ha bodd sammen i Sverige i minst 2 år.",
+            "Sterke bånd til Sverige kreves, og forholdet må være vedvarende."
+          ]
+        },
+        {
+          "id": "children",
+          "title": "Barn under 18 år",
+          "description": "Barn kan søke gjennom forenklede prosedyrer.",
+          "details": [
+            "Kan søke sammen med en forelder eller gjennom en forenklet melding.",
+            "Adopterte barn oppnår automatisk svensk statsborgerskap hvis de ble adoptert før de fylte 12 år."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Søknadsprosess",
+      "intro": "Statsborgerskapssøknaden innebærer flere nøkkelpunkter:",
+      "steps": [
+        {
+          "title": "Forbered dokumenter",
+          "description": "Nødvendige dokumenter inkluderer: Gyldig pass eller nasjonalt ID, Bevis på opphold (registrering hos Skatteverket), Inntekts- eller arbeidsdokumentasjon, Politietteretning eller gjeldsfrihetsattest hvis relevant."
+        },
+        {
+          "title": "Send inn søknad",
+          "description": "Søknader kan sendes inn digitalt via Migrationsverkets e-tjeneste eller gjennom et papirskjema. Barn og nordiske borgere som bruker meldingsprosedyren har forenklede prosedyrer."
+        },
+        {
+          "title": "Migrationsverkets gjennomgang",
+          "description": "Myndigheten verifiserer oppholdshistorikk, identitet, oppførsel og økonomisk stabilitet. De kan be om ytterligere informasjon underveis i prosessen."
+        },
+        {
+          "title": "Avgjørelse",
+          "description": "Ved godkjennelse mottar du et sertifikat for svensk statsborgerskap. Ved avslag kan du anke til en forvaltningsrett."
+        }
+      ]
+    },
+    "waitingTimes": {
+      "heading": "Behandlingstider og venteperioder",
+      "intro": "Behandlingstider varierer basert på kategori og bakgrunn:",
+      "times": [
+        {"category": "Standardsøknader", "time": "18–36 måneder"},
+        {"category": "Nordiske borgere (melding)", "time": "6–12 måneder"},
+        {"category": "Flyktninger og ektefeller", "time": "Vanligvis raskere enn standard"},
+        {"category": "Merk", "time": "Migrationsverket kunngjorde nylig strammere kontroller (mars 2025), noe som kan øke ventetidene for noen saker."}
+      ]
+    },
+    "support": {
+      "heading": "Hvordan Sweden Relocators kan hjelpe deg",
+      "description": "Å søke om svensk statsborgerskap kan være komplekst og tidkrevende. Sweden Relocators tilbyr profesjonell støtte i alle faser:",
+      "services": [
+        {
+          "title": "Kvalifiseringsvurdering",
+          "description": "Vi sjekker din oppholdshistorikk, familiesituasjon og tillatelsesstatus for å fastslå din beste fremgangsmåte."
+        },
+        {
+          "title": "Dokumentforberedelse",
+          "description": "Sikrer nøyaktighet, oversettelser og fullstendighet for å hindre forsinkelser i behandlingen."
+        },
+        {
+          "title": "Innsending og overvåkning av søknad",
+          "description": "Vi håndterer søknaden din og holder deg oppdatert direkte med Migrationsverket."
+        },
+        {
+          "title": "Ankeassistanse",
+          "description": "Hvis søknaden din avslås, hjelper vårt juridiske team med å forberede og sende inn anke."
+        },
+        {
+          "title": "Langsiktig strategi",
+          "description": "Veiledning om hvordan man opprettholder oppholdskrav, unngår hull og forbereder seg på statsborgerskap."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Begynn din vei mot svensk statsborgerskap i dag",
+      "description": "Kontakt Sweden Relocators for å vurdere din kvalifikasjon og komme i gang med din statsborgerskapssøknad med ekspertstøtte.",
+      "button": "Kom i gang",
+      "subtext": "Lov om svensk statsborgerskap (2001:82). Regler og prosedyrer kan endre seg. Sjekk alltid Migrationsverket for den mest oppdaterte informasjonen."
+    }
+  }
+}

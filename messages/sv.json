@@ -1069,5 +1069,1465 @@
       "button": "Kom igång",
       "subtext": "Utbildningsregler varierar per land. Se alltid officiella universitet- och immigrationssidor för den senaste informationen."
     }
+  },
+  "businessPermit": {
+    "hero": {
+      "title": "Egenföretagare-uppehållstillstånd i Sverige",
+      "subtitle": "Starta och expandera din verksamhet med expertvägledning från Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Egenföretagare-uppehållstillstånd: Din väg till företagande i Sverige",
+      "description": "Om du är en medborgare utanför EU/EEA och siktar på att starta eller expandera ett företag i Sverige behöver du ett egenföretagare-uppehållstillstånd från Migrationsverket. Detta tillstånd gör det möjligt för icke-EU-företagare att leva i Sverige medan de bygger och driver ett företag. Sverige är känt för sin starka ekonomi, sin öppna affärsmiljö med blomstrande start-up-kultur, robust infrastruktur och skicklig arbetskraft – vilket gör det till en idealisk destination för företagare."
+    },
+    "whyChooseSweden": {
+      "heading": "Varför välja Sverige för ditt företag?",
+      "intro": "Sveriges affärslandskap erbjuder många fördelar:",
+      "advantages": [
+        {
+          "title": "Innovativ miljö",
+          "description": "Sverige har en samarbets- och transparent affärskultur som uppmuntrar innovation."
+        },
+        {
+          "title": "Tillgång till EU-marknader",
+          "description": "Som EU-medlem erbjuder Sverige företag tillgång till en stor och stabil marknad."
+        },
+        {
+          "title": "Stödjande finansiellt ekosystem",
+          "description": "Svenska institutioner erbjuder olika finansieringsalternativ för företagare, inklusive offentliga och privata lån och bidrag."
+        },
+        {
+          "title": "Högkvalitativ infrastruktur",
+          "description": "Sveriges avancerade infrastruktur och digitala möjligheter gör det till ett globalt nav för tech-startups."
+        }
+      ],
+      "businessStructures": {
+        "intro": "Sverige erbjuder flera affärsstrukturer, såsom:",
+        "structures": [
+          {
+            "name": "Enskild näringsidkare (Enskild Firma)",
+            "description": "Idealisk för individuella företagare"
+          },
+          {
+            "name": "Handelsbolag eller Kommanditbolag (Handelsbolag/Kommanditbolag)",
+            "description": "Lämpligt för partnerskap eller små familjeföretag"
+          },
+          {
+            "name": "Aktiebolag (Aktiebolag)",
+            "description": "Det är vanligt bland dem som vill växa och skalera sitt företag, och erbjuder skydd för begränsad ansvar"
+          },
+          {
+            "name": "Ekonomisk förening (Ekonomisk Förening)",
+            "description": "Används av kooperativ eller samhällsdrivna initiativ"
+          }
+        ]
+      }
+    },
+    "keyRequirements": {
+      "heading": "Nyckkelkrav för egenföretagare-uppehållstillstånd",
+      "intro": "För att vara berättigad till ett egenföretagare-uppehållstillstånd måste du visa att du har tillräckliga ekonomiska resurser, en genomförbar affärsplan och relevant erfarenhet inom din bransch. Tillståndet beviljas vanligtvis för upp till två år, med möjlighet till förnyelse baserat på företagets framgång.",
+      "requirements": [
+        {
+          "id": 1,
+          "title": "Giltigt pass",
+          "description": "Du måste ha ett giltigt pass under hela tillståndsperioden. Tillståndsgiltighetstiden får inte överstiga passgiltighetstiden. Inkludera kopior av relevanta passsidor för att bekräfta identitet, giltighet och uppehållstillstånd i andra länder."
+        },
+        {
+          "id": 2,
+          "title": "Ägandeskap och affärskontroll",
+          "description": "Du måste äga minst 50% av företaget och ha full beslutsfattande auktoritet över dess verksamhet. Du bör också vara aktivt involverad i den dagliga driften av verksamheten och ha huvudansvar för dess förvaltning och riktning."
+        },
+        {
+          "id": 3,
+          "title": "Finansiella krav för verksamhet och personligt stöd",
+          "description": "Startkapital: Du måste presentera bankutdrag som visar tillräckliga medel för att etablera och driva verksamheten i minst två år. Personligt stöd: Du behöver tillräcklig personlig inkomst för att försörja dig själv och eventuella familjemedlemmar som följer tillsammans under de första två åren. Minsta beräknade krav är: SEK 200 000 för dig själv, SEK 100 000 för make/maka eller partner och SEK 50 000 för varje medföljande barn."
+        },
+        {
+          "id": 4,
+          "title": "Genomförbar affärsplan",
+          "description": "En detaljerad affärsplan är väsentlig. Migrationsverket kommer att bedöma din affärsplan för genomförbarhet och lönsamhet. Inkludera kontrakt med leverantörer och klienter, lokalhyresavtal om relevant, nödvändiga branschlicenser och finansiella prognoser såsom investeringsbudget, likviditetsbudget och beräknad balansräkning (resultaträkning)."
+        },
+        {
+          "id": 5,
+          "title": "Relevant erfarenhet och kompetens",
+          "description": "Migrationsverket kräver bevis på att du har nödvändig erfarenhet inom sektorn och kompetens för att förvalta ditt företag effektivt. Tillhandahåll dokumentation av tidigare arbetserfarenhet, utbildning eller tidigare företagande relevant för branschen du planerar att gå in i."
+        },
+        {
+          "id": 6,
+          "title": "Språkkunskaper",
+          "description": "Även om det inte är strikt nödvändigt rekommenderas det att ha kunskaper i svenska eller engelska för att underlätta kommunikationen inom den svenska affärsmiljön och med myndigheter."
+        },
+        {
+          "id": 7,
+          "title": "Betalning av ansökningsavgift och personnummerregistrering",
+          "description": "Ansökningsavgiften för egenföretagare-uppehållstillstånd måste betalas och ett kvitto av denna betalning bör inkluderas med din ansökan. Om du planerar att bo i Sverige i mer än ett år måste du också ansöka om ett personnummer (svenskt personligt identitetsnummer) genom registrering hos Skattemyndigheten. Detta nummer är väsentligt för att få tillgång till sjukvård, öppna bankkonton och andra väsentliga tjänster."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Steg-för-steg-ansökningsprocess för egenföretagare-uppehållstillstånd",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Samla nödvändig dokumentation",
+          "description": "Samla all nödvändig dokumentation, inklusive giltigt pass, bevis på företagsägande och din affärsplan. Se till att all dokumentation uppfyller Migrationsverkets standarder och inkludera översatta kopior om de inte är på svenska eller engelska."
+        },
+        {
+          "number": 2,
+          "title": "Skicka in ansökan",
+          "description": "Skicka in din ansökan online genom Migrationsverkets e-tjänst eller på en svensk ambassad eller konsulat i ditt hemland. Bifoga all stödjande dokumentation enligt Migrationsverkets krav. Inkludera ansökarinformation med personuppgifter, företagsinformation och finansiell dokumentation. Se till att affärsplanen och bankutdragen är korrekta och reflekterar din förmåga att driva en hållbar verksamhet i Sverige."
+        },
+        {
+          "number": 3,
+          "title": "Migrationsverkets granskning och bedömning",
+          "description": "Migrationsverket kommer att bedöma din ansökan baserat på finansiell genomförbarhet (för att säkerställa att du har tillräckligt kapital för att upprätthålla verksamheten), affärsmöjligheter (granska din affärsplan för att avgöra om den rimligen kan generera tillräcklig vinst) och personlig och affärsbakgrund (bedöma din branscherfarenhet, språkkunskaper och förståelse av den svenska affärsmiljön)."
+        },
+        {
+          "number": 4,
+          "title": "Beslutsnotifiering",
+          "description": "Efter att ansökan har granskats fattar Migrationsverket ett beslut. Om den godkänns mottar du ett uppehållstillstånd för egenföretagare, giltigt i upp till två år. Förlängningar kan beviljas baserat på verksamhetens finansiella framgång och din fortsatta behörighet."
+        }
+      ]
+    },
+    "businessStructuresDetail": {
+      "heading": "Affärsstrukturer i Sverige",
+      "intro": "Sverige erbjuder flera affärsstrukturer. Välj den som passar bäst för din affärsmodell och dina mål:",
+      "structures": [
+        {
+          "name": "Enskild näringsidkare (Enskild Firma)",
+          "description": "Idealisk för individuella företagare utan partners."
+        },
+        {
+          "name": "Handelsbolag eller Kommanditbolag (Handelsbolag/Kommanditbolag)",
+          "description": "Lämpligt för partnerskap eller små familjeföretag."
+        },
+        {
+          "name": "Aktiebolag (Aktiebolag)",
+          "description": "Ofta valt av dem som önskar växa och skalera sitt företag, med begränsad ansvarsskydd."
+        },
+        {
+          "name": "Ekonomisk förening (Ekonomisk Förening)",
+          "description": "Allmänt använt av kooperativ eller samhällsdrivna initiativ."
+        }
+      ],
+      "note": "Varje struktur har specifika krav och skattemässiga konsekvenser. Att välja rätt struktur är avgörande för att uppfylla svenska affärsregler."
+    },
+    "advantagesOfSwedenBusiness": {
+      "heading": "Fördelar med Sveriges affärsmiljö",
+      "intro": "Sverige erbjuder en stabil och transparent miljö med fördelar som främjar långsiktig företagstillväxt:",
+      "advantages": [
+        {
+          "title": "Innovativ kultur",
+          "description": "Med låg korruptionsnivå och minimal byråkrati uppmuntrar Sverige företagande inom innovation."
+        },
+        {
+          "title": "Finansiell tillgänglighet",
+          "description": "Sverige erbjuder en mängd finansieringsalternativ, inklusive banklån, statliga bidrag och ängelinvesterare."
+        },
+        {
+          "title": "Tillgång till skicklig arbetstalang",
+          "description": "Landet har en högutbildad arbetskraft med starka tekniska och ledarmässiga färdigheter, särskilt fördelakt för teknologi- och innovationsfokuserade satsningar."
+        },
+        {
+          "title": "Etablerad infrastruktur",
+          "description": "Sveriges avancerade infrastruktur, effektiv logistik och omfattande digitala nätverk gör det idealiskt för både inhemsk och internationell affärsverksamhet."
+        }
+      ]
+    },
+    "howWeCanAssist": {
+      "heading": "Hur Sweden Relocators kan hjälpa dig",
+      "intro": "Att navigera kraven för ett egenföretagare-uppehållstillstånd kan vara komplext. Sweden Relocators tillhandahåller omfattande stöd för att säkerställa en framgångsrik ansökningsprocess, från dokumentationshjälp till vägledning av affärsplan.",
+      "services": [
+        {
+          "title": "Ansökningsvägledning",
+          "description": "Vi hjälper till med att samla in och organisera nödvändig dokumentation, vilket säkerställer att alla krav uppfylls enligt Migrationsverkets standarder."
+        },
+        {
+          "title": "Affärsplansutveckling",
+          "description": "Vårt team hjälper dig att skapa en övertygande affärsplan som demonstrerar finansiell bärkraft och överensstämmer med svenska marknadförväntningar."
+        },
+        {
+          "title": "Finansiella och inkomstbevis",
+          "description": "Hjälp till med att dokumentera finansiella tillgångar för att bevisa din förmåga att stödja både verksamheten och din familj."
+        },
+        {
+          "title": "Kontinuerligt stöd",
+          "description": "Vi erbjuder stöd under hela ansökningsprocessen, svarar på frågor från Migrationsverket och vägleder dig genom eventuella ytterligare krav."
+        },
+        {
+          "title": "Överklagandehjälp",
+          "description": "Om din ansökan avslås tillhandahåller vi vägledning om överklagandeprocessen, vilket hjälper dig att stärka ditt fall för omprövning."
+        }
+      ]
+    },
+    "whyWorkWithUs": {
+      "heading": "Varför arbeta med Sweden Relocators?",
+      "reasons": [
+        {
+          "title": "Expertkunskap",
+          "description": "Vårt team håller sig uppdaterad om de senaste kraven från Migrationsverket och tillhandahåller korrekt och effektiv vägledning."
+        },
+        {
+          "title": "Personlig service",
+          "description": "Vi förstår att varje företag är unikt, och vi skräddarsyr vårt stöd för att möta de specifika behoven för din bransch och personliga situation."
+        },
+        {
+          "title": "Strömlinjeformad process",
+          "description": "Genom att hantera komplexiteten i ansökningsprocessen hjälper vi dig att undvika förseningar och öka dina framgångsmöjligheter."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Etablera ditt företag i Sverige idag",
+      "description": "Om du är redo att etablera ditt företag i Sverige och behöver stöd med egenföretagare-uppehållstillståndsansökan är Sweden Relocators här för att hjälpa. Kontakta oss idag för att starta din affärsresa i Sverige med självförtroende.",
+      "button": "Kom igång",
+      "subtext": "Kraven på egenföretagare kan komma att ändras. Konsultera alltid Migrationsverket för den senaste informationen."
+    }
+  },
+  "newInSweden": {
+    "hero": {
+      "title": "Din guide till svenska myndigheter och att komma igång",
+      "subtitle": "Förstå de offentliga myndigheter som stöder ditt liv i Sverige och hur du får tillgång till väsentliga tjänster"
+    },
+    "intro": {
+      "heading": "Välkommen till Sverige",
+      "description": "Den här guiden täcker alla huvudsakliga svenska myndigheter som nyanlända och invånare kan interagera med. Varje beskrivning förklarar vad myndigheten gör, varför det är viktigt och hur det kan påverka ditt liv i Sverige."
+    },
+    "authorityCategories": [
+      {
+        "id": "immigration",
+        "title": "Migration & befolkning",
+        "authorities": [
+          {
+            "name": "Migrationsverket – Den svenska migrationsmyndigheten",
+            "description": "Migrationsverket är den centrala myndigheten för visum, uppehållstillstånd, asyl och medborgarskap i Sverige. De beslutar vem som får komma in och stanna i landet och under vilka villkor. För nyanlända är detta vanligtvis första kontaktpunkten när man flyttar till Sverige, då de hanterar allt från arbetsutsändningstillstånd till familjeåterförening. De koordinerar också bosättningsstöd för flyktingar."
+          },
+          {
+            "name": "Skatteverket – Den svenska skattemyndigheten",
+            "description": "Skatteverket hanterar skatter men är lika viktig för personlig identitet och registrering. Varje nyanlända måste registrera sig hos Skatteverket för folkbokföring för att få ett personnummer, vilket är väsentligt för sjukvård, bank och skola. Ze utfärdar också svenska ID-kort, behandlar deklarationer och hanterar familjerelaterade skatteförmåner."
+          }
+        ]
+      },
+      {
+        "id": "work",
+        "title": "Arbete, arbetsmiljö & ekonomi",
+        "authorities": [
+          {
+            "name": "Arbetsförmedlingen – Allmän arbetsförmedling",
+            "description": "Arbetsförmedlingen förbinder arbetssökande med arbetsgivare och erbjuder utbildning, praktik och subventionerade anställningsprogram. För nyanlända erbjuder de specialiserat stöd som språkbaserad arbetsutsättning och program för att underlätta inträde på arbetsmarknaden."
+          },
+          {
+            "name": "Arbetsmiljöverket – Arbetsmiljömyndigheten",
+            "description": "Den här myndigheten säkerställer att alla arbetsplatser i Sverige följer lagar och regler om säkerhet, hälsa och rättvis behandling. De utreder olyckor, hanterar klagomål om osäker arbetsmiljö och inspekterar arbetsgivare. För nyanlända som är obekanta med svensk arbetsrätt är Arbetsmiljöverket en skyddsåtgärd."
+          },
+          {
+            "name": "Bolagsverket – Registrerare av bolag",
+            "description": "Bolagsverket registrerar nya företag, föreningar och finansiella konton för företagare. De säkerställer juridisk transparens för företag genom att göra ägarskap, bokföring och företagsstruktur offentlig. Nyanlända som vill starta företag i Sverige måste interagera med Bolagsverket för att registrera sig korrekt."
+          }
+        ]
+      },
+      {
+        "id": "housing",
+        "title": "Boende, socialt stöd & familj",
+        "authorities": [
+          {
+            "name": "Försäkringskassan – Socialförsäkringsmyndigheten",
+            "description": "Försäkringskassan hanterar Sveriges socialförsäkringssystem och tillhandahåller ekonomiskt stöd under livshändelser såsom sjukdom, föräldraskapsperiod, arbetslöshet eller funktionshinder. De betalar barnbidrag, föräldrapenning och bostadstillskott. För nyanlända är registrering hos Försäkringskassan väsentlig för att få tillgång till dessa skydd."
+          },
+          {
+            "name": "Kommunerna – Municípios",
+            "description": "Varje kommun är ansvarig för lokala tjänster som boende, förskolor, grundskolor, SFI (Svenska för invandrare) och samhällsorientering. De tillhandahåller också ekonomiskt stöd till personer utan arbete och hanterar lokala välfärdsbehov. För nyanlända är kommuner huvudkontakten för bostadsstöd och integrationstjänster."
+          },
+          {
+            "name": "Hyresnämnden – Hyresrättsnämnden",
+            "description": "Hyresnämnden är en särskild domstol som löser tvister mellan hyresgäster och hyresvärdar. De hanterar frågor som hyresnivåer, vräkningstål och renovering av lägenheter. För nyanlända säkerställer denna myndighet skydd mot orättvisa bostadspraxis."
+          }
+        ]
+      },
+      {
+        "id": "education",
+        "title": "Utbildning & kompetens",
+        "authorities": [
+          {
+            "name": "Skolverket – Skolmyndigheten",
+            "description": "Skolverket är ansvarig för läroplan, undervisningsstandards och nationella prov i svenska skolor. De behandlar också ansökningar från utländska lärare som söker erkännande. För nyanlända hjälper de barn att integreras i skolsystemet och garanterar kvalitetsundervisning."
+          },
+          {
+            "name": "UHR – Universitets- och högskoleverket",
+            "description": "UHR hanterar antagning till universitet, utvärderar utländska diplom och tillhandahåller stipendier. De är porten för nyanlända som söker högre utbildning i Sverige. Deras roll är särskilt viktig för dem som vill överföra internationell kvalifikation till den svenska arbetsmarknaden."
+          },
+          {
+            "name": "CSN – Centrala Studiestödsnämnden",
+            "description": "CSN tillhandahåller lån och bidrag för studenter i Sverige. Nästan alla studenter interagerar med CSN för att finansiera sina studier. För nyanlända kan CSN ge ekonomisk självständighet medan studier pågår."
+          }
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "Rättigheter, jämlikhet & tillsyn",
+        "authorities": [
+          {
+            "name": "DO – Ombudsmän för diskriminering",
+            "description": "DO bekämpar diskriminering baserad på kön, etnicitet, religion, funktionshinder, ålder eller sexuell läggning. De tillhandahåller juridisk stöd till individer som upplever diskriminering. För nyanlända är DO en nyckelresurs för att försvara mänskliga rättigheter."
+          },
+          {
+            "name": "JO – Justitieombudsmannen",
+            "description": "Ombudsmannen utreder klagomål på feladministration från regeringsmyndigheter eller tjänstemän. Varje invånare kan lämna klagomål om de behandlats orättvist av en myndighet. För nyanlända säkerställer JO lika behandling och ansvarighet i offentlig förvaltning."
+          },
+          {
+            "name": "Konsumentverket – Konsumentmyndigheten",
+            "description": "Konsumentverket skyddar konsumenter från orättvisa metoder, falsk reklam och osäkra produkter. De tillhandahåller information om kontrakt, inköp och konsumenträttigheter. För nyanlända hjälper Konsumentverket när de hanterar okänd marknadsplats."
+          }
+        ]
+      },
+      {
+        "id": "health",
+        "title": "Hälsa & säkerhet",
+        "authorities": [
+          {
+            "name": "Landstingen / Regionerna – Administrativa enheter / Regioner",
+            "description": "Regioner är ansvariga för offentlig sjukvård och sjukhus. De tillhandahåller medicinska tjänster, akutvård och förebyggande hälsoprogram. För nyanlända säkerställer registrering hos din region tillgång till läkare och sjukvårdstjänster."
+          },
+          {
+            "name": "Läkemedelsverket – Läkemedelsmyndigheten",
+            "description": "Ansvarig för att godkänna läkemedel, övervaka apotek och övervakar läkemedelssäkerhet. Ze säkerställer att läkemedel på den svenska marknaden är säkra och effektiva. För nyanlända skyddar Läkemedelsverket hälsan genom att reglera behandlingskvalitet."
+          },
+          {
+            "name": "Folkhälsomyndigheten – Myndigheten för folkhälsa",
+            "description": "Denna myndighet hanterar sjukdomskontroll, vaccinationer och hälsofrämjande. De tillhandahåller viktig information under pandemier eller hälsorisker. För nyanlända säkerställer de lika skydd från folkhälsohot."
+          }
+        ]
+      },
+      {
+        "id": "emergency",
+        "title": "Beredskap & katastrofhantering",
+        "authorities": [
+          {
+            "name": "MSB – Myndigheten för samhällsskydd och beredskap",
+            "description": "MSB koordinerar Sveriges svar på nödsituationer som naturkatastrofer, terrorism eller större olyckor. De främjar också beredskapsprogram lokalt. För nyanlända tillhandahåller MSB vägledning om säkerhet under oväntade händelser."
+          },
+          {
+            "name": "Räddningstjänsten – Lokala räddningstjänster",
+            "description": "Kommunala räddningstjänster hanterar brandskydd, olyckor och lokala nödsituationer. För nyanlända säkerställer kunskap om den lokala räddningstjänsten snabb hjälp vid nödsituationer."
+          }
+        ]
+      }
+    ],
+    "gettingStarted": {
+      "heading": "Komma igång: Väsentliga första steg",
+      "guides": [
+        {
+          "title": "Uppehållstillstånd & ID",
+          "description": "Säkerställ din juridiska rätt att stanna och arbeta i Sverige.",
+          "details": {
+            "handled": "Migrationsverket, Polisen",
+            "requirements": "Pass, uppehållsbeslut, biometrisk foto",
+            "features": "Uppehållskort, svenskt nationalitetsbevis",
+            "tips": "Boka möten tidigt — väntetiderna kan vara långa"
+          }
+        },
+        {
+          "title": "Personnummer (personligt identitetsnummer)",
+          "description": "Väsentlig för sjukvård, bank, kontrakt och skola.",
+          "details": {
+            "handled": "Skatteverket",
+            "requirements": "Pass, uppehållstillstånd, adressbevis",
+            "features": "Unikt ID-nummer för all offentlig och privat service",
+            "tips": "Ansöka omedelbar — förseningar påverkar allt annat"
+          }
+        },
+        {
+          "title": "Sjukvårdsregistrering",
+          "description": "Få tillgång till läkare, recept och akutvårdstjänster.",
+          "details": {
+            "handled": "1177 Vårdguiden",
+            "requirements": "Personnummer, val av lokal vårdcentral",
+            "features": "Digitala hälsoregister, onlinebokningsresept, engelskinformation",
+            "tips": "Välj din vårdcentral så snart du får ditt personnummer"
+          }
+        },
+        {
+          "title": "Socialförsäkring & förmåner",
+          "description": "Täckning för sjukdom, föräldraledighet och barnbidrag.",
+          "details": {
+            "handled": "Försäkringskassan",
+            "requirements": "Personnummer, adressbevis/anställningsbevis",
+            "features": "Barnbidrag, sjukavgiftsersättning, familjefördela",
+            "tips": "Registrera tidigt för att undvika luckstöd"
+          }
+        },
+        {
+          "title": "Banker",
+          "description": "Öppna ett svenskt bankkonto för dagliga transaktioner.",
+          "details": {
+            "handled": "Swedbank, Handelsbanken, SEB, Nordea",
+            "requirements": "Personnummer, ID, adressbevis",
+            "features": "Engelskt stöd, mobilbank, internationella överföringar",
+            "tips": "BankID utfärdas vanligtvis genom din bank"
+          }
+        },
+        {
+          "title": "Mobilnätverk & SIM-kort",
+          "description": "Stanna ansluten för samtal, appar och digital ID-användning.",
+          "details": {
+            "handled": "Telia, Telenor, Tre, Tele2",
+            "requirements": "Pass/ID (personnummer för kontrakt)",
+            "features": "Förbetalda och abonnemang, mobildata",
+            "tips": "Starta med förbetald tills du får ditt personnummer"
+          }
+        },
+        {
+          "title": "Internet & Wi-Fi",
+          "description": "Få bredband eller fiber för hem och arbete.",
+          "details": {
+            "handled": "Telia, Telenor, Tele2, Bahnhof, ComHem",
+            "requirements": "Hyreskontrakt, personnummer (för abonnemang)",
+            "features": "Snabbt fiber, mobilt bredband, digitala fakturor",
+            "tips": "Kontrollera vilka leverantörer ditt byggnader stöder innan signeringen"
+          }
+        },
+        {
+          "title": "Digital ID (BankID / Freja eID+)",
+          "description": "Logga in säkert på banker, myndigheter och tjänster online.",
+          "details": {
+            "handled": "BankID (via din bank), Freja eID+",
+            "requirements": "Personnummer (BankID), pass (Freja eID+)",
+            "features": "Säker inloggning, e-signaturer, regeringstillgång och bankåtkomst",
+            "tips": "Använd Freja eID+ om du inte ännu har ett bankkonto"
+          }
+        },
+        {
+          "title": "Boende & verktyg",
+          "description": "Säkerställ boendet och ställa in elektricitet, värme och internet.",
+          "details": {
+            "handled": "Boverket, E.ON, Vattenfall, Ellevio, Telia",
+            "requirements": "Hyreskontrakt, ID, ibland insättning",
+            "features": "Fjärrvärmning, digitala fakturor, onlinestöd",
+            "tips": "Försörjning ingår ofta inte i hyra — alltid kontrollera ditt leasingavtal"
+          }
+        }
+      ]
+    },
+    "emergencyNumbers": {
+      "heading": "Nödnummer",
+      "numbers": [
+        {
+          "number": "112",
+          "service": "Nödsituationer (Polis, Brandkår, Ambulans)",
+          "details": "Gratis, 24/7, flerspråkig support"
+        },
+        {
+          "number": "114 14",
+          "service": "Polisens icke-nödsamtal",
+          "details": "Anmäl brott, fråga om polisassistans"
+        },
+        {
+          "number": "1177",
+          "service": "Medicinskt råd",
+          "details": "Medicinsk vägledning, närmaste sjukhus, symtom"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Behöver du hjälp att navigera svenska myndigheter?",
+      "description": "Sweden Relocators kan vägleda dig genom att etablera dig i Sverige. Från uppehållstillstånd till personalummerregistrering säkerställer vi en smidig övergång.",
+      "button": "Få expertstöd",
+      "subtext": "Myndigheter och regler kan komma att ändras. Verifiera alltid aktuella krav på officiella myndighetssidor."
+    }
+  },
+  "logisticsServices": {
+    "hero": {
+      "title": "Logistikhantering med Sweden Relocators partnernätverk",
+      "subtitle": "Sömlösa logistiklösningar för flytt och affärsexpansion"
+    },
+    "intro": {
+      "heading": "Omfattande logistiklösningar för varje behov",
+      "description": "Flytt och affärsexpansion är ofta beroende av tillförlitlig logistik. Vi tillhandahåller sömlösa logistikhanteringslösningar utformade för att minska stressen vid gränsöverskridande flytt genom våra noggrant utvalda logistikpartner. Vi samordnar allt från packning och internationell frakt till tullavklarning, lagring, frakthantering och sista mils leverans.",
+      "toolLink": "Vårt mål är enkelt: att säkerställa att dina personliga ägodelar, kontorsutrustning eller affärsvaror når sin destination säkert, i tid och till konkurrenskraftiga priser."
+    },
+    "services": {
+      "heading": "Våra kärnlogistiktjänster",
+      "requirementsLabel": "Vad vi hanterar",
+      "services": [
+        {
+          "id": "packing",
+          "title": "Packning och frakt",
+          "description": "Professionell packning och global frakt med internationella högkvalitativt material",
+          "requirements": [
+            {"label": "Professionellt material", "description": "Internationellt högkvalitativt packematerial och säker hantering"},
+            {"label": "Global täckning", "description": "Personliga ägodelar, företagstillgångar och specialiserad last"},
+            {"label": "Säkerhet", "description": "Säker transport som säkerställer att föremål nå destinationen säkert och effektivt"}
+          ]
+        },
+        {
+          "id": "customs",
+          "title": "Tull och efterlevnad",
+          "description": "Expertnavigering av tullagnar och internationella protokoll",
+          "requirements": [
+            {"label": "Svensk tull", "description": "Tullavklaringsstöd som uppfyller krav från Tullverket"},
+            {"label": "EU-handelsregler", "description": "Full efterlevnad av EU-handelsregler och internationella protokoll"},
+            {"label": "Dokumentation", "description": "All dokumentation förberedd i förväg för att minimera förseningar"}
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Lagerhålls- och lagringslösningar",
+          "description": "Flexibla lagringsalternativ i moderna, säkra anläggningar",
+          "requirements": [
+            {"label": "Säkerhet", "description": "Säker lagring med 24/7 övervakning tillgänglig"},
+            {"label": "Klimatkontroll", "description": "Klimatkontrollerade anläggningar för känslig gods"},
+            {"label": "Flexibilitet", "description": "Kort- och långfristig lagring med flexibla kontrakt"}
+          ]
+        },
+        {
+          "id": "freight",
+          "title": "Frakthantering",
+          "description": "Kostnadseffektiva transportalternativ med realtidsspårning",
+          "requirements": [
+            {"label": "Flera alternativ", "description": "Luftfrakt för brådskande försändelser, sjöfrakt för bulklast, vägtransport för regional flytt"},
+            {"label": "Spårning", "description": "Realtidsspårning så du alltid vet var din försändelse befinner sig"},
+            {"label": "Flexibilitet", "description": "Kostnadseffektiva och flexibla transportlösningar"}
+          ]
+        },
+        {
+          "id": "lastmile",
+          "title": "Sista milens leverans",
+          "description": "Samordna slutlig leverans med valfria uppacknings- och monteringstjänster",
+          "requirements": [
+            {"label": "Snabb leverans", "description": "Ankomst till ditt hem, kontor eller företagsplats i tid"},
+            {"label": "Valfria tjänster", "description": "Uppacknings- och monteringstjänster tillgängliga"},
+            {"label": "Stressfritt", "description": "Säkerställer en helt stressfri övergång"}
+          ]
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Varför välja Sweden Relocators för logistik?",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Global räckvidd med lokal expertis",
+          "description": "Vårt partnernätverk sträcker sig över Europa, Asien, Nordamerika och bortom. Global täckning kombinerad med lokal svensk expertis säkerställer att varje försändelse uppfyller internationella och lokala standarder."
+        },
+        {
+          "id": 2,
+          "title": "End-to-End-samordning",
+          "description": "En kontaktpunkt under hela logistikresorna, från konsultation och packning till leverans och installation, vilket säkerställer konsistens och tydlig kommunikation."
+        },
+        {
+          "id": 3,
+          "title": "Kostnadseffektiva lösningar",
+          "description": "Genom att arbeta med ett granskat nätverk av leverantörer förhandlar vi konkurrenspris samtidigt som vi upprätthåller högsta servicekvalitet."
+        },
+        {
+          "id": 4,
+          "title": "Säker och tillförlitlig transport",
+          "description": "Säkerhet är vår prioritet. Våra partners använder moderna system för säker packning, hantering och transport för att skydda dina varor i varje steg."
+        },
+        {
+          "id": 5,
+          "title": "Transparent spårning och uppdateringar",
+          "description": "Avancerade spårningssystem och regelbundna uppdateringar håller dig informerad. Du vet alltid statusen för din försändelse för fullständig sinnesro."
+        }
+      ]
+    },
+    "process": {
+      "heading": "Hur vår logistikhanteringstjänst fungerar",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Konsultation och planering",
+          "description": "Vi börjar med en konsultation för att förstå dina behov, tidslinje och budget. Utifrån detta utformar vi en skräddarsydd logistikplan."
+        },
+        {
+          "number": 2,
+          "title": "Packning och upphämtning",
+          "description": "Professionell packning och säker upphämtning arrangeras genom våra logistikpartner, vilket säkerställer att föremål förbereds korrekt för transit."
+        },
+        {
+          "number": 3,
+          "title": "Frakt och spårning",
+          "description": "Oavsett luft-, sjö- eller vägtransport spåras din försändelse i realtid med uppskattade ankomstuppdateringar under hela tiden."
+        },
+        {
+          "number": 4,
+          "title": "Tullavklaring och efterlevnad",
+          "description": "All tulldokumentation förbereds och verifieras i förväg, vilket säkerställer smidig avklarning med Tullverket eller annan destinationsmyndighet."
+        },
+        {
+          "number": 5,
+          "title": "Leverans och uppackning",
+          "description": "Vid ankomst hanterar våra logistikpartner slutlig leverans, uppackning och montering om det krävs, så att du kan bosätta dig utan ansträngning."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Redo att förenkla din logistik?",
+      "description": "Med Sweden Relocators logistikhantering får du tillgång till ett pålitligt partnernätverk som kan hantera varje aspekt av din flytt eller försändelse. Skicka en tjänstförfrågan idag.",
+      "button": "Få ditt logistikförsäljning",
+      "subtext": "Oavsett om det är för personlig flytt eller företagslogistik, berätta bara dina behov och vi arrangerar tjänster med våra pålitliga logistikpartner."
+    }
+  },
+  "globalVisitVisas": {
+    "hero": {
+      "title": "Globala visumsärvister – Din portal till sömlös internationell resa",
+      "subtitle": "Pålitligt visumsupport för turism, affärer, utbildning och omlokaliseringar världen över"
+    },
+    "intro": {
+      "heading": "Internationell resa gjord enkel",
+      "description": "På Sweden Relocators gör vi internationell resa enkel, transparent och stressfri genom vår Global Visa Program Initiative. Vår tjänst är utformad för individer, familjer, studenter och yrkesverksamma som vill ha pålitligt visumsupport utan förvirring.",
+      "toolLink": "Vår unika universalvisum formulär låter dig söka om flera destinationer med samma information, vilket sparar tid och minskar fel genom vår säkra webbportal och mobilapp."
+    },
+    "services": {
+      "heading": "Omfattande visumsupport",
+      "requirementsLabel": "Vad vi hanterar",
+      "services": [
+        {
+          "id": "clientid",
+          "title": "Personaliserat klient-ID",
+          "description": "Varje klient får ett unikt ID vid registrering",
+          "requirements": [
+            {"label": "Flera familjer", "description": "Hantera flera ansökningar för olika familjemedlemmar och destinationer samtidigt"},
+            {"label": "Säker åtkomst", "description": "Spåra alla dina visumsansökningar från en enda instrumentpanel"}
+          ]
+        },
+        {
+          "id": "assessment",
+          "title": "Ansökningsbedömning och förberedelse",
+          "description": "Grundlig bakgrundsbedömning och fullständig filförberedelse",
+          "requirements": [
+            {"label": "Bakgrundsöversyn", "description": "Vi granskar ditt reseformål, ekonomiska styrka och resehistoria"},
+            {"label": "Ambassadstandard", "description": "Fullständig fil förberedd inklusive formulär, skrivelser och stödjande dokument skräddarsydd för destinationen"}
+          ]
+        },
+        {
+          "id": "appointment",
+          "title": "Mötetschemaläggning och bekräftelse",
+          "description": "Vi bokar ditt ambassadmöte med direktbekräftelssamtal",
+          "requirements": [
+            {"label": "Ambassadbooking", "description": "Möte planerat med relevant ambassad eller VFS Global-center"},
+            {"label": "Beredskapskontroll", "description": "Vår personal ringer direkt för att granska krav och säkerställa att alla detaljer är korrekta"}
+          ]
+        },
+        {
+          "id": "liaison",
+          "title": "Ambassadförbindelse",
+          "description": "Professionell kommunikation med ambassader för din räkning",
+          "requirements": [
+            {"label": "Frågetydande", "description": "Vårt team hanterar ambassadkommunikation och klargör eventuella frågor"},
+            {"label": "Professionell representation", "description": "Minskar risken för förseningar, ytterligare dokumentförfrågningar eller avslag"}
+          ]
+        },
+        {
+          "id": "file",
+          "title": "Fullständig filförberedelse och leverans",
+          "description": "Din färdiga fil levererad till ditt hem",
+          "requirements": [
+            {"label": "Hotellbekräftelse", "description": "Bekräftade hotellbokningar och flygbokningar inkluderade"},
+            {"label": "Finansiell dokumentation", "description": "Resförsäkring och erforderlig finansiell dokumentation sammanställd"}
+          ]
+        },
+        {
+          "id": "digital",
+          "title": "Säker digital filhantering",
+          "description": "GDPR-kompatibel dokumentlagring och återanvändning för frekventa resenärer",
+          "requirements": [
+            {"label": "Säkerhet", "description": "Alla dokument lagras säkert i GDPR-kompatibelt system"},
+            {"label": "Återanvändbarhet", "description": "Spara information för framtida ansökningar som sparar tid och ansträngning"}
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "heading": "Visumskataloger vi stöder",
+      "intro": "Vårt program täcker större destinationer världen över",
+      "visas": [
+        "Schengenvisum för Europa",
+        "Brittiskt visum",
+        "Amerikanskt visum",
+        "Kanadensiskt visum",
+        "Australensiskt visum",
+        "Nyzeeländskt visum",
+        "Irländskt visum",
+        "Japanskt visum",
+        "Sydkoreanskt visum",
+        "Kinesiskt visum"
+      ],
+      "additional": "Andra destinationer stöds också genom anpassade ambassadbaserade lösningar."
+    },
+    "purposes": {
+      "heading": "Visumsyften vi täcker",
+      "purposes": [
+        {
+          "id": 1,
+          "title": "Turism",
+          "description": "Bevis på buskparkering, sjukförsäkring och ekonomisk täckning arrangerad för smidig godkännande"
+        },
+        {
+          "id": 2,
+          "title": "Besöka familj eller vänner",
+          "description": "Verifierade inbjudningsbrev, sponsordokument och relationsbevisen förberedd"
+        },
+        {
+          "id": 3,
+          "title": "EU-familjereunifiering",
+          "description": "Detaljerad granskning av bostad, inkomst och uppehållsöverensstämmelse för familjetillstånd"
+        },
+        {
+          "id": 4,
+          "title": "Affärs- och konferensresor",
+          "description": "Företagsinbjudningar, sponsorbekräftelser och professionell dokumentation arrangerad"
+        },
+        {
+          "id": 5,
+          "title": "Studier utomlands",
+          "description": "Antagningsmejl, inkomstbevis och utbildningsmärkliga verifierade"
+        },
+        {
+          "id": 6,
+          "title": "Korttidsfunktioner",
+          "description": "Arbetsgivarkontrakt och arbetskompliansöverraskningar slutförda"
+        },
+        {
+          "id": 7,
+          "title": "Medicinsk behandling",
+          "description": "Sjukhusbekräftelser, sjukjournal och ekonomisk sponsring förberedd"
+        },
+        {
+          "id": 8,
+          "title": "Kulturella och idrottsevenemang",
+          "description": "Evenemangregistreringar och officiella inbjudningar sammanställda"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Visumsansökningsprocess",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registrera",
+          "description": "Registrera dig via vår webbplats eller app för att skapa ett konto och få ditt unika klient-ID"
+        },
+        {
+          "number": 2,
+          "title": "Bedömning",
+          "description": "Vårt team granskar ditt formål, berättigande och erforderliga dokument för din destination"
+        },
+        {
+          "number": 3,
+          "title": "Förberedelse",
+          "description": "Vi skapar din kompletta ansökningsfil enligt ambassadstandarder"
+        },
+        {
+          "number": 4,
+          "title": "Möte",
+          "description": "Vi siktar och bekräftar ditt ambassadmöte, med ett samtal för att kontrollera din beredskap"
+        },
+        {
+          "number": 5,
+          "title": "Leverans",
+          "description": "Din slutliga fil levereras till ditt hem med alla mötesdetaljer inkluderade"
+        },
+        {
+          "number": 6,
+          "title": "Inlämning",
+          "description": "Närva mötet med ditt pass och fullständig fil"
+        },
+        {
+          "number": 7,
+          "title": "Spårning och återanvändning",
+          "description": "Spåra framstegen i vår portal och återanvänd din information för framtida visumsansökningar"
+        }
+      ]
+    },
+    "languages": {
+      "heading": "Flerspråkigt stöd",
+      "description": "För att säkerställa att språk aldrig är ett hinder erbjuder vi flerspråkigt stöd på engelska, svenska, urdu, arabiska, punjabi, serbiska, kurdiska, persiska och många andra språk. Våra konsulter förklarar visumsregler på det språk du är mest bekväm med."
+    },
+    "faq": {
+      "heading": "Vanliga frågor",
+      "faqs": [
+        {
+          "id": 1,
+          "question": "Arrangerar du hotellbokningar och resförsäkring för visum?",
+          "answer": "Ja, vi tillhandahåller ambassadgodkända hotellreservationer, flyginerat och resförsäkring för att stärka din visumsansökning."
+        },
+        {
+          "id": 2,
+          "question": "Hur kan jag kontrollera om jag uppfyller villkoren för ett visum?",
+          "answer": "Vårt bedömningsverktyg och experter analyserar dina dokument och resehistoria för att bekräfta berättigande för din valda destination."
+        },
+        {
+          "id": 3,
+          "question": "Hanterar du student- och familjevisum?",
+          "answer": "Ja, vi hanterar studentansökningar, familjebesök och EU-familjereunifiering med fullständig dokumentation och kompliansöversyn."
+        },
+        {
+          "id": 4,
+          "question": "Kan jag ansöka om flera visum med samma fil?",
+          "answer": "Ja, vår system låter dig återanvända dina lagrade dokument för olika länder och visumstyper, vilket sparar tid och ansträngning."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Varför välja Sweden Relocators",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Universalvisum formulär",
+          "description": "Ansök om flera destinationer med samma information, vilket minskar fel och sparar tid"
+        },
+        {
+          "id": 2,
+          "title": "Ambassadsamordning",
+          "description": "Professionell representation med ambassader säkerställer smidig behandling och minskar avslags risk"
+        },
+        {
+          "id": 3,
+          "title": "Flerspråkigt stöd",
+          "description": "Stöd på 9+ språk säkerställer tydlig förståelse av krav"
+        },
+        {
+          "id": 4,
+          "title": "Kompletta reseöverenskommelser",
+          "description": "Hotellbokningar, flygreservationer och försäkringar hanterade för starkare ansökningar"
+        },
+        {
+          "id": 5,
+          "title": "Säkra digitala verktyg",
+          "description": "GDPR-kompatibelt system med säker portal och mobilapp för enkel dokumenthantering"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Redo att resa världen?",
+      "description": "Med Sweden Relocators Global Visa Program Initiative kombinerar vi teknik, expertis och personligt stöd för att göra internationell resa enkel. Börja med din visumsansökning idag.",
+      "button": "Starta din visumsansökning",
+      "subtext": "Vårt team gör dig genom varje steg för att säkerställa att din ansökning lyckas."
+    }
+  },
+  "familyReunification": {
+    "hero": {
+      "title": "Familjeåterförening i Sverige",
+      "subtitle": "Omfattande Guide Under Svensk Nationell Lag"
+    },
+    "intro": {
+      "heading": "Ta Med Din Familie Till Sverige",
+      "description": "Sveriges familjeåterföreningslagar tillåter individer som innehar olika typer av uppehållstillstånd—inklusive arbetstillstånd, näringsidkaretillstånd, PhD- och studenttillstånd samt permanenta uppehållstillstånd—samt flyktingar, att ta med familjemedlemmar till Sverige. Varje ärendetype har specifika krav och bedöms enligt olika bestämmelser i svensk nationell lag.",
+      "infoBox": "Navigera komplexa familjeåterföreningskrav med expertkunskap om svensk nationell lag och bedömningar specifika för tillståndstyp."
+    },
+    "lawsHeading": "Huvudlagar som reglerar familjeåterförening i Sverige",
+    "laws": [
+      {
+        "name": "Utlänningslagen",
+        "description": "Huvudlagstiftningen som reglerar uppehållstillstånd och familjeåterförening för alla utländska medborgare."
+      },
+      {
+        "name": "Tillfälliga Utlänningslagen",
+        "description": "En tillfällig lag som påverkar familjeåterföreningskrav, främst för flyktingar och individer som behöver subsidiärt skydd."
+      },
+      {
+        "name": "Lag om Svenskt Medborgarskap",
+        "description": "Relevant för svenska medborgare och permanenta invånare som bjuder in familjemedlemmar."
+      },
+      {
+        "name": "Socialförsäkringsbalken",
+        "description": "Ger riktlinjer för godtagbara inkomstkällor för försörjningskravet."
+      }
+    ],
+    "eligibility": {
+      "heading": "Vem Kan Sponsras?",
+      "description": "Familjeåterförening är allmänt tillgänglig för berättigade familjemedlemmar enligt svensk lag. Varje relationstyp har specifika behörighetskriterier.",
+      "familyMembers": [
+        {
+          "type": "Make/Maka eller Registrerad Partner",
+          "description": "Lagligt gifta eller registrerade partners"
+        },
+        {
+          "type": "Samboende Partner",
+          "description": "Långtidssamboende, oregistrerade partners kan kvalificera sig om relationen är väldokumenterad"
+        },
+        {
+          "type": "Barn Under 18 År",
+          "description": "Minderåriga barn till tillståndsinnehavaren eller deras make/partner"
+        },
+        {
+          "type": "Föräldrar (För Minderåriga Tillståndsinnehavare)",
+          "description": "För tillståndsinnehavare under 18 år kan föräldrar eller juridiska vårdnadshavare vara berättigade"
+        },
+        {
+          "type": "Utökad Familie",
+          "description": "Andra familjemedlemmar kan övervägas av humanitära skäl"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Försörjnings- och Boskavskrav",
+      "description": "Försörjningskravet är väsentligt för de flesta familjeåterföreningsansökningar, vilket säkerställer att huvudsökanden har tillräcklig inkomst och lämplig bostäder för att försörja familjemedlemmar.",
+      "maintenanceLabel": "Inkomstkrav",
+      "housingLabel": "Boskavskrav",
+      "maintenance": [
+        "Stabil inkomst för att täcka levnadskostnader",
+        "Arbetsavtal eller bevis på egenföretagande",
+        "Senaste lönebesked och skattedeklarationer",
+        "Dokumentation av sociala förmåner om tillämpligt"
+      ],
+      "housing": [
+        "Hyresavtal eller bevis på ägande",
+        "Tillräckligt många rum för alla familjemedlemmar",
+        "Bevis på månadshyra eller ägandekosnader",
+        "Uppfyller Svenska bostadsstandarder"
+      ]
+    },
+    "assessmentHeading": "Bedömningskriterier efter tillståndstyp",
+    "assessmentCriteria": [
+      {
+        "title": "Arbetstillståndsinnehavare",
+        "requirements": ["Långtidsanställning med tillräcklig lön", "Arbetsavtal och lönebesked", "Bevis på finansiell stabilitet", "Lämpligt bostadsarrangemang"]
+      },
+      {
+        "title": "Näringsidkaretillståndsinnehavare",
+        "requirements": ["Lönsam verksamhet med tillräcklig inkomst", "Skattedeklarationer och verksamhetsutdrag", "Preliminär skattetaxering från Skatteverket", "Påvisad verksamhetsviabilitet"]
+      },
+      {
+        "title": "PhD-studenter och Forskare",
+        "requirements": ["Stabil finansiering eller stipendier", "Programvaraktighet vanligtvis längre än ett år", "Inkomstdokumentation från utbildningsinstitution", "Bostadsarrangemang i Sverige"]
+      },
+      {
+        "title": "Permanenta Uppehållstillståndsinnehavare",
+        "requirements": ["Långsiktig bosättning med starka band till Sverige", "Inkomstbedömning med potentiell flexibilitet", "Bedömning av bostadsstandarder", "Möjligen mildare krav"]
+      },
+      {
+        "title": "Flyktingar och Inhemska Skyddinnehavare",
+        "requirements": ["Möjlig befrielse från försörjningskrav inom 3 månader", "Bevis på relation före ankomst till Sverige", "Dokumentation av familjerelation", "Bedömd enligt Tillfälliga Utlänningslagen"]
+      }
+    ],
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Förbereda Dokumentation",
+        "description": "Samla alla nödvändiga handlingar, inklusive pass, bevis på relation (äktenskaps- eller födelsebevis), bostadsavtal och inkomstverifiering."
+      },
+      {
+        "step": "2",
+        "title": "Lämna in Ansökning",
+        "description": "Lämna in ansökningar via Migrationsverkets webportal eller vid en svensk ambassad/konsulat, inklusive relationbevis och bostads-/inkomstverifiering."
+      },
+      {
+        "step": "3",
+        "title": "Migrationsverkets Granskning",
+        "description": "Migrationsverket verifierar att alla krav är uppfyllda och bedömer inkomst, bostäder och familjeberättigande enligt din specifika tillståndstyp."
+      },
+      {
+        "step": "4",
+        "title": "Beslut och Meddelande",
+        "description": "Efter bedömning fattar verket ett beslut. Om godkänd kan familjemedlemmar få uppehållstillstånd motsvarande sponsorns tillståndsvaraktighet."
+      }
+    ],
+    "legalProvisions": {
+      "heading": "Specifika Rättsliga Bestämmelser",
+      "description": "Familjeåterförening i Sverige regleras av specifika rättsliga bestämmelser anpassade till olika tillståndstyper och familjsituationer.",
+      "acts": [
+        {
+          "name": "Utlänningslagen",
+          "details": "Primär rättslig ram för familjeåterförening, omfattande inkomst, bostäder och relationverifiering med försörjnings- och boskavskrav."
+        },
+        {
+          "name": "Tillfälliga Utlänningslagen",
+          "details": "Tillämpar strängare försörjningskrav för flyktingar, med betoning på ekonomisk självständighet bortom tioårsperioden."
+        },
+        {
+          "name": "Socialförsäkringsbalken",
+          "details": "Definierar godtagbara inkomstkällor, särskilt relevant för sponsorer som förlitar sig på förmåner eller arbetslöshet."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Våra Tjänster",
+      "description": "Sweden Relocators erbjuder omfattande stöd för att hjälpa dig navigera familjeåterförening i Sverige och säkerställa att din ansökning uppfyller alla svenska juridiska standarder.",
+      "servicesList": [
+        {
+          "title": "Behörighetsbedömning",
+          "description": "Vi bedömer din specifika tillståndstyp, inkomst, bostäder och familjeberättigande för att bestämma bästa tillvägagångssätt."
+        },
+        {
+          "title": "Dokumentförberedelse",
+          "description": "Hjälp att samla alla nödvändiga handlingar, översätta utländska dokument om nödvändigt och säkerställa fullständig noggrannhet."
+        },
+        {
+          "title": "Ansökningens Inlämning och Övervakning",
+          "description": "Lämnar in din ansökning på dina vägnar och följer upp med Migrationsverket."
+        },
+        {
+          "title": "Överklagandestöd",
+          "description": "Om din ansökning nekas erbjuder vi vägledning genom överklagandeprocessen för att stärka ditt ärende."
+        },
+        {
+          "title": "Juridisk Efterlevnadssäkerande",
+          "description": "Vi säkerställer att all dokumentation uppfyller svenska juridiska standarder och specifika tillståndstyper."
+        }
+      ]
+    },
+    "whyChooseHeading": "Varför välja Sweden Relocators?",
+    "whyChoose": [
+      {
+        "title": "Expertkunskap",
+        "description": "Djupgående kunskap om svenska familjeåterföreningslagar och krav för alla tillståndstyper."
+      },
+      {
+        "title": "Personaliserat Stöd",
+        "description": "Vi anpassar vår assistans till din specifika tillståndstyp och omständigheter för maximal framgång."
+      },
+      {
+        "title": "Effektiv Behandling",
+        "description": "Genom att säkerställa noggrannhet och efterlevnad hjälper vi dig undvika förseningar eller avslag, vilket gör processen smidigare och mer effektiv."
+      }
+    ],
+    "cta": {
+      "heading": "Redo Att Återförena Med Din Familie i Sverige?",
+      "description": "Familjeåterförening är en komplex process med specifika krav för varje tillståndstyp. Låt Sweden Relocators vägleda dig genom familjeåterföreningsprocessen i Sverige, vilket säkerställer att alla juridiska krav är uppfyllda för en framgångsrik ansökning.",
+      "button": "Börja Din Familjeåterföreningsansökning",
+      "subtext": "Vårt expertteam guidar dig genom varje steg av den svenska familjeåterföreningsprocessen."
+    }
+  },
+  "euCitizensRelocation": {
+    "hero": {
+      "title": "EU-familjeatreförening i Sverige",
+      "subtitle": "Omfattande Stöd för EU-medborgare och Deras Familjer"
+    },
+    "intro": {
+      "heading": "Ta Med Din EU-Familie Till Sverige",
+      "description": "Att flytta till Sverige som EU-medborgare ger dig laglig rätt att ta med din familj, och säkerställa att dina närstående kan gå med dig och njuta av Sveriges livskvalitet, sjukvård, utbildning och sociala förmåner. Sweden Relocators tillhandahåller expertöversikt för EU-familjeåterförening, täckande berättigade, dokumentation, uppehållskort, personnummerregistrering, bostäder och integration.",
+      "infoBox": "EU-familjeåterförening i Sverige är baserad på Direktiv 2004/38/EG, som tillåter EU-medborgare som bor i Sverige att ta med familjemedlemmar och få tillgång till sjukvård, utbildning och sociala förmåner på samma villkor som andra invånare."
+    },
+    "whatIs": {
+      "heading": "Vad är EU-familjeåterförening?",
+      "description": "EU-familjeåterförening i Sverige är baserad på Direktiv 2004/38/EG om EU-medborgares och deras familjers rätt att röra sig och bosätta sig fritt inom EU. Det tillåter EU-medborgare som bor i Sverige att ta med familjemedlemmar, vare sig omedelbar eller utökad familj, så länge vissa villkor är uppfyllda."
+    },
+    "immediateFamilyHeading": "Omedelbar Familjemedlemmar Berättigad Till Återförening",
+    "immediateFamily": [
+      {
+        "type": "Make/Maka eller Registrerad Partner",
+        "description": "Inkluderar både motsatt kön och samma könäktenskap och registrerade partnerskap erkänd under svensk lag."
+      },
+      {
+        "type": "Samboende Partner",
+        "description": "Om relationen är långsiktig och erkänd som motsvarande äktenskap i Sverige."
+      },
+      {
+        "type": "Barn Under 21 År",
+        "description": "Biologiska eller adopterade barn till EU-medborgaren eller deras make/partner."
+      },
+      {
+        "type": "Beroende Barn Över 21 År",
+        "description": "Om de är ekonomiskt beroende av EU-medborgaren."
+      },
+      {
+        "type": "Beroende Föräldrar och Mor/Farföräldrar",
+        "description": "Släktingar i den uppåtgående linjen som är ekonomiskt beroende."
+      }
+    ],
+    "extendedFamily": {
+      "heading": "Utökad Familjemedlemmar och Beroende",
+      "description": "I vissa fall kan utökade familjemedlemmar också kvalificera sig om beroende kan bevisas. Detta kan inkludera vuxna syskon, vuxna barn som bor i samma hushåll och andra släktingar med starka beroendebindningar. Berättigande för utökad familjeåterförening är strängare och kräver tydligt bevis på beroende."
+    },
+    "longTermPermitHeading": "Innehavare av Långtidsresidensuppehållstillstånd i EU",
+    "longTermPermitRequirements": [
+      "Inneha ett giltigt långtidsresidensuppehållstillstånd utfärdat av en annan EU-stat",
+      "Ha tillräckliga ekonomiska medel och bostäder i Sverige",
+      "Ansöka om residens i Sverige tillsammans med sina omedelbar familjemedlemmar"
+    ],
+    "residenceCard": {
+      "heading": "Uppehållskort för Familjemedlemmar",
+      "intro": "Familjemedlemmar som planerar att stanna i Sverige i mer än tre månader måste ansöka om ett uppehållskort från Migrationsverket (Sveriges Migrationsverket).",
+      "documentsLabel": "Erforderliga Dokument:",
+      "documents": [
+        "Giltigt pass",
+        "Bevis på familjerelation (äktenskapscertifikat, registrerad partnerskapscertifikat eller födelsebevis)",
+        "Bevis på beroende (för föräldrar, mor/farföräldrar eller barn över 21)",
+        "Bevis på residens i Sverige av EU-medborgaren (hyresavtal, fastighetsägande eller anställningskontrakt)",
+        "Ekonomiskt bevis på att EU-medborgaren kan försörja sig själv och sin familj"
+      ],
+      "note": "Uppehållskort är vanligtvis giltiga i fem år eller så länge EU-medborgaren bor i Sverige."
+    },
+    "personnummer": {
+      "heading": "Personnummer (Svenskt Personnummer)",
+      "intro": "När familjemedlemmar mottar ett uppehållskort måste de registrera sig hos Skatteverket (Sveriges Skatteverket) för att få ett personnummer. Detta nummer är viktigt för:",
+      "uses": [
+        "Få tillgång till sjukvård",
+        "Registrera sig i skolor",
+        "Öppna ett bankkonto",
+        "Underteckna kontrakt (bostäder, mobiltelefon, el)"
+      ]
+    },
+    "healthcare": {
+      "heading": "Sjukvård och Sjukförsäkring",
+      "description": "Familjemedlemmar kan få tillgång till Sveriges offentliga sjukvårdssystem när de har ett personnummer. Tills dess krävs privat sjukförsäkring. För icke-EU-familjemedlemmar rekommenderas omfattande sjukförsäkring som täcker minst EUR 30 000."
+    },
+    "education": {
+      "heading": "Utbildning och Barnomsorg",
+      "programs": [
+        {
+          "name": "Obligatorisk Utbildning",
+          "description": "Kostnadsfri skolgång för barn i åldern 6–16, inklusive måltider"
+        },
+        {
+          "name": "Förskola (Förskola)",
+          "description": "Tillgänglig för barn i åldern 1–5, med subventionerade avgifter"
+        },
+        {
+          "name": "Internationella Skolor",
+          "description": "Alternativ för familjer som söker utbildning på engelska eller andra språk"
+        }
+      ]
+    },
+    "bankAccounts": {
+      "heading": "Bankkonton och Finansiell Integration",
+      "intro": "Efter att ha fått ett personnummer kan familjemedlemmar öppna ett svenskt bankkonto. Erforderliga dokument inkluderar ofta:",
+      "documents": [
+        "ID-kort från Skatteverket",
+        "Uppehållskort",
+        "Bevis på adress",
+        "Bevis på inkomst (om tillämpligt)"
+      ],
+      "note": "Bankkonton möjliggör tillgång till digitala betalningar, onlinebanking och Swish (Sveriges mobilbetalningssystem)."
+    },
+    "language": {
+      "heading": "Språk- och Integrationsstöd",
+      "description": "Att lära sig svenska är avgörande för integration. Familjemedlemmar kan gå SFI-kurser (Svenska för Invandrare) när de är registrerade med ett personnummer. Dessa kostnadsfria, statligt finansierade kurser förbättrar daglig kommunikation och anställningsmöjligheter. Sweden Relocators erbjuder även kulturell orienteringstjänster för att hjälpa familjer att anpassa sig snabbare."
+    },
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Bedömning av Berättigande",
+        "description": "Sweden Relocators kontrollerar om familjemedlemmar är berättigade enligt EU-regler."
+      },
+      {
+        "step": "2",
+        "title": "Dokumentförberedelse",
+        "description": "Samla och översätt erforderliga dokument."
+      },
+      {
+        "step": "3",
+        "title": "Inlämning Till Migrationsverket",
+        "description": "Arkiverar ansökningar om uppehållskort."
+      },
+      {
+        "step": "4",
+        "title": "Uppföljning och Kommunikation",
+        "description": "Hantering av eventuella begäranden från Migrationsverket."
+      },
+      {
+        "step": "5",
+        "title": "Registrering Vid Skatteverket",
+        "description": "Assistans med personnummer, ID-kort och skatteregistrering."
+      },
+      {
+        "step": "6",
+        "title": "Integrationstjänster",
+        "description": "Bostäder, skolor, sjukvård och språkstöd."
+      }
+    ],
+    "services": {
+      "heading": "Hur Sweden Relocators Stödjer Familjer",
+      "description": "Våra omfattande tjänster och digitala portal säkerställer att din familjeåterförening är smooth, compliant och stressfri.",
+      "servicesList": [
+        {
+          "title": "Berättigandekontroller och Juridiska Bedömningar",
+          "description": "Vi verifierar att dina familjemedlemmar är berättigade enligt EU-bestämmelser."
+        },
+        {
+          "title": "Dokumentförberedelse och Certifierade Översättningar",
+          "description": "Alla dokument är professionellt förberedda och översatta för svenska myndigheter."
+        },
+        {
+          "title": "Ansökningsinlämning och Spårning",
+          "description": "Vi lämnar in ansökningar och övervakar framstegen med Migrationsverket."
+        },
+        {
+          "title": "Överklagandeöversikt",
+          "description": "Om ansökningar nekas tillhandahåller vi fullt stöd genom överklandeprocessen."
+        },
+        {
+          "title": "Bostads- och Skolsökning",
+          "description": "Vi assisterar med att hitta lämplig bostad och registrera barn i skolor."
+        },
+        {
+          "title": "Försäkrings- och Sjukvårdsstöd",
+          "description": "Vägledning om tillgång till Sverige och försäkringskrav för sjukvård."
+        }
+      ]
+    },
+    "whySweden": [
+      {
+        "title": "Starkt Socialt Välfärdssystem",
+        "description": "Tillgång till omfattande sjukvård, utbildning och sociala försäkringsförmåner."
+      },
+      {
+        "title": "Kostnadsfri Utbildning och Sjukvård",
+        "description": "Världsklassutbildning och sjukvårdstjänster tillgängliga för alla invånare."
+      },
+      {
+        "title": "Säker och Familjvänlig",
+        "description": "Sverige erbjuder en säker, inkluderande och högkvalitativ miljö för familjer."
+      },
+      {
+        "title": "Säkra Residensrättigheter",
+        "description": "Juridiskt skydd enligt både EU och svenska immigrationslagar."
+      }
+    ],
+    "cta": {
+      "heading": "Redo Att Starta Din EU-Familjeåterföreningsresa?",
+      "description": "Sweden Relocators är här för att säkerställa att din övergång är smooth, compliant och stressfri. Kontakta oss idag för att börja din familjeåterföreningsresa. Vår digitala portal låter familjer hantera profiler, ladda upp dokument och spåra framsteg i realtid.",
+      "button": "Starta Din EU-familjeåterförening",
+      "subtext": "Vårt expertteam guidar din familj genom varje steg av EU-familjeåterföreningsprocessen i Sverige."
+    }
+  },
+  "eorPayroll": {
+    "hero": {
+      "title": "Employer of Record (EOR) & Lönetjänster i Sverige",
+      "subtitle": "Expandera din verksamhet till Sverige utan att öppna en lokal juridisk enhet"
+    },
+    "intro": {
+      "heading": "Strömlinjeformad EOR & Lönelöning för internationell tillväxt",
+      "description": "Att expandera din verksamhet till Sverige eller hantera internationella anställda behöver inte vara komplicerat. På Sweden Relocators tillhandahåller vi en komplett Employer of Record (EOR) och löslöning genom vår onlineportal och mobilapp, vilket hjälper företag att anställa och hantera personal i Sverige utan att öppna en lokal juridisk enhet. Våra tjänster kombinerar compliance, löner och anställdstöd till ett strömlinjeformad system.",
+      "infoBox": "Oavsett om du är ett startup som testar den svenska marknaden, ett multinationellt företag som anställer fjärranställda, eller ett företag som flyttar anställda, säkerställer våra EOR- och lönetjänster juridisk compliance, korrekt lönelöning och anställdsnöjdhet."
+    },
+    "whatIsEOR": {
+      "heading": "Vad är Employer of Record (EOR)?",
+      "description": "En Employer of Record (EOR) är en betrodd tredje part som blir den juridiska arbetsgivaren för din arbetskraft i Sverige. Medan du styr det dagliga arbetet hanterar vi de juridiska, administrativa och compliance-aspekterna av anställning. Detta inkluderar utformning av anställningskontrakt som följde svensk arbetslagstiftning, registrering av anställda hos Skatteverket, hantering av löner, skattetillhållanden och sociala avgifter, hantering av förmånssystem, pensioner och försäkringar, och säkerställande av compliance med svenska anställningsstandarder och EU-regler. För företag innebär det att du kan expandera snabbt till Sverige utan att bildandenna ett dottörföretag eller spendera månader på lagstiftningsförberedelser."
+    },
+    "whyCompaniesUse": {
+      "heading": "Varför använder företag EOR-tjänster i Sverige",
+      "intro": "Sverige är en av de starkaste ekonomierna i Europa, känd för sina innovationsdrivna marknader, högt skickad arbetskraft och starka juridiska skydd för anställda. Men för utländska företag kan anställning av personal i Sverige vara utmanande på grund av följande skäl:",
+      "challenges": [
+        {
+          "title": "Komplex anställningslagstiftning",
+          "description": "Sverige tillerkläyder starka arbetstagarrättigheter enligt LAS (Lag om anställningsskydd)."
+        },
+        {
+          "title": "Strikt skattecompliance",
+          "description": "Arbetsgivare måste registrera sig hos Skatteverket och hantera PAYE-skatteavdrag, pensioner och arbetsgivaravgifter."
+        },
+        {
+          "title": "Tvåtidskrävande installation",
+          "description": "Att etablera en lokal enhet (AB) kan ta månader och förse verksamhetens expansion."
+        },
+        {
+          "title": "Höga compliancerisker",
+          "description": "Misstag i lönelöning, skatt eller förmånsadministration kan leda till böter eller tvister."
+        }
+      ],
+      "conclusion": "Vår EOR-tjänst löser dessa utmaningar genom att agera som din juridiska arbetsgivare, så att du kan fokusera på tillväxt medan vi hanterar compliance."
+    },
+    "howItWorks": {
+      "heading": "Hur Sweden Relocators EOR-tjänst fungerar",
+      "description": "Vi tillhandahåller en stegvis digital process för anställning och hantering av anställda i Sverige:",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Företagsregistrering",
+          "description": "Registrera dig som arbetsgivare på vår portal."
+        },
+        {
+          "step": 2,
+          "title": "Anställdintroduktion",
+          "description": "Lägg till anställduppgifter (kontrakt, löner, förmånssystem) genom vår digitala plattform."
+        },
+        {
+          "step": 3,
+          "title": "Juridisk compliance",
+          "description": "Vi utlämnar anställningskontrakt som följde svensk och EU-lag."
+        },
+        {
+          "step": 4,
+          "title": "Lönebehandling",
+          "description": "Vårt system beräknar nettolöner, skattetillhållanden och sociala avgifter."
+        },
+        {
+          "step": 5,
+          "title": "Löpande stöd",
+          "description": "Vi hanterar förmånssystem, pensioner och HR-compliance under hela anställningen."
+        },
+        {
+          "step": 6,
+          "title": "Avslutande",
+          "description": "Om kontrakt avslutas hanterar vi uppsagningsperioder, avgifter och uppsagningscommitment."
+        }
+      ]
+    },
+    "payrollProcess": {
+      "heading": "Lönetjänster i Sverige - Hela processen",
+      "intro": "Lönelöning i Sverige är kraftigt reglerad, och noggrannhet är avgörande. Våra lönetjänster är fullt integrerade med vårt EOR-system för att säkerställa smidiga, kompatibla betalningar.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Anställdinstallation",
+          "description": "Mata in anställduppgifter på portalen: lön, förmånssystem, pension och avdrag. Registrera hos Skatteverket för PAYE-skatter och sociala avgifter."
+        },
+        {
+          "step": 2,
+          "title": "Månatlig lönebehandling",
+          "description": "Automatiserad löneberäkning inklusive skatter, pensioner och försäkringar. Arbetsgivaravgifter beräknas och rapporteras. Compliance med kollektiva arbetsavtal (om tillämpligt)."
+        },
+        {
+          "step": 3,
+          "title": "Lönebetalningar",
+          "description": "Direkta bankinsattningar på anställdkonton. Anställda får tillgång till digitala lönespecifikationer med fullständig uppdelning av intjäning och avdrag."
+        },
+        {
+          "step": 4,
+          "title": "Skattecompatibility",
+          "description": "Månatlig skatteanmalan till Skatteverket. Årlig rapportering av inkomstpåstånden för anställda. Säkra journaler lagrade på portalen för båda arbetsgivar- och anställdaccess."
+        },
+        {
+          "step": 5,
+          "title": "Förmånsadministration",
+          "description": "Konfigurering av pensioner, sjukförsäkring och föräldraleighetsförmånssystem enligt svenska standarder. Automatisk administration genom lönesystemet."
+        }
+      ]
+    },
+    "complianceAndLegal": {
+      "heading": "Compliance och juridiska referenser",
+      "intro": "Våra EOR- och lönetjänster fungerar strikt enligt svenska och EU-regler:",
+      "references": [
+        {
+          "title": "Lag om anställningsskydd (LAS)",
+          "description": "Reglerar anställningstrygghet och uppsagningsregler."
+        },
+        {
+          "title": "Swedish Tax Agency (Skatteverket)",
+          "description": "Övervakar PAYE, arbetsgivaravgifter och anslagningar."
+        },
+        {
+          "title": "Socialforsakringslag",
+          "description": "Regulerar pensioner, föräldraleighet och anställdrskydd."
+        },
+        {
+          "title": "GDPR-kompatibilitet",
+          "description": "Säkerställer dataskydd dels anställda."
+        },
+        {
+          "title": "EU-direktiv",
+          "description": "Inklusive fri rörlighet principler och arbetstagarrättigheter enligt EU-lagstiftning."
+        }
+      ],
+      "conclusion": "Genom att använda Sweden Relocators undviker ditt företag compliancerisker och säkerställer att alla anställningsforpliktelser förfylldes."
+    },
+    "benefitsForCompanies": {
+      "heading": "Fördelar för företag",
+      "benefits": [
+        {
+          "title": "Expandera snabbt",
+          "description": "Anstall personal i Sverige utan att öppna ett dottörföretag."
+        },
+        {
+          "title": "Spara tid och kostnader",
+          "description": "Undvik juridisk installation, redovisning och HR-administration."
+        },
+        {
+          "title": "Stanna compatibel",
+          "description": "All anställning, skatt och löner hanteras inom svensk lagstiftning."
+        },
+        {
+          "title": "Skalera enkelt",
+          "description": "Lägg till eller ta bort anställda snabbt baserat på verksamhetsbehov."
+        },
+        {
+          "title": "En digital plattform",
+          "description": "Hantera allt genom vår portal och app."
+        }
+      ]
+    },
+    "benefitsForEmployees": {
+      "heading": "Fördelar för anställda",
+      "benefits": [
+        {
+          "title": "Snabb lönebetalning",
+          "description": "Pålitlig lönelöning med transparenta lönespecifikationer."
+        },
+        {
+          "title": "Förmånssystem och pensioner",
+          "description": "Fullständig compliance med det svenska förmånssystemet."
+        },
+        {
+          "title": "Juridisk skydd",
+          "description": "Anställningskontrakt följde svenska standarder."
+        },
+        {
+          "title": "Förtroende & stabilitet",
+          "description": "Anställda känner sig säkra, vilket förbättrar retentionen."
+        }
+      ]
+    },
+    "whoShouldUse": {
+      "heading": "Vem bör använda EOR- och lönetjänster?",
+      "intro": "Våra lösningar är ideala för:",
+      "solutions": [
+        {
+          "title": "Startups och SME:er",
+          "description": "Anstall personal utan tunga installationskostnader."
+        },
+        {
+          "title": "Globala företag",
+          "description": "Expandera till Sverige utan lokal inkorporering."
+        },
+        {
+          "title": "Projektbaserad anställning",
+          "description": "Kort tidsanställda eller säsongsbundna arbetare hanteras enkelt."
+        },
+        {
+          "title": "Fjärranställda team",
+          "description": "Anstall fjärranställda i Sverige compatibelt."
+        },
+        {
+          "title": "Flytt av anställda",
+          "description": "Flytta anställda till Sverige med fullständig HR-stöd."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Varför väljer man Sweden Relocators?",
+      "reasons": [
+        {
+          "title": "Allt-i-ett digital portal",
+          "description": "Hantera kontrakt, löner och compliance i ett system."
+        },
+        {
+          "title": "Expertkunskap om svensk arbetsr$tt",
+          "description": "Minska juridiska och skatterisker."
+        },
+        {
+          "title": "Transparenta processer",
+          "description": "Realtidsrapporter och journaler för arbetsgivare och anställda."
+        },
+        {
+          "title": "Komplett flutt support",
+          "description": "Bortom EOR hjälper vi med bostad, visum och integration."
+        },
+        {
+          "title": "Flerspråkig stöd",
+          "description": "Hjälp på engelska, svenska, urdu, arabiska, persiska och mer."
+        }
+      ]
+    },
+    "gettingStarted": {
+      "heading": "Kom igång",
+      "steps": [
+        "Registrera dig som företag på vår portal.",
+        "Lägg till anställda med lön och kontraktuppgifter.",
+        "Aktivera löner och compliance - vi hanterar resten.",
+        "Fokusera på verksamhetstillväxt medan vi hanterar anställning."
+      ]
+    },
+    "conclusion": {
+      "heading": "Expandera till Sverige med vänlighet",
+      "description": "Med Sweden Relocators EOR (Employer of Record) och lönetjänster kan ditt företag expandera till Sverige med vänlighet. Vi hanterar juridisk, skatte- och lönekomplexitet, medan du fokuserar på att bygga din verksamhet. Oavsett om du behöver en anställd eller ett helt team säkerställer vår plattform smidig personalhantering."
+    },
+    "cta": {
+      "heading": "Är du redo att expandera din verksamhet till Sverige?",
+      "description": "Låt Sweden Relocators hantera komplexiteten med EOR- och lönehantering. Våra experter guidar dig genom hela processen och säkerställer fullständig juridisk compliance och anställdsnöjdhet.",
+      "button": "Kom igång med EOR-tjänster",
+      "subtext": "Vårt dedikerat team är redo att svara på alla dina frågor om anställning av personal i Sverige."
+    }
   }
 }

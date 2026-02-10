@@ -1,0 +1,92 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "Sysselsättningsgrad: 69,6%",
+      "educationRate": "Utbildningsgrad: 85,2%",
+      "genderRatio": "Könsfördelning: ~1:1",
+      "countryName": "Sverige",
+      "gdp": "BNP: 610,1 miljarder USD",
+      "population": "Total befolkning: 10,65 miljoner"
+    },
+    "links": {
+      "newInSweden": "Ny i Sverige",
+      "services": "Tjänster",
+      "housing": "Bostäder",
+      "about": "Om oss",
+      "contact": "Kontakta oss",
+      "bookAppointment": "Boka möte",
+      "login": "Logga in",
+      "assessment": "Bedömning"
+    },
+    "dropdowns": {
+      "services": {
+        "immigration": "INVANDRING",
+        "asylum": "Asyl",
+        "asylumDesc": "Du måste vara i Sverige för att ansöka om asyl",
+        "relocateToSweden": "Flytta till Sverige",
+        "relocateToSwedenDesc": "Personnummer",
+        "relocateToDenmark": "Flytta till Danmark",
+        "relocateToDenmarkDesc": "CPR är den centrala befolkningsregistreringen",
+        "workPermit": "Arbetstillstånd",
+        "workPermitDesc": "Arbetstillståndet är ett juridiskt dokument",
+        "studyInEu": "Studera i EU",
+        "studyInEuDesc": "Om du överväger att studera i Europa",
+        "globalVisitVisas": "Globala besöksviseringar",
+        "globalVisitVisasDesc": "För att besöka Sverige under en kort period",
+        "appealCases": "Överklaganden",
+        "appealCasesDesc": "Experthjälp med invandringsbeslut",
+        "business": "FÖRETAG",
+        "businessPermit": "Näringsvisa",
+        "businessPermitDesc": "Svensk affärskultur och praxis",
+        "businessVisit": "Företagsbesök",
+        "businessVisitDesc": "Utländska personer som vill besöka Sverige",
+        "logisticsServices": "Logistiktjänster",
+        "logisticsServicesDesc": "Förenkla din flytt med vår logistik",
+        "companyRegistration": "Företagsregistrering",
+        "companyRegistrationDesc": "Om du planerar att registrera ett företag",
+        "eorPayroll": "EOR och löner",
+        "eorPayrollDesc": "Vi erbjuder en enkel lösning",
+        "family": "FAMILJ",
+        "familyReunification": "Familjeåterförening",
+        "familyReunificationDesc": "Familjeåterförening är en juridisk process",
+        "euCitizensParentsPermit": "EU-medborgares föräldratillstånd",
+        "euCitizensParentsPermitDesc": "Föräldrar till ett barn under 18 år",
+        "citizenship": "MEDBORGARSKAP",
+        "citizenshipLabel": "Medborgarskap",
+        "citizenshipDesc": "När du bor i Sverige under en viss tid",
+        "euCitizensRelocation": "EU-medborgares omflyttning",
+        "euCitizensRelocationDesc": "Familjeåterförening betyder att familjemedlemmar"
+      },
+      "housing": {
+        "availableHousing": "TILLGÄNGLIGA BOSTÄDER",
+        "availableHousingLink": "Tillgängliga bostäder",
+        "availableHousingDesc": "Bläddra bland alla tillgängliga bostadsalternativ",
+        "rentalApartments": "Hyresbostäder",
+        "rentalApartmentsDesc": "Hitta möblerade och omöblerade lägenheter",
+        "studentHousing": "Studentboende",
+        "studentHousingDesc": "Boende dedikerat för studenter",
+        "lookingForHousing": "SÖK EFTER BOSTÄDER",
+        "housingSearch": "Bostadssökning",
+        "housingSearchDesc": "Låt oss hjälpa dig att hitta rätt hem",
+        "roommateMatching": "Motsvarar rumskompis",
+        "roommateMatchingDesc": "Hitta kompatibla rumskamrater och delat boende"
+      },
+      "assessment": {
+        "visaAssessments": "VISABEDÖMNINGAR",
+        "businessVisa": "Affärsvisa",
+        "businessVisaDesc": "Affärsvisa tillåter resor för affärsändamål",
+        "visitVisa": "Besöksvisa",
+        "visitVisaDesc": "Besöksvisa tillåter korta vistelser i Sverige",
+        "studentVisa": "Studentvisa",
+        "studentVisaDesc": "Studentvisa tillåter studier i Sverige",
+        "permitsAndStatus": "TILLSTÅND OCH STATUS",
+        "familyReunification": "Familjeåterförening",
+        "familyReunificationDesc": "Familjeåterföreningsvisa tillåter familjemedlemmar att ansluta",
+        "workPermit": "Arbetstillstånd",
+        "workPermitDesc": "Arbetstillståndet tillåter anställning i Sverige",
+        "longtermEuResidence": "Långvarig EU-residens",
+        "longtermEuResidenceDesc": "Långvarig residensstatus för långtidsboende"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "شرح ملازمت: 69.6%",
+      "educationRate": "تعلیم کی شرح: 85.2%",
+      "genderRatio": "صنف کا تناسب: ~1:1",
+      "countryName": "سویڈن",
+      "gdp": "جی ڈی پی: 610.1 بلین امریکی ڈالر",
+      "population": "کل آبادی: 10.65 ملین"
+    },
+    "links": {
+      "newInSweden": "سویڈن میں نیا",
+      "services": "خدمات",
+      "housing": "رہائش",
+      "about": "ہمارے بارے میں",
+      "contact": "ہم سے رابطہ کریں",
+      "bookAppointment": "ملاقات بک کریں",
+      "login": "لاگ ان",
+      "assessment": "تشخیص"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

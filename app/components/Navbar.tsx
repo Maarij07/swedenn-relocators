@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import LanguageSelector from './LanguageSelector';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'next/navigation';
@@ -10,19 +10,55 @@ interface DropdownMenu {
   [key: string]: boolean;
 }
 
+interface Language {
+  code: string;
+  name: string;
+  nativeName: string;
+  flagCode: string;
+}
+
+const languageMap: Record<string, Language> = {
+  en: { code: 'en', name: 'English', nativeName: 'English', flagCode: 'us' },
+  sv: { code: 'sv', name: 'Swedish', nativeName: 'Svenska', flagCode: 'se' },
+  da: { code: 'da', name: 'Danish', nativeName: 'Dansk', flagCode: 'dk' },
+  no: { code: 'no', name: 'Norwegian', nativeName: 'Norsk', flagCode: 'no' },
+  fi: { code: 'fi', name: 'Finnish', nativeName: 'Suomi', flagCode: 'fi' },
+  de: { code: 'de', name: 'German', nativeName: 'Deutsch', flagCode: 'de' },
+  fr: { code: 'fr', name: 'French', nativeName: 'Français', flagCode: 'fr' },
+  it: { code: 'it', name: 'Italian', nativeName: 'Italiano', flagCode: 'it' },
+  es: { code: 'es', name: 'Spanish', nativeName: 'Español', flagCode: 'es' },
+  el: { code: 'el', name: 'Greek', nativeName: 'Ελληνικά', flagCode: 'gr' },
+  nl: { code: 'nl', name: 'Dutch', nativeName: 'Nederlands', flagCode: 'nl' },
+  ar: { code: 'ar', name: 'Arabic', nativeName: 'العربية', flagCode: 'ae' },
+  fa: { code: 'fa', name: 'Persian', nativeName: 'فارسی', flagCode: 'ir' },
+  ur: { code: 'ur', name: 'Urdu', nativeName: 'اردو', flagCode: 'pk' },
+  pa: { code: 'pa', name: 'Punjabi', nativeName: 'ਪੰਜਾਬੀ', flagCode: 'in' },
+  ps: { code: 'ps', name: 'Pashto', nativeName: 'پشتو', flagCode: 'af' },
+  te: { code: 'te', name: 'Telugu', nativeName: 'తెలుగు', flagCode: 'in' },
+  ta: { code: 'ta', name: 'Tamil', nativeName: 'தமிழ்', flagCode: 'in' },
+  nb: { code: 'nb', name: 'Norwegian', nativeName: 'Norsk', flagCode: 'no' },
+};
+
 export default function Navbar() {
   const { i18n, t } = useTranslation();
   const params = useParams();
   const locale = params?.locale as string || 'en';
-  const isSv = i18n.language === 'sv';
   const [isOpen, setIsOpen] = useState(false);
   const [languageSelectorOpen, setLanguageSelectorOpen] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState('en');
+  const [displayLanguage, setDisplayLanguage] = useState<Language>(languageMap.en);
   const [openDropdowns, setOpenDropdowns] = useState<DropdownMenu>({
     services: false,
     housing: false,
     assessment: false,
   });
+
+  useEffect(() => {
+    // Update display language when i18n language changes
+    const langCode = i18n.language || 'en';
+    setCurrentLanguage(langCode);
+    setDisplayLanguage(languageMap[langCode] || languageMap.en);
+  }, [i18n.language]);
 
   const toggleDropdown = (key: string) => {
     setOpenDropdowns(prev => ({
@@ -33,6 +69,11 @@ export default function Navbar() {
 
   const closeAllDropdowns = () => {
     setOpenDropdowns({ services: false, housing: false, assessment: false });
+  };
+
+  const handleLanguageChange = (languageCode: string) => {
+    setCurrentLanguage(languageCode);
+    setDisplayLanguage(languageMap[languageCode] || languageMap.en);
   };
 
   return (
@@ -95,12 +136,12 @@ export default function Navbar() {
                 className="flex items-center gap-2 4k:gap-4 px-3 py-1.5 lg:px-4 lg:py-2 rounded-lg hover:bg-gray-200 transition-colors"
               >
                 <img
-                  src={`https://flagcdn.com/w40/us.png`}
-                  alt="Language"
+                  src={`https://flagcdn.com/w40/${displayLanguage.flagCode}.png`}
+                  alt={displayLanguage.name}
                   className="w-5 h-4 4k:w-10 4k:h-8 rounded-sm object-cover"
                 />
                 <span className="text-sm lg:text-base 4k:text-xl text-gray-700 font-medium hidden sm:inline">
-                  {isSv ? 'Engelska' : 'English'}
+                  {displayLanguage.name}
                 </span>
               </button>
             </div>
@@ -183,92 +224,92 @@ export default function Navbar() {
                     <div className="grid grid-cols-4 gap-8 xl:gap-12">
                       {/* IMMIGRATION Column */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">IMMIGRATION</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.immigration')}</h3>
                         <div className="space-y-4">
                           <a href={`/${locale}/services/asylum`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Asylum</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">You must be in Sweden to apply for asylum</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.asylum')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.asylumDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/relocate-to-sweden`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Relocate to Sweden</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Personal identification number</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.relocateToSweden')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.relocateToSwedenDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/relocate-to-denmark`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Relocate to Denmark</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">CPR is the Central Civil Registration</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.relocateToDenmark')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.relocateToDenmarkDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/work-permit`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Work Permit</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Work permit refers to a legal document</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.workPermit')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.workPermitDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/study-in-eu`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Study in EU</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">If you're considering studying in Europe</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.studyInEu')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.studyInEuDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/global-visit-visas`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Global Visit Visas</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">For visiting Sweden for a short period</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.globalVisitVisas')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.globalVisitVisasDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/appeal-cases`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Appeal Cases</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Expert help with immigration appeals</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.appealCases')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.appealCasesDesc')}</div>
                           </a>
                         </div>
                       </div>
 
                       {/* BUSINESS Column */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">BUSINESS</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.business')}</h3>
                         <div className="space-y-4">
                           <a href={`/${locale}/services/business-permit`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Business Permit</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Swedish business culture and practices</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.businessPermit')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.businessPermitDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/business-visit`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Business Visit</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Foreign individuals wanting to visit Sweden</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.businessVisit')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.businessVisitDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/logistics-services`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Logistics Services</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Streamline your move with our logistics...</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.logisticsServices')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.logisticsServicesDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/company-registration`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Company Registration</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">If you're planning to register a company</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.companyRegistration')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.companyRegistrationDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/eor-payroll`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EOR & Payroll</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">We provide you with an easy solution</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.eorPayroll')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.eorPayrollDesc')}</div>
                           </a>
                         </div>
                       </div>
 
                       {/* FAMILY Column */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">FAMILY</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.family')}</h3>
                         <div className="space-y-4">
                           <a href={`/${locale}/services/family-reunification`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Family Reunification</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Family reunification is a legal process</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.familyReunification')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.familyReunificationDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/eu-citizens-parents-permit`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens' Parents Permit</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Parents of a child under 18 years</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.euCitizensParentsPermit')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.euCitizensParentsPermitDesc')}</div>
                           </a>
                         </div>
                       </div>
 
                       {/* CITIZENSHIP Column */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">CITIZENSHIP</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.citizenship')}</h3>
                         <div className="space-y-4">
                           <a href={`/${locale}/services/citizenship`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Citizenship</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">When you live in Sweden for a certain period...</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.citizenshipLabel')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.citizenshipDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/eu-citizens-relocation`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens' Relocation</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Family reunification means family members...</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.euCitizensRelocation')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.euCitizensRelocationDesc')}</div>
                           </a>
                         </div>
                       </div>
@@ -281,7 +322,7 @@ export default function Navbar() {
                 href={`/${locale}/about`}
                 className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
               >
-                {isSv ? 'Om oss' : 'About us'}
+                {t('navbar.links.about')}
               </a>
 
               {/* Housing Dropdown */}
@@ -304,29 +345,29 @@ export default function Navbar() {
                   >
                     <div className="grid grid-cols-2 gap-8">
                       <div>
-                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">AVAILABLE HOUSING</h3>
+                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">{t('navbar.dropdowns.housing.availableHousing')}</h3>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">Available Housing</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Browse all available housing options</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.housing.availableHousingLink')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.housing.availableHousingDesc')}</div>
                         </a>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">Rental Apartments</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Find furnished and unfurnished apartments</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.housing.rentalApartments')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.housing.rentalApartmentsDesc')}</div>
                         </a>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">Student Housing</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Housing dedicated for students</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.housing.studentHousing')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.housing.studentHousingDesc')}</div>
                         </a>
                       </div>
                       <div>
-                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">LOOKING FOR HOUSING</h3>
+                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">{t('navbar.dropdowns.housing.lookingForHousing')}</h3>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">Housing Search</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Let us help you find the right home</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.housing.housingSearch')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.housing.housingSearchDesc')}</div>
                         </a>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">Roommate Matching</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Find compatible roommates and shared housing</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.housing.roommateMatching')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.housing.roommateMatchingDesc')}</div>
                         </a>
                       </div>
                     </div>
@@ -354,33 +395,33 @@ export default function Navbar() {
                   >
                     <div className="grid grid-cols-2 gap-8">
                       <div>
-                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">VISA ASSESSMENTS</h3>
+                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">{t('navbar.dropdowns.assessment.visaAssessments')}</h3>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">Business Visa</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Business visa allows travel for business purposes</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.assessment.businessVisa')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.businessVisaDesc')}</div>
                         </a>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">Visit Visa</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Visit visa allows short stays in Sweden</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.assessment.visitVisa')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.visitVisaDesc')}</div>
                         </a>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">Student Visa</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Student visa allows studying in Sweden</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.assessment.studentVisa')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.studentVisaDesc')}</div>
                         </a>
                       </div>
                       <div>
-                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">PERMITS AND STATUS</h3>
+                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">{t('navbar.dropdowns.assessment.permitsAndStatus')}</h3>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">Family Reunification</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Family reunification visa allows family members to join</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.assessment.familyReunification')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.familyReunificationDesc')}</div>
                         </a>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">Work Permit</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Work permit authorizes employment in Sweden</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.assessment.workPermit')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.workPermitDesc')}</div>
                         </a>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">Long-term EU Residence</div>
-                          <div className="text-xs text-gray-600 mt-0.5">Long-term residence status for long-term residents</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.assessment.longTermEU')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.longTermEUDesc')}</div>
                         </a>
                       </div>
                     </div>
@@ -392,17 +433,17 @@ export default function Navbar() {
                 href={`/${locale}/contact`}
                 className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
               >
-                {isSv ? 'Kontakta oss' : 'Contact us'}
+                {t('navbar.links.contact')}
               </a>
             </div>
 
             {/* CTA Buttons */}
             <div className="hidden lg:flex items-center gap-3 4k:gap-6 flex-shrink-0">
               <button className="px-5 xl:px-6 4k:px-12 py-2.5 xl:py-3 4k:py-6 text-sm xl:text-[15px] 4k:text-2xl font-medium text-black bg-white border-2 border-black rounded-lg hover:bg-gray-50 transition-all whitespace-nowrap">
-                {isSv ? 'Boka möte' : 'Book Appointment'}
+                {t('navbar.links.bookAppointment')}
               </button>
               <button className="px-5 xl:px-6 4k:px-12 py-2.5 xl:py-3 4k:py-6 text-sm xl:text-[15px] 4k:text-2xl font-medium text-white bg-black rounded-lg hover:bg-gray-800 transition-all whitespace-nowrap">
-                {isSv ? 'Logga in' : 'Login'}
+                {t('navbar.links.login')}
               </button>
             </div>
 
@@ -462,7 +503,7 @@ export default function Navbar() {
         open={languageSelectorOpen}
         onClose={() => setLanguageSelectorOpen(false)}
         currentLanguage={currentLanguage}
-        onLanguageChange={(code) => setCurrentLanguage(code)}
+        onLanguageChange={handleLanguageChange}
       />
     </nav>
   );

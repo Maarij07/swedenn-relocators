@@ -1,0 +1,250 @@
+{
+  "eorPayroll": {
+    "hero": {
+      "title": "Employer of Record (EOR) & Payroll Services in Sweden",
+      "subtitle": "Expand Your Business Into Sweden Without Opening a Local Entity"
+    },
+    "intro": {
+      "heading": "Streamlined EOR & Payroll for International Growth",
+      "description": "Expanding your business into Sweden or managing international employees does not have to be complicated. At Sweden Relocators, we provide a complete Employer of Record (EOR) and Payroll solution through our online portal and mobile app, helping companies hire and manage staff in Sweden without opening a local legal entity. Our services combine compliance, payroll, and employee support into one streamlined system.",
+      "infoBox": "Whether you are a startup testing the Swedish market, a multinational hiring remote staff, or a company relocating employees, our EOR & payroll services ensure legal compliance, accurate payroll, and employee satisfaction."
+    },
+    "whatIsEOR": {
+      "heading": "What is Employer of Record (EOR)?",
+      "description": "An Employer of Record (EOR) is a trusted third party that becomes the legal employer of your workforce in Sweden. While you direct the day-to-day work, we handle the legal, administrative, and compliance aspects of employment. This includes drafting employment contracts compliant with Swedish labor law, registering employees with Skatteverket (Swedish Tax Agency), managing payroll, tax withholdings, and social contributions, handling benefits, pensions, and insurance, and ensuring compliance with Swedish employment standards and EU regulations. For businesses, this means you can expand quickly into Sweden without incorporating a subsidiary or spending months on regulatory setup."
+    },
+    "whyCompaniesUse": {
+      "heading": "Why Companies Use EOR Services in Sweden",
+      "intro": "Sweden is one of the strongest economies in Europe, known for its innovation-driven markets, highly skilled workforce, and strong legal protections for employees. But for foreign companies, hiring staff in Sweden can be challenging due to the following reasons:",
+      "challenges": [
+        {
+          "title": "Complex Employment Laws",
+          "description": "Sweden enforces strong worker rights under the Employment Protection Act (LAS)."
+        },
+        {
+          "title": "Strict Tax Compliance",
+          "description": "Employers must register with Skatteverket and manage PAYE tax deductions, pensions, and employer contributions."
+        },
+        {
+          "title": "Time-consuming Setup",
+          "description": "Establishing a local entity (AB) can take months, delaying business expansion."
+        },
+        {
+          "title": "High Compliance Risks",
+          "description": "Mistakes in payroll, tax, or benefits administration can result in penalties or disputes."
+        }
+      ],
+      "conclusion": "Our EOR service solves these challenges by acting as your legal employer, letting you focus on growth while we manage compliance."
+    },
+    "howItWorks": {
+      "heading": "How Sweden Relocators' EOR Service Works",
+      "description": "We provide a step-by-step digital process for hiring and managing employees in Sweden:",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Company Sign-Up",
+          "description": "Register as an employer on our portal."
+        },
+        {
+          "step": 2,
+          "title": "Employee Onboarding",
+          "description": "Add employee details (contracts, salaries, benefits) through our digital platform."
+        },
+        {
+          "step": 3,
+          "title": "Legal Compliance",
+          "description": "We issue employment contracts that follow Swedish and EU law."
+        },
+        {
+          "step": 4,
+          "title": "Payroll Processing",
+          "description": "Our system calculates net salaries, tax withholdings, and social contributions."
+        },
+        {
+          "step": 5,
+          "title": "Ongoing Support",
+          "description": "We handle benefits, pensions, and HR compliance throughout employment."
+        },
+        {
+          "step": 6,
+          "title": "Offboarding",
+          "description": "If contracts end, we manage notice periods, severance pay, and termination compliance."
+        }
+      ]
+    },
+    "payrollProcess": {
+      "heading": "Payroll Services in Sweden - Full Process",
+      "intro": "Payroll in Sweden is highly regulated, and accuracy is crucial. Our payroll services are fully integrated with our EOR system to ensure smooth, compliant payments.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Employee Setup",
+          "description": "Enter employee details into the portal: salary, benefits, pension, and deductions. Register with Skatteverket for PAYE taxes and social contributions."
+        },
+        {
+          "step": 2,
+          "title": "Monthly Payroll Processing",
+          "description": "Automated salary calculations including taxes, pensions, and insurance. Employer contributions (arbetsgivaravgifter) are calculated and reported. Compliance with collective bargaining agreements (if applicable)."
+        },
+        {
+          "step": 3,
+          "title": "Salary Payments",
+          "description": "Direct bank deposits into employee accounts. Employees access digital payslips showing full breakdown of earnings and deductions."
+        },
+        {
+          "step": 4,
+          "title": "Tax Compliance",
+          "description": "Monthly tax filings to Skatteverket. Annual reporting of income statements for employees. Secure records stored in the portal for both employer and employee access."
+        },
+        {
+          "step": 5,
+          "title": "Benefits Administration",
+          "description": "Setup of pensions, health insurance, and parental leave benefits in line with Swedish standards. Automatic administration through the payroll system."
+        }
+      ]
+    },
+    "complianceAndLegal": {
+      "heading": "Compliance and Legal References",
+      "intro": "Our EOR & payroll services operate strictly within Swedish and EU regulations:",
+      "references": [
+        {
+          "title": "Employment Protection Act (LAS)",
+          "description": "Governs employment security and termination rules."
+        },
+        {
+          "title": "Swedish Tax Agency (Skatteverket)",
+          "description": "Oversees PAYE, employer contributions, and filings."
+        },
+        {
+          "title": "Social Insurance Code",
+          "description": "Regulates pensions, parental leave, and employee protections."
+        },
+        {
+          "title": "GDPR Compliance",
+          "description": "Ensures employee data protection."
+        },
+        {
+          "title": "EU Directives",
+          "description": "Including free movement rules and worker rights under EU law."
+        }
+      ],
+      "conclusion": "By using Sweden Relocators, your company avoids compliance risks and ensures all employment obligations are met."
+    },
+    "benefitsForCompanies": {
+      "heading": "Benefits for Companies",
+      "benefits": [
+        {
+          "title": "Expand Quickly",
+          "description": "Hire staff in Sweden without opening a subsidiary."
+        },
+        {
+          "title": "Save Time & Costs",
+          "description": "Avoid legal setup, accounting, and HR administration."
+        },
+        {
+          "title": "Stay Compliant",
+          "description": "All employment, tax, and payroll handled within Swedish law."
+        },
+        {
+          "title": "Scale Easily",
+          "description": "Add or remove employees quickly based on business needs."
+        },
+        {
+          "title": "One Digital Platform",
+          "description": "Manage everything through our portal and app."
+        }
+      ]
+    },
+    "benefitsForEmployees": {
+      "heading": "Benefits for Employees",
+      "benefits": [
+        {
+          "title": "Timely Salary Payments",
+          "description": "Reliable payroll with transparent payslips."
+        },
+        {
+          "title": "Benefits & Pensions",
+          "description": "Full compliance with Swedish benefits system."
+        },
+        {
+          "title": "Legal Protection",
+          "description": "Employment contracts follow Swedish standards."
+        },
+        {
+          "title": "Confidence & Stability",
+          "description": "Employees feel secure, improving retention."
+        }
+      ]
+    },
+    "whoShouldUse": {
+      "heading": "Who Should Use EOR & Payroll Services?",
+      "intro": "Our solutions are ideal for:",
+      "solutions": [
+        {
+          "title": "Startups & SMEs",
+          "description": "Hire staff without heavy setup costs."
+        },
+        {
+          "title": "Global Companies",
+          "description": "Expand into Sweden without local incorporation."
+        },
+        {
+          "title": "Project-Based Hiring",
+          "description": "Short-term or seasonal workers managed easily."
+        },
+        {
+          "title": "Remote Teams",
+          "description": "Employ remote workers in Sweden compliantly."
+        },
+        {
+          "title": "Relocations",
+          "description": "Move employees to Sweden with full HR support."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Why Choose Sweden Relocators?",
+      "reasons": [
+        {
+          "title": "All-in-One Digital Portal",
+          "description": "Manage contracts, payroll, and compliance in one system."
+        },
+        {
+          "title": "Expert Knowledge of Swedish Labor Law",
+          "description": "Reduce legal and tax risks."
+        },
+        {
+          "title": "Transparent Processes",
+          "description": "Real-time reports and records for employers and employees."
+        },
+        {
+          "title": "End-to-End Relocation Support",
+          "description": "Beyond EOR, we help with housing, visas, and integration."
+        },
+        {
+          "title": "Multilingual Support",
+          "description": "Assistance in English, Swedish, Urdu, Arabic, Persian, and more."
+        }
+      ]
+    },
+    "gettingStarted": {
+      "heading": "Getting Started",
+      "steps": [
+        "Register as a Company on our portal.",
+        "Add Employees with salary and contract details.",
+        "Activate Payroll & Compliance – We handle the rest.",
+        "Focus on Business Growth while we manage employment."
+      ]
+    },
+    "conclusion": {
+      "heading": "Expand Into Sweden With Confidence",
+      "description": "With Sweden Relocators' Employer of Record (EOR) and Payroll Services, your company can expand into Sweden with confidence. We handle the legal, tax, and payroll complexities, while you focus on building your business. Whether you need one employee or an entire team, our platform ensures smooth workforce management."
+    },
+    "cta": {
+      "heading": "Ready to Expand Your Business to Sweden?",
+      "description": "Let Sweden Relocators handle the complexity of EOR and payroll management. Our experts will guide you through the entire process, ensuring full legal compliance and employee satisfaction.",
+      "button": "Get Started With EOR Services",
+      "subtext": "Our dedicated team is ready to answer all your questions about employing staff in Sweden."
+    }
+  }
+}

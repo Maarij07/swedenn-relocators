@@ -1,0 +1,21 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "ఉపయోగ రేటు: 69.6%",
+      "educationRate": "విద్యా రేటు: 85.2%",
+      "genderRatio": "లింగ నిష్పత్తి: ~1:1",
+      "countryName": "స్వీడన్",
+      "gdp": "GDP: 610.1 బిలియన్ USD",
+      "population": "మొత్తం జనాభా: 10.65 మిలియన్"
+    },
+    "links": {
+      "newInSweden": "స్వీడన్‌లో కొత్తది",
+      "services": "సేవలు",
+      "housing": "హౌసింగ్",
+      "about": "డMarkets గురించి",
+      "contact": "మమ్మల్ని సంప్రదించండి",
+      "bookAppointment": "నియామకం బుక్ చేయండి",
+      "login": "లాగిన్"
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "familyReunification": {
+    "hero": {
+      "title": "Family Reunification in Sweden",
+      "subtitle": "Comprehensive Guide Under Swedish National Law"
+    },
+    "intro": {
+      "heading": "Bring Your Family to Sweden",
+      "description": "Sweden's family reunification laws allow individuals holding various types of residence permits—including work permits, business permits, PhD and student permits, and permanent residence permits—as well as refugees, to bring family members to Sweden. Each case type has specific requirements and is assessed under different provisions of Swedish national law.",
+      "infoBox": "Navigate complex family reunification requirements with expert knowledge of Swedish national law and specific permit type assessments."
+    },
+    "lawsHeading": "Key Swedish Laws Governing Family Reunification",
+    "laws": [
+      {
+        "name": "Aliens Act (Utlänningslagen)",
+        "description": "The main legislation governing residence permits and family reunification for all non-Swedish citizens."
+      },
+      {
+        "name": "Temporary Aliens Act (Tillfälliga Utlänningslagen)",
+        "description": "A temporary law affecting family reunification requirements, primarily for refugees and individuals needing subsidiary protection."
+      },
+      {
+        "name": "Swedish Nationality Act (Lag om Svenskt Medborgarskap)",
+        "description": "Relevant for Swedish citizens and permanent residents inviting family members."
+      },
+      {
+        "name": "Social Insurance Code (Socialförsäkringsbalken)",
+        "description": "Provides guidelines on acceptable income sources for the maintenance requirement."
+      }
+    ],
+    "eligibility": {
+      "heading": "Who Can Be Sponsored?",
+      "description": "Family reunification is generally available to eligible family members under Swedish law. Each relationship type has specific eligibility criteria.",
+      "familyMembers": [
+        {
+          "type": "Spouse or Registered Partner",
+          "description": "Legally married or registered partners"
+        },
+        {
+          "type": "Cohabiting Partner",
+          "description": "Long-term, unregistered partners may qualify if the relationship is well-documented"
+        },
+        {
+          "type": "Children Under 18",
+          "description": "Minor children of the permit holder or their spouse/partner"
+        },
+        {
+          "type": "Parents (for Minor Permit Holders)",
+          "description": "For permit holders under 18, parents or legal guardians may be eligible"
+        },
+        {
+          "type": "Extended Family",
+          "description": "Other family members may be considered for humanitarian reasons"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Maintenance and Housing Requirements",
+      "description": "The Maintenance Requirement (Försörjningskrav) is essential for most family reunification applications, ensuring the primary applicant has sufficient income and suitable housing to support family members.",
+      "maintenanceLabel": "Income Requirements",
+      "housingLabel": "Housing Requirements",
+      "maintenance": [
+        "Stable income to cover living expenses",
+        "Employment contracts or proof of self-employment",
+        "Recent pay slips and tax returns",
+        "Social benefits documentation if applicable"
+      ],
+      "housing": [
+        "Rental agreement or proof of ownership",
+        "Sufficient rooms for all family members",
+        "Proof of monthly rent or ownership costs",
+        "Meets Swedish housing standards"
+      ]
+    },
+    "assessmentHeading": "Assessment Criteria by Permit Type",
+    "assessmentCriteria": [
+      {
+        "title": "Work Permit Holders",
+        "requirements": ["Long-term employment with sufficient salary", "Employment contracts and pay slips", "Proof of financial stability", "Appropriate housing arrangement"]
+      },
+      {
+        "title": "Business Permit Holders",
+        "requirements": ["Profitable business providing adequate income", "Tax returns and business statements", "Preliminary tax assessments from Swedish Tax Agency", "Demonstrated business viability"]
+      },
+      {
+        "title": "PhD Students and Researchers",
+        "requirements": ["Stable funding or stipends", "Program duration generally longer than one year", "Income documentation from educational institution", "Housing arrangements in Sweden"]
+      },
+      {
+        "title": "Permanent Residence Permit Holders",
+        "requirements": ["Long-term residence with strong ties to Sweden", "Income assessment with potential flexibility", "Housing standards assessment", "Possibly more lenient requirements"]
+      },
+      {
+        "title": "Refugees and Subsidiary Protection Holders",
+        "requirements": ["Maintenance requirement exemption possible within 3 months", "Proof of relationship prior to arrival in Sweden", "Documentation of family relationship", "Assessed under Temporary Aliens Act"]
+      }
+    ],
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Prepare Documentation",
+        "description": "Gather all required documents, including passports, proof of relationship (marriage or birth certificates), housing agreements, and income verification."
+      },
+      {
+        "step": "2",
+        "title": "Submit Application",
+        "description": "Submit applications online via the Swedish Migration Agency's portal or at a Swedish embassy/consulate, including proof of relationship and housing/income verification."
+      },
+      {
+        "step": "3",
+        "title": "Migration Agency Review",
+        "description": "The Swedish Migration Agency verifies all requirements are met, assessing income, housing, and family eligibility according to your specific permit type."
+      },
+      {
+        "step": "4",
+        "title": "Decision and Notification",
+        "description": "After assessment, the agency issues a decision. If approved, family members may receive residence permits matching the sponsor's permit duration."
+      }
+    ],
+    "legalProvisions": {
+      "heading": "Specific Legal Provisions",
+      "description": "Family reunification in Sweden is governed by specific legal provisions tailored to different permit types and family situations.",
+      "acts": [
+        {
+          "name": "Aliens Act (Utlänningslagen)",
+          "details": "Primary legal framework for family reunification, covering income, housing, and relationship verification with maintenance and housing standards."
+        },
+        {
+          "name": "Temporary Aliens Act (Tillfälliga Utlänningslagen)",
+          "details": "Applies stricter maintenance requirements for refugees, emphasizing financial independence beyond the three-month application period."
+        },
+        {
+          "name": "Social Insurance Code (Socialförsäkringsbalken)",
+          "details": "Defines acceptable sources of income, especially relevant for sponsors relying on benefits or unemployment."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Our Services",
+      "description": "Sweden Relocators provides comprehensive support to help you navigate family reunification in Sweden and ensure your application meets all Swedish legal standards.",
+      "servicesList": [
+        {
+          "title": "Eligibility Assessment",
+          "description": "We assess your specific permit type, income, housing, and family eligibility to determine the best approach."
+        },
+        {
+          "title": "Document Preparation",
+          "description": "Assistance in gathering all necessary documents, translating foreign documents if needed, and ensuring complete accuracy."
+        },
+        {
+          "title": "Application Submission and Monitoring",
+          "description": "Submitting your application on your behalf and following up with the Swedish Migration Agency."
+        },
+        {
+          "title": "Appeals Support",
+          "description": "If your application is denied, we provide guidance through the appeals process, strengthening your case."
+        },
+        {
+          "title": "Legal Compliance Assurance",
+          "description": "We ensure all documentation meets Swedish legal standards and specific permit type requirements."
+        }
+      ]
+    },
+    "whyChooseHeading": "Why Choose Sweden Relocators?",
+    "whyChoose": [
+      {
+        "title": "Expert Knowledge",
+        "description": "In-depth knowledge of Swedish family reunification laws and requirements for all permit types."
+      },
+      {
+        "title": "Personalized Support",
+        "description": "We tailor our assistance to your specific permit type and circumstances for maximum success."
+      },
+      {
+        "title": "Efficient Processing",
+        "description": "By ensuring accuracy and compliance, we help you avoid delays or rejections, making the process smoother and more efficient."
+      }
+    ],
+    "cta": {
+      "heading": "Ready to Reunite with Your Family in Sweden?",
+      "description": "Family reunification is a complex process with specific requirements for each permit type. Let Sweden Relocators guide you through the family reunification process in Sweden, ensuring all legal requirements are met for a successful application.",
+      "button": "Start Your Family Reunification Application",
+      "subtext": "Our expert team will guide you through every step of the Swedish family reunification process."
+    }
+  }
+}

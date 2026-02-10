@@ -1,0 +1,92 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "Employment Rate: 69.6%",
+      "educationRate": "Education Rate: 85.2%",
+      "genderRatio": "Gender Ratio: ~1:1",
+      "countryName": "Sweden",
+      "gdp": "GDP: US$ 610.1 billion",
+      "population": "Total Population: 10.65 million"
+    },
+    "links": {
+      "newInSweden": "New in Sweden",
+      "services": "Services",
+      "housing": "Housing",
+      "about": "About us",
+      "contact": "Contact us",
+      "bookAppointment": "Book Appointment",
+      "login": "Login",
+      "assessment": "Assessment"
+    },
+    "dropdowns": {
+      "services": {
+        "immigration": "IMMIGRATION",
+        "asylum": "Asylum",
+        "asylumDesc": "You must be in Sweden to apply for asylum",
+        "relocateToSweden": "Relocate to Sweden",
+        "relocateToSwedenDesc": "Personal identification number",
+        "relocateToDenmark": "Relocate to Denmark",
+        "relocateToDenmarkDesc": "CPR is the Central Civil Registration",
+        "workPermit": "Work Permit",
+        "workPermitDesc": "Work permit refers to a legal document",
+        "studyInEu": "Study in EU",
+        "studyInEuDesc": "If you're considering studying in Europe",
+        "globalVisitVisas": "Global Visit Visas",
+        "globalVisitVisasDesc": "For visiting Sweden for a short period",
+        "appealCases": "Appeal Cases",
+        "appealCasesDesc": "Expert help with immigration appeals",
+        "business": "BUSINESS",
+        "businessPermit": "Business Permit",
+        "businessPermitDesc": "Swedish business culture and practices",
+        "businessVisit": "Business Visit",
+        "businessVisitDesc": "Foreign individuals wanting to visit Sweden",
+        "logisticsServices": "Logistics Services",
+        "logisticsServicesDesc": "Streamline your move with our logistics",
+        "companyRegistration": "Company Registration",
+        "companyRegistrationDesc": "If you're planning to register a company",
+        "eorPayroll": "EOR & Payroll",
+        "eorPayrollDesc": "We provide you with an easy solution",
+        "family": "FAMILY",
+        "familyReunification": "Family Reunification",
+        "familyReunificationDesc": "Family reunification is a legal process",
+        "euCitizensParentsPermit": "EU Citizens' Parents Permit",
+        "euCitizensParentsPermitDesc": "Parents of a child under 18 years",
+        "citizenship": "CITIZENSHIP",
+        "citizenshipLabel": "Citizenship",
+        "citizenshipDesc": "When you live in Sweden for a certain period",
+        "euCitizensRelocation": "EU Citizens' Relocation",
+        "euCitizensRelocationDesc": "Family reunification means family members"
+      },
+      "housing": {
+        "availableHousing": "AVAILABLE HOUSING",
+        "availableHousingLink": "Available Housing",
+        "availableHousingDesc": "Browse all available housing options",
+        "rentalApartments": "Rental Apartments",
+        "rentalApartmentsDesc": "Find furnished and unfurnished apartments",
+        "studentHousing": "Student Housing",
+        "studentHousingDesc": "Housing dedicated for students",
+        "lookingForHousing": "LOOKING FOR HOUSING",
+        "housingSearch": "Housing Search",
+        "housingSearchDesc": "Let us help you find the right home",
+        "roommateMatching": "Roommate Matching",
+        "roommateMatchingDesc": "Find compatible roommates and shared housing"
+      },
+      "assessment": {
+        "visaAssessments": "VISA ASSESSMENTS",
+        "businessVisa": "Business Visa",
+        "businessVisaDesc": "Business visa allows travel for business purposes",
+        "visitVisa": "Visit Visa",
+        "visitVisaDesc": "Visit visa allows short stays in Sweden",
+        "studentVisa": "Student Visa",
+        "studentVisaDesc": "Student visa allows studying in Sweden",
+        "permitsAndStatus": "PERMITS AND STATUS",
+        "familyReunification": "Family Reunification",
+        "familyReunificationDesc": "Family reunification visa allows family members to join",
+        "workPermit": "Work Permit",
+        "workPermitDesc": "Work permit authorizes employment in Sweden",
+        "longtermEuResidence": "Long-term EU Residence",
+        "longtermEuResidenceDesc": "Long-term residence status for long-term residents"
+      }
+    }
+  }
+}

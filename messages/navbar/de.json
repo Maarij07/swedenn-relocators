@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "Beschäftigungsquote: 69,6%",
+      "educationRate": "Bildungsgrad: 85,2%",
+      "genderRatio": "Geschlechterverhältnis: ~1:1",
+      "countryName": "Schweden",
+      "gdp": "BIP: 610,1 Milliarden USD",
+      "population": "Gesamtbevölkerung: 10,65 Millionen"
+    },
+    "links": {
+      "newInSweden": "Neu in Schweden",
+      "services": "Dienstleistungen",
+      "housing": "Wohnen",
+      "about": "Über uns",
+      "contact": "Kontaktieren Sie uns",
+      "bookAppointment": "Termin buchen",
+      "login": "Anmelden",
+      "assessment": "Bewertung"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

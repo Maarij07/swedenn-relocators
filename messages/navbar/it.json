@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "Tasso di occupazione: 69,6%",
+      "educationRate": "Tasso di istruzione: 85,2%",
+      "genderRatio": "Rapporto di genere: ~1:1",
+      "countryName": "Svezia",
+      "gdp": "PIL: 610,1 miliardi USD",
+      "population": "Popolazione totale: 10,65 milioni"
+    },
+    "links": {
+      "newInSweden": "Nuovo in Svezia",
+      "services": "Servizi",
+      "housing": "Alloggio",
+      "about": "Chi siamo",
+      "contact": "Contattaci",
+      "bookAppointment": "Prenota appuntamento",
+      "login": "Accedi",
+      "assessment": "Valutazione"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

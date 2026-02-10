@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "Ποσοστό απασχόλησης: 69,6%",
+      "educationRate": "Ποσοστό εκπαίδευσης: 85,2%",
+      "genderRatio": "Αναλογία φύλου: ~1:1",
+      "countryName": "Σουηδία",
+      "gdp": "ΑΕΠ: 610,1 δισεκατομμύρια USD",
+      "population": "Συνολικός πληθυσμός: 10,65 εκατομμύρια"
+    },
+    "links": {
+      "newInSweden": "Νέος στη Σουηδία",
+      "services": "Υπηρεσίες",
+      "housing": "Στέγη",
+      "about": "Σχετικά με εμάς",
+      "contact": "Επικοινωνία",
+      "bookAppointment": "Κράτηση ραντεβού",
+      "login": "Σύνδεση",
+      "assessment": "Αξιολόγηση"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

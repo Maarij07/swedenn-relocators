@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "نرخ اشتغال: 69.6%",
+      "educationRate": "نرخ تحصیل: 85.2%",
+      "genderRatio": "نسبت جنسیتی: ~1:1",
+      "countryName": "سوئد",
+      "gdp": "تولید ناخالص داخلی: 610.1 میلیارد دلار آمریکایی",
+      "population": "جمعیت کل: 10.65 میلیون"
+    },
+    "links": {
+      "newInSweden": "تازه وارد به سوئد",
+      "services": "خدمات",
+      "housing": "مسکن",
+      "about": "درباره ما",
+      "contact": "تماس با ما",
+      "bookAppointment": "رزرو نوبت",
+      "login": "ورود",
+      "assessment": "ارزیابی"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

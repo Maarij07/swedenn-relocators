@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "பணியமர்ப்பு விகிதம்: 69.6%",
+      "educationRate": "கல்வி விகிதம்: 85.2%",
+      "genderRatio": "பாலினம் விகிதம்: ~1:1",
+      "countryName": "ஸ்வீடன்",
+      "gdp": "GDP: 610.1 பில்லியன் USD",
+      "population": "மொத்த மக்கள் தொகை: 10.65 மில்லியன்"
+    },
+    "links": {
+      "newInSweden": "ஸ்வீடனில் புதியது",
+      "services": "சேவைகள்",
+      "housing": "வீட்டு வசதி",
+      "about": "எங்களைப் பற்றி",
+      "contact": "எங்களைத் தொடர்பு கொள்ளவும்",
+      "bookAppointment": "சந்திப்பை முன்பதிவு செய்யவும்",
+      "login": "உள்நுழைக",
+      "assessment": "மதிப்பீடு"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "businessPermit": {
+    "hero": {
+      "title": "Opholdstilladelse til selvstændig virksomhed i Sverige",
+      "subtitle": "Start og udvikl dit firma med ekspertvejledning fra Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Opholdstilladelse til selvstændig virksomhed: Din vej til iværksætteri i Sverige",
+      "description": "Hvis du er borger uden for EU/EØS og har som mål at starte eller udvikle en virksomhed i Sverige, skal du have en opholdstilladelse til selvstændig virksomhed fra det svenske Udlændingestyrelse (Migrationsverket). Dette tilladelse giver ikke-EU iværksættere mulighed for at bo i Sverige, mens de opbygger og driver en virksomhed. Kendt for sin stærke økonomi tilbyder Sverige et åbent forretningsmiljø med en blomstrende startup-kultur, robust infrastruktur og en dygtig arbejdskraft, hvilket gør det til et ideelt sted for iværksættere."
+    },
+    "whyChooseSweden": {
+      "heading": "Hvorfor vælge Sverige til din virksomhed?",
+      "intro": "Sveriges forretningsklima tilbyder mange fordele:",
+      "advantages": [
+        {
+          "title": "Innovativt miljø",
+          "description": "Sverige har en samarbejdsvenlig og gennemsigtig forretningskultur, der fremmer innovation."
+        },
+        {
+          "title": "Adgang til EU-markederne",
+          "description": "Som EU-medlem giver Sverige virksomheder adgang til et stort og stabilt marked."
+        },
+        {
+          "title": "Understøttende finansielt økosystem",
+          "description": "Svenske institutioner tilbyder forskellige finansieringsmuligheder for iværksættere, herunder offentlige og private lån og tilskud."
+        },
+        {
+          "title": "Høj kvalitet infrastruktur",
+          "description": "Sveriges avancerede infrastruktur og digitale kapacitet gør det til et globalt center for tech-startups."
+        }
+      ],
+      "businessStructures": {
+        "intro": "Sverige tilbyder flere virksomhedsstrukturer, såsom:",
+        "structures": [
+          {
+            "name": "Enkeltmandsvirksomhed (Enskild Firma)",
+            "description": "Ideel til individuelle iværksættere"
+          },
+          {
+            "name": "Handelsselskab eller Kommanditselskab (Handelsbolag/Kommanditbolag)",
+            "description": "Velegnet til partnerskaber eller små familievirksomheder"
+          },
+          {
+            "name": "Aktieselskab (Aktiebolag)",
+            "description": "Almindelig valg for dem, der ønsker at vokse og skala deres virksomhed, og som tilbyder begrænset ansvarsbeskyttelse"
+          },
+          {
+            "name": "Økonomisk Forening (Ekonomisk Förening)",
+            "description": "Bruges af samarbejder eller fællesskabsdrevne initiativer"
+          }
+        ]
+      }
+    },
+    "keyRequirements": {
+      "heading": "Nøglekrav til opholdstilladelse til selvstændig virksomhed",
+      "intro": "For at være berettiget til en opholdstilladelse til selvstændig virksomhed skal du dokumentere, at du har tilstrækkelige økonomiske ressourcer, en gennemførlig forretningsplan og relevant erfaring inden for din branche. Tilladelsen gives typisk i op til to år med mulighed for fornyelse baseret på virksomhedens succes.",
+      "requirements": [
+        {
+          "id": 1,
+          "title": "Gyldigt pas",
+          "description": "Du skal have et gyldigt pas for hele varigheden af tilladelsen. Tilladelsens gyldighed vil ikke overstige passets udløbsdato. Medtag kopier af relevante passagesider for at bekræfte identitet, gyldighed og opholdstilladelser i andre lande."
+        },
+        {
+          "id": 2,
+          "title": "Ejerskab og virksomhedskontrol",
+          "description": "Du skal eje mindst 50% af virksomheden og have fuld beslutningsmyndighed over dens drift. Du bør også være aktivt involveret i virksomhedens daglige drift og have primært ansvar for dens ledelse og retning."
+        },
+        {
+          "id": 3,
+          "title": "Finansielle krav til virksomhed og personlig støtte",
+          "description": "Startkapital: Du skal fremskaffe bankudtog, der viser tilstrækkelige midler til at etablere og drive virksomheden i mindst to år. Personlig støtte: Du skal have tilstrækkelig personlig indkomst til at understøtte dig selv og eventuelle ledsagende familiemedlemmer i de første to år. Minimumsbeløbene er estimeret til: SEK 200.000 for dig selv, SEK 100.000 for ægtefælle/partner og SEK 50.000 for hvert ledsagende barn."
+        },
+        {
+          "id": 4,
+          "title": "Levedygtig forretningsplan",
+          "description": "En detaljeret forretningsplan er afgørende. Udlændingestyrelsen vil vurdere din forretningsplan for gennemførlighed og rentabilitet. Inkluder kontrakter med leverandører og kunder, lejeaftaler for ejendomme hvis relevant, nødvendige branchetilladelser og finansielle projektioner såsom en investeringsbudget, likviditetsbudget og et beregnet balanceregnskab (resultatopgørelse)."
+        },
+        {
+          "id": 5,
+          "title": "Relevant erfaring og færdigheder",
+          "description": "Udlændingestyrelsen kræver dokumentation for, at du har den nødvendige erfaring i sektoren og færdigheder til effektivt at kunne styre din virksomhed. Fremskaf dokumentation af tidligere arbejdserfaring, uddannelse eller tidligere virksomhedsejerskab relateret til branchen, du planlægger at gå ind i."
+        },
+        {
+          "id": 6,
+          "title": "Sprogfærdigheder",
+          "description": "Selvom det ikke er strengt krav, anbefales det at have færdigheder i svensk eller engelsk for at lette kommunikationen i det svenske forretningsmiljø og med myndighederne."
+        },
+        {
+          "id": 7,
+          "title": "Betaling af ansøgningsgebyr og registrering af personnummer",
+          "description": "Ansøgningsgebyret for opholdstilladelse til selvstændig virksomhed skal betales, og en kvittering for denne betaling skal vedlægges din ansøgning. Hvis du planlægger at bo i Sverige i mere end et år, skal du også ansøge om et personnummer ved at registrere dig hos den svenske Skattemyndighed. Dette nummer er afgørende for adgang til sundhedsvæsenet, åbning af bankkonti og andre essentielle tjenester."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Trin-for-trin proces for ansøgning om opholdstilladelse til selvstændig virksomhed",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Saml påkrævede dokumenter",
+          "description": "Samle alle nødvendige dokumenter, herunder et gyldigt pas, bevis på virksomhedsejerskab og din forretningsplan. Sørg for, at alle dokumenter opfylder Udlændingestyrelsens standarder og medtag oversatte kopier, hvis de ikke er på svensk eller engelsk."
+        },
+        {
+          "number": 2,
+          "title": "Indsend ansøgningen",
+          "description": "Indsend din ansøgning online gennem Udlændingestyrelsens e-service eller hos et svensk konsulat eller ambassade i dit hjemland. Vedlæg alle understøttende dokumenter som krævet af Udlændingestyrelsen. Inkluder oplysninger om ansøgeren med personlige detaljer, virksomhedsoplysninger og finansiel dokumentation. Sørg for, at forretningsplanen og bankudtogene er nøjagtige og afspejler din evne til at drive en bæredygtig virksomhed i Sverige."
+        },
+        {
+          "number": 3,
+          "title": "Udlændingestyrelsens gennemgang og evaluering",
+          "description": "Myndigheden vil evaluere din ansøgning baseret på Finansiel Gennemførlighed (at sikre, at du har tilstrækkeligt kapital til at opretholde virksomheden), Virksomhedsdygtighed (gennemgå din forretningsplan for at afgøre, om den rimeligvis kan generere nok profit) og Personlig og Erhvervsmæssig Baggrund (vurdere din brancheforstand, sprogfærdigheder og forståelse af det svenske forretningsklima)."
+        },
+        {
+          "number": 4,
+          "title": "Besked om afgørelse",
+          "description": "Når ansøgningen er blevet gennemgået, vil Udlændingestyrelsen træffe en beslutning. Ved godkendelse vil du modtage en opholdstilladelse til selvstændig virksomhed, gyldig i op til to år. Forlængelser kan gives baseret på virksomhedens økonomiske succes og din fortsatte berettigelse."
+        }
+      ]
+    },
+    "businessStructuresDetail": {
+      "heading": "Virksomhedsstrukturer i Sverige",
+      "intro": "Sverige tilbyder flere virksomhedsstrukturer. Vælg den, der bedst passer til din forretningsmodel og mål:",
+      "structures": [
+        {
+          "name": "Enkeltmandsvirksomhed (Enskild Firma)",
+          "description": "Ideel til individuelle iværksættere uden partnere."
+        },
+        {
+          "name": "Handelsselskab eller Kommanditselskab (Handelsbolag/Kommanditbolag)",
+          "description": "Velegnet til partnerskaber eller små familievirksomheder."
+        },
+        {
+          "name": "Aktieselskab (Aktiebolag)",
+          "description": "Almindelig valg for dem, der søger at vokse og skala deres virksomhed, og som tilbyder begrænset ansvarsbeskyttelse."
+        },
+        {
+          "name": "Økonomisk Forening (Ekonomisk Förening)",
+          "description": "Generelt brugt af samarbejder eller fællesskabsdrevne initiativer."
+        }
+      ],
+      "note": "Hver struktur har specifikke krav og skatteimplikationer. At vælge den rigtige er afgørende for overholdelse af svenske virksomhedsregler."
+    },
+    "advantagesOfSwedenBusiness": {
+      "heading": "Fordelene ved Sveriges forretningsklima",
+      "intro": "Sverige tilbyder et stabilt og gennemsigtigt miljø med fordele, der fremmer langsigtede virksomhedsresultater:",
+      "advantages": [
+        {
+          "title": "Innovativ kultur",
+          "description": "Med lav korruptionsniveau og minimal bureaukrati fremmer Sverige iværksætterinnovation."
+        },
+        {
+          "title": "Finansiel tilgængelighed",
+          "description": "Sverige tilbyder en række finansieringsmuligheder, herunder banklån, statslige tilskud og angels-investorer."
+        },
+        {
+          "title": "Adgang til dygtigt talent",
+          "description": "Landet har en højt uddannet arbejdskraft med stærke tekniske og ledelsesmæssige færdigheder, især gavnligt for teknologi- og innovationsfokuserte virksomheder."
+        },
+        {
+          "title": "Etableret infrastruktur",
+          "description": "Sveriges avancerede infrastruktur, effektive logistik og omfattende digitale netværk gør det ideelt for både indenlandske og internationale virksomhedsaktiviteter."
+        }
+      ]
+    },
+    "howWeCanAssist": {
+      "heading": "Hvordan Sweden Relocators kan hjælpe dig",
+      "intro": "At navigere i kravene til en opholdstilladelse til selvstændig virksomhed kan være komplekst. Sweden Relocators yder omfattende support for at sikre en vellykket ansøgningsproces, fra dokumentationshjælp til vejledning i forretningsplan.",
+      "services": [
+        {
+          "title": "Vejledning i ansøgning",
+          "description": "Vi hjælper med at indsamle og organisere påkrævede dokumenter og sikrer, at alle krav opfyldes i henhold til Udlændingestyrelsens standarder."
+        },
+        {
+          "title": "Udvikling af forretningsplan",
+          "description": "Vores team hjælper dig med at skabe en overbevisende forretningsplan, der demonstrerer økonomisk bæredygtighed og matcher forventningerne på det svenske marked."
+        },
+        {
+          "title": "Finansielle og indkomstbeviser",
+          "description": "Hjælp til dokumentation af finansielle aktiver for at bevise din evne til at understøtte både virksomheden og din familie."
+        },
+        {
+          "title": "Ongoing Support",
+          "description": "Vi tilbyder support gennem hele ansøgningsprocessen, besvarer forespørgsler fra Udlændingestyrelsen og guider dig gennem yderligere krav."
+        },
+        {
+          "title": "Hjælp ved klager",
+          "description": "Hvis din ansøgning afvises, giver vi vejledning i klageprocessen og hjælper dig med at styrke dit tilfælde for genovervejelse."
+        }
+      ]
+    },
+    "whyWorkWithUs": {
+      "heading": "Hvorfor arbejde med Sweden Relocators?",
+      "reasons": [
+        {
+          "title": "Ekspertviden",
+          "description": "Vores team holder sig ajour med de seneste krav fra Udlændingestyrelsen og giver præcis og effektiv vejledning."
+        },
+        {
+          "title": "Personlig service",
+          "description": "Vi forstår, at hver virksomhed er unik, og vi tilpasser vores support til at møde de specifikke behov i din branche og personlige situation."
+        },
+        {
+          "title": "Strømlinet proces",
+          "description": "Ved at håndtere kompleksiteten i ansøgningsprocessen hjælper vi dig med at undgå forsinkelser og øger din sandsynlighed for succes."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Etabler din virksomhed i Sverige i dag",
+      "description": "Hvis du er klar til at etablere din virksomhed i Sverige og har brug for support med ansøgningen om opholdstilladelse til selvstændig virksomhed, er Sweden Relocators her for at hjælpe. Kontakt os i dag for at begynde din virksomhedsrejse i Sverige med selvtillid.",
+      "button": "Kom i gang",
+      "subtext": "Kravene til selvstændig virksomhed er underkastet ændringer. Rådfør altid med Udlændingestyrelsen for at få den mest aktuelle information."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "Werkgelegenheidspercentage: 69,6%",
+      "educationRate": "Onderwijs tarief: 85,2%",
+      "genderRatio": "Geslachtsverhouding: ~1:1",
+      "countryName": "Zweden",
+      "gdp": "BBP: 610,1 miljard USD",
+      "population": "Totale bevolking: 10,65 miljoen"
+    },
+    "links": {
+      "newInSweden": "Nieuw in Zweden",
+      "services": "Diensten",
+      "housing": "Huisvesting",
+      "about": "Over ons",
+      "contact": "Neem contact op",
+      "bookAppointment": "Afspraak maken",
+      "login": "Inloggen",
+      "assessment": "Evaluatie"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

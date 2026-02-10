@@ -61,13 +61,13 @@ export default function LanguageSelector({
       onLanguageChange(languageCode);
     }
 
-    // Only switch i18n language for locales we actually support
-    if (['en', 'sv'].includes(languageCode)) {
-      i18n.changeLanguage(languageCode).catch((err) => {
-        console.error('Failed to change language', err);
-      });
+    // Change i18n language for all supported languages
+    i18n.changeLanguage(languageCode).catch((err) => {
+      console.error('Failed to change language', err);
+    });
 
-      // Redirect to the new locale
+    // Only redirect URL for English and Swedish (supported routing locales)
+    if (['en', 'sv'].includes(languageCode)) {
       const segments = pathname?.split('/') || [];
       // segments[0] is empty, segments[1] is locale (en/sv) or empty (root)
       if (segments.length > 1 && (segments[1] === 'en' || segments[1] === 'sv')) {
@@ -75,12 +75,12 @@ export default function LanguageSelector({
         const newPath = segments.join('/');
         router.push(newPath);
       } else {
-        // If no locale prefix (e.g. root), just append or replace?
-        // Root redirects to /en usually, so we might be at /en already.
-        // If we are at /, we can't easily guess. But assuming we are at /en or /sv:
+        // If no locale prefix (e.g. root), redirect to language
         router.push(`/${languageCode}`);
       }
     }
+    // For other languages, just change the i18n language without redirecting
+    // This allows enjoying translations without URL changes
 
     onClose();
   };
@@ -99,7 +99,6 @@ export default function LanguageSelector({
     >
       <DialogTitle sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', pb: 1 }}>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-          <span style={{ fontSize: '1.5rem' }}>🌐</span>
           <Typography variant="h6" sx={{ fontWeight: 700 }}>
             Select Language
           </Typography>

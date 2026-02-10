@@ -1,0 +1,215 @@
+{
+  "businessPermit": {
+    "hero": {
+      "title": "Oleskelupiotto itsenäisestä yritystoiminnasta Ruotsissa",
+      "subtitle": "Perusta ja kehitä liiketoimintaasi asiantuntijapalveluiden avulla Sweden Relocators AB:n kautta"
+    },
+    "intro": {
+      "heading": "Oleskelulupa itsenäisestä yritystoiminnasta: Polku yrittäjyyteen Ruotsissa",
+      "description": "Jos olet EU/EEM:n ulkopuolinen kansalainen ja tavoitteena on aloittaa tai kehittää liiketoimintaa Ruotsissa, tarvitset oleskeluluvan itsenäisestä yritystoiminnasta Ruotsin maahanmuuttoviranomaiselta (Migrationsverket). Tämä lupa mahdollistaa ei-EU-yrittäjien oleskelun Ruotsissa samalla kun he rakentavat ja johtavat liiketoimintaa. Tunnettu vahvasta taloudestaan Ruotsi tarjoaa avoimen liiketoimintaympäristön, vilkkaan startup-kulttuurin, vahvan infrastruktuurin ja osaavan työvoiman, mikä tekee siitä ihanteellisen paikan yrittäjille."
+    },
+    "whyChooseSweden": {
+      "heading": "Miksi valita Ruotsi liiketoiminnallesi?",
+      "intro": "Ruotsin liiketoimintaympäristö tarjoaa monia etuja:",
+      "advantages": [
+        {
+          "title": "Innovaatioystävällinen ympäristö",
+          "description": "Ruotsissa on yhteistyöhaluinen ja läpinäkyvä liiketoimintakulttuuri, joka kannustaa innovaatioihin."
+        },
+        {
+          "title": "Pääsy EU-markkinoille",
+          "description": "EU:n jäsenenä Ruotsi tarjoaa yrityksille pääsyn laajaan ja vakaiseen markkina-alueeseen."
+        },
+        {
+          "title": "Tueva rahoitusympäristö",
+          "description": "Ruotsin instituutiot tarjoavat useita rahoitusmahdollisuuksia yrittäjille, mukaan lukien julkiset ja yksityiset lainat sekä avustukset."
+        },
+        {
+          "title": "Laadukas infrastruktuuri",
+          "description": "Ruotsin edistynyt infrastruktuuri ja digitaaliset mahdollisuudet tekevät siitä globaalin keskuksen teknologia-alan startup-yhtiöille."
+        }
+      ],
+      "businessStructures": {
+        "intro": "Ruotsi tarjoaa useita yritysmuotoja, kuten:",
+        "structures": [
+          {
+            "name": "Yksityinen elinkeinonharjoittaja (Enskild Firma)",
+            "description": "Ihannevalinta yksittäisille yrittäjille"
+          },
+          {
+            "name": "Kauppakumppanuus tai Kommandiittiyhtiö (Handelsbolag/Kommanditbolag)",
+            "description": "Sopiva kumppanuuksiin tai pieniin perheyrityksiin"
+          },
+          {
+            "name": "Julkinen osakeyhtiö (Aktiebolag)",
+            "description": "Yleinen valinta niille, jotka pyrkivät kasvattamaan ja skaalautumaan, tarjoaa vastuunrajoituksen"
+          },
+          {
+            "name": "Taloudellinen yhdistys (Ekonomisk Förening)",
+            "description": "Käytetään yhteistyöryhmien tai yhteisölähtöisten aloitteiden parissa"
+          }
+        ]
+      }
+    },
+    "keyRequirements": {
+      "heading": "Tärkeimmät vaatimukset oleskeluluvasta itsenäisestä yritystoiminnasta",
+      "intro": "Oikeutta oleskelulupaan itsenäisestä yritystoiminnasta varten sinun täytyy osoittaa, että sinulla on riittävät taloudelliset resurssit, toteutuskelpoinen liiketoimintasuunnitelma ja asiaankuuluva kokemus alalta. Lupa myönnetään yleensä enintään kaudeksi kaksi vuotta, ja sitä voidaan jatkaa liiketoiminnan menestyksen perusteella.",
+      "requirements": [
+        {
+          "id": 1,
+          "title": "Voimassa oleva passi",
+          "description": "Sinulla on oltava voimassa oleva passi lupakauden ajaksi. Luvan voimassaolo ei ylitä passin vanhenemispäivää. Liitä kopiot asiakirjoista, jotka liittyvät henkilöllisyyden vahvistamiseen, voimassaoloon ja oleskelulupiin muissa maissa."
+        },
+        {
+          "id": 2,
+          "title": "Omistusoikeus ja liiketoiminnan hallinta",
+          "description": "Sinun täytyy omistaa vähintään 50 % yrityksestä ja olla täysin vastuussa sen toiminnasta. Sinun tulisi myös olla aktiivisesti mukana päivittäisessä toiminnassa ja olla ensisijaisesti vastuussa sen johtamisesta ja suunnasta."
+        },
+        {
+          "id": 3,
+          "title": "Taloudelliset vaatimukset liiketoiminnalle ja henkilökohtaiselle toimeentulolle",
+          "description": "Alkupääoma: Sinun täytyy esittää pankkitodistukset, jotka osoittavat riittävät varat perustaa ja ylläpitää liiketoimintaa vähintään kahden vuoden ajan. Henkilökohtainen toimeentulo: Sinulla on oltava riittävät henkilökohtaiset tulot tukeaksesi itseäsi ja mahdollisia perheenjäseniä kahden ensimmäisen vuoden aikana. Arvioidut vähimmäisvaatimukset ovat: 200 000 SEK itsellesi, 100 000 SEK puolisolle/kumppanille ja 50 000 SEK jokaiselle lapselle, joka saa oleskeluluvan."
+        },
+        {
+          "id": 4,
+          "title": "Toteutuskelpoinen liiketoimintasuunnitelma",
+          "description": "Yksityiskohtainen liiketoimintasuunnitelma on olennainen. Migrationsverket arvioi liiketoimintasuunnitelmasi toteutuskelpoisuutta ja kannattavuutta. Sisällytä sopimukset toimittajien ja asiakkaiden kanssa, vuokrasopimukset kiinteistöistä tarvittaessa, tarvittavat toimilupien ja taloudelliset ennusteenäkymät kuten investointibudjetti, kassavirtaennuste ja arvioitu tase (tuloslaskelma)."
+        },
+        {
+          "id": 5,
+          "title": "Asiaankuuluva kokemus ja taidot",
+          "description": "Migrationsverket vaatii todisteen siitä, että sinulla on tarvittavaa alan kokemusta ja taitoja johtaa yritystä tehokkaasti. Tarjoa dokumentointi aiemmasta työkokemuksesta, koulutuksesta tai aiemmasta yrityksen omistajuudesta, joka liittyy alaan, jolle aiot ryhtyä."
+        },
+        {
+          "id": 6,
+          "title": "Kielitaidot",
+          "description": "Vaikka ei ole tiukkaa vaatimusta, on suositeltavaa hallita ruotsia tai englantia helpottamaan viestintää ruotsalaisessa liiketoimintaympäristössä ja viranomaisten kanssa."
+        },
+        {
+          "id": 7,
+          "title": "Hakemusmaksun maksaminen ja henkilötunnuksen rekisteröinti",
+          "description": "Oleskeluluvan hakemismaksu itsenäisestä yritystoiminnasta on maksettava, ja maksukuitin tulee liittyä hakemukseen. Jos aiot olla Ruotsissa yli vuoden, sinun täytyy myös hakea henkilötunnusta rekisteröitymällä Ruotsin veroviranomaisen (Skatteverket) kautta. Tämä numero on olennainen terveydenhuollon saannissa, pankkitilien avaamisessa ja muissa välttämättömissä palveluissa."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Vaiheittainen hakuprosessi oleskeluluvasta itsenäisestä yritystoiminnasta",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Kerää tarvittavat asiakirjat",
+          "description": "Koko kaikki tarvittavat asiakirjat, mukaan lukien voimassa oleva passi, todiste yrityksen omistajuudesta ja liiketoimintasuunnitelma. Varmista, että kaikki asiakirjat täyttävät Migrationsverketin standardit ja sisällytä käännetyt kopiot, jos ne eivät ole ruotsin tai englannin kielellä."
+        },
+        {
+          "number": 2,
+          "title": "Lähetä hakemus",
+          "description": "Lähetä hakemuksesi verkossa Migrationsverketin sähköpalvelun kautta tai ruotsalaisen suurlähetystön tai konsulin kautta kotimaassasi. Liitä kaikki Migrationsverketin vaatimat tukevat asiakirjat. Sisällytä hakijan tiedot, henkilökohtaiset tiedot, yritystiedot ja taloudellinen dokumentaatio. Varmista, että liiketoimintasuunnitelma ja pankkitodistukset ovat tarkkoja ja heijastavat kykyäsi ylläpitää kestävää liiketoimintaa Ruotsissa."
+        },
+        {
+          "number": 3,
+          "title": "Migrationsverketin tarkistus ja arviointi",
+          "description": "Virasto arvioi hakemustasi taloudellisen toteutuskelpoisuuden (varmistaa, että sinulla on tarpeeksi pääomaa ylläpitää liiketoimintaa), liiketoiminnan toteutuskelpoisuuden (tarkistaa liiketoimintasuunnitelman määrittääkseen, voiko se kohtuudella tuottaa tarpeeksi voittoa) ja henkilökohtaisen ja liiketoiminnallisen taustan (arvioi alan kokemusta, kielitaitoa ja ymmärrystä ruotsalaisesta liiketoimintaympäristöstä) perusteella."
+        },
+        {
+          "number": 4,
+          "title": "Päätöksen ilmoitus",
+          "description": "Kun hakemus on tarkistettu, Migrationsverket tekee päätöksen. Hyväksyttäessä saat oleskeluluvan itsenäisestä yritystoiminnasta, joka on voimassa enintään kaksi vuotta. Jatkamista voidaan myöntää liiketoiminnan taloudellisen menestyksen ja jatkuvan oikeutuksen perusteella."
+        }
+      ]
+    },
+    "businessStructuresDetail": {
+      "heading": "Yritysmuodot Ruotsissa",
+      "intro": "Ruotsi tarjoaa useita yritysmuotoja. Valitse se, joka sopii parhaiten liiketoimintamallillesi ja tavoitteillesi:",
+      "structures": [
+        {
+          "name": "Yksityinen elinkeinonharjoittaja (Enskild Firma)",
+          "description": "Ihannevalinta yksittäisille yrittäjille ilman kumppaneita."
+        },
+        {
+          "name": "Kauppakumppanuus tai Kommandiittiyhtiö (Handelsbolag/Kommanditbolag)",
+          "description": "Sopiva kumppanuuksiin tai pieniin perheyrityksiin."
+        },
+        {
+          "name": "Julkinen osakeyhtiö (Aktiebolag)",
+          "description": "Yleinen valinta niille, jotka pyrkivät kasvattamaan ja skaalautumaan, tarjoaa vastuunrajoituksen."
+        },
+        {
+          "name": "Taloudellinen yhdistys (Ekonomisk Förening)",
+          "description": "Yleisesti käytetään yhteistyöryhmien tai yhteisölähtöisten aloitteiden yhteydessä."
+        }
+      ],
+      "note": "Jokaisella rakenteella on tiettyjä vaatimuksia ja verovaikutuksia. Oikean valinnan tekeminen on ratkaisevan tärkeää noudatettaessa ruotsalaisia yrityssääntöjä."
+    },
+    "advantagesOfSwedenBusiness": {
+      "heading": "Hyödyt Ruotsin liiketoimintaympäristöstä",
+      "intro": "Ruotsi tarjoaa vakaan ja läpinäkyvän ympäristön eduilla, jotka edistävät pitkäaikaista liiketoiminnan kasvua:",
+      "advantages": [
+        {
+          "title": "Innovaatiotuinen kulttuuri",
+          "description": "Alhaisen korruption ja vähäisen byrokratian vuoksi Ruotsi edistää yrittäjämielista innovaatiota."
+        },
+        {
+          "title": "Rahoituksen saatavuus",
+          "description": "Ruotsi tarjoaa useita rahoitusmahdollisuuksia, mukaan lukien pankkilainat, valtionavustukset ja enkelisijoittajat."
+        },
+        {
+          "title": "Pääsy osaavaan työvoimaan",
+          "description": "Maalla on korkeasti koulutettu työvoima, jolla on vahvat tekniset ja johtamistaidot, erityisen hyödyllinen teknologia- ja innovaatiokeskeisille yrityksille."
+        },
+        {
+          "title": "Kehittynyt infrastruktuuri",
+          "description": "Ruotsin kehittynyt infrastruktuuri, tehokas logistiikka ja laajat digitaaliset verkostot tekevät siitä ihanteellisen kotipaikan sekä kotimaisille että kansainvälisille liiketoiminnan toiminnoille."
+        }
+      ]
+    },
+    "howWeCanAssist": {
+      "heading": "Miten Sweden Relocators voi auttaa sinua",
+      "intro": "Oleskeluluvan itsenäisestä yritystoiminnasta vaatimusten ymmärtäminen voi olla monimutkaista. Sweden Relocators tarjoaa kattavaa tukea varmistaakseen onnistuneen hakuprosessin, dokumentointiapua liiketoimintasuunnitelmapalveluihin asti.",
+      "services": [
+        {
+          "title": "Hakemuksen ohjaus",
+          "description": "Auta keräämään ja järjestämään tarvittavia asiakirjoja ja varmistamaan, että kaikki vaatimukset täyttyvät Migrationsverketin standardeja noudattaen."
+        },
+        {
+          "title": "Liiketoimintasuunnitelman kehittäminen",
+          "description": "Tiimimme auttaa sinua luomaan vakuuttavan liiketoimintasuunnitelman, joka osoittaa taloudellisen kestävyyden ja täsmää ruotsalaisen markkinan odotusten kanssa."
+        },
+        {
+          "title": "Talous- ja tulodokumentointi",
+          "description": "Auta dokumentoimaan taloudelliset varat osoittaaksesi kykysi tukea sekä yritystä että perhettäsi."
+        },
+        {
+          "title": "Ongoing Support",
+          "description": "Tarjoamme tukea koko hakuprosessin ajan, vastaamme Migrationsverketin kyselyihin ja ohjaamme sinua mahdollisten lisävaatimusten kanssa."
+        },
+        {
+          "title": "Valitustukea",
+          "description": "Jos hakemuksesi hylätään, tarjoamme ohjausta valitusprosessin aikana ja autamme sinua vahvistamaan tapaustasi uudelleenarviointia varten."
+        }
+      ]
+    },
+    "whyWorkWithUs": {
+      "heading": "Miksi työskennellä Sweden Relocatorsin kanssa?",
+      "reasons": [
+        {
+          "title": "Asiantuntijatieto",
+          "description": "Tiimimme pysyy ajan tasalla viimeisimmistä Migrationsverketin vaatimuksista ja tarjoaa tarkan ja tehokkaan ohjauksen."
+        },
+        {
+          "title": "Henkilökohtainen palvelu",
+          "description": "Ymmärrämme, että jokainen yritys on ainutlaatuinen, ja me muokkaamme tukeamme vastaamaan tietyn alan ja henkilökohtaisen tilanteen erityistarpeita."
+        },
+        {
+          "title": "Optimoitu prosessi",
+          "description": "Käsittellessämme hakuprosessin monimutkaisuutta autamme sinua välttämään viivästyksiä ja lisäämään menestystodennäköisyyttäsi."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Perusta liiketoimintasi Ruotsiin tänään",
+      "description": "Jos olet valmis perustamaan liiketoimintasi Ruotsiin ja tarvitset tukea itsenäisyyteen liittyvän oleskelulupahakemuksen kanssa, Sweden Relocators on täällä auttamassa. Ota yhteyttä tänään aloittaaksesi liiketoimintamatkasi Ruotsissa luottavaisin mielin.",
+      "button": "Aloita",
+      "subtext": "Itsensä työllistävien vaatimukset voivat muuttua. Konsultoi aina Migrationsverketia saadaksesi ajantasaisinta tietoa."
+    }
+  }
+}

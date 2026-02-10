@@ -1,0 +1,215 @@
+{
+  "businessPermit": {
+    "hero": {
+      "title": "Permis de séjour pour activité entrepreneuriale en Suède",
+      "subtitle": "Créez et développez votre entreprise avec les conseils d'experts de Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Permis de séjour pour activité entrepreneuriale : Votre voie vers l'entrepreneuriat en Suède",
+      "description": "Si vous êtes citoyen d'un pays hors UE/EEE et que vous souhaitez créer ou développer une entreprise en Suède, vous aurez besoin d'un permis de séjour pour activité entrepreneuriale délivré par l'Office suédois de migration (Migrationsverket). Ce permis permet aux entrepreneurs non membres de l'UE de vivre en Suède tout en créant et exploitant une entreprise. Réputée pour son économie solide, la Suède offre un environnement commercial ouvert avec une culture florissante de startups, une infrastructure robuste et une main-d'œuvre qualifiée, ce qui en fait une destination idéale pour les entrepreneurs."
+    },
+    "whyChooseSweden": {
+      "heading": "Pourquoi choisir la Suède pour votre entreprise ?",
+      "intro": "L'environnement économique suédois offre de nombreux avantages :",
+      "advantages": [
+        {
+          "title": "Environnement innovant",
+          "description": "La Suède dispose d'une culture commerciale collaborative et transparente qui encourage l'innovation."
+        },
+        {
+          "title": "Accès aux marchés de l'UE",
+          "description": "En tant que membre de l'UE, la Suède offre aux entreprises un accès à un marché vaste et stable."
+        },
+        {
+          "title": "Écosystème financier favorable",
+          "description": "Les institutions suédoises offrent diverses options de financement pour les entrepreneurs, notamment des prêts publics et privés ainsi que des subventions."
+        },
+        {
+          "title": "Infrastructure de haute qualité",
+          "description": "L'infrastructure avancée de la Suède et ses capacités numériques font de ce pays un centre mondial pour les startups technologiques."
+        }
+      ],
+      "businessStructures": {
+        "intro": "La Suède propose plusieurs structures commerciales, telles que :",
+        "structures": [
+          {
+            "name": "Entreprise individuelle (Enskild Firma)",
+            "description": "Idéale pour les entrepreneurs individuels"
+          },
+          {
+            "name": "Société de commerce ou société en nom collectif (Handelsbolag/Kommanditbolag)",
+            "description": "Adaptée aux partenariats ou petites entreprises familiales"
+          },
+          {
+            "name": "Société anonyme (Aktiebolag)",
+            "description": "Choix courant pour ceux qui souhaitent développer et agrandir leur entreprise, offrant une protection limitée de la responsabilité"
+          },
+          {
+            "name": "Association économique (Ekonomisk Förening)",
+            "description": "Utilisée par les coopératives ou les initiatives communautaires"
+          }
+        ]
+      }
+    },
+    "keyRequirements": {
+      "heading": "Exigences clés pour un permis de séjour pour activité entrepreneuriale",
+      "intro": "Pour être éligible à un permis de séjour pour activité entrepreneuriale, vous devez démontrer que vous disposez de ressources financières suffisantes, d'un plan d'affaires réalisable et d'une expérience pertinente dans votre secteur. Le permis est généralement accordé pour une durée maximale de deux ans, pouvant être renouvelé en fonction du succès de l'entreprise.",
+      "requirements": [
+        {
+          "id": 1,
+          "title": "Passeport valide",
+          "description": "Vous devez détenir un passeport valide pendant toute la durée du permis. La validité du permis n'excédera pas la date d'expiration du passeport. Joignez des copies des pages pertinentes du passeport pour confirmer l'identité, la validité et les permis de séjour dans d'autres pays."
+        },
+        {
+          "id": 2,
+          "title": "Propriété et contrôle de l'entreprise",
+          "description": "Vous devez posséder au moins 50 % de l'entreprise et avoir une autorité décisionnelle totale sur ses opérations. Vous devriez également être activement impliqué dans la gestion quotidienne de l'entreprise et avoir la responsabilité principale de sa gestion et de son orientation."
+        },
+        {
+          "id": 3,
+          "title": "Exigences financières pour l'entreprise et le soutien personnel",
+          "description": "Capital initial : Vous devez fournir des relevés bancaires attestant de fonds suffisants pour créer et exploiter l'entreprise pendant au moins deux ans. Soutien personnel : Vous devez disposer de revenus personnels suffisants pour subvenir à vos besoins ainsi qu'à ceux de vos éventuels membres de famille pendant les deux premières années. Les exigences minimales estimées sont les suivantes : 200 000 SEK pour vous-même, 100 000 SEK pour votre conjoint(e)/partenaire et 50 000 SEK pour chaque enfant accompagnant."
+        },
+        {
+          "id": 4,
+          "title": "Plan d'affaires viable",
+          "description": "Un plan d'affaires détaillé est essentiel. Migrationsverket évaluera votre plan d'affaires en termes de faisabilité et de rentabilité. Incluez les contrats avec les fournisseurs et les clients, les baux si pertinent, les permis sectoriels nécessaires et les projections financières telles qu'un budget d'investissement, un budget de trésorerie et un bilan projeté (compte de résultat)."
+        },
+        {
+          "id": 5,
+          "title": "Expérience et compétences pertinentes",
+          "description": "Migrationsverket exige des preuves que vous avez l'expérience nécessaire dans le secteur et les compétences pour gérer efficacement votre entreprise. Fournissez une documentation sur votre expérience professionnelle antérieure, votre formation ou votre propriété antérieure d'entreprise liée au secteur dans lequel vous prévoyez d'entrer."
+        },
+        {
+          "id": 6,
+          "title": "Maîtrise linguistique",
+          "description": "Bien qu'elle ne soit pas strictement requise, il est recommandé d'avoir une bonne maîtrise du suédois ou de l'anglais pour faciliter la communication dans l'environnement commercial suédois et avec les autorités."
+        },
+        {
+          "id": 7,
+          "title": "Paiement des frais de dossier et inscription du numéro personnel",
+          "description": "Les frais de dossier pour le permis de séjour pour activité entrepreneuriale doivent être payés, et un reçu de ce paiement doit être inclus avec votre demande. Si vous prévoyez de vivre en Suède pendant plus d'un an, vous devez également demander un numéro personnel (personnummer) en vous inscrivant auprès de l'Administration fiscale suédoise. Ce numéro est essentiel pour accéder aux soins de santé, ouvrir des comptes bancaires et d'autres services essentiels."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Processus de demande étape par étape pour un permis d'activité entrepreneuriale",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Réunir la documentation requise",
+          "description": "Compilez tous les documents nécessaires, notamment un passeport valide, une preuve de propriété de l'entreprise et votre plan d'affaires. Veillez à ce que tous les documents répondent aux normes de Migrationsverket et incluez des copies traduites s'ils ne sont pas rédigés en suédois ou en anglais."
+        },
+        {
+          "number": 2,
+          "title": "Soumettre la demande",
+          "description": "Soumettez votre demande en ligne via le service électronique de Migrationsverket ou auprès d'une ambassade ou d'un consulat suédois dans votre pays d'origine. Joignez tous les documents justificatifs requis par Migrationsverket. Incluez les informations du demandeur avec les détails personnels, les informations sur l'entreprise et la documentation financière. Assurez-vous que le plan d'affaires et les relevés bancaires sont précis et reflètent votre capacité à exploiter une entreprise durable en Suède."
+        },
+        {
+          "number": 3,
+          "title": "Examen et évaluation par Migrationsverket",
+          "description": "L'Office d'immigration évaluera votre demande sur la base de la faisabilité financière (s'assurer que vous disposez de capitaux suffisants pour maintenir l'activité), de la viabilité de l'entreprise (examiner votre plan d'affaires pour déterminer s'il peut raisonnablement générer suffisamment de profit) et de votre parcours professionnel et personnel (évaluer votre expérience dans le secteur, vos compétences linguistiques et votre compréhension de l'environnement commercial suédois)."
+        },
+        {
+          "number": 4,
+          "title": "Notification de la décision",
+          "description": "Une fois la demande examinée, Migrationsverket rendra une décision. En cas d'approbation, vous recevrez un permis de séjour pour activité entrepreneuriale, valable jusqu'à deux ans. Des prolongations peuvent être accordées en fonction du succès financier de l'entreprise et de votre éligibilité continue."
+        }
+      ]
+    },
+    "businessStructuresDetail": {
+      "heading": "Structures commerciales en Suède",
+      "intro": "La Suède propose plusieurs structures commerciales. Choisissez celle qui convient le mieux à votre modèle économique et à vos objectifs :",
+      "structures": [
+        {
+          "name": "Entreprise individuelle (Enskild Firma)",
+          "description": "Idéale pour les entrepreneurs individuels sans associés."
+        },
+        {
+          "name": "Société de commerce ou société en nom collectif (Handelsbolag/Kommanditbolag)",
+          "description": "Adaptée aux partenariats ou petites entreprises familiales."
+        },
+        {
+          "name": "Société anonyme (Aktiebolag)",
+          "description": "Choix courant pour ceux qui souhaitent développer et agrandir leur entreprise, offrant une protection limitée de la responsabilité."
+        },
+        {
+          "name": "Association économique (Ekonomisk Förening)",
+          "description": "Généralement utilisée par les coopératives ou les initiatives communautaires."
+        }
+      ],
+      "note": "Chaque structure présente des exigences spécifiques et des implications fiscales. Le choix de la bonne structure est crucial pour se conformer aux réglementations commerciales suédoises."
+    },
+    "advantagesOfSwedenBusiness": {
+      "heading": "Avantages de l'environnement commercial suédois",
+      "intro": "La Suède fournit un environnement stable et transparent avec des avantages qui favorisent la croissance à long terme des entreprises :",
+      "advantages": [
+        {
+          "title": "Culture innovante",
+          "description": "Avec un faible niveau de corruption et une bureaucratie minimale, la Suède encourage l'innovation entrepreneuriale."
+        },
+        {
+          "title": "Accessibilité financière",
+          "description": "La Suède propose diverses options de financement, notamment des prêts bancaires, des subventions gouvernementales et des investisseurs providentiels."
+        },
+        {
+          "title": "Accès à des talents qualifiés",
+          "description": "Le pays dispose d'une main-d'œuvre hautement qualifiée, dotée de solides compétences techniques et managériales, particulièrement bénéfique pour les entreprises axées sur la technologie et l'innovation."
+        },
+        {
+          "title": "Infrastructure établie",
+          "description": "L'infrastructure avancée de la Suède, sa logistique efficace et ses réseaux numériques étendus en font un lieu idéal pour les opérations commerciales nationales et internationales."
+        }
+      ]
+    },
+    "howWeCanAssist": {
+      "heading": "Comment Sweden Relocators peut vous aider",
+      "intro": "Comprendre les exigences pour un permis de séjour pour activité entrepreneuriale peut être complexe. Sweden Relocators fournit un soutien complet pour garantir un processus de demande réussi, allant de l'assistance documentaire à l'élaboration du plan d'affaires.",
+      "services": [
+        {
+          "title": "Conseils sur la demande",
+          "description": "Nous aidons à recueillir et organiser la documentation requise, en veillant à ce que toutes les exigences soient remplies conformément aux normes de Migrationsverket."
+        },
+        {
+          "title": "Développement du plan d'affaires",
+          "description": "Notre équipe vous aide à créer un plan d'affaires convaincant qui démontre la viabilité financière et correspond aux attentes du marché suédois."
+        },
+        {
+          "title": "Preuves financières et de revenus",
+          "description": "Assistance dans la documentation des actifs financiers pour prouver votre capacité à soutenir à la fois l'entreprise et votre famille."
+        },
+        {
+          "title": "Ongoing Support",
+          "description": "Nous offrons un soutien tout au long du processus de demande, répondons aux demandes de Migrationsverket et vous guidons à travers les exigences supplémentaires."
+        },
+        {
+          "title": "Assistance en appel",
+          "description": "Si votre demande est refusée, nous fournissons des conseils sur le processus d'appel et vous aidons à renforcer votre dossier pour un nouvel examen."
+        }
+      ]
+    },
+    "whyWorkWithUs": {
+      "heading": "Pourquoi travailler avec Sweden Relocators ?",
+      "reasons": [
+        {
+          "title": "Connaissance experte",
+          "description": "Notre équipe reste informée des dernières exigences de Migrationsverket, fournissant des conseils précis et efficaces."
+        },
+        {
+          "title": "Service personnalisé",
+          "description": "Nous comprenons que chaque entreprise est unique, et nous adaptons notre soutien aux besoins spécifiques de votre secteur et de votre situation personnelle."
+        },
+        {
+          "title": "Processus simplifié",
+          "description": "En gérant la complexité du processus de demande, nous vous aidons à éviter les délais et à augmenter vos chances de succès."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Créez votre entreprise en Suède dès aujourd'hui",
+      "description": "Si vous êtes prêt à créer votre entreprise en Suède et que vous avez besoin d'aide pour la demande de permis de séjour pour activité entrepreneuriale, Sweden Relocators est là pour vous aider. Contactez-nous dès aujourd'hui pour commencer votre parcours entrepreneurial en Suède en toute confiance.",
+      "button": "Commencer",
+      "subtext": "Les exigences relatives à l'activité entrepreneuriale sont susceptibles de changer. Consultez toujours Migrationsverket pour obtenir les informations les plus récentes."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "Tasa de empleo: 69,6%",
+      "educationRate": "Tasa de educación: 85,2%",
+      "genderRatio": "Ratio de género: ~1:1",
+      "countryName": "Suecia",
+      "gdp": "PIB: 610,1 mil millones USD",
+      "population": "Población total: 10,65 millones"
+    },
+    "links": {
+      "newInSweden": "Nuevo en Suecia",
+      "services": "Servicios",
+      "housing": "Vivienda",
+      "about": "Sobre nosotros",
+      "contact": "Contáctenos",
+      "bookAppointment": "Reservar cita",
+      "login": "Iniciar sesión",
+      "assessment": "Evaluación"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

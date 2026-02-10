@@ -1,0 +1,215 @@
+{
+  "businessPermit": {
+    "hero": {
+      "title": "Aufenthaltsgenehmigung für selbstständige Tätigkeit in Schweden",
+      "subtitle": "Gründen und entwickeln Sie Ihr Unternehmen mit Expertenberatung von Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Aufenthaltsgenehmigung für selbstständige Tätigkeit: Ihr Weg zum Unternehmertum in Schweden",
+      "description": "Wenn Sie Staatsangehöriger eines Nicht-EU/EWR-Landes sind und beabsichtigen, in Schweden ein Unternehmen zu gründen oder weiterzuentwickeln, benötigen Sie eine Aufenthaltsgenehmigung für selbstständige Tätigkeit von der schwedischen Migrationsbehörde (Migrationsverket). Diese Genehmigung ermöglicht es Nicht-EU-Unternehmern, in Schweden zu leben, während sie ein Unternehmen aufbauen und betreiben. Bekannt für seine starke Wirtschaft bietet Schweden eine offene Geschäftslandschaft mit einer blühenden Startup-Kultur, robuster Infrastruktur und qualifizierten Arbeitskräften, was es zu einem idealen Standort für Unternehmer macht."
+    },
+    "whyChooseSweden": {
+      "heading": "Warum Schweden für Ihr Unternehmen wählen?",
+      "intro": "Das schwedische Geschäfts-Umfeld bietet zahlreiche Vorteile:",
+      "advantages": [
+        {
+          "title": "Innovative Umgebung",
+          "description": "Schweden hat eine kooperative und transparente Geschäfts-Kultur, die Innovationen fördert."
+        },
+        {
+          "title": "Zugang zu EU-Märkten",
+          "description": "Als EU-Mitglied bietet Schweden Unternehmen Zugang zu einem großen und stabilen Markt."
+        },
+        {
+          "title": "Unterstützendes Finanzierungsumfeld",
+          "description": "Schwedische Institutionen bieten verschiedene Finanzierungsmöglichkeiten für Unternehmer, einschließlich öffentlicher und privater Darlehen und Zuschüsse."
+        },
+        {
+          "title": "Hochwertige Infrastruktur",
+          "description": "Schwedens fortschrittliche Infrastruktur und digitale Kapazitäten machen es zu einem globalen Zentrum für Tech-Startups."
+        }
+      ],
+      "businessStructures": {
+        "intro": "Schweden bietet verschiedene Geschäftsstrukturen, wie zum Beispiel:",
+        "structures": [
+          {
+            "name": "Einzelunternehmen (Enskild Firma)",
+            "description": "Ideal für Einzelunternehmer"
+          },
+          {
+            "name": "Handelsgesellschaft oder Kommanditgesellschaft (Handelsbolag/Kommanditbolag)",
+            "description": "Geeignet für Partnerschaften oder kleine Familienbetriebe"
+          },
+          {
+            "name": "Aktiengesellschaft (Aktiebolag)",
+            "description": "Übliche Wahl für diejenigen, die ihr Unternehmen wachsen und skalieren möchten, bietet begrenzten Haftungsschutz"
+          },
+          {
+            "name": "Wirtschaftlicher Verband (Ekonomisk Förening)",
+            "description": "Wird von Kooperativen oder gemeindevitalen Initiativen genutzt"
+          }
+        ]
+      }
+    },
+    "keyRequirements": {
+      "heading": "Wichtige Anforderungen für eine Aufenthaltsgenehmigung für selbstständige Tätigkeit",
+      "intro": "Um für eine Aufenthaltsgenehmigung für selbstständige Tätigkeit in Frage zu kommen, müssen Sie nachweisen, dass Sie über ausreichende finanzielle Mittel, einen durchführbaren Geschäftsplan und relevante Erfahrung in Ihrer Branche verfügen. Die Genehmigung wird in der Regel für bis zu zwei Jahre erteilt, mit der Möglichkeit der Verlängerung basierend auf dem Geschäftserfolg.",
+      "requirements": [
+        {
+          "id": 1,
+          "title": "Gültiger Reisepass",
+          "description": "Sie müssen im gesamten Gültigkeitszeitraum der Genehmigung einen gültigen Reisepass besitzen. Die Gültigkeit der Genehmigung überschreitet nicht das Ablaufdatum des Reisepasses. Fügen Sie Kopien relevanter Reisepassseiten bei, um Identität, Gültigkeit und Aufenthaltsgenehmigungen in anderen Ländern zu bestätigen."
+        },
+        {
+          "id": 2,
+          "title": "Eigentum und Geschäftsleitung",
+          "description": "Sie müssen mindestens 50 % des Unternehmens besitzen und volle Entscheidungsbefugnis über den Betrieb haben. Sie sollten auch aktiv in den täglichen Betrieb des Unternehmens eingebunden sein und primäre Verantwortung für Führung und Ausrichtung übernehmen."
+        },
+        {
+          "id": 3,
+          "title": "Finanzielle Anforderungen für Geschäft und persönliche Unterstützung",
+          "description": "Startkapital: Sie müssen Bankauszüge vorlegen, die ausreichende Mittel zum Aufbau und Betrieb des Unternehmens für mindestens zwei Jahre belegen. Persönliche Unterstützung: Sie benötigen ausreichende persönliche Einkünfte, um sich selbst und gegebenenfalls Familienangehörige für die ersten beiden Jahre zu unterstützen. Die geschätzten Mindestanforderungen betragen: 200.000 SEK für Sie selbst, 100.000 SEK für Ehepartner/Partner und 50.000 SEK für jedes begleitende Kind."
+        },
+        {
+          "id": 4,
+          "title": "Durchführbarer Geschäftsplan",
+          "description": "Ein detaillierter Geschäftsplan ist entscheidend. Das Migrationsverket bewertet Ihren Geschäftsplan hinsichtlich Durchführbarkeit und Rentabilität. Fügen Sie Verträge mit Lieferanten und Kunden, Mietverträge für Geschäftsflächen falls relevant, erforderliche Branchenerlaubnisse und Finanzprognosen wie Investitionsbudget, Liquiditätsbudget und eine projizierte Bilanz (Gewinn-und-Verlust-Rechnung) hinzu."
+        },
+        {
+          "id": 5,
+          "title": "Relevante Erfahrung und Fähigkeiten",
+          "description": "Das Migrationsverket erfordert Nachweise dafür, dass Sie über die notwendige Erfahrung im Sektor und Fähigkeiten verfügen, Ihr Unternehmen effektiv zu führen. Stellen Sie Dokumentation zu früherer Berufserfahrung, Bildung oder früherem Unternehmertum im Zusammenhang mit der Branche bereit, in die Sie eintreten möchten."
+        },
+        {
+          "id": 6,
+          "title": "Sprachkenntnisse",
+          "description": "Obwohl dies nicht zwingend erforderlich ist, wird empfohlen, Schwedisch oder Englisch gut zu beherrschen, um die Kommunikation innerhalb der schwedischen Geschäftslandschaft und mit Behörden zu erleichtern."
+        },
+        {
+          "id": 7,
+          "title": "Zahlung der Bearbeitungsgebühr und Registrierung der Personennummer",
+          "description": "Die Bearbeitungsgebühr für die Aufenthaltsgenehmigung für selbstständige Tätigkeit muss bezahlt werden, und eine Quittung für diese Zahlung sollte Ihrem Antrag beigefügt werden. Wenn Sie planen, länger als ein Jahr in Schweden zu leben, müssen Sie außerdem eine schwedische Personennummer beantragen, indem Sie sich bei der schwedischen Steuerbehörde registrieren. Diese Nummer ist für den Zugang zur Gesundheitsversorgung, das Öffnen von Bankkonten und andere wesentliche Dienstleistungen unerlässlich."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Schritt-für-Schritt-Antragsverfahren für eine Aufenthaltsgenehmigung für selbstständige Tätigkeit",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Erforderliche Dokumente sammeln",
+          "description": "Stellen Sie alle erforderlichen Dokumente zusammen, einschließlich eines gültigen Reisepasses, Nachweise des Firmeneigentums und Ihres Geschäftsplans. Stellen Sie sicher, dass alle Dokumente den Standards des Migrationsverkets entsprechen und übersetzte Kopien beifügen, wenn sie nicht in Schwedisch oder Englisch vorliegen."
+        },
+        {
+          "number": 2,
+          "title": "Antrag einreichen",
+          "description": "Reichen Sie Ihren Antrag online über den Online-Service des Migrationsverkets oder an einer schwedischen Botschaft oder einem Konsulat in Ihrem Heimatland ein. Hängen Sie alle unterstützenden Dokumente an, die vom Migrationsverket gefordert werden. Fügen Sie Informationen über den Antragsteller mit persönlichen Daten, Geschäftsdaten und finanzieller Dokumentation hinzu. Stellen Sie sicher, dass der Geschäftsplan und die Bankauszüge genau sind und Ihre Fähigkeit widerspiegeln, ein nachhaltiges Geschäft in Schweden zu führen."
+        },
+        {
+          "number": 3,
+          "title": "Prüfung und Bewertung durch das Migrationsverket",
+          "description": "Die Migrationsbehörde wird Ihren Antrag auf der Grundlage der Finanziellen Tragfähigkeit (sicherstellen, dass Sie über ausreichend Kapital verfügen, um das Unternehmen aufrechtzuerhalten), der Geschäftslebensfähigkeit (Ihren Geschäftsplan prüfen, um festzustellen, ob er vernünftigerweise ausreichend Gewinn erwirtschaften kann) und des Persönlichen und Beruflichen Hintergrunds (Ihre Branchenerfahrung, Sprachkenntnisse und Ihr Verständnis des schwedischen Geschäfts-Umfelds bewerten) bewerten."
+        },
+        {
+          "number": 4,
+          "title": "Benachrichtigung über die Entscheidung",
+          "description": "Nach Prüfung des Antrags trifft das Migrationsverket eine Entscheidung. Bei Genehmigung erhalten Sie eine Aufenthaltsgenehmigung für selbstständige Tätigkeit, gültig für bis zu zwei Jahre. Verlängerungen können aufgrund des wirtschaftlichen Erfolgs des Unternehmens und Ihrer fortbestehenden Qualifikation gewährt werden."
+        }
+      ]
+    },
+    "businessStructuresDetail": {
+      "heading": "Geschäftsstrukturen in Schweden",
+      "intro": "Schweden bietet verschiedene Geschäftsstrukturen. Wählen Sie diejenige, die am besten zu Ihrem Geschäftsmodell und Ihren Zielen passt:",
+      "structures": [
+        {
+          "name": "Einzelunternehmen (Enskild Firma)",
+          "description": "Ideal für Einzelunternehmer ohne Partner."
+        },
+        {
+          "name": "Handelsgesellschaft oder Kommanditgesellschaft (Handelsbolag/Kommanditbolag)",
+          "description": "Geeignet für Partnerschaften oder kleine Familienbetriebe."
+        },
+        {
+          "name": "Aktiengesellschaft (Aktiebolag)",
+          "description": "Übliche Wahl für diejenigen, die ihr Unternehmen wachsen und skalieren möchten, bietet begrenzten Haftungsschutz."
+        },
+        {
+          "name": "Wirtschaftlicher Verband (Ekonomisk Förening)",
+          "description": "Allgemein verwendet von Kooperativen oder gemeindevitalen Initiativen."
+        }
+      ],
+      "note": "Jede Struktur hat spezifische Anforderungen und steuerliche Auswirkungen. Die richtige Auswahl ist entscheidend für die Einhaltung schwedischer Geschäftsregelungen."
+    },
+    "advantagesOfSwedenBusiness": {
+      "heading": "Vorteile des schwedischen Geschäfts-Umfelds",
+      "intro": "Schweden bietet eine stabile und transparente Umgebung mit Vorteilen, die das langfristige Wachstum von Unternehmen fördern:",
+      "advantages": [
+        {
+          "title": "Innovative Kultur",
+          "description": "Mit niedrigem Korruptionsniveau und minimaler Bürokratie fördert Schweden unternehmerische Innovation."
+        },
+        {
+          "title": "Finanzielle Zugänglichkeit",
+          "description": "Schweden bietet verschiedene Finanzierungsmöglichkeiten, darunter Bankdarlehen, staatliche Zuschüsse und Business-Angel-Investoren."
+        },
+        {
+          "title": "Zugang zu qualifizierten Talenten",
+          "description": "Das Land verfügt über eine hochqualifizierte Arbeitskraft mit starken technischen und Managementfähigkeiten, was besonders vorteilhaft für technologie- und innovationsorientierte Unternehmen ist."
+        },
+        {
+          "title": "Etablierte Infrastruktur",
+          "description": "Schwedens fortschrittliche Infrastruktur, effiziente Logistik und umfangreiche digitale Netzwerke machen es ideal für nationale und internationale Geschäftsaktivitäten."
+        }
+      ]
+    },
+    "howWeCanAssist": {
+      "heading": "Wie Sweden Relocators Sie unterstützen kann",
+      "intro": "Die Anforderungen für eine Aufenthaltsgenehmigung für selbstständige Tätigkeit zu verstehen, kann komplex sein. Sweden Relocators bietet umfassende Unterstützung, um einen erfolgreichen Antragsprozess sicherzustellen, von der Dokumentationshilfe bis hin zur Beratung beim Geschäftsplan.",
+      "services": [
+        {
+          "title": "Antragsberatung",
+          "description": "Wir helfen Ihnen bei der Sammlung und Organisation der erforderlichen Dokumentation und stellen sicher, dass alle Anforderungen den Standards des Migrationsverkets entsprechen."
+        },
+        {
+          "title": "Entwicklung des Geschäftsplans",
+          "description": "Unser Team hilft Ihnen dabei, einen überzeugenden Geschäftsplan zu erstellen, der finanzielle Tragfähigkeit nachweist und den Erwartungen des schwedischen Marktes entspricht."
+        },
+        {
+          "title": "Finanzielle und Einkommensnachweise",
+          "description": "Unterstützung bei der Dokumentation finanzieller Vermögenswerte, um Ihre Fähigkeit nachzuweisen, sowohl das Unternehmen als auch Ihre Familie zu unterstützen."
+        },
+        {
+          "title": "Ongoing Support",
+          "description": "Wir bieten Unterstützung während des gesamten Antragsprozesses, beantworten Anfragen des Migrationsverkets und führen Sie durch zusätzliche Anforderungen."
+        },
+        {
+          "title": "Beratung bei Einsprüchen",
+          "description": "Falls Ihr Antrag abgelehnt wird, bieten wir Anleitung für den Einspruchsprozess und helfen Ihnen, Ihren Fall für eine Neubewertung zu stärken."
+        }
+      ]
+    },
+    "whyWorkWithUs": {
+      "heading": "Warum mit Sweden Relocators arbeiten?",
+      "reasons": [
+        {
+          "title": "Expertenwissen",
+          "description": "Unser Team ist über die neuesten Anforderungen des Migrationsverkets informiert und bietet genaue und effektive Beratung."
+        },
+        {
+          "title": "Persönlicher Service",
+          "description": "Wir verstehen, dass jedes Unternehmen einzigartig ist, und wir passen unsere Unterstützung an die spezifischen Anforderungen Ihrer Branche und persönlichen Situation an."
+        },
+        {
+          "title": "Optimierter Prozess",
+          "description": "Durch die Bewältigung der Komplexität des Antragsverfahrens helfen wir Ihnen, Verzögerungen zu vermeiden und Ihre Erfolgschancen zu erhöhen."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Gründen Sie Ihr Unternehmen noch heute in Schweden",
+      "description": "Wenn Sie bereit sind, Ihr Unternehmen in Schweden zu gründen und Unterstützung bei der Beantragung der Aufenthaltsgenehmigung für selbstständige Tätigkeit benötigen, ist Sweden Relocators hier, um zu helfen. Kontaktieren Sie uns noch heute, um Ihre Geschäftsreise in Schweden mit Vertrauen zu beginnen.",
+      "button": "Loslegen",
+      "subtext": "Die Anforderungen für selbstständige Tätigkeit unterliegen Änderungen. Konsultieren Sie immer das Migrationsverket für die aktuellsten Informationen."
+    }
+  }
+}

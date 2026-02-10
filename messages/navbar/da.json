@@ -1,0 +1,92 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "Arbejdsløshed: 69,6%",
+      "educationRate": "Uddannelsesgrad: 85,2%",
+      "genderRatio": "Kønsforhold: ~1:1",
+      "countryName": "Sverige",
+      "gdp": "BNP: 610,1 milliarder USD",
+      "population": "Samlet befolkning: 10,65 millioner"
+    },
+    "links": {
+      "newInSweden": "Ny i Sverige",
+      "services": "Tjenester",
+      "housing": "Boliger",
+      "about": "Om os",
+      "contact": "Kontakt os",
+      "bookAppointment": "Book møde",
+      "login": "Log ind",
+      "assessment": "Vurdering"
+    },
+    "dropdowns": {
+      "services": {
+        "immigration": "IMMIGRATION",
+        "asylum": "Asyl",
+        "asylumDesc": "Du skal være i Sverige for at ansøge om asyl",
+        "relocateToSweden": "Flyt til Sverige",
+        "relocateToSwedenDesc": "Personnummer",
+        "relocateToDenmark": "Flyt til Danmark",
+        "relocateToDenmarkDesc": "CPR er Central Population Registration",
+        "workPermit": "Arbejdstilladelse",
+        "workPermitDesc": "Arbejdstilladelse henviser til et juridisk dokument",
+        "studyInEu": "Studer i EU",
+        "studyInEuDesc": "Hvis du overvejer at studere i Europa",
+        "globalVisitVisas": "Globale besøgsvisa",
+        "globalVisitVisasDesc": "For at besøge Sverige i en kort periode",
+        "appealCases": "Appelsager",
+        "appealCasesDesc": "Eksperthjælp med immigrationappeller",
+        "business": "FORRETNING",
+        "businessPermit": "Erhvervsvisa",
+        "businessPermitDesc": "Dansk erhvervskultur og praksis",
+        "businessVisit": "Erhvervsbesøg",
+        "businessVisitDesc": "Udlændinge der ønsker at besøge Sverige",
+        "logisticsServices": "Logistiktjenester",
+        "logisticsServicesDesc": "Strømlin dit flytning med vores logistik",
+        "companyRegistration": "Virksomhedsregistrering",
+        "companyRegistrationDesc": "Hvis du planlægger at registrere et firma",
+        "eorPayroll": "EOR og løn",
+        "eorPayrollDesc": "Vi tilbyder en nem løsning",
+        "family": "FAMILIE",
+        "familyReunification": "Familiesammenføring",
+        "familyReunificationDesc": "Familiesammenføring er en juridisk proces",
+        "euCitizensParentsPermit": "EU-borgeres forældetilladelse",
+        "euCitizensParentsPermitDesc": "Forældre til barn under 18 år",
+        "citizenship": "STATSBORGERSKAB",
+        "citizenshipLabel": "Statsborgerskab",
+        "citizenshipDesc": "Når du bor i Sverige i en bestemt periode",
+        "euCitizensRelocation": "EU-borgeres flytning",
+        "euCitizensRelocationDesc": "Familiesammenføring betyder familiemedlemmer"
+      },
+      "housing": {
+        "availableHousing": "LEDIGE BOLIGER",
+        "availableHousingLink": "Ledige boliger",
+        "availableHousingDesc": "Gennemse alle disponible boligmuligheder",
+        "rentalApartments": "Lejligheder",
+        "rentalApartmentsDesc": "Find møblerede og umøblerede lejligheder",
+        "studentHousing": "Studentbolig",
+        "studentHousingDesc": "Bolig dedikeret til studerende",
+        "lookingForHousing": "SØG EFTER BOLIG",
+        "housingSearch": "Boligsøgning",
+        "housingSearchDesc": "Lad os hjælpe dig med at finde dit hjem",
+        "roommateMatching": "Roommate Matching",
+        "roommateMatchingDesc": "Find kompatible værelseskammerater og delt bolig"
+      },
+      "assessment": {
+        "visaAssessments": "VISAVURDERINGER",
+        "businessVisa": "Erhvervsvisa",
+        "businessVisaDesc": "Erhvervsvisa tillader rejser til forretningsformål",
+        "visitVisa": "Besøgsvisa",
+        "visitVisaDesc": "Besøgsvisa tillader korte ophold i Sverige",
+        "studentVisa": "Studentvisa",
+        "studentVisaDesc": "Studentvisa tillader studier i Sverige",
+        "permitsAndStatus": "TILLADELSER OG STATUS",
+        "familyReunification": "Familiesammenføring",
+        "familyReunificationDesc": "Familiesammenføringsvisa tillader familiemedlemmer at tilslutte sig",
+        "workPermit": "Arbejdstilladelse",
+        "workPermitDesc": "Arbejdstilladelse tillader beskæftigelse i Sverige",
+        "longtermEuResidence": "Langsigtet EU-residens",
+        "longtermEuResidenceDesc": "Langsigtet opholdsstatus for langvarigt bosatte"
+      }
+    }
+  }
+}

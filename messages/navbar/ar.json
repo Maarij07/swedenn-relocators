@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "topBar": {
+      "employmentRate": "معدل التوظيف: 69.6%",
+      "educationRate": "معدل التعليم: 85.2%",
+      "genderRatio": "نسبة النوع الاجتماعي: ~1:1",
+      "countryName": "السويد",
+      "gdp": "الناتج المحلي الإجمالي: 610.1 مليار دولار أمريكي",
+      "population": "إجمالي السكان: 10.65 مليون"
+    },
+    "links": {
+      "newInSweden": "جديد في السويد",
+      "services": "الخدمات",
+      "housing": "السكن",
+      "about": "عننا",
+      "contact": "اتصل بنا",
+      "bookAppointment": "حجز موعد",
+      "login": "تسجيل الدخول",
+      "assessment": "التقييم"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {},
+      "assessment": {}
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "euCitizensRelocation": {
+    "hero": {
+      "title": "EU Family Reunification in Sweden",
+      "subtitle": "Comprehensive Support for EU Citizens and Their Families"
+    },
+    "intro": {
+      "heading": "Bring Your EU Family to Sweden",
+      "description": "Relocating to Sweden as an EU citizen gives you the legal right to bring your family with you, ensuring your loved ones can join you and enjoy Sweden's quality of life, healthcare, education, and social benefits. Sweden Relocators provides expert support for EU family reunification, covering eligibility, documentation, residence cards, personnummer registration, housing, and integration.",
+      "infoBox": "EU family reunification in Sweden is based on Directive 2004/38/EC, allowing EU citizens living in Sweden to bring family members and access healthcare, education, and social benefits on the same terms as other residents."
+    },
+    "whatIs": {
+      "heading": "What is EU Family Reunification?",
+      "description": "EU family reunification in Sweden is based on Directive 2004/38/EC on the right of EU citizens and their families to move and reside freely within the EU. It allows EU citizens living in Sweden to bring family members with them, whether immediate or extended family, as long as certain conditions are met."
+    },
+    "immediateFamilyHeading": "Immediate Family Members Eligible for Reunification",
+    "immediateFamily": [
+      {
+        "type": "Spouse or Registered Partner",
+        "description": "Includes both opposite-sex and same-sex marriages and registered partnerships recognized under Swedish law."
+      },
+      {
+        "type": "Common-Law Partner",
+        "description": "If the relationship is long-term and recognized as equivalent to marriage in Sweden."
+      },
+      {
+        "type": "Children Under 21",
+        "description": "Biological or adopted children of the EU citizen or their spouse/partner."
+      },
+      {
+        "type": "Dependent Children Over 21",
+        "description": "If they rely financially on the EU citizen."
+      },
+      {
+        "type": "Dependent Parents and Grandparents",
+        "description": "Relatives in the ascending line who are financially dependent."
+      }
+    ],
+    "extendedFamily": {
+      "heading": "Extended Family Members and Dependency",
+      "description": "In some cases, extended family members may also qualify if dependency can be proven. This can include adult siblings, adult children living in the same household, and other relatives with strong dependency ties. Eligibility for extended family reunification is stricter and requires clear evidence of dependency."
+    },
+    "longTermPermitHeading": "Long-Term EU Residence Permit Holders",
+    "longTermPermitRequirements": [
+      "Hold a valid long-term residence permit issued by another EU state",
+      "Have sufficient financial means and housing in Sweden",
+      "Apply for residence in Sweden together with their immediate family members"
+    ],
+    "residenceCard": {
+      "heading": "Residence Card for Family Members",
+      "intro": "Family members who plan to stay in Sweden for more than three months must apply for a Residence Card with Migrationsverket (the Swedish Migration Agency).",
+      "documentsLabel": "Required Documents:",
+      "documents": [
+        "Valid passport",
+        "Proof of family relationship (marriage certificate, registered partnership certificate, or birth certificate)",
+        "Proof of dependency (for parents, grandparents, or children over 21)",
+        "Proof of residence in Sweden by the EU citizen (rental agreement, property ownership, or employment contract)",
+        "Financial proof that the EU citizen can support themselves and their family"
+      ],
+      "note": "Residence cards are usually valid for five years or for as long as the EU citizen is living in Sweden."
+    },
+    "personnummer": {
+      "heading": "Personnummer (Swedish Personal Identity Number)",
+      "intro": "Once family members receive a residence card, they must register with Skatteverket (Swedish Tax Agency) to obtain a personnummer. This number is essential for:",
+      "uses": [
+        "Accessing healthcare",
+        "Registering for schools",
+        "Opening a bank account",
+        "Signing contracts (housing, mobile phone, utilities)"
+      ]
+    },
+    "healthcare": {
+      "heading": "Healthcare and Health Insurance",
+      "description": "Family members can access Sweden's public healthcare system once they have a personnummer. Until then, private health insurance is required. For non-EU family members, comprehensive health insurance covering at least EUR 30,000 is recommended."
+    },
+    "education": {
+      "heading": "Education and Childcare",
+      "programs": [
+        {
+          "name": "Compulsory Education",
+          "description": "Free schooling for children aged 6–16, including meals"
+        },
+        {
+          "name": "Preschool (Förskola)",
+          "description": "Available for children aged 1–5, with subsidized fees"
+        },
+        {
+          "name": "International Schools",
+          "description": "Options for families seeking education in English or other languages"
+        }
+      ]
+    },
+    "bankAccounts": {
+      "heading": "Bank Accounts and Financial Integration",
+      "intro": "After obtaining a personnummer, family members can open a Swedish bank account. Required documents often include:",
+      "documents": [
+        "ID card from Skatteverket",
+        "Residence card",
+        "Proof of address",
+        "Proof of income (if applicable)"
+      ],
+      "note": "Bank accounts allow access to digital payments, online banking, and Swish (Sweden's mobile payment system)."
+    },
+    "language": {
+      "heading": "Language and Integration Support",
+      "description": "Learning Swedish is crucial for integration. Family members can join SFI (Swedish for Immigrants) courses once they are registered with a personnummer. These free, government-funded courses improve daily communication and employment opportunities. Sweden Relocators also offers cultural orientation services to help families adapt faster."
+    },
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Assessment of Eligibility",
+        "description": "Sweden Relocators checks if family members qualify under EU rules."
+      },
+      {
+        "step": "2",
+        "title": "Document Preparation",
+        "description": "Collecting and translating required documents."
+      },
+      {
+        "step": "3",
+        "title": "Submission to Migrationsverket",
+        "description": "Filing applications for residence cards."
+      },
+      {
+        "step": "4",
+        "title": "Follow-Up and Communication",
+        "description": "Handling any requests from the Migration Agency."
+      },
+      {
+        "step": "5",
+        "title": "Registration with Skatteverket",
+        "description": "Assistance with personnummer, ID card, and tax registration."
+      },
+      {
+        "step": "6",
+        "title": "Integration Services",
+        "description": "Housing, schools, healthcare, and language support."
+      }
+    ],
+    "services": {
+      "heading": "How Sweden Relocators Supports Families",
+      "description": "Our comprehensive services and digital portal ensure your family reunification is smooth, compliant, and stress-free.",
+      "servicesList": [
+        {
+          "title": "Eligibility Checks and Legal Assessments",
+          "description": "We verify that your family members qualify under EU regulations."
+        },
+        {
+          "title": "Document Preparation and Certified Translations",
+          "description": "All documents are professionally prepared and translated for Swedish authorities."
+        },
+        {
+          "title": "Application Submission and Tracking",
+          "description": "We submit applications and monitor progress with Migrationsverket."
+        },
+        {
+          "title": "Appeals Support",
+          "description": "If applications are denied, we provide full support through the appeals process."
+        },
+        {
+          "title": "Housing and School Search",
+          "description": "We assist with finding suitable accommodation and enrolling children in schools."
+        },
+        {
+          "title": "Insurance and Healthcare Support",
+          "description": "Guidance on Swedish healthcare access and insurance requirements."
+        }
+      ]
+    },
+    "whySweden": [
+      {
+        "title": "Strong Social Welfare System",
+        "description": "Access to comprehensive healthcare, education, and social security benefits."
+      },
+      {
+        "title": "Free Education and Healthcare",
+        "description": "World-class education and healthcare services available to all residents."
+      },
+      {
+        "title": "Safe and Family-Friendly",
+        "description": "Sweden offers a secure, inclusive, and high-quality environment for families."
+      },
+      {
+        "title": "Secure Residency Rights",
+        "description": "Legal protection under both EU and Swedish immigration laws."
+      }
+    ],
+    "cta": {
+      "heading": "Ready to Start Your EU Family Reunification Journey?",
+      "description": "Sweden Relocators is here to ensure your transition is smooth, compliant, and stress-free. Contact us today to begin your family reunification journey. Our digital portal allows families to manage profiles, upload documents, and track progress in real time.",
+      "button": "Start Your EU Family Reunification",
+      "subtext": "Our expert team will guide your family through every step of the EU family reunification process in Sweden."
+    }
+  }
+}

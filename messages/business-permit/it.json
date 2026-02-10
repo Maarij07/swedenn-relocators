@@ -1,0 +1,215 @@
+{
+  "businessPermit": {
+    "hero": {
+      "title": "Permesso di soggiorno per attività imprenditoriale in Svezia",
+      "subtitle": "Avvia e sviluppa la tua azienda con la guida esperta di Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Permesso di soggiorno per attività imprenditoriale: Il tuo percorso verso l'imprenditorialità in Svezia",
+      "description": "Se sei un cittadino di un paese al di fuori dell'UE/SEE e hai l'obiettivo di avviare o sviluppare un'attività in Svezia, avrai bisogno di un permesso di soggiorno per attività imprenditoriale dall'Agenzia svedese per l'immigrazione (Migrationsverket). Questo permesso consente agli imprenditori non UE di vivere in Svezia mentre costruiscono e gestiscono un'azienda. Conosciuta per la sua economia forte, la Svezia offre un ambiente commerciale aperto con una fiorente cultura delle startup, un'infrastruttura robusta e una forza lavoro qualificata, rendendola una destinazione ideale per gli imprenditori."
+    },
+    "whyChooseSweden": {
+      "heading": "Perché scegliere la Svezia per la tua azienda?",
+      "intro": "L'ambiente commerciale svedese offre numerosi vantaggi:",
+      "advantages": [
+        {
+          "title": "Ambiente innovativo",
+          "description": "La Svezia ha una cultura commerciale collaborativa e trasparente che incoraggia l'innovazione."
+        },
+        {
+          "title": "Accesso ai mercati dell'UE",
+          "description": "Come membro dell'UE, la Svezia offre alle aziende accesso a un mercato vasto e stabile."
+        },
+        {
+          "title": "Ecosistema finanziario favorevole",
+          "description": "Le istituzioni svedesi offrono diverse opzioni di finanziamento per gli imprenditori, tra cui prestiti pubblici e privati e sovvenzioni."
+        },
+        {
+          "title": "Infrastruttura di alta qualità",
+          "description": "L'infrastruttura avanzata della Svezia e le sue capacità digitali ne fanno un centro globale per le startup tecnologiche."
+        }
+      ],
+      "businessStructures": {
+        "intro": "La Svezia offre diverse strutture aziendali, come:",
+        "structures": [
+          {
+            "name": "Imprenditore individuale (Enskild Firma)",
+            "description": "Ideale per imprenditori individuali"
+          },
+          {
+            "name": "Società di commercio o Società in accomandita (Handelsbolag/Kommanditbolag)",
+            "description": "Adatto per partnership o piccole aziende familiari"
+          },
+          {
+            "name": "Società per azioni (Aktiebolag)",
+            "description": "Scelta comune per coloro che cercano di far crescere e scalare la propria azienda, offrendo protezione limitata della responsabilità"
+          },
+          {
+            "name": "Associazione economica (Ekonomisk Förening)",
+            "description": "Utilizzata da cooperative o iniziative guidate dalla comunità"
+          }
+        ]
+      }
+    },
+    "keyRequirements": {
+      "heading": "Requisiti chiave per il permesso di soggiorno per attività imprenditoriale",
+      "intro": "Per essere idoneo a un permesso di soggiorno per attività imprenditoriale, devi dimostrare di avere risorse finanziarie sufficienti, un piano aziendale fattibile e un'esperienza rilevante nel tuo settore. Il permesso è generalmente concesso per un massimo di due anni, con la possibilità di rinnovo basato sul successo aziendale.",
+      "requirements": [
+        {
+          "id": 1,
+          "title": "Passaporto valido",
+          "description": "Devi possedere un passaporto valido per tutta la durata del permesso. La validità del permesso non supererà la data di scadenza del passaporto. Includi copie delle pagine rilevanti del passaporto per confermare l'identità, la validità e i permessi di soggiorno in altri paesi."
+        },
+        {
+          "id": 2,
+          "title": "Proprietà e controllo aziendale",
+          "description": "Devi possedere almeno il 50% dell'azienda e avere piena autorità decisionale sulle sue operazioni. Dovresti anche essere coinvolto attivamente nella gestione quotidiana dell'azienda e avere la responsabilità primaria della sua gestione e direzione."
+        },
+        {
+          "id": 3,
+          "title": "Requisiti finanziari per l'azienda e il sostegno personale",
+          "description": "Capitale iniziale: Devi fornire estratti conto bancari che dimostrino fondi sufficienti per creare e gestire l'azienda per almeno due anni. Sostegno personale: Devi disporre di redditi personali sufficienti per mantenere te stesso e eventuali membri della famiglia accompagnatori per i primi due anni. I requisiti minimi stimati sono: 200.000 SEK per te stesso, 100.000 SEK per il coniuge/partner e 50.000 SEK per ogni figlio a carico."
+        },
+        {
+          "id": 4,
+          "title": "Piano aziendale praticabile",
+          "description": "Un piano aziendale dettagliato è essenziale. Migrationsverket valuterà il tuo piano aziendale per fattibilità e redditività. Includi contratti con fornitori e clienti, contratti di locazione immobiliare se rilevanti, permessi settoriali necessari e proiezioni finanziarie come budget di investimento, budget di liquidità e un bilancio preventivo (conto economico)."
+        },
+        {
+          "id": 5,
+          "title": "Esperienza e competenze rilevanti",
+          "description": "Migrationsverket richiede prove che tu abbia l'esperienza necessaria nel settore e le competenze per gestire efficacemente la tua azienda. Fornisci documentazione di precedenti esperienze lavorative, formazione o precedente proprietà di un'azienda rilevante per il settore in cui intendi entrare."
+        },
+        {
+          "id": 6,
+          "title": "Conoscenza linguistica",
+          "description": "Sebbene non sia strettamente richiesto, è consigliabile avere competenza in svedese o inglese per facilitare la comunicazione nell'ambiente commerciale svedese e con le autorità."
+        },
+        {
+          "id": 7,
+          "title": "Pagamento della tariffa di richiesta e registrazione del numero personale",
+          "description": "La tariffa di richiesta per il permesso di soggiorno per attività imprenditoriale deve essere pagata e una ricevuta di questo pagamento dovrebbe essere inclusa nella tua domanda. Se prevedi di vivere in Svezia per più di un anno, devi anche richiedere un numero personale (personnummer) registrandoti presso l'Ufficio fiscale svedese. Questo numero è essenziale per accedere all'assistenza sanitaria, aprire conti bancari e altri servizi essenziali."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Processo di richiesta passo dopo passo per un permesso di attività imprenditoriale",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Raccogliere la documentazione richiesta",
+          "description": "Compila tutti i documenti necessari, incluso un passaporto valido, prova della proprietà aziendale e il tuo piano aziendale. Assicurati che tutti i documenti soddisfino gli standard di Migrationsverket e includi copie tradotte se non sono in svedese o inglese."
+        },
+        {
+          "number": 2,
+          "title": "Presentare la domanda",
+          "description": "Invia la tua domanda online attraverso il servizio elettronico di Migrationsverket o presso un'ambasciata o un consolato svedese nel tuo paese d'origine. Allega tutti i documenti di supporto richiesti da Migrationsverket. Includi le informazioni del richiedente con dati personali, informazioni sull'azienda e documentazione finanziaria. Assicurati che il piano aziendale e gli estratti conto siano accurati e riflettano la tua capacità di gestire un'azienda sostenibile in Svezia."
+        },
+        {
+          "number": 3,
+          "title": "Revisione e valutazione da parte di Migrationsverket",
+          "description": "L'Agenzia per l'immigrazione valuterà la tua domanda in base alla fattibilità finanziaria (assicurando che tu abbia capitale sufficiente per sostenere l'attività), alla fattibilità aziendale (esaminando il tuo piano aziendale per determinare se ragionevolmente possa generare profitto sufficiente) e allo sfondo personale e aziendale (valutando la tua esperienza nel settore, le competenze linguistiche e la comprensione dell'ambiente commerciale svedese)."
+        },
+        {
+          "number": 4,
+          "title": "Notifica della decisione",
+          "description": "Una volta esaminata la domanda, Migrationsverket emetterà una decisione. In caso di approvazione, riceverai un permesso di soggiorno per attività imprenditoriale, valido per un massimo di due anni. I rinnovi possono essere concessi in base al successo finanziario dell'azienda e alla tua continuata idoneità."
+        }
+      ]
+    },
+    "businessStructuresDetail": {
+      "heading": "Strutture aziendali in Svezia",
+      "intro": "La Svezia offre diverse strutture aziendali. Scegli quella che meglio si adatta al tuo modello di business e ai tuoi obiettivi:",
+      "structures": [
+        {
+          "name": "Imprenditore individuale (Enskild Firma)",
+          "description": "Ideale per imprenditori individuali senza partner."
+        },
+        {
+          "name": "Società di commercio o Società in accomandita (Handelsbolag/Kommanditbolag)",
+          "description": "Adatto per partnership o piccole aziende familiari."
+        },
+        {
+          "name": "Società per azioni (Aktiebolag)",
+          "description": "Scelta comune per coloro che cercano di far crescere e scalare la propria azienda, offrendo protezione limitata della responsabilità."
+        },
+        {
+          "name": "Associazione economica (Ekonomisk Förening)",
+          "description": "Generalmente utilizzata da cooperative o iniziative guidate dalla comunità."
+        }
+      ],
+      "note": "Ogni struttura ha requisiti specifici e implicazioni fiscali. Scegliere quella giusta è cruciale per la conformità con le normative commerciali svedesi."
+    },
+    "advantagesOfSwedenBusiness": {
+      "heading": "Vantaggi dell'ambiente commerciale svedese",
+      "intro": "La Svezia offre un ambiente stabile e trasparente con vantaggi che favoriscono la crescita aziendale a lungo termine:",
+      "advantages": [
+        {
+          "title": "Cultura innovativa",
+          "description": "Con bassi livelli di corruzione e minima burocrazia, la Svezia incoraggia l'innovazione imprenditoriale."
+        },
+        {
+          "title": "Accessibilità finanziaria",
+          "description": "La Svezia offre una serie di opzioni di finanziamento, tra cui prestiti bancari, sovvenzioni governamentali e investitori angelici."
+        },
+        {
+          "title": "Accesso a talenti qualificati",
+          "description": "Il paese ha una forza lavoro altamente istruita, con forti competenze tecniche e manageriali, particolarmente vantaggioso per le aziende focalizzate su tecnologia e innovazione."
+        },
+        {
+          "title": "Infrastruttura consolidata",
+          "description": "L'infrastruttura avanzata della Svezia, la logistica efficiente e i suoi estesi network digitali la rendono ideale sia per le operazioni commerciali nazionali che internazionali."
+        }
+      ]
+    },
+    "howWeCanAssist": {
+      "heading": "Come Sweden Relocators può assisterti",
+      "intro": "Capire i requisiti per un permesso di soggiorno per attività imprenditoriale può essere complesso. Sweden Relocators fornisce supporto completo per garantire un processo di richiesta di successo, dall'assistenza documentale alla guida nella pianificazione aziendale.",
+      "services": [
+        {
+          "title": "Guida alla richiesta",
+          "description": "Aiutiamo a raccogliere e organizzare la documentazione richiesta, assicurandoci che tutti i requisiti soddisfino gli standard di Migrationsverket."
+        },
+        {
+          "title": "Sviluppo del piano aziendale",
+          "description": "Il nostro team ti aiuta a creare un piano aziendale convincente che dimostri la sostenibilità finanziaria e si allinei alle aspettative del mercato svedese."
+        },
+        {
+          "title": "Prove finanziarie e di reddito",
+          "description": "Assistenza nella documentazione degli asset finanziari per provare la tua capacità di sostenere sia l'azienda che la tua famiglia."
+        },
+        {
+          "title": "Ongoing Support",
+          "description": "Offriamo supporto durante tutto il processo di richiesta, rispondendo alle richieste di Migrationsverket e guidandoti attraverso eventuali requisiti aggiuntivi."
+        },
+        {
+          "title": "Assistenza per ricorsi",
+          "description": "Se la tua domanda viene respinta, forniamo indicazioni sul processo di ricorso e ti aiutiamo a rafforzare la tua posizione per una riesame."
+        }
+      ]
+    },
+    "whyWorkWithUs": {
+      "heading": "Perché lavorare con Sweden Relocators?",
+      "reasons": [
+        {
+          "title": "Conoscenza esperta",
+          "description": "Il nostro team rimane aggiornato sugli ultimi requisiti di Migrationsverket, fornendo indicazioni accurate ed efficaci."
+        },
+        {
+          "title": "Servizio personalizzato",
+          "description": "Comprendiamo che ogni azienda è unica e adattiamo il nostro supporto alle esigenze specifiche del tuo settore e situazione personale."
+        },
+        {
+          "title": "Processo ottimizzato",
+          "description": "Gestendo la complessità del processo di richiesta, ti aiutiamo a evitare ritardi e aumentare le tue probabilità di successo."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Avvia la tua azienda in Svezia oggi",
+      "description": "Se sei pronto a stabilire la tua azienda in Svezia e hai bisogno di supporto con la richiesta di permesso di soggiorno per attività imprenditoriale, Sweden Relocators è qui per aiutarti. Contattaci oggi per iniziare il tuo percorso imprenditoriale in Svezia con fiducia.",
+      "button": "Inizia ora",
+      "subtext": "I requisiti per l'attività imprenditoriale sono soggetti a modifiche. Consulta sempre Migrationsverket per le informazioni più recenti."
+    }
+  }
+}
