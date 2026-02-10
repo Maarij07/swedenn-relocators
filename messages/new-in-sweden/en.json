@@ -1,5 +1,181 @@
 {
   "newInSweden": {
+    "mainContent": {
+      "tagline": "Helping you navigate, so you move one step way",
+      "title": "Your First Steps to Success in Sweden",
+      "subtitle": "A Clear Roadmap for Every Newcomer"
+    },
+    "accommodation": {
+      "sectionTitle": "ACCOMMODATION",
+      "title": "Finding Home",
+      "intro": "Perhaps you arranged temporary lodging or rented a room before arriving in Sweden and may want to move as temporary arrangements come to an end. Looking for your ideal place to stay can be a challenging task in larger cities such as Stockholm, Gothenburg and Malmö, where available housing remains relatively scarce.",
+      "firstVsSecondHand": "You can rent first-hand or second-hand in Sweden. First-hand (första hand) means you sign an agreement with the owner of the building, while second-hand (andra hand) means you sign an agreement with someone who already has the first-hand contract or has the first-hand contract on the flat.",
+      "waitingList": "To get a first-hand contract, you need to register to be put on the municipal waiting list (bostadskö) and it can take anywhere from a few years in some municipalities up to ten years for central locations in cities like Stockholm for a first-hand contract to become available.",
+      "secondHandRisks": "As a new resident, you'll probably be renting a flat from someone who qualifies in a second-hand arrangement. It is extremely important to make sure that the tenant co-operation board of the building (bostadsrättsföreningen) or the landlord has signed off on second-hand leasing. If you rent a flat from a subletter who doesn't have permission, you run the risk of being evicted (or make a long story short)."
+    },
+    "socialSecurity": {
+      "sectionTitle": "SOCIAL SECURITY NUMBER",
+      "title": "Personnummer",
+      "intro": "If you live new in Sweden, the first thing you should do is register with the Swedish Tax Authority to get your social security number, also called a personal identity number or personnummer.",
+      "importance": "As an EU citizen, you have the right to live, work, and study in Sweden with or without a personnummer. The personnummer is a 12 digit number issued by Skatteverket. They issue it when they confirm you can support yourself and your family during your first year in Sweden. Personnummer is not only required to be a part of the social security and health care systems in Sweden, which is otherwise quite expensive to arrange through private insurance companies, but is often used as identification proof at all government offices, banks, insurances, subscriptions, collection of postal items at the post office etc.",
+      "requirements": {
+        "title": "Take All These Into Consideration",
+        "take": "take",
+        "subtitle": "All These Into Consideration",
+        "items": {
+          "employment": "Employment contract(s),",
+          "savings": "Proof of savings ex. Bank statement,",
+          "familyMembers": "Number of members in the family,",
+          "residence": "Place of residence(must be in Sweden). You can NOT apply for a personnummer while still living abroad. Neither is a holiday address enough. You must have a residential address in Sweden.",
+          "inPerson": "You need to go in person (all the persons in the family) to an office of Skatteverket to apply for a personnummer.",
+          "legalId": "A legal ID certificate, preferably a passport for every person applying."
+        }
+      }
+    },
+    "identificationCard": {
+      "sectionTitle": "IDENTIFICATION CARD",
+      "title": "Swedish ID Card",
+      "intro": "Once you have received your Social Security number, you need to book an appointment with Swedish tax authority Skatteverket to apply for a Swedish ID card.",
+      "description": "Anyone who is at least 13 years old and registered for population purposes in Sweden may apply to the Swedish Tax Agency for Swedish ID card. You must be able to identify yourself, in other words prove who you are, with approved ID documentation or via an attestor."
+    },
+    "bankAccount": {
+      "sectionTitle": "Opening of a",
+      "title": "Bank Account",
+      "intro": "In order to open a bank account, you must always be able to identify yourself.",
+      "identification": {
+        "swedishDocuments": "You can identify yourself with a valid Swedish identification document, such as a passport, a national identity card or a BankID. You can also identify yourself with a Swedish driving license.",
+        "foreignDocuments": "If you do not have Swedish identification documents, you can identify yourself with a valid foreign passport or other photo identification document that clearly shows your citizenship and is issued by an authority or some other authorized issuer. Note that the bank may request that you also present other documents.",
+        "noValidDocuments": "If you do not have any valid identity documents, you must be able to prove who you are and your citizenship by means of other documents issued by a competent authority."
+      },
+      "requirements": {
+        "title": "Bank Account",
+        "items": [
+          "A residence permit or a visa (does not apply to EU citizens)",
+          "An admission decision confirmation from your university, showing the duration of your studies",
+          "The bank is not satisfied with the identity document submitted",
+          "The bank determines that the reason given by you to open an account is inadequate",
+          "The bank, by opening an account, would be in breach of a legal regulation or directive",
+          "You have previously acted dishonestly towards the bank"
+        ]
+      },
+      "beforeVisiting": {
+        "title": "Visiting a Bank",
+        "subtitle": "Before",
+        "items": [
+          "You must be able to understand the bank's questions as well as answer them.",
+          "You must also be able to understand the information that the bank gives you.",
+          "In order for a bank to understand you, you should bring such a person with you while visiting the bank.",
+          "The bank will ask you about the source of income.",
+          "Your account and other bank services must not be used by anyone else unless an agreement for this is held with the bank.",
+          "The bank may ask you additional questions or stipulate other requirements."
+        ]
+      }
+    },
+    "employment": {
+      "sectionTitle": "LOOKING",
+      "title": "For Work In Sweden",
+      "linkText": "The Swedish Public Employment Service",
+      "linkUrl": "https://arbetsformedlingen.se",
+      "beforeLink": "",
+      "afterLink": " (Arbetsförmedlingen) offers support to people looking for work. You can register either online using your Bank ID or by personally visiting the nearest Arbetsförmedlingen office. Apart from arbetsförmedlingen, there are many other privately run job websites like LinkedIn, Indeed, etc. commonly used to find a job in Sweden. These websites usually include job listings and functions where you can upload your CV."
+    },
+    "healthcare": {
+      "sectionTitle": "HEALTH CARE",
+      "title": "Health Centre",
+      "description": "You can visit your local health centre - vårdcentral. These centres provide a starting point for most medical treatments in Sweden. The staff can help you with health related matters and write referrals - remisser, which you need in order to see a specialist.",
+      "maternity": {
+        "title": "Maternity Clinics",
+        "subtitle": "Mother & Child Care",
+        "description": "The maternity clinic (barnmorskemottagningen) is primary health care facility for pregnant women which are responsible for women's health care throughout the pregnancy and for child's health care before, during and after birth. Visits to the government maternity clinics are free, but not in case of private care."
+      },
+      "childCare": {
+        "title": "Health Care Centre",
+        "subtitle": "Child",
+        "description": "At the child health centre or barnavårdscentralen (BVC), you can get tips about your child's development, breastfeeding, food and illnesses. When you come home after childbirth, you can contact the child health centre to make an appointment for a first meeting. The first meeting is often held at home. At the meeting, the nurse asks you about the child health centre and looks to see how your baby is doing."
+      },
+      "costs": {
+        "title": "And Fees",
+        "subtitle": "Costs",
+        "description": "The costs and fees for visiting a vårdcentral vary from county to county. But the costs of a visit is usually between 100 - 300 SEK and normally free for everyone under 20. Don't forget to cancel an appointment if you don't attend as you will otherwise have to pay the full costs of the defaulted visit."
+      },
+      "dentalCare": {
+        "coverage": {
+          "title": "Is Covered?",
+          "subtitle": "Costs",
+          "description": "Anyone, registered as resident in Sweden, is entitled to free dental care up to and including the 31 of December of the year you turn 23. Adults on the other hand, pay a large part of their dental care costs themselves, starting on the 1 January of the year they turn 23. For asylum seekers and undocumented immigrants, you have the right to receive dental care free of charge until your 18th birthday. If you are an adult, entitled to a dental care grant of 300 or 600 SEK a year. You can save the grant for two years and use it on one occasion, but you can't save more than two grants at the time."
+        },
+        "findDentist": {
+          "title": "I Find A Dentist",
+          "subtitle": "Where Do",
+          "description": "You will get a list with all the dentists affiliated with the public dental service – Folktandvården."
+        }
+      }
+    },
+    "drivingLicense": {
+      "sectionTitle": "HOW TO GET A",
+      "title": "Driving License",
+      "euLicense": "In case you have a driving license issued by any EU country then it is valid throughout your stay in Sweden. You can even exchange your driving license with a Swedish license if you have permanent residency(RP).",
+      "nonEuLicense": "A driving license which is issued by any non-EEA country (excluding Switzerland and Japan) is valid for maximum one year in Sweden. It cannot be exchanged with a Swedish license. So if you want to continue driving in Sweden you must avail a Swedish driving license. For which you will have to complete the risk education, theoretical and practical driving exam.",
+      "steps": {
+        "title": "License",
+        "subtitle": "Steps to get a",
+        "items": [
+          "Apply for a learning permit",
+          "Start your driving practice",
+          "Study the theory of driving",
+          "Take the risk training – riskutbildning",
+          "Book a time for a driving test"
+        ]
+      }
+    },
+    "parentalAllowance": {
+      "sectionTitle": "PARENTAL",
+      "title": "Allowance",
+      "registration": {
+        "title": "With Försäkringskassan",
+        "subtitle": "Register",
+        "description": "You need to register with Försäkringskassan (the Swedish Social Insurance Agency) to qualify for various benefits like eg child care allowance, unemployment benefit, parental benefit, etc. Read more at www.forsakringskassan.se"
+      },
+      "details": "Parental benefit/allowance is the money you receive to be able to be at home with your child instead of working, seeking work, or studying. The childcare, both the parents are entitled 480 days of leave per child in total(240 days each). 390 of these days are income-based and 90 days are at the minimum level. If you were working in Sweden during the pregnancy or at the time of childbirth, then you might get up to 80% of your salary as parental allowance otherwise a fixed minimum amount decided by the government will be paid. It is not your employer who bears the cost of your parent benefit but it is the Swedish Social Insurance Agency (Försäkringskassan) who pays it.",
+      "childCareAllowance": {
+        "title": "Care Allowance (Barnbidrag)",
+        "subtitle": "Child",
+        "description": "Children who are born in Sweden or started living in Sweden before their first birthday are entitled to receive child allowance starting from one month after their birth. The allowance is paid to both parents until the child turns 16."
+      }
+    },
+    "education": {
+      "sectionTitle": "SWEDISH EDUCATION SYSTEM",
+      "title": "School Admissions",
+      "preschool": "Swedish preschools emphasises the importance of play in child's development. There is a great focus on basic values and individual needs such as playing together, tolerance and being considerate for others. Preschool is provided for children aged 1 to 5 years.",
+      "preschoolClass": "The year your child turns 6, he or she can participate in a non-compulsory preschool class (sexårsverksamhet), designed to help children meet future classmates and prepare for primary school without the stress of heavy studies or homework. Swedish compulsory schooling is divided into four stages: förskalklass (preschool year or year 0), lågstadiet (years 1–3), mellanstadiet (years 4–6) and högstadiet (years 7–9).",
+      "compulsorySchool": "From the ages of 7 to 16, all children in Sweden are required to attend the compulsory school (grundskola), where they are taught a core group of basic subjects. Families of children between aged six and thirteen are also offered out-of-school care before and after school hours called fritids.",
+      "freeEducation": "Although preschools and after-school care are paid services, but from the age of 6 years all schooling in Sweden is free of charge and one hot meal during the day is also included. However if you want your child to study in private schools then private and international schools do exist in Sweden and there is usually a fee for such schools."
+    },
+    "qualificationRecognition": {
+      "sectionTitle": "RECOGNITION OF",
+      "title": "Higher Education Qualifications",
+      "ects": "The European Commission has devised a system known as ECTS (European Credit Transfer System). It allows for the transfer of higher education credits between European countries. The Swedish Council for Higher Education (UHR) evaluates foreign qualifications in order to provide support for people looking for work in Sweden, people who wish to continue studying, or for employers who wish to employ someone with foreign qualifications.",
+      "authorities": "Figuring out the responsibilities of the different authorities isn't all that easy. Who is responsible for what? Whom should you turn to with your questions, applications and concerns?",
+      "guide": "This guide gives you a brief overview of the different authorities and their main responsibilities."
+    },
+    "unemployment": {
+      "sectionTitle": "UNEMPLOYMENT",
+      "title": "Insurance",
+      "overview": "Payouts of unemployment insurance take two forms, a basic benefit or an income-related benefit. Registered yourself for A-kassa as soon you start your work.",
+      "system": "Unemployment insurance is not a part of the social insurance system in Sweden. Unemployment insurance is connected closely to the trade unions but it legally independent. When you start working in Sweden, investigate which unemployment insurance fund (which is known as A-Kassa) is available.",
+      "eligibility": "In order to receive an income-based benefit, you must have been a member of a voluntary unemployment insurance fund (A-kassa) for 12 months and have worked (been employed) for at least six months. In addition, some trade unions offer additional insurance against loss of income."
+    },
+    "language": {
+      "sectionTitle": "LANGUAGE",
+      "title": "Courses",
+      "intro": "Depending on the location of your stay, there are different options for learning Swedish while in the country. More information at: www.sweden.se",
+      "options": [
+        "Folkuniversitetet offers Swedish courses at different levels.",
+        "Study associations also offer language courses and a wide range of other courses. See a list of study associations.",
+        "SFI courses (Swedish for Immigrants). Once you have become a resident in Sweden and have been issued a personal identity number (personnummer) you can contact your local municipality for information about."
+      ],
+      "sfiDescription": "Swedish lessons for immigrants (SFI). SFI is basic training in the Swedish language for adults who do not have Swedish as their first language. You can study SFI full-time or part-time. The training is free of charge."
+    },
     "hero": {
       "title": "Your Guide to Swedish Authorities & Getting Started",
       "subtitle": "Understand the public agencies that support your life in Sweden and how to access essential services"
@@ -128,101 +304,6 @@
         ]
       }
     ],
-    "gettingStarted": {
-      "heading": "Getting Started: Essential First Steps",
-      "guides": [
-        {
-          "title": "Residence Permit & ID",
-          "description": "Secure your legal right to stay and work in Sweden.",
-          "details": {
-            "handled": "Migrationsverket, Polisen",
-            "requirements": "Passport, residence decision, biometric photo",
-            "features": "Residence card, Swedish national ID card",
-            "tips": "Book appointments early — waiting times can be long"
-          }
-        },
-        {
-          "title": "Personnummer (Personal Identity Number)",
-          "description": "Essential for healthcare, banking, contracts, and schools.",
-          "details": {
-            "handled": "Skatteverket",
-            "requirements": "Passport, residence permit, proof of address",
-            "features": "Unique ID number for all public and private services",
-            "tips": "Apply immediately — delays affect everything else"
-          }
-        },
-        {
-          "title": "Healthcare Registration",
-          "description": "Get access to doctors, prescriptions, and emergency services.",
-          "details": {
-            "handled": "1177 Vårdguiden",
-            "requirements": "Personnummer, choice of local health center",
-            "features": "Digital health records, online booking, English info",
-            "tips": "Select your vårdcentral as soon as you get your personnummer"
-          }
-        },
-        {
-          "title": "Social Insurance & Benefits",
-          "description": "Coverage for sickness, parental leave, and child allowance.",
-          "details": {
-            "handled": "Försäkringskassan",
-            "requirements": "Personnummer, proof of residence/employment",
-            "features": "Child allowance, sick leave compensation, family benefits",
-            "tips": "Register early to avoid gaps in coverage"
-          }
-        },
-        {
-          "title": "Banks",
-          "description": "Open a Swedish bank account for daily transactions.",
-          "details": {
-            "handled": "Swedbank, Handelsbanken, SEB, Nordea",
-            "requirements": "Personnummer, ID, proof of address",
-            "features": "English support, mobile banking, international transfers",
-            "tips": "BankID is usually issued through your bank"
-          }
-        },
-        {
-          "title": "Mobile Network & SIM Card",
-          "description": "Stay connected for calls, apps, and digital ID use.",
-          "details": {
-            "handled": "Telia, Telenor, Tre, Tele2",
-            "requirements": "Passport/ID (personnummer for contracts)",
-            "features": "Prepaid and subscription options, mobile data",
-            "tips": "Start with prepaid until you get your personnummer"
-          }
-        },
-        {
-          "title": "Internet & Wi-Fi",
-          "description": "Get broadband or fiber for home and work.",
-          "details": {
-            "handled": "Telia, Telenor, Tele2, Bahnhof, ComHem",
-            "requirements": "Housing contract, personnummer (for subscription)",
-            "features": "High-speed fiber, mobile broadband, digital invoices",
-            "tips": "Check which providers your building supports before signing"
-          }
-        },
-        {
-          "title": "Digital ID (BankID / Freja eID+)",
-          "description": "Log in securely to banks, authorities, and services online.",
-          "details": {
-            "handled": "BankID (via your bank), Freja eID+",
-            "requirements": "Personnummer (BankID), passport (Freja eID+)",
-            "features": "Secure login, e-signatures, government and bank access",
-            "tips": "Use Freja eID+ if you don't yet have a bank account"
-          }
-        },
-        {
-          "title": "Housing & Utilities",
-          "description": "Secure accommodation and set up electricity, heating, and internet.",
-          "details": {
-            "handled": "Boverket, E.ON, Vattenfall, Ellevio, Telia",
-            "requirements": "Housing contract, ID, sometimes deposit",
-            "features": "District heating, digital bills, online support",
-            "tips": "Utilities are often not included in rent — always check your lease"
-          }
-        }
-      ]
-    },
     "emergencyNumbers": {
       "heading": "Emergency Numbers",
       "numbers": [
@@ -242,6 +323,348 @@
           "details": "Medical guidance, nearest hospital, symptoms"
         }
       ]
+    },
+    "systemGuide": {
+      "quickLinks": {
+        "title": "Essential Quick Links",
+        "emergency": {
+          "title": "Emergency Services",
+          "content": "Call 112 for all emergencies in Sweden. Available 24/7 in multiple languages."
+        },
+        "banks": {
+          "title": "Banks",
+          "content": "Open a Swedish bank account for daily transactions, salary deposits and bill payments.\n\nProviders: Swedbank, Handelsbanken, SEB, Nordea\nRequirements: Personnummer, ID, proof of address\nFeatures: English customer service, mobile banking, international transfers\n\nTips: Most banks offer English support and digital services"
+        },
+        "healthcare": {
+          "title": "Healthcare",
+          "content": "Register with local healthcare center (vårdcentral) for medical services."
+        },
+        "driving": {
+          "title": "Driving License",
+          "content": "Convert your international driving license to Swedish license within one year."
+        },
+        "transport": {
+          "title": "Public Transport",
+          "content": "Use SL app for Stockholm, Västtrafik for Gothenburg region transport."
+        },
+        "languageSchool": {
+          "title": "Language School",
+          "content": "Free Swedish for Immigrants (SFI) courses available nationwide."
+        },
+        "studies": {
+          "title": "Higher Studies",
+          "content": "Swedish universities offer many programs in English at graduate level."
+        },
+        "government": {
+          "title": "Government Institutes",
+          "content": "Key offices: Skatteverket (Tax), Migrationsverket (Immigration), Försäkringskassan (Social Insurance)."
+        },
+        "housing": {
+          "title": "Housing",
+          "content": "Register for municipal housing queues early. Consider second-hand rentals initially."
+        },
+        "employment": {
+          "title": "Public Employment Agency",
+          "content": "Arbetsförmedlingen provides job search assistance and career guidance."
+        }
+      },
+      "tagline": "Guiding You to the Right Support, Every Step of the Way.",
+      "title": "Understand the System",
+      "subtitle": "Departments- Roles and Your Rights",
+      "immigration": {
+        "sectionTitle": "ABOUT",
+        "title": "Immigration & Population",
+        "migrationAgency": {
+          "title": "The Swedish Migration Agency",
+          "subtitle": "Migrationsverket",
+          "description": "Migrationsverket is the central authority for visas, residence permits, asylum, and citizenship in Sweden. They decide who is allowed to enter and stay in the country and under what conditions. For newcomers, this is usually the first point of contact when moving to Sweden, as they handle everything from work permits to family reunification cases. They also coordinate settlement support for refugees and assure municipalities receive compensation for housing new arrivals."
+        },
+        "taxAgency": {
+          "title": "The Swedish Tax Agency",
+          "subtitle": "Skatteverket",
+          "description": "Skatteverket manages taxes but is equally important for personal identity and registration. Every newcomer must register with Skatteverket for födelsetid (population registration) to get a personal identity number, which is essential for healthcare, banking and schooling. They also issue Swedish ID cards, process tax returns, and manage family-related tax benefits. Without Skatteverket registration, access to most other public services is not possible."
+        }
+      },
+      "workLabor": {
+        "sectionTitle": "ABOUT",
+        "title": "Work, Labor & Economy",
+        "employmentService": {
+          "title": "Public Employment Service",
+          "subtitle": "Arbetsförmedlingen",
+          "description": "Arbetsförmedlingen connects job seekers with employers and provides training, internships, and subsidized employment programs for newcomers. They offer specialized support like language-based work introductions and programs to enter entry jobs into the labor market. They also provide career guidance and support in developing skills needed for Swedish workplaces. Their services are crucial for gaining financial independence after arrival."
+        },
+        "workEnvironment": {
+          "title": "Work Environment Authority",
+          "subtitle": "Arbetsmiljöverket",
+          "description": "This authority ensures that all workplaces in Sweden follow laws and regulations concerning safety, health, and fair treatment. They investigate accidents, respond to complaints about unsafe working conditions, and inspect employers. For newcomers unfamiliar with Swedish labor law, Arbetsmiljöverket is a safeguard ensuring fair treatment at work. Their role is vital for protecting both employers and employees alike."
+        },
+        "enforcementAuthority": {
+          "title": "Enforcement Authority",
+          "subtitle": "Kronofogden",
+          "description": "Kronofogden deals with debts, unpaid bills, and enforcement of court decisions. They can collect payments on behalf of creditors but provide support when overwhelmed by debt. For newcomers, understanding Kronofogden is important when dealing with contracts, rent, or loans, particularly if financial difficulties arise. They can provide permits and credit ratings. They also help mediate solutions to avoid bankruptcy or eviction."
+        },
+        "companiesRegistration": {
+          "title": "Companies Registration Office",
+          "subtitle": "Bolagsverket",
+          "description": "Bolagsverket registers new companies, associations, and financial accounts for entrepreneurs. They ensure legal transparency for businesses by making ownership, accounting, and corporate governance public. Newcomers who want to start businesses in Sweden must interact with Bolagsverket to register properly. Their services also protect consumers by ensuring businesses are legally accountable."
+        },
+        "economicGrowth": {
+          "title": "Agency for Economic & Regional Growth",
+          "subtitle": "Tillväxtverket",
+          "description": "This agency supports entrepreneurship, small and medium-sized businesses, and regional development. They offer advice, funding, and programs to encourage innovation and competitiveness. For newcomers starting companies or exploring investments, Tillväxtverket provides practical resources and guidance. Their role is central in creating economic opportunities across Sweden, including integration of migrant-owned businesses."
+        }
+      },
+      "housingSupport": {
+        "sectionTitle": "ABOUT",
+        "title": "Housing, Social Support & Family",
+        "socialInsurance": {
+          "title": "Social Insurance Agency",
+          "subtitle": "Försäkringskassan",
+          "description": "Försäkringskassan manages Sweden's social insurance system, providing financial support during life events such as illness, unemployment, unemployment, or disability. They pay child allowance, parental leave benefits, and housing supplements. For newcomers, registering with Försäkringskassan is essential to access these protections. They act as a safety net ensuring that everyone legally living in Sweden has access to social security."
+        },
+        "municipalities": {
+          "title": "The Municipalities",
+          "subtitle": "Kommunerna",
+          "description": "Each municipality is responsible for local services like housing, preschools, schools, SFI (Swedish for immigrants), and social orientation. They also provide financial support to individuals without work and handle local welfare needs. For newcomers, municipalities are the main contact for housing support and integration services. They also coordinate healthcare access and daily community support."
+        },
+        "rentTribunal": {
+          "title": "Rent Tribunal",
+          "subtitle": "Hyresnämnden",
+          "description": "Hyresnämnden is a special court that resolves disputes between tenants and landlords. They handle issues such as rent levels, eviction threats, and apartment renovations. For newcomers, this authority ensures protection against unfair housing practices and acts as a neutral platform to resolve conflicts. Their decisions are legally binding and safeguard housing rights in Sweden."
+        },
+        "pensionsAgency": {
+          "title": "Pensions Agency",
+          "subtitle": "Pensionsmyndigheten",
+          "description": "Bolagsverket registers new companies, associations, and financial accounts for entrepreneurs. They ensure legal transparency for businesses by making ownership, accounting, and corporate governance public. Newcomers who want to start businesses in Sweden must interact with Bolagsverket to register properly. Their services also protect consumers by ensuring businesses are legally accountable."
+        },
+        "healthWelfare": {
+          "title": "National Board of Health & Welfare",
+          "subtitle": "Socialstyrelsen",
+          "description": "Socialstyrelsen supervises healthcare, social services, and elder care. They set guidelines for hospitals, social workers, and welfare providers to ensure equal quality nationwide. For newcomers, this guarantees that care is fair, accessible, and follows national standards. They also collect data to improve Swedish healthcare and social policy."
+        },
+        "housingBuilding": {
+          "title": "National Board of Housing, Building & Planning",
+          "subtitle": "Boverket",
+          "description": "Boverket regulates building safety, housing standards, and city planning. They ensure housing is safe, accessible, and environmentally sustainable. For newcomers, Boverket's role is indirect but important: they safeguard housing rights by enforcing fair building regulations. Their work supports long-term housing stability in Sweden."
+        }
+      },
+      "educationSkills": {
+        "sectionTitle": "ABOUT",
+        "title": "Education & Skills",
+        "nationalEducation": {
+          "title": "National Agency for Education",
+          "subtitle": "Skolverket",
+          "description": "Skolverket is responsible for curricula, teaching standards, and national exams in Swedish schools. They also process applications for foreign teachers who want to work in Sweden. Their role helps children integrate into the school system and guarantees quality education. Their role ensures that every child has equal opportunities in Swedish education."
+        },
+        "higherEducation": {
+          "title": "Swedish Council for Higher Education",
+          "subtitle": "UHR",
+          "description": "UHR manages admissions to universities, evaluates foreign diplomas, and provides scholarships. They are the gateway for newcomers seeking higher education in Sweden. Their role is especially important for those wishing to transfer international qualifications into the Swedish job market. They ensure fair access to higher education opportunities."
+        },
+        "studentAid": {
+          "title": "National Board of Student Aid",
+          "subtitle": "CSN",
+          "description": "CSN provides loans and grants for students in Sweden. Nearly every student interacts with CSN to finance their studies. For newcomers, CSN can provide financial independence while studying. They make education more accessible and support lifelong learning."
+        }
+      },
+      "rightsEquality": {
+        "sectionTitle": "ABOUT YOUR",
+        "title": "Rights, Equality & Oversight",
+        "ombudsman": {
+          "title": "Parliamentary Ombudsman",
+          "subtitle": "JO",
+          "description": "The Ombudsman investigates complaints of maladministration by government authorities or officials. Any resident can file a complaint if treated unfairly by an authority. For newcomers, JO ensures equal treatment and accountability in public administration. They are a safeguard against abuse of power."
+        },
+        "justice": {
+          "title": "Chancellor of Justice",
+          "subtitle": "JK",
+          "description": "JK supervises public authorities and acts as the government's legal representative. They also handle claims for damages against the state. For newcomers, JK ensures government actions comply with Swedish law. They protect individuals against unlawful state decisions."
+        },
+        "equality": {
+          "title": "Equality Ombudsman",
+          "subtitle": "DO",
+          "description": "DO combats discrimination based on gender, ethnicity, religion, disability, age, or sexual orientation. They provide legal support to individuals experiencing discrimination. DO is a key resource in defending human rights. Their mission ensures equal opportunities for everyone in Sweden."
+        },
+        "consumer": {
+          "title": "Consumer Agency",
+          "subtitle": "Konsumentverket",
+          "description": "Konsumentverket protects consumers from unfair practices, false advertising, and unsafe products. They provide information on contracts, purchases, and consumer rights. For newcomers, Konsumentverket helps when dealing with unfamiliar markets. They promote fair business ethics throughout Sweden."
+        },
+        "disputes": {
+          "title": "National Board of Student Aid",
+          "subtitle": "ARN",
+          "description": "ARN is a public body that resolves consumer-business disputes free of charge. Common cases include travel, electronics, and education. For newcomers, ARN offers a simple way to resolve consumer rights without going to court. Their decisions are widely respected and followed by businesses."
+        },
+        "integrity": {
+          "title": "Integrity Protection Authority",
+          "subtitle": "IMY",
+          "description": "IMY enforces GDPR and ensures individuals' personal data is handled properly. They investigate complaints about privacy violations and ensure of digital information. For newcomers, IMY protects personal data when using banks, employers, or government services."
+        }
+      },
+      "lawOrder": {
+        "sectionTitle": "ABOUT",
+        "title": "Law, Order & Justice",
+        "police": {
+          "title": "Police Authority",
+          "subtitle": "Polismyndigheten",
+          "description": "The police prevent crime, investigate offences, and maintain public safety. They also issue residence cards and passports. For newcomers, the police ensure protection and help when individual rights are violated. They ensure security and enforce the law fairly."
+        },
+        "prosecution": {
+          "title": "Prosecution Authority",
+          "subtitle": "Åklagarmyndigheten",
+          "description": "This authority prosecutes crimes and leads investigations together with the police. They ensure the right to a fair legal trial. For newcomers, they guarantee equal treatment under the law. Their work guarantees fair and legal handling of criminal cases."
+        },
+        "courts": {
+          "title": "National Courts Administration",
+          "subtitle": "Domstolsverket",
+          "description": "Domstolsverket administers all Swedish courts and helps provide access to civil, criminal, and administrative justice. For newcomers, Domstolsverket guarantees the right to appeal decisions. They ensure courts remain independent and accessible."
+        },
+        "crimeVictim": {
+          "title": "Crime Victim Authority",
+          "subtitle": "Brottsoffermyndigheten",
+          "description": "This authority provides crime victims with support, compensation, counseling, and legal information. They help crime victims navigate the justice system. For newcomers, Brottsoffermyndigheten ensures equal access to victim support. They protect vulnerable individuals in legal proceedings."
+        }
+      },
+      "healthSafety": {
+        "sectionTitle": "ABOUT",
+        "title": "Health & Safety",
+        "regions": {
+          "title": "County Councils / Regions",
+          "subtitle": "Landsting / Regioner",
+          "description": "Regions run healthcare, dental care, and hospitals. They provide medical services, emergency care, and preventive health programs. For newcomers, registering with your region ensures access to doctors and health services. Regions guarantee healthcare for all residents."
+        },
+        "healthInspectorate": {
+          "title": "Health and Social Care Inspectorate",
+          "subtitle": "IVO",
+          "description": "IVO supervises healthcare and social services. They investigate and handle complaints about poor treatment or unsafe practices. For newcomers, IVO ensures protection in healthcare or welfare services fail. Their role safeguards the quality of essential care."
+        },
+        "publicHealth": {
+          "title": "Public Health Agency",
+          "subtitle": "Folkhälsomyndigheten",
+          "description": "This agency manages disease control, vaccinations, and health information. They guide and protect public health during pandemics or health risks. For newcomers, they ensure equal protection from public health threats. They advise on vaccinations, screening, and well-being."
+        },
+        "medicalProducts": {
+          "title": "Medical Products Agency",
+          "subtitle": "Läkemedelsverket",
+          "description": "Responsible for approving medicines, supervising pharmacies and monitoring drug safety. They ensure medicines are Swedish market are safe and effective. For newcomers, Läkemedelsverket protects health by regulating treatment quality. They work builds trust in Swedish healthcare."
+        },
+        "pharmacy": {
+          "title": "National Pharmacy Chain",
+          "subtitle": "Apoteket",
+          "description": "Apoteket provides prescription medicines, health advice, and over the counter products nationwide. For newcomers, Apoteket is the first stop for everyday healthcare needs. They ensure medicines are accessible and properly distributed."
+        }
+      },
+      "environmentInfrastructure": {
+        "sectionTitle": "ABOUT",
+        "title": "Environment, Energy & Infrastructure",
+        "transport": {
+          "title": "Transport Agency",
+          "subtitle": "Transportstyrelsen",
+          "description": "Manages traffic systems, vehicle rules, and transport laws. For newcomers, Transportstyrelsen is the authority for exchanging foreign licenses and following traffic rules. They ensure transport safety and compliance."
+        },
+        "transportAdmin": {
+          "title": "Transport Administration",
+          "subtitle": "Trafikverket",
+          "description": "Plans, builds and maintains roads, railways, and infrastructure. For newcomers, Trafikverket provides reliable transport networks for daily life. Their work supports commuting to work and essential services."
+        },
+        "agriculture": {
+          "title": "Board of Agriculture",
+          "subtitle": "Jordbruksverket",
+          "description": "Promotes sustainable animal health and food production. They regulate pet imports and agricultural products. For newcomers with pets, Jordbruksverket handles animal requirements. They promote healthy ecosystems and food safety for Sweden."
+        },
+        "customs": {
+          "title": "Customs Authority",
+          "subtitle": "Tullverket",
+          "description": "Controls imports and customs duties. They prevent smuggling and illegal goods. For newcomers, Tullverket is relevant when moving belongings or receiving goods from abroad. They protect Sweden's economy and safety."
+        },
+        "environment": {
+          "title": "Environmental Protection Agency",
+          "subtitle": "Naturvårdsverket",
+          "description": "Safeguards the environment, biodiversity, and natural resources. They enforce climate laws and sustainable policies. For newcomers, Naturvårdsverket ensures clean air in Stockholm. Clean and safe environment. They safeguard natural resources for future generations."
+        },
+        "energy": {
+          "title": "Energy Agency",
+          "subtitle": "Energimyndigheten",
+          "description": "Promotes renewable energy, efficiency and clean energy. They provide subsidies and guidance on energy use. For newcomers, Energimyndigheten indirectly lowers energy costs for heating. They ensure sustainable, affordable, sustainable energy. They drive Sweden's green transition."
+        },
+        "electrical": {
+          "title": "Electrical Safety Authority",
+          "subtitle": "Elsäkerhetsverket",
+          "description": "Ensures electrical products and installations are safe. They issue warnings about dangerous products and set safety rules. For newcomers, this agency guarantees safe homes and safe workplace electricity. Their role prevents accidents and ensures reliable."
+        },
+        "telecom": {
+          "title": "Post and Telecom Authority",
+          "subtitle": "PTS",
+          "description": "Regulates network, postal services, and internet providers. They ensure consumer rights in digital and communication services. For newcomers, PTS guarantees reliable internet, mobile and postal services. They guarantee fair competition and accessibility."
+        }
+      },
+      "emergency": {
+        "sectionTitle": "ABOUT",
+        "title": "Emergency & Preparedness",
+        "civilContingencies": {
+          "title": "Civil Contingencies Agency",
+          "subtitle": "MSB",
+          "description": "MSB prepares Sweden for emergencies such as natural disasters, terrorism, or major accidents. They also provide crisis preparedness at local levels. For newcomers, MSB provides guidance on safety during unexpected events. They ensure Sweden is resilient against major threats."
+        },
+        "rescueServices": {
+          "title": "Local Rescue Services",
+          "subtitle": "Räddningstjänsten",
+          "description": "Local rescue services handle fire protection, accidents, and local emergencies. For newcomers, knowing the local rescue service ensures quick help in emergencies. They work closely with police and ambulances."
+        },
+        "coastGuard": {
+          "title": "Coast Guard",
+          "subtitle": "Kustbevakningen",
+          "description": "The Coast Guard ensures maritime safety, border protection, and environmental security at sea. For newcomers living near coasts, they handle rescue missions and pollution control. They protect both Sweden's borders and natural waters."
+        }
+      },
+      "democracy": {
+        "sectionTitle": "ABOUT",
+        "title": "Democracy, Youth & Integration",
+        "countyBoards": {
+          "title": "County Administrative Boards",
+          "subtitle": "Länsstyrelserna",
+          "description": "Regional bodies that implement national policy, coordinate integration, and supervise municipalities. For newcomers, they ensure housing, SFI, and orientation programs are available. They bridge national policy with local action."
+        },
+        "election": {
+          "title": "Election Authority",
+          "subtitle": "Valmyndigheten",
+          "description": "Manages elections and ensures fair voting processes. For newcomers who become citizens, Valmyndigheten enables democratic participation. They guarantee democratic rights. They ensure indigenous voices are represented in public life."
+        },
+        "youth": {
+          "title": "Youth & Civil Society Authority",
+          "subtitle": "MUCF",
+          "description": "Supports youth organizations, NGOs, and civic engagement. For newcomers, MUCF helps with opportunities to join community projects. They strengthen democratic participation and social cohesion."
+        },
+        "sami": {
+          "title": "Sami Parliament",
+          "subtitle": "Sametinget",
+          "description": "Represents Sami indigenous rights, language, and culture. While not directly relevant for most newcomers, it highlights Sweden's commitment to minority rights. It ensures indigenous voices are represented in public life."
+        }
+      },
+      "oversightData": {
+        "sectionTitle": "ABOUT",
+        "title": "Oversight, Data & Research",
+        "audit": {
+          "title": "National Audit Office",
+          "subtitle": "Riksrevisionen",
+          "description": "Riksrevisionen audits government activities and ensures accountability. For newcomers, this guarantees transparency and trust in Sweden's public finances. They protect taxpayers from misuse of funds."
+        },
+        "statistics": {
+          "title": "Statistics Sweden",
+          "subtitle": "SCB",
+          "description": "SCB collects and analyzes data on population, economy, and society. Their data is the foundation of Sweden's policies. For newcomers, SCB explains trends that affect housing, jobs, and migration. They help society make informed decisions."
+        },
+        "digitalGov": {
+          "title": "Agency for Digital Government",
+          "subtitle": "DIGG",
+          "description": "DIGG promotes digital transformation and online tools for authorities. For newcomers, DIGG makes it easier to access public services digitally. They promote efficiency and trust in Sweden's digital systems."
+        },
+        "media": {
+          "title": "Press, Radio & TV Authority",
+          "subtitle": "MPRT",
+          "description": "MPRT regulates broadcasting, press, television and media licenses. For newcomers, MPRT ensures diverse and reliable access to news, entertainment, and information about their new media landscape."
+        }
+      }
     },
     "cta": {
       "heading": "Need Help Navigating Swedish Authorities?",
