@@ -1,0 +1,409 @@
+{
+  "studyInEu": {
+    "hero": {
+      "title": "Studieren Sie in Schweden und der EU",
+      "subtitle": "Verwirklichen Sie Ihre akademischen Träume an Europas Top-Universitäten mit Fachanleitung von Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Ihr Weg zu europäischer Bildung",
+      "description": "Schweden und die Europäische Union bieten hochwertige Bildung mit erschwinglichen Studiengebühren, englischsprachigen Programmen und hervorragenden Möglichkeiten nach dem Abschluss. Egal ob Sie Ingenieurwissenschaften in Schweden, Betriebswirtschaft in Dänemark oder Medizin in Deutschland studieren möchten, wir begleiten Sie durch jeden Schritt des Zulassungs- und Visumverfahrens."
+    },
+    "countries": [
+      {
+        "id": "sweden",
+        "name": "Studieren Sie in Schweden",
+        "intro": "Schweden ist eines der beliebtesten Ziele für internationale Studieren in Europa. Mit global anerkannten Universitäten, innovativen Lehr- und Lernmethoden sowie einem starken Forschungsruf bietet es sowohl hochwertige Bildung als auch einen ausgezeichneten Lebensstil.",
+        "tuitionFees": {
+          "heading": "Durchschnittliche Studiengebühren pro Jahr",
+          "fees": [
+            {
+              "category": "EU/EWR- und Schweizer Studenten",
+              "amount": "Kostenlos an öffentlichen Universitäten"
+            },
+            {
+              "category": "Studenten von außerhalb der EU/EWR",
+              "amount": "SEK 80.000 – 295.000 (€7.500 – €25.500) je nach Programm und Universität"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Zulassungsfristen",
+          "intakes": [
+            {
+              "period": "Herbstsemester",
+              "details": "Oktober – Januar (Studium beginnt August/September)"
+            },
+            {
+              "period": "Frühjahrssemester",
+              "details": "Juni – August (Studium beginnt Januar)"
+            }
+          ]
+        },
+        "popularFields": "Ingenieurwissenschaften, IT, Betriebswirtschaft, Biowissenschaften, Umweltstudien",
+        "visaRequirements": {
+          "heading": "Visum- und Aufenthaltsbestimmungen",
+          "requirements": [
+            "EU/EWR: Kein Visum erforderlich",
+            "Nicht-EU/EWR: Aufenthaltserlaubnis für Studium länger als drei Monate erforderlich",
+            "Finanznachweis: circa SEK 10.300 pro Monat für Lebenshaltungskosten",
+            "Krankenversicherung erforderlich für Aufenthalte unter einem Jahr"
+          ]
+        },
+        "workRights": "Studenten können während des Studiums unbegrenzt arbeiten, und nach dem Abschluss können sie eine einjährige Aufenthaltserlaubnis beantragen, um einen Job zu suchen oder ein eigenes Unternehmen zu gründen."
+      },
+      {
+        "id": "denmark",
+        "name": "Studieren Sie in Dänemark",
+        "intro": "Dänemark kombiniert akademische Exzellenz mit einem unternehmensfreundlichen Umfeld. Über 500 englischsprachige Programme werden an führenden Universitäten und Hochschulen angeboten.",
+        "tuitionFees": {
+          "heading": "Durchschnittliche Studiengebühren pro Jahr",
+          "fees": [
+            {
+              "category": "EU/EWR-Studenten",
+              "amount": "Kostenlos an öffentlichen Institutionen"
+            },
+            {
+              "category": "Studenten von außerhalb der EU/EWR",
+              "amount": "€7.000 – €17.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Zulassungsfristen",
+          "intakes": [
+            {
+              "period": "Herbstsemester",
+              "details": "Bewerbungsfrist ist März (Studium beginnt August/September)"
+            },
+            {
+              "period": "Frühjahrssemester",
+              "details": "Bewerbungsfrist ist September (Studium beginnt Januar/Februar, begrenzte Kurse)"
+            }
+          ]
+        },
+        "popularFields": "Design, Architektur, Betriebswirtschaft, Ingenieurwissenschaften, IT, Biowissenschaften",
+        "visaRequirements": {
+          "heading": "Visum- und Aufenthaltsbestimmungen",
+          "requirements": [
+            "Finanznachweis: circa €1.000 pro Monat für Lebenshaltungskosten",
+            "Krankenversicherung muss vor Ankunft gesichert sein"
+          ]
+        },
+        "workRights": "Studenten können während der Vorlesungszeiten bis zu 20 Stunden pro Woche arbeiten und in den Ferien Vollzeit."
+      },
+      {
+        "id": "germany",
+        "name": "Studieren Sie in Deutschland",
+        "intro": "Deutschland ist eines der billigsten und attraktivsten Studienziele in Europa mit fast 400.000 internationalen Studenten.",
+        "tuitionFees": {
+          "heading": "Durchschnittliche Studiengebühren pro Jahr",
+          "fees": [
+            {
+              "category": "Öffentliche Universitäten",
+              "amount": "Kostenlos oder €0 – €3.000 (nur Verwaltungsgebühren)"
+            },
+            {
+              "category": "Private Universitäten",
+              "amount": "€6.000 – €12.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Zulassungsfristen",
+          "intakes": [
+            {
+              "period": "Wintersemester",
+              "details": "Bewerbung Mai – Juli (beginnt September/Oktober)"
+            },
+            {
+              "period": "Sommersemester",
+              "details": "Bewerbung November – Januar (beginnt März/April)"
+            }
+          ]
+        },
+        "popularFields": "Ingenieurwissenschaften, Betriebswirtschaft, Informatik, Medizin, Naturwissenschaften",
+        "visaRequirements": {
+          "heading": "Visum- und Aufenthaltsbestimmungen",
+          "requirements": [
+            "Finanznachweis: circa €11.000 pro Jahr auf einem gesperrten Konto",
+            "Obligatorische Krankenversicherung erforderlich"
+          ]
+        },
+        "workRights": "20 Stunden pro Woche während des Semesters, Vollzeit während der Ferien."
+      },
+      {
+        "id": "uk",
+        "name": "Studieren Sie im Vereinigten Königreich",
+        "intro": "Das Vereinigte Königreich ist Heimat einiger der weltweit besten Universitäten und eines international anerkannten Abschlussystems.",
+        "tuitionFees": {
+          "heading": "Durchschnittliche Studiengebühren pro Jahr",
+          "fees": [
+            {
+              "category": "EU/EWR-Studenten",
+              "amount": "€10.000 – €13.000"
+            },
+            {
+              "category": "Studenten von außerhalb der EU",
+              "amount": "€12.000 – €25.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Zulassungsfristen",
+          "intakes": [
+            {
+              "period": "September/Oktober",
+              "details": "Hauptzulassung"
+            },
+            {
+              "period": "Januar/Februar",
+              "details": "Sekundäre Zulassung, begrenzte Programme"
+            },
+            {
+              "period": "Mai",
+              "details": "Sommerzulassung an ausgewählten Universitäten"
+            }
+          ]
+        },
+        "popularFields": "Jura, Betriebswirtschaft, Ingenieurwissenschaften, Medizin, Sozialwissenschaften",
+        "visaRequirements": {
+          "heading": "Visum- und Aufenthaltsbestimmungen",
+          "requirements": [
+            "Studentenvisum erforderlich für Nicht-EU/EWR",
+            "Nachweis der bezahlten Studiengebühren plus €1.200 pro Monat (London) oder weniger außerhalb von London"
+          ]
+        },
+        "workRights": "20 Stunden pro Woche während des Unterrichts, Vollzeit während der Ferien."
+      },
+      {
+        "id": "latvia",
+        "name": "Studieren Sie in Lettland",
+        "intro": "Lettland bietet erschwingliche Bildung und ruhige Lebensbedingungen.",
+        "tuitionFees": {
+          "heading": "Durchschnittliche Studiengebühren pro Jahr",
+          "fees": [
+            {
+              "category": "Allgemein",
+              "amount": "€3.000 – €6.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Zulassungsfristen",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hauptzulassung"
+            },
+            {
+              "period": "Februar",
+              "details": "Sekundäre Zulassung"
+            }
+          ]
+        },
+        "popularFields": "Medizin, Betriebswirtschaft, IT, Ingenieurwissenschaften",
+        "visaRequirements": {
+          "heading": "Visum- und Aufenthaltsbestimmungen",
+          "requirements": [
+            "Studentenvisum und Finanznachweis erforderlich",
+            "Krankenversicherung ist obligatorisch"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "lithuania",
+        "name": "Studieren Sie in Litauen",
+        "intro": "Litauen bietet starke akademische Traditionen und über 350 englischsprachige Programme.",
+        "tuitionFees": {
+          "heading": "Durchschnittliche Studiengebühren pro Jahr",
+          "fees": [
+            {
+              "category": "Allgemein",
+              "amount": "€3.000 – €7.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Zulassungsfristen",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hauptzulassung"
+            },
+            {
+              "period": "Februar",
+              "details": "Sekundäre Zulassung"
+            }
+          ]
+        },
+        "popularFields": "Betriebswirtschaft, Medizin, Ingenieurwissenschaften, Wirtschaft",
+        "visaRequirements": {
+          "heading": "Visum- und Aufenthaltsbestimmungen",
+          "requirements": [
+            "Aufenthaltserlaubnis erforderlich für Studenten von außerhalb der EU",
+            "Finanznachweis und Versicherung erforderlich"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "czechRepublic",
+        "name": "Studieren Sie in der Tschechischen Republik",
+        "intro": "Die Tschechische Republik ist ein wachsendes Ziel für internationale Studenten in Mitteleuropa.",
+        "tuitionFees": {
+          "heading": "Durchschnittliche Studiengebühren pro Jahr",
+          "fees": [
+            {
+              "category": "Öffentliche Universitäten",
+              "amount": "€2.000 – €5.000"
+            },
+            {
+              "category": "Private Universitäten",
+              "amount": "€5.000 – €10.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Zulassungsfristen",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hauptzulassung"
+            },
+            {
+              "period": "Februar",
+              "details": "Begrenzte Programme"
+            }
+          ]
+        },
+        "popularFields": "Medizin, Betriebswirtschaft, Ingenieurwissenschaften, Kunst",
+        "visaRequirements": {
+          "heading": "Visum- und Aufenthaltsbestimmungen",
+          "requirements": [
+            "Studentenvisum erforderlich für Studenten von außerhalb der EU",
+            "Finanznachweis und Unterkunftnachweis müssen vorlegen"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "norway",
+        "name": "Studieren Sie in Norwegen",
+        "intro": "Norwegen ist bekannt für kostenlose Ausbildung an öffentlichen Universitäten.",
+        "tuitionFees": {
+          "heading": "Durchschnittliche Studiengebühren pro Jahr",
+          "fees": [
+            {
+              "category": "Öffentliche Universitäten",
+              "amount": "Kostenlos (nur €50–€100 Verwaltungsgebühr)"
+            },
+            {
+              "category": "Private Universitäten",
+              "amount": "€5.000 – €10.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Zulassungsfristen",
+          "intakes": [
+            {
+              "period": "Herbst",
+              "details": "Start August/September, Hauptzulassung"
+            },
+            {
+              "period": "Frühling",
+              "details": "Begrenzt auf ausgewählte Programme"
+            }
+          ]
+        },
+        "popularFields": "Energie, Meereswissenschaften, Ingenieurwissenschaften, IT, Naturwissenschaften",
+        "visaRequirements": {
+          "heading": "Visum- und Aufenthaltsbestimmungen",
+          "requirements": [
+            "Finanznachweis von circa €12.000 pro Jahr für Lebenshaltungskosten erforderlich",
+            "Krankenversicherung ist obligatorisch"
+          ]
+        },
+        "workRights": "20 Stunden pro Woche während des Semesters, Vollzeit während der Ferien."
+      },
+      {
+        "id": "finland",
+        "name": "Studieren Sie in Finnland",
+        "intro": "Finnland bietet moderne Bildung mit starkem Fokus auf Forschung und Innovation.",
+        "tuitionFees": {
+          "heading": "Durchschnittliche Studiengebühren pro Jahr",
+          "fees": [
+            {
+              "category": "EU/EWR-Studenten",
+              "amount": "Kostenlos an öffentlichen Universitäten"
+            },
+            {
+              "category": "Studenten von außerhalb der EU",
+              "amount": "€8.000 – €20.000 je nach Programm und Universität"
+            },
+            {
+              "category": "Doktorprogramme",
+              "amount": "Gebührenfrei für alle Studenten"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Zulassungsfristen",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hauptzulassung — Bewerbung November – Januar"
+            },
+            {
+              "period": "Januar",
+              "details": "Sekundäre Zulassung, begrenzte Programme — Bewerbung im September"
+            }
+          ]
+        },
+        "popularFields": "IT, Ingenieurwissenschaften, Design, Betriebswirtschaft, Bildung",
+        "visaRequirements": {
+          "heading": "Visum- und Aufenthaltsbestimmungen",
+          "requirements": [
+            "Aufenthaltserlaubnis erforderlich für Studenten von außerhalb der EU",
+            "Finanznachweis: mindestens €800 pro Monat (€9.600 pro Jahr)",
+            "Krankenversicherung ist obligatorisch"
+          ]
+        },
+        "workRights": "Studenten dürfen 20–25 Stunden pro Woche während der Vorlesungszeiten und Vollzeit während der Ferien arbeiten. Nach dem Abschluss ist eine Arbeitserlaubnis für Absolventen verfügbar."
+      }
+    ],
+    "whyChoose": {
+      "heading": "Warum Sweden Relocators AB wählen",
+      "services": [
+        {
+          "title": "Vollständige Zulassungsberatung",
+          "description": "Vollständige Zulassungsberatung für Bachelor-, Master- und PhD-Programme in Schweden und der EU"
+        },
+        {
+          "title": "Dokumentenservice",
+          "description": "Dokumentbeglaubigung, Übersetzung und Vorbereitung für Universitäten und Migrationsbehörden"
+        },
+        {
+          "title": "Visum- und Aufenthaltsunterstützung",
+          "description": "Visum- und Aufenthaltserlaubnisanträge werden mit Präzision bearbeitet"
+        },
+        {
+          "title": "Finanzielle Unterstützung",
+          "description": "Stipendien- und Finanzberatung angepasst an jedes Land"
+        },
+        {
+          "title": "Unterstützung nach dem Studium",
+          "description": "Laufende Unterstützung bei der Erneuerung der Aufenthaltserlaubnis und Beschäftigung nach dem Studium"
+        }
+      ],
+      "description": "Bei Sweden Relocators AB gestalten wir das Studium in Schweden und Europa einfach, transparent und stressfrei. Von Ihrer ersten Bewerbung bis zu Ihrem Abschluss und darüber hinaus begleiten wir Sie bei jedem Schritt."
+    },
+    "cta": {
+      "heading": "Beginnen Sie heute Ihre Reise zum Studium in Europa",
+      "description": "Kontaktieren Sie Sweden Relocators für Fachanleitung bei Ihrer Bewerbung und Visumantragsstellung.",
+      "button": "Erste Schritte",
+      "subtext": "Bildungsbestimmungen variieren nach Land. Konsultieren Sie immer offizielle Universitäts- und Einwanderungswebseiten für die aktuellsten Informationen."
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "familyReunification": {
+    "hero": {
+      "title": "Reagrupación Familiar en Suecia",
+      "subtitle": "Guía Completa Según la Ley Nacional Sueca"
+    },
+    "intro": {
+      "heading": "Reúna a Su Familia en Suecia",
+      "description": "Las leyes suecas de reagrupación familiar permiten a las personas que poseen varios tipos de permisos de residencia - incluidos permisos de trabajo, permisos comerciales, permisos de doctorado y estudiante, así como permisos de residencia permanente - así como refugiados, traer miembros de la familia a Suecia. Cada tipo de caso tiene requisitos específicos y se evalúa bajo diferentes disposiciones de la ley nacional sueca.",
+      "infoBox": "Navegue por los complejos requisitos de reagrupación familiar con conocimiento experto de la ley nacional sueca y evaluaciones específicas del tipo de permiso."
+    },
+    "lawsHeading": "Leyes Suecas Clave que Rigen la Reagrupación Familiar",
+    "laws": [
+      {
+        "name": "Ley de Extranjeros (Utlänningslagen)",
+        "description": "La legislación principal que rige los permisos de residencia y la reagrupación familiar para todos los ciudadanos no suecos."
+      },
+      {
+        "name": "Ley Temporal de Extranjeros (Tillfälliga Utlänningslagen)",
+        "description": "Una ley temporal que afecta los requisitos de reagrupación familiar, principalmente para refugiados e individuos que necesitan protección subsidiaria."
+      },
+      {
+        "name": "Ley de Nacionalidad Sueca (Lag om Svenskt Medborgarskap)",
+        "description": "Relevante para ciudadanos suecos y residentes permanentes que invitan a miembros de la familia."
+      },
+      {
+        "name": "Código de Seguro Social (Socialförsäkringsbalken)",
+        "description": "Proporciona directrices sobre fuentes de ingresos aceptables para el requisito de manutención."
+      }
+    ],
+    "eligibility": {
+      "heading": "¿Quién Puede Ser Patrocinado?",
+      "description": "La reagrupación familiar está generalmente disponible para miembros de la familia elegibles según la ley sueca. Cada tipo de relación tiene criterios de elegibilidad específicos.",
+      "familyMembers": [
+        {
+          "type": "Cónyuge o Pareja Registrada",
+          "description": "Parejas legalmente casadas o registradas"
+        },
+        {
+          "type": "Pareja de Hecho",
+          "description": "Las parejas a largo plazo no registradas pueden calificar si la relación está bien documentada"
+        },
+        {
+          "type": "Hijos Menores de 18 Años",
+          "description": "Hijos menores del titular del permiso o su cónyuge/pareja"
+        },
+        {
+          "type": "Padres (Para Titulares de Permiso Menores)",
+          "description": "Para titulares de permiso menores de 18 años, los padres o tutores legales pueden ser elegibles"
+        },
+        {
+          "type": "Familia Extendida",
+          "description": "Otros miembros de la familia pueden ser considerados por razones humanitarias"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Requisitos de Manutención y Vivienda",
+      "description": "El Requisito de Manutención (Försörjningskrav) es esencial para la mayoría de las solicitudes de reagrupación familiar, garantizando que el solicitante principal tenga ingresos suficientes y vivienda apropiada para apoyar a miembros de la familia.",
+      "maintenanceLabel": "Requisitos de Ingresos",
+      "housingLabel": "Requisitos de Vivienda",
+      "maintenance": [
+        "Ingresos estables para cubrir gastos de manutención",
+        "Contratos de empleo o prueba de trabajo por cuenta propia",
+        "Talones de pago recientes y declaraciones fiscales",
+        "Documentación de beneficios sociales si aplica"
+      ],
+      "housing": [
+        "Contrato de alquiler o prueba de propiedad",
+        "Número suficiente de habitaciones para todos los miembros de la familia",
+        "Prueba del alquiler mensual o costos de propiedad",
+        "Cumple con los estándares de vivienda sueca"
+      ]
+    },
+    "assessmentHeading": "Criterios de Evaluación por Tipo de Permiso",
+    "assessmentCriteria": [
+      {
+        "title": "Titulares de Permiso de Trabajo",
+        "requirements": ["Empleo a largo plazo con salario suficiente", "Contratos de empleo y talones de pago", "Prueba de estabilidad financiera", "Arreglo de vivienda apropiado"]
+      },
+      {
+        "title": "Titulares de Permiso Comercial",
+        "requirements": ["Negocio rentable que proporcione ingresos adecuados", "Declaraciones fiscales y estados comerciales", "Evaluaciones fiscales preliminares de la Agencia Tributaria Sueca", "Viabilidad comercial demostrada"]
+      },
+      {
+        "title": "Doctorandos e Investigadores",
+        "requirements": ["Financiación estable o becas", "Duración del programa generalmente más de un año", "Documentación de ingresos de la institución educativa", "Arreglos de vivienda en Suecia"]
+      },
+      {
+        "title": "Titulares de Permiso de Residencia Permanente",
+        "requirements": ["Residencia a largo plazo con fuertes lazos a Suecia", "Evaluación de ingresos con posible flexibilidad", "Evaluación de estándares de vivienda", "Posiblemente requisitos más indulgentes"]
+      },
+      {
+        "title": "Refugiados y Titulares de Protección Subsidiaria",
+        "requirements": ["Posible exención del requisito de manutención dentro de 3 meses", "Prueba de relación antes de llegar a Suecia", "Documentación de relación familiar", "Evaluado bajo la Ley Temporal de Extranjeros"]
+      }
+    ],
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Preparar Documentación",
+        "description": "Reúna todos los documentos requeridos, incluyendo pasaportes, prueba de relación (actas de matrimonio o nacimiento), contratos de vivienda y verificación de ingresos."
+      },
+      {
+        "step": "2",
+        "title": "Presentar Solicitud",
+        "description": "Presente solicitudes en línea a través del portal de la Agencia Sueca de Migración o en una embajada/consulado sueco, incluyendo prueba de relación y verificación de vivienda/ingresos."
+      },
+      {
+        "step": "3",
+        "title": "Revisión de la Agencia de Migración",
+        "description": "La Agencia Sueca de Migración verifica que se cumplan todos los requisitos, evaluando ingresos, vivienda y elegibilidad familiar según su tipo de permiso específico."
+      },
+      {
+        "step": "4",
+        "title": "Decisión y Notificación",
+        "description": "Después de la evaluación, la agencia emite una decisión. Si se aprueba, los miembros de la familia pueden recibir permisos de residencia que coincidan con la duración del permiso del patrocinador."
+      }
+    ],
+    "legalProvisions": {
+      "heading": "Disposiciones Legales Específicas",
+      "description": "La reagrupación familiar en Suecia se rige por disposiciones legales específicas adaptadas a diferentes tipos de permisos y situaciones familiares.",
+      "acts": [
+        {
+          "name": "Ley de Extranjeros (Utlänningslagen)",
+          "details": "Marco legal principal para la reagrupación familiar, cubriendo ingresos, vivienda y verificación de relación con estándares de manutención y vivienda."
+        },
+        {
+          "name": "Ley Temporal de Extranjeros (Tillfälliga Utlänningslagen)",
+          "details": "Aplica requisitos de manutención más estrictos para refugiados, enfatizando la independencia financiera más allá del período de tres meses."
+        },
+        {
+          "name": "Código de Seguro Social (Socialförsäkringsbalken)",
+          "details": "Define fuentes de ingresos aceptables, especialmente relevante para patrocinadores que dependen de beneficios o desempleo."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Nuestros Servicios",
+      "description": "Sweden Relocators ofrece apoyo integral para ayudarlo a navegar la reagrupación familiar en Suecia y garantizar que su solicitud cumpla con todos los estándares legales suecos.",
+      "servicesList": [
+        {
+          "title": "Evaluación de Elegibilidad",
+          "description": "Evaluamos su tipo de permiso específico, ingresos, vivienda y elegibilidad familiar para determinar el mejor enfoque."
+        },
+        {
+          "title": "Preparación de Documentos",
+          "description": "Asistencia para recopilar todos los documentos necesarios, traducir documentos extranjeros si es necesario, y garantizar precisión completa."
+        },
+        {
+          "title": "Presentación y Seguimiento de Solicitudes",
+          "description": "Presentar su solicitud en su nombre y seguimiento con la Agencia Sueca de Migración."
+        },
+        {
+          "title": "Apoyo en Apelaciones",
+          "description": "Si su solicitud es denegada, proporcionamos orientación a través del proceso de apelación, fortaleciendo su caso."
+        },
+        {
+          "title": "Garantía de Cumplimiento Legal",
+          "description": "Garantizamos que toda la documentación cumpla con los estándares legales suecos y los requisitos específicos del tipo de permiso."
+        }
+      ]
+    },
+    "whyChooseHeading": "¿Por Qué Elegir Sweden Relocators?",
+    "whyChoose": [
+      {
+        "title": "Conocimiento Experto",
+        "description": "Conocimiento profundo de las leyes suecas de reagrupación familiar y requisitos para todos los tipos de permisos."
+      },
+      {
+        "title": "Apoyo Personalizado",
+        "description": "Adaptamos nuestra asistencia a su tipo de permiso específico y circunstancias para máximo éxito."
+      },
+      {
+        "title": "Procesamiento Eficiente",
+        "description": "Al garantizar precisión y cumplimiento, le ayudamos a evitar retrasos o rechazos, haciendo el proceso más fluido y eficiente."
+      }
+    ],
+    "cta": {
+      "heading": "¿Listo para Reunirse con Su Familia en Suecia?",
+      "description": "La reagrupación familiar es un proceso complejo con requisitos específicos para cada tipo de permiso. Deje que Sweden Relocators le guíe a través del proceso de reagrupación familiar en Suecia, garantizando que se cumplan todos los requisitos legales para una solicitud exitosa.",
+      "button": "Comenzar Su Solicitud de Reagrupación Familiar",
+      "subtext": "Nuestro equipo experto lo guiará en cada paso del proceso sueco de reagrupación familiar."
+    }
+  }
+}

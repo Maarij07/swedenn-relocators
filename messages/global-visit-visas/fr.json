@@ -1,0 +1,240 @@
+{
+  "globalVisitVisas": {
+    "hero": {
+      "title": "Services de visa mondiaux – Votre passerelle vers des voyages internationaux sans tracas",
+      "subtitle": "Assistance fiable pour les visas touristiques, professionnels, étudiants et de relocalisation dans le monde entier"
+    },
+    "intro": {
+      "heading": "Voyager à l'international simplement",
+      "description": "Chez Sweden Relocators, nous simplifions les voyages internationaux grâce à notre programme mondial de visas. Notre service est conçu pour les particuliers, familles, étudiants et professionnels souhaitant un soutien visa fiable sans la complexité des multiples systèmes d'ambassade.",
+      "toolLink": "Notre formulaire de visa universel unique vous permet de postuler pour plusieurs destinations avec les mêmes informations, économisant du temps et réduisant les erreurs via notre portail sécurisé et notre application mobile."
+    },
+    "services": {
+      "heading": "Assistance complète pour les visas",
+      "requirementsLabel": "Ce que nous gérons",
+      "services": [
+        {
+          "id": "clientid",
+          "title": "Identifiant client personnalisé",
+          "description": "Chaque client reçoit un identifiant unique lors de l'inscription",
+          "requirements": [
+            {"label": "Plusieurs familles", "description": "Gérez plusieurs demandes pour différents membres de la famille et destinations simultanément"},
+            {"label": "Accès sécurisé", "description": "Suivez toutes vos demandes de visa depuis un seul tableau de bord"}
+          ]
+        },
+        {
+          "id": "assessment",
+          "title": "Évaluation et préparation de la demande",
+          "description": "Évaluation complète et préparation intégrale du dossier",
+          "requirements": [
+            {"label": "Revue des antécédents", "description": "Nous examinons votre motif de voyage, vos moyens financiers et votre historique de voyage"},
+            {"label": "Normes de l'ambassade", "description": "Dossier complet préparé incluant formulaires, lettres de motivation et documents de soutien adaptés à la destination"}
+          ]
+        },
+        {
+          "id": "appointment",
+          "title": "Prise de rendez-vous et confirmation",
+          "description": "Nous réservons votre rendez-vous à l'ambassade avec appel de confirmation direct",
+          "requirements": [
+            {"label": "Réservation ambassade", "description": "Rendez-vous pris auprès de l'ambassade concernée ou du centre VFS Global"},
+            {"label": "Vérification de préparation", "description": "Notre équipe appelle pour vérifier les exigences et s'assurer que tous les détails sont corrects"}
+          ]
+        },
+        {
+          "id": "liaison",
+          "title": "Liaison avec l'ambassade",
+          "description": "Communication professionnelle avec les ambassades en votre nom",
+          "requirements": [
+            {"label": "Clarification des questions", "description": "Notre équipe gère la communication avec l'ambassade et clarifie toute question"},
+            {"label": "Représentation professionnelle", "description": "Réduit les risques de retard, demandes de documents supplémentaires ou refus"}
+          ]
+        },
+        {
+          "id": "file",
+          "title": "Préparation et livraison complète du dossier",
+          "description": "Votre dossier prêt à soumettre est livré à votre domicile",
+          "requirements": [
+            {"label": "Confirmation d'hôtel", "description": "Réservations d'hôtel et billets d'avion confirmés inclus"},
+            {"label": "Documentation financière", "description": "Assurance voyage et documents financiers requis compilés"}
+          ]
+        },
+        {
+          "id": "digital",
+          "title": "Gestion sécurisée des documents numériques",
+          "description": "Stockage conforme au GDPR et réutilisation pour les voyageurs fréquents",
+          "requirements": [
+            {"label": "Sécurité", "description": "Tous les documents sont stockés en toute sécurité dans un système conforme au GDPR"},
+            {"label": "Réutilisabilité", "description": "Enregistrez les informations pour de futures demandes, économisant temps et efforts"}
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "heading": "Catégories de visa que nous supportons",
+      "intro": "Notre programme couvre les principales destinations à travers le monde",
+      "visas": [
+        "Visa Schengen pour l'Europe",
+        "Visa Royaume-Uni",
+        "Visa États-Unis",
+        "Visa Canada",
+        "Visa Australie",
+        "Visa Nouvelle-Zélande",
+        "Visa Irlande",
+        "Visa Japon",
+        "Visa Corée du Sud",
+        "Visa Chine"
+      ],
+      "additional": "D'autres destinations sont également prises en charge via des solutions personnalisées basées sur les ambassades."
+    },
+    "purposes": {
+      "heading": "Objectifs de visa que nous couvrons",
+      "purposes": [
+        {
+          "id": 1,
+          "title": "Tourisme",
+          "description": "Preuve d'hébergement, assurance santé et couverture financière arrangées pour une approbation fluide"
+        },
+        {
+          "id": 2,
+          "title": "Visite de famille ou amis",
+          "description": "Lettres d'invitation vérifiées, documents de parrainage et preuves de lien préparés"
+        },
+        {
+          "id": 3,
+          "title": "Regroupement familial UE",
+          "description": "Examen détaillé du logement, des revenus et de la conformité résidentielle pour les permis familiaux"
+        },
+        {
+          "id": 4,
+          "title": "Voyages d'affaires et conférences",
+          "description": "Invitations corporatives, confirmations de parrainage et documents professionnels arrangés"
+        },
+        {
+          "id": 5,
+          "title": "Études à l'étranger",
+          "description": "Lettres d'admission, preuves de fonds et diplômes vérifiés"
+        },
+        {
+          "id": 6,
+          "title": "Travail à court terme",
+          "description": "Contrats employeur et vérifications de conformité au droit du travail complétés"
+        },
+        {
+          "id": 7,
+          "title": "Traitement médical",
+          "description": "Confirmations d'hôpital, dossiers médicaux et soutien financier préparés"
+        },
+        {
+          "id": 8,
+          "title": "Événements culturels et sportifs",
+          "description": "Inscriptions aux événements et invitations officielles compilées"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Processus de demande de visa",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Inscription",
+          "description": "Inscrivez-vous via notre site ou application pour créer un compte et recevoir votre identifiant client unique"
+        },
+        {
+          "number": 2,
+          "title": "Évaluation",
+          "description": "Notre équipe examine votre objectif, votre éligibilité et les documents requis pour votre destination"
+        },
+        {
+          "number": 3,
+          "title": "Préparation",
+          "description": "Nous créons votre dossier de demande complet conformément aux normes de l'ambassade"
+        },
+        {
+          "number": 4,
+          "title": "Rendez-vous",
+          "description": "Nous sécurisons et confirmons votre rendez-vous à l'ambassade avec un appel pour vérifier votre préparation"
+        },
+        {
+          "number": 5,
+          "title": "Livraison",
+          "description": "Votre dossier final est livré à votre domicile avec tous les détails du rendez-vous"
+        },
+        {
+          "number": 6,
+          "title": "Soumission",
+          "description": "Présentez-vous au rendez-vous avec votre passeport et dossier complet"
+        },
+        {
+          "number": 7,
+          "title": "Suivi et réutilisation",
+          "description": "Suivez la progression dans notre portail et réutilisez vos informations pour de futures demandes de visa"
+        }
+      ]
+    },
+    "languages": {
+      "heading": "Assistance multilingue",
+      "description": "Pour que la langue ne soit jamais une barrière, nous fournissons une assistance multilingue en anglais, suédois, ourdou, arabe, pendjabi, serbe, kurde, persan et de nombreuses autres langues. Nos consultants expliquent les règles de visa dans la langue que vous maîtrisez le mieux."
+    },
+    "faq": {
+      "heading": "Questions fréquentes",
+      "faqs": [
+        {
+          "id": 1,
+          "question": "Organisez-vous les réservations d'hôtel et l'assurance voyage pour les visas ?",
+          "answer": "Oui, nous fournissons des réservations d'hôtel approuvées par l'ambassade, des itinéraires de vol et une assurance voyage pour renforcer votre demande de visa."
+        },
+        {
+          "id": 2,
+          "question": "Comment puis-je vérifier mon éligibilité pour un visa ?",
+          "answer": "Notre outil d'évaluation et nos experts analysent vos documents et votre historique de voyage pour confirmer votre éligibilité."
+        },
+        {
+          "id": 3,
+          "question": "Gérez-vous les visas étudiants et familiaux ?",
+          "answer": "Oui, nous gérons les demandes étudiantes, les visites familiales et le regroupement familial UE avec documentation complète et vérifications de conformité."
+        },
+        {
+          "id": 4,
+          "question": "Puis-je postuler pour plusieurs visas avec le même dossier ?",
+          "answer": "Oui, notre système permet de réutiliser vos documents stockés pour différents pays et types de visa, économisant temps et effort."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Pourquoi choisir Sweden Relocators",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Formulaire de visa universel",
+          "description": "Postulez pour plusieurs destinations avec les mêmes informations, réduisant les erreurs et économisant du temps"
+        },
+        {
+          "id": 2,
+          "title": "Coordination avec les ambassades",
+          "description": "Représentation professionnelle auprès des ambassades pour un traitement fluide et réduction du risque de refus"
+        },
+        {
+          "id": 3,
+          "title": "Assistance multilingue",
+          "description": "Support dans plus de 9 langues pour une compréhension claire des exigences"
+        },
+        {
+          "id": 4,
+          "title": "Arrangements de voyage complets",
+          "description": "Réservations d'hôtel, de vol et assurance gérées pour renforcer les demandes"
+        },
+        {
+          "id": 5,
+          "title": "Outils numériques sécurisés",
+          "description": "Système conforme au GDPR avec portail et application sécurisés pour une gestion facile des documents"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Prêt à voyager dans le monde entier ?",
+      "description": "Avec le programme mondial de visas de Sweden Relocators, nous combinons technologie, expertise et support personnalisé pour simplifier vos voyages internationaux. Commencez votre demande de visa dès aujourd'hui.",
+      "button": "Commencer votre demande de visa",
+      "subtext": "Notre équipe vous guide à chaque étape pour assurer le succès de votre demande."
+    }
+  }
+}

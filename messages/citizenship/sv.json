@@ -1,37 +1,37 @@
 {
   "citizenship": {
     "hero": {
-      "title": "Svenskt medborgarskap: Krav, ansökningsvägar och behandlingstider",
-      "subtitle": "Att bli svensk medborgare är en viktig milstolpe som ger fulla rättigheter och skyldigheter i Sverige. Medborgarskap ger tillgång till ett svenskt pass, rösträtt, möjlighet att ställa upp för politiska ämbeten och fri rörlighet i EU och Schengenområdet."
+      "title": "Svenskt medborgarskap: Krav, ansökningsvägar och handläggningstider",
+      "subtitle": "Att bli svensk medborgare är en viktig milstolpe som ger fulla rättigheter och skyldigheter i Sverige. Medborgarskapet ger tillgång till ett svenskt pass, rösträtt, möjlighet att ställa upp för politiskt ämbete och fri rörlighet i EU och Schengenområdet."
     },
     "intro": {
       "heading": "Vad svenskt medborgarskap erbjuder",
-      "description": "Svenskt medborgarskap stärker din juridiska säkerhet och gör det lättare att bo, arbeta och investera i Sverige permanent. Det ger dig inte bara rätt till ett svenskt pass utan också säker juridisk status, EU:s fri rörlighet och full delaktighet i den svenska demokratin.",
-      "note": "Sweden Relocators erbjuder expertvägledning i varje steg av processen och säkerställer att din ansökan är komplett, korrekt och förenlig med gällande lagar."
+      "description": "Svenskt medborgarskap stärker din juridiska säkerhet och gör det lättare att bo, arbeta och investera i Sverige på lång sikt. Det ger dig inte bara rätt till ett svenskt pass utan också säker juridisk status, fri rörlighet inom EU och full delaktighet i den svenska demokratin.",
+      "note": "Sweden Relocators erbjuder expertstöd vid varje steg i processen och säkerställer att din ansökan är komplett, korrekt och överensstämmer med gällande lagar."
     },
     "generalRequirements": {
       "heading": "Allmänna krav för svenskt medborgarskap",
-      "description": "För att ansöka om svenskt medborgarskap som vuxen måste du i allmänhet uppfylla följande villkor:",
+      "description": "För att ansöka om svenskt medborgarskap som vuxen måste du i regel uppfylla följande villkor:",
       "requirements": [
         {
           "title": "Ålderskrav",
-          "description": "Du måste vara minst 18 år gammal för att ansöka självständigt. Barn under 18 år kan ansöka tillsammans med en förälder eller via anmälan i särskilda fall."
+          "description": "Du måste vara minst 18 år gammal för att ansöka självständigt. Barn under 18 år kan ansöka tillsammans med en förälder eller via anmälan i specifika fall."
         },
         {
-          "title": "Permanent uppehållstillstånd eller permanent rätt att vistas",
-          "description": "Icke-EU/EEE-medborgare måste ha ett permanent uppehållstillstånd. EU/EEE-medborgare måste ha en permanent rätt att vistas, vanligtvis efter fem års fortsatt laglig vistelse."
+          "title": "Permanent bosättning eller permanent rätt att vistas",
+          "description": "Medborgare från länder utanför EU/EEA måste ha ett permanent uppehållstillstånd (permanent uppehållstillstånd). EU/EEA-medborgare måste ha en permanent rätt att vistas (permanent uppehållsrätt), vanligtvis efter fem år med kontinuerlig laglig bosättning."
         },
         {
-          "title": "Längd på vistelse i Sverige",
-          "description": "Standardregel: 5 år av fortsatt vistelse. Flyktingar eller statslösa personer: 4 år. Make/maka/partner/sambo till svensk medborgare: 3 år. Nordiska medborgare: 2 år (ordinarie) eller 5 år (anmälan)."
+          "title": "Längd på bosättning i Sverige",
+          "description": "Standardregel: 5 år av kontinuerlig bosättning. Flyktingar eller statslösa personer: 4 år. Make/maka/partner/sambo till svensk medborgare: 3 år. Nordiska medborgare: 2 år (ordinarie) eller 5 år (anmälan)."
         },
         {
-          "title": "God ledare",
-          "description": "Sökanden måste visa god ledare, vilket innebär inget nyligen allvarligt brott, inga ouppklarade skulder med Kronofogden och generell efterlevnad av svensk lag."
+          "title": "Goda beteende",
+          "description": "Ansökande måste visa prov på gott beteende, vilket innebär att man inte har något nyligen genomfört allvarligt brott, inga obetalda skulder till Kronofogden och i övrigt följer svensk lag."
         },
         {
-          "title": "Avsikt att stanna i Sverige",
-          "description": "Migrationsverket bedömer om du har starka band till Sverige, såsom anställning, familj eller långsiktig bostad, vilket visar din äkta avsikt att stanna."
+          "title": "Syfte att vistas i Sverige",
+          "description": "Migrationsverket bedömer om du har starka band till Sverige, såsom anställning, familj eller långsiktig boende, vilket visar att du har genuint syfte att stanna."
         }
       ]
     },
@@ -41,33 +41,33 @@
         {
           "id": "nordic",
           "title": "Nordiska medborgare",
-          "description": "Nordiska medborgare (Danmark, Finland, Island, Norge) drar nytta av de mest flexibla reglerna:",
+          "description": "Nordiska medborgare (Danmark, Finland, Island, Norge) får fördelarna av de mest flexibla reglerna:",
           "details": [
-            "Ordinarie ansökan: Berättigad efter 2 års vistelse i Sverige.",
-            "Anmälningsförfarande: Berättigad efter 5 års vistelse. Detta är en förenklad procedur."
+            "Ordinarie ansökan: Berättigad efter 2 års bosättning i Sverige.",
+            "Anmälningsförfarande (anmälan): Berättigad efter 5 års bosättning. Detta är ett förenklat förfarande."
           ]
         },
         {
           "id": "eueea",
-          "title": "EU/EEE-medborgare",
-          "description": "EU/EEE-medborgare kan ansöka efter 5 års fortsatt vistelse, när permanent rätt att vistas har erhållits.",
+          "title": "EU/EEA-medborgare",
+          "description": "EU/EEA-medborgare kan ansöka efter 5 år av kontinuerlig bosättning, när permanent rätt att vistas är inhämtad.",
           "details": [
-            "Måste visa bevis på vistelse, inkomst och efterlevnad av svensk lag.",
+            "Måste visa bevis på bosättning, inkomst och efterlevnad av svensk lag.",
             "Processen är något enklare eftersom inget uppehållstillstånd krävs."
           ]
         },
         {
           "id": "refugees",
           "title": "Flyktingar och statslösa personer",
-          "description": "Identifierade flyktingar och statslösa personer kan ansöka efter 4 års vistelse.",
+          "description": "Auktoriserade flyktingar och statslösa personer kan ansöka efter 4 år av bosättning.",
           "details": [
-            "Flyktingstatus måste officiellt erkännas enligt internationell eller svensk lag."
+            "Flyktingstatus måste vara officiellt erkänd enligt internationell eller svensk lag."
           ]
         },
         {
           "id": "spouses",
           "title": "Make/maka eller partner till svensk medborgare",
-          "description": "Make/maka eller registrerad partner kan ansöka efter 3 års vistelse.",
+          "description": "Make/maka eller registrerad partner kan ansöka efter 3 år av bosättning.",
           "details": [
             "Paret måste ha bott tillsammans i Sverige i minst 2 år.",
             "Starka band till Sverige krävs, och relationen måste vara pågående."
@@ -79,72 +79,72 @@
           "description": "Barn kan ansöka genom förenklade förfaranden.",
           "details": [
             "Kan ansöka tillsammans med en förälder eller genom en förenklad anmälan.",
-            "Adopterade barn får automatiskt svenskt medborgarskap om de adopterades innan de fyllt 12 år."
+            "Adopterade barn erhåller automatiskt svenskt medborgarskap om de adopterades innan de fyllt 12 år."
           ]
         }
       ]
     },
     "process": {
       "heading": "Ansökningsprocess",
-      "intro": "Medborgarskapsansökan innebär flera viktiga steg:",
+      "intro": "Medborgarskapsansökan innefattar flera viktiga steg:",
       "steps": [
         {
-          "title": "Förbereda dokument",
-          "description": "Krav på dokument inkluderar: Giltigt pass eller nationellt ID-kort, Bevis på vistelse (registrering hos Skatteverket), Inkomst- eller anställningsintyg, Polis- eller skuldbetyg vid behov."
+          "title": "Förbered dokument",
+          "description": "Nödvändiga dokument inkluderar: Giltigt pass eller nationellt ID-kort, Bevis på bosättning (registrering hos Skatteverket), Inkomst- eller anställningsintyg, Polis- eller skuldbetyg vid behov."
         },
         {
           "title": "Skicka in ansökan",
-          "description": "Ansökningar kan skickas in via Migrationsverkets e-tjänst eller genom ett pappersformulär. Barn och nordiska medborgare som använder anmälningsförfarandet har förenklade procedurer."
+          "description": "Ansökningar kan skickas in online via Migrationsverkets e-tjänst eller genom ett pappersformulär. Barn och nordiska medborgare som använder anmälningsförfarandet har förenklade procedurer."
         },
         {
           "title": "Migrationsverkets granskning",
-          "description": "Migrationsverket verifierar vistlehistorik, identitet, uppförande och ekonomisk stabilitet. De kan begära ytterligare information under processen."
+          "description": "Migrationsverket verifierar bosättningshistorik, identitet, beteende och ekonomisk stabilitet. De kan begära ytterligare information under processen."
         },
         {
           "title": "Beslut",
-          "description": "Om godkänd får du ett intyg om svenskt medborgarskap. Om avslagen kan du överklaga till en förvaltningsdomstol."
+          "description": "Vid godkännande får du ett intyg om svenskt medborgarskap. Vid avslag kan du överklaga till en förvaltningsdomstol."
         }
       ]
     },
     "waitingTimes": {
-      "heading": "Behandlingstider och väntetider",
-      "intro": "Behandlingstider varierar beroende på kategori och bakgrund:",
+      "heading": "Handläggningstider och väntetider",
+      "intro": "Handläggningstider varierar beroende på kategori och bakgrund:",
       "times": [
-        {"category": "Standardansökningar", "time": "18–36 månader"},
+        {"category": "Ordinarie ansökningar", "time": "18–36 månader"},
         {"category": "Nordiska medborgare (anmälan)", "time": "6–12 månader"},
-        {"category": "Flyktingar och makar/makar", "time": "Vanligtvis snabbare än standard"},
-        {"category": "Obs", "time": "Migrationsverket meddelade nyligen striktare kontroller (mars 2025), vilket kan öka väntetiderna för vissa fall."}
+        {"category": "Flyktingar och make/maka/partner", "time": "Vanligtvis snabbare än ordinarie"},
+        {"category": "Obs!", "time": "Migrationsverket meddelade nyligen striktare kontroller (mars 2025), vilket kan öka väntetiden för vissa ärenden."}
       ]
     },
     "support": {
       "heading": "Hur Sweden Relocators kan hjälpa dig",
-      "description": "Att ansöka om svenskt medborgarskap kan vara komplext och tidskrävande. Sweden Relocators erbjuder professionell support i varje stadium:",
+      "description": "Att ansöka om svenskt medborgarskap kan vara komplicerat och tidskrävande. Sweden Relocators erbjuder professionell support i varje steg:",
       "services": [
         {
           "title": "Bedömning av berättigande",
-          "description": "Vi kontrollerar din vistlehistorik, familjesituation och uppehållstillstånd för att avgöra din bästa väg framåt."
+          "description": "Vi kontrollerar din bosättningshistorik, familjesituation och tillståndstatus för att avgöra din bästa väg framåt."
         },
         {
-          "title": "Dokumentförberedelse",
+          "title": "Dokumentförberedelser",
           "description": "Säkerställer noggrannhet, översättningar och fullständighet för att förhindra förseningar i behandlingen."
         },
         {
           "title": "Inlämning och övervakning av ansökan",
-          "description": "Vi hanterar din ansökan och följer upp uppdateringar direkt hos Migrationsverket."
+          "description": "Vi hanterar din ansökan och spårar uppdateringar direkt hos Migrationsverket."
         },
         {
-          "title": "Hjälp vid överklaganden",
+          "title": "Överklagandehjälp",
           "description": "Om din ansökan avslås hjälper vårt juridiska team till att förbereda och lämna in överklaganden."
         },
         {
           "title": "Långsiktig strategi",
-          "description": "Vägledning om hur man upprätthåller vistelserequirements, undviker luckor och förbereder sig för medborgarskap."
+          "description": "Handledning om hur man upprätthåller bosättningskrav, undviker luckor och förbereder sig för medborgarskap."
         }
       ]
     },
     "cta": {
       "heading": "Börja din väg mot svenskt medborgarskap idag",
-      "description": "Kontakta Sweden Relocators för att bedöma din berättigande och börja din medborgarskapsansökan med expertstöd.",
+      "description": "Kontakta Sweden Relocators för att bedöma din berättigande och påbörja din medborgarskapsansökan med expertstöd.",
       "button": "Kom igång",
       "subtext": "Lagen om svenskt medborgarskap (2001:82). Regler och förfaranden kan ändras. Rådfråga alltid Migrationsverket för den senaste informationen."
     }

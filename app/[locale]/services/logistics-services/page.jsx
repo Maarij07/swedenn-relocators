@@ -1,12 +1,26 @@
 'use client';
 
 import { useTranslation } from 'react-i18next';
+import { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 export default function LogisticsServicesPage() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const [isReady, setIsReady] = useState(i18n.isInitialized);
+
+  useEffect(() => {
+    if (!i18n.isInitialized) {
+      i18n.on('initialized', () => setIsReady(true));
+    } else {
+      setIsReady(true);
+    }
+  }, [i18n]);
+
+  if (!isReady) {
+    return <div>Loading...</div>;
+  }
 
   const services = t('logisticsServices.services.services', { returnObjects: true }) || [];
   const benefits = t('logisticsServices.whyChoose.benefits', { returnObjects: true }) || [];
@@ -18,10 +32,10 @@ export default function LogisticsServicesPage() {
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px]">
         <div className="mb-16 sm:mb-20 lg:mb-32 xl:mb-40">
           <Typography sx={{ fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '4.5rem', '4k': '6rem' }, fontWeight: 800, mb: 4, color: '#1e293b', lineHeight: 1.1 }}>
-            {t('logisticsServices.hero.title') || 'MISSING: logisticsServices.hero.title'}
+            {t('logisticsServices.hero.title')}
           </Typography>
           <Typography sx={{ fontSize: { xs: '1rem', sm: '1.25rem', md: '1.5rem', lg: '2rem', '4k': '2.75rem' }, fontWeight: 600, mb: 4, color: '#1e293b', lineHeight: 1.4 }}>
-            {t('logisticsServices.hero.subtitle') || 'MISSING: logisticsServices.hero.subtitle'}
+            {t('logisticsServices.hero.subtitle')}
           </Typography>
         </div>
       </div>
@@ -30,14 +44,14 @@ export default function LogisticsServicesPage() {
       <div className="bg-[#F8FAFC] border-t border-gray-200">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
           <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.5rem', lg: '1.75rem', '4k': '2.5rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-            {t('logisticsServices.intro.heading') || 'MISSING: logisticsServices.intro.heading'}
+            {t('logisticsServices.intro.heading')}
           </Typography>
           <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 6, maxWidth: '900px' }}>
-            {t('logisticsServices.intro.description') || 'MISSING: logisticsServices.intro.description'}
+            {t('logisticsServices.intro.description')}
           </Typography>
           <Box sx={{ backgroundColor: '#E0F2FE', border: '1px solid #BAE6FD', borderRadius: '8px', p: { xs: 4, sm: 5, lg: 6, '4k': 8 } }}>
             <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#0369a1', lineHeight: 1.8 }}>
-              {t('logisticsServices.intro.toolLink') || 'MISSING: logisticsServices.intro.toolLink'}
+              {t('logisticsServices.intro.toolLink')}
             </Typography>
           </Box>
         </div>
@@ -46,7 +60,7 @@ export default function LogisticsServicesPage() {
       {/* Services Section */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
         <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 12, color: '#1e293b' }}>
-          {t('logisticsServices.services.heading') || 'MISSING: logisticsServices.services.heading'}
+          {t('logisticsServices.services.heading')}
         </Typography>
 
         <div className="space-y-8 sm:space-y-10 lg:space-y-12">
@@ -60,7 +74,7 @@ export default function LogisticsServicesPage() {
               </Typography>
 
               <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.875rem', lg: '0.9375rem', '4k': '1.125rem' }, color: '#3b82f6', fontWeight: 600, mb: 2, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                {t('logisticsServices.services.requirementsLabel') || 'MISSING: logisticsServices.services.requirementsLabel'}
+                {t('logisticsServices.services.requirementsLabel')}
               </Typography>
               <div className="space-y-2">
                 {Array.isArray(service.requirements) && service.requirements.map((req, i) => (
@@ -83,7 +97,7 @@ export default function LogisticsServicesPage() {
       <div className="bg-[#F8FAFC]">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
           <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 10, color: '#1e293b' }}>
-            {t('logisticsServices.whyChoose.heading') || 'MISSING: logisticsServices.whyChoose.heading'}
+            {t('logisticsServices.whyChoose.heading')}
           </Typography>
 
           <div className="space-y-6 sm:space-y-8 lg:space-y-10">
@@ -104,7 +118,7 @@ export default function LogisticsServicesPage() {
       {/* Process Section */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
         <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 12, color: '#1e293b' }}>
-          {t('logisticsServices.process.heading') || 'MISSING: logisticsServices.process.heading'}
+          {t('logisticsServices.process.heading')}
         </Typography>
 
         <div className="space-y-8 sm:space-y-10 lg:space-y-12">
@@ -125,10 +139,10 @@ export default function LogisticsServicesPage() {
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
         <div className="bg-[#f0f9ff] border border-[#bae6fd] rounded-2xl p-8 sm:p-10 lg:p-14 xl:p-16 4k:p-24 text-center">
           <Typography sx={{ fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.25rem', '4k': '3rem' }, fontWeight: 800, mb: 4, color: '#1e293b' }}>
-            {t('logisticsServices.cta.heading') || 'MISSING: logisticsServices.cta.heading'}
+            {t('logisticsServices.cta.heading')}
           </Typography>
           <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', mb: 8, maxWidth: '700px', mx: 'auto', lineHeight: 1.8 }}>
-            {t('logisticsServices.cta.description') || 'MISSING: logisticsServices.cta.description'}
+            {t('logisticsServices.cta.description')}
           </Typography>
           <Button
             sx={{
@@ -147,10 +161,10 @@ export default function LogisticsServicesPage() {
               }
             }}
           >
-            {t('logisticsServices.cta.button') || 'MISSING: logisticsServices.cta.button'}
+            {t('logisticsServices.cta.button')}
           </Button>
           <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '1rem', '4k': '1.125rem' }, color: '#9CA3AF', mt: 4 }}>
-            {t('logisticsServices.cta.subtext') || 'MISSING: logisticsServices.cta.subtext'}
+            {t('logisticsServices.cta.subtext')}
           </Typography>
         </div>
       </div>

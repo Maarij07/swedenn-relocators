@@ -1,0 +1,195 @@
+{
+  "euCitizensRelocation": {
+    "hero": {
+      "title": "Reunificación familiar para ciudadanos de la UE en Suecia",
+      "subtitle": "Apoyo integral para ciudadanos de la UE y sus familias"
+    },
+    "intro": {
+      "heading": "Traiga a su familia de la UE a Suecia",
+      "description": "Cuando se muda a Suecia como ciudadano de la Unión Europea, tiene el derecho legal a la reunificación familiar. Esto permite que sus familiares se trasladen con usted y se beneficien de la alta calidad de vida en Suecia, incluyendo atención médica, educación y prestaciones sociales. Sweden Relocators ofrece asistencia profesional en la reunificación familiar de ciudadanos de la UE, incluyendo evaluación de elegibilidad, preparación de documentos, tarjetas de residencia, registro de personnummer, búsqueda de vivienda e integración.",
+      "infoBox": "La reunificación familiar para ciudadanos de la UE en Suecia se basa en la Directiva 2004/38/CE, que otorga a los ciudadanos de la UE residentes en Suecia el derecho a traer a sus familiares y acceder a atención médica, educación y prestaciones sociales en igualdad de condiciones que los demás residentes."
+    },
+    "whatIs": {
+      "heading": "¿Qué es la reunificación familiar para ciudadanos de la UE?",
+      "description": "La reunificación familiar para ciudadanos de la UE en Suecia se basa en la Directiva 2004/38/CE sobre el derecho de los ciudadanos de la UE y sus familiares a la libre circulación y residencia dentro de la Unión Europea. Este marco permite a los ciudadanos de la UE residentes en Suecia traer tanto a familiares directos como extendidos, siempre que se cumplan ciertos requisitos."
+    },
+    "immediateFamilyHeading": "Familiares directos elegibles para la reunificación familiar",
+    "immediateFamily": [
+      {
+        "type": "Cónyuge o pareja registrada",
+        "description": "Incluye matrimonios entre personas del mismo o diferente sexo, así como uniones registradas reconocidas por la ley sueca."
+      },
+      {
+        "type": "Pareja no casada (conviviente)",
+        "description": "Siempre que la relación sea duradera y se reconozca en Suecia como equivalente al matrimonio."
+      },
+      {
+        "type": "Hijos menores de 21 años",
+        "description": "Hijos biológicos o adoptivos del ciudadano de la UE o de su cónyuge/pareja."
+      },
+      {
+        "type": "Hijos dependientes mayores de 21 años",
+        "description": "Siempre que dependan económicamente del ciudadano de la UE."
+      },
+      {
+        "type": "Padres y abuelos dependientes",
+        "description": "Parientes en línea ascendente que dependen económicamente."
+      }
+    ],
+    "extendedFamily": {
+      "heading": "Familiares extendidos y dependencia",
+      "description": "En ciertos casos, los familiares extendidos también pueden ser elegibles si se demuestra una dependencia real. Esto puede incluir hermanos adultos, hijos adultos que vivan en el mismo hogar u otros parientes con fuertes vínculos de dependencia. Los requisitos para la reunificación de familiares extendidos son más estrictos y requieren documentación clara de la dependencia."
+    },
+    "longTermPermitHeading": "Titulares de permiso de residencia de larga duración de la UE",
+    "longTermPermitRequirements": [
+      "Ser titular de un permiso de residencia de larga duración válido expedido por otro Estado miembro de la UE",
+      "Contar con recursos financieros suficientes y vivienda adecuada en Suecia",
+      "Presentar la solicitud de residencia en Suecia junto con los familiares directos"
+    ],
+    "residenceCard": {
+      "heading": "Tarjeta de residencia para familiares",
+      "intro": "Los familiares que deseen permanecer en Suecia por más de tres meses deben solicitar una tarjeta de residencia en la Agencia de Migración de Suecia (Migrationsverket).",
+      "documentsLabel": "Documentos requeridos:",
+      "documents": [
+        "Pasaporte válido",
+        "Prueba de la relación familiar (certificado de matrimonio, unión registrada o partida de nacimiento)",
+        "Prueba de dependencia económica (para padres, abuelos o hijos mayores de 21 años)",
+        "Prueba de residencia del ciudadano de la UE en Suecia (contrato de alquiler, propiedad de vivienda o contrato de trabajo)",
+        "Prueba de recursos financieros suficientes para el mantenimiento propio y familiar"
+      ],
+      "note": "Las tarjetas de residencia generalmente tienen una validez de cinco años o por la duración de la estancia del ciudadano de la UE en Suecia."
+    },
+    "personnummer": {
+      "heading": "Número personal (Personnummer)",
+      "intro": "Después de obtener la tarjeta de residencia, los familiares deben registrarse en la Agencia Tributaria Sueca (Skatteverket) para obtener un número personal. Este número es necesario para:",
+      "uses": [
+        "Acceso a la atención médica",
+        "Inscripción de los niños en escuelas",
+        "Apertura de una cuenta bancaria",
+        "Celebración de contratos (vivienda, telefonía móvil, electricidad y otros servicios)"
+      ]
+    },
+    "healthcare": {
+      "heading": "Atención médica y seguro de salud",
+      "description": "Después de recibir el número personal, los familiares tienen acceso al sistema de salud público en Suecia. Hasta entonces, se requiere un seguro de salud privado. Para familiares no pertenecientes a la UE, se recomienda un seguro completo con cobertura mínima de 30.000 EUR."
+    },
+    "education": {
+      "heading": "Educación y cuidado infantil",
+      "programs": [
+        {
+          "name": "Educación obligatoria",
+          "description": "Educación gratuita para niños de 6 a 16 años, incluyendo comidas escolares"
+        },
+        {
+          "name": "Educación preescolar (Förskola)",
+          "description": "Disponible para niños de 1 a 5 años con tarifas subvencionadas"
+        },
+        {
+          "name": "Escuelas internacionales",
+          "description": "Opciones para familias que prefieren educación en inglés u otros idiomas"
+        }
+      ]
+    },
+    "bankAccounts": {
+      "heading": "Cuentas bancarias e integración financiera",
+      "intro": "Tras obtener el número personal, los familiares pueden abrir una cuenta bancaria sueca. Normalmente se requieren los siguientes documentos:",
+      "documents": [
+        "Identificación emitida por Skatteverket",
+        "Tarjeta de residencia",
+        "Comprobante de dirección",
+        "Comprobante de ingresos (si corresponde)"
+      ],
+      "note": "Una cuenta bancaria permite acceso a pagos digitales, banca en línea y Swish (sistema de pagos móvil en Suecia)."
+    },
+    "language": {
+      "heading": "Apoyo lingüístico e integración",
+      "description": "Aprender sueco es esencial para una integración exitosa. Tras registrarse y obtener el número personal, los familiares pueden asistir a cursos SFI (Sueco para inmigrantes). Estos cursos gratuitos financiados por el Estado mejoran la comunicación diaria y las oportunidades de empleo. Sweden Relocators también ofrece orientación cultural para facilitar la adaptación."
+    },
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Evaluación de elegibilidad",
+        "description": "Sweden Relocators verifica si los familiares cumplen con los requisitos de la UE."
+      },
+      {
+        "step": "2",
+        "title": "Preparación de documentos",
+        "description": "Recolección y traducción de los documentos requeridos."
+      },
+      {
+        "step": "3",
+        "title": "Solicitud ante Migrationsverket",
+        "description": "Presentación de las solicitudes de tarjetas de residencia."
+      },
+      {
+        "step": "4",
+        "title": "Seguimiento y comunicación",
+        "description": "Gestión de preguntas o solicitudes de la autoridad migratoria."
+      },
+      {
+        "step": "5",
+        "title": "Registro en Skatteverket",
+        "description": "Asistencia para obtener número personal, identificación y registro fiscal."
+      },
+      {
+        "step": "6",
+        "title": "Servicios de integración",
+        "description": "Apoyo en vivienda, escuelas, atención médica y aprendizaje de idioma."
+      }
+    ],
+    "services": {
+      "heading": "Cómo Sweden Relocators apoya a las familias",
+      "description": "Nuestros servicios integrales y nuestra plataforma digital aseguran que la reunificación familiar se realice sin problemas, conforme a la ley y sin estrés.",
+      "servicesList": [
+        {
+          "title": "Evaluación de elegibilidad y asesoramiento legal",
+          "description": "Verificamos que sus familiares cumplan con los requisitos de la legislación de la UE."
+        },
+        {
+          "title": "Preparación de documentos y traducciones oficiales",
+          "description": "Todos los documentos se preparan y traducen profesionalmente para las autoridades suecas."
+        },
+        {
+          "title": "Presentación y seguimiento de solicitudes",
+          "description": "Presentamos las solicitudes y hacemos seguimiento del proceso en Migrationsverket."
+        },
+        {
+          "title": "Apoyo en caso de apelación",
+          "description": "En caso de rechazo, proporcionamos asistencia completa durante todo el proceso de apelación."
+        },
+        {
+          "title": "Búsqueda de vivienda y escuelas",
+          "description": "Ayudamos a encontrar vivienda y a inscribir a los niños en escuelas."
+        },
+        {
+          "title": "Asesoramiento sobre seguros y salud",
+          "description": "Orientación sobre requisitos de seguros y acceso al sistema de salud sueco."
+        }
+      ]
+    },
+    "whySweden": [
+      {
+        "title": "Estado de bienestar sólido",
+        "description": "Acceso a atención médica completa, educación de calidad y prestaciones sociales."
+      },
+      {
+        "title": "Educación y salud gratuitas",
+        "description": "Servicios educativos y de salud de clase mundial para todos los residentes."
+      },
+      {
+        "title": "Seguro y familiar",
+        "description": "Suecia ofrece un entorno seguro, inclusivo y familiar."
+      },
+      {
+        "title": "Derechos de residencia estables",
+        "description": "Protección legal bajo la ley de la UE y la legislación migratoria sueca."
+      }
+    ],
+    "cta": {
+      "heading": "¿Listo para iniciar la reunificación familiar?",
+      "description": "Sweden Relocators garantiza que su mudanza sea fluida, correcta y sin estrés. Contáctenos hoy para comenzar el proceso de reunificación familiar. Nuestra plataforma digital le permite gestionar perfiles, subir documentos y seguir el progreso en tiempo real.",
+      "button": "Iniciar reunificación familiar de la UE",
+      "subtext": "Nuestro equipo de expertos guiará a su familia en cada paso de la reunificación familiar de ciudadanos de la UE en Suecia."
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "familyReunification": {
+    "hero": {
+      "title": "Familienzusammenführung in Schweden",
+      "subtitle": "Umfassender Leitfaden nach Schwedischem Nationalgesetz"
+    },
+    "intro": {
+      "heading": "Bringen Sie Ihre Familie nach Schweden",
+      "description": "Schwedens Familiengesetze ermöglichen es Personen, die verschiedene Arten von Aufenthaltserlaubnissen besitzen - einschließlich Arbeitserlaubnisse, Geschäftserlaubnisse, Doktorands- und Studentenerlaubnisse sowie permanente Aufenthaltserlaubnisse - sowie Flüchtlingen, Familienmitglieder nach Schweden zu bringen. Jeder Fall hat spezifische Anforderungen und wird nach verschiedenen Bestimmungen des Schwedischen Nationalgesetzes bewertet.",
+      "infoBox": "Meistern Sie komplexe Anforderungen der Familienzusammenführung mit Expertenwissen zum schwedischen Nationalgesetz und spezifischen Bewertungen der Aufenthaltserlaubnistypen."
+    },
+    "lawsHeading": "Wichtigste Schwedische Gesetze für die Familienzusammenführung",
+    "laws": [
+      {
+        "name": "Ausländergesetz (Utlänningslagen)",
+        "description": "Die Hauptgesetzgebung zur Regelung von Aufenthaltserlaubnissen und Familienzusammenführung für alle Nicht-Schweden."
+      },
+      {
+        "name": "Vorübergehendes Ausländergesetz (Tillfälliga Utlänningslagen)",
+        "description": "Ein vorübergehendes Gesetz, das die Anforderungen der Familienzusammenführung betrifft, hauptsächlich für Flüchtlinge und Personen, die subsidiären Schutz benötigen."
+      },
+      {
+        "name": "Schwedisches Staatsangehörigkeitsgesetz (Lag om Svenskt Medborgarskap)",
+        "description": "Relevant für schwedische Bürger und ständige Bewohner, die Familienmitglieder einladen."
+      },
+      {
+        "name": "Sozialversicherungsgesetzbuch (Socialförsäkringsbalken)",
+        "description": "Bietet Richtlinien zu akzeptierten Einkommensquellen für die Unterhaltsanforderung."
+      }
+    ],
+    "eligibility": {
+      "heading": "Wer Kann Gesponsert Werden?",
+      "description": "Familienzusammenführung ist in der Regel für berechtigte Familienmitglieder nach schwedischem Gesetz verfügbar. Jeder Beziehungstyp hat spezifische Zulassungskriterien.",
+      "familyMembers": [
+        {
+          "type": "Ehega­tte oder Registrierter Partner",
+          "description": "Rechtlich verheiratete oder registrierte Partner"
+        },
+        {
+          "type": "Zusammenlebender Partner",
+          "description": "Langfristige, nicht registrierte Partner können sich qualifizieren, wenn die Beziehung gut dokumentiert ist"
+        },
+        {
+          "type": "Kinder Unter 18 Jahren",
+          "description": "Minderjährige Kinder des Erlaubnisinnhabers oder seines Ehepartners/Partners"
+        },
+        {
+          "type": "Eltern (Für Minderjährige Erlaubnisinhaber)",
+          "description": "Für Erlaubnisinhaber unter 18 Jahren können Eltern oder Erziehungsberechtigte berechtigt sein"
+        },
+        {
+          "type": "Erweiterte Familie",
+          "description": "Andere Familienmitglieder können aus humanitären Gründen berücksichtigt werden"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Unterhalts- und Wohnungsanforderungen",
+      "description": "Die Unterhaltsanforderung (Försörjningskrav) ist wesentlich für die meisten Familiengesetze und stellt sicher, dass der Hauptantragsteller ausreichendes Einkommen und angemessenes Wohnen hat, um Familienmitglieder zu unterstützen.",
+      "maintenanceLabel": "Einkommensanforderungen",
+      "housingLabel": "Wohnungsanforderungen",
+      "maintenance": [
+        "Stabiles Einkommen zur Deckung der Lebenshaltungskosten",
+        "Arbeitsverträge oder Nachweise der Selbstständigkeit",
+        "Aktuelle Gehaltsnachweise und Steuererklärungen",
+        "Dokumentation von Sozialleistungen, falls zutreffend"
+      ],
+      "housing": [
+        "Mietvertrag oder Eigentumsnachweis",
+        "Ausreichend Zimmer für alle Familienmitglieder",
+        "Nachweis der monatlichen Miete oder Eigentumskosten",
+        "Erfüllt schwedische Wohnstandards"
+      ]
+    },
+    "assessmentHeading": "Bewertungskriterien nach Aufenthaltserlaubnistyp",
+    "assessmentCriteria": [
+      {
+        "title": "Arbeitserlaubnisinhaber",
+        "requirements": ["Langzeitbeschäftigung mit ausreichendem Gehalt", "Arbeitsverträge und Gehaltsnachweise", "Nachweis der finanziellen Stabilität", "Angemessene Wohnverhältnisse"]
+      },
+      {
+        "title": "Geschäftserlaubnisinhaber",
+        "requirements": ["Rentables Geschäft mit angemessenem Einkommen", "Steuererklärungen und Geschäftsauszüge", "Vorläufige Steuerbescheide vom Schwedischen Finanzamt", "Nachweis der Geschäftsfähigkeit"]
+      },
+      {
+        "title": "Doktoranden und Forscher",
+        "requirements": ["Stabile Finanzierung oder Stipendien", "Programmauer in der Regel länger als ein Jahr", "Einkommensdokumentation der Bildungseinrichtung", "Wohnmöglichkeiten in Schweden"]
+      },
+      {
+        "title": "Permanente Aufenthaltserlaubnisinhaber",
+        "requirements": ["Langzeitaufenthalt mit starken Bindungen zu Schweden", "Einkommensprüfung mit möglicher Flexibilität", "Bewertung von Wohnstandards", "Möglicherweise etwas weniger strenge Anforderungen"]
+      },
+      {
+        "title": "Flüchtlinge und Inhaber von Subsidiem Schutz",
+        "requirements": ["Mögliche Befreiung von der Unterhaltsanforderung innerhalb von 3 Monaten", "Nachweis der Beziehung vor der Ankunft in Schweden", "Dokumentation der Familienbeziehung", "Bewertet nach dem Vorübergehenden Ausländergesetz"]
+      }
+    ],
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Dokumentation Vorbereiten",
+        "description": "Sammeln Sie alle erforderlichen Dokumente, einschließlich Pässe, Beziehungsnachweise (Heirats- oder Geburtsurkunden), Mietverträge und Einkommensverifikation."
+      },
+      {
+        "step": "2",
+        "title": "Antrag Einreichen",
+        "description": "Reichen Sie Anträge online über das Portal der Schwedischen Migrationsbehörde oder bei einer schwedischen Botschaft/Konsulat ein, einschließlich Beziehungsnachweis und Wohnung-/Einkommensverifikation."
+      },
+      {
+        "step": "3",
+        "title": "Überprüfung durch die Migrationsbehörde",
+        "description": "Die Schwedische Migrationsbehörde überprüft, dass alle Anforderungen erfüllt sind, und bewertet Einkommen, Wohnung und Familienberechtigung gemäß Ihrem spezifischen Aufenthaltserlaubnistyp."
+      },
+      {
+        "step": "4",
+        "title": "Entscheidung und Benachrichtigung",
+        "description": "Nach der Bewertung trifft die Behörde eine Entscheidung. Im Falle der Genehmigung können Familienmitglieder Aufenthaltserlaubnisse erhalten, die der Dauer des Erlaubnisses des Sponsors entsprechen."
+      }
+    ],
+    "legalProvisions": {
+      "heading": "Spezifische Gesetzliche Bestimmungen",
+      "description": "Die Familienzusammenführung in Schweden wird durch spezifische Rechtsbestimmungen geregelt, die auf verschiedene Aufenthaltserlaubnistypen und Familiensituationen zugeschnitten sind.",
+      "acts": [
+        {
+          "name": "Ausländergesetz (Utlänningslagen)",
+          "details": "Primärer Rechtsrahmen für Familienzusammenführung, der Einkommen, Wohnung und Beziehungsverifikation mit Unterhalts- und Wohnstandards regelt."
+        },
+        {
+          "name": "Vorübergehendes Ausländergesetz (Tillfälliga Utlänningslagen)",
+          "details": "Wendet strengere Unterhaltsanforderungen auf Flüchtlinge an und betont finanzielle Unabhängigkeit über die dreimonatige Anwendungsperiode hinaus."
+        },
+        {
+          "name": "Sozialversicherungsgesetzbuch (Socialförsäkringsbalken)",
+          "details": "Definiert akzeptable Einkommensquellen, besonders relevant für Sponsoren, die auf Leistungen oder Arbeitslosigkeit angewiesen sind."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Unsere Dienstleistungen",
+      "description": "Sweden Relocators bietet umfassende Unterstützung, um Ihnen bei der Navigation der Familienzusammenführung in Schweden zu helfen und sicherzustellen, dass Ihr Antrag alle schwedischen Rechtsstandards erfüllt.",
+      "servicesList": [
+        {
+          "title": "Zulassungsprüfung",
+          "description": "Wir prüfen Ihren spezifischen Aufenthaltserlaubnistyp, Einkommen, Wohnung und Familienberechtigung, um den besten Ansatz zu bestimmen."
+        },
+        {
+          "title": "Dokumentvorbereitung",
+          "description": "Unterstützung bei der Zusammenstellung aller erforderlichen Dokumente, Übersetzung von Auslandsdokumenten bei Bedarf und Gewährleistung vollständiger Genauigkeit."
+        },
+        {
+          "title": "Antrageinreichung und Überwachung",
+          "description": "Ihren Antrag in Ihrem Namen einreichen und mit der Schwedischen Migrationsbehörde Nachverfolgung durchführen."
+        },
+        {
+          "title": "Berufungsunterstützung",
+          "description": "Wenn Ihr Antrag abgelehnt wird, bieten wir Anleitung durch das Berufungsverfahren, um Ihren Fall zu stärken."
+        },
+        {
+          "title": "Rechtliche Compliance-Sicherheit",
+          "description": "Wir stellen sicher, dass alle Dokumentation schwedische Rechtsstandards und spezifische Aufenthaltserlaubnistypen erfüllt."
+        }
+      ]
+    },
+    "whyChooseHeading": "Warum Sweden Relocators Wählen?",
+    "whyChoose": [
+      {
+        "title": "Fachwissen",
+        "description": "Tiefes Wissen über schwedische Familiengesetze und Anforderungen für alle Aufenthaltserlaubnistypen."
+      },
+      {
+        "title": "Personalisierte Unterstützung",
+        "description": "Wir passen unsere Unterstützung an Ihren spezifischen Aufenthaltserlaubnistyp und Ihre Situation an, um maximalen Erfolg zu gewährleisten."
+      },
+      {
+        "title": "Effiziente Bearbeitung",
+        "description": "Durch die Gewährleistung von Genauigkeit und Compliance helfen wir Ihnen, Verzögerungen oder Ablehnungen zu vermeiden, wodurch der Prozess reibungsloser und effizienter wird."
+      }
+    ],
+    "cta": {
+      "heading": "Bereit, sich mit Ihrer Familie in Schweden zu Vereinigen?",
+      "description": "Familienzusammenführung ist ein komplexer Prozess mit spezifischen Anforderungen für jeden Aufenthaltserlaubnistyp. Lassen Sie Sweden Relocators Sie durch den Prozess der Familienzusammenführung in Schweden führen und stellen Sie sicher, dass alle rechtlichen Anforderungen für einen erfolgreichen Antrag erfüllt sind.",
+      "button": "Beginnen Sie Ihren Antrag auf Familienzusammenführung",
+      "subtext": "Unser Expertenteam wird Sie bei jedem Schritt des schwedischen Familiengesetze-Prozesses leiten."
+    }
+  }
+}

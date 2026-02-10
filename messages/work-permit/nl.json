@@ -1,0 +1,155 @@
+{
+  "workPermit": {
+    "hero": {
+      "title": "Uitgebreide gids voor werkvergunningen in Zweden",
+      "subtitle": "Ontdek de verschillende werkvergunningen voor diverse soorten werk in Zweden, elk met unieke vereisten."
+    },
+    "intro": {
+      "heading": "Werkvergunningen in Zweden begrijpen",
+      "description": "Zweden biedt verschillende werkvergunningen voor uiteenlopende vormen van werk, elk met specifieke vereisten. Als u van plan bent om in Zweden te werken, is het belangrijk de beschikbare opties te begrijpen en te zorgen dat u aan de actuele criteria voldoet.",
+      "toolLink": "Sweden Relocators biedt op onze website een Werkvergunning Assessment Tool, waarmee u snel uw geschiktheid en de beste vergunning voor uw situatie kunt bepalen."
+    },
+    "permitTypes": {
+      "heading": "Soorten werkvergunningen in Zweden",
+      "requirementsLabel": "Vereisten",
+      "processingTimeLabel": "Verwerkingstijd",
+      "durationLabel": "Duur",
+      "permits": [
+        {
+          "id": "standard",
+          "title": "Standaard werkvergunning voor werk",
+          "description": "Voor personen die een baan in Zweden hebben gekregen",
+          "requirements": [
+            {"label": "Arbeidsaanbod", "description": "U moet een bevestigd arbeidsaanbod van een Zweedse werkgever hebben."},
+            {"label": "Minimumsalaris", "description": "Ongeveer 30.000 SEK vóór belastingen. Moet voldoen aan Zweedse cao’s of industrienormen."},
+            {"label": "Arbeidsvoorwaarden", "description": "Moet voldoen aan Zweedse normen voor gezondheid, verzekering en pensioenbijdragen."},
+            {"label": "Advertentievereiste", "description": "De vacature moet ten minste 10 dagen binnen de EU/EEA zijn gepubliceerd voordat een niet-EU burger wordt aangenomen."}
+          ],
+          "waitingTime": "1-4 maanden",
+          "duration": "Tot 2 jaar, met mogelijkheid tot verlenging"
+        },
+        {
+          "id": "euBlueCard",
+          "title": "EU Blue Card",
+          "description": "Voor hooggekwalificeerde professionals met vaardigheden die in de EU gevraagd zijn",
+          "requirements": [
+            {"label": "Hoger onderwijs", "description": "Universiteitsdiploma of minimaal 5 jaar relevante werkervaring vereist."},
+            {"label": "Salarisdrempel", "description": "Arbeidsaanbod met salaris boven de EU Blue Card-minimumdrempel voor Zweden."}
+          ],
+          "waitingTime": "3-4 maanden",
+          "duration": "Tot 4 jaar, afhankelijk van het arbeidscontract"
+        },
+        {
+          "id": "seasonal",
+          "title": "Seizoensarbeidervergunning",
+          "description": "Voor kortdurend seizoenswerk in de landbouw (bessenplukkers en plantwerkers)",
+          "requirements": [
+            {"label": "Arbeidscontract", "description": "Contract van een Zweedse werkgever voor seizoenswerk tot 6 maanden."},
+            {"label": "Lonen en voordelen", "description": "Moeten in lijn zijn met Zweedse cao’s."},
+            {"label": "Zorgverzekering", "description": "Moet een zorgverzekering hebben die het verblijf dekt."}
+          ],
+          "waitingTime": "1-3 maanden",
+          "duration": "Duur van het arbeidscontract, meestal tot 6 maanden"
+        },
+        {
+          "id": "auPair",
+          "title": "Au Pair-vergunning",
+          "description": "Voor jonge personen (18–30 jaar) die bij een gastgezin wonen",
+          "requirements": [
+            {"label": "Leeftijdsvereiste", "description": "Moet tussen 18 en 30 jaar oud zijn."},
+            {"label": "Gastgezincontract", "description": "Formele overeenkomst met taken, werktijden en vergoeding."},
+            {"label": "Taalstudie", "description": "Verplicht om tijdens het verblijf Zweeds te studeren."},
+            {"label": "Minimumvergoeding", "description": "Het gastgezin moet een vergoeding bieden volgens de Zweedse au pair-standaard."}
+          ],
+          "waitingTime": "1-2 maanden",
+          "duration": "Tot één jaar"
+        },
+        {
+          "id": "workingHoliday",
+          "title": "Working Holiday-visum",
+          "description": "Voor jongeren uit specifieke landen om te werken en reizen",
+          "requirements": [
+            {"label": "Gerechtigde landen", "description": "Australië, Nieuw-Zeeland, Zuid-Korea, Canada, Japan, Argentinië en anderen."},
+            {"label": "Leeftijdsvereiste", "description": "Gewoonlijk voor personen tussen 18 en 30 jaar."},
+            {"label": "Voldoende middelen", "description": "Bewijs van middelen om zichzelf aanvankelijk te ondersteunen."}
+          ],
+          "waitingTime": "1-2 maanden",
+          "duration": "Geldig voor één jaar met bepaalde werkbeperkingen"
+        },
+        {
+          "id": "selfEmployment",
+          "title": "Vergunning voor zelfstandig ondernemerschap",
+          "description": "Voor ondernemers en zelfstandigen die een bedrijf opzetten",
+          "requirements": [
+            {"label": "Businessplan", "description": "Haalbaar businessplan dat winstgevendheid binnen twee jaar aantoont."},
+            {"label": "Voldoende middelen", "description": "Bewijs van middelen om het bedrijf en persoonlijke uitgaven in de beginfase te ondersteunen."},
+            {"label": "Bedrijfservaring", "description": "Gepubliceerd bewijs van ervaring in het runnen van een bedrijf of branche-specifieke expertise."}
+          ],
+          "waitingTime": "3-6 maanden",
+          "duration": "Aanvankelijk 2 jaar, met uitbreidingsmogelijkheden"
+        },
+        {
+          "id": "sportsAndCultural",
+          "title": "Vergunning voor sport- en cultuurwerkers",
+          "description": "Voor personen die werken in sport, kunst of cultuur",
+          "requirements": [
+            {"label": "Werk of sponsoring", "description": "Arbeidsaanbod van een Zweedse organisatie in sport of cultuur."},
+            {"label": "Salarisnormen", "description": "Lonen in overeenstemming met cao’s en Zweedse standaarden."}
+          ],
+          "waitingTime": "1-2 maanden",
+          "duration": "Duur van het contract met uitbreidingsopties"
+        },
+        {
+          "id": "researcher",
+          "title": "Onderzoekersvergunning",
+          "description": "Voor onderzoekers die posities aangeboden krijgen bij geaccrediteerde Zweedse instellingen",
+          "requirements": [
+            {"label": "Gastovereenkomst", "description": "Overeenkomst met onderzoeksinstelling met details over activiteiten, financiering en voorwaarden."},
+            {"label": "Projectfinanciering", "description": "Financiële ondersteuning voor de duur van het onderzoeksproject."}
+          ],
+          "waitingTime": "1-3 maanden",
+          "duration": "Duur van het onderzoeksproject met uitbreidingsopties"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Aanvraagproces en wachttijden",
+      "intro": "Het aanvraagproces en de wachttijden variëren afhankelijk van het type vergunning, de omstandigheden en de huidige werkdruk bij de Zweedse Migratiedienst.",
+      "waitingTimes": [
+        {"permit": "Standaard werkvergunning", "time": "1-4 maanden"},
+        {"permit": "EU Blue Card", "time": "3-4 maanden"},
+        {"permit": "Seizoensarbeidervergunning", "time": "1-3 maanden"},
+        {"permit": "Au Pair-vergunning", "time": "1-2 maanden"},
+        {"permit": "Working Holiday-visum", "time": "1-2 maanden"},
+        {"permit": "Vergunning voor zelfstandig ondernemerschap", "time": "3-6 maanden"},
+        {"permit": "Vergunning voor sport- en cultuurwerkers", "time": "1-2 maanden"},
+        {"permit": "Onderzoekersvergunning", "time": "1-3 maanden"}
+      ]
+    },
+    "generalRequirements": {
+      "heading": "Algemene vereisten voor alle werkvergunningen",
+      "description": "Ongeacht het type vergunning moeten alle aanvragers voldoen aan deze kernvereisten:",
+      "requirements": [
+        {"title": "Geldig paspoort", "description": "Moet geldig zijn voor de gehele periode van uw geplande verblijf."},
+        {"title": "Zorgverzekering", "description": "Sommige vergunningen (Working Holiday, Au Pair) vereisen zorgverzekering."},
+        {"title": "Schoon strafblad", "description": "Zware strafbare feiten kunnen leiden tot weigering van de vergunning."}
+      ]
+    },
+    "support": {
+      "heading": "Hoe Sweden Relocators u kan ondersteunen",
+      "description": "Sweden Relocators biedt volledige ondersteuning voor alle soorten werkvergunningen, zodat het proces soepel en efficiënt verloopt:",
+      "services": [
+        {"title": "Beoordeling van geschiktheid", "description": "Gebruik ons Werkvergunning Assessment Tool om de beste vergunning voor uw situatie te vinden."},
+        {"title": "Documentvoorbereiding", "description": "Wij helpen bij het samenstellen van arbeidscontracten, financiële overzichten en bewijs van zorgverzekering."},
+        {"title": "Aanvraag & tracking", "description": "Wij verzorgen de indiening en houden u op de hoogte van elke stap van het aanvraagproces."},
+        {"title": "Ondersteuning na vergunning", "description": "Hulp bij huisvesting, het openen van een bankrekening en registratie bij Zweedse autoriteiten."}
+      ]
+    },
+    "cta": {
+      "heading": "Begin vandaag nog met uw werkvergunning",
+      "description": "Neem contact op met Sweden Relocators om uw aanvraag voor een werkvergunning te starten en uw carrière in Zweden te beginnen.",
+      "button": "Begin nu",
+      "subtext": "Bezoek onze sectie Werkvergunningen of neem contact met ons op voor meer informatie."
+    }
+  }
+}

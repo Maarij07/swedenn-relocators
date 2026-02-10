@@ -1,0 +1,88 @@
+{
+  "companyRegistration": {
+    "hero": {
+      "title": "Guide Complet de l'Immatriculation des Entreprises en Suède",
+      "subtitle": "Orientation d'experts pour établir votre entreprise légalement en Suède"
+    },
+    "intro": {
+      "heading": "Créer une Entreprise en Suède",
+      "description": "La création d'une entreprise en Suède offre accès à l'une des économies les plus stables d'Europe, une culture commerciale de soutien et une main-d'œuvre hautement qualifiée. L'immatriculation des entreprises est une étape essentielle pour quiconque envisage d'exploiter une entreprise en Suède, car elle établit légalement l'entreprise et lui permet d'exercer des activités commerciales, de conclure des contrats et d'accéder à des services essentiels. Ce guide couvre les différents types d'entreprises en Suède, les avantages et inconvénients de chacun, et pourquoi et quand l'immatriculation est nécessaire."
+    },
+    "whyImportant": {
+      "heading": "Pourquoi l'Immatriculation des Entreprises est-elle Importante?",
+      "reasons": [
+        {
+          "number": 1,
+          "title": "Reconnaissance Juridique",
+          "description": "L'immatriculation de votre entreprise lui confère un statut juridique en Suède, lui permettant de conclure des contrats, d'ouvrir des comptes bancaires et d'exercer légalement des activités commerciales."
+        },
+        {
+          "number": 2,
+          "title": "Conformité Fiscale",
+          "description": "Les entreprises immatriculées peuvent demander l'immatriculation à la TVA et doivent se conformer aux réglementations fiscales suédoises, ce qui permet des opérations financières transparentes."
+        },
+        {
+          "number": 3,
+          "title": "Accès aux Avantages",
+          "description": "Les entreprises immatriculées peuvent bénéficier d'incitations gouvernementales, de déductions fiscales et d'un accès aux prêts et financement des institutions financières suédoises."
+        },
+        {
+          "number": 4,
+          "title": "Crédibilité et Confiance",
+          "description": "Les entreprises immatriculées sont plus fiables par les clients, fournisseurs et partenaires, car elles démontrent un engagement envers la conformité juridique et la transparence."
+        },
+        {
+          "number": 5,
+          "title": "Responsabilité Limitée",
+          "description": "Certains types d'entreprises, comme les sociétés anonymes, offrent une protection de responsabilité limitée, protégeant les actifs personnels du propriétaire des dettes et obligations commerciales."
+        }
+      ]
+    },
+    "companyTypes": {
+      "heading": "Types d'Entreprises en Suède",
+      "intro": "La Suède offre plusieurs types de structures commerciales, chacune avec des avantages, des inconvénients et des exigences spécifiques. La bonne structure dépend de vos objectifs commerciaux, de votre échelle et de votre tolérance au risque.",
+      "types": [
+        {
+          "number": 1,
+          "name": "Travailleur Indépendant (Enskild Firma)",
+          "description": "Une entreprise indépendante est possédée et gérée par un individu, ce qui en fait la forme commerciale la plus simple en Suède. Elle est idéale pour les travailleurs indépendants, les consultants et les petites entreprises nécessitant un capital minimal.",
+          "advantages": [
+            "Simple à établir et à maintenir.",
+            "Contrôle complet sur les décisions commerciales.",
+            "Exigences administratives et réglementaires réduites.",
+            "Les profits sont imposés comme revenus personnels, ce qui peut simplifier la déclaration fiscale."
+          ],
+          "disadvantages": [
+            "Responsabilité illimitée: Le propriétaire est personnellement responsable de toutes les dettes et obligations commerciales.",
+            "Accès limité au capital: Souvent limité aux fonds personnels ou aux petits prêts.",
+            "Peut manquer de crédibilité pour les grands clients ou investisseurs par rapport aux entités constituées."
+          ],
+          "when": "Idéal pour les personnes démarrant une petite entreprise ou travaillant comme travailleurs indépendants. L'immatriculation est généralement recommandée si vous avez l'intention de commercer sous un nom commercial ou avez besoin d'un numéro de TVA."
+        },
+        {
+          "number": 2,
+          "name": "Société Anonyme (Aktiebolag ou AB)",
+          "description": "Une société anonyme (AB) est une entité juridique distincte de ses actionnaires et offre une protection de responsabilité limitée. C'est la structure la plus populaire pour les startups, les petites entreprises et les grandes sociétés.",
+          "advantages": [
+            "Responsabilité limitée: Les actionnaires ne sont personnellement responsables des dettes commerciales que jusqu'à leur investissement.",
+            "Plus facile d'attirer les investisseurs: Crédibilité et potentiel d'émission d'actions.",
+            "Flexibilité dans la croissance: Approprié pour les entreprises plans d'expansion ou de financement externe.",
+            "Avantages fiscaux: Les bénéfices des sociétés sont imposés à un taux d'imposition pour les sociétés, ce qui peut être plus favorable pour les plus grands bénéfices."
+          ],
+          "disadvantages": [
+            "Exigence de capital initial plus élevée: Capital social minimum de 25 000 SEK.",
+            "Administration plus complexe: Nécessite des rapports annuels, des réunions du conseil d'administration et le respect des règlements sociétaires.",
+            "Obligations des actionnaires: Les actionnaires ont des responsabilités spécifiques, telles que la participation aux assemblées générales et l'approbation des états financiers."
+          ],
+          "when": "L'immatriculation d'une société anonyme est idéale pour rechercher des investissements externes, minimiser les risques personnels ou prévoir une croissance commerciale significative. C'est aussi une structure appropriée si vous avez besoin de protéger vos actifs personnels."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Commencez votre Immatriculation Aujourd'hui",
+      "description": "Si vous êtes prêt à établir votre entreprise en Suède, contactez Sweden Relocators dès aujourd'hui pour l'assistance d'experts. Nous vous guiderons à chaque étape du processus d'immatriculation, assurant un démarrage en douceur pour votre entreprise sur le marché florissant de la Suède.",
+      "button": "Commencer",
+      "subtext": "Visitez notre section d'Immatriculation des Entreprises ou contactez-nous pour plus d'informations. Notre équipe est prête à vous aider à établir votre entreprise en Suède."
+    }
+  }
+}

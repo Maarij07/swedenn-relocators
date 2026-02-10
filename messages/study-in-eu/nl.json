@@ -1,0 +1,409 @@
+{
+  "studyInEu": {
+    "hero": {
+      "title": "Studeren in Zweden en de EU",
+      "subtitle": "Verwezenlijk je academische dromen aan de beste universiteiten van Europa met deskundige begeleiding van Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Je deur naar Europees onderwijs",
+      "description": "Zweden en de Europese Unie bieden wereldklasse onderwijs met betaalbare collegegelden, programma's in het Engels en uitstekende perspectieven na je studie. Of je nu droomt van techniek studeren in Zweden, bedrijfskunde in Denemarken of geneeskunde in Duitsland, wij begeleiden je bij elke stap van het toelating- en visumproces."
+    },
+    "countries": [
+      {
+        "id": "sweden",
+        "name": "Studeren in Zweden",
+        "intro": "Zweden is een van de populairste bestemmingen in Europa voor internationale studenten. Met wereldwijd geclassificeerde universiteiten, innovatieve onderwijsmethoden en een sterke reputatie op het gebied van onderzoek, biedt het zowel onderwijs van hoog niveau als een uitstekende levensstijl.",
+        "tuitionFees": {
+          "heading": "Gemiddelde jaarlijkse collegegeld",
+          "fees": [
+            {
+              "category": "EU/EER- en Zwitserse studenten",
+              "amount": "Gratis aan openbare universiteiten"
+            },
+            {
+              "category": "Niet-EU/EER-studenten",
+              "amount": "SEK 80.000 – 295.000 (€7.500 – €25.500) afhankelijk van programma en universiteit"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Opnamemomenten",
+          "intakes": [
+            {
+              "period": "Herfstopname",
+              "details": "Oktober – januari (studies beginnen augustus/september)"
+            },
+            {
+              "period": "Lenteintake",
+              "details": "Juni – augustus (studies beginnen januari)"
+            }
+          ]
+        },
+        "popularFields": "Techniek, IT, Bedrijfskunde, Biowetenschappen, Milieuonderzoek",
+        "visaRequirements": {
+          "heading": "Vereisten voor visum en verblijf",
+          "requirements": [
+            "EU/EER: Geen visum vereist",
+            "Niet-EU/EER: Verblijfsvergunning vereist voor studies van meer dan drie maanden",
+            "Financiële bewijzen: ongeveer SEK 10.300 per maand voor levensonderhoud",
+            "Ziekteverzekering vereist voor verblijven korter dan een jaar"
+          ]
+        },
+        "workRights": "Studenten kunnen zonder beperking uren werken tijdens hun studie, en na afstuderen kunnen zij een verblijfsvergunning van één jaar aanvragen om naar werk te zoeken of een bedrijf op te starten."
+      },
+      {
+        "id": "denmark",
+        "name": "Studeren in Denemarken",
+        "intro": "Denemarken combineert academische excellentie met een zakelijk vriendelijke omgeving. Meer dan 500 programma's in het Engels worden aangeboden aan de meeste universiteiten en hogescholen.",
+        "tuitionFees": {
+          "heading": "Gemiddelde jaarlijkse collegegeld",
+          "fees": [
+            {
+              "category": "EU/EER-studenten",
+              "amount": "Gratis aan openbare instellingen"
+            },
+            {
+              "category": "Niet-EU/EER-studenten",
+              "amount": "€7.000 – €17.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Opnamemomenten",
+          "intakes": [
+            {
+              "period": "Herfstopname",
+              "details": "Aansluitingsdatum maart (studies beginnen augustus/september)"
+            },
+            {
+              "period": "Lenteintake",
+              "details": "Aansluitingsdatum september (studies beginnen januari/februari, beperkte cursussen)"
+            }
+          ]
+        },
+        "popularFields": "Ontwerp, Architectuur, Bedrijfskunde, Techniek, IT, Biowetenschappen",
+        "visaRequirements": {
+          "heading": "Vereisten voor visum en verblijf",
+          "requirements": [
+            "Financiële bewijzen: ongeveer €1.000 per maand voor levensonderhoud",
+            "Ziekteverzekering moet voor aankomst geregeld zijn"
+          ]
+        },
+        "workRights": "Studenten kunnen tot 20 uur per week werken tijdens de semesters en fulltime tijdens vakantie."
+      },
+      {
+        "id": "germany",
+        "name": "Studeren in Duitsland",
+        "intro": "Duitsland is een van de meest betaalbare en aantrekkelijkste studiebestemmingen in Europa, met bijna 400.000 internationale studenten.",
+        "tuitionFees": {
+          "heading": "Gemiddelde jaarlijkse collegegeld",
+          "fees": [
+            {
+              "category": "Openbare universiteiten",
+              "amount": "Gratis of €0 – €3.000 (alleen administratieve vergoedingen)"
+            },
+            {
+              "category": "Particuliere universiteiten",
+              "amount": "€6.000 – €12.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Opnamemomenten",
+          "intakes": [
+            {
+              "period": "Wintersemester",
+              "details": "Aanvraag mei – juli (begint september/oktober)"
+            },
+            {
+              "period": "Zomersemester",
+              "details": "Aanvraag november – januari (begint maart/april)"
+            }
+          ]
+        },
+        "popularFields": "Techniek, Bedrijfskunde, Informatica, Geneeskunde, Natuurwetenschappen",
+        "visaRequirements": {
+          "heading": "Vereisten voor visum en verblijf",
+          "requirements": [
+            "Financiële bewijzen: ongeveer €11.000 per jaar op een geblokkeerde rekening",
+            "Verplichte ziekteverzekering vereist"
+          ]
+        },
+        "workRights": "20 uur per week tijdens het semester, fulltime tijdens vakantie."
+      },
+      {
+        "id": "uk",
+        "name": "Studeren in het Verenigd Koninkrijk",
+        "intro": "Het Verenigd Koninkrijk herbergt enkele van 's werelds beste universiteiten en een internationaal erkend graadssysteem.",
+        "tuitionFees": {
+          "heading": "Gemiddelde jaarlijkse collegegeld",
+          "fees": [
+            {
+              "category": "EU/EER-studenten",
+              "amount": "€10.000 – €13.000"
+            },
+            {
+              "category": "Niet-EU-studenten",
+              "amount": "€12.000 – €25.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Opnamemomenten",
+          "intakes": [
+            {
+              "period": "September/oktober",
+              "details": "Hoofdopname"
+            },
+            {
+              "period": "Januari/februari",
+              "details": "Secundaire opname, beperkte programma's"
+            },
+            {
+              "period": "Mei",
+              "details": "Zomeropname in geselecteerde universiteiten"
+            }
+          ]
+        },
+        "popularFields": "Rechten, Bedrijfskunde, Techniek, Geneeskunde, Sociale Wetenschappen",
+        "visaRequirements": {
+          "heading": "Vereisten voor visum en verblijf",
+          "requirements": [
+            "Studentenvisum vereist voor niet-EU/EER",
+            "Betaalde collegegelden plus €1.200 per maand (Londen) of minder elders"
+          ]
+        },
+        "workRights": "20 uur per week tijdens het semester, fulltime tijdens vakantie."
+      },
+      {
+        "id": "latvia",
+        "name": "Studeren in Letland",
+        "intro": "Letland biedt betaalbaar onderwijs en rustige levensomstandigheden.",
+        "tuitionFees": {
+          "heading": "Gemiddelde jaarlijkse collegegeld",
+          "fees": [
+            {
+              "category": "Algemeen",
+              "amount": "€3.000 – €6.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Opnamemomenten",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hoofdopname"
+            },
+            {
+              "period": "Februari",
+              "details": "Secundaire opname"
+            }
+          ]
+        },
+        "popularFields": "Geneeskunde, Bedrijfskunde, IT, Techniek",
+        "visaRequirements": {
+          "heading": "Vereisten voor visum en verblijf",
+          "requirements": [
+            "Studentenvisum en bewijzen van levensonderhoud vereist",
+            "Ziekteverzekering is verplicht"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "lithuania",
+        "name": "Studeren in Litouwen",
+        "intro": "Litouwen biedt sterke academische tradities en meer dan 350 programma's in het Engels.",
+        "tuitionFees": {
+          "heading": "Gemiddelde jaarlijkse collegegeld",
+          "fees": [
+            {
+              "category": "Algemeen",
+              "amount": "€3.000 – €7.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Opnamemomenten",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hoofdopname"
+            },
+            {
+              "period": "Februari",
+              "details": "Secundaire opname"
+            }
+          ]
+        },
+        "popularFields": "Bedrijfskunde, Geneeskunde, Techniek, Economie",
+        "visaRequirements": {
+          "heading": "Vereisten voor visum en verblijf",
+          "requirements": [
+            "Verblijfsvergunning vereist voor niet-EU-studenten",
+            "Financiële bewijzen en verzekeringen vereist"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "czechRepublic",
+        "name": "Studeren in de Tsjechische Republiek",
+        "intro": "De Tsjechische Republiek is een groeiende bestemming voor internationale studenten in Centraal-Europa.",
+        "tuitionFees": {
+          "heading": "Gemiddelde jaarlijkse collegegeld",
+          "fees": [
+            {
+              "category": "Openbare universiteiten",
+              "amount": "€2.000 – €5.000"
+            },
+            {
+              "category": "Particuliere universiteiten",
+              "amount": "€5.000 – €10.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Opnamemomenten",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hoofdopname"
+            },
+            {
+              "period": "Februari",
+              "details": "Beperkte programma's"
+            }
+          ]
+        },
+        "popularFields": "Geneeskunde, Bedrijfskunde, Techniek, Kunst",
+        "visaRequirements": {
+          "heading": "Vereisten voor visum en verblijf",
+          "requirements": [
+            "Studentenvisum vereist voor niet-EU-studenten",
+            "Financieel bewijs en huisvesting moeten worden aangetoond"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "norway",
+        "name": "Studeren in Noorwegen",
+        "intro": "Noorwegen staat bekend om gratis onderwijs aan openbare universiteiten.",
+        "tuitionFees": {
+          "heading": "Gemiddelde jaarlijkse collegegeld",
+          "fees": [
+            {
+              "category": "Openbare universiteiten",
+              "amount": "Gratis (alleen €50–€100 administratieve vergoedingen)"
+            },
+            {
+              "category": "Particuliere universiteiten",
+              "amount": "€5.000 – €10.000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Opnamemomenten",
+          "intakes": [
+            {
+              "period": "Herfst",
+              "details": "Begint augustus/september, hoofdopname"
+            },
+            {
+              "period": "Lente",
+              "details": "Beperkt tot geselecteerde programma's"
+            }
+          ]
+        },
+        "popularFields": "Energie, Mariene Wetenschappen, Techniek, IT, Natuurwetenschappen",
+        "visaRequirements": {
+          "heading": "Vereisten voor visum en verblijf",
+          "requirements": [
+            "Bewijs van ongeveer €12.000 per jaar voor levensonderhoud vereist",
+            "Ziekteverzekering is verplicht"
+          ]
+        },
+        "workRights": "20 uur per week tijdens het semester, fulltime tijdens vakantie."
+      },
+      {
+        "id": "finland",
+        "name": "Studeren in Finland",
+        "intro": "Finland biedt modern onderwijs met sterke nadruk op onderzoek en innovatie.",
+        "tuitionFees": {
+          "heading": "Gemiddelde jaarlijkse collegegeld",
+          "fees": [
+            {
+              "category": "EU/EER-studenten",
+              "amount": "Gratis aan openbare universiteiten"
+            },
+            {
+              "category": "Niet-EU-studenten",
+              "amount": "€8.000 – €20.000 afhankelijk van programma en universiteit"
+            },
+            {
+              "category": "Doctoraalprogramma's",
+              "amount": "Gratis voor alle studenten"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Opnamemomenten",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Hoofdopname — aanvraag november – januari"
+            },
+            {
+              "period": "Januari",
+              "details": "Secundaire opname, beperkte programma's — aanvraag september"
+            }
+          ]
+        },
+        "popularFields": "IT, Techniek, Ontwerp, Bedrijfskunde, Onderwijs",
+        "visaRequirements": {
+          "heading": "Vereisten voor visum en verblijf",
+          "requirements": [
+            "Verblijfsvergunning vereist voor niet-EU-studenten",
+            "Financiële bewijzen: minimaal €800 per maand (€9.600 per jaar)",
+            "Ziekteverzekering vereist"
+          ]
+        },
+        "workRights": "Studenten kunnen 20–25 uur per week werken tijdens iemestres en fulltime tijdens vakantie. Na afstuderen is werkvergunning beschikbaar voor afgestudeerden."
+      }
+    ],
+    "whyChoose": {
+      "heading": "Waarom kiezen voor Sweden Relocators AB",
+      "services": [
+        {
+          "title": "Uitgebreide toelatingsadvisering",
+          "description": "Uitgebreide toelatingsadvisering voor Bachelor-, Master- en Doctoraalprogramma's in Zweden en de EU"
+        },
+        {
+          "title": "Documentaire diensten",
+          "description": "Legalisering van documenten, vertaling en voorbereiding voor universiteiten en immigratieautoriteiten"
+        },
+        {
+          "title": "Visum- en verblijfssteun",
+          "description": "Visum- en verblijfsvergunningsaanvragen worden nauwkeurig afgehandeld"
+        },
+        {
+          "title": "Financiële ondersteuning",
+          "description": "Beurs- en financieringsadvies op maat voor elk land"
+        },
+        {
+          "title": "Ondersteuning na afstuderen",
+          "description": "Voortdurende steun voor verlenging van verblijfsvergunning en werkgelegenheid na afstuderen"
+        }
+      ],
+      "description": "Bij Sweden Relocators AB maken wij studeren in Zweden en Europa eenvoudig, transparant en stressloos. Van je eerste aanvraag tot je afstudering en daarna, begeleiden wij je bij elk stap."
+    },
+    "cta": {
+      "heading": "Begin vandaag nog met je Europese studiereizen",
+      "description": "Neem contact op met Sweden Relocators voor deskundig advies over je aanvraag en visumproces.",
+      "button": "Aan de slag",
+      "subtext": "Onderwijsregels variëren per land. Raadpleeg altijd officiële universiteit- en immigratiewebsites voor de meest actuele informatie."
+    }
+  }
+}

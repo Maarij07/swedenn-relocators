@@ -1,0 +1,196 @@
+{
+  "euCitizensRelocation": {
+    "hero": {
+      "title": "Perheenyhdistäminen EU-kansalaisille Ruotsissa",
+      "subtitle": "Täysi tuki EU-kansalaisille ja heidän perheilleen"
+    },
+    "intro": {
+      "heading": "Tuokaa perheenne EU:sta Ruotsiin",
+      "description": "Kun muutatte Ruotsiin EU-kansalaisena, teillä on laillinen oikeus perheenyhdistämiseen. Tämä mahdollistaa perheenjäsenten muuttamisen kanssanne ja nauttimisen Ruotsin korkeasta elämänlaadusta, mukaan lukien terveydenhuolto, koulutus ja sosiaalietuudet. Sweden Relocators tarjoaa ammattimaista apua EU-kansalaisten perheenyhdistämisessä, mukaan lukien kelpoisuuden arviointi, asiakirjojen valmistelu, oleskelukortit, henkilötunnuksen (personnummer) rekisteröinti, asunnon etsiminen ja kotouttaminen."
+      ,
+      "infoBox": "EU-kansalaisten perheenyhdistäminen Ruotsissa perustuu direktiiviin 2004/38/EC, joka antaa Ruotsissa asuville EU-kansalaisille oikeuden tuoda perheenjäsenensä ja saada terveydenhuoltoa, koulutusta ja sosiaalietuuksia samalla tavalla kuin muut asukkaat."
+    },
+    "whatIs": {
+      "heading": "Mikä on EU-kansalaisten perheenyhdistäminen?",
+      "description": "EU-kansalaisten perheenyhdistäminen Ruotsissa perustuu direktiiviin 2004/38/EC, joka käsittelee EU-kansalaisten ja heidän perheenjäsentensä oikeutta liikkua ja asua vapaasti Euroopan unionin alueella. Tämä mahdollistaa suoraan ja laajennetusti perheenjäsenten tuomisen Ruotsiin, kun tietyt vaatimukset täyttyvät."
+    },
+    "immediateFamilyHeading": "Oikeutetut suorat perheenjäsenet",
+    "immediateFamily": [
+      {
+        "type": "Vaimo tai rekisteröity kumppani",
+        "description": "Sisältää samaa tai eri sukupuolta olevat avioliitot sekä Ruotsin lain tunnustamat rekisteröidyt parisuhteet."
+      },
+      {
+        "type": "Naimaton kumppani (avoliitto)",
+        "description": "Edellyttäen, että suhde on pitkäaikainen ja Ruotsissa tunnustetaan avioliiton veroiseksi."
+      },
+      {
+        "type": "Alle 21-vuotiaat lapset",
+        "description": "EU-kansalaisen tai hänen puolisonsa/adoptiovanhempansa biologiset tai adoptoidut lapset."
+      },
+      {
+        "type": "Yli 21-vuotiaat riippuvaiset lapset",
+        "description": "Edellyttäen, että he ovat taloudellisesti riippuvaisia EU-kansalaisesta."
+      },
+      {
+        "type": "Riippuvaiset vanhemmat ja isovanhemmat",
+        "description": "Ylös suuntautuvat sukulaiset, jotka ovat taloudellisesti riippuvaisia."
+      }
+    ],
+    "extendedFamily": {
+      "heading": "Laajennetut perheenjäsenet ja riippuvuus",
+      "description": "Joissakin tapauksissa myös laajennetut perheenjäsenet voivat olla oikeutettuja, jos todellinen riippuvuus voidaan osoittaa. Tämä voi sisältää aikuisia sisaruksia, aikuisia lapsia, jotka asuvat samassa taloudessa, tai muita läheisiä sukulaisia vahvan riippuvuussuhteen perusteella. Laajennettujen perheenjäsenten perheenyhdistäminen on tiukempaa ja vaatii selkeää dokumentaatiota riippuvuudesta."
+    },
+    "longTermPermitHeading": "EU:n pitkäaikaisten oleskelulupien haltijat",
+    "longTermPermitRequirements": [
+      "Omistaa voimassa olevan pitkäaikaisen oleskeluluvan, joka on myönnetty toisessa EU-maassa",
+      "Omistaa riittävät taloudelliset resurssit ja asianmukainen asunto Ruotsissa",
+      "Jättää Ruotsissa oleskelulupahakemus yhdessä suoran perheen kanssa"
+    ],
+    "residenceCard": {
+      "heading": "Oleskelukortti perheenjäsenille",
+      "intro": "Perheenjäsenet, jotka aikovat oleskella Ruotsissa yli kolme kuukautta, tarvitsevat oleskelukortin Ruotsin maahanmuuttovirastolta (Migrationsverket).",
+      "documentsLabel": "Tarvittavat asiakirjat:",
+      "documents": [
+        "Voimassa oleva passi",
+        "Todiste perhesuhteesta (avioliittotodistus, rekisteröity parisuhde tai syntymätodistus)",
+        "Todiste taloudellisesta riippuvuudesta (vanhemmat, isovanhemmat tai yli 21-vuotiaat lapset)",
+        "Todiste EU-kansalaisen asumisesta Ruotsissa (vuokrasopimus, omistusasunto tai työsopimus)",
+        "Todiste riittävistä taloudellisista resursseista elämiseen ja perheen ylläpitoon"
+      ],
+      "note": "Oleskelukortit ovat yleensä voimassa viisi vuotta tai sen ajan, jonka EU-kansalainen oleskelee Ruotsissa."
+    },
+    "personnummer": {
+      "heading": "Henkilötunnus (Personnummer)",
+      "intro": "Oleskelukortin saamisen jälkeen perheenjäsenet rekisteröidään Ruotsin verovirastossa (Skatteverket) saadakseen henkilötunnuksen. Tätä tarvitaan:",
+      "uses": [
+        "Terveydenhuollon käyttö",
+        "Lasten ilmoittaminen kouluun",
+        "Pankkitilin avaaminen",
+        "Sopimusten tekeminen (asunto, matkapuhelin, sähkö ja muut palvelut)"
+      ]
+    },
+    "healthcare": {
+      "heading": "Terveydenhuolto ja sairausvakuutus",
+      "description": "Henkilötunnuksen saamisen jälkeen perheenjäsenillä on pääsy Ruotsin julkiseen terveydenhuoltojärjestelmään. Sitä ennen tarvitaan yksityinen sairausvakuutus. EU:n ulkopuolisille perheenjäsenille suositellaan kattavaa vakuutusta, jonka vähimmäiskatto on 30 000 euroa."
+    },
+    "education": {
+      "heading": "Koulutus ja lastenhoito",
+      "programs": [
+        {
+          "name": "Pakollinen koulutus",
+          "description": "Ilmainen koulutus 6–16-vuotiaille lapsille, mukaan lukien kouluruokailu"
+        },
+        {
+          "name": "Esikoulu (Förskola)",
+          "description": "Saatavilla 1–5-vuotiaille lapsille, valtion tukemilla maksuilla"
+        },
+        {
+          "name": "Kansainväliset koulut",
+          "description": "Vaihtoehtoja perheille, jotka haluavat opetusta englanniksi tai muilla kielillä"
+        }
+      ]
+    },
+    "bankAccounts": {
+      "heading": "Pankkitilit ja taloudellinen integroituminen",
+      "intro": "Henkilötunnuksen saamisen jälkeen perheenjäsenet voivat avata ruotsalaisen pankkitilin. Tavallisesti tarvitaan seuraavat asiakirjat:",
+      "documents": [
+        "Skatteverketin myöntämä henkilötodistus",
+        "Oleskelukortti",
+        "Todistus osoitteesta",
+        "Todistus tuloista (jos sovellettavissa)"
+      ],
+      "note": "Pankkitili mahdollistaa digitaalisen maksamisen, verkkopankin ja Swish-mobiilimaksut."
+    },
+    "language": {
+      "heading": "Kielituki ja kotoutuminen",
+      "description": "Ruotsin kielen oppiminen on tärkeää onnistuneelle kotoutumiselle. Rekisteröinnin ja henkilötunnuksen saamisen jälkeen perheenjäsenet voivat osallistua SFI-kursseille (Ruotsia maahanmuuttajille). Nämä valtion rahoittamat kurssit parantavat arkipäivän viestintätaitoja ja työmahdollisuuksia. Sweden Relocators tarjoaa myös kulttuuriohjausta sujuvan sopeutumisen tukemiseksi."
+    },
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Kelpoisuuden arviointi",
+        "description": "Sweden Relocators tarkistaa, täyttävätkö perheenjäsenet EU:n vaatimukset."
+      },
+      {
+        "step": "2",
+        "title": "Asiakirjojen valmistelu",
+        "description": "Tarvittavien asiakirjojen kerääminen ja kääntäminen."
+      },
+      {
+        "step": "3",
+        "title": "Hakemus Migrationsverketille",
+        "description": "Oleskelukorttihakemusten jättäminen."
+      },
+      {
+        "step": "4",
+        "title": "Seuranta ja yhteydenpito",
+        "description": "Maahanmuuttoviranomaisten kyselyiden ja pyyntöjen hallinta."
+      },
+      {
+        "step": "5",
+        "title": "Rekisteröinti Skatteverketissä",
+        "description": "Tuki henkilötunnuksen, henkilökortin ja verorekisteröinnin saamiseksi."
+      },
+      {
+        "step": "6",
+        "title": "Kotoutumispalvelut",
+        "description": "Tuki asunnon, koulujen, terveydenhuollon ja kielikoulutuksen järjestämisessä."
+      }
+    ],
+    "services": {
+      "heading": "Miten Sweden Relocators tukee perheitä",
+      "description": "Kattavat palvelumme ja digitaalinen alustamme varmistavat, että perheenyhdistäminen sujuu ilman ongelmia, lainmukaisesti ja stressittömästi.",
+      "servicesList": [
+        {
+          "title": "Kelpoisuuden arviointi ja oikeudellinen neuvonta",
+          "description": "Varmistamme, että perheenjäsenenne täyttävät EU:n lainsäädännön vaatimukset."
+        },
+        {
+          "title": "Asiakirjojen valmistelu ja viralliset käännökset",
+          "description": "Kaikki asiakirjat valmistellaan ja käännetään virallisesti Ruotsin viranomaisille."
+        },
+        {
+          "title": "Hakemusten jättäminen ja seuranta",
+          "description": "Jätämme hakemukset ja seuraamme niiden käsittelyä Migrationsverketissä."
+        },
+        {
+          "title": "Tuki valituksen tapauksessa",
+          "description": "Jos hakemus hylätään, tarjoamme täyden tuen valitusprosessin ajan."
+        },
+        {
+          "title": "Asunnon ja koulujen etsintä",
+          "description": "Autamme asunnon löytämisessä ja lasten koulupaikkojen järjestämisessä."
+        },
+        {
+          "title": "Vakuutus- ja terveysohjaus",
+          "description": "Opastus vakuutusvaatimuksissa ja pääsyssä Ruotsin terveydenhuoltoon."
+        }
+      ]
+    },
+    "whySweden": [
+      {
+        "title": "Vahva hyvinvointivaltio",
+        "description": "Pääsy kattavaan terveydenhuoltoon, laadukkaaseen koulutukseen ja sosiaalietuuksiin."
+      },
+      {
+        "title": "Ilmainen koulutus ja terveys",
+        "description": "Maailmanluokan koulutus- ja terveyspalvelut kaikille asukkaille."
+      },
+      {
+        "title": "Turvallinen ja perheystävällinen",
+        "description": "Ruotsi tarjoaa turvallisen, osallistavan ja perheystävällisen ympäristön."
+      },
+      {
+        "title": "Vakaat oleskeluoikeudet",
+        "description": "Laillinen suoja EU:n lainsäädännön ja Ruotsin maahanmuuttosäädösten mukaan."
+      }
+    ],
+    "cta": {
+      "heading": "Valmiina aloittamaan perheenyhdistäminen?",
+      "description": "Sweden Relocators varmistaa, että muuttonne sujuu sujuvasti, oikein ja ilman stressiä. Ota meihin yhteyttä jo tänään aloittaaksesi perheenyhdistämisen prosessin. Digitaalinen alustamme mahdollistaa profiilien hallinnan, asiakirjojen lataamisen ja edistymisen seuraamisen reaaliajassa.",
+      "button": "Aloita EU-perheenyhdistäminen",
+      "subtext": "Asiantuntijatiimimme ohjaa perhettänne kaikissa EU-kansalaisten perheenyhdistämisen vaiheissa Ruotsissa."
+    }
+  }
+}

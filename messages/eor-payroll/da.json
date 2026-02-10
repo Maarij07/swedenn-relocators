@@ -1,0 +1,250 @@
+{
+  "eorPayroll": {
+    "hero": {
+      "title": "Employer of Record (EOR) & Lønningstjenester i Sverige",
+      "subtitle": "Udvid din virksomhed til Sverige uden at oprette en lokal enhed"
+    },
+    "intro": {
+      "heading": "Strømlinet EOR & Lønning til international vækst",
+      "description": "At udvide din virksomhed til Sverige eller administrere internationale medarbejdere behøver ikke være kompliceret. Hos Sweden Relocators tilbyder vi en komplet Employer of Record (EOR) og lønningsløsning gennem vores onlineportal og mobilapp, som hjælper virksomheder med at hyre og administrere personale i Sverige uden at oprette en lokal juridisk enhed. Vores tjenester kombinerer overholdelse, lønning og medarbejderstøtte i ét strømlinet system.",
+      "infoBox": "Uanset om du er en startup, der tester det svenske marked, et multinationalt selskab, der hyrer fjernarbejdere, eller en virksomhed, der omplacerer medarbejdere, sikrer vores EOR & lønningstjenester juridisk overholdelse, nøjagtig lønning og medarbejdertilfredshed."
+    },
+    "whatIsEOR": {
+      "heading": "Hvad er Employer of Record (EOR)?",
+      "description": "En Employer of Record (EOR) er en betroet tredjepart, der bliver den juridiske arbejdsgiver for din arbejdskraft i Sverige. Mens du styrer det daglige arbejde, håndterer vi de juridiske, administrative og overholdelsesaspekter af ansættelsen. Dette inkluderer at udkaste ansættelseskontrakter i overensstemmelse med svensk arbejdsret, registrere medarbejdere hos Skatteverket (den svenske skatteforvaltning), håndtere lønninger, skatteopkrævninger og sociale bidrag, håndtere ydelser, pensioner og forsikringer samt sikre overholdelse af svenske ansættelsesstandarder og EU-reguleringer. For virksomheder betyder dette, at du hurtigt kan udvide til Sverige uden at oprette et datterselskab eller bruge måneder på regulativ opsætning."
+    },
+    "whyCompaniesUse": {
+      "heading": "Hvorfor virksomheder bruger EOR-tjenester i Sverige",
+      "intro": "Sverige er en af Europas stærkeste økonomier, kendt for sine innovationsdrevne markeder, højt kvalificerede arbejdskraft og stærke juridiske beskyttelser for medarbejdere. Men for udenlandske virksomheder kan ansættelse af personale i Sverige være udfordrende af følgende årsager:",
+      "challenges": [
+        {
+          "title": "Komplekse ansættelseslove",
+          "description": "Sverige håndhæver stærke arbejderrettigheder i henhold til lov om ansættelsesbeskyttelse (LAS)."
+        },
+        {
+          "title": "Strenge skatteoverholdelse",
+          "description": "Arbejdsgivere skal registrere hos Skatteverket og håndtere PAYE-skattefradrag, pensioner og arbejdsgiverbidrag."
+        },
+        {
+          "title": "Tidskrævende opsætning",
+          "description": "At etablere en lokal enhed (AB) kan tage måneder og forsinke forretningsudvidelse."
+        },
+        {
+          "title": "Høje overholdelsesrisici",
+          "description": "Fejl i løn, skat eller ydelsesadministration kan resultere i bøder eller tvister."
+        }
+      ],
+      "conclusion": "Vores EOR-tjeneste løser disse udfordringer ved at fungere som din juridiske arbejdsgiver, så du kan fokusere på vækst, mens vi håndterer overholdelse."
+    },
+    "howItWorks": {
+      "heading": "Hvordan Sweden Relocators EOR-tjeneste fungerer",
+      "description": "Vi tilbyder en trin-for-trin digital proces til at hyre og administrere medarbejdere i Sverige:",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Virksomhedsregistrering",
+          "description": "Registrer som arbejdsgiver på vores portal."
+        },
+        {
+          "step": 2,
+          "title": "Medarbejderonboarding",
+          "description": "Tilføj medarbejderoplysninger (kontrakter, lønninger, ydelser) gennem vores digitale platform."
+        },
+        {
+          "step": 3,
+          "title": "Juridisk overholdelse",
+          "description": "Vi udsteder ansættelseskontrakter, der følger svensk og EU-lovgivning."
+        },
+        {
+          "step": 4,
+          "title": "Lønbehandling",
+          "description": "Vores system beregner nettolønninger, skattefradrag og sociale bidrag."
+        },
+        {
+          "step": 5,
+          "title": "Løbende support",
+          "description": "Vi håndterer ydelser, pensioner og HR-overholdelse gennem hele ansættelsen."
+        },
+        {
+          "step": 6,
+          "title": "Offboarding",
+          "description": "Hvis kontrakter ophører, håndterer vi opsigelsestider, fratrædelsesgodtgørelse og ophør i overensstemmelse med loven."
+        }
+      ]
+    },
+    "payrollProcess": {
+      "heading": "Lønningstjenester i Sverige - Fuld proces",
+      "intro": "Lønning i Sverige er højt reguleret, og nøjagtighed er afgørende. Vores lønningstjenester er fuldt integreret med vores EOR-system for at sikre glatte, overholdelsesmæssige betalinger.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Medarbejderopsætning",
+          "description": "Indtast medarbejderoplysninger i portalen: løn, ydelser, pension og fradrag. Registrer hos Skatteverket for PAYE-skatter og sociale bidrag."
+        },
+        {
+          "step": 2,
+          "title": "Månedlig lønbehandling",
+          "description": "Automatiserede lønberegninger inklusive skatter, pensioner og forsikringer. Arbejdsgiverbidrag (arbetsgivaravgifter) beregnes og rapporteres. Overholdelse af overenskomster (hvis relevant)."
+        },
+        {
+          "step": 3,
+          "title": "Lønudbetalinger",
+          "description": "Direkte bankindskud på medarbejderkonti. Medarbejdere får adgang til digitale lønsedler med fuld opdeling af indtægter og fradrag."
+        },
+        {
+          "step": 4,
+          "title": "Skatteoverholdelse",
+          "description": "Månedlige skatteindberetninger til Skatteverket. Årlig rapportering af indkomstopgørelser for medarbejdere. Sikre registreringer opbevaret i portalen til både arbejdsgiver og medarbejderadgang."
+        },
+        {
+          "step": 5,
+          "title": "Ydelsesadministration",
+          "description": "Opsætning af pensioner, sundhedsforsikring og barselsydelse i overensstemmelse med svenske standarder. Automatisk administration gennem lønsystemet."
+        }
+      ]
+    },
+    "complianceAndLegal": {
+      "heading": "Overholdelse og juridiske referencer",
+      "intro": "Vores EOR & lønningstjenester opererer strengt inden for svenske og EU-reguleringer:",
+      "references": [
+        {
+          "title": "Lov om ansættelsesbeskyttelse (LAS)",
+          "description": "Styrer ansættelsessikkerhed og ophørsregler."
+        },
+        {
+          "title": "Skatteverket",
+          "description": "Overvåger PAYE, arbejdsgiverbidrag og indberetninger."
+        },
+        {
+          "title": "Socialforsikringskoden",
+          "description": "Regulerer pensioner, barsel og medarbejderbeskyttelse."
+        },
+        {
+          "title": "GDPR-overholdelse",
+          "description": "Sikrer beskyttelse af medarbejderdata."
+        },
+        {
+          "title": "EU-direktiver",
+          "description": "Inklusive fri bevægelighedsregler og arbejderrettigheder i henhold til EU-lovgivning."
+        }
+      ],
+      "conclusion": "Ved at bruge Sweden Relocators undgår dit selskab overholdelsesrisici og sikrer, at alle ansættelsesforpligtelser opfyldes."
+    },
+    "benefitsForCompanies": {
+      "heading": "Fordele for virksomheder",
+      "benefits": [
+        {
+          "title": "Udvid hurtigt",
+          "description": "Hyre personale i Sverige uden at oprette datterselskab."
+        },
+        {
+          "title": "Spar tid & omkostninger",
+          "description": "Undgå juridisk opsætning, regnskab og HR-administration."
+        },
+        {
+          "title": "Overhold lovgivning",
+          "description": "Al ansættelse, skat og løn håndteres inden for svensk lovgivning."
+        },
+        {
+          "title": "Skalér nemt",
+          "description": "Tilføj eller fjern medarbejdere hurtigt baseret på forretningsbehov."
+        },
+        {
+          "title": "En digital platform",
+          "description": "Administrer alt gennem vores portal og app."
+        }
+      ]
+    },
+    "benefitsForEmployees": {
+      "heading": "Fordele for medarbejdere",
+      "benefits": [
+        {
+          "title": "Tidsbestemte lønudbetalinger",
+          "description": "Pålidelig lønning med gennemsigtige lønsedler."
+        },
+        {
+          "title": "Ydelser & pensioner",
+          "description": "Fuld overholdelse med svenske ydelsessystemer."
+        },
+        {
+          "title": "Juridisk beskyttelse",
+          "description": "Ansættelseskontrakter følger svenske standarder."
+        },
+        {
+          "title": "Tillid & stabilitet",
+          "description": "Medarbejdere føler sig sikre, hvilket forbedrer fastholdelse."
+        }
+      ]
+    },
+    "whoShouldUse": {
+      "heading": "Hvem bør bruge EOR & lønningstjenester?",
+      "intro": "Vores løsninger er ideelle til:",
+      "solutions": [
+        {
+          "title": "Startups & SMEs",
+          "description": "Hyre personale uden tunge opsætningsomkostninger."
+        },
+        {
+          "title": "Globale virksomheder",
+          "description": "Udvid til Sverige uden lokal registrering."
+        },
+        {
+          "title": "Projektbaseret rekruttering",
+          "description": "Korttids- eller sæsonarbejdere håndteres nemt."
+        },
+        {
+          "title": "Fjernhold",
+          "description": "Ansæt fjernarbejdere i Sverige i overensstemmelse med lovgivningen."
+        },
+        {
+          "title": "Omplaceringer",
+          "description": "Flyt medarbejdere til Sverige med fuld HR-support."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Hvorfor vælge Sweden Relocators?",
+      "reasons": [
+        {
+          "title": "Alt-i-ét digital portal",
+          "description": "Administrer kontrakter, løn og overholdelse i ét system."
+        },
+        {
+          "title": "Ekspertkendskab til svensk arbejdsret",
+          "description": "Reducer juridiske og skatterisici."
+        },
+        {
+          "title": "Gennemsigtige processer",
+          "description": "Realtidsrapporter og registreringer til arbejdsgivere og medarbejdere."
+        },
+        {
+          "title": "End-to-end omplaceringsstøtte",
+          "description": "Ud over EOR hjælper vi med bolig, visa og integration."
+        },
+        {
+          "title": "Flersproget support",
+          "description": "Hjælp på engelsk, svensk, urdu, arabisk, persisk med mere."
+        }
+      ]
+    },
+    "gettingStarted": {
+      "heading": "Kom i gang",
+      "steps": [
+        "Registrer som virksomhed på vores portal.",
+        "Tilføj medarbejdere med løn- og kontraktinformation.",
+        "Aktivér løn & overholdelse – Vi håndterer resten.",
+        "Fokusér på forretningsvækst, mens vi håndterer ansættelse."
+      ]
+    },
+    "conclusion": {
+      "heading": "Udvid til Sverige med tillid",
+      "description": "Med Sweden Relocators Employer of Record (EOR) og lønningstjenester kan dit selskab udvide til Sverige med tillid. Vi håndterer de juridiske, skattemæssige og lønkompleksiteter, mens du fokuserer på at opbygge din virksomhed. Uanset om du har brug for én medarbejder eller et helt team, sikrer vores platform glat arbejdskraftsadministration."
+    },
+    "cta": {
+      "heading": "Klar til at udvide din virksomhed til Sverige?",
+      "description": "Lad Sweden Relocators håndtere kompleksiteten ved EOR og lønadministration. Vores eksperter guider dig gennem hele processen og sikrer fuld juridisk overholdelse og medarbejdertilfredshed.",
+      "button": "Kom i gang med EOR-tjenester",
+      "subtext": "Vores dedikerede team er klar til at besvare alle dine spørgsmål om ansættelse af personale i Sverige."
+    }
+  }
+}

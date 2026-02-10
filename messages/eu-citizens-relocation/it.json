@@ -1,0 +1,195 @@
+{
+  "euCitizensRelocation": {
+    "hero": {
+      "title": "Ricongiungimento familiare per cittadini UE in Svezia",
+      "subtitle": "Supporto completo per cittadini UE e le loro famiglie"
+    },
+    "intro": {
+      "heading": "Portate la vostra famiglia dall'UE in Svezia",
+      "description": "Quando vi trasferite in Svezia come cittadini UE, avete il diritto legale al ricongiungimento familiare. Ciò consente ai vostri familiari di trasferirsi con voi e di godere dell'elevata qualità della vita in Svezia, inclusi assistenza sanitaria, istruzione e prestazioni sociali. Sweden Relocators offre assistenza professionale per il ricongiungimento familiare dei cittadini UE, compresa la valutazione dell'idoneità, la preparazione dei documenti, le carte di soggiorno, la registrazione del numero personale (personnummer), la ricerca di un'abitazione e il supporto all'integrazione.",
+      "infoBox": "Il ricongiungimento familiare dei cittadini UE in Svezia si basa sulla direttiva 2004/38/CE, che conferisce ai cittadini UE residenti in Svezia il diritto di portare con sé i familiari e di accedere a servizi sanitari, istruzione e prestazioni sociali come gli altri residenti."
+    },
+    "whatIs": {
+      "heading": "Cos'è il ricongiungimento familiare per cittadini UE?",
+      "description": "Il ricongiungimento familiare per cittadini UE in Svezia si basa sulla direttiva 2004/38/CE, che regola il diritto dei cittadini UE e dei loro familiari di circolare e risiedere liberamente nell'Unione Europea. Questo quadro consente di portare in Svezia i familiari diretti e allargati, al soddisfacimento di determinati requisiti."
+    },
+    "immediateFamilyHeading": "Familiari diretti idonei",
+    "immediateFamily": [
+      {
+        "type": "Coniuge o partner registrato",
+        "description": "Include matrimoni tra persone dello stesso sesso o di sesso diverso e le unioni registrate riconosciute dalla legge svedese."
+      },
+      {
+        "type": "Partner non sposato (convivenza)",
+        "description": "A condizione che la relazione sia duratura e riconosciuta come equivalente al matrimonio in Svezia."
+      },
+      {
+        "type": "Figli minori di 21 anni",
+        "description": "Figli biologici o adottivi del cittadino UE o del suo coniuge/partner."
+      },
+      {
+        "type": "Figli dipendenti maggiori di 21 anni",
+        "description": "A condizione che dipendano economicamente dal cittadino UE."
+      },
+      {
+        "type": "Genitori e nonni dipendenti",
+        "description": "Ascendenti che dipendono economicamente dal cittadino UE."
+      }
+    ],
+    "extendedFamily": {
+      "heading": "Familiari estesi e dipendenza",
+      "description": "In alcuni casi anche i familiari estesi possono essere idonei se viene dimostrata una reale dipendenza. Ciò può includere fratelli adulti, figli adulti che vivono nella stessa casa o altri parenti stretti con un forte legame di dipendenza. Le regole per il ricongiungimento dei familiari estesi sono più rigorose e richiedono prove documentate della dipendenza."
+    },
+    "longTermPermitHeading": "Titolari di permessi di soggiorno a lungo termine UE",
+    "longTermPermitRequirements": [
+      "Possedere un permesso di soggiorno a lungo termine valido rilasciato da un altro Stato membro UE",
+      "Disporre di risorse finanziarie sufficienti e di un alloggio adeguato in Svezia",
+      "Presentare una domanda di soggiorno in Svezia insieme ai familiari diretti"
+    ],
+    "residenceCard": {
+      "heading": "Carta di soggiorno per i familiari",
+      "intro": "I familiari che intendono soggiornare in Svezia per più di tre mesi devono richiedere una carta di soggiorno presso l'Agenzia svedese per le migrazioni (Migrationsverket).",
+      "documentsLabel": "Documenti richiesti:",
+      "documents": [
+        "Passaporto valido",
+        "Prova del legame familiare (certificato di matrimonio, unione registrata o certificato di nascita)",
+        "Prova della dipendenza economica (per genitori, nonni o figli maggiori di 21 anni)",
+        "Prova della residenza del cittadino UE in Svezia (contratto di locazione, proprietà o contratto di lavoro)",
+        "Prova di risorse finanziarie sufficienti per il sostentamento proprio e della famiglia"
+      ],
+      "note": "Le carte di soggiorno sono generalmente valide per cinque anni o per la durata del soggiorno del cittadino UE in Svezia."
+    },
+    "personnummer": {
+      "heading": "Numero personale (Personnummer)",
+      "intro": "Dopo aver ottenuto la carta di soggiorno, i familiari devono registrarsi presso l'Agenzia svedese delle imposte (Skatteverket) per ottenere un numero personale. Questo numero serve per:",
+      "uses": [
+        "Accedere al sistema sanitario",
+        "Iscrivere i figli a scuola",
+        "Aprire un conto bancario",
+        "Firmare contratti (abitazione, telefono, elettricità e altri servizi)"
+      ]
+    },
+    "healthcare": {
+      "heading": "Assistenza sanitaria e assicurazione",
+      "description": "Dopo l'ottenimento del numero personale, i familiari hanno accesso al sistema sanitario pubblico svedese. Prima di ciò, è necessaria un'assicurazione sanitaria privata. Per i familiari extra-UE si consiglia una copertura completa di almeno 30.000 €."
+    },
+    "education": {
+      "heading": "Istruzione e assistenza all'infanzia",
+      "programs": [
+        {
+          "name": "Istruzione obbligatoria",
+          "description": "Istruzione gratuita per bambini da 6 a 16 anni, compresi i pasti scolastici"
+        },
+        {
+          "name": "Asilo nido (Förskola)",
+          "description": "Disponibile per bambini da 1 a 5 anni, con tariffe sovvenzionate dallo Stato"
+        },
+        {
+          "name": "Scuole internazionali",
+          "description": "Opzioni per famiglie che desiderano istruzione in inglese o in altre lingue"
+        }
+      ]
+    },
+    "bankAccounts": {
+      "heading": "Conti bancari e integrazione finanziaria",
+      "intro": "Dopo aver ottenuto il numero personale, i familiari possono aprire un conto bancario svedese. Di solito sono richiesti i seguenti documenti:",
+      "documents": [
+        "Documento di identità rilasciato da Skatteverket",
+        "Carta di soggiorno",
+        "Prova di residenza",
+        "Prova di reddito (se applicabile)"
+      ],
+      "note": "Il conto bancario consente pagamenti digitali, online banking e Swish."
+    },
+    "language": {
+      "heading": "Supporto linguistico e integrazione",
+      "description": "Imparare lo svedese è fondamentale per una buona integrazione. Dopo la registrazione e l'ottenimento del numero personale, i familiari possono partecipare ai corsi SFI (Svedese per immigrati). Questi corsi statali migliorano le competenze quotidiane e le opportunità di lavoro. Sweden Relocators offre anche supporto culturale per facilitare l'adattamento."
+    },
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Valutazione dell'idoneità",
+        "description": "Sweden Relocators verifica che i familiari soddisfino i requisiti UE."
+      },
+      {
+        "step": "2",
+        "title": "Preparazione dei documenti",
+        "description": "Raccolta e traduzione dei documenti richiesti."
+      },
+      {
+        "step": "3",
+        "title": "Domanda presso Migrationsverket",
+        "description": "Presentazione delle richieste di carte di soggiorno."
+      },
+      {
+        "step": "4",
+        "title": "Monitoraggio e comunicazione",
+        "description": "Gestione delle richieste o delle domande delle autorità migratorie."
+      },
+      {
+        "step": "5",
+        "title": "Registrazione presso Skatteverket",
+        "description": "Assistenza per ottenere numero personale, carta d'identità e registrazione fiscale."
+      },
+      {
+        "step": "6",
+        "title": "Servizi di integrazione",
+        "description": "Supporto per alloggio, scuole, sanità e corsi di lingua."
+      }
+    ],
+    "services": {
+      "heading": "Come Sweden Relocators supporta le famiglie",
+      "description": "I nostri servizi completi e la piattaforma digitale garantiscono un ricongiungimento familiare fluido, legale e senza stress.",
+      "servicesList": [
+        {
+          "title": "Valutazione dell'idoneità e consulenza legale",
+          "description": "Garantiamo che i vostri familiari soddisfino i requisiti legali UE."
+        },
+        {
+          "title": "Preparazione documenti e traduzioni ufficiali",
+          "description": "Tutti i documenti vengono preparati e tradotti professionalmente per le autorità svedesi."
+        },
+        {
+          "title": "Presentazione e monitoraggio delle richieste",
+          "description": "Presentiamo le richieste e monitoriamo il loro trattamento presso Migrationsverket."
+        },
+        {
+          "title": "Supporto in caso di ricorso",
+          "description": "Se la richiesta viene rifiutata, forniamo supporto completo durante il processo di ricorso."
+        },
+        {
+          "title": "Ricerca di alloggi e scuole",
+          "description": "Assistenza per trovare un'abitazione e iscrivere i figli a scuola."
+        },
+        {
+          "title": "Consulenza assicurativa e sanitaria",
+          "description": "Guida sulle obbligazioni assicurative e accesso al sistema sanitario svedese."
+        }
+      ]
+    },
+    "whySweden": [
+      {
+        "title": "Stato sociale solido",
+        "description": "Accesso a sanità completa, istruzione di qualità e prestazioni sociali."
+      },
+      {
+        "title": "Istruzione e sanità gratuite",
+        "description": "Servizi educativi e sanitari di livello mondiale per tutti i residenti."
+      },
+      {
+        "title": "Sicuro e a misura di famiglia",
+        "description": "La Svezia offre un ambiente sicuro, inclusivo e adatto alle famiglie."
+      },
+      {
+        "title": "Diritti di soggiorno stabili",
+        "description": "Protezione legale basata sulle leggi UE e le normative svedesi sull'immigrazione."
+      }
+    ],
+    "cta": {
+      "heading": "Pronti a iniziare il ricongiungimento familiare?",
+      "description": "Sweden Relocators garantisce che il vostro trasferimento avvenga in modo fluido, corretto e senza stress. Contattateci oggi stesso per avviare il processo di ricongiungimento familiare. La nostra piattaforma digitale consente di gestire i profili, caricare documenti e monitorare i progressi in tempo reale.",
+      "button": "Inizia il ricongiungimento familiare UE",
+      "subtext": "Il nostro team di esperti guiderà la vostra famiglia in tutte le fasi del ricongiungimento familiare dei cittadini UE in Svezia."
+    }
+  }
+}

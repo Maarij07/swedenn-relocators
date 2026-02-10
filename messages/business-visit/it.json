@@ -1,0 +1,163 @@
+{
+  "businessVisit": {
+    "hero": {
+      "title": "Visa d'affari per la Svezia: Supporto completo per un processo fluido",
+      "subtitle": "Consulenza esperta per la tua visita temporanea d'affari in Svezia"
+    },
+    "intro": {
+      "heading": "Stai pianificando un breve viaggio d'affari o ufficiale in Svezia?",
+      "description": "Che tu o la tua azienda stiate organizzando un breve viaggio d'affari in Svezia, il nostro team è qui per semplificare il processo di richiesta del visto d'affari per te. Gestiamo l'intero processo di richiesta, permettendoti di concentrarti completamente sui tuoi obiettivi aziendali."
+    },
+    "whyYouNeedVisa": {
+      "heading": "Perché hai bisogno di un visto d'affari per la Svezia?",
+      "intro": "Un visto d'affari è necessario se prevedi di svolgere attività professionali in Svezia, come partecipare a riunioni, negoziare contratti, partecipare a conferenze o esplorare opportunità di investimento. Questo visto è adatto a imprenditori, rappresentanti aziendali e professionisti che devono rimanere temporaneamente in Svezia per motivi aziendali. Il visto è generalmente valido fino a 90 giorni in un periodo di 180 giorni, permettendo più ingressi a seconda delle esigenze lavorative.",
+      "subheading": "Il visto d'affari svedese ti consente di:",
+      "benefits": [
+        {
+          "title": "Partecipare ad attività professionali",
+          "description": "Partecipare a riunioni d'affari, conferenze e sessioni di formazione in Svezia."
+        },
+        {
+          "title": "Stabilire partnership",
+          "description": "Stabilire e mantenere relazioni con aziende o clienti svedesi."
+        },
+        {
+          "title": "Valutare opportunità di investimento",
+          "description": "Valutare opportunità di investimento e affari in Svezia."
+        },
+        {
+          "title": "Gestire affari",
+          "description": "Supervisionare progetti aziendali e iniziative che richiedono una presenza fisica per un periodo limitato."
+        }
+      ]
+    },
+    "basicRequirements": {
+      "heading": "Requisiti di base per il visto d'affari (per i richiedenti)",
+      "intro": "Per garantire un processo di richiesta senza intoppi, sono necessari i seguenti documenti:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Modulo di richiesta",
+          "description": "Un modulo debitamente compilato e firmato dal richiedente."
+        },
+        {
+          "number": 2,
+          "title": "Fotografia",
+          "description": "Una fotografia recente formato passaporto (non più vecchia di sei mesi), con sfondo bianco e senza copricapo, a meno che non sia per motivi religiosi."
+        },
+        {
+          "number": 3,
+          "title": "Prova di mezzi finanziari",
+          "description": "Prova che hai fondi sufficienti per mantenerti durante il soggiorno, inclusi i costi del viaggio di ritorno. In generale, dovrai giustificare almeno 450 SEK al giorno, che può anche essere coperto dall'azienda sponsorizzante. Invia un estratto bancario originale degli ultimi sei mesi o prova di altri beni se gli estratti bancari non sono disponibili."
+        },
+        {
+          "number": 4,
+          "title": "Requisiti del passaporto",
+          "details": [
+            "Deve avere almeno due pagine vuote.",
+            "Deve essere valido per almeno tre mesi dopo la fine del viaggio previsto.",
+            "Deve includere tutti i passaporti precedenti degli ultimi sette anni.",
+            "Deve includere una fotocopia della pagina biometrica e di qualsiasi visto Schengen recente."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Lettera di invito",
+          "description": "Una lettera di invito ufficiale dall'azienda o dalla persona svedese su carta intestata ufficiale. La lettera deve includere:",
+          "details": [
+            "L'indirizzo completo e i dati di contatto dell'azienda invitante.",
+            "Nome e posizione della persona di contatto o firmatario.",
+            "Lo scopo e la durata prevista del soggiorno.",
+            "Chi si farà carico delle spese di viaggio e alloggio.",
+            "Una dichiarazione che garantisca che il richiedente lascerà la Svezia prima della scadenza del visto."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Certificato di impiego",
+          "description": "Prova di impiego, con dettagli su:",
+          "details": [
+            "Data di inizio dell'impiego.",
+            "Posizione attuale, stipendio e scopo del viaggio.",
+            "Approvazione del congedo per la durata del viaggio."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Assicurazione sanitaria",
+          "description": "Assicurazione di viaggio che copra l'intera area Schengen e sia valida per tutta la durata del soggiorno. La polizza deve coprire almeno 30.000 EUR per coprire le spese per trattamenti medici di emergenza, ricoveri ospedalieri, rimpatrio o decesso."
+        },
+        {
+          "number": 8,
+          "title": "Prenotazione del biglietto di viaggio",
+          "description": "Fornire una prenotazione del biglietto di andata e ritorno. I biglietti finali non sono necessari, ma è obbligatoria la conferma della prima prenotazione."
+        },
+        {
+          "number": 9,
+          "title": "Prova di alloggio",
+          "description": "Una prenotazione alberghiera confermata o un'altra prova di alloggio (è richiesta la prenotazione principale)."
+        }
+      ]
+    },
+    "employerRequirements": {
+      "heading": "Requisiti aggiuntivi per datori di lavoro o aziende sponsorizzanti",
+      "intro": "Il datore di lavoro o l'azienda sponsorizzante deve fornire i seguenti documenti:",
+      "requirements": [
+        {
+          "title": "Registrazione commerciale e carta fiscale",
+          "description": "Copia originale e tradotta in inglese o svedese della registrazione commerciale dell'azienda e della carta fiscale per confermare la legittimità dell'azienda."
+        }
+      ]
+    },
+    "additionalDocuments": {
+      "heading": "Documenti aggiuntivi che potrebbero essere richiesti",
+      "intro": "Alcuni documenti potrebbero essere richiesti in base alla tua situazione specifica:",
+      "documents": [
+        {
+          "title": "Certificato di movimento",
+          "description": "Richiesto se sei un viaggiatore alla prima esperienza, se il tuo passaporto non copre gli ultimi sette anni o se c'è una lacuna di più di tre mesi tra il tuo passaporto attuale e quello precedente."
+        },
+        {
+          "title": "Altri documenti richiesti dall'ambasciata",
+          "description": "Possono essere richiesti ulteriori documenti dall'ambasciata a seconda delle circostanze individuali."
+        }
+      ]
+    },
+    "foreignInvestors": {
+      "heading": "Visa d'affari per investitori stranieri",
+      "description": "Il visto d'affari svedese è anche ideale per i cittadini stranieri che desiderano investire in Svezia e fare visite periodiche per gestire i loro interessi commerciali. Questo visto consente ingressi multipli ed è valido per soggiorni brevi fino a 90 giorni in un periodo di 180 giorni, rinnovabile fino a cinque anni. Questa flessibilità è particolarmente vantaggiosa per gli investitori che necessitano di monitorare lo sviluppo commerciale o di fare visite frequenti senza dover richiedere un permesso di soggiorno.",
+      "additional": "Per i viaggi d'affari brevi che durano meno di tre mesi, questo visto è sufficiente senza la necessità di un permesso di soggiorno. Tuttavia, se prevedi di rimanere più a lungo o di trasferirti per un periodo più lungo, potrebbe essere richiesto un permesso di soggiorno."
+    },
+    "howWeAssist": {
+      "heading": "Come ti aiutiamo",
+      "intro": "Con il nostro team che gestisce il processo di visto, puoi essere sicuro che ogni dettaglio sarà gestito in modo professionale. Offriamo:",
+      "services": [
+        {
+          "title": "Preparazione e presentazione dei documenti",
+          "description": "Assistenza nella raccolta, verifica e presentazione di tutti i documenti necessari per garantire un processo senza intoppi."
+        },
+        {
+          "title": "Consulenza sui requisiti finanziari",
+          "description": "Consigli sui documenti finanziari necessari per soddisfare i requisiti del visto svedese."
+        },
+        {
+          "title": "Pianificazione degli appuntamenti",
+          "description": "Coordinamento degli appuntamenti necessari con l'ambasciata svedese o il consolato per la presentazione dei documenti e le interviste."
+        },
+        {
+          "title": "Supporto continuo e aggiornamenti",
+          "description": "Aggiornamenti regolari sullo stato del visto e risposte tempestive a eventuali richieste aggiuntive da parte dell'ambasciata."
+        }
+      ]
+    },
+    "closing": {
+      "description": "Il nostro servizio completo di visto ti permette di concentrarti sui tuoi obiettivi commerciali mentre noi ci occupiamo della burocrazia. Contattaci oggi per saperne di più su come possiamo semplificare il tuo viaggio d'affari temporaneo in Svezia e supportare il tuo successo professionale."
+    },
+    "cta": {
+      "heading": "Inizia la tua richiesta di visto d'affari oggi",
+      "description": "Contatta Sweden Relocators per iniziare la tua richiesta di visto d'affari con il supporto e la guida di esperti ad ogni passo del processo.",
+      "button": "Inizia ora",
+      "subtext": "Visita la nostra sezione Business Visit o contattaci per ulteriori informazioni. Il nostro team è pronto ad aiutarti a fare affari in Svezia."
+    }
+  }
+}

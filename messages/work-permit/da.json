@@ -1,0 +1,155 @@
+{
+  "workPermit": {
+    "hero": {
+      "title": "Omfattende guide til arbejdstilladelser i Sverige",
+      "subtitle": "Udforsk de forskellige arbejdstilladelser til forskellige typer beskæftigelse i Sverige, med unikke krav for hver mulighed."
+    },
+    "intro": {
+      "heading": "Forstå arbejdstilladelser i Sverige",
+      "description": "Sverige tilbyder forskellige arbejdstilladelser for forskellige typer beskæftigelse, hver med unikke krav. Hvis du planlægger at arbejde i Sverige, er det vigtigt at forstå de tilgængelige muligheder og sikre, at du opfylder de opdaterede kriterier.",
+      "toolLink": "Sweden Relocators tilbyder et værktøj til vurdering af arbejdstilladelse på vores hjemmeside, som hurtigt kan afgøre din berettigelse og den bedste tilladelse til din situation."
+    },
+    "permitTypes": {
+      "heading": "Typer af arbejdstilladelser i Sverige",
+      "requirementsLabel": "Krav",
+      "processingTimeLabel": "Behandlingstid",
+      "durationLabel": "Varighed",
+      "permits": [
+        {
+          "id": "standard",
+          "title": "Standard arbejdstilladelse for beskæftigelse",
+          "description": "For personer, der har sikret sig beskæftigelse i Sverige",
+          "requirements": [
+            {"label": "Jobtilbud", "description": "Du skal have et bekræftet jobtilbud fra en svensk arbejdsgiver."},
+            {"label": "Minimumsløn", "description": "Omkring 30.000 SEK før skat. Skal opfylde svenske kollektive aftaler eller branchestandarder."},
+            {"label": "Ansættelsesvilkår", "description": "Skal overholde svenske standarder for sundhed, forsikring og pensionsbidrag."},
+            {"label": "Annoncekrav", "description": "Jobbet skal annonceres inden for EU/EØS i mindst 10 dage, før en ikke-EU-borger ansættes."}
+          ],
+          "waitingTime": "1-4 måneder",
+          "duration": "Op til 2 år med mulighed for forlængelse"
+        },
+        {
+          "id": "euBlueCard",
+          "title": "EU Blue Card",
+          "description": "For højt kvalificerede fagfolk med efterspurgte færdigheder i hele EU",
+          "requirements": [
+            {"label": "Videregående uddannelse", "description": "Universitetsgrad eller mindst 5 års relevant erhvervserfaring kræves."},
+            {"label": "Lønkrav", "description": "Jobtilbud med løn over EU Blue Card minimumsgrænse for Sverige."}
+          ],
+          "waitingTime": "3-4 måneder",
+          "duration": "Op til 4 år baseret på ansættelseskontrakt"
+        },
+        {
+          "id": "seasonal",
+          "title": "Sæsonarbejdertilladelse",
+          "description": "For kortvarigt sæsonarbejde inden for landbrug (bærplukkere og plantearbejdere)",
+          "requirements": [
+            {"label": "Ansættelseskontrakt", "description": "Kontrakt fra svensk arbejdsgiver for sæsonarbejde op til 6 måneder."},
+            {"label": "Løn og ydelser", "description": "Skal være i overensstemmelse med svenske kollektive aftaler."},
+            {"label": "Sundhedsforsikring", "description": "Skal have sundhedsforsikring, der dækker opholdet."}
+          ],
+          "waitingTime": "1-3 måneder",
+          "duration": "Varighed af ansættelseskontrakten, typisk op til 6 måneder"
+        },
+        {
+          "id": "auPair",
+          "title": "Au Pair-tilladelse",
+          "description": "For unge personer (18–30 år) som bor hos en værtsfamilie",
+          "requirements": [
+            {"label": "Alderskrav", "description": "Skal være mellem 18 og 30 år."},
+            {"label": "Værtsfamiliekontrakt", "description": "Formel aftale, der specificerer pligter, arbejdstid og løn."},
+            {"label": "Sprogstudie", "description": "Påkrævet at tage svenske sprogkurser under opholdet."},
+            {"label": "Minimumsbeløb", "description": "Værtsfamilien skal give godtgørelse, der opfylder Sveriges au pair-lønstandard."}
+          ],
+          "waitingTime": "1-2 måneder",
+          "duration": "Op til et år"
+        },
+        {
+          "id": "workingHoliday",
+          "title": "Working Holiday-visum",
+          "description": "For unge fra specifikke lande til arbejde og rejse",
+          "requirements": [
+            {"label": "Berettigede lande", "description": "Australien, New Zealand, Sydkorea, Canada, Japan, Argentina og andre."},
+            {"label": "Alderskrav", "description": "Typisk for personer mellem 18 og 30 år."},
+            {"label": "Tilstrækkelige midler", "description": "Dokumentation for midler til at forsørge sig selv i starten."}
+          ],
+          "waitingTime": "1-2 måneder",
+          "duration": "Gyldig i et år med visse arbejdsbegrænsninger"
+        },
+        {
+          "id": "selfEmployment",
+          "title": "Tilladelse til selvstændig virksomhed",
+          "description": "For iværksættere og selvstændige, der etablerer en virksomhed",
+          "requirements": [
+            {"label": "Forretningsplan", "description": "Levedygtig forretningsplan, der viser rentabilitet inden for to år."},
+            {"label": "Tilstrækkelige midler", "description": "Dokumentation for midler til at støtte virksomheden og personlige udgifter i den indledende fase."},
+            {"label": "Erfaring med virksomhed", "description": "Dokumenteret erfaring med at drive en virksomhed eller branchespecifik ekspertise."}
+          ],
+          "waitingTime": "3-6 måneder",
+          "duration": "Indledningsvis 2 år med mulighed for forlængelse"
+        },
+        {
+          "id": "sportsAndCultural",
+          "title": "Tilladelse til sports- og kulturarbejdere",
+          "description": "For personer, der arbejder inden for sport, kunst eller kultur",
+          "requirements": [
+            {"label": "Ansættelse eller sponsorering", "description": "Jobtilbud fra svensk organisation inden for sport eller kultur."},
+            {"label": "Lønstandarder", "description": "Løn i overensstemmelse med kollektive aftaler og svenske standarder."}
+          ],
+          "waitingTime": "1-2 måneder",
+          "duration": "Varighed af kontrakten med mulighed for forlængelse"
+        },
+        {
+          "id": "researcher",
+          "title": "Forsker-tilladelse",
+          "description": "For forskere, der tilbydes stillinger ved akkrediterede svenske institutioner",
+          "requirements": [
+            {"label": "Vært-aftale", "description": "Aftale med forskningsinstitution, der beskriver aktivitet, finansiering og betingelser."},
+            {"label": "Projektfinansiering", "description": "Finansiel støtte til forskningsprojektets varighed."}
+          ],
+          "waitingTime": "1-3 måneder",
+          "duration": "Varighed af forskningsprojekt med mulighed for forlængelse"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Ansøgningsproces og ventetider",
+      "intro": "Ansøgningsprocessen og ventetiderne varierer afhængigt af tilladelsestype, omstændigheder og nuværende Migration Agency-arbejdsmængde.",
+      "waitingTimes": [
+        {"permit": "Standard Work Permit", "time": "1-4 måneder"},
+        {"permit": "EU Blue Card", "time": "3-4 måneder"},
+        {"permit": "Seasonal Worker Permit", "time": "1-3 måneder"},
+        {"permit": "Au Pair Permit", "time": "1-2 måneder"},
+        {"permit": "Working Holiday Visa", "time": "1-2 måneder"},
+        {"permit": "Self-Employment Permit", "time": "3-6 måneder"},
+        {"permit": "Sports and Cultural Worker Permit", "time": "1-2 måneder"},
+        {"permit": "Researcher Permit", "time": "1-3 måneder"}
+      ]
+    },
+    "generalRequirements": {
+      "heading": "Generelle krav for alle arbejdstilladelser",
+      "description": "Uanset tilladelsestype skal alle ansøgere opfylde disse grundlæggende krav:",
+      "requirements": [
+        {"title": "Gyldigt pas", "description": "Skal være gyldigt i hele den tiltænkte opholdsperiode."},
+        {"title": "Sundhedsforsikring", "description": "Nogle tilladelser (Working Holiday, Au Pair) kræver sundhedsforsikring."},
+        {"title": "Ren straffeattest", "description": "Alvorlige straffeattester kan medføre afslag på tilladelse."}
+      ]
+    },
+    "support": {
+      "heading": "Hvordan Sweden Relocators kan hjælpe dig",
+      "description": "Sweden Relocators tilbyder fuld support til alle typer arbejdstilladelser og sikrer en glat og effektiv proces:",
+      "services": [
+        {"title": "Vurdering af berettigelse", "description": "Brug vores værktøj til vurdering af arbejdstilladelse for at finde den bedste tilladelse til din situation."},
+        {"title": "Dokumentforberedelse", "description": "Vi hjælper med at samle ansættelseskontrakter, finansielle dokumenter og bevis for sundhedsforsikring."},
+        {"title": "Ansøgning og opfølgning", "description": "Vi håndterer indsendelsen og holder dig opdateret gennem hver fase af ansøgningen."},
+        {"title": "Support efter tilladelse", "description": "Hjælp med bolig, bankkonto og registrering hos svenske myndigheder."}
+      ]
+    },
+    "cta": {
+      "heading": "Start din rejse mod arbejdstilladelse i dag",
+      "description": "Kontakt Sweden Relocators for at begynde din ansøgning om arbejdstilladelse og start din karriere i Sverige.",
+      "button": "Kom i gang",
+      "subtext": "Besøg vores sektion om arbejdstilladelser eller kontakt os for mere information."
+    }
+  }
+}

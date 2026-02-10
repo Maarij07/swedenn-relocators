@@ -411,11 +411,11 @@ export default function Navbar() {
                       </div>
                       <div>
                         <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">{t('navbar.dropdowns.assessment.permitsAndStatus')}</h3>
-                        <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <a href={`/${locale}/assessment/family-reunification`} className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
                           <div className="font-semibold">{t('navbar.dropdowns.assessment.familyReunification')}</div>
                           <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.familyReunificationDesc')}</div>
                         </a>
-                        <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <a href={`/${locale}/assessment/work-permit`} className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
                           <div className="font-semibold">{t('navbar.dropdowns.assessment.workPermit')}</div>
                           <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.workPermitDesc')}</div>
                         </a>

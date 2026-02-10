@@ -1,0 +1,171 @@
+{
+  "asylum": {
+    "hero": {
+      "title": "Asilo en Suecia: Apoyo Profesional para un Futuro Seguro",
+      "subtitle": "Orientación de expertos a través del proceso de asilo sueco"
+    },
+    "intro": {
+      "heading": "Lo Que Ofrecemos",
+      "description": "Si está solicitando asilo en Suecia, comprender el proceso legal puede ser abrumador. En Sweden Relocators, nuestro equipo de especialistas en inmigración experimentados lo guía a través de cada paso del proceso de asilo ante la Agencia Sueca de Migraciones, garantizando que su caso sea manejado con la máxima cuidado y profesionalismo."
+    },
+    "whyChooseExpert": {
+      "heading": "¿Por Qué Elegir un Experto?",
+      "description": "Navegar el proceso de asilo en Suecia puede ser complejo. Aquí hay cómo puede nuestro equipo de experto hace una diferencia para usted:",
+      "benefits": [
+        {
+          "title": "Tranquilidad",
+          "description": "Con nuestro equipo profesional manejando su caso, puede concentrarse en otros aspectos de su mudanza a Suecia. Estamos comprometidos a garantizar que su solicitud de asilo sea manejada de manera efectiva y con compasión."
+        },
+        {
+          "title": "Orientación Clara y Transparente",
+          "description": "Nuestros especialistas simplifican los complejos requisitos legales, garantizando que comprenda cada paso. Sin importar cuán complicado sea su caso, nuestro equipo está listo para ayudarlo a aclararly y presentar efectivamente sus motivos de asilo."
+        },
+        {
+          "title": "Acceso Inmediato a un Abogado",
+          "description": "Nuestros abogados de inmigración comienzan a trabajar en su caso tan pronto como nos contacta, proporcionando una respuesta inmediata a sus inquietudes y garantizando que su caso sea procesado rápidamente."
+        }
+      ]
+    },
+    "eligibility": {
+      "heading": "Elegibilidad para Asilo en Suecia",
+      "whoCanApply": {
+        "heading": "¿Quién Puede Solicitar Asilo?",
+        "intro": "Para solicitar asilo en Suecia, debe estar físicamente presente en el país o en su frontera. No es posible solicitar desde otro país o en una embajada sueca en el extranjero.",
+        "description": "Cada caso de solicitante de asilo se revisa individualmente. La Agencia Sueca de Migraciones solo otorga permiso de residencia si el solicitante cumple con los criterios para ser considerado refugiado bajo la ley sueca y la Convención de Ginebra de 1951."
+      },
+      "refugeeDefinition": {
+        "heading": "Definición de Refugiado y Criterios",
+        "intro": "Según la ley sueca y las directrices internacionales, una persona califica como refugiada si enfrenta persecución o amenazas severas en su país de origen basándose en:",
+        "criteria": [
+          "Raza",
+          "Nacionalidad, Idioma o Grupo Étnico",
+          "Religión",
+          "Creencia Política o Activismo",
+          "Identidad de Género",
+          "Orientación Sexual",
+          "Pertenencia a un Grupo Social Particular"
+        ],
+        "additionalInfo": "Si grupos o individuos en su país de origen lo amenazan o a sus seres queridos, esto puede afectar su solicitud. Sin embargo, una decisión positiva requiere evidencia clara de persecución. Durante el proceso de solicitud, se le pedirá que describa los riesgos que enfrenta si regresara a su país.",
+        "outcome": "Si su caso es aceptado, puede recibir un permiso de residencia válido por tres años o 13 meses, según las circunstancias de su situación."
+      }
+    },
+    "applicationProcess": {
+      "heading": "Pasos para Solicitar Asilo en Suecia",
+      "intro": "Proceso Paso por Paso",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Presencia Física Requerida",
+          "description": "Debe estar físicamente en Suecia o en la frontera sueca para solicitar asilo."
+        },
+        {
+          "step": 2,
+          "title": "Reunión Inicial en la Agencia de Migraciones",
+          "description": "Una vez que presente su solicitud, será invitado a una reunión inicial en la Agencia Sueca de Migraciones. Durante esta reunión, tendrá la oportunidad de elegir su representante legal o abogado. En esta etapa, puede elegir nuestro equipo experimentado para apoyarlo."
+        },
+        {
+          "step": 3,
+          "title": "Representación Legal y Preparación del Caso",
+          "description": "Si nos elige como su representante, la Agencia de Migraciones nos contactará para asistir con su caso. Nuestro equipo programará una llamada con usted para recopilar detalles sobre su trasfondo y sus razones para solicitar asilo. También lo prepararemos para futuras entrevistas y envíos de documentos."
+        }
+      ]
+    },
+    "legalRepresentative": {
+      "heading": "Nuestro Rol como Su Representante Legal",
+      "intro": "Como su representante legal, nosotros:",
+      "services": [
+        "Proporcionaremos apoyo continuo y asesoramiento legal a través del proceso de asilo.",
+        "Ayudaremos a aclarar sus motivos de asilo ante la Agencia de Migraciones.",
+        "Nos aseguraremos de que sus derechos estén protegidos.",
+        "Lo ayudaremos a navegar apelaciones si su solicitud inicial es rechazada."
+      ],
+      "additionalSupport": "Además, proporcionamos servicios de reubicación integral para ayudarlo a reunirse con ciudadanos familiares si su solicitud tiene éxito."
+    },
+    "familyReunification": {
+      "heading": "Reunificación Familiar para Refugiados",
+      "subheading": "Traiga a Su Familia a Suecia",
+      "description": "Suecia reconoce la reunificación familiar como un derecho esencial, permitiendo que los miembros de la familia se unan a refugiados o personas con permisos de residencia específicos. Si le han otorgado asilo u otro tipo de permiso de residencia elegible, su familia puede reunirse con usted en Suecia."
+    },
+    "whoCanApply": {
+      "heading": "¿Quién Puede Calificar para la Reunificación Familiar?",
+      "intro": "Su familia puede ser elegible para solicitar un permiso de residencia para unirse a usted en Suecia si tiene:",
+      "eligibilityTypes": [
+        "Un permiso de residencia permanente",
+        "Un permiso de residencia temporal como refugiado, con posibilidades razonables de extensión a largo plazo",
+        "Un permiso de residencia temporal basado en obstáculos para el retorno o circunstancias difíciles, con probabilidad de obtener una extensión a largo plazo"
+      ]
+    },
+    "euEeaCitizens": {
+      "heading": "Para Ciudadanos de la UE/EEE",
+      "description": "Si es ciudadano de la UE/EEE o relacionado con uno, puede beneficiarse de un proceso simplificado para traer familiares a Suecia basado en el derecho a la libre circulación en Europa."
+    },
+    "temporaryPermit": {
+      "heading": "Si Tiene un Permiso de Residencia Temporal",
+      "description": "Para que las solicitudes de reunificación familiar tengan éxito, debe tener un permiso de residencia válido en el momento de la solicitud. Si su permiso está en extensión, la Agencia de Migraciones primero evaluará su elegibilidad para mantener su estado de residencia antes de decidir sobre la reunificación familiar.",
+      "familyMembers": "Generalmente, los miembros inmediatos de la familia como su cónyuge, pareja registrada, pareja conviviente o hijos menores de 18 años son elegibles para unirse a usted. En casos excepcionales, otros parientes también pueden calificar, pero solo bajo ciertas condiciones.",
+      "maintenance": "Se aplica un requisito de manutención, lo que significa que debe demostrar que puede sostener financieramente a los miembros de su familia y proporcionar alojamiento adecuado que cumpla con los estándares suecos."
+    },
+    "familyReunificationAssistance": {
+      "heading": "Cómo Lo Ayudamos Con la Reunificación Familiar",
+      "description": "Nuestro equipo ofrece apoyo completo para el proceso de reunificación familiar, cubriendo todos los aspectos para que sea lo más simple posible:",
+      "services": [
+        {
+          "title": "Preparación de la Solicitud",
+          "description": "Asistencia en la preparación y presentación de la solicitud de permiso de residencia para los miembros de la familia."
+        },
+        {
+          "title": "Verificación de Documentos",
+          "description": "Garantizar que todos los documentos necesarios estén en orden para minimizar retrasos."
+        },
+        {
+          "title": "Guía de Tarifas Gubernamentales",
+          "description": "Información clara sobre las tarifas gubernamentales involucradas."
+        },
+        {
+          "title": "Apoyo de Registro",
+          "description": "Asistencia con el registro de la solicitud en la Agencia de Migraciones."
+        },
+        {
+          "title": "Seguimiento Regular",
+          "description": "Monitoreo continuo del progreso de su solicitud con actualizaciones rápidas."
+        },
+        {
+          "title": "Coordinación de Citas",
+          "description": "Coordinación de reuniones esenciales en la Agencia de Migraciones."
+        },
+        {
+          "title": "Visitas Acompañadas",
+          "description": "Nuestro equipo lo acompañará durante las visitas a la Agencia de Migraciones."
+        }
+      ]
+    },
+    "additionalSupport": {
+      "heading": "Servicios De Apoyo Adicional Para Solicitantes De Asilo Y Recién Llegados",
+      "intro": "Además de los servicios de asilo y reunificación familiar, también ofrecemos:",
+      "services": [
+        {
+          "title": "Asistencia de Reubicación",
+          "description": "Ayuda integral con vivienda, educación, atención médica e integración social en Suecia."
+        },
+        {
+          "title": "Servicios de Traducción e Interpretación",
+          "description": "Asistencia con la traducción de documentos necesarios e interpretación durante reuniones con la Agencia de Migraciones."
+        },
+        {
+          "title": "Asistencia Legal para Apelaciones y Revisiones",
+          "description": "Apoyo en presentar apelaciones, prepararse para audiencias judiciales y manejar procedimientos legales complejos."
+        },
+        {
+          "title": "Servicios de Asesoramiento",
+          "description": "Apoyo profesional para el bienestar emocional durante tiempos difíciles."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Comience Su Solicitud De Asilo Hoy",
+      "description": "Póngase en contacto con Sweden Relocators para comenzar su solicitud de asilo con orientación de expertos y apoyo en cada paso.",
+      "button": "Empezar",
+      "subtext": "Visite nuestra sección de Asilo o contáctenos para más información. Nuestro equipo está aquí para ayudarlo a asegurar su futuro en Suecia."
+    }
+  }
+}

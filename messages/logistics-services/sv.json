@@ -1,0 +1,135 @@
+{
+  "logisticsServices": {
+    "hero": {
+      "title": "Logistikhantering med Sweden Relocators Partnernätverk",
+      "subtitle": "Sömlösa logistiklösningar för flytt och företagsexpansion"
+    },
+    "intro": {
+      "heading": "Omfattande Logistiklösningar för Alla Behov",
+      "description": "Flytt och företagsexpansion beror ofta på tillförlitlig logistik. Vi tillhandahåller sömlösa logistikhanteringslösningar utformade för att ta bort stressen från att flytta över gränser genom vårt noggrant utvalda tredjepartslogistikpartnerskap. Vi koordinerar allt från packning och internationell frakt till tullklarering, lagring, godstransport och sistmilslevering.",
+      "toolLink": "Vårt mål är enkelt: att säkerställa att dina personliga ägodelar, kontorsutrustning eller varor når sin destination säkert, i tid och till konkurrenskraftiga priser."
+    },
+    "services": {
+      "heading": "Våra Kärnlogistiktjänster",
+      "requirementsLabel": "Vad Vi Hanterar",
+      "services": [
+        {
+          "id": "packing",
+          "title": "Packning och Frakt",
+          "description": "Professionell packning och global fraktservice med internationalkvalitativt material",
+          "requirements": [
+            {"label": "Professionellt Material", "description": "Internationalkvalitativt packningmaterial och säkra hanteringsprocedurer"},
+            {"label": "Global Täckning", "description": "Personliga ägodelar, företagstillgångar och specialiserad last"},
+            {"label": "Säkerhet Garanterad", "description": "Säker transport som säkerställer att föremål når destinationen säkert och effektivt"}
+          ]
+        },
+        {
+          "id": "customs",
+          "title": "Tull och Efterlevnad",
+          "description": "Expertnavigering av tullregler och internationella protokoll",
+          "requirements": [
+            {"label": "Svensk Tull", "description": "Tullklarering stöd i enlighet med Tullverket"},
+            {"label": "EU-handelsregler", "description": "Full efterlevnad av EU-handelsregler och internationella protokoll"},
+            {"label": "Dokumentation", "description": "All dokumentation förberedd i förväg för att minimera förseningar"}
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Lager- och Lagerlösningar",
+          "description": "Flexibla lagringsalternativ i moderna, säkra faciliteter",
+          "requirements": [
+            {"label": "Säkerhet", "description": "Säker lagring med dygnet runt övervakning tillgänglig"},
+            {"label": "Klimatkontroll", "description": "Klimatkontrollerade anläggningar för känslig gods"},
+            {"label": "Flexibilitet", "description": "Kortfristig och långfristig lagring med flexibla avtal"}
+          ]
+        },
+        {
+          "id": "freight",
+          "title": "Godstransport",
+          "description": "Kostnadseffektiva transportalternativ med realtidsspårning",
+          "requirements": [
+            {"label": "Flera Alternativ", "description": "Luftfrakt för brådskande försändelser, sjöfrakt för bulkgods, vägtransport för regionala flytt"},
+            {"label": "Spårning", "description": "Realtidsspårning så du alltid vet var din försändelse befinner sig"},
+            {"label": "Flexibilitet", "description": "Kostnadseffektiva och flexibla transportlösningar"}
+          ]
+        },
+        {
+          "id": "lastmile",
+          "title": "Sista Milens Leverans",
+          "description": "Koordinera slutgiltig leverans med valfri uppackning och monteringstjänster",
+          "requirements": [
+            {"label": "Tidsgemäng Leverans", "description": "Ankomst till ditt hem, kontor eller affärsplats i tid"},
+            {"label": "Valfria Tjänster", "description": "Tjänster för uppackning och montering tillgängliga"},
+            {"label": "Stressfritt", "description": "Säkerställer en helt stressfri övergång"}
+          ]
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Varför Välja Sweden Relocators för Logistik?",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Global Räckvidd med Lokal Expertis",
+          "description": "Vårt partnernätverk sträcker sig över Europa, Asien, Nordamerika och bortom. Global täckning tillsammans med lokal svensk expertis säkerställer att varje försändelse uppfyller internationella och lokala standarder."
+        },
+        {
+          "id": 2,
+          "title": "End-to-End Koordination",
+          "description": "En kontaktpunkt under hela logistikressan, från konsultation och packning till leverans och installation, vilket säkerställer konsekvens och tydlig kommunikation."
+        },
+        {
+          "id": 3,
+          "title": "Kostnadseffektiva Lösningar",
+          "description": "Genom att arbeta med ett granskat nätverk av leverantörer förhandlar vi konkurrensmässiga priser samtidigt som vi upprätthåller högsta servicekvalitet."
+        },
+        {
+          "id": 4,
+          "title": "Säker och Tillförlitlig Transport",
+          "description": "Säkerhet är vår prioritet. Våra partners använder moderna system för säker packning, hantering och transport för att skydda din gods i varje skede."
+        },
+        {
+          "id": 5,
+          "title": "Transparent Spårning och Uppdateringar",
+          "description": "Avancerade spårningssystem och regelbundna uppdateringar håller dig informerad. Vet alltid statusen för din försändelse för total sinnesfrid."
+        }
+      ]
+    },
+    "process": {
+      "heading": "Hur Vår Logistikhanteringstjänst Fungerar",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Konsultation och Planering",
+          "description": "Vi börjar med en konsultation för att förstå dina behov, tidslinje och budget. Baserat på detta utformar vi en anpassad logistikplan."
+        },
+        {
+          "number": 2,
+          "title": "Packning och Upphämtning",
+          "description": "Professionell packning och säker upphämtning arrangeras genom våra tredjepartspartners, vilket säkerställer att föremål är korrekt förberedda för transit."
+        },
+        {
+          "number": 3,
+          "title": "Frakt och Spårning",
+          "description": "Oavsett om det är med luft, sjö eller väg spåras din försändelse i realtid med uppskattade ankomstuppdateringar genom hela processen."
+        },
+        {
+          "number": 4,
+          "title": "Tullklarering och Efterlevnad",
+          "description": "All tulldokumentation förbereds och verifieras i förväg, vilket säkerställer smidig klaring med Tullverket eller annan destinationsmyndighet."
+        },
+        {
+          "number": 5,
+          "title": "Leverans och Uppackning",
+          "description": "Vid ankomst hanterar våra logistikpartners slutgiltig leverans, uppackning och montering om det krävs, vilket gör att du kan bosätta dig utan krångel."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Redo att Förenkla din Logistik?",
+      "description": "Med Sweden Relocators logistikhantering får du tillgång till ett tillförlitligt partnernätverk som kan hantera varje aspekt av din flytt eller försändelse. Skicka en tjänsteförfrågan idag.",
+      "button": "Få Dit Logistikoffertat",
+      "subtext": "Oavsett om det är personlig flytt eller affärslogistik, berätta bara dina behov och vi arrangerar tjänster med våra pålitliga logistikpartners."
+    }
+  }
+}

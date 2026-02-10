@@ -1,0 +1,163 @@
+{
+  "businessVisit": {
+    "hero": {
+      "title": "Visa d'affaires pour la Suède : Un soutien complet pour un processus fluide",
+      "subtitle": "Conseils d'experts pour votre visite temporaire d'affaires en Suède"
+    },
+    "intro": {
+      "heading": "Vous planifiez un court voyage d'affaires ou officiel en Suède ?",
+      "description": "Que vous ou votre entreprise organisiez un court voyage d'affaires en Suède, notre équipe est là pour simplifier le processus de demande de visa d'affaires pour vous. Nous nous occupons de l'intégralité du processus de demande, vous permettant ainsi de vous concentrer pleinement sur vos objectifs commerciaux."
+    },
+    "whyYouNeedVisa": {
+      "heading": "Pourquoi avez-vous besoin d'un visa d'affaires pour la Suède ?",
+      "intro": "Un visa d'affaires est nécessaire si vous prévoyez de mener des activités professionnelles en Suède, telles que participer à des réunions, négocier des contrats, assister à des conférences ou explorer des opportunités d'investissement. Ce visa est adapté aux entrepreneurs, représentants d'entreprises et professionnels ayant besoin de rester temporairement en Suède pour des raisons professionnelles. Le visa est généralement valable jusqu'à 90 jours dans une période de 180 jours, permettant plusieurs entrées en fonction de vos besoins professionnels.",
+      "subheading": "Le visa d'affaires suédois vous permet de :",
+      "benefits": [
+        {
+          "title": "Participer à des activités professionnelles",
+          "description": "Assister à des réunions d'affaires, des conférences et des sessions de formation en Suède."
+        },
+        {
+          "title": "Établir des partenariats",
+          "description": "Établir et entretenir des relations avec des entreprises ou des clients suédois."
+        },
+        {
+          "title": "Évaluer des opportunités d'investissement",
+          "description": "Évaluer les opportunités d'investissement et commerciales en Suède."
+        },
+        {
+          "title": "Gérer des affaires",
+          "description": "Superviser des projets d'affaires et des initiatives nécessitant une présence physique pendant une période limitée."
+        }
+      ]
+    },
+    "basicRequirements": {
+      "heading": "Exigences de base pour un visa d'affaires (pour les demandeurs)",
+      "intro": "Pour garantir un processus de demande sans accroc, les documents suivants sont requis :",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Formulaire de demande",
+          "description": "Un formulaire dûment rempli et signé par le demandeur."
+        },
+        {
+          "number": 2,
+          "title": "Photographie",
+          "description": "Une photo récente de type passeport (pas plus ancienne que six mois), avec un fond blanc et sans couvre-chef, sauf pour des raisons religieuses."
+        },
+        {
+          "number": 3,
+          "title": "Preuve de moyens financiers",
+          "description": "Preuve que vous disposez de fonds suffisants pour vous soutenir pendant votre séjour, y compris pour votre voyage retour. En général, vous devrez justifier d'au moins 450 SEK par jour, ce qui peut également être couvert par l'entreprise sponsorisante. Soumettez un relevé bancaire original des six derniers mois ou une preuve d'autres actifs si les relevés bancaires ne sont pas disponibles."
+        },
+        {
+          "number": 4,
+          "title": "Exigences du passeport",
+          "details": [
+            "Avoir au moins deux pages vides.",
+            "Être valable pendant au moins trois mois après la fin de votre voyage prévu.",
+            "Inclure tous les passeports précédents des sept dernières années.",
+            "Inclure une photocopie de la page biométrique et de tout visa Schengen récent."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Lettre d'invitation",
+          "description": "Une lettre d'invitation officielle de l'entreprise ou de la personne suédoise sur papier à en-tête officiel. La lettre doit inclure :",
+          "details": [
+            "L'adresse complète et les coordonnées de l'entreprise invitante.",
+            "Le nom et le poste de la personne de contact ou du signataire.",
+            "L'objet et la durée prévue de votre séjour.",
+            "Qui prendra en charge les frais de voyage et d'hébergement.",
+            "Une déclaration garantissant que le demandeur quittera la Suède avant l'expiration du visa."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Attestation d'emploi",
+          "description": "Preuve d'emploi, avec les détails suivants :",
+          "details": [
+            "Date de début de l'emploi.",
+            "Poste actuel, salaire et objet du voyage.",
+            "Approbation de congé pour la durée du voyage."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Assurance maladie",
+          "description": "Assurance voyage couvrant toute la zone Schengen et valable pendant toute la durée de votre séjour. La police doit couvrir au moins 30 000 EUR pour couvrir les frais de traitement médical d'urgence, d'hospitalisation, de rapatriement ou de décès."
+        },
+        {
+          "number": 8,
+          "title": "Réservation de billets de voyage",
+          "description": "Fournir une réservation de billets aller-retour. Les billets finaux ne sont pas requis, mais la confirmation de la première réservation est obligatoire."
+        },
+        {
+          "number": 9,
+          "title": "Preuve de logement",
+          "description": "Une réservation d'hôtel confirmée ou une autre preuve de logement (réservation principale requise)."
+        }
+      ]
+    },
+    "employerRequirements": {
+      "heading": "Exigences supplémentaires pour les employeurs ou entreprises sponsorisantes",
+      "intro": "L'employeur ou l'entreprise sponsorisante doit fournir les documents suivants :",
+      "requirements": [
+        {
+          "title": "Enregistrement commercial et carte fiscale",
+          "description": "Original et copie de l'enregistrement commercial de l'entreprise et de la carte fiscale, traduits en anglais ou en suédois, pour confirmer la légitimité de l'entreprise."
+        }
+      ]
+    },
+    "additionalDocuments": {
+      "heading": "Documents supplémentaires qui peuvent être requis",
+      "intro": "Certains documents peuvent être demandés en fonction de votre situation spécifique :",
+      "documents": [
+        {
+          "title": "Certificat de mouvement",
+          "description": "Nécessaire si vous êtes un voyageur de première fois, si votre passeport ne couvre pas les sept dernières années ou s'il y a un écart de plus de trois mois entre votre passeport actuel et le précédent."
+        },
+        {
+          "title": "Autres documents demandés par l'ambassade",
+          "description": "Des documents supplémentaires peuvent être demandés par l'ambassade en fonction des circonstances individuelles."
+        }
+      ]
+    },
+    "foreignInvestors": {
+      "heading": "Visa d'affaires pour investisseurs étrangers",
+      "description": "Un visa d'affaires suédois est également idéal pour les ressortissants étrangers qui souhaitent investir en Suède et faire des visites périodiques pour gérer leurs intérêts commerciaux. Ce visa permet plusieurs entrées et est valable pour des séjours courts allant jusqu'à 90 jours dans une période de 180 jours, renouvelable jusqu'à cinq ans. Cette flexibilité est particulièrement bénéfique pour les investisseurs qui doivent superviser le développement commercial ou effectuer des visites fréquentes sans avoir besoin de demander un permis de séjour.",
+      "additional": "Pour les voyages d'affaires de courte durée de moins de trois mois, ce visa est suffisant sans nécessiter de permis de séjour. Cependant, si vous prévoyez de rester plus longtemps ou de vous installer pour une période prolongée, un permis de séjour peut être requis."
+    },
+    "howWeAssist": {
+      "heading": "Comment nous vous aidons",
+      "intro": "Avec notre équipe qui gère le processus de visa, vous pouvez être sûr que chaque détail sera géré de manière professionnelle. Nous offrons :",
+      "services": [
+        {
+          "title": "Préparation et soumission de documents",
+          "description": "Aide à la collecte, vérification et soumission de tous les documents nécessaires pour garantir un processus fluide."
+        },
+        {
+          "title": "Conseils sur les exigences financières",
+          "description": "Conseils sur les documents financiers nécessaires pour répondre aux exigences de visa suédois."
+        },
+        {
+          "title": "Planification des rendez-vous",
+          "description": "Coordination des rendez-vous nécessaires avec l'ambassade suédoise ou le consulat pour la soumission des documents et les entretiens."
+        },
+        {
+          "title": "Assistance continue et mises à jour",
+          "description": "Mises à jour régulières sur le statut de votre visa et réponses rapides à toute demande supplémentaire de l'ambassade."
+        }
+      ]
+    },
+    "closing": {
+      "description": "Notre service complet de visa vous permet de vous concentrer sur vos objectifs commerciaux pendant que nous nous occupons de la paperasse. Contactez-nous aujourd'hui pour en savoir plus sur la manière dont nous pouvons faciliter votre voyage d'affaires temporaire en Suède et soutenir votre succès professionnel."
+    },
+    "cta": {
+      "heading": "Commencez votre demande de visa d'affaires dès aujourd'hui",
+      "description": "Contactez Sweden Relocators pour commencer votre demande de visa d'affaires avec un soutien et des conseils d'experts à chaque étape du processus.",
+      "button": "Commencez maintenant",
+      "subtext": "Visitez notre section Business Visit ou contactez-nous pour plus d'informations. Notre équipe est prête à vous aider à faire des affaires en Suède."
+    }
+  }
+}

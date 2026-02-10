@@ -1,0 +1,89 @@
+{
+  "companyRegistration": {
+    "hero": {
+      "title": "Komplet Guide til Virksomhedsregistrering i Sverige",
+      "subtitle": "Ekspertvejledning til etablering af din virksomhed lovligt i Sverige"
+    },
+    "intro": {
+      "heading": "Opstart af en Virksomhed i Sverige",
+      "description": "At starte en virksomhed i Sverige giver adgang til en af Europas mest stabile økonomier, en understøttende forretningskultur og en højt kvalificeret arbejdsstyrke. Virksomhedsregistrering er et væsentligt trin for alle, der planlægger at drive en virksomhed i Sverige, da det juridisk etablerer virksomheden og tillader den at udøve forretningsaktiviteter, indgå kontrakter og få adgang til væsentlige tjenester. Denne vejledning dækker de forskellige typer af virksomheder i Sverige, fordele og ulemper ved hver enkelt og hvorfor og hvornår virksomhedsregistrering er nødvendig."
+    },
+    "whyImportant": {
+      "heading": "Hvorfor er Virksomhedsregistrering Vigtig?",
+      "reasons": [
+        {
+          "number": 1,
+          "title": "Juridisk Anerkendelse",
+          "description": "Registrering af din virksomhed giver den juridisk status i Sverige, hvilket gør det muligt for den at indgå kontrakter, åbne bankkonti og drive forretningsaktiviteter lovligt."
+        },
+        {
+          "number": 2,
+          "title": "Skatteoverensstemmelse",
+          "description": "Registrerede virksomheder kan ansøge om momsregistrering og skal overholde svenske skatteregler, hvilket muliggør transparent økonomisk drift."
+        },
+        {
+          "number": 3,
+          "title": "Adgang til Fordele",
+          "description": "Registrerede virksomheder kan drage fordel af statlige incitamenter, skattefradrag og adgang til lån og finansiering fra svenske finansielle institutioner."
+        },
+        {
+          "number": 4,
+          "title": "Troværdighed og Tillid",
+          "description": "Registrerede virksomheder er mere betroet af kunder, leverandører og partnere, da de demonstrerer engagement i juridisk overholdelse og gennemsigtighed."
+        },
+        {
+          "number": 5,
+          "title": "Begrænset Ansvar",
+          "description": "Visse virksomhedstyper, såsom aktieselskaber, giver begrænset ansvarsværn og beskytter ejerens personlige aktiver mod virksomhedsgæld og forpligtelser."
+        }
+      ]
+    },
+    "companyTypes": {
+      "heading": "Typer af Virksomheder i Sverige",
+      "intro": "Sverige tilbyder flere typer af forretningsstrukturer, hver med specifikke fordele, ulemper og krav. Den rigtige struktur afhænger af dine forretningmål, skala og risikotolerance.",
+      "types": [
+        {
+          "number": 1,
+          "name": "Enkeltmandsvirksomhed",
+          "description": "En enkeltmandsvirksomhed ejes og drives af en enkelt person, hvilket gør det til den enkleste forretningsform i Sverige. Det er ideelt for freelancere, konsulenter og små virksomheder med minimale kapitalbehovet."
+          ,
+          "advantages": [
+            "Enkelt at etablere og vedligeholde.",
+            "Fuldstændig kontrol over forretningsbeslutninger.",
+            "Lavere administrative og regulatoriske krav.",
+            "Overskud beskattes som personlig indkomst, hvilket kan forenkle skatteansendelse."
+          ],
+          "disadvantages": [
+            "Ubegrænset ansvar: Ejeren er personligt ansvarlig for al virksomhedsgæld og forpligtelser.",
+            "Begrænset adgang til kapital: Ofte begrænset til personlige midler eller små lån.",
+            "Kan mangle troværdighed for store kunder eller investorer sammenlignet med inkorporerede enheder."
+          ],
+          "when": "Ideelt for personer, der starter en lille virksomhed eller arbejder som freelancer. Registrering anbefales generelt, hvis du har til hensigt at handle under et handelsnavn eller har brug for et momsnummer."
+        },
+        {
+          "number": 2,
+          "name": "Aktieselskab (ApS/A/S)",
+          "description": "Et aktieselskab er en selvstændig juridisk enhed adskilt fra dets aktionærer og tilbyder begrænset ansvarsværn. Dette er den mest populære struktur for startups, små virksomheder og store virksomheder.",
+          "advantages": [
+            "Begrænset ansvar: Aktionærer er ikke personligt ansvarlige for virksomhedsgæld ud over deres investering.",
+            "Lettere at tiltrække investorer: Troværdighed og potentiale for at udstede aktier.",
+            "Fleksibilitet i vækst: Egnet til virksomheder med planer om expansion eller ekstern finansiering.",
+            "Skattefordele: Virksomhedsoverskud beskattes med en virksomhedssats, som kan være mere favorabel for større gevinster."
+          ],
+          "disadvantages": [
+            "Højere initialt kapitalkrav: Minimumsaktiekapital på 50.000 DKK.",
+            "Mere kompleks administration: Kræver årsrapporter, bestyrelsesmøder og overholdelse af virksomhedsregler.",
+            "Aktionærforpligtelser: Aktionærer har ansvar, såsom at deltage i generalforsamlinger og godkende årsregnskabet."
+          ],
+          "when": "Registrering af et aktieselskab er ideelt, når du søger ekstern investering, minimerer personlig risiko eller planlægger betydelig vækst. Det er også en egnet struktur, hvis du skal beskytte dine personlige aktiver."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Start din Virksomhedsregistrering i Dag",
+      "description": "Hvis du er klar til at etablere din virksomhed i Sverige, kontakt Sweden Relocators i dag for ekspertbistand. Vi guider dig gennem hvert trin i virksomhedsregistreringsprocessen og sikrer en glat start for din virksomhed på Sveriges blomstrende marked.",
+      "button": "Kom i Gang",
+      "subtext": "Besøg vores Virksomhedsregistreringssektion eller kontakt os for mere information. Vores team er klar til at hjælpe dig med at etablere din virksomhed i Sverige."
+    }
+  }
+}

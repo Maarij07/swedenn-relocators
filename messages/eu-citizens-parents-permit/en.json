@@ -1,0 +1,217 @@
+{
+  "euCitizensParentsPermit": {
+    "hero": {
+      "title": "EU Residence Card for Dependent Parents and Other Family Members under Directive 2004/38/EC",
+      "subtitle": "Expert guidance for bringing dependent family members to Sweden"
+    },
+    "intro": {
+      "heading": "Family Unity Through EU Free Movement",
+      "description": "Under EU Directive 2004/38/EC, EU/EEA citizens exercising their right of free movement in Sweden can apply for a residence card for their dependent family members from outside the EU, including parents and other family members. This directive aims to facilitate family unity by allowing EU citizens to bring family members who are economically or socially dependent on them to live in Sweden. Here's an in-depth look at the requirements, application process, and specific cases for dependent parents and other family members."
+    },
+    "whoQualifies": {
+      "heading": "Who Qualifies as a Dependent Family Member?",
+      "intro": "To be eligible under Directive 2004/38/EC, the non-EU family member must fall into one of the following categories:",
+      "categories": [
+        {
+          "number": 1,
+          "title": "Dependent Parents",
+          "description": "Parents of an EU citizen or their spouse/partner who rely on the EU citizen for financial support or other essential care."
+        },
+        {
+          "number": 2,
+          "title": "Other Dependent Family Members",
+          "description": "This may include siblings or extended relatives if there is a clear dependency relationship, particularly if the family member and the EU citizen lived together in the previous country of residence."
+        },
+        {
+          "number": 3,
+          "title": "Children or Stepchildren",
+          "description": "Children over 21 may also qualify as dependent if they rely on the EU citizen for support, although this is assessed differently than minors."
+        }
+      ]
+    },
+    "keyConditions": {
+      "heading": "Key Conditions for Eligibility",
+      "conditions": [
+        {
+          "number": 1,
+          "title": "Proof of Dependency",
+          "description": "The applicant must provide evidence showing financial or personal dependency on the EU citizen. This could include proof of shared residence, regular financial support, or documentation of emotional and social dependence."
+        },
+        {
+          "number": 2,
+          "title": "Living Together Previously",
+          "description": "In cases involving extended family members (such as siblings or adult children), the applicant must show that they lived with the EU citizen in their home country immediately before the EU citizen moved to Sweden."
+        },
+        {
+          "number": 3,
+          "title": "Timely Application",
+          "description": "Applications should ideally be submitted as soon as possible after the EU citizen arrives in Sweden. Delayed applications may reduce the likelihood of approval, especially if the dependency has developed only after the EU citizen's relocation."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Application Process for a Residence Card under Directive 2004/38/EC",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Prepare Documentation for Dependency and Relationship",
+          "intro": "Gathering the necessary documentation is crucial. Key documents include:",
+          "documents": [
+            {
+              "title": "Proof of Identity",
+              "description": "Valid passport of the non-EU family member."
+            },
+            {
+              "title": "Proof of Relationship",
+              "details": [
+                "For parents: Birth certificate of the EU citizen showing the parental relationship.",
+                "For other family members: Documents showing the family relationship (e.g., birth certificates or family registers)."
+              ]
+            },
+            {
+              "title": "Evidence of Dependency",
+              "description": "This can include bank statements, proof of regular financial transfers, proof of shared housing, and any other documents that demonstrate reliance on the EU citizen for financial or emotional support."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Submit the Application",
+          "intro": "The non-EU family member must apply for a residence card, which can be submitted to the Swedish Migration Agency (Migrationsverket) either online or through a Swedish embassy or consulate in the applicant's home country.",
+          "details": [
+            "Applicant Details: Information about the EU citizen, their residence status in Sweden, and the dependent's personal details.",
+            "Supporting Documents: All required documents demonstrating the dependency relationship and proof of residence for the EU citizen in Sweden."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Migration Agency Review",
+          "intro": "The Migration Agency will assess the relationship and dependency based on the evidence provided. They may request additional documentation or clarifications if needed. The review focuses on:",
+          "details": [
+            "Verification of Dependency: Confirming that the non-EU family member is genuinely reliant on the EU citizen.",
+            "Family Relationship: Verifying the applicant's family connection to the EU citizen and ensuring that dependency existed prior to moving to Sweden."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Decision and Residence Card Issuance",
+          "description": "If approved, the non-EU family member will receive a residence card valid for five years or the expected duration of the EU citizen's residence in Sweden (whichever is shorter). The residence card permits the holder to live, work, and access healthcare in Sweden under the same conditions as EU family members."
+        }
+      ]
+    },
+    "specificCases": {
+      "heading": "Specific Cases: Requirements for Dependent Parents and Other Family Members",
+      "dependentParents": {
+        "heading": "Residence Permit for Dependent Parents",
+        "intro": "For dependent parents, the primary conditions include demonstrating economic or health-related dependence on the EU citizen. Examples of acceptable documentation may include:",
+        "documentation": [
+          {
+            "title": "Financial Support Evidence",
+            "description": "Bank transfers, remittance receipts, or proof of regular financial support from the EU citizen."
+          },
+          {
+            "title": "Health-Related Dependency",
+            "description": "Medical certificates or documentation of special needs that require close proximity to the EU citizen for support and care."
+          }
+        ],
+        "note": "In cases where the parent has substantial health needs, additional documentation may be required to show that suitable care options are not available in their home country."
+      },
+      "otherFamilyMembers": {
+        "heading": "Residence Permit for Other Dependent Family Members",
+        "intro": "For other dependent family members (e.g., adult siblings or extended relatives), the requirements are typically more stringent:",
+        "requirements": [
+          {
+            "title": "Proof of Shared Household",
+            "description": "Evidence that the family member lived with the EU citizen prior to their relocation to Sweden, such as a joint lease or utility bills."
+          },
+          {
+            "title": "Emotional and Social Dependence",
+            "description": "Affidavits or statements demonstrating a strong social and emotional bond may be required, especially if the relationship extends beyond financial dependence."
+          }
+        ]
+      }
+    },
+    "maintenanceRequirement": {
+      "heading": "Maintenance Requirement for the EU Sponsor",
+      "intro": "Under Swedish regulations, the EU citizen must be able to provide financial support and suitable accommodation for their non-EU family member. This includes:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Stable Income",
+          "description": "Proof of employment, regular income, or financial resources that demonstrate the EU citizen can support themselves and their dependent."
+        },
+        {
+          "number": 2,
+          "title": "Housing Requirement",
+          "description": "The EU citizen must have suitable housing that meets Swedish standards for living space and privacy. This can include rental agreements, proof of homeownership, or a sublease with landlord approval."
+        }
+      ],
+      "note": "The maintenance requirement does not apply to minor children (under 18 years). This means that if a parent is applying to join a minor child in Sweden, the child does not need to meet income or housing requirements."
+    },
+    "additionalConsiderations": {
+      "heading": "Additional Considerations",
+      "timeliness": {
+        "heading": "Timeliness of the Application",
+        "description": "Applications submitted soon after the EU citizen's relocation to Sweden are more likely to succeed. Long delays in application submission may complicate the process, as authorities might question the existence of prior dependency. Ideally, applications for dependent family members should be submitted within a few months of the EU citizen's arrival in Sweden."
+      },
+      "changes": {
+        "heading": "Changes in Dependency Status",
+        "description": "If the dependency status changes (for example, if the non-EU family member becomes financially independent), it may impact the status of the residence card. The Swedish Migration Agency may periodically review these cases to ensure compliance with residency criteria."
+      },
+      "renewal": {
+        "heading": "Renewing the Residence Card",
+        "description": "Residence cards for dependent family members are typically valid for up to five years. Renewal is possible, provided the dependency relationship continues and the EU citizen remains a resident of Sweden. Renewal applications should be submitted well in advance of the expiration date, with updated documentation demonstrating continued dependency."
+      }
+    },
+    "howWeHelp": {
+      "heading": "How Sweden Relocators Can Assist with EU Residence Card Applications",
+      "intro": "Navigating the process for obtaining an EU residence card for dependent family members under Directive 2004/38/EC can be complex. Sweden Relocators provides expert assistance, helping ensure all documentation is in order, and guiding you through each step of the application process.",
+      "subheading": "Our Services Include:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Eligibility Assessment",
+          "description": "We review your family's specific circumstances to determine if your non-EU family members qualify as dependents under Swedish law."
+        },
+        {
+          "number": 2,
+          "title": "Document Preparation",
+          "description": "Our team helps gather and prepare all required documents, including proof of relationship, dependency, and financial support."
+        },
+        {
+          "number": 3,
+          "title": "Application Submission and Monitoring",
+          "description": "We assist with the application submission process and monitor progress with the Migration Agency to ensure timely updates."
+        },
+        {
+          "number": 4,
+          "title": "Appeals Support",
+          "description": "In cases of application denial, we offer guidance on the appeals process, helping strengthen your case for reconsideration."
+        }
+      ]
+    },
+    "benefitsOfService": {
+      "heading": "Benefits of Our Service",
+      "benefits": [
+        {
+          "title": "Experienced Guidance",
+          "description": "Familiarity with Directive 2004/38/EC and the Migration Agency's requirements allows us to offer precise, effective advice."
+        },
+        {
+          "title": "Comprehensive Support",
+          "description": "From eligibility verification to document preparation and appeal support, we handle every aspect of your application."
+        },
+        {
+          "title": "Personalized Service",
+          "description": "Every case is unique, and we tailor our approach to your family's specific needs, providing the most effective solutions."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Bring Your Loved Ones to Sweden Today",
+      "description": "If you need assistance with obtaining an EU residence card for your dependent parents or other family members, Sweden Relocators is here to help. Contact us today to discuss your family's eligibility and learn how we can support your journey to bring your loved ones to Sweden.",
+      "button": "Get Started",
+      "subtext": "Visit our EU Citizens Parents Permit Section or contact us for more information. Our team is ready to help you reunite with your family."
+    }
+  }
+}

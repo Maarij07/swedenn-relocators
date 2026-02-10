@@ -1,0 +1,186 @@
+{
+  "familyReunification": {
+    "hero": {
+      "title": "Familjesammanförning i Sverige",
+      "subtitle": "Omfattande Guide enligt Svensk Nationell Lag"
+    },
+    "intro": {
+      "heading": "Få Din Familj till Sverige",
+      "description": "Sveriges familjesammanföringslagar gör det möjligt för personer som innehar olika typer av uppehållstillstånd - inklusive arbetsvisum, företagsvisum, doktoral- och studievisum samt permanenta uppehållstillstånd - liksom flyktingar, att få familjemedlemmar till Sverige. Varje typfall har specifika krav och bedöms enligt olika bestämmelser i svensk nationell lag.",
+      "infoBox": "Navigera komplexa krav för familjesammanförning med expertkunskap om svensk nationell lag och specifik bedömning av tillståndstyper."
+    },
+    "lawsHeading": "Centrala Svenska Lagar som Reglerar Familjesammanförning",
+    "laws": [
+      {
+        "name": "Utlänningslagen",
+        "description": "Huvudlagstiftningen som styr uppehållstillstånd och familjesammanförning för alla icke-svenska medborgare."
+      },
+      {
+        "name": "Tillfälliga Utlänningslagen",
+        "description": "En tillfällig lag som påverkar krav på familjesammanförning, främst för flyktingar och personer som behöver subsidiärt skydd."
+      },
+      {
+        "name": "Lag om Svenskt Medborgarskap",
+        "description": "Relevant för svenska medborgare och permanent bosatta som inbjuder familjemedlemmar."
+      },
+      {
+        "name": "Socialförsäkringsbalken",
+        "description": "Ger vägledning om acceptabla inkomstkällor för försörjningskravet."
+      }
+    ],
+    "eligibility": {
+      "heading": "Vem Kan Sponsras?",
+      "description": "Familjesammanförning är i allmänhet tillgänglig för berättigade familjemedlemmar enligt svensk lag. Varje relationstyp har specifika behörighetskriterier.",
+      "familyMembers": [
+        {
+          "type": "Make/Maka eller Registrerad Partne",
+          "description": "Lagligen gifta eller registrerade partners"
+        },
+        {
+          "type": "Sammanboende Partner",
+          "description": "Långtidiga, oregistrerade partners kan kvalificera sig om relationen är väldokumenterad"
+        },
+        {
+          "type": "Barn Under 18 År",
+          "description": "Minderåriga barn till tillståndsinnehavaren eller deras make/partner"
+        },
+        {
+          "type": "Föräldrar (för Minderåriga Tillståndsinnehavare)",
+          "description": "För tillståndsinnehavare under 18 år kan föräldrar eller vårdnadshavare vara berättigade"
+        },
+        {
+          "type": "Utökad Familj",
+          "description": "Övriga familjemedlemmar kan beaktas av humanitära skäl"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Försörjnings- och Bostadskrav",
+      "description": "Försörjningskravet är väsentligt för de flesta familjesammanförningsansökningar och säkerställer att huvudsökanden har tillräcklig inkomst och lämplig boendesituation för att stödja familjemedlemmar.",
+      "maintenanceLabel": "Inkomstkrav",
+      "housingLabel": "Bostadskrav",
+      "maintenance": [
+        "Stabil inkomst för att täcka levnadskostnader",
+        "Anställningskontrakt eller bevis på egenföretagande",
+        "Senaste lönekupor och självdeklarationer",
+        "Dokumentation av sociala förmåner om tillämpligt"
+      ],
+      "housing": [
+        "Hyresavtal eller ägandebevis",
+        "Tillräckligt antal rum för alla familjemedlemmar",
+        "Bevis på månadshyra eller ägarekostnader",
+        "Motsvarar Svenska bostadsstandarder"
+      ]
+    },
+    "assessmentHeading": "Bedömningskriterier Efter Tillståndstyp",
+    "assessmentCriteria": [
+      {
+        "title": "Arbetsvisumsinnehavare",
+        "requirements": ["Långtidsanställning med tillräcklig lön", "Anställningskontrakt och lönekupor", "Bevis på finansiell stabilitet", "Lämplig boendesituation"]
+      },
+      {
+        "title": "Företagsvisumsinnehavare",
+        "requirements": ["Lönsam verksamhet som ger adekvat inkomst", "Självdeklarationer och verksamhetsöversikter", "Preliminära skattebeskeder från Skatteverket", "Påvisad affärsbärighet"]
+      },
+      {
+        "title": "Doktorstuderande och Forskare",
+        "requirements": ["Stabil finansiering eller stipendier", "Programvaraktighet generellt längre än ett år", "Inkomstdokumentation från utbildningsinstitution", "Boendemöjligheter i Sverige"]
+      },
+      {
+        "title": "Permanent Uppehållstillståndsinnehavare",
+        "requirements": ["Långsiktigt bosatt med starka band till Sverige", "Inkomstbedömning med möjlig flexibilitet", "Bedömning av bostadsstandarder", "Eventuella mer långsamma krav"]
+      },
+      {
+        "title": "Flyktingar och Subsidiä Skyddsinnehavare",
+        "requirements": ["Möjlig befrielse från försörjningskrav inom 3 månader", "Bevis på relation innan ankomst till Sverige", "Dokumentation av familjerelation", "Bedöms enligt Tillfälliga Utlänningslagen"]
+      }
+    ],
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Förbered Dokumentation",
+        "description": "Samla alla nödvändiga dokument, inklusive pass, bevis på relation (vigsel- eller födelsebevis), hyresavtal och inkomstverifiering."
+      },
+      {
+        "step": "2",
+        "title": "Lämna In Ansökan",
+        "description": "Lämna in ansökningar online via Migrationsverkets portal eller på svenska ambassad/konsulat, inklusive bevis på relation och boendes-/inkomstverifiering."
+      },
+      {
+        "step": "3",
+        "title": "Migrationsverkets Granskning",
+        "description": "Migrationsverket verifierar att alla krav är uppfyllda, bedömer inkomst, boende och familj eligibilitet enligt din specifika tillståndstyp."
+      },
+      {
+        "step": "4",
+        "title": "Beslut och Underrättelse",
+        "description": "Efter bedömningen fattar myndigheten ett beslut. Om det godkänns kan familjemedlemmar få uppehållstillstånd som motsvarar sponsorns tillståndsvaraktighet."
+      }
+    ],
+    "legalProvisions": {
+      "heading": "Specifika Juridiska Bestämmelser",
+      "description": "Familjesammanförning i Sverige styrs av specifika juridiska bestämmelser anpassade till olika tillståndstyper och familjsituationer.",
+      "acts": [
+        {
+          "name": "Utlänningslagen",
+          "details": "Primär juridisk ram för familjesammanförning, som täcker inkomst, boende och relationsverifiering med försörjnings- och bostadsstandarder."
+        },
+        {
+          "name": "Tillfälliga Utlänningslagen",
+          "details": "Använder strängare försörjningskrav för flyktingar, med betoning på finansiell oberoende bortom tremånadersperioden."
+        },
+        {
+          "name": "Socialförsäkringsbalken",
+          "details": "Definierar acceptabla inkomstkällor, särskilt relevant för sponsorer som förlitar sig på bidrag eller arbetslöshet."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Våra Tjänster",
+      "description": "Sweden Relocators erbjuder omfattande stöd för att hjälpa dig navigera familjesammanförning i Sverige och säkerställa att din ansökan uppfyller alla svenska juridiska standarder.",
+      "servicesList": [
+        {
+          "title": "Behörighetsprövning",
+          "description": "Vi bedömer din specifika tillståndstyp, inkomst, boende och familjeberechtighet för att bestämma den bästa strategin."
+        },
+        {
+          "title": "Dokumentförberedelse",
+          "description": "Hjälp med att samla alla nödvändiga dokument, översätta utländska dokument vid behov, och säkerställa fullständig noggrannhet."
+        },
+        {
+          "title": "Ansökan Inlämning och Övervakning",
+          "description": "Lämnar in din ansökan för din räkning och följer upp med Migrationsverket."
+        },
+        {
+          "title": "Stöd för Överklaganden",
+          "description": "Om din ansökan avslås ger vi vägledning genom överklagningsprocessen för att stärka ditt ärende."
+        },
+        {
+          "title": "Juridisk Överensstämmelsesäkerhet",
+          "description": "Vi säkerställer att all dokumentation uppfyller svenska juridiska standarder och specifika tillståndstypers krav."
+        }
+      ]
+    },
+    "whyChooseHeading": "Varför Välja Sweden Relocators?",
+    "whyChoose": [
+      {
+        "title": "Expertkunskap",
+        "description": "Djup kunskap om svenska familjesammanföringslagar och krav för alla tillståndstyper."
+      },
+      {
+        "title": "Personlig Stöd",
+        "description": "Vi skräddarsyr vårt stöd enligt din specifika tillståndstyp och situation för maximalt framgång."
+      },
+      {
+        "title": "Effektiv Behandling",
+        "description": "Genom att säkerställa noggrannhet och överensstämmelse hjälper vi dig att undvika förseningar eller avslag, vilket gör processen smidigare och mer effektiv."
+      }
+    ],
+    "cta": {
+      "heading": "Redo att Återförenas med Din Familj i Sverige?",
+      "description": "Familjesammanförning är en komplex process med specifika krav för varje tillståndstyp. Låt Sweden Relocators vägleda dig genom familjesammanförningsprocessen i Sverige, och säkerställ att alla juridiska krav är uppfyllda för en framgångsrik ansökan.",
+      "button": "Starta Din Familjesammanförning Ansökan",
+      "subtext": "Vårt expertkompetent team kommer vägleda dig genom varje steg av den svenska familjesammanförningsprocessen."
+    }
+  }
+}

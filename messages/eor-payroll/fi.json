@@ -1,0 +1,250 @@
+{
+  "eorPayroll": {
+    "hero": {
+      "title": "Työnantaja edustaja (EOR) & Palkanlaskenta palvelut Ruotsissa",
+      "subtitle": "Laajenna liiketoimintaasi Ruotsiin avaamatta paikallista yksikköä"
+    },
+    "intro": {
+      "heading": "Virtaviivainen EOR & Palkanlaskenta kansainväliseen kasvuun",
+      "description": "Liiketoimintasi laajentaminen Ruotsiin tai kansainvälisten työntekijöiden hallinta ei tarvitse olla monimutkaista. Sweden Relocators tarjoaa täydellisen työnantaja edustaja (EOR) ja palkanlaskenta ratkaisun verkkopalvelun ja mobiilisovelluksen kautta, auttaen yrityksiä palkkaamaan ja hallitsemaan henkilökuntaa Ruotsissa avaamatta paikallista oikeudellista yksikköä. Palvelumme yhdistävät noudattamisen, palkanlaskennan ja työntekijätuen yhteen virtaviivaiseen järjestelmään.",
+      "infoBox": "Olipa kyseessä startup, joka testaa ruotsalaista markkinaa, monikansallinen yritys, joka palkkaa etätyöntekijöitä, tai yritys, joka siirtää työntekijöitä, EOR & palkanlaskenta palvelumme varmistavat oikeudellisen noudattamisen, tarkan palkanlaskennan ja työntekijöiden tyytyväisyyden."
+    },
+    "whatIsEOR": {
+      "heading": "Mikä on työnantaja edustaja (EOR)?",
+      "description": "Työnantaja edustaja (EOR) on luotettu kolmas osapuoli, joka toimii työvoimasi oikeudellisena työnantajana Ruotsissa. Vaikka sinä ohjaat päivittäistä työtä, me hoidamme työsuhteen oikeudelliset, hallinnolliset ja noudattamiseen liittyvät asiat. Tämä sisältää työsopimusten laatimisen ruotsalaisen työoikeuden mukaisesti, työntekijöiden rekisteröinnin Verohallinnon (ruotsalainen veroviranomainen) kanssa, palkkojen, verovähennysten ja sosiaaliturvamaksujen hallinnan, etuuksien, eläkkeiden ja vakuutusten hallinnan sekä ruotsalaisten työllistämiskäytäntöjen ja EU-sääntöjen noudattamisen varmistamisen. Yrityksille tämä tarkoittaa, että voit nopeasti laajentaa Ruotsiin avaamatta tytäryhtiötä tai käyttämällä kuukausia sääntelyjärjestelyn kanssa."
+    },
+    "whyCompaniesUse": {
+      "heading": "Miksi yritykset käyttävät EOR-palveluita Ruotsissa",
+      "intro": "Ruotsi on yksi Euroopan vahvimmista talouksista, tunnettu innovaatiopohjaisista markkinoistaan, erittäin koulutetusta työvoimastaan ja vahvoista oikeudellisista suojista työntekijöille. Mutta ulkomaisille yrityksille työntekijöiden palkkaaminen Ruotsissa voi olla haastavaa seuraavista syistä:",
+      "challenges": [
+        {
+          "title": "Monimutkaiset työoikeuslait",
+          "description": "Ruotsi valvoo vahvoja työntekijöiden oikeuksia työsuojelulain (LAS) mukaisesti."
+        },
+        {
+          "title": "Tiukka veronmaksun noudattaminen",
+          "description": "Työnantajien on rekisteröidyttävä Verohallinnon kanssa ja hoidettava PAYE-verovähennykset, eläkkeet ja työnantajamaksut."
+        },
+        {
+          "title": "Aikaa vievä perustaminen",
+          "description": "Paikallisen yksikön (AB) perustaminen voi viedä kuukausia ja viivästyttää liiketoiminnan laajentumista."
+        },
+        {
+          "title": "Korkeat noudattamisriskit",
+          "description": "Virheet palkanlaskennassa, verotuksessa tai etuuksien hallinnassa voivat johtaa sakkoihin tai riitoihin."
+        }
+      ],
+      "conclusion": "EOR-palvelumme ratkaisee nämä haasteet toimimalla oikeudellisena työnantajana, jolloin voit keskittyä kasvuun kun me hoidamme noudattamisen."
+    },
+    "howItWorks": {
+      "heading": "Miten Sweden Relocatorsin EOR-palvelu toimii",
+      "description": "Tarjoamme vaiheittaisen digitaalisen prosessin työntekijöiden palkkaamiseen ja hallintaan Ruotsissa:",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Yrityksen rekisteröinti",
+          "description": "Rekisteröidy työnantajaksi portaaliimme."
+        },
+        {
+          "step": 2,
+          "title": "Työntekijöiden perehdytys",
+          "description": "Lisää työntekijätiedot (sopimukset, palkat, edut) digitaalisen alustamme kautta."
+        },
+        {
+          "step": 3,
+          "title": "Oikeudellinen noudattaminen",
+          "description": "Laadimme työsopimukset, jotka noudattavat ruotsalaista ja EU-lainsäädäntöä."
+        },
+        {
+          "step": 4,
+          "title": "Palkanlaskenta",
+          "description": "Järjestelmämme laskee nettopalkat, verovähennykset ja sosiaaliturvamaksut."
+        },
+        {
+          "step": 5,
+          "title": "Jatkuva tuki",
+          "description": "Hoidamme edut, eläkkeet ja HR-noudattamisen koko työsuhden ajan."
+        },
+        {
+          "step": 6,
+          "title": "Perehdytyksen lopetus",
+          "description": "Jos sopimukset päättyvät, hoidamme irtisanomisaikaa, irtisanomiskorvauksia ja irtisanomisen noudattamista."
+        }
+      ]
+    },
+    "payrollProcess": {
+      "heading": "Palkanlaskenta palvelut Ruotsissa - Täysi prosessi",
+      "intro": "Palkanlaskenta Ruotsissa on erittäin säänneltyä, ja tarkkuus on ratkaisevan tärkeää. Palkanlaskenta palvelumme on täysin integroitu EOR-järjestelmäämme varmistaaksemme sujuvat, noudattamista vastaavat maksut.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Työntekijöiden perustaminen",
+          "description": "Syötä työntekijätiedot portaaliin: palkka, edut, eläke ja vähennykset. Rekisteröidy Verohallinnon kanssa PAYE-verojen ja sosiaaliturvamaksujen osalta."
+        },
+        {
+          "step": 2,
+          "title": "Kuukausittainen palkanlaskenta",
+          "description": "Automatisoidut palkkalaskelmat mukaan lukien verot, eläkkeet ja vakuutukset. Työnantajamaksut (arbetsgivaravgifter) lasketaan ja raportoidaan. Työehtosopimusten noudattaminen (mikäli sovellettavissa)."
+        },
+        {
+          "step": 3,
+          "title": "Palkanmaksut",
+          "description": "Suorat pankkitalletukset työntekijöiden tileille. Työntekijät pääsevät käsiksi digitaalisiin palkkalaskelmiin, joissa näkyy täysi erittely ansioista ja vähennyksistä."
+        },
+        {
+          "step": 4,
+          "title": "Veronmaksun noudattaminen",
+          "description": "Kuukausittaiset veronilmoitukset Verohallinnolle. Vuosittaiset ilmoitukset tuloilmoituksista työntekijöille. Turvalliset rekisterit tallennettuna portaaliin sekä työnantajan että työntekijän käyttöön."
+        },
+        {
+          "step": 5,
+          "title": "Etuuksien hallinta",
+          "description": "Eläkkeiden, sairausvakuutusten ja vanhempainrahatuen perustaminen ruotsalaisten standardien mukaisesti. Automaattinen hallinta palkanlaskentajärjestelmän kautta."
+        }
+      ]
+    },
+    "complianceAndLegal": {
+      "heading": "Noudattaminen ja oikeudelliset viittaukset",
+      "intro": "EOR & palkanlaskenta palvelumme toimivat tiukasti ruotsalaisten ja EU-sääntöjen puitteissa:",
+      "references": [
+        {
+          "title": "Työsuojelulaki (LAS)",
+          "description": "Säätelee työsuojelua ja irtisanomissääntöjä."
+        },
+        {
+          "title": "Verohallinto (Skatteverket)",
+          "description": "Valvoo PAYE:tä, työnantajamaksuja ja ilmoituksia."
+        },
+        {
+          "title": "Sosiaalivakuutuslaki",
+          "description": "Säätelee eläkkeitä, vanhempainvapaata ja työntekijöiden suojaa."
+        },
+        {
+          "title": "GDPR-noudattaminen",
+          "description": "Varmistaa työntekijöiden tietosuojan."
+        },
+        {
+          "title": "EU-direktiivit",
+          "description": "Mukaan lukien vapaan liikkuvuuden säännöt ja työntekijöiden oikeudet EU-lainsäädännön mukaisesti."
+        }
+      ],
+      "conclusion": "Käyttämällä Sweden Relocatorsia yrityksesi välttää noudattamisriskejä ja varmistaa, että kaikki työllistämiseen liittyvät velvollisuudet täyttyvät."
+    },
+    "benefitsForCompanies": {
+      "heading": "Hyödyt yrityksille",
+      "benefits": [
+        {
+          "title": "Laajenna nopeasti",
+          "description": "Palkkaa henkilökuntaa Ruotsiin avaamatta tytäryhtiötä."
+        },
+        {
+          "title": "Säästä aikaa ja kustannuksia",
+          "description": "Vältä oikeudellista perustamista, kirjanpitoa ja HR-hallintoa."
+        },
+        {
+          "title": "Pysy noudattamisessa",
+          "description": "Kaikki työllistäminen, verotus ja palkanlaskenta hoidetaan ruotsalaisen lainsäädännön puitteissa."
+        },
+        {
+          "title": "Laajenna helposti",
+          "description": "Lisää tai poista työntekijöitä nopeasti liiketoiminnan tarpeiden mukaan."
+        },
+        {
+          "title": "Yksi digitaalinen alusta",
+          "description": "Hallitse kaikkea portaalin ja sovelluksen kautta."
+        }
+      ]
+    },
+    "benefitsForEmployees": {
+      "heading": "Hyödyt työntekijöille",
+      "benefits": [
+        {
+          "title": "Ajoissa maksettavat palkat",
+          "description": "Luotettava palkanlaskenta läpinäkyvillä palkkalaskelmilla."
+        },
+        {
+          "title": "Edut ja eläkkeet",
+          "description": "Täysi noudattaminen ruotsalaisten etujärjestelmien mukaisesti."
+        },
+        {
+          "title": "Oikeudellinen suoja",
+          "description": "Työsopimukset noudattavat ruotsalaisia standardeja."
+        },
+        {
+          "title": "Luottamus ja vakaus",
+          "description": "Työntekijät tunnistavat olonsa turvalliseksi, mikä parantaa pidättävyyttä."
+        }
+      ]
+    },
+    "whoShouldUse": {
+      "heading": "Kenellä tulisi käyttää EOR & palkanlaskenta palveluita?",
+      "intro": "Ratkaisumme sopivat erityisen hyvin:",
+      "solutions": [
+        {
+          "title": "Startup-yritykset & pk-yritykset",
+          "description": "Palkkaa henkilökuntaa ilman raskaita perustamiskustannuksia."
+        },
+        {
+          "title": "Globaalit yritykset",
+          "description": "Laajenna Ruotsiin ilman paikallista rekisteröintiä."
+        },
+        {
+          "title": "Projektipohjainen palkkaaminen",
+          "description": "Lyhytaikaiset tai kausityöntekijät hoidetaan helposti."
+        },
+        {
+          "title": "Etätyöryhmät",
+          "description": "Palkkaa etätyöntekijöitä Ruotsiin lain mukaisesti."
+        },
+        {
+          "title": "Siirrot",
+          "description": "Siirrä työntekijöitä Ruotsiin täydellä HR-tuella."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Miksi valita Sweden Relocators?",
+      "reasons": [
+        {
+          "title": "Kaikki yhdessä digitaalisessa portaalisssa",
+          "description": "Hallitse sopimuksia, palkkoja ja noudattamista yhdessä järjestelmässä."
+        },
+        {
+          "title": "Asiantuntemus ruotsalaisessa työoikeudessa",
+          "description": "Vähennä oikeudellisia ja veroriskejä."
+        },
+        {
+          "title": "Läpinäkyvät prosessit",
+          "description": "Reaaliaikaiset raportit ja rekisterit sekä työnantajille että työntekijöille."
+        },
+        {
+          "title": "Kokonaisvaltainen siirtotuki",
+          "description": "EOR-palvelujemme lisäksi autamme majoituksessa, viiseissä ja integraatiossa."
+        },
+        {
+          "title": "Monikielinen tuki",
+          "description": "Tuki englanniksi, ruotsiksi, urdulla, arabiaksi, persiaksi ja muilla kielillä."
+        }
+      ]
+    },
+    "gettingStarted": {
+      "heading": "Aloittaminen",
+      "steps": [
+        "Rekisteröidy yritys portaaliimme.",
+        "Lisää työntekijät palkka- ja sopimustietojen kanssa.",
+        "Aktivoi palkanlaskenta & noudattaminen – Me hoidamme loput.",
+        "Keskity liiketoiminnan kasvuun kun me hoidamme työllistämisen."
+      ]
+    },
+    "conclusion": {
+      "heading": "Laajenna Ruotsiin luottamuksella",
+      "description": "Sweden Relocatorsin työnantaja edustaja (EOR) ja palkanlaskenta palveluiden avulla yrityksesi voi laajentaa Ruotsiin luottamuksella. Hoidamme oikeudelliset, verotukselliset ja palkanlaskennan monimutkaisuudet, kun sinä keskityt liiketoimintasi rakentamiseen. Tarvitsetpa yhden työntekijän tai koko tiimin, alustamme varmistaa sujuvan työvoiman hallinnan."
+    },
+    "cta": {
+      "heading": "Valmiina laajentamaan liiketoimintaasi Ruotsiin?",
+      "description": "Anna Sweden Relocatorsin hoitaa EOR- ja palkanlaskennan monimutkaisuus. Asiantuntijamme ohjaavat sinua koko prosessin läpi ja varmistavat täydellisen oikeudellisen noudattamisen ja työntekijöiden tyytyväisyyden.",
+      "button": "Aloita EOR-palveluiden kanssa",
+      "subtext": "Sitoutunut tiimimme on valmiina vastaamaan kaikkiin kysymyksiisi työntekijöiden palkkaamisesta Ruotsissa."
+    }
+  }
+}

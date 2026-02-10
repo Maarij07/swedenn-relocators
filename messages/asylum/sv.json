@@ -1,0 +1,171 @@
+{
+  "asylum": {
+    "hero": {
+      "title": "Asyl i Sverige: Professionell support för en säker framtid",
+      "subtitle": "Expertvägledning genom den svenska asylprocessen"
+    },
+    "intro": {
+      "heading": "Vad Vi Erbjuder",
+      "description": "Om du söker asyl i Sverige kan det vara överväldigande att förstå den juridiska processen och uppfylla kraven. Hos Sweden Relocators hjälper vårt team av erfarna immigrationsspecialister dig genom varje steg av asylprocessen på Migrationsverket, vilket säkerställer att ditt ärende hanteras med största omsorg och professionalitet."
+    },
+    "whyChooseExpert": {
+      "heading": "Varför Välja en Expert?",
+      "description": "Att navigera asylprocessen i Sverige kan vara komplex, med specifika regler och tidsfrister. Här är hur vårt expertteam kan göra skillnad för dig:",
+      "benefits": [
+        {
+          "title": "Sinnesfrid",
+          "description": "Med vårt professionella team som sköter ditt ärende kan du fokusera på andra aspekter av att bosätta dig i Sverige. Vi är engagerade i att säkerställa att din asylansökan hanteras effektivt och med medkänsla."
+        },
+        {
+          "title": "Tydlig och Transparent Vägledning",
+          "description": "Våra specialister förenklar komplexa juridiska krav, vilket säkerställer att du förstår varje steg. Oavsett hur komplicerat ditt ärende kan verka är vårt team beredd att hjälpa dig att klargöra och effektivt presentera dina asylskäl."
+        },
+        {
+          "title": "Omedelbar Tillgång till Juridisk Expert",
+          "description": "Våra immigrationsadvokater börjar arbeta med ditt ärende så snart du kontaktar oss, vilket ger ett omedelbar svar på dina farhågor och säkerställer att ditt ärende prioriteras och bearbetas snabbt."
+        }
+      ]
+    },
+    "eligibility": {
+      "heading": "Behörighet för Asyl i Sverige",
+      "whoCanApply": {
+        "heading": "Vem Kan Söka Asyl?",
+        "intro": "För att söka asyl i Sverige måste du vara fysiskt närvarande i landet eller vid dess gräns. Det är inte möjligt att ansöka från ett annat land eller vid en svensk ambassad utomlands.",
+        "description": "Varje asylsökandes ärende granskas individuellt, och Migrationsverket beviljar endast ett uppehållstillstånd om den sökande uppfyller kriterierna för att betraktas som flykting enligt både svensk lag och FN:s flyktingkonvention."
+      },
+      "refugeeDefinition": {
+        "heading": "Flyktingdefinition och Kriterier",
+        "intro": "Enligt svensk lag och internationella riktlinjer kvalificerar sig en person som flykting om de möter förföljelse eller allvarliga hot i sitt hemland baserat på:",
+        "criteria": [
+          "Ras",
+          "Nationalitet, Språk eller Etnisk Grupp",
+          "Religion",
+          "Politisk Övertygelse eller Aktivism",
+          "Könsidentitet",
+          "Sexuell Läggning",
+          "Medlemskap i en Särskild Social Grupp"
+        ],
+        "additionalInfo": "Om grupper eller individer i ditt hemland hotar dig eller dina nära och kära kan detta påverka din ansökan. Dock kräver ett positivt beslut tydliga bevis på förföljelse relaterad till en av dessa faktorer. Under ansökningsprocessen kommer du att uppmanas att beskriva de risker du står inför om du skulle återvända till ditt land.",
+        "outcome": "Om ditt ärende bifalls kan du få ett uppehållstillstånd giltigt för antingen tre år eller 13 månader, beroende på specifika omständigheter i din situation."
+      }
+    },
+    "applicationProcess": {
+      "heading": "Steg för att Söka Asyl i Sverige",
+      "intro": "Steg-för-Steg Process",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Fysisk Närvaro Krävs",
+          "description": "Du måste vara fysiskt närvarande i Sverige eller vid den svenska gränsen för att söka asyl."
+        },
+        {
+          "step": 2,
+          "title": "Initial Möte på Migrationsverket",
+          "description": "När du lämnar in din ansökan kommer du att bjudas in till ett initial möte på Migrationsverket. Under detta möte kommer du att ha möjlighet att välja din juridiska representant eller advokat. I detta skede kan du välja vårt erfarna team för att stödja dig."
+        },
+        {
+          "step": 3,
+          "title": "Juridisk Representation och Ärendeförberedelse",
+          "description": "Om du väljer oss som din representant kommer Migrationsverket att kontakta oss för att assistera med ditt ärende. Vårt team kommer att schemalägga ett samtal med dig för att samla information om din bakgrund och dina skäl för att söka asyl. Vi kommer också att förbereda dig för framtida intervjuer och dokumentinskickning."
+        }
+      ]
+    },
+    "legalRepresentative": {
+      "heading": "Vår Roll som Din Juridiska Representant",
+      "intro": "Som din juridiska representant kommer vi att:",
+      "services": [
+        "Ge fortsatt stöd och juridisk rådgivning under hela asylprocessen.",
+        "Hjälpa till att klargöra dina asylskäl för Migrationsverket, genom att dra nytta av vår djupa kunskap om svensk asyllagstiftning.",
+        "Säkerställa att dina rättigheter skyddas, särskilt eftersom asylsökande inte förväntas vara bekanta med svenska juridiska processer.",
+        "Hjälpa dig att navigera överklaganden om din initiala ansökan avslås. Vi kan hjälpa till att överklaga till både Migrationsdomstolen och Kammarrätten om det behövs."
+      ],
+      "additionalSupport": "Utöver detta tillhandahåller vi omfattande omflyttningsservice för att hjälpa dig att återförenas med familjemedlemmar om din ansökan är framgångsrik."
+    },
+    "familyReunification": {
+      "heading": "Familjeåterförening för Flyktingar",
+      "subheading": "Att Förena Din Familj i Sverige",
+      "description": "Sverige erkänner familjeåterförening som en väsentlig rättighet, vilket gör det möjligt för familjemedlemmar att ansluta sig till flyktingar eller personer med specifika uppehållstillstånd. Om du har beviljats asyl eller någon annan typ av berättigat uppehållstillstånd kan din familj möjligen ansluta sig till dig i Sverige.",
+      "whoCanApply": {
+        "heading": "Vem Kan Kvalificera sig för Familjeåterförening?",
+        "intro": "Din familj kan vara berättigad att söka uppehållstillstånd för att ansluta sig till dig i Sverige om du innehåller:",
+        "eligibilityTypes": [
+          "Ett permanent uppehållstillstånd",
+          "Ett tillfälligt uppehållstillstånd som flykting, med rimliga chanser till långsiktigt förlängning",
+          "Ett tillfälligt uppehållstillstånd baserat på hemväxlingshinder eller besvärande omständigheter, med sannolikhet att få långsiktigt förlängning"
+        ]
+      },
+      "euEeaCitizens": {
+        "heading": "För EU/EES-medborgare",
+        "description": "Om du är en EU/EES-medborgare eller relaterad till en sådan kan du dra nytta av en förenklad process för att föra familjemedlemmar till Sverige baserat på rätten till fri rörlighet inom Europa. Denna underlättade visumprocess kan göra det möjligt för familjemedlemmar att resa med dig eller ansluta sig till dig i Sverige."
+      },
+      "temporaryPermit": {
+        "heading": "Om Du Innehåller ett Tillfälligt Uppehållstillstånd",
+        "description": "För att familjeåterfören ansökningar ska bli framgångsrika måste du inneha ett giltigt uppehållstillstånd vid tidpunkten för ansökan. Om ditt tillstånd är under förlängning kommer Migrationsverket först att bedöma din behörighet att bibehålla vistelse innan du beslutar om familjeåterförening.",
+        "familyMembers": "I allmänhet är omedelbara familjemedlemmar såsom din make/maka, registrerad partner, samboende partner eller barn under 18 år berättigade att ansluta sig till dig. I undantagsfall kan andra släktingar också kvalificera sig, men endast under vissa förhållanden.",
+        "maintenance": "Ett underhållskrav gäller, vilket betyder att du måste visa att du kan ekonomiskt stödja dina familjemedlemmar och tillhandahålla lämplig bostäder som uppfyller svenska standarder."
+      }
+    },
+    "familyReunificationAssistance": {
+      "heading": "Hur Vi Hjälper dig Med Familjeåterförening",
+      "description": "Vårt team erbjuder fullständigt stöd för familjeåterfören processen, och täcker alla aspekter för att göra det så smidigt som möjligt:",
+      "services": [
+        {
+          "title": "Ansökningsförberedelse",
+          "description": "Assistans med att förbereda och skicka in uppehållstillståndsansökan för dina familjemedlemmar, inklusive dokumentvägledning."
+        },
+        {
+          "title": "Dokumentverifiering",
+          "description": "Säkerställande att alla nödvändiga dokument är i ordning, för att minimera förseningar och komplikationer."
+        },
+        {
+          "title": "Vägledning om Statliga Avgifter",
+          "description": "Tydlig information om de statliga avgifter som är involverade, så du är alltid medveten om kostnaderna."
+        },
+        {
+          "title": "Registreringssupport",
+          "description": "Assistans med att registrera ansökan på Migrationsverket för att säkerställa noggrannhet och fullständighet."
+        },
+        {
+          "title": "Regelbunden Uppföljning",
+          "description": "Kontinuerlig övervakning av din ansökans framsteg med snabba uppdateringar för att hålla dig informerad."
+        },
+        {
+          "title": "Mötesbokningssamordning",
+          "description": "Samordning av väsentliga möten på Migrationsverket för intervjuer, biometri och andra procedurrelaterade steg."
+        },
+        {
+          "title": "Åtföljd Besök",
+          "description": "Vårt team kommer att åtfölja dig under Migrationsverkets besök, vilket erbjuder personligt stöd och vägledning under viktiga stunder i processen."
+        }
+      ]
+    },
+    "additionalSupport": {
+      "heading": "Ytterligare Supporttjänster för Asylsökande och Nykomlingar",
+      "intro": "Utöver asyl- och familjeåterfören tjänster erbjuder vi även:",
+      "services": [
+        {
+          "title": "Omflyttningsassistans",
+          "description": "Omfattande hjälp med bostäder, utbildning, sjukvård och social integration i Sverige för att underlätta din övergång."
+        },
+        {
+          "title": "Tolknings- och Översättningstjänster",
+          "description": "Assistans med att översätta nödvändiga dokument och tolkning under möten med Migrationsverkets tjänstemän."
+        },
+        {
+          "title": "Juridisk Hjälp för Överklaganden och Granskningar",
+          "description": "Stöd vid inlämning av överklaganden, förberedelse för domstolsförhandlingar och hantering av komplexa juridiska förfaranden."
+        },
+        {
+          "title": "Rådgivningstjänster",
+          "description": "Professionellt stöd för emotionellt välbefinnande under utmanande tider, vilket hjälper dig att känna dig säker och stödd."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Börja Din Asylansökan Idag",
+      "description": "Kontakta Sweden Relocators för att påbörja din asylansökan med expertguidning och stöd vid varje steg.",
+      "button": "Kom Igång",
+      "subtext": "Besök vår Asylsektion eller kontakta oss för mer information. Vårt team är här för att hjälpa dig säkra din framtid i Sverige."
+    }
+  }
+}

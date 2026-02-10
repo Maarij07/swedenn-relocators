@@ -1,0 +1,135 @@
+{
+  "logisticsServices": {
+    "hero": {
+      "title": "Zarządzanie Logistyką z Siecią Partnerów Sweden Relocators",
+      "subtitle": "Bezproblemowe rozwiązania logistyczne dla przeprowadzki i ekspansji biznesu"
+    },
+    "intro": {
+      "heading": "Kompleksowe Rozwiązania Logistyczne dla Każdego Potrzeby",
+      "description": "Przeprowadzka i ekspansja biznesu często zależą od niezawodnej logistyki. Zapewniamy bezproblemowe rozwiązania zarządzania logistyką zaprojektowane w celu wyeliminowania stresu związanego z przeprowadzką za granicę za pośrednictwem naszej starannie wybranej sieci partnerów logistycznych stron trzecich. Koordynujemy wszystko od pakowania i międzynarodowych przesyłek do udzielenia zgody celnej, magazynowania, transportu towarów i dostawy ostatniej mili.",
+      "toolLink": "Nasz cel jest prosty: zapewnić, że Twoje rzeczy osobiste, sprzęt biurowy lub towary biznesowe dotrą do miejsca przeznaczenia bezpiecznie, na czas i po konkurencyjnych cenach."
+    },
+    "services": {
+      "heading": "Nasze Podstawowe Usługi Logistyczne",
+      "requirementsLabel": "Co Obsługujemy",
+      "services": [
+        {
+          "id": "packing",
+          "title": "Pakowanie i Wysyłka",
+          "description": "Profesjonalne pakowanie i globalne usługi wysyłki przy użyciu materiałów o jakości międzynarodowej",
+          "requirements": [
+            {"label": "Materiały Profesjonalne", "description": "Materiały pakowania o jakości międzynarodowej i bezpieczne procedury obsługi"},
+            {"label": "Zasięg Globalny", "description": "Rzeczy osobiste, aktywa korporacyjne i specjalistyczne ładunki"},
+            {"label": "Gwarancja Bezpieczeństwa", "description": "Bezpieczny transport zapewniający bezpieczne i skuteczne dotarcie przedmiotów do celu"}
+          ]
+        },
+        {
+          "id": "customs",
+          "title": "Cła i Zgodność",
+          "description": "Eksperckie poruszanie się po przepisach celnych i międzynarodowych protokołach",
+          "requirements": [
+            {"label": "Cła Szwedzkie", "description": "Wsparcie udzielenia zgody celnej zgodnie z polskimi przepisami celnymi"},
+            {"label": "Zasady Handlu UE", "description": "Pełna zgodność z zasadami handlu UE i międzynarodowymi protokołami"},
+            {"label": "Dokumentacja", "description": "Cała dokumentacja przygotowana z wyprzedzeniem w celu minimalizacji opóźnień"}
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Rozwiązania Magazynowe",
+          "description": "Elastyczne opcje przechowywania w nowoczesnych, bezpiecznych obiektach",
+          "requirements": [
+            {"label": "Bezpieczeństwo", "description": "Bezpieczne przechowywanie z dostępnym całodobowym monitoringiem"},
+            {"label": "Kontrola Klimatu", "description": "Obiekty klimatyzowane do wrażliwych towarów"},
+            {"label": "Elastyczność", "description": "Krótko i długoterminowe opcje przechowywania z elastycznymi umowami"}
+          ]
+        },
+        {
+          "id": "freight",
+          "title": "Zarządzanie Frachtem",
+          "description": "Opłacalne opcje transportu z śledzeniem w czasie rzeczywistym",
+          "requirements": [
+            {"label": "Wiele Opcji", "description": "Transport lotniczy w przypadku pilnych przesyłek, transport morski na towary masowe, transport samochodowy na ruchy regionalne"},
+            {"label": "Śledzenie", "description": "Śledzenie w czasie rzeczywistym, dzięki czemu zawsze wiesz, gdzie znajduje się Twoja przesyłka"},
+            {"label": "Elastyczność", "description": "Opłacalne i elastyczne rozwiązania transportowe"}
+          ]
+        },
+        {
+          "id": "lastmile",
+          "title": "Dostawa Finalnej Mili",
+          "description": "Koordynuj ostateczną dostawę z opcjonalnymi usługami rozpakowania i montażu",
+          "requirements": [
+            {"label": "Umowna Dostawa", "description": "Przybycie do Twojego domu, biura lub lokalizacji biznesu na czas"},
+            {"label": "Usługi Opcjonalne", "description": "Dostępne usługi rozpakowania i montażu"},
+            {"label": "Bez Stresu", "description": "Zapewnia całkowicie besstresową przejście"}
+          ]
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Dlaczego Wybrać Sweden Relocators do Logistyki?",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Światowy Zasięg z Lokalną Ekspertyzą",
+          "description": "Nasza sieć partnerów obejmuje Europę, Azję, Amerykę Północną i poza nią. Światowy zasięg w połączeniu z lokalną szwedzką ekspertyzą zapewnia, że każda przesyłka spełnia normy międzynarodowe i lokalne."
+        },
+        {
+          "id": 2,
+          "title": "Koordynacja od Końca do Końca",
+          "description": "Jeden punkt kontaktu przez całą podróż logistyczną, od konsultacji i pakowania do dostawy i instalacji, zapewniając spójność i jasną komunikację."
+        },
+        {
+          "id": 3,
+          "title": "Opłacalne Rozwiązania",
+          "description": "Pracując z weryfikowaną siecią dostawców, negocjujemy konkurencyjne ceny przy zachowaniu najwyższej jakości usług."
+        },
+        {
+          "id": 4,
+          "title": "Bezpieczny i Niezawodny Transport",
+          "description": "Bezpieczeństwo jest naszym priorytetem. Nasi partnerzy korzystają z nowoczesnych systemów bezpiecznego pakowania, obsługi i transportu, aby chronić Twoje towary na każdym etapie."
+        },
+        {
+          "id": 5,
+          "title": "Przejrzyste Śledzenie i Aktualizacje",
+          "description": "Zaawansowane systemy śledzenia i regularne aktualizacje utrzymują Cię w pełni informowanego. Zawsze znaj status swojej przesyłki dla pełnego spokoju ducha."
+        }
+      ]
+    },
+    "process": {
+      "heading": "Jak Działa Nasza Usługa Zarządzania Logistyką",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Konsultacja i Planowanie",
+          "description": "Zaczynamy od konsultacji, aby zrozumieć Twoje potrzeby, harmonogram i budżet. Na tej podstawie opracowujemy dostosowany plan logistyczny."
+        },
+        {
+          "number": 2,
+          "title": "Pakowanie i Odbiór",
+          "description": "Profesjonalne pakowanie i bezpieczny odbiór organizuje się za pośrednictwem naszych partnerów stron trzecich, zapewniając, że przedmioty są prawidłowo przygotowane do transportu."
+        },
+        {
+          "number": 3,
+          "title": "Wysyłka i Śledzenie",
+          "description": "Niezależnie od tego, czy drogą lotniczą, morską czy lądową, Twoja przesyłka jest śledzona w czasie rzeczywistym z szacunkowymi aktualizacjami przylotu na bieżąco."
+        },
+        {
+          "number": 4,
+          "title": "Udzielenie Zgody Celnej i Zgodność",
+          "description": "Cała dokumentacja celna jest przygotowana i weryfikowana z wyprzedzeniem, zapewniając gładkie udzielenie zgody celnej ze szwedzkimi władzościami celnymi lub innymi władzami w miejscu przeznaczenia."
+        },
+        {
+          "number": 5,
+          "title": "Dostawa i Rozpakowanie",
+          "description": "Po przybyciu nasi partnerzy logistyczni zarządzają ostateczną dostawą, rozpakowaniem i montażem jeśli wymagane, umożliwiając osiedlenie się bez problemów."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Gotowy do Uproszczenia Logistyki?",
+      "description": "Dzięki zarządzaniu logistyką Sweden Relocators zyskujesz dostęp do niezawodnej sieci partnerów, która może obsługiwać każdy aspekt Twojej przeprowadzki lub przesyłki. Prześlij żądanie usługi dzisiaj.",
+      "button": "Uzyskaj Wycenę Logistykę",
+      "subtext": "Niezależnie od tego, czy chodzi o przeprowadzkę osobistą, czy logistykę biznesową, powiedz nam swoje potrzeby, a my zapewnimy usługi dzięki naszym zaufanym partnerom logistycznym."
+    }
+  }
+}

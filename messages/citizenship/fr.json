@@ -1,37 +1,37 @@
 {
   "citizenship": {
     "hero": {
-      "title": "Citoyenneté suédoise : Exigences, démarches et délais de traitement",
-      "subtitle": "Devenir citoyen suédois est une étape importante qui confère des droits et obligations complets en Suède. La citoyenneté permet d'obtenir un passeport suédois, le droit de vote, la possibilité de se présenter à un mandat politique et la libre circulation dans l'UE et l'espace Schengen."
+      "title": "Citoyenneté suédoise : Exigences, voies de demande et délais de traitement",
+      "subtitle": "Devenir citoyen suédois est une étape importante qui confère des droits et des responsabilités complets en Suède. La citoyenneté permet d'obtenir un passeport suédois, le droit de vote, la possibilité de se présenter à des fonctions politiques et la libre circulation dans l'UE et l'espace Schengen."
     },
     "intro": {
       "heading": "Ce que la citoyenneté suédoise offre",
-      "description": "La citoyenneté suédoise renforce votre sécurité juridique et facilite la vie, le travail et les investissements permanents en Suède. Elle vous donne non seulement le droit à un passeport suédois, mais aussi un statut juridique sécurisé, la liberté de circulation dans l'UE et une pleine participation à la démocratie suédoise.",
-      "note": "Sweden Relocators fournit un accompagnement expert à chaque étape du processus et garantit que votre demande est complète, précise et conforme aux lois en vigueur."
+      "description": "La citoyenneté suédoise renforce votre sécurité juridique et facilite la vie, le travail et l'investissement permanents en Suède. Elle vous donne non seulement le droit à un passeport suédois, mais aussi un statut juridique sécurisé, la liberté de circulation dans l'UE et une pleine participation à la démocratie suédoise.",
+      "note": "Sweden Relocators fournit des conseils experts à chaque étape du processus et s'assure que votre demande est complète, précise et conforme aux lois en vigueur."
     },
     "generalRequirements": {
-      "heading": "Conditions générales pour la citoyenneté suédoise",
+      "heading": "Exigences générales pour la citoyenneté suédoise",
       "description": "Pour demander la citoyenneté suédoise en tant qu'adulte, vous devez généralement remplir les conditions suivantes :",
       "requirements": [
         {
-          "title": "Condition d'âge",
-          "description": "Vous devez avoir au moins 18 ans pour demander indépendamment. Les enfants de moins de 18 ans peuvent demander conjointement avec un parent ou par déclaration dans des cas spécifiques."
+          "title": "Exigence d'âge",
+          "description": "Vous devez avoir au moins 18 ans pour demander seul. Les enfants de moins de 18 ans peuvent demander conjointement avec un parent ou par déclaration dans des cas spécifiques."
         },
         {
           "title": "Résidence permanente ou droit permanent de séjour",
-          "description": "Les ressortissants non membres de l'UE/EEE doivent détenir un titre de séjour permanent (permanent uppehållstillstånd). Les ressortissants de l'UE/EEE doivent détenir un droit permanent de séjour (permanent uppehållsrätt), généralement acquis après cinq ans de résidence légale continue."
+          "description": "Les ressortissants non membres de l'UE/EEE doivent posséder une autorisation de séjour permanente (permanent uppehållstillstånd). Les ressortissants de l'UE/EEE doivent posséder un droit permanent de séjour (permanent uppehållsrätt), généralement acquis après cinq ans de résidence légale continue."
         },
         {
           "title": "Durée de résidence en Suède",
-          "description": "Règle standard : 5 ans de résidence continue. Réfugiés ou personnes apatrides : 4 ans. Conjoint(e)/partenaire enregistré(e)/cohabitant(e) d'un citoyen suédois : 3 ans. Citoyens nordiques : 2 ans (normal) ou 5 ans (déclaration)."
+          "description": "Règle standard : 5 ans de résidence continue. Réfugiés ou personnes apatrides : 4 ans. Époux/concubins/partenaires enregistrés d'un citoyen suédois : 3 ans. Citoyens nordiques : 2 ans (ordinaire) ou 5 ans (déclaration)."
         },
         {
-          "title": "Conduite irréprochable",
-          "description": "Les candidats doivent démontrer une bonne conduite, c'est-à-dire aucune condamnation criminelle grave récente, aucune dette impayée auprès de Kronofogden (l'autorité de recouvrement) et un respect général des lois suédoises."
+          "title": "Conduite exemplaire",
+          "description": "Les candidats doivent faire preuve d'une bonne conduite, c'est-à-dire aucune condamnation criminelle récente, aucune dette impayée envers le Kronofogden (l'autorité de recouvrement), et une conformité générale avec la loi suédoise."
         },
         {
           "title": "Intention de rester en Suède",
-          "description": "Migrationsverket examine si vous avez des liens forts avec la Suède, tels que l'emploi, la famille ou un logement à long terme, montrant votre intention réelle de rester."
+          "description": "Le Migrationsverket examine si vous avez des liens solides avec la Suède, tels que l'emploi, la famille ou un logement à long terme, montrant votre intention réelle de rester."
         }
       ]
     },
@@ -52,25 +52,25 @@
           "title": "Citoyens de l'UE/EEE",
           "description": "Les citoyens de l'UE/EEE peuvent demander après 5 ans de résidence continue, une fois le droit permanent de séjour acquis.",
           "details": [
-            "Doivent fournir la preuve de leur résidence, de leurs revenus et du respect des lois suédoises.",
-            "Le processus est légèrement plus simple puisqu'aucun titre de séjour n'est requis."
+            "Doivent fournir des preuves de résidence, de revenus et de respect de la loi suédoise.",
+            "Le processus est légèrement plus simple puisqu'aucune autorisation de séjour n'est requise."
           ]
         },
         {
           "id": "refugees",
           "title": "Réfugiés et personnes apatrides",
-          "description": "Les réfugiés et personnes apatrides reconnus peuvent demander après 4 ans de résidence.",
+          "description": "Les réfugiés reconnus et les personnes apatrides peuvent demander après 4 ans de résidence.",
           "details": [
             "Le statut de réfugié doit être officiellement reconnu conformément au droit international ou suédois."
           ]
         },
         {
           "id": "spouses",
-          "title": "Conjoints ou partenaires d'un citoyen suédois",
-          "description": "Les conjoints ou partenaires enregistrés peuvent demander après 3 ans de résidence.",
+          "title": "Époux ou partenaire d'un citoyen suédois",
+          "description": "L'époux ou partenaire enregistré peut demander après 3 ans de résidence.",
           "details": [
             "Le couple doit avoir vécu ensemble en Suède pendant au moins 2 ans.",
-            "Des liens forts avec la Suède sont requis et la relation doit être durable."
+            "Des liens solides avec la Suède sont requis, et la relation doit être durable."
           ]
         },
         {
@@ -90,15 +90,15 @@
       "steps": [
         {
           "title": "Préparer les documents",
-          "description": "Les documents requis incluent : Passeport valide ou pièce d'identité nationale, Preuve de résidence (inscription auprès de Skatteverket), Justificatifs de revenus ou d'emploi, Casier judiciaire ou preuve de dettes éventuelles si applicable."
+          "description": "Les documents requis incluent : Passeport valide ou pièce d'identité nationale, Preuve de résidence (inscription auprès du Skatteverket), Justificatifs de revenus ou d'emploi, Certificat de police ou preuve d'absence de dettes si applicable."
         },
         {
           "title": "Soumettre la demande",
-          "description": "Les demandes peuvent être soumises en ligne via le service électronique de Migrationsverket ou via un formulaire papier. Les enfants et les citoyens nordiques utilisant la procédure de déclaration ont des procédures simplifiées."
+          "description": "Les demandes peuvent être soumises en ligne via le service électronique du Migrationsverket ou par formulaire papier. Les enfants et les citoyens nordiques utilisant la procédure de déclaration ont des procédures simplifiées."
         },
         {
-          "title": "Examen par Migrationsverket",
-          "description": "L'agence vérifie l'historique de résidence, l'identité, la conduite et la stabilité financière. Des informations supplémentaires peuvent être demandées au cours du processus."
+          "title": "Examen par le Migrationsverket",
+          "description": "L'agence examine l'historique de résidence, l'identité, la conduite et la stabilité financière. Elle peut demander des informations supplémentaires pendant le processus."
         },
         {
           "title": "Décision",
@@ -108,12 +108,12 @@
     },
     "waitingTimes": {
       "heading": "Délais de traitement et périodes d'attente",
-      "intro": "Les délais de traitement varient selon la catégorie et le contexte :",
+      "intro": "Les délais de traitement varient selon la catégorie et l'origine :",
       "times": [
         {"category": "Demandes standard", "time": "18–36 mois"},
         {"category": "Citoyens nordiques (déclaration)", "time": "6–12 mois"},
-        {"category": "Réfugiés et conjoints", "time": "Généralement plus rapide que la normale"},
-        {"category": "Remarque", "time": "Migrationsverket a récemment annoncé des contrôles plus stricts (mars 2025), ce qui pourrait augmenter les délais d'attente pour certains dossiers."}
+        {"category": "Réfugiés et époux", "time": "Généralement plus rapide que le standard"},
+        {"category": "Remarque", "time": "Le Migrationsverket a récemment annoncé des contrôles plus stricts (mars 2025), ce qui pourrait augmenter les délais d'attente pour certains cas."}
       ]
     },
     "support": {
@@ -121,8 +121,8 @@
       "description": "Demander la citoyenneté suédoise peut être complexe et chronophage. Sweden Relocators offre un soutien professionnel à chaque étape :",
       "services": [
         {
-          "title": "Évaluation des qualifications",
-          "description": "Nous vérifions votre historique de résidence, votre situation familiale et le statut de vos autorisations pour déterminer votre meilleure approche."
+          "title": "Évaluation d'éligibilité",
+          "description": "Nous vérifions votre historique de résidence, votre situation familiale et votre statut d'autorisation pour déterminer votre meilleure voie d'accès."
         },
         {
           "title": "Préparation des documents",
@@ -130,15 +130,15 @@
         },
         {
           "title": "Soumission et suivi de la demande",
-          "description": "Nous gérons votre demande et vous tenons informé directement avec Migrationsverket."
+          "description": "Nous gérons votre demande et suivons les mises à jour directement auprès du Migrationsverket."
         },
         {
           "title": "Assistance en appel",
-          "description": "Si votre demande est refusée, notre équipe juridique vous aide à préparer et à déposer des recours."
+          "description": "Si votre demande est refusée, notre équipe juridique vous aide à préparer et à déposer des appels."
         },
         {
           "title": "Stratégie à long terme",
-          "description": "Orientation sur la façon de maintenir les conditions de résidence, d'éviter les lacunes et de se préparer à la citoyenneté."
+          "description": "Orientation sur la manière de maintenir les exigences de résidence, d'éviter les interruptions et de se préparer à la citoyenneté."
         }
       ]
     },
@@ -146,7 +146,7 @@
       "heading": "Commencez votre parcours vers la citoyenneté suédoise dès aujourd'hui",
       "description": "Contactez Sweden Relocators pour évaluer votre éligibilité et commencer votre demande de citoyenneté suédoise avec un soutien expert.",
       "button": "Commencer",
-      "subtext": "Loi sur la citoyenneté suédoise (2001:82). Les règles et procédures peuvent changer. Consultez toujours Migrationsverket pour obtenir les informations les plus récentes."
+      "subtext": "Loi sur la citoyenneté suédoise (2001:82). Les règles et les procédures peuvent changer. Consultez toujours le Migrationsverket pour obtenir les informations les plus récentes."
     }
   }
 }

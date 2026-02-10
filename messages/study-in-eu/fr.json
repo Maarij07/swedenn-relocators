@@ -1,0 +1,409 @@
+{
+  "studyInEu": {
+    "hero": {
+      "title": "Étudier en Suède et dans l'UE",
+      "subtitle": "Réalisez vos rêves académiques dans les meilleures universités d'Europe avec les conseils d'experts de Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Votre porte d'entrée à l'éducation européenne",
+      "description": "La Suède et l'Union européenne offrent une éducation de classe mondiale avec des frais de scolarité abordables, des programmes en anglais et d'excellentes perspectives après les études. Que vous aspiriez à étudier l'ingénierie en Suède, les affaires au Danemark ou la médecine en Allemagne, nous vous guiderons à chaque étape du processus d'admission et de visa."
+    },
+    "countries": [
+      {
+        "id": "sweden",
+        "name": "Étudier en Suède",
+        "intro": "La Suède est l'une des destinations les plus populaires d'Europe pour les étudiants internationaux. Avec des universités classées mondialement, des méthodes d'enseignement innovantes et une solide réputation en recherche, elle offre à la fois une éducation de haute qualité et un excellent mode de vie.",
+        "tuitionFees": {
+          "heading": "Frais de scolarité moyens par année",
+          "fees": [
+            {
+              "category": "Étudiants de l'UE/EEE et suisses",
+              "amount": "Gratuit dans les universités publiques"
+            },
+            {
+              "category": "Étudiants non-UE/EEE",
+              "amount": "SEK 80 000 – 295 000 (€7 500 – €25 500) selon le programme et l'université"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Périodes d'admission",
+          "intakes": [
+            {
+              "period": "Admission d'automne",
+              "details": "Octobre – janvier (études commencent août/septembre)"
+            },
+            {
+              "period": "Admission de printemps",
+              "details": "Juin – août (études commencent janvier)"
+            }
+          ]
+        },
+        "popularFields": "Ingénierie, TI, Commerce, Sciences de la vie, Études environnementales",
+        "visaRequirements": {
+          "heading": "Exigences de visa et de résidence",
+          "requirements": [
+            "UE/EEE: pas de visa requis",
+            "Non-UE/EEE: permis de séjour requis pour les études de plus de trois mois",
+            "Preuve de fonds: environ SEK 10 300 par mois pour les frais de subsistance",
+            "Assurance maladie requise pour les séjours de moins d'un an"
+          ]
+        },
+        "workRights": "Les étudiants peuvent travailler sans limite d'heures pendant les études, et après la graduation, ils peuvent demander un permis de séjour d'un an pour chercher un emploi ou créer une entreprise."
+      },
+      {
+        "id": "denmark",
+        "name": "Étudier au Danemark",
+        "intro": "Le Danemark allie excellence académique et environnement favorable aux entreprises. Plus de 500 programmes en anglais sont proposés dans les meilleures universités et écoles supérieures.",
+        "tuitionFees": {
+          "heading": "Frais de scolarité moyens par année",
+          "fees": [
+            {
+              "category": "Étudiants de l'UE/EEE",
+              "amount": "Gratuit dans les institutions publiques"
+            },
+            {
+              "category": "Étudiants non-UE/EEE",
+              "amount": "€7 000 – €17 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Périodes d'admission",
+          "intakes": [
+            {
+              "period": "Admission d'automne",
+              "details": "La date limite de demande est mars (études commencent août/septembre)"
+            },
+            {
+              "period": "Admission de printemps",
+              "details": "La date limite de demande est septembre (études commencent janvier/février, cours limités)"
+            }
+          ]
+        },
+        "popularFields": "Design, Architecture, Commerce, Ingénierie, TI, Sciences de la vie",
+        "visaRequirements": {
+          "heading": "Exigences de visa et de résidence",
+          "requirements": [
+            "Preuve de fonds: environ €1 000 par mois pour les frais de subsistance",
+            "L'assurance maladie doit être obtenue avant l'arrivée"
+          ]
+        },
+        "workRights": "Les étudiants peuvent travailler jusqu'à 20 heures par semaine pendant les semestres et à temps plein pendant les vacances."
+      },
+      {
+        "id": "germany",
+        "name": "Étudier en Allemagne",
+        "intro": "L'Allemagne est l'une des destinations d'études les plus abordables et les plus attrayantes d'Europe, avec près de 400 000 étudiants internationaux.",
+        "tuitionFees": {
+          "heading": "Frais de scolarité moyens par année",
+          "fees": [
+            {
+              "category": "Universités publiques",
+              "amount": "Gratuit ou €0 – €3 000 (frais administratifs seulement)"
+            },
+            {
+              "category": "Universités privées",
+              "amount": "€6 000 – €12 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Périodes d'admission",
+          "intakes": [
+            {
+              "period": "Semestre d'hiver",
+              "details": "Demande mai – juillet (commence septembre/octobre)"
+            },
+            {
+              "period": "Semestre d'été",
+              "details": "Demande novembre – janvier (commence mars/avril)"
+            }
+          ]
+        },
+        "popularFields": "Ingénierie, Commerce, Informatique, Médecine, Sciences naturelles",
+        "visaRequirements": {
+          "heading": "Exigences de visa et de résidence",
+          "requirements": [
+            "Preuve de finances: environ €11 000 par an sur un compte bloqué",
+            "Assurance maladie obligatoire requise"
+          ]
+        },
+        "workRights": "20 heures par semaine pendant le semestre, à temps plein pendant les vacances."
+      },
+      {
+        "id": "uk",
+        "name": "Étudier au Royaume-Uni",
+        "intro": "Le Royaume-Uni abrite certaines des meilleures universités du monde et un système de diplômes internationalement reconnu.",
+        "tuitionFees": {
+          "heading": "Frais de scolarité moyens par année",
+          "fees": [
+            {
+              "category": "Étudiants de l'UE/EEE",
+              "amount": "€10 000 – €13 000"
+            },
+            {
+              "category": "Étudiants non-UE",
+              "amount": "€12 000 – €25 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Périodes d'admission",
+          "intakes": [
+            {
+              "period": "Septembre/octobre",
+              "details": "Admission principale"
+            },
+            {
+              "period": "Janvier/février",
+              "details": "Admission secondaire, programmes limités"
+            },
+            {
+              "period": "Mai",
+              "details": "Admission d'été dans les universités sélectionnées"
+            }
+          ]
+        },
+        "popularFields": "Droit, Commerce, Ingénierie, Médecine, Sciences sociales",
+        "visaRequirements": {
+          "heading": "Exigences de visa et de résidence",
+          "requirements": [
+            "Visa d'étudiant requis pour les non-UE/EEE",
+            "Preuve de frais de scolarité payés plus €1 200 par mois (Londres) ou moins hors de Londres"
+          ]
+        },
+        "workRights": "20 heures par semaine pendant les cours, à temps plein pendant les vacances."
+      },
+      {
+        "id": "latvia",
+        "name": "Étudier en Lettonie",
+        "intro": "La Lettonie offre une éducation abordable et des conditions de vie tranquilles.",
+        "tuitionFees": {
+          "heading": "Frais de scolarité moyens par année",
+          "fees": [
+            {
+              "category": "Général",
+              "amount": "€3 000 – €6 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Périodes d'admission",
+          "intakes": [
+            {
+              "period": "Septembre",
+              "details": "Admission principale"
+            },
+            {
+              "period": "Février",
+              "details": "Admission secondaire"
+            }
+          ]
+        },
+        "popularFields": "Médecine, Commerce, TI, Ingénierie",
+        "visaRequirements": {
+          "heading": "Exigences de visa et de résidence",
+          "requirements": [
+            "Visa d'étudiant et preuve des frais de subsistance requis",
+            "L'assurance maladie est obligatoire"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "lithuania",
+        "name": "Étudier en Lituanie",
+        "intro": "La Lituanie offre de fortes traditions académiques et plus de 350 programmes en anglais.",
+        "tuitionFees": {
+          "heading": "Frais de scolarité moyens par année",
+          "fees": [
+            {
+              "category": "Général",
+              "amount": "€3 000 – €7 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Périodes d'admission",
+          "intakes": [
+            {
+              "period": "Septembre",
+              "details": "Admission principale"
+            },
+            {
+              "period": "Février",
+              "details": "Admission secondaire"
+            }
+          ]
+        },
+        "popularFields": "Commerce, Médecine, Ingénierie, Économie",
+        "visaRequirements": {
+          "heading": "Exigences de visa et de résidence",
+          "requirements": [
+            "Permis de séjour requis pour les étudiants non-UE",
+            "Preuve financière et assurance requises"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "czechRepublic",
+        "name": "Étudier en République Tchèque",
+        "intro": "La République Tchèque est une destination croissante pour les étudiants internationaux en Europe centrale.",
+        "tuitionFees": {
+          "heading": "Frais de scolarité moyens par année",
+          "fees": [
+            {
+              "category": "Universités publiques",
+              "amount": "€2 000 – €5 000"
+            },
+            {
+              "category": "Universités privées",
+              "amount": "€5 000 – €10 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Périodes d'admission",
+          "intakes": [
+            {
+              "period": "Septembre",
+              "details": "Admission principale"
+            },
+            {
+              "period": "Février",
+              "details": "Programmes limités"
+            }
+          ]
+        },
+        "popularFields": "Médecine, Commerce, Ingénierie, Arts",
+        "visaRequirements": {
+          "heading": "Exigences de visa et de résidence",
+          "requirements": [
+            "Visa d'étudiant requis pour les étudiants non-UE",
+            "Preuve de finances et d'accommodation doit être présentée"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "norway",
+        "name": "Étudier en Norvège",
+        "intro": "La Norvège est connue pour l'éducation gratuite dans les universités publiques.",
+        "tuitionFees": {
+          "heading": "Frais de scolarité moyens par année",
+          "fees": [
+            {
+              "category": "Universités publiques",
+              "amount": "Gratuit (seulement €50–€100 frais administratifs)"
+            },
+            {
+              "category": "Universités privées",
+              "amount": "€5 000 – €10 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Périodes d'admission",
+          "intakes": [
+            {
+              "period": "Automne",
+              "details": "Commence août/septembre, admission principale"
+            },
+            {
+              "period": "Printemps",
+              "details": "Limité aux programmes sélectionnés"
+            }
+          ]
+        },
+        "popularFields": "Énergie, Sciences marines, Ingénierie, TI, Sciences naturelles",
+        "visaRequirements": {
+          "heading": "Exigences de visa et de résidence",
+          "requirements": [
+            "Preuve d'environ €12 000 par an pour les frais de subsistance requise",
+            "L'assurance maladie est obligatoire"
+          ]
+        },
+        "workRights": "20 heures par semaine pendant le semestre, à temps plein pendant les vacances."
+      },
+      {
+        "id": "finland",
+        "name": "Étudier en Finlande",
+        "intro": "La Finlande offre une éducation moderne avec un fort accent sur la recherche et l'innovation.",
+        "tuitionFees": {
+          "heading": "Frais de scolarité moyens par année",
+          "fees": [
+            {
+              "category": "Étudiants de l'UE/EEE",
+              "amount": "Gratuit dans les universités publiques"
+            },
+            {
+              "category": "Étudiants non-UE",
+              "amount": "€8 000 – €20 000 selon le programme et l'université"
+            },
+            {
+              "category": "Programmes doctoraux",
+              "amount": "Gratuit pour tous les étudiants"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Périodes d'admission",
+          "intakes": [
+            {
+              "period": "Septembre",
+              "details": "Admission principale — demande novembre – janvier"
+            },
+            {
+              "period": "Janvier",
+              "details": "Admission secondaire, programmes limités — demande en septembre"
+            }
+          ]
+        },
+        "popularFields": "TI, Ingénierie, Design, Commerce, Éducation",
+        "visaRequirements": {
+          "heading": "Exigences de visa et de résidence",
+          "requirements": [
+            "Permis de séjour requis pour les étudiants non-UE",
+            "Preuve de fonds: minimum €800 par mois (€9 600 par année)",
+            "Assurance maladie requise"
+          ]
+        },
+        "workRights": "Les étudiants peuvent travailler 20–25 heures par semaine pendant les semestres et à temps plein pendant les vacances. Après la graduation, un permis de travail est disponible pour les diplômés."
+      }
+    ],
+    "whyChoose": {
+      "heading": "Pourquoi choisir Sweden Relocators AB",
+      "services": [
+        {
+          "title": "Conseils complets d'admission",
+          "description": "Conseils complets d'admission pour les programmes de Licence, Master et Doctorat en Suède et dans l'UE"
+        },
+        {
+          "title": "Services documentaires",
+          "description": "Légalisation de documents, traduction et préparation pour les universités et les autorités d'immigration"
+        },
+        {
+          "title": "Soutien visa et résidence",
+          "description": "Les demandes de visa et de permis de séjour sont traitées avec précision"
+        },
+        {
+          "title": "Assistance financière",
+          "description": "Conseils en matière de bourses et de finances adaptés à chaque pays"
+        },
+        {
+          "title": "Soutien après les études",
+          "description": "Assurance continue pour le renouvellement du permis de séjour et l'emploi après les études"
+        }
+      ],
+      "description": "Chez Sweden Relocators AB, nous rendons l'étude en Suède et en Europe simple, transparente et sans stress. De votre première candidature à votre graduation et au-delà, nous vous guiderons à chaque étape."
+    },
+    "cta": {
+      "heading": "Commencez votre voyage d'études en Europe aujourd'hui",
+      "description": "Contactez Sweden Relocators pour obtenir des conseils d'experts sur votre demande et votre processus de visa.",
+      "button": "Commencer",
+      "subtext": "Les réglementations éducatives varient selon les pays. Consultez toujours les sites Web officiels des universités et de l'immigration pour les informations les plus récentes."
+    }
+  }
+}

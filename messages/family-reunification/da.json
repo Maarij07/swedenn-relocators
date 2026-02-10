@@ -1,0 +1,186 @@
+{
+  "familyReunification": {
+    "hero": {
+      "title": "Familiesammenføring i Danmark",
+      "subtitle": "Omfattende Vejledning Under Dansk Og Svensk Nationale Lov"
+    },
+    "intro": {
+      "heading": "Tag Din Familie til Sverige",
+      "description": "Sveriges familiesammenføringslove gør det muligt for personer, der besidder forskellige typer opholdstilladelser - herunder arbejdstilladelser, forretningstilladelser, phd og studenttilladelser samt permanente opholdstilladelser - såvel som flygtninge, at bringe familiemedlemmer til Sverige. Hver case type har specifikke krav og vurderes under forskellige bestemmelser i svensk national lov.",
+      "infoBox": "Naviger komplekse familiesammenføringskrav med ekspertviden om svensk national lov og specifik vurdering af tilladelsestyper."
+    },
+    "lawsHeading": "Vigtige Svenska Love der Styrer Familiesammenføring",
+    "laws": [
+      {
+        "name": "Udlændingeloven (Utlänningslagen)",
+        "description": "Hovedlovgivningen der styrer opholdstilladelser og familiesammenføring for alle ikke-svenske statsborgere."
+      },
+      {
+        "name": "Midlertidig Udlændingelov (Tillfälliga Utlänningslagen)",
+        "description": "En midlertidig lov der påvirker familiesammenføringskrav, primært for flygtninge og personer der har brug for subsidiær beskyttelse."
+      },
+      {
+        "name": "Svensk Statsborgerskabslov (Lag om Svenskt Medborgarskap)",
+        "description": "Relevant for svenska statsborgere og permanente bosiddere der indbyder familiemedlemmer."
+      },
+      {
+        "name": "Socialforsikringskode (Socialförsäkringsbalken)",
+        "description": "Giver vejledning om acceptable indkomstkilder til underholdskravet."
+      }
+    ],
+    "eligibility": {
+      "heading": "Hvem Kan Sponsoreres?",
+      "description": "Familiesammenføring er generelt tilgængelig for berettigede familiemedlemmer under svensk lov. Hver relationstype har specifikke kvalifikationskriterier.",
+      "familyMembers": [
+        {
+          "type": "Mage/Mand eller Registreret Partner",
+          "description": "Lovligt gifte eller registrerede partnere"
+        },
+        {
+          "type": "Samboende Partner",
+          "description": "Langsigtede, uregistrerede partnere kan kvalificere sig hvis forholdet er velbilagtdokumenteret"
+        },
+        {
+          "type": "Børn Under 18 År",
+          "description": "Mindreårige børn af tilladelsesholder eller deres mage/partner"
+        },
+        {
+          "type": "Forældre (For Mindreårige Tilladelsholdere)",
+          "description": "For tilladelsesholdere under 18 år kan forældre eller værger være berettigede"
+        },
+        {
+          "type": "Udvidet Familie",
+          "description": "Andre familiemedlemmer kan overvejes af humanitære årsager"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Underholdspligo og Boligkrav",
+      "description": "Underholdskravet (Försörjningskrav) er væsentligt for de fleste familiesammenføringsansøgninger og sikrer at hovedansøger har tilstrækkelig indkomst og passende bolig til at støtte familiemedlemmer.",
+      "maintenanceLabel": "Indkomstkrav",
+      "housingLabel": "Boligkrav",
+      "maintenance": [
+        "Stabil indkomst til at dække leveomkostninger",
+        "Ansættelseskontrakter eller bevis for selvstændig virksomhed",
+        "Seneste lønsedler og selvangivelser",
+        "Dokumentation af sociale ydelser hvor relevant"
+      ],
+      "housing": [
+        "Lejekontrakt eller ejendomsbevis",
+        "Tilstrækkelige værelser for alle familiemedlemmer",
+        "Bevis for månedlig leje eller ejerafgifter",
+        "Opfylder Svenske boligstandarder"
+      ]
+    },
+    "assessmentHeading": "Vurderingskriterier Efter Tilladellestype",
+    "assessmentCriteria": [
+      {
+        "title": "Arbejdstilladelsesholdere",
+        "requirements": ["Langvarigt arbejde med tilstrækkelig løn", "Ansættelseskontrakter og lønsedler", "Bevis for finansiel stabilitet", "Passende boligarrangement"]
+      },
+      {
+        "title": "Forretningstilladelsesholdere",
+        "requirements": ["Rentabel virksomhed der giver tilstrækkelig indkomst", "Selvangivelser og forretningsnotater", "Foreløbige skatteudgørelser fra Styrelsens Skattemyn­dighed", "Påvist virksomhedsudviklingspotentiale"]
+      },
+      {
+        "title": "PhD-studerende og Forskere",
+        "requirements": ["Stabil finansiering eller stipendier", "Programvarighed generelt over ett år", "Inkomstdokumentation fra uddannelsesinstitution", "Boligarrangement i Sverige"]
+      },
+      {
+        "title": "Permanente Opholdstilladelsesholdere",
+        "requirements": ["Langtidsophold med stærke bånd til Sverige", "Inkomstvurdering med potentiel fleksibilitet", "Vurdering af boligstandarder", "Muligvis mere milde krav"]
+      },
+      {
+        "title": "Flygtninge og Subsidiær Beskyttelsesholdere",
+        "requirements": ["Mulig fritagelse fra underholdskrav inden for 3 måneder", "Bevis for forhold før ankomst til Sverige", "Dokumentation af familieforhold", "Vurderet efter Midlertidig Udlændingelov"]
+      }
+    ],
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Forbered Dokumentation",
+        "description": "Saml alle kræ­vede dokumenter, herunder pas, bevis for forhold (ægteskabs- eller fødselsattester), boligaftaler og indkomstverifikation."
+      },
+      {
+        "step": "2",
+        "title": "Send Ansøgning",
+        "description": "Indsend ansøgninger online via den Svenska Migrationsverkets portal eller hos en svensk ambassade/konsulat, herunder bevis for forhold og bolig-/indkomstverifikation."
+      },
+      {
+        "step": "3",
+        "title": "Migrationsverkets Vurdering",
+        "description": "Den Svenska Migrationsverket verificerer at alle krav er opfyldt, vurderer indkomst, bolig og familieberechtigung efter dit specifikke tilladelsestype."
+      },
+      {
+        "step": "4",
+        "title": "Afgørelse og Meddelelse",
+        "description": "Efter vurdering afgiver myndigheden en afgørelse. Hvis godkendt, kan familiemedlemmer få opholdstilladelser der svarer til sponsorens tilladelseslængde."
+      }
+    ],
+    "legalProvisions": {
+      "heading": "Specifikke Juridiske Bestemmelser",
+      "description": "Familiesammenføring i Sverige er reguleret af specifikke juridiske bestemmelser tilpasset forskellige tilladelsestyper og familialsituationer.",
+      "acts": [
+        {
+          "name": "Udlændingeloven (Utlänningslagen)",
+          "details": "Primær juridisk ramme for familiesammenføring der dækker indkomst, bolig og forhold­verifikation med underholds- og boligstandarder."
+        },
+        {
+          "name": "Midlertidig Udlændingelov (Tillfälliga Utlänningslagen)",
+          "details": "Anvender strengere underholdskrav for flygtninge med vægt på finansiel uafhængi­ghed ud over tre-månedersperioden."
+        },
+        {
+          "name": "Socialforsikringskode (Socialförsäkringsbalken)",
+          "details": "Definerer acceptable indkomstkilder, særligt relevant for sponsorer der afhænger af ydelser eller arbejdsløshed."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Vore Tjenester",
+      "description": "Sweden Relocators tilbyder omfattende support til at hjælpe dig navigere familiesammenføring i Sverige og sikre at din ansøgning opfylder alle svenska juridiske standarder.",
+      "servicesList": [
+        {
+          "title": "Berettigelsesvurdering",
+          "description": "Vi vurderer dit specifikke tilladelsestype, indkomst, bolig og familieberechtigung for at bestemme den bedste tilgang."
+        },
+        {
+          "title": "Dokumentforberedelse",
+          "description": "Hjælp til at indsamle alle nødvendige dokumenter, oversætter udenlandske dokumenter hvis nødvendigt og sikrer fuldstændig nøjagtighed."
+        },
+        {
+          "title": "Ansøgningsindlæggelse og Overvågning",
+          "description": "Indsender din ansøgning på dine vegne og følger op med den Svenska Migrationsverket."
+        },
+        {
+          "title": "Ankestøtte",
+          "description": "Hvis din ansøgning afvises giver vi vejledning gennem ankeproceduren og styrker din sag."
+        },
+        {
+          "title": "Juridisk Overordnelsesgaranti",
+          "description": "Vi sikrer at al dokumentation opfylder svenska juridiske standarder og specifikke tilladelsestypekrav."
+        }
+      ]
+    },
+    "whyChooseHeading": "Hvorfor Vælge Sweden Relocators?",
+    "whyChoose": [
+      {
+        "title": "Ekspertviden",
+        "description": "Dyb viden om svenska familiesammenføringslove og krav for alle tilladelsestyper."
+      },
+      {
+        "title": "Personlig Support",
+        "description": "Vi tilpasser vores support til dit specifikke tilladelsestype og omstændigheder for maksimal succes."
+      },
+      {
+        "title": "Effektiv Behandling",
+        "description": "Ved at sikre nøjagtighed og overholdelse hjælper vi dig med at undgå forsinkelser eller afvisninger hvilket gør processen smidigere og mere effektiv."
+      }
+    ],
+    "cta": {
+      "heading": "Klar til at Genforenes med Din Familie i Sverige?",
+      "description": "Familiesammenføring er en kompleks proces med specifikke krav for hver tilladelsestype. Lad Sweden Relocators vejlede dig gennem familiesammenføringsproceduren i Sverige og sikr at alle juridiske krav er opfyldt for en vellykket ansøgning.",
+      "button": "Start Din Familiesammenføringsansøgning",
+      "subtext": "Vort eksperthold vil vejlede dig gennem hvert trin af den svenska familiesammenføringsprocedure."
+    }
+  }
+}

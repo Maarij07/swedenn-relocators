@@ -1,0 +1,409 @@
+{
+  "studyInEu": {
+    "hero": {
+      "title": "Studera i Sverige och EU",
+      "subtitle": "Förverkliga dina akademiska drömmar på Europas främsta universitet med expertvägledning från Sweden Relocators AB"
+    },
+    "intro": {
+      "heading": "Din väg till europäisk utbildning",
+      "description": "Sverige och Europeiska unionen erbjuder världsklass utbildning med överkomliga studieavgifter, engelskspråkiga program och utmärkta möjligheter efter studierna. Oavsett om du vill studera teknik i Sverige, handel i Danmark eller medicin i Tyskland, guidar vi dig genom varje steg av antagnings- och visumprocessen."
+    },
+    "countries": [
+      {
+        "id": "sweden",
+        "name": "Studera i Sverige",
+        "intro": "Sverige är ett av Europas populäraste destinationer för internationella studenter. Med globalt rankade universitet, innovativ undervisningsmetod och ett starkt rykte inom forskning erbjuder det både högkvalitativ utbildning och en utmärkt livsstil.",
+        "tuitionFees": {
+          "heading": "Genomsnittlig studieavgift per år",
+          "fees": [
+            {
+              "category": "EU/EES och schweiziska studenter",
+              "amount": "Gratis på offentliga universitet"
+            },
+            {
+              "category": "Studenter från länder utanför EU/EES",
+              "amount": "SEK 80 000 – 295 000 (€7 500 – €25 500) beroende på program och universitet"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Antagningsintag",
+          "intakes": [
+            {
+              "period": "Höstintag",
+              "details": "Oktober – januari (studierna börjar i augusti/september)"
+            },
+            {
+              "period": "Vårintag",
+              "details": "Juni – augusti (studierna börjar i januari)"
+            }
+          ]
+        },
+        "popularFields": "Teknik, IT, Handel, Biovetenskap, Miljöstudier",
+        "visaRequirements": {
+          "heading": "Visum- och bosättningskrav",
+          "requirements": [
+            "EU/EES: Inget visum krävs",
+            "Icke-EU/EES: Uppehållstillstånd krävs för studier längre än tre månader",
+            "Finansiell försörjning: cirka SEK 10 300 per månad för levnadskostnader",
+            "Sjukförsäkring krävs för vistelser under ett år"
+          ]
+        },
+        "workRights": "Studenter kan arbeta obegränsat under studierna, och efter examen kan ansöka om ettårigt uppehållstillstånd för att söka jobb eller starta eget företag."
+      },
+      {
+        "id": "denmark",
+        "name": "Studera i Danmark",
+        "intro": "Danmark kombinerar akademisk excellens med en företagsvänlig miljö. Över 500 engelskspråkiga program erbjuds på ledande universitet och högskolorna.",
+        "tuitionFees": {
+          "heading": "Genomsnittlig studieavgift per år",
+          "fees": [
+            {
+              "category": "EU/EES-studenter",
+              "amount": "Gratis på offentliga institutioner"
+            },
+            {
+              "category": "Studenter från länder utanför EU/EES",
+              "amount": "€7 000 – €17 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Antagningsintag",
+          "intakes": [
+            {
+              "period": "Höstintag",
+              "details": "Anmälningsfristen löper i mars (studierna börjar i augusti/september)"
+            },
+            {
+              "period": "Vårintag",
+              "details": "Anmälningsfristen löper i september (studierna börjar i januari/februari, begränsade kurser)"
+            }
+          ]
+        },
+        "popularFields": "Design, Arkitektur, Handel, Teknik, IT, Biovetenskap",
+        "visaRequirements": {
+          "heading": "Visum- och bosättningskrav",
+          "requirements": [
+            "Finansiell försörjning: cirka €1 000 per månad för levnadskostnader",
+            "Sjukförsäkring måste säkras innan ankomst"
+          ]
+        },
+        "workRights": "Studenter kan arbeta upp till 20 timmar per vecka under läsperioder och heltid under semestrar."
+      },
+      {
+        "id": "germany",
+        "name": "Studera i Tyskland",
+        "intro": "Tyskland är en av Europas mest överkomliga och attraktiva studiedestinationer, med nästan 400 000 internationella studenter.",
+        "tuitionFees": {
+          "heading": "Genomsnittlig studieavgift per år",
+          "fees": [
+            {
+              "category": "Offentliga universitet",
+              "amount": "Gratis eller €0 – €3 000 (endast administrativa avgifter)"
+            },
+            {
+              "category": "Privata universitet",
+              "amount": "€6 000 – €12 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Antagningsintag",
+          "intakes": [
+            {
+              "period": "Wintersemester",
+              "details": "Anmälan maj – juli (börjar september/oktober)"
+            },
+            {
+              "period": "Sommarsemester",
+              "details": "Anmälan november – januari (börjar mars/april)"
+            }
+          ]
+        },
+        "popularFields": "Teknik, Handel, Datavetenskap, Medicin, Naturvetenskap",
+        "visaRequirements": {
+          "heading": "Visum- och bosättningskrav",
+          "requirements": [
+            "Finansiell bevisning: cirka €11 000 per år på ett spärrat konto",
+            "Obligatorisk sjukförsäkring krävs"
+          ]
+        },
+        "workRights": "20 timmar per vecka under semestern, heltid under semestrar."
+      },
+      {
+        "id": "uk",
+        "name": "Studera i Storbritannien",
+        "intro": "Storbritannien är hem för några av världens bästa universitet och ett internationellt erkänt examensystem.",
+        "tuitionFees": {
+          "heading": "Genomsnittlig studieavgift per år",
+          "fees": [
+            {
+              "category": "EU/EES-studenter",
+              "amount": "€10 000 – €13 000"
+            },
+            {
+              "category": "Studenter från länder utanför EU",
+              "amount": "€12 000 – €25 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Antagningsintag",
+          "intakes": [
+            {
+              "period": "September/oktober",
+              "details": "Huvudintag"
+            },
+            {
+              "period": "Januari/februari",
+              "details": "Sekundärt intag, begränsade program"
+            },
+            {
+              "period": "Maj",
+              "details": "Sommarintag på utvalda universitet"
+            }
+          ]
+        },
+        "popularFields": "Juridik, Handel, Teknik, Medicin, Samhällsvetenskap",
+        "visaRequirements": {
+          "heading": "Visum- och bosättningskrav",
+          "requirements": [
+            "Studentvisum krävs för icke-EU/EES",
+            "Bevis på betald undervisning plus €1 200 per månad (London) eller mindre utanför London"
+          ]
+        },
+        "workRights": "20 timmar per vecka under läsperioden, heltid under semester."
+      },
+      {
+        "id": "latvia",
+        "name": "Studera i Lettland",
+        "intro": "Lettland erbjuder överkomlig utbildning och lugna levnadsförhållanden.",
+        "tuitionFees": {
+          "heading": "Genomsnittlig studieavgift per år",
+          "fees": [
+            {
+              "category": "Allmänt",
+              "amount": "€3 000 – €6 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Antagningsintag",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Huvudintag"
+            },
+            {
+              "period": "Februari",
+              "details": "Sekundärt intag"
+            }
+          ]
+        },
+        "popularFields": "Medicin, Handel, IT, Teknik",
+        "visaRequirements": {
+          "heading": "Visum- och bosättningskrav",
+          "requirements": [
+            "Studentvisum och bevis på levnadskostnader krävs",
+            "Sjukförsäkring är obligatorisk"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "lithuania",
+        "name": "Studera i Litauen",
+        "intro": "Litauen erbjuder starka akademiska traditioner och över 350 engelskspråkiga program.",
+        "tuitionFees": {
+          "heading": "Genomsnittlig studieavgift per år",
+          "fees": [
+            {
+              "category": "Allmänt",
+              "amount": "€3 000 – €7 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Antagningsintag",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Huvudintag"
+            },
+            {
+              "period": "Februari",
+              "details": "Sekundärt intag"
+            }
+          ]
+        },
+        "popularFields": "Handel, Medicin, Teknik, Ekonomi",
+        "visaRequirements": {
+          "heading": "Visum- och bosättningskrav",
+          "requirements": [
+            "Uppehållstillstånd krävs för studenter från länder utanför EU",
+            "Finansiell bevisning och försäkring behövs"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "czechRepublic",
+        "name": "Studera i Tjeckien",
+        "intro": "Tjeckien är en växande destination för internationella studenter i Centraleuropa.",
+        "tuitionFees": {
+          "heading": "Genomsnittlig studieavgift per år",
+          "fees": [
+            {
+              "category": "Offentliga universitet",
+              "amount": "€2 000 – €5 000"
+            },
+            {
+              "category": "Privata universitet",
+              "amount": "€5 000 – €10 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Antagningsintag",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Huvudintag"
+            },
+            {
+              "period": "Februari",
+              "details": "Begränsade program"
+            }
+          ]
+        },
+        "popularFields": "Medicin, Handel, Teknik, Konst",
+        "visaRequirements": {
+          "heading": "Visum- och bosättningskrav",
+          "requirements": [
+            "Studentvisum krävs för studenter från länder utanför EU",
+            "Bevis på ekonomiska medel och boendet måste visas"
+          ]
+        },
+        "workRights": ""
+      },
+      {
+        "id": "norway",
+        "name": "Studera i Norge",
+        "intro": "Norge är känt för kostnadsfri undervisning på offentliga universitet.",
+        "tuitionFees": {
+          "heading": "Genomsnittlig studieavgift per år",
+          "fees": [
+            {
+              "category": "Offentliga universitet",
+              "amount": "Gratis (endast €50–€100 administrativ avgift)"
+            },
+            {
+              "category": "Privata universitet",
+              "amount": "€5 000 – €10 000"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Antagningsintag",
+          "intakes": [
+            {
+              "period": "Höst",
+              "details": "Start augusti/september, huvudintag"
+            },
+            {
+              "period": "Vår",
+              "details": "Begränsat till utvalda program"
+            }
+          ]
+        },
+        "popularFields": "Energi, Marin vetenskap, Teknik, IT, Naturvetenskap",
+        "visaRequirements": {
+          "heading": "Visum- och bosättningskrav",
+          "requirements": [
+            "Bevis på cirka €12 000 per år för levnadskostnader krävs",
+            "Sjukförsäkring är obligatorisk"
+          ]
+        },
+        "workRights": "20 timmar per vecka under semestern, heltid under semestrar."
+      },
+      {
+        "id": "finland",
+        "name": "Studera i Finland",
+        "intro": "Finland erbjuder modern utbildning med ett starkt fokus på forskning och innovation.",
+        "tuitionFees": {
+          "heading": "Genomsnittlig studieavgift per år",
+          "fees": [
+            {
+              "category": "EU/EES-studenter",
+              "amount": "Gratis på offentliga universitet"
+            },
+            {
+              "category": "Studenter från länder utanför EU",
+              "amount": "€8 000 – €20 000 beroende på program och universitet"
+            },
+            {
+              "category": "Doktorsutbildning",
+              "amount": "Kostnadsfritt för alla studenter"
+            }
+          ]
+        },
+        "admissionIntakes": {
+          "heading": "Antagningsintag",
+          "intakes": [
+            {
+              "period": "September",
+              "details": "Huvudintag — anmälan november – januari"
+            },
+            {
+              "period": "Januari",
+              "details": "Sekundärt intag, begränsade program — anmälan i september"
+            }
+          ]
+        },
+        "popularFields": "IT, Teknik, Design, Handel, Utbildning",
+        "visaRequirements": {
+          "heading": "Visum- och bosättningskrav",
+          "requirements": [
+            "Uppehållstillstånd krävs för studenter från länder utanför EU",
+            "Finansiell bevisning: minst €800 per månad (€9 600 per år)",
+            "Sjukförsäkring är obligatorisk"
+          ]
+        },
+        "workRights": "Studenter får arbeta 20–25 timmar per vecka under semestern och heltid under semestrar. Efter examen är arbetstillstånd tillgängligt för akademiker."
+      }
+    ],
+    "whyChoose": {
+      "heading": "Varför välja Sweden Relocators AB",
+      "services": [
+        {
+          "title": "Fullständig ansökningsvägledning",
+          "description": "Fullständig ansökningsvägledning för Bachelor-, Master- och PhD-program i Sverige och EU"
+        },
+        {
+          "title": "Dokumenttjänster",
+          "description": "Dokumentattestering, översättning och förberedelse för universitet och migrationsmyndigheter"
+        },
+        {
+          "title": "Visum- och bosättningsstöd",
+          "description": "Visum- och uppehållstillståndsansökningar hanteras med precision"
+        },
+        {
+          "title": "Finansiell assistans",
+          "description": "Stipendium- och finansiell rådgivning anpassad till varje land"
+        },
+        {
+          "title": "Stöd efter studierna",
+          "description": "Löpande stöd för förnyelse av uppehållstillstånd och sysselsättning efter studierna"
+        }
+      ],
+      "description": "På Sweden Relocators AB gör vi studier i Sverige och Europa enkla, transparenta och stressfria. Från din första ansökan till din examen och därefter guidar vi dig vid varje steg."
+    },
+    "cta": {
+      "heading": "Börja din studieresa i Europa idag",
+      "description": "Kontakta Sweden Relocators för expertguidning om din ansökan och visumprocess.",
+      "button": "Kom igång",
+      "subtext": "Utbildningsbestämmelser varierar från land till land. Konsultera alltid officiella universitet- och immigrationssidor för den senaste informationen."
+    }
+  }
+}

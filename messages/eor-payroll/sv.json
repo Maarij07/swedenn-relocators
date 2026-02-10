@@ -1,0 +1,250 @@
+{
+  "eorPayroll": {
+    "hero": {
+      "title": "Employer of Record (EOR) & Löneservice i Sverige",
+      "subtitle": "Expandera din verksamhet till Sverige utan att öppna en lokal enhet"
+    },
+    "intro": {
+      "heading": "Effektiv EOR & Löneservice för internationell tillväxt",
+      "description": "Att expandera din verksamhet till Sverige eller hantera internationella anställda behöver inte vara komplicerat. På Sweden Relocators erbjuder vi en komplett Employer of Record (EOR) och lönelösning genom vår onlineportal och mobilapp, vilket hjälper företag att anställa och hantera personal i Sverige utan att öppna en lokal juridisk enhet. Våra tjänster kombinerar efterlevnad, lönehantering och anställdestöd i ett strömlinjeformat system.",
+      "infoBox": "Oavsett om du är ett startup som testar den svenska marknaden, ett multinationellt företag som anställer fjärrpersonal eller ett företag som omplacerar anställda, säkerställer våra EOR & lönetjänster juridisk efterlevnad, korrekt lönehantering och anställdas nöjdhet."
+    },
+    "whatIsEOR": {
+      "heading": "Vad är Employer of Record (EOR)?",
+      "description": "En Employer of Record (EOR) är en betrodd tredje part som blir den juridiska arbetsgivaren för din arbetskraft i Sverige. Medan du styr det dagliga arbetet hanterar vi de juridiska, administrativa och efterlevnadsaspekterna av anställning. Detta inkluderar att utforma anställningsavtal som följer svensk arbetsrätt, registrera anställda hos Skatteverket, hantera löner, skatteavdrag och sociala avgifter, hantera förmåner, pensioner och försäkringar samt säkerställa efterlevnad av svenska anställningsstandarder och EU-förordningar. För företag innebär detta att du snabbt kan expandera till Sverige utan att bilda ett dotterbolag eller spendera månader på regelverksinstallation."
+    },
+    "whyCompaniesUse": {
+      "heading": "Varför företag använder EOR-tjänster i Sverige",
+      "intro": "Sverige är en av Europas starkaste ekonomier, känd för sina innovationsdrivna marknader, högkvalificerade arbetskraft och starka rättsskydd för anställda. Men för utländska företag kan anställning av personal i Sverige vara utmanande på grund av följande orsaker:",
+      "challenges": [
+        {
+          "title": "Komplexa anställningslagar",
+          "description": "Sverige tillämpar starka arbetstagarättigheter enligt Lagen om anställningsskydd (LAS)."
+        },
+        {
+          "title": "Strikt skatteefterlevnad",
+          "description": "Arbetsgivare måste registrera sig hos Skatteverket och hantera PAYE-skatteavdrag, pensioner och arbetsgivaravgifter."
+        },
+        {
+          "title": "Tidskrävande installation",
+          "description": "Att etablera en lokal enhet (AB) kan ta månader och fördröja affärsutvecklingen."
+        },
+        {
+          "title": "Höga efterlevnadsrisker",
+          "description": "Misstag i lönehantering, skatter eller förmånsadministration kan leda till böter eller tvister."
+        }
+      ],
+      "conclusion": "Vår EOR-tjänst löser dessa utmaningar genom att agera som din juridiska arbetsgivare, så att du kan fokusera på tillväxt medan vi hanterar efterlevnad."
+    },
+    "howItWorks": {
+      "heading": "Hur Sweden Relocators EOR-tjänst fungerar",
+      "description": "Vi erbjuder en steg-för-steg digital process för att anställa och hantera anställda i Sverige:",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Företagsregistrering",
+          "description": "Registrera dig som arbetsgivare på vår portal."
+        },
+        {
+          "step": 2,
+          "title": "Anställning av personal",
+          "description": "Lägg till anställdas uppgifter (avtal, löner, förmåner) genom vår digitala plattform."
+        },
+        {
+          "step": 3,
+          "title": "Juridisk efterlevnad",
+          "description": "Vi utfärdar anställningsavtal som följer svensk och EU-lag."
+        },
+        {
+          "step": 4,
+          "title": "Lönehantering",
+          "description": "Vårt system beräknar nettolöner, skatteavdrag och sociala avgifter."
+        },
+        {
+          "step": 5,
+          "title": "Pågående stöd",
+          "description": "Vi hanterar förmåner, pensioner och HR-efterlevnad under hela anställningen."
+        },
+        {
+          "step": 6,
+          "title": "Avslutning",
+          "description": "Om avtal upphör hanterar vi uppsägningstider, uppsägningsersättning och avslutning i enlighet med lag."
+        }
+      ]
+    },
+    "payrollProcess": {
+      "heading": "Löneservice i Sverige - Fullständig process",
+      "intro": "Lönesystemet i Sverige är mycket reglerat och noggrannhet är avgörande. Våra lönetjänster är fullständigt integrerade med vårt EOR-system för att säkerställa smidiga, efterlevnadsenliga betalningar.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Anställd installation",
+          "description": "Ange anställdas uppgifter i portalen: lön, förmåner, pension och avdrag. Registrera hos Skatteverket för PAYE-skatter och sociala avgifter."
+        },
+        {
+          "step": 2,
+          "title": "Månatlig lönehantering",
+          "description": "Automatiserade lönberäkningar inklusive skatter, pensioner och försäkringar. Arbetsgivaravgifter beräknas och rapporteras. Efterlevnad av kollektivavtal (om tillämpligt)."
+        },
+        {
+          "step": 3,
+          "title": "Löneutbetalningar",
+          "description": "Direkt bankinsättning till anställdas konton. Anställda får tillgång till digitala lönespecifikationer med fullständig uppdelning av inkomster och avdrag."
+        },
+        {
+          "step": 4,
+          "title": "Skatteefterlevnad",
+          "description": "Månatliga skattedeklarationer till Skatteverket. Årsrapportering av inkomstdeklarationer för anställda. Säkra register lagrade i portalen för både arbetsgivare och anställdas tillgång."
+        },
+        {
+          "step": 5,
+          "title": "Förmånsadministration",
+          "description": "Uppstart av pensioner, sjukförsäkring och föräldraledighetsförmåner enligt svenska standarder. Automatisk administration genom lönesystemet."
+        }
+      ]
+    },
+    "complianceAndLegal": {
+      "heading": "Efterlevnad och juridiska referenser",
+      "intro": "Våra EOR & lönetjänster verkar strikt inom svenska och EU-förordningar:",
+      "references": [
+        {
+          "title": "Lagen om anställningsskydd (LAS)",
+          "description": "Styr anställningssäkerhet och uppsägningsregler."
+        },
+        {
+          "title": "Skatteverket",
+          "description": "Övervakar PAYE, arbetsgivaravgifter och deklarationer."
+        },
+        {
+          "title": "Socialförsäkringskoden",
+          "description": "Reglerar pensioner, föräldraledighet och anställdas skydd."
+        },
+        {
+          "title": "GDPR-efterlevnad",
+          "description": "Säkerställer skydd av anställdas uppgifter."
+        },
+        {
+          "title": "EU-direktiv",
+          "description": "Inklusive fri rörlighet och arbetstagarrättigheter enligt EU-lag."
+        }
+      ],
+      "conclusion": "Genom att använda Sweden Relocators undviker ditt företag efterlevnadsrisker och säkerställer att alla anställningsförpliktelser uppfylls."
+    },
+    "benefitsForCompanies": {
+      "heading": "Fördelar för företag",
+      "benefits": [
+        {
+          "title": "Expandera snabbt",
+          "description": "Anställ personal i Sverige utan att öppna dotterbolag."
+        },
+        {
+          "title": "Spara tid & kostnader",
+          "description": "Undvik juridisk installation, bokföring och HR-administration."
+        },
+        {
+          "title": "Håll efterlevnad",
+          "description": "All anställning, skatt och lönehantering hanteras inom svensk lag."
+        },
+        {
+          "title": "Skala enkelt",
+          "description": "Lägg till eller ta bort anställda snabbt baserat på affärsbehov."
+        },
+        {
+          "title": "En digital plattform",
+          "description": "Hantera allt genom vår portal och app."
+        }
+      ]
+    },
+    "benefitsForEmployees": {
+      "heading": "Fördelar för anställda",
+      "benefits": [
+        {
+          "title": "Punkliga löneutbetalningar",
+          "description": "Pålitlig löneservice med transparenta lönespecifikationer."
+        },
+        {
+          "title": "Förmåner & pensioner",
+          "description": "Full efterlevnad med svenska förmånssystem."
+        },
+        {
+          "title": "Rättsskydd",
+          "description": "Anställningsavtal följer svenska standarder."
+        },
+        {
+          "title": "Förtroende & stabilitet",
+          "description": "Anställda känner sig trygga, vilket förbättrar kvarhållning."
+        }
+      ]
+    },
+    "whoShouldUse": {
+      "heading": "Vem bör använda EOR & lönetjänster?",
+      "intro": "Våra lösningar är idealiska för:",
+      "solutions": [
+        {
+          "title": "Startups & SMEs",
+          "description": "Anställ personal utan tunga installationskostnader."
+        },
+        {
+          "title": "Globala företag",
+          "description": "Expandera till Sverige utan lokal registrering."
+        },
+        {
+          "title": "Projektbaserad rekrytering",
+          "description": "Korttids- eller säsongsarbetare hanteras enkelt."
+        },
+        {
+          "title": "Fjärrteam",
+          "description": "Anställ fjärrarbetare i Sverige i enlighet med lag."
+        },
+        {
+          "title": "Omplaceringar",
+          "description": "Flytta anställda till Sverige med fullt HR-stöd."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Varför välja Sweden Relocators?",
+      "reasons": [
+        {
+          "title": "Allt-i-ett digital portal",
+          "description": "Hantera avtal, löner och efterlevnad i ett system."
+        },
+        {
+          "title": "Expertkunskap i svensk arbetsrätt",
+          "description": "Minska juridiska och skatterisker."
+        },
+        {
+          "title": "Transparenta processer",
+          "description": "Realtidsrapporter och register för arbetsgivare och anställda."
+        },
+        {
+          "title": "Helhetslösning för omplacering",
+          "description": "Utöver EOR hjälper vi med boende, visum och integration."
+        },
+        {
+          "title": "Flerspråkigt stöd",
+          "description": "Hjälp på engelska, svenska, urdu, arabiska, persiska med mera."
+        }
+      ]
+    },
+    "gettingStarted": {
+      "heading": "Komma igång",
+      "steps": [
+        "Registrera ditt företag på vår portal.",
+        "Lägg till anställda med lön- och avtalsuppgifter.",
+        "Aktivera löner & efterlevnad – Vi hanterar resten.",
+        "Fokusera på affärstillväxt medan vi hanterar anställning."
+      ]
+    },
+    "conclusion": {
+      "heading": "Expandera till Sverige med förtroende",
+      "description": "Med Sweden Relocators Employer of Record (EOR) och lönetjänster kan ditt företag expandera till Sverige med förtroende. Vi hanterar de juridiska, skattemässiga och lönekomplexiteterna, medan du fokuserar på att bygga din verksamhet. Oavsett om du behöver en anställd eller ett helt team säkerställer vår plattform smidig arbetskraftshantering."
+    },
+    "cta": {
+      "heading": "Redo att expandera din verksamhet till Sverige?",
+      "description": "Låt Sweden Relocators hantera komplexiteten med EOR och lönehantering. Våra experter guidar dig genom hela processen och säkerställer full juridisk efterlevnad och anställdas nöjdhet.",
+      "button": "Kom igång med EOR-tjänster",
+      "subtext": "Vårt dedikerade team är redo att svara på alla dina frågor om att anställa personal i Sverige."
+    }
+  }
+}

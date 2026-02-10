@@ -1,0 +1,217 @@
+{
+  "euCitizensParentsPermit": {
+    "hero": {
+      "title": "EU-verblijfskaart voor afhankelijke ouders en andere familieleden onder Richtlijn 2004/38/EG",
+      "subtitle": "Deskundig advies voor het meenemen van afhankelijke familieleden naar Zweden"
+    },
+    "intro": {
+      "heading": "Familiale Eenheid door EU-Vrij Verkeer",
+      "description": "Onder EU-Richtlijn 2004/38/EG kunnen EU/EER-burgers die hun recht op vrij verkeer in Zweden uitoefenen een verblijfskaart aanvragen voor hun afhankelijke familieleden van buiten de EU, inclusief ouders en andere familieleden. Deze richtlijn beoogt familiale eenheid te bevorderen door EU-burgers toe te staan familieleden die economisch of sociaal van hen afhankelijk zijn naar Zweden te brengen. Hier volgt een uitvoerig overzicht van de vereisten, aanvraagprocedure en bijzondere gevallen voor afhankelijke ouders en andere familieleden."
+    },
+    "whoQualifies": {
+      "heading": "Wie Kwalificeert zich als Afhankelijk Familielid?",
+      "intro": "Om onder Richtlijn 2004/38/EG in aanmerking te komen, moet het niet-EU-familielid in een van de volgende categorieën vallen:",
+      "categories": [
+        {
+          "number": 1,
+          "title": "Afhankelijke Ouders",
+          "description": "Ouders van een EU-burger of hun echtgenoot/partner die afhankelijk zijn van de EU-burger voor financiële steun of ander essentieel onderhoud."
+        },
+        {
+          "number": 2,
+          "title": "Andere Afhankelijke Familieleden",
+          "description": "Dit kan broers/zussen of uitgebreide familieleden omvatten als er een duidelijke afhankelijkheidsrelatie bestaat, vooral als het familielid en de EU-burger eerder samen in hetzelfde land hebben gewoond."
+        },
+        {
+          "number": 3,
+          "title": "Kinderen of Stiefkinderen",
+          "description": "Volwassen kinderen (boven de 21) kunnen ook als afhankelijk kwalificeren als zij op de EU-burger voor steun zijn aangewezen, hoewel dit anders wordt beoordeeld dan voor minderjarigen."
+        }
+      ]
+    },
+    "keyConditions": {
+      "heading": "Sleutelvoorwaarden voor Geschiktheid",
+      "conditions": [
+        {
+          "number": 1,
+          "title": "Bewijs van Afhankelijkheid",
+          "description": "De aanvrager moet bewijzen overleggen dat aantoont dat hij/zij financieel of persoonlijk afhankelijk is van de EU-burger. Dit zou bewijs van gezamenlijke woning, regelmatige financiële ondersteuning of documentatie van emotionele en sociale afhankelijkheid kunnen omvatten."
+        },
+        {
+          "number": 2,
+          "title": "Eerder Samenwonen",
+          "description": "In gevallen met uitgebreide familieleden (zoals broers/zussen of volwassen kinderen) moet de aanvrager aantonen dat hij/zij met de EU-burger in zijn thuisland heeft gewoond, onmiddellijk voordat de EU-burger naar Zweden verhuisde."
+        },
+        {
+          "number": 3,
+          "title": "Tijdige Aanvraag",
+          "description": "Aanvragen dienen idealiter zo snel mogelijk na aankomst van de EU-burger in Zweden te worden ingediend. Vertraagde aanvragen kunnen de kans op goedkeuring verminderen, vooral als de afhankelijkheid alleen na de verhuizing van de EU-burger is ontstaan."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Aanvraagprocedure voor Verblijfskaart onder Richtlijn 2004/38/EG",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Voorbereiding van Documentatie voor Afhankelijkheid en Relatie",
+          "intro": "Het verzamelen van noodzakelijke documentatie is cruciaal. Belangrijke documenten omvatten:",
+          "documents": [
+            {
+              "title": "Identiteitsbewijs",
+              "description": "Geldig paspoort van het niet-EU-familielid."
+            },
+            {
+              "title": "Bewijs van Relatie",
+              "details": [
+                "Voor ouders: Geboorteakte van de EU-burger die de ouder-kind-relatie aantoont.",
+                "Voor andere familieleden: Documenten die de familierelatie aantonen (bijvoorbeeld geboorteurkonden of familieregisters)."
+              ]
+            },
+            {
+              "title": "Bewijs van Afhankelijkheid",
+              "description": "Dit kan bankafschriften, bewijs van regelmatige geldtransfers, bewijs van gezamenlijke woning en andere documenten omvatten die afhankelijkheid van de EU-burger voor financiële of emotionele ondersteuning aantonen."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Indienen van Aanvraag",
+          "intro": "Het niet-EU-familielid moet om een verblijfskaart verzoeken, die online of via een zweedse ambassade of consulaat in het thuisland van de aanvrager bij de Zweedse Immigratiedienst (Migrationsverket) kan worden ingediend.",
+          "details": [
+            "Gegevens Aanvrager: Informatie over de EU-burger, hun verblijfsstatus in Zweden en persoonlijke gegevens van de afhankelijke.",
+            "Ondersteunende Documenten: Alle vereiste documenten die de afhankelijkheidsrelatie en woonplaatsbewijs van de EU-burger in Zweden aantonen."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Beoordeling door Immigratiedienst",
+          "intro": "De Immigratiedienst beoordeelt de relatie en afhankelijkheid op basis van het verstrekte bewijs. Zij kunnen om aanvullende documentatie of verduidelijking verzoeken indien nodig. De beoordeling richt zich op:",
+          "details": [
+            "Verificatie van Afhankelijkheid: Bevestiging dat het niet-EU-familielid werkelijk afhankelijk is van de EU-burger.",
+            "Familierelatie: Verifiëring van de familieband van de aanvrager met de EU-burger en waarborging dat de afhankelijkheid vóór de verhuizing naar Zweden bestond."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Beslissing en Afgifte Verblijfskaart",
+          "description": "Indien goedgekeurd, ontvangt het niet-EU-familielid een verblijfskaart die geldig is voor vijf jaar of de verwachte duur van verblijf van de EU-burger in Zweden (naar gelang wat korter is). De verblijfskaart stelt de houder in staat in Zweden te wonen, te werken en gezondheidszorg te benutten onder dezelfde voorwaarden als EU-familieleden."
+        }
+      ]
+    },
+    "specificCases": {
+      "heading": "Bijzondere Gevallen: Vereisten voor Afhankelijke Ouders en Andere Familieleden",
+      "dependentParents": {
+        "heading": "Verblijfsvergunning voor Afhankelijke Ouders",
+        "intro": "Voor afhankelijke ouders omvatten de primaire voorwaarden het aantonen van economische of gezondheidsgebonden afhankelijkheid van de EU-burger. Voorbeelden van aanvaardbare documentatie kunnen onder meer omvatten:",
+        "documentation": [
+          {
+            "title": "Bewijs van Financiële Steun",
+            "description": "Bankoverschrijvingen, geldtransferontvangsten of bewijs van regelmatige financiële steun van de EU-burger."
+          },
+          {
+            "title": "Gezondheidsgebonden Afhankelijkheid",
+            "description": "Medische attesten of documentatie van speciale behoeften die nabijheid van de EU-burger voor steun en zorg vereisen."
+          }
+        ],
+        "note": "In gevallen waarin de ouder aanzienlijke gezondheidsbehoeften heeft, kan aanvullende documentatie vereist zijn om aan te tonen dat passende zorgopties niet beschikbaar zijn in hun thuisland."
+      },
+      "otherFamilyMembers": {
+        "heading": "Verblijfsvergunning voor Andere Afhankelijke Familieleden",
+        "intro": "Voor andere afhankelijke familieleden (bijvoorbeeld volwassen broers/zussen of uitgebreide familieleden) zijn de vereisten doorgaans strenger:",
+        "requirements": [
+          {
+            "title": "Bewijs van Gezamenlijke Huishouding",
+            "description": "Bewijs dat het familielid met de EU-burger vóór hun verhuizing naar Zweden heeft gewoond, zoals een gezamenlijk huurcontract of energierekeningen."
+          },
+          {
+            "title": "Emotionele en Sociale Afhankelijkheid",
+            "description": "Eidelijke verklaringen of stellingen die een sterke sociale en emotionele band aantonen, kunnen vereist zijn, vooral als de relatie verder gaat dan financiële afhankelijkheid."
+          }
+        ]
+      }
+    },
+    "maintenanceRequirement": {
+      "heading": "Onderhoudsverplichting voor EU-Sponsor",
+      "intro": "Volgens de zweedse regelgeving moet de EU-burger in staat zijn financiële ondersteuning en passende huisvesting voor zijn niet-EU-familielid te bieden. Dit omvat:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Stabiel Inkomen",
+          "description": "Bewijs van werkgelegenheid, regelmatig inkomen of financiële middelen die aantonen dat de EU-burger zichzelf en hun afhankelijke kan onderhouden."
+        },
+        {
+          "number": 2,
+          "title": "Huisvestingsvereiste",
+          "description": "De EU-burger moet over passende huisvesting beschikken die voldoet aan zweedse normen voor woonoppervlak en privacy. Dit kan huurcontracten, eigendomsbewijs of een onderhuurcontract met toestemming van de verhuurder omvatten."
+        }
+      ],
+      "note": "De onderhoudsverplichting geldt niet voor minderjarige kinderen (onder de 18 jaar). Dit betekent dat als een ouder een minderjarig kind in Zweden wil voegen, het kind geen inkomens- of huisvestingsvereisten hoeft te vervullen."
+    },
+    "additionalConsiderations": {
+      "heading": "Aanvullende Overwegingen",
+      "timeliness": {
+        "heading": "Tijdigheid van Aanvraag",
+        "description": "Aanvragen ingediend kort na de verhuizing van de EU-burger naar Zweden hebben meer kans op succes. Lange vertragingen bij het indienen van aanvragen kunnen het proces bemoeilijken, omdat autoriteiten de bestaande eerdere afhankelijkheid in twijfel kunnen trekken. Idealiter dienen aanvragen voor afhankelijke familieleden enkele maanden na aankomst van de EU-burger in Zweden te worden ingediend."
+      },
+      "changes": {
+        "heading": "Wijzigingen in Afhankelijkheidsstatus",
+        "description": "Als de afhankelijkheidsstatus verandert (bijvoorbeeld als het niet-EU-familielid financieel onafhankelijk wordt), kan dit invloed hebben op de status van de verblijfskaart. De Zweedse Immigratiedienst kan deze zaken periodiek herzien om naleving van het verblijfscriteria te waarborgen."
+      },
+      "renewal": {
+        "heading": "Vernieuwing van Verblijfskaart",
+        "description": "Verblijfskaarten voor afhankelijke familieleden zijn doorgaans vijf jaar geldig. Vernieuwing is mogelijk, mits de afhankelijkheidsrelatie voortduurt en de EU-burger inwoner van Zweden blijft. Verlengingsaanvragen dienen ruim vóór de vervaldatum te worden ingediend, met actuele documentatie die aantoon dat de afhankelijkheid voortduurt."
+      }
+    },
+    "howWeHelp": {
+      "heading": "Hoe Sweden Relocators kan Helpen met EU-Verblijfskaartsaanvragen",
+      "intro": "Het navigeren van het proces voor het verkrijgen van een EU-verblijfskaart voor afhankelijke familieleden onder Richtlijn 2004/38/EG kan ingewikkeld zijn. Sweden Relocators biedt deskundig advies en helpt ervoor te zorgen dat alle documentatie in orde is, en begeleidt u door elke stap van de aanvraagprocedure.",
+      "subheading": "Onze Services Omvatten:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Geschiktheidsbeoordeling",
+          "description": "We beoordelen de specifieke omstandigheden van uw familie om te bepalen of uw niet-EU-familieleden als afhankelijk volgens de zweedse wet kwalificeren."
+        },
+        {
+          "number": 2,
+          "title": "Voorbereiding Documentatie",
+          "description": "Ons team helpt alle vereiste documenten te verzamelen en voor te bereiden, inclusief bewijs van relatie, afhankelijkheid en financiële ondersteuning."
+        },
+        {
+          "number": 3,
+          "title": "Indiening en Bewaking Aanvraag",
+          "description": "We helpen met de indiening van de aanvraag en bewaken de voortgang bij de Immigratiedienst voor tijdige updates."
+        },
+        {
+          "number": 4,
+          "title": "Steun bij Bezwaar",
+          "description": "Bij weigering van de aanvraag bieden we begeleiding bij het bezwaarprocedure en helpen uw zaak voor heroverweging te versterken."
+        }
+      ]
+    },
+    "benefitsOfService": {
+      "heading": "Voordelen van Onze Service",
+      "benefits": [
+        {
+          "title": "Deskundig Advies",
+          "description": "Vertrouwdheid met Richtlijn 2004/38/EG en de vereisten van de Immigratiedienst stelt ons in staat nauwkeurig, effectief advies te geven."
+        },
+        {
+          "title": "Uitgebreide Ondersteuning",
+          "description": "Van geschiktheidsbeoordeling tot documentvoorbereiding en bezwaarsteun, we behandelen elk aspect van uw aanvraag."
+        },
+        {
+          "title": "Persoonlijke Service",
+          "description": "Elk geval is uniek en we passen onze benadering aan uw familie's specifieke behoeften aan, wat de meest effectieve oplossingen biedt."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Breng Uw Dierbaren Vandaag naar Zweden",
+      "description": "Als u hulp nodig hebt om een EU-verblijfskaart voor uw afhankelijke ouders of andere familieleden te verkrijgen, is Sweden Relocators hier om te helpen. Contacteer ons vandaag om de geschiktheid van uw familie te bespreken en te leren hoe we uw reis ter hereniging met uw dierbaren kunnen ondersteunen.",
+      "button": "aan de slag",
+      "subtext": "Bezoek onze EU-burgers Ouders Toestemming Sectie of neem contact met ons op voor meer informatie. Ons team is klaar om u te helpen met het hereningen met uw familie."
+    }
+  }
+}

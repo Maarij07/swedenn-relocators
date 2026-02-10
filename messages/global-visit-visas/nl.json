@@ -1,0 +1,240 @@
+{
+  "globalVisitVisas": {
+    "hero": {
+      "title": "Wereldwijde visumdiensten – Uw toegang tot zorgeloze internationale reizen",
+      "subtitle": "Betrouwbare visumondersteuning voor toerisme, zaken, studie en verhuizing wereldwijd"
+    },
+    "intro": {
+      "heading": "Internationaal reizen eenvoudig gemaakt",
+      "description": "Bij Sweden Relocators maken we internationaal reizen eenvoudig, transparant en stressvrij via ons wereldwijde visumprogramma. Onze dienst is ontworpen voor individuen, gezinnen, studenten en professionals die betrouwbare visumondersteuning willen zonder de verwarring van meerdere ambassadeprocedures.",
+      "toolLink": "Ons unieke universele visumaanvraagformulier maakt het mogelijk om voor meerdere bestemmingen met dezelfde gegevens aan te vragen, waardoor tijd wordt bespaard en fouten worden verminderd via ons beveiligde webportaal en mobiele app."
+    },
+    "services": {
+      "heading": "Uitgebreide visumondersteuning",
+      "requirementsLabel": "Wat wij afhandelen",
+      "services": [
+        {
+          "id": "clientid",
+          "title": "Persoonlijk cliënt-ID",
+          "description": "Elke cliënt ontvangt een uniek ID bij registratie",
+          "requirements": [
+            {"label": "Meerdere gezinnen", "description": "Beheer meerdere aanvragen voor verschillende gezinsleden en bestemmingen tegelijkertijd"},
+            {"label": "Veilige toegang", "description": "Volg al uw visumaanvragen vanaf één dashboard"}
+          ]
+        },
+        {
+          "id": "assessment",
+          "title": "Beoordeling en voorbereiding van de aanvraag",
+          "description": "Volledige achtergrondbeoordeling en volledige dossiervoorbereiding",
+          "requirements": [
+            {"label": "Achtergrondcontrole", "description": "We beoordelen uw reisdoel, financiële situatie en reisgeschiedenis"},
+            {"label": "Ambassadestandaarden", "description": "Volledig dossier voorbereid inclusief formulieren, begeleidende brieven en ondersteunende documenten afgestemd op de bestemming"}
+          ]
+        },
+        {
+          "id": "appointment",
+          "title": "Afspraakplanning en bevestiging",
+          "description": "Wij boeken uw ambassadeafspraak met directe bevestigingsoproep",
+          "requirements": [
+            {"label": "Ambassadeboekingen", "description": "Afspraak gepland bij de relevante ambassade of VFS Global-centrum"},
+            {"label": "Klaarheidscontrole", "description": "Ons personeel belt direct om de vereisten te controleren en ervoor te zorgen dat alle details correct zijn"}
+          ]
+        },
+        {
+          "id": "liaison",
+          "title": "Ambassadecontact",
+          "description": "Professionele communicatie met ambassades namens u",
+          "requirements": [
+            {"label": "Vraagafhandeling", "description": "Ons team handelt communicatie met de ambassade af en verduidelijkt eventuele vragen"},
+            {"label": "Professionele vertegenwoordiging", "description": "Vermindert risico op vertragingen, extra documenten of afwijzingen"}
+          ]
+        },
+        {
+          "id": "file",
+          "title": "Volledige dossiervoorbereiding en levering",
+          "description": "Uw kant-en-klare dossier geleverd aan uw huis",
+          "requirements": [
+            {"label": "Hotelbevestiging", "description": "Bevestigde hotelreserveringen en vluchtreserveringen inbegrepen"},
+            {"label": "Financiële documentatie", "description": "Reisverzekering en vereiste financiële documentatie samengesteld"}
+          ]
+        },
+        {
+          "id": "digital",
+          "title": "Veilig digitaal dossierbeheer",
+          "description": "GDPR-conforme documentopslag en hergebruik voor frequente reizigers",
+          "requirements": [
+            {"label": "Beveiliging", "description": "Alle documenten veilig opgeslagen in een GDPR-conform systeem"},
+            {"label": "Hergebruik", "description": "Sla informatie op voor toekomstige aanvragen en bespaar tijd en moeite"}
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "heading": "Visumcategorieën die wij ondersteunen",
+      "intro": "Ons programma dekt de belangrijkste bestemmingen wereldwijd",
+      "visas": [
+        "Schengenvisum voor Europa",
+        "Visum voor het Verenigd Koninkrijk",
+        "Visum voor de Verenigde Staten",
+        "Visum voor Canada",
+        "Visum voor Australië",
+        "Visum voor Nieuw-Zeeland",
+        "Visum voor Ierland",
+        "Visum voor Japan",
+        "Visum voor Zuid-Korea",
+        "Visum voor China"
+      ],
+      "additional": "Andere bestemmingen worden ook ondersteund via op maat gemaakte ambassadeoplossingen."
+    },
+    "purposes": {
+      "heading": "Doeleinden van visums die wij dekken",
+      "purposes": [
+        {
+          "id": 1,
+          "title": "Toerisme",
+          "description": "Bewijs van accommodatie, reisverzekering en financiële dekking geregeld voor soepele goedkeuring"
+        },
+        {
+          "id": 2,
+          "title": "Bezoek aan familie of vrienden",
+          "description": "Geverifieerde uitnodigingsbrieven, sponsor-documenten en bewijs van relaties voorbereid"
+        },
+        {
+          "id": 3,
+          "title": "EU-familiehereniging",
+          "description": "Gedetailleerde beoordeling van huisvesting, inkomen en verblijfscompliance voor familietoestemmingen"
+        },
+        {
+          "id": 4,
+          "title": "Zakelijke en conferentiereizen",
+          "description": "Bedrijfuitnodigingen, sponsorbevestigingen en professionele documentatie geregeld"
+        },
+        {
+          "id": 5,
+          "title": "Studeren in het buitenland",
+          "description": "Toelatingsbrieven, bewijs van middelen en onderwijsdocumenten geverifieerd"
+        },
+        {
+          "id": 6,
+          "title": "Kortdurend werk",
+          "description": "Arbeidscontracten en naleving van arbeidswetgeving gecontroleerd"
+        },
+        {
+          "id": 7,
+          "title": "Medische behandeling",
+          "description": "Ziekenhuisbevestigingen, medische dossiers en financiële sponsoring voorbereid"
+        },
+        {
+          "id": 8,
+          "title": "Culturele en sportevenementen",
+          "description": "Evenementregistraties en officiële uitnodigingen samengesteld"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Visumaanvraagproces",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registratie",
+          "description": "Registreer via onze website of app om een account aan te maken en uw unieke cliënt-ID te ontvangen"
+        },
+        {
+          "number": 2,
+          "title": "Beoordeling",
+          "description": "Ons team beoordeelt uw doel, geschiktheid en benodigde documenten voor uw bestemming"
+        },
+        {
+          "number": 3,
+          "title": "Voorbereiding",
+          "description": "Wij maken uw complete aanvraagdossier volgens de ambassadestandaarden"
+        },
+        {
+          "number": 4,
+          "title": "Afspraak",
+          "description": "Wij verzekeren en bevestigen uw ambassadeafspraak, inclusief een telefoontje om uw gereedheid te controleren"
+        },
+        {
+          "number": 5,
+          "title": "Levering",
+          "description": "Uw definitieve dossier wordt thuis geleverd met alle afspraakdetails"
+        },
+        {
+          "number": 6,
+          "title": "Indiening",
+          "description": "Woon de afspraak bij met uw paspoort en complete dossier"
+        },
+        {
+          "number": 7,
+          "title": "Tracking en hergebruik",
+          "description": "Volg de voortgang in ons portaal en hergebruik uw gegevens voor toekomstige visumaanvragen"
+        }
+      ]
+    },
+    "languages": {
+      "heading": "Meertalige ondersteuning",
+      "description": "Om te zorgen dat taal nooit een barrière vormt, bieden wij ondersteuning in Engels, Zweeds, Urdu, Arabisch, Punjabi, Servisch, Koerdisch, Perzisch en vele andere talen. Onze adviseurs leggen visumregels uit in de taal waarin u zich het meest comfortabel voelt."
+    },
+    "faq": {
+      "heading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "id": 1,
+          "question": "Regelt u hotelreserveringen en reisverzekering voor visa?",
+          "answer": "Ja, wij bieden ambassade-goedgekeurde hotelreserveringen, vluchten en reisverzekering om uw visumaanvraag te versterken."
+        },
+        {
+          "id": 2,
+          "question": "Hoe kan ik controleren of ik in aanmerking kom voor een visum?",
+          "answer": "Onze beoordelingshulpmiddelen en experts analyseren uw documenten en reisgeschiedenis om uw geschiktheid te bevestigen."
+        },
+        {
+          "id": 3,
+          "question": "Behandelt u studenten- en familievisa?",
+          "answer": "Ja, wij beheren studentenaanvragen, familiebezoeken en EU-familiehereniging met volledige documentatie en nalevingscontroles."
+        },
+        {
+          "id": 4,
+          "question": "Kan ik meerdere visa aanvragen met dezelfde documenten?",
+          "answer": "Ja, ons systeem maakt het mogelijk opgeslagen documenten te hergebruiken voor verschillende landen en visumtypes, wat tijd en moeite bespaart."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Waarom kiezen voor Sweden Relocators",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Universeel visumformulier",
+          "description": "Vraag bij meerdere bestemmingen aan met dezelfde informatie, vermindert fouten en bespaart tijd"
+        },
+        {
+          "id": 2,
+          "title": "Ambassadecoördinatie",
+          "description": "Professionele vertegenwoordiging bij ambassades zorgt voor soepele verwerking en vermindert afwijzingsrisico"
+        },
+        {
+          "id": 3,
+          "title": "Meertalige ondersteuning",
+          "description": "Hulp in meer dan 9 talen zorgt voor duidelijk begrip van de vereisten"
+        },
+        {
+          "id": 4,
+          "title": "Volledige reisarrangementen",
+          "description": "Hotelreserveringen, vluchten en verzekering geregeld voor sterkere aanvragen"
+        },
+        {
+          "id": 5,
+          "title": "Veilige digitale tools",
+          "description": "GDPR-conform systeem met veilige portal en app voor eenvoudig documentbeheer"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Klaar om de wereld rond te reizen?",
+      "description": "Met Sweden Relocators wereldwijde visumprogramma combineren wij technologie, expertise en persoonlijke ondersteuning om internationaal reizen eenvoudig te maken. Begin vandaag nog met uw visumaanvraag.",
+      "button": "Begin uw visumaanvraag",
+      "subtext": "Ons team begeleidt u bij elke stap om ervoor te zorgen dat uw aanvraag slaagt."
+    }
+  }
+}

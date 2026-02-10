@@ -1,0 +1,195 @@
+{
+  "euCitizensRelocation": {
+    "hero": {
+      "title": "Gezinshereniging voor EU-burgers in Zweden",
+      "subtitle": "Volledige ondersteuning voor EU-burgers en hun gezinnen"
+    },
+    "intro": {
+      "heading": "Breng uw gezin van de EU naar Zweden",
+      "description": "Wanneer u als EU-burger naar Zweden verhuist, heeft u het wettelijke recht op gezinshereniging. Dit stelt familieleden in staat om met u mee te verhuizen en te profiteren van de hoge levenskwaliteit in Zweden, inclusief gezondheidszorg, onderwijs en sociale voordelen. Sweden Relocators biedt professionele ondersteuning bij gezinshereniging voor EU-burgers, inclusief geschiktheidsbeoordeling, documentvoorbereiding, verblijfskaarten, registratie van het persoonsnummer (personnummer), woningzoektocht en integratiesteun.",
+      "infoBox": "Gezinshereniging voor EU-burgers in Zweden is gebaseerd op Richtlijn 2004/38/EC, die EU-burgers die in Zweden wonen het recht geeft hun familieleden mee te nemen en toegang te krijgen tot gezondheidszorg, onderwijs en sociale voordelen zoals andere inwoners."
+    },
+    "whatIs": {
+      "heading": "Wat is gezinshereniging voor EU-burgers?",
+      "description": "Gezinshereniging voor EU-burgers in Zweden is gebaseerd op Richtlijn 2004/38/EC over het recht van EU-burgers en hun familieleden om vrij te reizen en te verblijven binnen de Europese Unie. Dit stelt EU-burgers die in Zweden wonen in staat om zowel directe als uitgebreide familieleden mee te nemen, mits aan bepaalde voorwaarden wordt voldaan."
+    },
+    "immediateFamilyHeading": "In aanmerking komende directe familieleden",
+    "immediateFamily": [
+      {
+        "type": "Echtgenoot of geregistreerde partner",
+        "description": "Inclusief huwelijken van hetzelfde of verschillend geslacht en geregistreerde partnerschappen erkend door de Zweedse wet."
+      },
+      {
+        "type": "Ongehuwde partner (samenwonend)",
+        "description": "Voorwaarde: de relatie is langdurig en wordt in Zweden erkend als gelijkwaardig aan een huwelijk."
+      },
+      {
+        "type": "Kinderen onder 21 jaar",
+        "description": "Biologische of geadopteerde kinderen van de EU-burger of hun echtgenoot/partner."
+      },
+      {
+        "type": "Economisch afhankelijke kinderen boven 21 jaar",
+        "description": "Voorwaarde: zij zijn financieel afhankelijk van de EU-burger."
+      },
+      {
+        "type": "Afhankelijke ouders en grootouders",
+        "description": "Opgaande familieleden die economisch afhankelijk zijn."
+      }
+    ],
+    "extendedFamily": {
+      "heading": "Uitgebreide familie en afhankelijkheid",
+      "description": "In sommige gevallen kunnen ook uitgebreide familieleden in aanmerking komen als echte afhankelijkheid kan worden aangetoond. Dit kan volwassenen broers/zussen omvatten, volwassen kinderen die in hetzelfde huishouden wonen, of andere nauwe familieleden met een sterke afhankelijkheidsrelatie. Voor uitgebreide gezinshereniging gelden strengere regels en is duidelijke documentatie vereist."
+    },
+    "longTermPermitHeading": "Houders van langdurige EU-verblijfsvergunning",
+    "longTermPermitRequirements": [
+      "In het bezit zijn van een geldige langdurige verblijfsvergunning uitgegeven door een ander EU-land",
+      "Beschikken over voldoende financiële middelen en geschikte huisvesting in Zweden",
+      "Verblijfsaanvraag in Zweden indienen samen met directe familieleden"
+    ],
+    "residenceCard": {
+      "heading": "Verblijfskaart voor familieleden",
+      "intro": "Familieleden die van plan zijn langer dan drie maanden in Zweden te verblijven, moeten een verblijfskaart aanvragen bij de Zweedse immigratiedienst (Migrationsverket).",
+      "documentsLabel": "Benodigde documenten:",
+      "documents": [
+        "Geldige paspoort",
+        "Bewijs van familierelatie (huwelijksakte, geregistreerd partnerschap of geboortebewijs)",
+        "Bewijs van financiële afhankelijkheid (ouders, grootouders of kinderen boven 21 jaar)",
+        "Bewijs van EU-burger verblijf in Zweden (huurcontract, eigendom of arbeidsovereenkomst)",
+        "Bewijs van voldoende financiële middelen om uzelf en uw gezin te onderhouden"
+      ],
+      "note": "Verblijfskaarten zijn doorgaans vijf jaar geldig of zolang de EU-burger in Zweden verblijft."
+    },
+    "personnummer": {
+      "heading": "Persoonsnummer (Personnummer)",
+      "intro": "Na ontvangst van de verblijfskaart moeten familieleden zich registreren bij Skatteverket om een persoonsnummer te krijgen. Dit nummer wordt gebruikt voor:",
+      "uses": [
+        "Toegang tot gezondheidszorg",
+        "Inschrijving van kinderen op school",
+        "Openen van een bankrekening",
+        "Ondertekenen van contracten (woning, mobiel, elektriciteit en andere diensten)"
+      ]
+    },
+    "healthcare": {
+      "heading": "Gezondheidszorg en ziektekostenverzekering",
+      "description": "Na ontvangst van het persoonsnummer hebben familieleden toegang tot het Zweedse openbare gezondheidszorgsysteem. Tot die tijd is een private ziektekostenverzekering vereist. Voor familieleden van buiten de EU wordt een volledige verzekering met een minimale dekking van €30.000 aanbevolen."
+    },
+    "education": {
+      "heading": "Onderwijs en kinderopvang",
+      "programs": [
+        {
+          "name": "Verplicht onderwijs",
+          "description": "Gratis onderwijs voor kinderen van 6–16 jaar, inclusief schoolmaaltijden"
+        },
+        {
+          "name": "Voorschoolse opvang (Förskola)",
+          "description": "Beschikbaar voor kinderen van 1–5 jaar met gesubsidieerde tarieven"
+        },
+        {
+          "name": "Internationale scholen",
+          "description": "Opties voor gezinnen die onderwijs in het Engels of andere talen wensen"
+        }
+      ]
+    },
+    "bankAccounts": {
+      "heading": "Bankrekeningen en financiële integratie",
+      "intro": "Na ontvangst van het persoonsnummer kunnen familieleden een Zweedse bankrekening openen. Meestal zijn de volgende documenten nodig:",
+      "documents": [
+        "Identiteitsbewijs afgegeven door Skatteverket",
+        "Verblijfskaart",
+        "Bewijs van adres",
+        "Bewijs van inkomen (indien van toepassing)"
+      ],
+      "note": "Een bankrekening maakt digitale betalingen, online bankieren en Swish-mobiele betalingen mogelijk."
+    },
+    "language": {
+      "heading": "Taalondersteuning en integratie",
+      "description": "Het leren van Zweeds is essentieel voor succesvolle integratie. Na registratie en ontvangst van het persoonsnummer kunnen familieleden deelnemen aan SFI-cursussen (Zweeds voor immigranten). Deze door de overheid gefinancierde cursussen verbeteren dagelijkse communicatievaardigheden en werkgelegenheidskansen. Sweden Relocators biedt ook culturele training voor snellere aanpassing."
+    },
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Beoordeling van geschiktheid",
+        "description": "Sweden Relocators controleert of familieleden voldoen aan de EU-vereisten."
+      },
+      {
+        "step": "2",
+        "title": "Voorbereiding van documenten",
+        "description": "Verzamelen en vertalen van de benodigde documenten."
+      },
+      {
+        "step": "3",
+        "title": "Aanvraag bij Migrationsverket",
+        "description": "Indienen van aanvragen voor verblijfskaarten."
+      },
+      {
+        "step": "4",
+        "title": "Follow-up en communicatie",
+        "description": "Beheer van vragen of verzoeken van immigratiediensten."
+      },
+      {
+        "step": "5",
+        "title": "Registratie bij Skatteverket",
+        "description": "Ondersteuning bij het verkrijgen van persoonsnummer, ID-kaart en belastingregistratie."
+      },
+      {
+        "step": "6",
+        "title": "Integratiediensten",
+        "description": "Ondersteuning bij woning, scholen, gezondheidszorg en taallessen."
+      }
+    ],
+    "services": {
+      "heading": "Hoe Sweden Relocators gezinnen ondersteunt",
+      "description": "Onze uitgebreide diensten en digitale platform zorgen voor een vlotte, legale en stressvrije gezinshereniging.",
+      "servicesList": [
+        {
+          "title": "Geschiktheidsbeoordeling en juridisch advies",
+          "description": "Wij zorgen ervoor dat uw familieleden voldoen aan de EU-wetgeving."
+        },
+        {
+          "title": "Voorbereiding van documenten en officiële vertalingen",
+          "description": "Alle documenten worden professioneel voorbereid en vertaald voor geldigheid bij Zweedse autoriteiten."
+        },
+        {
+          "title": "Indienen en opvolgen van aanvragen",
+          "description": "Wij dienen de aanvragen in en volgen de behandeling bij Migrationsverket."
+        },
+        {
+          "title": "Ondersteuning bij bezwaar",
+          "description": "Bij afwijzing bieden wij volledige ondersteuning tijdens het bezwaarproces."
+        },
+        {
+          "title": "Zoeken naar woning en scholen",
+          "description": "Hulp bij het vinden van woning en inschrijving van kinderen op school."
+        },
+        {
+          "title": "Verzekerings- en gezondheidsadvies",
+          "description": "Begeleiding bij verzekeringsvereisten en toegang tot Zweeds gezondheidszorgsysteem."
+        }
+      ]
+    },
+    "whySweden": [
+      {
+        "title": "Sterke verzorgingsstaat",
+        "description": "Toegang tot uitgebreide gezondheidszorg, kwaliteitsonderwijs en sociale voorzieningen."
+      },
+      {
+        "title": "Gratis onderwijs en zorg",
+        "description": "Wereldklasse onderwijs- en gezondheidsdiensten voor alle inwoners."
+      },
+      {
+        "title": "Veilig en gezinsvriendelijk",
+        "description": "Zweden biedt een veilige, inclusieve en gezinsvriendelijke omgeving."
+      },
+      {
+        "title": "Stabiele verblijfsrechten",
+        "description": "Juridische bescherming op basis van EU-wetgeving en Zweedse immigratieregels."
+      }
+    ],
+    "cta": {
+      "heading": "Klaar om te beginnen met gezinshereniging?",
+      "description": "Sweden Relocators zorgt ervoor dat uw verhuizing soepel, correct en stressvrij verloopt. Neem vandaag nog contact met ons op om het gezinsherenigingsproces te starten. Ons digitale platform stelt u in staat om profielen te beheren, documenten te uploaden en de voortgang in realtime te volgen.",
+      "button": "Start EU-gezinshereniging",
+      "subtext": "Ons expertteam begeleidt uw gezin door alle stappen van gezinshereniging voor EU-burgers in Zweden."
+    }
+  }
+}

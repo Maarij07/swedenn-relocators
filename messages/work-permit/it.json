@@ -1,0 +1,155 @@
+{
+  "workPermit": {
+    "hero": {
+      "title": "Guida completa ai permessi di lavoro in Svezia",
+      "subtitle": "Esplora la varietà di permessi di lavoro disponibili per diversi tipi di impiego in Svezia, con requisiti specifici per ciascuna opzione."
+    },
+    "intro": {
+      "heading": "Comprendere i permessi di lavoro in Svezia",
+      "description": "La Svezia offre una varietà di permessi di lavoro per diversi tipi di impiego, ciascuno con requisiti unici. Se hai intenzione di lavorare in Svezia, è fondamentale comprendere le opzioni disponibili e assicurarti di soddisfare i criteri aggiornati.",
+      "toolLink": "Sweden Relocators offre uno Strumento di Valutazione dei Permessi di Lavoro sul nostro sito, che ti permette di determinare rapidamente la tua idoneità e il miglior permesso per la tua situazione."
+    },
+    "permitTypes": {
+      "heading": "Tipi di permessi di lavoro in Svezia",
+      "requirementsLabel": "Requisiti",
+      "processingTimeLabel": "Tempi di elaborazione",
+      "durationLabel": "Durata",
+      "permits": [
+        {
+          "id": "standard",
+          "title": "Permesso di lavoro standard per l'impiego",
+          "description": "Per individui che hanno ottenuto un impiego in Svezia",
+          "requirements": [
+            {"label": "Offerta di lavoro", "description": "Devi avere un'offerta di lavoro confermata da un datore di lavoro svedese."},
+            {"label": "Salario minimo", "description": "Circa 30.000 SEK prima delle tasse. Deve rispettare i contratti collettivi svedesi o gli standard del settore."},
+            {"label": "Condizioni di impiego", "description": "Deve rispettare gli standard svedesi per salute, assicurazione e contributi pensionistici."},
+            {"label": "Requisito di pubblicità", "description": "Il lavoro deve essere pubblicizzato nell'UE/SEE per almeno 10 giorni prima di assumere un cittadino non UE."}
+          ],
+          "waitingTime": "1-4 mesi",
+          "duration": "Fino a 2 anni, con possibilità di rinnovo"
+        },
+        {
+          "id": "euBlueCard",
+          "title": "Carta Blu UE",
+          "description": "Per professionisti altamente qualificati con competenze richieste in tutta l'UE",
+          "requirements": [
+            {"label": "Istruzione superiore", "description": "Richiesto diploma universitario o almeno 5 anni di esperienza professionale rilevante."},
+            {"label": "Soglia salariale", "description": "Offerta di lavoro con salario superiore alla soglia minima della Carta Blu UE per la Svezia."}
+          ],
+          "waitingTime": "3-4 mesi",
+          "duration": "Fino a 4 anni in base al contratto di lavoro"
+        },
+        {
+          "id": "seasonal",
+          "title": "Permesso per lavoratori stagionali",
+          "description": "Per lavoro stagionale a breve termine in agricoltura (raccoglitori di bacche e lavoratori delle piante)",
+          "requirements": [
+            {"label": "Contratto di lavoro", "description": "Contratto da un datore di lavoro svedese per lavoro stagionale fino a 6 mesi."},
+            {"label": "Salari e benefici", "description": "Devono essere in linea con i contratti collettivi svedesi."},
+            {"label": "Assicurazione sanitaria", "description": "Deve avere un'assicurazione sanitaria che copra l'intero soggiorno."}
+          ],
+          "waitingTime": "1-3 mesi",
+          "duration": "Durata del contratto di lavoro, tipicamente fino a 6 mesi"
+        },
+        {
+          "id": "auPair",
+          "title": "Permesso Au Pair",
+          "description": "Per giovani (18–30 anni) che vivono con una famiglia ospitante",
+          "requirements": [
+            {"label": "Requisito di età", "description": "Devi avere un'età compresa tra 18 e 30 anni."},
+            {"label": "Contratto con la famiglia ospitante", "description": "Accordo formale che specifichi compiti, orari di lavoro e stipendio."},
+            {"label": "Studio della lingua", "description": "È richiesto seguire corsi di lingua svedese durante il soggiorno."},
+            {"label": "Indennità minima", "description": "La famiglia ospitante deve fornire un'indennità conforme allo standard svedese per gli Au Pair."}
+          ],
+          "waitingTime": "1-2 mesi",
+          "duration": "Fino a un anno"
+        },
+        {
+          "id": "workingHoliday",
+          "title": "Visto Working Holiday",
+          "description": "Per giovani provenienti da specifici paesi per lavorare e viaggiare",
+          "requirements": [
+            {"label": "Paesi idonei", "description": "Australia, Nuova Zelanda, Corea del Sud, Canada, Giappone, Argentina e altri."},
+            {"label": "Requisito di età", "description": "Tipicamente per individui tra 18 e 30 anni."},
+            {"label": "Fondi sufficienti", "description": "Prova di fondi per sostenere sé stessi inizialmente."}
+          ],
+          "waitingTime": "1-2 mesi",
+          "duration": "Valido per un anno con alcune restrizioni lavorative"
+        },
+        {
+          "id": "selfEmployment",
+          "title": "Permesso per lavoro autonomo",
+          "description": "Per imprenditori e liberi professionisti che avviano un'attività",
+          "requirements": [
+            {"label": "Piano aziendale", "description": "Piano aziendale fattibile che dimostri redditività entro due anni."},
+            {"label": "Fondi sufficienti", "description": "Prova di fondi per sostenere l'attività e le spese personali nella fase iniziale."},
+            {"label": "Esperienza imprenditoriale", "description": "Esperienza documentata nella gestione di un'attività o competenze specifiche di settore."}
+          ],
+          "waitingTime": "3-6 mesi",
+          "duration": "Inizialmente 2 anni, con opzioni di rinnovo"
+        },
+        {
+          "id": "sportsAndCultural",
+          "title": "Permesso per lavoratori sportivi e culturali",
+          "description": "Per individui che lavorano nello sport, nelle arti o nei campi culturali",
+          "requirements": [
+            {"label": "Impiego o sponsorizzazione", "description": "Offerta di lavoro da un'organizzazione svedese nello sport o nella cultura."},
+            {"label": "Standard salariali", "description": "Salari coerenti con i contratti collettivi e gli standard svedesi."}
+          ],
+          "waitingTime": "1-2 mesi",
+          "duration": "Durata del contratto con possibilità di rinnovo"
+        },
+        {
+          "id": "researcher",
+          "title": "Permesso per ricercatori",
+          "description": "Per ricercatori con posizioni offerte da istituzioni accreditate in Svezia",
+          "requirements": [
+            {"label": "Accordo con l'istituzione ospitante", "description": "Accordo con l'istituzione di ricerca che dettagli attività, finanziamento e condizioni."},
+            {"label": "Finanziamento del progetto", "description": "Supporto finanziario per la durata del progetto di ricerca."}
+          ],
+          "waitingTime": "1-3 mesi",
+          "duration": "Durata del progetto di ricerca con possibilità di rinnovo"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Processo di richiesta e tempi di attesa",
+      "intro": "Il processo di richiesta e i tempi di attesa variano in base al tipo di permesso, alle circostanze e al carico di lavoro attuale dell'Agenzia per la Migrazione.",
+      "waitingTimes": [
+        {"permit": "Permesso di lavoro standard", "time": "1-4 mesi"},
+        {"permit": "Carta Blu UE", "time": "3-4 mesi"},
+        {"permit": "Permesso per lavoratori stagionali", "time": "1-3 mesi"},
+        {"permit": "Permesso Au Pair", "time": "1-2 mesi"},
+        {"permit": "Visto Working Holiday", "time": "1-2 mesi"},
+        {"permit": "Permesso per lavoro autonomo", "time": "3-6 mesi"},
+        {"permit": "Permesso per lavoratori sportivi e culturali", "time": "1-2 mesi"},
+        {"permit": "Permesso per ricercatori", "time": "1-3 mesi"}
+      ]
+    },
+    "generalRequirements": {
+      "heading": "Requisiti generali per tutti i permessi di lavoro",
+      "description": "Indipendentemente dal tipo di permesso, tutti i richiedenti devono soddisfare questi requisiti fondamentali:",
+      "requirements": [
+        {"title": "Passaporto valido", "description": "Deve essere valido per l'intero periodo del soggiorno previsto."},
+        {"title": "Assicurazione sanitaria", "description": "Alcuni permessi (Working Holiday, Au Pair) richiedono copertura assicurativa sanitaria."},
+        {"title": "Fedina penale pulita", "description": "Gravi precedenti penali possono comportare il rifiuto del permesso."}
+      ]
+    },
+    "support": {
+      "heading": "Come Sweden Relocators può assisterti",
+      "description": "Sweden Relocators offre pieno supporto per tutti i tipi di permessi di lavoro, garantendo un processo fluido ed efficiente:",
+      "services": [
+        {"title": "Valutazione dell'idoneità", "description": "Usa il nostro Strumento di Valutazione dei Permessi di Lavoro per trovare il permesso migliore per le tue circostanze."},
+        {"title": "Preparazione documenti", "description": "Assistiamo nella compilazione di contratti di lavoro, dichiarazioni finanziarie e prove di assicurazione sanitaria."},
+        {"title": "Invio e monitoraggio", "description": "Gestiamo l'invio della richiesta e ti aggiorniamo in ogni fase del processo."},
+        {"title": "Supporto post-permesso", "description": "Assistenza per abitazione, apertura conto bancario e registrazione presso le autorità svedesi."}
+      ]
+    },
+    "cta": {
+      "heading": "Inizia oggi il tuo percorso per il permesso di lavoro",
+      "description": "Contatta Sweden Relocators per iniziare la tua richiesta di permesso di lavoro e avviare la tua carriera in Svezia.",
+      "button": "Inizia",
+      "subtext": "Visita la nostra sezione sui permessi di lavoro o contattaci per maggiori informazioni."
+    }
+  }
+}

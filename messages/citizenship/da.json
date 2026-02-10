@@ -1,12 +1,12 @@
 {
   "citizenship": {
     "hero": {
-      "title": "Svensk Statsborgerskab: Krav, Ansøgningsveje og Behandlingstider",
-      "subtitle": "At blive svensk statsborger er en milepæl, der giver fuld ret og pligt i Sverige. Statsborgerskab giver adgang til et svensk pas, stemmeret, mulighed for at stille op til politiske embeder og fri bevægelighed i EU og Schengenområdet."
+      "title": "Svensk statsborgerskab: Krav, ansøgningsveje og sagsbehandlingstider",
+      "subtitle": "At blive svensk statsborger er en vigtig milepæl, der giver fuld ret og pligter i Sverige. Statsborgerskab giver adgang til et svensk pas, stemmeret, mulighed for at stille op til politiske embeder og fri bevægelighed i EU og Schengenområdet."
     },
     "intro": {
       "heading": "Hvad svensk statsborgerskab tilbyder",
-      "description": "Svensk statsborgerskab styrker din juridiske sikkerhed og gør det lettere at bo, arbejde og investere i Sverige permanent. Det giver dig ikke blot ret til et svensk pas, men også sikker juridisk status, EU's fri bevægelighed og fuld deltagelse i den svenske demokrati.",
+      "description": "Svensk statsborgerskab styrker din juridiske sikkerhed og gør det lettere at bo, arbejde og investere i Sverige permanent. Det giver dig ikke blot ret til et svensk pas, men også sikker juridisk status, EU-fri bevægelighed og fuld deltagelse i den svenske demokrati.",
       "note": "Sweden Relocators giver ekspertvejledning i alle trin i processen og sikrer, at din ansøgning er komplet, korrekt og i overensstemmelse med gældende love."
     },
     "generalRequirements": {
@@ -15,33 +15,33 @@
       "requirements": [
         {
           "title": "Alderskrav",
-          "description": "Du skal være mindst 18 år for at ansøge selvstændigt. Børn under 18 år kan ansøge sammen med en forælder eller via anmeldelse i særlige tilfælde."
+          "description": "Du skal være mindst 18 år for at ansøge uafhængigt. Børn under 18 år kan ansøge sammen med en forælder eller via anmeldelse i specifikke tilfælde."
         },
         {
           "title": "Permanent opholdstilladelse eller permanent ret til ophold",
-          "description": "Ikke-EU/EØS-statsborgere skal have en permanent opholdstilladelse (permanent uppehållstillstånd). EU/EØS-statsborgere skal have en permanent ret til ophold (permanent uppehållsrätt), typisk opnået efter fem års løbende lovligt ophold."
+          "description": "Ikke-EU/EØS-borgere skal have en permanent opholdstilladelse (permanent uppehållstillstånd). EU/EØS-borgere skal have en permanent ret til ophold (permanent uppehållsrätt), typisk opnået efter fem års løbende lovligt ophold."
         },
         {
           "title": "Længde af ophold i Sverige",
-          "description": "Standardregel: 5 års løbende ophold. Flygtninge eller statsløse personer: 4 år. Ægtefælle/registrerede partnere/samlever med svensk statsborger: 3 år. Nordiske statsborgere: 2 år (almindelig) eller 5 år (anmeldelse)."
+          "description": "Standardregel: 5 år med løbende ophold. Flygtninge eller statsløse personer: 4 år. Ægtefælle/registrerede partnere/samlever med svensk statsborger: 3 år. Nordiske borgere: 2 år (almindelig) eller 5 år (anmeldelse)."
         },
         {
-          "title": "God Opførsel",
-          "description": "Ansøgere skal demonstrere god opførsel, hvilket betyder ingen nylige alvorlige kriminelle optegnelser, ingen ubetalte gæld til Kronofogden (tvangsinddrivelsesmyndigheden) og generel overholdelse af svensk lovgivning."
+          "title": "God opførsel",
+          "description": "Ansøgere skal demonstrere god opførsel, hvilket betyder ingen nylige alvorlige kriminalitet, ingen ubetalte gæld til Kronofogden (tvangsinddrivelsesmyndigheden) og generel overholdelse af svensk lovgivning."
         },
         {
           "title": "Hensigt om at blive i Sverige",
-          "description": "Migrationsverket vurderer, om du har stærke bindinger til Sverige, såsom beskæftigelse, familie eller langvarig bolig, som viser din reelle hensigt om at blive."
+          "description": "Migrationsverket vurderer, om du har stærke bånd til Sverige, såsom beskæftigelse, familie eller langtidsbolig, der viser din reelle hensigt om at blive."
         }
       ]
     },
     "specialCategories": {
-      "heading": "Særlige kategorier og veje til statsborgerskab",
+      "heading": "Særlige kategorier og stier til statsborgerskab",
       "categories": [
         {
           "id": "nordic",
-          "title": "Nordiske statsborgere",
-          "description": "Nordiske statsborgere (Danmark, Finland, Island, Norge) drager fordel af de mest fleksible regler:",
+          "title": "Nordiske borgere",
+          "description": "Nordiske borgere (Danmark, Finland, Island, Norge) drager fordel af de mest fleksible regler:",
           "details": [
             "Almindelig ansøgning: Berettiget efter 2 års ophold i Sverige.",
             "Anmeldelsesproces (anmälan): Berettiget efter 5 års ophold. Dette er en forenklet procedure."
@@ -49,10 +49,10 @@
         },
         {
           "id": "eueea",
-          "title": "EU/EØS-statsborgere",
-          "description": "EU/EØS-statsborgere kan ansøge efter 5 års løbende ophold, når permanent ret til ophold er opnået.",
+          "title": "EU/EØS-borgere",
+          "description": "EU/EØS-borgere kan ansøge efter 5 års løbende ophold, når permanent ret til ophold er opnået.",
           "details": [
-            "Skal fremsige dokumentation for ophold, indkomst og overholdelse af svensk lovgivning.",
+            "Skal vise dokumentation for ophold, indkomst og overholdelse af svensk lovgivning.",
             "Processen er lidt enklere, da der ikke kræves opholdstilladelse."
           ]
         },
@@ -70,16 +70,16 @@
           "description": "Ægtefælle eller registreret partner kan ansøge efter 3 års ophold.",
           "details": [
             "Parret skal have boet sammen i Sverige i mindst 2 år.",
-            "Stærke bindinger til Sverige kræves, og forholdet skal være vedvarende."
+            "Der kræves stærke bånd til Sverige, og relationen skal være vedvarende."
           ]
         },
         {
           "id": "children",
-          "title": "Børn under 18 år",
+          "title": "Børn under 18",
           "description": "Børn kan ansøge gennem forenklede procedurer.",
           "details": [
             "Kan ansøge sammen med en forælder eller gennem en forenklet anmeldelse.",
-            "Adopterede børn opnår automatisk svensk statsborgerskab, hvis de blev adopteret før de fyldte 12 år."
+            "Adopterede børn opnår automatisk svensk statsborgerskab, hvis de blev adopteret før alderen 12."
           ]
         }
       ]
@@ -90,15 +90,15 @@
       "steps": [
         {
           "title": "Forbered dokumenter",
-          "description": "Krævede dokumenter inkluderer: Gyldigt pas eller national ID, Bevis for ophold (registrering hos Skatteverket), Indkomst- eller beskæftigelsesoplysninger, Politi- eller gældsfrihedsattest hvis relevant."
+          "description": "Krævede dokumenter inkluderer: Gyldigt pas eller nationalt ID, Bevis for ophold (registrering hos Skatteverket), Indkomst- eller beskæftigelsesbeviser, Politi- eller gældsfrihedsattest hvis relevant."
         },
         {
           "title": "Indsend ansøgning",
-          "description": "Ansøgninger kan indsendes online via Migrationsverkets e-service eller gennem en papirformular. Børn og nordiske statsborgere, der bruger anmeldelsesprocessen, har forenklede procedurer."
+          "description": "Ansøgninger kan indsendes online via Migrationsverkets e-service eller gennem en papirformular. Børn og nordiske borgere, der bruger anmeldelsesprocessen, har forenklede procedurer."
         },
         {
           "title": "Migrationsverkets gennemgang",
-          "description": "Myndigheden verificerer opholdshistorik, identitet, opførsel og økonomisk stabilitet. De kan anmode om yderligere information under processen."
+          "description": "Udlændingestyrelsen verificerer opholdshistorik, identitet, opførsel og økonomisk stabilitet. De kan anmode om yderligere information under processen."
         },
         {
           "title": "Beslutning",
@@ -107,30 +107,30 @@
       ]
     },
     "waitingTimes": {
-      "heading": "Behandlingstider og venteperioder",
-      "intro": "Behandlingstider varierer afhængigt af kategori og baggrund:",
+      "heading": "Sagsbehandlingstider og venteperioder",
+      "intro": "Sagsbehandlingstider varierer afhængigt af kategori og baggrund:",
       "times": [
         {"category": "Standardansøgninger", "time": "18–36 måneder"},
-        {"category": "Nordiske statsborgere (anmeldelse)", "time": "6–12 måneder"},
+        {"category": "Nordiske borgere (anmeldelse)", "time": "6–12 måneder"},
         {"category": "Flygtninge og ægtefæller", "time": "Normalt hurtigere end standard"},
-        {"category": "Bemærk", "time": "Migrationsverket meddelte for nylig strengere kontroller (marts 2025), hvilket kan øge ventetiderne for visse sager."}
+        {"category": "Bemærk", "time": "Migrationsverket annoncerede for nylig strengere kontrol (marts 2025), hvilket kan øge ventetiderne for visse sager."}
       ]
     },
     "support": {
       "heading": "Hvordan Sweden Relocators kan hjælpe dig",
-      "description": "At søge om svensk statsborgerskab kan være komplekst og tidskrævende. Sweden Relocators tilbyder professionel støtte i alle faser:",
+      "description": "At søge om svensk statsborgerskab kan være komplekst og tidskrævende. Sweden Relocators tilbyder professionel support i hvert trin:",
       "services": [
         {
           "title": "Berettigelsesvurdering",
-          "description": "Vi tjekker din opholdshistorik, familiesituation og tilladelsesstatus for at bestemme din bedste tilgangsmåde."
+          "description": "Vi tjekker din opholdshistorik, familiesituation og tilladelsesstatus for at afgøre din bedste tilgangsmåde."
         },
         {
           "title": "Dokumentforberedelse",
-          "description": "Sikring af nøjagtighed, oversættelser og fuldstændighed for at forhindre forsinkelser i behandlingen."
+          "description": "Sikrer nøjagtighed, oversættelser og fuldstændighed for at forhindre forsinkelser i bearbejdningen."
         },
         {
           "title": "Ansøgningsindsendelse og overvågning",
-          "description": "Vi håndterer din ansøgning og sporer opdateringer direkte hos Migrationsverket."
+          "description": "Vi håndterer din ansøgning og holder styr på opdateringer direkte hos Migrationsverket."
         },
         {
           "title": "Appelhjælp",
@@ -138,15 +138,15 @@
         },
         {
           "title": "Langsigted strategi",
-          "description": "Vejledning i, hvordan man opretholder opholdsforpligtelser, undgår huller og forbereder sig til statsborgerskab."
+          "description": "Rådgivning om, hvordan man opretholder opholdsforudsætninger, undgår huller og forbereder sig på statsborgerskab."
         }
       ]
     },
     "cta": {
-      "heading": "Begynd din vej til svensk statsborgerskab i dag",
+      "heading": "Begynd din sti til svensk statsborgerskab i dag",
       "description": "Kontakt Sweden Relocators for at vurdere din berettigelse og starte din statsborgerskabsansøgning med ekspertstøtte.",
       "button": "Kom i gang",
-      "subtext": "Lov om svensk statsborgerskab (2001:82). Regler og procedurer kan ændre sig. Rådfør altid med Migrationsverket for at få den nyeste information."
+      "subtext": "Lov om svensk statsborgerskab (2001:82). Regler og procedurer kan ændre sig. Rådfør altid Migrationsverket for den nyeste information."
     }
   }
 }

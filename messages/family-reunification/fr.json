@@ -1,0 +1,186 @@
+{
+  "familyReunification": {
+    "hero": {
+      "title": "Regroupement Familial en Suède",
+      "subtitle": "Guide Complet Selon la Loi Nationale Suédoise"
+    },
+    "intro": {
+      "heading": "Réunir Votre Famille en Suède",
+      "description": "Les lois suédoises sur le regroupement familial permettent aux personnes titulaires de divers types de permis de séjour - notamment les permis de travail, les permis commerciaux, les permis de doctorat et d'études, ainsi que les permis de séjour permanent - ainsi que les réfugiés, de réunir les membres de leur famille en Suède. Chaque type de cas a des exigences spécifiques et est évalué selon différentes dispositions de la loi nationale suédoise.",
+      "infoBox": "Naviguez les exigences complexes du regroupement familial avec une expertise approfondie de la loi nationale suédoise et l'évaluation spécifique du type de permis."
+    },
+    "lawsHeading": "Principales Lois Suédoises Régissant le Regroupement Familial",
+    "laws": [
+      {
+        "name": "Loi sur les Étrangers (Utlänningslagen)",
+        "description": "La principale législation régissant les permis de séjour et le regroupement familial pour tous les ressortissants non suédois."
+      },
+      {
+        "name": "Loi Temporaire sur les Étrangers (Tillfälliga Utlänningslagen)",
+        "description": "Une loi temporaire affectant les exigences en matière de regroupement familial, principalement pour les réfugiés et les personnes ayant besoin d'une protection subsidiaire."
+      },
+      {
+        "name": "Loi sur la Nationalité Suédoise (Lag om Svenskt Medborgarskap)",
+        "description": "Pertinente pour les citoyens suédois et les résidents permanents invitant des membres de la famille."
+      },
+      {
+        "name": "Code de l'Assurance Sociale (Socialförsäkringsbalken)",
+        "description": "Fournit des directives sur les sources de revenus acceptables pour l'exigence d'entretien."
+      }
+    ],
+    "eligibility": {
+      "heading": "Qui Peut Être Parrainé?",
+      "description": "Le regroupement familial est généralement disponible pour les membres de la famille admissibles selon la loi suédoise. Chaque type de relation a des critères d'admissibilité spécifiques.",
+      "familyMembers": [
+        {
+          "type": "Époux or Partenaire Enregistré",
+          "description": "Partenaires légalement mariés ou enregistrés"
+        },
+        {
+          "type": "Partenaire en Cohabitation",
+          "description": "Les partenaires de longue durée non enregistrés peuvent être admissibles si la relation est bien documentée"
+        },
+        {
+          "type": "Enfants Moins de 18 Ans",
+          "description": "Enfants mineurs du titulaire du permis ou de son époux/partenaire"
+        },
+        {
+          "type": "Parents (Pour les Titulaires de Permis Mineurs)",
+          "description": "Pour les titulaires de permis de moins de 18 ans, les parents ou tuteurs légaux peuvent être admissibles"
+        },
+        {
+          "type": "Famille Étendue",
+          "description": "D'autres membres de la famille peuvent être considérés pour des raisons humanitaires"
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Exigences d'Entretien et de Logement",
+      "description": "L'Exigence d'Entretien (Försörjningskrav) est essentielle pour la plupart des demandes de regroupement familial, garantissant que le demandeur principal dispose d'un revenu suffisant et d'un logement approprié pour soutenir les membres de la famille.",
+      "maintenanceLabel": "Exigences de Revenu",
+      "housingLabel": "Exigences de Logement",
+      "maintenance": [
+        "Revenu stable pour couvrir les frais de subsistance",
+        "Contrats de travail ou preuve de travail indépendant",
+        "Récents bulletins de salaire et déclarations fiscales",
+        "Documentation des prestations sociales si applicable"
+      ],
+      "housing": [
+        "Contrat de location ou preuve de propriété",
+        "Nombre suffisant de pièces pour tous les membres de la famille",
+        "Preuve du loyer mensuel ou des frais de propriété",
+        "Respecte les normes suédoises de logement"
+      ]
+    },
+    "assessmentHeading": "Critères d'Évaluation par Type de Permis",
+    "assessmentCriteria": [
+      {
+        "title": "Titulaires de Permis de Travail",
+        "requirements": ["Emploi à long terme avec salaire suffisant", "Contrats de travail et bulletins de salaire", "Preuve de stabilité financière", "Arrangement de logement approprié"]
+      },
+      {
+        "title": "Titulaires de Permis Commerciaux",
+        "requirements": ["Entreprise rentable générant un revenu adéquat", "Déclarations fiscales et relevés commerciaux", "Évaluations d'impôt préalables de l'Agence Fiscale Suédoise", "Viabilité commerciale démontrée"]
+      },
+      {
+        "title": "Doctorants et Chercheurs",
+        "requirements": ["Financement stable ou bourses", "Durée du programme généralement supérieure à un an", "Documentation des revenus de l'établissement d'enseignement", "Arrangements de logement en Suède"]
+      },
+      {
+        "title": "Titulaires de Permis de Séjour Permanent",
+        "requirements": ["Séjour à long terme avec liens forts à la Suède", "Évaluation des revenus avec flexibilité potentielle", "Évaluation des normes de logement", "Exigences éventuellement plus souples"]
+      },
+      {
+        "title": "Réfugiés et Titulaires de Protection Subsidiaire",
+        "requirements": ["Exemption possible de l'exigence d'entretien dans les 3 mois", "Preuve de relation avant l'arrivée en Suède", "Documentation de la relation familiale", "Évalué selon la Loi Temporaire sur les Étrangers"]
+      }
+    ],
+    "applicationProcess": [
+      {
+        "step": "1",
+        "title": "Préparez la Documentation",
+        "description": "Rassemblez tous les documents requis, y compris les passeports, les preuves de relation (actes de mariage ou de naissance), les accords de logement et la vérification des revenus."
+      },
+      {
+        "step": "2",
+        "title": "Soumettre la Demande",
+        "description": "Soumettez les demandes en ligne via le portail de l'Agence Suédoise de Migration ou auprès d'une ambassade/consulat suédois, y compris preuve de relation et vérification du logement/revenu."
+      },
+      {
+        "step": "3",
+        "title": "Examen par l'Agence de Migration",
+        "description": "L'Agence Suédoise de Migration vérifie que toutes les exigences sont satisfaites, évaluant le revenu, le logement et l'admissibilité familiale selon votre type de permis spécifique."
+      },
+      {
+        "step": "4",
+        "title": "Décision et Notification",
+        "description": "Après évaluation, l'agence rend une décision. Si approuvée, les membres de la famille peuvent recevoir des permis de séjour correspondant à la durée du permis du parrain."
+      }
+    ],
+    "legalProvisions": {
+      "heading": "Dispositions Juridiques Spécifiques",
+      "description": "Le regroupement familial en Suède est régi par des dispositions juridiques spécifiques adaptées aux différents types de permis et situations familiales.",
+      "acts": [
+        {
+          "name": "Loi sur les Étrangers (Utlänningslagen)",
+          "details": "Cadre juridique principal du regroupement familial, couvrant le revenu, le logement et la vérification des relations avec les normes d'entretien et de logement."
+        },
+        {
+          "name": "Loi Temporaire sur les Étrangers (Tillfälliga Utlänningslagen)",
+          "details": "Applique des exigences d'entretien plus strictes pour les réfugiés, mettant l'accent sur l'indépendance financière au-delà de la période de trois mois."
+        },
+        {
+          "name": "Code de l'Assurance Sociale (Socialförsäkringsbalken)",
+          "details": "Définit les sources de revenus acceptables, particulièrement pertinent pour les parrains s'appuyant sur des prestations ou le chômage."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Nos Services",
+      "description": "Sweden Relocators assure une assistance complète pour vous aider à naviguer le regroupement familial en Suède et garantir que votre demande répond à toutes les normes juridiques suédoises.",
+      "servicesList": [
+        {
+          "title": "Évaluation d'Admissibilité",
+          "description": "Nous évaluons votre type de permis spécifique, vos revenus, votre logement et votre admissibilité familiale pour déterminer la meilleure approche."
+        },
+        {
+          "title": "Préparation des Documents",
+          "description": "Assistance pour rassembler tous les documents nécessaires, traduire les documents étrangers si nécessaire, et garantir une précision complète."
+        },
+        {
+          "title": "Soumission et Suivi de la Demande",
+          "description": "Soumettez votre demande en votre nom et suivie auprès de l'Agence Suédoise de Migration."
+        },
+        {
+          "title": "Soutien aux Appels",
+          "description": "Si votre demande est refusée, nous fournissons des conseils tout au long du processus d'appel, renforçant votre cas."
+        },
+        {
+          "title": "Assurance Conformité Juridique",
+          "description": "Nous garantissons que toute la documentation respecte les normes juridiques suédoises et les exigences spécifiques du type de permis."
+        }
+      ]
+    },
+    "whyChooseHeading": "Pourquoi Choisir Sweden Relocators?",
+    "whyChoose": [
+      {
+        "title": "Expertise",
+        "description": "Connaissance approfondie des lois suédoises sur le regroupement familial et des exigences pour tous les types de permis."
+      },
+      {
+        "title": "Soutien Personnalisé",
+        "description": "Nous adaptons notre assistance à votre type de permis spécifique et vos circonstances pour un succès maximal."
+      },
+      {
+        "title": "Traitement Efficace",
+        "description": "En garantissant l'exactitude et conformité, nous vous aider à éviter tout retard ou rejet, rendant le processus plus fluide et efficace."
+      }
+    ],
+    "cta": {
+      "heading": "Prêt à Vous Réunir avec Votre Famille en Suède?",
+      "description": "Le regroupement familial est un processus complexe avec des exigences spécifiques pour chaque type de permis. Laissez Sweden Relocators vous guider à travers le processus de regroupement familial en Suède, garantissant que toutes les exigences juridiques sont respectées pour une demande réussie.",
+      "button": "Commencer Votre Demande de Regroupement Familial",
+      "subtext": "Notre équipe d'experts vous guidera à travers chaque étape du processus suédois de regroupement familial."
+    }
+  }
+}

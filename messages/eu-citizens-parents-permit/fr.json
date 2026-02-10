@@ -1,0 +1,217 @@
+{
+  "euCitizensParentsPermit": {
+    "hero": {
+      "title": "Carte de Résidence UE pour les Parents Dépendants et autres Membres de Famille selon la Directive 2004/38/CE",
+      "subtitle": "Guidance d'expert pour amener les membres de la famille dépendants en Suède"
+    },
+    "intro": {
+      "heading": "Unité Familiale par la Libre Circulation au sein de l'UE",
+      "description": "Selon la Directive UE 2004/38/CE, les citoyens de l'UE/EEE exerçant leur droit à la libre circulation en Suède peuvent demander une carte de résidence pour leurs membres de la famille dépendants de l'extérieur de l'UE, y compris les parents et autres membres de la famille. Cette directive vise à faciliter l'unité familiale en permettant aux citoyens de l'UE d'amener les membres de la famille qui dépendent économiquement ou socialement d'eux pour vivre en Suède. Voici un examen approfondi des exigences, du processus de demande et des cas particuliers pour les parents dépendants et autres membres de la famille."
+    },
+    "whoQualifies": {
+      "heading": "Qui Se Qualifie comme Membre de Famille Dépendant?",
+      "intro": "Pour être admissible selon la Directive 2004/38/CE, le membre de la famille non-UE doit entrer dans l'une des catégories suivantes:",
+      "categories": [
+        {
+          "number": 1,
+          "title": "Parents Dépendants",
+          "description": "Les parents d'un citoyen de l'UE ou de son époux/partenaire qui dépendent du citoyen de l'UE pour le soutien financier ou autre soin essentiel."
+        },
+        {
+          "number": 2,
+          "title": "Autres Membres de Famille Dépendants",
+          "description": "Cela peut inclure les frères et sœurs ou les parents éloignés s'il y a une relation de dépendance claire, en particulier si le membre de la famille et le citoyen de l'UE ont vécu ensemble dans le pays de résidence précédent."
+        },
+        {
+          "number": 3,
+          "title": "Enfants ou Beaux-enfants",
+          "description": "Les enfants de plus de 21 ans peuvent également se qualifier comme dépendants s'ils dépendent du citoyen de l'UE pour le soutien, bien que cela soit évalué différemment pour les mineurs."
+        }
+      ]
+    },
+    "keyConditions": {
+      "heading": "Conditions Clés d'Admissibilité",
+      "conditions": [
+        {
+          "number": 1,
+          "title": "Preuve de Dépendance",
+          "description": "Le demandeur doit fournir des preuves montrant la dépendance financière ou personnelle du citoyen de l'UE. Cela pourrait inclure la preuve d'une résidence commune, le soutien financier régulier ou la documentation de la dépendance émotionnelle et sociale."
+        },
+        {
+          "number": 2,
+          "title": "Cohabitation Antérieure",
+          "description": "Dans les cas impliquant les membres de la famille éloignée (tels que les frères et sœurs ou les enfants adultes), le demandeur doit montrer qu'il a vécu avec le citoyen de l'UE dans son pays d'origine immédiatement avant que le citoyen de l'UE ne se décale en Suède."
+        },
+        {
+          "number": 3,
+          "title": "Demande Opportune",
+          "description": "Les demandes doivent idéalement être soumises dès que possible après l'arrivée du citoyen de l'UE en Suède. Les demandes tardives peuvent réduire la probabilité d'approbation, en particulier si la dépendance s'est développée uniquement après la relocalisation du citoyen de l'UE."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Processus de Demande pour une Carte de Résidence selon la Directive 2004/38/CE",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Préparer la Documentation pour la Dépendance et la Relation",
+          "intro": "Rassembler la documentation nécessaire est crucial. Les documents clés incluent:",
+          "documents": [
+            {
+              "title": "Preuve d'Identité",
+              "description": "Passeport valide du membre de la famille non-UE."
+            },
+            {
+              "title": "Preuve de Relation",
+              "details": [
+                "Pour les parents: Certificat de naissance du citoyen de l'UE montrant la relation parentale.",
+                "Pour les autres membres de la famille: Documents montrant la relation familiale (par exemple, certificats de naissance ou registres familiaux)."
+              ]
+            },
+            {
+              "title": "Preuve de Dépendance",
+              "description": "Cela peut inclure des relevés bancaires, la preuve de virements financiers réguliers, la preuve d'une résidence commune, et tous autres documents démontrant la dépendance du citoyen de l'UE pour le soutien financier ou émotionnel."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Soumettre la Demande",
+          "intro": "Le membre de la famille non-UE doit demander une carte de résidence, qui peut être soumise à l'Agence des Migrations Suédoise (Migrationsverket) en ligne ou par le biais d'une ambassade ou d'un consulat suédois dans le pays d'origine du demandeur.",
+          "details": [
+            "Détails du Demandeur: Informations sur le citoyen de l'UE, son statut de résidence en Suède et les détails personnels du dépendant.",
+            "Documents Justificatifs: Tous les documents requis démontrant la relation de dépendance et la preuve de résidence pour le citoyen de l'UE en Suède."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Examen par l'Agence des Migrations",
+          "intro": "L'Agence des Migrations évaluera la relation et la dépendance en fonction des preuves fournies. Elle peut demander une documentation supplémentaire ou des clarifications si nécessaire. L'examen se concentre sur:",
+          "details": [
+            "Vérification de la Dépendance: Confirmation que le membre de la famille non-UE dépend véritablement du citoyen de l'UE.",
+            "Relation Familiale: Vérification du lien familial du demandeur avec le citoyen de l'UE et assurance que la dépendance existait avant le déménagement en Suède."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Décision et Émission de la Carte de Résidence",
+          "description": "Si approuvée, le membre de la famille non-UE recevra une carte de résidence valable pendant cinq ans ou la durée attendue de la résidence du citoyen de l'UE en Suède (selon la plus courte). La carte de résidence permet au titulaire de vivre, travailler et accéder aux soins de santé en Suède dans les mêmes conditions que les membres de la famille de l'UE."
+        }
+      ]
+    },
+    "specificCases": {
+      "heading": "Cas Particuliers: Exigences pour les Parents Dépendants et autres Membres de la Famille",
+      "dependentParents": {
+        "heading": "Permis de Résidence pour les Parents Dépendants",
+        "intro": "Pour les parents dépendants, les conditions principales incluent la démonstration de la dépendance économique ou liée à la santé du citoyen de l'UE. Les exemples de documentation acceptable peuvent inclure:",
+        "documentation": [
+          {
+            "title": "Preuve de Soutien Financier",
+            "description": "Virements bancaires, reçus de transferts d'argent ou preuve du soutien financier régulier du citoyen de l'UE."
+          },
+          {
+            "title": "Dépendance Liée à la Santé",
+            "description": "Certificats médicaux ou documentation des besoins spéciaux qui nécessitent la proximité du citoyen de l'UE pour le soutien et les soins."
+          }
+        ],
+        "note": "Dans les cas où le parent a des besoins de santé importants, une documentation supplémentaire peut être requise pour montrer que les options de soins appropriées ne sont pas disponibles dans leur pays d'origine."
+      },
+      "otherFamilyMembers": {
+        "heading": "Permis de Résidence pour les Autres Membres de la Famille Dépendants",
+        "intro": "Pour les autres membres de la famille dépendants (par exemple, les frères et sœurs adultes ou les parents éloignés), les exigences sont généralement plus strictes:",
+        "requirements": [
+          {
+            "title": "Preuve du Ménage Partagé",
+            "description": "Preuve que le membre de la famille vivait avec le citoyen de l'UE avant leur réinstallation en Suède, comme un bail commun ou des factures de services publics."
+          },
+          {
+            "title": "Dépendance Émotionnelle et Sociale",
+            "description": "Les déclarations sous serment ou les attestations démontrant un lien social et émotionnel fort peuvent être requises, en particulier si la relation dépasse la simple dépendance financière."
+          }
+        ]
+      }
+    },
+    "maintenanceRequirement": {
+      "heading": "Exigence d'Entretien pour le Parrain UE",
+      "intro": "Selon la réglementation suédoise, le citoyen de l'UE doit être en mesure de fournir un soutien financier et un logement approprié pour son membre de la famille non-UE. Cela comprend:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Revenu Stable",
+          "description": "Preuve d'emploi, de revenus réguliers ou de ressources financières démontrant que le citoyen de l'UE peut se soutenir lui-même et son dépendant."
+        },
+        {
+          "number": 2,
+          "title": "Exigence de Logement",
+          "description": "Le citoyen de l'UE doit avoir un logement approprié conforme aux normes suédoises concernant l'espace habitable et la vie privée. Cela peut inclure les contrats de location, la preuve de propriété d'une maison ou une sous-location avec l'approbation du propriétaire."
+        }
+      ],
+      "note": "L'exigence d'entretien ne s'applique pas aux enfants mineurs (moins de 18 ans). Cela signifie que si un parent demande à rejoindre un enfant mineur en Suède, l'enfant n'a pas à répondre aux exigences de revenu ou de logement."
+    },
+    "additionalConsiderations": {
+      "heading": "Considérations Supplémentaires",
+      "timeliness": {
+        "heading": "Opportunité de la Demande",
+        "description": "Les demandes soumises peu de temps après la réinstallation du citoyen de l'UE en Suède sont plus susceptibles de réussir. Les longs délais dans la soumission des demandes peuvent compliquer le processus, car les autorités pourraient remettre en question l'existence de la dépendance antérieure. Idéalement, les demandes de membres de la famille dépendants doivent être soumises quelques mois après l'arrivée de l'UE en Suède."
+      },
+      "changes": {
+        "heading": "Changements dans le Statut de Dépendance",
+        "description": "Si le statut de dépendance change (par exemple, si le membre de la famille non-UE devient financièrement indépendant), cela peut affecter le statut de la carte de résidence. L'Agence des Migrations Suédoise peut examiner périodiquement ces cas pour assurer la conformité aux critères de résidence."
+      },
+      "renewal": {
+        "heading": "Renouvellement de la Carte de Résidence",
+        "description": "Les cartes de résidence pour les membres de la famille dépendants sont généralement valables jusqu'à cinq ans. Le renouvellement est possible, à condition que la relation de dépendance persiste et que le citoyen de l'UE reste un résident de la Suède. Les demandes de renouvellement doivent être soumises bien avant la date d'expiration, avec une documentation mise à jour démontrant la dépendance continue."
+      }
+    },
+    "howWeHelp": {
+      "heading": "Comment Sweden Relocators peut vous Assister avec les Demandes de Carte de Résidence UE",
+      "intro": "Naviguer le processus d'obtention d'une carte de résidence UE pour les membres de la famille dépendants selon la Directive 2004/38/CE peut être complexe. Sweden Relocators fournit une assistance d'expert, vous aidant à assurer que toute documentation est en order, et vous guidant à travers chaque étape du processus de demande.",
+      "subheading": "Nos Services Incluent:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Évaluation de l'Admissibilité",
+          "description": "Nous examinons les circonstances spécifiques de votre famille pour déterminer si vos membres de la famille non-UE se qualifient comme dépendants selon la loi suédoise."
+        },
+        {
+          "number": 2,
+          "title": "Préparation de la Documentation",
+          "description": "Notre équipe aide à rassembler et préparer tous les documents requis, y compris la preuve de relation, de dépendance et de soutien financier."
+        },
+        {
+          "number": 3,
+          "title": "Soumission de la Demande et Suivi",
+          "description": "Nous assistons avec la soumission de la demande et le suivi des progrès auprès de l'Agence des Migrations pour assurer les mises à jour rapides."
+        },
+        {
+          "number": 4,
+          "title": "Soutien en Appel",
+          "description": "En cas de refus de demande, nous offrons des conseils sur le processus d'appel, aidant à renforcer votre cas pour la reconsidération."
+        }
+      ]
+    },
+    "benefitsOfService": {
+      "heading": "Avantages de Notre Service",
+      "benefits": [
+        {
+          "title": "Guidance Expérience",
+          "description": "La familiarité avec la Directive 2004/38/CE et les exigences de l'Agence des Migrations nous permet d'offrir des conseils précis et efficaces."
+        },
+        {
+          "title": "Soutien Complet",
+          "description": "De la vérification de l'admissibilité à la préparation des documents et du soutien en appel, nous gérons tous les aspects de votre demande."
+        },
+        {
+          "title": "Service Personnalisé",
+          "description": "Chaque cas est unique, et nous adaptons notre approche aux besoins spécifiques de votre famille, fournissant les solutions les plus efficaces."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Apportez Vos Proches en Suède Aujourd'hui",
+      "description": "Si vous avez besoin d'assistance pour obtenir une carte de résidence UE pour vos parents dépendants ou d'autres membres de la famille, Sweden Relocators est là pour vous aider. Contactez-nous aujourd'hui pour discuter de l'admissibilité de votre famille et apprendre comment nous pouvons soutenir votre parcours pour réunir vos proches.",
+      "button": "Commencer",
+      "subtext": "Visitez notre Section des Permis des Parents Citoyens UE ou contactez-nous pour plus d'informations. Notre équipe est prête à vous aider à réunir votre famille."
+    }
+  }
+}

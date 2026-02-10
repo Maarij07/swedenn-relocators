@@ -1,0 +1,217 @@
+{
+  "euCitizensParentsPermit": {
+    "hero": {
+      "title": "EU-opholdskort for afhængige forældre og andre familiemedlemmer under direktiv 2004/38/EF",
+      "subtitle": "Ekspertvejledning til at bringe afhængige familiemedlemmer til Sverige"
+    },
+    "intro": {
+      "heading": "Familieenhed gennem EU-fri bevægelighed",
+      "description": "Under EU-direktiv 2004/38/EF kan EU/EØS-borgere, der udøver deres ret til fri bevægelighed i Sverige, ansøge om et opholdskort for deres afhængige familiemedlemmer fra uden for EU, herunder forældre og andre familiemedlemmer. Dette direktiv har til formål at lette familieenhed ved at tillade EU-borgere at bringe familiemedlemmer, der er økonomisk eller socialt afhængige af dem, til at bo i Sverige. Her er en dybdegående gennemgang af kravene, ansøgningsproceduren og særlige tilfælde for afhængige forældre og andre familiemedlemmer."
+    },
+    "whoQualifies": {
+      "heading": "Hvem Kvalificeres som Afhængigt Familiemedlem?",
+      "intro": "For at være berettiget under direktiv 2004/38/EF skal det ikke-EU-familiemedlem falde ind under en af følgende kategorier:",
+      "categories": [
+        {
+          "number": 1,
+          "title": "Afhængige Forældre",
+          "description": "Forældre til en EU-borger eller deres ægtefælle/partner, der er afhængige af EU-borgeren for økonomisk støtte eller anden væsentlig omsorg."
+        },
+        {
+          "number": 2,
+          "title": "Andre Afhængige Familiemedlemmer",
+          "description": "Dette kan omfatte søskende eller fjernere familiemedlemmer, hvis der er forhold for afhængighed, især hvis familiemedlemmet og EU-borgeren boede sammen i det tidligere hjemland."
+        },
+        {
+          "number": 3,
+          "title": "Børn eller Stedbørn",
+          "description": "Børn over 21 år kan også kvalificeres som afhængige, hvis de er afhængige af EU-borgeren for støtte, selvom dette vurderes anderledes end for mindreårige."
+        }
+      ]
+    },
+    "keyConditions": {
+      "heading": "Vigtige Betingelser for Berettigelse",
+      "conditions": [
+        {
+          "number": 1,
+          "title": "Bevis for Afhængighed",
+          "description": "Ansøgeren skal fremlægge beviser, der viser økonomisk eller personlig afhængighed af EU-borgeren. Dette kan omfatte bevis for fælles ophold, regelmæssig økonomisk støtte eller dokumentation af følelsesmæssig og social afhængighed."
+        },
+        {
+          "number": 2,
+          "title": "Tidligere Samboende",
+          "description": "I tilfælde, der omfatter udvidet familie (såsom søskende eller voksne børn), skal ansøgeren vise, at han/hun har boet sammen med EU-borgeren i sit hjemland umiddelbart før EU-borgeren flyttede til Sverige."
+        },
+        {
+          "number": 3,
+          "title": "Rettidig Ansøgning",
+          "description": "Ansøgninger bør ideelt indsendes så snart som muligt efter EU-borgerens ankomst til Sverige. Forsinkede ansøgninger kan mindske sandsynligheden for godkendelse, især hvis afhængigheden er opstået først efter EU-borgerens flytning."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Ansøgningsprocedure for Opholdskort under Direktiv 2004/38/EF",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Forbered Dokumentation for Afhængighed og Forhold",
+          "intro": "Indsamling af nødvendig dokumentation er afgørende. Vigtige dokumenter omfatter:",
+          "documents": [
+            {
+              "title": "Identitetsbevis",
+              "description": "Gyldigt pas for det ikke-EU-familiemedlem."
+            },
+            {
+              "title": "Bevis for Forhold",
+              "details": [
+                "For forældre: Fødselcertifikat for EU-borgeren, der viser forholdet til forældre.",
+                "For andre familiemedlemmer: Dokumenter, der viser familieforholdet (f.eks. fødselcertifikater eller familieregistre)."
+              ]
+            },
+            {
+              "title": "Bevis for Afhængighed",
+              "description": "Dette kan omfatte kontoudtog, bevis for regelmæssige økonomiske overføringer, bevis for fælles ophold og andre dokumenter, der viser afhængighed af EU-borgeren for økonomisk eller følelsesmæssig støtte."
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Indsend Ansøgningen",
+          "intro": "Det ikke-EU-familiemedlem skal ansøge om et opholdskort, som kan indsendes til den Svenske Indvandrermyndighed (Migrationsverket) online eller gennem en svensk ambassade eller konsulat i ansøgerens hjemland.",
+          "details": [
+            "Ansøgerdetaljer: Oplysninger om EU-borgeren, deres opholdsstat i Sverige og ansøgerens kontaktoplysninger.",
+            "Støttedokumenter: Alle påkrævede dokumenter, der dokumenterer afhængighedsforholdet og bevis for bo for EU-borgeren i Sverige."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Gennemgang af Indvandrermyndighed",
+          "intro": "Indvandrermyndigheden vurderer forholdet og afhængigheden baseret på de fremlagte beviser. De kan anmode om yderligere dokumentation eller præciseringer, hvis det er nødvendigt. Gennemgangen fokuserer på:",
+          "details": [
+            "Verifikation af Afhængighed: Bekræftelse af, at det ikke-EU-familiemedlem virkelig er afhængigt af EU-borgeren.",
+            "Familieforhold: Verifikation af ansøgerens familieforbindelse med EU-borgeren og sikring af, at afhængigheden eksisterede før flytningen til Sverige."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Afgørelse og Udstedelse af Opholdskort",
+          "description": "Hvis det godkendes, modtager det ikke-EU-familiemedlem et opholdskort, der er gyldig i fem år eller EU-borgerens forventede opholdsvarighed i Sverige (alt efter hvad der er kortere). Opholdskortet giver indehaveren mulighed for at bo, arbejde og få adgang til sundhedspleje i Sverige under samme betingelser som EU-familiemedlemmer."
+        }
+      ]
+    },
+    "specificCases": {
+      "heading": "Særlige Tilfælde: Krav til Afhængige Forældre og Andre Familiemedlemmer",
+      "dependentParents": {
+        "heading": "Opholdsgrundlag for Afhængige Forældre",
+        "intro": "For afhængige forældre omfatter de primære betingelser at påvise økonomisk eller sundhedsrelateret afhængighed af EU-borgeren. Eksempler på acceptabel dokumentation kan omfatte:",
+        "documentation": [
+          {
+            "title": "Bevis for Økonomisk Støtte",
+            "description": "Bankoverførsler, remissekvadritter eller bevis for regelmæssig økonomisk støtte fra EU-borgeren."
+          },
+          {
+            "title": "Sundhedsrelateret Afhængighed",
+            "description": "Lægeattester eller dokumentation af specielle behov, der kræver nærhed til EU-borgeren for støtte og omsorg."
+          }
+        ],
+        "note": "I tilfælde, hvor forælderen har væsentlige sundhedsbehov, kan yderligere dokumentation være påkrævet for at påvise, at passende omsorgsoptioner ikke er tilgængelige i deres hjemland."
+      },
+      "otherFamilyMembers": {
+        "heading": "Opholdsgrundlag for Andre Afhængige Familiemedlemmer",
+        "intro": "For andre afhængige familiemedlemmer (f.eks. voksne søskende eller fjernere familiemedlemmer) er kravene typisk mere stringente:",
+        "requirements": [
+          {
+            "title": "Bevis for Fælles Husholdning",
+            "description": "Bevis på, at familiemedlemmet boede sammen med EU-borgeren før deres flytning til Sverige, såsom en fælles lejeleaftale eller elregninger."
+          },
+          {
+            "title": "Følelsesmæssig og Social Afhængighed",
+            "description": "Ed eller erklæringer, der dokumenterer et stærkt socialt og følelsesmæssigt bånd, kan være påkrævet, især hvis forholdet strækker sig ud over økonomisk afhængighed."
+          }
+        ]
+      }
+    },
+    "maintenanceRequirement": {
+      "heading": "Forsørgerbetingelse for EU-Sponsor",
+      "intro": "I henhold til svenska regler skal EU-borgeren være i stand til at yde økonomisk støtte og passende bolig til familiemedlemmet uden for EU. Dette omfatter:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Stabil Indtægt",
+          "description": "Bevis på beskæftigelse, regelmæssig indkomst eller økonomiske ressourcer, der viser, at EU-borgeren kan forsørge sig selv og sin afhængige."
+        },
+        {
+          "number": 2,
+          "title": "Boligkrav",
+          "description": "EU-borgeren skal have passende bolig, der opfylder svenska standarder for boareal og privatliv. Dette kan omfatte lejkontrakter, bevis på boligejendom eller et andelsleje med udlejerens godkendelse."
+        }
+      ],
+      "note": "Forsørgerbetingelsen gælder ikke for mindreårige børn (under 18 år). Det betyder, at hvis en forælder ansøger om at være med deres mindreårige barn i Sverige, behøver barnet ikke at opfylde indkomst- eller boligkrav."
+    },
+    "additionalConsiderations": {
+      "heading": "Yderligere Betragtninger",
+      "timeliness": {
+        "heading": "Ansøgningens Rettidighed",
+        "description": "Ansøgninger indsendt kort efter EU-borgerens flytning til Sverige er mere sandsynlige at blive godkendt. Lange forsinkelser i ansøgningsindgivelsen kan komplicere processen, da myndighederne kan stille spørgsmålstegn ved eksistensen af tidligere afhængighed. Ideelt set bør ansøgninger for afhængige familiemedlemmer indsendes inden for få måneder efter EU-borgerens ankomst til Sverige."
+      },
+      "changes": {
+        "heading": "Ændringer i Afhængighedsstatus",
+        "description": "Hvis afhængighedsstatus ændres (f.eks. hvis familiemedlemmet uden for EU bliver økonomisk uafhængigt), kan det påvirke status for opholdskortet. Den Svenske Indvandrermyndighed kan løbende gennemgå disse sager for at sikre overholdelse af opholdskriterierne."
+      },
+      "renewal": {
+        "heading": "Fornyelse af Opholdskort",
+        "description": "Opholdskorte for afhængige familiemedlemmer er typisk gyldige i op til fem år. Fornyelse er mulig, forudsat at afhængighedsforholdet fortsætter og EU-borgeren forbliver beboer i Sverige. Fornyelsesansøgninger bør indsendes længe før udløbsdatoen, med opdateret dokumentation, der viser vedvarende afhængighed."
+      }
+    },
+    "howWeHelp": {
+      "heading": "Hvordan Sweden Relocators kan Hjælpe med EU-Opholdskortsansøgninger",
+      "intro": "Navigering af processen for at opnå et EU-opholdskort for afhængige familiemedlemmer under direktiv 2004/38/EF kan være kompleks. Sweden Relocators yder ekspertbistand og er med til at sikre, at al dokumentation er i orden, og vejleder dig gennem hvert trin i ansøgningsproceduren.",
+      "subheading": "Vores Tjenester Omfatter:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Berettigelsesvurdering",
+          "description": "Vi gennemgår din families specifikke omstændigheder for at bestemme, om dine ikke-EU-familiemedlemmer kvalificeres som afhængige efter svensk lov."
+        },
+        {
+          "number": 2,
+          "title": "Dokumentforberedelse",
+          "description": "Vores team hjælper med at indsamle og forberede alle påkrævede dokumenter, herunder bevis for forhold, afhængighed og økonomisk støtte."
+        },
+        {
+          "number": 3,
+          "title": "Ansøgningsindgivelse og Overvågning",
+          "description": "Vi assisterer med ansøgningsindgivelsen og overvåger fremskridtet hos Indvandrermyndigheden for at sikre rettidig opdatering."
+        },
+        {
+          "number": 4,
+          "title": "Klagebistand",
+          "description": "I tilfælde af ansøgningsafvisning tilbyder vi vejledning om klageproceduren for at styrke din sag til genovervejelse."
+        }
+      ]
+    },
+    "benefitsOfService": {
+      "heading": "Fordele ved Vores Tjeneste",
+      "benefits": [
+        {
+          "title": "Erfaren Vejledning",
+          "description": "Kendskab til direktiv 2004/38/EF og Indvandrermyndighedens krav gør det muligt for os at give præcis, effektiv vejledning."
+        },
+        {
+          "title": "Omfattende Bistand",
+          "description": "Fra berettigelsesvurdering til dokumentforberedelse og klagebistand håndterer vi alle aspekter af din ansøgning."
+        },
+        {
+          "title": "Personaliseret Tjeneste",
+          "description": "Hver sag er unik, og vi tilpasser vores tilgang til din families specifikke behov og giver de mest effektive løsninger."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Tag Dine Kære til Sverige i Dag",
+      "description": "Hvis du har brug for hjælp til at få et EU-opholdskort for dine afhængige forældre eller andre familiemedlemmer, er Sweden Relocators her for at hjælpe. Kontakt os i dag for at diskutere din families berettigelse og se, hvordan vi kan understøtte din rejse til at samle dig med dine kære.",
+      "button": "Kom I Gang",
+      "subtext": "Besøg vores EU-borgere Forældre Tilladelsessektion eller kontakt os for mere information. Vores team er klar til at hjælpe dig med at samle sig med din familie."
+    }
+  }
+}

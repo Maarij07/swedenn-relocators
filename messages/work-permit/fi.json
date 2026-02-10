@@ -1,0 +1,155 @@
+{
+  "workPermit": {
+    "hero": {
+      "title": "Kattava opas työluvista Ruotsissa",
+      "subtitle": "Tutustu Ruotsissa tarjolla oleviin erilaisiin työluviin eri työntekijätyypeille, joilla on kullekin omat vaatimuksensa."
+    },
+    "intro": {
+      "heading": "Työluvasta Ruotsissa",
+      "description": "Ruotsi tarjoaa erilaisia työluvia eri työntekijätyypeille, joilla kaikilla on omat erityisvaatimuksensa. Jos suunnittelet työskenteleväsi Ruotsissa, on tärkeää ymmärtää saatavilla olevat vaihtoehdot ja varmistaa, että täytät ajantasaiset kriteerit.",
+      "toolLink": "Sweden Relocators tarjoaa työluvatyökalun verkkosivustollamme, jonka avulla voit nopeasti selvittää kelpoisuutesi ja parhaan luvan tilanteeseesi."
+    },
+    "permitTypes": {
+      "heading": "Työluvat Ruotsissa",
+      "requirementsLabel": "Vaatimukset",
+      "processingTimeLabel": "Käsittelyaika",
+      "durationLabel": "Kesto",
+      "permits": [
+        {
+          "id": "standard",
+          "title": "Vakituinen työluvan työlupahakemus",
+          "description": "Henkilöille, jotka ovat saaneet työtarjouksen Ruotsissa",
+          "requirements": [
+            {"label": "Työtarjous", "description": "Sinulla on oltava vahvistettu työtarjous ruotsalaiselta työnantajalta."},
+            {"label": "Minimipalkka", "description": "Noin 30 000 SEK ennen veroja. On täytettävä Ruotsin työehtosopimukset tai toimialastandardit."},
+            {"label": "Työehdot", "description": "On noudatettava Ruotsin standardeja terveyden, vakuutusten ja eläkemaksujen osalta."},
+            {"label": "Ilmoitusvaatimus", "description": "Työpaikka on ilmoitettava EU/ETA-alueella vähintään 10 päivän ajan ennen ei-EU-kansalaisen palkkaamista."}
+          ],
+          "waitingTime": "1–4 kuukautta",
+          "duration": "Enintään 2 vuotta, mahdollisuus jatkaa"
+        },
+        {
+          "id": "euBlueCard",
+          "title": "EU Sininen kortti",
+          "description": "Korkeasti koulutetuille ammattilaisille, joiden osaamista kysytään EU:ssa",
+          "requirements": [
+            {"label": "Korkeakoulutus", "description": "Yliopistotutkinto tai vähintään 5 vuoden relevantti työkokemus vaaditaan."},
+            {"label": "Palkkavaatimus", "description": "Työtarjous, jonka palkka ylittää EU Sinisen kortin Ruotsin vähimmäisvaatimuksen."}
+          ],
+          "waitingTime": "3–4 kuukautta",
+          "duration": "Enintään 4 vuotta työsopimuksen mukaan"
+        },
+        {
+          "id": "seasonal",
+          "title": "Sesonkityölupahakemus",
+          "description": "Lyhytaikaiseen kausityöhön maataloudessa (marjanpoimijat ja kasvinhoitajat)",
+          "requirements": [
+            {"label": "Työsopimus", "description": "Sopimus ruotsalaisen työnantajan kanssa sesonkityöstä enintään 6 kuukaudeksi."},
+            {"label": "Palkat ja edut", "description": "On oltava Ruotsin työehtosopimusten mukaisia."},
+            {"label": "Sairausvakuutus", "description": "Sinulla on oltava kattava sairausvakuutus oleskelun ajaksi."}
+          ],
+          "waitingTime": "1–3 kuukautta",
+          "duration": "Työsopimuksen keston ajan, tyypillisesti enintään 6 kuukautta"
+        },
+        {
+          "id": "auPair",
+          "title": "Au Pair -lupa",
+          "description": "Nuorille (18–30 vuotta) jotka asuvat isäntäperheen kanssa",
+          "requirements": [
+            {"label": "Ikäraja", "description": "Ikä 18–30 vuotta."},
+            {"label": "Isäntäperhesopimus", "description": "Virallinen sopimus, jossa määritellään tehtävät, työajat ja palkka."},
+            {"label": "Kielikurssi", "description": "Ruotsin kielen kurssien suorittaminen oleskelun aikana on pakollista."},
+            {"label": "Minimikorvaus", "description": "Isäntäperheen on annettava korvaus, joka täyttää Ruotsin au pair -palkkavaatimuksen."}
+          ],
+          "waitingTime": "1–2 kuukautta",
+          "duration": "Enintään yksi vuosi"
+        },
+        {
+          "id": "workingHoliday",
+          "title": "Working Holiday -viisumi",
+          "description": "Nuorille tietyistä maista työskentelyyn ja matkustamiseen",
+          "requirements": [
+            {"label": "Kelpoiset maat", "description": "Australia, Uusi-Seelanti, Etelä-Korea, Kanada, Japani, Argentiina ja muut."},
+            {"label": "Ikäraja", "description": "Tyypillisesti 18–30-vuotiaille."},
+            {"label": "Riittävät varat", "description": "Todistus varoista itsensä elättämiseksi aluksi."}
+          ],
+          "waitingTime": "1–2 kuukautta",
+          "duration": "Voimassa yhden vuoden ajan, tietyin työrajoituksin"
+        },
+        {
+          "id": "selfEmployment",
+          "title": "Yrittäjälupa",
+          "description": "Yrittäjille ja itsenäisille ammatinharjoittajille, jotka perustavat liiketoimintaa",
+          "requirements": [
+            {"label": "Liiketoimintasuunnitelma", "description": "Elinkelpoinen liiketoimintasuunnitelma, joka osoittaa kannattavuuden kahden vuoden sisällä."},
+            {"label": "Riittävät varat", "description": "Todistus varoista liiketoiminnan ja henkilökohtaisten kulujen kattamiseksi alkuvaiheessa."},
+            {"label": "Yrityskokemus", "description": "Todistettua kokemusta liiketoiminnan johtamisesta tai toimialakohtaista asiantuntemusta."}
+          ],
+          "waitingTime": "3–6 kuukautta",
+          "duration": "Aluksi 2 vuotta, jatkomahdollisuus"
+        },
+        {
+          "id": "sportsAndCultural",
+          "title": "Urheilu- ja kulttuurityölupa",
+          "description": "Henkilöille, jotka työskentelevät urheilun, taiteen tai kulttuurin aloilla",
+          "requirements": [
+            {"label": "Työsuhde tai sponsorointi", "description": "Työtarjous ruotsalaiselta urheilu- tai kulttuuriorganisaatiolta."},
+            {"label": "Palkkastandardit", "description": "Palkat vastaavat työehtosopimuksia ja Ruotsin standardeja."}
+          ],
+          "waitingTime": "1–2 kuukautta",
+          "duration": "Sopimuksen keston ajan, jatkomahdollisuus"
+        },
+        {
+          "id": "researcher",
+          "title": "Tutkijalupa",
+          "description": "Tutkijoille, joille on tarjottu paikkoja akkreditoiduissa ruotsalaisissa laitoksissa",
+          "requirements": [
+            {"label": "Isäntäorganisaation sopimus", "description": "Sopimus tutkimuslaitoksen kanssa, joka kuvaa toiminnan, rahoituksen ja ehdot."},
+            {"label": "Projektirahoitus", "description": "Taloudellinen tuki tutkimusprojektin keston ajaksi."}
+          ],
+          "waitingTime": "1–3 kuukautta",
+          "duration": "Tutkimusprojektin keston ajan, jatkomahdollisuus"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Hakuprosessi ja odotusajat",
+      "intro": "Hakuprosessi ja odotusajat vaihtelevat lupatyypin, olosuhteiden ja Maahanmuuttoviraston nykyisen työkuorman mukaan.",
+      "waitingTimes": [
+        {"permit": "Standard Work Permit", "time": "1–4 kuukautta"},
+        {"permit": "EU Blue Card", "time": "3–4 kuukautta"},
+        {"permit": "Seasonal Worker Permit", "time": "1–3 kuukautta"},
+        {"permit": "Au Pair Permit", "time": "1–2 kuukautta"},
+        {"permit": "Working Holiday Visa", "time": "1–2 kuukautta"},
+        {"permit": "Self-Employment Permit", "time": "3–6 kuukautta"},
+        {"permit": "Sports and Cultural Worker Permit", "time": "1–2 kuukautta"},
+        {"permit": "Researcher Permit", "time": "1–3 kuukautta"}
+      ]
+    },
+    "generalRequirements": {
+      "heading": "Yleiset vaatimukset kaikille työluvaille",
+      "description": "Riippumatta lupatyypistä, kaikkien hakijoiden tulee täyttää nämä perusvaatimukset:",
+      "requirements": [
+        {"title": "Voimassa oleva passi", "description": "Passin tulee olla voimassa koko suunnitellun oleskelun ajan."},
+        {"title": "Sairausvakuutus", "description": "Joihinkin lupiin (Working Holiday, Au Pair) vaaditaan sairausvakuutus."},
+        {"title": "Puhdas rikosrekisteri", "description": "Vakavat rikokset voivat johtaa luvan epäämiseen."}
+      ]
+    },
+    "support": {
+      "heading": "Miten Sweden Relocators voi auttaa sinua",
+      "description": "Sweden Relocators tarjoaa täydellistä tukea kaikille työluvuille varmistaen sujuvan ja tehokkaan prosessin:",
+      "services": [
+        {"title": "Kelpoisuuden arviointi", "description": "Käytä työluvatyökaluamme löytääksesi parhaan luvan tilanteeseesi."},
+        {"title": "Asiakirjojen valmistelu", "description": "Autamme työsopimusten, taloudellisten asiakirjojen ja sairausvakuutustodistusten kokoamisessa."},
+        {"title": "Hakemus ja seuranta", "description": "Hoidaamme hakemuksen jättämisen ja pidämme sinut ajan tasalla hakemuksen jokaisessa vaiheessa."},
+        {"title": "Lupa jälkeen tuki", "description": "Apua asumisessa, pankkitilin avaamisessa ja rekisteröitymisessä Ruotsin viranomaisille."}
+      ]
+    },
+    "cta": {
+      "heading": "Aloita työluvan hakumatka tänään",
+      "description": "Ota yhteyttä Sweden Relocatorsiin aloittaaksesi työluvan hakemisen ja aloittaaksesi urasi Ruotsissa.",
+      "button": "Aloita",
+      "subtext": "Vieraile työluvat-osiossa tai ota meihin yhteyttä lisätietoja varten."
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "businessVisit": {
+    "hero": {
+      "title": "Zakelijk visum voor Zweden: Volledige ondersteuning voor een soepel proces",
+      "subtitle": "Deskundige begeleiding voor uw tijdelijke zakelijke reis naar Zweden"
+    },
+    "intro": {
+      "heading": "Bent u van plan een korte zakelijke of officiële reis naar Zweden te maken?",
+      "description": "Of u nu zelf of uw bedrijf een korte zakelijke reis naar Zweden organiseert, ons team is hier om het proces voor het aanvragen van een zakelijk visum voor u te vereenvoudigen. Wij regelen het volledige aanvraagproces, zodat u zich volledig kunt concentreren op uw zakelijke doelen."
+    },
+    "whyYouNeedVisa": {
+      "heading": "Waarom heeft u een zakelijk visum voor Zweden nodig?",
+      "intro": "Een zakelijk visum is noodzakelijk als u van plan bent professionele activiteiten in Zweden uit te voeren, zoals deelnemen aan vergaderingen, contracten onderhandelen, deelnemen aan conferenties of investeringsmogelijkheden verkennen. Dit visum is geschikt voor ondernemers, bedrijfsvertegenwoordigers en professionals die tijdelijk in Zweden moeten verblijven voor zakelijke doeleinden. Het visum is doorgaans tot 90 dagen geldig binnen een periode van 180 dagen, en biedt meerdere toegangen afhankelijk van uw werkbehoeften.",
+      "subheading": "Het Zweedse zakelijke visum stelt u in staat om:",
+      "benefits": [
+        {
+          "title": "Deelname aan professionele activiteiten",
+          "description": "Deelnemen aan zakelijke vergaderingen, conferenties en trainingen in Zweden."
+        },
+        {
+          "title": "Partnerschappen opbouwen",
+          "description": "Relaties opbouwen en onderhouden met Zweedse bedrijven of klanten."
+        },
+        {
+          "title": "Investeringsmogelijkheden beoordelen",
+          "description": "Potentiële investeringen en zakelijke mogelijkheden in Zweden beoordelen."
+        },
+        {
+          "title": "Zakelijke activiteiten beheren",
+          "description": "Toezicht houden op zakelijke projecten en initiatieven die persoonlijke aanwezigheid voor een beperkte tijd vereisen."
+        }
+      ]
+    },
+    "basicRequirements": {
+      "heading": "Basisvereisten voor een zakelijk visum (voor aanvragers)",
+      "intro": "Om een soepel aanvraagproces te garanderen, zijn de volgende documenten vereist:",
+      "requirements": [
+        {
+          "number": 1,
+          "title": "Aanvraagformulier",
+          "description": "Een volledig ingevuld en ondertekend formulier van de aanvrager."
+        },
+        {
+          "number": 2,
+          "title": "Fotografie",
+          "description": "Een recent pasfoto (niet ouder dan zes maanden), met een witte achtergrond en zonder hoofddeksel, tenzij om religieuze redenen."
+        },
+        {
+          "number": 3,
+          "title": "Bewijs van financiële middelen",
+          "description": "Bewijs dat u voldoende middelen heeft om uzelf te ondersteunen tijdens uw verblijf, inclusief uw terugreis. Meestal heeft u minstens 450 SEK per dag nodig, wat ook kan worden gedekt door het sponsorbedrijf. Dien een origineel bankafschrift van de laatste zes maanden in of bewijs van andere activa als bankafschriften niet beschikbaar zijn."
+        },
+        {
+          "number": 4,
+          "title": "Paspoortvereisten",
+          "details": [
+            "Minimaal twee lege pagina's.",
+            "Moet minstens drie maanden geldig zijn na het einde van uw geplande reis.",
+            "Inclusief alle eerdere paspoorten van de afgelopen zeven jaar.",
+            "Bevat een fotokopie van de biometrische pagina en eventuele recente Schengen visa."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Uitnodigingsbrief",
+          "description": "Een formele uitnodigingsbrief van het Zweedse bedrijf of persoon op officieel briefpapier. De brief moet bevatten:",
+          "details": [
+            "Volledig adres en contactgegevens van het uitnodigende bedrijf.",
+            "Naam en functie van de contactpersoon of ondertekenaar.",
+            "Doel en verwachte duur van uw verblijf.",
+            "Wie de reiskosten en verblijfskosten zal dekken.",
+            "Een verklaring die garandeert dat de aanvrager Zweden zal verlaten voor de vervaldatum van het visum."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Werkgeversverklaring",
+          "description": "Bewijs van werkgelegenheid, met details over:",
+          "details": [
+            "Startdatum van de werkgelegenheid.",
+            "Huidige functie, salaris en doel van de reis.",
+            "Goedkeuring van vakantie voor de duur van de reis."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Ziektekostenverzekering",
+          "description": "Reisverzekering die het gehele Schengengebied dekt en geldig is voor de gehele duur van uw verblijf. De polis moet ten minste 30.000 EUR dekken voor medische noodgevallen, ziekenhuisbehandelingen, repatriëring of overlijden."
+        },
+        {
+          "number": 8,
+          "title": "Reisboeking",
+          "description": "Verstrek een bevestigde boeking van een retourvlucht. Definitieve tickets zijn niet vereist, maar een bevestiging van de eerste boeking is verplicht."
+        },
+        {
+          "number": 9,
+          "title": "Bewijs van accommodatie",
+          "description": "Een bevestigde hotelboeking of ander bewijs van accommodatie (primaire boeking vereist)."
+        }
+      ]
+    },
+    "employerRequirements": {
+      "heading": "Aanvullende vereisten voor werkgevers of sponsorbedrijven",
+      "intro": "De werkgever of het sponsorbedrijf moet de volgende documenten verstrekken:",
+      "requirements": [
+        {
+          "title": "Handelsregistratie en belastingkaart",
+          "description": "Origineel en kopie van de handelsregistratie van het bedrijf en de belastingkaart, vertaald in het Engels of Zweeds, om de legitimiteit van het bedrijf te bevestigen."
+        }
+      ]
+    },
+    "additionalDocuments": {
+      "heading": "Aanvullende documenten die mogelijk vereist zijn",
+      "intro": "Sommige documenten kunnen op basis van uw specifieke situatie worden aangevraagd:",
+      "documents": [
+        {
+          "title": "Bewegingscertificaat",
+          "description": "Vereist als u een eerste reiziger bent, uw paspoort de laatste zeven jaar niet dekt, of als er een gap van meer dan drie maanden is tussen uw huidige en vorige paspoort."
+        },
+        {
+          "title": "Andere documenten aangevraagd door de ambassade",
+          "description": "Extra documenten kunnen door de ambassade worden aangevraagd, afhankelijk van individuele omstandigheden."
+        }
+      ]
+    },
+    "foreignInvestors": {
+      "heading": "Zakelijk visum voor buitenlandse investeerders",
+      "description": "Een Zweeds zakelijk visum is ook ideaal voor buitenlandse staatsburgers die in Zweden willen investeren en periodiek willen reizen om hun zakelijke belangen te beheren. Dit visum maakt meerdere inreizen mogelijk en is geldig voor korte verblijven van maximaal 90 dagen binnen een periode van 180 dagen, verlengbaar tot vijf jaar. Deze flexibiliteit is vooral gunstig voor investeerders die het bedrijfsproces moeten volgen of frequente bezoeken willen afleggen zonder een verblijfsvergunning aan te vragen.",
+      "additional": "Voor korte zakelijke reizen van minder dan drie maanden, is dit visum voldoende zonder de behoefte aan een verblijfsvergunning. Als u echter van plan bent langer te blijven of te verhuizen voor een langere periode, kan een verblijfsvergunning vereist zijn."
+    },
+    "howWeAssist": {
+      "heading": "Hoe we u helpen",
+      "intro": "Met ons team dat het visumproces beheert, kunt u erop vertrouwen dat elk detail professioneel wordt afgehandeld. Wij bieden:",
+      "services": [
+        {
+          "title": "Documentvoorbereiding en indiening",
+          "description": "Hulp bij het verzamelen, verifiëren en indienen van alle benodigde documenten om een vlotte procedure te garanderen."
+        },
+        {
+          "title": "Advies over financiële vereisten",
+          "description": "Advies over de financiële documenten die nodig zijn om te voldoen aan de Zweedse visumvereisten."
+        },
+        {
+          "title": "Afspraakplanning",
+          "description": "Coördinatie van benodigde afspraken met de Zweedse ambassade of het consulaat voor documentindiening en interviews."
+        },
+        {
+          "title": "Doorlopende ondersteuning en updates",
+          "description": "Regelmatige updates over de status van uw visum en tijdige reacties op eventuele aanvullende verzoeken van de ambassade."
+        }
+      ]
+    },
+    "closing": {
+      "description": "Onze uitgebreide visumservice stelt u in staat om u te concentreren op uw zakelijke doelen, terwijl wij de administratieve rompslomp voor u regelen. Neem vandaag nog contact met ons op om meer te weten te komen over hoe wij uw korte zakelijke reis naar Zweden kunnen vergemakkelijken en uw professionele succes kunnen ondersteunen."
+    },
+    "cta": {
+      "heading": "Start vandaag nog uw zakelijke visumaanvraag",
+      "description": "Neem contact op met Sweden Relocators om uw zakelijke visumaanvraag te starten met deskundige ondersteuning en begeleiding bij elke stap.",
+      "button": "Begin nu",
+      "subtext": "Bezoek onze Business Visit-sectie of neem contact met ons op voor meer informatie. Ons team staat klaar om u te helpen zakendoen in Zweden."
+    }
+  }
+}

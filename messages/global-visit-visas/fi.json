@@ -1,0 +1,240 @@
+{
+  "globalVisitVisas": {
+    "hero": {
+      "title": "Globaali viisumipalvelu – Porttisi sujuvaan kansainväliseen matkustamiseen",
+      "subtitle": "Luotettavaa viisumitukea turismiin, liikematkoihin, opiskeluun ja muuttoon maailmanlaajuisesti"
+    },
+    "intro": {
+      "heading": "Kansainvälinen matkustaminen tehty helpoksi",
+      "description": "Sweden Relocators tekee kansainvälisestä matkustamisesta yksinkertaista, läpinäkyvää ja stressitöntä Globaali Viisumiohjelma -aloitteemme avulla. Palvelumme on suunnattu yksityishenkilöille, perheille, opiskelijoille ja ammattilaisille, jotka haluavat luotettavaa viisumitukea ilman monien suurlähetystöjärjestelmien aiheuttamaa sekaannusta.",
+      "toolLink": "Ainutlaatuinen universaali viisumilomakkeemme mahdollistaa useiden kohteiden hakemisen samalla tiedolla, säästäen aikaa ja vähentäen virheitä turvallisen verkkosivustomme ja mobiilisovelluksemme kautta."
+    },
+    "services": {
+      "heading": "Kattava viisumituki",
+      "requirementsLabel": "Mitä hoidamme",
+      "services": [
+        {
+          "id": "clientid",
+          "title": "Henkilökohtainen asiakastunnus",
+          "description": "Jokainen asiakas saa yksilöllisen tunnuksen rekisteröityessään",
+          "requirements": [
+            {"label": "Useita perheitä", "description": "Hallitse useita hakemuksia eri perheenjäsenille ja kohteille samanaikaisesti"},
+            {"label": "Turvallinen pääsy", "description": "Seuraa kaikkia viisumihakemuksiasi yhdestä kojelaudasta"}
+          ]
+        },
+        {
+          "id": "assessment",
+          "title": "Hakemuksen arviointi ja valmistelu",
+          "description": "Täydellinen taustatarkastus ja hakemuksen valmistelu",
+          "requirements": [
+            {"label": "Taustatarkastus", "description": "Tarkistamme matkustustarkoituksen, taloudellisen tilanteen ja matkustushistorian"},
+            {"label": "Suurlähetystön vaatimukset", "description": "Täydellinen hakemuspaketti sisältäen lomakkeet, saatekirjeet ja kohteeseen räätälöidyt liitedokumentit"}
+          ]
+        },
+        {
+          "id": "appointment",
+          "title": "Ajanvaraus ja vahvistus",
+          "description": "Varaamme suurlähetystöaikasi suoran vahvistuspuhelun kanssa",
+          "requirements": [
+            {"label": "Suurlähetystön varaus", "description": "Aika varattu kyseiseen suurlähetystöön tai VFS Global -keskukseen"},
+            {"label": "Valmiustarkistus", "description": "Henkilökuntamme soittaa suoraan tarkistaakseen vaatimukset ja varmistaakseen, että kaikki tiedot ovat oikein"}
+          ]
+        },
+        {
+          "id": "liaison",
+          "title": "Suurlähetystön yhteyshenkilö",
+          "description": "Ammattimainen viestintä suurlähetystöjen kanssa puolestasi",
+          "requirements": [
+            {"label": "Kysymysten selventäminen", "description": "Tiimimme hoitaa yhteydenpidon suurlähetystöön ja selventää mahdolliset kysymykset"},
+            {"label": "Ammattimainen edustus", "description": "Vähentää viivästysten, lisäasiakirjapyyntöjen tai hylkäysten riskiä"}
+          ]
+        },
+        {
+          "id": "file",
+          "title": "Täydellinen hakemuspaketin valmistelu ja toimitus",
+          "description": "Valmis hakemuspaketti toimitetaan kotiisi",
+          "requirements": [
+            {"label": "Hotellivahvistus", "description": "Vahvistetut hotellivaraukset ja lentovaraukset mukana"},
+            {"label": "Taloudelliset asiakirjat", "description": "Matkavakuutus ja vaaditut taloudelliset asiakirjat koottuna"}
+          ]
+        },
+        {
+          "id": "digital",
+          "title": "Turvallinen digitaalinen tiedostonhallinta",
+          "description": "GDPR-yhteensopiva asiakirjasäilytys ja uudelleenkäyttö usein matkustaville",
+          "requirements": [
+            {"label": "Turvallisuus", "description": "Kaikki asiakirjat säilytetään turvallisesti GDPR-yhteensopivassa järjestelmässä"},
+            {"label": "Uudelleenkäytettävyys", "description": "Tallenna tiedot tulevia hakemuksia varten, säästäen aikaa ja vaivaa"}
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "heading": "Tuetut viisumityypit",
+      "intro": "Ohjelmamme kattaa suurimmat kohdemaat maailmanlaajuisesti",
+      "visas": [
+        "Schengen-viisumi Eurooppaan",
+        "Iso-Britannian viisumi",
+        "Yhdysvaltain viisumi",
+        "Kanadan viisumi",
+        "Australian viisumi",
+        "Uuden-Seelannin viisumi",
+        "Irlannin viisumi",
+        "Japanin viisumi",
+        "Etelä-Korean viisumi",
+        "Kiinan viisumi"
+      ],
+      "additional": "Myös muita kohteita tuetaan räätälöityjen suurlähetystöratkaisujen kautta."
+    },
+    "purposes": {
+      "heading": "Visaamistarkoitukset, joita tuemme",
+      "purposes": [
+        {
+          "id": 1,
+          "title": "Matkailu",
+          "description": "Majoitus-, sairausvakuutus- ja taloudellisen kattavuuden todistukset järjestetty sujuvaa hyväksyntää varten"
+        },
+        {
+          "id": 2,
+          "title": "Perheen tai ystävien vierailu",
+          "description": "Todistetut kutsukirjeet, sponsoriasiakirjat ja suhteeseen liittyvät todisteet valmisteltu"
+        },
+        {
+          "id": 3,
+          "title": "EU:n perheyhdistäminen",
+          "description": "Yksityiskohtainen tarkastus asunnosta, tuloista ja oleskeluvaatimusten noudattamisesta perhelupia varten"
+        },
+        {
+          "id": 4,
+          "title": "Liike- ja konferenssimatkat",
+          "description": "Yrityskutsut, sponsoroinnin vahvistukset ja ammatilliset asiakirjat järjestetty"
+        },
+        {
+          "id": 5,
+          "title": "Opiskelu ulkomailla",
+          "description": "Pääsukirjeet, rahavarat ja koulutustodistukset tarkistettu"
+        },
+        {
+          "id": 6,
+          "title": "Lyhytaikaiset työtehtävät",
+          "description": "Työsopimukset ja työoikeudelliset tarkistukset suoritettu"
+        },
+        {
+          "id": 7,
+          "title": "Lääketieteellinen hoito",
+          "description": "Sairaalavahvistukset, lääkärintiedot ja taloudellinen sponsorointi valmisteltu"
+        },
+        {
+          "id": 8,
+          "title": "Kulttuuri- ja urheilutapahtumat",
+          "description": "Tapahtumailmoittautumiset ja viralliset kutsut koottu"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Viisumihakemuksen prosessi",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Rekisteröidy",
+          "description": "Rekisteröidy verkkosivustomme tai sovelluksemme kautta luodaksesi tilin ja saadaksesi yksilöllisen asiakastunnuksesi"
+        },
+        {
+          "number": 2,
+          "title": "Arviointi",
+          "description": "Tiimimme tarkistaa tarkoituksesi, kelpoisuutesi ja vaaditut asiakirjat kohteeseesi"
+        },
+        {
+          "number": 3,
+          "title": "Valmistelu",
+          "description": "Laadimme täydellisen hakemuspakettisi suurlähetystön standardien mukaisesti"
+        },
+        {
+          "number": 4,
+          "title": "Ajanvaraus",
+          "description": "Varmistamme ja vahvistamme suurlähetystöaikasi, ja soitamme tarkistaaksemme valmistautumisesi"
+        },
+        {
+          "number": 5,
+          "title": "Toimitus",
+          "description": "Lopullinen hakemuspakettisi toimitetaan kotiisi kaikilla aikavaraustiedoilla"
+        },
+        {
+          "number": 6,
+          "title": "Jättäminen",
+          "description": "Osallistu tapaamiseen passisi ja täydellisen hakemuspaketin kanssa"
+        },
+        {
+          "number": 7,
+          "title": "Seuranta ja uudelleenkäyttö",
+          "description": "Seuraa edistymistä portaalissamme ja käytä tietojasi uudelleen tulevia viisumihakemuksia varten"
+        }
+      ]
+    },
+    "languages": {
+      "heading": "Monikielinen tuki",
+      "description": "Jotta kieli ei koskaan olisi este, tarjoamme monikielistä tukea englanniksi, ruotsiksi, urduksi, arabiaksi, pandžabiksi, serbiaksi, kurdiksi, persiaksi ja monilla muilla kielillä. Konsulttimme selittävät viisumisäännöt kielellä, jolla olet mukavimmillasi."
+    },
+    "faq": {
+      "heading": "Usein kysytyt kysymykset",
+      "faqs": [
+        {
+          "id": 1,
+          "question": "Järjestättekö hotellivarauksia ja matkavakuutuksia viisumeja varten?",
+          "answer": "Kyllä, tarjoamme suurlähetystön hyväksymiä hotellivarauksia, lentoreittejä ja matkavakuutuksia vahvistaaksemme viisumihakemustasi."
+        },
+        {
+          "id": 2,
+          "question": "Kuinka voin tarkistaa, olenko kelvollinen viisumiin?",
+          "answer": "Arviointityökalumme ja asiantuntijamme analysoivat asiakirjasi ja matkustushistoriasi vahvistaakseen kelpoisuutesi valittuun kohteeseen."
+        },
+        {
+          "id": 3,
+          "question": "Hoitateko opiskelija- ja perheviisumit?",
+          "answer": "Kyllä, hallinnoimme opiskelijahakemuksia, perhevierailuja ja EU:n perheyhdistämistä täydellisine asiakirjoineen ja vaatimustenmukaisuustarkistuksineen."
+        },
+        {
+          "id": 4,
+          "question": "Voinko hakea useita viisumeja samalla hakemuspaketilla?",
+          "answer": "Kyllä, järjestelmämme sallii tallennettujen asiakirjojesi uudelleenkäytön eri maihin ja viisumityyppeihin, säästäen aikaa ja vaivaa."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Miksi valita Sweden Relocators",
+      "benefits": [
+        {
+          "id": 1,
+          "title": "Universaali viisumilomake",
+          "description": "Hae useisiin kohteisiin samalla tiedolla, vähentäen virheitä ja säästäen aikaa"
+        },
+        {
+          "id": 2,
+          "title": "Suurlähetystöyhteistyö",
+          "description": "Ammattimainen edustus suurlähetystöjen kanssa varmistaa sujuvan käsittelyn ja vähentää hylkäysriskiä"
+        },
+        {
+          "id": 3,
+          "title": "Monikielinen tuki",
+          "description": "Tuki yli 9 kielellä varmistaa vaatimusten selkeän ymmärryksen"
+        },
+        {
+          "id": 4,
+          "title": "Täydellinen matkajärjestely",
+          "description": "Hotellivaraukset, lentovaraukset ja vakuutukset kaikki hoidettu vahvempia hakemuksia varten"
+        },
+        {
+          "id": 5,
+          "title": "Turvalliset digitaaliset työkalut",
+          "description": "GDPR-yhteensopiva järjestelmä turvallisella portaalilla ja mobiilisovelluksella helppoon asiakirjahallintaan"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Valmis matkustamaan ympäri maailmaa?",
+      "description": "Sweden Relocatorsin Globaali Viisumiohjelma yhdistää teknologian, asiantuntemuksen ja henkilökohtaisen tuen, jotta kansainväliset matkat olisivat yksinkertaisia. Aloita viisumihakemuksesi tänään.",
+      "button": "Aloita viisumihakemus",
+      "subtext": "Tiimimme opastaa sinua jokaisessa vaiheessa varmistaakseen hakemuksesi onnistumisen."
+    }
+  }
+}

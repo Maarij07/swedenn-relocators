@@ -1,0 +1,171 @@
+{
+  "asylum": {
+    "hero": {
+      "title": "Turvapaikka Suomessa: Ammattimainen Tuki Turvalliselle Tulevaisuudelle",
+      "subtitle": "Asiantuntijaopastus suomalaisessa turvapaikkamenettelyssä"
+    },
+    "intro": {
+      "heading": "Mitä Me Tarjoamme",
+      "description": "Jos haet turvapaikkaa Suomesta, oikeudellisen prosessin ymmärtäminen ja vaatimusten täyttäminen voi tuntua ylivoimaiselta. Sweden Relocators -yhtiössä kokeneiden maahanmuuttoasiantuntijoidemme tiimi ohjaa sinua jokaisen vaiheen läpi Maahanmuuttovirastossa varmistamalla, että tapaustasi käsitellään suurella huolella ja ammattitaidolla."
+    },
+    "whyChooseExpert": {
+      "heading": "Miksi Valita Asiantuntija?",
+      "description": "Turvapaikkamenettelyyn Suomessa liittyy sekä monimutkaisia sääntöjä että tiettyjä määräaikoja. Tässä on, mitkä tavoin asiantuntijatiimimme voi auttaa sinua:",
+      "benefits": [
+        {
+          "title": "Mielenrauha",
+          "description": "Ammattimaisen tiimimme hoitaessa tapaustasi voit keskittyä muihin asioihin Suomeen muutossa. Olemme sitoutuneet varmistamaan, että turvapaikkahakemuksellasi käsitellään tehokkaasti ja myötätuntoisesti."
+        },
+        {
+          "title": "Selkeä ja Läpinäkyvä Opastus",
+          "description": "Asiantuntijamme yksinkertaistavat monimutkaisia oikeudellisia vaatimuksia, mikä varmistaa, että käsität jokaisen vaiheen. Riippumatta siitä, kuinka monimutkainen tapauksesi onkaan, tiimimme on valmis auttamaan sinua selkeiden perustelujen esittämisessä."
+        },
+        {
+          "title": "Välitön Pääsy Oikeudelliseen Asiantuntijaan",
+          "description": "Maahanmuuttoasianajajamme alkavat työskennellä tapauksellasi heti, kun otat meihin yhteyttä, mikä tarjoaa välittömän vastauksen huoli-aiheisiinsa ja varmistaa, että tapausta käsitellään tehokkaammin."
+        }
+      ]
+    },
+    "eligibility": {
+      "heading": "Kelpoisuus Turvapaikkaan Suomessa",
+      "whoCanApply": {
+        "heading": "Kuka Voi Hakea Turvapaikkaa?",
+        "intro": "Turvapaikkaa Suomesta varten sinun on oltava fyysisesti läsnä maassa tai sen rajalla. Ei ole mahdollista hakea toisesta maasta tai Suomen suurlähetystöstä ulkomailla.",
+        "description": "Jokainen turvapaikkahakijan tapaus käsitellään yksilöllisesti, ja Maahanmuuttovirasto myöntää oleskeluluvan vain, jos hakija täyttää pakolaisuuden kriteerit sekä Suomen lainsäädännön että YK:n pakolaissopimuksen mukaisesti."
+      },
+      "refugeeDefinition": {
+        "heading": "Pakolaisen Määritelmä ja Kriteerit",
+        "intro": "Suomen lainsäädännön ja kansainvälisten ohjeiden mukaisesti henkilö katsotaan pakolaiseksi, jos hänellä on vaarassa joutua kohdatuksi vainoksi tai vakaviksi uhkiksi kotimaassaan seuraavien perusteella:",
+        "criteria": [
+          "Rotu",
+          "Kansallisuus, Kieli tai Etninen Ryhmä",
+          "Uskonto",
+          "Poliittinen Vakaumus tai Aktiviteetti",
+          "Sukupuoli-identiteetti",
+          "Seksuaalinen Suuntautuminen",
+          "Kuuluminen Tiettyyn Sosiaaliseen Ryhmään"
+        ],
+        "additionalInfo": "Jos ryhmät tai henkilöt kotimaassasi uhkaavat sinua tai läheisiäsi, voi se vaikuttaa hakemukseesi. Myöntävä päätös vaatii kuitenkin selviä todisteita näistä tekijöistä johtuva vainosta. Hakuprosessin aikana sinua pyydetään kuvailemaan riskit, joille altistut, jos palaisit kotimaahasi.",
+        "outcome": "Jos tapauksesi hyväksytään, voit saada oleskeluluvan, joka on voimassa joko kolme vuotta tai 13 kuukautta, riippuen tilanteen yksityiskohdista."
+      }
+    },
+    "applicationProcess": {
+      "heading": "Vaiheet Turvapaikkahakemukselle Suomessa",
+      "intro": "Vaihe-Vaihe Prosessi",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Fyysinen Läsnäolo Vaaditaan",
+          "description": "Sinun on oltava fyysisesti Suomessa tai Suomen rajalla voidaksesi hakea turvapaikkaa."
+        },
+        {
+          "step": 2,
+          "title": "Ensimmäinen Tapaaminen Maahanmuuttovirastossa",
+          "description": "Kun olet lähettänyt hakemuksesi, sinut kutsutaan alkukokoukseen Maahanmuuttovirastoon. Tässä kokouksessa sinulla on mahdollisuus valita juridinen edustajasi tai asianajaja. Tässä vaiheessa voit valita tiimimme tukemaan sinua."
+        },
+        {
+          "step": 3,
+          "title": "Juridinen Edustus ja Tapauksen Valmistelu",
+          "description": "Jos valitset meidät edustajaksi, Maahanmuuttovirasto ottaa meihin yhteyttä auttaakseen tapauksellasi. Tiimimme järjestää puhelun kanssasi kerätäkseen tietoja taustastasi ja turvapaikkahakemisen syistä. Valmistelemme sinut myös tuleviin haastatteluihin ja asiakirjatoimituksiin."
+        }
+      ]
+    },
+    "legalRepresentative": {
+      "heading": "Roolimme Juridisena Edustajanasi",
+      "intro": "Juridisena edustajanasi tulemme:",
+      "services": [
+        "Tarjota jatkuvaa tukea ja oikeudellista neuvontaa koko turvapaikkamenettelyä läpi.",
+        "Auttaa selkeyttämään turvapaikkaperusteita Maahanmuuttovirastolle hyödyntämällä syvää tietämystämme suomalaisesta turvapaikalakista.",
+        "Varmistaa, että oikeutesi suojataan, varsinkin kun turvapaikkahakijoilta ei odoteta olevan perehtyneitä suomalaisiin oikeudellisiin menettelyihin.",
+        "Auttaa sinua valituksissa, jos alkuperäinen hakemuksesi hylätään. Voimme auttaa valittamaan sekä Maahanmuuttodiarioihin että Hallinto-oikeuteen tarvittaessa."
+      ],
+      "additionalSupport": "Lisäksi tarjoamme kattavaa muuttopalvelua auttaaksemme sinua perheenjäsentensä kanssa uudelleen yhdistymisessä, jos hakemuksesi hyväksytään."
+    },
+    "familyReunification": {
+      "heading": "Perheyhdistäminen Pakolaisille",
+      "subheading": "Perheesi Tuominen Suomeen",
+      "description": "Suomi tunnustaa perheyhdistämisen olennaiseksi oikeudeksi, joka sallii perheenjäsenten liittyä pakolaisiin tai henkilöihin, joilla on erityisiä oleskelulupa. Jos sinulle on myönnetty turvapaaikka tai muu perusteltu oleskelulupa, perheesi voi mahdollisesti liittyä sinuun Suomessa.",
+      "whoCanApply": {
+        "heading": "Kuka Voi Saada Perheyhdistämisen?",
+        "intro": "Perheesi voi olla oikeutettu hakemaan oleskelulupaa liittyäkseen sinuun Suomessa, jos sinulla on:",
+        "eligibilityTypes": [
+          "Pysyvä oleskelulupa",
+          "Väliaikainen oleskelulupa pakolaisena, jolla on kohtuulliset mahdollisuudet pitkäaikaiseen jatkolle",
+          "Väliaikainen oleskelulupa tulosten puuttuessa tai ahdingollisissa olosuhteissa ja todennäköisyys pitkäaikaisesta jatko"
+        ]
+      },
+      "euEeaCitizens": {
+        "heading": "EU/ETA-kansalaisille",
+        "description": "Jos olet EU/ETA-kansalainen tai niihin liittyvä, voit hyötyä yksinkertaistetusta menettelystä tuoda perheenjäseniä Suomeen, joka perustuu vapaan liikkuvuuden oikeuteen Euroopassa. Tämä helpotettu viisumitoiminto voi mahdollistaa perheenjäsentensä matkustusta kanssasi tai liittymisen sinuun Suomessa."
+      },
+      "temporaryPermit": {
+        "heading": "Jos Sinulla on Väliaikainen Oleskelulupa",
+        "description": "Jotta perheyhdistämishakemukset onnistuvat, sinulla on oltava voimassa oleva oleskelulupa hakemuksen jättöhetkellä. Jos lupasi on jatkoa käsiteltävänä, Maahanmuuttovirasto ensin arvioi oikeutesi pitää asemaa ennen kuin päättää perheyhdistämisestä.",
+        "familyMembers": "Yleensä lähimmät perheenjäsenet, kuten puolisosi, rekisteröity kumppani, asumiskumppani tai alle 18-vuotiaat lapset, ovat oikeutettuja liittymään sinuun. Poikkeustapauksissa muutkin sukulaiset voivat olla oikeutettuja, mutta vain tiettyjen ehtojen puitteissa.",
+        "maintenance": "Ylläpitovaatimus pätee, mikä tarkoittaa, että sinun on osoitettava, että voit taloudellisesti tukea perheenjäseniäsi ja tarjota asianmukaista asumista, joka vastaa Suomen standardeja."
+      }
+    },
+    "familyReunificationAssistance": {
+      "heading": "Kuinka Me Auttamme Perheyhdistämisessä",
+      "description": "Tiimimme tarjoaa täydellisen tuen perheyhdistämisprosessille, joka kattaa kaikkien osa-alueet tehdäkseen siitä niin sujuvaksi kuin mahdollista:",
+      "services": [
+        {
+          "title": "Hakemuksen Valmistelu",
+          "description": "Apu perheenjäsenten oleskelulupahakemuksen valmistelussa ja lähettämisessä, mukaan lukien asiakirjaopastus."
+        },
+        {
+          "title": "Asiakirjavarmistus",
+          "description": "Varmistaminen, että kaikki tarvittavat asiakirjat ovat kunnossa viiveiden ja komplikaatioiden minimoimiseksi."
+        },
+        {
+          "title": "Valtion Maksuopastus",
+          "description": "Selkeä tieto asiaan liittyvistä valtion maksuista, jotta olet aina tietoinen kustannuksista."
+        },
+        {
+          "title": "Rekisteröintituki",
+          "description": "Apu hakemuksen rekisteröimisessä Maahanmuuttovirastoon tarkkuuden ja täydellisyyden varmistamiseksi."
+        },
+        {
+          "title": "Säännöllinen Seuranta",
+          "description": "Jatkuva hakemuksesi etenemisen valvonta ja nopeat päivitykset, jotta pysyt informoituna."
+        },
+        {
+          "title": "Tapaamistoimiston Koordinointi",
+          "description": "Olennaisten tapaamisten koordinointi Maahanmuuttovirastossa haastatteluille, biometriikkaan ja muihin proseduurivaiheisiin."
+        },
+        {
+          "title": "Saattelut Vierailuille",
+          "description": "Tiimimme saattaa sinut Maahanmuuttovirastoon, tarjoten henkilökohtaista tukea ja ohjausta prosessin tärkeissä vaiheissa."
+        }
+      ]
+    },
+    "additionalSupport": {
+      "heading": "Lisätukipalvelut Turvapaikkahakijoille ja Uusille Saapujille",
+      "intro": "Turvapaika- ja perheyhdistämispalvelujen lisäksi tarjoamme myös:",
+      "services": [
+        {
+          "title": "Muuttoapu",
+          "description": "Laaja apu asumiseen, koulutukseen, terveydenhuoltoon ja sosiaaliseen integraatioon Suomessa siirtymisen helpottamiseksi."
+        },
+        {
+          "title": "Tulkinta- ja Käännöspalvelut",
+          "description": "Apu tarvittavien asiakirjojen kääntämisessä ja tulkinnassa Maahanmuuttoviraston virkamiesten kanssa käytävissä kokouksissa."
+        },
+        {
+          "title": "Juridinen Apu Valituksiin ja Tarkistuksiin",
+          "description": "Tuki valituksien jättämisessä, oikeuskäsittelyiden valmistautumisessa ja monimutkaisten oikeudellisten menettelyjen hallinnassa."
+        },
+        {
+          "title": "Neuvontapalvelut",
+          "description": "Ammattimainen tuki tunne-elämän hyvinvoinnille haastavina aikoina, auttaen sinua tuntemaan olosi turvalliseksi ja tuetuksi."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Aloita Turvapaikkahakemuksesi Tänään",
+      "description": "Ota yhteyttä Sweden Relocators -yhtiöön aloittaaksesi turvapaikkahakemuksesi asiantuntijaohjauksella ja tuella jokaisen vaiheen läpi.",
+      "button": "Aloita",
+      "subtext": "Vieraile turvapaikkaosiossa tai ota meihin yhteyttä lisätietoja varten. Tiimimme auttaa sinua turvaamaan tulevaisuutesi Suomessa."
+    }
+  }
+}
