@@ -189,25 +189,57 @@ export default function CitizenshipResidencySection() {
               </Box>
 
               <Button
-                variant="outlined"
-                size="small"
                 sx={{
                   mt: 3,
-                  alignSelf: 'flex-start',
+                  px: 3.5,
+                  py: 1.25,
+                  fontSize: { xs: '0.85rem', sm: '0.9rem' },
+                  fontWeight: 600,
                   textTransform: 'none',
-                  borderRadius: '999px',
-                  borderColor: '#0284c7',
-                  color: '#0369a1',
-                  fontWeight: 500,
-                  px: 2.5,
-                  py: 0.75,
+                  background: 'linear-gradient(135deg, #000000 0%, #1a1a1a 100%)',
+                  color: '#ffffff',
+                  borderRadius: '8px',
+                  alignSelf: 'flex-end',
+                  border: 'none',
+                  transition: 'all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
+                  boxShadow: '0 3px 10px rgba(0, 0, 0, 0.2)',
+                  position: 'relative',
+                  overflow: 'hidden',
+                  '&::before': {
+                    content: '""',
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    background: 'linear-gradient(135deg, #1a1a1a 0%, #000000 100%)',
+                    opacity: 0,
+                    transition: 'opacity 0.3s ease',
+                  },
                   '&:hover': {
-                    borderColor: '#0369a1',
-                    backgroundColor: 'rgba(59,130,246,0.06)',
+                    transform: 'translateY(-2px)',
+                    boxShadow: '0 5px 16px rgba(0, 0, 0, 0.28)',
+                    '&::before': {
+                      opacity: 1,
+                    },
                   },
                 }}
               >
-                {texts.cbiButton}
+                <Box component="span" sx={{ position: 'relative', zIndex: 1, display: 'flex', alignItems: 'center', gap: 0.75 }}>
+                  {texts.cbiButton}
+                  <Box
+                    component="span"
+                    sx={{
+                      display: 'inline-block',
+                      transition: 'transform 0.3s ease',
+                      '.MuiButton-root:hover &': {
+                        transform: 'translateX(3px)',
+                      },
+                    }}
+                  >
+                    →
+                  </Box>
+                </Box>
               </Button>
             </CardContent>
           </Card>
@@ -298,25 +330,57 @@ export default function CitizenshipResidencySection() {
               </Box>
 
               <Button
-                variant="outlined"
-                size="small"
                 sx={{
                   mt: 3,
-                  alignSelf: 'flex-start',
+                  px: 3.5,
+                  py: 1.25,
+                  fontSize: { xs: '0.85rem', sm: '0.9rem' },
+                  fontWeight: 600,
                   textTransform: 'none',
-                  borderRadius: '999px',
-                  borderColor: '#0284c7',
-                  color: '#0369a1',
-                  fontWeight: 500,
-                  px: 2.5,
-                  py: 0.75,
+                  background: 'linear-gradient(135deg, #000000 0%, #1a1a1a 100%)',
+                  color: '#ffffff',
+                  borderRadius: '8px',
+                  alignSelf: 'flex-end',
+                  border: 'none',
+                  transition: 'all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
+                  boxShadow: '0 3px 10px rgba(0, 0, 0, 0.2)',
+                  position: 'relative',
+                  overflow: 'hidden',
+                  '&::before': {
+                    content: '""',
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    background: 'linear-gradient(135deg, #1a1a1a 0%, #000000 100%)',
+                    opacity: 0,
+                    transition: 'opacity 0.3s ease',
+                  },
                   '&:hover': {
-                    borderColor: '#0369a1',
-                    backgroundColor: 'rgba(59,130,246,0.06)',
+                    transform: 'translateY(-2px)',
+                    boxShadow: '0 5px 16px rgba(0, 0, 0, 0.28)',
+                    '&::before': {
+                      opacity: 1,
+                    },
                   },
                 }}
               >
-                {texts.rbiButton}
+                <Box component="span" sx={{ position: 'relative', zIndex: 1, display: 'flex', alignItems: 'center', gap: 0.75 }}>
+                  {texts.rbiButton}
+                  <Box
+                    component="span"
+                    sx={{
+                      display: 'inline-block',
+                      transition: 'transform 0.3s ease',
+                      '.MuiButton-root:hover &': {
+                        transform: 'translateX(3px)',
+                      },
+                    }}
+                  >
+                    →
+                  </Box>
+                </Box>
               </Button>
             </CardContent>
           </Card>

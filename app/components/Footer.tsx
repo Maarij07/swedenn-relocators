@@ -14,41 +14,111 @@ export default function Footer() {
   return (
     <footer className="bg-[#0f141a] text-white">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-        <div className="py-10 sm:py-14 lg:py-16 4k:py-20 border-t border-[#1f2933] mt-10">
-          {/* Top grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 xl:gap-16 mb-10 lg:mb-12">
+        <div className="py-12 sm:py-16 lg:py-20 4k:py-28 border-t border-[#1f2933] mt-10">
+          {/* Top Row - Logo, Sections, Useful Links, Legal, Contact */}
+          <div className="grid grid-cols-5 gap-8 lg:gap-12 mb-12 lg:mb-16">
             {/* Column 1 - Logo & description */}
-            <div className="space-y-5 max-w-sm">
-              <div className="flex items-center gap-3">
-                {/* Logo without extra white background */}
-                <div className="w-11 h-11 flex items-center justify-center">
-                  <Image src="/favicon.ico" alt="Sweden Relocators" width={32} height={32} />
+            <div className="col-span-1">
+              <div className="flex items-start gap-2 mb-2 -mt-2">
+                <div className="w-9 h-9 flex items-center justify-center flex-shrink-0">
+                  <Image src="/favicon.ico" alt="Sweden Relocators" width={28} height={28} />
                 </div>
-                <p className="font-semibold text-sm sm:text-base tracking-wide"></p>
               </div>
 
-              <p className="text-xs sm:text-[13px] text-[#cbd5e1] leading-relaxed">
+              <p className="text-[11px] sm:text-[12px] text-[#cbd5e1] leading-relaxed">
                 {isSv
                   ? 'Vi är en relocation‑leverantör som arbetar med alla typer av laglig flytt till Sverige. Vi erbjuder digitalt stödda ansökningsprocesser och hjälper dig med rådgivning och tjänster för att etablera dig i landet.'
-                  : 'We are a Relocation Services Provider company who deals with all kinds of legal relocation to Sweden. We offer digitally assisted application processes and provide guidance and services to settle down in the country.'}
+                  : 'We are a Relocation Services Provider Company which deals with all sort of legal relocation to Sweden. We offers quality guidance, effective advice and provides information to our clients to settle down in the country.'}
               </p>
+            </div>
 
-              <div className="space-y-2 text-xs sm:text-[13px] text-[#e2e8f0]">
-                <p className="font-semibold uppercase tracking-[0.15em] text-[#94a3b8]">
-                  {isSv ? 'KONTAKTA OSS' : 'REACH US'}
-                </p>
+            {/* Column 2 - Sections */}
+            <div>
+              <h4 className="text-xs sm:text-sm font-semibold mb-3 tracking-wide uppercase text-[#e2e8f0]">
+                {isSv ? 'SEKTIONER' : 'SECTIONS'}
+              </h4>
+              <ul className="space-y-1.5 text-[11px] sm:text-[12px] text-[#cbd5e1]">
+                <li>
+                  <a href={`/${locale}/about`} className="hover:text-white transition-colors">
+                    {isSv ? 'Om oss' : 'About us'}
+                  </a>
+                </li>
+                <li>
+                  <a href={`/${locale}/contact`} className="hover:text-white transition-colors">
+                    {isSv ? 'Kontakta oss' : 'Contact us'}
+                  </a>
+                </li>
+                <li>
+                  <a href={`/${locale}/services`} className="hover:text-white transition-colors">
+                    {isSv ? 'Tjänster' : 'Services'}
+                  </a>
+                </li>
+                <li>
+                  <a href={`/${locale}/blogs`} className="hover:text-white transition-colors">
+                    {isSv ? 'Bloggar' : 'Blogs'}
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Column 3 - Useful Links */}
+            <div>
+              <h4 className="text-xs sm:text-sm font-semibold mb-3 tracking-wide uppercase text-[#e2e8f0]">
+                {isSv ? 'NYTTIGA LÄNKAR' : 'USEFUL LINKS'}
+              </h4>
+              <ul className="space-y-1.5 text-[11px] sm:text-[12px] text-[#cbd5e1]">
+                <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Vanliga frågor' : 'FAQs'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Karriär' : 'Careers'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Omdömen' : 'Testimonials'}</a></li>
+              </ul>
+            </div>
+
+            {/* Column 4 - Legal */}
+            <div>
+              <h4 className="text-xs sm:text-sm font-semibold mb-3 tracking-wide uppercase text-[#e2e8f0]">
+                {isSv ? 'JURIDIK' : 'LEGAL'}
+              </h4>
+              <ul className="space-y-1.5 text-[11px] sm:text-[12px] text-[#cbd5e1]">
+                <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Villkor' : 'Terms and condition'}</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Integritetspolicy' : 'Privacy policy'}</a></li>
+              </ul>
+            </div>
+
+            {/* Column 5 - Contact */}
+            <div>
+              <h4 className="text-xs sm:text-sm font-semibold mb-3 tracking-wide uppercase text-[#e2e8f0]">
+                {isSv ? 'KONTAKT' : 'CONTACT'}
+              </h4>
+              <div className="space-y-1.5 text-[11px] sm:text-[12px] text-[#cbd5e1]">
+                <p>info@swedenrelocators.se</p>
+                <p>support@swedenrelocators.se</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-[#1f2933] my-10 lg:my-12"></div>
+
+          {/* Bottom Row - Reach Us, Visit Us, Get App, Partner Network */}
+          <div className="grid grid-cols-5 gap-8 lg:gap-12 mb-12 lg:mb-16">
+            {/* Reach Us */}
+            <div>
+              <h4 className="text-xs sm:text-sm font-semibold mb-3 tracking-wide uppercase text-[#e2e8f0]">
+                {isSv ? 'KONTAKTA OSS' : 'REACH US'}
+              </h4>
+              <div className="space-y-2 text-[11px] sm:text-[12px] text-[#cbd5e1]">
                 <p>support@swedenrelocators.se</p>
                 <p>info@swedenrelocators.se</p>
-                <p>+46 723 276 276-7</p>
+                <p>+46 723 276 276</p>
                 <p>+46 10 2146 276</p>
 
                 {/* REG / CVR with rounded flags */}
-                <div className="space-y-1 pt-2">
+                <div className="space-y-1.5 pt-2">
                   <div className="flex items-center gap-2">
                     <img
                       src="https://flagcdn.com/24x18/se.png"
                       alt="Sweden flag"
-                      className="w-5 h-5 rounded-full object-cover border border-[#1f2937]"
+                      className="w-4 h-4 rounded-full object-cover border border-[#1f2937]"
                     />
                     <span>REG 559025-2648</span>
                   </div>
@@ -56,7 +126,7 @@ export default function Footer() {
                     <img
                       src="https://flagcdn.com/24x18/dk.png"
                       alt="Denmark flag"
-                      className="w-5 h-5 rounded-full object-cover border border-[#1f2937]"
+                      className="w-4 h-4 rounded-full object-cover border border-[#1f2937]"
                     />
                     <span>CVR 41200677</span>
                   </div>
@@ -64,116 +134,122 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Column 2 - Sections & Visit us (map) */}
-            <div className="space-y-6">
-              <div>
-                <h4 className="text-sm sm:text-[15px] font-semibold mb-3 tracking-wide">
-                  {isSv ? 'SEKTIONER' : 'SECTIONS'}
-                </h4>
-                <ul className="space-y-1.5 text-xs sm:text-[13px] text-[#cbd5e1]">
-                  <li>
-                    <a href={`/${locale}/about`} className="hover:text-white transition-colors">
-                      {isSv ? 'Om oss' : 'About us'}
-                    </a>
-                  </li>
-                  <li>
-                    <a href={`/${locale}/contact`} className="hover:text-white transition-colors">
-                      {isSv ? 'Kontakta oss' : 'Contact us'}
-                    </a>
-                  </li>
-                  <li>
-                    <a href={`/${locale}/services`} className="hover:text-white transition-colors">
-                      {isSv ? 'Våra tjänster' : 'Our services'}
-                    </a>
-                  </li>
-                  <li>
-                    <a href={`/${locale}/blogs`} className="hover:text-white transition-colors">
-                      {isSv ? 'Bloggar' : 'Blogs'}
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="space-y-3">
-                <h4 className="text-sm sm:text-[15px] font-semibold tracking-wide">
-                  {isSv ? 'BESÖK OSS' : 'VISIT US'}
-                </h4>
-                <div className="flex items-center gap-3">
-                  <div className="relative w-32 h-20 sm:w-36 sm:h-24">
-                    <Image src="/map.svg" alt="Our offices" fill className="object-contain" />
+            {/* Visit Us */}
+            <div className="col-span-2 ml-27">
+              <h4 className="text-xs sm:text-sm font-semibold mb-4 tracking-wide uppercase text-[#e2e8f0]">
+                {isSv ? 'BESÖK OSS' : 'VISIT US'}
+              </h4>
+              <div className="space-y-4">
+                <div className="relative w-fit h-32 rounded-lg overflow-hidden bg-[#1a2332]">
+                  <Image src="/map.svg" alt="Our offices" width={280} height={128} className="object-cover" />
+                </div>
+                <div className="space-y-2 text-[11px] sm:text-[12px] text-[#cbd5e1]">
+                  <div className="flex items-start gap-2">
+                    <svg className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
+                    </svg>
+                    <div>
+                      <p className="font-semibold">Arenagatan 86E 214 37 Malmö, Sweden</p>
+                    </div>
                   </div>
-                  <div className="space-y-1 text-xs sm:text-[13px] text-[#cbd5e1]">
-                    <p>
-                      <span className="font-semibold">Arenagatan 208C,</span> 215 32 Malmö, Sweden
-                    </p>
-                    <p>
-                      <span className="font-semibold">Frederikskaj 10F,</span> 2450 Copenhagen, Denmark
-                    </p>
+                  <div className="flex items-start gap-2">
+                    <svg className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
+                    </svg>
+                    <div>
+                      <p className="font-semibold">Roskildevel 30B, 2620 Albertslund, Denmark</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Column 3 - Useful & Legal */}
-            <div className="space-y-6">
+            {/* Get Our Free App & Partner Network */}
+            <div className="col-span-2 flex flex-col max-w-md">
+              {/* Top: GET OUR FREE APP heading and JOIN OUR PARTNER NETWORK button */}
+              <div className="flex items-start justify-between gap-4 mb-6">
+                <h4 className="text-xs sm:text-sm font-semibold tracking-wide uppercase text-[#e2e8f0] whitespace-nowrap">
+                  {isSv ? 'VÅR APP' : 'GET OUR FREE APP'}
+                </h4>
+                <button className="px-3 py-1.5 bg-blue-600 hover:bg-blue-700 text-white text-[9px] sm:text-[10px] font-semibold rounded-lg transition-colors whitespace-nowrap">
+                  {isSv ? 'BLI VÅR PARTNER' : 'JOIN OUR PARTNER NETWORK'}
+                </button>
+              </div>
+
+              {/* Download our App text and buttons */}
               <div>
-                <h4 className="text-sm sm:text-[15px] font-semibold mb-3 tracking-wide">
-                  {isSv ? 'NYTTIGA LÄNKAR' : 'USEFUL LINKS'}
-                </h4>
-                <ul className="space-y-1.5 text-xs sm:text-[13px] text-[#cbd5e1]">
-                  <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Vanliga frågor' : 'FAQs'}</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Karriär' : 'Careers'}</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Omdömen' : 'Testimonials'}</a></li>
-                </ul>
-              </div>
-
-              <div>
-                <h4 className="text-sm sm:text-[15px] font-semibold mb-3 tracking-wide">
-                  {isSv ? 'JURIDIK' : 'LEGAL'}
-                </h4>
-                <ul className="space-y-1.5 text-xs sm:text-[13px] text-[#cbd5e1]">
-                  <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Villkor' : 'Terms and conditions'}</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Integritetspolicy' : 'Privacy policy'}</a></li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Column 4 - Contact, app & socials */}
-            <div className="space-y-6">
-              <div className="space-y-2 text-xs sm:text-[13px] text-[#e2e8f0]">
-                <h4 className="text-sm sm:text-[15px] font-semibold tracking-wide">
-                  {isSv ? 'KONTAKT' : 'CONTACT'}
-                </h4>
-                <p>info@swedenrelocators.se</p>
-                <p>support@swedenrelocators.se</p>
-              </div>
-
-              <div className="space-y-3">
-                <h4 className="text-sm sm:text-[15px] font-semibold tracking-wide">
-                  {isSv ? 'LADDA NER VÅR GRATISAPP' : 'GET OUR FREE APP'}
-                </h4>
-                <p className="text-xs sm:text-[13px] text-[#cbd5e1]">
+                <p className="text-[11px] sm:text-[12px] text-[#cbd5e1] mb-3">
                   {isSv ? 'Ladda ner vår app' : 'Download our App'}
                 </p>
-                <div className="flex items-center gap-3">
-                  <Image src="/app.svg" alt="Download on the App Store" width={120} height={36} className="object-contain" />
-                  <Image src="/play.svg" alt="Get it on Google Play" width={130} height={40} className="object-contain" />
+                <div className="flex gap-3 mb-8">
+                  <a
+                    href="#"
+                    className="inline-flex items-center gap-2.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.15)] transition-all duration-300"
+                  >
+                    <Image
+                      src="/apple.svg"
+                      alt="Apple"
+                      width={16}
+                      height={16}
+                      className="w-4 h-4"
+                    />
+                    <div className="flex flex-col items-start">
+                      <span className="text-[0.35rem] font-light text-slate-600 uppercase tracking-wide">
+                        DOWNLOAD ON THE
+                      </span>
+                      <span className="font-semibold text-[0.55rem] text-slate-900 -mt-0.5">
+                        App Store
+                      </span>
+                    </div>
+                  </a>
+
+                  <a
+                    href="#"
+                    className="inline-flex items-center gap-2.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.15)] transition-all duration-300"
+                  >
+                    <Image
+                      src="/playstore.svg"
+                      alt="Google Play"
+                      width={16}
+                      height={16}
+                      className="w-4 h-4"
+                    />
+                    <div className="flex flex-col items-start">
+                      <span className="text-[0.35rem] font-light text-slate-600 uppercase tracking-wide">
+                        GET IT ON
+                      </span>
+                      <span className="font-semibold text-[0.55rem] text-slate-900 -mt-0.5">
+                        Google Play
+                      </span>
+                    </div>
+                  </a>
                 </div>
               </div>
 
+              {/* Follow Us */}
               <div className="space-y-3">
-                <h4 className="text-sm sm:text-[15px] font-semibold tracking-wide">
+                <h4 className="text-xs sm:text-sm font-semibold tracking-wide uppercase text-[#e2e8f0]">
                   {isSv ? 'FÖLJ OSS' : 'FOLLOW US'}
                 </h4>
                 <div className="flex items-center gap-2.5">
-                  {['/f1.svg', '/f2.svg', '/f3.svg', '/f4.svg', '/f5.svg', '/f6.svg'].map((icon) => (
-                    <button
-                      key={icon}
-                      className="w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-[0_6px_18px_rgba(15,23,42,0.45)] hover:bg-slate-100 transition-colors"
-                      aria-label="social link"
+                  {[
+                    { icon: '/f1.svg', url: 'https://facebook.com/swedenrelocators', label: 'Facebook' },
+                    { icon: '/f2.svg', url: 'https://instagram.com/swedenrelocators', label: 'Instagram' },
+                    { icon: '/f3.svg', url: 'https://linkedin.com/company/swedenrelocators', label: 'LinkedIn' },
+                    { icon: '/f4.svg', url: 'https://twitter.com/swedenrelocators', label: 'Twitter' },
+                    { icon: '/f5.svg', url: 'https://youtube.com/@swedenrelocators', label: 'YouTube' },
+                    { icon: '/f6.svg', url: 'https://wa.me/46723276276', label: 'WhatsApp' },
+                  ].map((social) => (
+                    <a
+                      key={social.icon}
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-[0_4px_12px_rgba(15,23,42,0.3)] hover:bg-slate-100 transition-colors"
+                      aria-label={social.label}
                     >
-                      <Image src={icon} alt={icon} width={16} height={16} className="object-contain" />
-                    </button>
+                      <Image src={social.icon} alt={social.label} width={16} height={16} className="object-contain" />
+                    </a>
                   ))}
                 </div>
               </div>
@@ -181,8 +257,8 @@ export default function Footer() {
           </div>
 
           {/* Bottom bar */}
-          <div className="border-t border-[#1f2933] pt-5 mt-4 flex flex-col items-center justify-between gap-3 sm:flex-row">
-            <p className="text-[11px] sm:text-xs text-[#94a3b8] text-center sm:text-left">
+          <div className="border-t border-[#1f2933] pt-6 flex items-center justify-center">
+            <p className="text-[10px] sm:text-[11px] text-[#94a3b8] text-center">
               {isSv
                 ? '© 2024 SWEDEN RELOCATORS AB. Drivs av RELOFY TECH AB.'
                 : '© 2024 SWEDEN RELOCATORS AB. Powered by RELOFY TECH AB.'}

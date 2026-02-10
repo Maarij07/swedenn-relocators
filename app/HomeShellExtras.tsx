@@ -5,6 +5,7 @@ import ConnectingTalentSection from './components/ConnectingTalentSection';
 import PayrollEORSection from './components/PayrollEORSection';
 import BusinessMarketplaceSection from './components/BusinessMarketplaceSection';
 import RelocationSuccessSection from './components/RelocationSuccessSection';
+import DigitalPlatformsSection from './components/DigitalPlatformsSection';
 import BlogsSection from './components/BlogsSection';
 
 export default function HomeShellExtras() {
@@ -29,6 +30,7 @@ export default function HomeShellExtras() {
       <PayrollEORSection />
       <BusinessMarketplaceSection />
       <RelocationSuccessSection />
+      <DigitalPlatformsSection />
       <BlogsSection />
     </>
   );

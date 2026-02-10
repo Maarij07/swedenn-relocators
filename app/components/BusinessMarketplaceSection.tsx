@@ -155,9 +155,10 @@ export default function BusinessMarketplaceSection() {
                   </div>
                 </div>
 
-                <div className="pt-3">
-                  <button className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-[0.8rem] font-semibold text-slate-900 shadow-[0_12px_30px_rgba(15,23,42,0.06)] hover:bg-slate-50 transition-colors">
-                    {card.buttonText}
+                <div className="pt-3 flex justify-center">
+                  <button className="flex items-center justify-between gap-2 rounded-xl border border-slate-300 bg-white px-6 py-2.5 text-[0.8rem] font-semibold text-slate-900 shadow-[0_12px_30px_rgba(15,23,42,0.06)] hover:bg-slate-50 transition-colors w-fit">
+                    <span>{card.buttonText}</span>
+                    <span>→</span>
                   </button>
                 </div>
               </div>
