@@ -172,13 +172,20 @@
   },
   "servicesPage": {
     "hero": {
-      "badge": "Clear Guidance, Right Support, Your Path Forward",
-      "titleLine1": "Your Digital Gateway To",
-      "titleLine2": "Relocation & Immigration Services",
-      "description": "We are delivering seamless solutions for individuals and businesses within one secure platform."
+      "subtitle": "Your Digital Gateway To Relocation & Immigration Services",
+      "description": "We are delivering seamless solutions for individuals and businesses within one secure platform"
     },
     "secondaryBand": {
       "text": "Immigration Solutions For Individual-Families- Businesses"
+    },
+    "sectionHeading": {
+      "badge": "Clear Guidance, Right Support, Your Path Forward",
+      "titlePart1": "Our Services for a Seamless",
+      "titlePart2": "Move to Sweden"
+    },
+    "immigrationBand": {
+      "titlePart1": "Immigration Solutions For",
+      "titlePart2": "Individual-Families- Businesses"
     },
     "cards": [
       {
@@ -366,6 +373,7 @@
         "description": "Organically grow the holistic world view of disruptive innovation via workplace diversity and e..."
       }
     ],
-    "readMore": "Read More"
+    "readMore": "Read More",
+    "subscribeButton": "Subscribe For More Videos"
   }
 }

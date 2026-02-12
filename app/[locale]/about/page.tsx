@@ -643,7 +643,7 @@ export default function AboutPage() {
                             <div className="flex flex-col items-center text-center">
                                 <div className="w-20 h-20 rounded-2xl bg-blue-50 flex items-center justify-center mb-5">
                                     <Image
-                                        src="/image3.png"
+                                        src="/image4.png"
                                         alt="Investment Solutions"
                                         width={50}
                                         height={50}
