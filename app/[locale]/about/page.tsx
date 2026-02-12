@@ -630,7 +630,7 @@ export default function AboutPage() {
                                     We provide assistance in your family visa processing including your dependent parents and other family members.
                                 </p>
                             </div>
-                        </motion.div>
+                         </motion.div>
 
                         {/* Investment Solutions */}
                         <motion.div
