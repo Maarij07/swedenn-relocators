@@ -14,6 +14,9 @@ import Chip from '@mui/material/Chip';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
+import { alpha } from '@mui/material/styles';
+import { Icon } from '@iconify/react';
+
 const slideUpAnimation = keyframes`
   from {
     opacity: 0;
@@ -36,6 +39,8 @@ const AnimatedCard = styled(Card)({
 });
 
 export const HousingCarousel: React.FC = () => {
+  // Define type for service
+
   const { i18n } = useTranslation();
   const isSv = i18n.language === 'sv';
 
@@ -44,38 +49,62 @@ export const HousingCarousel: React.FC = () => {
       id: 'short-rental',
       title: isSv ? 'Korttidsuthyrning' : 'Short Term Rental',
       badge: isSv ? '221 visningar' : '221 Views',
-      rating: 4.9,
-      image: '/h1.svg',
-      info: isSv ? 'Korta vistelser, lång komfort' : 'Short Stays, Long Comfort',
-      primaryAction: isSv ? 'Boka nu' : 'Reserve Now',
-      secondaryAction: isSv ? 'Bli värd' : 'Become A Host',
-      locationIcon: '/location1.svg',
-      headingBg: '#bbf7d0',
-      headingColor: '#166534',
+      rating: '4.9',
+      icon: '/h1.svg',
+      info: [
+        {
+          icon: <Box component="span" sx={{ color: 'error.main', fontSize: '16px' }}><Icon icon="mingcute:location-fill" /></Box>, 
+          label: isSv ? 'Korta vistelser, lång komfort' : 'Short Stays, Long Comfort',
+        }
+      ],
+      primaryAction: {
+        label: isSv ? 'Boka nu' : 'Reserve Now',
+        href: '#',
+      },
+      secondaryAction: {
+        label: isSv ? 'Bli värd' : 'Become A Host',
+        href: '#',
+      },
     },
     {
       id: 'long-rental',
       title: isSv ? 'Långtidsuthyrning' : 'Long Term Rental',
       badge: isSv ? '153 intresserade' : '153 Interested',
-      image: '/h2.svg',
-      info: isSv ? 'Långsiktigt boende gjort enkelt' : 'Long-Term Housing Made Effortless',
-      primaryAction: isSv ? 'Hyra nu' : 'Rent Now',
-      secondaryAction: isSv ? 'Uthyr din bostad' : 'Sublet Your Property',
-      locationIcon: '/location1.svg',
-      headingBg: '#fef08a',
-      headingColor: '#854d0e',
+      icon: '/h2.svg',
+      info: [
+        {
+          icon: <Box component="span" sx={{ color: 'error.main', fontSize: '16px' }}><Icon icon="mingcute:location-fill" /></Box>, 
+          label: isSv ? 'Långsiktigt boende gjort enkelt' : 'Long-Term Housing Made Effortless',
+        }
+      ],
+      primaryAction: {
+        label: isSv ? 'Hyra nu' : 'Rent Now',
+        href: '#',
+      },
+      secondaryAction: {
+        label: isSv ? 'Uthyr din bostad' : 'Sublet Your Property',
+        href: '#',
+      },
     },
     {
       id: 'buy-property',
       title: isSv ? 'Köp - Sälj bostad' : 'Buy - Sell Property',
       badge: isSv ? '202 besökare' : '202 Visitors',
-      image: '/h3.svg',
-      info: isSv ? 'Köp, sälj & bolånestöd' : 'Buy-Sell & Mortgage Support',
-      primaryAction: isSv ? 'Köp nu' : 'Buy Now',
-      secondaryAction: isSv ? 'Sälj din bostad' : 'Sell Your Property',
-      locationIcon: '/location1.svg',
-      headingBg: '#a5f3fc',
-      headingColor: '#155e75',
+      icon: '/h3.svg',
+      info: [
+        {
+          icon: <Box component="span" sx={{ color: 'error.main', fontSize: '16px' }}><Icon icon="mingcute:location-fill" /></Box>, 
+          label: isSv ? 'Köp, sälj & bolånestöd' : 'Buy-Sell & Mortgage Support',
+        }
+      ],
+      primaryAction: {
+        label: isSv ? 'Köp nu' : 'Buy Now',
+        href: '#',
+      },
+      secondaryAction: {
+        label: isSv ? 'Sälj din bostad' : 'Sell Your Property',
+        href: '#',
+      },
     },
   ];
 
@@ -134,37 +163,237 @@ export const HousingCarousel: React.FC = () => {
             <Box sx={{ display: 'flex', transition: isTransitioning ? 'transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)' : 'none', transform: `translateX(-${currentIndex * (100 / 3)}%)` }}>
               {extendedServices.map((service, idx) => (
                 <Box key={`${service.id}-${idx}`} sx={{ minWidth: 'calc(100% / 3)', px: { xs: 1.5, sm: 2, md: 2.5 } }}>
-                  <AnimatedCard sx={{ boxShadow: '0 4px 20px rgba(0, 0, 0, 0.06)', border: '1px solid #e5e7eb', borderRadius: '20px', backgroundColor: '#ffffff', overflow: 'hidden', display: 'flex', flexDirection: 'column', height: '100%' }}>
-                    <Box sx={{ width: '100%', height: { xs: '200px', sm: '220px', md: '240px' }, backgroundColor: '#F3F5F7', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '20px 20px 0 0', position: 'relative', p: { xs: 2.5, sm: 3, md: 3 } }}>
-                      <Chip label={service.badge} sx={{ position: 'absolute', top: 16, left: 16, background: '#1f2937', color: '#fff', fontWeight: 600, fontSize: '0.75rem', height: 28, borderRadius: 2, zIndex: 2 }} />
-                      {service.rating && (
-                        <Box sx={{ position: 'absolute', top: 16, right: 16, background: '#fbbf24', color: '#fff', px: 1.5, py: 0.3, height: 28, borderRadius: 2, fontWeight: 700, fontSize: '0.85rem', display: 'flex', alignItems: 'center', gap: 0.3, zIndex: 2 }}>
-                          ★ {service.rating}
+                  <AnimatedCard 
+                    sx={{
+                      width: '100%',
+                      maxWidth: '100%',
+                      minHeight: 450,
+                      display: 'flex',
+                      flexDirection: 'column',
+                      overflow: 'hidden',
+                      borderRadius: 2.5,
+                      transition: 'all 0.2s ease-in-out',
+                      '&:hover': {
+                        transform: 'translateY(-2px)',
+                        boxShadow: 3,
+                      },
+                    }}>
+                    <Box sx={{ p: 1 }}>
+                      <Box 
+                        sx={{ 
+                          position: 'relative',
+                          height: 200,
+                          borderRadius: 2,
+                          bgcolor: '#ECEDEE',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          overflow: 'hidden',
+                        }}
+                      >
+                        <Box
+                          sx={{
+                            top: 8,
+                            left: 8,
+                            zIndex: 9,
+                            display: 'flex',
+                            borderRadius: 1.5,
+                            bgcolor: '#2c3e50',
+                            alignItems: 'center',
+                            position: 'absolute',
+                            px: 1.5,
+                            py: 0.5,
+                            color: 'common.white',
+                            typography: 'subtitle2',
+                            fontSize: '0.875rem',
+                            fontWeight: 600,
+                          }}
+                        >
+                          {service.badge}
                         </Box>
-                      )}
-                      <Box sx={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                        <img src={service.image} alt={service.title} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                        {(service.id === 'short-rental' && service.rating) && (
+                          <Box
+                            sx={{
+                              top: 8,
+                              right: 8,
+                              zIndex: 9,
+                              display: 'flex',
+                              borderRadius: 1.5,
+                              alignItems: 'center',
+                              position: 'absolute',
+                              px: 1,
+                              py: 0.5,
+                              typography: 'subtitle2',
+                              bgcolor: '#fef3c7',
+                              color: '#78350f',
+                              fontWeight: 600,
+                              fontSize: '0.875rem',
+                            }}
+                          >
+                            <Box component="span" sx={{ color: '#fbbf24', mr: 0.5, display: 'flex', alignItems: 'center' }}><Icon icon="eva:star-fill" width="16" height="16" /></Box> 
+                            {service.rating}
+                          </Box>
+                        )}
+                        
+                        <Box
+                          sx={{
+                            width: '100%',
+                            height: '100%',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                          }}
+                        >
+                          {service.icon && (
+                            <Box
+                              component="img"
+                              src={service.icon}
+                              alt={service.title}
+                              sx={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                              }}
+                            />
+                          )}
+                        </Box>
                       </Box>
                     </Box>
                     <CardContent sx={{ p: { xs: 2.5, sm: 3, md: 3.5 }, display: 'flex', flexDirection: 'column', gap: { xs: 1.5, sm: 2 }, flex: 1, backgroundColor: '#ffffff' }}>
-                      <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-                        <Box sx={{ background: service.headingBg, color: service.headingColor, fontWeight: 700, fontSize: '1rem', px: 2.5, py: 1, borderRadius: 2, textAlign: 'center', width: '100%' }}>
+                      <Box
+                        sx={{
+                          px: 2.5,
+                          pt: 1,
+                          pb: 1.5,
+                          minHeight: 60,
+                        }}
+                      >
+                        <Box
+                          component={'div'}
+                          sx={{
+                            display: '-webkit-box',
+                            WebkitLineClamp: 2,
+                            WebkitBoxOrient: 'vertical',
+                            overflow: 'hidden',
+                            textOverflow: 'ellipsis',
+                            lineHeight: 1.4,
+                            minHeight: 38,
+                            typography: 'subtitle1',
+                            fontWeight: 600,
+                            cursor: service.primaryAction?.href ? 'pointer' : 'default',
+                            textDecoration: 'none',
+                            transition: 'all 0.2s ease-in-out',
+                            '&:hover': service.primaryAction?.href ? {
+                              opacity: 0.8,
+                            } : {},
+                            py: 1,
+                            px: 2,
+                            backgroundColor: service.title.includes(isSv ? 'Korttidsuthyrning' : 'Short Term Rental') ? '#d1fae5' : 
+                                            service.title.includes(isSv ? 'Långtidsuthyrning' : 'Long Term Rental') ? '#fef3c7' : 
+                                            service.title.includes(isSv ? 'Köp - Sälj bostad' : 'Buy - Sell Property') ? '#cffafe' : 'transparent',
+                            color: service.title.includes(isSv ? 'Korttidsuthyrning' : 'Short Term Rental') ? '#065f46' : 
+                                   service.title.includes(isSv ? 'Långtidsuthyrning' : 'Long Term Rental') ? '#78350f' : 
+                                   service.title.includes(isSv ? 'Köp - Sälj bostad' : 'Buy - Sell Property') ? '#155e75' : 'inherit',
+                            borderRadius: 1.5,
+                          }}
+                        >
                           {service.title}
                         </Box>
                       </Box>
-                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
-                        <Box component="img" src={service.locationIcon} alt="location" sx={{ width: 16, height: 16 }} />
-                        <Typography sx={{ fontSize: '0.85rem', color: '#ef4444', fontWeight: 500 }}>{service.info}</Typography>
+                      <Box
+                        sx={{
+                          px: 2.5,
+                          py: 1.5,
+                          minHeight: 44,
+                          display: 'flex',
+                          flexDirection: 'column',
+                          gap: 1,
+                        }}
+                      >
+                        {service.info?.map((item, index) => (
+                          <Box
+                            key={index}
+                            sx={{
+                              gap: 1,
+                              display: 'flex',
+                              alignItems: 'center',
+                              typography: 'body2',
+                              color: 'text.secondary',
+                              minHeight: 24,
+                              overflow: 'hidden',
+                              textOverflow: 'ellipsis',
+                              whiteSpace: 'nowrap',
+                            }}
+                          >
+                            {item.icon}
+                            <Box component="span" sx={{ overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                              {item.label}
+                            </Box>
+                          </Box>
+                        ))}
                       </Box>
-                      <Box sx={{ mt: 'auto', display: 'flex', flexDirection: 'column', gap: 1.5 }}>
-                        <Button variant="outlined" fullWidth sx={{ background: '#fff', color: '#374151', fontWeight: 600, borderRadius: 2.5, border: 'none', boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)', py: 1.2, fontSize: '0.9rem', textTransform: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 0.5, '&:hover': { background: '#f9fafb', border: 'none', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.15)' } }}>
-                          {service.primaryAction}
-                          <span style={{ fontSize: '1.2rem', marginLeft: '4px' }}>›</span>
-                        </Button>
-                        <Button variant="contained" fullWidth sx={{ background: '#1f2937', color: '#fff', fontWeight: 600, borderRadius: 2.5, py: 1.2, fontSize: '0.9rem', boxShadow: 'none', textTransform: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 0.5, '&:hover': { background: '#374151', boxShadow: 'none' } }}>
-                          {service.secondaryAction}
-                          <span style={{ fontSize: '1.2rem', marginLeft: '4px' }}>›</span>
-                        </Button>
+                      <Box
+                        sx={{
+                          px: 2.5,
+                          pb: 2.5,
+                          pt: 1,
+                          gap: 1.5,
+                          display: 'flex',
+                          flexDirection: 'column',
+                          alignItems: 'center',
+                          minHeight: 110,
+                        }}
+                      >
+                        {service.primaryAction && (
+                          <Button
+                            component={service.primaryAction.href ? 'a' : 'button'}
+                            href={service.primaryAction.href}
+                            variant="outlined"
+                            color="inherit"
+                            size="medium"
+                            fullWidth
+                            endIcon={<Icon icon="eva:arrow-ios-forward-fill" />}
+                            sx={{ 
+                              borderRadius: 1.5,
+                              textTransform: 'none',
+                              fontWeight: 600,
+                              height: 40,
+                              borderColor: 'divider',
+                              color: 'text.primary',
+                              '&:hover': {
+                                borderColor: 'text.primary',
+                                bgcolor: alpha('#000', 0.04),
+                              }
+                            }}
+                          >
+                            {service.primaryAction.label}
+                          </Button>
+                        )}
+                        
+                        {service.secondaryAction && (
+                          <Button
+                            component={service.secondaryAction.href ? 'a' : 'button'}
+                            href={service.secondaryAction.href}
+                            variant="contained"
+                            color="inherit"
+                            size="medium"
+                            fullWidth
+                            endIcon={<Icon icon="eva:arrow-ios-forward-fill" />}
+                            sx={{ 
+                              borderRadius: 1.5,
+                              textTransform: 'none',
+                              fontWeight: 600,
+                              height: 40,
+                              bgcolor: '#1e293b',
+                              color: 'common.white',
+                              '&:hover': {
+                                bgcolor: '#334155',
+                              }
+                            }}
+                          >
+                            {service.secondaryAction.label}
+                          </Button>
+                        )}
                       </Box>
                     </CardContent>
                   </AnimatedCard>
