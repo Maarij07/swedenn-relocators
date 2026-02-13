@@ -12,7 +12,7 @@
     "@emotion/react": "^11.x.x",
     "@emotion/styled": "^11.x.x",
     "@fontsource-variable/public-sans": "^5.2.7",
-    "@iconify/react": "^4.x.x",
+    "@iconify/react": "^4.1.1",
     "@mui/icons-material": "^5.x.x",
     "@mui/material": "^5.x.x",
     "@mui/material-nextjs": "^7.3.5",

@@ -58,7 +58,7 @@ export default function Offers() {
 
   const offers: Offer[] = isSv
     ? [
-      { id: 'au-pair', title: 'Au pair-tjänster', description: 'Hitta rätt au pair utifrån din familjs behov', price: '€49', days: '1–14 dagar', image: '/s1.svg', count: 17 },
+      { id: 'au-pair', title: 'Au pair-tjänster', description: 'Hitta rätt au pair utifrån din familjs behov', price: '€49', days: '1–14 dagar', image: '/au-pair-services.svg', count: 17 },
       { id: 'departure', title: 'Avresetjänster', description: 'Fullständig hjälp på flygplatsen vid avresa', price: '€49', days: '1–14 dagar', image: '/s2.svg', count: 15 },
       { id: 'entrepreneur', title: 'Resurser för entreprenörer', description: 'Stöd för företagsstart och entreprenörskapstjänster anpassade för Sverige', price: '€49', days: '1–14 dagar', image: '/s3.svg', count: 18 },
       { id: 'health-insurance', title: 'Sjukförsäkringstjänster', description: 'Kompletta sjukförsäkringslösningar och medicinskt skydd för din flytt till Sverige', price: '€49', days: '1–14 dagar', image: '/s4.svg', count: 13 },
@@ -71,7 +71,7 @@ export default function Offers() {
       { id: 'integration', title: 'Logistiklösning', description: 'Helhetslösningar för logistik och transporter kopplade till din flytt', price: '€49', days: '1–14 dagar', image: '/s11.svg', count: 21 },
     ]
     : [
-      { id: 'au-pair', title: 'Au Pair Services', description: "Find the right au pair for your family's needs", price: '€49', days: '1-14 days', image: '/s1.svg', count: 17 },
+      { id: 'au-pair', title: 'Au Pair Services', description: "Find the right au pair for your family's needs", price: '€49', days: '1-14 days', image: '/au-pair-services.svg', count: 17 },
       { id: 'departure', title: 'Departure Services', description: 'Comprehensive airport assistance upon departure', price: '€49', days: '1-14 days', image: '/s2.svg', count: 15 },
       { id: 'entrepreneur', title: 'Entrepreneur Resources', description: 'Comprehensive business setup and entrepreneurial support services for Sweden', price: '€49', days: '1-14 days', image: '/s3.svg', count: 18 },
       { id: 'health-insurance', title: 'Health Insurance Services', description: 'Complete health insurance solutions and medical coverage for your Sweden relocation', price: '€49', days: '1-14 days', image: '/s4.svg', count: 13 },
