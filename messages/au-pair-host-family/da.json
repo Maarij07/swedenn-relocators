@@ -1,0 +1,221 @@
+{
+  "auPairHostFamily": {
+    "hero": {
+      "title": "Au Pair og værtsægteskabsløsninger",
+      "subtitle": "Relokationsstøtte til kulturudveksling i Sverige og EU"
+    },
+    "intro": {
+      "heading": "Kulturel udveksling med komplet relokationsstøtte",
+      "description": "Au Pair-programmet i Sverige og på tværs af EU'en giver en unik kombination af kulturudveksling og praktiske børnepasningsløsninger. For værtsægteskaber giver det pålidelig børnepasning og let hushjælp, mens det for au pairs åbner døren til at lære nye sprog, integrere sig i svensk kultur og opleve livet i Europa.\n\nI Sweden Relocators tilbyder vi komplette relokationstjenester for både værtsægteskaber og au pairs. Fra juridiske ansøgninger og opholdstilladelser til kontraktudkast, forsikring og løbende support, sikrer vores platform, at processen er sikker, lovlig og stressfri for alle involverede."
+    },
+    "whyFamiliesChoose": {
+      "heading": "Hvorfor familier i Sverige vælger au pairs",
+      "description": "Værtskab af en au pair bliver stadigt mere populært blandt svenske og EU-familier, fordi det kombinerer børnepasning med kulturelle fordele.",
+      "benefits": [
+        {
+          "title": "Pålidelig børnepasningstøtte",
+          "description": "Au pairs kan hjælpe med skole hentning, lektielektiehjælp, madlavning og aktivitetsplanering."
+        },
+        {
+          "title": "Overkommelig live-in-løsning",
+          "description": "Sammenlignet med professionelle børnepasningstjenester giver en au pair-ordning omkostningseffektiv support."
+        },
+        {
+          "title": "Kulturel berigelse for børn",
+          "description": "Børn får eksponering for nye sprog og kulturer, der udvider deres verdensyn."
+        },
+        {
+          "title": "Support for travle familier",
+          "description": "Au pairs hjælper med lette husopgaver, hvilket giver forældre mere tid til arbejde eller privatliv."
+        },
+        {
+          "title": "Fleksible arrangementer",
+          "description": "Skemaer er tilpasset familiens behov samtidig med at juridiske retningslinjer følges."
+        }
+      ],
+      "conclusion": "Familier nyder godt af ikke blot praktiske børnepasnningsløsninger, men også den lange tids kulturelle virkning af at være vært for en international gæst."
+    },
+    "whyAuPairsChoose": {
+      "heading": "Hvorfor unge mennesker vælger at blive au pairs i Sverige",
+      "description": "Sverige er blandt de mest attraktive lande for au pairs på grund af sin høje levestandard, stærkt fokus på uddannelse og levende kultur.",
+      "benefits": [
+        {
+          "title": "Sprogtilegnelse",
+          "description": "Chancen for at studere svensk gennem sprogkurser mens man bor hos en værtsægteskab."
+        },
+        {
+          "title": "Sikkert og støttende miljø",
+          "description": "Husly og måltider fra værtsægteskabet sikrer stabilitet og komfort."
+        },
+        {
+          "title": "Kulturel integration",
+          "description": "Au pairs oplever svenske traditioner, festivaler og dagligdagen."
+        },
+        {
+          "title": "Rejsemuligheder",
+          "description": "Nem adgang til at udforske Sveriges byer og natur samt naboeuropæiske lande."
+        },
+        {
+          "title": "Personlig vækst",
+          "description": "Uafhængighed, tilpasningsevne og nye færdigheder der forbedrer karriereudsigterne senere."
+        }
+      ],
+      "conclusion": "For mange er et au pair-ophold i Sverige både en kulturel rejse og et professionelt springbræt."
+    },
+    "legalFramework": {
+      "heading": "Juridisk ramme for au pairs i Sverige",
+      "description": "Au pairs i Sverige er reguleret under Udlændingeloven (Utlänningslagen 2005:716), hvilket sikrer, at ordningen forbliver kulturudveksling snarere end langtidsansættelse. Vigtige betingelser omfatter:",
+      "requirements": [
+        {
+          "title": "Alderkrav",
+          "description": "Typisk mellem 18 og 30 år gammel."
+        },
+        {
+          "title": "Opholdstilladelse",
+          "description": "Ikke-EU-borgere skal ansøge om en Au Pair-opholdstilladelse før indrejse i Sverige."
+        },
+        {
+          "title": "Varighed",
+          "description": "Normalt gyldigt i op til et år, nogle gange fornyeligt."
+        },
+        {
+          "title": "Tilladte opgaver",
+          "description": "Kun børnepasning og lette husopgaver, ikke ansættelse i fuld skala."
+        },
+        {
+          "title": "Sprogtilegnelseskrav",
+          "description": "Au pairs forventes at deltage i en svensk sprogkurs."
+        },
+        {
+          "title": "Værtsægteskabets forpligtelser",
+          "description": "Sørg for mad, husly og en månedlig godtgørelse, der opfylder Migrationsverkets minimumskrav."
+        }
+      ],
+      "euNote": "EU/EØS-borgere har en enklere proces, da de har bosættelsesret, men skal stadig følge programretningslinjer."
+    },
+    "supportHostFamilies": {
+      "heading": "Hvordan Sweden Relocators støtter værtsægteskaber",
+      "intro": "Vi tilbyder end-to-end relokationstjenester til svenske og EU-familier, der ønsker at være vært for en au pair:",
+      "services": [
+        {
+          "number": "1",
+          "title": "Au Pair-tilpasning",
+          "description": "Forbindelser mellem familier og kandidater, som opfylder børnepasnindsbehov og kulturelle præferencer."
+        },
+        {
+          "number": "2",
+          "title": "Juridisk overholdelses vejledning",
+          "description": "Rådgivning om kontrakter, godtgørelser og visumkrav under svensk lov."
+        },
+        {
+          "number": "3",
+          "title": "Kontraktudkast og gennemgang",
+          "description": "Sikring af at alle opgaver, arbejdstider og ydelser er klart defineret."
+        },
+        {
+          "number": "4",
+          "title": "Tilladelsesansøgning assistens",
+          "description": "Støtte til au pair med opholdstilladelsesansøgninger og dokumentindsendelse."
+        },
+        {
+          "number": "5",
+          "title": "Straffeattestater",
+          "description": "Verifikation af referencer og sikring af sikkerhed for familier."
+        },
+        {
+          "number": "6",
+          "title": "Løbende support",
+          "description": "Formidling hvis problemer opstår og hjælp med fornyelse af tilladelser eller erstatningskandidater ved behov."
+        }
+      ],
+      "conclusion": "Denne strukturerede tilgang giver familier sindsro og sikrer overholdelse af svenske regler."
+    },
+    "supportAuPairs": {
+      "heading": "Hvordan Sweden Relocators støtter au pairs",
+      "intro": "For au pairs involverer relokation navigation gennem juridiske processer, tilpasning til en ny kultur og opbygning af tillid til en værtsægteskab. Vores tjenester omfatter:",
+      "services": [
+        {
+          "title": "Berettigelsesvurdering",
+          "description": "Verifikation af alder, baggrund og parathed for programmet."
+        },
+        {
+          "title": "Ansøgningsforberedelse",
+          "description": "Fuldstændig assistens ved Au Pair Opholdstilladelse og sikring af, at kravene opfyldes."
+        },
+        {
+          "title": "Rejsestøtte",
+          "description": "Bookinaf flyvninger, arrangering af sygesikring og assistens med bosættelseslogistik."
+        },
+        {
+          "title": "Sprogskolens vejledning",
+          "description": "Forbindelse af au pairs med svenske sproginstitutkationer til opfyldelse af kulturudvekslingskrav."
+        },
+        {
+          "title": "Integration og orientering",
+          "description": "Kulturel rådgivning, praktisk relokationsstøtte og løbende assistens efter ankomst."
+        }
+      ],
+      "conclusion": "Ved at støtte både au pairs og værtsægteskaber sikrer vi en positiv, juridisk overholdende kulturudveksling."
+    },
+    "contractsObligations": {
+      "heading": "Kontrakter og forpligtelser",
+      "intro": "En klar skriftlig aftale mellem værtsægteskab og au pair er vigtig for transparens og juridisk overholdelse. I Sweden Relocators udkaster vi kontrakter der omfatter:",
+      "items": [
+        "Opgaver og ansvar (børnepasning og husopgaver).",
+        "Godtgørelse, husly og måltider.",
+        "Arbejdstider, hviledag og ferie.",
+        "Længde af ophold og fornyelsesmuligheder.",
+        "Tvistbilægningsretningslinjer."
+      ],
+      "conclusion": "Dette sikrer, at forventninger forstås af begge sider fra begyndelsen, hvilket reducerer konfliktrisikoen."
+    },
+    "additionalServices": {
+      "heading": "Relokationsløsninger ud over det grundlæggende",
+      "intro": "Sweden Relocators tilbyder yderligere tjenester for at gøre au pair-placeringer nemmere:",
+      "services": [
+        {
+          "title": "Boligløsninger",
+          "description": "Hvis familier har behov for ekstra boligforhold til au pairen."
+        },
+        {
+          "title": "Sundhedsdækning",
+          "description": "Arrangering af forsikringspolicer for au pairs, der sikrer overholdelse af juridiske krav."
+        },
+        {
+          "title": "Økonomisk bistand",
+          "description": "Vejledning om betalinger, skatter (hvis relevant) og korrekte godtgørelsesstrukturer."
+        },
+        {
+          "title": "Nødsituation assistens",
+          "description": "Rådgivning og indgriben hvis tvister eller nødsituationer opstår under opholdet."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Hvorfor vælge Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Pålidelig ekspertise",
+          "description": "År med erfaring inden for svensk relokation og immigrationstjenester."
+        },
+        {
+          "title": "Omfattende løsninger",
+          "description": "Fra juridiske ansøgninger til kulturel support."
+        },
+        {
+          "title": "Personaliseret tilpasning",
+          "description": "Fokus på kompatibilitet mellem familier og au pairs."
+        },
+        {
+          "title": "Sindsro",
+          "description": "Løbende support for begge sider under hele opholdet."
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Endelig bemærkning og ansvarsfraskrivelse",
+      "note": "Au Pair-programmet i Sverige og EU'en er en givende mulighed for både familier og unge mennesker, men det skal varetages omhyggeligt inden for juridiske og kulturelle rammer. I Sweden Relocators sikrer vi, at værtsægteskaber og au pairs får komplet support fra første trin til program slutningen.",
+      "disclaimer": "Disse oplysninger leveres til kendskabsformål og opdateres fra 23. september 2025. Regler og krav kan ændres. For den mest nøjagtige og officielle information skal du altid konsultere det svenske Migrationsagentur (Migrationsverket), hvis du selv forvalter en au pair-ordning."
+    }
+  }
+}

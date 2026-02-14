@@ -1,0 +1,114 @@
+{
+  "financialManagement": {
+    "hero": {
+      "title": "Services de Gestion Financière pour Relocalisations",
+      "subtitle": "Déplacez Votre Argent de Manière Sûre et Efficace"
+    },
+    "intro": {
+      "heading": "Gestion Financière Sécurisée à Travers les Frontières",
+      "description": "Déménager dans un nouveau pays implique plus que des visas et un logement—cela nécessite aussi de transférer vos finances de manière sécurisée. Chez Sweden Relocators, nous offrons un service de relocalisation financière sans friction, facilitant le transfert de fonds, la gestion de comptes multi-devises et le traitement de transactions importantes telles que l'achat de biens ou les investissements.",
+      "closing": "Par notre réseau de partenaires sécurisés, nous garantissons que votre relocalisation financière soit rentable, totalement conforme et personnalisée selon vos besoins spécifiques."
+    },
+    "whyMatters": {
+      "heading": "Pourquoi la Relocalisation Financière Est Importante",
+      "description": "Transférer des finances entre pays peut être compliqué. Les banques traditionnelles facturent souvent des frais élevés, des marges cachées sur les taux de change et des délais de traitement longs. Sweden Relocators vous aide à éviter ces problèmes en fournissant:",
+      "benefits": [
+        "De meilleurs taux de change par rapport aux banques standard",
+        "Des transferts internationaux rapides et sécurisés vers 120+ pays",
+        "Un soutien spécialisé pour les transactions immobilières, les hypothèques, les frais de scolarité et les investissements commerciaux",
+        "Des options de paiement récurrentes pour les familles et les entreprises",
+        "Une conformité totale avec les réglementations financières mondiales pour votre tranquillité d'esprit"
+      ]
+    },
+    "services": {
+      "heading": "Nos Services de Gestion Financière pour Relocalisations",
+      "intro": "Nous fournissons des solutions sur mesure correspondant à différents besoins financiers:",
+      "items": [
+        {
+          "number": 1,
+          "title": "Transferts d'Argent Internationaux",
+          "description": "Envoyez des fonds dans le monde entier rapidement et en toute sécurité avec des taux transparents et un suivi en temps réel."
+        },
+        {
+          "number": 2,
+          "title": "Grands Transferts pour Propriétés et Investissements",
+          "description": "Transférez de gros montants en toute sécurité pour l'achat d'un appartement, d'une villa ou d'actifs commerciaux en Suède ou à l'étranger, avec support documentaire et vérifications de conformité."
+        },
+        {
+          "number": 3,
+          "title": "Comptes Multi-Devises",
+          "description": "Conservez et gérez plusieurs devises sans pertes de conversion inutiles, idéal pour les professionnels mondiaux et les entreprises."
+        },
+        {
+          "number": 4,
+          "title": "Paiements Réguliers et Récurrents",
+          "description": "Automatisez les transferts pour les frais de scolarité, hypothèques, salaires ou allocations familiales avec des taux bloqués pour des coûts prévisibles."
+        },
+        {
+          "number": 5,
+          "title": "Relocalisation Financière Corporative",
+          "description": "Les entreprises peuvent gérer les transferts massifs de salaires, les paiements aux fournisseurs et les solutions de trésorerie par notre service de relocalisation financière."
+        }
+      ]
+    },
+    "howWorks": {
+      "heading": "Comment Cela Fonctionne",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Soumettez Votre Demande",
+          "description": "Connectez-vous à notre portail et soumettez une demande de relocalisation financière avec des détails tels que le montant, la devise et la destination."
+        },
+        {
+          "number": 2,
+          "title": "Contact Direct de Notre Partenaire",
+          "description": "Après la soumission de votre demande, un représentant de notre société financière partenaire vous contactera directement. Il expliquera les options disponibles, fournira un devis et vous guidera à travers la vérification d'identité et les étapes de conformité."
+        },
+        {
+          "number": 3,
+          "title": "Transfert Sécurisé",
+          "description": "Une fois tout vérifié, vous envoyez vos fonds au compte sécurisé fourni et le transfert est exécuté avec suivi en direct et confirmation."
+        },
+        {
+          "number": 4,
+          "title": "Support Continu",
+          "description": "Pour les paiements réguliers, les transferts liés à la propriété ou les besoins d'entreprise, vous continuez à travailler directement avec le partenaire financier mentre Sweden Relocators reste votre premier point de contact."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Pourquoi Choisir Sweden Relocators pour la Relocalisation Financière?",
+      "advantages": [
+        {
+          "title": "Solution Complète de Relocalisation",
+          "description": "Logement, immigration et gestion financière sur une seule plateforme."
+        },
+        {
+          "title": "Économies de Coûts",
+          "description": "Accès aux taux de change compétitifs et aux frais inférieurs aux banques."
+        },
+        {
+          "title": "Sécurisé et Conforme",
+          "description": "Tous les transferts conformes aux réglementations internationales avec protection complète des fonds."
+        },
+        {
+          "title": "Soutien Personnalisé",
+          "description": "Conçu pour les individus, les familles et les entreprises."
+        },
+        {
+          "title": "Rapide et Fiable",
+          "description": "Évitez les retards bancaires grâce à un règlement efficace."
+        },
+        {
+          "title": "Portée Mondiale",
+          "description": "Transférez des fonds vers et depuis la Suède, le Danemark et 120+ destinations."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Déplacez Votre Argent Avec Confiance",
+      "description": "Chez Sweden Relocators, nous nous assurons que votre argent se déplace aussi facilement que votre relocalisation. Que vous transfériez des fonds pour une nouvelle maison, des frais de scolarité, des opérations commerciales ou une allocation familiale, notre service de relocalisation financière garantit sécurité, rapidité et économies.",
+      "cta": "Soumettez votre demande aujourd'hui via notre portail. Une fois reçue, un représentant de notre société partenaire de confiance vous contactera directement pour finaliser le processus."
+    }
+  }
+}

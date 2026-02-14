@@ -1,0 +1,221 @@
+{
+  "auPairHostFamily": {
+    "hero": {
+      "title": "Au Pair ja isäntäperheen ratkaisut",
+      "subtitle": "Muuttoapu kulttuurinvaihtoon Ruotsissa ja EU:ssa"
+    },
+    "intro": {
+      "heading": "Kulttuurinvaihto täydellisen muuttoavun kanssa",
+      "description": "Au Pair -ohjelma Ruotsissa ja kaikkialla EU:ssa tarjoaa ainutlaatuisen yhdistelmän kulttuurinvaihtoa ja käytännöllisiä lastenhoitoratkaisuja. Isäntäperheille se tarjoaa luotettavaa lastenhoitoa ja kevyitä kotiapupalveluja, kun taas au paireille se avaa oven uusien kielten oppimiseen, integraatioon ruotsalaiseen kulttuuriin ja elämän kokemiseen Euroopassa.\n\nSweden Relocators -palvelussa tarjoamme täydellisiä muuttopalveluja sekä isäntäperheille että au paireille. Oikeudellis ten hakemusten ja viisumista kodantotodistuksista sopimuksien laadintaan, vakuutuksiin ja jatkuvaan tukeen, alustamme varmistaa, että prosessi on turvallinen, laillinen ja stressivapaa kaikille osapuolille."
+    },
+    "whyFamiliesChoose": {
+      "heading": "Miksi Ruotsin perheet valitsevat au paireja",
+      "description": "Au pairin isäntäperheeksi ryhtyminen on yhä suositumpaa ruotsalaisissa ja EU-perheissä, koska se yhdistää lastenhoitoa kulttuurisiin hyötyihin.",
+      "benefits": [
+        {
+          "title": "Luotettava lastenhoitotuki",
+          "description": "Au paireja voi auttaa koulunkuljetuksessa, kotitehtävien valvonnassa, aterioiden valmistuksessa ja aktiviteettien suunnittelussa."
+        },
+        {
+          "title": "Edullinen asumisjärjestely",
+          "description": "Ammatillisiin lastenhoitopalveluihin verrattuna au pair-järjestely tarjoaa kustannustehokasta tukea."
+        },
+        {
+          "title": "Kulttuurinen rikastus lapsille",
+          "description": "Lapset saavat altistusta uusille kielille ja kulttuureille, mikä laajentaa heidän maailmankuvaansa."
+        },
+        {
+          "title": "Tuki kiireisille perheille",
+          "description": "Au paireja auttaa kevyissä kotiaskareissa, mikä antaa vanhemmille enemmän aikaa työhön tai henkilökohtaiseen elämään."
+        },
+        {
+          "title": "Joustavat järjestelyt",
+          "description": "Aikataulut mukautetaan perheen tarpeisiin ja noudatetaan oikeudellisia ohjeita."
+        }
+      ],
+      "conclusion": "Perheet hyötyvät paitsi käytännöllisistä lastenhoitoratkaisuista, myös kansainvälisen vieraan isännöinnin pitkäaikaisista kulttuurisista vaikutuksista."
+    },
+    "whyAuPairsChoose": {
+      "heading": "Miksi nuoret valitsevat au pair -statuksen Ruotsissa",
+      "description": "Ruotsi on yksi houkuttelevimmista maista au paireille sen korkean elintason, vahvan koulutuspainotteen ja elävän kulttuurin vuoksi.",
+      "benefits": [
+        {
+          "title": "Kielenoppiminen",
+          "description": "Mahdollisuus opiskella ruotsia kieliskursseilla isäntäperheen kanssa asumisen aikana."
+        },
+        {
+          "title": "Turvallinen ja tukea antava ympäristö",
+          "description": "Isäntäperheen tarjoama majoitus ja ruokailu takaavat vakauden ja mukavuuden."
+        },
+        {
+          "title": "Kulttuurinen integraatio",
+          "description": "Au paireja kokevat ruotsalaiset perinteet, juhlat ja jokapäiväisen elämän."
+        },
+        {
+          "title": "Matkamahdollisuudet",
+          "description": "Helppo pääsy tutkimaan Ruotsin kaupunkeja ja luontoa sekä naapurimaista Euroopan maita."
+        },
+        {
+          "title": "Henkilökohtainen kasvu",
+          "description": "Itsenäisyys, sopeutumiskyky ja uudet taidot, jotka parantavat uratavoitteita myöhemmin."
+        }
+      ],
+      "conclusion": "Monille au pair -viivahtelu Ruotsissa on sekä kulttuurillinenmatka että ammatillinen hyppysija."
+    },
+    "legalFramework": {
+      "heading": "Oikeudellinen viitekehys au paireille Ruotsissa",
+      "description": "Au pairea Ruotsissa säännellään ulkomaalaislain (Utlänningslagen 2005:716) mukaisesti varmistaen, että järjestely pysyy kulttuurinvaihtona pitkäaikaisen työn sijaan. Tärkeimpiin ehtoihin kuuluvat:",
+      "requirements": [
+        {
+          "title": "Ikävaatimus",
+          "description": "Yleensä 18-30 vuotta vanha."
+        },
+        {
+          "title": "Oleskelulupa",
+          "description": "EU:n ulkopuoliset kansalaiset joutuvat hakemaan Au Pair -oleskelulupaa ennen Ruotsiin saapumista."
+        },
+        {
+          "title": "Kesto",
+          "description": "Yleensä voimassa vuoden ajan, joskus uusittava."
+        },
+        {
+          "title": "Sallitut tehtävät",
+          "description": "Vain lastenhoito ja kevyt kotityö, ei laajamittaista työskentelyä."
+        },
+        {
+          "title": "Kielenopetusvaatimus",
+          "description": "Au paireita odotetaan osallistuvan ruotsin kieluskurssille."
+        },
+        {
+          "title": "Isäntäperheen velvollisuudet",
+          "description": "Ruoka, majoitus ja kuukausittainen korvaus Migrationsverketin vähimmäisvaatimusten mukaisesti."
+        }
+      ],
+      "euNote": "EU/ETA-kansalaisilla on yksinkertaisempi menettely, koska heiillä on asuinaoikeus, mutta heidän on silti noudatettava ohjelmaa."
+    },
+    "supportHostFamilies": {
+      "heading": "Kuinka Sweden Relocators tukee isäntäperheitä",
+      "intro": "Tarjoamme täydellisiä muuttopalveluja ruotsalaisia ja EU-perheille, joka haluavat isännöidä au pairea:",
+      "services": [
+        {
+          "number": "1",
+          "title": "Au Pair -täsmäytys",
+          "description": "Perheet yhdistyvät ehdokkaiksi, jotka täyttävät lastenhoidon tarpeet ja kulttuuriset mieltymykset."
+        },
+        {
+          "number": "2",
+          "title": "Lakisääteisen vaatimustenmukaisuuden ohjaus",
+          "description": "Neuvonta sopimuksista, korvauksista ja viisumvaatimuksista ruotsin lain mukaisesti."
+        },
+        {
+          "number": "3",
+          "title": "Sopimuksen valmistelu ja tarkistus",
+          "description": "Varmistetaan, että kaikki tehtävät, työtunnit ja edut määritellään selvästi."
+        },
+        {
+          "number": "4",
+          "title": "Lupahakemuksen apu",
+          "description": "Tuki au pairelle oleskelulupahakemuksissa ja asiakirjojen toimittamisessa."
+        },
+        {
+          "number": "5",
+          "title": "Taustan tarkistukset",
+          "description": "Viitteiden tarkistus ja perheille turvallisuuden varmistaminen."
+        },
+        {
+          "number": "6",
+          "title": "Jatkuva tuki",
+          "description": "Välitys, jos ongelmia ilmaantuu ja apu lupien uusimisissa tai korvaavissa ehdokkaissa tarvitaan."
+        }
+      ],
+      "conclusion": "Tämä jäsennelty lähestymistapa antaa perheille mielenrauhaa ja varmistaa ruotsalaisiaita sääntöjen noudattamisen."
+    },
+    "supportAuPairs": {
+      "heading": "Kuinka Sweden Relocators tukee au pairea",
+      "intro": "Au paireille muutto sisältää oikeudellisten prosessien navigoinnin, sopeutumisen uuteen kulttuuriin ja luottamukseen rakentamisen isäntäperheen kanssa. Palvelumme sisältävät:",
+      "services": [
+        {
+          "title": "Kelpoisuuden arviointi",
+          "description": "Ikä, tausta ja ohjelmaan valmius vahvistetaan."
+        },
+        {
+          "title": "Hakemuksen valmistelu",
+          "description": "Täydellinen apu Au Pair -oleskeluluvalla ja varmistus, että vaatimukset täyttyvät."
+        },
+        {
+          "title": "Matkatuki",
+          "description": "Lentojen varaus, sairausvakuutuksen järjestäminen ja apua siirtojen logistiikassa."
+        },
+        {
+          "title": "Kieliskoulun ohjaus",
+          "description": "Au paireita yhdistetään ruotsin kielilaitoksiin kulttuurinvaihdon vaatimusten täyttämiseksi."
+        },
+        {
+          "title": "Integraatio ja perehdytys",
+          "description": "Kulttuurinen neuvonta, käytännöllinen muuttoapu ja jatkuva apu saapumisen jälkeen."
+        }
+      ],
+      "conclusion": "Tukemalla sekä au pairea että isäntäperheitä varmistamme myönteisen, oikeudenmukaisen kulttuurinvaihdon."
+    },
+    "contractsObligations": {
+      "heading": "Sopimukset ja velvoitteet",
+      "intro": "Selkeä kirjallinen sopimus isäntäperheen ja au pairin välillä on välttämätöntä läpinäkyvyyden ja oikeudellisen täsmäytyksen kannalta. Sweden Relocators -palvelussa kirjoitamme sopimuksia, joihin kuuluvat:",
+      "items": [
+        "Tehtävät ja vastuut (lastenhoito ja kotityö).",
+        "Korvaus, majoitus ja ruokailuun.",
+        "Työtunnit, lepopäivät ja loma.",
+        "Oleskelun kesto ja uusimismahdollisuudet.",
+        "Riitatapausten ratkaisun ohjeistus."
+      ],
+      "conclusion": "Tämä varmistaa, että odotukset ymmärretään molemmilta puolilta alusta alkaen, mikä vähentää konfliktien riskiä."
+    },
+    "additionalServices": {
+      "heading": "Muuttopalvelut peruspalvelun ulkopuolella",
+      "intro": "Sweden Relocators tarjoaa lisäpalveluja au pair -sijoitusten helpottamiseksi:",
+      "services": [
+        {
+          "title": "Asumisratkaisut",
+          "description": "Jos perheitä tarvitaan au pairelle lisäasumismukaistus."
+        },
+        {
+          "title": "Terveydenhoidon kattavuus",
+          "description": "Au paireille vakuutuksien järjestäminen oikeudellisten vaatimusten täyttämisen varmistamiseksi."
+        },
+        {
+          "title": "Taloudellinen apu",
+          "description": "Ohjeistus maksuista, veroista (tarvittaessa) ja asianmukaisia korvausstruktuureista."
+        },
+        {
+          "title": "Hätäapu",
+          "description": "Neuvonanto ja väliintulo, jos oleskelun aikana syntyy riitoja tai hätätilanteita."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Miksi valita Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Luotettava asiantuntijuus",
+          "description": "Vuosien kokemus ruotsalaisesta muutosta ja maahanmuuttopalveluista."
+        },
+        {
+          "title": "Kattavat ratkaisut",
+          "description": "Oikeudellisista hakemuista kulttuuritukeen."
+        },
+        {
+          "title": "Henkilökohtainen täsmäytys",
+          "description": "Painopiste perheiden ja au pairejen yhteensopivuudessa."
+        },
+        {
+          "title": "Mielen rauha",
+          "description": "Jatkuva tuki molempille osapuolille koko oleskelun ajan."
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Loppujen lopuksi huomio ja vastuuvapauslauseke",
+      "note": "Au Pair -ohjelma Ruotsissa ja EU:ssa on palkitseva mahdollisuus perheille ja nuorille, mutta se on hallittava huolellisesti oikeudellisissa ja kulttuurisissa kehyksissä. Sweden Relocators -palvelussa varmistamme, että isäntäperheet ja au paireja saavat täydellisen tuen ensimmäisestä vaiheesta ohjelman loppuun.",
+      "disclaimer": "Nämä tiedot tarjotaan vain tietoutumista varten ja ovat päivitettyinä 23. syyskuuta 2025. Säännöt ja vaatimukset voivat muuttua. Tarkastelemaan niistä tarkimpaa ja virallista tietoa, ota aina yhteyttä ruotsalaiseen maahanmuuttohallintoon (Migrationsverket), jos hallinto au pair -järjestely itsenäisesti."
+    }
+  }
+}

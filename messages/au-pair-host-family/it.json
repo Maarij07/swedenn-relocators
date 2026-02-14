@@ -1,0 +1,221 @@
+{
+  "auPairHostFamily": {
+    "hero": {
+      "title": "Soluzioni Au Pair e Famiglia Ospitante",
+      "subtitle": "Supporto di trasferimento per lo scambio culturale in Svezia e nell'UE"
+    },
+    "intro": {
+      "heading": "Scambio culturale con supporto completo di trasferimento",
+      "description": "Il programma Au Pair in Svezia e in tutta l'UE offre una combinazione unica di scambio culturale e soluzioni pratiche di assistenza all'infanzia. Per le famiglie ospitanti, offre assistenza all'infanzia affidabile e leggero aiuto domestico, mentre per gli au pair apre la porta per imparare nuove lingue, integrarsi nella cultura svedese e sperimentare la vita in Europa.\n\nIn Sweden Relocators, forniamo servizi di trasferimento completi per famiglie ospitanti e au pair. Dalle applicazioni legali e permessi di soggiorno alla stesura dei contratti, assicurazioni e supporto continuo, la nostra piattaforma garantisce che il processo sia sicuro, conforme e privo di stress per tutti i coinvolti."
+    },
+    "whyFamiliesChoose": {
+      "heading": "Perché le famiglie in Svezia scelgono gli au pair",
+      "description": "Ospitare un au pair sta diventando sempre più popolare tra le famiglie svedesi ed europee perché combina l'assistenza all'infanzia con benefici culturali.",
+      "benefits": [
+        {
+          "title": "Supporto affidabile per l'assistenza all'infanzia",
+          "description": "Gli au pair possono aiutare con il trasporto a scuola, la supervisione dei compiti, la preparazione dei pasti e la pianificazione delle attività."
+        },
+        {
+          "title": "Soluzione conveniente di convivenza",
+          "description": "Rispetto ai servizi professionali di assistenza all'infanzia, un accordo au pair fornisce supporto conveniente."
+        },
+        {
+          "title": "Arricchimento culturale per i bambini",
+          "description": "I bambini sono esposti a nuove lingue e culture, ampliando la loro visione del mondo."
+        },
+        {
+          "title": "Supporto per le famiglie occupate",
+          "description": "Gli au pair aiutano con leggeri compiti domestici, dando ai genitori più tempo per il lavoro o la vita personale."
+        },
+        {
+          "title": "Accordi flessibili",
+          "description": "Gli orari sono adattati alle esigenze della famiglia seguendo le linee guida legali."
+        }
+      ],
+      "conclusion": "Le famiglie beneficiano non solo di soluzioni pratiche di assistenza all'infanzia, ma anche dell'impatto culturale a lungo termine dell'ospitare un ospite internazionale."
+    },
+    "whyAuPairsChoose": {
+      "heading": "Perché i giovani scelgono di diventare au pair in Svezia",
+      "description": "La Svezia è uno dei paesi più attraenti per gli au pair grazie al suo elevato standard di vita, forte focus sull'istruzione e vivace cultura.",
+      "benefits": [
+        {
+          "title": "Apprendimento linguistico",
+          "description": "La possibilità di studiare lo svedese attraverso corsi di lingua mentre si vive con una famiglia ospitante."
+        },
+        {
+          "title": "Ambiente sicuro e solidale",
+          "description": "L'alloggio e i pasti forniti dalla famiglia ospitante garantiscono stabilità e comfort."
+        },
+        {
+          "title": "Integrazione culturale",
+          "description": "Gli au pair sperimentano le tradizioni svedesi, i festival e la vita quotidiana."
+        },
+        {
+          "title": "Opportunità di viaggio",
+          "description": "Facile accesso per esplorare le città e la natura della Svezia, così come i paesi europei vicini."
+        },
+        {
+          "title": "Crescita personale",
+          "description": "Indipendenza, adattabilità e nuove competenze che migliorano le prospettive di carriera in seguito."
+        }
+      ],
+      "conclusion": "Per molti, un soggiorno au pair in Svezia è sia un viaggio culturale che un trampolino professionale."
+    },
+    "legalFramework": {
+      "heading": "Quadro legale per gli au pair in Svezia",
+      "description": "Gli au pair in Svezia sono regolati dalla Legge sugli stranieri (Utlänningslagen 2005:716), garantendo che l'accordo rimanga uno scambio culturale piuttosto che un lavoro a lungo termine. Le condizioni chiave includono:",
+      "requirements": [
+        {
+          "title": "Requisito di età",
+          "description": "Tipicamente tra 18 e 30 anni di età."
+        },
+        {
+          "title": "Permesso di soggiorno",
+          "description": "I cittadini non comunitari devono richiedere un Permesso di Soggiorno Au Pair prima di entrare in Svezia."
+        },
+        {
+          "title": "Durata",
+          "description": "Solitamente valido per un anno, a volte rinnovabile."
+        },
+        {
+          "title": "Compiti consentiti",
+          "description": "Solo assistenza all'infanzia e leggeri compiti domestici, non occupazione su larga scala."
+        },
+        {
+          "title": "Requisito di apprendimento linguistico",
+          "description": "Ci si aspetta che gli au pair seguano un corso di lingua svedese."
+        },
+        {
+          "title": "Obblighi della famiglia ospitante",
+          "description": "Fornire cibo, alloggio e un compenso mensile che soddisfi i requisiti minimi di Migrationsverket."
+        }
+      ],
+      "euNote": " I cittadini dell'UE/SEE hanno un processo più semplice poiché hanno diritto di soggiorno, ma devono comunque seguire le linee guida del programma."
+    },
+    "supportHostFamilies": {
+      "heading": "Come Sweden Relocators supporta le famiglie ospitanti",
+      "intro": "Forniamo servizi di trasferimento completi per le famiglie svedesi ed europee che desiderano ospitare un au pair:",
+      "services": [
+        {
+          "number": "1",
+          "title": "Abbinamento Au Pair",
+          "description": "Collegamento di famiglie con candidati che soddisfano le esigenze di assistenza all'infanzia e le preferenze culturali."
+        },
+        {
+          "number": "2",
+          "title": "Guida sulla conformità legale",
+          "description": "Consulenza su contratti, compensi e requisiti di visto secondo la legge svedese."
+        },
+        {
+          "number": "3",
+          "title": "Redazione e revisione del contratto",
+          "description": "Assicurare che tutti i compiti, gli orari di lavoro e i benefici siano chiaramente definiti."
+        },
+        {
+          "number": "4",
+          "title": "Assistenza per la richiesta di permesso",
+          "description": "Supporto dell'au pair per le richieste di permesso di soggiorno e la presentazione dei documenti."
+        },
+        {
+          "number": "5",
+          "title": "Verifiche di antecedenti",
+          "description": "Verifica dei riferimenti e garanzia di sicurezza per le famiglie."
+        },
+        {
+          "number": "6",
+          "title": "Supporto continuo",
+          "description": "Mediazione in caso di problemi e assistenza con i rinnovi dei permessi o candidati sostitutivi se necessario."
+        }
+      ],
+      "conclusion": "Questo approccio strutturato offre alle famiglie tranquillità e garantisce la conformità alle normative svedesi."
+    },
+    "supportAuPairs": {
+      "heading": "Come Sweden Relocators supporta gli au pair",
+      "intro": "Per gli au pair, il trasferimento comporta la navigazione nei processi legali, l'adattamento a una nuova cultura e la costruzione della fiducia con una famiglia ospitante. I nostri servizi includono:",
+      "services": [
+        {
+          "title": "Valutazione dell'idoneità",
+          "description": "Verifica di età, antecedenti e disponibilità per il programma."
+        },
+        {
+          "title": "Preparazione della domanda",
+          "description": "Assistenza completa con il Permesso di Soggiorno Au Pair e garanzia che i requisiti siano soddisfatti."
+        },
+        {
+          "title": "Supporto di viaggio",
+          "description": "Prenotazione di voli, arrangiamento dell'assicurazione sanitaria e assistenza con la logistica di insediamento."
+        },
+        {
+          "title": "Guida della scuola di lingua",
+          "description": "Collegamento degli au pair con le istituzioni di lingua svedese per soddisfare i requisiti di scambio culturale."
+        },
+        {
+          "title": "Integrazione e orientamento",
+          "description": "Consulenza culturale, supporto pratico di trasferimento e assistenza continua dopo l'arrivo."
+        }
+      ],
+      "conclusion": "Supportando sia gli au pair che le famiglie ospitanti, garantiamo uno scambio culturale positivo e conforme alle leggi."
+    },
+    "contractsObligations": {
+      "heading": "Contratti e obblighi",
+      "intro": "Un chiaro accordo scritto tra la famiglia ospitante e l'au pair è essenziale per la trasparenza e la conformità legale. In Sweden Relocators, redigiamo contratti che includono:",
+      "items": [
+        "Doveri e responsabilità (assistenza all'infanzia e compiti domestici).",
+        "Compenso, alloggio e pasti.",
+        "Orari di lavoro, giorni di riposo e ferie.",
+        "Durata del soggiorno e opzioni di rinnovo.",
+        "Linee guida per la risoluzione delle controversie."
+      ],
+      "conclusion": "Questo garantisce che le aspettative siano comprese da entrambe le parti fin dall'inizio, riducendo il rischio di conflitto."
+    },
+    "additionalServices": {
+      "heading": "Soluzioni di trasferimento oltre lo standard",
+      "intro": "Sweden Relocators offre servizi aggiuntivi per facilitare i collocamenti au pair:",
+      "services": [
+        {
+          "title": "Soluzioni abitative",
+          "description": "Se le famiglie hanno bisogno di accordi abitativi aggiuntivi per l'au pair."
+        },
+        {
+          "title": "Copertura sanitaria",
+          "description": "Arrangiamento di polizze assicurative per gli au pair, garantendo la conformità ai requisiti legali."
+        },
+        {
+          "title": "Assistenza finanziaria",
+          "description": "Guida su pagamenti, tasse (se applicabile) e strutture di compenso appropriate."
+        },
+        {
+          "title": "Supporto di emergenza",
+          "description": "Fornire consulenza e intervento se si verificano controversie o emergenze durante il soggiorno."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Perché scegliere Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Competenza affidabile",
+          "description": "Anni di esperienza nel trasferimento svedese e nei servizi di immigrazione."
+        },
+        {
+          "title": "Soluzioni complete",
+          "description": "Dalle domande legali al supporto culturale."
+        },
+        {
+          "title": "Abbinamento personalizzato",
+          "description": "Messa a fuoco sulla compatibilità tra famiglie e au pair."
+        },
+        {
+          "title": "Tranquillità",
+          "description": "Supporto continuo per entrambe le parti durante l'intero soggiorno."
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Nota finale e declinazione di responsabilità",
+      "note": "Il programma Au Pair in Svezia e nell'UE è un'opportunità gratificante per famiglie e giovani, ma deve essere gestito attentamente all'interno di quadri legali e culturali. In Sweden Relocators, garantiamo che le famiglie ospitanti e gli au pair ricevano un supporto completo dal primo passo alla fine del programma.",
+      "disclaimer": "Queste informazioni sono fornite solo a scopo informativo e sono aggiornate dal 23 settembre 2025. Le regole e i requisiti possono cambiare. Per le informazioni più accurate e ufficiali, consultare sempre l'Agenzia svedese di migrazione (Migrationsverket) se si gestisce un accordo au pair in modo indipendente."
+    }
+  }
+}

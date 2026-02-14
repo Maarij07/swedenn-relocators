@@ -1,0 +1,48 @@
+{
+  "bookkeepingSolutions": {
+    "hero": {
+      "title": "Buchhaltungslösungen",
+      "subtitle": "Komplette Buchhaltung Einfach Gemacht"
+    },
+    "intro": {
+      "heading": "Vereinfachte Finanzielle Verwaltung für Schweden",
+      "description": "Buchhaltung und Rechnungslegung in Schweden können komplex sein, besonders für Unternehmen mit internationalen Mitarbeitern, mehreren Geschäftstätigkeiten oder Umzugsfällen. Sweden Relocators bietet eine komplette Buchhaltungslösung über unser sicheres Online-Portal und Mobile App, die Einzelpersonen, Familien und Unternehmen eine einfache Möglichkeit bietet, alle Finanz- und Compliance-Aufgaben an einem Ort zu verwalten.",
+      "commitment": "Von monatlicher Buchhaltung und Ausgabenverfolgung bis zu Lohnzetteln, Anstellungsunterlagen und Skatteverket-Erklärungen (Steuerbehörde) stellen wir sicher, dass Ihre Finanzen genau, transparent und vollständig mit schwedischen Bestimmungen konform sind."
+    },
+    "getStarted": {
+      "heading": "So Kommen Sie Los",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Auf Unserem Portal Registrieren",
+          "description": "Melden Sie sich als Einzelperson oder Unternehmen an."
+        },
+        {
+          "number": 2,
+          "title": "Dokumente Monatlich Hochladen",
+          "description": "Reichen Sie Rechnungen, Verträge und Quittungen direkt online ein."
+        },
+        {
+          "number": 3,
+          "title": "Automatisierte Buchhaltung",
+          "description": "Wir bearbeiten Gehalt, Buchhaltung und Erklärungen."
+        },
+        {
+          "number": 4,
+          "title": "Berichte und Lohnzettel Erhalten",
+          "description": "Erhalten Sie jederzeit Zugang zu digitalen Lohnzetteln, Steuererklärungen und Finanzberichten."
+        },
+        {
+          "number": 5,
+          "title": "Konform Bleiben",
+          "description": "Wir stellen sicher, dass Ihre Unterlagen die schwedischen und EU-Anforderungen erfüllen."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Vereinfachen Sie Ihre Buchhaltung Heute",
+      "description": "Hören Sie auf, sich um Compliance zu sorgen und konzentrieren Sie sich auf das Wachstum Ihres Unternehmens. Lassen Sie Sweden Relocators Ihre Buchhaltung, Gehaltsabrechnung und Finanzverwaltung übernehmen.",
+      "cta": "Melden Sie sich heute an und erhalten Sie eine kostenlose Beratung mit unseren Buchhaltungsexperten. Beginnen Sie, Ihre schwedischen Finanzen effizient zu verwalten!"
+    }
+  }
+}

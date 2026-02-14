@@ -1,0 +1,221 @@
+{
+  "bookkeepingSolutions": {
+    "hero": {
+      "title": "Soluzioni di Contabilità",
+      "subtitle": "Contabilità Completa Semplificata"
+    },
+    "intro": {
+      "heading": "Gestione Finanziaria Semplificata per la Svezia",
+      "description": "Gestire la contabilità e l'amministrazione in Svezia può essere complesso, soprattutto per aziende con dipendenti internazionali, attività multiple o casi di trasferimento. Sweden Relocators offre una soluzione completa di contabilità attraverso il nostro portale online sicuro e l'app mobile, fornendo a individui, famiglie e imprese un modo semplice per gestire tutte le attività finanziarie e di conformità in un unico luogo.",
+      "commitment": "Dalla contabilità mensile e monitoraggio delle spese alle buste paga, registri dei dipendenti e dichiarazioni per Skatteverket (Agenzia delle Entrate svedese), garantiamo che le vostre finanze siano accurate, trasparenti e pienamente conformi alle normative svedesi."
+    },
+    "whyMatters": {
+      "heading": "Perché la Contabilità è Importante in Svezia",
+      "description": "La Svezia dispone di un sistema finanziario trasparente ma altamente regolamentato. Ogni impresa, da una piccola startup a una multinazionale, è tenuta a mantenere una contabilità accurata in conformità con la Legge Svedese sulla Contabilità (Bokföringslagen) e le altre normative fiscali pertinenti.",
+      "risks": [
+        "Sanzioni fiscali da parte di Skatteverket",
+        "Rischi legali legati a segnalazioni incomplete",
+        "Ritardi nell'elaborazione delle buste paga e dei benefici dei dipendenti",
+        "Difficoltà durante revisioni contabili e controlli finanziari"
+      ],
+      "closing": "I nostri servizi di contabilità risolvono queste sfide combinando competenza professionale e tecnologia, facilitando il rispetto degli obblighi mensili, trimestrali e annuali."
+    },
+    "howWorks": {
+      "heading": "Come Funziona la Nostra Soluzione di Contabilità Online",
+      "intro": "Il nostro portale all-in-one consente ad aziende e privati di gestire la contabilità in modo efficiente:",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Caricamento dei Documenti",
+          "details": "Ogni mese, carica semplicemente fatture, ricevute, contratti e altri documenti finanziari nel nostro portale sicuro. I file possono essere scansionati, caricati direttamente o condivisi tramite integrazioni automatiche."
+        },
+        {
+          "number": 2,
+          "title": "Elaborazione dei Dati e Contabilità",
+          "details": "I nostri contabili e il sistema basato su IA elaborano i dati. Le transazioni vengono classificate, riconciliate e registrate secondo gli standard contabili svedesi. Errori o informazioni mancanti vengono segnalati immediatamente."
+        },
+        {
+          "number": 3,
+          "title": "Gestione Paghe e Buste Paga",
+          "details": "Le paghe sono integrate con la contabilità. I dipendenti ricevono buste paga digitali tramite il portale, con dettagli su imposte, contributi sociali e benefici. I datori di lavoro possono accedere ai report mensili delle paghe, garantendo piena trasparenza."
+        },
+        {
+          "number": 4,
+          "title": "Report sul Personale e Conformità",
+          "details": "Contratti di lavoro, registri presenze e documentazione sui benefici sono gestiti direttamente nel sistema. Il nostro portale genera report per le dichiarazioni a Skatteverket, inclusi imposta sul reddito e contributi del datore di lavoro."
+        },
+        {
+          "number": 5,
+          "title": "Dichiarazioni e Adempimenti",
+          "details": "Le dichiarazioni mensili, trimestrali e annuali vengono preparate e presentate all'Agenzia delle Entrate svedese (Skatteverket). Riceverai conferma e archiviazione digitale di ogni invio."
+        },
+        {
+          "number": 6,
+          "title": "Archiviazione Sicura e Accesso",
+          "details": "Tutti i dati finanziari sono archiviati in modo sicuro nel cloud. I clienti possono facilmente recuperare documenti, report e registri per audit, ispezioni o revisioni interne."
+        }
+      ]
+    },
+    "servicesIncluded": {
+      "heading": "Servizi Inclusi nella Nostra Soluzione di Contabilità",
+      "intro": "Copriamo tutti gli aspetti della contabilità, gestione paghe e amministrazione finanziaria:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Contabilità Mensile",
+          "items": [
+            "Registrazione di fatture, ricevute ed estratti conto bancari",
+            "Classificazione di costi e ricavi",
+            "Controlli automatici per errori o duplicati"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Gestione delle Paghe",
+          "items": [
+            "Calcolo degli stipendi in base a contratti e ore lavorate",
+            "Detrazioni fiscali e contributi previdenziali",
+            "Buste paga digitali disponibili in più lingue"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Dichiarazioni e Conformità",
+          "items": [
+            "Dichiarazione IVA (Moms)",
+            "Dichiarazioni del datore di lavoro (Arbetsgivardeklaration)",
+            "Report annuali dei redditi e adempimenti societari"
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Registri dei Dipendenti",
+          "items": [
+            "Contratti di lavoro archiviati in modo sicuro",
+            "Monitoraggio e report dei benefici",
+            "Riepiloghi annuali per i dipendenti"
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Reportistica Finanziaria",
+          "items": [
+            "Conto economico mensile",
+            "Stato patrimoniale e rendiconto finanziario",
+            "Report personalizzati per management e investitori"
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Supporto per Audit e Ispezioni",
+          "items": [
+            "Documentazione preparata per controlli fiscali",
+            "Assistenza durante revisioni finanziarie da parte delle autorità svedesi"
+          ]
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Perché Scegliere Sweden Relocators per la Contabilità?",
+      "advantages": [
+        {
+          "title": "Un Unico Portale per Tutte le Esigenze",
+          "description": "Paghe, contabilità, dichiarazioni e gestione del personale in un unico luogo."
+        },
+        {
+          "title": "Garanzia di Conformità",
+          "description": "Tutti i processi seguono la Legge Svedese sulla Contabilità e le normative di Skatteverket."
+        },
+        {
+          "title": "Accuratezza e Trasparenza",
+          "description": "Report in tempo reale con piena visibilità per datori di lavoro e dipendenti."
+        },
+        {
+          "title": "Risparmio di Tempo e Costi",
+          "description": "Nessuna necessità di contabili interni o più fornitori esterni."
+        },
+        {
+          "title": "Supporto Multilingue",
+          "description": "Report e assistenza disponibili in inglese, svedese, urdu, arabo, persiano e altre lingue."
+        },
+        {
+          "title": "Integrazione con i Servizi di Relocation",
+          "description": "Perfetto per aziende che trasferiscono personale in Svezia, collegando alloggio, paghe e immigrazione in un unico sistema."
+        }
+      ]
+    },
+    "forCompanies": {
+      "heading": "Contabilità per Aziende",
+      "intro": "Le nostre soluzioni sono ideali per:",
+      "targetMarkets": [
+        "Piccole e Medie Imprese (PMI): Contabilità semplificata senza assumere personale a tempo pieno",
+        "Startup: Facile configurazione di paghe e contabilità durante la crescita",
+        "Aziende Globali: Gestione del personale locale in Svezia senza creare un reparto finanziario",
+        "Liberi Professionisti e Consulenti: Gestione di fatture, imposte e report concentrandosi sui progetti"
+      ],
+      "capabilities": "Attraverso il nostro portale, le aziende possono:",
+      "capabilities_items": [
+        "Inserire nuovi dipendenti",
+        "Gestire stipendi e benefici",
+        "Generare contabilità mensile e dichiarazioni IVA",
+        "Accedere a registri finanziari sicuri per audit e pianificazione della crescita"
+      ]
+    },
+    "forIndividuals": {
+      "heading": "Contabilità per Privati e Famiglie",
+      "intro": "Supportiamo anche clienti individuali con:",
+      "services": [
+        "Buste paga per dichiarazioni fiscali personali",
+        "Certificazioni annuali dei redditi per Skatteverket",
+        "Monitoraggio di costi abitativi, investimenti personali o redditi da locazione",
+        "Preparazione documenti per mutui, prestiti o richieste di alloggio"
+      ],
+      "closing": "Questo rende più semplice per individui e famiglie che si trasferiscono in Svezia rimanere conformi e organizzati."
+    },
+    "legalReferences": {
+      "heading": "Riferimenti Legali e Conformità",
+      "intro": "I nostri servizi di contabilità sono allineati con:",
+      "references": [
+        "Bokföringslagen (1999:1078) – Legge Svedese sulla Contabilità",
+        "Årsredovisningslagen – Legge sui Bilanci Annuali",
+        "Normative di Skatteverket – dichiarazioni PAYE, IVA e contributi del datore di lavoro",
+        "GDPR – Protezione dei dati per tutti i registri finanziari"
+      ]
+    },
+    "getStarted": {
+      "heading": "Come Iniziare",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registrati sul Nostro Portale",
+          "description": "Iscriviti come privato o azienda."
+        },
+        {
+          "number": 2,
+          "title": "Carica i Documenti Mensilmente",
+          "description": "Invia fatture, contratti e ricevute direttamente online."
+        },
+        {
+          "number": 3,
+          "title": "Contabilità Automatizzata",
+          "description": "Elaboriamo paghe, contabilità e dichiarazioni."
+        },
+        {
+          "number": 4,
+          "title": "Ricevi Report e Buste Paga",
+          "description": "Accedi in qualsiasi momento a buste paga digitali, dichiarazioni fiscali e report finanziari."
+        },
+        {
+          "number": 5,
+          "title": "Rimani Conforme",
+          "description": "Garantiamo che i tuoi registri rispettino i requisiti svedesi ed europei."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Semplifica la Tua Contabilità Oggi",
+      "description": "Smetti di preoccuparti della conformità e concentrati sulla crescita della tua attività. Lascia che Sweden Relocators gestisca la tua contabilità, le paghe e l'amministrazione finanziaria.",
+      "cta": "Registrati oggi e ottieni una consulenza gratuita con i nostri esperti contabili. Inizia a gestire le tue finanze in Svezia in modo efficiente!"
+    }
+  }
+}

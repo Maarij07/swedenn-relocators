@@ -1,0 +1,138 @@
+{
+  "destinationServices": {
+    "hero": {
+      "title": "Määräpaikan Palvelut Ruotsissa",
+      "subtitle": "Kattavat Muutto- ja Integraatioratkaisut"
+    },
+    "intro": {
+      "heading": "Sinun Kattava Muuttopartnerisi Ruotsissa",
+      "description": "Muutto Ruotsiin on jännittävä matka, mutta siihen liittyy haasteita, kuten rekisteröityminen ruotsalaisille viranomaisille, henkilönumeron hakeminen, pankkitilin avaaminen, asunnon järjestäminen ja integroituminen uuteen kulttuuriin. Sweden Relocators tarjoaa kattavat määräpaikan palvelut Ruotsissa yksityishenkilöille, perheille ja yritysasiakkaille, mikä takaa sujuvan siirtymän saapumisestään täydellisen asettumisen saakka.",
+      "capabilities": "Määräpaikan ratkaisumme kattavat saapumis- ja lähtöpalvelut, viranomaisten rekisteröinnin, kaupunkien suunnittelun, asunnonhakun, integraation tuen, perheen avustuksen ja lähdön hallinnan. Riippumatta siitä, muutatko työn, opintojen, perheen uudelleenyhdistämisen tai yrityksen tehtävien vuoksi, tiimimme tekee muuttoprosessista yksinkertaisen, noudattavansa ja stressittömän."
+    },
+    "coreServices": {
+      "heading": "Määräpaikan Ydinpalvelut Ruotsissa",
+      "services": [
+        {
+          "title": "Saapumis- ja Lähtöapu",
+          "details": [
+            "Saapumista edeltävä briefing – ohjeet asiakirjoista, asuntovaihtoehdon ja ensimmäisistä askeleista Ruotsissa.",
+            "Vastaanotton ja tervetuliaisten – apu lentokentillä tai kuljetuskeskuksissa sujuvan saapumisen varmistamiseksi.",
+            "Väliaikainen majoitus – tuki lyhytaikaiseen asumiseen pysyvää kotia haettaessa.",
+            "Lähtöpalvelut – kattava apu Ruotsista lähdettäessä, mukaan lukien rekisteröinnin poistaminen, vuokrasopimuksen irtisanominen, rahtiyhteydistäminen ja tilien sulkeminen."
+          ]
+        },
+        {
+          "title": "Viranomaisten Rekisteröinti ja Lakisääteinen Noudattaminen",
+          "details": [
+            "Henkilönumeron apu – apu ruotsalaisen henkilötunnuksen saamiseksi Skatteverketissa, väistämätön terveydenhuollon, työllisyyden ja päivittäisen elämän kannalta.",
+            "Henkilöllisyystodistuksen hakemus – ohjeet ruotsalaisen henkilökortin hakemiseen, pankkitoimintaan ja viralliseen tunnistamiseen vaadittu.",
+            "BankID-asetukset – tuki Ruotsin turvalliseen digitaalisen tunnistamisen järjestelmään, välttämätöntä verkkopankkiin, sopimuksiin ja hallintoon palveluihin.",
+            "Verotuksen rekisteröinti ja koordinointinumerot – apu samordningsnummerin, työnantajien rekisteröinnin ja verotettavuuden vaatimusten kanssa."
+          ]
+        },
+        {
+          "title": "Pankki- ja Rahoituspalvelut",
+          "details": [
+            "Pankkitilin avaaminen – yhteydistäminen ruotsalaisiin pankkeihin, kuten Swedbank, Handelsbanken, SEB ja Nordea.",
+            "Digitaalisen maksun asetukset – ohjeet Swishiin, Autogiroon ja mobiilibankking-ratkaisuihin.",
+            "Palkkasiirrot ja palkat – sujuvan taloudellisen asettamisen varmistaminen työntekijöille ja itsenäisille ammatinharjoittajille."
+          ]
+        },
+        {
+          "title": "Asuminen ja Naapuruston Suuntaus",
+          "details": [
+            "Asunnonhakuapu – tuki vuokralle ja ostoihin, jotka soveltuvat tarpeisiinne ja budjettiin.",
+            "Vuokrasopimuksien neuvottelu – sopimuksien tarkastelu ja neuvottelu ruotsalaisen asuntolain noudattamisen varmistamiseksi.",
+            "Naapuruston suuntaus – opastetut kaupunkikierrokset, joissa korostetaan kouluja, terveydenhuoltoa, ostoksia ja joukkoliikennettä.",
+            "Apulaisten ja Internetin asetukset – apu sähkön, internetin, vakuutusten ja jätehuollon rekisteröinnissä."
+          ]
+        },
+        {
+          "title": "Integraation ja Kulttuurin Tuki",
+          "details": [
+            "Kaupungin suuntausretket – apu uusille asukkaille paikallisen kuljetuksen, terveydenhuoltojärjestelmien ja yhteisöpalvelujen ymmärtämisessä.",
+            "Kulttuurinen koulutus – työpajat ja neuvot ruotsalaisista tavoista, työpaikkakulttuurista ja sosiaalisesta käyttäytymisestä.",
+            "Kielten oppimisen tuki – ohjeet ilmoittautumiseen Swedish For Immigrants (SFI) ja yksityisiin kielikouluihin.",
+            "Yhteisö ja verkostoituminen – yhteydet siirtolaisteryhmiin, ammattiyhdistyksiin ja paikallisiin verkostoihin."
+          ]
+        },
+        {
+          "title": "Perheen ja Koulutuksen Tuki",
+          "details": [
+            "Koulunhakua ja paikan sijoittaminen – ohjeet kansainvälisille kouluille, esikouluille ja julkisille kouluille.",
+            "Lastenhoitoapua – tuki päivähoidon ja esikoulun ohjelmiin hakiessaan.",
+            "Perheen integraatioohjelmat – kulttuurisen sopeutumisen tuki puolisoille ja lapsille."
+          ]
+        }
+      ]
+    },
+    "corporateServices": {
+      "heading": "Määräpaikan Palvelut Yrityksille ja Työnantajille",
+      "intro": "Yrityksille, jotka siirtävät työntekijöitä Ruotsiin, tarjoamme yrityksen määräpaikan palvelut, jotka yksinkertaistavat liikkuvuutta, vähentävät hallinnollista taakkaa ja parantavat työntekijöiden tyytyväisyyttä. Yrityksen ratkaisumme sisältävät:",
+      "services": [
+        "Tehtäväntöitä edeltävät konsultaatiot henkilöstölle ja työntekijöille.",
+        "Oleskeluluvan ja työluvan koordinointi maahanmuuttotuen kanssa.",
+        "Viranomaisten rekisteröinnit ja vaatimuksistenmukaisuuden hallinta.",
+        "Perheen siirtymispalvelut, jotka sisältävät asunnon ja koulunpaikan sijoittamisen.",
+        "Palkka-, vero- ja vakuutusohjeistus työntekijöille.",
+        "Jatkuva integraation tuki ja työntekijöiden hyvinvointi."
+      ],
+      "benefit": "Apumme avulla yritykset voivat keskittyä liiketoiminnallisiin tavoitteisiin, kun varmistamme, että työntekijät ja heidän perheensä asettuvat sujuvasti Ruotsiin."
+    },
+    "relocationJourney": {
+      "heading": "Esimerkki Muuttomatka Sweden Relocators kanssa",
+      "stages": [
+        {
+          "title": "Ennen saapumista",
+          "description": "Asiakirjat valmisteltu, väliaikainen majoitus turvalla, saapumista edeltävä briefing toimitettu."
+        },
+        {
+          "title": "Saapuminen",
+          "description": "Lentokenttä kuljetus, lyhytaikainen majoitus, alustavat viranomaisten rekisteröinnit."
+        },
+        {
+          "title": "Ensimmäinen kuukausi",
+          "description": "Henkilönumeron hakemus, henkilökortin hakemus, pankkitilin avaaminen, asunnonhaku, koulun hakemuksia."
+        },
+        {
+          "title": "Integraation vaihe",
+          "description": "Kulttuurinen suuntaus, verkostoitumismahdollisuudet, SFI rekisteröinti, pysyvä asunto turvalla."
+        },
+        {
+          "title": "Lähtö (jos soveltuu)",
+          "description": "Rekisteröinnin poistaminen, tilin sulkeminen, vuokrasopimuksen irtisanominen ja lähdön koordinointi."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Miksi Valita Meidät?",
+      "advantages": [
+        {
+          "title": "Kattavat Määräpaikan Palvelut",
+          "description": "Kattaa saapumisen, rekisteröinnin, asumisen, integraation ja lähdön."
+        },
+        {
+          "title": "Paikallinen Asiantuntijuus",
+          "description": "Syvä tietämys ruotsalaisista viranomaisista, asuntomarkkinoista ja oikeusjärjestelmistä."
+        },
+        {
+          "title": "Räätälöidyt Ratkaisut",
+          "description": "Paketit yksityisille, perhe- ja yritysmuutoille."
+        },
+        {
+          "title": "Monikielinen Apu",
+          "description": "Tuki englanniksi, ruotsiksi, urduiksi, arabiaksi, pandžabiksi, persiaksi, kurdiksi, serbiaksi ja muilla."
+        },
+        {
+          "title": "Kumppani Alusta Loppuun",
+          "description": "Yksi alusto kaikille muutto- ja asettamistarpeillesi."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Aloita Määräpaikan Palveluilla",
+      "description": "Lähetä palvelupyyntö portaalimme kautta. Riippumatta siitä, muutatko yksin, perheesi kanssa tai yrityksenä, joka järjestää palveluja työntekijöille, valitse vain tarvitsemasi määräpaikan palvelut ja tiimimme hoitaa loput.",
+      "cta": "Pyydä Määräpaikan Palveluja"
+    }
+  }
+}

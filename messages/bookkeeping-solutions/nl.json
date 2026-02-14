@@ -1,0 +1,221 @@
+{
+  "bookkeepingSolutions": {
+    "hero": {
+      "title": "Boekhoudoplossingen",
+      "subtitle": "Volledige Boekhouding Eenvoudig Gemaakt"
+    },
+    "intro": {
+      "heading": "Vereenvoudigd Financieel Beheer in Zweden",
+      "description": "Het beheren van boekhouding en administratie in Zweden kan complex zijn, vooral voor bedrijven met internationale werknemers, meerdere bedrijfsactiviteiten of relocatiezaken. Sweden Relocators biedt een complete boekhoudoplossing via ons beveiligde online portaal en mobiele app, waardoor particulieren, gezinnen en bedrijven al hun financiële en compliance-taken eenvoudig op één plek kunnen beheren.",
+      "commitment": "Van maandelijkse boekhouding en kostenregistratie tot loonstroken, arbeidsdossiers en aangiften bij Skatteverket (Zweedse Belastingdienst), wij zorgen ervoor dat uw financiën nauwkeurig, transparant en volledig in overeenstemming zijn met de Zweedse regelgeving."
+    },
+    "whyMatters": {
+      "heading": "Waarom Boekhouding Belangrijk is in Zweden",
+      "description": "Zweden heeft een transparant maar sterk gereguleerd financieel systeem. Elk bedrijf, van kleine startups tot multinationals, is verplicht een nauwkeurige administratie te voeren in overeenstemming met de Zweedse Boekhoudwet (Bokföringslagen) en andere relevante belastingwetten.",
+      "risks": [
+        "Belastingboetes van Skatteverket",
+        "Juridische risico’s door onvolledige rapportage",
+        "Vertragingen in salaris- en uitkeringsverwerking",
+        "Uitdagingen bij audits en financiële controles"
+      ],
+      "closing": "Onze boekhoudservices lossen deze uitdagingen op door professionele expertise te combineren met technologie, waardoor u eenvoudig aan uw maandelijkse, kwartaal- en jaarlijkse verplichtingen voldoet."
+    },
+    "howWorks": {
+      "heading": "Hoe Onze Online Boekhoudoplossing Werkt",
+      "intro": "Ons alles-in-één portaal stelt bedrijven en particulieren in staat hun boekhouding efficiënt te beheren:",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Documenten Uploaden",
+          "details": "Upload elke maand eenvoudig facturen, bonnetjes, contracten en andere financiële documenten naar ons beveiligde portaal. Bestanden kunnen worden gescand, direct geüpload of gedeeld via geautomatiseerde integraties."
+        },
+        {
+          "number": 2,
+          "title": "Gegevensverwerking & Boekhouding",
+          "details": "Onze accountants en ons AI-gestuurde systeem verwerken de gegevens. Transacties worden gecategoriseerd, afgestemd en geregistreerd volgens Zweedse boekhoudnormen. Fouten of ontbrekende informatie worden onmiddellijk gemeld."
+        },
+        {
+          "number": 3,
+          "title": "Salarisadministratie & Loonstroken",
+          "details": "De salarisadministratie is geïntegreerd met de boekhouding. Werknemers ontvangen digitale loonstroken via het portaal, inclusief een overzicht van belastingen, sociale premies en voordelen. Werkgevers hebben toegang tot maandelijkse salarisrapporten voor volledige transparantie."
+        },
+        {
+          "number": 4,
+          "title": "Arbeids- en Compliance Rapportages",
+          "details": "Arbeidscontracten, urenstaten en voordelenadministratie worden direct in het systeem beheerd. Ons portaal genereert aangifterapporten voor Skatteverket, inclusief inkomstenbelasting en werkgeversbijdragen."
+        },
+        {
+          "number": 5,
+          "title": "Aangiften en Indieningen",
+          "details": "Maandelijkse, kwartaal- en jaarlijkse aangiften worden voorbereid en ingediend bij de Zweedse Belastingdienst (Skatteverket). U ontvangt bevestiging en digitale archieven van elke indiening."
+        },
+        {
+          "number": 6,
+          "title": "Beveiligde Opslag & Toegang",
+          "details": "Alle financiële gegevens worden veilig in de cloud opgeslagen. Klanten kunnen eenvoudig documenten, rapporten en dossiers terugvinden voor audits, inspecties of interne beoordelingen."
+        }
+      ]
+    },
+    "servicesIncluded": {
+      "heading": "Diensten Inbegrepen in Onze Boekhoudoplossing",
+      "intro": "Wij dekken alle aspecten van boekhouding, salarisadministratie en financieel beheer:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Maandelijkse Boekhouding",
+          "items": [
+            "Invoer van facturen, bonnetjes en bankafschriften",
+            "Categorisatie van kosten en inkomsten",
+            "Geautomatiseerde controles op fouten of duplicaten"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Salarisadministratie",
+          "items": [
+            "Salarisberekeningen op basis van contracten en gewerkte uren",
+            "Belasting- en sociale zekerheidsinhoudingen",
+            "Digitale loonstroken beschikbaar in meerdere talen"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Aangiften & Compliance",
+          "items": [
+            "BTW (Moms) aangifte",
+            "Werkgeversaangiften (Arbetsgivardeklaration)",
+            "Jaarlijkse inkomensrapporten en vennootschapsaangiften"
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Personeelsdossiers",
+          "items": [
+            "Veilige opslag van arbeidsovereenkomsten",
+            "Registratie en rapportage van voordelen",
+            "Jaaroverzichten voor werknemers"
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Financiële Rapportages",
+          "items": [
+            "Maandelijkse winst- en verliesrekening",
+            "Balans en kasstroomoverzichten",
+            "Aangepaste rapporten voor management en investeerders"
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Audit- en Inspectieondersteuning",
+          "items": [
+            "Voorbereide documentatie voor belastingcontroles",
+            "Begeleiding tijdens financiële controles door Zweedse autoriteiten"
+          ]
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Waarom Sweden Relocators Kiezen voor Boekhouding?",
+      "advantages": [
+        {
+          "title": "Eén Portaal voor Alles",
+          "description": "Salarisadministratie, boekhouding, aangiften en personeelsbeheer op één plek."
+        },
+        {
+          "title": "Garantie op Naleving",
+          "description": "Alle processen volgen de Zweedse Boekhoudwet en de regelgeving van Skatteverket."
+        },
+        {
+          "title": "Nauwkeurigheid & Transparantie",
+          "description": "Realtime rapportage met volledige zichtbaarheid voor werkgevers en werknemers."
+        },
+        {
+          "title": "Tijd- en Kostenbesparing",
+          "description": "Geen behoefte aan interne accountants of meerdere externe dienstverleners."
+        },
+        {
+          "title": "Meertalige Ondersteuning",
+          "description": "Rapporten en ondersteuning beschikbaar in het Engels, Zweeds, Urdu, Arabisch, Perzisch en meer."
+        },
+        {
+          "title": "Integratie met Relocatie",
+          "description": "Ideaal voor bedrijven die personeel naar Zweden verplaatsen, met huisvesting, salaris en immigratie geïntegreerd in één systeem."
+        }
+      ]
+    },
+    "forCompanies": {
+      "heading": "Boekhouding voor Bedrijven",
+      "intro": "Onze oplossingen zijn ideaal voor:",
+      "targetMarkets": [
+        "KMO’s: Vereenvoudigde boekhouding zonder fulltime personeel aan te nemen",
+        "Startups: Eenvoudige opzet van salaris en administratie tijdens groei",
+        "Internationale bedrijven: Beheer lokaal personeel in Zweden zonder een financiële afdeling op te zetten",
+        "Freelancers & contractors: Beheer facturen, belastingen en rapporten terwijl u zich op projecten richt"
+      ],
+      "capabilities": "Via ons portaal kunnen bedrijven:",
+      "capabilities_items": [
+        "Werknemers onboarden",
+        "Salarissen en voordelen beheren",
+        "Maandelijkse boekhouding en BTW-aangiften genereren",
+        "Veilige financiële dossiers raadplegen voor audits en groeiplanning"
+      ]
+    },
+    "forIndividuals": {
+      "heading": "Boekhouding voor Particulieren & Gezinnen",
+      "intro": "Wij ondersteunen ook individuele cliënten met:",
+      "services": [
+        "Loonstroken voor persoonlijke belastingaangiften",
+        "Jaarlijkse inkomensverklaringen voor Skatteverket",
+        "Registratie van woonkosten, persoonlijke investeringen of huurinkomsten",
+        "Voorbereiding van documenten voor hypotheken, leningen of woningaanvragen"
+      ],
+      "closing": "Dit maakt het eenvoudiger voor particulieren en gezinnen die naar Zweden verhuizen om compliant en georganiseerd te blijven."
+    },
+    "legalReferences": {
+      "heading": "Wettelijke Referenties & Compliance",
+      "intro": "Onze boekhoudservices zijn afgestemd op:",
+      "references": [
+        "Bokföringslagen (1999:1078) – Zweedse Boekhoudwet",
+        "Årsredovisningslagen – Wet op de Jaarrekening",
+        "Regelgeving van Skatteverket – PAYE-, BTW- en werkgeversbijdrageaangiften",
+        "AVG (GDPR) – Gegevensbescherming voor alle financiële dossiers"
+      ]
+    },
+    "getStarted": {
+      "heading": "Hoe te Beginnen",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registreer op Ons Portaal",
+          "description": "Meld u aan als particulier of bedrijf."
+        },
+        {
+          "number": 2,
+          "title": "Upload Maandelijks Documenten",
+          "description": "Dien facturen, contracten en bonnetjes direct online in."
+        },
+        {
+          "number": 3,
+          "title": "Geautomatiseerde Boekhouding",
+          "description": "Wij verwerken salarisadministratie, boekhouding en aangiften."
+        },
+        {
+          "number": 4,
+          "title": "Ontvang Rapporten & Loonstroken",
+          "description": "Toegang tot digitale loonstroken, belastingaangiften en financiële rapporten op elk moment."
+        },
+        {
+          "number": 5,
+          "title": "Blijf Compliant",
+          "description": "Wij zorgen ervoor dat uw administratie voldoet aan Zweedse en EU-vereisten."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Stroomlijn Uw Boekhouding Vandaag",
+      "description": "Stop met zorgen over compliance en focus op de groei van uw bedrijf. Laat Sweden Relocators uw boekhouding, salarisadministratie en financieel beheer verzorgen.",
+      "cta": "Meld u vandaag nog aan en ontvang een gratis consultatie met onze boekhoudexperts. Beheer uw Zweedse financiën efficiënt!"
+    }
+  }
+}

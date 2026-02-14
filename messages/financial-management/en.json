@@ -1,0 +1,114 @@
+{
+  "financialManagement": {
+    "hero": {
+      "title": "Financial Relocation Services",
+      "subtitle": "Move Your Money Safely and Efficiently"
+    },
+    "intro": {
+      "heading": "Secure Financial Management Across Borders",
+      "description": "Relocating to a new country involves more than just visas and housing—it also requires relocating your finances safely and efficiently. At Sweden Relocators, we provide a seamless financial relocation service, making it easier for individuals, families, and companies to transfer money, manage multi-currency accounts, and handle large transactions such as property purchases or investments.",
+      "closing": "Through our secure partner network, we ensure that your financial move is cost-effective, fully compliant, and tailored to your specific needs."
+    },
+    "whyMatters": {
+      "heading": "Why Financial Relocation Matters",
+      "description": "Moving finances between countries can be complicated. Traditional banks often charge high fees, hidden margins on exchange rates, and have long processing times. Sweden Relocators helps you avoid these issues by providing:",
+      "benefits": [
+        "Better exchange rates compared to standard banks",
+        "Fast and secure international transfers across 120+ countries",
+        "Specialized support for property transactions, mortgages, tuition payments, and business investments",
+        "Recurring payment options for families and companies",
+        "Full compliance with global financial regulations for peace of mind"
+      ]
+    },
+    "services": {
+      "heading": "Our Financial Relocation Services",
+      "intro": "We provide tailored solutions to match different financial needs:",
+      "items": [
+        {
+          "number": 1,
+          "title": "International Money Transfers",
+          "description": "Send funds worldwide quickly and securely with transparent rates and real-time tracking."
+        },
+        {
+          "number": 2,
+          "title": "Large Transfers for Property and Investments",
+          "description": "Move large sums safely for buying an apartment, villa, or business assets in Sweden or abroad, with documentation support and compliance checks."
+        },
+        {
+          "number": 3,
+          "title": "Multi-Currency Accounts",
+          "description": "Hold and manage multiple currencies without unnecessary conversion losses, ideal for global professionals and businesses."
+        },
+        {
+          "number": 4,
+          "title": "Regular and Recurring Payments",
+          "description": "Automate transfers for tuition fees, mortgages, salaries, or family support with locked-in rates for predictable costs."
+        },
+        {
+          "number": 5,
+          "title": "Corporate Financial Relocation",
+          "description": "Companies can manage bulk salary transfers, vendor payments, and treasury solutions through our financial relocation service."
+        }
+      ]
+    },
+    "howWorks": {
+      "heading": "How It Works",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Submit Your Request",
+          "description": "Log in to our portal and send a financial relocation request with details such as amount, currency, and destination."
+        },
+        {
+          "number": 2,
+          "title": "Direct Contact from Our Partner",
+          "description": "After your request is submitted, a representative from our partner financial company will contact you directly. They will explain the available options, provide a quote, and guide you through identity verification and compliance steps."
+        },
+        {
+          "number": 3,
+          "title": "Secure Transfer",
+          "description": "Once everything is verified, you send your funds to the secure account provided, and the transfer is executed with live tracking and confirmation."
+        },
+        {
+          "number": 4,
+          "title": "Ongoing Support",
+          "description": "For regular payments, property-related transfers, or corporate needs, you continue working directly with the financial partner while still having Sweden Relocators as your first point of contact."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Why Choose Sweden Relocators for Financial Relocation?",
+      "advantages": [
+        {
+          "title": "One-Stop Relocation Solution",
+          "description": "Housing, immigration, and financial relocation under one platform."
+        },
+        {
+          "title": "Cost Savings",
+          "description": "Access to competitive exchange rates and lower fees than banks."
+        },
+        {
+          "title": "Secure and Compliant",
+          "description": "All transfers follow international regulations with full fund protection."
+        },
+        {
+          "title": "Tailored Support",
+          "description": "Designed for individuals, families, and businesses."
+        },
+        {
+          "title": "Fast and Reliable",
+          "description": "Avoid banking delays with efficient settlement."
+        },
+        {
+          "title": "Global Reach",
+          "description": "Transfer funds to and from Sweden, Denmark, and over 120 destinations."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Move Your Money with Confidence",
+      "description": "At Sweden Relocators, we make sure your money moves as smoothly as your relocation. Whether you're transferring funds for a new home, tuition fees, business operations, or family support, our financial relocation service ensures safety, speed, and savings.",
+      "cta": "Submit your request today through our portal. Once received, a representative from our trusted partner company will contact you directly to complete the process."
+    }
+  }
+}

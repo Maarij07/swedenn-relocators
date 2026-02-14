@@ -1,0 +1,109 @@
+{
+  "buySellProperty": {
+    "hero": {
+      "title": "Property in Sweden Made Simple",
+      "subtitle": "Buy, Sell, Long Term Rent and Short Term Furnished Housing Through One Secure Portal"
+    },
+    "intro": {
+      "heading": "Find the Right Property in Sweden",
+      "subheading": "Housing options aligned with your relocation and settlement plan",
+      "description": "Relocating to Sweden often becomes challenging at the housing stage. Finding the right area, understanding contracts, verifying listings, and avoiding risky arrangements requires local expertise. Sweden Relocators supports the full property journey through a secure digital portal and mobile app, allowing you to search, book, and relocate with confidence.\n\nWhether you are moving to Sweden for work, study, family reunification, or business, our platform helps you find suitable housing that matches your timeline and goals.",
+      "coverageHeading": "Our listings and support cover:",
+      "coverageItems": [
+        "Apartments and houses for individuals, couples, and families",
+        "Corporate housing for employee relocations",
+        "Long term rental properties for permanent settlement",
+        "Short term furnished rentals for temporary stays",
+        "Properties in major cities and relocation-friendly regions across Sweden"
+      ]
+    },
+    "buyOrSell": {
+      "heading": "Buy or Sell Property Through Authorised Real Estate Broker",
+      "subheading": "Secure transactions with verified and compliant handling",
+      "description": "All property purchases and sales facilitated through our platform are handled exclusively via authorised and registered real estate brokers in Sweden. This ensures legal compliance, transparency, and protection for both buyers and sellers, especially for international clients unfamiliar with the Swedish property system.",
+      "supportHeading": "Our support typically includes:",
+      "supportItems": [
+        "Property matching based on budget, location, and objectives",
+        "Coordination of property viewings",
+        "Broker-led purchase or sale process",
+        "Guidance through contracts, timelines, and settlement planning"
+      ]
+    },
+    "shortTermRentals": {
+      "heading": "Short Term Furnished Rentals in Sweden",
+      "subheading": "Ideal housing for newcomers and corporate stays",
+      "description": "Short term furnished accommodation is often the most practical solution when arriving in Sweden. Our platform features relocation-ready furnished housing suitable for:",
+      "suitableFor": [
+        "New arrivals awaiting personal number registration",
+        "Corporate assignees and project-based employees",
+        "Families arriving before securing long term housing",
+        "Clients transitioning between cities or employment"
+      ],
+      "note": "All properties are reviewed to meet practical relocation needs and local housing standards."
+    },
+    "longTermRentals": {
+      "heading": "Long Term Rentals and Settlement Housing",
+      "subheading": "A structured transition from temporary to permanent living",
+      "intro": "Once you are ready to settle in Sweden, we assist with long term rental planning and guidance, including:",
+      "items": [
+        "Understanding rental requirements and landlord expectations",
+        "Lease terms, notice periods, and standard clauses",
+        "Area selection based on commute, schools, and lifestyle",
+        "Move-in preparation and practical setup considerations"
+      ]
+    },
+    "whyChoose": {
+      "heading": "Why Choose Sweden Relocators for Property Support",
+      "subheading": "Local expertise combined with digital convenience",
+      "intro": "Relocation involves more than finding a home. It requires careful coordination of housing, legal timelines, and practical arrangements. Our approach combines local expertise with a structured digital process.",
+      "advantages": [
+        {
+          "title": "Unified Platform",
+          "description": "One portal to manage housing, communication, and progress"
+        },
+        {
+          "title": "Efficient Coordination",
+          "description": "Efficient coordination for viewings and move-in readiness"
+        },
+        {
+          "title": "Timeline Alignment",
+          "description": "Housing support aligned with immigration and relocation timelines"
+        },
+        {
+          "title": "Complete Guidance",
+          "description": "Clear guidance from first appointment to full settlement"
+        }
+      ]
+    },
+    "digitalPortal": {
+      "heading": "Digital Portal and Mobile App",
+      "subheading": "Manage your housing journey from anywhere in the world",
+      "intro": "Through our online portal and mobile application, you can:",
+      "features": [
+        "Sign up and book appointments",
+        "Track housing and relocation progress",
+        "Upload documents securely",
+        "Communicate directly with your assigned support team",
+        "Access all confirmations and updates in one place"
+      ],
+      "note": "This is especially valuable for clients relocating from outside Sweden or managing employee relocations remotely."
+    },
+    "corporateHousing": {
+      "heading": "Housing Support for Companies and Global Mobility",
+      "subheading": "Practical solutions for employee relocation and corporate housing",
+      "intro": "We support companies and HR teams by providing:",
+      "services": [
+        "Temporary housing for employee onboarding",
+        "Long term housing planning for settled employees",
+        "Streamlined coordination to reduce delays",
+        "A single point of contact through a secure portal"
+      ]
+    },
+    "getStarted": {
+      "heading": "Start Your Property Journey in Sweden",
+      "primaryCTA": "Signup and explore your desired properties",
+      "secondaryCTA": "Book an appointment and move forward with confidence",
+      "description": "Whether you need a short term furnished apartment, guidance on long term rentals, or support buying or selling property through authorised brokers, Sweden Relocators structures the process and keeps everything organised in one secure platform."
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "cbiBbi": {
+    "hero": {
+      "title": "Staatsbürgerschaft durch Investition und Residenz durch Investition Programme",
+      "subtitle": "Sichern Sie Ihre Zukunft mit einem zweiten Pass oder goldenem Visum"
+    },
+    "intro": {
+      "heading": "Globale Mobilität und sichere Ansiedlung",
+      "description": "Bei Sweden Relocators helfen wir Privatpersonen und Familien, ihre Zukunft durch zweite Pässe und langfristige Aufenthaltsrechte durch Investitionen zu sichern. Für Privatpersonen mit hohem Nettovermögen, Unternehmer und globale Bürger öffnen CBI- und RBI-Programme Türen zu visumfreiem Reisen, Geschäftserweiterung, Familiensicherheit und internationalen Ansiedlungsmöglichkeiten.\n\nUnsere Experten verwalten die gesamte Reise, von der Eignungsprüfung und Anlageberatung bis zur Dokumentation, Botschaftskommunikation und Unterstützung nach der Genehmigung. Über unser sicheres digitales Portal können Clients ihre Fälle verfolgen, Dokumente speichern und Informationen für zukünftige Anträge wiederverwenden."
+    },
+    "understanding": {
+      "heading": "Verstehen von Staatsbürgerschaft und Residenz durch Investition",
+      "intro": "Zwei kraftvolle Wege zu globaler Mobilität und sicherer internationaler Ansiedlung:",
+      "definitions": [
+        {
+          "title": "Staatsbürgerschaft durch Investition (CBI)",
+          "description": "Ein direkter Weg zur Staatsbürgerschaft und einem zweiten Pass gegen eine von der Regierung genehmigte Investition."
+        },
+        {
+          "title": "Residenz durch Investition (RBI) oder goldenes Visum",
+          "description": "Eine langfristige Aufenthaltserlaubnis basierend auf Investitionen in Immobilien, Fonds oder Unternehmen, wobei viele Programme zu ständigem Wohnsitz oder Staatsbürgerschaft führen."
+        }
+      ],
+      "benefits": "Beide Optionen geben Familien Zugang zu globaler Mobilität, Gesundheitswesen, Bildung, Finanzbeteiligungsvorteilen und sicheren Ansiedlungsmöglichkeiten."
+    },
+    "countryPrograms": {
+      "heading": "Länder und Vorteile",
+      "intro": "Nachfolgend finden Sie eine detaillierte Übersicht der führenden Länder mit CBI- und RBI-Programmen, einschließlich Anforderungen, Vorteilen und Familieneinbeziehung."
+    },
+    "caribbean": {
+      "heading": "Karibische Staatsbürgerschaftsprogramme durch Investition",
+      "intro": "Die Karibik ist die beliebteste Region für schnelle zweite Staatsangehörigkeit. Diese Programme sind für ihre erschwinglichen Einstiegspunkte, schnelle Abwicklung (3-6 Monate) und starken Pässe mit visumfreiem Zugang zu Europa, dem Vereinigten Königreich und Asien bekannt.",
+      "countries": [
+        {
+          "name": "St. Kitts und Nevis",
+          "type": "CBI (ältestes Programm, gegründet 1984)",
+          "investmentOptions": [
+            "USD 150.000 Spende an den Sustainable Growth Fund",
+            "USD 200.000 Immobilieninvestition (Weiterverkauf nach 7 Jahren erlaubt)"
+          ],
+          "familyMembers": "Ehegatte, Kinder unter 30, unterhaltsberechtigte Eltern (55+)",
+          "benefits": [
+            "Visumfreies Reisen zu 150+ Zielen, einschließlich Schengen-Raum und Großbritannien",
+            "Schnellste CBI-Genehmigungen (4-6 Monate)",
+            "Keine Einkommens- oder Erbschaftssteuer",
+            "Als einer der renommiertesten karibischen Pässe anerkannt"
+          ]
+        },
+        {
+          "name": "Dominica",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 Regierungsspende",
+            "USD 200.000 Immobilieninvestition"
+          ],
+          "familyMembers": "Ehegatte, Kinder, unterhaltsberechtigte Eltern, unterhaltsberechtigte Geschwister unter 25",
+          "benefits": [
+            "Visumfreier Zugang zu 140+ Ländern",
+            "Erschwingliches Programm mit starker globaler Akzeptanz",
+            "Staatsbürgerschaft wird an zukünftige Generationen vererbt",
+            "Beliebt bei Familien wegen Inklusion"
+          ]
+        },
+        {
+          "name": "Antigua und Barbuda",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 Spende für vierköpfige Familie",
+            "USD 200.000 Immobilieninvestition",
+            "Geschäftsinvestitionsoption verfügbar"
+          ],
+          "familyMembers": "Ehegatte, Kinder, Eltern, Großeltern, Geschwister",
+          "benefits": [
+            "Visumfrei zu 150+ Ländern",
+            "Ermöglicht große Familien unter einer Bewerbung",
+            "Erfordert nur 5 Tage Aufenthalt alle 5 Jahre",
+            "Beliebt für mehrgenerationale Familien"
+          ]
+        },
+        {
+          "name": "Grenada",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 150.000 Spende",
+            "USD 220.000 Immobilieninvestition"
+          ],
+          "familyMembers": "Ehegatte, Kinder, Eltern, Geschwister",
+          "benefits": [
+            "Visumfrei zu 145+ Zielen einschließlich China",
+            "Einziger karibischer Pass mit Zugang zum US E-2 Investor Visa",
+            "Starke Option für Unternehmer, die US-Geschäftseintritt anstreben"
+          ]
+        },
+        {
+          "name": "St. Lucia",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 Spende",
+            "USD 300.000 Immobilieninvestition",
+            "Staatsanleihe-Kaufoption"
+          ],
+          "familyMembers": "Ehegatte, Kinder, Eltern",
+          "benefits": [
+            "Visumfrei zu 140+ Zielen",
+            "Erschwinglicher Einstieg, flexible Programmoptionen",
+            "Starker karibischer Pass mit Anlağediversifikation"
+          ]
+        }
+      ]
+    },
+    "european": {
+      "heading": "Europäische Residenzprogramme durch Investition (Goldene Visa)",
+      "intro": "Europa bleibt eines der attraktivsten Ziele für wohlhabende Privatpersonen, die Sicherheit, Lebensstil und Zugang zum EU-Markt suchen. RBI-Programme in der EU gewähren Aufenthaltsrechte, wobei viele zu ständigem Wohnsitz und Staatsbürgerschaft führen.",
+      "countries": [
+        {
+          "name": "Portugiesisches Goldenes Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 in Kulturförderungsprojekten",
+            "EUR 500.000 in Immobilien (nur ausgewählte Regionen)",
+            "EUR 500.000 in Fonds oder Jobschaffung"
+          ],
+          "familyMembers": "Ehegatte, Kinder, Eltern",
+          "benefit": [
+            "Aufenthalt in der EU mit visumfreiem Schengen-Reisen",
+            "Nach 5 Jahren Aufenthalt zur Staatsbürgerschaft berechtigt",
+            "Zugang zu Gesundheitswesen und Bildung",
+            "Attraktive Steuernachlässe für Investoren"
+          ]
+        },
+        {
+          "name": "Griechenland Goldenes Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 Immobilienkauf (am erschwinglichsten in Europa)"
+          ],
+          "familyMembers": "Ehegatte, Kinder bis 21 Jahre, Eltern",
+          "benefits": [
+            "Aufenthaltsrechte ohne Aufenthaltsanforderung",
+            "Weg zur Staatsbürgerschaft nach 7 Jahren",
+            "Zugang zu EU-Märkten und Schengen-Reisen",
+            "Starke Immobilienrenditen in tourismusgeprägten Regionen"
+          ]
+        },
+        {
+          "name": "Spanien Goldenes Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 500.000 Immobilien",
+            "Kapitalbeteiligungsoptionen"
+          ],
+          "familyMembers": "Ehegatte, Kinder, Eltern",
+          "benefits": [
+            "Aufenthalt und Schengen-Mobilität",
+            "Staatsbürgerschaft nach 10 Jahren berechtigt",
+            "Starker Immobilienmarkt in großen Städten",
+            "Zugang zu erstklassigen Universitäten und Gesundheitswesen"
+          ]
+        },
+        {
+          "name": "Italien Investor-Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 in innovative Start-ups",
+            "EUR 500.000 in etablierte Unternehmen",
+            "EUR 1 Million in Staatsanleihen"
+          ],
+          "familyMembers": "Ehegatte, Kinder, Eltern",
+          "benefits": [
+            "Aufenthaltsrechte in Italien und Schengen-Mobilität",
+            "Attraktiv für Unternehmer und Geschäftserweiterung",
+            "EU-Staatsbürgerschaft nach 10 Jahren"
+          ]
+        },
+        {
+          "name": "Malta",
+          "type": "CBI und RBI",
+          "investmentOptions": [
+            "EUR 600.000 Investition plus Immobilienvermietung/kauf"
+          ],
+          "familyMembers": "Ehegatte, Kinder, Eltern",
+          "benefits": [
+            "Vollständige EU-Staatsbürgerschaft innerhalb von 12-18 Monaten",
+            "Visumfrei zu 180+ Ländern einschließlich USA und Kanada",
+            "Einer der stärksten Pässe der Welt"
+          ]
+        },
+        {
+          "name": "Zypern",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 300.000 Immobilieninvestition"
+          ],
+          "familyMembers": "Ehegatte, Kinder, Eltern",
+          "benefits": [
+            "EU-Aufenthalt innerhalb von 6 Monaten",
+            "Zugang zu Gesundheitswesen und Bildung",
+            "Der Immobilienmarkt bietet solide Mietrenditen"
+          ]
+        }
+      ]
+    },
+    "middleEastGlobal": {
+      "heading": "Nahost und globale Optionen",
+      "countries": [
+        {
+          "name": "Vereinigte Arabische Emirate (Dubai, Abu Dhabi)",
+          "type": "RBI",
+          "investmentOptions": [
+            "AED 750.000 Immobilien- oder Geschäftsinvestition"
+          ],
+          "familyMembers": "Ehegatte, Kinder",
+          "benefits": [
+            "Steuerfreier Aufenthalt",
+            "Zugang zu globalem Geschäftsknotenpunkt",
+            "Luxuslebensstil und hochwertige Gesundheitsversorgung"
+          ]
+        },
+        {
+          "name": "USA (EB-5 Visum)",
+          "type": "RBI",
+          "investmentOptions": [
+            "USD 800.000 in Geschäftsprojekten, die Arbeitsplätze schaffen"
+          ],
+          "familyMembers": "Ehegatte, Kinder unter 21",
+          "benefits": [
+            "US Green Card und Weg zur Staatsbürgerschaft",
+            "Zugang zu amerikanischen Universitäten und Gesundheitswesen",
+            "Starke Renditen in Geschäftsprojekten"
+          ]
+        },
+        {
+          "name": "Kanada",
+          "type": "RBI",
+          "investmentOptions": [
+            "CAD 350.000-1.200.000 je nach Programm (Provincial Nominee Programs, Quebec Investor Program)"
+          ],
+          "familyMembers": "Ehegatte, Kinder unter 22",
+          "benefits": [
+            "Ständiger Wohnsitz mit direktem Weg zur Staatsbürgerschaft",
+            "Hoher Lebensstandard und Gesundheitswesen",
+            "Globale Geschäfts- und Bildungschancen"
+          ]
+        },
+        {
+          "name": "Großbritannien Investor-Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "GBP 2 Millionen in britischen Unternehmen oder Staatsanleihen"
+          ],
+          "familyMembers": "Ehegatte, Kinder unter 18",
+          "benefits": [
+            "Aufenthalt und Staatsbürgerschaft innerhalb von 5 Jahren",
+            "Zugang zu weltführenden Bildungs- und Finanzsektoren"
+          ]
+        },
+        {
+          "name": "Irland Investor-Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 1 Million Fonds- oder Unternehmensvestition"
+          ],
+          "familyMembers": "Ehegatte, Kinder unter 24",
+          "benefits": [
+            "Aufenthalt in Irland mit starken EU-Verbindungen",
+            "Englischsprachiger Geschäftsknotenpunkt",
+            "Weg zur Staatsbürgerschaft nach 5 Jahren"
+          ]
+        }
+      ]
+    },
+    "howWeAssist": {
+      "heading": "Wie wir helfen",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Eignungsprüfung",
+          "description": "Wir prüfen Ihr Finanzprofil, Familiendetails und Mobilitätsanforderungen, um das am besten geeignete Programm zu empfehlen."
+        },
+        {
+          "number": 2,
+          "title": "Anlageberatung",
+          "description": "Unsere Experten verbinden Sie mit genehmigten Anlageprojekten, Immobilien und Fonds."
+        },
+        {
+          "number": 3,
+          "title": "Antragsvorbereitung",
+          "description": "Wir bereiten alle Formulare, Dokumente und Übersetzungen vor und kontrollieren sie."
+        },
+        {
+          "number": 4,
+          "title": "Botschaft und Behördenkommunikation",
+          "description": "Wir kommunizieren mit Behörden, um einen reibungslosen Fortschritt zu gewährleisten."
+        },
+        {
+          "number": 5,
+          "title": "Sichere Portal",
+          "description": "Alle Dokumente werden digital gespeichert und sind für zukünftige Anträge wiederverwendbar."
+        },
+        {
+          "number": 6,
+          "title": "Ansiedlung nach Genehmigung",
+          "description": "Wir unterstützen bei Wohnen, Bildung, Steuerplanung und Ansiedlung."
+        }
+      ]
+    },
+    "whoShould": {
+      "heading": "Wer sollte Staatsbürgerschaft und Aufenthaltsprogramme durch Investition in Betracht ziehen",
+      "reasons": [
+        "Unternehmer, die globale Expansion anstreben",
+        "Familien, die sichere Ansiedlung und Zugang zu besserer Bildung und Gesundheitswesen wünschen",
+        "Wohlhabende Privatpersonen, die visumfreies Reisen und Vermögensdiversifikation suchen",
+        "Personen aus Ländern mit eingeschränkten Pässen, die globale Mobilität wünschen"
+      ]
+    },
+    "getStarted": {
+      "heading": "Weitermachen",
+      "description": "Wenn Sie an der Sicherung eines zweiten Passes oder einer Residenz durch Investition interessiert sind, senden Sie einfach Ihre Anfrage über unser Portal. Unser Expertenteam liefert eine vollständige Bewertung, empfiehlt die besten Programme und begleitet Sie bis zur Genehmigung."
+    }
+  }
+}

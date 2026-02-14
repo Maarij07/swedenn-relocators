@@ -1,0 +1,221 @@
+{
+  "auPairHostFamily": {
+    "hero": {
+      "title": "AU Pair and Host Family Solutions",
+      "subtitle": "Relocation Support for Cultural Exchange in Sweden and the EU"
+    },
+    "intro": {
+      "heading": "Cultural Exchange with Complete Relocation Support",
+      "description": "The Au Pair program in Sweden and across the EU offers a unique combination of cultural exchange and practical childcare solutions. For host families, it provides trusted childcare and light household assistance, while for au pairs it opens the door to learning new languages, integrating into Swedish culture, and experiencing life in Europe.\n\nAt Sweden Relocators, we provide complete relocation services for both host families and au pairs. From legal applications and residence permits to contract drafting, insurance, and ongoing support, our platform ensures that the process is safe, compliant, and stress-free for everyone involved."
+    },
+    "whyFamiliesChoose": {
+      "heading": "Why Families in Sweden Choose Au Pairs",
+      "description": "Hosting an au pair is becoming increasingly popular among Swedish and EU families because it combines childcare with cultural benefits.",
+      "benefits": [
+        {
+          "title": "Reliable Childcare Support",
+          "description": "au pairs can help with school pick-ups, homework supervision, preparing meals, and organizing activities."
+        },
+        {
+          "title": "Affordable Live-In Solution",
+          "description": "compared to professional childcare services, an au pair arrangement provides cost-effective support."
+        },
+        {
+          "title": "Cultural Enrichment for Children",
+          "description": "children gain exposure to new languages and cultures, broadening their worldview."
+        },
+        {
+          "title": "Support for Busy Families",
+          "description": "au pairs assist with light household tasks, giving parents more time for work or personal life."
+        },
+        {
+          "title": "Flexible Arrangements",
+          "description": "schedules are tailored to family needs while following legal guidelines."
+        }
+      ],
+      "conclusion": "Families benefit not just from practical childcare solutions, but also from the long-term cultural impact of hosting an international guest."
+    },
+    "whyAuPairsChoose": {
+      "heading": "Why Young People Choose to Become Au Pairs in Sweden",
+      "description": "Sweden is one of the most attractive countries for au pairs due to its high standard of living, strong focus on education, and vibrant culture. For au pairs, the program offers:",
+      "benefits": [
+        {
+          "title": "Language Learning",
+          "description": "the chance to study Swedish through language courses while living with a host family."
+        },
+        {
+          "title": "Safe and Supportive Environment",
+          "description": "housing and meals provided by the host family ensure stability and comfort."
+        },
+        {
+          "title": "Cultural Integration",
+          "description": "au pairs experience Swedish traditions, festivals, and everyday life."
+        },
+        {
+          "title": "Travel Opportunities",
+          "description": "easy access to explore Sweden's cities and nature, as well as neighboring European countries."
+        },
+        {
+          "title": "Personal Growth",
+          "description": "independence, adaptability, and new skills that improve career prospects later."
+        }
+      ],
+      "conclusion": "For many, an au pair stay in Sweden is both a cultural journey and a professional stepping stone."
+    },
+    "legalFramework": {
+      "heading": "Legal Framework for Au Pairs in Sweden",
+      "description": "Au pairs in Sweden are regulated under the Aliens Act (Utlänningslagen 2005:716), ensuring that the arrangement remains cultural exchange rather than long-term employment. Key conditions include:",
+      "requirements": [
+        {
+          "title": "Age Requirement",
+          "description": "typically between 18 and 30 years old."
+        },
+        {
+          "title": "Residence Permit",
+          "description": "non-EU citizens must apply for an Au Pair Residence Permit before entering Sweden."
+        },
+        {
+          "title": "Duration",
+          "description": "usually valid for up to one year, sometimes renewable."
+        },
+        {
+          "title": "Tasks Allowed",
+          "description": "childcare and light household duties only, not full-scale employment."
+        },
+        {
+          "title": "Language Learning Requirement",
+          "description": "au pairs are expected to attend a Swedish language course."
+        },
+        {
+          "title": "Host Family Obligations",
+          "description": "provide food, accommodation, and a monthly allowance meeting Migrationsverket's minimum requirements."
+        }
+      ],
+      "euNote": "EU/EEA citizens have a simpler process since they hold the right of residence, but still need to follow program guidelines."
+    },
+    "supportHostFamilies": {
+      "heading": "How Sweden Relocators Supports Host Families",
+      "intro": "We provide end-to-end relocation services for Swedish and EU families who want to host an au pair:",
+      "services": [
+        {
+          "number": "1",
+          "title": "Au Pair Matching",
+          "description": "connecting families with candidates who meet childcare needs and cultural preferences."
+        },
+        {
+          "number": "2",
+          "title": "Legal Compliance Guidance",
+          "description": "advising on contracts, allowances, and visa requirements under Swedish law."
+        },
+        {
+          "number": "3",
+          "title": "Contract Drafting and Review",
+          "description": "ensuring all tasks, working hours, and benefits are clearly defined."
+        },
+        {
+          "number": "4",
+          "title": "Permit Application Assistance",
+          "description": "supporting the au pair with residence permit applications and document submissions."
+        },
+        {
+          "number": "5",
+          "title": "Background Checks",
+          "description": "verifying references and ensuring safety for families."
+        },
+        {
+          "number": "6",
+          "title": "Ongoing Support",
+          "description": "mediating if issues arise and helping with permit renewals or replacement candidates if needed."
+        }
+      ],
+      "conclusion": "This structured approach gives families peace of mind and ensures compliance with Swedish regulations."
+    },
+    "supportAuPairs": {
+      "heading": "How Sweden Relocators Supports Au Pairs",
+      "intro": "For au pairs, relocation involves navigating legal processes, adjusting to a new culture, and building trust with a host family. Our services include:",
+      "services": [
+        {
+          "title": "Eligibility Assessment",
+          "description": "verifying age, background, and readiness for the program."
+        },
+        {
+          "title": "Application Preparation",
+          "description": "complete assistance with the Au Pair Residence Permit, ensuring requirements are met."
+        },
+        {
+          "title": "Travel Support",
+          "description": "booking flights, arranging health insurance, and assisting with settlement logistics."
+        },
+        {
+          "title": "Language School Guidance",
+          "description": "connecting au pairs with Swedish language institutions to fulfill cultural exchange requirements."
+        },
+        {
+          "title": "Integration and Orientation",
+          "description": "cultural advice, practical relocation support, and ongoing assistance after arrival."
+        }
+      ],
+      "conclusion": "By supporting both au pairs and host families, we ensure a positive, legally compliant cultural exchange."
+    },
+    "contractsObligations": {
+      "heading": "Contracts and Obligations",
+      "intro": "A clear written agreement between the host family and the au pair is essential for transparency and legal compliance. At Sweden Relocators, we draft contracts that include:",
+      "items": [
+        "Duties and responsibilities (childcare and household tasks).",
+        "Allowance, accommodation, and meals.",
+        "Working hours, rest days, and holidays.",
+        "Duration of stay and renewal options.",
+        "Dispute resolution guidelines."
+      ],
+      "conclusion": "This ensures that expectations are understood by both sides from the start, reducing the risk of conflict."
+    },
+    "additionalServices": {
+      "heading": "Relocation Solutions Beyond the Basics",
+      "intro": "Sweden Relocators offers additional services to make au pair placements easier:",
+      "services": [
+        {
+          "title": "Housing Solutions",
+          "description": "if families need extra living arrangements for the au pair."
+        },
+        {
+          "title": "Healthcare Coverage",
+          "description": "arranging insurance policies for au pairs, ensuring compliance with legal requirements."
+        },
+        {
+          "title": "Financial Assistance",
+          "description": "guidance on payments, taxes (if applicable), and proper allowance structures."
+        },
+        {
+          "title": "Emergency Assistance",
+          "description": "providing advice and intervention if disputes or emergencies arise during the stay."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Why Choose Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Trusted Expertise",
+          "description": "years of experience in Swedish relocation and immigration services."
+        },
+        {
+          "title": "Comprehensive Solutions",
+          "description": "from legal applications to cultural support."
+        },
+        {
+          "title": "Personalized Matching",
+          "description": "focusing on compatibility between families and au pairs."
+        },
+        {
+          "title": "Peace of Mind",
+          "description": "ongoing support for both sides during the entire stay."
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Final Note and Disclaimer",
+      "note": "The Au Pair program in Sweden and the EU is a rewarding opportunity for both families and young people, but it must be carefully managed within legal and cultural frameworks. At Sweden Relocators, we ensure that host families and au pairs receive complete support from the first step to the end of the program.",
+      "disclaimer": "This information is provided for knowledge purposes only and is updated as of 23 September 2025. Rules and requirements may change. For the most accurate and official information, always check with the Swedish Migration Agency (Migrationsverket) if you are managing an au pair arrangement independently."
+    }
+  }
+}

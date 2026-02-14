@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import Navbar from '../../components/Navbar';
 import { useTranslation } from 'react-i18next';
 
@@ -17,8 +18,31 @@ const fadeInUp = `
   }
 `;
 
+// Map service titles to their routes
+const serviceRoutes: Record<string, string> = {
+  'Family Reunification - National Laws': '/services/family-reunification',
+  'Family Reunification - EU Laws': '/services/family-reunification',
+  'Work Permit Sweden': '/services/work-permit',
+  'Self-Employed in Sweden': '/services/self-employed',
+  'Study in Sweden': '/services/study-in-eu',
+  'CBS/BB Programme': '/services/cbs-bb-programme',
+  'Swedish Citizenship': '/services/citizenship',
+  'AU Pair and Host Family Solutions': '/services/au-pair-host-family',
+  'Appeal Cases': '/services/appeal-cases',
+  'Destination Services': '/services/destination-services',
+  'Housing Solutions': '/services/housing',
+  'Buy / Sell Property': '/services/buy-sell-property',
+  'Bookkeeping Solutions': '/services/bookkeeping-solutions',
+  'EOR & Payroll': '/services/eor-payroll',
+  'Financial Management': '/services/financial-management',
+  'Lawyers Assistance': '/services/lawyers',
+  'Manpower Solutions': '/services/manpower-solutions',
+};
+
 export default function ServicesPage() {
-  const { t } = useTranslation();
+  const router = useRouter();
+  const { t, i18n } = useTranslation();
+  const locale = i18n.language || 'en';
 
   const servicesCards = (t('servicesPage.cards', { returnObjects: true }) as Array<{ title: string; description: string }>).map((card, index) => ({
     ...card,
@@ -108,7 +132,12 @@ export default function ServicesPage() {
                   </p>
 
                   <div className="pt-2 mt-auto">
-                    <button className="inline-flex items-center justify-center px-5 py-2.5 text-[13px] sm:text-[14px] font-semibold text-white bg-[#032B5F] rounded-full hover:bg-[#021C3D] transition-colors">
+                    <button 
+                      onClick={() => {
+                        const route = serviceRoutes[card.title] || '/services';
+                        router.push(`/${locale}${route}`);
+                      }}
+                      className="inline-flex items-center justify-center px-5 py-2.5 text-[13px] sm:text-[14px] font-semibold text-white bg-[#032B5F] rounded-full hover:bg-[#021C3D] transition-colors">
                       {t('servicesPage.readMore')}
                     </button>
                   </div>

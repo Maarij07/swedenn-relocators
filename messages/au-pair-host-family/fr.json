@@ -1,0 +1,221 @@
+{
+  "auPairHostFamily": {
+    "hero": {
+      "title": "Solutions Au Pair et Famille d'Accueil",
+      "subtitle": "Soutien à la relocalisation pour l'échange culturel en Suède et dans l'UE"
+    },
+    "intro": {
+      "heading": "Échange culturel avec soutien complet à la relocalisation",
+      "description": "Le programme Au Pair en Suède et dans toute l'UE offre une combinaison unique d'échange culturel et de solutions pratiques de garde d'enfants. Pour les familles d'accueil, il fournit des soins de garde d'enfants fiables et une légère aide ménagère, tandis que pour les au pairs, il ouvre la porte pour apprendre de nouvelles langues, s'intégrer dans la culture suédoise et expérimenter la vie en Europe.\n\nChez Sweden Relocators, nous offrons des services complets de relocalisation pour les familles d'accueil et les au pairs. Des demandes légales et permis de séjour à la rédaction de contrats, assurances et soutien continu, notre plateforme garantit que le processus est sûr, conforme et sans stress pour tous les impliqués."
+    },
+    "whyFamiliesChoose": {
+      "heading": "Pourquoi les familles en Suède choisissent les au pairs",
+      "description": "Accueillir une au pair devient de plus en plus populaire parmi les familles suédoises et européennes car elle combine la garde d'enfants avec des avantages culturels.",
+      "benefits": [
+        {
+          "title": "Support de garde d'enfants fiable",
+          "description": "Les au pairs peuvent aider avec les trajets scolaires, la supervision des devoirs, la préparation des repas et la planification des activités."
+        },
+        {
+          "title": "Solution abordable de cohabitation",
+          "description": "Comparé aux services de garde d'enfants professionnels, un arrangement au pair offre un soutien rentable."
+        },
+        {
+          "title": "Enrichissement culturel pour les enfants",
+          "description": "Les enfants sont exposés à de nouvelles langues et cultures, élargissant leur vision du monde."
+        },
+        {
+          "title": "Support pour les familles occupées",
+          "description": "Les au pairs aident aux tâches ménagères légères, donnant aux parents plus de temps pour le travail ou la vie personnelle."
+        },
+        {
+          "title": "Arrangements flexibles",
+          "description": "Les horaires sont adaptés aux besoins de la famille tout en respectant les directives légales."
+        }
+      ],
+      "conclusion": "Les familles bénéficient non seulement de solutions pratiques de garde d'enfants, mais aussi de l'impact culturel à long terme d'accueillir un invité international."
+    },
+    "whyAuPairsChoose": {
+      "heading": "Pourquoi les jeunes choisissent de devenir au pairs en Suède",
+      "description": "La Suède est l'un des pays les plus attrayants pour les au pairs en raison de son niveau de vie élevé, de son fort accent sur l'éducation et de sa culture dynamique.",
+      "benefits": [
+        {
+          "title": "Apprentissage des langues",
+          "description": "La chance d'étudier le suédois via des cours de langue tout en vivant avec une famille d'accueil."
+        },
+        {
+          "title": "Environnement sûr et solidaire",
+          "description": "Le logement et les repas fournis par la famille d'accueil assurent stabilité et confort."
+        },
+        {
+          "title": "Intégration culturelle",
+          "description": "Les au pairs expérimentent les traditions suédoises, les festivals et la vie quotidienne."
+        },
+        {
+          "title": "Opportunités de voyages",
+          "description": "Accès facile pour explorer les villes et la nature de la Suède, ainsi que les pays européens voisins."
+        },
+        {
+          "title": "Croissance personnelle",
+          "description": "Indépendance, adaptabilité et nouvelles compétences qui améliorent les perspectives de carrière plus tard."
+        }
+      ],
+      "conclusion": "Pour beaucoup, un séjour au pair en Suède est à la fois un voyage culturel et un tremplin professionnel."
+    },
+    "legalFramework": {
+      "heading": "Cadre juridique pour les au pairs en Suède",
+      "description": "Les au pairs en Suède sont réglementés en vertu de la Loi sur les étrangers (Utlänningslagen 2005:716), garantissant que l'arrangement reste un échange culturel plutôt qu'un emploi à long terme. Les conditions clés incluent:",
+      "requirements": [
+        {
+          "title": "Exigence d'âge",
+          "description": "Typiquement entre 18 et 30 ans."
+        },
+        {
+          "title": "Permis de séjour",
+          "description": "Les ressortissants non-UE doivent demander un Permis de Séjour Au Pair avant d'entrer en Suède."
+        },
+        {
+          "title": "Durée",
+          "description": "Généralement valide pendant un an, parfois renouvelable."
+        },
+        {
+          "title": "Tâches autorisées",
+          "description": "Seulement garde d'enfants et tâches ménagères légères, pas emploi à grande échelle."
+        },
+        {
+          "title": "Exigence d'apprentissage des langues",
+          "description": "Les au pairs sont censés suivre un cours de langue suédoise."
+        },
+        {
+          "title": "Obligations de la famille d'accueil",
+          "description": "Fournir de la nourriture, un logement et une allocation mensuelle conformément aux exigences minimales de Migrationsverket."
+        }
+      ],
+      "euNote": "Les ressortissants de l'UE/EEE ont un processus plus simple car ils ont le droit de résidence, mais doivent toujours suivre les directives du programme."
+    },
+    "supportHostFamilies": {
+      "heading": "Comment Sweden Relocators soutient les familles d'accueil",
+      "intro": "Nous offrons des services complets de relocalisation aux familles suédoises et européennes qui souhaitent accueillir une au pair:",
+      "services": [
+        {
+          "number": "1",
+          "title": "Appariement Au Pair",
+          "description": "Connexion des familles avec des candidats qui répondent aux besoins de garde d'enfants et aux préférences culturelles."
+        },
+        {
+          "number": "2",
+          "title": "Orientations de conformité juridique",
+          "description": "Conseils sur les contrats, les allocations et les exigences de visa en vertu de la loi suédoise."
+        },
+        {
+          "number": "3",
+          "title": "Rédaction et révision de contrat",
+          "description": "S'assurer que toutes les tâches, les heures de travail et les avantages sont clairement définis."
+        },
+        {
+          "number": "4",
+          "title": "Assistance aux demandes de permis",
+          "description": "Soutien de la au pair dans les demandes de permis de séjour et la soumission de documents."
+        },
+        {
+          "number": "5",
+          "title": "Vérifications des antécédents",
+          "description": "Vérification des références et garantie de la sécurité des familles."
+        },
+        {
+          "number": "6",
+          "title": "Soutien continu",
+          "description": "Médiation si des problèmes surgissent et aide aux renouvellements de permis ou aux candidats de remplacement si nécessaire."
+        }
+      ],
+      "conclusion": "Cette approche structurée rassure les familles et garantit le respect des réglementations suédoises."
+    },
+    "supportAuPairs": {
+      "heading": "Comment Sweden Relocators soutient les au pairs",
+      "intro": "Pour les au pairs, la relocalisation implique de naviguer dans les processus juridiques, de s'adapter à une nouvelle culture et de construire la confiance avec une famille d'accueil. Nos services incluent:",
+      "services": [
+        {
+          "title": "Évaluation d'éligibilité",
+          "description": "Vérification de l'âge, des antécédents et de la préparation pour le programme."
+        },
+        {
+          "title": "Préparation de la demande",
+          "description": "Assistance complète avec le Permis de Séjour Au Pair et assurance que les exigences sont satisfaites."
+        },
+        {
+          "title": "Soutien aux voyages",
+          "description": "Réservation de vols, arrangement d'assurance maladie et assistance avec la logistique de l'établissement."
+        },
+        {
+          "title": "Conseils à l'école de langue",
+          "description": "Connexion des au pairs avec les institutions de langue suédoise pour répondre aux exigences d'échange culturel."
+        },
+        {
+          "title": "Intégration et orientation",
+          "description": "Conseils culturels, soutien pratique à la relocalisation et assistance continue après l'arrivée."
+        }
+      ],
+      "conclusion": "En soutenant les au pairs et les familles d'accueil, nous garantissons un échange culturel positif et conforme à la loi."
+    },
+    "contractsObligations": {
+      "heading": "Contrats et obligations",
+      "intro": "Une entente écrite claire entre la famille d'accueil et la au pair est essentielle pour la transparence et la conformité juridique. Chez Sweden Relocators, nous rédigeons des contrats qui incluent:",
+      "items": [
+        "Tâches et responsabilités (garde d'enfants et tâches ménagères).",
+        "Allocation, logement et repas.",
+        "Heures de travail, jours de repos et vacances.",
+        "Durée du séjour et options de renouvellement.",
+        "Directives de résolution des différends."
+      ],
+      "conclusion": "Cela garantit que les attentes sont comprises par les deux parties dès le départ, réduisant le risque de conflit."
+    },
+    "additionalServices": {
+      "heading": "Solutions de relocalisation au-delà du basique",
+      "intro": "Sweden Relocators offre des services supplémentaires pour faciliter les placements au pair:",
+      "services": [
+        {
+          "title": "Solutions de logement",
+          "description": "Si les familles ont besoin d'arrangements de logement supplémentaires pour la au pair."
+        },
+        {
+          "title": "Couverture de santé",
+          "description": "Arrangement de polices d'assurance pour les au pairs, garantissant la conformité avec les exigences juridiques."
+        },
+        {
+          "title": "Assistance financière",
+          "description": "Conseils sur les paiements, les impôts (le cas échéant) et les structures d'allocation appropriées."
+        },
+        {
+          "title": "Assistance d'urgence",
+          "description": "Fournir des conseils et une intervention si des différends ou des urgences surviennent pendant le séjour."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Pourquoi choisir Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Expertise fiable",
+          "description": "Des années d'expérience en relocalisation suédoise et services d'immigration."
+        },
+        {
+          "title": "Solutions complètes",
+          "description": "Des demandes juridiques au soutien culturel."
+        },
+        {
+          "title": "Appariement personnalisé",
+          "description": "Focus sur la compatibilité entre les familles et les au pairs."
+        },
+        {
+          "title": "Tranquillité d'esprit",
+          "description": "Soutien continu pour les deux parties pendant tout le séjour."
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Note finale et clause de non-responsabilité",
+      "note": "Le programme Au Pair en Suède et dans l'UE est une opportunité enrichissante pour les familles et les jeunes, mais doit être gérée avec soin dans les cadres juridiques et culturels. Chez Sweden Relocators, nous nous assurons que les familles d'accueil et les au pairs reçoivent un soutien complet de la première étape à la fin du programme.",
+      "disclaimer": "Ces informations sont fournies à titre informatif uniquement et sont mises à jour à partir du 23 septembre 2025. Les règles et les exigences peuvent changer. Pour les informations les plus précises et officielles, consultez toujours l'Agence suédoise de migration (Migrationsverket) si vous gérez un arrangement au pair de manière indépendante."
+    }
+  }
+}

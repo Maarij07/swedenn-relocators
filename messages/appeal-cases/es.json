@@ -1,0 +1,190 @@
+{
+  "appealCases": {
+    "hero": {
+      "title": "Proceso de apelación en Suecia",
+      "subtitle": "Cómo impugnar denegaciones de permiso de residencia, visado y ciudadanía"
+    },
+    "intro": {
+      "heading": "Comprenda su derecho a apelar",
+      "description": "Si su solicitud de permiso de residencia, permiso de trabajo, reunificación familiar, visado de negocios, permiso de estudios, residencia permanente o ciudadanía sueca ha sido denegada, todavía tiene opciones legales. Según la legislación migratoria sueca, todo solicitante tiene derecho a apelar. Una apelación le brinda la oportunidad de presentar nuevas pruebas, corregir errores y solicitar una revisión por parte de la Agencia Sueca de Migración (Migrationsverket) o de los tribunales.\n\nEn Sweden Relocators ofrecemos asistencia profesional en apelaciones a particulares, familias y empresas. Nuestro enfoque basado en el estudio del caso, fundamentado en la Utlänningslagen (Ley de Extranjería, 2005:716), el derecho de la UE y los convenios internacionales, garantiza que cada apelación se construya con argumentos jurídicos y fácticos sólidos."
+    },
+    "yourRights": {
+      "heading": "Sus derechos tras una denegación",
+      "rights": [
+        {
+          "title": "Derecho a la reconsideración por parte de Migrationsverket",
+          "description": "Si la denegación se basa en cuestiones menores como documentos faltantes, pruebas financieras o explicaciones poco claras, Migrationsverket puede revocar su decisión tras una reconsideración."
+        },
+        {
+          "title": "Derecho a apelar ante el Tribunal Administrativo",
+          "description": "Si Migrationsverket mantiene su decisión, su apelación se remite automáticamente al Tribunal Administrativo (Förvaltningsrätten) en Gotemburgo, que realiza una revisión independiente."
+        },
+        {
+          "title": "Derecho a una apelación adicional",
+          "description": "Si el Tribunal Administrativo rechaza su apelación, en ciertos casos puede solicitar autorización para apelar ante el Tribunal Superior de Migración (Migrationsöverdomstolen). Este tribunal solo admite casos de importancia jurídica general para establecer precedentes futuros."
+        }
+      ]
+    },
+    "reviewProcess": {
+      "heading": "Cómo revisan las autoridades suecas las apelaciones",
+      "intro": "Cuando presenta una apelación, la decisión se revisa mediante un proceso jurídico estructurado. Comprender cómo las autoridades evalúan las apelaciones es esencial, ya que el éxito depende tanto de la documentación como del razonamiento jurídico.",
+      "stages": [
+        {
+          "number": 1,
+          "title": "Reconsideración por parte de Migrationsverket",
+          "questions": [
+            "¿Se presentó la apelación dentro del plazo de 3 semanas?",
+            "¿Existen nuevos documentos, registros financieros o pruebas familiares?",
+            "¿Cumple ahora el caso con los requisitos legales?"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Revisión del Tribunal Administrativo",
+          "description": "Revisión jurídica independiente, no vinculada a la decisión de Migrationsverket.",
+          "questions": [
+            "¿Fue la denegación coherente con la Utlänningslagen?",
+            "¿Se aplicaron correctamente normas de la UE como la Directiva 2004/38/CE (libre circulación)?",
+            "¿Se respetaron los derechos humanos, como el artículo 8 del CEDH (vida familiar)?",
+            "¿Se consideraron la integración y las circunstancias humanitarias?"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Tribunal Superior de Migración",
+          "description": "Solo para casos de mayor importancia. Establece precedentes que orientan futuros casos migratorios en Suecia."
+        }
+      ]
+    },
+    "howWeHelp": {
+      "heading": "Cómo Sweden Relocators prepara su apelación",
+      "intro": "Tratamos cada apelación como un caso jurídico completo, centrándonos en las pruebas, la legislación y los precedentes.",
+      "steps": [
+        {
+          "title": "Análisis del caso",
+          "description": "Estudiamos detalladamente la carta de denegación. Identificamos los fundamentos jurídicos utilizados para rechazar la solicitud. Comparamos con las disposiciones de la Utlänningslagen, el derecho de la UE y la jurisprudencia."
+        },
+        {
+          "title": "Evaluación de escenarios",
+          "description": "¿Pueden subsanarse las deficiencias financieras con pruebas de ingresos actualizadas o garantes? ¿Puede la evidencia de vivienda o integración fortalecer el caso? ¿Puede el derecho de los derechos humanos prevalecer sobre la denegación en asuntos familiares?"
+        },
+        {
+          "title": "Recopilación de pruebas",
+          "description": "Declaraciones fiscales actualizadas, nóminas, contratos de vivienda y registros laborales. Pruebas de relación, participación escolar o de integración y cursos de idioma. Evidencia humanitaria como informes médicos o factores de dependencia."
+        },
+        {
+          "title": "Argumentación jurídica",
+          "description": "Utlänningslagen 2005:716 – disposiciones fundamentales sobre familia, trabajo y motivos humanitarios. Trabajos preparatorios (förarbeten) – aclaración de la intención legislativa. Derecho de la UE – incluida la Directiva 2004/38/CE sobre derechos familiares. Artículo 8 del CEDH – derecho a la vida familiar y privada. Jurisprudencia del Migrationsöverdomstolen – guía sobre la aplicación de la ley."
+        },
+        {
+          "title": "Redacción del escrito de apelación",
+          "description": "Redactado en sueco o inglés profesional. Cada motivo de denegación se responde con base legal y pruebas de respaldo. Una narrativa sólida y persuasiva que demuestra por qué el caso cumple los requisitos legales."
+        },
+        {
+          "title": "Representación ante el tribunal y seguimiento",
+          "description": "Gestionamos todas las presentaciones y la comunicación con el tribunal. Le representamos profesionalmente ante el Förvaltningsrätten si es necesario. Garantizamos el cumplimiento de los plazos y proporcionamos actualizaciones periódicas."
+        }
+      ]
+    },
+    "commonCases": {
+      "heading": "Casos comunes que gestionamos",
+      "cases": [
+        "Denegaciones de reunificación familiar – ingresos o vivienda no aceptados, dudas sobre la relación",
+        "Denegaciones de permiso de trabajo – incumplimiento del empleador, problemas de seguro, condiciones laborales incorrectas",
+        "Denegaciones de permiso de estudios – documentación financiera insuficiente, dudas sobre la intención real de estudiar",
+        "Denegaciones de residencia permanente o ciudadanía – problemas de conducta, interrupciones en la residencia o documentación poco clara",
+        "Denegaciones de visado Schengen y de visita – propósito de viaje poco claro, vínculos débiles con el país de origen o falta de fondos"
+      ]
+    },
+    "timelines": {
+      "heading": "Plazos de las apelaciones",
+      "items": [
+        {
+          "label": "Reconsideración por parte de Migrationsverket",
+          "time": "en pocas semanas"
+        },
+        {
+          "label": "Remisión al Tribunal Administrativo",
+          "time": "normalmente 1 mes"
+        },
+        {
+          "label": "Decisiones judiciales",
+          "time": "varios meses, dependiendo de la complejidad del caso"
+        },
+        {
+          "label": "Apelaciones superiores",
+          "time": "pueden prolongar el proceso significativamente"
+        }
+      ]
+    },
+    "whyWorks": {
+      "heading": "Por qué funciona nuestro enfoque basado en el estudio del caso",
+      "intro": "La mayoría de las apelaciones fracasan porque los solicitantes simplemente vuelven a enviar documentos antiguos. Sweden Relocators construye apelaciones basadas en hechos, legislación y precedentes, abordando directamente las debilidades.",
+      "reasons": [
+        "Demostramos cómo la decisión original fue defectuosa",
+        "Aportamos pruebas de que ahora se cumplen los requisitos",
+        "Anticipamos contraargumentos y preparamos respuestas"
+      ],
+      "conclusion": "Esta preparación sistemática aumenta la probabilidad de éxito."
+    },
+    "faqs": {
+      "heading": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Cuánto tiempo tengo para apelar una denegación en Suecia?",
+          "a": "Dispone de 3 semanas desde la fecha en que recibió la decisión para presentar su apelación."
+        },
+        {
+          "q": "¿Puedo añadir nuevos documentos en mi apelación?",
+          "a": "Sí. Presentar nuevos registros financieros, contratos de vivienda o pruebas familiares puede fortalecer significativamente su caso."
+        },
+        {
+          "q": "¿Qué ocurre si Migrationsverket rechaza mi apelación?",
+          "a": "El caso se remite automáticamente al Tribunal Administrativo (Förvaltningsrätten) en Gotemburgo para una revisión independiente."
+        },
+        {
+          "q": "¿Todos los casos pueden llegar al Tribunal Superior de Migración?",
+          "a": "No. Solo se aceptan casos de importancia jurídica general. Estos establecen precedentes para decisiones futuras."
+        },
+        {
+          "q": "¿Cuáles son las razones más comunes de denegación?",
+          "a": "Documentos faltantes, pruebas financieras insuficientes, incumplimiento del empleador, pruebas familiares poco claras o dudas sobre la intención de permanecer legalmente en Suecia."
+        },
+        {
+          "q": "¿Cuánto dura todo el proceso de apelación?",
+          "a": "Varía. Una reconsideración simple puede resolverse en pocas semanas, mientras que un proceso judicial completo puede tardar varios meses o más."
+        },
+        {
+          "q": "¿Necesito un abogado para apelar?",
+          "a": "No es obligatorio contratar a un abogado, pero la asistencia profesional aumenta sus posibilidades de éxito. En Sweden Relocators ofrecemos representación experta adaptada a su caso."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Por qué elegir Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Experiencia en derecho migratorio sueco",
+          "description": "Especialistas en apelaciones bajo la Utlänningslagen, el derecho de la UE y el CEDH"
+        },
+        {
+          "title": "Éxito demostrado",
+          "description": "Hemos revocado denegaciones en casos de familia, trabajo y ciudadanía"
+        },
+        {
+          "title": "Gestión integral del caso",
+          "description": "Desde la redacción de la apelación hasta la representación ante el tribunal"
+        },
+        {
+          "title": "Asistencia personalizada",
+          "description": "Cada caso se prepara como un estudio jurídico único"
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Nota final y descargo de responsabilidad",
+      "note": "Apelar una decisión migratoria negativa en Suecia es complejo, pero no imposible. Con la preparación adecuada, muchas denegaciones pueden revertirse. Ya sea que el problema sea financiero, documental o jurídico, tiene derecho a solicitar reconsideración y revisión judicial.",
+      "disclaimer": "Este contenido es únicamente informativo y está actualizado al 23 de septiembre de 2025. La legislación migratoria sueca cambia con frecuencia. Para obtener la información más reciente y precisa, consulte siempre el sitio web oficial de la Agencia Sueca de Migración (Migrationsverket) si planea gestionar una apelación por su cuenta."
+    }
+  }
+}

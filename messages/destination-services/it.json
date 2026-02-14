@@ -1,0 +1,138 @@
+{
+  "destinationServices": {
+    "hero": {
+      "title": "Servizi di Destinazione in Svezia",
+      "subtitle": "Soluzioni Complete di Trasferimento e Integrazione"
+    },
+    "intro": {
+      "heading": "Il Tuo Partner Completo di Trasferimento in Svezia",
+      "description": "Il trasferimento in Svezia è un viaggio entusiasmante, ma presenta sfide come la registrazione presso le autorità svedesi, l'ottenimento di un numero personale, l'apertura di un conto bancario, la ricerca di una casa e l'integrazione in una nuova cultura. Sweden Relocators offre servizi di destinazione completi in Svezia per individui, famiglie e clienti aziendali, garantendo una transizione fluida dal tuo arrivo al tuo completo insediamento.",
+      "capabilities": "Le nostre soluzioni di destinazione coprono servizi di arrivo e partenza, registrazione presso le autorità, orientamento urbano, ricerca di alloggio, supporto all'integrazione, assistenza familiare e gestione della partenza. Che tu ti stia trasferendo per lavoro, studi, riunificazione familiare o incarico aziendale, il nostro team rende il processo di trasferimento semplice, conforme e senza stress."
+    },
+    "coreServices": {
+      "heading": "Servizi di Destinazione Principali in Svezia",
+      "services": [
+        {
+          "title": "Supporto all'Arrivo e alla Partenza",
+          "details": [
+            "Briefing pre-arrivo – guida su documenti, opzioni abitative e primi passi in Svezia.",
+            "Servizio di benvenuto e orientamento – assistenza negli aeroporti e nei centri di trasporto per un arrivo senza problemi.",
+            "Alloggio temporaneo – supporto per alloggi a breve termine mentre cerchi una casa permanente.",
+            "Servizi di partenza – assistenza completa nell'uscire dalla Svezia, inclusa cancellazione della registrazione, risoluzione del contratto di affitto, coordinamento dei traslochi e liquidazione dei conti."
+          ]
+        },
+        {
+          "title": "Registrazione Presso le Autorità e Conformità Legale",
+          "details": [
+            "Assistenza numero personale – aiuto per ottenere un numero di identità personale svedese presso Skatteverket, essenziale per l'assistenza sanitaria, l'impiego e la vita quotidiana.",
+            "Domanda di carta d'identità – guida per richiedere una carta d'identità svedese, richiesta per le transazioni bancarie e l'identificazione ufficiale.",
+            "Configurazione BankID – supporto per il sistema svedese sicuro di identificazione digitale, necessario per il banking online, i contratti e i servizi governativi.",
+            "Registrazione fiscale e numeri di coordinamento – assistenza con samordningsnummer, registrazione dei datori di lavoro e requisiti di residenza fiscale."
+          ]
+        },
+        {
+          "title": "Servizi Bancari e Finanziari",
+          "details": [
+            "Apertura conto bancario – coordinamento con banche svedesi come Swedbank, Handelsbanken, SEB e Nordea.",
+            "Configurazione pagamenti digitali – guida su Swish, Autogiro e soluzioni di mobile banking.",
+            "Trasferimenti stipendiali e buste paga – garantire una configurazione finanziaria senza problemi per dipendenti e lavoratori autonomi."
+          ]
+        },
+        {
+          "title": "Alloggio e Orientamento del Quartiere",
+          "details": [
+            "Assistenza ricerca casa – supporto per affitti e acquisti adatti alle tue esigenze e al tuo budget.",
+            "Negoziazione contratti di affitto – revisione e negoziazione di contratti per garantire la conformità alla legge svedese sull'alloggio.",
+            "Orientamento del quartiere – tour guidati evidenziando scuole, strutture sanitarie, negozi e trasporto pubblico.",
+            "Configurazione servizi e Internet – assistenza nella registrazione di elettricità, Internet, assicurazioni e gestione dei rifiuti."
+          ]
+        },
+        {
+          "title": "Supporto all'Integrazione e alla Cultura",
+          "details": [
+            "Visite di orientamento urbano – assistenza ai nuovi arrivati per comprendere i trasporti locali, i sistemi sanitari e le risorse comunitarie.",
+            "Formazione culturale – workshop e consulenza sui costumi svedesi, la cultura del luogo di lavoro e il comportamento sociale.",
+            "Supporto all'apprendimento della lingua – guida per l'iscrizione al svedese per immigrati (SFI) e alle scuole di lingue private.",
+            "Comunità e networking – connessione con gruppi di espatriati, associazioni professionali e reti locali."
+          ]
+        },
+        {
+          "title": "Supporto Familiare e Educativo",
+          "details": [
+            "Ricerca scuola e posizionamento – guida per scuole internazionali, scuole dell'infanzia e scuole pubbliche.",
+            "Assistenza all'asilo – supporto per le domande di programmi di assistenza all'infanzia e scuole materne.",
+            "Programmi di integrazione familiare – supporto all'adattamento culturale per coniugi e figli."
+          ]
+        }
+      ]
+    },
+    "corporateServices": {
+      "heading": "Servizi di Destinazione per Aziende e Datori di Lavoro",
+      "intro": "Per le aziende che trasferiscono dipendenti in Svezia, forniamo servizi di destinazione aziendale che semplificano la mobilità, riducono i carichi amministrativi e migliorano la soddisfazione dei dipendenti. Le nostre soluzioni aziendali includono:",
+      "services": [
+        "Consultazioni pre-incarico per risorse umane e dipendenti.",
+        "Coordinamento dei permessi di soggiorno e di lavoro con supporto migratorio.",
+        "Registrazione presso le autorità e gestione della conformità.",
+        "Servizi di trasferimento familiare, inclusi alloggio e posizionamento scolastico.",
+        "Consulenza su stipendi, tasse e assicurazioni per dipendenti.",
+        "Supporto continuo all'integrazione e al benessere dei dipendenti."
+      ],
+      "benefit": "Con il nostro aiuto, le aziende possono concentrarsi sugli obiettivi commerciali mentre garantiamo che i dipendenti e le loro famiglie si insedino senza problemi in Svezia."
+    },
+    "relocationJourney": {
+      "heading": "Esempio di Percorso di Trasferimento con Sweden Relocators",
+      "stages": [
+        {
+          "title": "Prima dell'Arrivo",
+          "description": "Documenti preparati, alloggio temporaneo organizzato, briefing pre-arrivo fornito."
+        },
+        {
+          "title": "Arrivo",
+          "description": "Trasporto in aeroporto, alloggio a breve termine, registrazioni governative iniziali."
+        },
+        {
+          "title": "Primo Mese",
+          "description": "Domanda numero personale, domanda carta d'identità, apertura conto bancario, ricerca casa, domande scolastiche."
+        },
+        {
+          "title": "Fase di Integrazione",
+          "description": "Orientamento culturale, opportunità di networking, iscrizione SFI, alloggio permanente organizzato."
+        },
+        {
+          "title": "Partenza (se applicabile)",
+          "description": "Cancellazione registrazione, chiusura conti, risoluzione contratto di affitto e coordinamento partenza."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Perché Sceglierci?",
+      "advantages": [
+        {
+          "title": "Servizi di Destinazione Completi",
+          "description": "Copre arrivo, registrazione, alloggio, integrazione e partenza."
+        },
+        {
+          "title": "Competenza Locale",
+          "description": "Profonda conoscenza delle autorità svedesi, mercati immobiliari e sistemi legali."
+        },
+        {
+          "title": "Soluzioni Personalizzate",
+          "description": "Pacchetti per trasferimenti individuali, familiari e aziendali."
+        },
+        {
+          "title": "Assistenza Multilingue",
+          "description": "Supporto in inglese, svedese, urdu, arabo, punjabi, persiano, curdo, serbo e altri."
+        },
+        {
+          "title": "Partner dall'Inizio alla Fine",
+          "description": "Un'unica piattaforma per tutte le vostre esigenze di trasferimento e insediamento."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Inizia con i Servizi di Destinazione",
+      "description": "Invia una richiesta di servizio tramite il nostro portale. Che tu ti stia trasferendo da solo, in famiglia o come azienda che organizza i servizi per i dipendenti, scegli semplicemente i servizi di destinazione di cui hai bisogno e il nostro team si occuperà del resto.",
+      "cta": "Richiedi Servizi di Destinazione"
+    }
+  }
+}

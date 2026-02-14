@@ -1,0 +1,190 @@
+{
+  "appealCases": {
+    "hero": {
+      "title": "Ankeproces i Sverige",
+      "subtitle": "Sådan udfordrer du afslag på opholdstilladelse, visum og statsborgerskab"
+    },
+    "intro": {
+      "heading": "Forstå din ret til at anke",
+      "description": "Hvis din ansøgning om opholdstilladelse, arbejdstilladelse, familiesammenføring, forretningsvisum, studietilladelse, permanent ophold eller svensk statsborgerskab er blevet afslået, har du stadig juridiske muligheder. Ifølge svensk udlændingelovgivning har enhver ansøger ret til at anke. En anke giver dig mulighed for at fremlægge ny dokumentation, rette fejl og anmode om en gennemgang enten af Migrationsverket eller domstolene.\n\nHos Sweden Relocators tilbyder vi professionel bistand i ankesager til enkeltpersoner, familier og virksomheder. Vores case-study-tilgang, baseret på Utlänningslagen (Udlændingeloven, 2005:716), EU-ret og internationale konventioner, sikrer, at hver anke opbygges med stærke juridiske og faktuelle argumenter."
+    },
+    "yourRights": {
+      "heading": "Dine rettigheder efter et afslag",
+      "rights": [
+        {
+          "title": "Ret til genovervejelse hos Migrationsverket",
+          "description": "Hvis afslaget skyldes mindre forhold såsom manglende dokumenter, økonomisk dokumentation eller uklare forklaringer, kan Migrationsverket omgøre sin afgørelse efter genovervejelse."
+        },
+        {
+          "title": "Ret til at anke til Forvaltningsretten",
+          "description": "Hvis Migrationsverket fastholder sin afgørelse, videresendes din anke automatisk til Forvaltningsrätten i Göteborg, som foretager en uafhængig vurdering."
+        },
+        {
+          "title": "Ret til yderligere anke",
+          "description": "Hvis Forvaltningsretten afviser din anke, kan du i visse tilfælde ansøge om tilladelse til at anke til Migrationsöverdomstolen. Denne domstol behandler kun sager af generel juridisk betydning for at fastsætte fremtidig praksis."
+        }
+      ]
+    },
+    "reviewProcess": {
+      "heading": "Sådan behandler svenske myndigheder anker",
+      "intro": "Når du anker, gennemgås afgørelsen i en struktureret juridisk proces. Det er afgørende at forstå, hvordan myndighederne vurderer anker, da succes afhænger af både dokumentation og juridisk argumentation.",
+      "stages": [
+        {
+          "number": 1,
+          "title": "Genovervejelse hos Migrationsverket",
+          "questions": [
+            "Blev anken indgivet inden for fristen på 3 uger?",
+            "Er der nye dokumenter, økonomiske oplysninger eller beviser for familierelationer?",
+            "Opfylder sagen nu de juridiske krav?"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Gennemgang ved Forvaltningsretten",
+          "description": "Uafhængig juridisk prøvelse, ikke bundet af Migrationsverkets afgørelse.",
+          "questions": [
+            "Var afslaget i overensstemmelse med Utlänningslagen?",
+            "Blev EU-regler som direktiv 2004/38/EF (fri bevægelighed) anvendt korrekt?",
+            "Blev menneskerettigheder, såsom artikel 8 i EMRK (familieliv), respekteret?",
+            "Blev integration og humanitære forhold taget i betragtning?"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Migrationsöverdomstolen",
+          "description": "Kun for sager af bredere betydning. Fastlægger præcedens, som vejleder fremtidige migrationssager i Sverige."
+        }
+      ]
+    },
+    "howWeHelp": {
+      "heading": "Sådan forbereder Sweden Relocators din anke",
+      "intro": "Vi behandler hver anke som en komplet juridisk sag med fokus på dokumentation, lovgivning og præcedens.",
+      "steps": [
+        {
+          "title": "Sagsanalyse",
+          "description": "Gennemgang af afslagsbrevet i detaljer. Identifikation af de juridiske grunde til afslaget. Sammenligning med bestemmelser i Utlänningslagen, EU-ret og retspraksis."
+        },
+        {
+          "title": "Scenarieanalyse",
+          "description": "Kan økonomiske mangler afhjælpes med opdateret indkomstdokumentation eller garantier? Kan bolig- eller integrationsbeviser styrke sagen? Kan menneskerettigheder tilsidesætte afslaget i familiesager?"
+        },
+        {
+          "title": "Indsamling af dokumentation",
+          "description": "Opdaterede årsopgørelser, lønsedler, lejekontrakter og ansættelseskontrakter. Bevis for forhold, skolegang eller integrationsaktiviteter og sprogkurser. Humanitær dokumentation såsom lægejournaler eller afhængighedsforhold."
+        },
+        {
+          "title": "Juridisk argumentation",
+          "description": "Utlänningslagen 2005:716 – centrale bestemmelser om familie, arbejde og humanitære grunde. Forarbejder – præcisering af lovgivers hensigt. EU-ret – herunder direktiv 2004/38/EF om familierettigheder. Artikel 8 EMRK – retten til familie- og privatliv. Præcedens fra Migrationsöverdomstolen – vejledende for lovens anvendelse."
+        },
+        {
+          "title": "Udarbejdelse af ankeskrivelse",
+          "description": "Udformes på professionelt svensk eller engelsk. Hvert afslagsgrundlag besvares med lovhenvisning og dokumentation. En stærk og overbevisende fremstilling, der viser, hvorfor sagen opfylder de juridiske krav."
+        },
+        {
+          "title": "Repræsentation og opfølgning",
+          "description": "Vi håndterer al indsendelse og kommunikation med retten. Repræsenterer dig professionelt i Forvaltningsrätten efter behov. Sikrer overholdelse af frister og giver løbende opdateringer."
+        }
+      ]
+    },
+    "commonCases": {
+      "heading": "Almindelige sager vi håndterer",
+      "cases": [
+        "Afslag på familiesammenføring – indkomst eller bolig ikke godkendt, tvivl om forholdet",
+        "Afslag på arbejdstilladelse – arbejdsgiverens manglende overholdelse, forsikringsproblemer, forkerte ansættelsesvilkår",
+        "Afslag på studietilladelse – utilstrækkelig økonomisk dokumentation, tvivl om reelt studieformål",
+        "Afslag på permanent ophold eller statsborgerskab – adfærdsforhold, opholdshuller eller uklar dokumentation",
+        "Afslag på Schengen- og besøgsvisum – uklart rejseformål, svag tilknytning til hjemlandet eller manglende midler"
+      ]
+    },
+    "timelines": {
+      "heading": "Tidsrammer for anker",
+      "items": [
+        {
+          "label": "Genovervejelse hos Migrationsverket",
+          "time": "inden for få uger"
+        },
+        {
+          "label": "Videresendelse til Forvaltningsretten",
+          "time": "normalt 1 måned"
+        },
+        {
+          "label": "Retsafgørelser",
+          "time": "flere måneder, afhængigt af sagens kompleksitet"
+        },
+        {
+          "label": "Videre anker",
+          "time": "kan forlænge processen betydeligt"
+        }
+      ]
+    },
+    "whyWorks": {
+      "heading": "Hvorfor vores case-study-tilgang virker",
+      "intro": "De fleste anker mislykkes, fordi ansøgere blot genindsender gamle dokumenter. Sweden Relocators bygger anker på fakta, lovgivning og præcedens og adresserer svagheder direkte.",
+      "reasons": [
+        "Vi påviser, hvordan den oprindelige afgørelse var mangelfuld",
+        "Vi fremlægger dokumentation for, at kravene nu er opfyldt",
+        "Vi forudser modargumenter og forbereder svar"
+      ],
+      "conclusion": "Denne systematiske forberedelse øger sandsynligheden for succes."
+    },
+    "faqs": {
+      "heading": "Ofte stillede spørgsmål",
+      "items": [
+        {
+          "q": "Hvor lang tid har jeg til at anke et afslag i Sverige?",
+          "a": "Du har 3 uger fra den dato, hvor du modtog afgørelsen, til at indgive din anke."
+        },
+        {
+          "q": "Kan jeg tilføje nye dokumenter i min anke?",
+          "a": "Ja. Indsendelse af nye økonomiske oplysninger, lejekontrakter eller familiedokumentation kan styrke din sag betydeligt."
+        },
+        {
+          "q": "Hvad sker der, hvis Migrationsverket afviser min anke?",
+          "a": "Sagen videresendes automatisk til Forvaltningsrätten i Göteborg til uafhængig prøvelse."
+        },
+        {
+          "q": "Kan alle sager indbringes for Migrationsöverdomstolen?",
+          "a": "Nej. Kun sager af generel juridisk betydning accepteres. Disse fastlægger præcedens for fremtidige afgørelser."
+        },
+        {
+          "q": "Hvad er de mest almindelige årsager til afslag?",
+          "a": "Manglende dokumenter, utilstrækkelig økonomisk dokumentation, arbejdsgiverens manglende overholdelse, uklar familiedokumentation eller tvivl om intentionen om lovligt ophold i Sverige."
+        },
+        {
+          "q": "Hvor lang tid tager hele ankeprocessen?",
+          "a": "Det varierer. En simpel genovervejelse kan afgøres inden for få uger, mens en fuld retssag kan tage flere måneder eller længere."
+        },
+        {
+          "q": "Skal jeg have en advokat for at anke?",
+          "a": "Du er ikke forpligtet til at hyre en advokat, men professionel bistand øger dine chancer for succes. Hos Sweden Relocators tilbyder vi ekspertrepræsentation tilpasset din sag."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Hvorfor vælge Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Ekspertise i svensk udlændingeret",
+          "description": "Specialister i ankesager under Utlänningslagen, EU-ret og EMRK"
+        },
+        {
+          "title": "Dokumenteret succes",
+          "description": "Vi har omgjort afslag i familie-, arbejds- og statsborgerskabssager"
+        },
+        {
+          "title": "Komplet sagsbehandling",
+          "description": "Fra udarbejdelse af anke til repræsentation i retten"
+        },
+        {
+          "title": "Personlig støtte",
+          "description": "Hver sag forberedes som en individuel juridisk analyse"
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Afsluttende bemærkning og ansvarsfraskrivelse",
+      "note": "At anke en negativ migrationsafgørelse i Sverige er komplekst, men ikke umuligt. Med den rette forberedelse kan mange afslag omgøres. Uanset om problemet er økonomisk, dokumentmæssigt eller juridisk, har du ret til at anmode om genovervejelse og domstolsprøvelse.",
+      "disclaimer": "Dette indhold er kun til orientering og opdateret pr. 23. september 2025. Svensk udlændingelovgivning ændres ofte. For den nyeste og mest præcise information bør du altid konsultere den officielle hjemmeside for det svenske Migrationsverket, hvis du planlægger selv at håndtere en anke."
+    }
+  }
+}

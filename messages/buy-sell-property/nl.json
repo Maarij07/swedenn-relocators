@@ -1,0 +1,109 @@
+{
+  "buySellProperty": {
+    "hero": {
+      "title": "Eigendom in Zweden eenvoudig gemaakt",
+      "subtitle": "Koop, verkoop, langetermijnhuur en kortetermijn gemeubileerde woningen via één veilig portaal"
+    },
+    "intro": {
+      "heading": "Vind het juiste vastgoed in Zweden",
+      "subheading": "Woningopties afgestemd op je verhuis- en vestigingsplan",
+      "description": "Verhuizen naar Zweden wordt vaak uitdagend in de huisvestingsfase. Het vinden van het juiste gebied, begrijpen van contracten, verifiëren van advertenties en het vermijden van risicovolle afspraken vereist lokale expertise. Sweden Relocators ondersteunt de volledige vastgoedreis via een veilig digitaal portaal en mobiele app, zodat je met vertrouwen kunt zoeken, boeken en verhuizen.\n\nOf je nu naar Zweden verhuist voor werk, studie, gezinshereniging of zaken, ons platform helpt je een geschikte woning te vinden die past bij je planning en doelen.",
+      "coverageHeading": "Onze woningen en ondersteuning dekken:",
+      "coverageItems": [
+        "Appartementen en huizen voor individuen, stellen en gezinnen",
+        "Bedrijfshuisvesting voor medewerkersverplaatsing",
+        "Langdurige huurwoningen voor permanente vestiging",
+        "Kortetermijn gemeubileerde huurwoningen voor tijdelijke verblijven",
+        "Woningen in grote steden en relocatie-vriendelijke regio's in heel Zweden"
+      ]
+    },
+    "buyOrSell": {
+      "heading": "Koop of verkoop vastgoed via een erkende makelaar",
+      "subheading": "Veilige transacties met geverifieerde en conforme afhandeling",
+      "description": "Alle vastgoedtransacties die via ons platform worden gefaciliteerd, worden uitsluitend afgehandeld via erkende en geregistreerde makelaars in Zweden. Dit zorgt voor wettelijke naleving, transparantie en bescherming voor zowel kopers als verkopers, vooral voor internationale klanten die niet vertrouwd zijn met het Zweedse vastgoedstelsel.",
+      "supportHeading": "Onze ondersteuning omvat doorgaans:",
+      "supportItems": [
+        "Vastgoedmatching op basis van budget, locatie en doelen",
+        "Coördinatie van bezichtigingen",
+        "Makelaarsgestuurd aankoop- of verkoopproces",
+        "Begeleiding bij contracten, tijdlijnen en afwikkelingsplanning"
+      ]
+    },
+    "shortTermRentals": {
+      "heading": "Kortetermijn gemeubileerde huurwoningen in Zweden",
+      "subheading": "Ideale woningen voor nieuwkomers en zakelijke verblijven",
+      "description": "Kortetermijn gemeubileerde accommodaties zijn vaak de meest praktische oplossing bij aankomst in Zweden. Ons platform biedt verhuisklare, gemeubileerde woningen die geschikt zijn voor:",
+      "suitableFor": [
+        "Nieuwkomers die wachten op registratie van een persoonsnummer",
+        "Zakelijk uitgezonden medewerkers en projectmedewerkers",
+        "Gezinnen die aankomen voordat ze een langetermijnwoning hebben",
+        "Klanten in overgang tussen steden of banen"
+      ],
+      "note": "Alle woningen worden beoordeeld om te voldoen aan praktische verhuizingsbehoeften en lokale woonstandaarden."
+    },
+    "longTermRentals": {
+      "heading": "Langetermijnhuur en vestigingswoningen",
+      "subheading": "Een gestructureerde overgang van tijdelijk naar permanent wonen",
+      "intro": "Wanneer je klaar bent om je in Zweden te vestigen, helpen we bij de planning en begeleiding van langetermijnhuur, inclusief:",
+      "items": [
+        "Begrip van huurvereisten en verwachtingen van verhuurders",
+        "Huurvoorwaarden, opzegtermijnen en standaardclausules",
+        "Gebiedsselectie op basis van woon-werkverkeer, scholen en levensstijl",
+        "Voorbereiding op intrek en praktische inrichtingsoverwegingen"
+      ]
+    },
+    "whyChoose": {
+      "heading": "Waarom kiezen voor Sweden Relocators voor vastgoedondersteuning",
+      "subheading": "Lokale expertise gecombineerd met digitale gemak",
+      "intro": "Verhuizen omvat meer dan het vinden van een woning. Het vereist zorgvuldige coördinatie van huisvesting, juridische tijdlijnen en praktische regelingen. Onze aanpak combineert lokale expertise met een gestructureerd digitaal proces.",
+      "advantages": [
+        {
+          "title": "Eén platform",
+          "description": "Één portaal voor het beheren van huisvesting, communicatie en voortgang"
+        },
+        {
+          "title": "Efficiënte coördinatie",
+          "description": "Efficiënte coördinatie voor bezichtigingen en instapgereedheid"
+        },
+        {
+          "title": "Afstemming op tijdlijn",
+          "description": "Huisvestingsondersteuning afgestemd op immigratie- en verhuisplanning"
+        },
+        {
+          "title": "Volledige begeleiding",
+          "description": "Duidelijke begeleiding van het eerste afspraak tot volledige vestiging"
+        }
+      ]
+    },
+    "digitalPortal": {
+      "heading": "Digitaal portaal en mobiele app",
+      "subheading": "Beheer je woningreis vanaf elke locatie ter wereld",
+      "intro": "Via ons online portaal en mobiele applicatie kun je:",
+      "features": [
+        "Aanmelden en afspraken boeken",
+        "Huisvesting en verhuisvoortgang volgen",
+        "Documenten veilig uploaden",
+        "Direct communiceren met je toegewezen supportteam",
+        "Toegang krijgen tot alle bevestigingen en updates op één plek"
+      ],
+      "note": "Dit is vooral waardevol voor klanten die vanuit het buitenland verhuizen of medewerkersverplaatsingen op afstand beheren."
+    },
+    "corporateHousing": {
+      "heading": "Woonondersteuning voor bedrijven en wereldwijde mobiliteit",
+      "subheading": "Praktische oplossingen voor medewerkerverhuizingen en bedrijfshuisvesting",
+      "intro": "We ondersteunen bedrijven en HR-teams door te bieden:",
+      "services": [
+        "Tijdelijke huisvesting bij onboarding van medewerkers",
+        "Langetermijnhuisvesting voor gevestigde medewerkers",
+        "Gestroomlijnde coördinatie om vertragingen te verminderen",
+        "Eén contactpunt via een veilig portaal"
+      ]
+    },
+    "getStarted": {
+      "heading": "Begin je vastgoedreis in Zweden",
+      "primaryCTA": "Meld je aan en ontdek de gewenste woningen",
+      "secondaryCTA": "Boek een afspraak en ga met vertrouwen verder",
+      "description": "Of je nu een kortetermijn gemeubileerd appartement nodig hebt, begeleiding bij langetermijnhuur zoekt of ondersteuning bij aankoop of verkoop via erkende makelaars, Sweden Relocators structureert het proces en houdt alles georganiseerd op één veilig platform."
+    }
+  }
+}

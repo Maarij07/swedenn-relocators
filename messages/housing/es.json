@@ -1,0 +1,73 @@
+{
+  "housing": {
+    "hero": {
+      "title": "Soluciones de Vivienda en Suecia",
+      "subtitle": "con Sweden Relocators"
+    },
+    "intro": {
+      "heading": "Tu Socio en la Búsqueda de Vivienda en Suecia",
+      "description": "Encontrar una casa es uno de los pasos más importantes al mudarse a Suecia. Ya sea que se mude solo, con su familia, traiga empleados como empresa o administre propiedades como proveedor de vivienda, la solución de vivienda adecuada sienta las bases para una reubicación sin problemas.",
+      "platform": "En Sweden Relocators, combinamos años de experiencia en reubicación con una plataforma digital moderna que conecta a inquilinos, empresas y proveedores de vivienda en un solo lugar. Nuestros servicios van más allá de alquileres y compras: ofrecemos alquileres a corto plazo, alquileres a largo plazo, venta de propiedades, apoyo hipotecario y soluciones profesionales de listado de propiedades. De esta manera, individuos, familias y organizaciones pueden manejar todo su viaje de vivienda a través de un único portal seguro."
+    },
+    "forIndividuals": {
+      "heading": "Vivienda para Individuos y Familias",
+      "intro": "Mudarse como individuo o familia puede sentirse abrumador. Desde lugares de vivienda temporal hasta casas permanentes, Sweden Relocators asegura que tenga opciones confiables en cada paso.",
+      "services": [
+        {
+          "title": "Alquiler a Corto Plazo",
+          "description": "Las propiedades de alquiler a corto plazo están diseñadas para personas que necesitan un lugar para vivir inmediatamente después de llegar a Suecia. Estas propiedades generalmente están amuebladas y listas para ocupar, lo que las hace perfectas para expatriados que esperan que comiencen los contratos a largo plazo, estudiantes que comienzan sus cursos y familias que necesitan un hogar temporal mientras compran o alquilan de forma permanente.",
+          "features": [
+            "Verifique la disponibilidad en tiempo real",
+            "Revise la información detallada de la propiedad",
+            "Firme contratos de alquiler verificados digitalmente"
+          ]
+        },
+        {
+          "title": "Alquiler a Largo Plazo",
+          "description": "Si planea quedarse en Suecia por más tiempo, ofrecemos acceso a apartamentos, casas, habitaciones compartidas y espacios de vida compartida en todo el país. Todos los contratos cumplen completamente con la ley sueca de arrendamiento, y todos nuestros listados se verifican por seguridad y calidad.",
+          "features": [
+            "Casas aptas para familias cerca de escuelas",
+            "Apartamentos modernos en el centro de la ciudad",
+            "Listados verificados por seguridad y calidad",
+            "Contratos de alquiler completamente conformes de Suecia"
+          ]
+        },
+        {
+          "title": "Compra y Venta de Propiedades",
+          "description": "Muchas recién llegadas deciden comprar una propiedad una vez que se establecen. Sweden Relocators te conecta con agentes de bienes raíces con licencia que administran el proceso de compra y venta de principio a fin.",
+          "features": [
+            "Compra apartamentos, casas o propiedades de inversión",
+            "Vende tu propiedad a una audiencia global",
+            "Completa transacciones legales y seguras con orientación completa"
+          ]
+        },
+        {
+          "title": "Hipoteca y Apoyo Financiero",
+          "description": "Comprar una propiedad en Suecia a menudo requiere apoyo hipotecario local. Para expatriados, este proceso puede ser complejo. Ofrecemos asistencia integral en todo el viaje hipotecario.",
+          "features": [
+            "Aprobación previa de hipoteca",
+            "Solicitud bancaria y documentos requeridos",
+            "Orientación sobre leyes de préstamo suecas y requisitos de ingresos",
+            "Planificación financiera para estrategias de reembolso e inversión"
+          ]
+        }
+      ]
+    },
+    "forEmployers": {
+      "heading": "Soluciones de Vivienda para Empleadores y Empresas",
+      "intro": "Las empresas que reubican empleados necesitan vivienda confiable para asegurar que el personal se sienta cómodo y seguro desde el primer día. Sweden Relocators ofrece soluciones de vivienda para empresas que agilizan este proceso.",
+      "services": [
+        "Envíe solicitudes de vivienda para empleados a través de nuestro portal digital",
+        "Elija entre apartamentos, casas con servicios y vivienda corporativa",
+        "Administre múltiples empleados y contratos en una plataforma",
+        "Integre la vivienda con otros servicios de reubicación como registro de identidad, apertura de cuenta bancaria y orientación a la llegada"
+      ],
+      "ideal": "Este servicio es ideal para empresas multinacionales, agencias de colocación, universidades y ONG. Al administrar la vivienda centralmente, las empresas ahorran tiempo, reducen riesgos y brindan a los empleados una transición sin problemas a la vida sueca."
+    },
+    "contact": {
+      "heading": "Comience con Sweden Relocators",
+      "description": "Ya sea que busque alquiler a corto plazo, planifique una estadía a largo plazo, compre o venda una propiedad o incluya vivienda como proveedor, Sweden Relocators hace que el proceso sea transparente, seguro y eficiente.",
+      "cta": "Envíe su solicitud de vivienda o registre su propiedad en nuestro portal hoy. Deje que Sweden Relocators lo acople con la solución de vivienda adecuada en Suecia."
+    }
+  }
+}

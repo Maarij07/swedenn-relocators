@@ -1,0 +1,190 @@
+{
+  "appealCases": {
+    "hero": {
+      "title": "Procédure de recours en Suède",
+      "subtitle": "Comment contester un refus de permis de séjour, de visa et de citoyenneté"
+    },
+    "intro": {
+      "heading": "Comprendre votre droit de recours",
+      "description": "Si votre demande de permis de séjour, de permis de travail, de regroupement familial, de visa d’affaires, de permis d’études, de résidence permanente ou de citoyenneté suédoise a été refusée, vous disposez encore d’options juridiques. En vertu du droit suédois de l’immigration, tout demandeur a le droit d’introduire un recours. Un recours vous permet de fournir de nouvelles preuves, de corriger des erreurs et de demander un réexamen par l’Agence suédoise des migrations (Migrationsverket) ou par les tribunaux.\n\nChez Sweden Relocators, nous offrons une assistance professionnelle en matière de recours aux particuliers, aux familles et aux entreprises. Notre approche fondée sur l’étude approfondie du dossier, basée sur l’Utlänningslagen (loi sur les étrangers, 2005:716), le droit de l’UE et les conventions internationales, garantit que chaque recours est construit sur des arguments juridiques et factuels solides."
+    },
+    "yourRights": {
+      "heading": "Vos droits après un refus",
+      "rights": [
+        {
+          "title": "Droit à un réexamen par Migrationsverket",
+          "description": "Si le refus repose sur des éléments mineurs tels que des documents manquants, des preuves financières insuffisantes ou des explications peu claires, Migrationsverket peut modifier sa décision après réexamen."
+        },
+        {
+          "title": "Droit de recours devant le tribunal administratif",
+          "description": "Si Migrationsverket maintient sa décision, votre recours est automatiquement transmis au tribunal administratif (Förvaltningsrätten) à Göteborg, qui procède à un examen indépendant."
+        },
+        {
+          "title": "Droit à un recours supplémentaire",
+          "description": "Si le tribunal administratif rejette votre recours, vous pouvez, dans certains cas, demander l’autorisation de saisir la Cour d’appel des migrations (Migrationsöverdomstolen). Cette juridiction n’accepte que les affaires d’importance juridique générale afin d’établir des précédents."
+        }
+      ]
+    },
+    "reviewProcess": {
+      "heading": "Comment les autorités suédoises examinent les recours",
+      "intro": "Lorsque vous introduisez un recours, la décision est examinée dans le cadre d’une procédure juridique structurée. Comprendre la manière dont les autorités évaluent les recours est essentiel, car le succès dépend à la fois des documents fournis et de l’argumentation juridique.",
+      "stages": [
+        {
+          "number": 1,
+          "title": "Réexamen par Migrationsverket",
+          "questions": [
+            "Le recours a-t-il été déposé dans le délai de 3 semaines ?",
+            "Existe-t-il de nouveaux documents, relevés financiers ou preuves familiales ?",
+            "Le dossier mis à jour satisfait-il désormais aux exigences légales ?"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Examen par le tribunal administratif",
+          "description": "Examen juridique indépendant, non lié à la décision de Migrationsverket.",
+          "questions": [
+            "Le refus était-il conforme à l’Utlänningslagen ?",
+            "Les règles de l’UE telles que la directive 2004/38/CE (libre circulation) ont-elles été correctement appliquées ?",
+            "Les droits fondamentaux, notamment l’article 8 de la CEDH (vie familiale), ont-ils été respectés ?",
+            "L’intégration et les circonstances humanitaires ont-elles été prises en compte ?"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Cour d’appel des migrations",
+          "description": "Uniquement pour les affaires d’importance plus large. Elle établit des précédents qui orientent les futures affaires migratoires en Suède."
+        }
+      ]
+    },
+    "howWeHelp": {
+      "heading": "Comment Sweden Relocators prépare votre recours",
+      "intro": "Nous traitons chaque recours comme un dossier juridique complet, en mettant l’accent sur les preuves, la législation et la jurisprudence.",
+      "steps": [
+        {
+          "title": "Analyse du dossier",
+          "description": "Étude détaillée de la lettre de refus. Identification des fondements juridiques ayant motivé le rejet de la demande. Comparaison avec les dispositions de l’Utlänningslagen, le droit de l’UE et la jurisprudence."
+        },
+        {
+          "title": "Évaluation des scénarios",
+          "description": "Les insuffisances financières peuvent-elles être corrigées par des justificatifs de revenus actualisés ou des garants ? Des preuves de logement ou d’intégration peuvent-elles renforcer le dossier ? Le droit des droits de l’homme peut-il prévaloir sur le refus dans les affaires familiales ?"
+        },
+        {
+          "title": "Collecte des preuves",
+          "description": "Déclarations fiscales actualisées, fiches de paie, contrats de logement et contrats de travail. Preuves de relation, de scolarité ou de participation à des programmes d’intégration et cours de langue. Éléments humanitaires tels que dossiers médicaux ou situations de dépendance."
+        },
+        {
+          "title": "Argumentation juridique",
+          "description": "Utlänningslagen 2005:716 – dispositions essentielles concernant la famille, le travail et les motifs humanitaires. Travaux préparatoires (förarbeten) – clarification de l’intention du législateur. Droit de l’UE – y compris la directive 2004/38/CE relative aux droits familiaux. Article 8 de la CEDH – droit au respect de la vie familiale et privée. Jurisprudence du Migrationsöverdomstolen – orientation sur l’application de la loi."
+        },
+        {
+          "title": "Rédaction du recours",
+          "description": "Rédigé en suédois ou en anglais professionnel. Chaque motif de refus est traité avec références juridiques et preuves à l’appui. Une présentation solide et persuasive démontrant que le dossier répond aux exigences légales."
+        },
+        {
+          "title": "Représentation devant le tribunal et suivi",
+          "description": "Nous gérons toutes les soumissions et communications avec le tribunal. Nous vous représentons professionnellement devant le Förvaltningsrätten si nécessaire. Nous veillons au respect des délais et fournissons des mises à jour régulières."
+        }
+      ]
+    },
+    "commonCases": {
+      "heading": "Cas courants que nous traitons",
+      "cases": [
+        "Refus de regroupement familial – revenus ou logement non acceptés, doutes sur la relation",
+        "Refus de permis de travail – non-conformité de l’employeur, problèmes d’assurance, conditions d’emploi incorrectes",
+        "Refus de permis d’études – documentation financière insuffisante, doutes quant au caractère sérieux du projet d’études",
+        "Refus de résidence permanente ou de citoyenneté – problèmes de conduite, interruptions de séjour ou documentation peu claire",
+        "Refus de visa Schengen et de visite – objet du voyage peu clair, liens insuffisants avec le pays d’origine ou manque de ressources"
+      ]
+    },
+    "timelines": {
+      "heading": "Délais des recours",
+      "items": [
+        {
+          "label": "Réexamen par Migrationsverket",
+          "time": "dans un délai de quelques semaines"
+        },
+        {
+          "label": "Transmission au tribunal administratif",
+          "time": "généralement 1 mois"
+        },
+        {
+          "label": "Décisions judiciaires",
+          "time": "plusieurs mois, selon la complexité de l’affaire"
+        },
+        {
+          "label": "Recours supérieurs",
+          "time": "peuvent prolonger considérablement la procédure"
+        }
+      ]
+    },
+    "whyWorks": {
+      "heading": "Pourquoi notre approche fondée sur l’étude du dossier fonctionne",
+      "intro": "La plupart des recours échouent parce que les demandeurs renvoient simplement les anciens documents. Sweden Relocators construit les recours sur des faits, le droit et la jurisprudence, en traitant directement les faiblesses.",
+      "reasons": [
+        "Nous démontrons en quoi la décision initiale était erronée",
+        "Nous fournissons des preuves que les exigences sont désormais remplies",
+        "Nous anticipons les contre-arguments et préparons des réponses"
+      ],
+      "conclusion": "Cette préparation systématique augmente les chances de succès."
+    },
+    "faqs": {
+      "heading": "Questions fréquentes",
+      "items": [
+        {
+          "q": "Quel est le délai pour introduire un recours en Suède ?",
+          "a": "Vous disposez de 3 semaines à compter de la date de réception de la décision pour déposer votre recours."
+        },
+        {
+          "q": "Puis-je ajouter de nouveaux documents à mon recours ?",
+          "a": "Oui. La soumission de nouveaux justificatifs financiers, contrats de logement ou preuves familiales peut considérablement renforcer votre dossier."
+        },
+        {
+          "q": "Que se passe-t-il si Migrationsverket rejette mon recours ?",
+          "a": "L’affaire est automatiquement transmise au tribunal administratif (Förvaltningsrätten) à Göteborg pour un examen indépendant."
+        },
+        {
+          "q": "Toutes les affaires peuvent-elles être portées devant la Cour d’appel des migrations ?",
+          "a": "Non. Seules les affaires d’importance juridique générale sont acceptées. Elles établissent des précédents pour les décisions futures."
+        },
+        {
+          "q": "Quelles sont les raisons les plus fréquentes de refus ?",
+          "a": "Documents manquants, preuves financières insuffisantes, non-conformité de l’employeur, preuves familiales peu claires ou doutes quant à l’intention de séjourner légalement en Suède."
+        },
+        {
+          "q": "Combien de temps dure l’ensemble de la procédure de recours ?",
+          "a": "Cela varie. Un simple réexamen peut être résolu en quelques semaines, tandis qu’une procédure judiciaire complète peut prendre plusieurs mois ou plus."
+        },
+        {
+          "q": "Ai-je besoin d’un avocat pour introduire un recours ?",
+          "a": "Vous n’êtes pas obligé d’engager un avocat, mais une assistance professionnelle augmente vos chances de succès. Chez Sweden Relocators, nous offrons une représentation experte adaptée à votre situation."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Pourquoi choisir Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Expertise en droit suédois de l’immigration",
+          "description": "Spécialistes des recours fondés sur l’Utlänningslagen, le droit de l’UE et la CEDH"
+        },
+        {
+          "title": "Succès avéré",
+          "description": "Nous avons obtenu l’annulation de refus dans des affaires familiales, professionnelles et de citoyenneté"
+        },
+        {
+          "title": "Gestion complète du dossier",
+          "description": "De la rédaction du recours à la représentation devant le tribunal"
+        },
+        {
+          "title": "Accompagnement personnalisé",
+          "description": "Chaque dossier est préparé comme une étude juridique unique"
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Note finale et clause de non-responsabilité",
+      "note": "Contester une décision migratoire négative en Suède est complexe mais pas impossible. Avec une préparation adéquate, de nombreux refus peuvent être annulés. Que le problème soit financier, documentaire ou juridique, vous avez le droit de demander un réexamen et un contrôle juridictionnel.",
+      "disclaimer": "Ce contenu est fourni à titre informatif uniquement et mis à jour au 23 septembre 2025. La législation suédoise en matière d’immigration évolue fréquemment. Pour obtenir les informations les plus récentes et les plus précises, consultez toujours le site officiel de l’Agence suédoise des migrations (Migrationsverket) si vous envisagez de gérer un recours vous-même."
+    }
+  }
+}

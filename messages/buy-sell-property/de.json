@@ -1,0 +1,109 @@
+{
+  "buySellProperty": {
+    "hero": {
+      "title": "Immobilien in Schweden einfach gemacht",
+      "subtitle": "Kaufen, Verkaufen, Langzeitmiete und möbliertes Wohnen auf Zeit über ein sicheres Portal"
+    },
+    "intro": {
+      "heading": "Finden Sie die passende Immobilie in Schweden",
+      "subheading": "Wohnlösungen abgestimmt auf Ihren Umzugs- und Niederlassungsplan",
+      "description": "Ein Umzug nach Schweden wird oft in der Wohnungsphase herausfordernd. Die richtige Gegend zu finden, Verträge zu verstehen, Inserate zu prüfen und riskante Vereinbarungen zu vermeiden, erfordert lokale Expertise. Sweden Relocators unterstützt den gesamten Immobilienprozess über ein sicheres digitales Portal und eine mobile App, sodass Sie mit Vertrauen suchen, buchen und umziehen können.\n\nOb Sie aus beruflichen Gründen, zum Studium, zur Familienzusammenführung oder für geschäftliche Zwecke nach Schweden ziehen – unsere Plattform hilft Ihnen, eine passende Unterkunft entsprechend Ihrem Zeitplan und Ihren Zielen zu finden.",
+      "coverageHeading": "Unsere Angebote und Unterstützung umfassen:",
+      "coverageItems": [
+        "Wohnungen und Häuser für Einzelpersonen, Paare und Familien",
+        "Firmenwohnungen für Mitarbeiterumzüge",
+        "Langzeitmietobjekte für eine dauerhafte Niederlassung",
+        "Möblierte Kurzzeitmieten für vorübergehende Aufenthalte",
+        "Immobilien in Großstädten und umzugsfreundlichen Regionen in ganz Schweden"
+      ]
+    },
+    "buyOrSell": {
+      "heading": "Immobilien kaufen oder verkaufen über autorisierte Immobilienmakler",
+      "subheading": "Sichere Transaktionen mit geprüfter und gesetzeskonformer Abwicklung",
+      "description": "Alle über unsere Plattform vermittelten Immobilienkäufe und -verkäufe werden ausschließlich durch autorisierte und registrierte Immobilienmakler in Schweden abgewickelt. Dies gewährleistet rechtliche Konformität, Transparenz und Schutz für Käufer und Verkäufer, insbesondere für internationale Kunden, die mit dem schwedischen Immobiliensystem nicht vertraut sind.",
+      "supportHeading": "Unsere Unterstützung umfasst in der Regel:",
+      "supportItems": [
+        "Immobilienauswahl basierend auf Budget, Lage und Zielen",
+        "Koordination von Besichtigungsterminen",
+        "Maklergeführter Kauf- oder Verkaufsprozess",
+        "Beratung zu Verträgen, Zeitplänen und Niederlassungsplanung"
+      ]
+    },
+    "shortTermRentals": {
+      "heading": "Möblierte Kurzzeitmieten in Schweden",
+      "subheading": "Ideale Wohnlösung für Neuankömmlinge und Firmenaufenthalte",
+      "description": "Möblierte Unterkünfte auf Zeit sind bei der Ankunft in Schweden oft die praktischste Lösung. Unsere Plattform bietet umzugsfertige, möblierte Wohnungen, geeignet für:",
+      "suitableFor": [
+        "Neuankömmlinge, die auf ihre Personennummer warten",
+        "Entsandte Mitarbeiter und projektbasierte Beschäftigte",
+        "Familien, die vor der Sicherung einer Langzeitwohnung anreisen",
+        "Personen im Übergang zwischen Städten oder Arbeitsstellen"
+      ],
+      "note": "Alle Immobilien werden geprüft, um praktischen Umzugsanforderungen und lokalen Wohnstandards zu entsprechen."
+    },
+    "longTermRentals": {
+      "heading": "Langzeitmieten und Wohnlösungen für die Niederlassung",
+      "subheading": "Ein strukturierter Übergang vom temporären zum dauerhaften Wohnen",
+      "intro": "Sobald Sie bereit sind, sich in Schweden niederzulassen, unterstützen wir Sie bei der Planung von Langzeitmieten, einschließlich:",
+      "items": [
+        "Verständnis der Mietanforderungen und Erwartungen der Vermieter",
+        "Mietbedingungen, Kündigungsfristen und Standardklauseln",
+        "Gebietsauswahl basierend auf Arbeitsweg, Schulen und Lebensstil",
+        "Vorbereitung des Einzugs und praktische Einrichtungshinweise"
+      ]
+    },
+    "whyChoose": {
+      "heading": "Warum Sweden Relocators für Ihre Immobilienunterstützung wählen",
+      "subheading": "Lokale Expertise kombiniert mit digitalem Komfort",
+      "intro": "Ein Umzug umfasst mehr als nur die Suche nach einem Zuhause. Er erfordert eine sorgfältige Abstimmung von Wohnsituation, rechtlichen Fristen und praktischen Vorkehrungen. Unser Ansatz kombiniert lokale Expertise mit einem strukturierten digitalen Prozess.",
+      "advantages": [
+        {
+          "title": "Zentrale Plattform",
+          "description": "Ein Portal zur Verwaltung von Wohnungsangelegenheiten, Kommunikation und Fortschritt"
+        },
+        {
+          "title": "Effiziente Koordination",
+          "description": "Effiziente Abstimmung von Besichtigungen und Einzugsbereitschaft"
+        },
+        {
+          "title": "Zeitliche Abstimmung",
+          "description": "Wohnungsunterstützung abgestimmt auf Einwanderungs- und Umzugsfristen"
+        },
+        {
+          "title": "Umfassende Begleitung",
+          "description": "Klare Unterstützung vom ersten Termin bis zur vollständigen Niederlassung"
+        }
+      ]
+    },
+    "digitalPortal": {
+      "heading": "Digitales Portal und mobile App",
+      "subheading": "Verwalten Sie Ihren Wohnprozess von überall auf der Welt",
+      "intro": "Über unser Online-Portal und unsere mobile Anwendung können Sie:",
+      "features": [
+        "Sich registrieren und Termine buchen",
+        "Wohn- und Umzugsfortschritt verfolgen",
+        "Dokumente sicher hochladen",
+        "Direkt mit Ihrem zuständigen Betreuungsteam kommunizieren",
+        "Alle Bestätigungen und Updates an einem Ort abrufen"
+      ],
+      "note": "Dies ist besonders wertvoll für Kunden, die außerhalb Schwedens umziehen oder Mitarbeiterumzüge aus der Ferne organisieren."
+    },
+    "corporateHousing": {
+      "heading": "Wohnlösungen für Unternehmen und Global Mobility",
+      "subheading": "Praktische Lösungen für Mitarbeiterumzüge und Firmenwohnungen",
+      "intro": "Wir unterstützen Unternehmen und HR-Teams durch:",
+      "services": [
+        "Temporäre Unterkünfte für das Onboarding von Mitarbeitern",
+        "Langfristige Wohnplanung für festangestellte Mitarbeiter",
+        "Optimierte Koordination zur Vermeidung von Verzögerungen",
+        "Ein zentraler Ansprechpartner über ein sicheres Portal"
+      ]
+    },
+    "getStarted": {
+      "heading": "Starten Sie Ihre Immobilienreise in Schweden",
+      "primaryCTA": "Registrieren Sie sich und entdecken Sie Ihre Wunschimmobilien",
+      "secondaryCTA": "Buchen Sie einen Termin und gehen Sie mit Vertrauen den nächsten Schritt",
+      "description": "Ob Sie eine möblierte Kurzzeitwohnung, Unterstützung bei Langzeitmieten oder Hilfe beim Kauf oder Verkauf über autorisierte Makler benötigen – Sweden Relocators strukturiert den Prozess und hält alles auf einer sicheren Plattform organisiert."
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "destinationServices": {
+    "hero": {
+      "title": "Zielservices in Schweden",
+      "subtitle": "Umfassende Umzugs- und Integrationslösungen"
+    },
+    "intro": {
+      "heading": "Dein kompletter Umzugspartner in Schweden",
+      "description": "Ein Umzug nach Schweden ist eine aufregende Reise, aber er ist mit Herausforderungen wie der Registrierung bei schwedischen Behörden, der Beantragung einer Personnummer, der Eröffnung eines Bankkontos, der Organisation von Wohnungen und der Integration in eine neue Kultur verbunden. Bei Sweden Relocators bieten wir umfassende Zielservices in Schweden für Einzelpersonen, Familien und Unternehmenskunden, um einen reibungslosen Übergang vom Moment Ihrer Ankunft bis zu Ihrer vollständigen Ansiedlung zu gewährleisten.",
+      "capabilities": "Unsere Ziellosungen umfassen Ankunfts- und Abreiseservices, Behördenregistrierungen, Stadtorientierung, Wohnungssuche, Integrationsunterstützung, Familienassistenz und Abreiseverwaltung. Ob Sie aus beruflichen Gründen, zum Studieren, zum Familiennachzug oder für Unternehmensentsendungen umziehen, unser Team macht den Umzugsprozess einfach, konform und stressfrei."
+    },
+    "coreServices": {
+      "heading": "Kern-Zielservices in Schweden",
+      "services": [
+        {
+          "title": "Ankunfts- und Abreiseunterstützung",
+          "details": [
+            "Vor-Ankunfts-Briefing – Anleitung zu Dokumenten, Wohnmöglichkeiten und ersten Schritten in Schweden.",
+            "Empfang und Begrüßung – Unterstützung an Flughäfen oder Verkehrsknotenpunkten für eine reibungslose Ankunft.",
+            "Vorübergehende Unterkunft – Unterstützung bei kurzfristigem Wohnen bei der Suche nach einem permanenten Zuhause.",
+            "Abreiseservices – umfassende Unterstützung beim Verlassen von Schweden, einschließlich Abmeldung, Mietvertragskündigung, Versandkoordination und Kontoschließung."
+          ]
+        },
+        {
+          "title": "Behördenregistrierung und rechtliche Compliance",
+          "details": [
+            "Personnummer-Unterstützung – Hilfe bei der Erlangung der schwedischen Personalidentifikationsnummer bei Skatteverket, die für Gesundheitswesen, Beschäftigung und tägliches Leben unerlässlich ist.",
+            "ID-Kartenantrag – Anleitung zur Beantragung des schwedischen Personalausweises, erforderlich für Bankgeschäfte und offizielle Ausweisungen.",
+            "BankID-Setup – Unterstützung bei Schwedens sicherem digitalen Identifikationssystem, notwendig für Online-Banking, Verträge und staatliche Dienste.",
+            "Steuerregistrierung und Koordinierungsnummern – Unterstützung bei der Samordningsnummer, Arbeitgeberregistrierungen und Anforderungen zum Steuerwohnsitz."
+          ]
+        },
+        {
+          "title": "Bank- und Finanzdienstleistungen",
+          "details": [
+            "Kontoöffnung – Koordination mit schwedischen Banken wie Swedbank, Handelsbanken, SEB und Nordea.",
+            "Digitalzahlungssetup – Anleitung zu Swish, Autogiro und Mobile-Banking-Lösungen.",
+            "Gehaltsumlagen – Gewährleistung eines reibungslosen Finanzaufbaus für Arbeitnehmer und Freiberufler."
+          ]
+        },
+        {
+          "title": "Wohnungs- und Stadtteilorientierung",
+          "details": [
+            "Wohnungsuchunterstützung – Unterstützung bei Mietverträgen und Käufen, die auf Ihre Bedürfnisse und Ihr Budget zugeschnitten sind.",
+            "Mietverhandlungen – Überprüfung und Verhandlung von Verträgen, um die Einhaltung des schwedischen Wohnungsrechts zu gewährleisten.",
+            "Stadtteilorientierung – geführte Stadtrundgänge mit Schwerpunkt auf Schulen, Gesundheitswesen, Einkaufen und öffentliche Verkehrsmittel.",
+            "Versorgungs- und Internetinstallation – Unterstützung bei der Registrierung von Strom, Internet, Versicherung und Abfallwirtschaft."
+          ]
+        },
+        {
+          "title": "Integrations- und Kulturunterstützung",
+          "details": [
+            "Stadtteilorientierungstouren – Unterstützung von Neuankömmlingen bei der Verständigung von lokalem Verkehr, Gesundheitssystemen und Gemeinderessourcen.",
+            "Kulturelle Schulung – Workshops und Ratschläge zu schwedischen Bräuchen, Arbeitsplatzkultur und sozialer Etikette.",
+            "Sprachlernunterstützung – Anleitung zur Anmeldung bei Swedish For Immigrants (SFI) und privaten Sprachschulen.",
+            "Gemeinschaft und Networking – Verbindungen zu Expat-Gruppen, Berufsverbänden und lokalen Netzwerken."
+          ]
+        },
+        {
+          "title": "Familien- und Schulunterstützung",
+          "details": [
+            "Schulsuche und Platzierung – Anleitung für internationale Schulen, Vorschulen und öffentliche Schulen.",
+            "Kinderbetreuungsunterstützung – Unterstützung bei der Anmeldung zu Kinderbetreuungs- und Vorschulprogrammen.",
+            "Familienintegrationsprogramme – Kulturelle Anpassungsunterstützung für Ehepartner und Kinder."
+          ]
+        }
+      ]
+    },
+    "corporateServices": {
+      "heading": "Zielservices für Unternehmen und Arbeitgeber",
+      "intro": "Für Unternehmen, die Mitarbeiter nach Schweden verlegen, bieten wir Corporate-Zielservices an, die Mobilität vereinfachen, administrative Belastung reduzieren und die Mitarbeiterzufriedenheit verbessern. Unsere Unternehmenslösungen umfassen:",
+      "services": [
+        "Vor-Einsatz-Beratung für HR und Mitarbeiter.",
+        "Koordinierung von Aufenthalts- und Arbeitsgenehmigungen mit Einwanderungsunterstützung.",
+        "Behördenregistrierungen und Compliance-Management.",
+        "Familienumzugsservices einschließlich Wohnung und Schulplatzierung.",
+        "Lohn-, Steuer- und Versicherungsberatung für Mitarbeiter.",
+        "Laufende integrations- und Mitarbeiterwellness-Unterstützung."
+      ],
+      "benefit": "Mit unserer Hilfe können sich Unternehmen auf ihre Geschäftsziele konzentrieren, während wir sicherstellen, dass Mitarbeiter und deren Familien reibungslos in Schweden ankommen."
+    },
+    "relocationJourney": {
+      "heading": "Beispiel Umzugsreise mit Sweden Relocators",
+      "stages": [
+        {
+          "title": "Vor der Ankunft",
+          "description": "Unterlagen vorbereitet, vorübergehende Unterkunft gesichert, Vor-Ankunfts-Briefing durchgeführt."
+        },
+        {
+          "title": "Ankunft",
+          "description": "Flughafenabholung, kurzfristige Unterbringung, erste Behördenregistrierungen."
+        },
+        {
+          "title": "Erster Monat",
+          "description": "Personnummer-Antrag, ID-Kartenantrag, Kontoeröffnung, Wohnungssuche, Schulanmeldungen."
+        },
+        {
+          "title": "Integrationsphase",
+          "description": "Kulturelle Orientierung, Netzwerkmöglichkeiten, SFI-Anmeldung, permanente Unterkunft gesichert."
+        },
+        {
+          "title": "Abreise (falls relevant)",
+          "description": "Abmeldung, Kontoschließungen, Mietvertragskündigung und Ausreisekoordination."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Warum uns wählen?",
+      "advantages": [
+        {
+          "title": "Umfassende Zielservices",
+          "description": "Abdeckung von Ankunft, Registrierung, Wohnung, Integration und Abreise."
+        },
+        {
+          "title": "Lokale Fachkompetenz",
+          "description": "Tiefe Kenntnisse über schwedische Behörden, Wohnungsmärkte und Rechtssysteme."
+        },
+        {
+          "title": "Maßgeschneiderte Lösungen",
+          "description": "Pakete für Einzelpersonen, Familien- und Unternehmensumzüge."
+        },
+        {
+          "title": "Mehrsprachige Unterstützung",
+          "description": "Unterstützung in Englisch, Schwedisch, Urdu, Arabisch, Punjabi, Persisch, Kurdisch, Serbisch und mehr."
+        },
+        {
+          "title": "End-to-End-Partner",
+          "description": "Eine Plattform für alle Ihre Umzugs- und Ansiedlungsbedürfnisse."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Erste Schritte mit Zielservices",
+      "description": "Senden Sie die Serviceanfrage über unser Portal. Egal ob Sie allein umziehen, mit Ihrer Familie umziehen oder ein Unternehmen, das Dienstleistungen für Mitarbeiter arrangiert, wählen Sie einfach die benötigten Zielservices aus, und unser Team kümmert sich um den Rest.",
+      "cta": "Zielservices anfordern"
+    }
+  }
+}

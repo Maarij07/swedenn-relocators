@@ -1,0 +1,114 @@
+{
+  "financialManagement": {
+    "hero": {
+      "title": "Finansielle Relokationstjenester",
+      "subtitle": "Flytt Pengene Dine Sikkert og Effektivt"
+    },
+    "intro": {
+      "heading": "Sikker Finansiell Forvaltning Over Grenser",
+      "description": "Å flytte til et nytt land innebærer mer enn bare visum og bolig—det krever også å flytte økonomi sikker og effektiv måte. I Sweden Relocators tilbyr vi en problemfri finansiell relokateringsservice, som gjør det lettere for enkeltpersoner, familier og selskaper å overføre penger, administrere multi-valuta-konti og håndtere store transaksjoner som eiendomskjøp eller investeringer.",
+      "closing": "Gjennom vårt sikre partnernettverk sikrer vi at din økonomiske relokering er kostnadseffektiv, fullstendig samsvarende og tilpasset dine spesifikke behov."
+    },
+    "whyMatters": {
+      "heading": "Hvorfor Finansiell Relokering Er Viktig",
+      "description": "Å flytte økonomi mellom land kan være komplisert. Tradisjonelle banker tar ofte høye gebyrer, skjulte marginer på valutakurser og lange behandlingstider. Sweden Relocators hjelper deg med å unngå disse problemene ved å tilby:",
+      "benefits": [
+        "Bedre valutakurser sammenlignet med standardbanker",
+        "Raske og sikre internasjonale overføringer til 120+ land",
+        "Spesialisert støtte for eiendomstransaksjoner, boliglån, avgifter for skolegang og erhvervssinvesteringer",
+        "Tilbakevendende betalingsalternativer for familier og selskaper",
+        "Full overholdelse av globale finansregler for sindsro"
+      ]
+    },
+    "services": {
+      "heading": "Våre Finansielle Relokationstjenester",
+      "intro": "Vi tilbyr skreddersydde løsninger som passer til ulike økonomiske behov:",
+      "items": [
+        {
+          "number": 1,
+          "title": "Internasjonale Pengeoverføringer",
+          "description": "Send midler over hele verden raskt og sikkert med transparente kurser og sanntidssporing."
+        },
+        {
+          "number": 2,
+          "title": "Store Overføringer for Eiendom og Investeringer",
+          "description": "Flytt store beløp sikkert for å kjøpe leilighet, villa eller forretningsrealiteter i Sverige eller utlandet, med dokumentasjonstøtte og etterlevelseskontroller."
+        },
+        {
+          "number": 3,
+          "title": "Multi-Valuta-konti",
+          "description": "Hold og administrer flere valutaer uten unødvendige konverteringstap, ideelt for globale fagfolk og selskaper."
+        },
+        {
+          "number": 4,
+          "title": "Vanlige og Tilbakevendende Betalinger",
+          "description": "Automatiser overføringer for undervisningsgebyrer, boliglån, lønninger eller familiebidrag med låste kurser for forutsigbare kostnader."
+        },
+        {
+          "number": 5,
+          "title": "Bedriftens Økonomiske Relokering",
+          "description": "Bedrifter kan administrere massiv lønnoverførsel, leverandørbetalinger og likviditetslösninger gjennom vår økonomiske relokateringsservice."
+        }
+      ]
+    },
+    "howWorks": {
+      "heading": "Hvordan Det Fungerer",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Legg Inn Din Forespørsel",
+          "description": "Logg inn på vår portal og send inn en økonomisk relokateringsforespørsel med detaljer som beløp, valuta og destinasjon."
+        },
+        {
+          "number": 2,
+          "title": "Direkte Kontakt Fra Vår Partner",
+          "description": "Etter at forespørselen din er innsendelse, kontakter en representant fra vårt finansielle partnerselskap deg direkte. De vil forklare tilgjengelige alternativer, gi et tilbud og veilede deg gjennom identitetsbekreftelse og etterlevelsestrinns."
+        },
+        {
+          "number": 3,
+          "title": "Sikker Overføring",
+          "description": "Når alt er bekreftet, sender du pengene dine til den sikre kontoen som er gitt, og overføringen utføres med sanntidssporing og bekreftelse."
+        },
+        {
+          "number": 4,
+          "title": "Løpende Støtte",
+          "description": "For ordinære betalinger, eiendomsrelaterte overføringer eller bedriftsbehov, fortsetter du med direkte arbeid med den økonomiske partneren, mens Sweden Relocators forblir ditt første kontaktpunkt."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Hvorfor Velge Sweden Relocators for Finansiell Relokering?",
+      "advantages": [
+        {
+          "title": "One-Stop Relokateringsløsning",
+          "description": "Bolig, immigrasjon og økonomisk relokering under en plattform."
+        },
+        {
+          "title": "Kostnadsbesparelser",
+          "description": "Tilgang til konkurransedyktige valutakurser og lavere gebyrer enn banker."
+        },
+        {
+          "title": "Sikker og Samsvarende",
+          "description": "Alle overføringer følger internasjonale regler med full fondsbeskyttelse."
+        },
+        {
+          "title": "Skreddersydd Støtte",
+          "description": "Designet for enkeltpersoner, familier og selskaper."
+        },
+        {
+          "title": "Rask og Pålitelig",
+          "description": "Unngå bankforsinkelser med effektiv oppgjør."
+        },
+        {
+          "title": "Global Rekkevidde",
+          "description": "Overfør midler til og fra Sverige, Danmark og 120+ destinasjoner."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Flytt Pengene Dine Med Tillit",
+      "description": "I Sweden Relocators sikrer vi at pengene dine flyttes like glatt som relokateringen din. Enten du overfører midler til et nytt hjem, skoleavgifter, forretningsdrift eller familiestøtte, sikrer vår økonomiske relokateringsservice sikkerhet, hastighet og besparelser.",
+      "cta": "Send inn forespørselen din i dag via vår portal. Når den er mottatt, vil en representant fra vårt pålitelige partnerselskap kontakte deg direkte for å fullføre prosessen."
+    }
+  }
+}

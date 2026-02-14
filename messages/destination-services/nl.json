@@ -1,0 +1,138 @@
+{
+  "destinationServices": {
+    "hero": {
+      "title": "Doellandservices in Zweden",
+      "subtitle": "Complete Verhuizing- en Integratieoplossingen"
+    },
+    "intro": {
+      "heading": "Uw Complete Verhuizingspartner in Zweden",
+      "description": "Verhuizing naar Zweden is een spannende reis, maar kent uitdagingen zoals registratie bij Zweedse autoriteiten, het verkrijgen van een persoonsnummer, het openen van een bankrekening, het zoeken naar een woning en integratie in een nieuwe cultuur. Sweden Relocators biedt complete doellandservices in Zweden voor personen, gezinnen en zakelijke klanten, wat een soepele overgang van aankomst tot volledige vestiging garandeert.",
+      "capabilities": "Onze doellandoplossingen dekken aankomst- en vertrekservices, registratie bij autoriteiten, stadsorientatie, woningzoeken, integratieondersteuning, gezinsondersteuning en vertrekbeheer. Of u verhuist voor werk, studie, gezinshereniging of toewijzing in het bedrijf, ons team maakt het verhuizingsproces eenvoudig, compliant en stresvrij."
+    },
+    "coreServices": {
+      "heading": "Belangrijkste Doellandservices in Zweden",
+      "services": [
+        {
+          "title": "Aankomst- en Vertrekondersteuning",
+          "details": [
+            "Pre-aankomstbriefing – advies over documenten, woonopties en eerste stappen in Zweden.",
+            "Ontvangsten en welkomstdiensten – hulp op luchthavens en vervoerscentra voor probleemloze aankomst.",
+            "Tijdelijke huisvesting – ondersteuning voor kortetemiijnwoningen terwijl u een permanente woning zoekt.",
+            "Vertrekservices – volledige hulp bij vertrek uit Zweden, inclusief inschrijving annulering, huurovereenkomstbeëindiging, verhuizingscoördinatie en rekeningsluiting."
+          ]
+        },
+        {
+          "title": "Registratie bij Autoriteiten en Juridische Naleving",
+          "details": [
+            "Persoonsnummerassistentie – hulp bij verkrijging van een Zweeds persoonsnummer bij Skatteverket, essentieel voor gezondheidszorg, werk en dagelijks leven.",
+            "Aanvraag identiteitskaart – richtlijnen voor aanvraag van een Zweedse identiteitskaart, vereist voor banktransacties en officiële identificatie.",
+            "BankID-installatie – ondersteuning voor Zweeds veilig digitaal identificatiesysteem, nodig voor internetbankieren, contracten en overheidsservices.",
+            "Belastingregistratie en coördinatienummers – hulp met samordningsnummer, werkgeversregistratie en belastingwoonplaatsaspekten."
+          ]
+        },
+        {
+          "title": "Bank- en Financiële Diensten",
+          "details": [
+            "Openen van een bankrekening – coördinatie met Zweedse banken als Swedbank, Handelsbanken, SEB en Nordea.",
+            "Digitale betalingsinstallatie – advies over Swish, Autogiro en mobiele bankingoplossingen.",
+            "Salarisoverschrijvingen en loonverwerking – zorg voor probleemloze financiële installatie voor werknemers en zelfstandigen."
+          ]
+        },
+        {
+          "title": "Huisvesting en Buurtoriëntatie",
+          "details": [
+            "Huiszoeken hulp – ondersteuning voor verhuur en aankopen aangepast aan uw behoeften en budget.",
+            "Huurovereenkomstonderhandeling – beoordeling en onderhandeling van contracten om naleving van Zweedse huisvestingswet te garanderen.",
+            "Buurtoriëntatie – rondleidingen die scholen, gezondheidszorg, winkels en openbaar vervoer benadrukken.",
+            "Diensten en internetinstallatie – hulp bij registratie van elektriciteit, internet, verzekeringen en afvalverwerking."
+          ]
+        },
+        {
+          "title": "Integratieondersteuning en Cultuur",
+          "details": [
+            "Stadsorientatorondleidingen – hulp voor nieuwkomers om lokaal vervoer, gezondheidssystemen en gemeenschapsmiddelen te begrijpen.",
+            "Culturele training – workshops en advies over Zweedse gewoonten, werkplekscultuur en sociaal gedrag.",
+            "Taalondersteuning – advies voor inschrijving in Zweeds voor immigranten (SFI) en particuliere taalsscholen.",
+            "Gemeenschap en netwerken – connectie met expat groepen, professionele verenigingen en lokale netwerken."
+          ]
+        },
+        {
+          "title": "Gezins- en Onderwijsondersteuning",
+          "details": [
+            "Schoolzoeken en plaatsing – richtlijnen voor internationale scholen, kleuterscholen en openbare scholen.",
+            "Kinderopvangassistentie – ondersteuning voor aanvragen voor kinderopvang- en kleuterschooljprogramma's.",
+            "Gezinsintegraatieprogrammas – ondersteuning voor culturele aanpassing voor echtgenoten en kinderen."
+          ]
+        }
+      ]
+    },
+    "corporateServices": {
+      "heading": "Doellandservices voor Bedrijven en Werkgevers",
+      "intro": "Voor bedrijven die werknemers naar Zweden verplaatsen, bieden we bedrijfs-doellandservices die mobiliteit vereenvoudigen, administratieve belasting verminderenBEN en werknemerstevredenheid verbeteren. Onze zakelijke oplossingen omvatten:",
+      "services": [
+        "Pre-toewijzingsconsultaties voor HR en werknemers.",
+        "Coördinatie van verblijfs- en werkvergunningen met migratieondersteuning.",
+        "Registratie bij autoriteiten en nalevingsbeheer.",
+        "Familiale verhuizingsservices, inclusief huisvesting en schoolplaatsing.",
+        "Advies over salarissen, belastingen en verzekeringen voor werknemers.",
+        "Voortdurende integratieondersteuning en werknemerswelzijn."
+      ],
+      "benefit": "Met onze hulp kunnen bedrijven zich richten op zakelijke doelstellingen terwijl we waarborgen dat werknemers en hun gezinnen probleemloze settelen in Zweden."
+    },
+    "relocationJourney": {
+      "heading": "Voorbeeld Verhuizingsreis met Sweden Relocators",
+      "stages": [
+        {
+          "title": "Voor Aankomst",
+          "description": "Documenten voorbereid, tijdelijke huisvesting georganiseerd, pre-aankomstbriefing gegeven."
+        },
+        {
+          "title": "Aankomst",
+          "description": "Luchthavenbeoordeling, kortetemiijnhuisvesting, eerste registraties bij autoriteiten."
+        },
+        {
+          "title": "Eerste Maand",
+          "description": "Persoonsnummeraanvraag, identiteitskaartsaanvraag, bankrokeningopening, huiszoeken, schoolaanvragen."
+        },
+        {
+          "title": "Integratief",
+          "description": "Culturele oriëntatie, netwerkingkansen, SFI-inschrijving, permanente huisvesting georganiseerd."
+        },
+        {
+          "title": "Vertrek (indien van toepassing)",
+          "description": "Registratie annulering, rekeningssluiting, huurovereenkomstbeëindiging en vertrekcoördinatie."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Waarom Ons Kiezen?",
+      "advantages": [
+        {
+          "title": "Complete Doellandservices",
+          "description": "Dekt aankomst, registratie, huisvesting, integratie en vertrek."
+        },
+        {
+          "title": "Lokale Expertise",
+          "description": "Diepe kennis van Zweedse autoriteiten, woningmarkten en rechtssystemen."
+        },
+        {
+          "title": "Aangepaste Oplossingen",
+          "description": "Pakketten voor individuele, gezins- en bedrijfsverhuizingen."
+        },
+        {
+          "title": "Meertalige Hulp",
+          "description": "Ondersteuning in Engels, Zweeds, Urdu, Arabisch, Punjabi, Perzisch, Koerdisch, Servisch en meer."
+        },
+        {
+          "title": "Partner van Begin tot Einde",
+          "description": "Één platform voor alle verhuizings- en vestigingsbehoeften."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Begin met Doellandservices",
+      "description": "Dien een serviceaanvraag in via ons portaal. Of u nu alleen, met uw gezin of als bedrijf dat services voor werknemers organiseert verhuist, kies eenvoudig de doellandservices die u nodig hebt en ons team regelt de rest.",
+      "cta": "Doellandservices Aanvragen"
+    }
+  }
+}

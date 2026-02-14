@@ -1,0 +1,59 @@
+{
+  "bookkeepingSolutions": {
+    "hero": {
+      "title": "Bokföringslösningar",
+      "subtitle": "Komplett Bokföring Gjord Enkel"
+    },
+    "intro": {
+      "heading": "Förenklad Ekonomisk Förvaltning för Sverige",
+      "description": "Bokföring och redovisning i Sverige kan vara komplicerad, särskilt för företag med internationell personal, flera affärsverksamheter eller relokationsfall. Sweden Relocators tillhandahåller en komplett bokföringslösning genom vår säkra onlineportal och mobilapp, vilket ger privatpersoner, familjer och företag ett enkelt sätt att hantera all ekonomisk och efterlevnad av regler på ett ställe.",
+      "commitment": "Från månatlig bokföring och utgiftsspårning till lönespecifikationer, anställningsregister och Skatteverkets deklarationer, säkerställer vi att din ekonomi är korrekt, transparent och helt i enlighet med svenska lagstiftningar."
+    },
+    "whyMatters": {
+      "heading": "Varför Bokföring Är Viktig i Sverige",
+      "description": "Sverige har ett transparent men mycket reglerat finansiellt system. Varje företag, från ett litet startup till ett multinationellt företag, måste föra korrekt bokföring i enlighet med Bokföringslagen och andra relevanta skattelagar.",
+      "risks": [
+        "Skattebötter från Skatteverket",
+        "Juridiska risker relaterade till ofullständig rapportering",
+        "Förseningar i löneutbetalning och förmånbehandling",
+        "Utmaningar i revisioner och ekonomiska granskningar"
+      ],
+      "closing": "Vår bokföringstjänst löser dessa utmaningar genom att kombinera professionell expertis med teknik, vilket gör det enkelt att uppfylla dina månatliga, kvartalsvisa och årliga skyldigheter."
+    },
+    "getStarted": {
+      "heading": "Hur man Kommer Igång",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registrera dig på Vår Portal",
+          "description": "Registrera dig som individ eller företag."
+        },
+        {
+          "number": 2,
+          "title": "Ladda upp Dokument Månadsvis",
+          "description": "Skicka in fakturor, kontrakt och kvitton direkt online."
+        },
+        {
+          "number": 3,
+          "title": "Automatiserad Bokföring",
+          "description": "Vi bearbetar löner, bokföring och deklarationer."
+        },
+        {
+          "number": 4,
+          "title": "Få Rapporter och Lönespecifikationer",
+          "description": "Få tillgång till digitala lönespecifikationer, skattedklarationer och ekonomiska rapporter när som helst."
+        },
+        {
+          "number": 5,
+          "title": "Sitt Uppdaterad",
+          "description": "Vi säkerställer att dina register uppfyller svenska och EU-krav."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Förenkla Din Bokföring Idag",
+      "description": "Sluta oroa dig över regelefterlevnad och fokusera på att växa ditt företag. Låt Sweden Relocators hantera din bokföring, löner och ekonomisk förvaltning.",
+      "cta": "Registrera dig idag och få en kostnadsfri konsultation med våra bokföringsexperter. Börja hantera din svenska ekonomi effektivt!"
+    }
+  }
+}

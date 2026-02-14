@@ -1,0 +1,190 @@
+{
+  "appealCases": {
+    "hero": {
+      "title": "Appeal Process in Sweden",
+      "subtitle": "How to Challenge Residence Permit, Visa, and Citizenship Denials"
+    },
+    "intro": {
+      "heading": "Understanding Your Right to Appeal",
+      "description": "If your application for a residence permit, work permit, family reunification, business visa, study permit, permanent residence, or Swedish citizenship has been denied, you still have legal options. Under Swedish immigration law, every applicant has the right to appeal. An appeal gives you the chance to provide new evidence, correct mistakes, and request a review by either the Swedish Migration Agency (Migrationsverket) or the courts.\n\nAt Sweden Relocators, we provide professional appeal support to individuals, families, and companies. Our case study approach, grounded in Utlänningslagen (Aliens Act, 2005:716), EU law, and international conventions, ensures every appeal is built on strong legal and factual arguments."
+    },
+    "yourRights": {
+      "heading": "Your Rights After a Refusal",
+      "rights": [
+        {
+          "title": "Right to Reconsideration by Migrationsverket",
+          "description": "If your denial is based on minor issues such as missing documents, financial proof, or unclear explanations, Migrationsverket can reverse its decision after reconsideration."
+        },
+        {
+          "title": "Right to Appeal to the Administrative Court",
+          "description": "If Migrationsverket upholds its decision, your appeal is automatically forwarded to the Administrative Court (Förvaltningsrätten) in Gothenburg, which conducts an independent review."
+        },
+        {
+          "title": "Right to Further Appeal",
+          "description": "If the Administrative Court rejects your appeal, in certain cases you can request leave to appeal to the Migration Court of Appeal (Migrationsöverdomstolen). This court only accepts cases of general legal importance to set future precedents."
+        }
+      ]
+    },
+    "reviewProcess": {
+      "heading": "How Swedish Authorities Review Appeals",
+      "intro": "When you appeal, the decision is reviewed in a structured legal process. Understanding how authorities evaluate appeals is essential, because success depends on both documents and legal reasoning.",
+      "stages": [
+        {
+          "number": 1,
+          "title": "Reconsideration by Migrationsverket",
+          "questions": [
+            "Was the appeal filed within the 3-week deadline?",
+            "Are there new documents, financial records, or family evidence?",
+            "Does the updated case now fulfill legal requirements?"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Administrative Court Review",
+          "description": "Independent legal review, not bound by Migrationsverket's decision.",
+          "questions": [
+            "Was the refusal consistent with Utlänningslagen?",
+            "Were EU rules like Directive 2004/38/EC (free movement) applied?",
+            "Were human rights, such as Article 8 ECHR (family life), respected?",
+            "Were integration and humanitarian circumstances considered?"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Migration Court of Appeal",
+          "description": "Only for cases of wider importance. Establishes precedents that guide future migration cases in Sweden."
+        }
+      ]
+    },
+    "howWeHelp": {
+      "heading": "How Sweden Relocators Prepares Your Appeal",
+      "intro": "We treat every appeal as a complete legal case study, focusing on evidence, law, and precedents.",
+      "steps": [
+        {
+          "title": "Case Analysis",
+          "description": "Study the refusal letter in detail. Identify which legal grounds were used to deny the application. Compare with Utlänningslagen provisions, EU law, and court precedents."
+        },
+        {
+          "title": "Scenario Mapping",
+          "description": "Can financial shortfalls be fixed with updated income proof or guarantors? Can housing or integration evidence strengthen the case? Can human rights law override the refusal in family-related matters?"
+        },
+        {
+          "title": "Evidence Gathering",
+          "description": "Updated tax returns, payslips, housing agreements, employment records. Proof of relationship, school or integration participation, language courses. Humanitarian evidence such as medical records or dependency factors."
+        },
+        {
+          "title": "Legal Argumentation",
+          "description": "Utlänningslagen 2005:716 – core provisions for family, work, and humanitarian grounds. Förarbeten (preparatory works) – clarifying legislative intent. EU law – including Directive 2004/38/EC on family rights. Article 8 ECHR – right to family and private life. Migrationsöverdomstolen precedents – guiding how laws are applied."
+        },
+        {
+          "title": "Appeal Letter Drafting",
+          "description": "Written in professional Swedish or English. Each refusal point answered with law and supporting evidence. A strong, persuasive narrative showing why the case meets legal requirements."
+        },
+        {
+          "title": "Court Representation and Follow-Up",
+          "description": "We manage all submissions and communication with the court. Represent you professionally in Förvaltningsrätten if required. Ensure deadlines are met and provide regular updates."
+        }
+      ]
+    },
+    "commonCases": {
+      "heading": "Common Cases We Handle",
+      "cases": [
+        "Family Reunification Denials – income or housing not accepted, doubts about the relationship",
+        "Work Permit Refusals – employer non-compliance, insurance issues, incorrect employment terms",
+        "Study Permit Refusals – insufficient financial documentation, doubts about genuine study purpose",
+        "Permanent Residence or Citizenship Refusals – conduct issues, residence gaps, or unclear documentation",
+        "Schengen and Visit Visa Refusals – unclear travel purpose, weak return ties, or lack of funds"
+      ]
+    },
+    "timelines": {
+      "heading": "Timelines for Appeals",
+      "items": [
+        {
+          "label": "Reconsideration by Migrationsverket",
+          "time": "within weeks"
+        },
+        {
+          "label": "Forwarding to the Administrative Court",
+          "time": "usually 1 month"
+        },
+        {
+          "label": "Court decisions",
+          "time": "several months, depending on case complexity"
+        },
+        {
+          "label": "Higher appeals",
+          "time": "can extend the process significantly"
+        }
+      ]
+    },
+    "whyWorks": {
+      "heading": "Why Our Case Study Approach Works",
+      "intro": "Most appeals fail because applicants simply resend old documents. Sweden Relocators builds appeals on facts, law, and precedents, addressing weaknesses directly.",
+      "reasons": [
+        "We demonstrate how the original decision was flawed",
+        "We provide evidence that requirements are now met",
+        "We anticipate counter-arguments and prepare responses"
+      ],
+      "conclusion": "This systematic preparation increases the likelihood of success."
+    },
+    "faqs": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How long do I have to appeal a refusal in Sweden?",
+          "a": "You have 3 weeks from the date you received the decision to file your appeal."
+        },
+        {
+          "q": "Can I add new documents in my appeal?",
+          "a": "Yes. Submitting new financial records, housing contracts, or family evidence can significantly strengthen your case."
+        },
+        {
+          "q": "What happens if Migrationsverket rejects my appeal?",
+          "a": "The case is automatically forwarded to the Administrative Court (Förvaltningsrätten) in Gothenburg for independent review."
+        },
+        {
+          "q": "Can every case go to the Migration Court of Appeal?",
+          "a": "No. Only cases of general legal importance are accepted. These create precedents for future decisions."
+        },
+        {
+          "q": "What are the most common reasons for permit denials?",
+          "a": "Missing documents, insufficient financial proof, employer compliance issues, unclear family evidence, or doubts about intention to stay legally in Sweden."
+        },
+        {
+          "q": "How long does the full appeal process take?",
+          "a": "It varies. A simple reconsideration can be resolved within weeks, while a full court process may take several months or more."
+        },
+        {
+          "q": "Do I need a lawyer to appeal?",
+          "a": "You are not required to hire a lawyer, but professional assistance increases your chances of success. At Sweden Relocators, we provide expert representation tailored to your case."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Why Choose Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Expertise in Swedish Immigration Law",
+          "description": "Specialists in appeals under Utlänningslagen, EU law, and ECHR"
+        },
+        {
+          "title": "Proven Success",
+          "description": "We have overturned denials in family, work, and citizenship cases"
+        },
+        {
+          "title": "Comprehensive Case Handling",
+          "description": "From appeal drafting to court representation"
+        },
+        {
+          "title": "Personalized Support",
+          "description": "Each case is prepared as a unique legal study"
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Final Note and Disclaimer",
+      "note": "Appealing a negative migration decision in Sweden is complex but not impossible. With the right preparation, many refusals can be reversed. Whether your issue is financial, documentary, or legal, you have the right to request reconsideration and court review.",
+      "disclaimer": "This content is for knowledge purposes only and updated as of 23 September 2025. Swedish immigration laws change frequently. For the latest and most accurate information, always consult the official website of the Swedish Migration Agency (Migrationsverket) if you are planning to handle an appeal yourself."
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "housing": {
+    "hero": {
+      "title": "Bostadslösningar i Sverige",
+      "subtitle": "med Sweden Relocators"
+    },
+    "intro": {
+      "heading": "Din Partner i Bostadssökningen i Sverige",
+      "description": "Att hitta ett hem är ett av de viktigaste stegen när du flyttar till Sverige. Oavsett om du flyttar ensam, med din familj, för med dig anställda som företag eller hanterar fastigheter som bostadsleverantör, skapar den rätta bostadslösningen grunden för en smidig omflyttning.",
+      "platform": "I Sweden Relocators kombinerar vi många års erfarenhet av omflyttning med en modern digital plattform som förbinder hyresgäster, företag och bostadsleverantörer på en plats. Våra tjänster går bortom hyresor och köp—vi erbjuder korttidshyra, långtidshyra, fastighetsförsäljning, bolånestöd och professionella fastighetsmäklingstjänster. På så sätt kan individer, familjer och organisationer hantera sin hela bostudsresa genom en enda, säker portal."
+    },
+    "forIndividuals": {
+      "heading": "Bostad för Individer och Familjer",
+      "intro": "Att flytta som individ eller familj kan kännas överväldigande. Från tillfälliga bostadsplatser till permanenta hem säkerställer Sweden Relocators att du har tillförlitliga alternativ vid varje steg.",
+      "services": [
+        {
+          "title": "Korttidshyra",
+          "description": "Korttidsbostäder är utformade för människor som behöver en plats att bo omedelbar efter ankomst till Sverige. Dessa fastigheter är vanligtvis möblerade och redo att flytta in, vilket gör dem perfekta för utlänningar som väntar på att långtidskontrakt startar, studenter som börjar sina kurser och familjer som behöver ett tillfälligt hem medan de köper eller hyr permanent.",
+          "features": [
+            "Kontrollera tillgängligheten i realtid",
+            "Granska detaljerad fastighetsinformation",
+            "Signera verifierade hyrekontrakt digitalt"
+          ]
+        },
+        {
+          "title": "Långtidshyra",
+          "description": "Om du planerar att stanna i Sverige under längre tid erbjuder vi tillgång till lägenheter, villor, delat boende och bostäder i hela landet. Alla kontrakt uppfyller helt svensk hyreslagstiftning och alla våra listor är verifierade för säkerhet och kvalitet.",
+          "features": [
+            "Familjevänliga villor nära skolor",
+            "Moderna lägenheter i stadskärnan",
+            "Verifierade listor för säkerhet och kvalitet",
+            "Fullt överensstämmande svenska hyrekontrakt"
+          ]
+        },
+        {
+          "title": "Köp och Försäljning av Fastigheter",
+          "description": "Många nyanlända bestämmer sig för att köpa en fastighet när de bosatt sig. Sweden Relocators förbinder dig med licensierade fastighetsmäklare som hanterar köp- och försäljningsprocessen från början till slut.",
+          "features": [
+            "Köp lägenheter, villor eller investeringsfastigheter",
+            "Sälj din fastighet till en global publik",
+            "Slutför transaktioner lagligt och säkert med fullständig vägledning"
+          ]
+        },
+        {
+          "title": "Bolånestöd och Finansiellt Stöd",
+          "description": "Att köpa fastigheter i Sverige kräver ofta lokalt bolånestöd. För utlänningar kan denna process vara komplex. Vi tillhandahåller omfattande assistans under hela bolånejournesen.",
+          "features": [
+            "Bolånegodkännande på förhand",
+            "Bankansökan och erforderliga handlingar",
+            "Vägledning om svenska utlåningsregler och inkomstkrav",
+            "Finansiell planering för återbetalnings- och investeringsstrategier"
+          ]
+        }
+      ]
+    },
+    "forEmployers": {
+      "heading": "Bostadslösningar för Arbetsgivare och Företag",
+      "intro": "Företag som förflyttar anställda behöver tillförlitlig bostad för att säkerställa att personalen mår bra och känner sig säker från dag ett. Sweden Relocators erbjuder företagsbostadslösningar som förenklar denna process.",
+      "services": [
+        "Skicka in bostadsansökningar för anställda genom vår digitala portal",
+        "Välj mellan lägenheter, möblerade hem och företagsbostäder",
+        "Hantera flera anställda och kontrakt på en plattform",
+        "Integrera bostad med andra flyttningsserviceresurser såsom ID-registrering, bankkontoöppning och ankomstorientering"
+      ],
+      "ideal": "Denna tjänst är idealisk för multinationella företag, personalförsäljningsbyråer, universitet och NGO:er. Genom att hantera bostad centralt sparar företag tid, minskar risken och ger anställda en smidig övergång till svenskt liv."
+    },
+    "forProviders": {
+      "heading": "Bostadsleverantörer och Fastighetsbolag",
+      "intro": "Vår plattform fungerar också som en portal för hyresvärdar, bostadsbolag och fastighetslevantörer som vill lista sina fastigheter. Genom att samarbeta med Sweden Relocators får du tillgång till verifierade hyresgäster, inklusive utlänningar, studenter, yrkesverksamma och företagskunder.",
+      "process": {
+        "heading": "Hur du Listar dina Fastigheter",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Registrera dig som Bostadspartner",
+            "description": "Skapa ett konto på vår portal."
+          },
+          {
+            "number": 2,
+            "title": "Ladda upp Annonser",
+            "description": "Lägg till lägenheter, villor, delat boende eller företagsbostäder med beskrivningar, bilder och priser."
+          },
+          {
+            "number": 3,
+            "title": "Ange Villkor",
+            "description": "Välj mellan korttidshyra, långtidshyra eller företagsbostäder."
+          },
+          {
+            "number": 4,
+            "title": "Få Verifierade Hyresgäster",
+            "description": "Vi förbinder dig med pålitliga hyresgäster, från individer till företag."
+          },
+          {
+            "number": 5,
+            "title": "Hantera Online",
+            "description": "Använd vår portal för kontrakt, förnyelser och betalningsspårning."
+          }
+        ]
+      },
+      "benefits": {
+        "heading": "Fördelar med att Lista hos oss",
+        "items": [
+          "Exponering för internationella och företagskunder",
+          "Hyresgästkontroll och juridiskt korrekta hyrekontrakt",
+          "Tillgång till företag som behöver anställdebostäder",
+          "Fullständig integrering med våra omflyttningsserviceresurser för ökad synlighet",
+          "Möjlighet att markera listor som korttidshyra för flexibel hyresgästacceptans"
+        ]
+      }
+    },
+    "whyChooseUs": {
+      "heading": "Varför välja Sweden Relocators för Bostad?",
+      "advantages": [
+        {
+          "title": "Individer och Familjer",
+          "description": "Verifierade hyresor, säkra kontrakt, fastighetsköp och bolånestöd."
+        },
+        {
+          "title": "Företag",
+          "description": "Bulkbostadshantering, omflyttningsintegrering och företagsbostäder."
+        },
+        {
+          "title": "Bostadsleverantörer",
+          "description": "Tillgång till globala omkflyttningskunder, företagspartnerskap och säker hyresgästmatchning."
+        },
+        {
+          "title": "Alla Fastighetstyper",
+          "description": "Lägenheter, villor, delat boende, samboende och investeringsfastigheter."
+        },
+        {
+          "title": "Professionella Mäklare",
+          "description": "Registrerade fastighetsexperter för fastighetsförsäljning och köp."
+        },
+        {
+          "title": "End-to-End-plattform",
+          "description": "Hantera förfrågningar, bokningar och listor på en plats."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Börja med Sweden Relocators",
+      "description": "Oavsett om du letar efter korttidshyra, planerar ett långtistay, köper eller säljer fastigheter eller listar bostad som leverantör, gör Sweden Relocators processen transparent, säker och effektiv.",
+      "cta": "Skicka in din bostadsansökan eller registrera din fastighet på vår portal idag. Lat Sweden Relocators matcha dig med rätt bostadslösning i Sverige."
+    }
+  }
+}

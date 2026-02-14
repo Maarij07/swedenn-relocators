@@ -1,0 +1,190 @@
+{
+  "appealCases": {
+    "hero": {
+      "title": "Muutoksenhakuprosessi Ruotsissa",
+      "subtitle": "Kuinka valittaa oleskeluluvan, viisumin ja kansalaisuuden hylkäyksistä"
+    },
+    "intro": {
+      "heading": "Ymmärrä oikeutesi valittaa",
+      "description": "Jos hakemuksesi oleskelulupaa, työlupaa, perheenyhdistämistä, liiketoimintaviisumia, opiskelulupaa, pysyvää oleskelulupaa tai Ruotsin kansalaisuutta varten on hylätty, sinulla on edelleen oikeudellisia vaihtoehtoja. Ruotsin ulkomaalaislain mukaan jokaisella hakijalla on oikeus valittaa. Valitus antaa sinulle mahdollisuuden toimittaa uusia todisteita, korjata virheitä ja pyytää päätöksen uudelleentarkastelua Ruotsin maahanmuuttovirastolta (Migrationsverket) tai tuomioistuimelta.\n\nSweden Relocators tarjoaa ammattimaista valitusapua yksityishenkilöille, perheille ja yrityksille. Tapaustutkimukseen perustuva lähestymistapamme, joka pohjautuu ulkomaalaislakiin (Utlänningslagen 2005:716), EU-oikeuteen ja kansainvälisiin sopimuksiin, varmistaa, että jokainen valitus rakennetaan vahvoille oikeudellisille ja tosiasiallisille perusteille."
+    },
+    "yourRights": {
+      "heading": "Oikeutesi hylkäyksen jälkeen",
+      "rights": [
+        {
+          "title": "Oikeus uudelleenkäsittelyyn Migrationsverketissa",
+          "description": "Jos hylkäys perustuu vähäisiin puutteisiin, kuten puuttuviin asiakirjoihin, riittämättömään taloudelliseen selvitykseen tai epäselviin tietoihin, Migrationsverket voi muuttaa päätöstään uudelleenkäsittelyn jälkeen."
+        },
+        {
+          "title": "Oikeus valittaa hallinto-oikeuteen",
+          "description": "Jos Migrationsverket pitää päätöksensä voimassa, valituksesi siirretään automaattisesti hallinto-oikeuteen (Förvaltningsrätten) Göteborgissa riippumatonta käsittelyä varten."
+        },
+        {
+          "title": "Oikeus jatkovalitukseen",
+          "description": "Jos hallinto-oikeus hylkää valituksesi, voit tietyissä tapauksissa hakea valituslupaa maahanmuuttoasioiden muutoksenhakutuomioistuimelta (Migrationsöverdomstolen). Tämä tuomioistuin käsittelee vain yleisesti merkittäviä oikeudellisia kysymyksiä, jotka luovat ennakkopäätöksiä."
+        }
+      ]
+    },
+    "reviewProcess": {
+      "heading": "Miten Ruotsin viranomaiset käsittelevät valituksia",
+      "intro": "Kun teet valituksen, päätös tarkastellaan jäsennellyssä oikeudellisessa prosessissa. On tärkeää ymmärtää, miten viranomaiset arvioivat valituksia, sillä menestys riippuu sekä asiakirjoista että oikeudellisesta perustelusta.",
+      "stages": [
+        {
+          "number": 1,
+          "title": "Uudelleenkäsittely Migrationsverketissa",
+          "questions": [
+            "Onko valitus tehty 3 viikon määräajassa?",
+            "Onko toimitettu uusia asiakirjoja, taloudellisia selvityksiä tai perhettä koskevia todisteita?",
+            "Täyttääkö päivitetty hakemus nyt lain vaatimukset?"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Hallinto-oikeuden käsittely",
+          "description": "Riippumaton oikeudellinen tarkastelu, joka ei ole sidottu Migrationsverketin päätökseen.",
+          "questions": [
+            "Oliko hylkäys ulkomaalaislain (Utlänningslagen) mukainen?",
+            "Sovellettiinko EU-sääntöjä, kuten direktiiviä 2004/38/EY (vapaa liikkuvuus)?",
+            "Kunnioitettiinko ihmisoikeuksia, kuten EIS 8 artiklaa (perhe-elämä)?",
+            "Otettiinko huomioon kotoutuminen ja humanitaariset olosuhteet?"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Maahanmuuttoasioiden muutoksenhakutuomioistuin",
+          "description": "Käsittelee vain laajemmin merkittäviä tapauksia ja antaa ennakkopäätöksiä, jotka ohjaavat tulevia maahanmuuttoasioita Ruotsissa."
+        }
+      ]
+    },
+    "howWeHelp": {
+      "heading": "Miten Sweden Relocators valmistelee valituksesi",
+      "intro": "Käsittelemme jokaisen valituksen kokonaisvaltaisena oikeudellisena tapaustutkimuksena, keskittyen todisteisiin, lainsäädäntöön ja ennakkopäätöksiin.",
+      "steps": [
+        {
+          "title": "Tapausanalyysi",
+          "description": "Tutkimme hylkäyskirjeen yksityiskohtaisesti. Selvitämme, mihin oikeudellisiin perusteisiin päätös perustuu, ja vertaamme niitä ulkomaalaislakiin, EU-oikeuteen ja oikeuskäytäntöön."
+        },
+        {
+          "title": "Skenaarioiden kartoitus",
+          "description": "Voidaanko taloudelliset puutteet korjata uusilla tulotodistuksilla tai takaajilla? Voivatko asumis- tai kotoutumistodisteet vahvistaa tapausta? Voiko ihmisoikeuslainsäädäntö syrjäyttää hylkäyksen perheasioissa?"
+        },
+        {
+          "title": "Todisteiden kerääminen",
+          "description": "Päivitetyt veroilmoitukset, palkkalaskelmat, vuokrasopimukset ja työsopimukset. Todisteet perhesuhteesta, opiskelusta tai kielikursseista. Humanitaariset todisteet, kuten lääkärintodistukset."
+        },
+        {
+          "title": "Oikeudellinen argumentointi",
+          "description": "Utlänningslagen 2005:716 – keskeiset säännökset perhe-, työ- ja humanitaarisista perusteista. Förarbeten – lainsäätäjän tarkoituksen selventäminen. EU-oikeus – mukaan lukien direktiivi 2004/38/EY. EIS 8 artikla – oikeus perhe- ja yksityiselämään. Migrationsöverdomstolenin ennakkopäätökset."
+        },
+        {
+          "title": "Valituskirjelmän laatiminen",
+          "description": "Laaditaan ammattimaisesti ruotsiksi tai englanniksi. Jokainen hylkäysperuste käsitellään oikeudellisesti ja todisteisiin perustuen. Rakennetaan vakuuttava ja selkeä kokonaisuus."
+        },
+        {
+          "title": "Edustaminen ja seuranta",
+          "description": "Huolehdimme kaikista toimituksista ja yhteydenpidosta tuomioistuimen kanssa. Edustamme sinua hallinto-oikeudessa tarvittaessa ja varmistamme määräaikojen noudattamisen."
+        }
+      ]
+    },
+    "commonCases": {
+      "heading": "Yleiset tapaukset, joita käsittelemme",
+      "cases": [
+        "Perheenyhdistämisen hylkäykset – tulot tai asuminen eivät täytä vaatimuksia, epäilyt suhteesta",
+        "Työlupahylkäykset – työnantajan laiminlyönnit, vakuutusongelmat tai virheelliset työsuhde-ehdot",
+        "Opiskelulupahylkäykset – puutteelliset taloudelliset selvitykset tai epäily opiskelun tarkoituksesta",
+        "Pysyvän oleskeluluvan tai kansalaisuuden hylkäykset – käytösasiat tai asumiskatkokset",
+        "Schengen- ja vierailuviisumien hylkäykset – epäselvä matkustustarkoitus tai riittämättömät varat"
+      ]
+    },
+    "timelines": {
+      "heading": "Valitusten aikataulut",
+      "items": [
+        {
+          "label": "Uudelleenkäsittely Migrationsverketissa",
+          "time": "muutamassa viikossa"
+        },
+        {
+          "label": "Siirto hallinto-oikeuteen",
+          "time": "yleensä noin 1 kuukausi"
+        },
+        {
+          "label": "Tuomioistuimen päätökset",
+          "time": "useita kuukausia tapauksen monimutkaisuudesta riippuen"
+        },
+        {
+          "label": "Jatkovalitukset",
+          "time": "voivat pidentää prosessia merkittävästi"
+        }
+      ]
+    },
+    "whyWorks": {
+      "heading": "Miksi tapauslähtöinen lähestymistapamme toimii",
+      "intro": "Useimmat valitukset epäonnistuvat, koska samat asiakirjat toimitetaan uudelleen. Sweden Relocators rakentaa valitukset faktojen, lain ja ennakkopäätösten varaan.",
+      "reasons": [
+        "Osoitamme, miksi alkuperäinen päätös oli virheellinen",
+        "Toimitamme todisteet siitä, että vaatimukset nyt täyttyvät",
+        "Ennakoimme vastaväitteet ja valmistelemme vastaukset"
+      ],
+      "conclusion": "Tämä järjestelmällinen valmistelu lisää onnistumisen todennäköisyyttä."
+    },
+    "faqs": {
+      "heading": "Usein kysytyt kysymykset",
+      "items": [
+        {
+          "q": "Kuinka kauan minulla on aikaa valittaa Ruotsissa?",
+          "a": "Sinulla on 3 viikkoa päätöksen vastaanottamisesta valituksen tekemiseen."
+        },
+        {
+          "q": "Voinko lisätä uusia asiakirjoja valitukseen?",
+          "a": "Kyllä. Uusien taloudellisten tai asumista koskevien asiakirjojen toimittaminen voi vahvistaa tapaustasi merkittävästi."
+        },
+        {
+          "q": "Mitä tapahtuu, jos Migrationsverket hylkää valitukseni?",
+          "a": "Asia siirretään automaattisesti Göteborgin hallinto-oikeuteen riippumatonta käsittelyä varten."
+        },
+        {
+          "q": "Voiko jokainen tapaus edetä muutoksenhakutuomioistuimeen?",
+          "a": "Ei. Vain yleisesti merkittävät oikeudelliset tapaukset hyväksytään käsiteltäviksi."
+        },
+        {
+          "q": "Mitkä ovat yleisimmät hylkäyssyyt?",
+          "a": "Puuttuvat asiakirjat, riittämätön taloudellinen selvitys tai epäily laillisesta oleskelutarkoituksesta."
+        },
+        {
+          "q": "Kuinka kauan koko valitusprosessi kestää?",
+          "a": "Yksinkertainen uudelleenkäsittely voi ratketa viikoissa, kun taas täysi oikeusprosessi voi kestää useita kuukausia tai pidempään."
+        },
+        {
+          "q": "Tarvitsenko lakimiehen valitusta varten?",
+          "a": "Lakimies ei ole pakollinen, mutta ammatillinen apu parantaa onnistumismahdollisuuksia."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Miksi valita Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Asiantuntemus Ruotsin maahanmuuttolaissa",
+          "description": "Erikoistuneet valituksiin ulkomaalaislain, EU-oikeuden ja EIS:n perusteella"
+        },
+        {
+          "title": "Todistettu menestys",
+          "description": "Olemme kumonneet hylkäyksiä perhe-, työ- ja kansalaisuusasioissa"
+        },
+        {
+          "title": "Kokonaisvaltainen tapausten hoito",
+          "description": "Valituksen laatimisesta tuomioistuinedustukseen"
+        },
+        {
+          "title": "Henkilökohtainen tuki",
+          "description": "Jokainen tapaus valmistellaan yksilöllisenä oikeudellisena kokonaisuutena"
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Loppuhuomautus ja vastuuvapauslauseke",
+      "note": "Kielteisen maahanmuuttopäätöksen valittaminen Ruotsissa on monimutkaista mutta ei mahdotonta. Oikealla valmistelulla monet hylkäykset voidaan kumota.",
+      "disclaimer": "Tämä sisältö on tarkoitettu vain tiedoksi ja päivitetty 23. syyskuuta 2025. Ruotsin maahanmuuttolainsäädäntö muuttuu usein. Ajantasaisimmat tiedot löydät Migrationsverketin viralliselta verkkosivustolta."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "bookkeepingSolutions": {
+    "hero": {
+      "title": "Bogføringløsninger",
+      "subtitle": "Fuldstændig Bogføring Gjort Enkel"
+    },
+    "intro": {
+      "heading": "Forenklet Økonomisk Ledelse for Sverige",
+      "description": "Bogføring og regnskab i Sverige kan være kompleks, især for virksomheder med internationale medarbejdere, flere forretningsaktiviteter eller flytningssager. Sweden Relocators giver en komplet bogføringsloesung gennem vores sikre online-portal og mobilapp, som giver enkeltpersoner, familier og virksomheder en nem måde at håndtere alle økonomiske og compliance-opgaver på ét sted.",
+      "commitment": "Fra månedlig bogføring og udgiftssporing til lønsedler, ansættelsesregistre og Skatteverkets erklæringer, sikrer vi, at dine finanser er nøjagtige, gennemsigtige og fuldt i overensstemmelse med svensk lovgivning."
+    },
+    "getStarted": {
+      "heading": "Sådan Kommer Du Igang",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registrer dig på Vores Portal",
+          "description": "Registrer dig som enkeltperson eller virksomhed."
+        },
+        {
+          "number": 2,
+          "title": "Upload Dokumenter Månedligt",
+          "description": "Indsend fakturaer, kontrakter og kvitteringer direkte online."
+        },
+        {
+          "number": 3,
+          "title": "Automatiseret Bogføring",
+          "description": "Vi behandler løn, bogføring og erklæringer."
+        },
+        {
+          "number": 4,
+          "title": "Få Rapporter og Lønsedler",
+          "description": "Få adgang til digitale lønsedler, skatteersklaringer og økonomiske rapporter når som helst."
+        },
+        {
+          "number": 5,
+          "title": "Bliv Halten",
+          "description": "Vi sikrer, at dine registre opfylder svensk og EU-krav."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Forenkl Din Bogføring I Dag",
+      "description": "Stop med at bekymre dig om compliance og fokuser på at vokse din virksomhed. Lad Sweden Relocators håndtere din bogføring, løn og økonomisk ledelse.",
+      "cta": "Registrer dig i dag og få en gratis konsultation med vores bogføringseksperter. Begynd at administrere dine svenske finanser effektivt!"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "buySellProperty": {
+    "hero": {
+      "title": "Immobili in Svezia Semplificati",
+      "subtitle": "Acquista, Vendi, Affitta a Lungo Termine e Soggiorna in Alloggi Furnished a Breve Termine tramite un Portale Sicuro"
+    },
+    "intro": {
+      "heading": "Trova la Proprietà Giusta in Svezia",
+      "subheading": "Opzioni abitative allineate al tuo piano di trasferimento e insediamento",
+      "description": "Trasferirsi in Svezia spesso diventa complicato nella fase della casa. Trovare la zona giusta, comprendere i contratti, verificare gli annunci e evitare accordi rischiosi richiede competenza locale. Sweden Relocators supporta l'intero percorso immobiliare tramite un portale digitale sicuro e un'app mobile, permettendoti di cercare, prenotare e trasferirti con fiducia.\n\nChe tu ti trasferisca in Svezia per lavoro, studio, ricongiungimento familiare o affari, la nostra piattaforma ti aiuta a trovare una sistemazione adatta ai tuoi tempi e obiettivi.",
+      "coverageHeading": "I nostri annunci e servizi coprono:",
+      "coverageItems": [
+        "Appartamenti e case per singoli, coppie e famiglie",
+        "Alloggi aziendali per trasferimenti di dipendenti",
+        "Proprietà in affitto a lungo termine per insediamento permanente",
+        "Affitti brevi arredati per soggiorni temporanei",
+        "Proprietà nelle principali città e regioni favorevoli ai trasferimenti in tutta la Svezia"
+      ]
+    },
+    "buyOrSell": {
+      "heading": "Acquista o Vendi Proprietà tramite Agente Immobiliare Autorizzato",
+      "subheading": "Transazioni sicure con gestione verificata e conforme",
+      "description": "Tutte le compravendite tramite la nostra piattaforma sono gestite esclusivamente da agenti immobiliari autorizzati e registrati in Svezia. Ciò garantisce conformità legale, trasparenza e protezione per acquirenti e venditori, specialmente per i clienti internazionali poco familiari con il sistema immobiliare svedese.",
+      "supportHeading": "Il nostro supporto include generalmente:",
+      "supportItems": [
+        "Abbinamento della proprietà in base a budget, posizione e obiettivi",
+        "Coordinamento delle visite alle proprietà",
+        "Processo di acquisto o vendita guidato dall'agente",
+        "Guida su contratti, tempistiche e pianificazione dell'insediamento"
+      ]
+    },
+    "shortTermRentals": {
+      "heading": "Affitti Brevi Arredati in Svezia",
+      "subheading": "Alloggi ideali per nuovi arrivati e soggiorni aziendali",
+      "description": "Gli alloggi arredati a breve termine sono spesso la soluzione più pratica all'arrivo in Svezia. La nostra piattaforma offre sistemazioni arredate pronte per il trasferimento, adatte a:",
+      "suitableFor": [
+        "Nuovi arrivati in attesa della registrazione del numero personale",
+        "Dipendenti aziendali e lavoratori su progetto",
+        "Famiglie in arrivo prima di assicurarsi un alloggio a lungo termine",
+        "Clienti in transizione tra città o impieghi"
+      ],
+      "note": "Tutte le proprietà sono verificate per soddisfare le esigenze pratiche di trasferimento e gli standard abitativi locali."
+    },
+    "longTermRentals": {
+      "heading": "Affitti a Lungo Termine e Alloggi per Insediamento",
+      "subheading": "Una transizione strutturata dal soggiorno temporaneo a quello permanente",
+      "intro": "Una volta pronti a stabilirsi in Svezia, assistiamo nella pianificazione degli affitti a lungo termine, inclusi:",
+      "items": [
+        "Comprensione dei requisiti di affitto e delle aspettative del locatore",
+        "Termini del contratto, preavvisi e clausole standard",
+        "Selezione dell'area in base a tragitto, scuole e stile di vita",
+        "Preparazione al trasloco e considerazioni pratiche sull'allestimento"
+      ]
+    },
+    "whyChoose": {
+      "heading": "Perché Scegliere Sweden Relocators per il Supporto Immobiliare",
+      "subheading": "Esperienza locale combinata con praticità digitale",
+      "intro": "Il trasferimento non riguarda solo trovare una casa. Richiede un'attenta coordinazione tra alloggio, scadenze legali e disposizioni pratiche. Il nostro approccio combina esperienza locale con un processo digitale strutturato.",
+      "advantages": [
+        {
+          "title": "Piattaforma Unificata",
+          "description": "Un unico portale per gestire abitazioni, comunicazioni e progresso"
+        },
+        {
+          "title": "Coordinamento Efficiente",
+          "description": "Coordinamento efficace per visite e prontezza al trasferimento"
+        },
+        {
+          "title": "Allineamento Temporale",
+          "description": "Supporto abitativo allineato ai tempi di immigrazione e trasferimento"
+        },
+        {
+          "title": "Guida Completa",
+          "description": "Indicazioni chiare dal primo appuntamento fino al completo insediamento"
+        }
+      ]
+    },
+    "digitalPortal": {
+      "heading": "Portale Digitale e App Mobile",
+      "subheading": "Gestisci il tuo percorso abitativo da qualsiasi parte del mondo",
+      "intro": "Attraverso il nostro portale online e l'app mobile puoi:",
+      "features": [
+        "Registrarti e prenotare appuntamenti",
+        "Tracciare il progresso del trasferimento e della casa",
+        "Caricare documenti in sicurezza",
+        "Comunicare direttamente con il team di supporto assegnato",
+        "Accedere a tutte le conferme e aggiornamenti in un unico posto"
+      ],
+      "note": "Questo è particolarmente utile per clienti che si trasferiscono dall'estero o gestiscono trasferimenti di dipendenti a distanza."
+    },
+    "corporateHousing": {
+      "heading": "Supporto Abitativo per Aziende e Mobilità Globale",
+      "subheading": "Soluzioni pratiche per trasferimenti di dipendenti e alloggi aziendali",
+      "intro": "Supportiamo aziende e team HR fornendo:",
+      "services": [
+        "Alloggi temporanei per l'onboarding dei dipendenti",
+        "Pianificazione di alloggi a lungo termine per dipendenti stabili",
+        "Coordinamento semplificato per ridurre ritardi",
+        "Un unico punto di contatto tramite portale sicuro"
+      ]
+    },
+    "getStarted": {
+      "heading": "Inizia il tuo Percorso Immobiliare in Svezia",
+      "primaryCTA": "Registrati ed esplora le proprietà desiderate",
+      "secondaryCTA": "Prenota un appuntamento e procedi con fiducia",
+      "description": "Che tu abbia bisogno di un appartamento arredato a breve termine, supporto per affitti a lungo termine o assistenza nell'acquisto o vendita tramite agenti autorizzati, Sweden Relocators struttura il processo e mantiene tutto organizzato su un'unica piattaforma sicura."
+    }
+  }
+}

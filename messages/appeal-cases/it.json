@@ -1,0 +1,190 @@
+{
+  "appealCases": {
+    "hero": {
+      "title": "Procedura di Ricorso in Svezia",
+      "subtitle": "Come contestare il rifiuto di permessi di soggiorno, visti e cittadinanza"
+    },
+    "intro": {
+      "heading": "Comprendere il tuo diritto di ricorso",
+      "description": "Se la tua domanda di permesso di soggiorno, permesso di lavoro, ricongiungimento familiare, visto per affari, permesso di studio, residenza permanente o cittadinanza svedese è stata respinta, hai ancora opzioni legali a disposizione. Secondo la legge sull'immigrazione svedese, ogni richiedente ha il diritto di presentare ricorso. Un ricorso ti consente di fornire nuove prove, correggere eventuali errori e richiedere una revisione da parte dell'Agenzia svedese per la migrazione (Migrationsverket) o dei tribunali.\n\nPresso Sweden Relocators forniamo assistenza professionale nei ricorsi a individui, famiglie e aziende. Il nostro approccio basato sull’analisi approfondita del caso, fondato sull’Utlänningslagen (Legge sugli stranieri, 2005:716), sul diritto dell’UE e sulle convenzioni internazionali, garantisce che ogni ricorso sia costruito su solide argomentazioni giuridiche e fattuali."
+    },
+    "yourRights": {
+      "heading": "I tuoi diritti dopo un rifiuto",
+      "rights": [
+        {
+          "title": "Diritto alla riesamina da parte del Migrationsverket",
+          "description": "Se il rifiuto è basato su questioni minori come documenti mancanti, prove finanziarie insufficienti o spiegazioni poco chiare, il Migrationsverket può modificare la decisione dopo una riesamina."
+        },
+        {
+          "title": "Diritto di ricorso al Tribunale Amministrativo",
+          "description": "Se il Migrationsverket conferma la sua decisione, il tuo ricorso viene automaticamente inoltrato al Tribunale Amministrativo (Förvaltningsrätten) di Göteborg, che effettua una revisione indipendente."
+        },
+        {
+          "title": "Diritto a un ulteriore ricorso",
+          "description": "Se il Tribunale Amministrativo respinge il ricorso, in determinati casi puoi richiedere l'autorizzazione a presentare ricorso alla Corte d'Appello per l'Immigrazione (Migrationsöverdomstolen). Questa corte accetta solo casi di rilevanza giuridica generale per stabilire precedenti futuri."
+        }
+      ]
+    },
+    "reviewProcess": {
+      "heading": "Come le autorità svedesi esaminano i ricorsi",
+      "intro": "Quando presenti ricorso, la decisione viene riesaminata attraverso un processo giuridico strutturato. Comprendere come le autorità valutano i ricorsi è fondamentale, poiché il successo dipende sia dai documenti sia dall’argomentazione legale.",
+      "stages": [
+        {
+          "number": 1,
+          "title": "Riesamina da parte del Migrationsverket",
+          "questions": [
+            "Il ricorso è stato presentato entro il termine di 3 settimane?",
+            "Sono stati forniti nuovi documenti, registri finanziari o prove familiari?",
+            "Il caso aggiornato soddisfa ora i requisiti legali?"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Revisione del Tribunale Amministrativo",
+          "description": "Revisione giuridica indipendente, non vincolata alla decisione del Migrationsverket.",
+          "questions": [
+            "Il rifiuto era conforme all’Utlänningslagen?",
+            "Sono state applicate le norme UE come la Direttiva 2004/38/CE (libera circolazione)?",
+            "Sono stati rispettati i diritti umani, come l’Articolo 8 della CEDU (vita familiare)?",
+            "Sono state considerate l’integrazione e le circostanze umanitarie?"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Corte d'Appello per l'Immigrazione",
+          "description": "Solo per casi di importanza giuridica generale. Stabilisce precedenti che guidano le future decisioni in materia di migrazione in Svezia."
+        }
+      ]
+    },
+    "howWeHelp": {
+      "heading": "Come Sweden Relocators prepara il tuo ricorso",
+      "intro": "Trattiamo ogni ricorso come un caso legale completo, concentrandoci su prove, normativa e precedenti.",
+      "steps": [
+        {
+          "title": "Analisi del caso",
+          "description": "Esame dettagliato della lettera di rifiuto. Identificazione delle basi giuridiche utilizzate per negare la domanda. Confronto con le disposizioni dell’Utlänningslagen, il diritto UE e la giurisprudenza."
+        },
+        {
+          "title": "Mappatura degli scenari",
+          "description": "Le carenze finanziarie possono essere risolte con prove di reddito aggiornate o garanti? Le prove relative all’alloggio o all’integrazione possono rafforzare il caso? Il diritto dei diritti umani può prevalere sul rifiuto nelle questioni familiari?"
+        },
+        {
+          "title": "Raccolta delle prove",
+          "description": "Dichiarazioni fiscali aggiornate, buste paga, contratti di locazione, documenti di lavoro. Prove della relazione, partecipazione scolastica o a programmi di integrazione, corsi di lingua. Prove umanitarie come certificati medici o fattori di dipendenza."
+        },
+        {
+          "title": "Argomentazione legale",
+          "description": "Utlänningslagen 2005:716 – disposizioni fondamentali per famiglia, lavoro e motivi umanitari. Förarbeten – per chiarire l’intento del legislatore. Diritto UE – inclusa la Direttiva 2004/38/CE sui diritti familiari. Articolo 8 CEDU – diritto al rispetto della vita familiare e privata. Precedenti del Migrationsöverdomstolen – guida per l’applicazione delle leggi."
+        },
+        {
+          "title": "Redazione della lettera di ricorso",
+          "description": "Redatta in svedese o inglese professionale. Ogni motivo di rifiuto viene affrontato con riferimenti legali e prove a supporto. Una narrazione forte e persuasiva che dimostra perché il caso soddisfa i requisiti legali."
+        },
+        {
+          "title": "Rappresentanza in tribunale e follow-up",
+          "description": "Gestiamo tutte le comunicazioni e i documenti con il tribunale. Ti rappresentiamo professionalmente davanti al Förvaltningsrätten se necessario. Garantiamo il rispetto delle scadenze e forniamo aggiornamenti regolari."
+        }
+      ]
+    },
+    "commonCases": {
+      "heading": "Casi comuni che trattiamo",
+      "cases": [
+        "Rifiuti di ricongiungimento familiare – reddito o alloggio non accettati, dubbi sulla relazione",
+        "Rifiuti di permesso di lavoro – inadempienze del datore di lavoro, problemi assicurativi, condizioni contrattuali errate",
+        "Rifiuti di permesso di studio – documentazione finanziaria insufficiente, dubbi sulla genuinità dello scopo di studio",
+        "Rifiuti di residenza permanente o cittadinanza – questioni di condotta, interruzioni di residenza o documentazione poco chiara",
+        "Rifiuti di visti Schengen e di visita – scopo del viaggio poco chiaro, legami deboli con il paese di origine o fondi insufficienti"
+      ]
+    },
+    "timelines": {
+      "heading": "Tempistiche dei ricorsi",
+      "items": [
+        {
+          "label": "Riesamina da parte del Migrationsverket",
+          "time": "entro poche settimane"
+        },
+        {
+          "label": "Inoltro al Tribunale Amministrativo",
+          "time": "di solito 1 mese"
+        },
+        {
+          "label": "Decisioni del tribunale",
+          "time": "diversi mesi, a seconda della complessità del caso"
+        },
+        {
+          "label": "Ricorsi superiori",
+          "time": "possono estendere significativamente il processo"
+        }
+      ]
+    },
+    "whyWorks": {
+      "heading": "Perché il nostro approccio basato sul caso funziona",
+      "intro": "La maggior parte dei ricorsi fallisce perché i richiedenti si limitano a reinviare vecchi documenti. Sweden Relocators costruisce i ricorsi su fatti, diritto e precedenti, affrontando direttamente le debolezze.",
+      "reasons": [
+        "Dimostriamo come la decisione originale fosse errata",
+        "Forniamo prove che i requisiti sono ora soddisfatti",
+        "Anticipiamo le controargomentazioni e prepariamo risposte adeguate"
+      ],
+      "conclusion": "Questa preparazione sistematica aumenta la probabilità di successo."
+    },
+    "faqs": {
+      "heading": "Domande frequenti",
+      "items": [
+        {
+          "q": "Quanto tempo ho per presentare ricorso in Svezia?",
+          "a": "Hai 3 settimane dalla data di ricezione della decisione per presentare ricorso."
+        },
+        {
+          "q": "Posso aggiungere nuovi documenti al mio ricorso?",
+          "a": "Sì. Presentare nuovi registri finanziari, contratti di locazione o prove familiari può rafforzare significativamente il tuo caso."
+        },
+        {
+          "q": "Cosa succede se il Migrationsverket respinge il mio ricorso?",
+          "a": "Il caso viene automaticamente inoltrato al Tribunale Amministrativo (Förvaltningsrätten) di Göteborg per una revisione indipendente."
+        },
+        {
+          "q": "Ogni caso può arrivare alla Corte d'Appello per l'Immigrazione?",
+          "a": "No. Vengono accettati solo casi di importanza giuridica generale. Questi stabiliscono precedenti per decisioni future."
+        },
+        {
+          "q": "Quali sono le ragioni più comuni per il rifiuto dei permessi?",
+          "a": "Documenti mancanti, prove finanziarie insufficienti, problemi di conformità del datore di lavoro, prove familiari poco chiare o dubbi sull’intenzione di soggiornare legalmente in Svezia."
+        },
+        {
+          "q": "Quanto dura l'intero processo di ricorso?",
+          "a": "Varia. Una semplice riesamina può essere risolta in poche settimane, mentre un processo giudiziario completo può richiedere diversi mesi o più."
+        },
+        {
+          "q": "Ho bisogno di un avvocato per presentare ricorso?",
+          "a": "Non sei obbligato ad assumere un avvocato, ma l'assistenza professionale aumenta le possibilità di successo. Presso Sweden Relocators offriamo rappresentanza esperta su misura per il tuo caso."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Perché scegliere Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Esperienza nel diritto dell’immigrazione svedese",
+          "description": "Specialisti in ricorsi ai sensi dell’Utlänningslagen, diritto UE e CEDU"
+        },
+        {
+          "title": "Successo comprovato",
+          "description": "Abbiamo ottenuto l’annullamento di rifiuti in casi familiari, lavorativi e di cittadinanza"
+        },
+        {
+          "title": "Gestione completa del caso",
+          "description": "Dalla redazione del ricorso alla rappresentanza in tribunale"
+        },
+        {
+          "title": "Supporto personalizzato",
+          "description": "Ogni caso è preparato come uno studio legale unico"
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Nota finale ed esclusione di responsabilità",
+      "note": "Presentare ricorso contro una decisione migratoria negativa in Svezia è complesso ma non impossibile. Con la giusta preparazione, molti rifiuti possono essere annullati. Che il tuo problema sia finanziario, documentale o legale, hai il diritto di richiedere una riesamina e una revisione giudiziaria.",
+      "disclaimer": "Questo contenuto è fornito solo a scopo informativo ed è aggiornato al 23 settembre 2025. Le leggi sull'immigrazione svedesi cambiano frequentemente. Per le informazioni più recenti e accurate, consulta sempre il sito ufficiale dell'Agenzia svedese per la migrazione (Migrationsverket) se intendi gestire autonomamente un ricorso."
+    }
+  }
+}

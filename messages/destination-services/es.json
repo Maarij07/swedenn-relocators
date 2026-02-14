@@ -1,0 +1,138 @@
+{
+  "destinationServices": {
+    "hero": {
+      "title": "Servicios de Destino en Suecia",
+      "subtitle": "Soluciones Integrales de Reubicación e Integración"
+    },
+    "intro": {
+      "heading": "Tu Socio Completo de Reubicación en Suecia",
+      "description": "Mudarse a Suecia es un viaje emocionante, pero conlleva desafíos como registrarse con las autoridades suecas, solicitar un personnummer, abrir una cuenta bancaria, organizar vivienda e integrarse en una nueva cultura. En Sweden Relocators, proporcionamos servicios de destino integrales en Suecia para individuos, familias y clientes corporativos, asegurando una transición sin problemas desde el momento en que llegas hasta que estés completamente asentado.",
+      "capabilities": "Nuestras soluciones de destino cubren servicios de llegada y salida, registros de autoridad, orientación de la ciudad, búsqueda de vivienda, apoyo a la integración, asistencia familiar y gestión de salida. Ya sea que te mudes por trabajo, estudios, reunificación familiar o asignaciones corporativas, nuestro equipo hace que el proceso de reubicación sea simple, compatible y sin estrés."
+    },
+    "coreServices": {
+      "heading": "Servicios de Destino Principales en Suecia",
+      "services": [
+        {
+          "title": "Soporte de Llegada y Salida",
+          "details": [
+            "Briefing Previo a la Llegada – orientación sobre documentos, opciones de vivienda y primeros pasos en Suecia.",
+            "Recepción y Bienvenida – asistencia en aeropuertos o centros de transporte para una llegada sin problemas.",
+            "Alojamiento Temporal – apoyo con vivienda a corto plazo mientras buscas un hogar permanente.",
+            "Servicios de Salida – asistencia completa cuando te vas de Suecia, incluida desregistración, cancelación de arrendamiento, coordinación de envíos y cierre de cuentas."
+          ]
+        },
+        {
+          "title": "Registro de Autoridad y Cumplimiento Legal",
+          "details": [
+            "Asistencia de Personnummer – ayuda para obtener el número de identidad sueco en Skatteverket, esencial para atención médica, empleo y vida diaria.",
+            "Solicitud de Carnet de Identidad – orientación sobre cómo solicitar el carnet de identidad sueco, requerido para operaciones bancarias e identificación oficial.",
+            "Configuración de BankID – soporte para el sistema seguro de identificación digital de Suecia, necesario para banca en línea, contratos y servicios gubernamentales.",
+            "Registro Fiscal y Números de Coordinación – asistencia con samordningsnummer, registros de empleadores y requisitos de residencia fiscal."
+          ]
+        },
+        {
+          "title": "Servicios Bancarios y Financieros",
+          "details": [
+            "Apertura de Cuenta Bancaria – coordinación con bancos suecas como Swedbank, Handelsbanken, SEB y Nordea.",
+            "Configuración de Pago Digital – orientación sobre Swish, Autogiro y soluciones de banca móvil.",
+            "Transferencias de Nómina y Salarios – garantizar una configuración financiera fluida para empleados y autónomos."
+          ]
+        },
+        {
+          "title": "Vivienda y Orientación de Barrio",
+          "details": [
+            "Asistencia de Búsqueda de Hogar – apoyo con alquileres y compras adaptadas a tus necesidades y presupuesto.",
+            "Negociación de Arrendamiento – revisión y negociación de contratos para asegurar el cumplimiento de la ley de vivienda sueca.",
+            "Orientación de Barrio – tours guiados de la ciudad destacando escuelas, atención médica, compras y transporte público.",
+            "Configuración de Servicios e Internet – soporte con registro de electricidad, internet, seguros y gestión de residuos."
+          ]
+        },
+        {
+          "title": "Apoyo a la Integración y Cultura",
+          "details": [
+            "Tours de Orientación de la Ciudad – ayudando a los recién llegados a entender el transporte local, sistemas de salud y recursos comunitarios.",
+            "Entrenamiento Cultural – talleres y asesoramiento sobre costumbres suecas, cultura laboral y etiqueta social.",
+            "Soporte de Aprendizaje de Idiomas – orientación sobre inscribirse en Swedish For Immigrants (SFI) y escuelas de idiomas privadas.",
+            "Comunidad y Redes – conexiones con grupos de expatriados, asociaciones profesionales y redes locales."
+          ]
+        },
+        {
+          "title": "Apoyo Familiar y Educativo",
+          "details": [
+            "Búsqueda de Escuela y Colocación – orientación para escuelas internacionales, guarderías y escuelas públicas.",
+            "Asistencia de Cuidado Infantil – apoyo solicitando guardería y programas de preescolar.",
+            "Programas de Integración Familiar – apoyo de adaptación cultural para cónyuge e hijos."
+          ]
+        }
+      ]
+    },
+    "corporateServices": {
+      "heading": "Servicios de Destino para Empresas y Empleadores",
+      "intro": "Para empresas que trasladan empleados a Suecia, proporcionamos servicios de destino corporativo que simplifican la movilidad, reducen la carga administrativa y mejoran la satisfacción de los empleados. Nuestras soluciones corporativas incluyen:",
+      "services": [
+        "Consultas previas a la asignación para HR y empleados.",
+        "Coordinación de permisos de residencia y trabajo con apoyo migratorio.",
+        "Registros de autoridad y gestión de cumplimiento.",
+        "Servicios de reubicación familiar, incluida vivienda y colocación escolar.",
+        "Orientación sobre nómina, impuestos y seguros para empleados.",
+        "Apoyo continuo de integración y bienestar de empleados."
+      ],
+      "benefit": "Con nuestra ayuda, las empresas pueden enfocarse en objetivos comerciales mientras aseguramos que los empleados y sus familias se establezcan sin problemas en Suecia."
+    },
+    "relocationJourney": {
+      "heading": "Ejemplo de Viaje de Reubicación con Sweden Relocators",
+      "stages": [
+        {
+          "title": "Antes de la Llegada",
+          "description": "Documentación preparada, alojamiento temporal asegurado, briefing previo a la llegada entregado."
+        },
+        {
+          "title": "Llegada",
+          "description": "Recogida del aeropuerto, alojamiento a corto plazo, registros iniciales de autoridad."
+        },
+        {
+          "title": "Primer Mes",
+          "description": "Solicitud de personnummer, solicitud de carnet de identidad, apertura de cuenta bancaria, búsqueda de vivienda, solicitudes escolares."
+        },
+        {
+          "title": "Fase de Integración",
+          "description": "Orientación cultural, oportunidades de networking, inscripción SFI, vivienda permanente asegurada."
+        },
+        {
+          "title": "Salida (si aplica)",
+          "description": "Desregistración, cierres de cuenta, cancelación de arrendamiento y coordinación de partida."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "¿Por Qué Elegirnos?",
+      "advantages": [
+        {
+          "title": "Servicios de Destino Completos",
+          "description": "Cubriendo llegada, registro, vivienda, integración y salida."
+        },
+        {
+          "title": "Experiencia Local",
+          "description": "Conocimiento profundo de autoridades suecas, mercados de vivienda y sistemas legales."
+        },
+        {
+          "title": "Soluciones Personalizadas",
+          "description": "Paquetes para reubicaciones individuales, familiares y corporativas."
+        },
+        {
+          "title": "Asistencia Multilingüe",
+          "description": "Apoyo en inglés, sueco, urdu, árabe, punjabi, persa, kurdo, serbio y más."
+        },
+        {
+          "title": "Socio de Extremo a Extremo",
+          "description": "Una plataforma para todas tus necesidades de reubicación y establecimiento."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Comienza con Servicios de Destino",
+      "description": "Envía una solicitud de servicio a través de nuestro portal. Ya sea que te mudes solo, con tu familia o una empresa brindando servicios a empleados, simplemente selecciona los servicios de destino que necesitas y nuestro equipo se encargará del resto.",
+      "cta": "Solicita Servicios de Destino"
+    }
+  }
+}

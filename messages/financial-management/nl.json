@@ -1,0 +1,114 @@
+{
+  "financialManagement": {
+    "hero": {
+      "title": "Financiële Verhuisdiensten",
+      "subtitle": "Verplaats Je Geld Veilig en Efficiënt"
+    },
+    "intro": {
+      "heading": "Veilig Financieel Beheer Over Grenzen Heen",
+      "description": "Verhuizen naar een nieuw land omvat meer dan alleen visa en huisvesting—het vereist ook het veilig en efficiënt verplaatsen van je financiën. Bij Sweden Relocators bieden we een naadloze financiële verhuisservice, waardoor het gemakkelijker wordt voor individuen, gezinnen en bedrijven om geld over te maken, betaalrekeningen in meerdere valuta's te beheren en grote transacties zoals onroerengoedaankopen of investeringen af te handelen.",
+      "closing": "Via ons veilige partnernetwerk garanderen we dat je financiële verhuizing rendabel, volledig conform en afgestemd op je specifieke behoeften is."
+    },
+    "whyMatters": {
+      "heading": "Waarom Financiële Verhuizing Belangrijk Is",
+      "description": "Het verplaatsen van financiën tussen landen kan ingewikkeld zijn. Traditionele banken rekenen vaak hoge kosten, verborgen marges op wisselkoersen en lange verwerkingstijden. Sweden Relocators helpt je deze problemen te vermijden door het volgende aan te bieden:",
+      "benefits": [
+        "Betere wisselkoersen in vergelijking met standaardbankieren",
+        "Snelle en veilige internationale overdrachten naar 120+ landen",
+        "Gespecialiseerde ondersteuning voor onroerengoedtransacties, hypotheken, schoolbetaling en bedrijfsinvesteringen",
+        "Terugkerende betalingsopties voor gezinnen en bedrijven",
+        "Volledige naleving van mondiale financiële regelgeving voor gemoedsrust"
+      ]
+    },
+    "services": {
+      "heading": "Onze Financiële Verhuisdiensten",
+      "intro": "We bieden op maat gemaakte oplossingen die aansluiten bij verschillende financiële behoeften:",
+      "items": [
+        {
+          "number": 1,
+          "title": "Internationale Geldoverdrachten",
+          "description": "Stuur geld wereldwijd snel en veilig met transparante tarieven en real-time tracking."
+        },
+        {
+          "number": 2,
+          "title": "Grote Overdrachten voor Onroerend Goed en Investeringen",
+          "description": "Verplaats grote bedragen veilig voor de aankoop van een appartement, villa of bedrijfsmiddelen in Zweden of erbuiten, met documentatieondersteuning en nalevingscontroles."
+        },
+        {
+          "number": 3,
+          "title": "Multi-Valuta-rekeningen",
+          "description": "Behoud en beheer meerdere valuta's zonder onnodig conversieverlies, ideaal voor mondiale professionals en bedrijven."
+        },
+        {
+          "number": 4,
+          "title": "Regelmatige en Terugkerende Betalingen",
+          "description": "Automatiseer overdrachten voor schooltarnieven, hypotheken, salarissen of gezinsondersteuning met vastgestelde tarieven voor voorspelbare kosten."
+        },
+        {
+          "number": 5,
+          "title": "Bedrijfsfinanciële Verhuizing",
+          "description": "Bedrijven kunnen massale loonoverdrachten, leverancierbetalingen en kasstromingoplossingen beheren via onze financiële verhuisservice."
+        }
+      ]
+    },
+    "howWorks": {
+      "heading": "Hoe Het Werkt",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Dien Je Verzoek In",
+          "description": "Log in op ons portaal en dien een financieel verhuisverzoek in met details zoals bedrag, valuta en bestemming."
+        },
+        {
+          "number": 2,
+          "title": "Rechtstreeks Contact van Onze Partner",
+          "description": "Nadat je verzoek is ingediend, neemt een vertegenwoordiger van ons financiële partnerbedrijf rechtstreeks contact met je op. Ze zullen de beschikbare opties uitleggen, een offerte geven en je begeleiden door identiteitsverificatie en nalevingsstappen."
+        },
+        {
+          "number": 3,
+          "title": "Veilige Overdracht",
+          "description": "Zodra alles is geverifieerd, stuur je je geld naar de gegeven veilige rekening en wordt de overdracht uitgevoerd met livevolging en bevestiging."
+        },
+        {
+          "number": 4,
+          "title": "Doorlopende Ondersteuning",
+          "description": "Voor regelmatige betalingen, onroerengoedgerelateerde overdrachten of bedrijfsbehoeften, werk je rechtstreeks met de financiële partner terwijl Sweden Relocators je eerste contactpunt blijft."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Waarom Sweden Relocators Kiezen voor Financiële Verhuizing?",
+      "advantages": [
+        {
+          "title": "All-in-One Verhuisoplossing",
+          "description": "Huisvesting, immigratie en financiële verhuizing op één platform."
+        },
+        {
+          "title": "Kostenbesparing",
+          "description": "Toegang tot concurrerende wisselkoersen en lagere kosten dan banken."
+        },
+        {
+          "title": "Veilig en Conform",
+          "description": "Alle overdrachten voldoen aan internationale regelgeving met volledige geldenbescherming."
+        },
+        {
+          "title": "Op Maat Gemaakte Ondersteuning",
+          "description": "Ontworpen voor individuen, gezinnen en bedrijven."
+        },
+        {
+          "title": "Snel en Betrouwbaar",
+          "description": "Vermijd bankvertragingen met efficiënte afwikkeling."
+        },
+        {
+          "title": "Wereldwijd Bereik",
+          "description": "Stuur geld naar en van Zweden, Denemarken en 120+ bestemmingen."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Verplaats Je Geld Met Vertrouwen",
+      "description": "Bij Sweden Relocators zorgen we ervoor dat je geld net zo soepel wordt verplaatst als je verhuizing. Of je geld overhelpt voor een nieuw huis, schooltarnieven, bedrijfsactiviteiten of gezinsondersteuning, onze financiële verhuisservice garandeert veiligheid, snelheid en besparing.",
+      "cta": "Dien je verzoek vandaag in via ons portaal. Zodra het is ontvangen, zal een vertegenwoordiger van ons betrouwbare partnerbedrijf rechtstreeks contact met je opnemen om het proces af te ronden."
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "manpowerSolutions": {
+    "hero": {
+      "title": "Manpower Solutions in Sweden",
+      "subtitle": "Connect Companies with Global Talent"
+    },
+    "intro": {
+      "heading": "Building the Right Team for Growth",
+      "description": "At Sweden Relocators, we understand that the right people drive business growth. Our Manpower Solutions bring companies and job seekers together through one seamless platform – available via our web portal and mobile app. Whether you are a company looking to hire global talent or an individual searching for opportunities in Sweden, our solutions cover every step from recruitment to relocation."
+    },
+    "forCompanies": {
+      "heading": "For Companies – Recruit and Relocate the Right Talent",
+      "intro": "Finding the right employees is one of the biggest challenges for businesses. Through our portal, companies can:",
+      "features": [
+        {
+          "title": "Post Jobs Instantly",
+          "description": "Advertise vacancies for full-time, part-time, project-based, or seasonal roles."
+        },
+        {
+          "title": "Access Global Talent",
+          "description": "Hire both skilled professionals and unskilled manpower from international markets."
+        },
+        {
+          "title": "Company Dashboard",
+          "description": "Manage applications, review CVs, and track recruitment progress all in one place."
+        },
+        {
+          "title": "Work Permit & Immigration Support",
+          "description": "Ensure compliance with Swedish and EU labor laws when hiring international employees."
+        },
+        {
+          "title": "Employee Relocation Services",
+          "description": "We support your workforce with housing, payroll, integration, and settlement services after hiring."
+        }
+      ],
+      "closing": "With Sweden Relocators, companies don't just hire—they build sustainable teams that strengthen long-term growth."
+    },
+    "forJobSeekers": {
+      "heading": "For Job Seekers – Build Your Career in Sweden",
+      "intro": "Our manpower portal is designed to help job seekers find the right opportunity and relocate with confidence. As a candidate, you can:",
+      "features": [
+        {
+          "title": "Create a Professional CV Online",
+          "description": "Build a globally recognized CV directly in our portal."
+        },
+        {
+          "title": "Apply for Verified Jobs",
+          "description": "Explore opportunities in IT, construction, healthcare, logistics, hospitality, retail, and more."
+        },
+        {
+          "title": "Track Applications",
+          "description": "Monitor your status in real time through your account."
+        },
+        {
+          "title": "Relocation & Permit Assistance",
+          "description": "Once employed, we support you with visa, work permit, and integration services."
+        },
+        {
+          "title": "Career Growth Tools",
+          "description": "Access resources to prepare for interviews and understand the Swedish labor market."
+        }
+      ],
+      "closing": "We make international career building simple, transparent, and effective."
+    },
+    "whyMatters": {
+      "heading": "Why the Right Talent Matters",
+      "intro": "The right employees are more than just staff—they are a company's competitive edge.",
+      "reasons": [
+        "Innovation & Growth – Talented employees bring fresh ideas and improve competitiveness",
+        "Productivity – Skilled staff work efficiently, increasing overall performance",
+        "Global Reach – International employees open doors to new markets and customer bases",
+        "Employee Retention – Hiring the right match reduces turnover and builds stability",
+        "Customer Satisfaction – Strong teams deliver better products and services"
+      ],
+      "closing": "By connecting businesses with international talent, Sweden Relocators ensures companies thrive and employees succeed."
+    },
+    "process": {
+      "heading": "The Complete Process",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Companies Register",
+          "description": "Create a company account and post job openings."
+        },
+        {
+          "number": 2,
+          "title": "Job Seekers Sign Up",
+          "description": "Build a CV and apply to positions."
+        },
+        {
+          "number": 3,
+          "title": "Smart Matching",
+          "description": "Our platform connects candidates with roles that fit their skills."
+        },
+        {
+          "number": 4,
+          "title": "Compliance & Permits",
+          "description": "We assist with visas, work permits, and legal requirements."
+        },
+        {
+          "number": 5,
+          "title": "Relocation Support",
+          "description": "Employees are assisted with housing, payroll, and integration to settle smoothly."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Why Choose Sweden Relocators?",
+      "advantages": [
+        {
+          "title": "One Digital Platform",
+          "description": "Manage recruitment, CVs, and relocation in one place."
+        },
+        {
+          "title": "Trusted Global Network",
+          "description": "Access to talent and companies worldwide."
+        },
+        {
+          "title": "Compliance with Swedish & EU Laws",
+          "description": "Secure and legally sound hiring."
+        },
+        {
+          "title": "End-to-End Support",
+          "description": "From recruitment to relocation and settlement."
+        },
+        {
+          "title": "Future-Ready Solutions",
+          "description": "Designed for modern businesses and international careers."
+        }
+      ]
+    },
+    "nextSteps": {
+      "heading": "Take the Next Step",
+      "forCompanies": "Sign up on our portal to list your vacancies and hire global talent.",
+      "forJobSeekers": "Create your CV, apply for jobs, and start your career journey in Sweden.",
+      "closing": "At Sweden Relocators, our Manpower Solutions empower businesses to grow with the right people and help individuals achieve new opportunities in Sweden and across Europe."
+    }
+  }
+}

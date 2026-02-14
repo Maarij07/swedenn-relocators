@@ -1,0 +1,321 @@
+{
+  "cbiBbi": {
+    "hero": {
+      "title": "Burgerschap via Investering en Verblijf via Investeringsprogramma's",
+      "subtitle": "Zeker je toekomst met een tweede paspoort of gouden visum"
+    },
+    "intro": {
+      "heading": "Mondiale mobiliteit en veilige vestiging",
+      "description": "Bij Sweden Relocators helpen wij personen en gezinnen hun toekomst veilig te stellen met tweede paspoorten en langdurige verblijfsrechten via investering. Voor vermogenden, ondernemers en wereldburgers openen CBI- en RBI-programma's deuren naar visumvrij reizen, bedrijfsuitbreiding, gezinsveiligheid en kansen voor internationale vestiging.\n\nOnze experts begeleiden de hele reis, van beoordeling van geschiktheid en investeringsadviezen tot documentatie, ambassadecommunicatie en ondersteuning na goedkeuring. Via onze beveiligde digitale portal kunnen cliënten hun zaken volgen, documenten opslaan en informatie hergebruiken voor toekomstige aanvragen."
+    },
+    "understanding": {
+      "heading": "Inzicht in Burgerschap en Verblijf via Investering",
+      "intro": "Twee krachtige wegen naar mondiale mobiliteit en veilige internationale vestiging:",
+      "definitions": [
+        {
+          "title": "Burgerschap via Investering (CBI)",
+          "description": "Een direct pad naar burgerschap en een tweede paspoort in ruil voor een door de regering goedgekeurd investering."
+        },
+        {
+          "title": "Verblijf via Investering (RBI) of Gouden Visum",
+          "description": "Een langdurig verblijfsrecht op basis van investering in onroerend goed, fondsen of bedrijven, met veel programma's die leiden tot permanente verblijf of burgerschap."
+        }
+      ],
+      "benefits": "Beide opties geven gezinnen toegang tot mondiale mobiliteit, gezondheidszorg, onderwijs, voordelen van financiële planning en veilige vestigingskansen."
+    },
+    "countryPrograms": {
+      "heading": "Landprogramma's en Voordelen",
+      "intro": "Hieronder staat een gedetailleerd overzicht van toonaangevende landen die CBI- en RBI-programma's aanbieden, inclusief investeringsvereisten, voordelen en opname van familieleden."
+    },
+    "caribbean": {
+      "heading": "Caribische Burgersooprogramma's via Investering",
+      "intro": "De Caribische eilanden zijn de meest populaire regio voor snelle tweede burgerschappen. Deze programma's staan bekend om hun betaalbare ingangsposten, snelle verwerking (3-6 maanden) en sterke pasporten die visumvrije toegang bieden tot Europa, het Verenigd Koninkrijk en Azië.",
+      "countries": [
+        {
+          "name": "Sint-Kitts en Nevis",
+          "type": "CBI (oudste programma, gelanceerd in 1984)",
+          "investmentOptions": [
+            "USD 150.000 donatie aan Duurzaam Groei Fonds",
+            "USD 200.000 onroerend goed investering (doorverkoop toegestaan na 7 jaar)"
+          ],
+          "familyMembers": "Echtgenoot, kinderen onder 30 jaar, onderhoudsafhankelijke ouders (55+)",
+          "benefits": [
+            "Visumvrij reizen naar 150+ bestemmingen, inclusief Schengengebied en Verenigd Koninkrijk",
+            "Snelste CBI-goedkeuringen (4-6 maanden)",
+            "Geen inkomsten- of erfbelasting",
+            "Erkend als een van de meest prestigieuze Caribische pasporten"
+          ]
+        },
+        {
+          "name": "Dominica",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 regeringsdonatie",
+            "USD 200.000 onroerend goed investering"
+          ],
+          "familyMembers": "Echtgenoot, kinderen, onderhoudsafhankelijke ouders, onderhoudsafhankelijke broers en zussen onder 25 jaar",
+          "benefits": [
+            "Visumvrije toegang tot 140+ landen",
+            "Betaalbaar programma met sterke wereldwijde acceptatie",
+            "Burgerschap doorgegeven aan toekomstige generaties",
+            "Populair onder gezinnen voor inclusiviteit"
+          ]
+        },
+        {
+          "name": "Antigua en Barbuda",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 donatie voor gezin van vier",
+            "USD 200.000 onroerend goed investering",
+            "Zakelijk investeringsoptie beschikbaar"
+          ],
+          "familyMembers": "Echtgenoot, kinderen, ouders, grootouders, broers en zussen",
+          "benefits": [
+            "Visumvrij naar 150+ landen",
+            "Maakt grote gezinnen in één aanvraag mogelijk",
+            "Vereist slechts 5 dagen verblijf elke 5 jaar",
+            "Populair voor multigenerationale gezinnen"
+          ]
+        },
+        {
+          "name": "Grenada",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 150.000 donatie",
+            "USD 220.000 onroerend goed investering"
+          ],
+          "familyMembers": "Echtgenoot, kinderen, ouders, broers en zussen",
+          "benefits": [
+            "Visumvrij naar 145+ bestemmingen, waaronder China",
+            "Enige Caribisch paspoort met toegang tot E-2 visum voor Amerikaanse investeerders",
+            "Solide optie voor ondernemers gericht op Amerikaanse handel"
+          ]
+        },
+        {
+          "name": "Sint-Lucia",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 donatie",
+            "USD 300.000 onroerend goed investering",
+            "Optie voor aankoop staatsobligaties"
+          ],
+          "familyMembers": "Echtgenoot, kinderen, ouders",
+          "benefits": [
+            "Visumvrij naar 140+ bestemmingen",
+            "Betaalbare ingang, flexibele programmapties",
+            "Sterk Caribisch paspoort met investeringsdiversificatie"
+          ]
+        }
+      ]
+    },
+    "european": {
+      "heading": "Europese Verblijfsprogramma's via Investering (Gouden Visum)",
+      "intro": "Europa blijft een van de meest aantrekkelijke bestemmingen voor welgestelde individuen die veiligheid, levensstijl en toegang tot de EU-markt zoeken. RBI-programma's in de EU bieden verblijfsrechten, met veel richtingen naar permanent verblijf en burgerschap.",
+      "countries": [
+        {
+          "name": "Portugees Gouden Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 in culturele steunprojecten",
+            "EUR 500.000 in onroerend goed (alleen geselecteerde gebieden)",
+            "EUR 500.000 in fondsen of baantjes"
+          ],
+          "familyMembers": "Echtgenoot, kinderen, ouders",
+          "benefits": [
+            "EU-verblijf met visumvrij Schengenreizen",
+            "Geschikt voor burgerschap na 5 jaar verblijf",
+            "Toegang tot gezondheidszorg en onderwijs",
+            "Aantrekkelijke belastingprikkels voor investeerders"
+          ]
+        },
+        {
+          "name": "Grieks Gouden Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 aankoop onroerend goed (goedkoper in Europa)"
+          ],
+          "familyMembers": "Echtgenoot, kinderen tot 21 jaar, ouders",
+          "benefits": [
+            "Verblijfsrechten zonder verblijfsvereiste",
+            "Pad naar burgerschap na 7 jaar",
+            "Toegang tot EU-markten en Schengenreizen",
+            "Sterke vastgoedrendementen in toeristische gebieden"
+          ]
+        },
+        {
+          "name": "Spaans Gouden Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 500.000 in onroerend goed",
+            "Kapitaalinvesteringsopties"
+          ],
+          "familyMembers": "Echtgenoot, kinderen, ouders",
+          "benefits": [
+            "EU-verblijf en Schengenmobiliteit",
+            "Geschikt voor burgerschap na 10 jaar",
+            "Sterke vastgoedmarkt in grote steden",
+            "Toegang tot topuniversiteiten en gezondheidszorg"
+          ]
+        },
+        {
+          "name": "Italiaans Investeerdersvisum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 in innovatieve startups",
+            "EUR 500.000 in gevestigde bedrijven",
+            "EUR 1 miljoen in staatsobligaties"
+          ],
+          "familyMembers": "Echtgenoot, kinderen, ouders",
+          "benefits": [
+            "Verblijfsrechten in Italië en Schengenmobiliteit",
+            "Aantrekkelijk voor ondernemers en bedrijfsuitbreiding",
+            "EU-burgerschap na 10 jaar"
+          ]
+        },
+        {
+          "name": "Malta",
+          "type": "CBI en RBI",
+          "investmentOptions": [
+            "EUR 600.000 investering plus huur/aankoop onroerend goed"
+          ],
+          "familyMembers": "Echtgenoot, kinderen, ouders",
+          "benefits": [
+            "Volledig EU-burgerschap binnen 12-18 maanden",
+            "Visumvrij naar 180+ landen, inclusief VS en Canada",
+            "Een van 's werelds sterkste pasporten"
+          ]
+        },
+        {
+          "name": "Cyprus",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 300.000 onroerend goed investering"
+          ],
+          "familyMembers": "Echtgenoot, kinderen, ouders",
+          "benefits": [
+            "EU-verblijf binnen 6 maanden",
+            "Toegang tot gezondheidszorg en onderwijs",
+            "Vastgoedmarkt biedt sterke huuropbrengsten"
+          ]
+        }
+      ]
+    },
+    "middleEastGlobal": {
+      "heading": "Midden-Oosten en Globale Opties",
+      "countries": [
+        {
+          "name": "Verenigde Arabische Emiraten (Dubai, Abu Dhabi)",
+          "type": "RBI",
+          "investmentOptions": [
+            "AED 750.000 onroerend goed- of zakensinvestering"
+          ],
+          "familyMembers": "Echtgenoot, kinderen",
+          "benefits": [
+            "Belastingvrij verblijf",
+            "Toegang tot globaal handelscentrum",
+            "Luxe levensstijl en kwaliteitsgezondheidszorg"
+          ]
+        },
+        {
+          "name": "Verenigde Staten (EB-5 visum)",
+          "type": "RBI",
+          "investmentOptions": [
+            "USD 800.000 in zakelijke projecten die banen creëren"
+          ],
+          "familyMembers": "Echtgenoot, kinderen onder 21 jaar",
+          "benefits": [
+            "Groencard en pad naar burgerschap",
+            "Toegang tot Amerikaanse universiteiten en gezondheidszorg",
+            "Sterke investeringsrendementen in zakelijke projecten"
+          ]
+        },
+        {
+          "name": "Canada",
+          "type": "RBI",
+          "investmentOptions": [
+            "CAD 350.000-1.200.000 afhankelijk van het programma (Provincial Nominee Programs, Quebec Investor Program)"
+          ],
+          "familyMembers": "Echtgenoot, kinderen onder 22 jaar",
+          "benefits": [
+            "Permanent verblijf met direct pad naar burgerschap",
+            "Hoge levensstandaard en gezondheidszorg",
+            "Mondiale zaken- en onderwijsmogelijkheden"
+          ]
+        },
+        {
+          "name": "Brits Investeerdersvisum",
+          "type": "RBI",
+          "investmentOptions": [
+            "GBP 2 miljoen in Britse bedrijven of staatsobligaties"
+          ],
+          "familyMembers": "Echtgenoot, kinderen onder 18 jaar",
+          "benefits": [
+            "Verblijf en burgerschap binnen 5 jaar",
+            "Toegang tot wereldklasse onderwijs- en financiëlesectoren"
+          ]
+        },
+        {
+          "name": "Iers Investeerdersvisum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 1 miljoen investering in fondsen of bedrijven"
+          ],
+          "familyMembers": "Echtgenoot, kinderen onder 24 jaar",
+          "benefits": [
+            "Verblijf in Ierland met sterke EU-banden",
+            "Engelstalig handelscentrum",
+            "Pad naar burgerschap na 5 jaar"
+          ]
+        }
+      ]
+    },
+    "howWeAssist": {
+      "heading": "Hoe Wij Bijstaan",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Geschiktheidsonderzoek",
+          "description": "We bekijken je financieel profiel, familiedetails en mobiliteitswensen om het meest passende programma aan te bevelen."
+        },
+        {
+          "number": 2,
+          "title": "Investeringsadviezen",
+          "description": "Onze experts verbinden je met goedgekeurde investeringsprojecten, onroerend goed en fondsen."
+        },
+        {
+          "number": 3,
+          "title": "Voorbereiding Aanvraag",
+          "description": "We bereiden alle formulieren, documenten en vertalingen voor en controleren deze."
+        },
+        {
+          "number": 4,
+          "title": "Ambassade- en Overheidscommunicatie",
+          "description": "We communiceren met officiële instanties voor soepele voortgang."
+        },
+        {
+          "number": 5,
+          "title": "Beveiligd Portaal",
+          "description": "Alle documenten worden digitaal opgeslagen en kunnen opnieuw worden gebruikt voor toekomstige aanvragen."
+        },
+        {
+          "number": 6,
+          "title": "Vestiging Na Goedkeuring",
+          "description": "We helpen bij huisvesting, onderwijs, financiële planning en vestiging."
+        }
+      ]
+    },
+    "whoShould": {
+      "heading": "Wie Zou Burgerschap en Verblijf via Investeringsprogramma's Moeten Overwegen",
+      "reasons": [
+        "Ondernemers die naar wereldwijde expansie streven",
+        "Gezinnen die veilige vestiging en toegang tot beter onderwijs en gezondheidszorg wensen",
+        "Welgestelde individuen die visumvrij reizen en financiële diversificatie zoeken",
+        "Personen uit landen met beperkte pasporten die mondiale mobiliteit wensen"
+      ]
+    },
+    "getStarted": {
+      "heading": "Aan De Slag",
+      "description": "Als je geïnteresseerd bent in het verkrijgen van een tweede paspoort of verblijf via investering, dien je eenvoudig je aanvraag via onze portal in. Ons expertteam biedt een volledige beoordeling, beveelt de beste programma's aan en begeleidt je tot goedkeuring."
+    }
+  }
+}

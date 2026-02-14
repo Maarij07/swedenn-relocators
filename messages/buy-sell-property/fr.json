@@ -1,0 +1,109 @@
+{
+  "buySellProperty": {
+    "hero": {
+      "title": "L’immobilier en Suède simplifié",
+      "subtitle": "Achetez, vendez, louez à long terme ou trouvez un logement meublé à court terme via un portail sécurisé"
+    },
+    "intro": {
+      "heading": "Trouvez le bien immobilier adapté en Suède",
+      "subheading": "Des solutions de logement alignées avec votre projet de relocalisation et d’installation",
+      "description": "S’installer en Suède devient souvent complexe au moment de trouver un logement. Identifier le bon quartier, comprendre les contrats, vérifier les annonces et éviter les arrangements risqués nécessitent une expertise locale. Sweden Relocators accompagne l’ensemble de votre parcours immobilier via un portail numérique sécurisé et une application mobile, vous permettant de rechercher, réserver et vous installer en toute confiance.\n\nQue vous veniez en Suède pour le travail, les études, le regroupement familial ou les affaires, notre plateforme vous aide à trouver un logement adapté à votre calendrier et à vos objectifs.",
+      "coverageHeading": "Nos biens et services couvrent :",
+      "coverageItems": [
+        "Appartements et maisons pour particuliers, couples et familles",
+        "Logements d’entreprise pour la relocalisation des employés",
+        "Locations longue durée pour une installation permanente",
+        "Locations meublées courte durée pour des séjours temporaires",
+        "Biens situés dans les grandes villes et les régions favorables à la relocalisation en Suède"
+      ]
+    },
+    "buyOrSell": {
+      "heading": "Achetez ou vendez un bien via un agent immobilier agréé",
+      "subheading": "Transactions sécurisées avec une gestion vérifiée et conforme",
+      "description": "Tous les achats et ventes de biens effectués via notre plateforme sont exclusivement gérés par des agents immobiliers agréés et enregistrés en Suède. Cela garantit la conformité légale, la transparence et la protection des acheteurs comme des vendeurs, en particulier pour les clients internationaux peu familiers avec le système immobilier suédois.",
+      "supportHeading": "Notre accompagnement comprend généralement :",
+      "supportItems": [
+        "Recherche de biens selon votre budget, localisation et objectifs",
+        "Coordination des visites",
+        "Processus d’achat ou de vente encadré par un agent",
+        "Conseils sur les contrats, les délais et la planification de la finalisation"
+      ]
+    },
+    "shortTermRentals": {
+      "heading": "Locations meublées courte durée en Suède",
+      "subheading": "Solution idéale pour les nouveaux arrivants et les séjours professionnels",
+      "description": "Un logement meublé à court terme est souvent la solution la plus pratique lors d’une arrivée en Suède. Notre plateforme propose des logements meublés prêts à l’installation, adaptés aux profils suivants :",
+      "suitableFor": [
+        "Nouveaux arrivants en attente d’un numéro personnel",
+        "Employés détachés et collaborateurs en mission",
+        "Familles arrivant avant d’obtenir un logement longue durée",
+        "Clients en transition entre deux villes ou deux emplois"
+      ],
+      "note": "Tous les biens sont examinés afin de répondre aux besoins pratiques de relocalisation et aux normes locales de logement."
+    },
+    "longTermRentals": {
+      "heading": "Locations longue durée et logement d’installation",
+      "subheading": "Une transition structurée du temporaire au permanent",
+      "intro": "Lorsque vous êtes prêt à vous installer en Suède, nous vous accompagnons dans la planification et l’orientation pour une location longue durée, notamment :",
+      "items": [
+        "Compréhension des exigences locatives et des attentes des propriétaires",
+        "Conditions du bail, délais de préavis et clauses standard",
+        "Choix du quartier selon le trajet domicile-travail, les écoles et le mode de vie",
+        "Préparation à l’emménagement et aspects pratiques de l’installation"
+      ]
+    },
+    "whyChoose": {
+      "heading": "Pourquoi choisir Sweden Relocators pour votre accompagnement immobilier",
+      "subheading": "Une expertise locale alliée à la simplicité numérique",
+      "intro": "La relocalisation ne se limite pas à trouver un logement. Elle nécessite une coordination attentive du logement, des échéances juridiques et des aspects pratiques. Notre approche combine expertise locale et processus numérique structuré.",
+      "advantages": [
+        {
+          "title": "Plateforme unifiée",
+          "description": "Un portail unique pour gérer logement, communication et suivi"
+        },
+        {
+          "title": "Coordination efficace",
+          "description": "Organisation efficace des visites et de la préparation à l’emménagement"
+        },
+        {
+          "title": "Alignement des échéances",
+          "description": "Accompagnement logement aligné avec les délais d’immigration et de relocalisation"
+        },
+        {
+          "title": "Accompagnement complet",
+          "description": "Conseils clairs du premier rendez-vous jusqu’à l’installation complète"
+        }
+      ]
+    },
+    "digitalPortal": {
+      "heading": "Portail numérique et application mobile",
+      "subheading": "Gérez votre parcours logement depuis n’importe où dans le monde",
+      "intro": "Grâce à notre portail en ligne et à notre application mobile, vous pouvez :",
+      "features": [
+        "Créer un compte et réserver des rendez-vous",
+        "Suivre l’avancement de votre logement et de votre relocalisation",
+        "Téléverser des documents en toute sécurité",
+        "Communiquer directement avec votre équipe dédiée",
+        "Accéder à toutes les confirmations et mises à jour en un seul endroit"
+      ],
+      "note": "Cela est particulièrement utile pour les clients se relocalisant depuis l’étranger ou pour les entreprises gérant des relocalisations à distance."
+    },
+    "corporateHousing": {
+      "heading": "Solutions de logement pour entreprises et mobilité internationale",
+      "subheading": "Des solutions pratiques pour la relocalisation des employés et le logement d’entreprise",
+      "intro": "Nous accompagnons les entreprises et les équipes RH en proposant :",
+      "services": [
+        "Logement temporaire pour l’intégration des employés",
+        "Planification de logement longue durée pour les employés installés",
+        "Coordination simplifiée pour réduire les délais",
+        "Un point de contact unique via un portail sécurisé"
+      ]
+    },
+    "getStarted": {
+      "heading": "Commencez votre parcours immobilier en Suède",
+      "primaryCTA": "Inscrivez-vous et explorez les biens qui vous intéressent",
+      "secondaryCTA": "Prenez rendez-vous et avancez en toute confiance",
+      "description": "Que vous ayez besoin d’un appartement meublé à court terme, de conseils pour une location longue durée ou d’un accompagnement pour acheter ou vendre via des agents agréés, Sweden Relocators structure le processus et centralise tout sur une plateforme sécurisée."
+    }
+  }
+}

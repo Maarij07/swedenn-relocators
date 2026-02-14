@@ -1,0 +1,321 @@
+{
+  "cbiBbi": {
+    "hero": {
+      "title": "Statsborgerskap ved Investering og Residens ved Investeringsprogrammer",
+      "subtitle": "Sikr din fremtid med et annet pass eller gyllent visum"
+    },
+    "intro": {
+      "heading": "Global mobilitet og sikker etablering",
+      "description": "På Sweden Relocators hjelper vi personer og familier å sikre fremtiden med andre pass og langsiktige residenseretter gjennom investering. For vermögne individer, gründere og globale borgere åpner CBI- og RBI-programmer dørene til visumiritt reiser, forretningsutvidelse, familiestabilitet og muligheter for internasjonal etablering.\n\nVåre eksperter håndterer hele reisen, fra vurdert av kvalifikasjon og investeringsråd til dokumentasjon, ambassadekommunikasjon og støtte etter godkjenning. Gjennom vår sikre digitale portal kan klienter spore sakene, lagre dokumenter og gjenbruke informasjon til fremtidige søknader."
+    },
+    "understanding": {
+      "heading": "Forståelse av Statsborgerskap og Residens ved Investering",
+      "intro": "To kraftfulle veger mot global mobilitet og sikker internasjonal etablering:",
+      "definitions": [
+        {
+          "title": "Statsborgerskap ved Investering (CBI)",
+          "description": "En direkte veg til statsborgerskap og et annet pass i bytte for en regjeringsgodkjent investering."
+        },
+        {
+          "title": "Residens ved Investering (RBI) eller Gyllent Visum",
+          "description": "En langsiktig residensrettighet basert på investering i eiendom, fond eller virksomheter, med mange programmer som fører til permanent residens eller statsborgerskap."
+        }
+      ],
+      "benefits": "Begge valgene gir familier tilgang til global mobilitet, helsetjenester, utdanning, fordeler ved finansiell planlegging og sikre muligheter for etablering."
+    },
+    "countryPrograms": {
+      "heading": "Land-programmer og Fordeler",
+      "intro": "Nedenfor er en detaljert oversikt over ledende land som tilbyr CBI- og RBI-programmer, inkludert investeringskrav, fordeler og inkludering av familiemedlemmer."
+    },
+    "caribbean": {
+      "heading": "Karibiske Statsborgerskapsprogrammer ved Investering",
+      "intro": "Karibia er den mest populære regionen for raskt annet statsborgerskap. Disse programmene er kjent for sine rimelige inngangspunkter, rask behandling (3-6 måneder) og sterke pass som gir visumfritt tilgang til Europa, Storbritannia og Asia.",
+      "countries": [
+        {
+          "name": "Saint Kitts og Nevis",
+          "type": "CBI (eldste program, lansert i 1984)",
+          "investmentOptions": [
+            "USD 150 000 donasjon til Bærekraftig vekstfond",
+            "USD 200 000 eiendomsinvestering (gjenomssalg tillatt etter 7 år)"
+          ],
+          "familyMembers": "Ektefelle, barn under 30 år, forsørgede foreldre (55+)",
+          "benefits": [
+            "Visumiritt reise til 150+ destinasjoner, inkludert Schengen-området og Storbritannia",
+            "Raskeste CBI-godkjenninger (4-6 måneder)",
+            "Ingen inntekts- eller arveavgift",
+            "Anerkjent som et av de mest prestisjetunge karibiske passa"
+          ]
+        },
+        {
+          "name": "Dominica",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100 000 regjeringsdonasjon",
+            "USD 200 000 eiendomsinvestering"
+          ],
+          "familyMembers": "Ektefelle, barn, forsørgede foreldre, forsørgede søsken under 25 år",
+          "benefits": [
+            "Visumiritt tilgang til 140+ land",
+            "Rimelig program med sterk global aksept",
+            "Statsborgerskap gitt videre til kommende generasjoner",
+            "Populært blant familier for inklusivitet"
+          ]
+        },
+        {
+          "name": "Antigua og Barbuda",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100 000 donasjon for en familie på fire",
+            "USD 200 000 eiendomsinvestering",
+            "Forretningsinvesteringsalternativ tilgjengelig"
+          ],
+          "familyMembers": "Ektefelle, barn, foreldre, besteforeldre, søsken",
+          "benefits": [
+            "Visumiritt til 150+ land",
+            "Tillater store familier i en enkelt søknad",
+            "Krever bare 5 dagers residens hver 5. år",
+            "Populært for flergenerasjons familier"
+          ]
+        },
+        {
+          "name": "Grenada",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 150 000 donasjon",
+            "USD 220 000 eiendomsinvestering"
+          ],
+          "familyMembers": "Ektefelle, barn, foreldre, søsken",
+          "benefits": [
+            "Visumiritt til 145+ destinasjoner, inkludert Kina",
+            "Eneste karibisk pass med tilgang til E-2 visum for amerikanske investorer",
+            "Solid alternativ for gründere som sikter seg mot amerikansk kommersiell inngang"
+          ]
+        },
+        {
+          "name": "Saint Lucia",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100 000 donasjon",
+            "USD 300 000 eiendomsinvestering",
+            "Valuta for statsobligasjonkjøp"
+          ],
+          "familyMembers": "Ektefelle, barn, foreldre",
+          "benefits": [
+            "Visumiritt til 140+ destinasjoner",
+            "Rimelig inngang, fleksible programmuligheter",
+            "Sterkt karibisk pass med investeringsdiversifisering"
+          ]
+        }
+      ]
+    },
+    "european": {
+      "heading": "Europeiske Residensprogrammer ved Investering (Gyllene Visum)",
+      "intro": "Europa forblir en av de mest attraktive destinasjonene for velstående individer som søker sikkerhet, livsstil og tilgang til EU-markedet. RBI-programmer i EU gir residensretter, med mange som fører til permanent residens og statsborgerskap.",
+      "countries": [
+        {
+          "name": "Portugisisk Gyllent Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250 000 i kulturstøtteprojekter",
+            "EUR 500 000 i eiendom (kun valgte områder)",
+            "EUR 500 000 i fond eller jobbopprettelse"
+          ],
+          "familyMembers": "Ektefelle, barn, foreldre",
+          "benefits": [
+            "EU-residens med visumiritt Schengen-reise",
+            "Kvalifisert for statsborgerskap etter 5 år residens",
+            "Tilgang til helsetjenester og utdanning",
+            "Attraktive skatteinsentiver for investorer"
+          ]
+        },
+        {
+          "name": "Gresk Gyllent Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250 000 eiendomskjøp (billigere i Europa)"
+          ],
+          "familyMembers": "Ektefelle, barn under 21 år, foreldre",
+          "benefits": [
+            "Residensretter uten residenskrav",
+            "Veg til statsborgerskap etter 7 år",
+            "Tilgang til EU-markeder og Schengen-reise",
+            "Sterk eiendomsavkastning i turistområder"
+          ]
+        },
+        {
+          "name": "Spansk Gyllent Visum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 500 000 i eiendom",
+            "Kapitalinvesteringsvalg"
+          ],
+          "familyMembers": "Ektefelle, barn, foreldre",
+          "benefits": [
+            "EU-residens og Schengen-mobilitet",
+            "Kvalifisert for statsborgerskap etter 10 år",
+            "Sterk eiendomsmarked i større byer",
+            "Tilgang til toppuniversiteter og helsetjenester"
+          ]
+        },
+        {
+          "name": "Italiensk Investorvisum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250 000 i innovative startups",
+            "EUR 500 000 i etablerte virksomheter",
+            "EUR 1 million i statsobligasjoner"
+          ],
+          "familyMembers": "Ektefelle, barn, foreldre",
+          "benefits": [
+            "Residensretter i Italia og Schengen-mobilitet",
+            "Attraktiv for gründere og forretningsutvidelse",
+            "EU-statsborgerskap etter 10 år"
+          ]
+        },
+        {
+          "name": "Malta",
+          "type": "CBI og RBI",
+          "investmentOptions": [
+            "EUR 600 000 investering pluss utleie/eiendomskjøp"
+          ],
+          "familyMembers": "Ektefelle, barn, foreldre",
+          "benefits": [
+            "Full EU-statsborgerskap innen 12-18 måneder",
+            "Visumiritt til 180+ land, inkludert USA og Canada",
+            "Et av verdens sterkeste pass"
+          ]
+        },
+        {
+          "name": "Kypros",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 300 000 eiendomsinvestering"
+          ],
+          "familyMembers": "Ektefelle, barn, foreldre",
+          "benefits": [
+            "EU-residens innen 6 måneder",
+            "Tilgang til helsetjenester og utdanning",
+            "Eiendomsmarkedet tilbyr sterk leieavkastning"
+          ]
+        }
+      ]
+    },
+    "middleEastGlobal": {
+      "heading": "Mellemøsten og Globale Valg",
+      "countries": [
+        {
+          "name": "Forente Arabiske Emirater (Dubai, Abu Dhabi)",
+          "type": "RBI",
+          "investmentOptions": [
+            "AED 750 000 eiendom eller forretningsinvestering"
+          ],
+          "familyMembers": "Ektefelle, barn",
+          "benefits": [
+            "Skattefri residens",
+            "Tilgang til globalt handelssenter",
+            "Luksus livsstil og høykvalitets helsetjenester"
+          ]
+        },
+        {
+          "name": "USA (EB-5 visum)",
+          "type": "RBI",
+          "investmentOptions": [
+            "USD 800 000 i forretningsprosjekter som skaper arbeidsplasser"
+          ],
+          "familyMembers": "Ektefelle, barn under 21 år",
+          "benefits": [
+            "Grønt kort og veg til statsborgerskap",
+            "Tilgang til amerikanske universiteter og helsetjenester",
+            "Sterk avkastning på investeringer i forretningsprosjekter"
+          ]
+        },
+        {
+          "name": "Canada",
+          "type": "RBI",
+          "investmentOptions": [
+            "CAD 350 000-1 200 000 avhengig av program (Provincial Nominee Programs, Quebec Investor Program)"
+          ],
+          "familyMembers": "Ektefelle, barn under 22 år",
+          "benefits": [
+            "Permanent residens med direkte veg til statsborgerskap",
+            "Høyt levestandard og helsetjenester",
+            "Globale forretnings- og utdanningsmuligheter"
+          ]
+        },
+        {
+          "name": "Britisk Investorvisum",
+          "type": "RBI",
+          "investmentOptions": [
+            "GBP 2 millioner i britiske virksomheter eller statsobligasjoner"
+          ],
+          "familyMembers": "Ektefelle, barn under 18 år",
+          "benefits": [
+            "Residens og statsborgerskap innen 5 år",
+            "Tilgang til verdenklasse utdanning og finanssektorer"
+          ]
+        },
+        {
+          "name": "Irsk Investorvisum",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 1 million investering i fond eller virksomheter"
+          ],
+          "familyMembers": "Ektefelle, barn under 24 år",
+          "benefits": [
+            "Residens i Irland med sterke EU-forbindelser",
+            "Engelskspråklig handelssenter",
+            "Veg til statsborgerskap etter 5 år"
+          ]
+        }
+      ]
+    },
+    "howWeAssist": {
+      "heading": "Hvordan Vi Hjelper",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Vurdering av Kvalifikasjon",
+          "description": "Vi gjennomgår din økonomiske profil, familjedetaljer og mobilitetsbeho for å anbefale det mest passende programmet."
+        },
+        {
+          "number": 2,
+          "title": "Investeringsråd",
+          "description": "Våre eksperter kobler deg til godkjente investeringsprosjekter, eiendom og fond."
+        },
+        {
+          "number": 3,
+          "title": "Søknadsuniversitet",
+          "description": "Vi forbereder og bekrefter alle skjemaer, dokumenter og oversettelser."
+        },
+        {
+          "number": 4,
+          "title": "Ambassade- og Myndighetskommunikasjon",
+          "description": "Vi kommuniserer med offisielle instanser for å sikre jevn saksgang."
+        },
+        {
+          "number": 5,
+          "title": "Sikker Portal",
+          "description": "Alle dokumentet lagres digitalt og er gjenbrukbare for fremtidige søknader."
+        },
+        {
+          "number": 6,
+          "title": "Etablering Etter Godkjenning",
+          "description": "Vi hjelper med bolig, utdanning, finansiell planlegging og etablering."
+        }
+      ]
+    },
+    "whoShould": {
+      "heading": "Hvem Burde Vurdere Statsborgerskap og Residens ved Investeringsprogrammer",
+      "reasons": [
+        "Gründere som søker global utvidelse",
+        "Familier som ønsker sikker etablering og tilgang til bedre utdanning og helsetjenester",
+        "Velstående individer som søker visumiritt reise og finansiell diversifisering",
+        "Folk fra land med begrensede pass som ønsker global mobilitet"
+      ]
+    },
+    "getStarted": {
+      "heading": "Kom I Gang",
+      "description": "Hvis du er interessert i å sikre deg et annet pass eller residens ved investering, sender du ganske enkelt inn din forespørsel gjennom vår portal. Vårt ekspertteam gir en fullstendig vurdering, anbefaler de beste programmene og veileder deg til godkjenning."
+    }
+  }
+}

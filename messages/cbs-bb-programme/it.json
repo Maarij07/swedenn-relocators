@@ -1,0 +1,321 @@
+{
+  "cbiBbi": {
+    "hero": {
+      "title": "Cittadinanza tramite Investimento e Residenza tramite Programmi di Investimento",
+      "subtitle": "Assicura il tuo futuro con un secondo passaporto o un visto dorato"
+    },
+    "intro": {
+      "heading": "Mobilità globale e insediamento sicuro",
+      "description": "Su Sweden Relocators, aiutiamo le persone e le famiglie a garantire il loro futuro con secondi passaporti e diritti di residenza a lungo termine attraverso investimenti. Per i privati ad alto patrimonio netto, gli imprenditori e i cittadini globali, i programmi CBI e RBI aprono le porte ai viaggi senza visto, all'espansione aziendale, alla sicurezza familiare e alle opportunità di insediamento internazionale.\n\nI nostri esperti gestiscono l'intero viaggio, dalla valutazione dell'idoneità e la consulenza sugli investimenti alla documentazione, alla comunicazione dell'ambasciata e al supporto dopo l'approvazione. Attraverso il nostro portale digitale sicuro, i clienti possono tracciare i loro casi, archiviare documenti e riutilizzare informazioni per future domande."
+    },
+    "understanding": {
+      "heading": "Comprensione della Cittadinanza e della Residenza tramite Investimento",
+      "intro": "Due sentieri potenti verso la mobilità globale e l'insediamento internazionale sicuro:",
+      "definitions": [
+        {
+          "title": "Cittadinanza tramite Investimento (CBI)",
+          "description": "Un percorso diretto verso la cittadinanza e un secondo passaporto in cambio di un investimento approvato dal governo."
+        },
+        {
+          "title": "Residenza tramite Investimento (RBI) o Visto Dorato",
+          "description": "Un permesso di residenza a lungo termine basato su investimenti in immobili, fondi o aziende, con molti programmi che portano a residenza permanente o cittadinanza."
+        }
+      ],
+      "benefits": "Entrambe le opzioni concedono alle famiglie l'accesso alla mobilità globale, all'assistenza sanitaria, all'istruzione, ai vantaggi della pianificazione finanziaria e alle opportunità sicure di insediamento."
+    },
+    "countryPrograms": {
+      "heading": "Programmi Paesi e Vantaggi",
+      "intro": "Di seguito è riportato un dettagliato breakdown dei paesi leader che offrono programmi CBI e RBI, includendo i requisiti di investimento, i vantaggi e l'inclusione dei familiari."
+    },
+    "caribbean": {
+      "heading": "Programmi di Cittadinanza dei Caraibi tramite Investimento",
+      "intro": "I Caraibi sono la regione più popolare per una cittadinanza di seconda velocità rapida. Questi programmi sono noti per i loro punti di ingresso accessibili, l'elaborazione veloce (3-6 mesi) e i passaporti forti che offrono accesso senza visto all'Europa, al Regno Unito e all'Asia.",
+      "countries": [
+        {
+          "name": "Saint Kitts e Nevis",
+          "type": "CBI (programma più antico, lanciato nel 1984)",
+          "investmentOptions": [
+            "USD 150.000 donazione al Fondo per la crescita sostenibile",
+            "USD 200.000 investimento immobiliare (rivendita consentita dopo 7 anni)"
+          ],
+          "familyMembers": "Coniuge, figli sotto i 30 anni, genitori a carico (55+)",
+          "benefits": [
+            "Viaggio senza visto verso 150+ destinazioni, inclusa l'area Schengen e il Regno Unito",
+            "Approvazioni CBI più veloci (4-6 mesi)",
+            "Nessuna imposta sul reddito o eredità",
+            "Riconosciuto come uno dei passaporti caraibici più prestigiosi"
+          ]
+        },
+        {
+          "name": "Dominica",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 donazione governativa",
+            "USD 200.000 investimento immobiliare"
+          ],
+          "familyMembers": "Coniuge, figli, genitori a carico, fratelli e sorelle a carico sotto i 25 anni",
+          "benefits": [
+            "Accesso senza visto a 140+ paesi",
+            "Programma conveniente con forte accettazione globale",
+            "Cittadinanza tramandata alle generazioni future",
+            "Popolare tra le famiglie per l'inclusione"
+          ]
+        },
+        {
+          "name": "Antigua e Barbuda",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 donazione per una famiglia di quattro",
+            "USD 200.000 investimento immobiliare",
+            "Opzione di investimento aziendale disponibile"
+          ],
+          "familyMembers": "Coniuge, figli, genitori, nonni, fratelli e sorelle",
+          "benefits": [
+            "Senza visto a 150+ paesi",
+            "Consente grandi famiglie in un'unica applicazione",
+            "Richiede solo 5 giorni di residenza ogni 5 anni",
+            "Popolare per le famiglie multigenerazionali"
+          ]
+        },
+        {
+          "name": "Grenada",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 150.000 donazione",
+            "USD 220.000 investimento immobiliare"
+          ],
+          "familyMembers": "Coniuge, figli, genitori, fratelli e sorelle",
+          "benefits": [
+            "Senza visto a 145+ destinazioni inclusa la Cina",
+            "Solo passaporto caraibico con accesso al visto E-2 per investitori statunitensi",
+            "Opzione solida per gli imprenditori che mirano all'ingresso commerciale negli Stati Uniti"
+          ]
+        },
+        {
+          "name": "Santa Lucia",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 donazione",
+            "USD 300.000 investimento immobiliare",
+            "Opzione di acquisto di obbligazioni governative"
+          ],
+          "familyMembers": "Coniuge, figli, genitori",
+          "benefits": [
+            "Senza visto a 140+ destinazioni",
+            "Ingresso conveniente, opzioni di programmazione flessibile",
+            "Forte passaporto caraibico con diversificazione degli investimenti"
+          ]
+        }
+      ]
+    },
+    "european": {
+      "heading": "Programmi di Residenza Europea tramite Investimento (Visti Dorati)",
+      "intro": "L'Europa rimane una delle destinazioni più attraenti per gli individui facoltosi che cercano sicurezza, stile di vita e accesso al mercato dell'UE. I programmi RBI nell'UE forniscono diritti di residenza, con molti che portano a residenza permanente e cittadinanza.",
+      "countries": [
+        {
+          "name": "Visto Dorato Portoghese",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 nei progetti di supporto culturale",
+            "EUR 500.000 in immobili (solo aree selezionate)",
+            "EUR 500.000 in fondi o creazione di posti di lavoro"
+          ],
+          "familyMembers": "Coniuge, figli, genitori",
+          "benefits": [
+            "Residenza nell'UE con viaggi senza visto Schengen",
+            "Idoneo per la cittadinanza dopo 5 anni di residenza",
+            "Accesso all'assistenza sanitaria e all'istruzione",
+            "Incentivi fiscali interessanti per gli investitori"
+          ]
+        },
+        {
+          "name": "Visto Dorato Greco",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 acquisto di proprietà (più conveniente in Europa)"
+          ],
+          "familyMembers": "Coniuge, figli fino a 21 anni, genitori",
+          "benefits": [
+            "Diritti di residenza senza requisiti di residenza",
+            "Percorso verso la cittadinanza dopo 7 anni",
+            "Accesso ai mercati dell'UE e ai viaggi Schengen",
+            "Forti rendimenti immobiliari in zone turistiche"
+          ]
+        },
+        {
+          "name": "Visto Dorato Spagnolo",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 500.000 in immobili",
+            "Opzioni di investimento di capitale"
+          ],
+          "familyMembers": "Coniuge, figli, genitori",
+          "benefits": [
+            "Residenza e mobilità Schengen",
+            "Idoneo per la cittadinanza dopo 10 anni",
+            "Forte mercato immobiliare nelle principali città",
+            "Accesso alle università e all'assistenza sanitaria di prim'ordine"
+          ]
+        },
+        {
+          "name": "Visto Investitore Italiano",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 in startup innovativi",
+            "EUR 500.000 in aziende consolidate",
+            "EUR 1 milione in obbligazioni governative"
+          ],
+          "familyMembers": "Coniuge, figli, genitori",
+          "benefits": [
+            "Diritti di residenza in Italia e mobilità Schengen",
+            "Attraente per gli imprenditori e l'espansione aziendale",
+            "Cittadinanza dell'UE dopo 10 anni"
+          ]
+        },
+        {
+          "name": "Malta",
+          "type": "CBI e RBI",
+          "investmentOptions": [
+            "EUR 600.000 investimento più affitto/acquisto di proprietà"
+          ],
+          "familyMembers": "Coniuge, figli, genitori",
+          "benefits": [
+            "Cittadinanza completa dell'UE entro 12-18 mesi",
+            "Viaggio senza visto verso 180+ paesi inclusi USA e Canada",
+            "Uno dei passaporti più forti del mondo"
+          ]
+        },
+        {
+          "name": "Cipro",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 300.000 investimento immobiliare"
+          ],
+          "familyMembers": "Coniuge, figli, genitori",
+          "benefits": [
+            "Residenza UE entro 6 mesi",
+            "Accesso all'assistenza sanitaria e all'istruzione",
+            "Il mercato immobiliare offre forti rendimenti locativi"
+          ]
+        }
+      ]
+    },
+    "middleEastGlobal": {
+      "heading": "Opzioni Medio Oriente e Globali",
+      "countries": [
+        {
+          "name": "Emirati Arabi Uniti (Dubai, Abu Dhabi)",
+          "type": "RBI",
+          "investmentOptions": [
+            "AED 750.000 investimento immobiliare o aziendale"
+          ],
+          "familyMembers": "Coniuge, figli",
+          "benefits": [
+            "Residenza esente da imposte",
+            "Accesso al centro commerciale globale",
+            "Stile di vita di lusso e assistenza sanitaria di alta qualità"
+          ]
+        },
+        {
+          "name": "Stati Uniti (Visto EB-5)",
+          "type": "RBI",
+          "investmentOptions": [
+            "USD 800.000 in progetti aziendali che creano posti di lavoro"
+          ],
+          "familyMembers": "Coniuge, figli sotto i 21 anni",
+          "benefits": [
+            "Carta verde USA e percorso verso la cittadinanza",
+            "Accesso alle università americane e all'assistenza sanitaria",
+            "Forti rendimenti di investimento nei progetti aziendali"
+          ]
+        },
+        {
+          "name": "Canada",
+          "type": "RBI",
+          "investmentOptions": [
+            "CAD 350.000-1.200.000 a seconda del programma (Provincial Nominee Programs, Quebec Investor Program)"
+          ],
+          "familyMembers": "Coniuge, figli sotto i 22 anni",
+          "benefits": [
+            "Residenza permanente con percorso diretto verso la cittadinanza",
+            "Alto tenore di vita e assistenza sanitaria",
+            "Opportunità commerciali e educative globali"
+          ]
+        },
+        {
+          "name": "Visto Investitore Regno Unito",
+          "type": "RBI",
+          "investmentOptions": [
+            "GBP 2 milioni in aziende britanniche o obbligazioni governative"
+          ],
+          "familyMembers": "Coniuge, figli sotto i 18 anni",
+          "benefits": [
+            "Residenza e cittadinanza entro 5 anni",
+            "Accesso ai settori dell'istruzione e della finanza di livello mondiale"
+          ]
+        },
+        {
+          "name": "Visto Investitore Irlandese",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 1 milione investimento in fondi o aziende"
+          ],
+          "familyMembers": "Coniuge, figli sotto i 24 anni",
+          "benefits": [
+            "Residenza in Irlanda con forti legami UE",
+            "Centro commerciale di lingua inglese",
+            "Percorso verso la cittadinanza dopo 5 anni"
+          ]
+        }
+      ]
+    },
+    "howWeAssist": {
+      "heading": "Come Assistiamo",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Valutazione dell'Idoneità",
+          "description": "Rivediamo il tuo profilo finanziario, i dettagli familiari e le esigenze di mobilità per consigliare il programma più appropriato."
+        },
+        {
+          "number": 2,
+          "title": "Consulenza sugli Investimenti",
+          "description": "I nostri esperti ti collegano a progetti di investimento approvati, immobili e fondi."
+        },
+        {
+          "number": 3,
+          "title": "Preparazione della Domanda",
+          "description": "Prepariamo e verifichiamo tutti i moduli, i documenti e le traduzioni."
+        },
+        {
+          "number": 4,
+          "title": "Comunicazione dell'Ambasciata e delle Autorità",
+          "description": "Comunichiamo con le autorità ufficiali per garantire un progresso fluido."
+        },
+        {
+          "number": 5,
+          "title": "Portale Sicuro",
+          "description": "Tutti i documenti vengono archiviati digitalmente e riutilizzabili per future domande."
+        },
+        {
+          "number": 6,
+          "title": "Insediamento Post-Approvazione",
+          "description": "Assistiamo nell'alloggio, nell'istruzione, nella pianificazione fiscale e nell'insediamento."
+        }
+      ]
+    },
+    "whoShould": {
+      "heading": "Chi Dovrebbe Considerare Cittadinanza e Residenza tramite Programmi di Investimento",
+      "reasons": [
+        "Imprenditori alla ricerca di espansione globale",
+        "Famiglie che desiderano insediamento sicuro e accesso a istruzione e assistenza sanitaria migliore",
+        "Individui ricchi che cercano viaggi senza visto e diversificazione finanziaria",
+        "Persone da paesi con passaporti limitati che desiderano mobilità globale"
+      ]
+    },
+    "getStarted": {
+      "heading": "Per Iniziare",
+      "description": "Se sei interessato a garantirti un secondo passaporto o una residenza tramite investimento, invia semplicemente la tua richiesta attraverso il nostro portale. Il nostro team di esperti fornisce una valutazione completa, consiglia i migliori programmi e ti guida fino all'approvazione."
+    }
+  }
+}

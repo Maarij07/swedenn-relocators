@@ -1,0 +1,109 @@
+{
+  "buySellProperty": {
+    "hero": {
+      "title": "Asunnot Ruotsissa helposti",
+      "subtitle": "Osta, myy, vuokraa pitkäaikaisesti tai varaa lyhytaikainen kalustettu asunto yhden turvallisen portaalin kautta"
+    },
+    "intro": {
+      "heading": "Löydä oikea asunto Ruotsissa",
+      "subheading": "Asumisratkaisut, jotka tukevat muutto- ja asettautumissuunnitelmaasi",
+      "description": "Muutto Ruotsiin muuttuu usein haastavaksi asumisvaiheessa. Oikean alueen valinta, sopimusten ymmärtäminen, ilmoitusten tarkistaminen ja riskialttiiden järjestelyjen välttäminen edellyttävät paikallista asiantuntemusta. Sweden Relocators tukee koko asuntoprosessia turvallisen digitaalisen portaalin ja mobiilisovelluksen kautta, jolloin voit etsiä, varata ja muuttaa luottavaisin mielin.\n\nMuutatpa Ruotsiin työn, opiskelun, perheenyhdistämisen tai liiketoiminnan vuoksi, alustamme auttaa sinua löytämään sopivan asunnon aikataulusi ja tavoitteidesi mukaisesti.",
+      "coverageHeading": "Tarjontamme ja tukemme kattavat:",
+      "coverageItems": [
+        "Asunnot ja talot yksilöille, pareille ja perheille",
+        "Yritysasunnot työntekijöiden muuttoihin",
+        "Pitkäaikaiset vuokra-asunnot pysyvään asettautumiseen",
+        "Lyhytaikaiset kalustetut vuokra-asunnot tilapäiseen oleskeluun",
+        "Asunnot suurissa kaupungeissa ja muuttoystävällisillä alueilla eri puolilla Ruotsia"
+      ]
+    },
+    "buyOrSell": {
+      "heading": "Osta tai myy asunto valtuutetun kiinteistönvälittäjän kautta",
+      "subheading": "Turvalliset ja lainmukaiset kaupat varmennetulla käsittelyllä",
+      "description": "Kaikki alustamme kautta toteutettavat asuntokaupat hoidetaan yksinomaan Ruotsissa valtuutettujen ja rekisteröityjen kiinteistönvälittäjien kautta. Tämä varmistaa lainmukaisuuden, läpinäkyvyyden ja suojan sekä ostajille että myyjille, erityisesti kansainvälisille asiakkaille, jotka eivät tunne Ruotsin asuntomarkkinajärjestelmää.",
+      "supportHeading": "Tukemme sisältää tyypillisesti:",
+      "supportItems": [
+        "Asuntojen kartoitus budjetin, sijainnin ja tavoitteiden perusteella",
+        "Asuntonäyttöjen koordinointi",
+        "Välittäjän johtama osto- tai myyntiprosessi",
+        "Ohjaus sopimuksissa, aikatauluissa ja asettautumisen suunnittelussa"
+      ]
+    },
+    "shortTermRentals": {
+      "heading": "Lyhytaikaiset kalustetut vuokra-asunnot Ruotsissa",
+      "subheading": "Ihanteellinen ratkaisu uusille tulijoille ja yritysmajoituksiin",
+      "description": "Lyhytaikainen kalustettu majoitus on usein käytännöllisin ratkaisu Ruotsiin saavuttaessa. Alustamme tarjoaa muuttoon valmiita kalustettuja asuntoja, jotka sopivat:",
+      "suitableFor": [
+        "Uusille tulijoille, jotka odottavat henkilötunnuksen rekisteröintiä",
+        "Yrityskomennuksella oleville ja projektityöntekijöille",
+        "Perheille, jotka saapuvat ennen pitkäaikaisen asunnon varmistamista",
+        "Asiakkaille, jotka siirtyvät kaupungista tai työpaikasta toiseen"
+      ],
+      "note": "Kaikki asunnot tarkistetaan, jotta ne täyttävät käytännön muutto- ja paikalliset asumisvaatimukset."
+    },
+    "longTermRentals": {
+      "heading": "Pitkäaikaiset vuokra-asunnot ja asettautumisasuminen",
+      "subheading": "Hallittu siirtyminen tilapäisestä pysyvään asumiseen",
+      "intro": "Kun olet valmis asettautumaan Ruotsiin, autamme pitkäaikaisen vuokra-asumisen suunnittelussa ja neuvonnassa, mukaan lukien:",
+      "items": [
+        "Vuokrausvaatimusten ja vuokranantajan odotusten ymmärtäminen",
+        "Vuokrasopimuksen ehdot, irtisanomisajat ja vakiolausekkeet",
+        "Aluevalinta työmatkan, koulujen ja elämäntyylin perusteella",
+        "Muuttoon valmistautuminen ja käytännön järjestelyt"
+      ]
+    },
+    "whyChoose": {
+      "heading": "Miksi valita Sweden Relocators asuntoasioissa",
+      "subheading": "Paikallista asiantuntemusta ja digitaalista helppoutta",
+      "intro": "Muutto ei tarkoita pelkästään asunnon löytämistä. Se edellyttää asumisen, lakisääteisten aikataulujen ja käytännön järjestelyjen huolellista koordinointia. Lähestymistapamme yhdistää paikallisen asiantuntemuksen ja jäsennellyn digitaalisen prosessin.",
+      "advantages": [
+        {
+          "title": "Yhtenäinen alusta",
+          "description": "Yksi portaali asumisen, viestinnän ja etenemisen hallintaan"
+        },
+        {
+          "title": "Tehokas koordinointi",
+          "description": "Sujuva koordinointi näyttöihin ja muuttoon valmistautumiseen"
+        },
+        {
+          "title": "Aikataulujen yhteensovittaminen",
+          "description": "Asumistuki linjassa maahanmuutto- ja muuttoaikataulujen kanssa"
+        },
+        {
+          "title": "Kokonaisvaltainen ohjaus",
+          "description": "Selkeä tuki ensimmäisestä tapaamisesta täyteen asettautumiseen"
+        }
+      ]
+    },
+    "digitalPortal": {
+      "heading": "Digitaalinen portaali ja mobiilisovellus",
+      "subheading": "Hallitse asumisprosessiasi mistä päin maailmaa tahansa",
+      "intro": "Verkkoportaalimme ja mobiilisovelluksemme kautta voit:",
+      "features": [
+        "Rekisteröityä ja varata tapaamisia",
+        "Seurata asumis- ja muuttoprosessin etenemistä",
+        "Ladata asiakirjoja turvallisesti",
+        "Viestittää suoraan nimetyn tukitiimisi kanssa",
+        "Saada kaikki vahvistukset ja päivitykset yhteen paikkaan"
+      ],
+      "note": "Erityisen hyödyllinen asiakkaille, jotka muuttavat Ruotsin ulkopuolelta, tai yrityksille, jotka hallinnoivat työntekijöiden muuttoja etänä."
+    },
+    "corporateHousing": {
+      "heading": "Asuntoratkaisut yrityksille ja kansainväliseen liikkuvuuteen",
+      "subheading": "Käytännölliset ratkaisut työntekijöiden muuttoihin ja yritysmajoitukseen",
+      "intro": "Tuemme yrityksiä ja HR-tiimejä tarjoamalla:",
+      "services": [
+        "Tilapäinen majoitus työntekijöiden aloitusvaiheeseen",
+        "Pitkäaikaisen asumisen suunnittelu asettuneille työntekijöille",
+        "Sujuva koordinointi viivästysten vähentämiseksi",
+        "Yksi yhteyspiste turvallisen portaalin kautta"
+      ]
+    },
+    "getStarted": {
+      "heading": "Aloita asuntomatkasi Ruotsissa",
+      "primaryCTA": "Rekisteröidy ja tutustu sinulle sopiviin asuntoihin",
+      "secondaryCTA": "Varaa aika ja etene luottavaisin mielin",
+      "description": "Tarvitsitpa lyhytaikaisen kalustetun asunnon, ohjausta pitkäaikaiseen vuokraukseen tai tukea asunnon ostoon tai myyntiin valtuutetun välittäjän kautta, Sweden Relocators jäsentää koko prosessin ja pitää kaiken hallittuna yhdellä turvallisella alustalla."
+    }
+  }
+}

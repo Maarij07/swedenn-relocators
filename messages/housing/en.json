@@ -1,0 +1,146 @@
+{
+  "housing": {
+    "hero": {
+      "title": "Housing Solutions in Sweden",
+      "subtitle": "with Sweden Relocators"
+    },
+    "intro": {
+      "heading": "Your Home Search Partner in Sweden",
+      "description": "Finding a home is one of the most important steps when relocating to Sweden. Whether you are moving alone, with your family, bringing employees as a company, or managing properties as a housing provider, the right housing solution sets the foundation for a smooth relocation.",
+      "platform": "At Sweden Relocators, we combine years of relocation expertise with a modern digital platform that connects tenants, companies, and housing providers in one place. Our services go beyond rentals and purchases—we provide short-term housing, long-term rentals, property sales, mortgage support, and professional property listing solutions. This way, individuals, families, and organizations can handle their entire housing journey through a single, secure portal."
+    },
+    "forIndividuals": {
+      "heading": "Housing for Individuals and Families",
+      "intro": "Relocating as an individual or family can feel overwhelming. From temporary housing to permanent homes, Sweden Relocators ensures you have reliable options every step of the way.",
+      "services": [
+        {
+          "title": "Short-Term Rentals",
+          "description": "Short-term rentals are designed for people who need a place to live immediately after arriving in Sweden. These properties are usually furnished and move-in ready, making them perfect for expats waiting for long-term contracts to begin, students starting their courses, and families needing a temporary home while they buy or rent permanently.",
+          "features": [
+            "Check availability in real time",
+            "Review detailed property information",
+            "Sign verified rental contracts digitally"
+          ]
+        },
+        {
+          "title": "Long-Term Rentals",
+          "description": "If you're planning to stay in Sweden for an extended period, we provide access to apartments, villas, shared rooms, and co-living spaces across the country. All contracts are fully compliant with Swedish tenancy laws, and our listings are verified for security and quality.",
+          "features": [
+            "Family-friendly villas near schools",
+            "Modern apartments in city centers",
+            "Verified listings for security and quality",
+            "Fully compliant Swedish tenancy contracts"
+          ]
+        },
+        {
+          "title": "Buy & Sell Properties",
+          "description": "Many newcomers decide to buy property once they settle in. Sweden Relocators connects you with licensed property brokers who manage the buying and selling process from start to finish.",
+          "features": [
+            "Buy apartments, villas, or investment properties",
+            "Sell your property to a global audience",
+            "Complete transactions legally and securely with full guidance"
+          ]
+        },
+        {
+          "title": "Mortgage & Financial Support",
+          "description": "Buying property in Sweden often requires local mortgage support. For expats, this process can be complex. We provide comprehensive assistance with the entire mortgage journey.",
+          "features": [
+            "Mortgage pre-approval assessments",
+            "Bank applications and required documents",
+            "Guidance on Swedish lending rules and income requirements",
+            "Financial planning for repayment and investment strategies"
+          ]
+        }
+      ]
+    },
+    "forEmployers": {
+      "heading": "Housing Solutions for Employers and Companies",
+      "intro": "Companies relocating employees need reliable housing to ensure staff feel comfortable and secure from day one. Sweden Relocators offers corporate housing solutions that simplify this process.",
+      "services": [
+        "Submit staff housing requests through our digital portal",
+        "Choose from apartments, serviced homes, and corporate housing",
+        "Manage multiple employees and contracts in one platform",
+        "Integrate housing with other relocation services such as ID registration, bank account setup, and arrival orientation"
+      ],
+      "ideal": "This service is ideal for multinational companies, staffing agencies, universities, and NGOs. By managing housing centrally, companies save time, reduce risks, and provide employees with a smooth transition into Swedish life."
+    },
+    "forProviders": {
+      "heading": "Housing Providers and Property Companies",
+      "intro": "Our platform also serves as a gateway for landlords, housing companies, and property providers who want to list their properties. By partnering with Sweden Relocators, you gain access to verified tenants including expats, students, professionals, and corporate clients.",
+      "process": {
+        "heading": "How to List Your Properties",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register as a Housing Partner",
+            "description": "Create an account on our portal."
+          },
+          {
+            "number": 2,
+            "title": "Upload Listings",
+            "description": "Add apartments, villas, shared housing, or staff housing with descriptions, photos, and pricing."
+          },
+          {
+            "number": 3,
+            "title": "Set Terms",
+            "description": "Choose between short-term rentals, long-term rentals, or corporate housing."
+          },
+          {
+            "number": 4,
+            "title": "Get Verified Tenants",
+            "description": "We connect you with reliable tenants, from individuals to companies."
+          },
+          {
+            "number": 5,
+            "title": "Manage Online",
+            "description": "Use our portal for contracts, renewals, and payment tracking."
+          }
+        ]
+      },
+      "benefits": {
+        "heading": "Benefits of Listing with Us",
+        "items": [
+          "Exposure to international and corporate tenants",
+          "Tenant screening and legally sound rental contracts",
+          "Access to companies needing housing for employees",
+          "Full integration with our relocation services for added visibility",
+          "Option to mark listings as short rental for flexible tenant access"
+        ]
+      }
+    },
+    "whyChooseUs": {
+      "heading": "Why Sweden Relocators for Housing?",
+      "advantages": [
+        {
+          "title": "Individuals & Families",
+          "description": "Verified rentals, secure contracts, property purchases, and mortgage support."
+        },
+        {
+          "title": "Companies",
+          "description": "Bulk housing management, relocation integration, and corporate housing."
+        },
+        {
+          "title": "Housing Providers",
+          "description": "Access to global relocation clients, corporate partnerships, and secure tenant matching."
+        },
+        {
+          "title": "All Property Types",
+          "description": "Apartments, villas, shared rooms, co-living, and investment properties."
+        },
+        {
+          "title": "Professional Brokers",
+          "description": "Registered real estate experts for property sales and purchases."
+        },
+        {
+          "title": "End-to-End Platform",
+          "description": "Manage requests, bookings, and listings all in one place."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Get Started with Sweden Relocators",
+      "description": "Whether you're searching for a short-term rental, planning a long-term stay, buying or selling property, or listing housing as a provider, Sweden Relocators makes the process transparent, secure, and efficient.",
+      "cta": "Submit your housing request or register your property on our portal today. Let Sweden Relocators match you with the right housing solution in Sweden."
+    }
+  }
+}

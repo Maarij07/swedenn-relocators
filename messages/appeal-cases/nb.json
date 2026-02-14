@@ -1,0 +1,190 @@
+{
+  "appealCases": {
+    "hero": {
+      "title": "Klageprosess i Sverige",
+      "subtitle": "Hvordan bestride avslag på oppholdstillatelse, visum og statsborgerskap"
+    },
+    "intro": {
+      "heading": "Forstå din rett til å klage",
+      "description": "Hvis søknaden din om oppholdstillatelse, arbeidstillatelse, familiegjenforening, forretningsvisum, studietillatelse, permanent opphold eller svensk statsborgerskap har blitt avslått, har du fortsatt juridiske alternativer. I henhold til svensk utlendingslov har alle søkere rett til å klage. En klage gir deg mulighet til å fremlegge nye bevis, rette feil og be om en ny vurdering av enten Migrationsverket eller domstolene.\n\nHos Sweden Relocators tilbyr vi profesjonell klagebistand til enkeltpersoner, familier og bedrifter. Vår casestudiebaserte tilnærming, basert på Utlänningslagen (2005:716), EU-lovgivning og internasjonale konvensjoner, sikrer at hver klage bygger på sterke juridiske og faktiske argumenter."
+    },
+    "yourRights": {
+      "heading": "Dine rettigheter etter et avslag",
+      "rights": [
+        {
+          "title": "Rett til ny vurdering av Migrationsverket",
+          "description": "Hvis avslaget skyldes mindre feil, som manglende dokumenter, økonomisk dokumentasjon eller uklare forklaringer, kan Migrationsverket omgjøre beslutningen etter ny vurdering."
+        },
+        {
+          "title": "Rett til å klage til forvaltningsretten",
+          "description": "Hvis Migrationsverket opprettholder beslutningen, sendes klagen automatisk til forvaltningsretten (Förvaltningsrätten) i Göteborg for uavhengig vurdering."
+        },
+        {
+          "title": "Rett til videre klage",
+          "description": "Hvis forvaltningsretten avslår klagen, kan du i enkelte tilfeller be om tillatelse til å klage til Migration Court of Appeal (Migrationsöverdomstolen). Denne domstolen tar kun saker av generell juridisk betydning som kan etablere presedens."
+        }
+      ]
+    },
+    "reviewProcess": {
+      "heading": "Hvordan svenske myndigheter vurderer klager",
+      "intro": "Når du klager, blir avgjørelsen vurdert i en strukturert juridisk prosess. Det er viktig å forstå hvordan myndighetene evaluerer klager, da suksess avhenger av både dokumentasjon og juridiske argumenter.",
+      "stages": [
+        {
+          "number": 1,
+          "title": "Ny vurdering av Migrationsverket",
+          "questions": [
+            "Ble klagen levert innen 3-ukers fristen?",
+            "Finnes det nye dokumenter, økonomiske bevis eller familiebevis?",
+            "Oppfyller den oppdaterte saken nå de juridiske kravene?"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Forvaltningsrettens vurdering",
+          "description": "Uavhengig juridisk vurdering, ikke bundet av Migrationsverkets beslutning.",
+          "questions": [
+            "Var avslaget i samsvar med Utlänningslagen?",
+            "Ble EU-regler som direktiv 2004/38/EC (fri bevegelighet) anvendt?",
+            "Ble menneskerettigheter, som artikkel 8 i EMK (familieliv), respektert?",
+            "Ble integrasjon og humanitære forhold vurdert?"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Migration Court of Appeal",
+          "description": "Kun for saker av bredere betydning. Etablerer presedens som styrer fremtidige immigrasjonssaker i Sverige."
+        }
+      ]
+    },
+    "howWeHelp": {
+      "heading": "Hvordan Sweden Relocators forbereder klagen din",
+      "intro": "Vi behandler hver klage som en fullstendig juridisk casestudie, med fokus på bevis, lov og presedens.",
+      "steps": [
+        {
+          "title": "Saksgjennomgang",
+          "description": "Studer avslagsbrevet i detalj. Identifiser hvilke juridiske grunner som ble brukt for å avslå søknaden. Sammenlign med Utlänningslagen, EU-lov og domstolspresedens."
+        },
+        {
+          "title": "Scenarioanalyse",
+          "description": "Kan økonomiske mangler rettes med oppdatert inntekt eller kausjonister? Kan bevis for bolig eller integrasjon styrke saken? Kan menneskerettighetslov overstyre avslaget i familieforhold?"
+        },
+        {
+          "title": "Innsamling av bevis",
+          "description": "Oppdaterte skattemeldinger, lønnsslipper, leieavtaler, arbeidskontrakter. Bevis på forhold, skole eller integreringsdeltakelse, språkkurs. Humanitære bevis som medisinske journaler eller avhengighetsfaktorer."
+        },
+        {
+          "title": "Juridisk argumentasjon",
+          "description": "Utlänningslagen 2005:716 – kjernebestemmelser for familie, arbeid og humanitære grunner. Förarbeten – forklarer lovgivers intensjon. EU-lov – inkludert direktiv 2004/38/EC om familierettigheter. Artikkel 8 EMK – rett til familie- og privatliv. Migrationsöverdomstolen-presedens."
+        },
+        {
+          "title": "Utarbeidelse av klagebrev",
+          "description": "Skrives profesjonelt på svensk eller engelsk. Hvert avslagsgrunnlag besvares med lov og bevis. Et sterkt og overbevisende narrativ som viser hvorfor saken oppfyller juridiske krav."
+        },
+        {
+          "title": "Rettssaksrepresentasjon og oppfølging",
+          "description": "Vi håndterer alle innleveringer og kommunikasjon med retten. Representerer deg profesjonelt i Förvaltningsrätten ved behov. Sørger for at frister overholdes og gir jevnlige oppdateringer."
+        }
+      ]
+    },
+    "commonCases": {
+      "heading": "Vanlige saker vi håndterer",
+      "cases": [
+        "Avslag på familiegjenforening – inntekt eller bolig aksepteres ikke, tvil om forholdet",
+        "Avslag på arbeidstillatelse – arbeidsgiver mangler dokumentasjon, forsikringsproblemer, feil arbeidsvilkår",
+        "Avslag på studietillatelse – utilstrekkelig økonomisk dokumentasjon, tvil om studiehensikt",
+        "Avslag på permanent opphold eller statsborgerskap – adferdsproblemer, oppholdsgap, uklare dokumenter",
+        "Avslag på Schengen- og besøksvisum – uklar reisehensikt, svake bånd til hjemland, manglende midler"
+      ]
+    },
+    "timelines": {
+      "heading": "Tidslinjer for klager",
+      "items": [
+        {
+          "label": "Ny vurdering av Migrationsverket",
+          "time": "innen noen uker"
+        },
+        {
+          "label": "Overføring til forvaltningsretten",
+          "time": "vanligvis 1 måned"
+        },
+        {
+          "label": "Rettens avgjørelser",
+          "time": "flere måneder, avhengig av sakens kompleksitet"
+        },
+        {
+          "label": "Høyere klager",
+          "time": "kan forlenge prosessen betydelig"
+        }
+      ]
+    },
+    "whyWorks": {
+      "heading": "Hvorfor vår casestudie-tilnærming fungerer",
+      "intro": "De fleste klager mislykkes fordi søkere bare sender inn gamle dokumenter på nytt. Sweden Relocators bygger klager på fakta, lov og presedens, og adresserer svakheter direkte.",
+      "reasons": [
+        "Vi viser hvordan den opprinnelige avgjørelsen var feil",
+        "Vi leverer bevis på at kravene nå er oppfylt",
+        "Vi forutser motargumenter og forbereder svar"
+      ],
+      "conclusion": "Denne systematiske forberedelsen øker sannsynligheten for suksess."
+    },
+    "faqs": {
+      "heading": "Ofte stilte spørsmål",
+      "items": [
+        {
+          "q": "Hvor lang tid har jeg på å klage et avslag i Sverige?",
+          "a": "Du har 3 uker fra du mottok avgjørelsen til å levere klagen."
+        },
+        {
+          "q": "Kan jeg legge til nye dokumenter i klagen?",
+          "a": "Ja. Å sende inn nye økonomiske dokumenter, leiekontrakter eller familiebevis kan styrke saken betydelig."
+        },
+        {
+          "q": "Hva skjer hvis Migrationsverket avslår klagen min?",
+          "a": "Saken sendes automatisk til Förvaltningsrätten i Göteborg for uavhengig vurdering."
+        },
+        {
+          "q": "Kan alle saker gå til Migration Court of Appeal?",
+          "a": "Nei. Kun saker av generell juridisk betydning aksepteres, og de skaper presedens for fremtidige avgjørelser."
+        },
+        {
+          "q": "Hva er de vanligste årsakene til avslag?",
+          "a": "Manglende dokumenter, utilstrekkelig økonomisk bevis, arbeidsgivers manglende samsvar, uklare familiebevis eller tvil om lovlig opphold."
+        },
+        {
+          "q": "Hvor lang tid tar hele klageprosessen?",
+          "a": "Det varierer. Enkel ny vurdering kan løses på uker, mens full rettsprosess kan ta flere måneder eller mer."
+        },
+        {
+          "q": "Trenger jeg advokat for å klage?",
+          "a": "Du er ikke pålagt å ha advokat, men profesjonell hjelp øker sjansen for suksess. Sweden Relocators tilbyr ekspertrepresentasjon tilpasset saken din."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Hvorfor velge Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Ekspertise i svensk immigrasjonslov",
+          "description": "Spesialister på klager under Utlänningslagen, EU-lov og EMK"
+        },
+        {
+          "title": "Dokumentert suksess",
+          "description": "Vi har omgjort avslag i familie-, arbeid- og statsborgerskapssaker"
+        },
+        {
+          "title": "Helhetlig sakshåndtering",
+          "description": "Fra klageutforming til rettsrepresentasjon"
+        },
+        {
+          "title": "Personlig støtte",
+          "description": "Hver sak forberedes som en unik juridisk studie"
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Avsluttende merknad og ansvarsfraskrivelse",
+      "note": "Å klage en negativ immigrasjonsavgjørelse i Sverige er komplekst, men ikke umulig. Med riktig forberedelse kan mange avslag omgjøres.",
+      "disclaimer": "Dette innholdet er kun for informasjonsformål og oppdatert per 23. september 2025. Svensk immigrasjonslov endres ofte. For nyeste og mest nøyaktige informasjon, se alltid Migrationsverkets offisielle nettside."
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "cbiBbi": {
+    "hero": {
+      "title": "Medborgarskap genom Investering och Residens genom Investeringsprogram",
+      "subtitle": "Säkra din framtid med ett andra pass eller guldvisa"
+    },
+    "intro": {
+      "heading": "Global mobilitet och säker etablering",
+      "description": "På Sweden Relocators hjälper vi individer och familjer att säkra sin framtid med andra pass och långsiktiga visumrättigheter genom investering. För förmögna individer, företagare och globala medborgare öppnar CBI- och RBI-program dörrar till visumfritt resande, affärsexpansion, familjsäkerhet och möjligheter för internationell etablering.\n\nVåra experter hanterar hela resan, från bedömning av behörighet och investeringsrådgivning till dokumentation, ambassadkommunikation och stöd efter godkännande. Genom vår säkra digitala portal kan klienter spåra sina ärenden, lagra dokument och återanvända information för framtida ansökningar."
+    },
+    "understanding": {
+      "heading": "Förståelse av Medborgarskap och Residens genom Investering",
+      "intro": "Två kraftfulla vägar mot global mobilitet och säker internationell etablering:",
+      "definitions": [
+        {
+          "title": "Medborgarskap genom Investering (CBI)",
+          "description": "En direkt väg till medborgarskap och ett andra pass i utbyte mot en regeringsgodkänd investering."
+        },
+        {
+          "title": "Residens genom Investering (RBI) eller Guldvisa",
+          "description": "En långsiktig visumrättighet baserad på investering i fastigheter, fonder eller företag, med många program som leder till permanent residens eller medborgarskap."
+        }
+      ],
+      "benefits": "Båda alternativen ger familjer tillgång till global mobilitet, sjukvård, utbildning, fördelar med finansiell planering och säkra etableringsmöjligheter."
+    },
+    "countryPrograms": {
+      "heading": "Landsprogram och Fördelar",
+      "intro": "Nedan är en detaljerad sammanfattning av ledande länder som erbjuder CBI- och RBI-program, inklusive investeringskrav, fördelar och inkludering av familjemedlemmar."
+    },
+    "caribbean": {
+      "heading": "Karibiska Medborgarskapssprogram genom Investering",
+      "intro": "Karibien är den mest populära regionen för snabb andel medborgarskap. Dessa program är kända för sina överkomliga ingångspunkter, snabb behandling (3-6 månader) och starka pass som erbjuder visumfritt tillträde till Europa, Storbritannien och Asien.",
+      "countries": [
+        {
+          "name": "Saint Kitts och Nevis",
+          "type": "CBI (äldsta program, lanserat 1984)",
+          "investmentOptions": [
+            "USD 150 000 donation till Sustainable Growth Fund",
+            "USD 200 000 fastighetsinvestering (återförsäljning tillåten efter 7 år)"
+          ],
+          "familyMembers": "Maka/make, barn under 30 år, försörjande föräldrar (55+)",
+          "benefits": [
+            "Visumfritt resande till 150+ destinationer, inklusive Schengenområdet och Storbritannien",
+            "Snabbaste CBI-godkännanden (4-6 månader)",
+            "Ingen inkomst- eller arveskatt",
+            "Erkänd som ett av de mest prestigefyllda karibiska passen"
+          ]
+        },
+        {
+          "name": "Dominica",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100 000 regeringdonation",
+            "USD 200 000 fastighetsinvestering"
+          ],
+          "familyMembers": "Maka/make, barn, försörjande föräldrar, försörjande syskon under 25 år",
+          "benefits": [
+            "Visumfritt tillträde till 140+ länder",
+            "Överkomligt program med stark global acceptans",
+            "Medborgarskap överfördat till kommande generationer",
+            "Populärt bland familjer för inkludering"
+          ]
+        },
+        {
+          "name": "Antigua och Barbuda",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100 000 donation för familj om fyra",
+            "USD 200 000 fastighetsinvestering",
+            "Affärsinvesteringsalternativ tillgängligt"
+          ],
+          "familyMembers": "Maka/make, barn, föräldrar, farföräldrar, syskon",
+          "benefits": [
+            "Visumfritt till 150+ länder",
+            "Tillåter stora familjer i en enda ansökan",
+            "Kräver endast 5 dagars vistelseevistelse varje 5:e år",
+            "Populärt för flerogenerationsfamiljer"
+          ]
+        },
+        {
+          "name": "Grenada",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 150 000 donation",
+            "USD 220 000 fastighetsinvestering"
+          ],
+          "familyMembers": "Maka/make, barn, föräldrar, syskon",
+          "benefits": [
+            "Visumfritt till 145+ destinationer, inklusive Kina",
+            "Enda karibiska pass med tillgång till E-2 visum för amerikanska investerare",
+            "Solid alternativ för företagare som siktar på amerikanskt kommersiellt inträde"
+          ]
+        },
+        {
+          "name": "Saint Lucia",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100 000 donation",
+            "USD 300 000 fastighetsinvestering",
+            "Alternativ för köp av statsobligationer"
+          ],
+          "familyMembers": "Maka/make, barn, föräldrar",
+          "benefits": [
+            "Visumfritt till 140+ destinationer",
+            "Överkomligt inträde, flexibla programalternativ",
+            "Starkt karibiskt pass med investeringsdiversifiering"
+          ]
+        }
+      ]
+    },
+    "european": {
+      "heading": "Europeiska Residensprogram genom Investering (Guldvisum)",
+      "intro": "Europa förblir en av de mest attraktiva destinationerna för förmögna individer som söker säkerhet, livsstil och tillgång till EU-marknaden. RBI-program i EU ger visumrättigheter, med många som leder till permanent residens och medborgarskap.",
+      "countries": [
+        {
+          "name": "Portugisisk Guldvisa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250 000 i kulturstödprojekt",
+            "EUR 500 000 i fastighter (endast utvalda områden)",
+            "EUR 500 000 i fonder eller jobskapande"
+          ],
+          "familyMembers": "Maka/make, barn, föräldrar",
+          "benefits": [
+            "EU-residens med visumfritt Schengenresande",
+            "Berättigad till medborgarskap efter 5 års residens",
+            "Tillgång till sjukvård och utbildning",
+            "Attraktiva skatteincentiv för investerare"
+          ]
+        },
+        {
+          "name": "Grekisk Guldvisa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250 000 fastighetsköp (billigare i Europa)"
+          ],
+          "familyMembers": "Maka/make, barn under 21 år, föräldrar",
+          "benefits": [
+            "Visumrättigheter utan vistelsetvång",
+            "Väg till medborgarskap efter 7 år",
+            "Tillgång till EU-marknader och Schengenresande",
+            "Starka fastighetsavkastningar i turistområden"
+          ]
+        },
+        {
+          "name": "Spansk Guldvisa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 500 000 i fastighter",
+            "Kapitalinvesteringsalternativ"
+          ],
+          "familyMembers": "Maka/make, barn, föräldrar",
+          "benefits": [
+            "EU-residens och Schengenrörlighet",
+            "Berättigad till medborgarskap efter 10 år",
+            "Stark fastighetsmarknad i större städer",
+            "Tillgång till toppuniversitet och sjukvård"
+          ]
+        },
+        {
+          "name": "Italiensk Investerarvisa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250 000 i innovativa startups",
+            "EUR 500 000 i etablerade företag",
+            "EUR 1 miljon i statsobligationer"
+          ],
+          "familyMembers": "Maka/make, barn, föräldrar",
+          "benefits": [
+            "Visumrättigheter i Italien och Schengenrörlighet",
+            "Attraktiv för företagare och affärsexpansion",
+            "EU-medborgarskap efter 10 år"
+          ]
+        },
+        {
+          "name": "Malta",
+          "type": "CBI och RBI",
+          "investmentOptions": [
+            "EUR 600 000 investering plus uthyrning/fastighetsköp"
+          ],
+          "familyMembers": "Maka/make, barn, föräldrar",
+          "benefits": [
+            "Fullt EU-medborgarskap inom 12-18 månader",
+            "Visumfritt till 180+ länder, inklusive USA och Kanada",
+            "Ett av världens starkaste pass"
+          ]
+        },
+        {
+          "name": "Cypern",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 300 000 fastighetsinvestering"
+          ],
+          "familyMembers": "Maka/make, barn, föräldrar",
+          "benefits": [
+            "EU-residens inom 6 månader",
+            "Tillgång till sjukvård och utbildning",
+            "Fastighetsmarknaden erbjuder starka hyresavkastningar"
+          ]
+        }
+      ]
+    },
+    "middleEastGlobal": {
+      "heading": "Mellanöstern och Globala Alternativ",
+      "countries": [
+        {
+          "name": "Förenade Arabemiraten (Dubai, Abu Dhabi)",
+          "type": "RBI",
+          "investmentOptions": [
+            "AED 750 000 fastighets- eller affärsinvestering"
+          ],
+          "familyMembers": "Maka/make, barn",
+          "benefits": [
+            "Skattefri residens",
+            "Tillgång till globalt handelscenter",
+            "Lyxig livsstil och höggradsjukvård"
+          ]
+        },
+        {
+          "name": "USA (EB-5 visum)",
+          "type": "RBI",
+          "investmentOptions": [
+            "USD 800 000 i affärsprojekt som skapar jobb"
+          ],
+          "familyMembers": "Maka/make, barn under 21 år",
+          "benefits": [
+            "Grönt kort och väg till medborgarskap",
+            "Tillgång till amerikanska universitet och sjukvård",
+            "Stark investeringsavkastning i affärsprojekt"
+          ]
+        },
+        {
+          "name": "Kanada",
+          "type": "RBI",
+          "investmentOptions": [
+            "CAD 350 000-1 200 000 beroende på program (Provincial Nominee Programs, Quebec Investor Program)"
+          ],
+          "familyMembers": "Maka/make, barn under 22 år",
+          "benefits": [
+            "Permanent residens med direkt väg till medborgarskap",
+            "Högt levnadsstandard och sjukvård",
+            "Globala affärs- och utbildningsmöjligheter"
+          ]
+        },
+        {
+          "name": "Brittisk Investerarvisa",
+          "type": "RBI",
+          "investmentOptions": [
+            "GBP 2 miljoner i brittiska företag eller statsobligationer"
+          ],
+          "familyMembers": "Maka/make, barn under 18 år",
+          "benefits": [
+            "Residens och medborgarskap inom 5 år",
+            "Tillgång till världsklass utbildning och finanssektorer"
+          ]
+        },
+        {
+          "name": "Irländsk Investerarvisa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 1 miljon investering i fonder eller företag"
+          ],
+          "familyMembers": "Maka/make, barn under 24 år",
+          "benefits": [
+            "Residens i Irland med starka EU-bindningar",
+            "Engelskspråkigt handelscenter",
+            "Väg till medborgarskap efter 5 år"
+          ]
+        }
+      ]
+    },
+    "howWeAssist": {
+      "heading": "Hur Vi Hjälper",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Bedömning av Behörighet",
+          "description": "Vi granskar din finansiella profil, familjeuppgifter och mobilitethsbehov för att rekommendera det mest lämpade programmet."
+        },
+        {
+          "number": 2,
+          "title": "Investeringsrådgivning",
+          "description": "Våra experter förbinder dig med godkända investeringsprojekt, fastighter och fonder."
+        },
+        {
+          "number": 3,
+          "title": "Förberedelse av Ansökan",
+          "description": "Vi förbereder och verifierar alla formulär, dokument och översättningar."
+        },
+        {
+          "number": 4,
+          "title": "Ambassad- och Myndighetskommunikation",
+          "description": "Vi kommunicerar med officiella myndigheter för att säkerställa smidig framsteg."
+        },
+        {
+          "number": 5,
+          "title": "Säker Portal",
+          "description": "Alla dokument lagras digitalt och kan återanvändas för framtida ansökningar."
+        },
+        {
+          "number": 6,
+          "title": "Etablering Efter Godkännande",
+          "description": "Vi hjälper till med bostäder, utbildning, finansiell planering och etablering."
+        }
+      ]
+    },
+    "whoShould": {
+      "heading": "Vem Bör Överväga Medborgarskap och Residens genom Investeringsprogram",
+      "reasons": [
+        "Företagare som söker global expansion",
+        "Familjer som vill ha säker etablering och tillgång till bättre utbildning och sjukvård",
+        "Förmögna individer som söker visumfritt resande och finansiell diversifiering",
+        "Människor från länder med begränsade pass som vill ha global mobilitet"
+      ]
+    },
+    "getStarted": {
+      "heading": "Kom Igång",
+      "description": "Om du är intresserad av att säkra ett andra pass eller residens genom investering, skickar du helt enkelt in din ansökan via vår portal. Vårt expertteam ger en fullständig bedömning, rekommenderar de bästa programmen och guidar dig till godkännande."
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "destinationServices": {
+    "hero": {
+      "title": "Mållandstjänster i Sverige",
+      "subtitle": "Omfattande Lösningar för Flytt och Integration"
+    },
+    "intro": {
+      "heading": "Din Kompletta Flyttparter i Sverige",
+      "description": "Flytt till Sverige är en spännande resa, men den kommer med utmaningar som registrering hos svenska myndigheter, erhållande av personnummer, öppnande av bankkonto, boendesökning och integrering i en ny kultur. Sweden Relocators tillhandahåller omfattande mållandstjänster i Sverige för privatpersoner, familjer och företagskunder, vilket garanterar en smidig övergång från din ankomst till fullständig bosättning.",
+      "capabilities": "Våra lösningar täcker ankomst- och avresatjänster, myndighetregistrering, stadsorientering, boendesökning, integrationsstöd, familjestöd och avresehantring. Oavsett om du flyttar för arbete, studier, familjesammanförning eller företagstilldelning, gör vårt team flyttprocessen enkel, efterlevnadsmässig och stressfri."
+    },
+    "coreServices": {
+      "heading": "Mållandstjänster i Sverige",
+      "services": [
+        {
+          "title": "Ankomst- och Avresestöd",
+          "details": [
+            "Introduktion före ankomst – vägledning om dokument, boendeövervakar och första steg i Sverige.",
+            "Mottagning och välkomst – hjälp på flygplatser och transportcentra för problemfri ankomst.",
+            "Tillfälligt boende – stöd för kortsiktigt boende medan du söker permanent hem.",
+            "Avresetjänster – fullständig hjälp vid avresa från Sverige, inklusive avregistrering, uppsägning av hyresavtal, flyttkoordinering och kontoavslutning."
+          ]
+        },
+        {
+          "title": "Myndighetregistrering och Juridisk Efterlevnad",
+          "details": [
+            "Personnummerstöd – hjälp att få ett svenskt personnummer från Skatteverket, väsentligt för sjukvård, sysselsättning och dagligt liv.",
+            "Ansökan om identitetskort – vägledning för ansökan om svenskt identitetskort, krävs för banktransaktioner och officiell identifiering.",
+            "BankID-inställning – stöd för Sveriges säkra digitala identifieringssystem, nödvändigt för internetbank, kontrakt och offentlig service.",
+            "Skatteregisterering och koordineringsnummer – hjälp med samordningsnummer, arbetsgivarregistrering och skatteboendeaspekter."
+          ]
+        },
+        {
+          "title": "Bank- och Finansiella Tjänster",
+          "details": [
+            "Öppnande av bankkonto – samordning med svenska banker som Swedbank, Handelsbanken, SEB och Nordea.",
+            "Digitalt betalningsuppsättning – vägledning om Swish, Autogiro och mobil bankningslösningar.",
+            "Lönöverföringar och löneutbetalning – säkerställa problemfri finansiell inställning för anställda och egna företagare."
+          ]
+        },
+        {
+          "title": "Boende och Stadsorientering",
+          "details": [
+            "Hjälp med boendesökning – stöd för uthyrning och köp lämpade efter dina behov och budget.",
+            "Förhandling av hyresavtal – granskning och förhandling av kontrakt för att säkerställa överensstämmelse med svensk boendelag.",
+            "Stadsorientering – guidade stadsvandring som belyser skolor, sjukvård, affärer och kollektivtrafik.",
+            "Installation av tjänster och internet – hjälp med registrering av el, internet, försäkringar och avfallshantering."
+          ]
+        },
+        {
+          "title": "Integrations- och Kulturstöd",
+          "details": [
+            "Stadsorientationsvandring – hjälp för nyankomna att förstå lokal transport, hälsosystem och samhällsresurser.",
+            "Kulturell utbildning – workshops och rådgivning om svenska seder, arbetskulturer och socialt beteende.",
+            "Stöd för språkinlärning – vägledning för registrering i Svenska för invandrare (SFI) och privata språkskolor.",
+            "Samhälle och nätverk – anslutning till ausbytargrupper, yrkesorganisationer och lokala nätverk."
+          ]
+        },
+        {
+          "title": "Familje- och Utbildningsstöd",
+          "details": [
+            "Skolsökning och placering – vägledning för internationella skolor, förskolor och offentliga skolor.",
+            "Stöd för barnomsorg – hjälp med ansökningar till barnomsorg och förskoleprogram.",
+            "Familjeintegrationsprogram – stöd för kulturell anpassning för makar och barn."
+          ]
+        }
+      ]
+    },
+    "corporateServices": {
+      "heading": "Mållandstjänster för Företag och Arbetsgivare",
+      "intro": "För företag som förflyttar anställda till Sverige erbjuder vi mållandstjänster för företag som förenklar mobilitet, minskar administrativ börda och förbättrar anställdtillfredsställelse. Våra företagslösningar inkluderar:",
+      "services": [
+        "Rådgivning före uppdrag för HR och anställda.",
+        "Samordning av uppehålls- och arbetstillstånd med migrativersstöd.",
+        "Myndighetregistrering och efterlevnadshantering.",
+        "Familjeflytt-tjänster, inklusive boende och skolplacering.",
+        "Vägledning om löner, skatter och försäkringar för anställda.",
+        "Löpande integrationsstöd och anställdvälbefinnande."
+      ],
+      "benefit": "Med vår hjälp kan företag fokusera på affärsmål medan vi säkerställer att anställda och deras familjer bosättar sig problemfritt i Sverige."
+    },
+    "relocationJourney": {
+      "heading": "Exempel på Flyttsresa med Sweden Relocators",
+      "stages": [
+        {
+          "title": "Före Ankomst",
+          "description": "Dokument förberedda, tillfälligt boende organiserat, introduktion före ankomst tilldelad."
+        },
+        {
+          "title": "Ankomst",
+          "description": "Flygplatstransport, kortsiktigt boende, inledande myndighetregistreringar."
+        },
+        {
+          "title": "Första Månaden",
+          "description": "Personnummeransökan, ansökan om identitetskort, öppnande av bankkonto, boendesökning, skolansökningar."
+        },
+        {
+          "title": "Integrationsfas",
+          "description": "Kulturell orientering, nätverkingsmöjligheter, SFI-registrering, permanent boende organiserat."
+        },
+        {
+          "title": "Avresa (om tillämpligt)",
+          "description": "Avregistrering, kontoavslutning, uppsägning av hyresavtal och avresesamordning."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Varför Välja Oss?",
+      "advantages": [
+        {
+          "title": "Omfattande Mållandstjänster",
+          "description": "Täcker ankomst, registrering, boende, integration och avresa."
+        },
+        {
+          "title": "Lokal Expertis",
+          "description": "Djup kunskap om svenska myndigheter, boendemarknadern och rättssystem."
+        },
+        {
+          "title": "Skräddarsydda Lösningar",
+          "description": "Paket för enskilda, familj- och företagsfltyttar."
+        },
+        {
+          "title": "Flerspråkig Hjälp",
+          "description": "Stöd på engelska, svenska, urdu, arabiska, punjabi, persiska, kurdiska, serbiska och mer."
+        },
+        {
+          "title": "Partner från Start till Mål",
+          "description": "En plattform för alla dina flytt- och bosättningsbehov."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Kom Igång med Mållandstjänster",
+      "description": "Skicka in en tjänstebegäran via vår portal. Oavsett om du förflyttar dig själv, med familjen eller som företag som organiserar tjänster för anställda, välj helt enkelt de mållandstjänster du behöver och vårt team tar hand om resten.",
+      "cta": "Begär Mållandstjänster"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "destinationServices": {
+    "hero": {
+      "title": "Destination Services in Sweden",
+      "subtitle": "Complete Relocation and Integration Solutions"
+    },
+    "intro": {
+      "heading": "Your Complete Relocation Partner in Sweden",
+      "description": "Relocating to Sweden is an exciting journey, but it comes with challenges such as registering with Swedish authorities, applying for a personnummer, opening a bank account, arranging housing, and integrating into a new culture. At Sweden Relocators, we provide comprehensive destination services in Sweden for individuals, families, and corporate clients, ensuring a smooth transition from the moment you arrive until you are fully settled.",
+      "capabilities": "Our destination solutions cover arrival services, authority registrations, city orientation, housing search, integration support, family assistance, and departure management. Whether you are moving for work, studies, family reunification, or corporate assignments, our team makes the relocation process simple, compliant, and stress-free."
+    },
+    "coreServices": {
+      "heading": "Core Destination Services in Sweden",
+      "services": [
+        {
+          "title": "Arrival and Departure Support",
+          "details": [
+            "Pre-Arrival Briefing – guidance on documents, housing options, and first steps in Sweden.",
+            "Meet & Greet – assistance at airports or transport hubs for a smooth arrival.",
+            "Temporary Accommodation – support with short-term housing while searching for a permanent home.",
+            "Departure Services – complete assistance when leaving Sweden, including deregistration, lease termination, shipment coordination, and closing of accounts."
+          ]
+        },
+        {
+          "title": "Authority Registration and Legal Compliance",
+          "details": [
+            "Personnummer Assistance – help with obtaining the Swedish personal identity number at Skatteverket, essential for healthcare, employment, and daily life.",
+            "ID Card Application – guidance on applying for the Swedish ID card, required for banking and official identification.",
+            "BankID Setup – support with Sweden's secure digital identification system, necessary for online banking, contracts, and government services.",
+            "Tax Registration and Coordination Numbers – assistance with samordningsnummer, employer registrations, and tax residency requirements."
+          ]
+        },
+        {
+          "title": "Banking and Financial Services",
+          "details": [
+            "Bank Account Opening – coordination with Swedish banks such as Swedbank, Handelsbanken, SEB, and Nordea.",
+            "Digital Payment Setup – guidance on Swish, Autogiro, and mobile banking solutions.",
+            "Payroll and Salary Transfers – ensuring smooth financial setup for employees and freelancers."
+          ]
+        },
+        {
+          "title": "Housing and Neighborhood Orientation",
+          "details": [
+            "Home Search Assistance – support with rentals and purchases tailored to your needs and budget.",
+            "Lease Negotiation – review and negotiation of contracts to ensure compliance with Swedish housing law.",
+            "Neighborhood Orientation – guided city tours highlighting schools, healthcare, shopping, and public transport.",
+            "Utility and Internet Setup – support with registering electricity, internet, insurance, and waste management."
+          ]
+        },
+        {
+          "title": "Integration and Cultural Support",
+          "details": [
+            "City Orientation Tours – helping newcomers understand local transportation, healthcare systems, and community resources.",
+            "Cultural Training – workshops and advice on Swedish customs, workplace culture, and social etiquette.",
+            "Language Learning Support – guidance on enrolling in Swedish For Immigrants (SFI) and private language schools.",
+            "Community and Networking – connections with expat groups, professional associations, and local networks."
+          ]
+        },
+        {
+          "title": "Family and Education Support",
+          "details": [
+            "School Search and Placement – guidance for international schools, preschools, and public schools.",
+            "Childcare Assistance – support in applying for daycare and preschool programs.",
+            "Family Integration Programs – cultural adaptation support for spouses and children."
+          ]
+        }
+      ]
+    },
+    "corporateServices": {
+      "heading": "Destination Services for Companies and Employers",
+      "intro": "For businesses relocating employees to Sweden, we provide corporate destination services that simplify mobility, reduce administrative burden, and improve employee satisfaction. Our corporate solutions include:",
+      "services": [
+        "Pre-assignment consultations for HR and employees.",
+        "Residence permit and work permit coordination with immigration support.",
+        "Authority registrations and compliance management.",
+        "Family relocation services, including housing and school placement.",
+        "Payroll, taxation, and insurance guidance for employees.",
+        "Ongoing integration and employee well-being support."
+      ],
+      "benefit": "With our help, companies can focus on business goals while we ensure employees and their families settle into Sweden smoothly."
+    },
+    "relocationJourney": {
+      "heading": "Example Relocation Journey with Sweden Relocators",
+      "stages": [
+        {
+          "title": "Before Arrival",
+          "description": "Documentation prepared, temporary housing secured, pre-arrival briefing delivered."
+        },
+        {
+          "title": "Arrival",
+          "description": "Airport pick-up, short-term accommodation, initial authority registrations booked."
+        },
+        {
+          "title": "First Month",
+          "description": "Personnummer application, ID card request, bank account opening, housing search, school applications."
+        },
+        {
+          "title": "Integration Phase",
+          "description": "Cultural orientation, networking opportunities, SFI enrollment, permanent housing secured."
+        },
+        {
+          "title": "Departure (if applicable)",
+          "description": "Deregistration, account closures, lease termination, and exit coordination."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Why Choose Sweden Relocators?",
+      "advantages": [
+        {
+          "title": "Complete Destination Services",
+          "description": "Covering arrival, registration, housing, integration, and departure."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "In-depth knowledge of Swedish authorities, housing markets, and legal systems."
+        },
+        {
+          "title": "Tailored Solutions",
+          "description": "Packages for individuals, families, and corporate relocations."
+        },
+        {
+          "title": "Multilingual Assistance",
+          "description": "Support in English, Swedish, Urdu, Arabic, Punjabi, Persian, Kurdish, Serbian, and more."
+        },
+        {
+          "title": "End-to-End Partner",
+          "description": "One platform for all your relocation and settlement needs."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Get Started with Destination Services",
+      "description": "Send service request through our portal. Whether you are relocating alone, moving with your family, or a company arranging services for employees, simply select the destination services you require, and our team will take care of the rest.",
+      "cta": "Request Destination Services"
+    }
+  }
+}

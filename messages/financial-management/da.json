@@ -1,0 +1,114 @@
+{
+  "financialManagement": {
+    "hero": {
+      "title": "Finansielle Relokationstjenester",
+      "subtitle": "Flyt Dine Penge Sikkert og Effektivt"
+    },
+    "intro": {
+      "heading": "Sikker Finansiel Forvaltning på Tværs af Grænser",
+      "description": "At flytte til et nyt land involverer mere end blot visa og bolig—det kræver også at flytte dine økonomi sikkert og effektivt. Hos Sweden Relocators tilbyder vi en problemfri finansiel genflytning, der gør det nemmere for enkeltpersoner, familier og virksomheder at overføre penge, administrere multi-valuta-konti og håndtere store transaktioner såsom ejendomskøb eller investeringer.",
+      "closing": "Gennem vores sikre partnernetværk sikrer vi, at din økonomiske flytning er omkostningseffektiv, fuldstændig lovmedholdt og skræddersyet til dine specifikke behov."
+    },
+    "whyMatters": {
+      "heading": "Hvorfor Finansiel Genflytning er Vigtig",
+      "description": "At flytte økonomi mellem lande kan være kompliceret. Traditionelle banker opkræver ofte høje gebyrer, skjulte marginer på valutakurser og lange behandlingstider. Sweden Relocators hjælper dig med at undgå disse problemer ved at tilbyde:",
+      "benefits": [
+        "Bedre valutakurser sammenlignet med standardbanker",
+        "Hurtige og sikre internationale overførsler til 120+ lande",
+        "Specialiseret støtte til ejendomstransaktioner, realkreditlån, undervisningsbetaling og forretningsinvesteringer",
+        "Tilbagevendende betalingsmuligheder for familier og virksomheder",
+        "Fuldstændig overholdelse af globale finansielle regler for sindsro"
+      ]
+    },
+    "services": {
+      "heading": "Vores Finansielle Relokationstjenester",
+      "intro": "Vi tilbyder skræddersyede løsninger, der matcher forskellige finansielle behov:",
+      "items": [
+        {
+          "number": 1,
+          "title": "Internationale Pengeoverførsler",
+          "description": "Send midler verden omkring hurtigt og sikkert med transparente satser og realtidssporing."
+        },
+        {
+          "number": 2,
+          "title": "Store Overførsler til Ejendom og Investeringer",
+          "description": "Flyt store beløb sikkert for at købe en lejlighed, villa eller forretningsaktiver i Sverige eller udlandet, med dokumentationsstøtte og overholdelseskontroller."
+        },
+        {
+          "number": 3,
+          "title": "Multi-Valutakonti",
+          "description": "Hold og administrer flere valutaer uden unødvendige konverteringstab, ideelt for globale fagfolk og virksomheder."
+        },
+        {
+          "number": 4,
+          "title": "Regelmæssige og Tilbagevendende Betalinger",
+          "description": "Automatiser overførsler til undervisningsgebyrer, realkreditlån, lønninger eller familiestøtte med låste satser for forudsigelige omkostninger."
+        },
+        {
+          "number": 5,
+          "title": "Virksomheders Finansielle Genflytning",
+          "description": "Virksomheder kan administrere masselønoverførsler, leverandørbetalinger og likviditetslösninger gennem vores finansielle genflytningtjeneste."
+        }
+      ]
+    },
+    "howWorks": {
+      "heading": "Hvordan Det Fungerer",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Indsend Din Anmodelse",
+          "description": "Log ind på vores portal og send en finansiel genflytningsanmodelse med detaljer som beløb, valuta og destination."
+        },
+        {
+          "number": 2,
+          "title": "Direkte Kontakt fra Vores Partner",
+          "description": "Efter din anmodelse er indsendt, vil en repræsentant fra vores finansielle partnervirksomhed kontakte dig direkte. De vil forklare de tilgængelige muligheder, give dig et tilbud og guide dig gennem identitetsbekræftelse og overholdelsestrin."
+        },
+        {
+          "number": 3,
+          "title": "Sikker Overførsel",
+          "description": "Når alt er bekræftet, sender du dine midler til den sikre konto, der leveres, og overførslen udføres med live-sporing og bekræftelse."
+        },
+        {
+          "number": 4,
+          "title": "Løbende Støtte",
+          "description": "For regelmæssige betalinger, ejendomsrelaterede overførsler eller virksomhedsbehov fortsætter du med direkte arbejde med den finansielle partner, mens Sweden Relocators stadig er dit første kontaktpunkt."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Hvorfor Vælge Sweden Relocators til Finansiel Genflytning?",
+      "advantages": [
+        {
+          "title": "One-Stop Komplette Genflytningsløsninger",
+          "description": "Bolig, indvandring og finansiel genflytning under én platform."
+        },
+        {
+          "title": "Omkostningsbesparelser",
+          "description": "Adgang til konkurrencedygtige valutakurser og lavere gebyrer end banker."
+        },
+        {
+          "title": "Sikker og Overholdt",
+          "description": "Alle overførsler følger internationale regler med fuld fondsbeskyttelse."
+        },
+        {
+          "title": "Skræddersyet Støtte",
+          "description": "Designet til enkeltpersoner, familier og virksomheder."
+        },
+        {
+          "title": "Hurtig og Pålidelig",
+          "description": "Undgå bankforsinkelser med effektiv afvikling."
+        },
+        {
+          "title": "Global Rækkevidde",
+          "description": "Overfør midler til og fra Sverige, Danmark og 120+ destinationer."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Flyt Dine Penge Med Tillid",
+      "description": "Hos Sweden Relocators sikrer vi, at dine penge bevæger sig lige så glat som din genflytning. Uanset om du overfører midler til et nyt hjem, undervisningsgebyrer, forretningsdrift eller familiestøtte, sikrer vores finansielle genflytningtjeneste sikkerhed, hastighed og besparelser.",
+      "cta": "Indsend din anmodelse i dag via vores portal. Efter modtagelsen vil en repræsentant fra vores pålidelige partnervirksomhed kontakte dig direkte for at fuldføre processen."
+    }
+  }
+}

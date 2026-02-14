@@ -1,0 +1,321 @@
+{
+  "cbiBbi": {
+    "hero": {
+      "title": "Kansalaisuus sijoituksella ja Asumisoikeus sijoituksella ohjelmat",
+      "subtitle": "Turvaa tulevaisuutesi toisella passilla tai kultaisella visalla"
+    },
+    "intro": {
+      "heading": "Maailmanlaajuinen liikkuvuus ja turvallinen asettautuminen",
+      "description": "Sweden Relocatorsissa auta me ihmisiä ja perheitä turvaamaan tulevaisuutensa toisten passien ja pitkäaikaisten oleskelun avulla sijoituksella. Korkean nettovarallisuuden omistajille, yrittäjille ja maailmanlaajuisille kansalaisille CBI- ja RBI-ohjelmat avaavat ovia viisumittomille matkoille, liiketoiminnan laajentamiselle, perheen turvallisuudelle ja kansainvälisille asettumistapahtumille.\n\nAsiantuntijamme hallitsevat koko matkan, aravallinnittelystä ja sijoitusneuvonnasta asiakirjoihin, suurlähetystön viestintään ja tuen jälkeen hyväksynnän. Turvallisen digitaalisen portaalimme kautta asiakkaat voivat seurata tapauksistaan, varastoida asiakirjoja ja käyttää tietoja uudelleen tulevien hakemusten osalta."
+    },
+    "understanding": {
+      "heading": "Kansalaisuuden ja Asumisen ymmärtäminen sijoituksella",
+      "intro": "Kaksi voimakasta polkua maailmanlaajuiseen liikkuvuuteen ja turvalliseen kansainväliseen asetantautumiseen:",
+      "definitions": [
+        {
+          "title": "Kansalaisuus sijoituksella (CBI)",
+          "description": "Suora polku kansalaisuuteen ja toiseen passiin hallituksen hyväksymän sijoituksen vastapainoksi."
+        },
+        {
+          "title": "Asumisoikeus sijoituksella (RBI) tai kultainen visa",
+          "description": "Pitkäaikainen oleskelulupa kiinteistö-, rahasto- tai liiketoimintasijoitukselle, monissa ohjelmissa pysyvään asumiseen tai kansalaisuuteen."
+        }
+      ],
+      "benefits": "Molemmat vaihtoehdot antavat perheille mahdollisuuden maailmanlaajuiseen liikkuvuuteen, terveydenhuoltoon, koulutukseen, rahoitussuunnittelun etuihin ja turvallisiin asettumistapahtumiin."
+    },
+    "countryPrograms": {
+      "heading": "Maan ohjelmat ja edut",
+      "intro": "Alla on yksityiskohtainen erittely johtavista maista, jotka tarjoavat CBI- ja RBI-ohjelmia, mukaan lukien sijoitusvaatimukset, edut ja perheenjäsenten sisällyttäminen."
+    },
+    "caribbean": {
+      "heading": "Karibian kansalaisuus sijoituksella ohjelmia",
+      "intro": "Karibia on suosituin alue pikakaisankansalaisuudelle. Nämä ohjelmat tunnetaan edullisista sisääntulopisteeistä, nopeasta käsittelystä (3-6 kuukautta) ja vahvoista passeista, jotka tarjoavat viisumittomat matkat Eurooppaan, Britanniaan ja Aasiaan.",
+      "countries": [
+        {
+          "name": "Saint Kitts ja Nevis",
+          "type": "CBI (vanhin ohjelma, käynnistetty 1984)",
+          "investmentOptions": [
+            "USD 150 000 lahjoitus kestävän kasvun rahastoon",
+            "USD 200 000 kiinteistösijoitus (jälleenmyynti sallittu 7 vuoden jälkeen)"
+          ],
+          "familyMembers": "Puoliso, alle 30-vuotiaat lapset, huollettavat vanhemmat (55+)",
+          "benefits": [
+            "Viisumittomat matkat 150+ kohteisiin, mukaan lukien Schengen-alue ja Britannia",
+            "Nopein CBI-hyväksymiset (4-6 kuukautta)",
+            "Ei tulon- tai perintöveroa",
+            "Tunnustettu yhdeksi arvostetummista Karibian passeista"
+          ]
+        },
+        {
+          "name": "Dominica",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100 000 hallituksen lahjoitus",
+            "USD 200 000 kiinteistösijoitus"
+          ],
+          "familyMembers": "Puoliso, lapset, huollettavat vanhemmat ja alle 25-vuotiaat huollettavat sisarukset",
+          "benefits": [
+            "Viisumittomat pääsy 140+ maahan",
+            "Edullinen ohjelma, jolla on vahva maailmanlaajuinen hyväksyntä",
+            "Kansalaisuus siirtyy tuleville sukupolville",
+            "Suosittu perheissä inkluusiivuuden vuoksi"
+          ]
+        },
+        {
+          "name": "Antigua ja Barbuda",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100 000 lahjoitus neljähenkiselle perheelle",
+            "USD 200 000 kiinteistösijoitus",
+            "Liike-lähtöisiä sijoitusvaihtoehtoja saatavilla"
+          ],
+          "familyMembers": "Puoliso, lapset, vanhemmat, isovanhemmat, sisarukset",
+          "benefits": [
+            "Viisumittomat 150+ maahan",
+            "Sallii suuret perheet yhden hakemuksen alaisena",
+            "Vaatii vain 5 päivän oleskelua joka 5. vuosi",
+            "Suosittu monisukupolvisille perheille"
+          ]
+        },
+        {
+          "name": "Grenada",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 150 000 lahjoitus",
+            "USD 220 000 kiinteistösijoitus"
+          ],
+          "familyMembers": "Puoliso, lapset, vanhemmat, sisarukset",
+          "benefits": [
+            "Viisumittomat 145+ kohteeseen, mukaan lukien Kiina",
+            "Ainoa Karibian passi, jolla on pääsy Yhdysvaltojen E-2 sijoittaja visaan",
+            "Vahva vaihtoehto yrittäjille, jotka tähtäävät Yhdysvaltojen liike-sisääntulolle"
+          ]
+        },
+        {
+          "name": "Saint Lucia",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100 000 lahjoitus",
+            "USD 300 000 kiinteistösijoitus",
+            "Hallituksen joukkovelkakirjan ostamisvaihtoehto"
+          ],
+          "familyMembers": "Puoliso, lapset, vanhemmat",
+          "benefits": [
+            "Viisumittomat 140+ kohteeseen",
+            "Edullinen sisäänpääsy, joustavat ohjelma-asetukset",
+            "Vahva Karibian passi sijoitusten monipuolistamisella"
+          ]
+        }
+      ]
+    },
+    "european": {
+      "heading": "Euroopan asumisoikeus sijoituksella ohjelmat (kultaiset visat)",
+      "intro": "Eurooppa pysyy yksi houkuttavimmista kohteista varakkailla henkilöille, jotka etsivät turvallisuutta, elämäntapaa ja pääsyä EU-markkinoille. RBI-ohjelmat EU:ssa tarjoavat oleskelun, ja monet johtavat pysyvään asumiseen ja kansalaisuuteen.",
+      "countries": [
+        {
+          "name": "Portugali kultainen visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250 000 kulttuurin tukiprojekteissa",
+            "EUR 500 000 kiinteistöissä (vain valitut alueet)",
+            "EUR 500 000 rahastoissa tai työpaikka luominen"
+          ],
+          "familyMembers": "Puoliso, lapset, vanhemmat",
+          "benefits": [
+            "Asumisoikeus EU:ssa viisumittomilla Schengen-matkoilla",
+            "Kansalaisuudelle oikeutettu 5 vuoden asumisen jälkeen",
+            "Pääsy terveydenhuoltoon ja koulutukseen",
+            "Houkuttelevat veroverot sijoittajille"
+          ]
+        },
+        {
+          "name": "Kreikka kultainen visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250 000 kiinteistön osto (edullisinta Euroopassa)"
+          ],
+          "familyMembers": "Puoliso, alle 21-vuotiaat lapset, vanhemmat",
+          "benefits": [
+            "Oleskelun oikeudet ilman oleskelua vaatimuksena",
+            "Polku kansalaisuuteen 7 vuoden jälkeen",
+            "Pääsy EU-markkinoille ja Schengen-matkoille",
+            "Vahvat kiinteistöjen tuotot matkailussa"
+          ]
+        },
+        {
+          "name": "Espanja kultainen visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 500 000 kiinteistöissä",
+            "Pääoman sijoitus vaihtoehdot"
+          ],
+          "familyMembers": "Puoliso, lapset, vanhemmat",
+          "benefits": [
+            "Asumisoikeus ja Schengen-liikkuvuus",
+            "Kansalaisuudelle oikeutettu 10 vuoden jälkeen",
+            "Vahva kiinteistömarkkinat suurissa kaupungeissa",
+            "Pääsy huippuuniversititeetteihin ja terveydenhuoltoon"
+          ]
+        },
+        {
+          "name": "Italia sijoittaja visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250 000 innovatiivisissa startup-yrityksissa",
+            "EUR 500 000 vakiintuneissa yrityksissä",
+            "EUR 1 miljoona hallituksen joukkovelkakirjoissa"
+          ],
+          "familyMembers": "Puoliso, lapset, vanhemmat",
+          "benefits": [
+            "Oleskelun oikeudet Italiassa ja Schengen-liikkuvuus",
+            "Houkutteleva yrittäjille ja liiketoiminnan laajentamiselle",
+            "EU-kansalaisuus 10 vuoden jälkeen"
+          ]
+        },
+        {
+          "name": "Malta",
+          "type": "CBI ja RBI",
+          "investmentOptions": [
+            "EUR 600 000 sijoitus sekä kiinteistön vuokraus/osto"
+          ],
+          "familyMembers": "Puoliso, lapset, vanhemmat",
+          "benefits": [
+            "Täysi EU-kansalaisuus 12-18 kuukaudessa",
+            "Viisumittomat 180+ maahan, mukaan lukien USA ja Kanada",
+            "Yksi maailman vahvimmista passeista"
+          ]
+        },
+        {
+          "name": "Kypros",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 300 000 kiinteistösijoitus"
+          ],
+          "familyMembers": "Puoliso, lapset, vanhemmat",
+          "benefits": [
+            "EU-asumisoikeus 6 kuukaudessa",
+            "Pääsy terveydenhuoltoon ja koulutukseen",
+            "Kiinteistömarkkinat tarjoavat voimakkaita vuokratuottoja"
+          ]
+        }
+      ]
+    },
+    "middleEastGlobal": {
+      "heading": "Lähi-itä ja maailmanlaajuiset vaihtoehdot",
+      "countries": [
+        {
+          "name": "Yhdistyneet Arabiemiiraatit (Dubai, Abu Dhabi)",
+          "type": "RBI",
+          "investmentOptions": [
+            "AED 750 000 kiinteistö- tai liiketoimintasijoitus"
+          ],
+          "familyMembers": "Puoliso, lapset",
+          "benefits": [
+            "Veraton asumisoikeus",
+            "Pääsy globaaliin liikekeskukseen",
+            "Luksusta elämäntapaa ja korkealaatuista terveydenhuoltoa"
+          ]
+        },
+        {
+          "name": "Yhdysvallat (EB-5 visa)",
+          "type": "RBI",
+          "investmentOptions": [
+            "USD 800 000 liiketoimintaprojekteissa, jotka luovat työpaikkoja"
+          ],
+          "familyMembers": "Puoliso, alle 21-vuotiaat lapset",
+          "benefits": [
+            "Yhdysvaltojen vihreä kortti ja polku kansalaisuuteen",
+            "Pääsy yhdysvaltalaisiin yliopistoihin ja terveydenhuoltoon",
+            "Vahvat sijoitusten tuotot liiketoimintaprojekteissa"
+          ]
+        },
+        {
+          "name": "Kanada",
+          "type": "RBI",
+          "investmentOptions": [
+            "CAD 350 000-1 200 000 ohjelmasta riippuen (Provincial Nominee Programs, Quebec Investor Program)"
+          ],
+          "familyMembers": "Puoliso, alle 22-vuotiaat lapset",
+          "benefits": [
+            "Pysyvä asumisoikeus suoralla polulla kansalaisuuteen",
+            "Korkea elintaso ja terveydenhuolto",
+            "Globaalit liike- ja koulutusmahdollisuudet"
+          ]
+        },
+        {
+          "name": "Iso-Britannia sijoittaja visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "GBP 2 miljoonaa brittiläisissä yrityksissä tai hallituksen joukkovelkakirjoissa"
+          ],
+          "familyMembers": "Puoliso, alle 18-vuotiaat lapset",
+          "benefits": [
+            "Asumisoikeus ja kansalaisuus 5 vuoden sisällä",
+            "Pääsy maailmanluokan koulutus- ja rahoitussektoreihin"
+          ]
+        },
+        {
+          "name": "Irlanti sijoittaja visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 1 miljoona rahasto- tai liiketoimintasijoitus"
+          ],
+          "familyMembers": "Puoliso, alle 24-vuotiaat lapset",
+          "benefits": [
+            "Asumisoikeus Irlannissa, joilla on vahvat EU-suhteet",
+            "Englanninkielinen liikekeskus",
+            "Polku kansalaisuuteen 5 vuoden jälkeen"
+          ]
+        }
+      ]
+    },
+    "howWeAssist": {
+      "heading": "Kuinka autamme",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Kelpoistumisen arvio",
+          "description": "Perustelemme rahoitusprofiilin, perheen tiedot ja liikkuvuuden tarpeesi sopivin ohjelma suositella."
+        },
+        {
+          "number": 2,
+          "title": "Sijoitusneuvonta",
+          "description": "Asiantuntijamme yhdistävät sinut hyväksyttyihin sijoitusprojekteihin, kiinteistöihin ja rahastoihin."
+        },
+        {
+          "number": 3,
+          "title": "Hakemuksen valmistelu",
+          "description": "Valmistelemme ja tarkistamme kaikki lomakkeet, asiakirjat ja käännökset."
+        },
+        {
+          "number": 4,
+          "title": "Suurlähetystön ja viranomaisten viestintä",
+          "description": "Olemme yhteydessä virallisiin elimiin taataksemme sujuvan edistyksen."
+        },
+        {
+          "number": 5,
+          "title": "Turvallinen portaali",
+          "description": "Kaikki asiakirjat tallennetaan digitaalisesti ja voidaan käyttää uudelleen tuleviin hakemuksiin."
+        },
+        {
+          "number": 6,
+          "title": "Hyväksynnän jälkeinen asettautuminen",
+          "description": "Autamme asumisessa, koulutuksessa, veronsuunnittelussa ja asettautumisessa."
+        }
+      ]
+    },
+    "whoShould": {
+      "heading": "Ketä pitäisi harkita kansalaisuutta ja asumista sijoituksella ohjelmien kautta",
+      "reasons": [
+        "Yrittäjät, jotka etsivät maailmanlaajuista laajentumista",
+        "Perheet, jotka haluavat turvallisen asettautumisen ja pääsyn parempaan koulutukseen ja terveydenhuoltoon",
+        "Varakkaat ihmiset, jotka etsivät viisumittomia matkoja ja rahoituksen monipuolistamista",
+        "Ihmiset rajoitetuista passaporteista, jotka haluavat maailmanlaajuista liikkuvuutta"
+      ]
+    },
+    "getStarted": {
+      "heading": "Aloittaa",
+      "description": "Jos olet kiinnostunut toisen passin tai asumisen turvaamisesta sijoituksen kautta, lähetä yksinkertaisesti kyselysi portaalimme kautta. Asiantuntijatiimimme antaa täydellisen arvion, suosittelee parhaita ohjelmia ja ohjaa sinua hyväksynnän saakka."
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "destinationServices": {
+    "hero": {
+      "title": "Services de Destination en Suède",
+      "subtitle": "Solutions Complètes de Relocalisation et d'Intégration"
+    },
+    "intro": {
+      "heading": "Votre Partenaire Complet de Relocalisation en Suède",
+      "description": "La relocalisation en Suède est un voyage passionnant, mais il y a des défis à relever, comme l'enregistrement auprès des autorités suédoises, l'obtention d'un numéro personnel, l'ouverture d'un compte bancaire, la recherche d'un logement et l'intégration dans une nouvelle culture. Sweden Relocators offre des services de destination complets en Suède pour les individus, les familles et les clients d'entreprise, garantissant une transition en douceur de votre arrivée à votre installation complète.",
+      "capabilities": "Nos solutions de destination couvrent les services d'arrivée et de départ, l'enregistrement auprès des autorités, l'orientation urbaine, la recherche de logement, le soutien à l'intégration, l'aide familiale et la gestion du départ. Que vous vous relocalisez pour le travail, les études, la réunification familiale ou une affectation d'entreprise, notre équipe rend le processus de relocalisation simple, conforme et sans stress."
+    },
+    "coreServices": {
+      "heading": "Services de Destination Essentiels en Suède",
+      "services": [
+        {
+          "title": "Soutien à l'Arrivée et au Départ",
+          "details": [
+            "Séance d'information préalable à l'arrivée – conseils sur les documents, les options de logement et les premières démarches en Suède.",
+            "Service d'accueil et d'orientation – aide aux aéroports et aux centres de transport pour une arrivée sans problème.",
+            "Logement temporaire – soutien pour le logement à court terme pendant la recherche d'un logement permanent.",
+            "Services de départ – aide complète au départ de la Suède, y compris l'annulation de l'enregistrement, la résiliation de bail, la coordination du déménagement et le solde des comptes."
+          ]
+        },
+        {
+          "title": "Enregistrement Auprès des Autorités et Conformité Juridique",
+          "details": [
+            "Aide du numéro personnel – assistance pour obtenir un numéro d'identification personnelle suédois auprès de Skatteverket, essentiel pour les soins de santé, l'emploi et la vie quotidienne.",
+            "Demande de carte d'identité – conseils pour demander une carte d'identité suédoise, requise pour les transactions bancaires et l'identification officielle.",
+            "Configuration de BankID – soutien pour le système sécurisé d'identification numérique suédois, nécessaire pour la banque en ligne, les contrats et les services gouvernementaux.",
+            "Enregistrement fiscal et numéros de coordination – aide avec samordningsnummer, l'enregistrement des employeurs et les exigences de résidence fiscale."
+          ]
+        },
+        {
+          "title": "Services Bancaires et Financiers",
+          "details": [
+            "Ouverture de compte bancaire – coordination avec les banques suédoises comme Swedbank, Handelsbanken, SEB et Nordea.",
+            "Configuration du paiement numérique – conseils sur Swish, Autogiro et solutions de banque mobile.",
+            "Versements de salaires et paie – assurer une mise en place financière sans problème pour les employés et les travailleurs indépendants."
+          ]
+        },
+        {
+          "title": "Logement et Orientation du Quartier",
+          "details": [
+            "Aide à la recherche de logement – soutien pour les locations et achats adaptés à vos besoins et votre budget.",
+            "Négociation de baux – révision et négociation de contrats pour assurer la conformité avec la loi suédoise sur le logement.",
+            "Orientation du quartier – visites guidées montrant les écoles, les soins de santé, les magasins et les transports en commun.",
+            "Configuration des services et Internet – aide pour l'enregistrement de l'électricité, Internet, assurances et gestion des déchets."
+          ]
+        },
+        {
+          "title": "Soutien à l'Intégration et à la Culture",
+          "details": [
+            "Visites d'orientation urbaine – aide aux nouveaux arrivants pour comprendre les transports locaux, les systèmes de santé et les ressources communautaires.",
+            "Formation culturelle – ateliers et conseils sur les coutumes suédoises, la culture du milieu de travail et le comportement social.",
+            "Soutien à l'apprentissage des langues – conseils pour l'inscription au suédois pour les immigrants (SFI) et les écoles de langues privées.",
+            "Communauté et réseautage – connexion avec les groupes d'expatriés, les associations professionnelles et les réseaux locaux."
+          ]
+        },
+        {
+          "title": "Soutien Familial et Éducatif",
+          "details": [
+            "Recherche d'école et placement – conseils pour les écoles internationales, les écoles maternelles et les écoles publiques.",
+            "Aide à la garde d'enfants – soutien pour les demandes de programmes de garde et de maternelle.",
+            "Programmes d'intégration familiale – soutien à l'adaptation culturelle pour les conjoints et les enfants."
+          ]
+        }
+      ]
+    },
+    "corporateServices": {
+      "heading": "Services de Destination pour les Entreprises et les Employeurs",
+      "intro": "Pour les entreprises qui relocalisent les employés en Suède, nous proposons des services de destination d'entreprise qui simplifient la mobilité, réduisent la charge administrative et améliorent la satisfaction des employés. Nos solutions d'entreprise incluent:",
+      "services": [
+        "Consultations préalables à l'affectation pour les RH et les employés.",
+        "Coordination des permis de résidence et de travail avec soutien migratoire.",
+        "Enregistrement auprès des autorités et gestion de la conformité.",
+        "Services de relocalisation familiale, y compris logement et placement scolaire.",
+        "Conseils sur les salaires, les impôts et assurances pour les employés.",
+        "Soutien continu à l'intégration et au bien-être des employés."
+      ],
+      "benefit": "Avec notre aide, les entreprises peuvent se concentrer sur les objectifs commerciaux tandis que nous assurons que les employés et leurs familles s'installent sans problème en Suède."
+    },
+    "relocationJourney": {
+      "heading": "Exemple de Parcours de Relocalisation avec Sweden Relocators",
+      "stages": [
+        {
+          "title": "Avant l'Arrivée",
+          "description": "Documents préparés, logement temporaire organisé, séance d'information préalable fournie."
+        },
+        {
+          "title": "Arrivée",
+          "description": "Transport aéroport, logement à court terme, enregistrements gouvernementaux initiaux."
+        },
+        {
+          "title": "Premier Mois",
+          "description": "Demande de numéro personnel, demande de carte d'identité, ouverture de compte bancaire, recherche de logement, demandes scolaires."
+        },
+        {
+          "title": "Phase d'Intégration",
+          "description": "Orientation culturelle, opportunités de réseautage, inscription au SFI, logement permanent organisé."
+        },
+        {
+          "title": "Départ (le cas échéant)",
+          "description": "Annulation de l'enregistrement, fermeture comptes, résiliation du bail et coordination du départ."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Pourquoi Nous Choisir?",
+      "advantages": [
+        {
+          "title": "Services de Destination Complets",
+          "description": "Couvre l'arrivée, l'enregistrement, le logement, l'intégration et le départ."
+        },
+        {
+          "title": "Expertise Locale",
+          "description": "Connaissance approfondie des autorités suédoises, marchés du logement et systèmes juridiques."
+        },
+        {
+          "title": "Solutions Personnalisées",
+          "description": "Forfaits pour relocalisations individuelles, familiales et d'entreprise."
+        },
+        {
+          "title": "Aide Multilingue",
+          "description": "Soutien en anglais, suédois, ourdou, arabe, pendjabi, persan, kurde, serbe et plus."
+        },
+        {
+          "title": "Partenaire du Début à la Fin",
+          "description": "Une plateforme unique pour tous vos besoins en matière de relocalisation et d'installation."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Commence avec les Services de Destination",
+      "description": "Soumettez une demande de service via notre portail. Que vous vous relocalisez seul, en famille ou en tant qu'entreprise organisant les services pour les employés, choisissez simplement les services de destination dont vous avez besoin et notre équipe s'occupera du reste.",
+      "cta": "Demander les Services de Destination"
+    }
+  }
+}

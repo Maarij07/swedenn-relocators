@@ -1,0 +1,22 @@
+{
+  "housing": {
+    "hero": {
+      "title": "Asuinratkaisut Ruotsissa",
+      "subtitle": "Sweden Relocators kanssa"
+    },
+    "intro": {
+      "heading": "Sinun Kumppani Asunnon Etsinnässä Ruotsissa",
+      "description": "Kodin löytäminen on yksi tärkeimmistä askelista muuttaessaan Ruotsiin. Olit muuttava yksin, perheen kanssa, tuomassa työntekijöitä yrityksesti tai hallitsemassa omaisuutta asunnontoimittajana, oikea asuntoratkaisu luodaan pohjan sujuvaa muuttoa varten.",
+      "platform": "Sweden Relocators yhdistää vuosien muutosta koskevaa kokemusta nykyaikaiseen digitaalisen alustan, joka yhdistää vuokralaisia, yrityksiä ja asuntujen toimittajia yhteen paikkaan. Palvelumme ylittävät vuokrat ja ostot—tarjoamme lyhytaikaisvuokrauksia, pitkäaikaisvuokrauksia, kiinteistömyynnit, asuntolainatukea ja ammattimaisia kiinteistöhankinnan ratkaisuja. Tällä tavalla yksityishenkilöt, perheet ja organisaatiot voivat hallita koko asuntojen matkaansa yhden turvallisen portaalin kautta."
+    },
+    "forIndividuals": {
+      "heading": "Asunto Yksityishenkilöille ja Perheille",
+      "intro": "Muutto yksityishenkilön tai perheen kanssa voi tuntua ylivoimaiselta. Väliaikaista asuntopaikkaa pysyviin koteihin, Sweden Relocators varmistaa, että sinulla on luotettavat vaihtoehdot jokaisessa vaiheessa."
+    },
+    "contact": {
+      "heading": "Aloita Sweden Relocators kanssa",
+      "description": "Etsitpä lyhytaikaisvuokraa, suunnittelet pitkäaikaista oleskelua, ostat tai myyt omaisuutta tai listad asuntoa palveluntarjoajana, Sweden Relocators tekee prosessista läpinäkyvän, turvallisen ja tehokkaan.",
+      "cta": "Lähetä asuntohakemus tai rekisteröi omaisuutesi jälleen portaalissamme tänään. Anna Sweden Relocators-sovita sinut oikeaan asuntoihin Ruotsissa."
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "financialManagement": {
+    "hero": {
+      "title": "Servicios de Gestión Financiera en Reubicación",
+      "subtitle": "Mueva Su Dinero de Forma Segura y Eficiente"
+    },
+    "intro": {
+      "heading": "Gestión Financiera Segura a Través de Fronteras",
+      "description": "Hacer un movimiento internacional implica mucho más que visados y vivienda, también requiere trasladar sus finanzas de forma segura. En Sweden Relocators, ofrecemos un servicio de trasferencia financiera sin problemas, facilitando que individuos, familias y empresas transfieran dinero, gestionen cuentas en múltiples monedas y realicen transacciones grandes como compras de propiedades o inversiones.",
+      "closing": "A través de nuestro red segura de socios, garantizamos que su movimiento financiero sea rentable, completamente conforme y personalizado para sus necesidades específicas."
+    },
+    "whyMatters": {
+      "heading": "Por Qué la Gestión Financiera en Reubicación es Importante",
+      "description": "Trasladar finanzas entre países puede ser complicado. Los bancos tradicionales a menudo cobran altas comisiones, márgenes ocultos en tipos de cambio y prolongados tiempos de procesamiento. Sweden Relocators le ayuda a evitar estos problemas proporcionando:",
+      "benefits": [
+        "Mejores tipos de cambio en comparación con bancos estándar",
+        "Transferencias internacionales rápidas y seguras a 120+ países",
+        "Apoyo especializado para transacciones inmobiliarias, hipotecas, pagos de matrículas e inversiones empresariales",
+        "Opciones de pago recurrente para familias y empresas",
+        "Cumplimiento total de regulaciones financieras globales para su tranquilidad"
+      ]
+    },
+    "services": {
+      "heading": "Nuestros Servicios de Gestión Financiera en Reubicación",
+      "intro": "Proporcionamos soluciones personalizadas para diferentes necesidades financieras:",
+      "items": [
+        {
+          "number": 1,
+          "title": "Transferencias de Dinero Internacionales",
+          "description": "Envíe fondos en todo el mundo de forma rápida y segura con tipos transparentes y seguimiento en tiempo real."
+        },
+        {
+          "number": 2,
+          "title": "Transferencias Grandes para Propiedades e Inversiones",
+          "description": "Traslade grandes sumas de forma segura para comprar un apartamento, villa o activos comerciales en Suecia o en el extranjero, con apoyo de documentación y verificaciones de cumplimiento."
+        },
+        {
+          "number": 3,
+          "title": "Cuentas Multimoneda",
+          "description": "Mantenga y gestione múltiples monedas sin pérdidas de conversión innecesarias, ideal para profesionales globales y empresas."
+        },
+        {
+          "number": 4,
+          "title": "Pagos Regulares y Recurrentes",
+          "description": "Automatice transferencias para aranceles de matrícula, hipotecas, salarios o manutención familiar con tipos fijos para costos predecibles."
+        },
+        {
+          "number": 5,
+          "title": "Gestión Financiera Empresarial en Reubicación",
+          "description": "Las empresas pueden gestionar transferencias masivas de nómina, pagos a proveedores y soluciones de tesorería a través de nuestro servicio de gestión financiera en reubicación."
+        }
+      ]
+    },
+    "howWorks": {
+      "heading": "Cómo Funciona",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Envíe Su Solicitud",
+          "description": "Inicie sesión en nuestro portal y envíe una solicitud de gestión financiera con detalles como cantidad, moneda y destino."
+        },
+        {
+          "number": 2,
+          "title": "Contacto Directo de Nuestro Socio",
+          "description": "Después de que su solicitud sea enviada, un representante de nuestra compañía financiera asociada se pondrá en contacto directo. Explicará las opciones disponibles, proporcionará un presupuesto y lo guiará a través de los pasos de verificación de identidad y cumplimiento."
+        },
+        {
+          "number": 3,
+          "title": "Transferencia Segura",
+          "description": "Una vez verificado todo, envía tus fondos a la cuenta segura proporcionada y la transferencia se ejecuta con seguimiento en vivo y confirmación."
+        },
+        {
+          "number": 4,
+          "title": "Apoyo Continuo",
+          "description": "Para pagos regulares, transferencias relacionadas con propiedades o necesidades corporativas, continúa trabajando directamente con el socio financiero mientras Sweden Relocators sigue siendo su primer punto de contacto."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "¿Por Qué Elegir Sweden Relocators para Gestión Financiera en Reubicación?",
+      "advantages": [
+        {
+          "title": "Solución Completa de Reubicación",
+          "description": "Vivienda, inmigración y gestión financiera en una plataforma."
+        },
+        {
+          "title": "Ahorro de Costos",
+          "description": "Acceso a tipos de cambio competitivos y honorarios más bajos que los bancos."
+        },
+        {
+          "title": "Seguro y Conforme",
+          "description": "Todas las transferencias cumplen con regulaciones internacionales con protección total de fondos."
+        },
+        {
+          "title": "Apoyo Personalizado",
+          "description": "Diseñado para individuos, familias y empresas."
+        },
+        {
+          "title": "Rápido y Confiable",
+          "description": "Evite retrasos bancarios con acuerdos eficientes."
+        },
+        {
+          "title": "Alcance Global",
+          "description": "Transfiera fondos hacia y desde Suecia, Dinamarca y 120+ destinos."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Mueva Su Dinero Con Confianza",
+      "description": "En Sweden Relocators, nos aseguramos de que su dinero se mueva tan suavemente como su reubicación. Ya sea que transfiera fondos para un nuevo hogar, aranceles de matrícula, operaciones comerciales o manutención familiar, nuestro servicio de gestión financiera garantiza seguridad, velocidad y ahorro.",
+      "cta": "Envíe su solicitud hoy a través de nuestro portal. Una vez recibida, un representante de nuestra empresa asociada de confianza se pondrá en contacto directo para completar el proceso."
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "destinationServices": {
+    "hero": {
+      "title": "Destinationsservices i Sverige",
+      "subtitle": "Komplette flytnings- og integrationslösninger"
+    },
+    "intro": {
+      "heading": "Din komplette flytningspartner i Sverige",
+      "description": "At flytte til Sverige er en spændende rejse, men det kommer med udfordringer såsom registrering hos svenske myndigheder, ansøgning om personnummer, åbning af bankkonto, at arrangere bolig og at integrere sig i en ny kultur. Hos Sweden Relocators leverer vi omfattende destinationsservices i Sverige for privatpersoner, familier og virksomheder, hvilket sikrer en glat transition fra det øjeblik, du ankommer, indtil du er fuldt etableret.",
+      "capabilities": "Vores destinationslösninger dækker ankomst- og afgangsservices, myndighedsregistreringer, bydorienteringer, boligsøgning, integrationsstøtte, familiebistand og fraflytningsstyring. Enten du flytter for arbejde, studier, familiesammenføring eller virksomhedsudstationeringer, gør vores team flytteprocessen enkel, overstemmende og stressfri."
+    },
+    "coreServices": {
+      "heading": "Kernedestinationsservices i Sverige",
+      "services": [
+        {
+          "title": "Ankomst- og afgangshjælp",
+          "details": [
+            "Før-ankomst-briefing – vejledning om dokumenter, boligmuligheder og første skridt i Sverige.",
+            "Møde og hilsen – hjælp ved lufthavne eller transportknudepunkter for smidig ankomst.",
+            "Midlertidigt ophold – støtte til korttidebolig under søgning efter varigt hjem.",
+            "Afgangsservices – omfattende bistand ved afrejse fra Sverige, herunder afregistrering, opsigelse af lejekontrakt, forsendelseskoordinering og kontolukning."
+          ]
+        },
+        {
+          "title": "Myndighedsregistrering og juridisk overholdelse",
+          "details": [
+            "Personnummer-hjælp – hjælp til at opnå det svenske personnummer hos Skatteverket, der er afgørende for sundhedsvæsen, arbejde og dagligdagsliv.",
+            "ID-kortansøgning – vejledning til ansøgning om det svenske ID-kort, påkrævet til bankvirksomhed og officiel identifikation.",
+            "BankID-opsætning – støtte til Sveriges sikre digitale identifikationssystem, nødvendigt for netbank, kontrakter og offentlige tjenester.",
+            "Skatteregistrering og koordineringsnumre – hjælp med samordningsnummer, arbejdsgiverregistreringer og skatteboligkrav."
+          ]
+        },
+        {
+          "title": "Bank- og finansielle tjenester",
+          "details": [
+            "Åbning af bankkonto – koordinering med svenske banker såsom Swedbank, Handelsbanken, SEB og Nordea.",
+            "Opsætning af digital betaling – vejledning om Swish, Autogiro og mobile-bankingløsninger.",
+            "Lønoverførsler – sikring af problemfri finansiel opsætning for ansatte og freelancere."
+          ]
+        },
+        {
+          "title": "Bolig og bydorienteringer",
+          "details": [
+            "Boligsøgningshjælp – støtte til leje- og købekontrakter tilpasset dine behov og budget.",
+            "Lejeforhandlinger – gennemgang og forhandling af kontrakter for at sikre overholdelse af svensk boliglovgivning.",
+            "Bydorienteringer – guidede byture, der fremhæver skoler, sundhedsvæsen, shopping og offentlig transport.",
+            "Forsynings- og internetopsætning – støtte til registrering af elektricitet, internet, forsikring og affaldshåndtering."
+          ]
+        },
+        {
+          "title": "Integrations- og kulturalfundstøtte",
+          "details": [
+            "Bydorienteringsture – at hjælpe nyankomne med at forstå lokal transport, sundhedssystemet og samfundsressourcer.",
+            "Kulturel træning – workshops og råd om svenske skikke, arbejdspladskultur og social etikette.",
+            "Støtte til sprogtilegnelse – vejledning om tilmelding til Swedish For Immigrants (SFI) og private sprogskole.",
+            "Samfund og netværk – forbindelser til ekspatgrupper, faglige sammenslutninger og lokale netværk."
+          ]
+        },
+        {
+          "title": "Familie- og uddannelsesstøtte",
+          "details": [
+            "Skolesøgning og placering – vejledning til internationale skoler, børnehaver og offentlige skoler.",
+            "Dagpasningshjælp – støtte til ansøgning om dagpasning og børnehaver.",
+            "Familieintegrationsprogrammer – kulturel tilpasselsesstøtte for ægtefæller og børn."
+          ]
+        }
+      ]
+    },
+    "corporateServices": {
+      "heading": "Destinationsservices for virksomheder og arbejdsgivere",
+      "intro": "For virksomheder, der flytter ansatte til Sverige, leverer vi virksomhedsdestinationsservices, som forenkler mobilitet, reducerer administrativt pres og forbedrer medarbeidertilfredshed. Vores virksomhedsløsninger omfatter:",
+      "services": [
+        "Før-tildeling af konsultationer for HR og medarbeidere.",
+        "Koordinering af opholds- og arbejdstilladelser med immigrationsstøtte.",
+        "Myndighedsregistreringer og overensstemmelsesledelse.",
+        "Familieflytningsservices, herunder bolig og skoleplaceringer.",
+        "Lønnings-, skatte- og forsikringsvejledning for medarbeidere.",
+        "Fortløbende integrations- og MedarbeidervelfærdVerstøtte."
+      ],
+      "benefit": "Med vores hjælp kan virksomheder fokusere på forretningsstrategi, mens vi sikrer, at medarbeidere og deres familier integreres igennem i Sverige problemfrit."
+    },
+    "relocationJourney": {
+      "heading": "Eksempel på flytninsrejse med Sweden Relocators",
+      "stages": [
+        {
+          "title": "Før ankomst",
+          "description": "Dokumenter forberedt, midlertidig bolig sikret, før-ankomst-briefing leveret."
+        },
+        {
+          "title": "Ankomst",
+          "description": "Lufthavnafhentning, korttidgt ophold, indledende myndighedsregistreringer."
+        },
+        {
+          "title": "Første måned",
+          "description": "Personnummer-ansøgning, ID-kortansøgning, bankkontooåbning, boligsøgning, skoleanmeldelser."
+        },
+        {
+          "title": "Integrationsfase",
+          "description": "Kulturel orientering, netværksmuligheder, SFI-tilmelding, varigt bolig sikret."
+        },
+        {
+          "title": "Fraflytning (hvis relevant)",
+          "description": "Afregistrering, kontolukning, opsigelse af leje og udgangkoordinering."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Hvorfor vælge os?",
+      "advantages": [
+        {
+          "title": "Komplette destinationsservices",
+          "description": "Decker ankomst, registrering, bolig, integration og fraflytning."
+        },
+        {
+          "title": "Lokal ekspertise",
+          "description": "Dybdegående kendskab til svenske myndigheder, boligmarkeder og retssystemer."
+        },
+        {
+          "title": "Skræddersyede løsninger",
+          "description": "Pakker for personer, familier og virksomhedsflytninger."
+        },
+        {
+          "title": "Flersprogede hjælp",
+          "description": "Støtte på engelsk, svensk, urdu, arabisk, punjabi, persisk, kurdisk, serbisk og mere."
+        },
+        {
+          "title": "Partner fra ende til ende",
+          "description": "En plattform til alle dine flytnings- og etabliseringsbehov."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Kom i gang med destinationsservices",
+      "description": "Send serviceanmodning gennem vores portal. Enten du flytter alene, flytter med din familie eller en virksomhed, der arrangerer tjenester til medarbeidere, skal du blot vælge de destinationsservices, du har brug for, og vores team tager sig af resten.",
+      "cta": "Anmod om destinationsservices"
+    }
+  }
+}

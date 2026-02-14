@@ -1,0 +1,221 @@
+{
+  "bookkeepingSolutions": {
+    "hero": {
+      "title": "Bookkeeping Solutions",
+      "subtitle": "Complete Accounting Made Simple"
+    },
+    "intro": {
+      "heading": "Simplified Financial Management for Sweden",
+      "description": "Managing bookkeeping and accounting in Sweden can be complex, especially for companies with international employees, multiple business operations, or relocation cases. Sweden Relocators provides a complete bookkeeping solution through our secure online portal and mobile app, giving individuals, families, and businesses an easy way to handle all financial and compliance tasks in one place.",
+      "commitment": "From monthly bookkeeping and expense tracking to salary slips, employment records, and Skatteverket (Tax Agency) declarations, we ensure that your finances are accurate, transparent, and fully compliant with Swedish regulations."
+    },
+    "whyMatters": {
+      "heading": "Why Bookkeeping Matters in Sweden",
+      "description": "Sweden has a transparent but highly regulated financial system. Every business, from a small startup to a multinational company, is required to maintain accurate bookkeeping in accordance with the Swedish Bookkeeping Act (Bokföringslagen) and other relevant tax laws.",
+      "risks": [
+        "Tax penalties from Skatteverket",
+        "Legal risks related to incomplete reporting",
+        "Delays in employee payroll and benefits processing",
+        "Challenges in audits and financial reviews"
+      ],
+      "closing": "Our bookkeeping services solve these challenges by combining professional expertise with technology, making it easy to meet your monthly, quarterly, and annual obligations."
+    },
+    "howWorks": {
+      "heading": "How Our Online Bookkeeping Solution Works",
+      "intro": "Our all-in-one portal allows companies and individuals to manage bookkeeping efficiently:",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Document Upload",
+          "details": "Each month, simply upload invoices, receipts, contracts, and other financial documents to our secure portal. Files can be scanned, uploaded directly, or shared through automated integrations."
+        },
+        {
+          "number": 2,
+          "title": "Data Processing & Bookkeeping",
+          "details": "Our accountants and AI-powered system process the data. Transactions are categorized, reconciled, and recorded according to Swedish accounting standards. Errors or missing information are flagged immediately."
+        },
+        {
+          "number": 3,
+          "title": "Payroll & Salary Slips",
+          "details": "Payroll is integrated with bookkeeping. Employees receive digital salary slips through the portal, with breakdowns of taxes, social contributions, and benefits. Employers can access monthly payroll reports, ensuring full transparency."
+        },
+        {
+          "number": 4,
+          "title": "Employment and Compliance Reports",
+          "details": "Employment contracts, time sheets, and benefits records are managed directly in the system. Our portal generates declaration reports for Skatteverket, including income tax and employer contributions."
+        },
+        {
+          "number": 5,
+          "title": "Declarations and Filings",
+          "details": "Monthly, quarterly, and annual declarations are prepared and submitted to the Swedish Tax Agency (Skatteverket). You receive confirmation and digital records of every submission."
+        },
+        {
+          "number": 6,
+          "title": "Secure Storage & Retrieval",
+          "details": "All financial data is securely stored in the cloud. Clients can easily retrieve documents, reports, and records for audits, inspections, or internal reviews."
+        }
+      ]
+    },
+    "servicesIncluded": {
+      "heading": "Services Included in Our Bookkeeping Solution",
+      "intro": "We cover all aspects of bookkeeping, payroll, and financial management:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Monthly Bookkeeping",
+          "items": [
+            "Entry of invoices, receipts, and bank statements",
+            "Categorization of expenses and revenues",
+            "Automated checks for errors or duplicates"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Payroll Management",
+          "items": [
+            "Salary calculations based on contracts and hours",
+            "Tax and social security deductions",
+            "Digital payslips available in multiple languages"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Declarations & Compliance",
+          "items": [
+            "VAT (Moms) reporting",
+            "Employer declarations (Arbetsgivardeklaration)",
+            "Annual income reports and corporate filings"
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Employee Records",
+          "items": [
+            "Employment agreements stored securely",
+            "Benefit tracking and reporting",
+            "Yearly summaries for employees"
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Financial Reporting",
+          "items": [
+            "Monthly profit and loss statements",
+            "Balance sheets and cash flow reports",
+            "Custom reports for management and investors"
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Audit & Inspection Support",
+          "items": [
+            "Prepared documentation for tax audits",
+            "Guidance during financial reviews by Swedish authorities"
+          ]
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Why Use Sweden Relocators for Bookkeeping?",
+      "advantages": [
+        {
+          "title": "One Portal for All Needs",
+          "description": "Payroll, bookkeeping, declarations, and employee management in one place."
+        },
+        {
+          "title": "Compliance Assurance",
+          "description": "All processes follow the Swedish Bookkeeping Act and Skatteverket regulations."
+        },
+        {
+          "title": "Accuracy & Transparency",
+          "description": "Real-time reporting with full visibility for employers and employees."
+        },
+        {
+          "title": "Time & Cost Savings",
+          "description": "No need for in-house accountants or multiple external providers."
+        },
+        {
+          "title": "Multilingual Support",
+          "description": "Reports and assistance available in English, Swedish, Urdu, Arabic, Persian, and more."
+        },
+        {
+          "title": "Relocation Integration",
+          "description": "Perfect for companies relocating staff to Sweden, as we connect housing, payroll, and immigration in one system."
+        }
+      ]
+    },
+    "forCompanies": {
+      "heading": "Bookkeeping for Companies",
+      "intro": "Our solutions are ideal for:",
+      "targetMarkets": [
+        "Small and Medium Enterprises (SMEs): Simplified bookkeeping without hiring full-time staff",
+        "Startups: Easy payroll and accounting setup while scaling operations",
+        "Global Companies: Manage local staff in Sweden without setting up a finance department",
+        "Freelancers & Contractors: Manage invoices, taxes, and reports while focusing on projects"
+      ],
+      "capabilities": "Through our portal, companies can:",
+      "capabilities_items": [
+        "Onboard employees",
+        "Manage salaries and benefits",
+        "Generate monthly accounting and VAT declarations",
+        "Access secure financial records for audits and growth planning"
+      ]
+    },
+    "forIndividuals": {
+      "heading": "Bookkeeping for Individuals & Families",
+      "intro": "We also support individual clients with:",
+      "services": [
+        "Salary slips for personal tax filings",
+        "Annual income statements for Skatteverket",
+        "Tracking housing costs, personal investments, or rental income",
+        "Preparing documents for mortgages, loans, or housing applications"
+      ],
+      "closing": "This makes it easier for individuals and families relocating to Sweden to stay compliant and organized."
+    },
+    "legalReferences": {
+      "heading": "Legal References & Compliance",
+      "intro": "Our bookkeeping services are aligned with:",
+      "references": [
+        "Bokföringslagen (1999:1078) – Swedish Bookkeeping Act",
+        "Årsredovisningslagen – Annual Accounts Act",
+        "Skatteverket regulations – PAYE, VAT, and employer contribution declarations",
+        "GDPR – Data protection for all financial records"
+      ]
+    },
+    "getStarted": {
+      "heading": "How to Get Started",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Register on Our Portal",
+          "description": "Sign up as an individual or company."
+        },
+        {
+          "number": 2,
+          "title": "Upload Documents Monthly",
+          "description": "Submit invoices, contracts, and receipts directly online."
+        },
+        {
+          "number": 3,
+          "title": "Automated Bookkeeping",
+          "description": "We process payroll, bookkeeping, and declarations."
+        },
+        {
+          "number": 4,
+          "title": "Get Reports & Slips",
+          "description": "Access digital salary slips, tax declarations, and financial reports anytime."
+        },
+        {
+          "number": 5,
+          "title": "Stay Compliant",
+          "description": "We ensure your records meet Swedish and EU requirements."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Streamline Your Bookkeeping Today",
+      "description": "Stop worrying about compliance and focus on growing your business. Let Sweden Relocators handle your bookkeeping, payroll, and financial management.",
+      "cta": "Sign up today and get a free consultation with our accounting experts. Start managing your Swedish finances efficiently!"
+    }
+  }
+}

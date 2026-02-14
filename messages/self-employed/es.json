@@ -1,0 +1,189 @@
+{
+  "selfEmployed": {
+    "hero": {
+      "title": "Permiso de Residencia para Trabajadores Autónomos en Suecia",
+      "subtitle": "Requisitos y Proceso Actualizado por Migrationsverket"
+    },
+    "intro": {
+      "heading": "Inicia tu Negocio en Suecia",
+      "description": "Si eres ciudadano fuera de la UE/EEE y tienes como objetivo iniciar o expandir un negocio en Suecia, necesitarás un permiso de residencia para trabajadores autónomos de la Agencia Sueca de Migración (Migrationsverket). Este permiso permite a los empresarios no comunitarios vivir en Suecia mientras construyen y dirigen un negocio. Conocida por su fuerte economía, Suecia promueve un ambiente empresarial abierto con una próspera cultura de startups, infraestructura robusta y fuerza laboral calificada, lo que la convierte en un destino ideal para emprendedores."
+    },
+    "whyChooseSweden": {
+      "heading": "¿Por Qué Elegir Suecia para tu Negocio?",
+      "description": "El panorama empresarial de Suecia ofrece numerosas ventajas que la convierten en un destino ideal para emprendedores a nivel mundial.",
+      "advantages": [
+        {
+          "title": "Ambiente Innovador",
+          "description": "Suecia tiene una cultura empresarial colaborativa y transparente que fomenta la innovación."
+        },
+        {
+          "title": "Acceso a Mercados de la UE",
+          "description": "Como miembro de la UE, Suecia proporciona a las empresas acceso a un mercado amplio y estable."
+        },
+        {
+          "title": "Ecosistema Financiero de Apoyo",
+          "description": "Las instituciones suecas ofrecen varias opciones de financiación para empresarios, incluidos préstamos y subvenciones públicas y privadas."
+        },
+        {
+          "title": "Infraestructura de Alta Calidad",
+          "description": "La infraestructura avanzada y las capacidades digitales de Suecia la convierten en un centro global para startups tecnológicas."
+        }
+      ],
+      "businessStructures": {
+        "heading": "Estructuras Empresariales Disponibles",
+        "description": "Suecia ofrece varias estructuras empresariales. La estructura adecuada depende de tus objetivos comerciales, tolerancia al riesgo y beneficios fiscales deseados."
+      }
+    },
+    "keyRequirements": {
+      "heading": "Requisitos Clave para Permiso de Residencia de Trabajador Autónomo",
+      "intro": "Para ser elegible para un permiso de residencia para trabajadores autónomos, debes demostrar que tienes recursos financieros suficientes, un plan comercial viable y experiencia relevante en tu industria. El permiso se otorga típicamente por hasta dos años, con posibilidad de renovación basada en el éxito empresarial.",
+      "requirements": [
+        {
+          "title": "Pasaporte Válido",
+          "details": "Debes tener un pasaporte válido durante toda la duración del permiso. La validez del permiso no excederá la fecha de vencimiento del pasaporte. Incluye copias de las páginas relevantes del pasaporte para confirmar identidad, validez y permisos de residencia en otros países."
+        },
+        {
+          "title": "Propiedad y Control del Negocio",
+          "details": "Debes poseer al menos el 50% del negocio y tener autoridad de toma de decisiones completa sobre sus operaciones. Debes estar activamente involucrado en la operación diaria del negocio y tener responsabilidad principal en su gestión."
+        },
+        {
+          "title": "Requisitos Financieros para Negocio y Apoyo Personal",
+          "details": "Capital Inicial: Debes proporcionar estados de cuenta bancarios que muestren fondos suficientes para establecer y operar el negocio durante al menos dos años. Apoyo Personal: Necesitas ingresos personales suficientes para mantenerte a ti mismo y a cualquier miembro de la familia que sea acompañante durante los primeros dos años. Los requisitos estimados mínimos son: 200.000 SEK para ti, 100.000 SEK para cónyuge/pareja, 50.000 SEK para cada hijo acompañante."
+        },
+        {
+          "title": "Plan Comercial Viable",
+          "details": "Un plan comercial detallado es esencial. Migrationsverket evaluará tu plan comercial para viabilidad y rentabilidad. Incluye: Contratos con proveedores y clientes, Acuerdos de arrendamiento de locales si son relevantes, Permisos de industria necesarios, Proyecciones financieras como presupuesto de inversión, presupuesto de liquidez y balance proyectado. El negocio debe generar ganancias suficientes para cubrir operaciones y gastos de vida personal."
+        },
+        {
+          "title": "Experiencia y Habilidades Relevantes",
+          "details": "Migrationsverket requiere evidencia de que tienes la experiencia necesaria en el sector y habilidades para gestionar tu negocio efectivamente. Proporciona documentación de experiencia laboral anterior, educación u otra propiedad comercial relevante para la industria que planeas ingresar."
+        },
+        {
+          "title": "Competencia Lingüística",
+          "details": "Aunque no es estrictamente requerido, se recomienda tener competencia en sueco o inglés para facilitar la comunicación en el ambiente empresarial sueco."
+        },
+        {
+          "title": "Pago de Tarifa de Solicitud",
+          "details": "La tarifa de solicitud para un permiso de residencia de trabajador autónomo debe ser pagada, y el recibo de este pago debe incluirse con tu solicitud."
+        },
+        {
+          "title": "Número de Identidad Personal Sueco",
+          "details": "Si planeas vivir en Suecia por más de un año, también debes solicitar un número de identidad personal sueco (personnummer) registrándote en la Agencia Tributaria Sueca. Este número es esencial para acceder a servicios de salud, abrir cuentas bancarias y otros servicios esenciales."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Proceso de Solicitud Paso a Paso para Permiso de Trabajador Autónomo",
+      "steps": [
+        {
+          "title": "Paso 1: Recopila Documentación Requerida",
+          "description": "Compila todos los documentos necesarios, incluyendo un pasaporte válido, prueba de propiedad comercial y tu plan comercial. Asegúrate de que todos los documentos cumplan con los estándares de Migrationsverket."
+        },
+        {
+          "title": "Paso 2: Presenta la Solicitud",
+          "description": "Presenta tu solicitud en línea a través del servicio electrónico de Migrationsverket o en una embajada o consulado sueco en tu país de origen. Adjunta toda la documentación de apoyo requerida por Migrationsverket."
+        },
+        {
+          "title": "Paso 3: Revisión y Evaluación por Migrationsverket",
+          "description": "La Agencia de Migración evaluará tu solicitud basándose en: Viabilidad Financiera, Viabilidad Comercial y Antecedentes Personales y Empresariales."
+        },
+        {
+          "title": "Paso 4: Notificación de Decisión",
+          "description": "Una vez que tu solicitud haya sido revisada, Migrationsverket emitirá una decisión. Si es aprobada, recibirás un permiso de residencia para trabajador autónomo válido por hasta dos años."
+        }
+      ]
+    },
+    "businessStructures": {
+      "heading": "Estructuras Empresariales en Suecia",
+      "intro": "Suecia ofrece varias estructuras empresariales. Elige la que mejor se adapte a tu modelo comercial:",
+      "types": [
+        {
+          "title": "Trabajador Autónomo (Enskild Firma)",
+          "description": "Ideal para empresarios individuales sin socios."
+        },
+        {
+          "title": "Sociedad Mercantil o Comanditaria (Handelsbolag/Kommanditbolag)",
+          "description": "Adecuada para asociaciones o pequeños negocios familiares."
+        },
+        {
+          "title": "Sociedad Anónima (Aktiebolag)",
+          "description": "Comúnmente elegida por quienes buscan crecer y expandir su negocio, ofreciendo protección de responsabilidad limitada."
+        },
+        {
+          "title": "Asociación Económica (Ekonomisk Förening)",
+          "description": "Generalmente utilizada por cooperativas o iniciativas comunitarias."
+        }
+      ],
+      "nota": "Cada estructura tiene requisitos específicos e implicaciones fiscales. Seleccionar la correcta es crucial para cumplir con las regulaciones empresariales suecas."
+    },
+    "advantages": {
+      "heading": "Ventajas del Ambiente Empresarial de Suecia",
+      "description": "Suecia proporciona un ambiente estable y transparente con ventajas que fomentan el crecimiento empresarial a largo plazo:",
+      "items": [
+        {
+          "title": "Cultura Innovadora",
+          "description": "Con bajos niveles de corrupción y mínima burocracia, Suecia fomenta la innovación empresarial."
+        },
+        {
+          "title": "Accesibilidad Financiera",
+          "description": "Suecia ofrece una variedad de opciones de financiación, incluyendo préstamos bancarios, subvenciones gubernamentales e inversores ángeles."
+        },
+        {
+          "title": "Acceso a Talento Calificado",
+          "description": "El país tiene una fuerza laboral altamente educada con fuertes habilidades técnicas y gerenciales, particularmente beneficioso para empresas enfocadas en tecnología e innovación."
+        },
+        {
+          "title": "Infraestructura Establecida",
+          "description": "La infraestructura avanzada, logística eficiente y extensas redes digitales de Suecia la hacen ideal para operaciones comerciales nacionales e internacionales."
+        }
+      ]
+    },
+    "howWeCanAssist": {
+      "heading": "Cómo Sweden Relocators Puede Ayudarte",
+      "intro": "Navegar los requisitos para un permiso de residencia de trabajador autónomo puede ser complejo. Sweden Relocators proporciona asistencia integral para asegurar un proceso de solicitud exitoso.",
+      "services": [
+        {
+          "title": "Orientación de Solicitud",
+          "description": "Te asistimos en la recopilación y organización de documentación requerida, asegurando que se cumplan todos los requisitos según los estándares de Migrationsverket."
+        },
+        {
+          "title": "Desarrollo de Plan Comercial",
+          "description": "Nuestro equipo te ayuda a crear un plan comercial convincente que demuestre viabilidad financiera y se alinee con las expectativas del mercado sueco."
+        },
+        {
+          "title": "Prueba de Ingresos y Financiera",
+          "description": "Asistencia en la documentación de activos financieros para probar tu capacidad de apoyar el negocio y tu familia."
+        },
+        {
+          "title": "Apoyo Continuo",
+          "description": "Ofrecemos apoyo durante todo el proceso de solicitud, respondiendo a consultas de Migrationsverket y guiándote a través de requisitos adicionales."
+        },
+        {
+          "title": "Asistencia en Apelaciones",
+          "description": "Si tu solicitud es denegada, proporcionamos orientación en el proceso de apelación, ayudándote a fortalecer tu caso."
+        }
+      ]
+    },
+    "whyWorkWithUs": {
+      "heading": "¿Por Qué Trabajar con Sweden Relocators?",
+      "advantages": [
+        {
+          "title": "Conocimiento Experto",
+          "description": "Nuestro equipo se mantiene actualizado sobre los últimos requisitos de Migrationsverket, proporcionando orientación precisa y efectiva."
+        },
+        {
+          "title": "Servicio Personalizado",
+          "description": "Entendemos que cada negocio es único y adaptamos nuestro apoyo a las necesidades específicas de tu industria."
+        },
+        {
+          "title": "Proceso Simplificado",
+          "description": "Al gestionar la complejidad del proceso de solicitud, te ayudamos a evitar retrasos e incrementar tu probabilidad de éxito."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Contáctanos",
+      "description": "Si estás listo para establecer tu negocio en Suecia y necesitas apoyo con la solicitud de permiso de residencia para trabajador autónomo, Sweden Relocators está aquí para ayudarte. Contáctanos hoy para comenzar tu viaje empresarial en Suecia con confianza."
+    }
+  }
+}

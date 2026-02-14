@@ -1,0 +1,48 @@
+{
+  "bookkeepingSolutions": {
+    "hero": {
+      "title": "Soluciones de Contabilidad",
+      "subtitle": "Contabilidad Completa Hecha Simple"
+    },
+    "intro": {
+      "heading": "Gestión Financiera Simplificada para Suecia",
+      "description": "La contabilidad y la contabilidad en Suecia pueden ser complejas, especialmente para empresas con empleados internacionales, múltiples operaciones comerciales o casos de reubicación. Sweden Relocators proporciona una solución contable completa a través de nuestro portal en línea seguro y aplicación móvil, brindando a individuos, familias y empresas una forma fácil de manejar todas las tareas financieras y de cumplimiento en un solo lugar.",
+      "commitment": "Desde contabilidad mensual y seguimiento de gastos hasta recibos de nómina, registros de empleo y declaraciones de Skatteverket (Agencia Tributaria), nos aseguramos de que sus finanzas sean precisas, transparentes y totalmente cumplidoras con las regulaciones suecas."
+    },
+    "getStarted": {
+      "heading": "Cómo Comenzar",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Regístrate en Nuestro Portal",
+          "description": "Regístrate como individuo o empresa."
+        },
+        {
+          "number": 2,
+          "title": "Sube Documentos Mensualmente",
+          "description": "Envía facturas, contratos y recibos directamente en línea."
+        },
+        {
+          "number": 3,
+          "title": "Contabilidad Automatizada",
+          "description": "Procesamos nómina, contabilidad y declaraciones."
+        },
+        {
+          "number": 4,
+          "title": "Obtén Reportes y Recibos de Nómina",
+          "description": "Accede a recibos de nómina digitales, declaraciones fiscales e informes financieros en cualquier momento."
+        },
+        {
+          "number": 5,
+          "title": "Mantente Cumplido",
+          "description": "Nos aseguramos de que tus registros cumplan con los requisitos sueco y de la UE."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Simplifica tu Contabilidad Hoy",
+      "description": "Deja de preocuparte por cumplimiento y enfócate en crecer tu negocio. Deja que Sweden Relocators maneje tu contabilidad, nómina y gestión financiera.",
+      "cta": "Regístrate hoy y obtén una consulta gratuita con nuestros expertos en contabilidad. ¡Comienza a administrar tus finanzas suecas de manera eficiente!"
+    }
+  }
+}

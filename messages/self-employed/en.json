@@ -1,0 +1,189 @@
+{
+  "selfEmployed": {
+    "hero": {
+      "title": "Self-Employment Residence Permit in Sweden",
+      "subtitle": "Updated Requirements and Process by Migrationsverket"
+    },
+    "intro": {
+      "heading": "Start Your Business in Sweden",
+      "description": "If you're a non-EU/EEA citizen aiming to start or expand a business in Sweden, you will need a self-employment residence permit from the Swedish Migration Agency (Migrationsverket). This permit allows non-EU entrepreneurs to live in Sweden while building and running a business. Known for its strong economy, Sweden fosters an open business environment with a thriving start-up culture, robust infrastructure, and a skilled workforce, making it an ideal destination for entrepreneurs."
+    },
+    "whyChooseSweden": {
+      "heading": "Why Choose Sweden for Your Business?",
+      "description": "Sweden's business landscape offers numerous advantages that make it an ideal destination for entrepreneurs globally.",
+      "advantages": [
+        {
+          "title": "Innovative Environment",
+          "description": "Sweden has a collaborative and transparent business culture that encourages innovation."
+        },
+        {
+          "title": "Access to EU Markets",
+          "description": "As an EU member, Sweden provides businesses access to a large and stable market."
+        },
+        {
+          "title": "Supportive Financial Ecosystem",
+          "description": "Swedish institutions offer various financing options for entrepreneurs, including public and private loans and grants."
+        },
+        {
+          "title": "High-Quality Infrastructure",
+          "description": "Sweden's advanced infrastructure and digital capabilities make it a global hub for tech start-ups."
+        }
+      ],
+      "businessStructures": {
+        "heading": "Business Structures Available",
+        "description": "Sweden offers several business structures, such as Sole Trader (Enskild Firma), Trading Partnership or Limited Partnership (Handelsbolag/Kommanditbolag), Limited Company (Aktiebolag), and Economic Association (Ekonomisk Förening). The right structure for you depends on your business goals, risk tolerance, and desired tax benefits."
+      }
+    },
+    "keyRequirements": {
+      "heading": "Key Requirements for a Self-Employment Residence Permit",
+      "intro": "To be eligible for a self-employment residence permit, you must demonstrate that you have sufficient financial resources, a feasible business plan, and relevant experience in your industry. The permit is typically granted for up to two years, with the possibility of renewal based on business success.",
+      "requirements": [
+        {
+          "title": "Valid Passport",
+          "details": "You must hold a valid passport for the entire duration of the permit. The permit's validity will not exceed the passport's expiration date. Include copies of relevant passport pages to confirm identity, validity, and residence permits in any other countries."
+        },
+        {
+          "title": "Ownership and Business Control",
+          "details": "You must own at least 50% of the business and have full decision-making authority over its operations. You should also be actively involved in the day-to-day running of the business and have primary responsibility for its management and direction."
+        },
+        {
+          "title": "Financial Requirements for Business and Personal Support",
+          "details": "Initial Capital: You must provide bank statements showing sufficient funds to establish and operate the business for at least two years. Personal Support: You need sufficient personal income to support yourself and any accompanying family members for the first two years. Minimum estimated requirements are: SEK 200,000 for yourself, SEK 100,000 for a spouse/partner, SEK 50,000 for each accompanying child."
+        },
+        {
+          "title": "Viable Business Plan",
+          "details": "A detailed business plan is essential. Migrationsverket will assess your business plan for feasibility and profitability. Include: Contracts with suppliers and clients, Premises lease agreements if relevant, Necessary industry permits, Financial projections such as an investment budget, liquidity budget, and a projected balance sheet (profit and loss). The business must be expected to generate sufficient profits to cover both business operations and personal living expenses."
+        },
+        {
+          "title": "Relevant Experience and Skills",
+          "details": "Migrationsverket requires evidence that you have the necessary experience in the sector and skills to manage your business effectively. Provide documentation of previous work experience, education, or prior business ownership relevant to the industry you plan to enter."
+        },
+        {
+          "title": "Language Proficiency",
+          "details": "While not strictly required, it's recommended to have proficiency in Swedish or English to facilitate communication within the Swedish business environment and with regulatory authorities."
+        },
+        {
+          "title": "Application Fee Payment",
+          "details": "The application fee for a self-employment residence permit must be paid, and a receipt of this payment should be included with your application."
+        },
+        {
+          "title": "Swedish Personal Identity Number",
+          "details": "If you plan to live in Sweden for more than one year, you must also apply for a personnummer (Swedish personal identity number) by registering with the Swedish Tax Agency. This number is essential for accessing healthcare, opening bank accounts, and other essential services."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Step-by-Step Application Process for a Self-Employment Permit",
+      "steps": [
+        {
+          "title": "Step 1: Gather Required Documentation",
+          "description": "Compile all necessary documents, including a valid passport, proof of business ownership, and your business plan. Ensure that all documents meet Migrationsverket's standards and include translated copies if they're not in Swedish or English."
+        },
+        {
+          "title": "Step 2: Submit the Application",
+          "description": "Submit your application online through the Migrationsverket e-service or at a Swedish embassy or consulate in your home country. Attach all supporting documents as required by Migrationsverket. Include personal details, business information, financial documentation, business plan and bank statements that are accurate and reflect your ability to run a sustainable business in Sweden."
+        },
+        {
+          "title": "Step 3: Migrationsverket Review and Evaluation",
+          "description": "The Migration Agency will evaluate your application based on: Financial Feasibility ensuring that you have enough capital to sustain the business, Business Viability reviewing your business plan to determine if it can reasonably generate enough profit, Personal and Business Background assessing your industry experience, language proficiency, and understanding of the Swedish business environment."
+        },
+        {
+          "title": "Step 4: Decision Notification",
+          "description": "Once the application has been reviewed, Migrationsverket will issue a decision. If approved, you will receive a residence permit for self-employment, valid for up to two years. Extensions may be granted based on the business's financial success and your continued eligibility."
+        }
+      ]
+    },
+    "businessStructures": {
+      "heading": "Business Structures in Sweden",
+      "intro": "Sweden offers several business structures. Choose the one that best suits your business model and goals:",
+      "types": [
+        {
+          "title": "Sole Trader (Enskild Firma)",
+          "description": "Ideal for individual entrepreneurs without partners."
+        },
+        {
+          "title": "Trading Partnership or Limited Partnership (Handelsbolag/Kommanditbolag)",
+          "description": "Suitable for partnerships or small family businesses."
+        },
+        {
+          "title": "Limited Company (Aktiebolag)",
+          "description": "Commonly chosen by those seeking to grow and scale their business, offering limited liability protection."
+        },
+        {
+          "title": "Economic Association (Ekonomisk Förening)",
+          "description": "Generally used by cooperatives or community-driven initiatives."
+        }
+      ],
+      "nota": "Each structure has specific requirements and tax implications. Selecting the right one is crucial for compliance with Swedish business regulations."
+    },
+    "advantages": {
+      "heading": "Advantages of Sweden's Business Environment",
+      "description": "Sweden provides a stable and transparent environment with advantages that foster long-term business growth:",
+      "items": [
+        {
+          "title": "Innovative Culture",
+          "description": "With low corruption levels and minimal bureaucracy, Sweden encourages entrepreneurial innovation."
+        },
+        {
+          "title": "Financial Accessibility",
+          "description": "Sweden offers a variety of financing options, including bank loans, government grants, and angel investors."
+        },
+        {
+          "title": "Access to Skilled Talent",
+          "description": "The country has a highly educated workforce, with strong technical and managerial skills, particularly beneficial for technology and innovation-focused ventures."
+        },
+        {
+          "title": "Established Infrastructure",
+          "description": "Sweden's advanced infrastructure, efficient logistics, and extensive digital networks make it ideal for both domestic and international business operations."
+        }
+      ]
+    },
+    "howWeCanAssist": {
+      "heading": "How Sweden Relocators Can Assist You",
+      "intro": "Navigating the requirements for a self-employment residence permit can be complex. Sweden Relocators provides comprehensive support to ensure a successful application process, from documentation assistance to business plan guidance.",
+      "services": [
+        {
+          "title": "Application Guidance",
+          "description": "We assist with gathering and organizing required documentation, ensuring that all requirements are met according to Migrationsverket's standards."
+        },
+        {
+          "title": "Business Plan Development",
+          "description": "Our team helps you create a compelling business plan that demonstrates financial viability and aligns with Swedish market expectations."
+        },
+        {
+          "title": "Financial and Income Proof",
+          "description": "Assistance in documenting financial assets to prove your ability to support both the business and your family."
+        },
+        {
+          "title": "Ongoing Support",
+          "description": "We offer support throughout the application process, responding to inquiries from Migrationsverket and guiding you through any additional requirements."
+        },
+        {
+          "title": "Appeals Assistance",
+          "description": "If your application is denied, we provide guidance on the appeals process, helping you strengthen your case for reconsideration."
+        }
+      ]
+    },
+    "whyWorkWithUs": {
+      "heading": "Why Work with Sweden Relocators?",
+      "advantages": [
+        {
+          "title": "Expert Knowledge",
+          "description": "Our team stays updated on the latest requirements from Migrationsverket, providing accurate and effective guidance."
+        },
+        {
+          "title": "Personalized Service",
+          "description": "We understand that every business is unique, and we tailor our support to meet the specific needs of your industry and personal situation."
+        },
+        {
+          "title": "Streamlined Process",
+          "description": "By managing the complexities of the application process, we help you avoid delays and increase your likelihood of success."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Contact Us",
+      "description": "If you're ready to establish your business in Sweden and need support with the self-employment residence permit application, Sweden Relocators is here to help. Contact us today to start your business journey in Sweden with confidence, knowing that every aspect of your application is in good hands."
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "auPairHostFamily": {
+    "hero": {
+      "title": "Au-Pair- und Gastfamilienlösungen",
+      "subtitle": "Umzugshilfe für Kulturenaustausch in Schweden und der EU"
+    },
+    "intro": {
+      "heading": "Kultureller Austausch mit umfassender Umzugshilfe",
+      "description": "Das Au-Pair-Programm in Schweden und in der gesamten EU bietet eine einzigartige Kombination aus kulturellem Austausch und praktischen Kinderbetreuungslösungen. Für Gastfamilien bietet es zuverlässige Kinderbetreuung und leichte Haushaltsunterstützung, während es für Au Pairs die Tür öffnet, um neue Sprachen zu lernen, sich in die schwedische Kultur zu integrieren und das Leben in Europa zu erleben.\n\nBei Sweden Relocators bieten wir umfassende Umzugsdienste für Gastfamilien und Au Pairs. Von rechtlichen Anträgen und Aufenthaltsgenehmigungen bis hin zu Vertragsentwürfen, Versicherungen und laufender Unterstützung stellt unsere Plattform sicher, dass der Prozess sicher, konform und stressfrei für alle Beteiligten ist."
+    },
+    "whyFamiliesChoose": {
+      "heading": "Warum Familien in Schweden Au Pairs wählen",
+      "description": "Die Aufnahme eines Au Pairs wird immer beliebter bei schwedischen und EU-Familien, da sie Kinderbetreuung mit kulturellen Vorteilen verbindet.",
+      "benefits": [
+        {
+          "title": "Zuverlässige Kinderbetreuungsunterstützung",
+          "description": "Au Pairs können unterstützen bei Schulabholungen, Hausaufgabenhilfe, Mahlzeitenvorbereitung und Aktivitätsplanung."
+        },
+        {
+          "title": "Erschwingliche Live-in-Lösung",
+          "description": "Im Vergleich zu professionellen Kinderbetreuungsdiensten bietet eine Au-Pair-Vereinbarung kostengünstige Unterstützung."
+        },
+        {
+          "title": "Kulturelle Bereicherung für Kinder",
+          "description": "Kinder bekommen Kontakt zu neuen Sprachen und Kulturen, was ihren Horizont erweitert."
+        },
+        {
+          "title": "Unterstützung für berufstätige Familien",
+          "description": "Au Pairs helfen bei leichten Haushaltsaufgaben und geben Eltern mehr Zeit für Beruf oder Freizeit."
+        },
+        {
+          "title": "Flexible Vereinbarungen",
+          "description": "Zeitpläne werden an die Familienbedürfnisse angepasst und folgen dabei den rechtlichen Richtlinien."
+        }
+      ],
+      "conclusion": "Familien profitieren nicht nur von praktischen Kinderbetreuungslösungen, sondern auch von der langzeitigen kulturellen Wirkung, einen internationalen Gast zu beherbergen."
+    },
+    "whyAuPairsChoose": {
+      "heading": "Warum junge Menschen Au Pair in Schweden werden",
+      "description": "Schweden ist aufgrund seines hohen Lebensstandards, des starken Bildungsfokus und der lebendigen Kultur eines der attraktivsten Länder für Au Pairs.",
+      "benefits": [
+        {
+          "title": "Sprachenlernen",
+          "description": "Die Chance, Schwedisch durch Sprachkurse zu lernen, während man bei einer Gastfamilie lebt."
+        },
+        {
+          "title": "Sichere und unterstützende Umgebung",
+          "description": "Unterkunft und Mahlzeiten von der Gastfamilie gewährleisten Stabilität und Sicherheit."
+        },
+        {
+          "title": "Kulturelle Integration",
+          "description": "Au Pairs erleben schwedische Traditionen, Festivals und den Alltag."
+        },
+        {
+          "title": "Reisemöglichkeiten",
+          "description": "Leichter Zugang, um Schwedens Städte und Natur sowie benachbarte europäische Länder zu erkunden."
+        },
+        {
+          "title": "Persönliches Wachstum",
+          "description": "Unabhängigkeit, Anpassungsfähigkeit und neue Fähigkeiten, die später die Karrierechancen verbessern."
+        }
+      ],
+      "conclusion": "Für viele ist ein Au-Pair-Aufenthalt in Schweden sowohl eine kulturelle Reise als auch ein berufliches Sprungbrett."
+    },
+    "legalFramework": {
+      "heading": "Rechtlicher Rahmen für Au Pairs in Schweden",
+      "description": "Au Pairs in Schweden werden gemäß der Ausländergesetzes (Utlänningslagen 2005:716) reguliert und stellen sicher, dass die Vereinbarung ein Kulturenaustausch bleibt, keine Langzeitbeschäftigung. Die wichtigsten Bedingungen sind:",
+      "requirements": [
+        {
+          "title": "Altersanforderung",
+          "description": "Typischerweise zwischen 18 und 30 Jahren alt."
+        },
+        {
+          "title": "Aufenthaltsgenehmigung",
+          "description": "Nicht-EU-Bürger müssen vor der Einreise nach Schweden ein Au-Pair-Aufenthaltsvisum beantragen."
+        },
+        {
+          "title": "Dauer",
+          "description": "Normalerweise für bis zu ein Jahr gültig, manchmal verlängerbar."
+        },
+        {
+          "title": "Zulässige Aufgaben",
+          "description": "Nur Kinderbetreuung und leichte Haushaltsaufgaben, keine vollständige Beschäftigung."
+        },
+        {
+          "title": "Sprachlern-Anforderung",
+          "description": "Von Au Pairs wird erwartet, dass sie an einem Schwedischkurs teilnehmen."
+        },
+        {
+          "title": "Gastfamilienverantwortung",
+          "description": "Verpflegung, Unterkunft und ein monatliches Taschengeld gemäß den Mindestvorgaben von Migrationsverket bereitstellen."
+        }
+      ],
+      "euNote": "EU/EWR-Bürger haben einen einfacheren Prozess, da sie Niederlassungsrecht haben, müssen aber dennoch Programmrichtlinien befolgen."
+    },
+    "supportHostFamilies": {
+      "heading": "Wie Sweden Relocators Gastfamilien unterstützt",
+      "intro": "Wir bieten umfassende Umzugsdienste für schwedische und EU-Familien, die ein Au Pair aufnehmen möchten:",
+      "services": [
+        {
+          "number": "1",
+          "title": "Au-Pair-Vermittlung",
+          "description": "Familien mit Kandidaten verbinden, die Kinderbetreuungsbedarf und kulturelle Vorlieben erfüllen."
+        },
+        {
+          "number": "2",
+          "title": "Juristische Compliance-Beratung",
+          "description": "Beratung zu Verträgen, Taschengeld und Visumvorgaben nach schwedischem Recht."
+        },
+        {
+          "number": "3",
+          "title": "Vertragsentwurf und Überprüfung",
+          "description": "Sicherstellen, dass alle Aufgaben, Arbeitszeiten und Leistungen klar definiert sind."
+        },
+        {
+          "number": "4",
+          "title": "Hilfe bei Genehmigungsanträgen",
+          "description": "Unterstützung des Au Pairs bei Aufenthaltserlaubnis-Anträgen und Dokumenteneinreichung."
+        },
+        {
+          "number": "5",
+          "title": "Führungszeugnisse",
+          "description": "Überprüfung von Referenzen und Sicherheit für Familien."
+        },
+        {
+          "number": "6",
+          "title": "Laufende Unterstützung",
+          "description": "Vermittlung bei auftretenden Problemen und Hilfe bei Genehmigungserneuerungen oder Ersatzkandidaten, falls nötig."
+        }
+      ],
+      "conclusion": "Dieser strukturierte Prozess gibt Familien Sicherheit und stellt die Einhaltung schwedischer Vorschriften sicher."
+    },
+    "supportAuPairs": {
+      "heading": "Wie Sweden Relocators Au Pairs unterstützt",
+      "intro": "Für Au Pairs beinhaltet der Umzug die Navigation durch rechtliche Verfahren, die Anpassung an eine neue Kultur und der Aufbau von Vertrauen zu einer Gastfamilie. Unsere Dienstleistungen umfassen:",
+      "services": [
+        {
+          "title": "Eignungsprüfung",
+          "description": "Überprüfung von Alter, Hintergrund und Bereitschaft für das Programm."
+        },
+        {
+          "title": "Antragsvorbereitung",
+          "description": "Vollständige Unterstützung bei der Aufenthaltserlaubnis und Sicherstellung der Erfüllung aller Anforderungen."
+        },
+        {
+          "title": "Reiseunterstützung",
+          "description": "Flüge buchen, Krankenversicherung arrangieren und Unterstützung mit Umzugslogistik."
+        },
+        {
+          "title": "Sprachschul-Beratung",
+          "description": "Verbindung von Au Pairs mit schwedischen Sprachinstituten zur Erfüllung der kulturellen Austauschvoraussetzungen."
+        },
+        {
+          "title": "Integration und Orientierung",
+          "description": "Kulturelle Beratung, praktische Umzugsunterstützung und laufende Hilfe nach der Ankunft."
+        }
+      ],
+      "conclusion": "Durch die Unterstützung sowohl von Au Pairs als auch Gastfamilien gewährleisten wir einen positiven, rechtskonformen Kulturaustausch."
+    },
+    "contractsObligations": {
+      "heading": "Verträge und Verpflichtungen",
+      "intro": "Eine klare schriftliche Vereinbarung zwischen der Gastfamilie und dem Au Pair ist für Transparenz und rechtliche Einhaltung erforderlich. Bei Sweden Relocators verfassen wir Verträge, die folgende Punkte enthalten:",
+      "items": [
+        "Aufgaben und Verantwortungen (Kinderbetreuung und Haushaltsaufgaben).",
+        "Taschengeld, Unterkunft und Mahlzeiten.",
+        "Arbeitszeiten, Ruhezeiten und Feiertage.",
+        "Aufenthaltsdauer und Verlängerungsoptionen.",
+        "Streitbeilegungsrichtlinien."
+      ],
+      "conclusion": "Dies stellt sicher, dass Erwartungen von beiden Seiten von Anfang an verstanden werden und das Konfliktrisiko zu verringern."
+    },
+    "additionalServices": {
+      "heading": "Umzugslösungen über das Grundlegende hinaus",
+      "intro": "Sweden Relocators bietet zusätzliche Dienste, um Au-Pair-Platzierungen zu erleichtern:",
+      "services": [
+        {
+          "title": "Wohnungslösungen",
+          "description": "Wenn Familien zusätzliche Unterkunftsregelungen für das Au Pair benötigen."
+        },
+        {
+          "title": "Krankenversicherungsschutz",
+          "description": "Versicherungspolicen für Au Pairs arrangieren und die rechtliche Einhaltung gewährleisten."
+        },
+        {
+          "title": "Finanzielle Unterstützung",
+          "description": "Beratung zu Zahlungen, Steuern (wenn zutreffend) und korrekten Taschengeldsstrukturen."
+        },
+        {
+          "title": "Unterstützung in Notfällen",
+          "description": "Beratung und Eingreifen, falls während des Aufenthalts Auseinandersetzungen oder Notfälle auftreten."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Warum Sweden Relocators wählen",
+      "advantages": [
+        {
+          "title": "Vertrauenswürdige Expertise",
+          "description": "Jahre Erfahrung im schwedischen Umzug und Einwanderungsdienstleistungen."
+        },
+        {
+          "title": "Umfassende Lösungen",
+          "description": "Von rechtlichen Anträgen bis zur kulturellen Unterstützung."
+        },
+        {
+          "title": "Personalisierte Vermittlung",
+          "description": "Fokus auf Kompatibilität zwischen Familien und Au Pairs."
+        },
+        {
+          "title": "Sicherheit",
+          "description": "Laufende Unterstützung für beide Seiten während des gesamten Aufenthalts."
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Abschließende Bemerkung und Haftungsausschluss",
+      "note": "Das Au-Pair-Programm in Schweden und der EU ist eine bereichernde Gelegenheit für Familien und junge Menschen, muss aber sorgfältig innerhalb rechtlicher und kultureller Rahmenbedingungen verwaltet werden. Bei Sweden Relocators stellen wir sicher, dass Gastfamilien und Au Pairs umfassende Unterstützung vom ersten Schritt bis zum Programmende erhalten.",
+      "disclaimer": "Diese Informationen werden nur zu Wissenszwecken bereitgestellt und sind ab 23. September 2025 aktualisiert. Regeln und Anforderungen können sich ändern. Für die genauesten und offiziellen Informationen konsultieren Sie immer die schwedische Migrationsbehörde (Migrationsverket), wenn Sie eine Au-Pair-Vereinbarung selbst verwalten."
+    }
+  }
+}

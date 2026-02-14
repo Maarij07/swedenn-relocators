@@ -1,0 +1,109 @@
+{
+  "buySellProperty": {
+    "hero": {
+      "title": "Eiendom i Sverige gjort enkelt",
+      "subtitle": "Kjøp, selg, langtidsleie og korttids møblert bolig gjennom én sikker portal"
+    },
+    "intro": {
+      "heading": "Finn riktig eiendom i Sverige",
+      "subheading": "Boligalternativer tilpasset din flytte- og etableringsplan",
+      "description": "Flytting til Sverige blir ofte utfordrende på boligstadiet. Å finne riktig område, forstå kontrakter, verifisere annonser og unngå risikable avtaler krever lokal ekspertise. Sweden Relocators støtter hele eiendomsreisen gjennom en sikker digital portal og mobilapp, slik at du kan søke, reservere og flytte med trygghet.\n\nEnten du flytter til Sverige for jobb, studier, familiegjenforening eller forretninger, hjelper plattformen vår deg å finne egnet bolig som passer din tidsplan og dine mål.",
+      "coverageHeading": "Våre oppføringer og støtte dekker:",
+      "coverageItems": [
+        "Leiligheter og hus for enkeltpersoner, par og familier",
+        "Firmaboliger for ansattflytting",
+        "Langtidsleie for permanent bosetting",
+        "Korttids møblerte leiligheter for midlertidige opphold",
+        "Eiendommer i større byer og flyttevennlige regioner over hele Sverige"
+      ]
+    },
+    "buyOrSell": {
+      "heading": "Kjøp eller selg eiendom via autorisert eiendomsmegler",
+      "subheading": "Sikre transaksjoner med verifisert og lovlig håndtering",
+      "description": "Alle kjøp og salg av eiendom gjennom vår plattform håndteres eksklusivt av autoriserte og registrerte eiendomsmeglere i Sverige. Dette sikrer juridisk etterlevelse, åpenhet og beskyttelse for både kjøpere og selgere, spesielt for internasjonale kunder som ikke er kjent med det svenske eiendomssystemet.",
+      "supportHeading": "Vår støtte inkluderer vanligvis:",
+      "supportItems": [
+        "Eiendomsmatching basert på budsjett, beliggenhet og mål",
+        "Koordinering av visninger",
+        "Meglerledet kjøps- eller salgsprosess",
+        "Veiledning gjennom kontrakter, tidslinjer og etableringsplanlegging"
+      ]
+    },
+    "shortTermRentals": {
+      "heading": "Korttids møblerte leiligheter i Sverige",
+      "subheading": "Ideell bolig for nyankomne og forretningsopphold",
+      "description": "Korttids møblert innkvartering er ofte den mest praktiske løsningen ved ankomst til Sverige. Plattformen vår tilbyr flytteklare møblerte boliger som passer for:",
+      "suitableFor": [
+        "Nyankomne som venter på personnummerregistrering",
+        "Bedriftstilknyttede og prosjektbaserte ansatte",
+        "Familier som ankommer før de sikrer langtidsbolig",
+        "Kunder som flytter mellom byer eller jobber"
+      ],
+      "note": "Alle eiendommer gjennomgås for å møte praktiske flyttebehov og lokale boligstandarder."
+    },
+    "longTermRentals": {
+      "heading": "Langtidsleie og etableringsboliger",
+      "subheading": "En strukturert overgang fra midlertidig til permanent bolig",
+      "intro": "Når du er klar til å bosette deg i Sverige, hjelper vi med planlegging og veiledning for langtidsleie, inkludert:",
+      "items": [
+        "Forståelse av leiekrav og utleierforventninger",
+        "Leievilkår, oppsigelsestider og standardklausuler",
+        "Valg av område basert på pendling, skoler og livsstil",
+        "Forberedelse til innflytting og praktiske oppsett"
+      ]
+    },
+    "whyChoose": {
+      "heading": "Hvorfor velge Sweden Relocators for eiendomsstøtte",
+      "subheading": "Lokal ekspertise kombinert med digital bekvemmelighet",
+      "intro": "Flytting handler ikke bare om å finne et hjem. Det krever nøye koordinering av bolig, juridiske tidslinjer og praktiske ordninger. Vår tilnærming kombinerer lokal ekspertise med en strukturert digital prosess.",
+      "advantages": [
+        {
+          "title": "Enhetlig plattform",
+          "description": "Én portal for å administrere bolig, kommunikasjon og fremdrift"
+        },
+        {
+          "title": "Effektiv koordinering",
+          "description": "Effektiv koordinering for visninger og innflyttingsklarhet"
+        },
+        {
+          "title": "Tidslinjejustering",
+          "description": "Boligstøtte tilpasset immigrasjons- og flyttetidslinjer"
+        },
+        {
+          "title": "Fullstendig veiledning",
+          "description": "Klar veiledning fra første avtale til full etablering"
+        }
+      ]
+    },
+    "digitalPortal": {
+      "heading": "Digital portal og mobilapp",
+      "subheading": "Administrer boligreisen fra hvor som helst i verden",
+      "intro": "Gjennom vår nettportal og mobilapp kan du:",
+      "features": [
+        "Registrere deg og booke avtaler",
+        "Sporing av bolig- og flytteprogresjon",
+        "Laste opp dokumenter sikkert",
+        "Kommunisere direkte med ditt tildelte supportteam",
+        "Få tilgang til alle bekreftelser og oppdateringer på ett sted"
+      ],
+      "note": "Dette er spesielt verdifullt for kunder som flytter fra utenfor Sverige eller håndterer ansattflytting eksternt."
+    },
+    "corporateHousing": {
+      "heading": "Boligstøtte for selskaper og global mobilitet",
+      "subheading": "Praktiske løsninger for ansattflytting og firmaboliger",
+      "intro": "Vi støtter selskaper og HR-team ved å tilby:",
+      "services": [
+        "Midlertidig bolig for onboarding av ansatte",
+        "Langtidsboligplanlegging for etablerte ansatte",
+        "Strømlinjeformet koordinering for å redusere forsinkelser",
+        "Én kontaktperson gjennom en sikker portal"
+      ]
+    },
+    "getStarted": {
+      "heading": "Start din eiendomsreise i Sverige",
+      "primaryCTA": "Registrer deg og utforsk ønskede eiendommer",
+      "secondaryCTA": "Book en avtale og gå videre med trygghet",
+      "description": "Enten du trenger en korttids møblert leilighet, veiledning for langtidsleie, eller støtte til kjøp eller salg av eiendom via autoriserte meglere, strukturerer Sweden Relocators prosessen og holder alt organisert på én sikker plattform."
+    }
+  }
+}

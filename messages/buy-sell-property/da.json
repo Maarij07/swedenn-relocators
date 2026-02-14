@@ -1,0 +1,109 @@
+{
+  "buySellProperty": {
+    "hero": {
+      "title": "Ejendom i Sverige gjort enkelt",
+      "subtitle": "Køb, sælg, langtidsleje og korttidsmøbleret bolig gennem én sikker portal"
+    },
+    "intro": {
+      "heading": "Find den rette bolig i Sverige",
+      "subheading": "Boligløsninger tilpasset din flytning og etableringsplan",
+      "description": "At flytte til Sverige bliver ofte udfordrende i boligfasen. At finde det rette område, forstå kontrakter, verificere annoncer og undgå risikable aftaler kræver lokal ekspertise. Sweden Relocators støtter hele boligrejsen gennem en sikker digital portal og mobilapp, så du kan søge, booke og flytte med tryghed.\n\nUanset om du flytter til Sverige for arbejde, studier, familiesammenføring eller forretning, hjælper vores platform dig med at finde en passende bolig, der matcher din tidsplan og dine mål.",
+      "coverageHeading": "Vores boliger og support dækker:",
+      "coverageItems": [
+        "Lejligheder og huse til enkeltpersoner, par og familier",
+        "Firmaboliger til medarbejderrelokering",
+        "Langtidsleje til permanent bosætning",
+        "Korttidsmøblerede boliger til midlertidige ophold",
+        "Boliger i større byer og relokeringsvenlige regioner i hele Sverige"
+      ]
+    },
+    "buyOrSell": {
+      "heading": "Køb eller sælg ejendom gennem autoriseret ejendomsmægler",
+      "subheading": "Sikre transaktioner med verificeret og lovmedholdelig håndtering",
+      "description": "Alle ejendomskøb og -salg, der formidles via vores platform, håndteres udelukkende gennem autoriserede og registrerede ejendomsmæglere i Sverige. Dette sikrer juridisk overholdelse, gennemsigtighed og beskyttelse for både købere og sælgere, især for internationale kunder, der ikke er bekendt med det svenske ejendomssystem.",
+      "supportHeading": "Vores support omfatter typisk:",
+      "supportItems": [
+        "Matchning af ejendom baseret på budget, beliggenhed og mål",
+        "Koordinering af fremvisninger",
+        "Mæglerledet købs- eller salgsproces",
+        "Vejledning om kontrakter, tidslinjer og planlægning af overtagelse"
+      ]
+    },
+    "shortTermRentals": {
+      "heading": "Korttidsmøblerede boliger i Sverige",
+      "subheading": "Ideel bolig for nytilkomne og firmarelaterede ophold",
+      "description": "Korttidsmøbleret bolig er ofte den mest praktiske løsning ved ankomst til Sverige. Vores platform tilbyder indflytningsklare, møblerede boliger, der er velegnede til:",
+      "suitableFor": [
+        "Nytilkomne, der afventer registrering af personnummer",
+        "Virksomhedsudstationerede og projektansatte",
+        "Familier, der ankommer før de sikrer langtidsbolig",
+        "Kunder i overgang mellem byer eller ansættelser"
+      ],
+      "note": "Alle boliger gennemgås for at opfylde praktiske relokeringsbehov og lokale boligstandarder."
+    },
+    "longTermRentals": {
+      "heading": "Langtidsleje og etableringsbolig",
+      "subheading": "En struktureret overgang fra midlertidig til permanent bolig",
+      "intro": "Når du er klar til at etablere dig i Sverige, hjælper vi med planlægning og vejledning om langtidsleje, herunder:",
+      "items": [
+        "Forståelse af lejekrav og udlejers forventninger",
+        "Lejevilkår, opsigelsesvarsler og standardklausuler",
+        "Valg af område baseret på transport, skoler og livsstil",
+        "Forberedelse til indflytning og praktiske etableringsforhold"
+      ]
+    },
+    "whyChoose": {
+      "heading": "Hvorfor vælge Sweden Relocators til boligsupport",
+      "subheading": "Lokal ekspertise kombineret med digital bekvemmelighed",
+      "intro": "Relokering handler om mere end at finde en bolig. Det kræver omhyggelig koordinering af bolig, juridiske tidslinjer og praktiske forhold. Vores tilgang kombinerer lokal ekspertise med en struktureret digital proces.",
+      "advantages": [
+        {
+          "title": "Samlet platform",
+          "description": "Én portal til at håndtere bolig, kommunikation og fremdrift"
+        },
+        {
+          "title": "Effektiv koordinering",
+          "description": "Effektiv koordinering af fremvisninger og indflytningsklarhed"
+        },
+        {
+          "title": "Tidslinje-tilpasning",
+          "description": "Boligsupport tilpasset immigrations- og relokeringstidslinjer"
+        },
+        {
+          "title": "Komplet vejledning",
+          "description": "Klar vejledning fra første møde til fuld etablering"
+        }
+      ]
+    },
+    "digitalPortal": {
+      "heading": "Digital portal og mobilapp",
+      "subheading": "Administrér din boligrejsen fra hvor som helst i verden",
+      "intro": "Gennem vores online portal og mobilapplikation kan du:",
+      "features": [
+        "Oprette profil og booke aftaler",
+        "Følge bolig- og relokeringsfremskridt",
+        "Uploade dokumenter sikkert",
+        "Kommunikere direkte med dit tildelte supportteam",
+        "Få adgang til alle bekræftelser og opdateringer ét sted"
+      ],
+      "note": "Dette er særligt værdifuldt for kunder, der flytter fra udlandet eller håndterer medarbejderrelokering på afstand."
+    },
+    "corporateHousing": {
+      "heading": "Boligsupport for virksomheder og global mobilitet",
+      "subheading": "Praktiske løsninger til medarbejderrelokering og firmaboliger",
+      "intro": "Vi støtter virksomheder og HR-teams ved at tilbyde:",
+      "services": [
+        "Midlertidig bolig ved onboarding af medarbejdere",
+        "Planlægning af langtidsbolig for etablerede medarbejdere",
+        "Strømlinet koordinering for at reducere forsinkelser",
+        "Én kontaktperson gennem en sikker portal"
+      ]
+    },
+    "getStarted": {
+      "heading": "Start din boligrejsen i Sverige",
+      "primaryCTA": "Tilmeld dig og udforsk dine ønskede boliger",
+      "secondaryCTA": "Book en aftale og kom videre med tryghed",
+      "description": "Uanset om du har brug for en korttidsmøbleret lejlighed, vejledning om langtidsleje eller støtte til køb eller salg gennem autoriserede mæglere, strukturerer Sweden Relocators processen og holder det hele organiseret i én sikker platform."
+    }
+  }
+}

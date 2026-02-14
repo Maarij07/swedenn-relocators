@@ -1,0 +1,321 @@
+{
+  "cbiBbi": {
+    "hero": {
+      "title": "Citizenship by Investment & Residency by Investment Programs",
+      "subtitle": "Secure Your Future with a Second Passport or Golden Visa"
+    },
+    "intro": {
+      "heading": "Global Mobility and Secure Settlement",
+      "description": "At Sweden Relocators, we help individuals and families secure their future with second passports and long-term residency rights through investment. For high-net-worth individuals, entrepreneurs, and global citizens, CBI and RBI programs open doors to visa-free travel, business expansion, family security, and international settlement opportunities.\n\nOur experts manage the complete journey, from eligibility assessment and investment advisory to documentation, embassy liaison, and post-approval settlement support. Through our secure digital portal, clients can track their cases, store documents, and reuse information for future applications."
+    },
+    "understanding": {
+      "heading": "Understanding CBI and RBI",
+      "intro": "Two powerful pathways to global mobility and secure international settlement:",
+      "definitions": [
+        {
+          "title": "Citizenship by Investment (CBI)",
+          "description": "A direct path to citizenship and a second passport in return for making a government-approved investment."
+        },
+        {
+          "title": "Residency by Investment (RBI) or Golden Visa",
+          "description": "A long-term residency permit based on investment in real estate, funds, or businesses, with many programs leading to permanent residence or citizenship over time."
+        }
+      ],
+      "benefits": "Both options give families access to global mobility, healthcare, education, financial planning advantages, and secure relocation opportunities."
+    },
+    "countryPrograms": {
+      "heading": "Country Programs and Benefits",
+      "intro": "Below is a detailed breakdown of the leading countries offering CBI and RBI programs, including investment requirements, benefits, and family inclusion."
+    },
+    "caribbean": {
+      "heading": "Caribbean Citizenship by Investment Programs",
+      "intro": "The Caribbean is the most popular region for fast-track second citizenship. These programs are known for their affordable entry points, quick processing (3–6 months), and strong passports offering visa-free access to Europe, the UK, and Asia.",
+      "countries": [
+        {
+          "name": "St. Kitts and Nevis",
+          "type": "CBI (oldest program, launched in 1984)",
+          "investmentOptions": [
+            "USD 150,000 donation to the Sustainable Growth Fund",
+            "USD 200,000 real estate investment (resale allowed after 7 years)"
+          ],
+          "familyMembers": "Spouse, children under 30, dependent parents (55+)",
+          "benefits": [
+            "Visa-free travel to 150+ destinations, including Schengen Area and the UK",
+            "Fastest CBI approvals (4–6 months)",
+            "No income or inheritance tax",
+            "Recognized as one of the most reputable Caribbean passports"
+          ]
+        },
+        {
+          "name": "Dominica",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100,000 government donation",
+            "USD 200,000 real estate investment"
+          ],
+          "familyMembers": "Spouse, children, dependent parents, and dependent siblings under 25",
+          "benefits": [
+            "Visa-free access to 140+ countries",
+            "Affordable program with strong global acceptance",
+            "Citizenship passed to future generations",
+            "Popular with families due to inclusivity"
+          ]
+        },
+        {
+          "name": "Antigua and Barbuda",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100,000 donation for family of four",
+            "USD 200,000 real estate investment",
+            "Business investment option available"
+          ],
+          "familyMembers": "Spouse, children, parents, grandparents, and siblings",
+          "benefits": [
+            "Visa-free to 150+ countries",
+            "Allows large families under one application",
+            "Requires just 5 days residency every 5 years",
+            "Popular for multi-generational families"
+          ]
+        },
+        {
+          "name": "Grenada",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 150,000 donation",
+            "USD 220,000 real estate investment"
+          ],
+          "familyMembers": "Spouse, children, parents, siblings",
+          "benefits": [
+            "Visa-free to 145+ destinations including China",
+            "Only Caribbean passport with access to US E-2 Investor Visa",
+            "Strong option for entrepreneurs targeting US business entry"
+          ]
+        },
+        {
+          "name": "St. Lucia",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100,000 donation",
+            "USD 300,000 real estate investment",
+            "Government bond purchase option"
+          ],
+          "familyMembers": "Spouse, children, parents",
+          "benefits": [
+            "Visa-free to 140+ destinations",
+            "Affordable entry, flexible program options",
+            "Strong Caribbean passport with investment diversification"
+          ]
+        }
+      ]
+    },
+    "european": {
+      "heading": "European Residency by Investment Programs (Golden Visas)",
+      "intro": "Europe remains one of the most attractive destinations for wealthy individuals looking for security, lifestyle, and access to the EU market. RBI programs in the EU provide residency rights, with many leading to permanent residence and citizenship.",
+      "countries": [
+        {
+          "name": "Portugal Golden Visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250,000 in cultural support projects",
+            "EUR 500,000 real estate (select regions only)",
+            "EUR 500,000 in funds or job creation"
+          ],
+          "familyMembers": "Spouse, children, parents",
+          "benefits": [
+            "Residency in the EU with visa-free Schengen travel",
+            "Citizenship eligible after 5 years of residency",
+            "Access to healthcare and education",
+            "Attractive tax incentives for investors"
+          ]
+        },
+        {
+          "name": "Greece Golden Visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250,000 property purchase (most affordable in Europe)"
+          ],
+          "familyMembers": "Spouse, children up to 21, parents",
+          "benefits": [
+            "Residency rights without stay requirement",
+            "Path to citizenship after 7 years",
+            "Access to EU markets and Schengen travel",
+            "Strong real estate returns in tourism-driven regions"
+          ]
+        },
+        {
+          "name": "Spain Golden Visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 500,000 real estate",
+            "Capital investment options"
+          ],
+          "familyMembers": "Spouse, children, parents",
+          "benefits": [
+            "Residency and Schengen mobility",
+            "Citizenship eligibility after 10 years",
+            "Strong property market in major cities",
+            "Access to top-tier universities and healthcare"
+          ]
+        },
+        {
+          "name": "Italy Investor Visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250,000 in innovative start-ups",
+            "EUR 500,000 in established companies",
+            "EUR 1 million in government bonds"
+          ],
+          "familyMembers": "Spouse, children, parents",
+          "benefits": [
+            "Residency rights in Italy and Schengen mobility",
+            "Attractive for entrepreneurs and business expansion",
+            "EU citizenship after 10 years"
+          ]
+        },
+        {
+          "name": "Malta",
+          "type": "CBI and RBI",
+          "investmentOptions": [
+            "EUR 600,000 investment plus property rental/purchase"
+          ],
+          "familyMembers": "Spouse, children, parents",
+          "benefits": [
+            "Full EU citizenship within 12–18 months",
+            "Visa-free access to 180+ countries including US and Canada",
+            "One of the world's strongest passports"
+          ]
+        },
+        {
+          "name": "Cyprus",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 300,000 property investment"
+          ],
+          "familyMembers": "Spouse, children, parents",
+          "benefits": [
+            "EU residency within 6 months",
+            "Access to healthcare and education",
+            "Property market offers solid rental returns"
+          ]
+        }
+      ]
+    },
+    "middleEastGlobal": {
+      "heading": "Middle East and Global Options",
+      "countries": [
+        {
+          "name": "United Arab Emirates (Dubai, Abu Dhabi)",
+          "type": "RBI",
+          "investmentOptions": [
+            "AED 750,000 property or business investment"
+          ],
+          "familyMembers": "Spouse, children",
+          "benefits": [
+            "Tax-free residency",
+            "Access to global business hub",
+            "Luxury lifestyle and high-quality healthcare"
+          ]
+        },
+        {
+          "name": "United States (EB-5 Visa)",
+          "type": "RBI",
+          "investmentOptions": [
+            "USD 800,000 in business projects creating jobs"
+          ],
+          "familyMembers": "Spouse, children under 21",
+          "benefits": [
+            "US Green Card and path to citizenship",
+            "Access to American universities and healthcare",
+            "Strong investment returns in business projects"
+          ]
+        },
+        {
+          "name": "Canada",
+          "type": "RBI",
+          "investmentOptions": [
+            "CAD 350,000–1,200,000 depending on program (Provincial Nominee Programs, Quebec Investor Program)"
+          ],
+          "familyMembers": "Spouse, children under 22",
+          "benefits": [
+            "Permanent residency with direct path to citizenship",
+            "High standard of living and healthcare",
+            "Global business and education opportunities"
+          ]
+        },
+        {
+          "name": "United Kingdom Investor Visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "GBP 2 million in UK businesses or government bonds"
+          ],
+          "familyMembers": "Spouse, children under 18",
+          "benefits": [
+            "Residency and citizenship within 5 years",
+            "Access to world-leading education and finance sectors"
+          ]
+        },
+        {
+          "name": "Ireland Investor Visa",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 1 million fund or enterprise investment"
+          ],
+          "familyMembers": "Spouse, children under 24",
+          "benefits": [
+            "Residency in Ireland with strong EU links",
+            "English-speaking business hub",
+            "Path to citizenship after 5 years"
+          ]
+        }
+      ]
+    },
+    "howWeAssist": {
+      "heading": "How Sweden Relocators Assists",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Eligibility Assessment",
+          "description": "We review your financial profile, family details, and mobility needs to recommend the most suitable program."
+        },
+        {
+          "number": 2,
+          "title": "Investment Guidance",
+          "description": "Our experts connect you with approved investment projects, real estate, and funds."
+        },
+        {
+          "number": 3,
+          "title": "Application Preparation",
+          "description": "We prepare and check all forms, documents, and translations."
+        },
+        {
+          "number": 4,
+          "title": "Embassy and Authority Communication",
+          "description": "We liaise with official bodies to ensure smooth progress."
+        },
+        {
+          "number": 5,
+          "title": "Secure Portal",
+          "description": "All documents are digitally stored and reusable for future applications."
+        },
+        {
+          "number": 6,
+          "title": "Post-Approval Relocation",
+          "description": "We assist with housing, schooling, tax planning, and settlement."
+        }
+      ]
+    },
+    "whoShould": {
+      "heading": "Who Should Consider CBI and RBI Programs",
+      "reasons": [
+        "Entrepreneurs seeking global expansion",
+        "Families who want secure relocation and access to better education and healthcare",
+        "Wealthy individuals looking for visa-free travel and financial diversification",
+        "People from restricted passport countries who want global mobility"
+      ]
+    },
+    "getStarted": {
+      "heading": "Get Started",
+      "description": "If you are interested in securing a second passport or residency through investment, simply send us your query through our portal. Our expert team will provide a full assessment, recommend the best programs, and guide you until your approval."
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "appealCases": {
+    "hero": {
+      "title": "Beroepsprocedure in Zweden",
+      "subtitle": "Hoe een afwijzing van verblijfsvergunning, visum of burgerschap aan te vechten"
+    },
+    "intro": {
+      "heading": "Begrijp uw recht om in beroep te gaan",
+      "description": "Als uw aanvraag voor een verblijfsvergunning, werkvergunning, gezinshereniging, zakenvisum, studievergunning, permanente verblijfsvergunning of Zweeds burgerschap is afgewezen, heeft u nog steeds juridische mogelijkheden. Volgens de Zweedse immigratiewet heeft elke aanvrager het recht om in beroep te gaan. Een beroep geeft u de kans om nieuwe bewijzen aan te leveren, fouten te corrigeren en een herziening aan te vragen bij de Zweedse Migratie-autoriteit (Migrationsverket) of bij de rechtbanken.\n\nBij Sweden Relocators bieden we professionele ondersteuning bij beroepen aan individuen, gezinnen en bedrijven. Onze casestudy-aanpak, gebaseerd op de Utlänningslagen (Vreemdelingenwet, 2005:716), EU-wetgeving en internationale verdragen, zorgt ervoor dat elk beroep wordt opgebouwd met sterke juridische en feitelijke argumenten."
+    },
+    "yourRights": {
+      "heading": "Uw rechten na een afwijzing",
+      "rights": [
+        {
+          "title": "Recht op heroverweging door Migrationsverket",
+          "description": "Als de afwijzing is gebaseerd op kleine kwesties zoals ontbrekende documenten, financiële bewijsstukken of onduidelijke verklaringen, kan Migrationsverket zijn beslissing terugdraaien na heroverweging."
+        },
+        {
+          "title": "Recht op beroep bij de bestuursrechter",
+          "description": "Als Migrationsverket zijn beslissing handhaaft, wordt uw beroep automatisch doorgestuurd naar de bestuursrechter (Förvaltningsrätten) in Göteborg, die een onafhankelijke beoordeling uitvoert."
+        },
+        {
+          "title": "Recht op hoger beroep",
+          "description": "Als de bestuursrechter uw beroep afwijst, kunt u in bepaalde gevallen toestemming aanvragen om in beroep te gaan bij de Migration Court of Appeal (Migrationsöverdomstolen). Deze rechtbank accepteert alleen zaken van algemeen juridisch belang om toekomstige precedenten te scheppen."
+        }
+      ]
+    },
+    "reviewProcess": {
+      "heading": "Hoe Zweedse autoriteiten beroepen beoordelen",
+      "intro": "Wanneer u in beroep gaat, wordt de beslissing beoordeeld in een gestructureerd juridisch proces. Begrijpen hoe autoriteiten beroepen evalueren is essentieel, omdat succes afhangt van zowel documenten als juridische argumentatie.",
+      "stages": [
+        {
+          "number": 1,
+          "title": "Heroverweging door Migrationsverket",
+          "questions": [
+            "Is het beroep binnen de termijn van 3 weken ingediend?",
+            "Zijn er nieuwe documenten, financiële gegevens of familiebewijzen?",
+            "Voldoet de bijgewerkte zaak nu aan de wettelijke vereisten?"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Beoordeling door de bestuursrechter",
+          "description": "Onafhankelijke juridische beoordeling, niet gebonden aan de beslissing van Migrationsverket.",
+          "questions": [
+            "Was de weigering in overeenstemming met de Utlänningslagen?",
+            "Waren EU-regels zoals Richtlijn 2004/38/EG (vrij verkeer) correct toegepast?",
+            "Waren mensenrechten, zoals artikel 8 EVRM (familieleven), gerespecteerd?",
+            "Waren integratie- en humanitaire omstandigheden in overweging genomen?"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Hoge Raad Migratiezaken",
+          "description": "Alleen voor zaken van bredere betekenis. Schept precedenten die toekomstige migratiezaken in Zweden sturen."
+        }
+      ]
+    },
+    "howWeHelp": {
+      "heading": "Hoe Sweden Relocators uw beroep voorbereidt",
+      "intro": "We behandelen elk beroep als een volledig juridisch casestudy, met focus op bewijs, wetgeving en jurisprudentie.",
+      "steps": [
+        {
+          "title": "Analyse van de zaak",
+          "description": "Bestudeer de afwijzingsbrief in detail. Identificeer de juridische gronden die zijn gebruikt om de aanvraag te weigeren. Vergelijk met Utlänningslagen, EU-wetgeving en rechterlijke uitspraken."
+        },
+        {
+          "title": "Scenario mapping",
+          "description": "Kunnen financiële tekorten worden opgelost met bijgewerkt inkomensbewijs of garantstellers? Kan bewijs van huisvesting of integratie de zaak versterken? Kan mensenrechtenwetgeving de weigering overrulen bij familiezaken?"
+        },
+        {
+          "title": "Bewijs verzamelen",
+          "description": "Bijgewerkte belastingaangiften, loonstroken, huurcontracten, werkdocumenten. Bewijs van relatie, school- of integratiedeelnames, taalcursussen. Humanitair bewijs zoals medische dossiers of afhankelijkheidsfactoren."
+        },
+        {
+          "title": "Juridische argumentatie",
+          "description": "Utlänningslagen 2005:716 – kernbepalingen voor familie, werk en humanitaire gronden. Förarbeten (voorbereidend werk) – verduidelijkt wetgevende intentie. EU-wetgeving – inclusief Richtlijn 2004/38/EG over familierechten. Artikel 8 EVRM – recht op familieel en privéleven. Migrationsöverdomstolen-precedenten – leidraad voor toepassing van de wet."
+        },
+        {
+          "title": "Opstellen van het beroepschrift",
+          "description": "Professioneel geschreven in Zweeds of Engels. Elk afwijzingspunt beantwoord met wet en ondersteunend bewijs. Sterk, overtuigend verhaal dat toont waarom de zaak aan de wettelijke vereisten voldoet."
+        },
+        {
+          "title": "Rechtbankvertegenwoordiging en opvolging",
+          "description": "Wij verzorgen alle indieningen en communicatie met de rechtbank. Vertegenwoordigen u professioneel bij Förvaltningsrätten indien nodig. Zorgen dat deadlines worden gehaald en geven regelmatige updates."
+        }
+      ]
+    },
+    "commonCases": {
+      "heading": "Veelvoorkomende zaken die wij behandelen",
+      "cases": [
+        "Afwijzingen van gezinshereniging – inkomen of huisvesting niet geaccepteerd, twijfels over relatie",
+        "Werkvergunning-afwijzingen – niet-naleving door werkgever, verzekeringsproblemen, verkeerde arbeidsvoorwaarden",
+        "Studievergunning-afwijzingen – onvoldoende financiële documentatie, twijfels over oprecht studie-doel",
+        "Afwijzingen van permanente verblijfsvergunning of burgerschap – gedragsproblemen, verblijfs-gaps, onduidelijke documentatie",
+        "Schengen- en bezoekvisum-afwijzingen – onduidelijk reisdoel, zwakke terugkeerbanden, gebrek aan middelen"
+      ]
+    },
+    "timelines": {
+      "heading": "Tijdlijnen voor beroepen",
+      "items": [
+        {
+          "label": "Heroverweging door Migrationsverket",
+          "time": "binnen enkele weken"
+        },
+        {
+          "label": "Doorsturen naar de bestuursrechter",
+          "time": "meestal 1 maand"
+        },
+        {
+          "label": "Rechtbankbeslissingen",
+          "time": "enkele maanden, afhankelijk van complexiteit van de zaak"
+        },
+        {
+          "label": "Hogere beroepen",
+          "time": "kunnen het proces aanzienlijk verlengen"
+        }
+      ]
+    },
+    "whyWorks": {
+      "heading": "Waarom onze casestudy-aanpak werkt",
+      "intro": "De meeste beroepen mislukken omdat aanvragers gewoon oude documenten opnieuw indienen. Sweden Relocators bouwt beroepen op feiten, wetgeving en jurisprudentie, en pakt zwakke punten direct aan.",
+      "reasons": [
+        "We tonen aan hoe de oorspronkelijke beslissing gebrekkig was",
+        "We leveren bewijs dat de vereisten nu zijn vervuld",
+        "We anticiperen op tegenargumenten en bereiden antwoorden voor"
+      ],
+      "conclusion": "Deze systematische voorbereiding vergroot de kans op succes."
+    },
+    "faqs": {
+      "heading": "Veelgestelde vragen",
+      "items": [
+        {
+          "q": "Hoe lang heb ik om een afwijzing in Zweden aan te vechten?",
+          "a": "U heeft 3 weken vanaf de datum waarop u de beslissing ontving om uw beroep in te dienen."
+        },
+        {
+          "q": "Kan ik nieuwe documenten toevoegen aan mijn beroep?",
+          "a": "Ja. Het indienen van nieuwe financiële gegevens, huurcontracten of familiebewijs kan uw zaak aanzienlijk versterken."
+        },
+        {
+          "q": "Wat gebeurt er als Migrationsverket mijn beroep afwijst?",
+          "a": "De zaak wordt automatisch doorgestuurd naar de bestuursrechter (Förvaltningsrätten) in Göteborg voor een onafhankelijke beoordeling."
+        },
+        {
+          "q": "Kan elke zaak naar de Migration Court of Appeal?",
+          "a": "Nee. Alleen zaken van algemeen juridisch belang worden geaccepteerd. Deze scheppen precedenten voor toekomstige beslissingen."
+        },
+        {
+          "q": "Wat zijn de meest voorkomende redenen voor weigeringen?",
+          "a": "Ontbrekende documenten, onvoldoende financiële bewijsstukken, niet-naleving door werkgever, onduidelijk familiebewijs of twijfel over legale verblijfsintentie in Zweden."
+        },
+        {
+          "q": "Hoe lang duurt het volledige beroepsproces?",
+          "a": "Het varieert. Een eenvoudige heroverweging kan binnen enkele weken worden opgelost, terwijl een volledig rechtbankproces enkele maanden of langer kan duren."
+        },
+        {
+          "q": "Heb ik een advocaat nodig om in beroep te gaan?",
+          "a": "U bent niet verplicht een advocaat in te schakelen, maar professionele ondersteuning vergroot uw kans op succes. Bij Sweden Relocators bieden wij deskundige vertegenwoordiging op maat van uw zaak."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Waarom kiezen voor Sweden Relocators",
+      "advantages": [
+        {
+          "title": "Expertise in Zweeds immigratierecht",
+          "description": "Specialisten in beroepen onder Utlänningslagen, EU-wetgeving en EVRM"
+        },
+        {
+          "title": "Bewezen succes",
+          "description": "We hebben afwijzingen opgeheven in familie-, werk- en burgerschapszaken"
+        },
+        {
+          "title": "Uitgebreide casusbehandeling",
+          "description": "Van het opstellen van beroep tot rechtbankvertegenwoordiging"
+        },
+        {
+          "title": "Persoonlijke ondersteuning",
+          "description": "Elke zaak wordt behandeld als een unieke juridische studie"
+        }
+      ]
+    },
+    "disclaimer": {
+      "heading": "Slotopmerking en disclaimer",
+      "note": "Het aanvechten van een negatieve migratiebeslissing in Zweden is complex, maar niet onmogelijk. Met de juiste voorbereiding kunnen veel afwijzingen worden teruggedraaid. Of het probleem nu financieel, documentair of juridisch is, u heeft het recht om heroverweging en gerechtelijke beoordeling aan te vragen.",
+      "disclaimer": "Deze inhoud is uitsluitend bedoeld voor informatieve doeleinden en bijgewerkt tot 23 september 2025. De Zweedse immigratiewetgeving verandert regelmatig. Raadpleeg altijd de officiële website van de Zweedse Migratie-autoriteit (Migrationsverket) voor de meest actuele en nauwkeurige informatie als u van plan bent een beroep zelf af te handelen."
+    }
+  }
+}

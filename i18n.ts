@@ -38,6 +38,168 @@ import asylumEn from './messages/asylum/en.json';
 import businessVisitEn from './messages/business-visit/en.json';
 import companyRegistrationEn from './messages/company-registration/en.json';
 import euCitizensParentsPermitEn from './messages/eu-citizens-parents-permit/en.json';
+import selfEmployedEn from './messages/self-employed/en.json';
+import destinationServicesEn from './messages/destination-services/en.json';
+import housingEn from './messages/housing/en.json';
+import bookkeepingSolutionsEn from './messages/bookkeeping-solutions/en.json';
+
+// Import bookkeeping-solutions translations for all languages
+import bookkeepingSolutionsAr from './messages/bookkeeping-solutions/ar.json';
+import bookkeepingSolutionsDa from './messages/bookkeeping-solutions/da.json';
+import bookkeepingSolutionsDe from './messages/bookkeeping-solutions/de.json';
+import bookkeepingSolutionsEl from './messages/bookkeeping-solutions/el.json';
+import bookkeepingSolutionsEs from './messages/bookkeeping-solutions/es.json';
+import bookkeepingSolutionsFa from './messages/bookkeeping-solutions/fa.json';
+import bookkeepingSolutionsFi from './messages/bookkeeping-solutions/fi.json';
+import bookkeepingSolutionsFr from './messages/bookkeeping-solutions/fr.json';
+import bookkeepingSolutionsIt from './messages/bookkeeping-solutions/it.json';
+import bookkeepingSolutionsNb from './messages/bookkeeping-solutions/nb.json';
+import bookkeepingSolutionsNl from './messages/bookkeeping-solutions/nl.json';
+import bookkeepingSolutionsPa from './messages/bookkeeping-solutions/pa.json';
+import bookkeepingSolutionsPs from './messages/bookkeeping-solutions/ps.json';
+import bookkeepingSolutionsSv from './messages/bookkeeping-solutions/sv.json';
+import bookkeepingSolutionsTa from './messages/bookkeeping-solutions/ta.json';
+import bookkeepingSolutionsTe from './messages/bookkeeping-solutions/te.json';
+import bookkeepingSolutionsUr from './messages/bookkeeping-solutions/ur.json';
+
+import financialManagementEn from './messages/financial-management/en.json';
+import lawyersConnectEn from './messages/lawyers/en.json';
+import manpowerSolutionsEn from './messages/manpower-solutions/en.json';
+import cbiBbiEn from './messages/cbs-bb-programme/en.json';
+import buySellPropertyEn from './messages/buy-sell-property/en.json';
+import appealCasesEn from './messages/appeal-cases/en.json';
+import auPairHostFamilyEn from './messages/au-pair-host-family/en.json';
+
+// Import appeal-cases translations for all languages
+import appealCasesAr from './messages/appeal-cases/ar.json';
+import appealCasesDa from './messages/appeal-cases/da.json';
+import appealCasesDe from './messages/appeal-cases/de.json';
+import appealCasesEl from './messages/appeal-cases/el.json';
+import appealCasesEs from './messages/appeal-cases/es.json';
+import appealCasesFa from './messages/appeal-cases/fa.json';
+import appealCasesFi from './messages/appeal-cases/fi.json';
+import appealCasesFr from './messages/appeal-cases/fr.json';
+import appealCasesIt from './messages/appeal-cases/it.json';
+import appealCasesNb from './messages/appeal-cases/nb.json';
+import appealCasesNl from './messages/appeal-cases/nl.json';
+import appealCasesPa from './messages/appeal-cases/pa.json';
+import appealCasesPs from './messages/appeal-cases/ps.json';
+import appealCasesTa from './messages/appeal-cases/ta.json';
+import appealCasesTe from './messages/appeal-cases/te.json';
+import appealCasesUr from './messages/appeal-cases/ur.json';
+
+// Import buy-sell-property translations for all languages
+import buySellPropertyAr from './messages/buy-sell-property/ar.json';
+import buySellPropertyDa from './messages/buy-sell-property/da.json';
+import buySellPropertyDe from './messages/buy-sell-property/de.json';
+import buySellPropertyEl from './messages/buy-sell-property/el.json';
+import buySellPropertyEs from './messages/buy-sell-property/es.json';
+import buySellPropertyFa from './messages/buy-sell-property/fa.json';
+import buySellPropertyFi from './messages/buy-sell-property/fi.json';
+import buySellPropertyFr from './messages/buy-sell-property/fr.json';
+import buySellPropertyIt from './messages/buy-sell-property/it.json';
+import buySellPropertyNb from './messages/buy-sell-property/nb.json';
+import buySellPropertyNl from './messages/buy-sell-property/nl.json';
+import buySellPropertyPa from './messages/buy-sell-property/pa.json';
+import buySellPropertyPs from './messages/buy-sell-property/ps.json';
+import buySellPropertyTa from './messages/buy-sell-property/ta.json';
+import buySellPropertyTe from './messages/buy-sell-property/te.json';
+import buySellPropertyUr from './messages/buy-sell-property/ur.json';
+
+// Import au-pair-host-family translations for all languages
+import auPairHostFamilyAr from './messages/au-pair-host-family/ar.json';
+import auPairHostFamilyDa from './messages/au-pair-host-family/da.json';
+import auPairHostFamilyDe from './messages/au-pair-host-family/de.json';
+import auPairHostFamilyEl from './messages/au-pair-host-family/el.json';
+import auPairHostFamilyEs from './messages/au-pair-host-family/es.json';
+import auPairHostFamilyFa from './messages/au-pair-host-family/fa.json';
+import auPairHostFamilyFi from './messages/au-pair-host-family/fi.json';
+import auPairHostFamilyFr from './messages/au-pair-host-family/fr.json';
+import auPairHostFamilyIt from './messages/au-pair-host-family/it.json';
+import auPairHostFamilyNb from './messages/au-pair-host-family/nb.json';
+import auPairHostFamilyNl from './messages/au-pair-host-family/nl.json';
+import auPairHostFamilyPa from './messages/au-pair-host-family/pa.json';
+import auPairHostFamilyPs from './messages/au-pair-host-family/ps.json';
+import auPairHostFamilySv from './messages/au-pair-host-family/sv.json';
+import auPairHostFamilyTa from './messages/au-pair-host-family/ta.json';
+import auPairHostFamilyTe from './messages/au-pair-host-family/te.json';
+import auPairHostFamilyUr from './messages/au-pair-host-family/ur.json';
+
+// Import cbs-bb-programme translations for all languages
+import cbiBbiAr from './messages/cbs-bb-programme/ar.json';
+import cbiBbiDa from './messages/cbs-bb-programme/da.json';
+import cbiBbiDe from './messages/cbs-bb-programme/de.json';
+import cbiBbiEl from './messages/cbs-bb-programme/el.json';
+import cbiBbiEs from './messages/cbs-bb-programme/es.json';
+import cbiBbiFa from './messages/cbs-bb-programme/fa.json';
+import cbiBbiFi from './messages/cbs-bb-programme/fi.json';
+import cbiBbiFr from './messages/cbs-bb-programme/fr.json';
+import cbiBbiIt from './messages/cbs-bb-programme/it.json';
+import cbiBbiNb from './messages/cbs-bb-programme/nb.json';
+import cbiBbiNl from './messages/cbs-bb-programme/nl.json';
+import cbiBbiPa from './messages/cbs-bb-programme/pa.json';
+import cbiBbiPs from './messages/cbs-bb-programme/ps.json';
+import cbiBbiSv from './messages/cbs-bb-programme/sv.json';
+import cbiBbiTa from './messages/cbs-bb-programme/ta.json';
+import cbiBbiTe from './messages/cbs-bb-programme/te.json';
+import cbiBbiUr from './messages/cbs-bb-programme/ur.json';
+
+// Import destination-services translations for all languages
+import destinationServicesAr from './messages/destination-services/ar.json';
+import destinationServicesDa from './messages/destination-services/da.json';
+import destinationServicesDe from './messages/destination-services/de.json';
+import destinationServicesEl from './messages/destination-services/el.json';
+import destinationServicesEs from './messages/destination-services/es.json';
+import destinationServicesFa from './messages/destination-services/fa.json';
+import destinationServicesFi from './messages/destination-services/fi.json';
+import destinationServicesFr from './messages/destination-services/fr.json';
+import destinationServicesIt from './messages/destination-services/it.json';
+import destinationServicesNb from './messages/destination-services/nb.json';
+import destinationServicesNl from './messages/destination-services/nl.json';
+import destinationServicesPa from './messages/destination-services/pa.json';
+import destinationServicesPs from './messages/destination-services/ps.json';
+import destinationServicesSv from './messages/destination-services/sv.json';
+import destinationServicesTa from './messages/destination-services/ta.json';
+import destinationServicesTe from './messages/destination-services/te.json';
+import destinationServicesUr from './messages/destination-services/ur.json';
+
+// Import financial-management translations for all languages
+import financialManagementAr from './messages/financial-management/ar.json';
+import financialManagementDa from './messages/financial-management/da.json';
+import financialManagementDe from './messages/financial-management/de.json';
+import financialManagementEl from './messages/financial-management/el.json';
+import financialManagementEs from './messages/financial-management/es.json';
+import financialManagementFa from './messages/financial-management/fa.json';
+import financialManagementFi from './messages/financial-management/fi.json';
+import financialManagementFr from './messages/financial-management/fr.json';
+import financialManagementIt from './messages/financial-management/it.json';
+import financialManagementNb from './messages/financial-management/nb.json';
+import financialManagementNl from './messages/financial-management/nl.json';
+import financialManagementPa from './messages/financial-management/pa.json';
+import financialManagementPs from './messages/financial-management/ps.json';
+import financialManagementSv from './messages/financial-management/sv.json';
+import financialManagementTa from './messages/financial-management/ta.json';
+import financialManagementTe from './messages/financial-management/te.json';
+import financialManagementUr from './messages/financial-management/ur.json';
+
+// Import housing translations for all languages
+import housingAr from './messages/housing/ar.json';
+import housingDa from './messages/housing/da.json';
+import housingDe from './messages/housing/de.json';
+import housingEl from './messages/housing/el.json';
+import housingEs from './messages/housing/es.json';
+import housingFa from './messages/housing/fa.json';
+import housingFi from './messages/housing/fi.json';
+import housingFr from './messages/housing/fr.json';
+import housingIt from './messages/housing/it.json';
+import housingNb from './messages/housing/nb.json';
+import housingNl from './messages/housing/nl.json';
+import housingPa from './messages/housing/pa.json';
+import housingPs from './messages/housing/ps.json';
+import housingSv from './messages/housing/sv.json';
+import housingTa from './messages/housing/ta.json';
+import housingTe from './messages/housing/te.json';
+import housingUr from './messages/housing/ur.json';
 
 // Import study-in-eu translations for all languages
 import studyInEuAr from './messages/study-in-eu/ar.json';
@@ -267,6 +429,25 @@ import globalVisitVisasTa from './messages/global-visit-visas/ta.json';
 import globalVisitVisasTe from './messages/global-visit-visas/te.json';
 import globalVisitVisasUr from './messages/global-visit-visas/ur.json';
 
+// Import self-employed translations for all languages
+import selfEmployedAr from './messages/self-employed/ar.json';
+import selfEmployedDa from './messages/self-employed/da.json';
+import selfEmployedDe from './messages/self-employed/de.json';
+import selfEmployedEl from './messages/self-employed/el.json';
+import selfEmployedEs from './messages/self-employed/es.json';
+import selfEmployedFa from './messages/self-employed/fa.json';
+import selfEmployedFi from './messages/self-employed/fi.json';
+import selfEmployedFr from './messages/self-employed/fr.json';
+import selfEmployedIt from './messages/self-employed/it.json';
+import selfEmployedNb from './messages/self-employed/nb.json';
+import selfEmployedNl from './messages/self-employed/nl.json';
+import selfEmployedPa from './messages/self-employed/pa.json';
+import selfEmployedPs from './messages/self-employed/ps.json';
+import selfEmployedSv from './messages/self-employed/sv.json';
+import selfEmployedTa from './messages/self-employed/ta.json';
+import selfEmployedTe from './messages/self-employed/te.json';
+import selfEmployedUr from './messages/self-employed/ur.json';
+
 // Import citizenship translations for multilingual support
 import citizenshipDa from './messages/citizenship/da.json';
 import citizenshipDe from './messages/citizenship/de.json';
@@ -288,6 +469,17 @@ const mergedEn = {
   ...logisticsServicesEn,
   ...newInSwedenEn,
   ...studyInEuEn,
+  ...selfEmployedEn,
+  ...destinationServicesEn,
+  ...housingEn,
+  ...bookkeepingSolutionsEn,
+  ...financialManagementEn,
+  ...lawyersConnectEn,
+  ...manpowerSolutionsEn,
+  ...cbiBbiEn,
+  ...buySellPropertyEn,
+  ...appealCasesEn,
+  ...auPairHostFamilyEn,
   ...asylumEn,
   ...businessVisitEn,
   ...companyRegistrationEn,
@@ -310,29 +502,35 @@ const mergedSv = {
   ...logisticsServicesSv,
   ...globalVisitVisasSv,
   ...workPermitSv,
+  ...selfEmployedSv,
+  ...auPairHostFamilySv,
+  ...bookkeepingSolutionsSv,
+  ...cbiBbiSv,
+  ...destinationServicesSv,
+  ...financialManagementSv,
+  ...housingSv,
 };
 
-// Merge other language files (primarily business-permit, business-visit, citizenship, eor-payroll, asylum, company-registration, eu-citizens-relocation, eu-citizens-parents-permit, logistics-services, study-in-eu, global-visit-visas, work-permit and navbar)
-const mergedAr = { ...navbarAr, ...businessPermitAr, ...businessVisitAr, ...globalVisitVisasAr, ...workPermitAr, ...eorPayrollAr, ...studyInEuAr, ...asylumAr, ...companyRegistrationAr, ...euCitizensRelocationAr, ...euCitizensParentsPermitAr, ...familyReunificationAr, ...logisticsServicesAr };
-const mergedDa = { ...navbarDa, ...businessPermitDa, ...businessVisitDa, ...globalVisitVisasDa, ...workPermitDa, ...citizenshipDa, ...eorPayrollDa, ...studyInEuDa, ...asylumDa, ...companyRegistrationDa, ...euCitizensRelocationDa, ...euCitizensParentsPermitDa, ...familyReunificationDa, ...logisticsServicesDa };
-const mergedDe = { ...navbarDe, ...businessPermitDe, ...businessVisitDe, ...globalVisitVisasDe, ...workPermitDe, ...citizenshipDe, ...eorPayrollDe, ...studyInEuDe, ...asylumDe, ...companyRegistrationDe, ...euCitizensRelocationDe, ...euCitizensParentsPermitDe, ...familyReunificationDe, ...logisticsServicesDe };
-const mergedEl = { ...navbarEl, ...businessPermitEl, ...businessVisitEl, ...globalVisitVisasEl, ...workPermitEl, ...eorPayrollEl, ...studyInEuEl, ...asylumEl, ...companyRegistrationEl, ...euCitizensRelocationEl, ...euCitizensParentsPermitEl, ...familyReunificationEl, ...logisticsServicesEl };
-const mergedEs = { ...navbarEs, ...businessPermitEs, ...businessVisitEs, ...globalVisitVisasEs, ...workPermitEs, ...eorPayrollEs, ...studyInEuEs, ...asylumEs, ...companyRegistrationEs, ...euCitizensRelocationEs, ...euCitizensParentsPermitEs, ...familyReunificationEs, ...logisticsServicesEs };
-const mergedFa = { ...navbarFa, ...businessPermitFa, ...businessVisitFa, ...globalVisitVisasFa, ...workPermitFa, ...eorPayrollFa, ...studyInEuFa, ...asylumFa, ...companyRegistrationFa, ...euCitizensRelocationFa, ...euCitizensParentsPermitFa, ...familyReunificationFa, ...logisticsServicesFa };
-const mergedFi = { ...navbarFi, ...businessPermitFi, ...businessVisitFi, ...globalVisitVisasFi, ...workPermitFi, ...citizenshipFi, ...eorPayrollFi, ...studyInEuFi, ...asylumFi, ...companyRegistrationFi, ...euCitizensRelocationFi, ...euCitizensParentsPermitFi, ...familyReunificationFi, ...logisticsServicesFi };
-const mergedFr = { ...navbarFr, ...businessPermitFr, ...businessVisitFr, ...globalVisitVisasFr, ...workPermitFr, ...eorPayrollFr, ...studyInEuFr, ...asylumFr, ...companyRegistrationFr, ...euCitizensRelocationFr, ...euCitizensParentsPermitFr, ...familyReunificationFr, ...logisticsServicesFr };
-const mergedIt = { ...navbarIt, ...businessPermitIt, ...businessVisitIt, ...globalVisitVisasIt, ...workPermitIt, ...eorPayrollIt, ...studyInEuIt, ...asylumIt, ...companyRegistrationIt, ...euCitizensRelocationIt, ...euCitizensParentsPermitIt, ...familyReunificationIt, ...logisticsServicesIt };
-const mergedNb = { ...navbarNb, ...businessPermitNb, ...businessVisitNb, ...globalVisitVisasNb, ...workPermitNb, ...citizenshipNb, ...eorPayrollNb, ...studyInEuNb, ...asylumNb, ...companyRegistrationNb, ...euCitizensRelocationNb, ...euCitizensParentsPermitNb, ...familyReunificationNb, ...logisticsServicesNb };
-const mergedNl = { ...navbarNl, ...businessPermitNl, ...businessVisitNl, ...globalVisitVisasNl, ...workPermitNl, ...eorPayrollNl, ...studyInEuNl, ...asylumNl, ...companyRegistrationNl, ...euCitizensRelocationNl, ...euCitizensParentsPermitNl, ...familyReunificationNl, ...logisticsServicesNl };
-const mergedPa = { ...navbarPa, ...businessPermitPa, ...businessVisitPa, ...globalVisitVisasPa, ...workPermitPa, ...eorPayrollPa, ...studyInEuPa, ...asylumPa, ...companyRegistrationPa, ...euCitizensRelocationPa, ...euCitizensParentsPermitPa, ...familyReunificationPa, ...logisticsServicesPa };
-const mergedPs = { ...navbarPs, ...businessPermitPs, ...businessVisitPs, ...globalVisitVisasPs, ...workPermitPs, ...eorPayrollPs, ...studyInEuPs, ...asylumPs, ...companyRegistrationPs, ...euCitizensRelocationPs, ...euCitizensParentsPermitPs, ...familyReunificationPs, ...logisticsServicesPs };
-const mergedTa = { ...navbarTa, ...businessPermitTa, ...businessVisitTa, ...globalVisitVisasTa, ...workPermitTa, ...eorPayrollTa, ...studyInEuTa, ...asylumTa, ...companyRegistrationTa, ...euCitizensRelocationTa, ...euCitizensParentsPermitTa, ...familyReunificationTa, ...logisticsServicesTa };
-const mergedTe = { ...navbarTe, ...businessPermitTe, ...businessVisitTe, ...globalVisitVisasTe, ...workPermitTe, ...eorPayrollTe, ...studyInEuTe, ...asylumTe, ...companyRegistrationTe, ...euCitizensRelocationTe, ...euCitizensParentsPermitTe, ...familyReunificationTe, ...logisticsServicesTe };
-const mergedUr = { ...navbarUr, ...businessPermitUr, ...businessVisitUr, ...globalVisitVisasUr, ...workPermitUr, ...eorPayrollUr, ...studyInEuUr, ...asylumUr, ...companyRegistrationUr, ...euCitizensRelocationUr, ...euCitizensParentsPermitUr, ...familyReunificationUr, ...logisticsServicesUr };
+// Merge other language files (primarily business-permit, business-visit, citizenship, eor-payroll, asylum, company-registration, eu-citizens-relocation, eu-citizens-parents-permit, logistics-services, study-in-eu, global-visit-visas, work-permit, appeal-cases, buy-sell-property and navbar)
+const mergedAr = { ...navbarAr, ...businessPermitAr, ...businessVisitAr, ...globalVisitVisasAr, ...workPermitAr, ...eorPayrollAr, ...studyInEuAr, ...asylumAr, ...companyRegistrationAr, ...euCitizensRelocationAr, ...euCitizensParentsPermitAr, ...familyReunificationAr, ...logisticsServicesAr, ...selfEmployedAr, ...auPairHostFamilyAr, ...buySellPropertyAr, ...appealCasesAr, ...bookkeepingSolutionsAr, ...cbiBbiAr, ...destinationServicesAr, ...financialManagementAr, ...housingAr };
+const mergedDa = { ...navbarDa, ...businessPermitDa, ...businessVisitDa, ...globalVisitVisasDa, ...workPermitDa, ...citizenshipDa, ...eorPayrollDa, ...studyInEuDa, ...asylumDa, ...companyRegistrationDa, ...euCitizensRelocationDa, ...euCitizensParentsPermitDa, ...familyReunificationDa, ...logisticsServicesDa, ...selfEmployedDa, ...auPairHostFamilyDa, ...buySellPropertyDa, ...appealCasesDa, ...bookkeepingSolutionsDa, ...cbiBbiDa, ...destinationServicesDa, ...financialManagementDa, ...housingDa };
+const mergedDe = { ...navbarDe, ...businessPermitDe, ...businessVisitDe, ...globalVisitVisasDe, ...workPermitDe, ...eorPayrollDe, ...studyInEuDe, ...asylumDe, ...companyRegistrationDe, ...euCitizensRelocationDe, ...euCitizensParentsPermitDe, ...familyReunificationDe, ...logisticsServicesDe, ...selfEmployedDe, ...auPairHostFamilyDe, ...buySellPropertyDe, ...appealCasesDe, ...bookkeepingSolutionsDe, ...cbiBbiDe, ...destinationServicesDe, ...financialManagementDe, ...housingDe };
+const mergedEl = { ...navbarEl, ...businessPermitEl, ...businessVisitEl, ...globalVisitVisasEl, ...workPermitEl, ...eorPayrollEl, ...studyInEuEl, ...asylumEl, ...companyRegistrationEl, ...euCitizensRelocationEl, ...euCitizensParentsPermitEl, ...familyReunificationEl, ...logisticsServicesEl, ...selfEmployedEl, ...auPairHostFamilyEl, ...buySellPropertyEl, ...appealCasesEl, ...bookkeepingSolutionsEl, ...cbiBbiEl, ...destinationServicesEl, ...financialManagementEl, ...housingEl };
+const mergedEs = { ...navbarEs, ...businessPermitEs, ...businessVisitEs, ...globalVisitVisasEs, ...workPermitEs, ...eorPayrollEs, ...studyInEuEs, ...asylumEs, ...companyRegistrationEs, ...euCitizensRelocationEs, ...euCitizensParentsPermitEs, ...familyReunificationEs, ...logisticsServicesEs, ...selfEmployedEs, ...auPairHostFamilyEs, ...buySellPropertyEs, ...appealCasesEs, ...bookkeepingSolutionsEs, ...cbiBbiEs, ...destinationServicesEs, ...financialManagementEs, ...housingEs };
+const mergedFa = { ...navbarFa, ...businessPermitFa, ...businessVisitFa, ...globalVisitVisasFa, ...workPermitFa, ...eorPayrollFa, ...studyInEuFa, ...asylumFa, ...companyRegistrationFa, ...euCitizensRelocationFa, ...euCitizensParentsPermitFa, ...familyReunificationFa, ...logisticsServicesFa, ...selfEmployedFa, ...auPairHostFamilyFa, ...buySellPropertyFa, ...appealCasesFa, ...bookkeepingSolutionsFa, ...cbiBbiFa, ...destinationServicesFa, ...financialManagementFa, ...housingFa };
+const mergedFi = { ...navbarFi, ...businessPermitFi, ...businessVisitFi, ...globalVisitVisasFi, ...workPermitFi, ...citizenshipFi, ...eorPayrollFi, ...studyInEuFi, ...asylumFi, ...companyRegistrationFi, ...euCitizensRelocationFi, ...euCitizensParentsPermitFi, ...familyReunificationFi, ...logisticsServicesFi, ...selfEmployedFi, ...auPairHostFamilyFi, ...buySellPropertyFi, ...appealCasesFi, ...bookkeepingSolutionsFi, ...cbiBbiFi, ...destinationServicesFi, ...financialManagementFi, ...housingFi };
+const mergedFr = { ...navbarFr, ...businessPermitFr, ...businessVisitFr, ...globalVisitVisasFr, ...workPermitFr, ...eorPayrollFr, ...studyInEuFr, ...asylumFr, ...companyRegistrationFr, ...euCitizensRelocationFr, ...euCitizensParentsPermitFr, ...familyReunificationFr, ...logisticsServicesFr, ...selfEmployedFr, ...auPairHostFamilyFr, ...buySellPropertyFr, ...appealCasesFr, ...bookkeepingSolutionsFr, ...cbiBbiFr, ...destinationServicesFr, ...financialManagementFr, ...housingFr };
+const mergedIt = { ...navbarIt, ...businessPermitIt, ...businessVisitIt, ...globalVisitVisasIt, ...workPermitIt, ...eorPayrollIt, ...studyInEuIt, ...asylumIt, ...companyRegistrationIt, ...euCitizensRelocationIt, ...euCitizensParentsPermitIt, ...familyReunificationIt, ...logisticsServicesIt, ...selfEmployedIt, ...auPairHostFamilyIt, ...buySellPropertyIt, ...appealCasesIt, ...bookkeepingSolutionsIt, ...cbiBbiIt, ...destinationServicesIt, ...financialManagementIt, ...housingIt };
+const mergedNb = { ...navbarNb, ...businessPermitNb, ...businessVisitNb, ...globalVisitVisasNb, ...workPermitNb, ...citizenshipNb, ...eorPayrollNb, ...studyInEuNb, ...asylumNb, ...companyRegistrationNb, ...euCitizensRelocationNb, ...euCitizensParentsPermitNb, ...familyReunificationNb, ...logisticsServicesNb, ...selfEmployedNb, ...auPairHostFamilyNb, ...buySellPropertyNb, ...appealCasesNb, ...bookkeepingSolutionsNb, ...cbiBbiNb, ...destinationServicesNb, ...financialManagementNb, ...housingNb };
+const mergedNl = { ...navbarNl, ...businessPermitNl, ...businessVisitNl, ...globalVisitVisasNl, ...workPermitNl, ...eorPayrollNl, ...studyInEuNl, ...asylumNl, ...companyRegistrationNl, ...euCitizensRelocationNl, ...euCitizensParentsPermitNl, ...familyReunificationNl, ...logisticsServicesNl, ...selfEmployedNl, ...auPairHostFamilyNl, ...buySellPropertyNl, ...appealCasesNl, ...bookkeepingSolutionsNl, ...cbiBbiNl, ...destinationServicesNl, ...financialManagementNl, ...housingNl };
+const mergedPa = { ...navbarPa, ...businessPermitPa, ...businessVisitPa, ...globalVisitVisasPa, ...workPermitPa, ...eorPayrollPa, ...studyInEuPa, ...asylumPa, ...companyRegistrationPa, ...euCitizensRelocationPa, ...euCitizensParentsPermitPa, ...familyReunificationPa, ...logisticsServicesPa, ...selfEmployedPa, ...auPairHostFamilyPa, ...buySellPropertyPa, ...appealCasesPa, ...bookkeepingSolutionsPa, ...cbiBbiPa, ...destinationServicesPa, ...financialManagementPa, ...housingPa };
+const mergedPs = { ...navbarPs, ...businessPermitPs, ...businessVisitPs, ...globalVisitVisasPs, ...workPermitPs, ...eorPayrollPs, ...studyInEuPs, ...asylumPs, ...companyRegistrationPs, ...euCitizensRelocationPs, ...euCitizensParentsPermitPs, ...familyReunificationPs, ...logisticsServicesPs, ...selfEmployedPs, ...auPairHostFamilyPs, ...buySellPropertyPs, ...appealCasesPs, ...bookkeepingSolutionsPs, ...cbiBbiPs, ...destinationServicesPs, ...financialManagementPs, ...housingPs };
+const mergedTa = { ...navbarTa, ...businessPermitTa, ...businessVisitTa, ...globalVisitVisasTa, ...workPermitTa, ...eorPayrollTa, ...studyInEuTa, ...asylumTa, ...companyRegistrationTa, ...euCitizensRelocationTa, ...euCitizensParentsPermitTa, ...familyReunificationTa, ...logisticsServicesTa, ...selfEmployedTa, ...auPairHostFamilyTa, ...buySellPropertyTa, ...appealCasesTa, ...bookkeepingSolutionsTa, ...cbiBbiTa, ...destinationServicesTa, ...financialManagementTa, ...housingTa };
+const mergedTe = { ...navbarTe, ...businessPermitTe, ...businessVisitTe, ...globalVisitVisasTe, ...workPermitTe, ...eorPayrollTe, ...studyInEuTe, ...asylumTe, ...companyRegistrationTe, ...euCitizensRelocationTe, ...euCitizensParentsPermitTe, ...familyReunificationTe, ...logisticsServicesTe, ...selfEmployedTe, ...auPairHostFamilyTe, ...buySellPropertyTe, ...appealCasesTe, ...bookkeepingSolutionsTe, ...cbiBbiTe, ...destinationServicesTe, ...financialManagementTe, ...housingTe };
+const mergedUr = { ...navbarUr, ...businessPermitUr, ...businessVisitUr, ...globalVisitVisasUr, ...workPermitUr, ...eorPayrollUr, ...studyInEuUr, ...asylumUr, ...companyRegistrationUr, ...euCitizensRelocationUr, ...euCitizensParentsPermitUr, ...familyReunificationUr, ...logisticsServicesUr, ...selfEmployedUr, ...auPairHostFamilyUr, ...buySellPropertyUr, ...appealCasesUr, ...bookkeepingSolutionsUr, ...cbiBbiUr, ...destinationServicesUr, ...financialManagementUr, ...housingUr };
 
 // Merge Norwegian Bokmål for no alias
-const mergedNo = { ...navbarNb, ...businessPermitNb, ...businessVisitNb, ...globalVisitVisasNb, ...workPermitNb, ...citizenshipNb, ...eorPayrollNb, ...studyInEuNb, ...asylumNb, ...companyRegistrationNb, ...euCitizensRelocationNb, ...euCitizensParentsPermitNb, ...familyReunificationNb, ...logisticsServicesNb };
-
+const mergedNo = { ...navbarNb, ...businessPermitNb, ...businessVisitNb, ...globalVisitVisasNb, ...workPermitNb, ...citizenshipNb, ...eorPayrollNb, ...studyInEuNb, ...asylumNb, ...companyRegistrationNb, ...euCitizensRelocationNb, ...euCitizensParentsPermitNb, ...familyReunificationNb, ...logisticsServicesNb, ...selfEmployedNb, ...auPairHostFamilyNb, ...buySellPropertyNb, ...appealCasesNb, ...bookkeepingSolutionsNb, ...cbiBbiNb, ...destinationServicesNb, ...financialManagementNb };
 
 // Initialize i18next once on the client
 if (!i18n.isInitialized) {

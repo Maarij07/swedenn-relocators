@@ -1,0 +1,22 @@
+{
+  "housing": {
+    "hero": {
+      "title": "Solutions de Logement en Suède",
+      "subtitle": "avec Sweden Relocators"
+    },
+    "intro": {
+      "heading": "Votre Partenaire dans la Recherche de Logement en Suède",
+      "description": "Trouver une maison est l'une des étapes les plus importantes lors du déménagement en Suède. Que vous déménagiez seul, en famille, que vous déplacier des salariés en tant qu'entreprise ou gériez des propriétés en tant que fournisseur de logements, la bonne solution de logement jette les bases d'une réinstallation en douceur.",
+      "platform": "Chez Sweden Relocators, nous combinons des années d'expérience en matière de réinstallation avec une plateforme numérique moderne qui connecte les locataires, les entreprises et les prestataires de logements à un seul endroit. Nos services vont au-delà des locations et des achats—nous offrons des locations à court terme, des locations à long terme, la vente de propriétés, le soutien hypothécaire et des solutions professionnelles d'énumération des propriétés. De cette manière, les individus, les familles et les organisations peuvent gérer tout leur parcours de logement via un seul portail sécurisé."
+    },
+    "forIndividuals": {
+      "heading": "Logement pour Individus et Familles",
+      "intro": "Déménager en tant qu'individu ou famille peut sembler accablant. Des emplacements de logement temporaires aux maisons permanentes, Sweden Relocators s'assure que vous avez des options fiables à chaque étape."
+    },
+    "contact": {
+      "heading": "Commencez avec Sweden Relocators",
+      "description": "Que vous cherchiez une location à court terme, planifiez un séjour à long terme, achetiez ou vendiez une propriété ou énumériez un logement en tant que fournisseur, Sweden Relocators rend le processus transparent, sûr et efficace.",
+      "cta": "Soumettez votre demande de logement ou enregistrez votre propriété sur notre portail dès aujourd'hui. Laissez Sweden Relocators vous juger avec la bonne solution de logement en Suède."
+    }
+  }
+}

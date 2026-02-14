@@ -1,0 +1,189 @@
+{
+  "selfEmployed": {
+    "hero": {
+      "title": "Uppehållstillstånd för egenföretagare i Sverige",
+      "subtitle": "Uppdaterade krav och process från Migrationsverket"
+    },
+    "intro": {
+      "heading": "Starta din verksamhet i Sverige",
+      "description": "Om du är medborgare utanför EU/EES och vill starta eller expandera en verksamhet i Sverige, behöver du ett uppehållstillstånd för egenföretagare från Migrationsverket. Det här tillståndet möjliggör för icke-EU-medborgare att bo i Sverige medan de bygger och driver en verksamhet. Sverige är känt för sin starka ekonomi och fostrar en öppen affärsmiljö med en blomstrande startupkultur, robust infrastruktur och en skicklig arbetskraft, vilket gör det till ett idealiskt destination för företagare."
+    },
+    "whyChooseSweden": {
+      "heading": "Varför välja Sverige för din verksamhet?",
+      "description": "Sveriges affärsmiljö erbjuder många fördelar som gör det till ett idealiskt destination för företagare globalt.",
+      "advantages": [
+        {
+          "title": "Innovativ miljö",
+          "description": "Sverige har en samarbetsvillig och transparent affärskultur som uppmuntrar innovation."
+        },
+        {
+          "title": "Tillgång till EU-marknader",
+          "description": "Som EU-medlem erbjuder Sverige företag tillgång till en stor och stabil marknad."
+        },
+        {
+          "title": "Stödjande finansiellt ekosystem",
+          "description": "Svenska institutioner erbjuder olika finansieringsalternativ för företagare, inklusive offentliga och privata lån och bidrag."
+        },
+        {
+          "title": "Högkvalitativ infrastruktur",
+          "description": "Sveriges avancerade infrastruktur och digitala kapacitet gör det till ett globalt nav för tech-startups."
+        }
+      ],
+      "businessStructures": {
+        "heading": "Tillgängliga affärsstrukturer",
+        "description": "Sverige erbjuder flera affärsstrukturer, såsom Enskild firma, Handelsbolag/Kommanditbolag, Aktiebolag och Ekonomisk förening. Den rätta strukturen för dig beror på dina affärsmål, risktolerans och önskade skattefördelar."
+      }
+    },
+    "keyRequirements": {
+      "heading": "Huvudkrav för uppehållstillstånd för egenföretagare",
+      "intro": "För att vara berättigad till ett uppehållstillstånd för egenföretagare måste du påvisa att du har tillräckliga ekonomiska resurser, en genomförbar affärsplan och relevant erfarenhet inom din bransch. Tillståndet beviljas vanligtvis för upp till två år, med möjlighet till förnyelse baserat på affärsframgång.",
+      "requirements": [
+        {
+          "title": "Giltigt pass",
+          "details": "Du måste inneha ett giltigt pass för hela tillståndsperioden. Tillståndsperioden får inte överskrida passets giltighetstid. Bifoga kopior av relevanta passidor för att bekräfta identitet, giltighet och uppehållstillstånd i andra länder."
+        },
+        {
+          "title": "Ägarskap och affärskontroll",
+          "details": "Du måste äga minst 50% av verksamheten och ha fullständig beslutsfattarauktoritet över dess operationer. Du bör också vara aktivt involverad i den dagliga driften av verksamheten och ha huvudansvar för dess ledning och riktning."
+        },
+        {
+          "title": "Ekonomiska krav för verksamhet och personligt stöd",
+          "details": "Startkapital: Du måste tillhandahålla bankutdrag som visar tillräckliga medel för att etablera och driva verksamheten i minst två år. Personligt stöd: Du behöver tillräcklig personlig inkomst för att försörja dig själv och eventuella medföljande familjemedlemmar under de första två åren. Minsta beräknade krav är: 200 000 SEK för dig själv, 100 000 SEK för en make/partner, 50 000 SEK för varje medföljande barn."
+        },
+        {
+          "title": "Lönsam affärsplan",
+          "details": "En detaljerad affärsplan är väsentlig. Migrationsverket kommer att bedöma din affärsplan för genomförbarhet och lönsamhet. Inkludera: Kontrakt med leverantörer och kunder, Hyresavtal för lokaler om relevant, Nödvändiga branschlicenser, Ekonomiska prognoser såsom en investeringsbudget, likviditetsbudget och en beräknad balansräkning. Verksamheten måste förväntas generera tillräcklig vinst för att täcka både affärsoperationer och personliga levnadskostnader."
+        },
+        {
+          "title": "Relevant erfarenhet och färdigheter",
+          "details": "Migrationsverket kräver bevis på att du har nödvändig erfarenhet inom sektorn och färdigheter för att effektivt leda din verksamhet. Tillhandahåll dokumentation av tidigare arbetsupplevelse, utbildning eller tidigare ägarskap av verksamhet relevant för branschen du tänker gå in i."
+        },
+        {
+          "title": "Språkbehärskning",
+          "details": "Även om det inte är strikt obligatoriskt, rekommenderas det att kunskaper i svenska eller engelska för att underlätta kommunikationen inom den svenska affärsmiljön och med regulatoriska myndigheter."
+        },
+        {
+          "title": "Betalning av ansökningsavgift",
+          "details": "Ansökningsavgiften för ett uppehållstillstånd för egenföretagare måste betalas, och ett kvitto på denna betalning bör bifogas din ansökan."
+        },
+        {
+          "title": "Svenskt personnummer",
+          "details": "Om du planerar att bo i Sverige längre än ett år måste du också ansöka om ett personnummer genom att registrera dig hos Skatteverket. Det här numret är väsentligt för att få tillgång till sjukvård, öppna bankkonton och andra väsentliga tjänster."
+        }
+      ]
+    },
+    "applicationProcess": {
+      "heading": "Steg-för-steg ansökningsprocess för egenföretagartillstånd",
+      "steps": [
+        {
+          "title": "Steg 1: Samla nödvändig dokumentation",
+          "description": "Sammanställ all nödvändig dokumentation, inklusive ett giltigt pass, bevis på affärsägarskap och din affärsplan. Säkerställ att alla dokument uppfyller Migrationsverkets standarder och inkludera översatta kopior om de inte är på svenska eller engelska."
+        },
+        {
+          "title": "Steg 2: Skicka in ansökan",
+          "description": "Skicka in din ansökan online genom Migrationsverkets e-tjänst eller vid en svensk ambassad eller konsulat i ditt hemland. Bifoga alla stöddokument enligt Migrationsverkets krav. Inkludera personlig information, affärsuppgifter, ekonomisk dokumentation, affärsplan och bankutdrag som är korrekta och återspeglar din förmåga att driva en hållbar verksamhet i Sverige."
+        },
+        {
+          "title": "Steg 3: Migrationsverkets granskning och bedömning",
+          "description": "Migrationsverket kommer att bedöma din ansökan baserat på: Ekonomisk genomförbarhet för att säkerställa att du har tillräckligt kapital för att upprätthålla verksamheten, Affärsviabilitet genom att granska din affärsplan för att avgöra om den rimligen kan generera tillräcklig vinst, Personlig och affärsmässig bakgrund genom att bedöma din branscherfarenhet, språkkunskaper och förståelse för den svenska affärsmiljön."
+        },
+        {
+          "title": "Steg 4: Beslutsmeddelande",
+          "description": "När ansökan har upprätats kommer Migrationsverket att meddela ett beslut. Om den godkänns får du ett uppehållstillstånd för egenföretagare, giltigt i upp till två år. Förlängningar kan beviljas baserat på affärens ekonomiska framgång och din fortsatta berättigande."
+        }
+      ]
+    },
+    "businessStructures": {
+      "heading": "Affärsstrukturer i Sverige",
+      "intro": "Sverige erbjuder flera affärsstrukturer. Välj den som bäst passar din affärsmodell och mål:",
+      "types": [
+        {
+          "title": "Enskild firma",
+          "description": "Idealisk för enskilda företagare utan partners."
+        },
+        {
+          "title": "Handelsbolag eller kommanditbolag",
+          "description": "Lämplig för partnerskap eller små familjeföretag."
+        },
+        {
+          "title": "Aktiebolag",
+          "description": "Vanligt valda av dem som söker att växa och skala sin verksamhet, vilket ger begränsat ansvar."
+        },
+        {
+          "title": "Ekonomisk förening",
+          "description": "Vanligtvis använd av kooperativ eller samhällsdriven initiativ."
+        }
+      ],
+      "nota": "Varje struktur har specifika krav och skatteimplikationer. Att välja rätt är avgörande för efterlevnad av svenska affärsregler."
+    },
+    "advantages": {
+      "heading": "Fördelar med Sveriges affärsmiljö",
+      "description": "Sverige erbjuder en stabil och transparent miljö med fördelar som främjar långsiktig affärstillväxt:",
+      "items": [
+        {
+          "title": "Innovativ kultur",
+          "description": "Med låga korruptionsnivåer och minimal byråkrati uppmuntrar Sverige företagande innovation."
+        },
+        {
+          "title": "Ekonomisk tillgänglighet",
+          "description": "Sverige erbjuder en mängd finansieringsalternativ, inklusive banklån, statliga bidrag och ängelnycklar."
+        },
+        {
+          "title": "Tillgång till skicklig talang",
+          "description": "Landet har en högt utbildad arbetskraft, med starka tekniska och ledningsfärdigheter, särskilt fördelaktig för teknik- och innovationsfokuserade satsningar."
+        },
+        {
+          "title": "Etablerad infrastruktur",
+          "description": "Sveriges avancerade infrastruktur, effektiv logistik och omfattande digitala nätverk gör det idealisk för både inhemsk och internationell affärsverksamhet."
+        }
+      ]
+    },
+    "howWeCanAssist": {
+      "heading": "Hur Sweden Relocators kan assistera dig",
+      "intro": "Att navigera kraven för ett uppehållstillstånd för egenföretagare kan vara komplext. Sweden Relocators tillhandahåller omfattande stöd för att säkerställa en framgångsrik ansökningsprocess, från assistans med dokumentation till vägledning om affärsplan.",
+      "services": [
+        {
+          "title": "Ansökningsvägledning",
+          "description": "Vi assisterar med att samla in och organisera nödvändig dokumentation, och säkerställer att alla krav uppfylls enligt Migrationsverkets standarder."
+        },
+        {
+          "title": "Affärsplansutveckling",
+          "description": "Vårt team hjälper dig att skapa en övertygande affärsplan som demonstrerar ekonomisk lönsamhet och överensstämmer med svenska marknadsförväntningar."
+        },
+        {
+          "title": "Ekonomiska och inkomstbevis",
+          "description": "Assistans med att dokumentera finansiella tillgångar för att bevisa din förmåga att stödja både verksamheten och din familj."
+        },
+        {
+          "title": "Pågående stöd",
+          "description": "Vi erbjuder stöd under hela ansökningsprocessen, svarar på frågor från Migrationsverket och vägleder dig genom eventuella ytterligare krav."
+        },
+        {
+          "title": "Överklagandeassistans",
+          "description": "Om din ansökan nekas tillhandahåller vi vägledning om överklagandeprocessen och hjälper dig att stärka ditt ärende för ny prövning."
+        }
+      ]
+    },
+    "whyWorkWithUs": {
+      "heading": "Varför arbeta med Sweden Relocators?",
+      "advantages": [
+        {
+          "title": "Expertkunskap",
+          "description": "Vårt team håller sig uppdaterat om de senaste kraven från Migrationsverket och ger korrekt och effektiv vägledning."
+        },
+        {
+          "title": "Personlig service",
+          "description": "Vi förstår att varje verksamhet är unik, och vi skräddarsyr vårt stöd för att upfylla dina specifika behov och situation."
+        },
+        {
+          "title": "Strömlinead process",
+          "description": "Genom att hantera komplexiteten i ansökningsprocessen hjälper vi dig att undvika förseningar och ökar sannolikheten för framgång."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Kontakta oss",
+      "description": "Om du är redo att etablera din verksamhet i Sverige och behöver stöd med ansökan om uppehållstillstånd för egenföretagare, är Sweden Relocators här för att hjälpa. Kontakta oss idag för att starta din affärsresa i Sverige med självförtroende, med vetskapen om att varje aspekt av din ansökan är i goda händer."
+    }
+  }
+}

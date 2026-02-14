@@ -1,0 +1,47 @@
+{
+  "bookkeepingSolutions": {
+    "hero": {
+      "title": "Kirjanpitopalvelut",
+      "subtitle": "Täydellinen Kirjanpito Yksinkertaiseksi"
+    },
+    "intro": {
+      "heading": "Yksinkertaistettu Rahoituksen Hallinta Ruotsin",
+      "description": "Kirjanpito ja tilinpäätös Ruotsissa voi olla monimutkaista, erityisesti yrityksille, joilla on kansainväliset työntekijät, useita liiketoimintaa tai muuttoaskareita. Sweden Relocators tarjoaa täydellisen kirjanpitopalvelun turvallisen verkkopalvelun ja mobiilisovelluksemme kautta, mikä antaa yksityisille, perheille ja yrityksille helpon tavan hallita kaikkia taloudellisia ja noudattamisen tehtäviä yhdessä paikassa."
+    },
+    "getStarted": {
+      "heading": "Kuinka Päästä Alkuun",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Rekisteröidy Verkkoportaalissanne",
+          "description": "Rekisteröidy yksityishenkilönä tai yrityksenä."
+        },
+        {
+          "number": 2,
+          "title": "Lataa Asiakirjat Kuukausittain",
+          "description": "Lähetä laskut, sopimukset ja kuitit suoraan verkkoon."
+        },
+        {
+          "number": 3,
+          "title": "Automatisoitu Kirjanpito",
+          "description": "Käsittelemme palkkaa, kirjanpitoa ja ilmoituksia."
+        },
+        {
+          "number": 4,
+          "title": "Saa Raportit ja Palkkalaskelmat",
+          "description": "Pääsy digitaalisiin palkkalaskelmiin, veroilmoituksiin ja talousraportteihin milloin tahansa."
+        },
+        {
+          "number": 5,
+          "title": "Pysy Vaatimuksellisena",
+          "description": "Varmistamme, että tietueesi täyttävät Ruotsin ja EU-vaatimukset."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Yksinkertaista Kirjanpitoa Tänään",
+      "description": "Lopeta noudattamisesta huolehtiminen ja keskity liiketoimintasi kasvuun. Anna Sweden Relocatorsin hoitaa kirjanpitosi, palkkasi ja taloudellinen hallintani.",
+      "cta": "Rekisteröidy tänään ja saa ilmainen neuvonta kirjanpidon asiantuntijoidemme kanssa. Aloita Ruotsin taloustietojen hallinta tehokkaasti!"
+    }
+  }
+}

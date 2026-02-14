@@ -1,0 +1,321 @@
+{
+  "cbiBbi": {
+    "hero": {
+      "title": "Programas de Ciudadanía por Inversión y Residencia por Inversión",
+      "subtitle": "Asegure su futuro con un segundo pasaporte o una visa dorada"
+    },
+    "intro": {
+      "heading": "Movilidad global y establecimiento seguro",
+      "description": "En Sweden Relocators, ayudamos a individuos y familias a asegurar su futuro con segundos pasaportes y derechos de residencia a largo plazo a través de inversiones. Para personas de alto patrimonio neto, empresarios y ciudadanos globales, los programas CBI y RBI abren puertas para viajes sin visa, expansión empresarial, seguridad familiar y oportunidades internacionales de establecimiento.\n\nNuestros expertos manejan el viaje completo, desde la evaluación de elegibilidad y asesoramiento de inversión hasta documentación, comunicación con la embajada y apoyo posterior a la aprobación. A través de nuestro portal digital seguro, los clientes pueden rastrear sus casos, almacenar documentos y reutilizar información para solicitudes futuras."
+    },
+    "understanding": {
+      "heading": "Entendiendo la Ciudadanía y Residencia por Inversión",
+      "intro": "Dos caminos poderosos hacia la movilidad global y el establecimiento internacional seguro:",
+      "definitions": [
+        {
+          "title": "Ciudadanía por Inversión (CBI)",
+          "description": "Un camino directo hacia la ciudadanía y un segundo pasaporte a cambio de una inversión aprobada por el gobierno."
+        },
+        {
+          "title": "Residencia por Inversión (RBI) o Visa Dorada",
+          "description": "Un permiso de residencia a largo plazo basado en inversión en bienes raíces, fondos o negocios, con muchos programas que conducen a residencia permanente o ciudadanía con el tiempo."
+        }
+      ],
+      "benefits": "Ambas opciones otorgan a las familias acceso a movilidad global, atención médica, educación, ventajas de planificación financiera y oportunidades seguras de establecimiento."
+    },
+    "countryPrograms": {
+      "heading": "Programas de Países y Beneficios",
+      "intro": "Aquí hay un desglose detallado de los países líderes que ofrecen programas CBI y RBI, incluidos requisitos de inversión, beneficios e inclusión familiar."
+    },
+    "caribbean": {
+      "heading": "Programas de Ciudadanía del Caribe por Inversión",
+      "intro": "El Caribe es la región más popular para ciudadanía de vía rápida. Estos programas son conocidos por sus puntos de entrada asequibles, procesamiento rápido (3-6 meses) y pasaportes sólidos que ofrecen acceso sin visa a Europa, Reino Unido y Asia.",
+      "countries": [
+        {
+          "name": "San Cristóbal y Nieves",
+          "type": "CBI (programa más antiguo, lanzado en 1984)",
+          "investmentOptions": [
+            "USD 150.000 donación al Fondo de Crecimiento Sostenible",
+            "USD 200.000 inversión inmobiliaria (reventa permitida después de 7 años)"
+          ],
+          "familyMembers": "Cónyuge, hijos menores de 30, padres dependientes (55+)",
+          "benefits": [
+            "Viajes sin visa a más de 150 destinos, incluyendo Schengen y Reino Unido",
+            "Aprobaciones CBI más rápidas (4-6 meses)",
+            "Sin impuestos sobre ingresos o herencias",
+            "Reconocido como uno de los pasaportes caribeños más prestigiosos"
+          ]
+        },
+        {
+          "name": "Dominica",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 donación gubernamental",
+            "USD 200.000 inversión inmobiliaria"
+          ],
+          "familyMembers": "Cónyuge, hijos, padres dependientes, hermanos dependientes menores de 25",
+          "benefits": [
+            "Acceso sin visa a más de 140 países",
+            "Programa asequible con fuerte aceptación global",
+            "Ciudadanía transmitida a generaciones futuras",
+            "Popular entre familias por su inclusividad"
+          ]
+        },
+        {
+          "name": "Antigua y Barbuda",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 donación para familia de cuatro",
+            "USD 200.000 inversión inmobiliaria",
+            "Opción de inversión empresarial disponible"
+          ],
+          "familyMembers": "Cónyuge, hijos, padres, abuelos, hermanos",
+          "benefits": [
+            "Sin visa a más de 150 países",
+            "Permite familias grandes bajo una solicitud",
+            "Solo requiere 5 días de residencia cada 5 años",
+            "Popular para familias multigeneracionales"
+          ]
+        },
+        {
+          "name": "Granada",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 150.000 donación",
+            "USD 220.000 inversión inmobiliaria"
+          ],
+          "familyMembers": "Cónyuge, hijos, padres, hermanos",
+          "benefits": [
+            "Sin visa a más de 145 destinos incluyendo China",
+            "Único pasaporte caribeño con acceso a Visa E-2 para Inversionistas de EE.UU.",
+            "Opción fuerte para emprendedores que apuntan a entrada empresarial en EE.UU."
+          ]
+        },
+        {
+          "name": "Santa Lucía",
+          "type": "CBI",
+          "investmentOptions": [
+            "USD 100.000 donación",
+            "USD 300.000 inversión inmobiliaria",
+            "Opción de compra de bonos de gobierno"
+          ],
+          "familyMembers": "Cónyuge, hijos, padres",
+          "benefits": [
+            "Sin visa a más de 140 destinos",
+            "Entrada asequible, opciones de programa flexible",
+            "Pasaporte caribeño sólido con diversificación de inversiones"
+          ]
+        }
+      ]
+    },
+    "european": {
+      "heading": "Programas Europeos de Residencia por Inversión (Visas Doradas)",
+      "intro": "Europa sigue siendo uno de los destinos más atractivos para individuos ricos que buscan seguridad, estilo de vida y acceso al mercado de la UE. Los programas RBI en la UE proporcionan derechos de residencia, con muchos conduciendo a residencia permanente y ciudadanía.",
+      "countries": [
+        {
+          "name": "Visa Dorada de Portugal",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 en proyectos de apoyo cultural",
+            "EUR 500.000 bienes raíces (solo regiones seleccionadas)",
+            "EUR 500.000 en fondos o creación de empleo"
+          ],
+          "familyMembers": "Cónyuge, hijos, padres",
+          "benefits": [
+            "Residencia en la UE con viajes sin visa de Schengen",
+            "Elegible para ciudadanía después de 5 años de residencia",
+            "Acceso a atención médica y educación",
+            "Incentivos fiscales atractivos para inversores"
+          ]
+        },
+        {
+          "name": "Visa Dorada de Grecia",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 compra de propiedad (más asequible en Europa)"
+          ],
+          "familyMembers": "Cónyuge, hijos hasta 21 años, padres",
+          "benefits": [
+            "Derechos de residencia sin requisito de residencia",
+            "Camino a la ciudadanía después de 7 años",
+            "Acceso a mercados de la UE y viajes de Schengen",
+            "Fuertes rendimientos inmobiliarios en regiones turísticas"
+          ]
+        },
+        {
+          "name": "Visa Dorada de España",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 500.000 bienes raíces",
+            "Opciones de inversión de capital"
+          ],
+          "familyMembers": "Cónyuge, hijos, padres",
+          "benefits": [
+            "Residencia y movilidad de Schengen",
+            "Elegivle para ciudadanía después de 10 años",
+            "Mercado inmobiliario fuerte en ciudades principales",
+            "Acceso a universidades y atención médica de primer nivel"
+          ]
+        },
+        {
+          "name": "Visa de Inversor de Italia",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 250.000 en startups innovadores",
+            "EUR 500.000 en empresas establecidas",
+            "EUR 1 millón en bonos de gobierno"
+          ],
+          "familyMembers": "Cónyuge, hijos, padres",
+          "benefits": [
+            "Derechos de residencia en Italia y movilidad de Schengen",
+            "Atractivo para emprendedores y expansión empresarial",
+            "Ciudadanía de la UE después de 10 años"
+          ]
+        },
+        {
+          "name": "Malta",
+          "type": "CBI y RBI",
+          "investmentOptions": [
+            "EUR 600.000 inversión más alquiler/compra de propiedad"
+          ],
+          "familyMembers": "Cónyuge, hijos, padres",
+          "benefits": [
+            "Ciudadanía plena de la UE dentro de 12-18 meses",
+            "Sin visa a más de 180 países incluyendo EE.UU. y Canadá",
+            "Uno de los pasaportes más fuertes del mundo"
+          ]
+        },
+        {
+          "name": "Chipre",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 300.000 inversión inmobiliaria"
+          ],
+          "familyMembers": "Cónyuge, hijos, padres",
+          "benefits": [
+            "Residencia de la UE dentro de 6 meses",
+            "Acceso a atención médica y educación",
+            "El mercado inmobiliario ofrece rendimientos de alquiler sólidos"
+          ]
+        }
+      ]
+    },
+    "middleEastGlobal": {
+      "heading": "Opciones de Oriente Medio y Globales",
+      "countries": [
+        {
+          "name": "Emiratos Árabes Unidos (Dubái, Abu Dabi)",
+          "type": "RBI",
+          "investmentOptions": [
+            "AED 750.000 inversión inmobiliaria o empresarial"
+          ],
+          "familyMembers": "Cónyuge, hijos",
+          "benefits": [
+            "Residencia libre de impuestos",
+            "Acceso a centro empresarial global",
+            "Estilo de vida de lujo y atención médica de alta calidad"
+          ]
+        },
+        {
+          "name": "Estados Unidos (Visa EB-5)",
+          "type": "RBI",
+          "investmentOptions": [
+            "USD 800.000 en proyectos empresariales que crean empleos"
+          ],
+          "familyMembers": "Cónyuge, hijos menores de 21",
+          "benefits": [
+            "Tarjeta Verde de EE.UU. y camino a ciudadanía",
+            "Acceso a universidades y atención médica estadounidenses",
+            "Fuertes rendimientos de inversión en proyectos empresariales"
+          ]
+        },
+        {
+          "name": "Canadá",
+          "type": "RBI",
+          "investmentOptions": [
+            "CAD 350.000-1.200.000 dependiendo del programa (Programas de Candidatos Provinciales, Programa de Inversionista de Quebec)"
+          ],
+          "familyMembers": "Cónyuge, hijos menores de 22",
+          "benefits": [
+            "Residencia permanente con camino directo a ciudadanía",
+            "Alto nivel de vida y atención médica",
+            "Oportunidades empresariales y educativas globales"
+          ]
+        },
+        {
+          "name": "Visa de Inversor del Reino Unido",
+          "type": "RBI",
+          "investmentOptions": [
+            "GBP 2 millones en negocios británicos o bonos de gobierno"
+          ],
+          "familyMembers": "Cónyuge, hijos menores de 18",
+          "benefits": [
+            "Residencia y ciudadanía dentro de 5 años",
+            "Acceso a sectores de educación y finanzas de clase mundial"
+          ]
+        },
+        {
+          "name": "Visa de Inversor de Irlanda",
+          "type": "RBI",
+          "investmentOptions": [
+            "EUR 1 millón inversión de fondo o empresa"
+          ],
+          "familyMembers": "Cónyuge, hijos menores de 24",
+          "benefits": [
+            "Residencia en Irlanda con fuertes vínculos de la UE",
+            "Centro empresarial de habla inglesa",
+            "Camino a ciudadanía después de 5 años"
+          ]
+        }
+      ]
+    },
+    "howWeAssist": {
+      "heading": "Cómo Ayudamos",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Evaluación de Elegibilidad",
+          "description": "Revisamos su perfil financiero, detalles familiares y necesidades de movilidad para recomendar el programa más adecuado."
+        },
+        {
+          "number": 2,
+          "title": "Asesoramiento de Inversión",
+          "description": "Nuestros expertos lo conectan con proyectos de inversión aprobados, bienes raíces y fondos."
+        },
+        {
+          "number": 3,
+          "title": "Preparación de Solicitud",
+          "description": "Preparamos y verificamos todos los formularios, documentos y traducciones."
+        },
+        {
+          "number": 4,
+          "title": "Comunicación con Embajada y Autoridades",
+          "description": "Nos comunicamos con organismos oficiales para asegurar un progreso sin problemas."
+        },
+        {
+          "number": 5,
+          "title": "Portal Seguro",
+          "description": "Todos los documentos se almacenan digitalmente y se pueden reutilizar para solicitudes futuras."
+        },
+        {
+          "number": 6,
+          "title": "Establecimiento Post-Aprobación",
+          "description": "Ayudamos con vivienda, educación, planificación fiscal y asentamiento."
+        }
+      ]
+    },
+    "whoShould": {
+      "heading": "Quién Debe Considerar Ciudadanía y Residencia por Programas de Inversión",
+      "reasons": [
+        "Empresarios que buscan expansión global",
+        "Familias que desean asentamiento seguro y acceso a mejor educación y atención médica",
+        "Individuos ricos que buscan viajes sin visa y diversificación financiera",
+        "Personas de países con pasaportes restringidos que desean movilidad global"
+      ]
+    },
+    "getStarted": {
+      "heading": "Empezar",
+      "description": "Si está interesado en asegurar un segundo pasaporte o residencia a través de inversión, simplemente envíe su consulta a través de nuestro portal. Nuestro equipo experto proporcionará una evaluación completa, recomendará los mejores programas y lo guiará hasta su aprobación."
+    }
+  }
+}

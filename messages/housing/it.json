@@ -1,0 +1,22 @@
+{
+  "housing": {
+    "hero": {
+      "title": "Soluzioni Abitative in Svezia",
+      "subtitle": "con Sweden Relocators"
+    },
+    "intro": {
+      "heading": "Il Vostro Partner nella Ricerca di Alloggi in Svezia",
+      "description": "Trovare una casa è uno dei passi più importanti quando ci si trasferisce in Svezia. Che si trasferisca da solo, in famiglia, porti dipendenti come azienda o gestisca proprietà come fornitore di alloggi, la giusta soluzione abitativa pone le basi per un trasferimento senza problemi.",
+      "platform": "In Sweden Relocators, combiniamo anni di esperienza di rilocazione con una moderna piattaforma digitale che connette affittuari, aziende e fornitori di alloggi in un unico luogo. I nostri servizi vanno oltre gli affitti e gli acquisti—offriamo noleggi a breve termine, affitti a lungo termine, vendita di proprietà, supporto ipotecario e soluzioni professionali di listing immobiliare. In questo modo, individui, famiglie e organizzazioni possono gestire l'intero viaggio abitativo attraverso un unico portale sicuro."
+    },
+    "forIndividuals": {
+      "heading": "Alloggi per Individui e Famiglie",
+      "intro": "Trasferirsi come individuo o famiglia può sembrare travolgente. Dai luoghi di alloggio temporaneo alle case permanenti, Sweden Relocators assicura che abbiate opzioni affidabili ad ogni passo."
+    },
+    "contact": {
+      "heading": "Iniziate con Sweden Relocators",
+      "description": "Che siate alla ricerca di un affitto a breve termine, pianifichiate un soggiorno a lungo termine, acquistiate o vendiate una proprietà o inseriate alloggi come fornitore, Sweden Relocators rende il processo trasparente, sicuro ed efficiente.",
+      "cta": "Presentate la vostra domanda di alloggio o registrate la vostra proprietà sul nostro portale oggi. Lasciate che Sweden Relocators vi abbini alla giusta soluzione abitativa in Svezia."
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "housing": {
+    "hero": {
+      "title": "Wohnungslösungen in Schweden",
+      "subtitle": "mit Sweden Relocators"
+    },
+    "intro": {
+      "heading": "Dein Partner bei der Wohnungssuche in Schweden",
+      "description": "Ein Zuhause zu finden ist einer der wichtigsten Schritte, wenn du nach Schweden ziehst. Egal, ob du allein umziehst, mit deiner Familie umziehst, Mitarbeiter als Unternehmen bringst oder Immobilien als Wohnungsanbieter verwaltest—die richtige Wohnungslösung schafft die Grundlage für einen reibungslosen Umzug.",
+      "platform": "Bei Sweden Relocators kombinieren wir jahrelange Umzugserfahrung mit einer modernen digitalen Plattform, die Mieter, Unternehmen und Wohnungsanbieter an einem Ort verbindet. Unsere Services gehen über Mietverträge und Käufe hinaus—wir bieten Kurzzeitvermietung, Langzeitvermietung, Immobilienverkauf, Hypothekenunterstützung und professionelle Immobilienlistungslösungen an. Auf diese Weise können Einzelpersonen, Familien und Organisationen ihre gesamte Wohnungsreise über ein einziges, sicheres Portal verwalten."
+    },
+    "forIndividuals": {
+      "heading": "Wohnung für Einzelpersonen und Familien",
+      "intro": "Der Umzug als Einzelperson oder Familie kann überwältigend wirken. Von temporären Wohnplätzen bis zu permanenten Häusern sorgt Sweden Relocators dafür, dass du auf jedem Schritt zuverlässige Optionen hast.",
+      "services": [
+        {
+          "title": "Kurzzeitvermietung",
+          "description": "Kurzzeitimmobilien sind für Menschen gedacht, die unmittelbar nach ihrer Ankunft in Schweden einen Platz zum Wohnen benötigen. Diese Immobilien sind normalerweise möbliert und sofort bezugsfertig, perfekt für Auswanderer, die auf den Start von Langzeitverträgen warten, Studenten, die ihre Kurse beginnen, und Familien, die ein temporäres Zuhause benötigen, während sie dauerhaft kaufen oder mieten.",
+          "features": [
+            "Verfügbarkeit in Echtzeit prüfen",
+            "Detaillierte Immobilieninformationen ansehen",
+            "Überprüfte Mietverträge digital unterzeichnen"
+          ]
+        },
+        {
+          "title": "Langzeitvermietung",
+          "description": "Wenn du planst, länger in Schweden zu bleiben, bieten wir Zugang zu Wohnungen, Häusern, Zimmern und Co-Living-Räumen im ganzen Land. Alle Verträge entsprechen vollständig schwedischen Mietgesetzen, und alle unsere Listen sind auf Sicherheit und Qualität überprüft.",
+          "features": [
+            "Familienfreundliche Häuser in der Nähe von Schulen",
+            "Moderne Wohnungen in der Innenstadt",
+            "Überprüfte Angebote für Sicherheit und Qualität",
+            "Vollständig konforme schwedische Mietverträge"
+          ]
+        },
+        {
+          "title": "Immobilienverkauf und -kauf",
+          "description": "Viele Neuzugezogene entscheiden sich für den Kauf einer Immobilie, sobald sie sich eingelebt haben. Sweden Relocators verbindet dich mit lizenzierten Immobilienmaklern, die den Kauf- und Verkaufsprozess von Anfang bis Ende verwalten.",
+          "features": [
+            "Kauf von Wohnungen, Häusern oder Anlageimmobilien",
+            "Verkauf deiner Immobilie an ein weltweites Publikum",
+            "Rechtssichere und sichere Abwicklung von Transaktionen mit vollständiger Anleitung"
+          ]
+        },
+        {
+          "title": "Hypotheken- und Finanzunterstützung",
+          "description": "Der Kauf von Immobilien in Schweden erfordert oft lokale Hypothekenunterstützung. Für Ausländer kann dieser Prozess komplex sein. Wir bieten umfassende Unterstützung entlang der gesamten Hypothekenreise.",
+          "features": [
+            "Vorqualifizierung für Hypotheken",
+            "Bankantrag und erforderliche Unterlagen",
+            "Beratung zu schwedischen Kreditvergabevorschriften und Einkommensanforderungen",
+            "Finanzplanung für Rückzahlungs- und Investitionsstrategien"
+          ]
+        }
+      ]
+    },
+    "forEmployers": {
+      "heading": "Wohnungslösungen für Arbeitgeber und Unternehmen",
+      "intro": "Unternehmen, die Mitarbeiter verlegen, benötigen zuverlässige Unterkunft, um sicherzustellen, dass sich die Mitarbeiter vom ersten Tag an wohl und sicher fühlen. Sweden Relocators bietet Unternehmenslösungen, die diesen Prozess vereinfachen.",
+      "services": [
+        "Reichen Sie Wohnungsanträge für Mitarbeiter über unser digitales Portal ein",
+        "Wählen Sie aus Wohnungen, möblierten Häusern und Unternehmensunterkünften",
+        "Verwalten Sie mehrere Mitarbeiter und Verträge auf einer Plattform",
+        "Integrieren Sie Unterkünfte mit anderen Umzugsservices wie Personalausweis-Registrierung, Bankkontoöffnung und Ankunftsorientierung"
+      ],
+      "ideal": "Dieser Service ist ideal für multinationale Unternehmen, Personalvermittlungsagenturen, Universitäten und NGOs. Durch die zentrale Verwaltung von Unterkünften sparen Unternehmen Zeit, reduzieren Risiken und bieten Mitarbeitern einen reibungslosen Übergang ins schwedische Leben."
+    },
+    "forProviders": {
+      "heading": "Wohnungsanbieter und Immobilienunternehmen",
+      "intro": "Unsere Plattform dient auch als Gateway für Vermieter, Wohnungsunternehmen und Immobilienanbieter, die ihre Immobilien auflisten möchten. Durch die Partnerschaft mit Sweden Relocators erhältst du Zugang zu wesentlichen Mietern, darunter Auswanderer, Studenten, Fachleute und Unternehmenskunden.",
+      "process": {
+        "heading": "So Listen Sie Ihre Immobilien auf",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Registrieren Sie sich als Wohnungspartner",
+            "description": "Erstellen Sie ein Konto auf unserer Plattform."
+          },
+          {
+            "number": 2,
+            "title": "Angebote Hochladen",
+            "description": "Fügen Sie Wohnungen, Häuser, gemeinsame Zimmer oder Unternehmensunterkünfte mit Beschreibungen, Bildern und Preisen hinzu."
+          },
+          {
+            "number": 3,
+            "title": "Bedingungen Festlegen",
+            "description": "Wählen Sie zwischen Kurzzeitvermietung, Langzeitvermietung oder Unternehmensunterkünften."
+          },
+          {
+            "number": 4,
+            "title": "Überprüfte Mieter erhalten",
+            "description": "Wir verbinden Sie mit zuverlässigen Mietern von Einzelpersonen bis Unternehmen."
+          },
+          {
+            "number": 5,
+            "title": "Verwalten Sie online",
+            "description": "Verwenden Sie unser Portal für Verträge, Verlängerungen und Zahlungsverfolgung."
+          }
+        ]
+      },
+      "benefits": {
+        "heading": "Vorteile der Auflistung bei uns",
+        "items": [
+          "Exposition gegenüber internationalen und Unternehmenskunden",
+          "Mieterüberprüfung und rechtlich korrekte Mietverträge",
+          "Zugang zu Unternehmen, die Mitarbeiterunterkunft benötigen",
+          "Vollständige Integration mit unseren Umzugsservices für erhöhte Sichtbarkeit",
+          "Möglichkeit, Angebote als Kurzzetvermietung zum Markieren für flexible Mieterakzeptanz"
+        ]
+      }
+    },
+    "whyChooseUs": {
+      "heading": "Warum Sweden Relocators für Wohnung wählen?",
+      "advantages": [
+        {
+          "title": "Einzelpersonen und Familien",
+          "description": "Überprüfte Mietverträge, sichere Verträge, Immobilienverkauf und Hypothekenunterstützung."
+        },
+        {
+          "title": "Unternehmen",
+          "description": "Operative Wohnungsverwaltung, Umzugsintegration und Unternehmensunterkünfte."
+        },
+        {
+          "title": "Wohnungsanbieter",
+          "description": "Zugang zu globalen Umzugkunden, Unternehmenspartnerschaften und sichere Mietermatches."
+        },
+        {
+          "title": "Alle Immobilientypen",
+          "description": "Wohnungen, Häuser, gemeinsame Zimmer, Co-Living und Anlageimmobilien."
+        },
+        {
+          "title": "Professionelle Makler",
+          "description": "Registrierte Immobilienexperten zum Verkauf und Kauf von Immobilien."
+        },
+        {
+          "title": "End-to-End-Plattform",
+          "description": "Verwalten Sie Anfragen, Buchungen und Angebote an einem Ort."
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Erste Schritte mit Sweden Relocators",
+      "description": "Egal, ob du nach Kurzzeitvermietung suchst, einen Langzeitanspruch leitest, eine Immobilie kaufst oder verkaufst oder Wohnung als Anbieter auflistest—Sweden Relocators macht den Prozess transparent, sicher und effizient.",
+      "cta": "Reichen Sie Ihren Wohnungsantrag ein oder registrieren Sie Ihre Immobilie heute auf unserer Plattform. Lassen Sie Sweden Relocators Sie mit der richtigen Wohnungslösung in Schweden verbinden."
+    }
+  }
+}
