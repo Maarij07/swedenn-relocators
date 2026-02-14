@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import LanguageSelector from './LanguageSelector';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'next/navigation';
@@ -52,6 +52,8 @@ export default function Navbar() {
     housing: false,
     assessment: false,
   });
+  
+  const dropdownRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
 
   useEffect(() => {
     // Update display language when i18n language changes
@@ -60,9 +62,28 @@ export default function Navbar() {
     setDisplayLanguage(languageMap[langCode] || languageMap.en);
   }, [i18n.language]);
 
+  useEffect(() => {
+    // Close dropdowns when clicking outside
+    const handleClickOutside = (event: MouseEvent) => {
+      const clickedOutside = Object.keys(dropdownRefs.current).every(key => {
+        const ref = dropdownRefs.current[key];
+        return !ref || !ref.contains(event.target as Node);
+      });
+      
+      if (clickedOutside) {
+        closeAllDropdowns();
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
   const toggleDropdown = (key: string) => {
     setOpenDropdowns(prev => ({
-      ...prev,
+      services: false,
+      housing: false,
+      assessment: false,
       [key]: !prev[key]
     }));
   };
@@ -203,23 +224,35 @@ export default function Navbar() {
               </a>
 
               {/* Services Dropdown - label navigates to /services on click */}
-              <div className="relative group">
-                <a
-                  href={`/${locale}/services`}
-                  className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
-                  onMouseEnter={() => toggleDropdown('services')}
-                  onMouseLeave={closeAllDropdowns}
-                >
-                  {t('navbar.links.services')}
-                  <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.services ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </a>
+              <div className="relative group" ref={el => dropdownRefs.current['services'] = el}>
+                <div className="flex items-center gap-1">
+                  <a
+                    href={`/${locale}/services`}
+                    className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
+                  >
+                    {t('navbar.links.services')}
+                  </a>
+                  <button
+                    onClick={(e) => {
+                      e.preventDefault();
+                      toggleDropdown('services');
+                    }}
+                    onMouseEnter={() => {
+                      if (!openDropdowns.services) {
+                        toggleDropdown('services');
+                      }
+                    }}
+                    className="p-1 hover:text-blue-600 transition-colors"
+                    aria-label="Toggle services menu"
+                  >
+                    <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.services ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                </div>
                 {openDropdowns.services && (
                   <div
                     className="dropdown-menu dropdown-menu--services absolute left-1/2 -translate-x-1/2 mt-2 bg-white rounded-xl shadow-2xl border border-gray-100 py-8 sm:py-10 px-3 sm:px-6 xl:px-12 z-50"
-                    onMouseEnter={() => toggleDropdown('services')}
-                    onMouseLeave={closeAllDropdowns}
                   >
                     <div className="grid grid-cols-4 gap-8 xl:gap-12">
                       {/* IMMIGRATION Column */}
@@ -326,11 +359,19 @@ export default function Navbar() {
               </a>
 
               {/* Housing Dropdown */}
-              <div className="relative group">
+              <div className="relative group" ref={el => dropdownRefs.current['housing'] = el}>
                 <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    toggleDropdown('housing');
+                  }}
+                  onMouseEnter={() => {
+                    if (!openDropdowns.housing) {
+                      toggleDropdown('housing');
+                    }
+                  }}
                   className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
-                  onMouseEnter={() => toggleDropdown('housing')}
-                  onMouseLeave={closeAllDropdowns}
+                  aria-label="Toggle housing menu"
                 >
                   {t('navbar.links.housing')}
                   <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.housing ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -340,8 +381,6 @@ export default function Navbar() {
                 {openDropdowns.housing && (
                   <div
                     className="dropdown-menu absolute left-0 mt-2 w-[28rem] 4k:w-[32rem] bg-white rounded-lg shadow-2xl border border-gray-200 py-6 px-6 z-50"
-                    onMouseEnter={() => toggleDropdown('housing')}
-                    onMouseLeave={closeAllDropdowns}
                   >
                     <div className="grid grid-cols-2 gap-8">
                       <div>
@@ -376,11 +415,19 @@ export default function Navbar() {
               </div>
 
               {/* Assessment Dropdown */}
-              <div className="relative group">
+              <div className="relative group" ref={el => dropdownRefs.current['assessment'] = el}>
                 <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    toggleDropdown('assessment');
+                  }}
+                  onMouseEnter={() => {
+                    if (!openDropdowns.assessment) {
+                      toggleDropdown('assessment');
+                    }
+                  }}
                   className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
-                  onMouseEnter={() => toggleDropdown('assessment')}
-                  onMouseLeave={closeAllDropdowns}
+                  aria-label="Toggle assessment menu"
                 >
                   {t('navbar.links.assessment')}
                   <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.assessment ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -390,8 +437,6 @@ export default function Navbar() {
                 {openDropdowns.assessment && (
                   <div
                     className="dropdown-menu absolute left-0 mt-2 w-[28rem] 4k:w-[32rem] bg-white rounded-lg shadow-2xl border border-gray-200 py-6 px-6 z-50"
-                    onMouseEnter={() => toggleDropdown('assessment')}
-                    onMouseLeave={closeAllDropdowns}
                   >
                     <div className="grid grid-cols-2 gap-8">
                       <div>

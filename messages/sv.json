@@ -172,13 +172,20 @@
   },
   "servicesPage": {
     "hero": {
-      "badge": "Tydlig vägledning, rätt stöd, din väg framåt",
-      "titleLine1": "Din digitala gateway till",
-      "titleLine2": "Relocation- & Immigrationstjänster",
-      "description": "Vi levererar sömlösa lösningar för privatpersoner och företag inom en säker plattform."
+      "subtitle": "Din digitala gateway för relocation och invandringsstjänster",
+      "description": "Vi levererar sömlösa lösningar för privatpersoner och företag inom en säker plattform"
     },
     "secondaryBand": {
       "text": "Immigrationslösningar för individer-familjer-företag"
+    },
+    "sectionHeading": {
+      "badge": "Tydlig vägledning, rätt stöd, din väg framåt",
+      "titlePart1": "Våra tjänster för en sömlös",
+      "titlePart2": "flytt till Sverige"
+    },
+    "immigrationBand": {
+      "titlePart1": "Immigrationslösningar för",
+      "titlePart2": "Individer-Familjer- Företag"
     },
     "cards": [
       {
@@ -366,7 +373,8 @@
         "description": "Väx organiskt den holistiska världsbilden av disruptiv innovation via mångfald på arbetsplatsen och..."
       }
     ],
-    "readMore": "Läs mer"
+    "readMore": "Läs mer",
+    "subscribeButton": "Prenumerera för fler videor"
   },
   "workPermit": {
     "hero": {

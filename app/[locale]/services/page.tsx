@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
+import { useState, useEffect } from 'react';
 import Navbar from '../../components/Navbar';
 import { useTranslation } from 'react-i18next';
 
@@ -40,9 +40,15 @@ const serviceRoutes: Record<string, string> = {
 };
 
 export default function ServicesPage() {
-  const router = useRouter();
   const { t, i18n } = useTranslation();
-  const locale = i18n.language || 'en';
+  const [isInitialized, setIsInitialized] = useState(false);
+  const [showVideo, setShowVideo] = useState(false);
+
+  useEffect(() => {
+    if (i18n.isInitialized) {
+      setIsInitialized(true);
+    }
+  }, [i18n.isInitialized]);
 
   const servicesCards = (t('servicesPage.cards', { returnObjects: true }) as Array<{ title: string; description: string }>).map((card, index) => ({
     ...card,
@@ -59,108 +65,155 @@ export default function ServicesPage() {
       {/* Animations keyframes */}
       <style>{fadeInUp}</style>
 
-      {/* Hero-style header using the same theme background and container as Hero */}
-      <section className="relative overflow-hidden bg-[#EBF4FF]">
-        <div className="pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-16 sm:pb-20 lg:pb-24">
-          <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-            <div
-              className="text-center max-w-3xl mx-auto"
-              style={{ animation: 'fadeInUp 0.8s ease-out' }}
-            >
-              <p className="text-[11px] sm:text-xs md:text-sm 4k:text-xl tracking-[0.18em] uppercase text-blue-600 mb-3">
-                {t('servicesPage.hero.badge')}
-              </p>
-              <h1 className="text-[1.9rem] sm:text-[2.25rem] md:text-[2.5rem] lg:text-[2.9rem] xl:text-[3.1rem] 2xl:text-[3.3rem] 3xl:text-[4rem] 4k:text-[6rem] font-bold leading-tight">
-                <span className="block text-gray-900">{t('servicesPage.hero.titleLine1')}</span>
-                <span className="block">
-                  <span className="text-blue-600">{t('servicesPage.hero.titleLine2')}</span>
-                </span>
-              </h1>
-              <p className="mt-4 text-[14px] sm:text-[15px] md:text-base lg:text-[17px] xl:text-[18px] 3xl:text-[20px] 4k:text-[2rem] text-gray-600 leading-relaxed">
-                {t('servicesPage.hero.description')}
-              </p>
+      {/* Hero Section - CARD STYLE FROM FIGMA */}
+      <section className="relative overflow-hidden border border-gray-300 rounded-lg mx-auto" style={{
+        backgroundImage: 'url(/bg-new-in-sweden.svg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        width: '1400px',
+        maxWidth: 'calc(100% - 32px)',
+        height: '289px',
+        margin: '200px auto 0',
+        marginTop: '160px'
+      }}>
+        {/* Overlay - Dark with #141A21 at 88% opacity */}
+        <div className="absolute inset-0 rounded-lg" style={{ backgroundColor: 'rgba(20, 26, 33, 0.88)' }}></div>
+
+        <div className="relative h-full pt-6 sm:pt-8 pb-6 sm:pb-8 px-8 sm:px-10">
+          <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto h-full">
+            <div className="grid lg:grid-cols-2 gap-8 items-center h-full">
+              {/* Left Content */}
+              <div>
+                <p className="text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] lg:text-[2.25rem] leading-[1.1] font-bold text-white mb-2">
+                  {t('servicesPage.hero.subtitle')}
+                </p>
+                <p className="text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] text-gray-400 leading-[1.5] pr-12 font-normal">
+                  {t('servicesPage.hero.description')}
+                </p>
+              </div>
+
+              {/* Right - Illustration */}
+              <div className="relative w-full flex justify-center lg:justify-end">
+                <Image
+                  src="/service-illustration.svg"
+                  alt="Services illustration"
+                  width={300}
+                  height={200}
+                  style={{ maxWidth: '100%', height: 'auto' }}
+                  priority
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Secondary band: Immigration Solutions text */}
+      {/* Section Heading - Our Services */}
       <section className="bg-white">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pt-6 pb-4">
-          <div
-            className="rounded-[18px] bg-white px-4 sm:px-8 lg:px-12 py-3 sm:py-4 lg:py-5 text-center shadow-sm"
-            style={{ animation: 'fadeInUp 0.9s ease-out' }}
-          >
-            <p className="text-[1.25rem] sm:text-[1.4rem] md:text-[1.55rem] lg:text-[1.7rem] xl:text-[1.85rem] font-semibold leading-snug">
-              <span className="text-blue-600">{t('servicesPage.secondaryBand.text')}</span>
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20">
+          <div className="text-center" style={{ animation: 'fadeInUp 0.8s ease-out' }}>
+            <p className="text-sm md:text-base lg:text-lg font-normal mb-4" style={{ color: '#002C5C', fontSize: '16px' }}>
+              {t('servicesPage.sectionHeading.badge')}
             </p>
+            <h2 className="font-black leading-tight" style={{ fontSize: '40px' }}>
+              <span style={{ color: '#000000' }}>{t('servicesPage.sectionHeading.titlePart1')}&nbsp;</span>
+              <span style={{ color: '#6FAAEA' }}>{t('servicesPage.sectionHeading.titlePart2')}</span>
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      {/* Immigration Solutions Band */}
+      <section className="bg-white py-6 sm:py-8 lg:py-10">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+          <div className="rounded-lg p-8 sm:p-10 lg:p-12 text-center" style={{
+            backgroundColor: '#DEEEFF',
+            width: '1400px',
+            maxWidth: 'calc(100% - 32px)',
+            margin: '0 auto',
+            animation: 'fadeInUp 0.8s ease-out'
+          }}>
+            <h3 className="font-black leading-tight" style={{ fontSize: '42px', color: '#1D2F43', marginBottom: '8px' }}>
+              {t('servicesPage.immigrationBand.titlePart1')}
+            </h3>
+            <h3 className="font-black leading-tight" style={{ fontSize: '42px', color: '#247FE1' }}>
+              {t('servicesPage.immigrationBand.titlePart2')}
+            </h3>
           </div>
         </div>
       </section>
 
       {/* Services cards grid */}
       <section className="py-12 sm:py-16 lg:py-20 bg-white">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-          <div className="grid gap-8 sm:gap-10 md:gap-12 lg:gap-10 xl:gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-            {servicesCards.map((card, index) => (
-              <article
-                key={card.id}
-                className="bg-white rounded-[24px] shadow-[0_18px_45px_rgba(15,23,42,0.08)] border border-gray-100 flex flex-col overflow-hidden transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(15,23,42,0.12)]"
-                style={{
-                  animation: 'fadeInUp 0.7s ease-out',
-                  animationDelay: `${index * 60}ms`,
-                  animationFillMode: 'both',
-                }}
-              >
-                <div className="relative w-full bg-gray-50">
-                  <div className="relative w-full h-44 sm:h-48 md:h-52 flex items-center justify-center">
-                    <Image
-                      src={`/services/s${card.id}.svg`}
-                      alt={card.title}
-                      fill
-                      className="object-contain p-6"
-                    />
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+          <div className="mx-auto" style={{
+            width: '1400px',
+            maxWidth: 'calc(100% - 32px)'
+          }}>
+            <div className="flex flex-wrap gap-8 justify-start">
+              {servicesCards.map((card, index) => (
+                <article
+                  key={card.id}
+                  className="bg-white rounded-[20px] border border-gray-100 flex flex-col overflow-hidden transition-transform duration-300 hover:-translate-y-1"
+                  style={{
+                    width: '445px',
+                    height: '577px',
+                    boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
+                    animation: 'fadeInUp 0.7s ease-out',
+                    animationDelay: `${index * 60}ms`,
+                    animationFillMode: 'both',
+                  }}
+                >
+                  <div className="relative w-full bg-gray-50">
+                    <div className="relative w-full h-64 flex items-center justify-center">
+                      <Image
+                        src={`/services/s${card.id}.svg`}
+                        alt={card.title}
+                        width={260}
+                        height={256}
+                        className="object-contain p-4"
+                      />
+                    </div>
                   </div>
-                </div>
 
-                <div className="flex-1 flex flex-col px-6 pb-6 pt-4 space-y-3">
-                  <h3 className="text-[15px] sm:text-[16px] lg:text-[17px] font-semibold text-gray-900 leading-snug">
-                    {card.title}
-                  </h3>
-                  <p className="text-[12px] sm:text-[13px] md:text-[13px] lg:text-[14px] text-gray-600 leading-relaxed line-clamp-3">
-                    {card.description}
-                  </p>
+                  <div className="flex-1 flex flex-col px-6 pb-6 pt-5 space-y-2">
+                    <h3 className="text-[20px] font-bold text-gray-900 leading-snug text-center">
+                      {card.title}
+                    </h3>
+                    <p className="text-[13px] text-gray-600 leading-relaxed line-clamp-3 flex-grow text-center mx-auto max-w-xs">
+                      {card.description}
+                    </p>
 
-                  <div className="pt-2 mt-auto">
-                    <button 
-                      onClick={() => {
-                        const route = serviceRoutes[card.title] || '/services';
-                        router.push(`/${locale}${route}`);
-                      }}
-                      className="inline-flex items-center justify-center px-5 py-2.5 text-[13px] sm:text-[14px] font-semibold text-white bg-[#032B5F] rounded-full hover:bg-[#021C3D] transition-colors">
+                    <button className="mx-auto flex items-center justify-center px-8 py-2.5 text-[13px] font-semibold text-white bg-[#032B5F] rounded-full hover:bg-[#021C3D] transition-colors mt-0">
                       {t('servicesPage.readMore')}
                     </button>
                   </div>
-                </div>
-              </article>
-            ))}
+                </article>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
       {/* How to start – Individual & Company */}
       <section className="bg-white pb-16 sm:pb-20 lg:pb-24">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto" style={{
+            width: '1400px',
+            maxWidth: 'calc(100% - 32px)'
+          }}>
           {/* Heading */}
           <div
             className="text-center max-w-4xl mx-auto mb-10 sm:mb-12 lg:mb-14"
             style={{ animation: 'fadeInUp 0.8s ease-out' }}
           >
-            <p className="text-[11px] sm:text-xs md:text-sm 4k:text-xl tracking-[0.18em] uppercase text-[#647ACB] mb-2">
-              {t('servicesPage.howToStart.badge')}
+            <p className="text-[14px] sm:text-[15px] text-[#647ACB] mb-4 font-medium">
+              Our Complete Digital Solutions Are Designed For Both
             </p>
-            <h2 className="text-[2rem] sm:text-[2.25rem] md:text-[2.5rem] lg:text-[2.7rem] xl:text-[3rem] 2xl:text-[3.2rem] 3xl:text-[3.6rem] 4k:text-[4.1rem] font-bold leading-tight text-gray-900">
-              <span className="text-[#2F66D5]">{t('servicesPage.howToStart.title')}</span>
+            <h2 className="text-[36px] sm:text-[40px] md:text-[42px] lg:text-[44px] font-bold leading-tight">
+              <span className="text-[#1D2F43]">Individual Clients & </span>
+              <span className="text-[#247FE1]">Corporate Organizations</span>
             </h2>
           </div>
 
@@ -172,8 +225,8 @@ export default function ServicesPage() {
               style={{ animation: 'fadeInUp 0.8s ease-out', animationDelay: '80ms', animationFillMode: 'both' }}
             >
               {/* Header bar */}
-              <div className="bg-[#E8F0FF] rounded-[12px] px-6 py-3 flex items-center shadow-[0_4px_12px_rgba(0,0,0,0.04)]">
-                <h3 className="text-sm sm:text-[0.95rem] font-medium text-[#111827]">
+              <div className="bg-[#DEEEFF] rounded-[12px] px-6 py-3 flex items-center shadow-[0_4px_12px_rgba(0,0,0,0.04)]">
+                <h3 className="text-sm sm:text-[0.95rem] font-medium text-[#174D87]">
                   {t('servicesPage.howToStart.individual.title')}
                 </h3>
               </div>
@@ -185,7 +238,7 @@ export default function ServicesPage() {
                     key={idx}
                     className="flex items-center gap-3 rounded-[12px] bg-white shadow-[0_4px_12px_rgba(0,0,0,0.08)] px-5 py-3 min-h-[56px] sm:min-h-[60px] text-[12px] sm:text-[13px] lg:text-[14px] text-gray-700"
                   >
-                    <span className="inline-flex items-center justify-center w-5 text-[12px] font-semibold text-[#2F66D5]">
+                    <span className="inline-flex items-center justify-center w-5 text-[12px] font-semibold text-[#174D87]">
                       {idx + 1}.
                     </span>
                     <span className="leading-snug">{step}</span>
@@ -212,8 +265,8 @@ export default function ServicesPage() {
               style={{ animation: 'fadeInUp 0.8s ease-out', animationDelay: '140ms', animationFillMode: 'both' }}
             >
               {/* Header bar */}
-              <div className="bg-[#E8F0FF] rounded-[12px] px-6 py-3 flex items-center shadow-[0_4px_12px_rgba(0,0,0,0.04)]">
-                <h3 className="text-sm sm:text-[0.95rem] font-medium text-[#111827]">
+              <div className="bg-[#DEEEFF] rounded-[12px] px-6 py-3 flex items-center shadow-[0_4px_12px_rgba(0,0,0,0.04)]">
+                <h3 className="text-sm sm:text-[0.95rem] font-medium text-[#174D87]">
                   {t('servicesPage.howToStart.company.title')}
                 </h3>
               </div>
@@ -225,7 +278,7 @@ export default function ServicesPage() {
                     key={idx}
                     className="flex items-center gap-3 rounded-[12px] bg-white shadow-[0_4px_12px_rgba(0,0,0,0.08)] px-5 py-3 min-h-[56px] sm:min-h-[60px] text-[12px] sm:text-[13px] lg:text-[14px] text-gray-700"
                   >
-                    <span className="inline-flex items-center justify-center w-5 text-[12px] font-semibold text-[#2F66D5]">
+                    <span className="inline-flex items-center justify-center w-5 text-[12px] font-semibold text-[#174D87]">
                       {idx + 1}.
                     </span>
                     <span className="leading-snug">{step}</span>
@@ -245,6 +298,76 @@ export default function ServicesPage() {
                 {t('servicesPage.howToStart.company.subNote')}
               </p>
             </article>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Section */}
+      <section className="bg-white py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto" style={{
+            width: '1400px',
+            maxWidth: 'calc(100% - 32px)'
+          }}>
+            {/* Video Container */}
+            <div className="relative rounded-[20px] sm:rounded-3xl overflow-hidden shadow-2xl mb-8 sm:mb-10 lg:mb-12">
+              <div className="relative w-full aspect-video bg-black">
+                {showVideo ? (
+                  <iframe
+                    src="https://share.synthesia.io/embeds/videos/7ffc5155-81ff-4153-b235-6fa60d54a4ef"
+                    className="w-full h-full"
+                    loading="lazy"
+                    allow="autoplay; fullscreen"
+                    allowFullScreen
+                    style={{ border: 'none' }}
+                    title="Immigration & Relocation"
+                  />
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => setShowVideo(true)}
+                    className="w-full h-full relative flex items-center justify-center text-white"
+                  >
+                    <span className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/40 to-black/20" />
+                    <div className="relative z-10 flex items-center justify-center">
+                      <Image
+                        src="/services-video-button-icon.svg"
+                        alt="Play video"
+                        width={80}
+                        height={80}
+                        className="hover:opacity-80 transition-opacity"
+                      />
+                    </div>
+                  </button>
+                )}
+              </div>
+            </div>
+
+            {/* Subscribe Button */}
+            <div className="flex justify-center mt-6 sm:mt-8 lg:mt-10">
+              <a
+                href="https://www.youtube.com/@swedenrelocators"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2.5 px-7 sm:px-9 py-2.5 sm:py-3 bg-blue-50 hover:bg-blue-100 font-semibold rounded-full transition-colors shadow-sm hover:shadow-md"
+                style={{ color: '#174D87' }}
+              >
+                <span>
+                  {isInitialized 
+                    ? (t('servicesPage.subscribeButton')?.toString().startsWith('servicesPage') 
+                        ? 'Subscribe For More Videos' 
+                        : t('servicesPage.subscribeButton'))
+                    : 'Subscribe For More Videos'}
+                </span>
+                <Image
+                  src="/services-video-button-icon.svg"
+                  alt="Subscribe"
+                  width={20}
+                  height={20}
+                />
+              </a>
+            </div>
           </div>
         </div>
       </section>

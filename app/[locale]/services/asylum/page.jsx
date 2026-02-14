@@ -1,25 +1,50 @@
 'use client';
 
-import { useTranslation } from 'react-i18next';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import Navbar from '../../../components/Navbar';
+
+const fadeInUp = `
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+`;
+
+const cardMotion = {
+  hidden: { opacity: 0, y: 24 },
+  visible: (i = 0) => ({
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.55, delay: i * 0.08, ease: [0.22, 1, 0.36, 1] }
+  })
+};
 
 export default function AsylumPage() {
   const { t, i18n } = useTranslation();
-  const [isReady, setIsReady] = useState(i18n.isInitialized);
+  const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
-    if (!i18n.isInitialized) {
-      i18n.on('initialized', () => setIsReady(true));
-    } else {
+    if (i18n.isInitialized) {
       setIsReady(true);
+      return;
     }
+
+    const handleInit = () => setIsReady(true);
+    i18n.on('initialized', handleInit);
+    return () => i18n.off('initialized', handleInit);
   }, [i18n]);
 
   if (!isReady) {
-    return <div>Loading...</div>;
+    return <div className="min-h-screen bg-white" />;
   }
 
   const benefits = t('asylum.whyChooseExpert.benefits', { returnObjects: true }) || [];
@@ -28,284 +53,465 @@ export default function AsylumPage() {
   const legalServices = t('asylum.legalRepresentative.services', { returnObjects: true }) || [];
   const familyReunServices = t('asylum.familyReunificationAssistance.services', { returnObjects: true }) || [];
   const additionalServices = t('asylum.additionalSupport.services', { returnObjects: true }) || [];
+  const eligibilityTypes = t('asylum.familyReunification.whoCanApply.eligibilityTypes', { returnObjects: true }) || [];
 
   return (
-    <Box sx={{ minHeight: '100vh', bg: '#ffffff' }}>
+    <main className="min-h-screen bg-white">
+      <Navbar />
+
+      <style>{fadeInUp}</style>
+
       {/* Hero Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px]">
-        <div className="mb-16 sm:mb-20 lg:mb-32 xl:mb-40">
-          <Typography sx={{ fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '4.5rem', '4k': '6rem' }, fontWeight: 800, mb: 4, color: '#1e293b', lineHeight: 1.1 }}>
-            {t('asylum.hero.title')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '1rem', sm: '1.25rem', md: '1.5rem', lg: '2rem', '4k': '2.75rem' }, fontWeight: 600, mb: 4, color: '#1e293b', lineHeight: 1.4 }}>
-            {t('asylum.hero.subtitle')}
-          </Typography>
+      <section
+        className="relative overflow-hidden border border-gray-300 rounded-lg mx-auto"
+        style={{
+          backgroundImage: 'url(/bg-new-in-sweden.svg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          width: '1400px',
+          maxWidth: 'calc(100% - 32px)',
+          height: '289px',
+          margin: '200px auto 0',
+          marginTop: '160px'
+        }}
+      >
+        <div className="absolute inset-0 rounded-lg" style={{ backgroundColor: 'rgba(20, 26, 33, 0.88)' }} />
+
+        <div className="relative h-full pt-6 sm:pt-8 pb-6 sm:pb-8 px-8 sm:px-10">
+          <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto h-full">
+            <div className="grid lg:grid-cols-2 gap-8 items-center h-full">
+              <div>
+                <p className="text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] lg:text-[2.25rem] leading-[1.1] font-bold text-white mb-2">
+                  {t('asylum.hero.title')}
+                </p>
+                <p className="text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] text-gray-300 leading-[1.5] pr-12 font-normal">
+                  {t('asylum.hero.subtitle')}
+                </p>
+              </div>
+
+              <div className="relative w-full flex justify-center lg:justify-end">
+                <Image
+                  src="/service-illustration.svg"
+                  alt="Asylum support"
+                  width={300}
+                  height={200}
+                  style={{ maxWidth: '100%', height: 'auto' }}
+                  priority
+                />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
       {/* Intro Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.5rem', lg: '1.75rem', '4k': '2.5rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-            {t('asylum.intro.heading')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, maxWidth: '900px' }}>
-            {t('asylum.intro.description')}
-          </Typography>
-        </div>
-      </div>
-
-      {/* Why Choose Expert Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 12, color: '#1e293b' }}>
-          {t('asylum.whyChooseExpert.heading')}
-        </Typography>
-        
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 12 }}>
-          {t('asylum.whyChooseExpert.description')}
-        </Typography>
-
-        <div className="grid md:grid-cols-3 gap-8 lg:gap-10">
-          {Array.isArray(benefits) && benefits.map((benefit, idx) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10 hover:shadow-md transition-shadow">
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-                {benefit.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                {benefit.description}
-              </Typography>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Eligibility Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 12, color: '#1e293b' }}>
-            {t('asylum.eligibility.heading')}
-          </Typography>
-
-          {/* Who Can Apply */}
-          <div className="mb-12 lg:mb-16">
-            <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.375rem', lg: '1.5rem', '4k': '2rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-              {t('asylum.eligibility.whoCanApply.heading')}
-            </Typography>
-            <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 4 }}>
-              {t('asylum.eligibility.whoCanApply.intro')}
-            </Typography>
-            <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-              {t('asylum.eligibility.whoCanApply.description')}
-            </Typography>
-          </div>
-
-          {/* Refugee Definition */}
-          <div>
-            <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.375rem', lg: '1.5rem', '4k': '2rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-              {t('asylum.eligibility.refugeeDefinition.heading')}
-            </Typography>
-            <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 6 }}>
-              {t('asylum.eligibility.refugeeDefinition.intro')}
-            </Typography>
-
-            <div className="bg-white rounded-lg p-6 sm:p-8 lg:p-10 mb-6 border border-gray-200">
-              <ul className="space-y-3">
-                {Array.isArray(criteria) && criteria.map((item, idx) => (
-                  <li key={idx} className="flex items-start">
-                    <span className="text-blue-600 font-bold mr-3 mt-0.5">•</span>
-                    <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                      {item}
-                    </Typography>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 4 }}>
-              {t('asylum.eligibility.refugeeDefinition.additionalInfo')}
-            </Typography>
-            <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-              {t('asylum.eligibility.refugeeDefinition.outcome')}
-            </Typography>
+      <section className="bg-white">
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20">
+          <div className="text-center" style={{ animation: 'fadeInUp 0.8s ease-out' }}>
+            <p className="text-sm md:text-base lg:text-lg font-normal mb-4" style={{ color: '#002C5C', fontSize: '16px' }}>
+              {t('asylum.intro.heading')}
+            </p>
+            <p className="text-[14px] sm:text-[15px] md:text-[16px] text-gray-600 leading-[1.7] max-w-4xl mx-auto">
+              {t('asylum.intro.description')}
+            </p>
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* Application Process Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 12, color: '#1e293b' }}>
-          {t('asylum.applicationProcess.heading')}
-        </Typography>
-
-        <div className="space-y-8 sm:space-y-10 lg:space-y-12">
-          {Array.isArray(steps) && steps.map((step) => (
-            <div key={step.step} className="border-l-4 border-blue-500 pl-6 sm:pl-8 lg:pl-10">
-              <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.375rem', lg: '1.5rem', '4k': '2rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-                Step {step.step}: {step.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                {step.description}
-              </Typography>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Legal Representative Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 6, color: '#1e293b' }}>
-            {t('asylum.legalRepresentative.heading')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 8, fontWeight: 600 }}>
-            {t('asylum.legalRepresentative.intro')}
-          </Typography>
-
-          <div className="bg-white rounded-lg p-6 sm:p-8 lg:p-10 border border-gray-200 mb-8">
-            <ul className="space-y-4">
-              {Array.isArray(legalServices) && legalServices.map((service, idx) => (
-                <li key={idx} className="flex items-start">
-                  <span className="text-blue-600 font-bold mr-3 mt-0.5">•</span>
-                  <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                    {service}
-                  </Typography>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-            {t('asylum.legalRepresentative.additionalSupport')}
-          </Typography>
-        </div>
-      </div>
-
-      {/* Family Reunification Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 4, color: '#1e293b' }}>
-          {t('asylum.familyReunification.heading')}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-          {t('asylum.familyReunification.subheading')}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 12 }}>
-          {t('asylum.familyReunification.description')}
-        </Typography>
-
-        <div className="grid md:grid-cols-3 gap-8 lg:gap-10">
-          {/* Family Eligibility Card */}
-          <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8">
-            <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-              {t('asylum.familyReunification.whoCanApply.heading')}
-            </Typography>
-            <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.9375rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8, mb: 4 }}>
-              {t('asylum.familyReunification.whoCanApply.intro')}
-            </Typography>
-            <ul className="space-y-2">
-              {['A permanent residence permit', 'A temporary residence permit as a refugee, with reasonable chances of a long-term extension', 'A temporary residence permit based on impediments to return or distressing circumstances, with the likelihood of obtaining a long-term extension'].map((item, idx) => (
-                <li key={idx} className="flex items-start">
-                  <span className="text-blue-600 font-bold mr-2 mt-0.5 text-sm">•</span>
-                  <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.9375rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.6 }}>
-                    {t(`asylum.familyReunification.whoCanApply.eligibilityTypes.${idx}`)}
-                  </Typography>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* EU/EEA Citizens Card */}
-          <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8">
-            <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-              {t('asylum.familyReunification.euEeaCitizens.heading')}
-            </Typography>
-            <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.9375rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-              {t('asylum.familyReunification.euEeaCitizens.description')}
-            </Typography>
-          </div>
-
-          {/* Temporary Permit Card */}
-          <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8">
-            <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-              {t('asylum.familyReunification.temporaryPermit.heading')}
-            </Typography>
-            <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.9375rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8, mb: 4 }}>
-              {t('asylum.familyReunification.temporaryPermit.description')}
-            </Typography>
-            <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.9375rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8, mb: 4 }}>
-              {t('asylum.familyReunification.temporaryPermit.familyMembers')}
-            </Typography>
-            <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.9375rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-              {t('asylum.familyReunification.temporaryPermit.maintenance')}
-            </Typography>
+      {/* Why Choose Expert */}
+      <section className="bg-white pb-8 sm:pb-10 lg:pb-14">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+          <div
+            className="rounded-lg p-8 sm:p-10 lg:p-12 text-center"
+            style={{
+              backgroundColor: '#DEEEFF',
+              width: '1400px',
+              maxWidth: 'calc(100% - 32px)',
+              margin: '0 auto',
+              animation: 'fadeInUp 0.8s ease-out'
+            }}
+          >
+            <h3 className="font-black leading-tight" style={{ fontSize: '40px', color: '#1D2F43', marginBottom: '6px' }}>
+              {t('asylum.whyChooseExpert.heading')}
+            </h3>
+            <p className="text-[14px] sm:text-[15px] text-[#174D87] max-w-3xl mx-auto">
+              {t('asylum.whyChooseExpert.description')}
+            </p>
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* Family Reunification Assistance Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 12, color: '#1e293b' }}>
-            {t('asylum.familyReunificationAssistance.heading')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 12 }}>
-            {t('asylum.familyReunificationAssistance.description')}
-          </Typography>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {Array.isArray(familyReunServices) && familyReunServices.map((service, idx) => (
-              <div key={idx} className="bg-white rounded-lg p-6 sm:p-8 border border-gray-200">
-                <Typography sx={{ fontSize: { xs: '1rem', sm: '1.125rem', lg: '1.25rem', '4k': '1.5rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-                  {service.title}
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.9375rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                  {service.description}
-                </Typography>
-              </div>
+      {/* Benefits Cards */}
+      <section className="py-10 sm:py-14 lg:py-18 bg-white">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+          <div
+            className="grid md:grid-cols-3 gap-6 lg:gap-8"
+            style={{
+              width: '1400px',
+              maxWidth: 'calc(100% - 32px)',
+              margin: '0 auto'
+            }}
+          >
+            {Array.isArray(benefits) && benefits.map((benefit, idx) => (
+              <motion.article
+                key={benefit.title}
+                className="bg-white rounded-[20px] border border-gray-100 p-6 sm:p-8 shadow-[0_8px_24px_rgba(2,43,95,0.08)] hover:shadow-[0_18px_40px_rgba(2,43,95,0.16)]"
+                variants={cardMotion}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.3 }}
+                custom={idx}
+                whileHover={{ y: -6 }}
+              >
+                <h3 className="text-[18px] sm:text-[20px] font-bold text-gray-900 mb-3">
+                  {benefit.title}
+                </h3>
+                <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed">
+                  {benefit.description}
+                </p>
+              </motion.article>
             ))}
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* Additional Support Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 4, color: '#1e293b' }}>
-          {t('asylum.additionalSupport.heading')}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 12 }}>
-          {t('asylum.additionalSupport.intro')}
-        </Typography>
+      {/* Eligibility Section */}
+      <section className="bg-[#F8FAFC] border-t border-gray-200">
+        <div
+          className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-14 sm:py-16 lg:py-20"
+          style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}
+        >
+          <div className="text-center mb-10 sm:mb-12">
+            <h2 className="text-[28px] sm:text-[32px] lg:text-[36px] font-bold text-[#1D2F43]">
+              {t('asylum.eligibility.heading')}
+            </h2>
+          </div>
 
-        <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
-          {Array.isArray(additionalServices) && additionalServices.map((service, idx) => (
-            <div key={idx} className="border-l-4 border-blue-500 pl-6 sm:pl-8">
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-                {service.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                {service.description}
-              </Typography>
-            </div>
-          ))}
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-10">
+            <motion.article
+              className="bg-white rounded-[18px] border border-gray-200 p-6 sm:p-8 shadow-[0_8px_22px_rgba(2,43,95,0.08)] hover:shadow-[0_18px_40px_rgba(2,43,95,0.16)]"
+              variants={cardMotion}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.3 }}
+              custom={0}
+              whileHover={{ y: -4 }}
+            >
+              <h3 className="text-[18px] sm:text-[20px] font-bold text-gray-900 mb-3">
+                {t('asylum.eligibility.whoCanApply.heading')}
+              </h3>
+              <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed mb-4">
+                {t('asylum.eligibility.whoCanApply.intro')}
+              </p>
+              <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed">
+                {t('asylum.eligibility.whoCanApply.description')}
+              </p>
+            </motion.article>
+
+            <motion.article
+              className="bg-white rounded-[18px] border border-gray-200 p-6 sm:p-8 shadow-[0_8px_22px_rgba(2,43,95,0.08)] hover:shadow-[0_18px_40px_rgba(2,43,95,0.16)]"
+              variants={cardMotion}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.3 }}
+              custom={1}
+              whileHover={{ y: -4 }}
+            >
+              <h3 className="text-[18px] sm:text-[20px] font-bold text-gray-900 mb-3">
+                {t('asylum.eligibility.refugeeDefinition.heading')}
+              </h3>
+              <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed mb-4">
+                {t('asylum.eligibility.refugeeDefinition.intro')}
+              </p>
+              <ul className="space-y-2 mb-4">
+                {Array.isArray(criteria) && criteria.map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-[13px] sm:text-[14px] text-gray-600">
+                    <span className="mt-1 h-1.5 w-1.5 rounded-full bg-[#247FE1]" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed mb-3">
+                {t('asylum.eligibility.refugeeDefinition.additionalInfo')}
+              </p>
+              <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed">
+                {t('asylum.eligibility.refugeeDefinition.outcome')}
+              </p>
+            </motion.article>
+          </div>
         </div>
-      </div>
+      </section>
+
+      {/* Application Process */}
+      <section className="bg-white py-14 sm:py-16 lg:py-20">
+        <div
+          className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24"
+          style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}
+        >
+          <div className="text-center mb-10 sm:mb-12">
+            <h2 className="text-[28px] sm:text-[32px] lg:text-[36px] font-bold text-[#1D2F43]">
+              {t('asylum.applicationProcess.heading')}
+            </h2>
+          </div>
+
+          <div className="space-y-6">
+            {Array.isArray(steps) && steps.map((step, idx) => (
+              <motion.div
+                key={step.step}
+                className="bg-white rounded-[16px] border border-gray-200 p-6 sm:p-8 shadow-[0_8px_22px_rgba(2,43,95,0.08)] hover:shadow-[0_18px_40px_rgba(2,43,95,0.16)]"
+                variants={cardMotion}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.3 }}
+                custom={idx}
+                whileHover={{ y: -4 }}
+              >
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-[#DEEEFF] text-[#174D87] font-semibold">
+                    {step.step}
+                  </span>
+                  <h3 className="text-[18px] sm:text-[20px] font-semibold text-gray-900">
+                    {step.title}
+                  </h3>
+                </div>
+                <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed">
+                  {step.description}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Legal Representative */}
+      <section className="bg-[#F8FAFC] border-t border-gray-200">
+        <div
+          className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-14 sm:py-16 lg:py-20"
+          style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}
+        >
+          <div className="text-center mb-10">
+            <h2 className="text-[28px] sm:text-[32px] lg:text-[36px] font-bold text-[#1D2F43]">
+              {t('asylum.legalRepresentative.heading')}
+            </h2>
+            <p className="text-[13px] sm:text-[14px] text-gray-600 max-w-3xl mx-auto mt-3">
+              {t('asylum.legalRepresentative.intro')}
+            </p>
+          </div>
+
+          <motion.div
+            className="bg-white rounded-[18px] border border-gray-200 p-6 sm:p-8 shadow-[0_8px_22px_rgba(2,43,95,0.08)] hover:shadow-[0_18px_40px_rgba(2,43,95,0.16)]"
+            variants={cardMotion}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            custom={0}
+            whileHover={{ y: -4 }}
+          >
+            <ul className="space-y-3">
+              {Array.isArray(legalServices) && legalServices.map((service) => (
+                <li key={service} className="flex items-start gap-3 text-[13px] sm:text-[14px] text-gray-600">
+                  <span className="mt-1 h-2 w-2 rounded-full bg-[#247FE1]" />
+                  <span>{service}</span>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+
+          <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed mt-6 max-w-3xl">
+            {t('asylum.legalRepresentative.additionalSupport')}
+          </p>
+        </div>
+      </section>
+
+      {/* Family Reunification */}
+      <section className="bg-white py-14 sm:py-16 lg:py-20">
+        <div
+          className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24"
+          style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}
+        >
+          <div className="text-center mb-10">
+            <h2 className="text-[28px] sm:text-[32px] lg:text-[36px] font-bold text-[#1D2F43]">
+              {t('asylum.familyReunification.heading')}
+            </h2>
+            <p className="text-[16px] sm:text-[18px] font-semibold text-[#174D87] mt-2">
+              {t('asylum.familyReunification.subheading')}
+            </p>
+            <p className="text-[13px] sm:text-[14px] text-gray-600 max-w-3xl mx-auto mt-3">
+              {t('asylum.familyReunification.description')}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+            <motion.article
+              className="bg-white rounded-[18px] border border-gray-200 p-6 sm:p-8 shadow-[0_8px_22px_rgba(2,43,95,0.08)] hover:shadow-[0_18px_40px_rgba(2,43,95,0.16)]"
+              variants={cardMotion}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.3 }}
+              custom={0}
+              whileHover={{ y: -4 }}
+            >
+              <h3 className="text-[18px] sm:text-[20px] font-semibold text-gray-900 mb-3">
+                {t('asylum.familyReunification.whoCanApply.heading')}
+              </h3>
+              <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed mb-4">
+                {t('asylum.familyReunification.whoCanApply.intro')}
+              </p>
+              <ul className="space-y-2">
+                {Array.isArray(eligibilityTypes) && eligibilityTypes.map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-[13px] sm:text-[14px] text-gray-600">
+                    <span className="mt-1 h-1.5 w-1.5 rounded-full bg-[#247FE1]" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </motion.article>
+
+            <motion.article
+              className="bg-white rounded-[18px] border border-gray-200 p-6 sm:p-8 shadow-[0_8px_22px_rgba(2,43,95,0.08)] hover:shadow-[0_18px_40px_rgba(2,43,95,0.16)]"
+              variants={cardMotion}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.3 }}
+              custom={1}
+              whileHover={{ y: -4 }}
+            >
+              <h3 className="text-[18px] sm:text-[20px] font-semibold text-gray-900 mb-3">
+                {t('asylum.familyReunification.euEeaCitizens.heading')}
+              </h3>
+              <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed">
+                {t('asylum.familyReunification.euEeaCitizens.description')}
+              </p>
+            </motion.article>
+
+            <motion.article
+              className="bg-white rounded-[18px] border border-gray-200 p-6 sm:p-8 shadow-[0_8px_22px_rgba(2,43,95,0.08)] hover:shadow-[0_18px_40px_rgba(2,43,95,0.16)]"
+              variants={cardMotion}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.3 }}
+              custom={2}
+              whileHover={{ y: -4 }}
+            >
+              <h3 className="text-[18px] sm:text-[20px] font-semibold text-gray-900 mb-3">
+                {t('asylum.familyReunification.temporaryPermit.heading')}
+              </h3>
+              <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed mb-3">
+                {t('asylum.familyReunification.temporaryPermit.description')}
+              </p>
+              <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed mb-3">
+                {t('asylum.familyReunification.temporaryPermit.familyMembers')}
+              </p>
+              <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed">
+                {t('asylum.familyReunification.temporaryPermit.maintenance')}
+              </p>
+            </motion.article>
+          </div>
+        </div>
+      </section>
+
+      {/* Family Reunification Assistance */}
+      <section className="bg-[#F8FAFC] border-t border-gray-200">
+        <div
+          className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-14 sm:py-16 lg:py-20"
+          style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}
+        >
+          <div className="text-center mb-10">
+            <h2 className="text-[28px] sm:text-[32px] lg:text-[36px] font-bold text-[#1D2F43]">
+              {t('asylum.familyReunificationAssistance.heading')}
+            </h2>
+            <p className="text-[13px] sm:text-[14px] text-gray-600 max-w-3xl mx-auto mt-3">
+              {t('asylum.familyReunificationAssistance.description')}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            {Array.isArray(familyReunServices) && familyReunServices.map((service, idx) => (
+              <motion.article
+                key={service.title}
+                className="bg-white rounded-[18px] border border-gray-200 p-6 sm:p-8 shadow-[0_8px_22px_rgba(2,43,95,0.08)] hover:shadow-[0_18px_40px_rgba(2,43,95,0.16)]"
+                variants={cardMotion}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.3 }}
+                custom={idx}
+                whileHover={{ y: -4 }}
+              >
+                <h3 className="text-[16px] sm:text-[18px] font-semibold text-gray-900 mb-3">
+                  {service.title}
+                </h3>
+                <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed">
+                  {service.description}
+                </p>
+              </motion.article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Additional Support */}
+      <section className="bg-white py-14 sm:py-16 lg:py-20">
+        <div
+          className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24"
+          style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}
+        >
+          <div className="text-center mb-10">
+            <h2 className="text-[28px] sm:text-[32px] lg:text-[36px] font-bold text-[#1D2F43]">
+              {t('asylum.additionalSupport.heading')}
+            </h2>
+            <p className="text-[13px] sm:text-[14px] text-gray-600 max-w-3xl mx-auto mt-3">
+              {t('asylum.additionalSupport.intro')}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
+            {Array.isArray(additionalServices) && additionalServices.map((service, idx) => (
+              <motion.article
+                key={service.title}
+                className="bg-white rounded-[18px] border border-gray-200 p-6 sm:p-8 shadow-[0_8px_22px_rgba(2,43,95,0.08)] hover:shadow-[0_18px_40px_rgba(2,43,95,0.16)]"
+                variants={cardMotion}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.3 }}
+                custom={idx}
+                whileHover={{ y: -4 }}
+              >
+                <h3 className="text-[16px] sm:text-[18px] font-semibold text-gray-900 mb-3">
+                  {service.title}
+                </h3>
+                <p className="text-[13px] sm:text-[14px] text-gray-600 leading-relaxed">
+                  {service.description}
+                </p>
+              </motion.article>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* CTA Section */}
-      <div className="bg-black/85">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 4, color: '#ffffff' }}>
+      <section className="bg-white py-14 sm:py-16 lg:py-20">
+        <div
+          className="mx-auto rounded-lg bg-black/85 px-6 sm:px-8 lg:px-12 py-14 sm:py-16 lg:py-20 text-center"
+          style={{
+            width: '1400px',
+            maxWidth: 'calc(100% - 32px)'
+          }}
+        >
+          <h2 className="text-[26px] sm:text-[30px] lg:text-[36px] font-bold text-white mb-4">
             {t('asylum.cta.heading')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#e5e7eb', lineHeight: 1.8, mb: 8, maxWidth: '600px' }}>
+          </h2>
+          <p className="text-[13px] sm:text-[14px] text-gray-200 leading-relaxed mb-8 mx-auto max-w-xl">
             {t('asylum.cta.description')}
-          </Typography>
-          <Button sx={{ backgroundColor: '#ffffff', color: '#374151', fontWeight: 700, px: { xs: 6, sm: 8, lg: 10 }, py: { xs: 1.5, sm: 2, lg: 2.5 }, fontSize: { xs: '0.9rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, borderRadius: '50px', textTransform: 'none', '&:hover': { backgroundColor: '#f3f4f6' } }}>
+          </p>
+          <button className="inline-flex items-center justify-center rounded-full bg-white px-8 py-3 text-[13px] sm:text-[14px] font-semibold text-gray-800 shadow-[0_8px_20px_rgba(0,0,0,0.25)] hover:bg-gray-100 transition-colors">
             {t('asylum.cta.button')}
-          </Button>
-          <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.9375rem', '4k': '1.0625rem' }, color: '#d1d5db', lineHeight: 1.8, mt: 6 }}>
+          </button>
+          <p className="text-[12px] sm:text-[13px] text-gray-300 leading-relaxed mt-6 mx-auto max-w-2xl">
             {t('asylum.cta.subtext')}
-          </Typography>
+          </p>
         </div>
-      </div>
-    </Box>
+      </section>
+    </main>
   );
 }
