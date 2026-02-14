@@ -224,7 +224,7 @@ export default function Navbar() {
               </a>
 
               {/* Services Dropdown - label navigates to /services on click */}
-              <div className="relative group" ref={el => dropdownRefs.current['services'] = el}>
+              <div className="relative group" ref={(el: HTMLDivElement | null) => { if (el) dropdownRefs.current['services'] = el; }}>
                 <div className="flex items-center gap-1">
                   <a
                     href={`/${locale}/services`}
@@ -359,7 +359,7 @@ export default function Navbar() {
               </a>
 
               {/* Housing Dropdown */}
-              <div className="relative group" ref={el => dropdownRefs.current['housing'] = el}>
+              <div className="relative group" ref={(el: HTMLDivElement | null) => { if (el) dropdownRefs.current['housing'] = el; }}>
                 <button
                   onClick={(e) => {
                     e.preventDefault();
@@ -415,7 +415,7 @@ export default function Navbar() {
               </div>
 
               {/* Assessment Dropdown */}
-              <div className="relative group" ref={el => dropdownRefs.current['assessment'] = el}>
+              <div className="relative group" ref={(el: HTMLDivElement | null) => { if (el) dropdownRefs.current['assessment'] = el; }}>
                 <button
                   onClick={(e) => {
                     e.preventDefault();

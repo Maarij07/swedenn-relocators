@@ -11,12 +11,112 @@
     },
     "forIndividuals": {
       "heading": "Logement pour Individus et Familles",
-      "intro": "Déménager en tant qu'individu ou famille peut sembler accablant. Des emplacements de logement temporaires aux maisons permanentes, Sweden Relocators s'assure que vous avez des options fiables à chaque étape."
+      "intro": "Déménager en tant qu'individu ou famille peut sembler accablant. Des emplacements de logement temporaires aux maisons permanentes, Sweden Relocators s'assure que vous avez des options fiables à chaque étape.",
+      "services": [
+        {
+          "title": "Location à Court Terme",
+          "description": "Les propriétés de location à court terme sont conçues pour les personnes qui ont besoin d'un endroit où vivre immédiatement après leur arrivée en Suède. Ces propriétés sont généralement meublées et prêtes à emménager, ce qui les rend parfaites pour les expatriés attendant le début des contrats à long terme, les étudiants commençant leurs cours et les familles ayant besoin d'une maison temporaire."
+        },
+        {
+          "title": "Location à Long Terme",
+          "description": "Si vous prévoyez de rester plus longtemps en Suède, nous offrons l'accès à des appartements, villas, logements partagés et espaces de vie commune dans tout le pays. Tous les contrats sont entièrement conformes à la législation suédoise sur la location."
+        },
+        {
+          "title": "Achat et Vente de Propriétés",
+          "description": "De nombreux nouveaux arrivants décident d'acheter une propriété une fois qu'ils se sont établis. Sweden Relocators vous met en contact avec des courtiers immobiliers agréés qui gèrent l'ensemble du processus d'achat et de vente."
+        },
+        {
+          "title": "Soutien Hypothécaire et Financier",
+          "description": "L'achat d'une propriété en Suède nécessite souvent un soutien hypothécaire local. Pour les étrangers, ce processus peut être complexe. Nous offrons une assistance complète tout au long du parcours hypothécaire."
+        }
+      ]
     },
-    "contact": {
+    "forEmployers": {
+      "heading": "Solutions de Logement pour Employeurs et Entreprises",
+      "intro": "Les entreprises qui transfèrent des employés ont besoin d'un logement fiable pour assurer que le personnel se sente à l'aise et en sécurité dès le premier jour. Sweden Relocators offre des solutions de logement pour entreprises qui simplifies ce processus.",
+      "services": [
+        "Soumettre des demandes de logement pour les employés via notre portail numérique",
+        "Choisir parmi les appartements, maisons meublées et logements d'entreprise",
+        "Gérer plusieurs employés et contrats sur une plateforme",
+        "Intégrer le logement avec d'autres services de relocalisation"
+      ],
+      "ideal": "Ce service est idéal pour les entreprises multinationales, les agences de placement, les universités et les ONG. En gérant le logement de manière centralisée, les entreprises économisent du temps, réduisent les risques et offrent aux employés une transition en douceur vers la vie suédoise."
+    },
+    "forProviders": {
+      "heading": "Fournisseurs de Logements et Sociétés Immobilières",
+      "intro": "Notre plateforme sert également de passerelle pour les propriétaires, les sociétés de logement et les fournisseurs de propriétés qui souhaitent inscrire leurs propriétés. En partenariat avec Sweden Relocators, vous avez accès à des locataires vérifiés.",
+      "process": {
+        "heading": "Comment Lister Vos Propriétés",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Enregistrer en tant que Partenaire de Logement",
+            "description": "Créer un compte sur notre portail."
+          },
+          {
+            "number": 2,
+            "title": "Télécharger les Annonces",
+            "description": "Ajouter des appartements, villas, logements partagés avec descriptions, photos et prix."
+          },
+          {
+            "number": 3,
+            "title": "Définir les Conditions",
+            "description": "Choisir entre locations à court terme, long terme ou logements d'entreprise."
+          },
+          {
+            "number": 4,
+            "title": "Obtenir des Locataires Vérifiés",
+            "description": "Nous vous mettons en contact avec des locataires fiables, des particuliers aux entreprises."
+          },
+          {
+            "number": 5,
+            "title": "Gérer en Ligne",
+            "description": "Utilisez notre portail pour les contrats, les renouvellements et le suivi des paiements."
+          }
+        ]
+      },
+      "benefits": {
+        "heading": "Avantages de l'Inscription avec Nous",
+        "items": [
+          "Exposition aux locataires internationaux et d'entreprise",
+          "Vérification des locataires et contrats légalement valides",
+          "Accès aux entreprises ayant besoin de logement pour leurs employés",
+          "Intégration complète avec nos services de relocalisation",
+          "Option pour marquer les annonces comme location à court terme"
+        ]
+      }
+    },
+    "whyChooseUs": {
+      "heading": "Pourquoi Choisir Sweden Relocators pour le Logement?",
+      "advantages": [
+        {
+          "title": "Individus et Familles",
+          "description": "Locations vérifiées, contrats sécurisés, achats de propriétés et soutien hypothécaire."
+        },
+        {
+          "title": "Entreprises",
+          "description": "Gestion du logement en volume, intégration de relocalisation et logement d'entreprise."
+        },
+        {
+          "title": "Fournisseurs de Logements",
+          "description": "Accès aux clients mondiaux de relocalisation, partenariats d'entreprise et appariement sécurisé de locataires."
+        },
+        {
+          "title": "Tous les Types de Propriétés",
+          "description": "Appartements, villas, chambres partagées, colocation et propriétés d'investissement."
+        },
+        {
+          "title": "Courtiers Professionnels",
+          "description": "Experts immobiliers agréés pour la vente et l'achat de propriétés."
+        },
+        {
+          "title": "Plateforme de Bout en Bout",
+          "description": "Gérer les demandes, les réservations et les annonces en un seul endroit."
+        }
+      ]
+    },
       "heading": "Commencez avec Sweden Relocators",
       "description": "Que vous cherchiez une location à court terme, planifiez un séjour à long terme, achetiez ou vendiez une propriété ou énumériez un logement en tant que fournisseur, Sweden Relocators rend le processus transparent, sûr et efficace.",
       "cta": "Soumettez votre demande de logement ou enregistrez votre propriété sur notre portail dès aujourd'hui. Laissez Sweden Relocators vous juger avec la bonne solution de logement en Suède."
     }
   }
-}

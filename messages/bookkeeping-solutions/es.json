@@ -2,15 +2,188 @@
   "bookkeepingSolutions": {
     "hero": {
       "title": "Soluciones de Contabilidad",
-      "subtitle": "Contabilidad Completa Hecha Simple"
+      "subtitle": "Simplifica la contabilidad y la gestión financiera"
     },
     "intro": {
-      "heading": "Gestión Financiera Simplificada para Suecia",
-      "description": "La contabilidad y la contabilidad en Suecia pueden ser complejas, especialmente para empresas con empleados internacionales, múltiples operaciones comerciales o casos de reubicación. Sweden Relocators proporciona una solución contable completa a través de nuestro portal en línea seguro y aplicación móvil, brindando a individuos, familias y empresas una forma fácil de manejar todas las tareas financieras y de cumplimiento en un solo lugar.",
-      "commitment": "Desde contabilidad mensual y seguimiento de gastos hasta recibos de nómina, registros de empleo y declaraciones de Skatteverket (Agencia Tributaria), nos aseguramos de que sus finanzas sean precisas, transparentes y totalmente cumplidoras con las regulaciones suecas."
+      "heading": "Gestión Financiera Simplificada en Suecia",
+      "description": "Gestionar auditoría y contabilidad en Suecia puede ser complejo, especialmente para empresas con empleados internacionales, múltiples operaciones comerciales o situaciones de reubicación. Sweden Relocators ofrece una solución contable completa a través de nuestro portal en línea seguro y aplicación móvil, dando a individuos, familias y empresas una manera fácil de gestionar todas las tareas financieras y cumplimiento en un solo lugar.",
+      "commitment": "Desde el procesamiento de auditoría mensual y seguimiento de gastos hasta administración de nómina, registros de empleo y declaraciones de Skatteverket (Agencia Tributaria), nos aseguramos de que sus finanzas sean precisas, transparentes y completamente conformes con las regulaciones de Suecia."
+    },
+    "whyMatters": {
+      "heading": "Por Qué Importa la Contabilidad en Suecia",
+      "description": "Suecia tiene un sistema financiero transparente pero estrictamente regulado. Toda empresa, desde pequeñas empresas hasta corporaciones multinacionales, está obligada a mantener contabilidad precisa de conformidad con la Ley de Contabilidad (Bokföringslagen) y otras leyes fiscales relevantes.",
+      "risks": [
+        "Sanciones fiscales de Skatteverket",
+        "Riesgos legales por informes incompletos",
+        "Retrasos en la administración de nómina y beneficios",
+        "Desafíos en auditorías y evaluaciones financieras"
+      ],
+      "closing": "Nuestros servicios de contabilidad resuelven estos desafíos combinando experiencia profesional con tecnología, haciendo fácil cumplir con tus obligaciones mensuales, trimestrales y anuales."
+    },
+    "howWorks": {
+      "heading": "Cómo Funciona Nuestra Solución de Contabilidad Digital",
+      "intro": "Nuestro portal integral permite a empresas e individuos gestionar la contabilidad de manera eficiente:",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Cargar Documentos",
+          "details": "Cada mes, simplemente carga facturas, recibos, contratos y otros documentos financieros a nuestro portal seguro. Los archivos pueden ser escaneados, cargados directamente o compartidos a través de integración automática."
+        },
+        {
+          "number": 2,
+          "title": "Procesamiento de Datos y Contabilidad",
+          "details": "Nuestros contadores y sistema impulsado por IA procesan los datos. Las transacciones se clasifican, concilian, registran y procesan de acuerdo con los estándares contables suecos. Los errores o información faltante se marcan inmediatamente."
+        },
+        {
+          "number": 3,
+          "title": "Nómina y Comprobantes de Pago",
+          "details": "La nómina está integrada con la contabilidad. Los empleados reciben comprobantes de pago digitales a través del portal con detalles de impuestos, contribuciones de seguridad social y beneficios. Los empleadores tienen acceso a informes de nómina mensuales, asegurando transparencia completa."
+        },
+        {
+          "number": 4,
+          "title": "Informes de Empleo y Cumplimiento",
+          "details": "Los contratos de empleo, registros de horario y registros de beneficios se gestionan directamente en el sistema. Nuestro portal genera informes a Skatteverket, incluyendo impuesto sobre la renta y contribuciones del empleador."
+        },
+        {
+          "number": 5,
+          "title": "Declaraciones y Presentaciones",
+          "details": "Las declaraciones mensuales, trimestrales y anuales se preparan y presentan a la Autoridad Tributaria (Skatteverket). Recibes confirmación y registros digitales para cada presentación."
+        },
+        {
+          "number": 6,
+          "title": "Almacenamiento Seguro y Recuperación",
+          "details": "Todos los datos financieros se almacenan de forma segura en la nube. Los clientes pueden recuperar fácilmente documentos, informes y registros para auditoría o revisiones internas."
+        }
+      ]
+    },
+    "servicesIncluded": {
+      "heading": "Servicios Incluidos en Nuestra Solución de Contabilidad",
+      "intro": "Cubrimos todos los aspectos de contabilidad, administración de nómina y gestión financiera:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Contabilidad Mensual",
+          "items": [
+            "Entrada de facturas, recibos y extractos bancarios",
+            "Clasificación de gastos e ingresos",
+            "Verificación automática de errores o duplicados"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Administración de Nómina",
+          "items": [
+            "Cálculo de salarios basado en contratos y horas",
+            "Retenciones fiscales y contribuciones de seguridad social",
+            "Comprobantes de pago digitales disponibles en múltiples idiomas"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Declaraciones y Cumplimiento",
+          "items": [
+            "Preparación del Impuesto al Valor Agregado",
+            "Declaración del Empleador (Arbetsgivardeklaration)",
+            "Presentaciones anuales de ingresos y empresas"
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Registros de Empleo",
+          "items": [
+            "Contratos de empleo almacenados de forma segura",
+            "Seguimiento e informes de beneficios",
+            "Resúmenes anuales para empleados"
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Informes Financieros",
+          "items": [
+            "Estados de resultados mensuales",
+            "Balances e informes de flujo de caja",
+            "Informes personalizados para administración e inversores"
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Soporte de Auditoría e Inspección",
+          "items": [
+            "Documentación preparada para auditorías fiscales",
+            "Orientación durante revisiones financieras de autoridades suecas"
+          ]
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "¿Por Qué Elegir Sweden Relocators para Contabilidad?",
+      "advantages": [
+        {
+          "title": "Un Portal para Todas las Necesidades",
+          "description": "Nómina, contabilidad, declaraciones y gestión de recursos humanos en un solo lugar."
+        },
+        {
+          "title": "Garantía de Cumplimiento",
+          "description": "Todos los procesos siguen la Ley de Contabilidad y regulaciones de Skatteverket."
+        },
+        {
+          "title": "Precisión y Transparencia",
+          "description": "Informes en tiempo real con visibilidad completa para empleadores y empleados."
+        },
+        {
+          "title": "Ahorro de Tiempo y Costos",
+          "description": "Sin necesidad de contadores internos o múltiples proveedores externos."
+        },
+        {
+          "title": "Soporte Multilingüe",
+          "description": "Informes y asistencia disponibles en español, inglés, sueco y más."
+        },
+        {
+          "title": "Integración de Reubicación",
+          "description": "Ideal para empresas que trasladan empleados a Suecia, ya que conectamos vivienda, nómina y migración en un sistema."
+        }
+      ]
+    },
+    "forCompanies": {
+      "heading": "Contabilidad para Empresas",
+      "intro": "Nuestras soluciones son ideales para:",
+      "targetMarkets": [
+        "Pequeñas y medianas empresas: contabilidad simplificada sin contratación de contadores internos",
+        "Startups: configuración fácil de nómina y contabilidad durante operaciones de expansión",
+        "Empresas globales: gestión de empleados locales en Suecia sin establecer un departamento financiero",
+        "Freelancers y emprendedores: gestión de facturación, impuestos e informes mientras se enfoca en proyectos"
+      ],
+      "capabilities": "A través de nuestro portal, las empresas pueden:",
+      "capabilities_items": [
+        "Registrar empleados",
+        "Gestionar nómina y beneficios",
+        "Generar declaraciones contables mensuales e informes de IVA",
+        "Acceder a registros financieros seguros para auditoría y planificación de crecimiento"
+      ]
+    },
+    "forIndividuals": {
+      "heading": "Contabilidad para Individuos y Familias",
+      "intro": "También apoyamos a clientes individuales con:",
+      "services": [
+        "Comprobantes de pago para declaraciones fiscales personales",
+        "Declaraciones anuales de ingresos a Skatteverket",
+        "Seguimiento de costos de vivienda e inversiones personales o ingresos por alquiler",
+        "Preparación de documentación para hipotecas, préstamos o solicitudes de vivienda"
+      ],
+      "closing": "Esto facilita que individuos y familias que se mudan a Suecia se mantengan conformes y organizados."
+    },
+    "legalReferences": {
+      "heading": "Referencias Legales y Cumplimiento",
+      "intro": "Nuestros servicios de contabilidad cumplen con:",
+      "references": [
+        "Bokföringslagen (1999:1078) – Ley de Contabilidad de Suecia",
+        "Årsredovisningslagen – Ley de Cuentas Anuales",
+        "Regulaciones de Skatteverket – Declaraciones de Retención, IVA y Contribuciones del Empleador",
+        "GDPR – Protección de Datos para todos los registros financieros"
+      ]
     },
     "getStarted": {
-      "heading": "Cómo Comenzar",
+      "heading": "Cómo Empezar",
       "steps": [
         {
           "number": 1,
@@ -19,30 +192,30 @@
         },
         {
           "number": 2,
-          "title": "Sube Documentos Mensualmente",
+          "title": "Carga Documentos Mensualmente",
           "description": "Envía facturas, contratos y recibos directamente en línea."
         },
         {
           "number": 3,
           "title": "Contabilidad Automatizada",
-          "description": "Procesamos nómina, contabilidad y declaraciones."
+          "description": "Nos encargamos de nómina, contabilidad y declaraciones."
         },
         {
           "number": 4,
-          "title": "Obtén Reportes y Recibos de Nómina",
-          "description": "Accede a recibos de nómina digitales, declaraciones fiscales e informes financieros en cualquier momento."
+          "title": "Obtén Informes y Comprobantes",
+          "description": "Accede a comprobantes de pago digitales, declaraciones fiscales e informes financieros en cualquier momento."
         },
         {
           "number": 5,
-          "title": "Mantente Cumplido",
-          "description": "Nos aseguramos de que tus registros cumplan con los requisitos sueco y de la UE."
+          "title": "Mantente Conforme",
+          "description": "Aseguramos que tus registros cumplan con los requisitos de Suecia y la UE."
         }
       ]
     },
     "contact": {
-      "heading": "Simplifica tu Contabilidad Hoy",
-      "description": "Deja de preocuparte por cumplimiento y enfócate en crecer tu negocio. Deja que Sweden Relocators maneje tu contabilidad, nómina y gestión financiera.",
-      "cta": "Regístrate hoy y obtén una consulta gratuita con nuestros expertos en contabilidad. ¡Comienza a administrar tus finanzas suecas de manera eficiente!"
+      "heading": "Simplifica Tu Contabilidad Hoy",
+      "description": "Deja de preocuparte por el cumplimiento y enfócate en el crecimiento de tu negocio. Deja que Sweden Relocators se encargue de contabilidad, nómina y gestión financiera.",
+      "cta": "Regístrate hoy y obtén una consulta gratuita con nuestros expertos en contabilidad. ¡Comienza a gestionar tus finanzas suecas de manera eficiente!"
     }
   }
 }

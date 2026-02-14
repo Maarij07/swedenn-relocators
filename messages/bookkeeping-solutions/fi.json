@@ -1,47 +1,221 @@
 {
   "bookkeepingSolutions": {
     "hero": {
-      "title": "Kirjanpitopalvelut",
-      "subtitle": "Täydellinen Kirjanpito Yksinkertaiseksi"
+      "title": "Kirjanpitoratkaisut",
+      "subtitle": "Yksinkertaista kirjanpito ja taloushallinnan"
     },
     "intro": {
-      "heading": "Yksinkertaistettu Rahoituksen Hallinta Ruotsin",
-      "description": "Kirjanpito ja tilinpäätös Ruotsissa voi olla monimutkaista, erityisesti yrityksille, joilla on kansainväliset työntekijät, useita liiketoimintaa tai muuttoaskareita. Sweden Relocators tarjoaa täydellisen kirjanpitopalvelun turvallisen verkkopalvelun ja mobiilisovelluksemme kautta, mikä antaa yksityisille, perheille ja yrityksille helpon tavan hallita kaikkia taloudellisia ja noudattamisen tehtäviä yhdessä paikassa."
+      "heading": "Yksinkertaistettu Taloushallinnan Ruotsissa",
+      "description": "Tilintarkastuksen ja kirjanpidon hallinta Ruotsissa voi olla monimutkaista, erityisesti yrityksille, joilla on kansainvälisiä työntekijöitä, useita liiketoimintoja tai sijoittautumistilanteita. Sweden Relocators tarjoaa täydellisen kirjanpitoratkaisun turvallisen online-portaalin ja mobiilisovelluksensa kautta, joka antaa yksityishenkilöille, perheille ja yrityksille helpon tavan hallita kaikkia rahoitustoimia ja vaatimustenmukaisuutta yhdessä paikassa.",
+      "commitment": "Kuukauden tarkastusprosessoinnista ja kulujen seurannasta palkkahallinon, työsuhderekistereihin ja Skatteverket-ilmoituksiin (verovirastolle) saakka, varmistamme, että taloudeesi ovat tarkkoja, läpinäkyviä ja täysin Ruotsin säännösten mukaisia."
     },
-    "getStarted": {
-      "heading": "Kuinka Päästä Alkuun",
+    "whyMatters": {
+      "heading": "Miksi Kirjanpito on Tärkeää Ruotsissa",
+      "description": "Ruotsilla on läpinäkyvä, mutta tiukasti säännelty rahoitusjärjestelmä. Jokainen yritys, pienistä yrityksistä monikansallisiin yrityksiin, on velvollinen pitämään tarkkaa kirjanpitoa kirjanpitolain (Bokföringslagen) ja muiden asiaa koskevien verolakien mukaisesti.",
+      "risks": [
+        "Verosakotar dari Skatteverket",
+        "Oikeudellisia riskejä epätäydellisen ilmoittamisen vuoksi",
+        "Viivästykset palkkahallinon ja etuuksien käsittelyyn",
+        "Haasteet tilintarkastuissa ja taloudellisissa arvioissa"
+      ],
+      "closing": "Kirjanpitopalvelumme ratkaisevat nämä haasteet yhdistämällä ammatillisen asiantuntijuuden ja tekniikan, mikä helpottaa kuukausi-, vuosittainen- ja vuotuisten velvoitteidesi täyttämistä."
+    },
+    "howWorks": {
+      "heading": "Kuinka Digitaalinen Kirjanpitorationamme Toimii",
+      "intro": "Kattava portaalimme antaa yrityksille ja henkilöille mahdollisuuden hallita kirjanpitoa tehokkaasti:",
       "steps": [
         {
           "number": 1,
-          "title": "Rekisteröidy Verkkoportaalissanne",
-          "description": "Rekisteröidy yksityishenkilönä tai yrityksenä."
+          "title": "Lataa Asiakirjat",
+          "details": "Joka kuukausi lataa yksinkertaisesti laskut, kuitit, sopimukset ja muut taloudelliset asiakirjat turvalliselle portaalille. Tiedostot voidaan skannata, ladata suoraan tai jakaa automaattisen integraation kautta."
+        },
+        {
+          "number": 2,
+          "title": "Tietojen Käsittely ja Kirjanpito",
+          "details": "Kirjanpitäjämme ja tekoälyllä vahvistettu järjestelmä käsittelevät tiedot. Tapahtumat luokitellaan, sovitetaan, kirjataan ja käsitellään ruotsalaisten kirjanpitostandardien mukaisesti. Virheet tai puuttuvat tiedot merkitään välittömästi."
+        },
+        {
+          "number": 3,
+          "title": "Palkka ja Palkkalista",
+          "details": "Palkka on integroitu kirjanpitoon. Työntekijät saavat digitaalisen palkkalistan portaalin kautta verojen, sosiaaliturvamaksujen ja etuuksien yksityiskohtien kanssa. Työnantajilla on pääsy kuukauden palkkaraportteihin, jotka varmistavat täydellisen avoimuuden."
+        },
+        {
+          "number": 4,
+          "title": "Työsuhde ja Vaatimustenmukaisuusraportit",
+          "details": "Työsopimukset, tuntien kirjaamiset ja etuuksien rekisterit hallinnoidaan suoraan järjestelmässä. Portaalimme generoi Skatteverekkelle raportteja, mukaan lukien tulovero ja työnantajan maksut."
+        },
+        {
+          "number": 5,
+          "title": "Ilmoitukset ja Ilmoitukset",
+          "details": "Kuukausi-, neljännes- ja vuosilmoitukset valmistetaan ja lähetetään veroviranomaiselle (Skatteverket). Vastaat vahvistuksen ja digitaaliset tietueet jokaisesta ilmoituksesta."
+        },
+        {
+          "number": 6,
+          "title": "Turvallinen Varmuuskopiointi ja Palautus",
+          "details": "Kaikki taloudelliset tiedot varastoidaan turvallisesti pilvessä. Asiakkaat voivat helposti palauttaa asiakirjat, raportit ja tietueet tarkastukseen tai sisäiseen arviointiin."
+        }
+      ]
+    },
+    "servicesIncluded": {
+      "heading": "Kirjanpitoratkaisumme Sisältämät Palvelut",
+      "intro": "Kattamme kaikki kirjanpidon, palkkahallinon ja taloushallinnan näkökulmat:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Kuukauden Kirjanpito",
+          "items": [
+            "Laskujen, kuittien ja pankkitilioteiden syöttäminen",
+            "Kulujen ja tulojen luokittelu",
+            "Automaattinen tarkistus virheiden tai kaksintamiseen"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Palkkahallinon",
+          "items": [
+            "Palkan laskeminen sopimusten ja tuntien perusteella",
+            "Veropidätykset ja sosiaaliturvamaksut",
+            "Digitaalinen palkkalista saatavilla useilla kielillä"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Ilmoitukset ja Vaatimustenmukaisuus",
+          "items": [
+            "Arvonlisäveron valmistelu",
+            "Työnantajan Ilmoitus (Arbetsgivardeklaration)",
+            "Vuotuiset tulo- ja yritysraportoinnit"
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Henkilöstörekisterit",
+          "items": [
+            "Työsopimukset tallennettu turvallisesti",
+            "Etuuksien seuranta ja raportointi",
+            "Vuotuiset työntekijöiden yhteenveto"
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Taloudelliset Raportit",
+          "items": [
+            "Kuukauden voitto ja tappiot",
+            "Tasearvat ja kassavirta raportit",
+            "Mukautetut raportit hallinnelle ja sijoittajille"
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Tilintarkastus- ja Tarkastustuki",
+          "items": [
+            "Dokumentaatio valmistettu verotarkastuksiin",
+            "Ohjausta ruotsalaisen viranomaisten rahoitusarkistoja tilanteissa"
+          ]
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Miksi Valita Sweden Relocators Kirjanpitoon?",
+      "advantages": [
+        {
+          "title": "Yksi Portaali Kaikkiin Tarpeisiin",
+          "description": "Palkat, kirjanpito, ilmoitukset ja henkilöstöhallinto yhdessä paikassa."
+        },
+        {
+          "title": "Vaatimustenmukaisuuden Varmistus",
+          "description": "Kaikki prosessit noudattavat kirjanpitolakia ja Skatteverketin määräyksiä."
+        },
+        {
+          "title": "Tarkkuus ja Avoimuus",
+          "description": "Reaaliaikaraportit täydellisellä näkyvyydellä työnantajille ja työntekijöille."
+        },
+        {
+          "title": "Aikaresurssien ja kustannussäästöt",
+          "description": "Ei tarvetta sisäisille kirjanpitäjille tai useille ulkoisille toimittajille."
+        },
+        {
+          "title": "Monikielinen Tuki",
+          "description": "Raportit ja apu saatavilla suomeksi, englanniksi, ruotsiksi ja muilla kielillä."
+        },
+        {
+          "title": "Sijoitus-Integraatio",
+          "description": "Ihanteellinen yrityksille, jotka siirtävät työntekijöitä Ruotsiin, koska yhdistämme asumisen, palkat ja muuttopalvelut yhteen järjestelmään."
+        }
+      ]
+    },
+    "forCompanies": {
+      "heading": "Kirjanpito Yrityksille",
+      "intro": "Ratkaisumme ovat ihanteellisia seuraavissa tapauksissa:",
+      "targetMarkets": [
+        "Pienillä ja keskisuurilla yrityksillä: yksinkertaistettu kirjanpito ilman kokopäiväisten kirjanpitäjien palkkaamista",
+        "Startupilla: helppo palkka- ja kirjanpitoratkaisujen asetus laajenemistoimintoja varten",
+        "Globaalit yritykset: paikallisten Ruotsissa olevien työntekijöiden hallinta ilman rahoituosaston perustamista",
+        "Freelancers ja yrittäjät: laskutuksen, verojen ja raporttien hallinta, jotka keskittyy projekteihin"
+      ],
+      "capabilities": "Portaalimme kautta yritykset voivat:",
+      "capabilities_items": [
+        "Rekisteröi työntekijät",
+        "Hallita palkkoja ja etuuksia",
+        "Luo kuukauden kirjanpitoilmoitukset ja ALV-raportit",
+        "Pääsy turvallisiin taloudelliset tiedot tarkastukseen ja kasvun suunnitteluun"
+      ]
+    },
+    "forIndividuals": {
+      "heading": "Kirjanpito Yksityisille ja Perheille",
+      "intro": "Tuemme myös yksittäisiä asiakkaita seuraavalla:",
+      "services": [
+        "Palkkalista henkilökohtaisiin veroilmoituksiin",
+        "Vuotuiset tuloilmoitukset Skatteverekkelle",
+        "Asumiskustannusten ja henkilökohtaisten investointien tai vuokratulojen seuranta",
+        "Pitkäaikaisten asuntolainojen, lainojen tai asuntopalvelun hakemusten valmistelu"
+      ],
+      "closing": "Tämä helpottaa yksityisten ja Ruotsiin muuttavien perheiden pysyä yhteensopivaksi ja järjestäytyneiksi."
+    },
+    "legalReferences": {
+      "heading": "Oikeudelliset Viitteet ja Vaatimustenmukaisuus",
+      "intro": "Kirjanpitopalvelumme noudattavat seuraavaa:",
+      "references": [
+        "Bokföringslagen (1999:1078) – Ruotsin kirjanpitolaki",
+        "Årsredovisningslagen – Vuositilinpäätösten laki",
+        "Skatteverketin määräykset – Lähdeveron ilmoitukset, ALV ja työnantajan maksut",
+        "GDPR – Tietojen suoja kaikille taloudelliset tietueet"
+      ]
+    },
+    "getStarted": {
+      "heading": "Kuinka Aloittaa",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Rekisteröidy Portaaliimme",
+          "description": "Rekisteröidy yksityishenkilönä tai yrityksena."
         },
         {
           "number": 2,
           "title": "Lataa Asiakirjat Kuukausittain",
-          "description": "Lähetä laskut, sopimukset ja kuitit suoraan verkkoon."
+          "description": "Lähetä laskut, sopimukset ja kuitit suoraan verkossa."
         },
         {
           "number": 3,
           "title": "Automatisoitu Kirjanpito",
-          "description": "Käsittelemme palkkaa, kirjanpitoa ja ilmoituksia."
+          "description": "Käsittelemme palkat, kirjanpidon ja ilmoitukset."
         },
         {
           "number": 4,
-          "title": "Saa Raportit ja Palkkalaskelmat",
-          "description": "Pääsy digitaalisiin palkkalaskelmiin, veroilmoituksiin ja talousraportteihin milloin tahansa."
+          "title": "Saa Raportit ja Palkkalista",
+          "description": "Pääsy digitaalisiin palkkalistahin, verailmoituksiin ja taloudelliset raportteihin milloin tahansa."
         },
         {
           "number": 5,
-          "title": "Pysy Vaatimuksellisena",
-          "description": "Varmistamme, että tietueesi täyttävät Ruotsin ja EU-vaatimukset."
+          "title": "Pysy Vaatimustenmukaisena",
+          "description": "Varmistamme, että tiedot täyttävät Ruotsin ja EU:n vaatimukset."
         }
       ]
     },
     "contact": {
       "heading": "Yksinkertaista Kirjanpitoa Tänään",
-      "description": "Lopeta noudattamisesta huolehtiminen ja keskity liiketoimintasi kasvuun. Anna Sweden Relocatorsin hoitaa kirjanpitosi, palkkasi ja taloudellinen hallintani.",
-      "cta": "Rekisteröidy tänään ja saa ilmainen neuvonta kirjanpidon asiantuntijoidemme kanssa. Aloita Ruotsin taloustietojen hallinta tehokkaasti!"
+      "description": "Lakkaa huolehtimasta vaatimustenmukaisuudesta ja keskity liiketoiminnon kasvuun. Anna Sweden Relocators hallita kirjanpidon, palkahallinnon ja taloushallinnan.",
+      "cta": "Rekisteröidy tänään ja saa ilmainen konsultaatio kirjanpito-asiantuntijoidemme kanssa. Aloita Ruotsin taloudellisten hallinta tehokkaasti!"
     }
   }
 }

@@ -11,7 +11,17 @@
     },
     "forIndividuals": {
       "heading": "Asunto Yksityishenkilöille ja Perheille",
-      "intro": "Muutto yksityishenkilön tai perheen kanssa voi tuntua ylivoimaiselta. Väliaikaista asuntopaikkaa pysyviin koteihin, Sweden Relocators varmistaa, että sinulla on luotettavat vaihtoehdot jokaisessa vaiheessa."
+      "intro": "Muutto yksityishenkilön tai perheen kanssa voi tuntua ylivoimaiselta. Väliaikaista asuntopaikkaa pysyviin koteihin, Sweden Relocators varmistaa, että sinulla on luotettavat vaihtoehdot jokaisessa vaiheessa.",
+      "services": [
+        {
+          "title": "Lyhytaikaisvuokraus",
+          "description": "Lyhytaikaisväliset asunnot on suunniteltu ihmisille, jotka tarvitsevat paikan asua välittömästi saapuessaan Ruotsiin. Nämä kiinteistöt on yleensä huoneistettu ja valmiit muuttoon, joten ne ovat ihanteelliset ulkomaalaisten, jotka odottavat pitkäaikaisten vuokrasopimuksien alkamista, opiskelijoiden, jotka aloittavat kurssit, ja perheiden, jotka tarvitsevat väliaikaisen kodin ostaessaan tai vuokrauksen pysyvästi."
+        }
+      ]
+    },
+    "forEmployers": {
+      "heading": "Asuntoratkaisu Työnantajille ja Yrityksille",
+      "intro": "Yritykset, jotka siirtävät työntekijöitä, tarvitsevat luotettavaa asumista sen varmistamiseksi, että henkilöstö tuntee olonsa mukavaksi ja turvalliseksi ensimmäisestä päivästä lähtien. Sweden Relocators tarjoaa yritysten asuntoihin ratkaisuja, jotka yksinkertaistavat tätä prosessia."
     },
     "contact": {
       "heading": "Aloita Sweden Relocators kanssa",

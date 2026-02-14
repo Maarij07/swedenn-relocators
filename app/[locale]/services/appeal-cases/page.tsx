@@ -22,17 +22,17 @@ export default function AppealCasesPage() {
     return <div>Loading...</div>;
   }
 
-  const heroData = t('appealCases.hero', { returnObjects: true }) || {};
-  const introData = t('appealCases.intro', { returnObjects: true }) || {};
-  const yourRightsData = t('appealCases.yourRights', { returnObjects: true }) || {};
-  const reviewData = t('appealCases.reviewProcess', { returnObjects: true }) || {};
-  const howWeHelpData = t('appealCases.howWeHelp', { returnObjects: true }) || {};
-  const commonCasesData = t('appealCases.commonCases', { returnObjects: true }) || {};
-  const timelinesData = t('appealCases.timelines', { returnObjects: true }) || {};
-  const whyWorksData = t('appealCases.whyWorks', { returnObjects: true }) || {};
-  const faqsData = t('appealCases.faqs', { returnObjects: true }) || {};
-  const whyChooseData = t('appealCases.whyChoose', { returnObjects: true }) || {};
-  const disclaimerData = t('appealCases.disclaimer', { returnObjects: true }) || {};
+  const heroData = (t('appealCases.hero', { returnObjects: true }) || {}) as any;
+  const introData = (t('appealCases.intro', { returnObjects: true }) || {}) as any;
+  const yourRightsData = (t('appealCases.yourRights', { returnObjects: true }) || {}) as any;
+  const reviewData = (t('appealCases.reviewProcess', { returnObjects: true }) || {}) as any;
+  const howWeHelpData = (t('appealCases.howWeHelp', { returnObjects: true }) || {}) as any;
+  const commonCasesData = (t('appealCases.commonCases', { returnObjects: true }) || {}) as any;
+  const timelinesData = (t('appealCases.timelines', { returnObjects: true }) || {}) as any;
+  const whyWorksData = (t('appealCases.whyWorks', { returnObjects: true }) || {}) as any;
+  const faqsData = (t('appealCases.faqs', { returnObjects: true }) || {}) as any;
+  const whyChooseData = (t('appealCases.whyChoose', { returnObjects: true }) || {}) as any;
+  const disclaimerData = (t('appealCases.disclaimer', { returnObjects: true }) || {}) as any;
 
   const rights = Array.isArray(yourRightsData.rights) ? yourRightsData.rights : [];
   const stages = Array.isArray(reviewData.stages) ? reviewData.stages : [];
@@ -74,7 +74,7 @@ export default function AppealCasesPage() {
         </Typography>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {rights.map((right, idx) => (
+          {rights.map((right: any, idx: number) => (
             <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
               <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
                 {right.title}
@@ -97,7 +97,7 @@ export default function AppealCasesPage() {
         </Typography>
 
         <div className="space-y-6">
-          {stages.map((stage, idx) => (
+          {stages.map((stage: any, idx: number) => (
             <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
               <div className="flex items-start gap-4 mb-4">
                 <div className="flex-shrink-0 w-12 h-12 4k:w-16 4k:h-16 rounded-full bg-gradient-to-r from-blue-500 to-blue-400 flex items-center justify-center">
@@ -118,7 +118,7 @@ export default function AppealCasesPage() {
               </div>
               {stage.questions && (
                 <div className="ml-16">
-                  {stage.questions.map((q, i) => (
+                  {stage.questions.map((q: any, i: number) => (
                     <Typography key={i} sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', mb: 1 }}>
                       • {q}
                     </Typography>
@@ -140,7 +140,7 @@ export default function AppealCasesPage() {
         </Typography>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {steps.map((step, idx) => (
+          {steps.map((step: any, idx: number) => (
             <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
               <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
                 {step.title}
@@ -160,7 +160,7 @@ export default function AppealCasesPage() {
         </Typography>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {cases.map((caseItem, idx) => (
+          {cases.map((caseItem: any, idx: number) => (
             <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8">
               <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
                 <span className="text-blue-600 font-bold mr-2">•</span>{caseItem}
@@ -177,7 +177,7 @@ export default function AppealCasesPage() {
         </Typography>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {timelines.map((item, idx) => (
+          {timelines.map((item: any, idx: number) => (
             <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8">
               <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.125rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
                 {item.label}
@@ -200,7 +200,7 @@ export default function AppealCasesPage() {
         </Typography>
 
         <div className="space-y-3 mb-6">
-          {reasons.map((reason, idx) => (
+          {reasons.map((reason: any, idx: number) => (
             <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8">
               <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
                 <span className="text-blue-600 font-bold mr-2">•</span>{reason}
@@ -223,7 +223,7 @@ export default function AppealCasesPage() {
         </Typography>
 
         <div className="space-y-4">
-          {faqs.map((faq, idx) => (
+          {faqs.map((faq: any, idx: number) => (
             <div key={idx} className="bg-white border border-gray-200 rounded-lg overflow-hidden">
               <button
                 onClick={() => setExpandedFAQ(expandedFAQ === idx ? null : idx)}
@@ -255,7 +255,7 @@ export default function AppealCasesPage() {
         </Typography>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {advantages.map((adv, idx) => (
+          {advantages.map((adv: any, idx: number) => (
             <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
               <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
                 {adv.title}

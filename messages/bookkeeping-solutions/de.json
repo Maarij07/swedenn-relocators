@@ -1,48 +1,221 @@
 {
   "bookkeepingSolutions": {
     "hero": {
-      "title": "Buchhaltungslösungen",
-      "subtitle": "Komplette Buchhaltung Einfach Gemacht"
+      "title": "Buchführungslösungen",
+      "subtitle": "Buchhaltung und Finanzmanagement vereinfacht"
     },
     "intro": {
-      "heading": "Vereinfachte Finanzielle Verwaltung für Schweden",
-      "description": "Buchhaltung und Rechnungslegung in Schweden können komplex sein, besonders für Unternehmen mit internationalen Mitarbeitern, mehreren Geschäftstätigkeiten oder Umzugsfällen. Sweden Relocators bietet eine komplette Buchhaltungslösung über unser sicheres Online-Portal und Mobile App, die Einzelpersonen, Familien und Unternehmen eine einfache Möglichkeit bietet, alle Finanz- und Compliance-Aufgaben an einem Ort zu verwalten.",
-      "commitment": "Von monatlicher Buchhaltung und Ausgabenverfolgung bis zu Lohnzetteln, Anstellungsunterlagen und Skatteverket-Erklärungen (Steuerbehörde) stellen wir sicher, dass Ihre Finanzen genau, transparent und vollständig mit schwedischen Bestimmungen konform sind."
+      "heading": "Vereinfachte Finanzverwaltung in Schweden",
+      "description": "Die Verwaltung von Abschluss und Buchhaltung in Schweden kann komplex sein, besonders für Unternehmen mit internationalen Mitarbeitern, mehreren Geschäftsabläufen oder Verlagerungssituationen. Sweden Relocators bietet eine umfassende Buchführungslösung über unser sicheres Online-Portal und die mobile App an, die Personen, Familien und Unternehmen eine einfache Möglichkeit bietet, alle Finanz- und Compliance-Aufgaben an einem Ort zu verwalten.",
+      "commitment": "Von der monatlichen Abschlussbearbeitung und Ausgabenverfolgung bis zur Gehaltsadministration, Beschäftigungsunterlagen und Skatteverket-Meldungen (Steuerbehörde) stellen wir sicher, dass Ihre Finanzen präzise, transparent und vollständig den schwedischen Vorschriften entsprechen."
     },
-    "getStarted": {
-      "heading": "So Kommen Sie Los",
+    "whyMatters": {
+      "heading": "Warum Buchhaltung in Schweden wichtig ist",
+      "description": "Schweden hat ein transparentes, aber streng reguliertes Finanzsystem. Jedes Unternehmen, von kleinen Firmen bis zu multinationalen Konzernen, ist verpflichtet, genaue Buchhaltung gemäß dem Buchführungsgesetz (Bokföringslagen) und anderen relevanten Steuergesetzen zu führen.",
+      "risks": [
+        "Strafzahlungen von Skatteverket",
+        "Rechtliche Risiken durch unvollständige Meldung",
+        "Verzögerungen bei der Gehaltsabrechnung und Leistungen",
+        "Herausforderungen bei Prüfungen und Finanzauswertungen"
+      ],
+      "closing": "Unsere Buchführungsdienstleistungen lösen diese Herausforderungen durch die Kombination von fachlicher Expertise und Technologie und machen es einfach, Ihre monatlichen, vierteljährlichen und jährlichen Verpflichtungen zu erfüllen."
+    },
+    "howWorks": {
+      "heading": "So funktioniert unsere digitale Buchführungslösung",
+      "intro": "Unser umfassendes Portal ermöglicht es Unternehmen und Personen, die Buchhaltung effizient zu verwalten:",
       "steps": [
         {
           "number": 1,
-          "title": "Auf Unserem Portal Registrieren",
-          "description": "Melden Sie sich als Einzelperson oder Unternehmen an."
+          "title": "Dokumente hochladen",
+          "details": "Laden Sie monatlich einfach Rechnungen, Quittungen, Verträge und andere Finanzdokumente in unser sicheres Portal hoch. Dateien können gescannt, direkt hochgeladen oder durch automatische Integration gemeinsam genutzt werden."
         },
         {
           "number": 2,
-          "title": "Dokumente Monatlich Hochladen",
-          "description": "Reichen Sie Rechnungen, Verträge und Quittungen direkt online ein."
+          "title": "Datenverarbeitung und Buchhaltung",
+          "details": "Unsere Buchhalter und unser KI-gestütztes System verarbeiten die Daten. Transaktionen werden klassifiziert, abgestimmt, erfasst und gemäß schwedischen Buchführungsstandards verarbeitet. Fehler oder fehlende Informationen werden sofort gekennzeichnet."
+        },
+        {
+          "number": 3,
+          "title": "Gehalt und Gehaltsabrechnung",
+          "details": "Gehalt ist in die Buchhaltung integriert. Mitarbeiter erhalten digitale Gehaltsabrechnungen über das Portal mit Details zu Steuern, Sozialversicherungsbeiträgen und Leistungen. Arbeitgeber haben Zugriff auf monatliche Gehaltsberichte, um vollständige Transparenz zu gewährleisten."
+        },
+        {
+          "number": 4,
+          "title": "Beschäftigungs- und Compliance-Berichte",
+          "details": "Arbeitsverträge, Zeiterfassung und Leistungsregister werden direkt im System verwaltet. Unser Portal generiert Meldungen an Skatteverket, einschließlich Einkommensteuer und Arbeitgeierbeiträge."
+        },
+        {
+          "number": 5,
+          "title": "Erklärungen und Einreichungen",
+          "details": "Monatliche, vierteljährliche und jährliche Erklärungen werden vorbereitet und bei der Steuerbehörde (Skatteverket) eingereicht. Sie erhalten Bestätigung und digitale Aufzeichnungen für jede Einreichung."
+        },
+        {
+          "number": 6,
+          "title": "Sichere Speicherung und Wiederherstellung",
+          "details": "Alle Finanzdaten werden in der Cloud sicher gespeichert. Kunden können Dokumente, Berichte und Aufzeichnungen problemlos für Prüfungen oder Innenrevisionen abrufen."
+        }
+      ]
+    },
+    "servicesIncluded": {
+      "heading": "In unserer Buchführungslösung enthaltene Dienstleistungen",
+      "intro": "Wir decken alle Aspekte der Buchhaltung, Gehaltsadministration und Finanzverwaltung ab:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Monatliche Buchhaltung",
+          "items": [
+            "Eingabe von Rechnungen, Quittungen und Kontoauszügen",
+            "Klassifizierung von Ausgaben und Einnahmen",
+            "Automatische Überprüfung auf Fehler oder Duplikate"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Gehaltsadministration",
+          "items": [
+            "Gehaltsberechnung basierend auf Verträgen und Stunden",
+            "Steuerabzüge und Sozialversicherungsbeiträge",
+            "Digitale Gehaltsabrechnungen in mehreren Sprachen verfügbar"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Erklärungen und Compliance",
+          "items": [
+            "Vorbereitung der Mehrwertsteuer",
+            "Arbeitgebermeldung (Arbetsgivardeklaration)",
+            "Jährliche Einkommens- und Unternehmenseinreichungen"
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Beschäftigungsunterlagen",
+          "items": [
+            "Arbeitsverträge sicher gespeichert",
+            "Verfolgung und Meldung von Leistungen",
+            "Jährliche Zusammenfassungen für Mitarbeiter"
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Finanzielle Berichte",
+          "items": [
+            "Monatliche Gewinn- und Verlustrechnungen",
+            "Bilanz und Cashflow-Berichte",
+            "Angepasste Berichte für Management und Investoren"
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Unterstützung für Prüfungen und Überwachung",
+          "items": [
+            "Dokumentation für Steuertrevisionen vorbereitet",
+            "Anleitung durch Finanzprüfungen von schwedischen Behörden"
+          ]
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Warum Sweden Relocators für Buchhaltung wählen?",
+      "advantages": [
+        {
+          "title": "Ein Portal für alle Bedürfnisse",
+          "description": "Gehalt, Buchhaltung, Erklärungen und Personalverwaltung an einem Ort."
+        },
+        {
+          "title": "Compliance-Sicherung",
+          "description": "Alle Prozesse folgen dem Buchführungsgesetz und den Skatteverket-Bestimmungen."
+        },
+        {
+          "title": "Genauigkeit und Transparenz",
+          "description": "Berichte in Echtzeit mit voller Sichtbarkeit für Arbeitgeber und Arbeitnehmer."
+        },
+        {
+          "title": "Zeit- und Kostenersparnis",
+          "description": "Keine Notwendigkeit für hauseigene Buchhalter oder mehrere externe Anbieter."
+        },
+        {
+          "title": "Mehrsprachiger Support",
+          "description": "Berichte und Unterstützung in Deutsch, Englisch, Schwedisch und mehr verfügbar."
+        },
+        {
+          "title": "Relocation-Integration",
+          "description": "Ideal für Unternehmen, die Mitarbeiter nach Schweden verlegen, da wir Wohnen, Gehalt und Migration in einem System verbinden."
+        }
+      ]
+    },
+    "forCompanies": {
+      "heading": "Buchhaltung für Unternehmen",
+      "intro": "Unsere Lösungen sind ideal für:",
+      "targetMarkets": [
+        "Kleine und mittelständische Unternehmen: vereinfachte Buchhaltung ohne Einstellung von Vollzeitbuchhaltern",
+        "Startups: einfache Konfiguration von Gehalt und Buchhaltung während des Expansionsbetriebs",
+        "Globale Unternehmen: Verwaltung lokaler Mitarbeiter in Schweden ohne Gründung einer Finanzabteilung",
+        "Freiberufler und Unternehmer: Verwaltung von Rechnungsstellung, Steuern und Berichten, während Sie sich auf Projekte konzentrieren"
+      ],
+      "capabilities": "Über unser Portal können Unternehmen:",
+      "capabilities_items": [
+        "Mitarbeiter registrieren",
+        "Gehalt und Leistungen verwalten",
+        "Monatliche Rechnungslegungserklärungen und Mehrwertsteuerberichte generieren",
+        "Auf sichere Finanzunterlagen zur Prüfung und Wachstumplanung zugreifen"
+      ]
+    },
+    "forIndividuals": {
+      "heading": "Buchhaltung für Personen und Familien",
+      "intro": "Wir unterstützen auch einzelne Kunden mit:",
+      "services": [
+        "Gehaltsabrechnungen für persönliche Steuererklärungen",
+        "Jährliche Einkommenerklärungen an Skatteverket",
+        "Verfolgung von Wohnkosten und persönlichen Investitionen oder Mieteinnahmen",
+        "Vorbereitung von Unterlagen für Hypotheken, Darlehen oder Wohnungsanträge"
+      ],
+      "closing": "Dies erleichtert es Personen und Familien, die nach Schweden ziehen, konform und organisiert zu bleiben."
+    },
+    "legalReferences": {
+      "heading": "Rechtliche Verweise und Compliance",
+      "intro": "Unsere Buchführungsdienstleistungen entsprechen:",
+      "references": [
+        "Bokföringslagen (1999:1078) – Schwedisches Buchführungsgesetz",
+        "Årsredovisningslagen – Gesetz über Jahresabschlüsse",
+        "Skatteverket-Bestimmungen – Quellensteuer-Erklärungen, Mehrwertsteuer und Arbeitgeberbeiträge",
+        "GDPR – Datenschutz für alle Finanzunterlagen"
+      ]
+    },
+    "getStarted": {
+      "heading": "Die ersten Schritte",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registrieren Sie sich auf unserem Portal",
+          "description": "Registrieren Sie sich als Person oder Unternehmen."
+        },
+        {
+          "number": 2,
+          "title": "Dokumente monatlich hochladen",
+          "description": "Senden Sie Rechnungen, Verträge und Quittungen direkt online."
         },
         {
           "number": 3,
           "title": "Automatisierte Buchhaltung",
-          "description": "Wir bearbeiten Gehalt, Buchhaltung und Erklärungen."
+          "description": "Wir behandeln Gehalt, Buchhaltung und Erklärungen."
         },
         {
           "number": 4,
-          "title": "Berichte und Lohnzettel Erhalten",
-          "description": "Erhalten Sie jederzeit Zugang zu digitalen Lohnzetteln, Steuererklärungen und Finanzberichten."
+          "title": "Erhalten Sie Berichte und Abrechnungen",
+          "description": "Jederzeit Zugriff auf digitale Gehaltsabrechnungen, Steuererklärungen und Finanzberichte."
         },
         {
           "number": 5,
-          "title": "Konform Bleiben",
-          "description": "Wir stellen sicher, dass Ihre Unterlagen die schwedischen und EU-Anforderungen erfüllen."
+          "title": "Bleiben Sie konform",
+          "description": "Wir stellen sicher, dass Ihre Aufzeichnungen den Anforderungen Schwedens und der EU entsprechen."
         }
       ]
     },
     "contact": {
-      "heading": "Vereinfachen Sie Ihre Buchhaltung Heute",
-      "description": "Hören Sie auf, sich um Compliance zu sorgen und konzentrieren Sie sich auf das Wachstum Ihres Unternehmens. Lassen Sie Sweden Relocators Ihre Buchhaltung, Gehaltsabrechnung und Finanzverwaltung übernehmen.",
-      "cta": "Melden Sie sich heute an und erhalten Sie eine kostenlose Beratung mit unseren Buchhaltungsexperten. Beginnen Sie, Ihre schwedischen Finanzen effizient zu verwalten!"
+      "heading": "Vereinfachen Sie Ihre Buchhaltung heute",
+      "description": "Hören Sie auf, sich um Compliance zu sorgen, und konzentrieren Sie sich auf das Wachstum Ihres Unternehmens. Lassen Sie Sweden Relocators Buchhaltung, Gehalt und Finanzverwaltung übernehmen.",
+      "cta": "Registrieren Sie sich noch heute und erhalten Sie eine kostenlose Beratung mit unseren Buchführungsexperten. Beginnen Sie damit, Ihre schwedischen Finanzen effizient zu verwalten!"
     }
   }
 }

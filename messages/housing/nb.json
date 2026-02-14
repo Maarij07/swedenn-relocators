@@ -1,22 +1,122 @@
 {
-  "housing": {
-    "hero": {
-      "title": "Boligløsninger i Sverige",
-      "subtitle": "med Sweden Relocators"
-    },
-    "intro": {
-      "heading": "Din Partner i Boligsøket i Sverige",
-      "description": "Å finne et hjem er ett av de viktigste stegene når du flytter til Sverige. Enten du flytter alene, med familien din, bringer ansatte som bedrift, eller administrerer eiendommer som boligutbyder, setter den rette boligløsningen grunnlaget for en smidig relokalisering.",
-      "platform": "I Sweden Relocators kombinerer vi årevis med flytningserfaringer med en moderne digital plattform som forbinder leietakere, bedrifter og boligutbyders på ett sted. Våre tjenester går utover utleie og kjøp—vi tilbyr korttidsleie, langtidsleie, eiendomssalg, boliglånsstøtte og profesjonelle eiendomsnoteringsløsninger. På denne måten kan individer, familier og organisasjoner håndtere hele boligomfaringen sin gjennom en enkelt, sikker portal."
-    },
-    "forIndividuals": {
-      "heading": "Bolig for Enkeltpersoner og Familier",
-      "intro": "Å flytte som enkeltperson eller familie kan føles overveldende. Fra midlertidige boligplasser til permanente hjem, sikrer Sweden Relocators at du har pålitelige alternativer på hvert trinn."
-    },
-    "contact": {
-      "heading": "Kom i Gang med Sweden Relocators",
-      "description": "Enten du leter etter korttidsleie, planlegger et langtidsopphold, kjøper eller selger eiendom, eller noterer bolig som utbyder, gjør Sweden Relocators prosessen transparent, sikker og effektiv.",
-      "cta": "Send inn boliganmodningen din eller registrer eiendommen din på portalen vår i dag. La Sweden Relocators matche deg med riktig boligløsning i Sverige."
+    "housing": {
+        "hero": {
+            "title": "Boligløsninger i Sverige",
+            "subtitle": "med Sweden Relocators"
+        },
+        "intro": {
+            "heading": "Din Partner i Boligsøket i Sverige",
+            "description": "Å finne et hjem er ett av de viktigste stegene når du flytter til Sverige. Enten du flytter alene, med familien din, bringer ansatte som bedrift, eller administrerer eiendommer som boligutbyder, setter den rette boligløsningen grunnlaget for en smidig relokalisering.",
+            "platform": "I Sweden Relocators kombinerer vi årevis med flytningserfaringer med en moderne digital plattform som forbinder leietakere, bedrifter og boligutbyders på ett sted. Våre tjenester går utover utleie og kjøp—vi tilbyr korttidsleie, langtidsleie, eiendomssalg, boliglånsstøtte og profesjonelle eiendomsnoteringsløsninger. På denne måten kan individer, familier og organisasjoner håndtere hele boligomfaringen sin gjennom en enkelt, sikker portal."
+        },
+        "forIndividuals": {
+            "heading": "Bolig for Enkeltpersoner og Familier",
+            "intro": "Å flytte som enkeltperson eller familie kan føles overveldende. Fra midlertidige boligplasser til permanente hjem, sikrer Sweden Relocators at du har pålitelige alternativer på hvert trinn.",
+            "services": [
+                {
+                    "title": "Korttidsleie",
+                    "description": "Korttidsleieboliger er designet for mennesker som har behov for et sted å bo øjeblikkeligt etter ankomst til Sverige. Disse eiendommene er normalt møblert og klar til innflytting."
+                },
+                {
+                    "title": "Langtidsleie",
+                    "description": "Hvis du planlegger å bli i Sverige i lengre tid, tilbyr vi adgang til leiligheter, hus, delte rom og samboer-rom i hele landet. Alle kontrakter overholder fullt ut norsk leielovgivning."
+                },
+                {
+                    "title": "Kjøp og Salg av Eiendom",
+                    "description": "Mange nykommere bestemmer seg for å kjøpe eiendom når de har slått seg ned. Sweden Relocators forbinder deg med lisensierte eiendomsmeglere som administrerer kjøps- og salgsprosessen fra start til slutt."
+                },
+                {
+                    "title": "Boliglån og Finansiell Støtte",
+                    "description": "Kjøp av eiendom i Sverige krever ofte lokal boliglånsstøtte. For utlendinger kan denne prosessen være kompleks. Vi tilbyr omfattende assistanse gjennom hele boliglånsprosessen."
+                }
+            ]
+        },
+        "forEmployers": {
+            "heading": "Boligløsninger for Arbeidsgivere og Bedrifter",
+            "intro": "Bedrifter som forflytter ansatte trenger pålitelig bolig for å sikre at personalet føler seg komfortabel og trygg fra første dag. Sweden Relocators tilbyr bedriftsboligløsninger som forenkler denne prosessen.",
+            "services": [
+                "Send inn boligavtaler for ansatte gjennom vår digitale portal",
+                "Velg mellom leiligheter, møblerte hjem og bedriftsbolig",
+                "Administrer flere ansatte og kontrakter på en plattform",
+                "Integrer bolig med andre flyttingstjenester"
+            ],
+            "ideal": "Denne tjenesten er ideell for multinasjonale bedrifter, bemanningsbyrår, universiteter og NGO-er. Ved å administrere bolig sentralt sparer bedrifter tid, reduserer risiko og gir ansatte en problemfri overgang til svensk liv."
+        },
+        "forProviders": {
+            "heading": "Boligutbyders og Eiendomsselskaper",
+            "intro": "Vår plattform fungerer også som en port for utleiere, boligselskaper og eiendomsutbyders som ønsker å notere eiendommene sine. Ved å samarbeide med Sweden Relocators får du tilgang til verifiserte leietakere.",
+            "process": {
+                "heading": "Hvordan Liste Eiendommene Dine",
+                "steps": [
+                    {
+                        "number": 1,
+                        "title": "Registrer deg som Boligpartner",
+                        "description": "Opprett en konto på vår portal."
+                    },
+                    {
+                        "number": 2,
+                        "title": "Last opp Annonser",
+                        "description": "Legg til leiligheter, hus, delte rom med beskrivelser, bilder og priser."
+                    },
+                    {
+                        "number": 3,
+                        "title": "Angi Betingelser",
+                        "description": "Velg mellom korttidsleie, langtidsleie eller bedriftsbolig."
+                    },
+                    {
+                        "number": 4,
+                        "title": "Få Verifiserte Leietakere",
+                        "description": "Vi forbinder deg med pålitelige leietakere fra individer til bedrifter."
+                    },
+                    {
+                        "number": 5,
+                        "title": "Administrer Online",
+                        "description": "Bruk vår portal for kontrakter, fornyelser og betalingssporing."
+                    }
+                ]
+            },
+            "benefits": {
+                "heading": "Fordeler med å Liste hos oss",
+                "items": [
+                    "Eksponering for internasjonale og bedriftsleietakere",
+                    "Leietaker-kontroll og juridisk korrekte leieavtaler",
+                    "Tilgang til bedrifter som trenger bolig for ansatte",
+                    "Full integrering med våre flyttingstjenester",
+                    "Mulighet for å merke annonser som korttidsleie"
+                ]
+            }
+        },
+        "whyChooseUs": {
+            "heading": "Hvorfor velge Sweden Relocators for Bolig?",
+            "advantages": [
+                {
+                    "title": "Enkeltpersoner og Familier",
+                    "description": "Verifisert leie, sikre kontrakter, eiendomskjøp og boliglånsstøtte."
+                },
+                {
+                    "title": "Bedrifter",
+                    "description": "Bulkboligadministrasjon, integrasjon av flyttinger og bedriftsbolig."
+                },
+                {
+                    "title": "Boligutbyders",
+                    "description": "Tilgang til globale flyttigskunder, bedriftspartnerskaper og sikker leietakermatch."
+                },
+                {
+                    "title": "Alle Eiendomstyper",
+                    "description": "Leiligheter, hus, delte rom, samboer og investeringseiendommer."
+                },
+                {
+                    "title": "Profesjonelle Meglere",
+                    "description": "Registrerte eiendomseksperter for eiendomssalg og kjøp."
+                },
+                {
+                    "title": "End-to-End-plattform",
+                    "description": "Administrer forespørsler, bestillinger og annonser på ett sted."
+                }
+            ]
+        },
+        "heading": "Kom i Gang med Sweden Relocators",
+        "description": "Enten du leter etter korttidsleie, planlegger et langtidsopphold, kjøper eller selger eiendom, eller noterer bolig som utbyder, gjør Sweden Relocators prosessen transparent, sikker og effektiv.",
+        "cta": "Send inn boliganmodningen din eller registrer eiendommen din på portalen vår i dag. La Sweden Relocators matche deg med riktig boligløsning i Sverige."
     }
-  }
 }

@@ -1,22 +1,122 @@
 {
-  "housing": {
-    "hero": {
-      "title": "Huisvestingsoplossingen in Zweden",
-      "subtitle": "met Sweden Relocators"
-    },
-    "intro": {
-      "heading": "Uw Partner in de Huisvesting in Zweden",
-      "description": "Het vinden van een huis is een van de belangrijkste stappen bij het verhuizen naar Zweden. Of u alleen verhuist, met uw gezin, werknemers als bedrijf verplaatst of eigendommen als huisvestingsaanbieder beheert—de juiste huisvestingsoplossing vormt de basis voor een soepel verhuizing.",
-      "platform": "Bij Sweden Relocators combineren we jaren verhuis-ervaring met een modern digitaal platform dat huurders, bedrijven en huisvestingsaanbieders op één plek verbindt. Onze diensten gaan verder dan huren en aankopen—we bieden korte termijn huur, lange termijn huur, onroerend goed verkoop, hypotheekondersteuning en professionele huisvestingslijstoplossingen. Op deze manier kunnen individuen, gezinnen en organisaties hun gehele huisvestingsreis via een enkel, veilig portaal beheren."
-    },
-    "forIndividuals": {
-      "heading": "Huisvesting voor Individuen en Gezinnen",
-      "intro": "Verhuizen als individu of gezin kan overweldigend voelen. Van tijdelijke huisvestingsplaatsen tot permanente huizen zorgt Sweden Relocators ervoor dat u op elk moment betrouwbare opties hebt."
-    },
-    "contact": {
-      "heading": "Aan de slag met Sweden Relocators",
-      "description": "Of u op zoek bent naar korte termijn huur, een lang verblijf plant, onroerend goed koopt of verkoopt, of huisvesting als aanbieder vermeldt, Sweden Relocators maakt het proces transparant, veilig en efficiënt.",
-      "cta": "Dien uw huisvestingsverzoek in of registreer uw eigendom vandaag op ons portaal. Laat Sweden Relocators u koppelen aan de juiste huisvestingsoplossing in Zweden."
+    "housing": {
+        "hero": {
+            "title": "Huisvestingsoplossingen in Zweden",
+            "subtitle": "met Sweden Relocators"
+        },
+        "intro": {
+            "heading": "Uw Partner in de Huisvesting in Zweden",
+            "description": "Het vinden van een huis is een van de belangrijkste stappen bij het verhuizen naar Zweden. Of u alleen verhuist, met uw gezin, werknemers als bedrijf verplaatst of eigendommen als huisvestingsaanbieder beheert—de juiste huisvestingsoplossing vormt de basis voor een soepel verhuizing.",
+            "platform": "Bij Sweden Relocators combineren we jaren verhuis-ervaring met een modern digitaal platform dat huurders, bedrijven en huisvestingsaanbieders op één plek verbindt. Onze diensten gaan verder dan huren en aankopen—we bieden korte termijn huur, lange termijn huur, onroerend goed verkoop, hypotheekondersteuning en professionele huisvestingslijstoplossingen. Op deze manier kunnen individuen, gezinnen en organisaties hun gehele huisvestingsreis via een enkel, veilig portaal beheren."
+        },
+        "forIndividuals": {
+            "heading": "Huisvesting voor Individuen en Gezinnen",
+            "intro": "Verhuizen als individu of gezin kan overweldigend voelen. Van tijdelijke huisvestingsplaatsen tot permanente huizen zorgt Sweden Relocators ervoor dat u op elk moment betrouwbare opties hebt.",
+            "services": [
+                {
+                    "title": "Korte Termijn Huur",
+                    "description": "Korte termijn eigendom is ontworpen voor mensen die onmiddellijk na aankomst in Zweden een plek nodig hebben om te wonen. Deze eigendom is meestal gemeubileerd en klaar om in te trekken."
+                },
+                {
+                    "title": "Lange Termijn Huur",
+                    "description": "Als u van plan bent langer in Zweden te blijven, bieden we toegang tot appartementen, villa's, gedeelde kamers en samenwoonruimtes in het hele land. Alle contracten voldoen volledig aan de Nederlandse huurwetgeving."
+                },
+                {
+                    "title": "Aankoop en Verkoop van Onroerend Goed",
+                    "description": "Veel nieuwkomers besluiten onroerend goed te kopen zodra ze zich hebben gevestigd. Sweden Relocators verbindt u met erkende makelaarskantoren die het gehele koop- en verkoopproces beheren."
+                },
+                {
+                    "title": "Hypotheek en Financiële Ondersteuning",
+                    "description": "Het kopen van onroerend goed in Zweden vereist vaak lokale hypotheekondersteuning. Voor buitenlanders kan dit proces complex zijn. We bieden volledige ondersteuning gedurende de gehele hypotheekreis."
+                }
+            ]
+        },
+        "forEmployers": {
+            "heading": "Huisvestingsoplossingen voor Werkgevers en Bedrijven",
+            "intro": "Bedrijven die werknemers verplaatsen hebben betrouwbare huisvesting nodig om ervoor te zorgen dat het personeel zich vanaf dag één op zijn gemak en veilig voelt. Sweden Relocators biedt huisvestingsoplossingen voor bedrijven die dit proces vereenvoudigen.",
+            "services": [
+                "Dien huisvestingsverzoeken voor werknemers in via ons digitale portaal",
+                "Kies uit appartementen, gemeubileerde huizen en bedrijfshuisvesting",
+                "Beheer meerdere werknemers en contracten op één platform",
+                "Integreer huisvesting met andere verhuisservices"
+            ],
+            "ideal": "Deze dienst is ideaal voor multinationale bedrijven, uitzendingsbureaus, universiteiten en NGO's. Door huisvesting centraal te beheren, besparen bedrijven tijd, verminderen risico's en bieden werknemers een soepele overgang naar het Zweedse leven."
+        },
+        "forProviders": {
+            "heading": "Huisvestingsaanbieders en Onroerend Goed Bedrijven",
+            "intro": "Ons platform fungeert ook als poort voor verhuurders, huisvestingbedrijven en onroerend goed aanbieders die hun eigendommen willen vermelden. Door samen te werken met Sweden Relocators hebt u toegang tot geverifieerde huurders.",
+            "process": {
+                "heading": "Hoe Uw Eigendommen op te Sommen",
+                "steps": [
+                    {
+                        "number": 1,
+                        "title": "Registreer als Huisvestingspartner",
+                        "description": "Maak een account op ons portaal."
+                    },
+                    {
+                        "number": 2,
+                        "title": "Upload Aanbiedingen",
+                        "description": "Voeg appartementen, villa's, gedeelde kamers toe met beschrijvingen, foto's en prijzen."
+                    },
+                    {
+                        "number": 3,
+                        "title": "Stel Voorwaarden In",
+                        "description": "Kies tussen korte termijn huur, lange termijn huur of bedrijfshuisvesting."
+                    },
+                    {
+                        "number": 4,
+                        "title": "Krijg Geverifieerde Huurders",
+                        "description": "We verbinden u met betrouwbare huurders, van individuen tot bedrijven."
+                    },
+                    {
+                        "number": 5,
+                        "title": "Beheer Online",
+                        "description": "Gebruik ons portaal voor contracten,verlengingen en betalingsopvolging."
+                    }
+                ]
+            },
+            "benefits": {
+                "heading": "Voordelen van Vermelden bij Ons",
+                "items": [
+                    "Blootstelling aan internationale en zakelijke huurders",
+                    "Huurdercontrole en juridisch geldige huurovereenkomsten",
+                    "Toegang tot bedrijven die huisvesting voor werknemers nodig hebben",
+                    "Volledige integratie met onze verhuisservices",
+                    "Optie om aanbiedingen als korte termijn huur aan te merken"
+                ]
+            }
+        },
+        "whyChooseUs": {
+            "heading": "Waarom Sweden Relocators kiezen voor Huisvesting?",
+            "advantages": [
+                {
+                    "title": "Individuen en Gezinnen",
+                    "description": "Geverifieerde huren, veilige contracten, aankoop van onroerend goed en hypotheekondersteuning."
+                },
+                {
+                    "title": "Bedrijven",
+                    "description": "Bulkhuisvestingsbeheer, integratie van verhuizing en bedrijfshuisvesting."
+                },
+                {
+                    "title": "Huisvestingsaanbieders",
+                    "description": "Toegang tot globale verhuisclanten, zakelijke partnerschappen en veilige huurdermatching."
+                },
+                {
+                    "title": "Alle Soorten Eigendommen",
+                    "description": "Appartementen, villa's, gedeelde kamers, samenwonen en investeringseigendommen."
+                },
+                {
+                    "title": "Professionele Makelaars",
+                    "description": "Geregistreerde onroerend goed experts voor aankoop en verkoop van onroerend goed."
+                },
+                {
+                    "title": "End-to-End Platform",
+                    "description": "Beheer verzoeken, reserveringen en aanbiedingen op één plaats."
+                }
+            ]
+        },
+        "heading": "Aan de slag met Sweden Relocators",
+        "description": "Of u op zoek bent naar korte termijn huur, een lang verblijf plant, onroerend goed koopt of verkoopt, of huisvesting als aanbieder vermeldt, Sweden Relocators maakt het proces transparant, veilig en efficiënt.",
+        "cta": "Dien uw huisvestingsverzoek in of registreer uw eigendom vandaag op ons portaal. Laat Sweden Relocators u koppelen aan de juiste huisvestingsoplossing in Zweden."
     }
-  }
 }

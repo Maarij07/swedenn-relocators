@@ -1,0 +1,169 @@
+{
+  "lawyersConnect": {
+    "hero": {
+      "title": "Connexion Avocats",
+      "subtitle": "Solutions Juridiques Numériques Sous Une Seule Plateforme"
+    },
+    "intro": {
+      "heading": "Rendre les services juridiques simples, transparents et accessibles",
+      "description": "Les défis juridiques affectent tout le monde - qu'il s'agisse d'une personne qui demande une résidence, d'une famille confrontée à des litiges immobiliers ou d'une entreprise gérant la conformité et les contrats. Cependant, trouver le bon avocat en Suède ou dans toute l'Europe se sent souvent accablant.",
+      "solution": "Chez Sweden Relocators, nous avons conçu une solution numérique qui réunit clients et avocats sur une plateforme sécurisée. Notre service Lawyers Connect transforme la façon dont les services juridiques sont fournis.",
+      "closing": "Ce système assure que les individus, les familles, les entreprises et les avocats sont tous connectés en temps réel via un seul portail en ligne et une application. Tout est transparent, efficace et accessible du premier jour jusqu'à la résolution complète de l'affaire."
+    },
+    "whyNeeded": {
+      "heading": "Pourquoi une plateforme juridique numérique est nécessaire",
+      "intro": "Traditionnellement, l'accès aux services juridiques a été compliqué:",
+      "problems": [
+        "Les clients doivent identifier le bon avocat, souvent avec peu de compréhension des spécialités",
+        "Les avocats dépensent du temps à filtrer les demandes qui ne sont peut-être pas pertinentes",
+        "La communication est dispersée dans les appels, les e-mails et les documents",
+        "Les clients font face à l'incertitude concernant les coûts, les processus et les délais"
+      ],
+      "solution": "Notre plateforme Lawyers Connect résout ces problèmes en offrant un environnement centralisé, transparent et entièrement numérique."
+    },
+    "advantages": {
+      "forClients": {
+        "heading": "Avantages clés pour les clients",
+        "items": [
+          "Un point d'accès unique pour tous les types de questions juridiques",
+          "Un profil numérique clair, ce qui signifie qu'il n'est pas nécessaire de répéter les documents et les informations plusieurs fois",
+          "Suivi transparent du processus pour que les clients sachent toujours à quel stade est leur affaire",
+          "Accès à des avocats vérifiés, garantissant le professionnalisme et la fiabilité"
+        ]
+      },
+      "forLawyers": {
+        "heading": "Avantages clés pour les avocats",
+        "items": [
+          "Recevez uniquement les dossiers présélectionnés qui correspondent à votre spécialité",
+          "Évitez de perdre du temps dans le support et l'administration - nous nous en chargeons",
+          "Travaillez dans un portail sécurisé où tous les documents sont déjà rassemblés",
+          "Accédez à un flux constant de clients sans avoir besoin de marketing ou de réseautage"
+        ]
+      }
+    },
+    "howWorks": {
+      "heading": "Comment fonctionne Connexion Avocats - Étape par étape",
+      "intro": "Notre processus est conçu pour rendre les choses simples, transparentes et efficaces pour tous les impliqués.",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Le client crée un profil numérique",
+          "description": "Via notre portail en ligne ou notre application mobile, le client crée un profil. Il entre les détails de sa question juridique et télécharge des documents justificatifs."
+        },
+        {
+          "number": 2,
+          "title": "Sweden Relocators prépare l'affaire",
+          "description": "Notre équipe examine les informations du client et les organise dans un dossier d'affaire structuré."
+        },
+        {
+          "number": 3,
+          "title": "Correspondance avec le bon avocat",
+          "description": "Le dossier numérique est transféré à l'avocat le mieux adapté au dossier."
+        },
+        {
+          "number": 4,
+          "title": "Procuration et engagement",
+          "description": "Une fois que le client accepte, une procuration est établie au nom de l'avocat."
+        },
+        {
+          "number": 5,
+          "title": "L'avocat travaille, le client est tenu à jour",
+          "description": "L'avocat prend en charge le travail juridique tandis que toute communication reste dans notre portail."
+        },
+        {
+          "number": 6,
+          "title": "Finalisation et clôture du dossier",
+          "description": "Une fois que le travail juridique est terminé, l'avocat met à jour le portail et le client reçoit le résultat final."
+        }
+      ]
+    },
+    "forClients": {
+      "heading": "Pour les clients - Pourquoi choisir Lawyers Connect?",
+      "reasons": [
+        {
+          "number": 1,
+          "title": "Une plateforme pour tous les besoins",
+          "description": "Que tu demandes une résidence ou que tu gères un achat immobilier, tu n'as pas besoin de chercher différents cabinets juridiques."
+        },
+        {
+          "number": 2,
+          "title": "Processus transparent",
+          "description": "Tu sais toujours où en est ton affaire. Pas plus d'appels ou d'e-mails sans réponse."
+        },
+        {
+          "number": 3,
+          "title": "Avocats vérifiés",
+          "description": "Nous nous assurons que les avocats de notre plateforme sont autorisés, professionnels et expérimentés dans leur catégorie."
+        },
+        {
+          "number": 4,
+          "title": "Gain de temps et sans stress",
+          "description": "Au lieu d'expliquer ton affaire plusieurs fois, tu télécharges tes coordonnées une seule fois."
+        },
+        {
+          "number": 5,
+          "title": "Support multilingue",
+          "description": "Notre plateforme supporte l'anglais, le suédois, l'ourdou, l'arabe, le pendjabi, le serbe, le kurde, le persan et plus encore."
+        }
+      ]
+    },
+    "forLawyers": {
+      "heading": "Pour les avocats - Pourquoi rejoindre notre réseau?",
+      "intro": "Lawyers Connect n'est pas seulement axée sur les clients - elle est également conçue pour rendre le travail plus facile pour les avocats.",
+      "benefits": [
+        {
+          "title": "Concentrez-vous uniquement sur le travail juridique",
+          "description": "Sweden Relocators gère l'assistance client, l'admission et l'organisation des documents. Les avocats ne s'impliquent que lorsque leur expertise est nécessaire."
+        },
+        {
+          "title": "Dossiers présélectionnés",
+          "description": "Chaque dossier d'affaire est organisé, complet et pertinent avant d'être transféré. Pas de perte de temps sur les demandes sans rapport."
+        },
+        {
+          "title": "Flux de travail efficace",
+          "description": "Les avocats travaillent au sein du portail sécurisé, examinent l'affaire et laissent des notes une fois les tâches terminées."
+        },
+        {
+          "title": "Aucun marketing nécessaire",
+          "description": "Les clients viennent nous voir et nous les connectons avec vous. Pas de publicité, pas de chasse aux clients."
+        },
+        {
+          "title": "Flux constant de clients",
+          "description": "Notre objectif est d'avoir au moins deux avocats dans chaque catégorie, garantissant une demande constante et une collaboration."
+        },
+        {
+          "title": "Sécurité juridique et financière",
+          "description": "Les mandats sont formalisés via des accords numériques et des procurations. Les paiements sont gérés de manière transparente."
+        }
+      ],
+      "closing": "Ce modèle permet aux avocats de maximiser leurs heures facturables, tandis que Sweden Relocators garantit que l'expérience client est transparente et professionnelle."
+    },
+    "forCompanies": {
+      "heading": "Pour les entreprises - Solutions juridiques simplifiées",
+      "intro": "Les entreprises font souvent face à des problèmes juridiques complexes lors de l'expansion, de l'embauche ou du transfert d'employés. Avec Lawyers Connect, les entreprises peuvent:",
+      "capabilities": [
+        "Accéder aux avocats d'entreprise et de droit commercial directement via le portail",
+        "Gérer les dossiers d'immigration des employés en temps réel",
+        "Obtenir l'assistance sur les contrats, la conformité et les litiges sous un même toit",
+        "Donner aux employés accès aux avocats indépendants via la même plateforme"
+      ],
+      "benefit": "Cela assure que les entreprises économisent à la fois du temps et des ressources tout en maintenant une conformité complète avec la loi suédoise et européenne."
+    },
+    "importance": {
+      "heading": "Importance d'une plateforme numérique",
+      "intro": "Avoir des services juridiques dispersés dans plusieurs cabinets crée de la confusion, des retards et des coûts plus élevés. Notre plateforme Lawyers Connect centralise tout.",
+      "benefits": [
+        "Les clients bénéficient de clarté, de transparence et d'assistance vérifiée",
+        "Les avocats bénéficient de l'efficacité, de l'administration réduite et d'un flux de travail constant",
+        "Les entreprises bénéficient de solutions intégrées pour l'entreprise et les employés"
+      ],
+      "closing": "Le résultat est une approche moderne et axée sur le numérique des services juridiques, entièrement alignée avec la manière dont les gens et les entreprises fonctionnent aujourd'hui."
+    },
+    "conclusion": {
+      "heading": "L'avenir des services juridiques en Suède",
+      "description": "La plateforme Lawyers Connect de Sweden Relocators représente une nouvelle façon de fournir des services juridiques. En combinant la technologie, les professionnels vérifiés et un flux de travail transparent, nous rendons les processus juridiques plus rapides, plus simples et plus accessibles pour tous.",
+      "benefits": "Les clients ne perdent plus de temps à chercher le bon avocat. Les avocats ne perdent plus de temps en administration et marketing. Les entreprises obtiennent des solutions juridiques efficaces pour l'entreprise et les employés.",
+      "cta": "Tout se passe sous un même toit, sur une plateforme, en temps réel. Si tu es une personne, une famille ou une entreprise qui cherche une aide juridique, ou si tu es un avocat qui veut développer ta pratique avec moins d'administration et plus de vrai travail, Lawyers Connect de Sweden Relocators est la solution."
+    }
+  }
+}

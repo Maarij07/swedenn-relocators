@@ -1,0 +1,139 @@
+{
+  "manpowerSolutions": {
+    "hero": {
+      "title": "Henkilöstöpalvelut Ruotsissa",
+      "subtitle": "Yhdistä yritykset maailmanlaajuiseen kyvykkyyteen"
+    },
+    "intro": {
+      "heading": "Oikean tiimin rakentaminen kasvulle",
+      "description": "Sweden Relocatorsissa ymmärrämme, että oikeat ihmiset ohjaavat liiketoiminnan kasvua. Henkilöstöpalvelumme yhdistävät yritykset ja työnhakijat saumattoman alustan kautta - saatavilla verkko-portaalimme ja mobiilisovelluksemme kautta. Olipa kyseessä yritys, joka haluaa palkata maailmanlaajuisia kykyjä, tai henkilö, joka etsii mahdollisuuksia Ruotsissa, ratkaisumme kattavat jokaisen vaiheen rekrytoinnista uudelleensijoitukseen."
+    },
+    "forCompanies": {
+      "heading": "Yrityksille - rekrytoi ja siirrä oikea kyvykkyys",
+      "intro": "Oikeiden työntekijöiden löytäminen on yksi suurimmista liiketoiminnan haasteista. Portaalimme kautta yritykset voivat:",
+      "features": [
+        {
+          "title": "Julkaise työpaikat välittömästi",
+          "description": "Mainostaaksesi vapaita paikkoja kokopäiväisille, osa-aikaisille, projektitse tai kausittaisille rooleille."
+        },
+        {
+          "title": "Pääsy maailmanlaajuiseen kykyyn",
+          "description": "Rekrytoida sekä koulutettuja ammattilaisia että kouluttamatonta työvoimaa kansainvälisiltä markkinoilta."
+        },
+        {
+          "title": "Yrityksen kojelauta",
+          "description": "Hallinnoi hakemuksia, tarkista ansioluettelot ja seuraa rekrytointihinta yhdessä paikassa."
+        },
+        {
+          "title": "Työlupatuet ja maahanmuutto",
+          "description": "Varmista noudattaminen Ruotsin ja EU:n työlainsäädäntöön kun palkataan kansainvälisiä työntekijöitä."
+        },
+        {
+          "title": "Työntekijöiden uudelleensijoituspalvelut",
+          "description": "Tuemme työvoimaasi asunnolla, palkkapalvelulla, integraatiolla ja majoituspalveluilla palkkaamisen jälkeen."
+        }
+      ],
+      "closing": "Sweden Relocatorsin kanssa yritykset eivät vain palkkaa - he rakentavat kestäviä joukkueita, jotka vahvistavat pitkän aikavälin kasvua."
+    },
+    "forJobSeekers": {
+      "heading": "Työnhakijoille - rakenna uraa Ruotsissa",
+      "intro": "Henkilöstöportaalimme on suunniteltu auttamaan työnhakijoita löytämään oikean mahdollisuuden ja muuttamaan luottamuksella. Ehdokkaan voit:",
+      "features": [
+        {
+          "title": "Luo ammattimainen CV online",
+          "description": "Rakenna maailmanlaajuisesti tunnustettu CV suoraan portaaliimme."
+        },
+        {
+          "title": "Hae varmennettuja töitä",
+          "description": "Tutustu mahdollisuuksiin IT:ssä, rakentamisessa, terveydenhoidossa, logistiikassa, vieraanvaraisuudessa, vähittäiskaupassa ja muualla."
+        },
+        {
+          "title": "Seuraa hakemuksia",
+          "description": "Valvoo asemaasi reaaliajassa tilelläsi."
+        },
+        {
+          "title": "Uudelleensijoitus ja lupa-apu",
+          "description": "Palkattuasi olemme tukea viisumi-, työlupapalveluit ja integraatiopalveluita."
+        },
+        {
+          "title": "Uratasotyökalut",
+          "description": "Pääsy resursseihin haastattelujen valmistautumista ja Ruotsin työmarkkinoiden ymmärtämistä varten."
+        }
+      ],
+      "closing": "Teemme kansainvälisen uratasoilun yksinkertaiseksi, läpinäkyväksi ja tehokkaaksi."
+    },
+    "whyMatters": {
+      "heading": "Miksi oikea kyvykkyys on tärkeää",
+      "intro": "Oikeat työntekijät ovat enemmän kuin vain henkilöstöä - he ovat yrityksen kilpailuetu.",
+      "reasons": [
+        "Innovaatio ja kasvu - lahjakkaat työntekijät tuovat uusia ideoita ja parantavat kilpailukykyä",
+        "Tuottavuus - taitavat työntekijät työskentelevät tehokkaasti, mikä lisää kokonaistoimintaa",
+        "Maailmanlaajuinen tavoittavuus - kansainväliset työntekijät avaavat uusien markkinoiden ja asiakaskunnan ovet",
+        "Työntekijöiden säilyttäminen - oikean ottelun palkkaaminen vähentää vaihtuvuutta ja rakentaa vakautta",
+        "Asiakastyytyväisyys - vahvat joukkueet toimittavat parempia tuotteita ja palveluja"
+      ],
+      "closing": "Yhdistämällä yritykset kansainväliseen kykyyn Sweden Relocators varmistaa, että yritykset menestyvät ja työntekijät menestyksellisiä."
+    },
+    "process": {
+      "heading": "Täydellinen prosessi",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Yritykset rekisteröityvät",
+          "description": "Luo yritystili ja julkaista työpaikkailmoituksia."
+        },
+        {
+          "number": 2,
+          "title": "Työnhakijat rekisteröityvät",
+          "description": "Luo CV ja hae paikkoja."
+        },
+        {
+          "number": 3,
+          "title": "Älykäs täsmäytys",
+          "description": "Alustamme yhdistää ehdokkaat heidän taitoihinsa sopiviin rooleihin."
+        },
+        {
+          "number": 4,
+          "title": "Noudattaminen ja luvat",
+          "description": "Autamme visumien, työlupapalveluiden ja oikeudellisten vaatimusten kanssa."
+        },
+        {
+          "number": 5,
+          "title": "Uudelleensijoitustuki",
+          "description": "Työntekijöille avustetaan asunto, palkkapalvelulla ja integraatiolla tasaiselle asettamiselle."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Miksi valita Sweden Relocators?",
+      "advantages": [
+        {
+          "title": "Yksi digitaalinen alusta",
+          "description": "Hallinnoi rekrytointia, CV:itä ja uudelleensijoitusta yhdessä paikassa."
+        },
+        {
+          "title": "Luotettava maailmanlaajuinen verkko",
+          "description": "Pääsy kykyihin ja yrityksiin maailmanlaajuisesti."
+        },
+        {
+          "title": "Ruotsin ja EU:n lakien noudattaminen",
+          "description": "Turvallinen ja laillinen rekrytointi."
+        },
+        {
+          "title": "Päästä päähän tuki",
+          "description": "Rekrytoinnista uudelleensijoitukseen ja asettamiseen."
+        },
+        {
+          "title": "Tulevaisuuteen valmiita ratkaisuja",
+          "description": "Suunniteltu modernein liiketoimitutuksiin ja kansainvälisiin uriin."
+        }
+      ]
+    },
+    "nextSteps": {
+      "heading": "Ota seuraava askel",
+      "forCompanies": "Rekisteröidy portaalissamme luetteloida avoimia paikkoja ja rekryptoi maailmanlaajuinen kyvykkyys.",
+      "forJobSeekers": "Luo CV, hae töitä ja aloita uratasoina Ruotsissa.",
+      "closing": "Sweden Relocatorsissa henkilöstöpalvelumme antavat yrityksille voimaa kasvaa oikeiden ihmisten kanssa ja auttavat yksilöitä saavuttamaan uusia mahdollisuuksia Ruotsissa ja kaikkialla Euroopassa."
+    }
+  }
+}

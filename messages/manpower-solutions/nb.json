@@ -1,0 +1,139 @@
+{
+  "manpowerSolutions": {
+    "hero": {
+      "title": "Arbeidskraftløsninger i Sverige",
+      "subtitle": "Koble bedrifter til globalt talent"
+    },
+    "intro": {
+      "heading": "Bygge det rette teamet for vekst",
+      "description": "I Sweden Relocators forstår vi at de rette personene driver forretningsvekst. Våre arbeidskraftløsninger forbinder bedrifter og jobbsøkere gjennom en transparent plattform - tilgjengelig via vår nettportal og mobilapp. Enten du er en bedrift som ønsker å rekruttere globalt talent eller en person som søker muligheter i Sverige, dekker våre løsninger hver fase fra rekruttering til relokalisering."
+    },
+    "forCompanies": {
+      "heading": "For bedrifter - rekrutter og omstill det rette talentet",
+      "intro": "Å finne de rette ansatte er en av de største forretningsutfordringene. Via vår portal kan bedrifter:",
+      "features": [
+        {
+          "title": "Publiser stillinger for heltid, deltid, prosjekt eller sesongarbeid øyeblikkelig",
+          "description": "Annonsér dine ledige stillinger til ditt lokale og globale talentbasseng."
+        },
+        {
+          "title": "Tilgang til globalt talent",
+          "description": "Rekrutter kvalifiserte fagfolk og ufaglært arbeidskraft fra internasjonale markeder."
+        },
+        {
+          "title": "Bedriftsdashbord",
+          "description": "Administrer søknader, gjennomgå CV-er og spor rekrutteringsmetrikker på ett sted."
+        },
+        {
+          "title": "Støtte til arbeidsvisum og innvandring",
+          "description": "Sikre overholdelse av svensk og EU-lovgivning når du ansetter internasjonale arbeidstakere."
+        },
+        {
+          "title": "Ansattes relokalisseringstjenester",
+          "description": "Vi støtter ditt personale med bolig, lønnsservices, integrasjon og boligtjenester etter ansettelse."
+        }
+      ],
+      "closing": "Med Sweden Relocators anskaffer bedrifter ikke bare - de bygger bærekraftige team som driver langsiktig vekst."
+    },
+    "forJobSeekers": {
+      "heading": "For jobbsøkere - bygg karrieren din i Sverige",
+      "intro": "Vår arbeidskraftportal er designet for å hjelpe jobbsøkere med å finne den riktige muligheten og gjøre overgangen med selvtillit. Som kandidat kan du:",
+      "features": [
+        {
+          "title": "Lag en profesjonell CV online",
+          "description": "Bygg en CV anerkjent globalt direkte på vår portal."
+        },
+        {
+          "title": "Søk verifiserte jobber",
+          "description": "Utforsk muligheter innen IT, bygg, helsevesen, logistikk, hyttetjenester, detaljhandel og mer."
+        },
+        {
+          "title": "Spor søknader",
+          "description": "Overvåk søknadsstatusen din i sanntid via kontoen din."
+        },
+        {
+          "title": "Relokaliserings- og tillatesstøtte",
+          "description": "Når du er ansatt, støtter vi deg med visum, arbeidsvisum og integrasjonstjenester."
+        },
+        {
+          "title": "Karriereutviklingsverktøy",
+          "description": "Få tilgang til ressurser for å forberede deg på intervjuer og forstå svenske arbeidsmarkeder."
+        }
+      ],
+      "closing": "Vi gjør internasjonal karrieremobilitet enkel, gjennomsiktig og effektiv."
+    },
+    "whyMatters": {
+      "heading": "Hvorfor rett talent har betydning",
+      "intro": "De rette personene er langt mer enn personale - de er bedriftens konkurransefortrinn.",
+      "reasons": [
+        "Innovasjon og vekst - talentfulle ansatte bringer nye ideer og styrker konkurranseevnen",
+        "Produktivitet - dyktige arbeidstakere jobber effektivt og forsterker samlet ytelse",
+        "Global rekkevidde - internasjonale ansatte åpner dører til nye markeder og kundebase",
+        "Oppbevaring av ansatte - ansetting av rett person reduserer omsetning og skaper stabilitet",
+        "Kundetilfredshet - sterke team leverer bedre produkter og tjenester"
+      ],
+      "closing": "Ved å koble bedrifter til globalt talent sikrer Sweden Relocators at bedrifter blomstrer og ansatte lykkes."
+    },
+    "process": {
+      "heading": "Vår komplette prosess",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Bedrifter registrerer seg",
+          "description": "Opprett en bedriftskonto og publiser jobbtilbud."
+        },
+        {
+          "number": 2,
+          "title": "Jobbsøkere registrerer seg",
+          "description": "Opprett profilen din og søk jobber."
+        },
+        {
+          "number": 3,
+          "title": "Intelligent matching",
+          "description": "Vår plattform matcher kandidater med roller som passer til deres ferdigheter."
+        },
+        {
+          "number": 4,
+          "title": "Overholdelse og tillatelser",
+          "description": "Vi hjelper deg med visum, arbeidsvisum og juridiske krav."
+        },
+        {
+          "number": 5,
+          "title": "Relokalisseringsstøtte",
+          "description": "Ansatte får assistanse til bolig, lønnsservices og integrasjon for smidig plassering."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Hvorfor velge Sweden Relocators?",
+      "advantages": [
+        {
+          "title": "En enkelt digital plattform",
+          "description": "Administrer rekruttering, CV-er og relokalisering på ett sted."
+        },
+        {
+          "title": "Pålitelig globalt nettverk",
+          "description": "Få tilgang til talent og bedrifter i global skala."
+        },
+        {
+          "title": "Svensk og EU-overholdelse",
+          "description": "Sikker og lovlig ansettelse."
+        },
+        {
+          "title": "End-to-end-støtte",
+          "description": "Fra rekruttering til relokalisering og plassering."
+        },
+        {
+          "title": "Fremtidsorienterte løsninger",
+          "description": "Designet for moderne forretningsdrift og internasjonale karrierer."
+        }
+      ]
+    },
+    "nextSteps": {
+      "heading": "Ta neste skritt",
+      "forCompanies": "Registrer deg på vår plattform for å liste ledige stillinger og rekruttere globalt talent.",
+      "forJobSeekers": "Opprett profilen din, søk jobber og start karrieren din i Sverige.",
+      "closing": "I Sweden Relocators gir våre arbeidskraftløsninger bedrifter styrke til å vokse med de rette personene og hjelper individer med å realisere nye muligheter i Sverige og hele Europa."
+    }
+  }
+}

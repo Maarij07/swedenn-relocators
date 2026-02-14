@@ -1,221 +1,221 @@
 {
   "bookkeepingSolutions": {
     "hero": {
-      "title": "Regnskapstjenester",
-      "subtitle": "Komplett regnskap gjort enkelt"
+      "title": "Regnskapsløsninger",
+      "subtitle": "Gjør regnskap og økonomistyring enkel"
     },
     "intro": {
-      "heading": "Forenklet økonomistyring i Sverige",
-      "description": "Å håndtere bokføring og regnskap i Sverige kan være komplekst, spesielt for selskaper med internasjonale ansatte, flere forretningsområder eller relokaliseringssaker. Sweden Relocators tilbyr en komplett bokføringsløsning gjennom vår sikre nettportal og mobilapp, som gir enkeltpersoner, familier og bedrifter en enkel måte å håndtere alle økonomiske og juridiske forpliktelser på ett sted.",
-      "commitment": "Fra månedlig bokføring og utgiftssporing til lønnsslipper, ansettelsesregistre og deklarasjoner til det svenske Skatteverket, sikrer vi at økonomien din er nøyaktig, transparent og fullt ut i samsvar med svenske regelverk."
+      "heading": "Forenklet Økonomistyring i Sverige",
+      "description": "Å håndtere revisjon og regnskap i Sverige kan være komplekst, spesielt for bedrifter med internasjonale ansatte, flere forretningsoperasjoner eller relokasjonssituasjoner. Sweden Relocators tilbyr en komplett regnskapsløsning gjennom vår sikre nettportal og mobilapp, som gir enkeltpersoner, familier og bedrifter en enkel måte å håndtere alle finansielle oppgaver og samsvar på ett sted.",
+      "commitment": "Fra månedlig revisjonsbehandling og utgiftssporing til lønnsstyring, ansettelsesregistre og Skatteverket-erklæringer (Skattekontoret), sikrer vi at finansene dine er nøyaktige, transparente og fullt ut i samsvar med Sveriges regler."
     },
     "whyMatters": {
-      "heading": "Hvorfor bokføring er viktig i Sverige",
-      "description": "Sverige har et transparent, men strengt regulert finansielt system. Alle virksomheter, fra små oppstartsbedrifter til multinasjonale selskaper, er pålagt å føre korrekt regnskap i samsvar med den svenske bokføringsloven (Bokföringslagen) og andre relevante skatteregler.",
+      "heading": "Hvorfor Regnskap er Viktig i Sverige",
+      "description": "Sverige har et transparent, men strengt regulert finansielt system. Alle bedrifter, fra små bedrifter til multinasjonale selskaper, må føre nøyaktig regnskap i henhold til Bokföringsloven (Bokföringslagen) og andre relevante skattelover.",
       "risks": [
         "Skattebøter fra Skatteverket",
-        "Juridiske risikoer knyttet til ufullstendig rapportering",
-        "Forsinkelser i lønnsutbetalinger og behandling av ansattgoder",
-        "Utfordringer ved revisjon og økonomiske gjennomganger"
+        "Juridiske risikoer på grunn av ufullstendige rapporter",
+        "Forsinkelser i lønnshåndtering og ytelser",
+        "Utfordringer i revisjoner og finansielle evalueringer"
       ],
-      "closing": "Våre bokføringstjenester løser disse utfordringene ved å kombinere faglig ekspertise med moderne teknologi, slik at du enkelt kan oppfylle dine månedlige, kvartalsvise og årlige forpliktelser."
+      "closing": "Våre regnskapsservices løser disse utfordringene ved å kombinere faglig ekspertise og teknologi, noe som gjør det enkelt å oppfylle dine månedlige, kvartalsvise og årlige forpliktelser."
     },
     "howWorks": {
-      "heading": "Slik fungerer vår nettbaserte bokføringsløsning",
-      "intro": "Vår alt-i-ett-portal gjør det mulig for selskaper og enkeltpersoner å administrere bokføring effektivt:",
+      "heading": "Slik Fungerer Vår Digitale Regnskapsløsning",
+      "intro": "Vår omfattende portal gir bedrifter og enkeltpersoner mulighet til å håndtere regnskap effektivt:",
       "steps": [
         {
           "number": 1,
-          "title": "Opplasting av dokumenter",
-          "details": "Hver måned laster du enkelt opp fakturaer, kvitteringer, kontrakter og andre økonomiske dokumenter til vår sikre portal. Filer kan skannes, lastes opp direkte eller deles via automatiserte integrasjoner."
+          "title": "Last Opp Dokumenter",
+          "details": "Last opp fakturaer, kvitteringer, kontrakter og andre finansielle dokumenter til vår sikre portal hver måned. Filer kan skannes, lastes opp direkte eller deles gjennom automatisk integrering."
         },
         {
           "number": 2,
-          "title": "Databehandling og bokføring",
-          "details": "Våre regnskapsførere og vårt AI-baserte system behandler dataene. Transaksjoner kategoriseres, avstemmes og registreres i henhold til svenske regnskapsstandarder. Feil eller manglende informasjon flagges umiddelbart."
+          "title": "Databehandling og Regnskap",
+          "details": "Våre revisorer og AI-drevne system behandler dataene. Transaksjoner klassifiseres, avstemmes, registreres og behandles i henhold til svenske regnskapsstandarder. Feil eller manglende informasjon merkes umiddelbart."
         },
         {
           "number": 3,
-          "title": "Lønn og lønnsslipper",
-          "details": "Lønn er integrert med bokføringen. Ansatte mottar digitale lønnsslipper via portalen, med oversikt over skatt, sosiale avgifter og fordeler. Arbeidsgivere får tilgang til månedlige lønnsrapporter for full transparens."
+          "title": "Lønn og Lønnsslipp",
+          "details": "Lønn er integrert med regnskapet. Ansatte mottar digitale lønnsslipp gjennom portalen med detaljer om skatter, trygdeinnbetalinger og ytelser. Arbeidsgivere har tilgang til månedlige lønnsrapporter og sikrer full transparens."
         },
         {
           "number": 4,
-          "title": "Ansettelses- og samsvarsrapporter",
-          "details": "Arbeidskontrakter, timelister og oversikt over fordeler administreres direkte i systemet. Portalen genererer deklarasjonsrapporter til Skatteverket, inkludert inntektsskatt og arbeidsgiveravgifter."
+          "title": "Arbeids- og Samsvarrapporter",
+          "details": "Arbeidskontrakter, timeregistreringer og ytelsesregistre håndteres direkte i systemet. Vår portal genererer rapporter til Skatteverket, inkludert inntektsskatt og arbeidsgiveravgifter."
         },
         {
           "number": 5,
-          "title": "Deklarasjoner og innsendinger",
-          "details": "Månedlige, kvartalsvise og årlige deklarasjoner utarbeides og sendes inn til Skatteverket. Du mottar bekreftelse og digitale arkiver av hver innsending."
+          "title": "Erklæringer og Innleveringer",
+          "details": "Månedlige, kvartalsvise og årlige erklæringer blir utarbeidet og sendt til Skattekontoret (Skatteverket). Du mottar bekreftelse og digitale poster for hver innlevering."
         },
         {
           "number": 6,
-          "title": "Sikker lagring og tilgang",
-          "details": "Alle økonomiske data lagres sikkert i skyen. Kunder kan enkelt hente frem dokumenter, rapporter og registre ved revisjon, inspeksjon eller interne gjennomganger."
+          "title": "Sikker Lagring og Gjenoppretting",
+          "details": "Alle finansielle data lagres sikkert i skyen. Kunder kan enkelt hente dokumenter, rapporter og poster for revisjon eller interne gjennomganger."
         }
       ]
     },
     "servicesIncluded": {
-      "heading": "Tjenester inkludert i vår bokføringsløsning",
-      "intro": "Vi dekker alle aspekter av bokføring, lønn og økonomistyring:",
+      "heading": "Tjenester Inkludert i Vår Regnskapsløsning",
+      "intro": "Vi dekker alle aspekter av regnskap, lønnshåndtering og økonomistyring:",
       "services": [
         {
           "number": 1,
-          "title": "Månedlig bokføring",
+          "title": "Månedlig Regnskap",
           "items": [
-            "Registrering av fakturaer, kvitteringer og kontoutskrifter",
-            "Kategorisering av kostnader og inntekter",
-            "Automatiske kontroller for feil eller duplikater"
+            "Innlegging av fakturaer, kvitteringer og bankutskrifter",
+            "Klassifisering av utgifter og inntekter",
+            "Automatisk kontroll for feil eller duplikater"
           ]
         },
         {
           "number": 2,
-          "title": "Lønnsadministrasjon",
+          "title": "Lønnshåndtering",
           "items": [
-            "Lønnsberegning basert på kontrakter og arbeidstimer",
-            "Skatte- og trygdeavgiftsfradrag",
-            "Digitale lønnsslipper tilgjengelig på flere språk"
+            "Lønnsberegning basert på kontrakter og timer",
+            "Skattetrekk og trygdeavgifter",
+            "Digitale lønnsslipp tilgjengelig på flere språk"
           ]
         },
         {
           "number": 3,
-          "title": "Deklarasjoner og samsvar",
+          "title": "Erklæringer og Samsvar",
           "items": [
-            "MVA-rapportering (Moms)",
-            "Arbeidsgiverdeklarasjoner (Arbetsgivardeklaration)",
-            "Årlige inntektsrapporter og selskapsinnsendinger"
+            "Forberedelse av merverdiavgift",
+            "Arbeidsgivermelding (Arbetsgivardeklaration)",
+            "Årlig inntekts- og bedriftsrapportering"
           ]
         },
         {
           "number": 4,
-          "title": "Ansattregistre",
+          "title": "Ansettelsesregistre",
           "items": [
-            "Sikker lagring av arbeidsavtaler",
-            "Sporing og rapportering av goder",
-            "Årlige sammendrag for ansatte"
+            "Arbeidskontrakter lagret sikkert",
+            "Sporing og rapportering av ytelser",
+            "Årlige sammenfattelser for ansatte"
           ]
         },
         {
           "number": 5,
-          "title": "Økonomisk rapportering",
+          "title": "Finansielle Rapporter",
           "items": [
-            "Månedlige resultatregnskap",
-            "Balanser og kontantstrømrapporter",
+            "Månedlige resultatrapporter",
+            "Balanse og kontantstrømsrapporter",
             "Tilpassede rapporter for ledelse og investorer"
           ]
         },
         {
           "number": 6,
-          "title": "Revisjons- og inspeksjonsstøtte",
+          "title": "Revisjons- og Inspeksjonsstøtte",
           "items": [
-            "Forberedt dokumentasjon for skatterevisjoner",
-            "Veiledning ved økonomiske gjennomganger fra svenske myndigheter"
+            "Dokumentasjon utarbeidet for skatterevisjon",
+            "Veiledning under økonomiske gjennomganger fra svenske myndigheter"
           ]
         }
       ]
     },
     "whyChooseUs": {
-      "heading": "Hvorfor velge Sweden Relocators for bokføring?",
+      "heading": "Hvorfor Velge Sweden Relocators for Regnskap?",
       "advantages": [
         {
-          "title": "Én portal for alle behov",
-          "description": "Lønn, bokføring, deklarasjoner og ansattadministrasjon samlet på ett sted."
+          "title": "En Portal for Alle Behov",
+          "description": "Lønn, regnskap, erklæringer og personalehåndtering på ett sted."
         },
         {
           "title": "Samsvarsgaranti",
-          "description": "Alle prosesser følger svensk bokføringslov og Skatteverkets regelverk."
+          "description": "Alle prosesser følger regnskapsloven og Skatteverkets regler."
         },
         {
-          "title": "Nøyaktighet og transparens",
-          "description": "Sanntidsrapportering med full oversikt for arbeidsgivere og ansatte."
+          "title": "Nøyaktighet og Transparens",
+          "description": "Sanntidsrapporter med full synlighet for arbeidsgivere og ansatte."
         },
         {
-          "title": "Tids- og kostnadsbesparelse",
-          "description": "Ingen behov for interne regnskapsførere eller flere eksterne leverandører."
+          "title": "Tids- og Kostnadsbesparelser",
+          "description": "Ingen behov for interne revisorer eller flere eksterne leverandører."
         },
         {
-          "title": "Flerspråklig støtte",
-          "description": "Rapporter og bistand tilgjengelig på engelsk, svensk, urdu, arabisk, persisk og flere språk."
+          "title": "Flerspråklig Støtte",
+          "description": "Rapporter og assistanse tilgjengelig på norsk, engelsk, svensk og mer."
         },
         {
-          "title": "Integrert relokalisering",
-          "description": "Perfekt for selskaper som flytter ansatte til Sverige, da vi kobler bolig, lønn og immigrasjon i ett system."
+          "title": "Integrasjon av Relokalisering",
+          "description": "Ideell for bedrifter som overflytter ansatte til Sverige, da vi forbinder bolig, lønn og migrasjon i ett system."
         }
       ]
     },
     "forCompanies": {
-      "heading": "Bokføring for selskaper",
-      "intro": "Våre løsninger passer for:",
+      "heading": "Regnskap for Bedrifter",
+      "intro": "Våre løsninger er ideelle for:",
       "targetMarkets": [
-        "Små og mellomstore bedrifter (SMB): Forenklet bokføring uten å ansette fulltidsansatte",
-        "Oppstartsbedrifter: Enkel oppsett av lønn og regnskap under vekst",
-        "Globale selskaper: Administrer lokale ansatte i Sverige uten egen økonomiavdeling",
-        "Frilansere og kontraktører: Håndter fakturaer, skatt og rapporter mens du fokuserer på prosjekter"
+        "Små og mellomstore bedrifter: forenklet regnskap uten ansettelse av heltidsrevisorer",
+        "Startups: enkel oppsett av lønn og regnskap under ekspansjonsoperasjoner",
+        "Globale bedrifter: håndtering av lokale ansatte i Sverige uten å etablere en økonomisk avdeling",
+        "Freelancere og gründere: håndtering av fakturering, skatter og rapporter mens du fokuserer på prosjekter"
       ],
-      "capabilities": "Gjennom vår portal kan selskaper:",
+      "capabilities": "Gjennom vår portal kan bedrifter:",
       "capabilities_items": [
-        "Onboarde ansatte",
-        "Administrere lønn og fordeler",
-        "Generere månedlig regnskap og MVA-deklarasjoner",
-        "Få tilgang til sikre økonomiske registre for revisjon og vekstplanlegging"
+        "Registrere ansatte",
+        "Håndtere lønn og ytelser",
+        "Generere månedlige regnskperklæringer og mva-rapporter",
+        "Få tilgang til sikre økonomiske poster for revisjon og vekstplanlegging"
       ]
     },
     "forIndividuals": {
-      "heading": "Bokføring for enkeltpersoner og familier",
-      "intro": "Vi støtter også privatpersoner med:",
+      "heading": "Regnskap for Enkeltpersoner og Familier",
+      "intro": "Vi støtter også individuelle kunder med:",
       "services": [
-        "Lønnsslipper for personlig skattemelding",
-        "Årlige inntektsoppgaver til Skatteverket",
-        "Sporing av boutgifter, personlige investeringer eller leieinntekter",
-        "Forberedelse av dokumenter for boliglån, lån eller bolig­søknader"
+        "Lønnsslipp for personlige skatteerklæringer",
+        "Årlige inntektserklæringer til Skatteverket",
+        "Sporing av boligkostnader og personlige investeringer eller leieinntekter",
+        "Forberedelse av dokumentasjon for boliglån, lån eller boligappliker"
       ],
-      "closing": "Dette gjør det enklere for enkeltpersoner og familier som flytter til Sverige å holde orden og overholde regelverket."
+      "closing": "Dette gjør det lettere for enkeltpersoner og familier som flyttes til Sverige å forbli samsvar og organisert."
     },
     "legalReferences": {
-      "heading": "Juridiske referanser og samsvar",
-      "intro": "Våre bokføringstjenester er i tråd med:",
+      "heading": "Juridiske Referanser og Samsvar",
+      "intro": "Våre regnskapsservices er i samsvar med:",
       "references": [
-        "Bokföringslagen (1999:1078) – Svensk bokføringslov",
-        "Årsredovisningslagen – Årsregnskapsloven",
-        "Skatteverkets regelverk – PAYE, MVA og arbeidsgiveravgiftsdeklarasjoner",
-        "GDPR – Personvern for alle økonomiske registre"
+        "Bokföringslagen (1999:1078) – Sveriges regnskapsloven",
+        "Årsredovisningslagen – Loven om årsoppgjørelser",
+        "Skatteverkets regler – Kildeinnholdserklæringer, merverdiavgift og arbeidsgiveravgifter",
+        "GDPR – Databeskyttelse for alle økonomiske poster"
       ]
     },
     "getStarted": {
-      "heading": "Slik kommer du i gang",
+      "heading": "Slik Kommer du i Gang",
       "steps": [
         {
           "number": 1,
-          "title": "Registrer deg i vår portal",
-          "description": "Opprett konto som privatperson eller selskap."
+          "title": "Registrer deg på Vår Portal",
+          "description": "Registrer deg som enkeltperson eller bedrift."
         },
         {
           "number": 2,
-          "title": "Last opp dokumenter månedlig",
-          "description": "Send inn fakturaer, kontrakter og kvitteringer direkte på nett."
+          "title": "Last Opp Dokumenter Månedlig",
+          "description": "Send fakturaer, kontrakter og kvitteringer direkte online."
         },
         {
           "number": 3,
-          "title": "Automatisert bokføring",
-          "description": "Vi behandler lønn, bokføring og deklarasjoner."
+          "title": "Automatisert Regnskap",
+          "description": "Vi håndterer lønn, regnskap og erklæringer."
         },
         {
           "number": 4,
-          "title": "Få rapporter og lønnsslipper",
-          "description": "Tilgang til digitale lønnsslipper, skattedeklarasjoner og økonomiske rapporter når som helst."
+          "title": "Få Rapporter og Lønnsslipp",
+          "description": "Få tilgang til digitale lønnsslipp, skatteerklæringer og økonomiske rapporter når som helst."
         },
         {
           "number": 5,
-          "title": "Hold deg i samsvar",
-          "description": "Vi sikrer at dine registre oppfyller svenske og EU-krav."
+          "title": "Forbli i Samsvar",
+          "description": "Vi sikrer at dine poster oppfyller kravene i Sverige og EU."
         }
       ]
     },
     "contact": {
-      "heading": "Effektiviser bokføringen i dag",
-      "description": "Slutt å bekymre deg for samsvar og fokuser på å utvikle virksomheten din. La Sweden Relocators håndtere bokføring, lønn og økonomistyring.",
-      "cta": "Registrer deg i dag og få en gratis konsultasjon med våre regnskapseksperter. Start med effektiv håndtering av din økonomi i Sverige!"
+      "heading": "Forenkle Regnskapet Ditt i dag",
+      "description": "Slutt å bekymre deg for samsvar og fokuser på å vokse virksomheten din. La Sweden Relocators håndtere regnskap, lønn og økonomistyring.",
+      "cta": "Registrer deg i dag og få en gratis konsultasjon med våre régnskapseksperter. Begynn å administrere dine svenske økonomi effektivt!"
     }
   }
 }

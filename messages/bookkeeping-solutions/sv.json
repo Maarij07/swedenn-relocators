@@ -2,58 +2,220 @@
   "bookkeepingSolutions": {
     "hero": {
       "title": "Bokföringslösningar",
-      "subtitle": "Komplett Bokföring Gjord Enkel"
+      "subtitle": "Gör bokföring och ekonomihantering enkel"
     },
     "intro": {
-      "heading": "Förenklad Ekonomisk Förvaltning för Sverige",
-      "description": "Bokföring och redovisning i Sverige kan vara komplicerad, särskilt för företag med internationell personal, flera affärsverksamheter eller relokationsfall. Sweden Relocators tillhandahåller en komplett bokföringslösning genom vår säkra onlineportal och mobilapp, vilket ger privatpersoner, familjer och företag ett enkelt sätt att hantera all ekonomisk och efterlevnad av regler på ett ställe.",
-      "commitment": "Från månatlig bokföring och utgiftsspårning till lönespecifikationer, anställningsregister och Skatteverkets deklarationer, säkerställer vi att din ekonomi är korrekt, transparent och helt i enlighet med svenska lagstiftningar."
+      "heading": "Förenklad Ekonomihantering i Sverige",
+      "description": "Det kan vara komplext att hantera revision och bokföring i Sverige, särskilt för företag med internationella anställda, flera affärsverksamheter eller relokationssituationer. Sweden Relocators erbjuder en komplett bokföringslösning genom vår säkra onlineportal och mobilapp, vilket ger individer, familjer och företag ett enkelt sätt att hantera alla finansiella uppgifter och efterlevnad på ett ställe.",
+      "commitment": "Från månatlig revisionsbehandling och utgiftsspårning till lönehantening, anställningsregister och Skatteverkets meddelanden, säkerställer vi att din ekonomi är korrekt, transparent och helt i enlighet med Sveriges regler."
     },
     "whyMatters": {
       "heading": "Varför Bokföring Är Viktig i Sverige",
-      "description": "Sverige har ett transparent men mycket reglerat finansiellt system. Varje företag, från ett litet startup till ett multinationellt företag, måste föra korrekt bokföring i enlighet med Bokföringslagen och andra relevanta skattelagar.",
+      "description": "Sverige har ett transparent men strikt reglerat finansiellt system. Alla företag, från små företag till multinationella koncerner, måste föra korrekt bokföring i enlighet med bokföringsloven (Bokföringslagen) och andra relevanta skattelagstiftningar.",
       "risks": [
-        "Skattebötter från Skatteverket",
-        "Juridiska risker relaterade till ofullständig rapportering",
-        "Förseningar i löneutbetalning och förmånbehandling",
-        "Utmaningar i revisioner och ekonomiska granskningar"
+        "Skatteböter från Skatteverket",
+        "Juridiska risker på grund av ofullständig rapportering",
+        "Förseningar i lönehantening och förmåner",
+        "Utmaningar vid revisioner och finansiella bedömningar"
       ],
-      "closing": "Vår bokföringstjänst löser dessa utmaningar genom att kombinera professionell expertis med teknik, vilket gör det enkelt att uppfylla dina månatliga, kvartalsvisa och årliga skyldigheter."
+      "closing": "Vår bokföringstjänst löser dessa utmaningar genom att kombinera professionell expertise och teknik, vilket gör det enkelt att uppfylla dina månatliga, kvartalsvisa och årliga förpliktelser."
     },
-    "getStarted": {
-      "heading": "Hur man Kommer Igång",
+    "howWorks": {
+      "heading": "Så Fungerar Vår Digitala Bokföringslösning",
+      "intro": "Vår omfattande portal gör det möjligt för företag och individer att hantera bokföring effektivt:",
       "steps": [
         {
           "number": 1,
-          "title": "Registrera dig på Vår Portal",
+          "title": "Ladda Up Dokument",
+          "details": "Ladda upp fakturor, kvitton, kontrakt och andra finansiella dokument till vår säkra portal varje månad. Filer kan skannas, laddas upp direkt eller delas via automatisk integration."
+        },
+        {
+          "number": 2,
+          "title": "Databehandling och Bokföring",
+          "details": "Våra revisorer och AI-drivna system hanterar data. Transaktioner klassificeras, avstämms, registreras och behandlas enligt svenska bokföringsstandard. Fel eller försvunnen information markeras omedelbar."
+        },
+        {
+          "number": 3,
+          "title": "Löner och Lönebesked",
+          "details": "Löner är integrerad med bokföringen. Anställda får digitala lönebesked via portalen med detaljer om skatter, socialförsäkringsavgifter och förmåner. Arbetsgivare har tillgång till månadslönerapporer, vilket säkerställer full transparens."
+        },
+        {
+          "number": 4,
+          "title": "Anställnings- och Compliancerapporter",
+          "details": "Anställningskontrakt, tidsregistreringar och förmånsregister hanteras direkt i systemet. Vår portal genererar rapporter till Skatteverket, inklusive inkomstskatt och arbetsgivaravgifter."
+        },
+        {
+          "number": 5,
+          "title": "Meddelanden och Ansökningar",
+          "details": "Månatliga, kvartalsvisa och årliga meddelanden framställs och lämnas in till Skatteverket. Du får bekräftelse och digitalt register för varje ansökan."
+        },
+        {
+          "number": 6,
+          "title": "Säker Lagring och Återhämtning",
+          "details": "All ekonomisk data lagras säkert i molnet. Kunder kan enkelt hämta dokument, rapporter och register för revisioner eller interna granskningar."
+        }
+      ]
+    },
+    "servicesIncluded": {
+      "heading": "Tjänster Ingår i Vår Bokföringslösning",
+      "intro": "Vi täcker alla aspekter av bokföring, lönehanteing och ekonomihantering:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Månadsbokföring",
+          "items": [
+            "Inmatning av fakturor, kvitton och bankutdrag",
+            "Klassificering av utgifter och inkomster",
+            "Automatisk kontroll för fel eller duplikat"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Lönehantening",
+          "items": [
+            "Lönberäkning baserat på kontrakt och timmar",
+            "Skatteavdrag och socialförsäkringsavgifter",
+            "Digitala lönebesked tillgängliga på flera språk"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Meddelanden och Compliance",
+          "items": [
+            "Framställning av mervärdesskatt",
+            "Arbetsgivarmeddelande (Arbetsgivardeklaration)",
+            "Årlig inkomst och företgainlämningar"
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Anställningsregister",
+          "items": [
+            "Anställningskontrakt lagrade säkert",
+            "Spårning och rapportering av förmåner",
+            "Årliga sammanfattningar för anställda"
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Finansiella Rapporter",
+          "items": [
+            "Månadsvisa resultatrapporter",
+            "Balans- och kassaflödesrapporter",
+            "Anpassade rapporter för ledning och investerare"
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Revisjon och Inspektionsstöd",
+          "items": [
+            "Dokumentation framställd för skatterevisioner",
+            "Vägledning under finansiella granskningar från svenska myndigheter"
+          ]
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Varför Välja Sweden Relocators för Bokföring?",
+      "advantages": [
+        {
+          "title": "En Portal för Alla Behov",
+          "description": "Löner, bokföring, meddelanden och personalhantering på ett ställe."
+        },
+        {
+          "title": "Compliancegaranti",
+          "description": "Alla processer följer bokföringsloven och Skatteverkets regler."
+        },
+        {
+          "title": "Noggrannhet och Transparens",
+          "description": "Realtidsrapporter med full siktbarhet för arbetsgivare och anställda."
+        },
+        {
+          "title": "Tid- och Kostnadsbesparingar",
+          "description": "Ingen behov av interna revisorer eller flera externa leverantörer."
+        },
+        {
+          "title": "Flerspråkigt Stöd",
+          "description": "Rapporter och stöd tillgängligt på svenska, engelska, arabiska och mer."
+        },
+        {
+          "title": "Relokationsintegration",
+          "description": "Idealisk för företag som förflyttar anställda till Sverige, eftersom vi förbinder bostäder, löner och migration i ett system."
+        }
+      ]
+    },
+    "forCompanies": {
+      "heading": "Bokföring för Företag",
+      "intro": "Våra lösningar är ideala för:",
+      "targetMarkets": [
+        "Små och medelstora företag: förenklad bokföring utan anställning av heltidsrevisorer",
+        "Startups: enkel inställning av löner och bokföring under expansionsverksamheter",
+        "Globala företag: hantering av lokalt anställda i Sverige utan att etablera en ekonomiavdelning",
+        "Freelancere och företagare: hantering av fakturering, skatter och rapporter medan du fokuserar på projekt"
+      ],
+      "capabilities": "Genom vår portal kan företag:",
+      "capabilities_items": [
+        "Registrera anställda",
+        "Hantera löner och förmåner",
+        "Generera månadsbokföringsmeddelanden och momsrapporter",
+        "Få tillgång till säkra ekonomisregister för revision och tillväxtplanering"
+      ]
+    },
+    "forIndividuals": {
+      "heading": "Bokföring för Individer och Familjer",
+      "intro": "Vi stöder även individuella kunder med:",
+      "services": [
+        "Lönebesked för personlig skattedeklaration",
+        "Årlig inkomstinlämning till Skatteverket",
+        "Spårning av bostadskostnader och personliga investeringar eller hyresintäkter",
+        "Framställning av dokumentation för hypotekslån, lån eller bostadsansökningar"
+      ],
+      "closing": "Detta gör det möjligt för individer och familjer som flyttar till Sverige att förbli kompatibla och organiserade."
+    },
+    "legalReferences": {
+      "heading": "Juridiska Referenser och Compliance",
+      "intro": "Vård bokföring tjänst uppfyller:",
+      "references": [
+        "Bokföringslagen (1999:1078) – Sveriges bokföringslag",
+        "Årsredovisningslagen – Lag om årsredovisning",
+        "Skatteverkets föreskrifter – Källskattedeklarationer, moms och arbetsgivaravgifter",
+        "GDPR – Dataskydd för alla ekonomisregister"
+      ]
+    },
+    "getStarted": {
+      "heading": "Så Kommer du Igång",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Registere dig på Vår Portal",
           "description": "Registrera dig som individ eller företag."
         },
         {
           "number": 2,
-          "title": "Ladda upp Dokument Månadsvis",
-          "description": "Skicka in fakturor, kontrakt och kvitton direkt online."
+          "title": "Ladda up Dokumenter Månatligt",
+          "description": "Skicka fakturor, kontrakt och kvitton direkt online."
         },
         {
           "number": 3,
           "title": "Automatiserad Bokföring",
-          "description": "Vi bearbetar löner, bokföring och deklarationer."
+          "description": "Vi hanterar löner, bokföring och meddelanden."
         },
         {
           "number": 4,
-          "title": "Få Rapporter och Lönespecifikationer",
-          "description": "Få tillgång till digitala lönespecifikationer, skattedklarationer och ekonomiska rapporter när som helst."
+          "title": "Få Rapporter och Lönebesked",
+          "description": "Få tillgång till digitalt lönebesked, skatteinlämningar och ekonomiska rapporter när som helst."
         },
         {
           "number": 5,
-          "title": "Sitt Uppdaterad",
-          "description": "Vi säkerställer att dina register uppfyller svenska och EU-krav."
+          "title": "Förbli Kompatibel",
+          "description": "Vi säkerställer att dina register uppfyller kraven i Sverige och EU."
         }
       ]
     },
     "contact": {
       "heading": "Förenkla Din Bokföring Idag",
-      "description": "Sluta oroa dig över regelefterlevnad och fokusera på att växa ditt företag. Låt Sweden Relocators hantera din bokföring, löner och ekonomisk förvaltning.",
-      "cta": "Registrera dig idag och få en kostnadsfri konsultation med våra bokföringsexperter. Börja hantera din svenska ekonomi effektivt!"
+      "description": "Sluta oroa dig för compliance och fokusera på att växa ditt företag. Låt Sweden Relocators hantera bokföring, lönehantening och ekonomihantering.",
+      "cta": "Registrera dig idag och få en gratis konsultation med våra bokföringsexperter. Börja hantera din svenska ekonomi effektivt!"
     }
   }
 }

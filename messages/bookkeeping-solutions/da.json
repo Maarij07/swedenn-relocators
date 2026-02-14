@@ -1,48 +1,221 @@
 {
   "bookkeepingSolutions": {
     "hero": {
-      "title": "Bogføringløsninger",
-      "subtitle": "Fuldstændig Bogføring Gjort Enkel"
+      "title": "Bogføringsløsninger",
+      "subtitle": "Gør bogfører og økonomistyring simpel"
     },
     "intro": {
-      "heading": "Forenklet Økonomisk Ledelse for Sverige",
-      "description": "Bogføring og regnskab i Sverige kan være kompleks, især for virksomheder med internationale medarbejdere, flere forretningsaktiviteter eller flytningssager. Sweden Relocators giver en komplet bogføringsloesung gennem vores sikre online-portal og mobilapp, som giver enkeltpersoner, familier og virksomheder en nem måde at håndtere alle økonomiske og compliance-opgaver på ét sted.",
-      "commitment": "Fra månedlig bogføring og udgiftssporing til lønsedler, ansættelsesregistre og Skatteverkets erklæringer, sikrer vi, at dine finanser er nøjagtige, gennemsigtige og fuldt i overensstemmelse med svensk lovgivning."
+      "heading": "Forenklet finansiel styring i Sverige",
+      "description": "Det kan være komplekst at håndtere revision og bogføring i Sverige, især for virksomheder med internationale medarbejdere, flere forretningsoperationer eller relokationssituationer. Sweden Relocators tilbyder en komplet bogføringsløsning gennem vores sikre onlineportal og mobilapp, hvilket giver enkeltpersoner, familier og virksomheder en nem måde at håndtere alle finansielle opgaver og compliance på ét sted.",
+      "commitment": "Fra månedlig revision og udgiftssporing til lønadministration, ansættelsesjournaler og Skatteverkets erklæringer (Skattemyndighederne), sikrer vi, at dine økonomi er præcis, transparent og fuldt ud i overensstemmelse med Sveriges regler."
     },
-    "getStarted": {
-      "heading": "Sådan Kommer Du Igang",
+    "whyMatters": {
+      "heading": "Hvorfor bogføring betyder noget i Sverige",
+      "description": "Sverige har et transparent, men strengt reguleret finansielt system. Alle virksomheder, fra små virksomheder til multinationalt selskaber, er forpligtet til at føre præcis bogføring i henhold til Bogføringsloven (Bokföringslagen) og andre relevante skattelove.",
+      "risks": [
+        "Skattebodder fra Skatteverket",
+        "Juridiske risici ved ukomplet indberetning",
+        "Forsinkelser i lønadministration og ydelser",
+        "Udfordringer ved revision og finansielle evalueringer"
+      ],
+      "closing": "Vores bogføringstjenester løser disse udfordringer ved at kombinere faglig ekspertise med teknologi, hvilket gør det let at opfylde dine månedlige, kvartalsvise og årlige forpligtelser."
+    },
+    "howWorks": {
+      "heading": "Sådan fungerer vores digitale bogføringsløsning",
+      "intro": "Vores omfattende portal giver virksomheder og enkeltpersoner mulighed for effektivt at styre bogføring:",
       "steps": [
         {
           "number": 1,
-          "title": "Registrer dig på Vores Portal",
+          "title": "Upload dokumenter",
+          "details": "Hver måned skal du blot uploade fakturaer, kvitteringer, kontrakter og andre finansielle dokumenter til vores sikre portal. Filer kan scannes, uploadet direkte eller delt gennem automatisk integration."
+        },
+        {
+          "number": 2,
+          "title": "Behandling af data og bogføring",
+          "details": "Vores bogholderen og vores AI-drevne system behandler dataene. Transaktioner klassificeres, afstemmes, registreres og behandles efter Svensk bogføringsstandarder. Fejl eller manglende oplysninger markeres øjeblikkeligt."
+        },
+        {
+          "number": 3,
+          "title": "Løn og lønslip",
+          "details": "Løn er integreret med bogføring. Medarbejderne modtager digitale lønslip gennem portalen med detaljer om skatter, sociale bidrag og ydelser. Arbejdsgivere har adgang til månedlige lønrapporter, hvilket sikrer fuldstændig transparens."
+        },
+        {
+          "number": 4,
+          "title": "Ansættelses- og compliance-rapporter",
+          "details": "Ansættelses kontrakter, arbejdstidsregistrering og ydelsesregistre styres direkte i systemet. Vores portal genererer indberetninger til Skatteverket, herunder indkomstskat og arbejdsgiverbidrag."
+        },
+        {
+          "number": 5,
+          "title": "Erklæringer og indgivelser",
+          "details": "Månedlige, kvartalsvise og årlige erklæringer udarbejdes og indsendes til Skattemyndighederne (Skatteverket). Du modtager bekræftelse og digitale optegnelser for hver indsendelse."
+        },
+        {
+          "number": 6,
+          "title": "Sikker lagring og gendannelse",
+          "details": "Alle finansielle data lagres sikkert i skyen. Kunder kan nemt hente dokumenter, rapporter og optegnelser tilbage til revision, kontrol eller interne gennemgange."
+        }
+      ]
+    },
+    "servicesIncluded": {
+      "heading": "Tjenester inkluderet i vores bogføringsløsning",
+      "intro": "Vi dækker alle aspekter af bogføring, lønadministration og finansiel forvaltning:",
+      "services": [
+        {
+          "number": 1,
+          "title": "Månedlig bogføring",
+          "items": [
+            "Indlæsning af fakturaer, kvitteringer og bankkontoudtog",
+            "Klassificering af udgifter og omsætning",
+            "Automatisk kontrol med fejl eller duplikering"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Lønadministration",
+          "items": [
+            "Lønberegning baseret på kontrakter og timer",
+            "Skattetræk og sociale bidrag",
+            "Digitale lønslip tilgængelig på flere sprog"
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Erklæringer og compliance",
+          "items": [
+            "Forberedelse af moms",
+            "Arbejdsgivermeddelelse (Arbetsgivardeklaration)",
+            "Årlige indberetninger og erhvervsindgivelser"
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Ansættelsesregistre",
+          "items": [
+            "Ansættelses kontrakter lagret sikkert",
+            "Sporing og rapportering af ydelser",
+            "Årlige sammenfatninger for medarbejdere"
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Finansielle rapporter",
+          "items": [
+            "Månedlige resultatopgørelser",
+            "Balance og pengestrømsrapporter",
+            "Tilpassede rapporter til ledelse og investorer"
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Revision og kontrol supportere",
+          "items": [
+            "Dokumentation forberedt til skatterevisioner",
+            "Vejledning under finansielle revisioner fra svenske myndigheder"
+          ]
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Hvorfor vælge Sweden Relocators til bogføring?",
+      "advantages": [
+        {
+          "title": "Én portal til alle behov",
+          "description": "Løn, bogføring, erklæringer og personalejuridisk på ét sted."
+        },
+        {
+          "title": "Sikring af compliance",
+          "description": "Alle processer følger Bogføringsloven og Skatteverkets regler."
+        },
+        {
+          "title": "Nøjagtighed og transparens",
+          "description": "Realtidsrapporter med fuld indsyn for arbejdsgivere og medarbejdere."
+        },
+        {
+          "title": "Tid- og kostnadsbesparelse",
+          "description": "Ingen behov for in-house revisorer eller flere eksterne udbydere."
+        },
+        {
+          "title": "Flersproget support",
+          "description": "Rapporter og assistance tilgængelig på dansk, engelsk, svensk og mere."
+        },
+        {
+          "title": "Relocation integration",
+          "description": "Ideel til virksomheder, der overføres medarbejdere til Sverige, da vi forbinder bolig, løn og migration i ét system."
+        }
+      ]
+    },
+    "forCompanies": {
+      "heading": "Bogføring til virksomheder",
+      "intro": "Vores løsninger er ideale for:",
+      "targetMarkets": [
+        "Små og mellemstore virksomheder: forenklet bogføring uden ansættelse af fuldtidsmedarbejdere",
+        "Startups: nem opsætning af løn og bogføring under ekspansionsoperationer",
+        "Globale virksomheder: håndtering af lokale medarbejdere i Sverige uden at etablere en finansafdeling",
+        "Freelancere og entreprenører: håndtering af fakturering, skatter og rapporter, mens de fokuserer på projekter"
+      ],
+      "capabilities": "Gennem vores portal kan virksomheder:",
+      "capabilities_items": [
+        "Registrere medarbejdere",
+        "Styre løn og ydelser",
+        "Generere månedlige regnskapserklæringer og momsrapporter",
+        "Få adgang til sikre finansielle optegnelser til revision og væksplanlægning"
+      ]
+    },
+    "forIndividuals": {
+      "heading": "Bogføring til enkeltpersoner og familier",
+      "intro": "Vi understøtter også private klients med:",
+      "services": [
+        "Lønslip til personlige skatteindberetninger",
+        "Årlige indberetninger af indkomst til Skatteverket",
+        "Sporing af boligomkostninger og personlige investeringer eller lejeindtægter",
+        "Forberedelse af dokumentation til realkreditlån, lån eller boligansøgninger"
+      ],
+      "closing": "Dette gør det let for enkeltpersoner og familier, der flytter til Sverige, at forblive kompatible og organiserede."
+    },
+    "legalReferences": {
+      "heading": "Juridiske referencer og compliance",
+      "intro": "Vores bogføringstjenester er i overensstemmelse med:",
+      "references": [
+        "Bokföringslagen (1999:1078) – Sveriges bogføringslove",
+        "Årsredovisningslagen – loven om årlige revision",
+        "Skatteverkets regler – PAYE-erklæringer, moms og arbejdsgiverbidrag",
+        "GDPR – databeskyttelse for alle finansielle optegnelser"
+      ]
+    },
+    "getStarted": {
+      "heading": "Sådan kommer du i gang",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Tilmeld dig vores portal",
           "description": "Registrer dig som enkeltperson eller virksomhed."
         },
         {
           "number": 2,
-          "title": "Upload Dokumenter Månedligt",
-          "description": "Indsend fakturaer, kontrakter og kvitteringer direkte online."
+          "title": "Upload dokumenter månedligt",
+          "description": "Send fakturaer, kontrakter og kvitteringer direkte online."
         },
         {
           "number": 3,
-          "title": "Automatiseret Bogføring",
-          "description": "Vi behandler løn, bogføring og erklæringer."
+          "title": "Automatiseret bogføring",
+          "description": "Vi håndterer løn, bogføring og erklæringer."
         },
         {
           "number": 4,
-          "title": "Få Rapporter og Lønsedler",
-          "description": "Få adgang til digitale lønsedler, skatteersklaringer og økonomiske rapporter når som helst."
+          "title": "Få rapporter og slips",
+          "description": "Få adgang til digitale lønslip, skatteindberetninger og finansielle rapporter til enhver tid."
         },
         {
           "number": 5,
-          "title": "Bliv Halten",
-          "description": "Vi sikrer, at dine registre opfylder svensk og EU-krav."
+          "title": "Forbliv kompatibel",
+          "description": "Vi sikrer, at dine optegnelser opfylder kravene i Sverige og EU."
         }
       ]
     },
     "contact": {
-      "heading": "Forenkl Din Bogføring I Dag",
-      "description": "Stop med at bekymre dig om compliance og fokuser på at vokse din virksomhed. Lad Sweden Relocators håndtere din bogføring, løn og økonomisk ledelse.",
-      "cta": "Registrer dig i dag og få en gratis konsultation med vores bogføringseksperter. Begynd at administrere dine svenske finanser effektivt!"
+      "heading": "Simplificer din bogføring i dag",
+      "description": "Stop med at bekymre dig om compliance og fokuser på at vokse din forretning. Lad Sweden Relocators håndtere bogføring, løn og finansiel forvaltning.",
+      "cta": "Tilmeld dig i dag og få en gratis konsultation med vores bogføringseksperter. Begynd at administrere dine Sveriges økonomi effektivt!"
     }
   }
 }

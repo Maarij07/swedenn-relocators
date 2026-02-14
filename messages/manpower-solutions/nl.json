@@ -1,0 +1,139 @@
+{
+  "manpowerSolutions": {
+    "hero": {
+      "title": "Arbeidskrachtoplossingen in Zweden",
+      "subtitle": "Verbind bedrijven met wereldwijd talent"
+    },
+    "intro": {
+      "heading": "Het juiste team samenstellen voor groei",
+      "description": "Bij Sweden Relocators begrijpen we dat de juiste mensen bedrijfsgroei stimuleren. Onze arbeidskrachtoplossingen verbinden bedrijven en werkzoekenden via een transparant platform - toegankelijk via onze webportal en mobiele app. Of u nu een bedrijf bent dat wereldwijd talent wil aannemen of een persoon die naar kansen in Zweden zoekt, onze oplossingen dekken elke fase van wervingen tot herplaatsing."
+    },
+    "forCompanies": {
+      "heading": "Voor bedrijven - recruit en implementeer het juiste talent",
+      "intro": "Het vinden van de juiste werknemers is een van de grootste zakelijke uitdagingen. Via onze portal kunnen bedrijven:",
+      "features": [
+        {
+          "title": "Post volledige, deeltijd-, project- en seizoensbanen onmiddellijk",
+          "description": "Adverteer uw vacante posities aan uw lokale en wereldwijde talentpool."
+        },
+        {
+          "title": "Toegang tot wereldwijd talent",
+          "description": "Recruit gekwalificeerde professionals en ongeschoolde arbeidskrachten van internationale markten."
+        },
+        {
+          "title": "Bedrijfsdashboard",
+          "description": "Beheer sollicitaties, controleer CV's en volg wervingsmetrieken op één plek."
+        },
+        {
+          "title": "Ondersteuning voor werkvisum en immigratie",
+          "description": "Zorg voor naleving van Zweeds en EU-wetgeving bij het aannemen van internationale werknemers."
+        },
+        {
+          "title": "Werknemersherplaatsingsdiensten",
+          "description": "We ondersteunen uw personeel met huisvesting, loonadministratieservices, integratie en huisvestingsdiensten na aanstelling."
+        }
+      ],
+      "closing": "Met Sweden Relocators werven bedrijven niet alleen - ze bouwen duurzame teams die langetermijngroei stimuleren."
+    },
+    "forJobSeekers": {
+      "heading": "Voor werkzoekenden - bouw uw carrière in Zweden",
+      "intro": "Onze arbeidskrachtportal is ontworpen om werkzoekenden te helpen de juiste kans te vinden en met vertrouwen over te stappen. Als kandidaat kunt u:",
+      "features": [
+        {
+          "title": "Maak online een professioneel CV",
+          "description": "Bouw een wereldwijd erkend CV rechtstreeks op onze portal."
+        },
+        {
+          "title": "Solliciteer op geverifieerde banen",
+          "description": "Verken mogelijkheden in IT, constructie, gezondheidszorg, logistiek, horeca, detailhandel en meer."
+        },
+        {
+          "title": "Bijhouden van sollicitaties",
+          "description": "Monitor uw sollicitatiestatus in realtime via uw account."
+        },
+        {
+          "title": "Ondersteuning bij herplaatsing en vergunningen",
+          "description": "Nadat u bent aangesteld, ondersteunen we u met visum-, werkvergunnings- en integratiediensten."
+        },
+        {
+          "title": "Gereedschappen voor carrièreontwikkeling",
+          "description": "Krijg toegang tot bronnen om je voor te bereiden op interviews en Zweedse arbeidsmarkten te begrijpen."
+        }
+      ],
+      "closing": "We maken internationale beroepsmobiliteit eenvoudig, transparant en efficiënt."
+    },
+    "whyMatters": {
+      "heading": "Waarom het juiste talent belangrijk is",
+      "intro": "De juiste mensen zijn veel meer dan personeel - ze zijn uw bedrijfscompetitief voordeel.",
+      "reasons": [
+        "Innovatie en groei - getalenteerde werknemers brengen nieuwe ideeën en versterken concurrentiestelling",
+        "Productiviteit - vaardige werknemers werken efficiënt en versterken algehele prestaties",
+        "Wereldwijd bereik - internationale werknemers openen deuren naar nieuwe markten en klantenkring",
+        "Behoud van werknemers - het aannemen van de juiste persoon vermindert verloop en schept stabiliteit",
+        "Klanttevredenheid - sterke teams leveren betere producten en diensten"
+      ],
+      "closing": "Door bedrijven met wereldwijd talent te verbinden, zorg Sweden Relocators ervoor dat bedrijven floreren en werknemers slagen."
+    },
+    "process": {
+      "heading": "Ons volledige proces",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Bedrijven registreren",
+          "description": "Maak een bedrijfsaccount aan en plaats vacatures."
+        },
+        {
+          "number": 2,
+          "title": "Werkzoekenden registreren",
+          "description": "Maak uw profiel aan en solliciteer op banen."
+        },
+        {
+          "number": 3,
+          "title": "Intelligente matching",
+          "description": "Ons platform stelt kandidaten samen met rollen die bij hun vaardigheden passen."
+        },
+        {
+          "number": 4,
+          "title": "Compliance en vergunningen",
+          "description": "We helpen u met visa's, werkvergunningen en wettelijke vereisten."
+        },
+        {
+          "number": 5,
+          "title": "Herplaatsingsbijstand",
+          "description": "Werknemers krijgen hulp met huisvesting, loonadministratieservices en integratie voor naadloze plaatsing."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Waarom kiezen voor Sweden Relocators?",
+      "advantages": [
+        {
+          "title": "Eén digitaal platform",
+          "description": "Beheer wervingen, CV's en herplaatsing op één plek."
+        },
+        {
+          "title": "Betrouwbaar wereldwijd netwerk",
+          "description": "Krijg toegang tot talent en bedrijven op wereldwijde schaal."
+        },
+        {
+          "title": "Zweedse en EU-naleving",
+          "description": "Veilige en wettelijke aanstelling."
+        },
+        {
+          "title": "End-to-end-ondersteuning",
+          "description": "Van werving tot herplaatsing en plaatsing."
+        },
+        {
+          "title": "Toekomstgerichte oplossingen",
+          "description": "Ontworpen voor moderne bedrijfsactiviteiten en internationale carrières."
+        }
+      ]
+    },
+    "nextSteps": {
+      "heading": "Zet de volgende stap",
+      "forCompanies": "Registreer u op ons platform om vacante posities op te sommen en wereldwijd talent aan te nemen.",
+      "forJobSeekers": "Maak uw profiel aan, solliciteer op banen en start uw carrière in Zweden.",
+      "closing": "Bij Sweden Relocators stellen onze arbeidskrachtoplossingen bedrijven in staat om met de juiste mensen te groeien en helpen zij individuen om nieuwe kansen in Zweden en heel Europa te realiseren."
+    }
+  }
+}

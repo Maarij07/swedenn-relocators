@@ -1,7 +1,9 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import { useRouter, useParams } from 'next/navigation';
 import Navbar from '../../components/Navbar';
 import { useTranslation } from 'react-i18next';
 
@@ -43,6 +45,8 @@ export default function ServicesPage() {
   const { t, i18n } = useTranslation();
   const [isInitialized, setIsInitialized] = useState(false);
   const [showVideo, setShowVideo] = useState(false);
+  const params = useParams();
+  const locale = params?.locale || 'en';
 
   useEffect(() => {
     if (i18n.isInitialized) {
@@ -185,9 +189,9 @@ export default function ServicesPage() {
                       {card.description}
                     </p>
 
-                    <button className="mx-auto flex items-center justify-center px-8 py-2.5 text-[13px] font-semibold text-white bg-[#032B5F] rounded-full hover:bg-[#021C3D] transition-colors mt-0">
+                    <Link href={`/${locale}${serviceRoutes[card.title] || '#'}`} className="mx-auto flex items-center justify-center px-8 py-2.5 text-[13px] font-semibold text-white bg-[#032B5F] rounded-full hover:bg-[#021C3D] transition-colors mt-0">
                       {t('servicesPage.readMore')}
-                    </button>
+                    </Link>
                   </div>
                 </article>
               ))}

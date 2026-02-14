@@ -1,22 +1,122 @@
 {
-  "housing": {
-    "hero": {
-      "title": "Soluzioni Abitative in Svezia",
-      "subtitle": "con Sweden Relocators"
-    },
-    "intro": {
-      "heading": "Il Vostro Partner nella Ricerca di Alloggi in Svezia",
-      "description": "Trovare una casa è uno dei passi più importanti quando ci si trasferisce in Svezia. Che si trasferisca da solo, in famiglia, porti dipendenti come azienda o gestisca proprietà come fornitore di alloggi, la giusta soluzione abitativa pone le basi per un trasferimento senza problemi.",
-      "platform": "In Sweden Relocators, combiniamo anni di esperienza di rilocazione con una moderna piattaforma digitale che connette affittuari, aziende e fornitori di alloggi in un unico luogo. I nostri servizi vanno oltre gli affitti e gli acquisti—offriamo noleggi a breve termine, affitti a lungo termine, vendita di proprietà, supporto ipotecario e soluzioni professionali di listing immobiliare. In questo modo, individui, famiglie e organizzazioni possono gestire l'intero viaggio abitativo attraverso un unico portale sicuro."
-    },
-    "forIndividuals": {
-      "heading": "Alloggi per Individui e Famiglie",
-      "intro": "Trasferirsi come individuo o famiglia può sembrare travolgente. Dai luoghi di alloggio temporaneo alle case permanenti, Sweden Relocators assicura che abbiate opzioni affidabili ad ogni passo."
-    },
-    "contact": {
-      "heading": "Iniziate con Sweden Relocators",
-      "description": "Che siate alla ricerca di un affitto a breve termine, pianifichiate un soggiorno a lungo termine, acquistiate o vendiate una proprietà o inseriate alloggi come fornitore, Sweden Relocators rende il processo trasparente, sicuro ed efficiente.",
-      "cta": "Presentate la vostra domanda di alloggio o registrate la vostra proprietà sul nostro portale oggi. Lasciate che Sweden Relocators vi abbini alla giusta soluzione abitativa in Svezia."
+    "housing": {
+        "hero": {
+            "title": "Soluzioni Abitative in Svezia",
+            "subtitle": "con Sweden Relocators"
+        },
+        "intro": {
+            "heading": "Il Vostro Partner nella Ricerca di Alloggi in Svezia",
+            "description": "Trovare una casa è uno dei passi più importanti quando ci si trasferisce in Svezia. Che si trasferisca da solo, in famiglia, porti dipendenti come azienda o gestisca proprietà come fornitore di alloggi, la giusta soluzione abitativa pone le basi per un trasferimento senza problemi.",
+            "platform": "In Sweden Relocators, combiniamo anni di esperienza di rilocazione con una moderna piattaforma digitale che connette affittuari, aziende e fornitori di alloggi in un unico luogo. I nostri servizi vanno oltre gli affitti e gli acquisti—offriamo noleggi a breve termine, affitti a lungo termine, vendita di proprietà, supporto ipotecario e soluzioni professionali di listing immobiliare. In questo modo, individui, famiglie e organizzazioni possono gestire l'intero viaggio abitativo attraverso un unico portale sicuro."
+        },
+        "forIndividuals": {
+            "heading": "Alloggi per Individui e Famiglie",
+            "intro": "Trasferirsi come individuo o famiglia può sembrare travolgente. Dai luoghi di alloggio temporaneo alle case permanenti, Sweden Relocators assicura che abbiate opzioni affidabili ad ogni passo.",
+            "services": [
+                {
+                    "title": "Affitto a Breve Termine",
+                    "description": "Le proprietà a breve termine sono progettate per coloro che hanno bisogno di un posto dove vivere immediatamente dopo l'arrivo in Svezia. Queste proprietà sono generalmente arredate e pronte per il trasferimento."
+                },
+                {
+                    "title": "Affitto a Lungo Termine",
+                    "description": "Se prevedi di rimanere più a lungo in Svezia, offriamo accesso ad appartamenti, ville, alloggi condivisi e spazi abitativi in tutto il paese. Tutti i contratti sono completamente conformi alla legislazione svedese."
+                },
+                {
+                    "title": "Acquisto e Vendita di Proprietà",
+                    "description": "Molti nuovi arrivati decidono di acquistare una proprietà una volta stabiliti. Sweden Relocators ti collega con agenti immobiliari autorizzati che gestiscono l'intero processo di compravendita."
+                },
+                {
+                    "title": "Supporto Ipotecario e Finanziario",
+                    "description": "L'acquisto di proprietà in Svezia spesso richiede supporto ipotecario locale. Per gli stranieri, questo processo può essere complesso. Offriamo assistenza completa durante l'intero percorso ipotecario."
+                }
+            ]
+        },
+        "forEmployers": {
+            "heading": "Soluzioni Abitative per Datori di Lavoro e Aziende",
+            "intro": "Le aziende che trasferiscono dipendenti hanno bisogno di alloggi affidabili per assicurare che il personale si senta a suo agio e al sicuro dal primo giorno. Sweden Relocators offre soluzioni abitative per aziende che semplificano questo processo.",
+            "services": [
+                "Presenta richieste di alloggio per i dipendenti attraverso il nostro portale digitale",
+                "Scegli tra appartamenti, case arredate e alloggi aziendali",
+                "Gestisci più dipendenti e contratti su una piattaforma",
+                "Integra l'alloggio con altri servizi di trasferimento"
+            ],
+            "ideal": "Questo servizio è ideale per aziende multinazionali, agenzie di collocamento, università e ONG. Gestendo centralmente l'alloggio, le aziende risparmiano tempo, riducono i rischi e offrono ai dipendenti una transizione dolce verso la vita svedese."
+        },
+        "forProviders": {
+            "heading": "Fornitori di Alloggi e Società Immobiliari",
+            "intro": "La nostra piattaforma funge anche da gateway per proprietari, società abitative e fornitori di proprietà che desiderano elencare le loro proprietà. Collaborando con Sweden Relocators, hai accesso a inquilini verificati.",
+            "process": {
+                "heading": "Come Elencare le Tue Proprietà",
+                "steps": [
+                    {
+                        "number": 1,
+                        "title": "Registrati come Partner Abitativo",
+                        "description": "Crea un account sul nostro portale."
+                    },
+                    {
+                        "number": 2,
+                        "title": "Carica gli Annunci",
+                        "description": "Aggiungi appartamenti, ville, alloggi condivisi con descrizioni, foto e prezzi."
+                    },
+                    {
+                        "number": 3,
+                        "title": "Imposta le Condizioni",
+                        "description": "Scegli tra affitti a breve termine, lungo termine o alloggi aziendali."
+                    },
+                    {
+                        "number": 4,
+                        "title": "Ottieni Inquilini Verificati",
+                        "description": "Ti mettiamo in contatto con inquilini affidabili, da singoli a aziende."
+                    },
+                    {
+                        "number": 5,
+                        "title": "Gestisci Online",
+                        "description": "Usa il nostro portale per contratti, rinnovi e tracciamento dei pagamenti."
+                    }
+                ]
+            },
+            "benefits": {
+                "heading": "Vantaggi dell'Elenco con Noi",
+                "items": [
+                    "Esposizione a inquilini internazionali e aziendali",
+                    "Verifica degli inquilini e contratti legalmente validi",
+                    "Accesso a aziende che necessitano di alloggi per i dipendenti",
+                    "Integrazione completa con i nostri servizi di trasferimento",
+                    "Opzione per contrassegnare gli annunci come affitto a breve termine"
+                ]
+            }
+        },
+        "whyChooseUs": {
+            "heading": "Perché Scegliere Sweden Relocators per l'Alloggio?",
+            "advantages": [
+                {
+                    "title": "Individui e Famiglie",
+                    "description": "Affitti verificati, contratti sicuri, acquisti di proprietà e supporto ipotecario."
+                },
+                {
+                    "title": "Aziende",
+                    "description": "Gestione alloggi in massa, integrazione dei trasferimenti e alloggi aziendali."
+                },
+                {
+                    "title": "Fornitori di Alloggi",
+                    "description": "Accesso a clienti globali di trasferimento, partnership aziendali e abbinamento sicuro degli inquilini."
+                },
+                {
+                    "title": "Tutti i Tipi di Proprietà",
+                    "description": "Appartamenti, ville, camere condivise, co-living e proprietà di investimento."
+                },
+                {
+                    "title": "Broker Professionisti",
+                    "description": "Esperti immobiliari registrati per la vendita e l'acquisto di proprietà."
+                },
+                {
+                    "title": "Piattaforma End-to-End",
+                    "description": "Gestisci richieste, prenotazioni e annunci in un unico luogo."
+                }
+            ]
+        },
+        "heading": "Iniziate con Sweden Relocators",
+        "description": "Che siate alla ricerca di un affitto a breve termine, pianifichiate un soggiorno a lungo termine, acquistiate o vendiate una proprietà o inseriate alloggi come fornitore, Sweden Relocators rende il processo trasparente, sicuro ed efficiente.",
+        "cta": "Presentate la vostra domanda di alloggio o registrate la vostra proprietà sul nostro portale oggi. Lasciate che Sweden Relocators vi abbini alla giusta soluzione abitativa in Svezia."
     }
-  }
 }

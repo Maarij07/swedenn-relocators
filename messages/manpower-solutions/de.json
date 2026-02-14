@@ -1,0 +1,139 @@
+{
+  "manpowerSolutions": {
+    "hero": {
+      "title": "Personalmanagement Lösungen in Schweden",
+      "subtitle": "Verbinden Sie Unternehmen mit globalen Talenten"
+    },
+    "intro": {
+      "heading": "Das richtige Team für Wachstum aufbauen",
+      "description": "Bei Sweden Relocators verstehen wir, dass die richtigen Menschen Unternehmenswachstum antreiben. Unsere Personalmanagement-Lösungen bringen Unternehmen und Jobsuchende durch eine nahtlose Plattform zusammen – verfügbar über unser Webportal und unsere Mobilanwendung. Ob Sie ein Unternehmen sind, das globale Talente einstellen möchte, oder eine Person, die Chancen in Schweden sucht, unsere Lösungen decken jeden Schritt von der Rekrutierung bis zur Umsiedlung ab."
+    },
+    "forCompanies": {
+      "heading": "Für Unternehmen - die richtigen Talente einstellen und umsiedeln",
+      "intro": "Das Finden der richtigen Arbeitnehmer ist eine der größten Herausforderungen für Unternehmen. Über unser Portal können Unternehmen:",
+      "features": [
+        {
+          "title": "Stellungen sofort ausschreiben",
+          "description": "Bewerben Sie Stellen für Vollzeit-, Teilzeit-, projektbasierte oder saisonale Positionen."
+        },
+        {
+          "title": "Zugang zu globalen Talenten",
+          "description": "Stellen Sie sowohl qualifizierte Fachkräfte als auch ungelernte Arbeitskräfte von internationalen Märkten ein."
+        },
+        {
+          "title": "Unternehmens-Dashboard",
+          "description": "Verwalten Sie Bewerbungen, überprüfen Sie Lebensläufe und verfolgen Sie Recruitingfortschritt an einem Ort."
+        },
+        {
+          "title": "Arbeitserlaubnis- und Immigrationshilfe",
+          "description": "Gewährleisten Sie die Einhaltung der schwedischen und EU-Arbeitsgesetze bei der Einstellung internationaler Mitarbeiter."
+        },
+        {
+          "title": "Mitarbeiter-Umzugsdienste",
+          "description": "Wir unterstützen Ihre Mitarbeiter mit Unterkunft, Gehaltsabrechnung, Integration und Ansiedlungsdiensten nach der Einstellung."
+        }
+      ],
+      "closing": "Mit Sweden Relocators stellen Unternehmen nicht nur ein – sie bauen nachhaltige Teams auf, die langfristiges Wachstum stärken."
+    },
+    "forJobSeekers": {
+      "heading": "Für Jobsuchende - bauen Sie Ihre Karriere in Schweden auf",
+      "intro": "Unser Personalportal ist darauf ausgelegt, Jobsuchenden bei der Suche nach der richtigen Gelegenheit und der Umsiedlung mit Zuversicht zu helfen. Als Kandidat können Sie:",
+      "features": [
+        {
+          "title": "Erstellen Sie einen professionellen Lebenslauf online",
+          "description": "Bauen Sie einen weltweit anerkannten Lebenslauf direkt in unserem Portal auf."
+        },
+        {
+          "title": "Bewerben Sie sich auf überprüfte Stellen",
+          "description": "Erkunden Sie Chancen in IT, Bauwesen, Gesundheitswesen, Logistik, Gastgewerbe, Einzelhandel und mehr."
+        },
+        {
+          "title": "Bewerbungen verfolgen",
+          "description": "Überwachen Sie Ihren Status in Echtzeit über Ihr Konto."
+        },
+        {
+          "title": "Umzugs- und Genehmigungshilfe",
+          "description": "Nach der Einstellung unterstützen wir Sie mit Visa-, Arbeitserlaubnis- und Integrationsdiensten."
+        },
+        {
+          "title": "Karrierewachstum-Tools",
+          "description": "Greifen Sie auf Ressourcen zu, um sich auf Interviews vorzubereiten und den schwedischen Arbeitsmarkt zu verstehen."
+        }
+      ],
+      "closing": "Wir machen internationales Karrierewachstum einfach, transparent und effektiv."
+    },
+    "whyMatters": {
+      "heading": "Warum die richtigen Talente zählen",
+      "intro": "Die richtigen Mitarbeiter sind mehr als nur Mitarbeiter - sie sind der Wettbewerbsvorteil eines Unternehmens.",
+      "reasons": [
+        "Innovation und Wachstum - talentierte Mitarbeiter bringen frische Ideen und verbessern die Wettbewerbsfähigkeit",
+        "Produktivität - geschickte Mitarbeiter arbeiten effizient und steigern die Gesamtleistung",
+        "Globale Reichweite - internationale Mitarbeiter öffnen Türen zu neuen Märkten und Kundenstämmen",
+        "Mitarbeiterbindung - die richtige Passung einstellen reduziert die Fluktuation und schafft Stabilität",
+        "Kundenzufriedenheit - starke Teams liefern bessere Produkte und Dienstleistungen"
+      ],
+      "closing": "Durch die Verbindung von Unternehmen mit internationalen Talenten stellt Sweden Relocators sicher, dass Unternehmen florieren und Mitarbeiter erfolgreich sind."
+    },
+    "process": {
+      "heading": "Der komplette Prozess",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Unternehmen registrieren sich",
+          "description": "Erstellen Sie ein Unternehmenskonto und veröffentlichen Sie Stellenangebote."
+        },
+        {
+          "number": 2,
+          "title": "Jobsuchende melden sich an",
+          "description": "Bauen Sie einen Lebenslauf auf und bewerben Sie sich auf Stel-len."
+        },
+        {
+          "number": 3,
+          "title": "Intelligentes Matching",
+          "description": "Unsere Plattform verbindet Kandidaten mit Rollen, die ihren Fähigkeiten entsprechen."
+        },
+        {
+          "number": 4,
+          "title": "Compliance und Genehmigungen",
+          "description": "Wir helfen bei Visa, Arbeitserlaubnissen und rechtlichen Anforderungen."
+        },
+        {
+          "number": 5,
+          "title": "Umzugsunterstützung",
+          "description": "Mitarbeiter erhalten Unterstützung bei Unterkunft, Gehaltsabrechnung und Integration für eine reibungslose Ansiedlung."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "heading": "Warum Sweden Relocators wählen?",
+      "advantages": [
+        {
+          "title": "Eine digitale Plattform",
+          "description": "Verwalten Sie Rekrutierung, Lebensläufe und Umzug an einem Ort."
+        },
+        {
+          "title": "Vertrauenswürdiges globales Netzwerk",
+          "description": "Zugang zu Talenten und Unternehmen weltweit."
+        },
+        {
+          "title": "Einhaltung schwedischer und EU-Gesetze",
+          "description": "Sichere und rechtmäßige Einstellung."
+        },
+        {
+          "title": "End-to-End-Unterstützung",
+          "description": "Von der Rekrutierung bis zur Umsiedlung und Ansiedlung."
+        },
+        {
+          "title": "Zukunftsorientierte Lösungen",
+          "description": "Konzipiert für moderne Unternehmen und internationale Karrieren."
+        }
+      ]
+    },
+    "nextSteps": {
+      "heading": "Nächster Schritt",
+      "forCompanies": "Melden Sie sich auf unserem Portal an, um Ihre Stellenangebote zu veröffentlichen und globale Talente einzustellen.",
+      "forJobSeekers": "Erstellen Sie Ihren Lebenslauf, bewerben Sie sich um Stellen und starten Sie Ihre Karrierereise in Schweden.",
+      "closing": "Bei Sweden Relocators befähigen unsere Personalmanagement-Lösungen Unternehmen, mit den richtigen Menschen zu wachsen, und helfen Einzelpersonen, neue Möglichkeiten in Schweden und Europa zu finden."
+    }
+  }
+}
