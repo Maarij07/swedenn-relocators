@@ -1,8 +1,7 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion } from "framer-motion"
-
 import { useTranslation } from 'react-i18next';
 
 interface FeatureItem {
@@ -11,6 +10,9 @@ interface FeatureItem {
   description: string;
   cta: string;
   image: string;
+  badge: string;
+  bgColor?: string;
+  textColor?: string;
 }
 
 const featuresEn: FeatureItem[] = [
@@ -19,32 +21,44 @@ const featuresEn: FeatureItem[] = [
     title: 'Smart Accounting Solutions',
     description:
       'With our digital portal, you can streamline your finances through intelligent accounting services, simplifying payroll, tax returns, and financial reporting for your business.',
-    cta: 'Read More',
+    cta: 'Learn More',
     image: '/a1.svg',
+    badge: 'Accounting',
+    bgColor: '#001F3F',
+    textColor: '#ffffff',
   },
   {
     id: 2,
     title: 'All-in-One Employee Management',
     description:
       'A complete HR solution for companies to manage employees, work permits, immigration status, and contracts all in one platform.',
-    cta: 'Read More',
+    cta: 'Learn More',
     image: '/a2.svg',
+    badge: 'HR Solutions',
+    bgColor: '#001F3F',
+    textColor: '#ffffff',
   },
   {
     id: 3,
     title: 'Comprehensive Payroll Solutions',
     description:
       'Simplify your payroll process with our end-to-end payroll management system. Handle employee salaries, tax compliance, and benefits seamlessly.',
-    cta: 'Read More',
-    image: '/a3.svg',
+    cta: 'Learn More',
+    image: '/payroll-solutions-illustration.svg',
+    badge: 'Payroll',
+    bgColor: '#001F3F',
+    textColor: '#ffffff',
   },
   {
     id: 4,
     title: 'Expert Guidance',
     description:
       'Get personalized support from immigration and relocation specialists who understand the Nordic region inside out.',
-    cta: 'Read More',
+    cta: 'Learn More',
     image: '/c1.svg',
+    badge: 'Consulting',
+    bgColor: '#001F3F',
+    textColor: '#ffffff',
   },
 ];
 
@@ -56,6 +70,9 @@ const featuresSv: FeatureItem[] = [
       'Med vår digitala portal kan du effektivisera din ekonomi genom intelligenta redovisningstjänster som förenklar löner, skattedeklarationer och ekonomisk rapportering för ditt företag.',
     cta: 'Läs mer',
     image: '/a1.svg',
+    badge: 'Redovisning',
+    bgColor: '#001F3F',
+    textColor: '#ffffff',
   },
   {
     id: 2,
@@ -64,6 +81,9 @@ const featuresSv: FeatureItem[] = [
       'En komplett HR-lösning för företag att hantera anställda, arbetstillstånd, immigrationsstatus och kontrakt på en plattform.',
     cta: 'Läs mer',
     image: '/a2.svg',
+    badge: 'HR-lösningar',
+    bgColor: '#001F3F',
+    textColor: '#ffffff',
   },
   {
     id: 3,
@@ -71,7 +91,10 @@ const featuresSv: FeatureItem[] = [
     description:
       'Förenkla din löneprocess med vårt kompletta lönehanteringssystem. Hantera anställdas löner, skatteefterlevnad och förmåner sömlöst.',
     cta: 'Läs mer',
-    image: '/a3.svg',
+    image: '/payroll-solutions-illustration.svg',
+    badge: 'Löner',
+    bgColor: '#001F3F',
+    textColor: '#ffffff',
   },
   {
     id: 4,
@@ -80,43 +103,18 @@ const featuresSv: FeatureItem[] = [
       'Få personlig stöttning från migrations- och relocationsexperter som kan Norden utan och innan.',
     cta: 'Läs mer',
     image: '/c1.svg',
+    badge: 'Konsultation',
+    bgColor: '#001F3F',
+    textColor: '#ffffff',
   },
 ];
-
-function getCardPosition(index: number, active: number, total: number) {
-  if (index === active) return { y: 0, scale: 1.02, opacity: 1, zIndex: 3, widthScale: 1 };
-
-  const prevIndex = active === 0 ? total - 1 : active - 1;
-  if (index === prevIndex) return { y: -80, scale: 0.94, opacity: 0.6, zIndex: 2, widthScale: 0.82 };
-
-  const nextIndex = active === total - 1 ? 0 : active + 1;
-  if (index === nextIndex) return { y: 80, scale: 0.94, opacity: 0.6, zIndex: 2, widthScale: 0.82 };
-
-  return { y: 0, scale: 0.88, opacity: 0, zIndex: 1, widthScale: 0.75 };
-}
 
 export default function VerticalFeatureCarousel() {
   const { i18n } = useTranslation();
   const isSv = i18n.language === 'sv';
 
   const featureSet = isSv ? featuresSv : featuresEn;
-
-  const [active, setActive] = useState(0);
-  const max = featureSet.length - 1;
-  const [isPaused, setIsPaused] = useState(false);
-
-  useEffect(() => {
-    if (!isPaused) {
-      const interval = setInterval(() => {
-        setActive((current) => (current >= max ? 0 : current + 1));
-      }, 3000);
-
-      return () => clearInterval(interval);
-    }
-  }, [max, isPaused]);
-
-  const handlePrev = () => setActive((i) => (i <= 0 ? max : i - 1));
-  const handleNext = () => setActive((i) => (i >= max ? 0 : i + 1));
+  const [hoveredId, setHoveredId] = useState<number | 2>(2); // Default to card 2 (All-in-One Employee Management)
 
   return (
     <section className="w-full bg-[#EBF4FF] py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 3xl:py-36 4k:py-44 overflow-x-hidden">
@@ -146,99 +144,118 @@ export default function VerticalFeatureCarousel() {
           </h2>
         </div>
 
-        {/* UP ARROW */}
-        <div className="flex justify-center mb-4 xl:mb-6">
-          <button
-            onClick={handlePrev}
-            aria-label="Previous"
-            className="bg-[#2d3748] hover:bg-[#4a5568] text-white w-7 h-7 xl:w-9 xl:h-9 2xl:w-12 2xl:h-12 rounded-lg flex items-center justify-center shadow-md transition-all duration-200 hover:shadow-lg hover:-translate-y-px"
-          >
-            <svg className="w-3.5 h-3.5 xl:w-4 xl:h-4 2xl:w-6 2xl:h-6" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
-            </svg>
-          </button>
-        </div>
-
-        {/* CAROUSEL CONTAINER - Cards with smooth rotation */}
-        <div className="relative w-full" style={{ height: '450px' }}>
+        {/* HORIZONTAL CARDS GRID - Expandable Layout */}
+        <div className="flex gap-4 md:gap-5 lg:gap-6 w-full h-[350px] lg:h-[400px] items-stretch">
           {featureSet.map((item, idx) => {
-            const pos = getCardPosition(idx, active, featureSet.length);
-            const isActive = idx === active;
+            const isHovered = hoveredId === item.id;
 
             return (
               <motion.div
                 key={item.id}
-                initial={{ opacity: 0, y: 30, scale: 0.98, rotateX: 5 }}
-                animate={{
-                  opacity: pos.opacity,
-                  y: pos.y,
-                  scale: pos.scale,
-                  zIndex: pos.zIndex,
-                  rotateX: isActive ? 0 : 3,
-                  rotateY: 0,
-                }}
-                transition={{
-                  duration: 0.7,
-                  ease: [0.25, 0.46, 0.45, 0.94]
-                }}
-                onMouseEnter={() => setIsPaused(true)}
-                onMouseLeave={() => setIsPaused(false)}
-                className="absolute left-1/2 -translate-x-1/2 bg-white rounded-xl overflow-hidden"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: idx * 0.1 }}
+                onMouseEnter={() => setHoveredId(item.id)}
+                className="rounded-2xl overflow-hidden transition-all duration-500 group cursor-pointer border-b-4 flex flex-col"
                 style={{
-                  width: isActive ? '100%' : `${95 * pos.widthScale}%`,
-                  maxWidth: '100%',
-                  boxShadow: isActive
-                    ? '0 35px 90px rgba(0,0,0,0.15), 0 15px 40px rgba(0,0,0,0.08)'
-                    : '0 8px 25px rgba(0,0,0,0.06)',
-                  transition: 'width 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
-                  transformStyle: 'preserve-3d',
-                  perspective: '1000px',
+                  backgroundColor: isHovered ? item.bgColor : '#ffffff',
+                  borderBottomColor: '#3b82f6',
+                  boxShadow: isHovered
+                    ? '0 25px 60px rgba(0,0,0,0.15), 0 10px 30px rgba(0,0,0,0.08)'
+                    : '0 8px 20px rgba(0,0,0,0.06)',
+                  flex: isHovered ? '2.5' : '1',
                 }}
               >
-                <div className="grid grid-cols-1 md:grid-cols-[1fr_1.2fr]">
-                  {/* LEFT SIDE - Image */}
-                  <div className="hidden md:flex items-center justify-center bg-[#ECEDEE] p-8 xl:p-10 min-h-[380px] xl:min-h-[480px]">
-                    <img
-                      src={item.image}
-                      alt={item.title}
-                      className="w-[340px] h-[340px] xl:w-[420px] xl:h-[420px] object-contain"
-                    />
-                  </div>
+                <div 
+                  className={`h-full p-3 md:p-4 lg:p-6 ${
+                    isHovered ? 'grid grid-cols-[1.2fr_1fr]' : 'flex flex-col'
+                  }`}
+                >
+                  {/* LEFT SIDE - Content (Always first) */}
+                  <div className="flex flex-col h-full relative">
+                    {/* Badge */}
+                    <motion.div 
+                      className="flex items-start mb-3 md:mb-4"
+                      initial={{ opacity: 0, x: -20 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.5, delay: idx * 0.1 + 0.1 }}
+                    >
+                      <span 
+                        className={`inline-block px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap
+                          ${item.bgColor === '#001F3F' 
+                            ? 'bg-blue-500 text-white' 
+                            : 'bg-blue-200 text-blue-700'}
+                        `}
+                      >
+                        {item.badge}
+                      </span>
+                    </motion.div>
 
-                  {/* RIGHT SIDE - Content */}
-                  <div className="flex flex-col p-6 md:p-8 xl:p-12 min-h-[240px] md:min-h-[380px] xl:min-h-[480px]">
-                    <h3 className="text-[22px] md:text-[26px] xl:text-[30px] font-bold leading-tight text-gray-900 mb-4 xl:mb-5">
+                    {/* Title */}
+                    <motion.h3 
+                      className={`font-bold leading-tight mb-2 md:mb-3 transition-all duration-300 ${
+                        isHovered ? 'text-xl md:text-2xl lg:text-3xl' : 'text-lg md:text-xl'
+                      }`}
+                      style={{ color: isHovered ? item.textColor : '#0f172a' }}
+                    >
                       {item.title}
-                    </h3>
+                    </motion.h3>
 
-                    <p className="text-[15px] md:text-[16px] xl:text-[17px] text-gray-600 leading-relaxed mb-5 xl:mb-6 font-normal">
+                    {/* Description - Always visible */}
+                    <motion.p 
+                      className={`leading-relaxed font-normal mb-3 md:mb-4 ${
+                        isHovered ? 'text-sm md:text-base' : 'text-sm md:text-base line-clamp-3 md:line-clamp-none'
+                      }`}
+                      style={{ color: isHovered ? 'rgba(255, 255, 255, 0.9)' : '#64748b' }}
+                    >
                       {item.description}
-                    </p>
+                    </motion.p>
 
-                    {/* Button positioned at bottom right */}
-                    <div className="flex justify-end mt-auto pt-2 xl:pt-4 mb-5 xl:mb-8">
-                      <button className="bg-[#111827] hover:bg-[#0b1220] text-white text-[13px] md:text-[14px] xl:text-[15px] font-medium px-6 md:px-7 xl:px-8 py-2.5 md:py-3 xl:py-3 rounded-md min-w-[110px] md:min-w-[120px] xl:min-w-[130px] transition-colors duration-200">
+                    {/* Learn More Link - Always visible */}
+                    <motion.div
+                      transition={{ duration: 0.4 }}
+                      className="mt-auto pt-2"
+                    >
+                      <a 
+                        href="#"
+                        className="inline-flex items-center gap-2 font-semibold text-sm transition-all duration-300 group/link"
+                        style={{ 
+                          color: isHovered ? 'rgba(255, 255, 255, 0.9)' : '#2563eb'
+                        }}
+                      >
                         {item.cta}
-                      </button>
-                    </div>
+                        <motion.span 
+                          className="inline-block transition-transform duration-300 text-lg"
+                          animate={{ x: isHovered ? 4 : 0 }}
+                        >
+                          →
+                        </motion.span>
+                      </a>
+                    </motion.div>
                   </div>
+
+                  {/* RIGHT SIDE - Image (Only when hovered) */}
+                  {isHovered && (
+                    <motion.div 
+                      className="flex items-center justify-center pl-4 md:pl-6 h-full"
+                      initial={{ opacity: 0, x: 50 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.5 }}
+                    >
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className="w-full h-auto max-w-xs object-contain"
+                        style={{
+                          filter: 'drop-shadow(0 8px 20px rgba(59, 130, 246, 0.3)) brightness(1.05)',
+                        }}
+                      />
+                    </motion.div>
+                  )}
                 </div>
               </motion.div>
             );
           })}
-        </div>
-
-        {/* DOWN ARROW */}
-        <div className="flex justify-center mt-4 xl:mt-6">
-          <button
-            onClick={handleNext}
-            aria-label="Next"
-            className="bg-[#2d3748] hover:bg-[#4a5568] text-white w-7 h-7 xl:w-9 xl:h-9 2xl:w-12 2xl:h-12 rounded-lg flex items-center justify-center shadow-md transition-all duration-200 hover:shadow-lg hover:-translate-y-px"
-          >
-            <svg className="w-3.5 h-3.5 xl:w-4 xl:h-4 2xl:w-6 2xl:h-6" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
         </div>
 
       </div>
