@@ -1,5 +1,6 @@
 'use client';
 
+import { useCallback, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
@@ -87,6 +88,58 @@ export default function RelocationSuccessSection() {
 
   // Select the appropriate success items based on language
   const successItems = isSv ? SUCCESS_ITEMS_SV : SUCCESS_ITEMS_EN;
+  const [animatedValues, setAnimatedValues] = useState(() => successItems.map(() => 0));
+  const graphRef = useRef<HTMLDivElement | null>(null);
+  const rafRef = useRef<number | null>(null);
+  const hasAnimatedRef = useRef(false);
+
+  const animateValues = useCallback(() => {
+    const targets = successItems.map((item) => item.value);
+    const duration = 1200;
+    const start = performance.now();
+
+    const step = (now: number) => {
+      const progress = Math.min(1, (now - start) / duration);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      setAnimatedValues(targets.map((value) => Math.round(value * eased)));
+
+      if (progress < 1) {
+        rafRef.current = window.requestAnimationFrame(step);
+      }
+    };
+
+    rafRef.current = window.requestAnimationFrame(step);
+  }, [successItems]);
+
+  useEffect(() => {
+    setAnimatedValues(successItems.map(() => 0));
+    hasAnimatedRef.current = false;
+  }, [isSv, successItems]);
+
+  useEffect(() => {
+    const target = graphRef.current;
+    if (!target) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const [entry] = entries;
+        if (entry.isIntersecting && !hasAnimatedRef.current) {
+          hasAnimatedRef.current = true;
+          animateValues();
+        }
+      },
+      { threshold: 0.35 }
+    );
+
+    observer.observe(target);
+
+    return () => {
+      observer.disconnect();
+      if (rafRef.current) {
+        window.cancelAnimationFrame(rafRef.current);
+      }
+    };
+  }, [animateValues]);
 
   // Translations for UI elements
   const texts = {
@@ -142,6 +195,7 @@ export default function RelocationSuccessSection() {
           {/* Right content - Success Graph */}
           <div className="flex flex-col order-1 lg:order-2">
             <Box
+              ref={graphRef}
               sx={{
                 backgroundColor: '#ffffff',
                 borderRadius: { xs: '18px', sm: '20px', md: '22px' },
@@ -163,7 +217,9 @@ export default function RelocationSuccessSection() {
 
               {/* Success items list */}
               <div className="space-y-3 sm:space-y-3.5">
-                {successItems.map((item) => (
+                {successItems.map((item, index) => {
+                  const displayValue = Math.min(animatedValues[index] ?? 0, item.value);
+                  return (
                   <div key={item.label} className="flex gap-3">
                     {/* Icon - Direct SVG */}
                     <Image
@@ -179,12 +235,12 @@ export default function RelocationSuccessSection() {
                           {item.label}
                         </span>
                         <span className="text-[0.75rem] sm:text-[0.8rem] font-bold text-slate-900 flex-shrink-0">
-                          {item.value}%
+                          {displayValue}%
                         </span>
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={item.value}
+                        value={displayValue}
                         sx={{
                           height: { xs: 7, sm: 8 },
                           borderRadius: 999,
@@ -197,7 +253,8 @@ export default function RelocationSuccessSection() {
                       />
                     </div>
                   </div>
-                ))}
+                );
+                })}
               </div>
             </Box>
           </div>
