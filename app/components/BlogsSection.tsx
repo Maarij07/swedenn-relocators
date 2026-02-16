@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 
 const BLOGS = [
   {
@@ -28,6 +29,14 @@ const BLOGS = [
     title: 'A Guide About Student Fee And Admissions In Sweden',
     description:
       'Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.',
+  },
+  {
+    id: 4,
+    image: '/Work-permit-illustration.svg',
+    date: '15 April 2023',
+    title: 'Understanding Swedish Workplace Culture & Employee Benefits',
+    description:
+      'Explore the unique aspects of Swedish work environment, including flexibility, equality, and comprehensive benefits that make Sweden attractive for professionals.',
   },
 ];
 
@@ -56,11 +65,20 @@ const BLOGS_SV = [
     description:
       'En översikt över studieavgifter, stipendier och antagningsprocessen för dig som vill studera i Sverige.',
   },
+  {
+    id: 4,
+    image: '/Work-permit-illustration.svg',
+    date: '15 april 2023',
+    title: 'Förstå svensk arbetskulturen & anställningsförmåner',
+    description:
+      'Utforska de unika aspekterna av den svenska arbetsmiljön, inklusive flexibilitet, jämlikhet och omfattande förmåner som gör Sverige attraktivt för yrkespersoner.',
+  },
 ];
 
 export default function BlogsSection() {
   const { i18n } = useTranslation();
   const isSv = i18n.language === 'sv';
+  const [hoveredBlog, setHoveredBlog] = useState<number | null>(null);
 
   // Select the appropriate blog data based on language
   const blogs = isSv ? BLOGS_SV : BLOGS;
@@ -73,55 +91,113 @@ export default function BlogsSection() {
   };
 
   return (
-    <section className="bg-white">
+    <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
-        {/* Heading */}
-        <h2 className="text-slate-900 font-extrabold tracking-tight text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] 2xl:text-[2.75rem] 4k:text-[3.25rem] mb-8 sm:mb-10 lg:mb-12">
-          {texts.heading}
-        </h2>
+        {/* Centered Heading */}
+        <div className="text-center mb-12 sm:mb-14 lg:mb-16">
+          <h2 className="text-slate-900 font-extrabold tracking-tight text-[1.9rem] sm:text-[2.4rem] lg:text-[2.9rem] 4k:text-[3.6rem] mb-4">
+            {texts.heading}
+          </h2>
+          <p className="text-slate-600 text-base sm:text-lg max-w-3xl mx-auto">
+            {isSv ? 'Läs våra senaste insikter och tips för att lyckas med din flytt och arbete i Norden' : 'Discover insights and tips to help you succeed with your relocation and career in the Nordic region'}
+          </p>
+        </div>
 
-        {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 mb-10 sm:mb-12 lg:mb-14">
-          {blogs.map((blog) => (
-            <article
-              key={blog.id}
-              className="flex flex-col rounded-3xl bg-slate-50 border border-slate-100 shadow-[0_18px_60px_rgba(15,23,42,0.06)] overflow-hidden"
+        {/* Blog Layout: Featured on Left, Cards on Right */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 mb-12 sm:mb-14 lg:mb-16">
+          {/* Featured Blog Card - Left (50%) */}
+          {blogs.length > 0 && (
+            <div
+              key={blogs[0].id}
+              className="lg:col-span-1 group rounded-3xl bg-white overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2 border border-slate-100"
+              onMouseEnter={() => setHoveredBlog(blogs[0].id)}
+              onMouseLeave={() => setHoveredBlog(null)}
             >
-              <div className="relative w-full h-[220px] sm:h-[240px] lg:h-[260px] bg-slate-100">
+              <div className="relative w-full h-[320px] sm:h-[360px] lg:h-[400px] overflow-hidden bg-[#EBF4FF]">
                 <Image
-                  src={blog.image}
-                  alt={blog.title}
+                  src={blogs[0].image}
+                  alt={blogs[0].title}
                   fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-contain"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className={`object-contain object-center transition-transform duration-500 ease-out ${
+                    hoveredBlog === blogs[0].id ? 'scale-110' : 'scale-100'
+                  }`}
                 />
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 via-blue-400/5 to-transparent opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
               </div>
-
-              <div className="flex-1 px-6 sm:px-7 pt-6 sm:pt-7 pb-6 sm:pb-7 flex flex-col gap-3">
-                <p className="text-[0.7rem] sm:text-xs text-slate-400 font-medium">
-                  {blog.date}
+              <div className="p-6 sm:p-7 lg:p-6">
+                <p className="text-xs font-semibold uppercase tracking-widest text-sky-600 mb-2">
+                  {isSv ? 'ARTIKEL' : 'ARTICLE'}
                 </p>
-                <h3 className="text-slate-900 font-semibold text-sm sm:text-base lg:text-[1.05rem] leading-snug">
-                  {blog.title}
+                <h3 className="text-lg sm:text-xl lg:text-lg font-bold text-slate-900 mb-2 leading-tight line-clamp-2">
+                  {blogs[0].title}
                 </h3>
-                <p className="text-[0.8rem] sm:text-[0.85rem] text-slate-500 leading-relaxed flex-1">
-                  {blog.description}
+                <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4 line-clamp-2">
+                  {blogs[0].description}
                 </p>
-                <div className="flex justify-end pt-2">
-                  <button className="inline-flex items-center px-4 py-2 rounded-lg border border-slate-200 text-[0.8rem] sm:text-[0.85rem] font-semibold text-[#2563eb] hover:text-[#1d4ed8] hover:border-[#2563eb] transition-colors">
-                    {texts.readMore}
-                    <span className="ml-1 text-xs">→</span>
-                  </button>
-                </div>
+                <button className="inline-flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-slate-900 to-slate-800 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-xs sm:text-sm group/btn">
+                  {texts.readMore}
+                  <span className="inline-block transition-transform duration-300 group-hover/btn:translate-x-1">→</span>
+                </button>
               </div>
-            </article>
-          ))}
+            </div>
+          )}
+
+          {/* Blog Cards Grid - Right (50%) */}
+          <div className="lg:col-span-1 space-y-6">
+            {blogs.slice(1).map((blog) => (
+              <article
+                key={blog.id}
+                className="group flex flex-col sm:flex-row gap-5 rounded-3xl bg-white border border-slate-100 shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-500 ease-out hover:-translate-y-2"
+                onMouseEnter={() => setHoveredBlog(blog.id)}
+                onMouseLeave={() => setHoveredBlog(null)}
+              >
+                {/* Image Section */}
+                <div className="relative w-full sm:w-[200px] lg:w-[180px] 4k:w-[240px] h-[220px] sm:h-[180px] lg:h-[160px] 4k:h-[200px] flex-shrink-0 overflow-hidden bg-[#EBF4FF]">
+                  <Image
+                    src={blog.image}
+                    alt={blog.title}
+                    fill
+                    sizes="(max-width: 640px) 100vw, 200px"
+                    className={`object-contain object-center transition-transform duration-500 ease-out ${
+                      hoveredBlog === blog.id ? 'scale-110' : 'scale-100'
+                    }`}
+                  />
+                  {/* Gradient Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-40 group-hover:opacity-30 transition-opacity duration-500" />
+                </div>
+
+                {/* Content Section */}
+                <div className="flex-1 p-5 sm:p-6 lg:p-5 flex flex-col justify-between">
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-widest text-sky-600 mb-2">
+                      {isSv ? 'ARTIKEL' : 'ARTICLE'}
+                    </p>
+                    <h3 className="text-base sm:text-lg lg:text-[0.95rem] 4k:text-lg font-bold text-slate-900 mb-2 leading-tight line-clamp-2">
+                      {blog.title}
+                    </h3>
+                    <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                      {blog.description}
+                    </p>
+                  </div>
+
+                  {/* Read More Button */}
+                  <div className="flex items-center justify-start mt-3">
+                    <button className="inline-flex items-center gap-1.5 px-3 py-2 bg-gradient-to-r from-slate-900 to-slate-800 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-xs sm:text-sm group/btn">
+                      {texts.readMore}
+                      <span className="inline-block transition-transform duration-300 group-hover/btn:translate-x-1">→</span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
         </div>
 
         {/* Show more button */}
         <div className="flex justify-center">
           <Link href="/blogs">
-            <button className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 sm:px-8 py-2.5 text-[0.8rem] sm:text-[0.85rem] font-semibold text-slate-900 shadow-[0_10px_30px_rgba(15,23,42,0.06)] hover:bg-slate-50 transition-colors">
+            <button className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-8 sm:px-10 py-3 text-sm sm:text-base font-semibold text-slate-900 shadow-lg hover:shadow-xl hover:bg-slate-50 transition-all duration-300 hover:-translate-y-0.5">
               {texts.showMore}
             </button>
           </Link>

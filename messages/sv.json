@@ -311,7 +311,25 @@
     "subheading": "Sömlös flytt- och immigrationslösningar för medarbetare, privatpersoner, familjer och företag",
     "description": "Vår app och webbportal erbjuder en komplett lösning från början till slut för flytt och immigration för privatpersoner och företag. Tjänster inkluderar smarta lösningar, visumspårning, behörighetsprövning, compliance-hantering, boendelösningar, lönehantering, logistik, sjukförsäkring, husdjursflyttning och fullständig ankomst- och avresehjälp. Allt detta hanteras på en säker plattform, tillgänglig när som helst via webben eller mobilappen.",
     "appStore": "App Store",
-    "googlePlay": "Google Play"
+    "googlePlay": "Google Play",
+    "features": {
+      "visaTracking": {
+        "title": "Visum- och tillståndsspårning",
+        "desc": "Spåra dina visum- och uppehållstillståndsansökningar i realtid. Få omedelbara uppdateringar om ansökningsstatus, handläggningstider och nödvändiga dokument med full transparens."
+      },
+      "documentManagement": {
+        "title": "Säker dokumenthantering",
+        "desc": "Lagra, organisera och dela alla dina immigrationsdokument säkert på ett ställe. Ladda upp dokument, e-signera formulär och få tillgång till dina filer när som helst från vilken enhet som helst."
+      },
+      "housingSolutions": {
+        "title": "Boende och logi",
+        "desc": "Hitta och säkra boende innan du anländer. Bläddra bland verifierade annonser, boka virtuella visningar och slutför hyresavtal via vår plattform."
+      },
+      "complianceManagement": {
+        "title": "Efterlevnad och support",
+        "desc": "Håll dig uppdaterad med immigrationsregler. Ta emot automatiska påminnelser om tillståndsförnyelser, skatteregistreringar och andra viktiga deadlines med 24/7 expertstöd."
+      }
+    }
   },
   "blogsPage": {
     "hero": {

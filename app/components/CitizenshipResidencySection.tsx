@@ -49,10 +49,10 @@ export default function CitizenshipResidencySection() {
   };
 
   return (
-    <section className="bg-white">
+    <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 4k:py-32">
         {/* Eyebrow */}
-        <p className="text-center text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase text-sky-500 mb-3">
+        <p className="text-center text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase text-sky-600 mb-3">
           {texts.eyebrow}
         </p>
 
@@ -60,7 +60,7 @@ export default function CitizenshipResidencySection() {
         <h2 className="text-center text-[1.9rem] sm:text-[2.4rem] lg:text-[2.9rem] 4k:text-[3.6rem] font-bold text-gray-900 leading-tight mb-2">
           <span className="text-sky-600">{isSv ? 'Medborgarskap & uppehållstillstånd' : 'Citizenship & Residency'}</span> {isSv ? 'genom investering' : 'by Investment'}
         </h2>
-        <p className="text-center text-[0.95rem] sm:text-base lg:text-[1.05rem] text-gray-600 max-w-2xl mx-auto mb-8 sm:mb-10 lg:mb-12">
+        <p className="text-center text-[0.95rem] sm:text-base lg:text-[1.05rem] text-gray-700 max-w-2xl mx-auto mb-8 sm:mb-10 lg:mb-12">
           {texts.intro}
         </p>
 
@@ -106,26 +106,52 @@ export default function CitizenshipResidencySection() {
           {/* Left Card - CBI */}
           <Card
             elevation={0}
-            className="rounded-2xl border border-gray-200 shadow-[0_30px_60px_rgba(15,23,42,0.25),_0_15px_35px_rgba(59,130,246,0.15)] flex flex-col"
-            sx={{ backgroundColor: '#ffffff' }}
+            className="flex flex-col transition-all duration-500 ease-out hover:-translate-y-2 overflow-hidden group/card"
+            sx={{ 
+              backgroundColor: '#ffffff',
+              position: 'relative',
+              borderRadius: '24px',
+              border: '1px solid rgba(148, 163, 184, 0.2)',
+              boxShadow: '0 10px 40px -10px rgba(15, 23, 42, 0.15), 0 4px 25px -5px rgba(59, 130, 246, 0.1)',
+              '&:hover': {
+                boxShadow: '0 25px 60px -15px rgba(15, 23, 42, 0.25), 0 10px 40px -10px rgba(59, 130, 246, 0.2)',
+                borderColor: 'rgba(59, 130, 246, 0.3)',
+              },
+              '&::before': {
+                content: '""',
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                background: 'linear-gradient(135deg, rgba(59, 130, 246, 0) 0%, rgba(147, 51, 234, 0) 100%)',
+                transition: 'all 0.5s ease',
+                pointerEvents: 'none',
+              },
+              '&:hover::before': {
+                background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(147, 51, 234, 0.05) 100%)',
+              }
+            }}
           >
-            <CardContent className="p-6 sm:p-7 lg:p-8 flex flex-col h-full">
+            <CardContent className="p-6 sm:p-7 lg:p-8 flex flex-col h-full relative z-10">
               <Typography
                 component="h3"
                 sx={{
-                  fontSize: { xs: '1.2rem', sm: '1.35rem', lg: '1.45rem', '4k': '1.8rem' },
-                  fontWeight: 700,
-                  color: '#111827',
-                  mb: 1,
+                  fontSize: { xs: '1.3rem', sm: '1.4rem', lg: '1.5rem', '4k': '1.9rem' },
+                  fontWeight: 800,
+                  color: '#0f172a',
+                  mb: 1.5,
+                  transition: 'color 0.3s ease',
                 }}
               >
                 {isSv ? 'Medborgarskap genom investering (CBI)' : 'Citizenship by Investment (CBI)'}
               </Typography>
               <Typography
                 sx={{
-                  fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.2rem' },
-                  color: '#4b5563',
+                  fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.05rem', '4k': '1.25rem' },
+                  color: '#475569',
                   mb: 3,
+                  lineHeight: 1.7,
                 }}
               >
                 {isSv
@@ -150,26 +176,28 @@ export default function CitizenshipResidencySection() {
               </ul>
 
               {/* Flags row */}
-              <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mt: 'auto' }}>
+              <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1.5, mt: 'auto' }}>
                 {citizenshipFlags.map((code) => (
                   <Box
                     key={code}
                     sx={{
-                      width: 32,
-                      height: 32,
-                      borderRadius: '999px',
+                      width: 36,
+                      height: 36,
+                      borderRadius: '12px',
                       overflow: 'hidden',
-                      boxShadow: '0 6px 12px rgba(15,23,42,0.12)',
-                      border: '1px solid #e5e7eb',
+                      boxShadow: '0 4px 8px rgba(15,23,42,0.08)',
+                      border: '2px solid #f8fafc',
                       backgroundColor: '#ffffff',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                      transition: 'all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
+                      cursor: 'pointer',
                       '&:hover': {
-                        transform: 'scale(1.12)',
-                        boxShadow: '0 8px 16px rgba(15,23,42,0.2)',
-                        zIndex: 1,
+                        transform: 'scale(1.15) translateY(-2px)',
+                        boxShadow: '0 8px 20px rgba(15,23,42,0.15)',
+                        borderColor: '#e0f2fe',
+                        zIndex: 10,
                       },
                     }}
                     title={countryNames[code] || code.toUpperCase()}
@@ -191,41 +219,25 @@ export default function CitizenshipResidencySection() {
               <Button
                 sx={{
                   mt: 3,
-                  px: 3.5,
-                  py: 1.25,
-                  fontSize: { xs: '0.85rem', sm: '0.9rem' },
+                  px: 4,
+                  py: 1.5,
+                  fontSize: { xs: '0.9rem', sm: '0.95rem' },
                   fontWeight: 600,
                   textTransform: 'none',
-                  background: 'linear-gradient(135deg, #000000 0%, #1a1a1a 100%)',
+                  background: 'linear-gradient(to right, #0f172a, #1e293b)',
                   color: '#ffffff',
-                  borderRadius: '8px',
+                  borderRadius: '12px',
                   alignSelf: 'flex-end',
                   border: 'none',
-                  transition: 'all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
-                  boxShadow: '0 3px 10px rgba(0, 0, 0, 0.2)',
-                  position: 'relative',
-                  overflow: 'hidden',
-                  '&::before': {
-                    content: '""',
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    background: 'linear-gradient(135deg, #1a1a1a 0%, #000000 100%)',
-                    opacity: 0,
-                    transition: 'opacity 0.3s ease',
-                  },
+                  transition: 'all 0.3s ease',
+                  boxShadow: '0 4px 14px 0 rgba(0, 0, 0, 0.15)',
                   '&:hover': {
                     transform: 'translateY(-2px)',
-                    boxShadow: '0 5px 16px rgba(0, 0, 0, 0.28)',
-                    '&::before': {
-                      opacity: 1,
-                    },
+                    boxShadow: '0 6px 20px 0 rgba(0, 0, 0, 0.2)',
                   },
                 }}
               >
-                <Box component="span" sx={{ position: 'relative', zIndex: 1, display: 'flex', alignItems: 'center', gap: 0.75 }}>
+                <Box component="span" sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                   {texts.cbiButton}
                   <Box
                     component="span"
@@ -233,7 +245,7 @@ export default function CitizenshipResidencySection() {
                       display: 'inline-block',
                       transition: 'transform 0.3s ease',
                       '.MuiButton-root:hover &': {
-                        transform: 'translateX(3px)',
+                        transform: 'translateX(4px)',
                       },
                     }}
                   >
@@ -247,26 +259,52 @@ export default function CitizenshipResidencySection() {
           {/* Right Card - RBI */}
           <Card
             elevation={0}
-            className="rounded-2xl border border-gray-200 shadow-[0_30px_60px_rgba(15,23,42,0.25),_0_15px_35px_rgba(59,130,246,0.15)] flex flex-col"
-            sx={{ backgroundColor: '#ffffff' }}
+            className="flex flex-col transition-all duration-500 ease-out hover:-translate-y-2 overflow-hidden group/card"
+            sx={{ 
+              backgroundColor: '#ffffff',
+              position: 'relative',
+              borderRadius: '24px',
+              border: '1px solid rgba(148, 163, 184, 0.2)',
+              boxShadow: '0 10px 40px -10px rgba(15, 23, 42, 0.15), 0 4px 25px -5px rgba(59, 130, 246, 0.1)',
+              '&:hover': {
+                boxShadow: '0 25px 60px -15px rgba(15, 23, 42, 0.25), 0 10px 40px -10px rgba(59, 130, 246, 0.2)',
+                borderColor: 'rgba(59, 130, 246, 0.3)',
+              },
+              '&::before': {
+                content: '""',
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                background: 'linear-gradient(135deg, rgba(59, 130, 246, 0) 0%, rgba(147, 51, 234, 0) 100%)',
+                transition: 'all 0.5s ease',
+                pointerEvents: 'none',
+              },
+              '&:hover::before': {
+                background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(147, 51, 234, 0.05) 100%)',
+              }
+            }}
           >
-            <CardContent className="p-6 sm:p-7 lg:p-8 flex flex-col h-full">
+            <CardContent className="p-6 sm:p-7 lg:p-8 flex flex-col h-full relative z-10">
               <Typography
                 component="h3"
                 sx={{
-                  fontSize: { xs: '1.2rem', sm: '1.35rem', lg: '1.45rem', '4k': '1.8rem' },
-                  fontWeight: 700,
+                  fontSize: { xs: '1.3rem', sm: '1.4rem', lg: '1.5rem', '4k': '1.9rem' },
+                  fontWeight: 800,
                   color: '#0f172a',
-                  mb: 1,
+                  mb: 1.5,
+                  transition: 'color 0.3s ease',
                 }}
               >
                 {isSv ? 'Uppehållstillstånd genom investering (RBI)' : 'Residency by Investment (RBI)'}
               </Typography>
               <Typography
                 sx={{
-                  fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.2rem' },
+                  fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.05rem', '4k': '1.25rem' },
                   color: '#475569',
                   mb: 3,
+                  lineHeight: 1.7,
                 }}
               >
                 {isSv
@@ -291,26 +329,28 @@ export default function CitizenshipResidencySection() {
               </ul>
 
               {/* Flags row */}
-              <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mt: 'auto' }}>
+              <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1.5, mt: 'auto' }}>
                 {residencyFlags.map((code) => (
                   <Box
                     key={code}
                     sx={{
-                      width: 32,
-                      height: 32,
-                      borderRadius: '999px',
+                      width: 36,
+                      height: 36,
+                      borderRadius: '12px',
                       overflow: 'hidden',
-                      boxShadow: '0 6px 12px rgba(15,23,42,0.12)',
-                      border: '1px solid #e2e8f0',
+                      boxShadow: '0 4px 8px rgba(15,23,42,0.08)',
+                      border: '2px solid #f8fafc',
                       backgroundColor: '#ffffff',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                      transition: 'all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
+                      cursor: 'pointer',
                       '&:hover': {
-                        transform: 'scale(1.12)',
-                        boxShadow: '0 8px 16px rgba(15,23,42,0.2)',
-                        zIndex: 1,
+                        transform: 'scale(1.15) translateY(-2px)',
+                        boxShadow: '0 8px 20px rgba(15,23,42,0.15)',
+                        borderColor: '#e0f2fe',
+                        zIndex: 10,
                       },
                     }}
                     title={countryNames[code] || code.toUpperCase()}
@@ -332,41 +372,25 @@ export default function CitizenshipResidencySection() {
               <Button
                 sx={{
                   mt: 3,
-                  px: 3.5,
-                  py: 1.25,
-                  fontSize: { xs: '0.85rem', sm: '0.9rem' },
+                  px: 4,
+                  py: 1.5,
+                  fontSize: { xs: '0.9rem', sm: '0.95rem' },
                   fontWeight: 600,
                   textTransform: 'none',
-                  background: 'linear-gradient(135deg, #000000 0%, #1a1a1a 100%)',
+                  background: 'linear-gradient(to right, #0f172a, #1e293b)',
                   color: '#ffffff',
-                  borderRadius: '8px',
+                  borderRadius: '12px',
                   alignSelf: 'flex-end',
                   border: 'none',
-                  transition: 'all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
-                  boxShadow: '0 3px 10px rgba(0, 0, 0, 0.2)',
-                  position: 'relative',
-                  overflow: 'hidden',
-                  '&::before': {
-                    content: '""',
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    background: 'linear-gradient(135deg, #1a1a1a 0%, #000000 100%)',
-                    opacity: 0,
-                    transition: 'opacity 0.3s ease',
-                  },
+                  transition: 'all 0.3s ease',
+                  boxShadow: '0 4px 14px 0 rgba(0, 0, 0, 0.15)',
                   '&:hover': {
                     transform: 'translateY(-2px)',
-                    boxShadow: '0 5px 16px rgba(0, 0, 0, 0.28)',
-                    '&::before': {
-                      opacity: 1,
-                    },
+                    boxShadow: '0 6px 20px 0 rgba(0, 0, 0, 0.2)',
                   },
                 }}
               >
-                <Box component="span" sx={{ position: 'relative', zIndex: 1, display: 'flex', alignItems: 'center', gap: 0.75 }}>
+                <Box component="span" sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                   {texts.rbiButton}
                   <Box
                     component="span"
@@ -374,7 +398,7 @@ export default function CitizenshipResidencySection() {
                       display: 'inline-block',
                       transition: 'transform 0.3s ease',
                       '.MuiButton-root:hover &': {
-                        transform: 'translateX(3px)',
+                        transform: 'translateX(4px)',
                       },
                     }}
                   >

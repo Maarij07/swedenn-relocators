@@ -307,7 +307,25 @@
     "subheading": "Seamless Relocation & Immigration solutions for Employees, Individuals, Families, & Companies",
     "description": "Our app and web portal provide a complete end-to-end relocation and immigration solution for individuals and companies. Services include Man Power Solutions, Visa Tracking, Eligibility Assessments, Compliance Management, Housing Solutions, Payroll, Logistics, Health insurances, Pet Relocation, and Full Departure-to-Arrival support and many more. All of this is managed in one secure platform, accessible anytime via web or mobile.",
     "appStore": "App Store",
-    "googlePlay": "Google Play"
+    "googlePlay": "Google Play",
+    "features": {
+      "visaTracking": {
+        "title": "Visa & Permit Tracking",
+        "desc": "Track your visa and residence permit applications in real-time. Get instant updates on application status, processing times, and required documents with full transparency."
+      },
+      "documentManagement": {
+        "title": "Secure Document Management",
+        "desc": "Store, organize, and share all your immigration documents securely in one place. Upload documents, e-sign forms, and access your files anytime from any device."
+      },
+      "housingSolutions": {
+        "title": "Housing & Accommodation",
+        "desc": "Find and secure housing before you arrive. Browse verified listings, schedule virtual tours, and complete rental agreements all through our platform."
+      },
+      "complianceManagement": {
+        "title": "Compliance & Support",
+        "desc": "Stay compliant with immigration regulations. Receive automated reminders for permit renewals, tax registrations, and other important deadlines with 24/7 expert support."
+      }
+    }
   },
   "blogsPage": {
     "hero": {
