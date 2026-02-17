@@ -8,7 +8,7 @@ import { useState } from 'react';
 const BLOGS = [
   {
     id: 1,
-    image: '/l1.svg',
+    image: '/relocation.svg',
     date: '10 March 2023',
     title: "5 Things To Keep In Mind If You're Relocating To Sweden",
     description:
@@ -24,7 +24,7 @@ const BLOGS = [
   },
   {
     id: 3,
-    image: '/l3.svg',
+    image: '/school.svg',
     date: '10 March 2023',
     title: 'A Guide About Student Fee And Admissions In Sweden',
     description:
@@ -32,7 +32,7 @@ const BLOGS = [
   },
   {
     id: 4,
-    image: '/Work-permit-illustration.svg',
+    image: '/business-person-holding-cv.svg',
     date: '15 April 2023',
     title: 'Understanding Swedish Workplace Culture & Employee Benefits',
     description:
@@ -43,7 +43,7 @@ const BLOGS = [
 const BLOGS_SV = [
   {
     id: 1,
-    image: '/l1.svg',
+    image: '/relocation.svg',
     date: '10 mars 2023',
     title: '5 saker att tänka på när du flyttar till Sverige',
     description:
@@ -59,7 +59,7 @@ const BLOGS_SV = [
   },
   {
     id: 3,
-    image: '/l3.svg',
+    image: '/school.svg',
     date: '10 mars 2023',
     title: 'Guide till studieavgifter och antagning i Sverige',
     description:
@@ -67,7 +67,7 @@ const BLOGS_SV = [
   },
   {
     id: 4,
-    image: '/Work-permit-illustration.svg',
+    image: '/business-person-holding-cv.svg',
     date: '15 april 2023',
     title: 'Förstå svensk arbetskulturen & anställningsförmåner',
     description:

@@ -144,12 +144,12 @@ export const HousingCarousel: React.FC = () => {
     <Box sx={{ py: { xs: 6, sm: 8, lg: 10, xl: 12 }, backgroundColor: '#EBF4FF' }}>
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         <Box sx={{ maxWidth: '900px', mx: 'auto', textAlign: 'center', mb: { xs: 6, sm: 8, lg: 10 } }}>
-          <Typography sx={{ color: '#60a5fa', fontWeight: 500, fontSize: '0.9rem', mb: 1, letterSpacing: 0.5 }}>
+          <Typography sx={{ color: '#2563eb', fontWeight: 500, fontSize: '0.9rem', mb: 1, letterSpacing: 0.5 }}>
             {isSv ? 'Trygga bostadslösningar, levererade i tid' : 'Housing Solutions You Can Trust, Delivered on Time'}
           </Typography>
-          <Typography sx={{ fontWeight: 900, fontSize: { xs: '2rem', md: '2.5rem' }, mb: 0.5, lineHeight: 1.1 }}>
+          <Typography sx={{ fontWeight: 900, fontSize: { xs: '2rem', md: '2.5rem' }, mb: 0.5, lineHeight: 1.1, color: '#0f172a' }}>
             {isSv ? 'Helhetslösningar för ' : 'End-to-End '}
-            <Box component="span" sx={{ color: '#3b82f6', fontWeight: 900 }}>
+            <Box component="span" sx={{ color: '#2563eb', fontWeight: 900 }}>
               {isSv ? 'bostad & fastigheter' : 'Housing & Real Estate'}
             </Box>{' '}
             {isSv ? 'stöd' : 'Support'}

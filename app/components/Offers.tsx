@@ -120,9 +120,9 @@ export default function Offers() {
     <Box component="section" sx={{ py: { xs: 6, sm: 8, lg: 10, xl: 12 }, backgroundColor: '#ffffff' }}>
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         <Box sx={{ mb: { xs: 6, sm: 8, lg: 10 }, position: 'relative' }}>
-          <Typography sx={{ fontSize: { xs: '0.75rem', sm: '0.875rem', lg: '1rem', '4k': '1.25rem' }, color: '#3b82f6', fontWeight: 600, mb: 1, textTransform: 'uppercase', letterSpacing: '0.05em', textAlign: 'center' }}>{texts.eyebrow}</Typography>
-          <Typography sx={{ fontSize: { xs: '1.5rem', sm: '2rem', lg: '2.25rem', '4k': '3.5rem' }, fontWeight: 800, mb: 0.5, color: '#000000', textAlign: 'center', lineHeight: 1.2 }}>{texts.heading}</Typography>
-          <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.75rem', lg: '2rem', '4k': '3rem' }, fontWeight: 700, color: '#3b82f6', textAlign: 'center' }}>{texts.subheading}</Typography>
+          <Typography sx={{ fontSize: { xs: '0.75rem', sm: '0.875rem', lg: '1rem', '4k': '1.25rem' }, color: '#2563eb', fontWeight: 600, mb: 1, textTransform: 'uppercase', letterSpacing: '0.05em', textAlign: 'center' }}>{texts.eyebrow}</Typography>
+          <Typography sx={{ fontSize: { xs: '1.5rem', sm: '2rem', lg: '2.25rem', '4k': '3.5rem' }, fontWeight: 800, mb: 0.5, color: '#0f172a', textAlign: 'center', lineHeight: 1.2 }}>{texts.heading}</Typography>
+          <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.75rem', lg: '2rem', '4k': '3rem' }, fontWeight: 700, color: '#2563eb', textAlign: 'center' }}>{texts.subheading}</Typography>
         </Box>
         <Box sx={{ position: 'relative', mx: { xs: 4, sm: 6, md: 8 } }}>
           <IconButton onClick={handlePrev} sx={{ position: 'absolute', top: '50%', left: { xs: -40, sm: -48, md: -56 }, transform: 'translateY(-50%)', zIndex: 10, bgcolor: '#000000', color: 'white', width: { xs: 32, sm: 36, md: 40 }, height: { xs: 32, sm: 36, md: 40 }, boxShadow: '0 4px 12px rgba(0,0,0,0.2)', '&:hover': { bgcolor: '#1e293b' } }}><ArrowBackIcon sx={{ fontSize: { xs: 18, sm: 20 } }} /></IconButton>

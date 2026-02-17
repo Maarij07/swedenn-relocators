@@ -33,7 +33,7 @@ const services: Service[] = [
     id: 'work',
     titleKey: 'services.cards.work.title',
     descriptionKey: 'services.cards.work.description',
-    coverImage: '/work-permit-illustration.svg',
+    coverImage: '/Work-permit-illustration.svg',
     thumbImage: '/image3.png',
   },
   {
@@ -194,7 +194,7 @@ export default function Services() {
             sx={{
               fontSize: { xs: '1.25rem', sm: '1.5rem', lg: '1.75rem', xl: '2rem' },
               fontWeight: 700,
-              color: '#60a5fa',
+              color: '#2563eb',
               textAlign: 'center',
             }}
 >
@@ -296,24 +296,7 @@ export default function Services() {
                         gap: 2,
                       }}
                     >
-                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
-                        <Box
-                          sx={{
-                            width: 40,
-                            height: 40,
-                            borderRadius: '12px',
-                            background: 'rgba(15, 23, 42, 0.06)',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                          }}
-                        >
-                          <img
-                            src={service.thumbImage}
-                            alt={t(service.titleKey)}
-                            style={{ width: '55%', height: '55%', objectFit: 'contain' }}
-                          />
-                        </Box>
+                      <Box>
                         <Typography
                           sx={{
                             fontSize: { xs: '1rem', sm: '1.1rem', lg: '1.2rem' },
