@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
@@ -77,6 +78,8 @@ const BLOGS_SV = [
 
 export default function BlogsSection() {
   const { i18n } = useTranslation();
+  const params = useParams();
+  const locale = (params?.locale as string) || i18n.language || 'en';
   const isSv = i18n.language === 'sv';
   const [hoveredBlog, setHoveredBlog] = useState<number | null>(null);
 
@@ -196,7 +199,7 @@ export default function BlogsSection() {
 
         {/* Show more button */}
         <div className="flex justify-center">
-          <Link href="/blogs">
+          <Link href={`/${locale}/blogs`}>
             <button className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-8 sm:px-10 py-3 text-sm sm:text-base font-semibold text-slate-900 shadow-lg hover:shadow-xl hover:bg-slate-50 transition-all duration-300 hover:-translate-y-0.5">
               {texts.showMore}
             </button>
