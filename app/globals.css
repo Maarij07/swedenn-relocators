@@ -6,7 +6,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --header-height: 96px;
+  --header-height: 112px;
 }
 
 @theme inline {
@@ -82,5 +82,26 @@ button,
 @media (min-width: 1920px) and (max-width: 3839px) {
   body {
     zoom: 0.95;
+  }
+}
+
+@media (min-width: 1024px) {
+  body.home-snap-page {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
+
+  body.home-snap-page .home-snap-section {
+    min-height: calc(100svh - var(--header-height));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-margin-top: var(--header-height);
+  }
+
+  body.home-snap-page .home-snap-section > * {
+    width: 100%;
   }
 }

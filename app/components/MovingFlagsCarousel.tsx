@@ -106,15 +106,18 @@ export function MovingFlagsCarousel() {
                     src={`https://flagcdn.com/w160/${country.code}.png`}
                     alt={country.name}
                     sx={{
-                      width: { xs: 20, sm: 24, lg: 28, '4k': 32 },
-                      height: { xs: 14, sm: 16, lg: 20, '4k': 24 },
-                      borderRadius: '2px',
-                      boxShadow: '0 1px 2px rgba(0,0,0,0.08)',
+                      width: 34,
+                      height: 34,
+                      borderRadius: '8px',
+                      border: '1.5px solid #f8fafc',
+                      backgroundColor: '#ffffff',
+                      boxShadow: '0 4px 8px rgba(15,23,42,0.12)',
                       objectFit: 'cover',
                       imageRendering: 'auto',
-                      transition: 'transform 0.3s ease',
+                      transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                       '&:hover': {
-                        transform: 'scale(1.15)',
+                        transform: 'scale(1.15) translateY(-1px)',
+                        boxShadow: '0 8px 16px rgba(15,23,42,0.18)',
                       },
                     }}
                   />

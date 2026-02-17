@@ -72,24 +72,25 @@ export default function BusinessMarketplaceSection() {
   // Select the appropriate business cards based on language
   const businessCards = isSv ? BUSINESS_CARDS_SV : BUSINESS_CARDS_EN;
 
-  // Translations for heading
-  const heading = isSv ? (
-    <>
-      Köp eller <span className="text-blue-600">lista ditt företag</span> för försäljning
-    </>
-  ) : (
-    <>
-      Buy or <span className="text-blue-600">List your Business</span> To Sell
-    </>
-  );
+  // Translations for heading/subheading
+  const heading = isSv
+    ? 'Köp eller lista ditt företag till salu'
+    : 'Buy or List your Business To Sell';
+
+  const subtitle = isSv
+    ? 'Utforska möjligheter eller publicera din verksamhet på marknadsplatsen.'
+    : 'Explore opportunities or publish your business on the marketplace.';
 
   return (
     <section className="bg-white">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
         <div className="text-center mb-10 sm:mb-12 lg:mb-14">
-          <h2 className="text-slate-900 font-extrabold tracking-tight text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] 2xl:text-[2.75rem] 4k:text-[3.25rem]">
+          <h2 className="text-[#0f172a] font-extrabold leading-[1.2] text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
             {heading}
           </h2>
+          <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+            {subtitle}
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 lg:gap-8">

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   Box,
   Typography,
@@ -81,6 +81,7 @@ export default function VisaApplicationJourney() {
       sizeLabel: string;
     }>
   >([]);
+  const contentScrollRef = useRef<HTMLDivElement | null>(null);
 
   // Inline calendar state (Appointment step)
   const [calendarDate, setCalendarDate] = useState(() => new Date(2025, 9, 1)); // October 2025 to match Figma
@@ -150,6 +151,11 @@ export default function VisaApplicationJourney() {
     return () => clearInterval(t);
   }, [isManual]);
 
+  useEffect(() => {
+    if (!contentScrollRef.current) return;
+    contentScrollRef.current.scrollTo({ top: 0, behavior: 'auto' });
+  }, [activeStep]);
+
   const percent = useMemo(() => (activeStep / (steps.length - 1)) * 100, [activeStep]);
   const contentKey = useMemo(() => `step-${activeStep}`, [activeStep]);
 
@@ -166,10 +172,40 @@ export default function VisaApplicationJourney() {
     [visaPage]
   );
 
+  const sectionHeading = isSv ? 'Din visumansökningsresa' : 'Your Visa Application Journey';
+  const sectionSubheading = isSv ? 'Följ varje steg från konto till slutlig inskickning' : 'Track every step from account creation to final submission';
+
   return (
     <Box sx={{ width: '100%', backgroundColor: '#FFFFFF', pt: { xs: '0.25rem', sm: '0.5rem', md: '0.75rem', lg: '1rem', '3xl': '1.25rem', '4k': '1.5rem' }, pb: { xs: '3rem', sm: '4rem', md: '5rem', lg: '6rem', '3xl': '7rem', '4k': '8rem' }, overflowX: 'hidden' }}>
       {/* EXACT same container as Hero/Services (Tailwind classes) */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+        <Box sx={{ mb: { xs: 7, sm: 9, lg: 12 }, textAlign: 'center' }}>
+          <Typography
+            sx={{
+              fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
+              fontWeight: 800,
+              color: '#0f172a',
+              lineHeight: 1.2,
+              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+            }}
+          >
+            {sectionHeading}
+          </Typography>
+          <Typography
+            sx={{
+              mt: 0.75,
+              fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
+              fontWeight: 700,
+              color: '#2563eb',
+              lineHeight: 1.35,
+              textTransform: 'none',
+              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+            }}
+          >
+            {sectionSubheading}
+          </Typography>
+        </Box>
+
         {/* ---------- TIMELINE ---------- */}
         <Box sx={{ mb: { xs: 4, sm: 5, lg: 6 } }}>
           <Box sx={{ position: 'relative', py: { xs: 6, sm: 7, lg: 8 } }}>
@@ -329,16 +365,37 @@ export default function VisaApplicationJourney() {
           sx={{
             backgroundColor: activeStep === 0 || activeStep === 1 ? '#ffffff' : '#f8fafc',
             borderRadius: '12px',
-            // overflow: 'hidden',
+            overflow: 'hidden',
             p: 0,
-            minHeight: { xs: 320, sm: 380, md: 450, '3xl': 520, '4k': 680 },
+            height: { xs: 560, sm: 640, md: 740, lg: 820, '3xl': 920, '4k': 1120 },
             '@keyframes stepFadeIn': {
-              '0%': { opacity: 0, transform: 'translateY(10px)' },
+              '0%': { opacity: 1, transform: 'translateY(12px)' },
               '100%': { opacity: 1, transform: 'translateY(0)' },
             },
             animation: 'stepFadeIn 0.35s ease-out',
           }}
         >
+          <Box
+            ref={contentScrollRef}
+            sx={{
+              height: '100%',
+              overflowY: 'auto',
+              overflowX: 'hidden',
+              pr: { xs: 0.5, sm: 1 },
+              scrollbarWidth: 'thin',
+              '&::-webkit-scrollbar': {
+                width: '8px',
+              },
+              '&::-webkit-scrollbar-track': {
+                backgroundColor: 'rgba(148, 163, 184, 0.15)',
+                borderRadius: '999px',
+              },
+              '&::-webkit-scrollbar-thumb': {
+                backgroundColor: 'rgba(59, 130, 246, 0.45)',
+                borderRadius: '999px',
+              },
+            }}
+          >
           {/* Step 0 - Create Account */}
           {activeStep === 0 && <SignUp />}
 
@@ -1280,6 +1337,7 @@ export default function VisaApplicationJourney() {
               </Box>
             </Box>
           )}
+          </Box>
         </Box>
       </div>
     </Box>

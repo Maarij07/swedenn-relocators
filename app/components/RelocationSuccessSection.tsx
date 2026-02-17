@@ -143,11 +143,13 @@ export default function RelocationSuccessSection() {
 
   // Translations for UI elements
   const texts = {
-    whyChooseUs: isSv ? 'VARFÖR VÄLJA OSS' : 'Why Choose Us',
     teamProvide: isSv ? 'Vårt erfarna team erbjuder' : 'Our Experienced Team Provide',
-    relocationServices: isSv ? 'RELOCATION‑TJÄNSTER' : 'RELOCATION SERVICES',
+    relocationServices: isSv ? 'Relocation‑tjänster' : 'Relocation Services',
     readMore: isSv ? 'Läs mer' : 'Read More',
     successGraph: isSv ? 'Vår framgångsgraf' : 'Our Success Graph',
+    tagOne: isSv ? '10+ års erfarenhet' : '10+ Years Experience',
+    tagTwo: isSv ? 'Hög träffsäkerhet' : 'High Success Rate',
+    tagThree: isSv ? 'Betrodda av familjer' : 'Trusted by Families',
     description: isSv
       ? 'Över ett decenniums beprövad erfarenhet av smidiga relocation‑ och immigrationslösningar med mycket höga framgångstal.'
       : 'A decade of proven expertise, providing seamless relocation and immigration solutions with outstanding success rates.',
@@ -156,20 +158,12 @@ export default function RelocationSuccessSection() {
   return (
     <section className="bg-[#EBF4FF]">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
-        {/* Centered headings with Read More button */}
-        <div className="relative text-center mb-10 sm:mb-12 lg:mb-14">
-          <p className="text-[0.7rem] sm:text-xs font-semibold tracking-[0.2em] text-slate-400 uppercase mb-2.5">
-            {texts.whyChooseUs}
-          </p>
-          <div className="relative">
-            <h2 className="text-slate-900 font-extrabold leading-tight text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] 2xl:text-[2.75rem] 4k:text-[3.25rem] mb-2">
-              {texts.teamProvide}
-            </h2>
-            <button className="absolute top-0 right-0 sm:right-4 lg:right-6 inline-flex items-center justify-center rounded-lg bg-slate-900 text-white text-[0.65rem] sm:text-[0.75rem] font-semibold px-3.5 sm:px-4 py-1.5 sm:py-2 whitespace-nowrap shadow-[0 12px 30px rgba(15,23,42,0.25)] hover:bg-slate-800 transition-colors">
-              {texts.readMore}
-            </button>
-          </div>
-          <h3 className="text-[1.35rem] sm:text-[1.5rem] lg:text-[1.75rem] 2xl:text-[2rem] 4k:text-[2.5rem] font-extrabold tracking-tight text-blue-600">
+        {/* Centered heading + sub-heading */}
+        <div className="text-center mb-10 sm:mb-12 lg:mb-14">
+          <h2 className="text-[#0f172a] font-extrabold leading-[1.2] text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+            {texts.teamProvide}
+          </h2>
+          <h3 className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
             {texts.relocationServices}
           </h3>
         </div>
@@ -196,11 +190,91 @@ export default function RelocationSuccessSection() {
                   '75%': { transform: 'translateY(-6px) rotate(0.5deg) scale(1.01)' },
                   '100%': { transform: 'translateY(0px) rotate(0deg) scale(1)' },
                 },
+                '@keyframes badgeFloatLeft': {
+                  '0%': { transform: 'translateY(0px)' },
+                  '50%': { transform: 'translateY(-8px)' },
+                  '100%': { transform: 'translateY(0px)' },
+                },
+                '@keyframes badgeFloatRightTop': {
+                  '0%': { transform: 'translateY(0px)' },
+                  '50%': { transform: 'translateY(-10px)' },
+                  '100%': { transform: 'translateY(0px)' },
+                },
+                '@keyframes badgeFloatRightBottom': {
+                  '0%': { transform: 'translateY(0px)' },
+                  '50%': { transform: 'translateY(7px)' },
+                  '100%': { transform: 'translateY(0px)' },
+                },
                 animation: 'illustrationFloat 5.5s ease-in-out infinite',
                 transformOrigin: '50% 70%',
                 willChange: 'transform',
               }}
             >
+              <Box
+                sx={{
+                  position: 'absolute',
+                  top: { xs: '34%', sm: '36%' },
+                  left: { xs: -54, sm: -74, md: -92, lg: -112, xl: -124 },
+                  zIndex: 5,
+                  px: { xs: 1.25, sm: 1.5 },
+                  py: { xs: 0.75, sm: 1 },
+                  borderRadius: '12px',
+                  backgroundColor: '#ffffff',
+                  border: '1px solid rgba(148, 163, 184, 0.2)',
+                  boxShadow: '0 10px 24px rgba(15, 23, 42, 0.12)',
+                  fontSize: { xs: '0.65rem', sm: '0.72rem' },
+                  fontWeight: 700,
+                  color: '#0f172a',
+                  lineHeight: 1.1,
+                  animation: 'badgeFloatLeft 3.2s ease-in-out infinite',
+                }}
+              >
+                {texts.tagOne}
+              </Box>
+
+              <Box
+                sx={{
+                  position: 'absolute',
+                  top: { xs: '18%', sm: '20%' },
+                  right: { xs: -42, sm: -58, md: -72, lg: -90, xl: -104 },
+                  zIndex: 5,
+                  px: { xs: 1.25, sm: 1.5 },
+                  py: { xs: 0.75, sm: 1 },
+                  borderRadius: '999px',
+                  backgroundColor: '#2563eb',
+                  boxShadow: '0 10px 24px rgba(37, 99, 235, 0.28)',
+                  fontSize: { xs: '0.65rem', sm: '0.72rem' },
+                  fontWeight: 700,
+                  color: '#ffffff',
+                  lineHeight: 1.1,
+                  animation: 'badgeFloatRightTop 3.8s ease-in-out infinite',
+                }}
+              >
+                {texts.tagTwo}
+              </Box>
+
+              <Box
+                sx={{
+                  position: 'absolute',
+                  bottom: { xs: '20%', sm: '18%' },
+                  right: { xs: -48, sm: -66, md: -82, lg: -102, xl: -116 },
+                  zIndex: 5,
+                  px: { xs: 1.25, sm: 1.5 },
+                  py: { xs: 0.75, sm: 1 },
+                  borderRadius: '12px',
+                  backgroundColor: '#ffffff',
+                  border: '1px solid rgba(37, 99, 235, 0.25)',
+                  boxShadow: '0 10px 24px rgba(15, 23, 42, 0.12)',
+                  fontSize: { xs: '0.65rem', sm: '0.72rem' },
+                  fontWeight: 700,
+                  color: '#1e40af',
+                  lineHeight: 1.1,
+                  animation: 'badgeFloatRightBottom 3.4s ease-in-out infinite',
+                }}
+              >
+                {texts.tagThree}
+              </Box>
+
               <Image
                 src="/p1.svg"
                 alt="Relocation success illustration"
@@ -279,6 +353,12 @@ export default function RelocationSuccessSection() {
                 })}
               </div>
             </Box>
+
+            <div className="pt-4 sm:pt-5 flex justify-end">
+              <button className="inline-flex items-center justify-center rounded-lg bg-slate-900 text-white text-[0.75rem] sm:text-[0.85rem] font-semibold px-4 sm:px-5 py-2 sm:py-2.5 whitespace-nowrap shadow-[0_12px_30px_rgba(15,23,42,0.25)] hover:bg-slate-800 transition-colors">
+                {texts.readMore}
+              </button>
+            </div>
           </div>
         </div>
       </div>

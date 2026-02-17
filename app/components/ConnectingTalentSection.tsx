@@ -98,32 +98,24 @@ export default function ConnectingTalentSection() {
 
   // Translations for headings
   const texts = {
-    topline: isSv
+    subtitle: isSv
       ? 'Från det att du anländer tills du reser vidare'
       : 'From the moment you arrive to the time you depart',
-    heading: isSv ? (
-      <>
-        Kopplar samman <span className="text-blue-600">företag</span> med rätt{' '}
-        <span className="text-blue-600">talanger</span>
-      </>
-    ) : (
-      <>
-        Connecting <span className="text-blue-600">Companies</span> with the{' '}
-        <span className="text-blue-600">Right Talent</span>
-      </>
-    ),
+    heading: isSv
+      ? 'Kopplar samman företag med rätt talanger'
+      : 'Connecting Companies with the Right Talent',
   };
 
   return (
     <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-28">
         <div className="text-center mb-8 sm:mb-10 lg:mb-14">
-          <p className="text-xs sm:text-sm lg:text-base font-semibold tracking-wider uppercase text-blue-400 mb-3">
-            {texts.topline}
-          </p>
-          <h2 className="mt-2 text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 4k:text-[4rem] font-extrabold leading-tight text-slate-900">
+          <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] font-extrabold leading-[1.2] text-[#0f172a] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
             {texts.heading}
           </h2>
+          <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+            {texts.subtitle}
+          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 4k:gap-14">

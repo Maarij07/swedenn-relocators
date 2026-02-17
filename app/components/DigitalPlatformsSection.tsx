@@ -61,34 +61,24 @@ export default function DigitalPlatformsSection() {
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-28">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-14 lg:mb-16">
-          <p
-            className={`text-xs sm:text-sm lg:text-base font-semibold tracking-wider uppercase text-blue-400 mb-3 transition-all duration-700 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'
-            }`}
-          >
-            {t('digitalPlatforms.badge')}
-          </p>
           <h2
-            className={`text-slate-900 font-extrabold tracking-tight text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] 2xl:text-[2.75rem] 4k:text-[3.25rem] mb-2 leading-tight transition-all duration-700 delay-100 ${
+            className={`text-[#0f172a] font-extrabold text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] leading-[1.2] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif] transition-all duration-700 delay-100 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'
             }`}
           >
-            {isSv ? (
-              <>
-                Vår{' '}
-                <span className="text-blue-600">allt-i-ett digital plattform</span> för
-                <br />
-                privatpersoner och företag
-              </>
-            ) : (
-              <>
-                Our{' '}
-                <span className="text-blue-600">All-in-One Digital Platforms</span> for
-                <br />
-                Individuals and Companies
-              </>
-            )}
+            {isSv
+              ? 'Vår allt-i-ett digitala plattform'
+              : 'Our All-in-One Digital Platform'}
           </h2>
+          <p
+            className={`mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif] transition-all duration-700 delay-150 ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'
+            }`}
+          >
+            {isSv
+              ? 'För privatpersoner, familjer och företag'
+              : 'For Individuals, Families, and Companies'}
+          </p>
         </div>
 
         {/* Two Column Layout */}
@@ -99,13 +89,6 @@ export default function DigitalPlatformsSection() {
               isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'
             }`}
           >
-            {/* Subheading */}
-            <h3 className="text-slate-900 font-bold text-lg sm:text-xl lg:text-[1.35rem] mb-6 text-center">
-              {isSv
-                ? 'Sömlös flytt- och immigrationslösningar för medarbetare, privatpersoner, familjer och företag'
-                : 'Seamless Relocation & Immigration solutions for Employees, Individuals, Families, & Companies'}
-            </h3>
-
             {/* Features List */}
             <div className="space-y-3">
               {features.map((feature, index) => {
