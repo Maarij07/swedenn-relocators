@@ -270,7 +270,7 @@ export default function Services() {
                       sx={{
                         position: 'relative',
                         height: { xs: 220, sm: 250, md: 270 },
-                        background: 'linear-gradient(135deg, #c7b8ff 0%, #bdb0ff 100%)',
+                        background: 'linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%)',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',

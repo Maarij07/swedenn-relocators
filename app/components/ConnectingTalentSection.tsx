@@ -115,10 +115,10 @@ export default function ConnectingTalentSection() {
   };
 
   return (
-    <section className="bg-white">
+    <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-28">
-        <div className="text-center mb-8 sm:mb-10 lg:mb-12">
-          <p className="text-xs sm:text-sm lg:text-base font-semibold tracking-wide text-blue-400">
+        <div className="text-center mb-8 sm:mb-10 lg:mb-14">
+          <p className="text-xs sm:text-sm lg:text-base font-semibold tracking-wider uppercase text-blue-400 mb-3">
             {texts.topline}
           </p>
           <h2 className="mt-2 text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 4k:text-[4rem] font-extrabold leading-tight text-slate-900">
@@ -128,63 +128,76 @@ export default function ConnectingTalentSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 4k:gap-14">
           {cards.map((card) => (
-            <div key={card.id} className="rounded-2xl border border-slate-200 bg-white shadow-sm">
-              <div className="p-6 sm:p-7 lg:p-8">
-                <div className="flex items-start justify-between">
-                  <div className="flex items-center gap-3">
+            <div 
+              key={card.id} 
+              className="group relative rounded-3xl bg-white shadow-lg hover:shadow-2xl border border-slate-100 transition-all duration-500 hover:-translate-y-2 overflow-hidden"
+            >
+              {/* Gradient overlay on hover */}
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-600/0 to-purple-600/0 group-hover:from-blue-600/5 group-hover:to-purple-600/5 transition-all duration-500 pointer-events-none" />
+              
+              <div className="relative p-6 sm:p-7 lg:p-8">
+                <div className="flex items-start justify-between mb-6">
+                  <div className="flex items-center gap-4">
                     <div
-                      className="relative w-14 h-14 sm:w-[79px] sm:h-[79px] rounded-xl shadow-sm overflow-hidden"
+                      className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-2xl shadow-lg overflow-hidden ring-4 ring-white group-hover:scale-110 transition-transform duration-500"
                       style={{ backgroundColor: card.bgColor }}
                     >
-                      <Image src={card.icon} alt={card.title} fill className="object-cover" />
+                      <Image src={card.icon} alt={card.title} fill className="object-cover p-3" />
                     </div>
                     <div>
-                      <h3 className="text-lg sm:text-xl 4k:text-3xl font-bold text-slate-900">
+                      <h3 className="text-lg sm:text-xl lg:text-[1.4rem] 4k:text-3xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors duration-300">
                         {card.title}
                       </h3>
-                      <p className={`${card.id === 1 ? 'text-sm sm:text-base 4k:text-lg' : 'text-xs sm:text-sm'} text-slate-500`}>
+                      <p className={`${card.id === 1 ? 'text-sm sm:text-base 4k:text-lg' : 'text-xs sm:text-sm'} text-slate-500 mt-1`}>
                         {card.subtitle}
                       </p>
                     </div>
                   </div>
-                  <button className="w-8 h-8 rounded-full flex items-center justify-center text-slate-400 hover:text-slate-600">
-                    ⋮
+                  <button className="w-10 h-10 rounded-xl flex items-center justify-center text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-all duration-300">
+                    <svg width="4" height="16" viewBox="0 0 4 16" fill="currentColor">
+                      <circle cx="2" cy="2" r="2"/>
+                      <circle cx="2" cy="8" r="2"/>
+                      <circle cx="2" cy="14" r="2"/>
+                    </svg>
                   </button>
                 </div>
 
-                <div className="mt-5 flex items-center gap-2">
-                  <Image
-                    src={card.statsIcon}
-                    alt="Stats"
-                    width={18}
-                    height={18}
-                  />
-                  <span className="text-sm sm:text-base text-slate-600">{card.statsText}</span>
+                <div className="inline-flex items-center gap-2.5 px-4 py-2 bg-gradient-to-r from-blue-50 to-blue-100/50 rounded-xl mb-6 border border-blue-100">
+                  <div className="w-5 h-5 flex-shrink-0">
+                    <Image
+                      src={card.statsIcon}
+                      alt="Stats"
+                      width={20}
+                      height={20}
+                      className="w-full h-full"
+                    />
+                  </div>
+                  <span className="text-sm sm:text-base font-semibold text-slate-700">{card.statsText}</span>
                 </div>
 
-                <div className="mt-6 grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 gap-4 sm:gap-5 mb-8">
                   {card.features.map((column, colIndex) => (
-                    <ul key={colIndex} className="space-y-3 text-slate-600 text-sm sm:text-base">
+                    <ul key={colIndex} className="space-y-4">
                       {column.map((feature) => (
-                        <li key={feature.text} className="flex items-center gap-2">
-                          <div className="w-5 h-5 flex-shrink-0">
+                        <li key={feature.text} className="flex items-center gap-3 group/item">
+                          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center flex-shrink-0 group-hover/item:scale-110 transition-transform duration-300">
                             <Image
                               src={feature.icon}
                               alt=""
                               width={20}
                               height={20}
-                              className="w-full h-full object-contain"
+                              className="w-5 h-5 object-contain"
                             />
                           </div>
-                          <span>{feature.text}</span>
+                          <span className="text-sm sm:text-[0.95rem] text-slate-700 font-medium leading-tight">{feature.text}</span>
                         </li>
                       ))}
                     </ul>
                   ))}
                 </div>
 
-                <div className="mt-8 flex justify-end">
-                  <button className="px-5 py-2.5 rounded-lg bg-black text-white text-sm sm:text-base font-semibold hover:bg-slate-800 transition-colors">
+                <div className="flex justify-end pt-2">
+                  <button className="px-6 sm:px-8 py-3 sm:py-3.5 rounded-xl bg-gradient-to-r from-slate-900 to-slate-800 text-white text-sm sm:text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5">
                     {card.buttonText}
                   </button>
                 </div>
