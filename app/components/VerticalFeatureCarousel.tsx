@@ -120,28 +120,13 @@ export default function VerticalFeatureCarousel() {
     <section className="w-full bg-[#EBF4FF] py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 3xl:py-36 4k:py-44 overflow-x-hidden">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
 
-        {/* Heading - CENTER ALIGNED */}
         <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-16 xl:mb-20">
-          <p className="text-[11px] sm:text-xs md:text-sm lg:text-sm font-semibold tracking-[0.18em] text-blue-600 mb-3 uppercase">
+          <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] leading-[1.2] font-extrabold text-[#0f172a] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+            {isSv ? 'Vi stärker företag med digitala lösningar' : 'Empowering Business with Digital Solutions'}
+          </h2>
+          <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold text-[#2563eb] leading-[1.35] normal-case [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
             {isSv ? 'Våra tjänster' : 'Our Services'}
           </p>
-          <h2 className="text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 3xl:text-[3.25rem] 4k:text-[4rem] leading-[1.2] font-extrabold">
-            {isSv ? (
-              <>
-                <span className="text-slate-900">Vi stärker </span>
-                <span className="text-blue-600">företag </span>
-                <span className="text-slate-900">med digitala </span>
-                <span className="text-blue-600">lösningar</span>
-              </>
-            ) : (
-              <>
-                <span className="text-slate-900">Empowering </span>
-                <span className="text-blue-600">Business </span>
-                <span className="text-slate-900">with Digital </span>
-                <span className="text-blue-600">Solutions</span>
-              </>
-            )}
-          </h2>
         </div>
 
         {/* HORIZONTAL CARDS GRID - Expandable Layout */}

@@ -1,6 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import { useEffect } from 'react';
 import Hero from './Hero';
 import CountrySelector from './CountrySelector';
 import Services from './Services';
@@ -13,17 +14,25 @@ const CitizenshipResidencySection = dynamic(() => import('./CitizenshipResidency
 const VerticalFeatureCarousel = dynamic(() => import('./VerticalFeatureCarousel').then(m => m.default));
 
 export default function Home() {
+  useEffect(() => {
+    document.body.classList.add('home-snap-page');
+
+    return () => {
+      document.body.classList.remove('home-snap-page');
+    };
+  }, []);
+
   return (
     <>
-      <Hero />
-      <CountrySelector />
-      <Services />
-      <Offers />
-      <HousingCarousel />
-      <GlobalVisaPlatform />
-      <VisaApplicationJourney />
-      <CitizenshipResidencySection />
-      <VerticalFeatureCarousel />
+      <div className="home-snap-section"><Hero /></div>
+      <div className="home-snap-section"><CountrySelector /></div>
+      <div className="home-snap-section"><Services /></div>
+      <div className="home-snap-section"><Offers /></div>
+      <div className="home-snap-section"><HousingCarousel /></div>
+      <div className="home-snap-section"><GlobalVisaPlatform /></div>
+      <div className="home-snap-section"><VisaApplicationJourney /></div>
+      <div className="home-snap-section"><CitizenshipResidencySection /></div>
+      <div className="home-snap-section"><VerticalFeatureCarousel /></div>
     </>
   );
 }

@@ -143,16 +143,30 @@ export const HousingCarousel: React.FC = () => {
   return (
     <Box sx={{ py: { xs: 6, sm: 8, lg: 10, xl: 12 }, backgroundColor: '#EBF4FF' }}>
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-        <Box sx={{ maxWidth: '900px', mx: 'auto', textAlign: 'center', mb: { xs: 6, sm: 8, lg: 10 } }}>
-          <Typography sx={{ color: '#2563eb', fontWeight: 500, fontSize: '0.9rem', mb: 1, letterSpacing: 0.5 }}>
-            {isSv ? 'Trygga bostadslösningar, levererade i tid' : 'Housing Solutions You Can Trust, Delivered on Time'}
+        <Box sx={{ mb: { xs: 6, sm: 8, lg: 10 }, textAlign: 'center' }}>
+          <Typography
+            sx={{
+              fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
+              fontWeight: 800,
+              color: '#0f172a',
+              lineHeight: 1.2,
+              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+            }}
+          >
+            {isSv ? 'Helhetslösningar för bostad & fastigheter' : 'End-to-End Housing & Real Estate Support'}
           </Typography>
-          <Typography sx={{ fontWeight: 900, fontSize: { xs: '2rem', md: '2.5rem' }, mb: 0.5, lineHeight: 1.1, color: '#0f172a' }}>
-            {isSv ? 'Helhetslösningar för ' : 'End-to-End '}
-            <Box component="span" sx={{ color: '#2563eb', fontWeight: 900 }}>
-              {isSv ? 'bostad & fastigheter' : 'Housing & Real Estate'}
-            </Box>{' '}
-            {isSv ? 'stöd' : 'Support'}
+          <Typography
+            sx={{
+              mt: 0.75,
+              fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
+              fontWeight: 700,
+              color: '#2563eb',
+              lineHeight: 1.35,
+              textTransform: 'none',
+              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+            }}
+          >
+            {isSv ? 'Trygga bostadslösningar, levererade i tid' : 'Housing Solutions You Can Trust, Delivered on Time'}
           </Typography>
         </Box>
 

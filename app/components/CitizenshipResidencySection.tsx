@@ -37,35 +37,48 @@ export default function CitizenshipResidencySection() {
   const isSv = i18n.language === 'sv';
 
   const texts = {
-    eyebrow: isSv
-      ? 'Din resa börjar här. Skicka in din förfrågan via vår portal idag.'
-      : 'Your journey starts here. Send your request through our portal today.',
     heading: isSv ? 'Medborgarskap & uppehållstillstånd genom investering' : 'Citizenship & Residency by Investment',
     intro: isSv
-      ? 'Flytta med CBI (Citizenship By Investment) och RBI (Residency By Investment) program, utformade för globala yrkespersoner och familjer.'
-      : 'Relocate with CBI (Citizenship By Investment) & RBI (Residency By Investment) programs, tailored for global professionals and families.',
+      ? 'CBI- och RBI-program för globala yrkespersoner och familjer.'
+      : 'CBI and RBI programs for global professionals and families.',
     cbiButton: isSv ? 'Läs mer' : 'Read More',
     rbiButton: isSv ? 'Läs mer' : 'Read More',
   };
 
   return (
     <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 4k:py-32">
-        {/* Eyebrow */}
-        <p className="text-center text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase text-[#2563eb] mb-3">
-          {texts.eyebrow}
-        </p>
-
-        {/* Heading */}
-        <h2 className="text-center text-[1.9rem] sm:text-[2.4rem] lg:text-[2.9rem] 4k:text-[3.6rem] font-extrabold text-[#0f172a] leading-tight mb-2">
-          <span className="text-[#2563eb]">{isSv ? 'Medborgarskap & uppehållstillstånd' : 'Citizenship & Residency'}</span> {isSv ? 'genom investering' : 'by Investment'}
-        </h2>
-        <p className="text-center text-[0.95rem] sm:text-base lg:text-[1.05rem] text-gray-700 max-w-2xl mx-auto mb-8 sm:mb-10 lg:mb-12">
-          {texts.intro}
-        </p>
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-14 lg:py-16 4k:py-20">
+        <Box sx={{ mb: { xs: 5, sm: 6, lg: 8 }, textAlign: 'center' }}>
+          <Typography
+            sx={{
+              fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
+              fontWeight: 800,
+              color: '#0f172a',
+              lineHeight: 1.2,
+              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+            }}
+          >
+            {texts.heading}
+          </Typography>
+          <Typography
+            sx={{
+              mt: 0.75,
+              fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
+              fontWeight: 700,
+              color: '#2563eb',
+              lineHeight: 1.35,
+              textTransform: 'none',
+              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              maxWidth: '900px',
+              mx: 'auto',
+            }}
+          >
+            {texts.intro}
+          </Typography>
+        </Box>
 
         {/* Centered passport image above the cards */}
-        <div className="flex justify-center mb-10 sm:mb-12 lg:mb-14">
+        <div className="flex justify-center mb-6 sm:mb-8 lg:mb-10">
           <Box
             sx={{
               position: 'relative',
@@ -77,6 +90,8 @@ export default function CitizenshipResidencySection() {
             <Box
               sx={{
                 width: '100%',
+                position: 'relative',
+                height: { xs: 120, sm: 140, lg: 160, '4k': 200 },
                 transformStyle: 'preserve-3d',
                 animation: 'flipPassport 6s ease-in-out infinite',
                 '@keyframes flipPassport': {
@@ -89,14 +104,39 @@ export default function CitizenshipResidencySection() {
                 },
               }}
             >
-              <Image
-                src="/passport 1.svg"
-                alt="Passport illustration"
-                width={480}
-                height={480}
-                style={{ width: '100%', height: 'auto', backfaceVisibility: 'hidden' }}
-                priority
-              />
+              <Box
+                sx={{
+                  position: 'absolute',
+                  inset: 0,
+                  backfaceVisibility: 'hidden',
+                  WebkitBackfaceVisibility: 'hidden',
+                }}
+              >
+                <Image
+                  src="/passport 1.svg"
+                  alt="Passport illustration"
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  priority
+                />
+              </Box>
+
+              <Box
+                sx={{
+                  position: 'absolute',
+                  inset: 0,
+                  transform: 'rotateY(180deg)',
+                  backfaceVisibility: 'hidden',
+                  WebkitBackfaceVisibility: 'hidden',
+                }}
+              >
+                <Image
+                  src="/passport 1.svg"
+                  alt="Passport illustration back"
+                  fill
+                  style={{ objectFit: 'contain' }}
+                />
+              </Box>
             </Box>
           </Box>
         </div>

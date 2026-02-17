@@ -96,13 +96,21 @@ export default function CountrySelector() {
 
   const isSv = i18n.language === 'sv';
   const texts = {
-    titlePart1: isSv ? 'Välj din' : 'Choose Your',
-    titleHighlight: isSv ? 'flyttresa' : 'Relocation Journey',
-    titlePart2: isSv ? 'idag' : 'Today',
+    title: isSv ? 'Välj din flyttresa idag' : 'Choose Your Relocation Journey Today',
     subtitle: isSv ? 'Från ditt hem idag till ditt hem i morgon' : 'From your home today to your home tomorrow',
     fromLabel: isSv ? 'Flyttar från' : 'Relocating From',
     toLabel: isSv ? 'Flyttar till' : 'Relocating To',
     placeholder: isSv ? 'Välj ett land' : 'Choose a country',
+  };
+
+  const labelSx = {
+    fontSize: { xs: '0.78rem', lg: '0.82rem' },
+    fontWeight: 700,
+    mb: 1.25,
+    color: '#0f172a',
+    letterSpacing: '0.06em',
+    textTransform: 'uppercase',
+    lineHeight: 1.2,
   };
 
   const getPlanePosition = () => {
@@ -181,12 +189,10 @@ export default function CountrySelector() {
       {/* EXACT SAME CONTAINER AS HERO SECTION */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 relative z-10">
         <div className="text-center mb-8 sm:mb-10 lg:mb-14 xl:mb-16">
-          <h2 className="text-[2rem] sm:text-[2.5rem] lg:text-[3.25rem] font-extrabold mb-4 sm:mb-6 text-black leading-[1.15]">
-            {texts.titlePart1}{' '}
-            <span className="text-blue-600">{texts.titleHighlight}</span>{' '}
-            {texts.titlePart2}
+          <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] font-extrabold text-[#0f172a] leading-[1.2] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+            {texts.title}
           </h2>
-          <p className="text-[15px] lg:text-[18px] text-black font-medium">
+          <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] text-[#2563eb] font-bold leading-[1.35] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
             {texts.subtitle}
           </p>
         </div>
@@ -205,18 +211,13 @@ export default function CountrySelector() {
           {/* LEFT - RELOCATING FROM - KEEPS CURRENT POSITION */}
           <Box 
             sx={{ 
-              width: { xs: '100%', lg: '170px' },
+              width: { xs: '100%', lg: '230px', xl: '250px' },
               maxWidth: { xs: '280px', lg: 'none' },
               mx: { xs: 'auto', lg: 0 },
             }}
           >
             <Typography
-              sx={{
-                fontSize: '0.875rem',
-                fontWeight: 600,
-                mb: 1,
-                color: '#1e293b',
-              }}
+              sx={labelSx}
             >
               {texts.fromLabel}
             </Typography>
@@ -266,21 +267,16 @@ export default function CountrySelector() {
           {/* RIGHT - RELOCATING TO - PUSHED ALL THE WAY RIGHT */}
           <Box 
             sx={{ 
-              width: { xs: '100%', lg: '170px' },
+              width: { xs: '100%', lg: '230px', xl: '250px' },
               maxWidth: { xs: '280px', lg: 'none' },
               mx: { xs: 'auto', lg: 0 },
               display: { lg: 'flex' },
               justifyContent: { lg: 'flex-end' },
             }}
           >
-            <Box sx={{ width: { xs: '100%', lg: '170px' } }}>
+            <Box sx={{ width: { xs: '100%', lg: '230px', xl: '250px' } }}>
               <Typography
-                sx={{
-                  fontSize: '0.875rem',
-                  fontWeight: 600,
-                  mb: 1,
-                  color: '#1e293b',
-                }}
+                sx={labelSx}
               >
                 {texts.toLabel}
               </Typography>

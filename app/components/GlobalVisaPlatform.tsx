@@ -13,9 +13,6 @@ export function GlobalVisaPlatform() {
   const isSv = i18n.language === 'sv';
 
   const texts = {
-    subtitle: isSv
-      ? 'Du kan ansöka var du än befinner dig i världen'
-      : 'You can apply from anywhere in the world',
     mainTitle: isSv ? 'Allt-i-ett global visumplattform' : 'All-in-One Global Visa Platform',
     subheading: isSv ? 'En enda ansökan för alla visum du behöver' : 'One unified application for all visas you need',
     button: isSv ? 'Ansök nu' : 'Apply Now',
@@ -31,47 +28,27 @@ export function GlobalVisaPlatform() {
     >
       {/* Container */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-        {/* Header - Centered Title Section */}
-        <Box
-          sx={{
-            textAlign: 'center',
-            mb: { xs: '2rem', sm: '2.5rem', lg: '3rem' },
-          }}
-        >
-          {/* Top helper text */}
+        <Box sx={{ textAlign: 'center', mb: { xs: '2rem', sm: '2.5rem', lg: '3rem' } }}>
           <Typography
             sx={{
-              fontSize: { xs: '0.75rem', sm: '0.8rem', md: '0.9rem' },
-              color: '#2563eb',
-              fontWeight: 500,
-              letterSpacing: '0.08em',
-              textTransform: 'uppercase',
-              mb: '0.5rem',
-            }}
-          >
-            {texts.subtitle}
-          </Typography>
-
-          {/* Main title in primary blue, matching other hero headings */}
-          <Typography
-            sx={{
-              fontSize: { xs: '1.5rem', sm: '1.9rem', md: '2.1rem', lg: '2.35rem', xl: '2.6rem' },
+              fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
               fontWeight: 800,
               color: '#0f172a',
-              lineHeight: 1.25,
+              lineHeight: 1.2,
+              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
             }}
           >
             {texts.mainTitle}
           </Typography>
-
-          {/* Bold black subheading right under main title */}
           <Typography
             sx={{
-              mt: '0.35rem',
-              fontSize: { xs: '1.05rem', sm: '1.15rem', md: '1.25rem', lg: '1.35rem' },
-              fontWeight: 800,
+              mt: 0.75,
+              fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
+              fontWeight: 700,
               color: '#2563eb',
-              lineHeight: 1.3,
+              lineHeight: 1.35,
+              textTransform: 'none',
+              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
             }}
           >
             {texts.subheading}

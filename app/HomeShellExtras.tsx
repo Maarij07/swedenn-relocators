@@ -26,12 +26,12 @@ export default function HomeShellExtras() {
 
   return (
     <>
-      <ConnectingTalentSection />
-      <PayrollEORSection />
-      <BusinessMarketplaceSection />
-      <RelocationSuccessSection />
-      <DigitalPlatformsSection />
-      <BlogsSection />
+      <div className="home-snap-section"><ConnectingTalentSection /></div>
+      <div className="home-snap-section"><PayrollEORSection /></div>
+      <div className="home-snap-section"><BusinessMarketplaceSection /></div>
+      <div className="home-snap-section"><RelocationSuccessSection /></div>
+      <div className="home-snap-section"><DigitalPlatformsSection /></div>
+      <div className="home-snap-section"><BlogsSection /></div>
     </>
   );
 }

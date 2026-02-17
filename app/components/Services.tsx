@@ -164,40 +164,29 @@ export default function Services() {
     >
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         
-        {/* Header */}
         <Box sx={{ mb: { xs: 8, sm: 10, lg: 12 }, textAlign: 'center' }}>
-          <Typography
-            sx={{
-              fontSize: { xs: '11px', sm: '12px', lg: '13px' },
-              color: '#60a5fa',
-              fontWeight: 600,
-              mb: 2,
-              textTransform: 'uppercase',
-              letterSpacing: '0.15em',
-            }}
->
-            {t('services.badge')}
-          </Typography>
           <Typography
             sx={{
               fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
               fontWeight: 800,
-              mb: 1.5,
               color: '#0f172a',
-              textAlign: 'center',
               lineHeight: 1.2,
+              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
             }}
->
+          >
             {t('services.title')}
           </Typography>
           <Typography
             sx={{
-              fontSize: { xs: '1.25rem', sm: '1.5rem', lg: '1.75rem', xl: '2rem' },
+              mt: 0.75,
+              fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
               fontWeight: 700,
               color: '#2563eb',
-              textAlign: 'center',
+              lineHeight: 1.35,
+              textTransform: 'none',
+              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
             }}
->
+          >
             {t('services.subtitle')}
           </Typography>
         </Box>
