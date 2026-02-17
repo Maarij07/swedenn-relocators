@@ -39,6 +39,7 @@ const serviceRoutes: Record<string, string> = {
   'Financial Management': '/services/financial-management',
   'Lawyers Assistance': '/services/lawyers',
   'Manpower Solutions': '/services/manpower-solutions',
+  'Logistics Management': '/services/logistics-services',
 };
 
 export default function ServicesPage() {

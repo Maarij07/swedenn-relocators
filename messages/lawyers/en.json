@@ -164,6 +164,12 @@
       "description": "The Lawyers Connect platform by Sweden Relocators represents a new way of delivering legal services. By combining technology, verified professionals, and a transparent workflow, we make legal processes faster, simpler, and more accessible for everyone.",
       "benefits": "Clients no longer waste time searching for the right lawyer. Lawyers no longer waste time on admin and marketing. Companies gain efficient legal solutions for business and employees.",
       "cta": "Everything happens under one roof, in one portal, in real time. If you are an individual, family, or company seeking legal help, or if you are a lawyer wanting to expand your practice with less admin and more real work, Sweden Relocators' Lawyers Connect is the solution."
+    },
+    "cta": {
+      "heading": "Connect with the Right Lawyer Today",
+      "description": "Whether you need immigration support, contract review, or business compliance, Lawyers Connect matches you with verified legal professionals in one secure platform.",
+      "button": "Get Legal Help Now",
+      "subtext": "Submit your case and get matched with the right lawyer within 24 hours."
     }
   }
 }

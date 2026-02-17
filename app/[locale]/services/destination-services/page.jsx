@@ -2,8 +2,7 @@
 
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 
 export default function DestinationServicesPage() {
   const { t, i18n } = useTranslation();
@@ -18,8 +17,17 @@ export default function DestinationServicesPage() {
   }, [i18n]);
 
   if (!isReady) {
-    return <div>Loading...</div>;
+    return null;
   }
+
+  const heroData = t('destinationServices.hero', { returnObjects: true }) || {};
+  const introData = t('destinationServices.intro', { returnObjects: true }) || {};
+  const coreServicesData = t('destinationServices.coreServices', { returnObjects: true }) || {};
+  const corporateServicesData = t('destinationServices.corporateServices', { returnObjects: true }) || {};
+  const relocationJourneyData = t('destinationServices.relocationJourney', { returnObjects: true }) || {};
+  const whyChooseUsData = t('destinationServices.whyChooseUs', { returnObjects: true }) || {};
+  const contactData = t('destinationServices.contact', { returnObjects: true }) || {};
+  const ctaData = t('destinationServices.cta', { returnObjects: true }) || {};
 
   const coreServices = t('destinationServices.coreServices.services', { returnObjects: true }) || [];
   const corporateServices = t('destinationServices.corporateServices.services', { returnObjects: true }) || [];
@@ -27,150 +35,164 @@ export default function DestinationServicesPage() {
   const advantages = t('destinationServices.whyChooseUs.advantages', { returnObjects: true }) || [];
 
   return (
-    <Box sx={{ minHeight: '100vh', bg: '#ffffff' }}>
-      {/* Hero Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px]">
-        <div className="mb-16 sm:mb-20 lg:mb-32 xl:mb-40">
-          <Typography sx={{ fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '4.5rem', '4k': '6rem' }, fontWeight: 800, mb: 4, color: '#1e293b', lineHeight: 1.1 }}>
-            {t('destinationServices.hero.title')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '1rem', sm: '1.25rem', md: '1.5rem', lg: '2rem', '4k': '2.75rem' }, fontWeight: 600, mb: 4, color: '#1e293b', lineHeight: 1.4 }}>
-            {t('destinationServices.hero.subtitle')}
-          </Typography>
-        </div>
-      </div>
+    <div className="min-h-screen bg-[#F8FAFC] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+        {/* Hero Section */}
+        <section className="mb-8 sm:mb-12 lg:mb-16">
+          <h1 className="text-2xl xs:text-2.5xl sm:text-3xl lg:text-4xl xl:text-5xl 4k:text-6xl font-bold text-gray-900 mb-3 sm:mb-4 leading-tight">
+            {heroData.title}
+          </h1>
+          <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl">
+            {heroData.subtitle}
+          </p>
+        </section>
 
-      {/* Intro Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.5rem', lg: '1.75rem', '4k': '2.5rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-            {t('destinationServices.intro.heading')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 6 }}>
-            {t('destinationServices.intro.description')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-            {t('destinationServices.intro.capabilities')}
-          </Typography>
-        </div>
-      </div>
+        {/* Intro Section */}
+        <section className="bg-white rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-5">
+            {introData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed mb-4">
+            {introData.description}
+          </p>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
+            {introData.capabilities}
+          </p>
+        </section>
 
-      {/* Core Services Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 12, color: '#1e293b' }}>
-          {t('destinationServices.coreServices.heading')}
-        </Typography>
+        {/* Core Services Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
+            {coreServicesData.heading}
+          </h2>
+          <div className="space-y-6 sm:space-y-8 lg:space-y-10">
+            {Array.isArray(coreServices) && coreServices.map((service, idx) => (
+              <div key={idx} className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border-t-4 border-blue-500">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
+                  {idx + 1}. {service.title}
+                </h3>
+                <ul className="space-y-3">
+                  {Array.isArray(service.details) && service.details.map((detail, didx) => (
+                    <li key={didx} className="flex items-start gap-3">
+                      <span className="text-blue-600 font-bold flex-shrink-0 mt-0.5">•</span>
+                      <span className="text-xs sm:text-sm lg:text-base text-gray-700">{detail}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
 
-        <div className="space-y-8">
-          {Array.isArray(coreServices) && coreServices.map((service, idx) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
-              <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.375rem', lg: '1.5rem', '4k': '2rem' }, fontWeight: 700, mb: 6, color: '#1e293b' }}>
-                {idx + 1}. {service.title}
-              </Typography>
-              <ul className="space-y-4">
-                {Array.isArray(service.details) && service.details.map((detail, didx) => (
-                  <li key={didx} className="flex gap-4">
-                    <span className="flex-shrink-0 text-blue-600 font-bold">•</span>
-                    <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                      {detail}
-                    </Typography>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Corporate Services Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 4, color: '#1e293b' }}>
-            {t('destinationServices.corporateServices.heading')}
-          </Typography>
-
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 8 }}>
-            {t('destinationServices.corporateServices.intro')}
-          </Typography>
-
-          <ul className="space-y-4 mb-8">
+        {/* Corporate Services Section */}
+        <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
+            {corporateServicesData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 leading-relaxed">
+            {corporateServicesData.intro}
+          </p>
+          <ul className="space-y-3 mb-6">
             {Array.isArray(corporateServices) && corporateServices.map((service, idx) => (
-              <li key={idx} className="flex gap-4">
-                <span className="flex-shrink-0 text-blue-600 font-bold">•</span>
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                  {service}
-                </Typography>
+              <li key={idx} className="flex items-start gap-3">
+                <span className="text-blue-600 font-bold flex-shrink-0 mt-0.5">•</span>
+                <span className="text-xs sm:text-sm lg:text-base text-gray-700">{service}</span>
               </li>
             ))}
           </ul>
-
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 sm:p-8 lg:p-10">
-            <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-              {t('destinationServices.corporateServices.benefit')}
-            </Typography>
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-4 sm:p-5 rounded-lg">
+            <p className="text-xs sm:text-sm lg:text-base text-gray-700">
+              {corporateServicesData.benefit}
+            </p>
           </div>
-        </div>
-      </div>
+        </section>
 
-      {/* Relocation Journey Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 12, color: '#1e293b' }}>
-          {t('destinationServices.relocationJourney.heading')}
-        </Typography>
-
-        <div className="space-y-6">
-          {Array.isArray(relocationStages) && relocationStages.map((stage, idx) => (
-            <div key={idx} className="flex gap-6 sm:gap-8">
-              <div className="flex-shrink-0">
-                <div className="flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-blue-600 text-white font-bold text-lg sm:text-xl">
-                  {idx + 1}
+        {/* Relocation Journey Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
+            {relocationJourneyData.heading}
+          </h2>
+          <div className="space-y-6 sm:space-y-8 lg:space-y-10">
+            {Array.isArray(relocationStages) && relocationStages.map((stage, idx) => (
+              <div key={idx} className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border-l-4 border-green-500">
+                <div className="flex items-start gap-4 sm:gap-5">
+                  <span className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-sm sm:text-base">
+                    {idx + 1}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
+                      {stage.title}
+                    </h3>
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                      {stage.description}
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex-1">
-                <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-                  {stage.title}
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                  {stage.description}
-                </Typography>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Why Choose Us Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 12, color: '#1e293b' }}>
-            {t('destinationServices.whyChooseUs.heading')}
-          </Typography>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {Array.isArray(advantages) && advantages.map((advantage, idx) => (
-              <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
-                <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-                  {advantage.title}
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                  {advantage.description}
-                </Typography>
               </div>
             ))}
           </div>
-        </div>
-      </div>
+        </section>
 
-      {/* Contact Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 6, color: '#1e293b' }}>
-          {t('destinationServices.contact.heading')}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, maxWidth: '900px' }}>
-          {t('destinationServices.contact.description')}
-        </Typography>
+        {/* Why Choose Us Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
+            {whyChooseUsData.heading}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+            {Array.isArray(advantages) && advantages.map((advantage, idx) => (
+              <div key={idx} className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-purple-500">
+                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                  {advantage.title}
+                </h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                  {advantage.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Contact Section */}
+        <section className="bg-blue-50 rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-5">
+            {contactData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
+            {contactData.description}
+          </p>
+        </section>
+
+        {/* CTA Section */}
+        <section className="bg-black/85 rounded-2xl shadow-lg p-8 sm:p-10 lg:p-12 text-center">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-3 sm:mb-4">
+            {ctaData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
+            {ctaData.description}
+          </p>
+          <Button
+            variant="contained"
+            sx={{
+              backgroundColor: '#ffffff',
+              color: '#000000',
+              fontSize: { xs: '0.875rem', sm: '1rem', lg: '1.125rem' },
+              fontWeight: 600,
+              px: { xs: 4, sm: 6, lg: 8 },
+              py: { xs: 1.2, sm: 1.5, lg: 1.8 },
+              borderRadius: '9999px',
+              textTransform: 'none',
+              '&:hover': {
+                backgroundColor: '#f3f4f6',
+              },
+            }}
+          >
+            {ctaData.button}
+          </Button>
+          <p className="text-xs sm:text-sm text-gray-400 mt-4 sm:mt-5">
+            {ctaData.subtext}
+          </p>
+        </section>
       </div>
-    </Box>
+    </div>
   );
 }
-
