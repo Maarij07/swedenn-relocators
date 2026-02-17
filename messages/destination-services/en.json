@@ -133,6 +133,12 @@
       "heading": "Get Started with Destination Services",
       "description": "Send service request through our portal. Whether you are relocating alone, moving with your family, or a company arranging services for employees, simply select the destination services you require, and our team will take care of the rest.",
       "cta": "Request Destination Services"
+    },
+    "cta": {
+      "heading": "Begin Your Swedish Relocation Journey",
+      "description": "Our comprehensive destination services ensure a smooth transition to Sweden. From arrival support to integration assistance, we're here to make your relocation seamless.",
+      "button": "Request Services",
+      "subtext": "Get in touch with our team to discuss your relocation needs."
     }
   }
 }

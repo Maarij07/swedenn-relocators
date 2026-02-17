@@ -2,10 +2,9 @@
 
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 
-export default function CBIBBIPage() {
+export default function CBSBBProgrammePage() {
   const { t, i18n } = useTranslation();
   const [isReady, setIsReady] = useState(i18n.isInitialized);
 
@@ -18,7 +17,7 @@ export default function CBIBBIPage() {
   }, [i18n]);
 
   if (!isReady) {
-    return <div>Loading...</div>;
+    return null;
   }
 
   const heroData = t('cbiBbi.hero', { returnObjects: true }) || {};
@@ -30,290 +29,283 @@ export default function CBIBBIPage() {
   const middleEastData = t('cbiBbi.middleEastGlobal', { returnObjects: true }) || {};
   const howWeAssistData = t('cbiBbi.howWeAssist', { returnObjects: true }) || {};
   const whoShouldData = t('cbiBbi.whoShould', { returnObjects: true }) || {};
-  const getStartedData = t('cbiBbi.getStarted', { returnObjects: true }) || {};
+  const ctaData = t('cbiBbi.cta', { returnObjects: true }) || {};
 
-  const definitions = Array.isArray(understandingData.definitions) ? understandingData.definitions : [];
-  const caribbeanCountries = Array.isArray(caribbeanData.countries) ? caribbeanData.countries : [];
-  const europeanCountries = Array.isArray(europeanData.countries) ? europeanData.countries : [];
-  const middleEastCountries = Array.isArray(middleEastData.countries) ? middleEastData.countries : [];
-  const steps = Array.isArray(howWeAssistData.steps) ? howWeAssistData.steps : [];
-  const reasons = Array.isArray(whoShouldData.reasons) ? whoShouldData.reasons : [];
+  const definitions = t('cbiBbi.understanding.definitions', { returnObjects: true }) || [];
+  const assistSteps = t('cbiBbi.howWeAssist.steps', { returnObjects: true }) || [];
+  const reasons = t('cbiBbi.whoShould.reasons', { returnObjects: true }) || [];
 
   return (
-    <div className="min-h-screen bg-[#F8F9FE]">
-      {/* Hero Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-12 sm:pb-16 lg:pb-20">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '4.5rem', '4k': '6rem' }, fontWeight: 800, mb: 3, color: '#1e293b', lineHeight: 1.1 }}>
-          {heroData.title}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', md: '1.375rem', lg: '1.625rem', '4k': '2rem' }, color: '#3B82F6', fontWeight: 600 }}>
-          {heroData.subtitle}
-        </Typography>
-      </div>
+    <div className="min-h-screen bg-[#F8FAFC] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+        {/* Hero Section */}
+        <section className="mb-8 sm:mb-12 lg:mb-16">
+          <h1 className="text-2xl xs:text-2.5xl sm:text-3xl lg:text-4xl xl:text-5xl 4k:text-6xl font-bold text-gray-900 mb-3 sm:mb-4 leading-tight">
+            {heroData.title}
+          </h1>
+          <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl">
+            {heroData.subtitle}
+          </p>
+        </section>
 
-      {/* Intro Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <div className="bg-white rounded-2xl p-6 sm:p-8 lg:p-10 4k:p-12 shadow-sm">
-          <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 6, color: '#1e293b' }}>
+        {/* Intro Section */}
+        <section className="bg-white rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-5">
             {introData.heading}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, whiteSpace: 'pre-wrap' }}>
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
             {introData.description}
-          </Typography>
-        </div>
-      </div>
+          </p>
+        </section>
 
-      {/* Understanding CBI and RBI Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-          {understandingData.heading}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 8 }}>
-          {understandingData.intro}
-        </Typography>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          {definitions.map((def, idx) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-                {def.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                {def.description}
-              </Typography>
+        {/* Understanding CBI and RBI Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
+            {understandingData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 leading-relaxed">
+            {understandingData.intro}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-6">
+            {Array.isArray(definitions) && definitions.map((def, idx) => (
+              <div key={idx} className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-blue-500">
+                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                  {def.title}
+                </h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                  {def.description}
+                </p>
+              </div>
+            ))}
+          </div>
+          {understandingData.benefits && (
+            <div className="bg-blue-50 rounded-xl p-5 sm:p-6 border-l-4 border-blue-500">
+              <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
+                {understandingData.benefits}
+              </p>
             </div>
-          ))}
-        </div>
+          )}
+        </section>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 sm:p-8 lg:p-10">
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-            {understandingData.benefits}
-          </Typography>
-        </div>
-      </div>
+        {/* Country Programs Section */}
+        <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
+            {countryProgramsData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
+            {countryProgramsData.intro}
+          </p>
+        </section>
 
-      {/* Country Programs Intro */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-          {countryProgramsData.heading}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-          {countryProgramsData.intro}
-        </Typography>
-      </div>
-
-      {/* Caribbean Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-          {caribbeanData.heading}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 8 }}>
-          {caribbeanData.intro}
-        </Typography>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {caribbeanCountries.map((country, idx) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 2, color: '#1e293b' }}>
-                {country.name}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#3B82F6', fontWeight: 600, mb: 4 }}>
-                {country.type}
-              </Typography>
-
-              <div className="mb-4">
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
-                  Investment Options:
-                </Typography>
-                {country.investmentOptions?.map((opt, i) => (
-                  <Typography key={i} sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#6B7280', mb: 1 }}>
-                    •&nbsp;{opt}
-                  </Typography>
-                ))}
-              </div>
-
-              <div className="mb-4">
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
-                  Family Members:
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#6B7280' }}>
-                  {country.familyMembers}
-                </Typography>
-              </div>
-
-              <div>
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
-                  Benefits:
-                </Typography>
-                {country.benefits?.map((benefit, i) => (
-                  <Typography key={i} sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#6B7280', mb: 1 }}>
-                    •&nbsp;{benefit}
-                  </Typography>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* European Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-          {europeanData.heading}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 8 }}>
-          {europeanData.intro}
-        </Typography>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {europeanCountries.map((country, idx) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 2, color: '#1e293b' }}>
-                {country.name}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#3B82F6', fontWeight: 600, mb: 4 }}>
-                {country.type}
-              </Typography>
-
-              <div className="mb-4">
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
-                  Investment Options:
-                </Typography>
-                {country.investmentOptions?.map((opt, i) => (
-                  <Typography key={i} sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#6B7280', mb: 1 }}>
-                    •&nbsp;{opt}
-                  </Typography>
-                ))}
-              </div>
-
-              <div className="mb-4">
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
-                  Family Members:
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#6B7280' }}>
-                  {country.familyMembers}
-                </Typography>
-              </div>
-
-              <div>
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
-                  Benefits:
-                </Typography>
-                {country.benefits?.map((benefit, i) => (
-                  <Typography key={i} sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#6B7280', mb: 1 }}>
-                    •&nbsp;{benefit}
-                  </Typography>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Middle East and Global Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 8, color: '#1e293b' }}>
-          {middleEastData.heading}
-        </Typography>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {middleEastCountries.map((country, idx) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 2, color: '#1e293b' }}>
-                {country.name}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#3B82F6', fontWeight: 600, mb: 4 }}>
-                {country.type}
-              </Typography>
-
-              <div className="mb-4">
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
-                  Investment Options:
-                </Typography>
-                {country.investmentOptions?.map((opt, i) => (
-                  <Typography key={i} sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#6B7280', mb: 1 }}>
-                    •&nbsp;{opt}
-                  </Typography>
-                ))}
-              </div>
-
-              <div className="mb-4">
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
-                  Family Members:
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#6B7280' }}>
-                  {country.familyMembers}
-                </Typography>
-              </div>
-
-              <div>
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
-                  Benefits:
-                </Typography>
-                {country.benefits?.map((benefit, i) => (
-                  <Typography key={i} sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', lg: '0.95rem', '4k': '1rem' }, color: '#6B7280', mb: 1 }}>
-                    •&nbsp;{benefit}
-                  </Typography>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* How We Assist Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 8, color: '#1e293b' }}>
-          {howWeAssistData.heading}
-        </Typography>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {steps.map((step, idx) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="flex-shrink-0 w-12 h-12 4k:w-16 4k:h-16 rounded-full bg-gradient-to-r from-blue-500 to-blue-400 flex items-center justify-center">
-                  <Typography sx={{ fontSize: { xs: '1.5rem', lg: '1.75rem', '4k': '2rem' }, fontWeight: 700, color: 'white' }}>
-                    {step.number}
-                  </Typography>
+        {/* Caribbean Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
+            {caribbeanData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 leading-relaxed">
+            {caribbeanData.intro}
+          </p>
+          <div className="space-y-4 sm:space-y-6">
+            {Array.isArray(caribbeanData.countries) && caribbeanData.countries.map((country, idx) => (
+              <div key={idx} className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border-l-4 border-green-500">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
+                  {country.name}
+                </h3>
+                <p className="text-xs sm:text-sm text-gray-600 mb-3 italic">{country.type}</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Investment Options:</h4>
+                    <ul className="space-y-1">
+                      {Array.isArray(country.investmentOptions) && country.investmentOptions.map((opt, i) => (
+                        <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
+                          <span className="text-green-600 flex-shrink-0">•</span>
+                          <span>{opt}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Family Members: {country.familyMembers}</h4>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Benefits:</h4>
+                    <ul className="space-y-1">
+                      {Array.isArray(country.benefits) && country.benefits.map((benefit, i) => (
+                        <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
+                          <span className="text-green-600 flex-shrink-0">•</span>
+                          <span>{benefit}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-                <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, color: '#1e293b' }}>
-                  {step.title}
-                </Typography>
               </div>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                {step.description}
-              </Typography>
-            </div>
-          ))}
-        </div>
-      </div>
+            ))}
+          </div>
+        </section>
 
-      {/* Who Should Consider Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 8, color: '#1e293b' }}>
-          {whoShouldData.heading}
-        </Typography>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {reasons.map((reason, idx) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8">
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                <span className="text-blue-600 font-bold mr-2">•</span>{reason}
-              </Typography>
-            </div>
-          ))}
-        </div>
-      </div>
+        {/* European Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
+            {europeanData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 leading-relaxed">
+            {europeanData.intro}
+          </p>
+          <div className="space-y-4 sm:space-y-6">
+            {Array.isArray(europeanData.countries) && europeanData.countries.map((country, idx) => (
+              <div key={idx} className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border-l-4 border-purple-500">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
+                  {country.name}
+                </h3>
+                <p className="text-xs sm:text-sm text-gray-600 mb-3 italic">{country.type}</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Investment Options:</h4>
+                    <ul className="space-y-1">
+                      {Array.isArray(country.investmentOptions) && country.investmentOptions.map((opt, i) => (
+                        <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
+                          <span className="text-purple-600 flex-shrink-0">•</span>
+                          <span>{opt}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Family Members: {country.familyMembers}</h4>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Benefits:</h4>
+                    <ul className="space-y-1">
+                      {Array.isArray(country.benefits) && country.benefits.map((benefit, i) => (
+                        <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
+                          <span className="text-purple-600 flex-shrink-0">•</span>
+                          <span>{benefit}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
 
-      {/* Get Started Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pb-16 sm:pb-20 lg:pb-24">
-        <div className="bg-gradient-to-r from-blue-500 to-blue-400 rounded-2xl p-8 sm:p-10 lg:p-12 4k:p-16 text-white">
-          <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 6, color: 'white' }}>
-            {getStartedData.heading}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, lineHeight: 1.8, color: 'rgba(255,255,255,0.95)' }}>
-            {getStartedData.description}
-          </Typography>
-        </div>
+        {/* Middle East and Global Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
+            {middleEastData.heading}
+          </h2>
+          <div className="space-y-4 sm:space-y-6">
+            {Array.isArray(middleEastData.countries) && middleEastData.countries.map((country, idx) => (
+              <div key={idx} className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border-l-4 border-orange-500">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
+                  {country.name}
+                </h3>
+                <p className="text-xs sm:text-sm text-gray-600 mb-3 italic">{country.type}</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Investment Options:</h4>
+                    <ul className="space-y-1">
+                      {Array.isArray(country.investmentOptions) && country.investmentOptions.map((opt, i) => (
+                        <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
+                          <span className="text-orange-600 flex-shrink-0">•</span>
+                          <span>{opt}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Family Members: {country.familyMembers}</h4>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Benefits:</h4>
+                    <ul className="space-y-1">
+                      {Array.isArray(country.benefits) && country.benefits.map((benefit, i) => (
+                        <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
+                          <span className="text-orange-600 flex-shrink-0">•</span>
+                          <span>{benefit}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* How We Assist Section */}
+        <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8">
+            {howWeAssistData.heading}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+            {Array.isArray(assistSteps) && assistSteps.map((step, idx) => (
+              <div key={idx} className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-blue-500">
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <span className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-sm sm:text-base">
+                    {step.number}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                      {step.title}
+                    </h3>
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                      {step.description}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Who Should Consider Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
+            {whoShouldData.heading}
+          </h2>
+          <ul className="space-y-3">
+            {Array.isArray(reasons) && reasons.map((reason, idx) => (
+              <li key={idx} className="flex gap-3 bg-white rounded-lg p-4 sm:p-5 border-l-4 border-indigo-500">
+                <span className="text-indigo-600 font-bold flex-shrink-0">•</span>
+                <span className="text-xs sm:text-sm lg:text-base text-gray-700">{reason}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        {/* CTA Section */}
+        <section className="bg-black/85 rounded-2xl shadow-lg p-8 sm:p-10 lg:p-12 text-center">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-3 sm:mb-4">
+            {ctaData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
+            {ctaData.description}
+          </p>
+          <Button
+            variant="contained"
+            sx={{
+              backgroundColor: '#ffffff',
+              color: '#000000',
+              fontSize: { xs: '0.875rem', sm: '1rem', lg: '1.125rem' },
+              fontWeight: 600,
+              px: { xs: 4, sm: 6, lg: 8 },
+              py: { xs: 1.2, sm: 1.5, lg: 1.8 },
+              borderRadius: '9999px',
+              textTransform: 'none',
+              '&:hover': {
+                backgroundColor: '#f3f4f6',
+              },
+            }}
+          >
+            {ctaData.button}
+          </Button>
+          <p className="text-xs sm:text-sm text-gray-400 mt-4 sm:mt-5">
+            {ctaData.subtext}
+          </p>
+        </section>
       </div>
     </div>
   );

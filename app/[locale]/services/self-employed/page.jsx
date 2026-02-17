@@ -3,23 +3,21 @@
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 
 export default function SelfEmployedPage() {
   const { t, i18n } = useTranslation();
-  const [isReady, setIsReady] = useState(i18n.isInitialized);
+  const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
-    if (!i18n.isInitialized) {
-      i18n.on('initialized', () => setIsReady(true));
-    } else {
+    if (i18n.isInitialized) {
       setIsReady(true);
+    } else {
+      i18n.on('initialized', () => setIsReady(true));
     }
   }, [i18n]);
 
-  if (!isReady) {
-    return <div>Loading...</div>;
-  }
+  if (!isReady) return null;
 
   const advantages = t('selfEmployed.whyChooseSweden.advantages', { returnObjects: true }) || [];
   const requirements = t('selfEmployed.keyRequirements.requirements', { returnObjects: true }) || [];
@@ -30,223 +28,252 @@ export default function SelfEmployedPage() {
   const whyUs = t('selfEmployed.whyWorkWithUs.advantages', { returnObjects: true }) || [];
 
   return (
-    <Box sx={{ minHeight: '100vh', bg: '#ffffff' }}>
-      {/* Hero Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px]">
-        <div className="mb-16 sm:mb-20 lg:mb-32 xl:mb-40">
-          <Typography sx={{ fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '4.5rem', '4k': '6rem' }, fontWeight: 800, mb: 4, color: '#1e293b', lineHeight: 1.1 }}>
+    <div className="min-h-screen bg-[#F8FAFC] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+        {/* Hero Section */}
+        <section className="mb-8 sm:mb-12 lg:mb-16">
+          <h1 className="text-2xl xs:text-2.5xl sm:text-3xl lg:text-4xl xl:text-5xl 4k:text-6xl font-bold text-gray-900 mb-3 sm:mb-4 leading-tight">
             {t('selfEmployed.hero.title')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '1rem', sm: '1.25rem', md: '1.5rem', lg: '2rem', '4k': '2.75rem' }, fontWeight: 600, mb: 4, color: '#1e293b', lineHeight: 1.4 }}>
+          </h1>
+          <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl">
             {t('selfEmployed.hero.subtitle')}
-          </Typography>
-        </div>
-      </div>
+          </p>
+        </section>
 
-      {/* Intro Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.5rem', lg: '1.75rem', '4k': '2.5rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
+        {/* Intro Section */}
+        <section className="bg-white rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-5">
             {t('selfEmployed.intro.heading')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, maxWidth: '900px' }}>
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
             {t('selfEmployed.intro.description')}
-          </Typography>
-        </div>
-      </div>
+          </p>
+        </section>
 
-      {/* Why Choose Sweden Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 4, color: '#1e293b' }}>
-          {t('selfEmployed.whyChooseSweden.heading')}
-        </Typography>
-        
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-10 mb-12">
-          {Array.isArray(advantages) && advantages.map((advantage, idx) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10 hover:shadow-md transition-shadow">
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-                {advantage.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                {advantage.description}
-              </Typography>
-            </div>
-          ))}
-        </div>
-
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 sm:p-8 lg:p-10">
-          <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-            {t('selfEmployed.whyChooseSweden.businessStructures.heading')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-            {t('selfEmployed.whyChooseSweden.businessStructures.description')}
-          </Typography>
-        </div>
-      </div>
-
-      {/* Key Requirements Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 4, color: '#1e293b' }}>
-            {t('selfEmployed.keyRequirements.heading')}
-          </Typography>
-
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 12, maxWidth: '900px' }}>
-            {t('selfEmployed.keyRequirements.intro')}
-          </Typography>
-
-          <div className="grid md:grid-cols-1 gap-6">
-            {Array.isArray(requirements) && requirements.map((req, idx) => (
-              <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
-                <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-                  {idx + 1}. {req.title}
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                  {req.details}
-                </Typography>
+        {/* Why Choose Sweden Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
+            {t('selfEmployed.whyChooseSweden.heading')}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
+            {Array.isArray(advantages) && advantages.map((advantage, idx) => (
+              <div
+                key={idx}
+                className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-blue-500"
+              >
+                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                  {advantage.title}
+                </h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                  {advantage.description}
+                </p>
               </div>
             ))}
           </div>
-        </div>
-      </div>
+          <div className="bg-blue-50 rounded-lg p-4 sm:p-5 border-l-4 border-blue-500">
+            <p className="text-xs sm:text-sm lg:text-base text-gray-700">
+              {t('selfEmployed.whyChooseSweden.businessStructures.description')}
+            </p>
+          </div>
+        </section>
 
-      {/* Application Process Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 12, color: '#1e293b' }}>
-          {t('selfEmployed.applicationProcess.heading')}
-        </Typography>
+        {/* Key Requirements Section */}
+        <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 lg:mb-8">
+            {t('selfEmployed.keyRequirements.heading')}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8 max-w-3xl">
+            {t('selfEmployed.keyRequirements.intro')}
+          </p>
 
-        <div className="space-y-6">
-          {Array.isArray(steps) && steps.map((step, idx) => (
-            <div key={idx} className="flex gap-6 sm:gap-8">
-              <div className="flex-shrink-0">
-                <div className="flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-blue-600 text-white font-bold text-lg sm:text-xl">
-                  {idx + 1}
+          <div className="space-y-4 sm:space-y-6 lg:space-y-8">
+            {Array.isArray(requirements) && requirements.map((req, idx) => (
+              <div
+                key={idx}
+                className="bg-white rounded-lg p-4 sm:p-5 border-t-4 border-green-500"
+              >
+                <div className="flex items-start gap-3">
+                  <span className="flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-xs sm:text-sm">
+                    {idx + 1}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-sm sm:text-base font-semibold text-gray-900 mb-1">
+                      {req.title}
+                    </h3>
+                    <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
+                      {req.details}
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="flex-1">
-                <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-                  {step.title}
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
+            ))}
+          </div>
+        </section>
+
+        {/* Application Process Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
+            {t('selfEmployed.applicationProcess.heading')}
+          </h2>
+
+          <div className="space-y-6 sm:space-y-8 lg:space-y-10">
+            {Array.isArray(steps) && steps.map((step, idx) => (
+              <div
+                key={idx}
+                className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border-t-4 border-purple-500"
+              >
+                <div className="flex items-center gap-3 sm:gap-4 mb-4">
+                  <span className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center font-bold text-xs sm:text-sm">
+                    {idx + 1}
+                  </span>
+                  <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900">
+                    {step.title}
+                  </h3>
+                </div>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                   {step.description}
-                </Typography>
+                </p>
               </div>
-            </div>
-          ))}
-        </div>
-      </div>
+            ))}
+          </div>
+        </section>
 
-      {/* Business Structures Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 4, color: '#1e293b' }}>
+        {/* Business Structures Section */}
+        <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 lg:mb-8">
             {t('selfEmployed.businessStructures.heading')}
-          </Typography>
-
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 8 }}>
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
             {t('selfEmployed.businessStructures.intro')}
-          </Typography>
+          </p>
 
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
             {Array.isArray(businessTypes) && businessTypes.map((type, idx) => (
-              <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
-                <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
+              <div
+                key={idx}
+                className="bg-white rounded-lg p-4 sm:p-5 border-l-4 border-orange-500"
+              >
+                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
                   {type.title}
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
+                </h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                   {type.description}
-                </Typography>
+                </p>
               </div>
             ))}
           </div>
 
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 sm:p-8 lg:p-10">
-            <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
+          <div className="bg-yellow-50 rounded-lg p-4 sm:p-5 border-l-4 border-yellow-500">
+            <p className="text-xs sm:text-sm lg:text-base text-gray-700">
               {t('selfEmployed.businessStructures.nota')}
-            </Typography>
+            </p>
           </div>
-        </div>
-      </div>
+        </section>
 
-      {/* Advantages Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 4, color: '#1e293b' }}>
-          {t('selfEmployed.advantages.heading')}
-        </Typography>
+        {/* Advantages Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 lg:mb-8">
+            {t('selfEmployed.advantages.heading')}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
+            {t('selfEmployed.advantages.description')}
+          </p>
 
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 8 }}>
-          {t('selfEmployed.advantages.description')}
-        </Typography>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+            {Array.isArray(businessAdvantages) && businessAdvantages.map((adv, idx) => (
+              <div
+                key={idx}
+                className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-indigo-500"
+              >
+                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                  {adv.title}
+                </h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                  {adv.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
 
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-10">
-          {Array.isArray(businessAdvantages) && businessAdvantages.map((adv, idx) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10 hover:shadow-md transition-shadow">
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-                {adv.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                {adv.description}
-              </Typography>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* How We Can Assist Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-          <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 4, color: '#1e293b' }}>
+        {/* How We Can Assist Section */}
+        <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 lg:mb-8">
             {t('selfEmployed.howWeCanAssist.heading')}
-          </Typography>
-
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 12 }}>
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
             {t('selfEmployed.howWeCanAssist.intro')}
-          </Typography>
+          </p>
 
-          <div className="grid md:grid-cols-2 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-8 sm:mb-10">
             {Array.isArray(services) && services.map((service, idx) => (
-              <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
-                <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
+              <div
+                key={idx}
+                className="bg-white rounded-lg p-4 sm:p-5 border-l-4 border-blue-500"
+              >
+                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
                   {service.title}
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
+                </h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                   {service.description}
-                </Typography>
+                </p>
               </div>
             ))}
           </div>
 
           {/* Why Work With Us */}
-          <Typography sx={{ fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.25rem', '4k': '3rem' }, fontWeight: 800, mb: 8, color: '#1e293b' }}>
+          <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
             {t('selfEmployed.whyWorkWithUs.heading')}
-          </Typography>
+          </h3>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {Array.isArray(whyUs) && whyUs.map((item, idx) => (
-              <div key={idx} className="bg-blue-50 border border-blue-200 rounded-lg p-6 sm:p-8 lg:p-10">
-                <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.75rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
+              <div
+                key={idx}
+                className="bg-white rounded-lg p-4 sm:p-5 border-l-4 border-green-500"
+              >
+                <h4 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
                   {item.title}
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.8 }}>
+                </h4>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                   {item.description}
-                </Typography>
+                </p>
               </div>
             ))}
           </div>
-        </div>
-      </div>
+        </section>
 
-      {/* Contact Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 6, color: '#1e293b' }}>
-          {t('selfEmployed.contact.heading')}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, maxWidth: '900px' }}>
-          {t('selfEmployed.contact.description')}
-        </Typography>
+        {/* CTA Section */}
+        <section className="bg-black/85 rounded-2xl shadow-lg p-8 sm:p-10 lg:p-12 text-center">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-3 sm:mb-4">
+            {t('selfEmployed.contact.heading')}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
+            {t('selfEmployed.contact.description')}
+          </p>
+          <Button
+            variant="contained"
+            sx={{
+              backgroundColor: '#ffffff',
+              color: '#000000',
+              fontSize: { xs: '0.875rem', sm: '1rem', lg: '1.125rem' },
+              fontWeight: 600,
+              px: { xs: 4, sm: 6, lg: 8 },
+              py: { xs: 1.2, sm: 1.5, lg: 1.8 },
+              borderRadius: '9999px',
+              textTransform: 'none',
+              '&:hover': {
+                backgroundColor: '#f3f4f6',
+              },
+            }}
+          >
+            Get Started
+          </Button>
+          <p className="text-xs sm:text-sm text-gray-400 mt-4 sm:mt-5">
+            Contact us today to begin your self-employment journey in Sweden.
+          </p>
+        </section>
       </div>
-    </Box>
+    </div>
   );
 }
-

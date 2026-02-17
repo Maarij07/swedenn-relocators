@@ -134,6 +134,12 @@
       "forCompanies": "Sign up on our portal to list your vacancies and hire global talent.",
       "forJobSeekers": "Create your CV, apply for jobs, and start your career journey in Sweden.",
       "closing": "At Sweden Relocators, our Manpower Solutions empower businesses to grow with the right people and help individuals achieve new opportunities in Sweden and across Europe."
+    },
+    "cta": {
+      "heading": "Ready to Build Your Team or Start Your Career?",
+      "description": "Whether you're a company looking to hire global talent or a job seeker ready for new opportunities, Sweden Relocators connects you with the right match.",
+      "button": "Get Started Today",
+      "subtext": "Sign up now and join thousands of companies and professionals using our platform."
     }
   }
 }

@@ -141,6 +141,12 @@
       "heading": "Get Started with Sweden Relocators",
       "description": "Whether you're searching for a short-term rental, planning a long-term stay, buying or selling property, or listing housing as a provider, Sweden Relocators makes the process transparent, secure, and efficient.",
       "cta": "Submit your housing request or register your property on our portal today. Let Sweden Relocators match you with the right housing solution in Sweden."
+    },
+    "cta": {
+      "heading": "Find Your Perfect Home in Sweden",
+      "description": "From short-term rentals to property purchases, Sweden Relocators connects you with verified housing solutions tailored to your needs.",
+      "button": "Browse Housing Options",
+      "subtext": "Explore thousands of verified properties and find your ideal home today."
     }
   }
 }
