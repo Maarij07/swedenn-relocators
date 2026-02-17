@@ -52,13 +52,13 @@ export default function CitizenshipResidencySection() {
     <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 4k:py-32">
         {/* Eyebrow */}
-        <p className="text-center text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase text-sky-600 mb-3">
+        <p className="text-center text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase text-[#2563eb] mb-3">
           {texts.eyebrow}
         </p>
 
         {/* Heading */}
-        <h2 className="text-center text-[1.9rem] sm:text-[2.4rem] lg:text-[2.9rem] 4k:text-[3.6rem] font-bold text-gray-900 leading-tight mb-2">
-          <span className="text-sky-600">{isSv ? 'Medborgarskap & uppehållstillstånd' : 'Citizenship & Residency'}</span> {isSv ? 'genom investering' : 'by Investment'}
+        <h2 className="text-center text-[1.9rem] sm:text-[2.4rem] lg:text-[2.9rem] 4k:text-[3.6rem] font-extrabold text-[#0f172a] leading-tight mb-2">
+          <span className="text-[#2563eb]">{isSv ? 'Medborgarskap & uppehållstillstånd' : 'Citizenship & Residency'}</span> {isSv ? 'genom investering' : 'by Investment'}
         </h2>
         <p className="text-center text-[0.95rem] sm:text-base lg:text-[1.05rem] text-gray-700 max-w-2xl mx-auto mb-8 sm:mb-10 lg:mb-12">
           {texts.intro}

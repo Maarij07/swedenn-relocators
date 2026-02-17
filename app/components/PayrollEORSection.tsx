@@ -85,7 +85,7 @@ export default function PayrollEORSection() {
           <h2 className="text-slate-900 font-extrabold leading-tight text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 4k:text-[4rem]">
             {texts.mainHeading}
           </h2>
-          <p className="mt-2 text-sky-600 font-extrabold text-[1.25rem] sm:text-[1.35rem] lg:text-[1.5rem] 4k:text-[2rem]">
+          <p className="mt-2 text-blue-600 font-extrabold text-[1.25rem] sm:text-[1.35rem] lg:text-[1.5rem] 4k:text-[2rem]">
             {texts.subHeading}
           </p>
         </div>

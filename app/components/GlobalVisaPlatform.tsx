@@ -42,7 +42,7 @@ export function GlobalVisaPlatform() {
           <Typography
             sx={{
               fontSize: { xs: '0.75rem', sm: '0.8rem', md: '0.9rem' },
-              color: '#60a5fa',
+              color: '#2563eb',
               fontWeight: 500,
               letterSpacing: '0.08em',
               textTransform: 'uppercase',
@@ -57,7 +57,7 @@ export function GlobalVisaPlatform() {
             sx={{
               fontSize: { xs: '1.5rem', sm: '1.9rem', md: '2.1rem', lg: '2.35rem', xl: '2.6rem' },
               fontWeight: 800,
-              color: '#2563eb',
+              color: '#0f172a',
               lineHeight: 1.25,
             }}
           >
@@ -70,7 +70,7 @@ export function GlobalVisaPlatform() {
               mt: '0.35rem',
               fontSize: { xs: '1.05rem', sm: '1.15rem', md: '1.25rem', lg: '1.35rem' },
               fontWeight: 800,
-              color: '#111827',
+              color: '#2563eb',
               lineHeight: 1.3,
             }}
           >
@@ -90,6 +90,24 @@ export function GlobalVisaPlatform() {
             gridTemplateColumns: { xs: '1fr', lg: '1fr 1fr' },
             gap: { xs: '3rem', sm: '3.5rem', md: '4rem', lg: '5rem', xl: '6rem' },
             alignItems: 'center',
+            '@keyframes slideFadeLeft': {
+              '0%': { opacity: 0, transform: 'translateX(-28px)' },
+              '100%': { opacity: 1, transform: 'translateX(0)' },
+            },
+            '@keyframes slideFadeRight': {
+              '0%': { opacity: 0, transform: 'translateX(28px)' },
+              '100%': { opacity: 1, transform: 'translateX(0)' },
+            },
+            '@keyframes floatIllustration': {
+              '0%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-10px)' },
+              '100%': { transform: 'translateY(0px)' },
+            },
+            '@keyframes ctaBreath': {
+              '0%': { boxShadow: '0 4px 12px rgba(15, 23, 42, 0.18)' },
+              '50%': { boxShadow: '0 8px 20px rgba(30, 41, 59, 0.28)' },
+              '100%': { boxShadow: '0 4px 12px rgba(15, 23, 42, 0.18)' },
+            },
           }}
         >
           {/* Left - Content */}
@@ -99,6 +117,7 @@ export function GlobalVisaPlatform() {
               flexDirection: 'column',
               gap: { xs: '1.5rem', sm: '2rem' },
               order: { xs: 2, lg: 1 },
+              animation: 'slideFadeLeft 0.9s cubic-bezier(0.22, 1, 0.36, 1)',
             }}
           >
             {/* Text card with enhanced 3D shadow and depth */}
@@ -133,7 +152,7 @@ export function GlobalVisaPlatform() {
                 sx={{
                   fontSize: { xs: '1.5rem', sm: '1.75rem', md: '2rem', lg: '2.25rem' },
                   fontWeight: 700,
-                  color: '#1e293b',
+                  color: '#0f172a',
                   lineHeight: 1.3,
                   mb: { xs: '0.75rem', sm: '1rem' },
                 }}
@@ -184,8 +203,11 @@ export function GlobalVisaPlatform() {
                     width: 'fit-content',
                     '&:hover': {
                       backgroundColor: '#0f172a',
+                      transform: 'translateY(-1px)',
                     },
                     boxShadow: '0 4px 12px rgba(15, 23, 42, 0.18)',
+                    animation: 'ctaBreath 2.8s ease-in-out infinite',
+                    transition: 'transform 0.25s ease, background-color 0.25s ease',
                   }}
                 >
                   {texts.button}
@@ -203,6 +225,7 @@ export function GlobalVisaPlatform() {
               width: '100%',
               order: { xs: 1, lg: 2 },
               position: 'relative',
+              animation: 'slideFadeRight 0.95s cubic-bezier(0.22, 1, 0.36, 1)',
             }}
           >
             <Box
@@ -214,6 +237,8 @@ export function GlobalVisaPlatform() {
                 maxWidth: { xs: '20rem', sm: '24rem', md: '28rem', lg: '32rem', xl: '36rem' },
                 height: 'auto',
                 objectFit: 'contain',
+                animation: 'floatIllustration 4.2s ease-in-out infinite',
+                filter: 'drop-shadow(0 18px 24px rgba(15, 23, 42, 0.12))',
               }}
             />
           </Box>

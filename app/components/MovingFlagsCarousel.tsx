@@ -53,7 +53,6 @@ export function MovingFlagsCarousel() {
         sx={{
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'center',
           width: '100%',
           px: 0,
           py: { xs: 0.5, sm: 0.6, lg: 0.75 },
@@ -67,7 +66,7 @@ export function MovingFlagsCarousel() {
         <Box
           sx={{
             display: 'flex',
-            gap: { xs: 3, sm: 4, lg: 6, '4k': 8 },
+            width: 'max-content',
             animation: 'scroll 40s linear infinite',
             '@keyframes scroll': {
               '0%': {
@@ -80,12 +79,19 @@ export function MovingFlagsCarousel() {
             willChange: 'transform',
           }}
         >
-          {/* Render the countries array 4 times for seamless infinite loop - no gaps! */}
-          {[...Array(4)].map((_, setIndex) => (
-            <React.Fragment key={`set-${setIndex}`}>
+          {[0, 1].map((groupIndex) => (
+            <Box
+              key={`group-${groupIndex}`}
+              sx={{
+                display: 'flex',
+                gap: { xs: 3, sm: 4, lg: 6, '4k': 8 },
+                flexShrink: 0,
+                pr: { xs: '24px', sm: '32px', lg: '48px', '4k': '64px' },
+              }}
+            >
               {countries.map((country, idx) => (
                 <Box
-                  key={`${setIndex}-${idx}`}
+                  key={`${groupIndex}-${idx}`}
                   sx={{
                     display: 'flex',
                     flexDirection: 'column',
@@ -126,7 +132,7 @@ export function MovingFlagsCarousel() {
                   </Typography>
                 </Box>
               ))}
-            </React.Fragment>
+            </Box>
           ))}
         </Box>
       </Box>

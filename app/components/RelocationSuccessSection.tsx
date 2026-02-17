@@ -169,7 +169,7 @@ export default function RelocationSuccessSection() {
               {texts.readMore}
             </button>
           </div>
-          <h3 className="text-[1.35rem] sm:text-[1.5rem] lg:text-[1.75rem] 2xl:text-[2rem] 4k:text-[2.5rem] font-extrabold tracking-tight text-[#3b82f6]">
+          <h3 className="text-[1.35rem] sm:text-[1.5rem] lg:text-[1.75rem] 2xl:text-[2rem] 4k:text-[2.5rem] font-extrabold tracking-tight text-blue-600">
             {texts.relocationServices}
           </h3>
         </div>
@@ -178,7 +178,29 @@ export default function RelocationSuccessSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16 items-center">
           {/* Left illustration */}
           <div className="flex justify-center lg:justify-start order-2 lg:order-1">
-            <div className="relative w-full max-w-[340px] sm:max-w-[420px] lg:max-w-[400px] 2xl:max-w-[480px] 4k:max-w-[580px]">
+            <Box
+              sx={{
+                position: 'relative',
+                width: '100%',
+                maxWidth: {
+                  xs: '370px',
+                  sm: '460px',
+                  lg: '450px',
+                  '2xl': '540px',
+                  '4k': '640px',
+                },
+                '@keyframes illustrationFloat': {
+                  '0%': { transform: 'translateY(0px) rotate(0deg) scale(1)' },
+                  '25%': { transform: 'translateY(-6px) rotate(-0.5deg) scale(1.01)' },
+                  '50%': { transform: 'translateY(-10px) rotate(0deg) scale(1.015)' },
+                  '75%': { transform: 'translateY(-6px) rotate(0.5deg) scale(1.01)' },
+                  '100%': { transform: 'translateY(0px) rotate(0deg) scale(1)' },
+                },
+                animation: 'illustrationFloat 5.5s ease-in-out infinite',
+                transformOrigin: '50% 70%',
+                willChange: 'transform',
+              }}
+            >
               <Image
                 src="/p1.svg"
                 alt="Relocation success illustration"
@@ -189,7 +211,7 @@ export default function RelocationSuccessSection() {
                 className="w-full h-auto object-contain"
                 quality={100}
               />
-            </div>
+            </Box>
           </div>
 
           {/* Right content - Success Graph */}

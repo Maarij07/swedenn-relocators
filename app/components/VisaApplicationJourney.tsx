@@ -15,7 +15,6 @@ import {
 import Image from 'next/image';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import { useTranslation } from 'react-i18next';
-import { MovingFlagsCarousel } from './MovingFlagsCarousel';
 import { UploadDocuments } from './UploadDocuments';
 import { UpcomingAppointments } from './UpcomingAppointments';
 import SignUp from './SignUp';
@@ -322,11 +321,6 @@ export default function VisaApplicationJourney() {
               </Box>
             </Box>
           </Box>
-        </Box>
-
-        {/* ---------- FLAG SLIDER ---------- */}
-        <Box sx={{ mb: { xs: 4, sm: 5, lg: 6 } }}>
-          <MovingFlagsCarousel />
         </Box>
 
         {/* ---------- CONTENT AREA ---------- */}

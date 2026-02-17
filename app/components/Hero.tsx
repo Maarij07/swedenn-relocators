@@ -45,7 +45,7 @@ export default function Hero() {
             <div className="space-y-6 sm:space-y-7 md:space-y-8 lg:space-y-9 3xl:space-y-12 4k:space-y-16" style={{ animation: 'fadeInUp 0.8s ease-out' }}>
               
               <h1 className="text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 3xl:text-[3.25rem] 4k:text-[4rem] leading-[1.2] font-extrabold">
-                <span className="block text-gray-900">{texts.titleLine1}</span>
+                <span className="block text-slate-900">{texts.titleLine1}</span>
                 <span className="block text-blue-600">{texts.titleLine2}</span>
               </h1>
 

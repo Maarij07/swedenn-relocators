@@ -128,16 +128,16 @@ export default function VerticalFeatureCarousel() {
           <h2 className="text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 3xl:text-[3.25rem] 4k:text-[4rem] leading-[1.2] font-extrabold">
             {isSv ? (
               <>
-                <span className="text-gray-900">Vi stärker </span>
+                <span className="text-slate-900">Vi stärker </span>
                 <span className="text-blue-600">företag </span>
-                <span className="text-gray-900">med digitala </span>
+                <span className="text-slate-900">med digitala </span>
                 <span className="text-blue-600">lösningar</span>
               </>
             ) : (
               <>
-                <span className="text-gray-900">Empowering </span>
+                <span className="text-slate-900">Empowering </span>
                 <span className="text-blue-600">Business </span>
-                <span className="text-gray-900">with Digital </span>
+                <span className="text-slate-900">with Digital </span>
                 <span className="text-blue-600">Solutions</span>
               </>
             )}
