@@ -62,6 +62,8 @@ const visaApplications = [
 
 type StepIndex = 0 | 1 | 2 | 3 | 4;
 
+const PORTAL_URL = 'https://portal.swedenrelocators.se';
+
 export default function VisaApplicationJourney() {
   const { i18n } = useTranslation();
   const isSv = i18n.language === 'sv';
@@ -175,8 +177,34 @@ export default function VisaApplicationJourney() {
   const sectionHeading = isSv ? 'Din visumansökningsresa' : 'Your Visa Application Journey';
   const sectionSubheading = isSv ? 'Följ varje steg från konto till slutlig inskickning' : 'Track every step from account creation to final submission';
 
+  const redirectToPortal = () => {
+    window.open(PORTAL_URL, '_blank', 'noopener,noreferrer');
+  };
+
+  const handleUserInteraction = (event: React.SyntheticEvent) => {
+    event.preventDefault();
+    event.stopPropagation();
+    redirectToPortal();
+  };
+
   return (
-    <Box sx={{ width: '100%', backgroundColor: '#FFFFFF', pt: { xs: '0.25rem', sm: '0.5rem', md: '0.75rem', lg: '1rem', '3xl': '1.25rem', '4k': '1.5rem' }, pb: { xs: '3rem', sm: '4rem', md: '5rem', lg: '6rem', '3xl': '7rem', '4k': '8rem' }, overflowX: 'hidden' }}>
+    <Box
+      onPointerDownCapture={handleUserInteraction}
+      onClickCapture={handleUserInteraction}
+      onChangeCapture={handleUserInteraction}
+      onKeyDownCapture={handleUserInteraction}
+      sx={{
+        width: '100%',
+        backgroundColor: '#FFFFFF',
+        pt: { xs: '0.25rem', sm: '0.5rem', md: '0.75rem', lg: '1rem', '3xl': '1.25rem', '4k': '1.5rem' },
+        pb: { xs: '3rem', sm: '4rem', md: '5rem', lg: '6rem', '3xl': '7rem', '4k': '8rem' },
+        overflowX: 'hidden',
+        cursor: 'default',
+        '& *': {
+          cursor: 'default !important',
+        },
+      }}
+    >
       {/* EXACT same container as Hero/Services (Tailwind classes) */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         <Box sx={{ mb: { xs: 7, sm: 9, lg: 12 }, textAlign: 'center' }}>
