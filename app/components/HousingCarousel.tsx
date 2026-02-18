@@ -144,36 +144,48 @@ export const HousingCarousel: React.FC = () => {
     <Box sx={{ py: { xs: 6, sm: 8, lg: 10, xl: 12 }, backgroundColor: '#EBF4FF' }}>
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         <Box sx={{ mb: { xs: 6, sm: 8, lg: 10 }, textAlign: 'center' }}>
-          <Typography
+          <Box
             sx={{
-              fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
-              fontWeight: 800,
-              color: '#0f172a',
-              lineHeight: 1.2,
-              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              maxWidth: '80rem',
+              mx: 'auto',
+              backgroundColor: '#eff6ff',
+              borderRadius: '0.5rem',
+              borderLeft: '4px solid #3b82f6',
+              px: { xs: 2, sm: 2.5 },
+              py: { xs: 1.5, sm: 2 },
             }}
           >
-            {isSv ? 'Helhetslösningar för bostad & fastigheter' : 'End-to-End Housing & Real Estate Support'}
-          </Typography>
-          <Typography
-            sx={{
-              mt: 0.75,
-              fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
-              fontWeight: 700,
-              color: '#2563eb',
-              lineHeight: 1.35,
-              textTransform: 'none',
-              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-            }}
-          >
-            {isSv ? 'Trygga bostadslösningar, levererade i tid' : 'Housing Solutions You Can Trust, Delivered on Time'}
-          </Typography>
+            <Typography
+              sx={{
+                fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
+                fontWeight: 800,
+                color: '#0f172a',
+                lineHeight: 1.2,
+                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              }}
+            >
+              {isSv ? 'Helhetslösningar för bostad & fastigheter' : 'End-to-End Housing & Real Estate Support'}
+            </Typography>
+            <Typography
+              sx={{
+                mt: 0.75,
+                fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
+                fontWeight: 700,
+                color: '#2563eb',
+                lineHeight: 1.35,
+                textTransform: 'none',
+                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              }}
+            >
+              {isSv ? 'Trygga bostadslösningar, levererade i tid' : 'Housing Solutions You Can Trust, Delivered on Time'}
+            </Typography>
+          </Box>
         </Box>
 
         <Box sx={{ position: 'relative', mx: { xs: 4, sm: 6, md: 8 } }}>
           <IconButton onClick={handlePrev} sx={{ position: 'absolute', top: '50%', left: { xs: -40, sm: -48, md: -56 }, transform: 'translateY(-50%)', zIndex: 10, bgcolor: '#000000', color: 'white', width: { xs: 32, sm: 36, md: 40 }, height: { xs: 32, sm: 36, md: 40 }, boxShadow: '0 4px 12px rgba(0,0,0,0.2)', '&:hover': { bgcolor: '#1e293b' } }}><ArrowBackIcon sx={{ fontSize: { xs: 18, sm: 20 } }} /></IconButton>
           <IconButton onClick={handleNext} sx={{ position: 'absolute', top: '50%', right: { xs: -40, sm: -48, md: -56 }, transform: 'translateY(-50%)', zIndex: 10, bgcolor: '#000000', color: 'white', width: { xs: 32, sm: 36, md: 40 }, height: { xs: 32, sm: 36, md: 40 }, boxShadow: '0 4px 12px rgba(0,0,0,0.2)', '&:hover': { bgcolor: '#1e293b' } }}><ArrowForwardIcon sx={{ fontSize: { xs: 18, sm: 20 } }} /></IconButton>
-          <Box sx={{ overflow: 'hidden', width: '100%' }}>
+          <Box sx={{ overflowX: 'hidden', overflowY: 'visible', width: '100%', py: 1 }}>
             <Box sx={{ display: 'flex', transition: isTransitioning ? 'transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)' : 'none', transform: `translateX(-${currentIndex * (100 / 3)}%)` }}>
               {extendedServices.map((service, idx) => (
                 <Box key={`${service.id}-${idx}`} sx={{ minWidth: 'calc(100% / 3)', px: { xs: 1.5, sm: 2, md: 2.5 } }}>
@@ -184,12 +196,15 @@ export const HousingCarousel: React.FC = () => {
                       minHeight: 450,
                       display: 'flex',
                       flexDirection: 'column',
+                      backgroundColor: '#ffffff',
+                      border: '1px solid rgba(148, 163, 184, 0.18)',
+                      boxShadow: '0 10px 28px rgba(15, 23, 42, 0.08), 0 4px 10px rgba(59, 130, 246, 0.10)',
                       overflow: 'hidden',
-                      borderRadius: 2.5,
+                      borderRadius: '24px',
                       transition: 'all 0.2s ease-in-out',
                       '&:hover': {
                         transform: 'translateY(-2px)',
-                        boxShadow: 3,
+                        boxShadow: '0 18px 38px rgba(15, 23, 42, 0.14), 0 8px 16px rgba(59, 130, 246, 0.16)',
                       },
                     }}>
                     <Box sx={{ p: 1 }}>

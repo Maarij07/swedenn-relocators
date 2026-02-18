@@ -119,30 +119,42 @@ export default function Offers() {
     <Box component="section" sx={{ py: { xs: 6, sm: 8, lg: 10, xl: 12 }, backgroundColor: '#ffffff' }}>
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         <Box sx={{ mb: { xs: 6, sm: 8, lg: 10 }, textAlign: 'center' }}>
-          <Typography
+          <Box
             sx={{
-              fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
-              fontWeight: 800,
-              color: '#0f172a',
-              lineHeight: 1.2,
-              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              maxWidth: '80rem',
+              mx: 'auto',
+              backgroundColor: '#eff6ff',
+              borderRadius: '0.5rem',
+              borderLeft: '4px solid #3b82f6',
+              px: { xs: 2, sm: 2.5 },
+              py: { xs: 1.5, sm: 2 },
             }}
           >
-            {texts.heading}
-          </Typography>
-          <Typography
-            sx={{
-              mt: 0.75,
-              fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
-              fontWeight: 700,
-              color: '#2563eb',
-              lineHeight: 1.35,
-              textTransform: 'none',
-              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-            }}
-          >
-            {texts.subheading}
-          </Typography>
+            <Typography
+              sx={{
+                fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
+                fontWeight: 800,
+                color: '#0f172a',
+                lineHeight: 1.2,
+                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              }}
+            >
+              {texts.heading}
+            </Typography>
+            <Typography
+              sx={{
+                mt: 0.75,
+                fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
+                fontWeight: 700,
+                color: '#2563eb',
+                lineHeight: 1.35,
+                textTransform: 'none',
+                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              }}
+            >
+              {texts.subheading}
+            </Typography>
+          </Box>
         </Box>
         <Box sx={{ position: 'relative', mx: { xs: 4, sm: 6, md: 8 } }}>
           <IconButton onClick={handlePrev} sx={{ position: 'absolute', top: '50%', left: { xs: -40, sm: -48, md: -56 }, transform: 'translateY(-50%)', zIndex: 10, bgcolor: '#000000', color: 'white', width: { xs: 32, sm: 36, md: 40 }, height: { xs: 32, sm: 36, md: 40 }, boxShadow: '0 4px 12px rgba(0,0,0,0.2)', '&:hover': { bgcolor: '#1e293b' } }}><ArrowBackIcon sx={{ fontSize: { xs: 18, sm: 20 } }} /></IconButton>
@@ -151,7 +163,7 @@ export default function Offers() {
             <Box sx={{ display: 'flex', transition: isTransitioning ? 'transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)' : 'none', transform: `translateX(-${currentIndex * (100 / 3)}%)` }}>
               {extendedOffers.map((offer, idx) => (
                 <Box key={`${offer.id}-${idx}`} sx={{ minWidth: 'calc(100% / 3)', px: { xs: 1.5, sm: 2, md: 2.5 } }}>
-                  <AnimatedCard sx={{ boxShadow: '0 4px 20px rgba(0, 0, 0, 0.06)', border: 'none', borderRadius: '20px', backgroundColor: '#ffffff', overflow: 'hidden', display: 'flex', flexDirection: 'column', height: '100%' }}>
+                  <AnimatedCard sx={{ boxShadow: '0 4px 20px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(59, 130, 246, 0.10)', border: 'none', borderRadius: '20px', backgroundColor: '#ffffff', overflow: 'hidden', display: 'flex', flexDirection: 'column', height: '100%', borderBottom: '4px solid #3b82f6' }}>
                     <Box sx={{ width: '100%', height: { xs: '200px', sm: '220px', md: '240px' }, backgroundColor: '#F3F5F7', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '20px 20px 0 0', boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)' }}>
                       <Box sx={{ width: '80%', height: '80%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <img src={offer.image} alt={offer.title} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
