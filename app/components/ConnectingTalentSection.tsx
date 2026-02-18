@@ -110,19 +110,21 @@ export default function ConnectingTalentSection() {
     <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-28">
         <div className="text-center mb-8 sm:mb-10 lg:mb-14">
-          <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] font-extrabold leading-[1.2] text-[#0f172a] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
-            {texts.heading}
-          </h2>
-          <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
-            {texts.subtitle}
-          </p>
+          <div className="max-w-5xl mx-auto bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+            <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] font-extrabold leading-[1.2] text-[#0f172a] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              {texts.heading}
+            </h2>
+            <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              {texts.subtitle}
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 4k:gap-14">
           {cards.map((card) => (
             <div 
               key={card.id} 
-              className="group relative rounded-3xl bg-white shadow-lg hover:shadow-2xl border border-slate-100 transition-all duration-500 hover:-translate-y-2 overflow-hidden"
+              className="group relative rounded-3xl bg-white shadow-lg hover:shadow-2xl border border-slate-100 border-b-4 border-b-blue-500 transition-all duration-500 hover:-translate-y-2 overflow-hidden"
             >
               {/* Gradient overlay on hover */}
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/0 to-purple-600/0 group-hover:from-blue-600/5 group-hover:to-purple-600/5 transition-all duration-500 pointer-events-none" />

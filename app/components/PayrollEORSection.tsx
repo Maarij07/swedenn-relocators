@@ -82,29 +82,38 @@ export default function PayrollEORSection() {
     <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-28">
         <div className="text-center mb-8 sm:mb-10 lg:mb-12">
-          <h2 className="text-slate-900 font-extrabold leading-tight text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 4k:text-[4rem]">
-            {texts.mainHeading}
-          </h2>
-          <p className="mt-2 text-blue-600 font-extrabold text-[1.25rem] sm:text-[1.35rem] lg:text-[1.5rem] 4k:text-[2rem]">
-            {texts.subHeading}
-          </p>
+          <div className="max-w-5xl mx-auto bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+            <h2 className="text-slate-900 font-extrabold leading-tight text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 4k:text-[4rem]">
+              {texts.mainHeading}
+            </h2>
+            <p className="mt-2 text-blue-600 font-extrabold text-[1.25rem] sm:text-[1.35rem] lg:text-[1.5rem] 4k:text-[2rem]">
+              {texts.subHeading}
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
           {services.map((service) => (
             <div
               key={service.id}
-              className="rounded-3xl bg-white border border-slate-100 shadow-lg hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2 overflow-hidden relative group/card"
+              className="rounded-3xl bg-white border border-slate-100 border-b-4 border-b-blue-500 shadow-lg hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2 overflow-hidden relative group/card"
               style={{
+                borderBottomWidth: '4px',
+                borderBottomStyle: 'solid',
+                borderBottomColor: '#3b82f6',
                 boxShadow: '0 10px 40px -10px rgba(15, 23, 42, 0.15), 0 4px 25px -5px rgba(59, 130, 246, 0.1)',
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.boxShadow = '0 25px 60px -15px rgba(15, 23, 42, 0.25), 0 10px 40px -10px rgba(59, 130, 246, 0.2)';
                 e.currentTarget.style.borderColor = 'rgba(59, 130, 246, 0.3)';
+                e.currentTarget.style.borderBottomColor = '#3b82f6';
+                e.currentTarget.style.borderBottomWidth = '4px';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.boxShadow = '0 10px 40px -10px rgba(15, 23, 42, 0.15), 0 4px 25px -5px rgba(59, 130, 246, 0.1)';
                 e.currentTarget.style.borderColor = 'rgb(241, 245, 249)';
+                e.currentTarget.style.borderBottomColor = '#3b82f6';
+                e.currentTarget.style.borderBottomWidth = '4px';
               }}
             >
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/0 to-purple-600/0 group-hover/card:from-blue-600/5 group-hover/card:to-purple-600/5 transition-all duration-500 pointer-events-none" />

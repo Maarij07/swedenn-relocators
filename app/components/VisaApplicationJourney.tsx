@@ -208,30 +208,42 @@ export default function VisaApplicationJourney() {
       {/* EXACT same container as Hero/Services (Tailwind classes) */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         <Box sx={{ mb: { xs: 7, sm: 9, lg: 12 }, textAlign: 'center' }}>
-          <Typography
+          <Box
             sx={{
-              fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
-              fontWeight: 800,
-              color: '#0f172a',
-              lineHeight: 1.2,
-              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              maxWidth: '80rem',
+              mx: 'auto',
+              backgroundColor: '#eff6ff',
+              borderRadius: '0.5rem',
+              borderLeft: '4px solid #3b82f6',
+              px: { xs: 2, sm: 2.5 },
+              py: { xs: 1.5, sm: 2 },
             }}
           >
-            {sectionHeading}
-          </Typography>
-          <Typography
-            sx={{
-              mt: 0.75,
-              fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
-              fontWeight: 700,
-              color: '#2563eb',
-              lineHeight: 1.35,
-              textTransform: 'none',
-              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-            }}
-          >
-            {sectionSubheading}
-          </Typography>
+            <Typography
+              sx={{
+                fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
+                fontWeight: 800,
+                color: '#0f172a',
+                lineHeight: 1.2,
+                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              }}
+            >
+              {sectionHeading}
+            </Typography>
+            <Typography
+              sx={{
+                mt: 0.75,
+                fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
+                fontWeight: 700,
+                color: '#2563eb',
+                lineHeight: 1.35,
+                textTransform: 'none',
+                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              }}
+            >
+              {sectionSubheading}
+            </Typography>
+          </Box>
         </Box>
 
         {/* ---------- TIMELINE ---------- */}

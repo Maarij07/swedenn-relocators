@@ -98,12 +98,14 @@ export default function BlogsSection() {
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
         {/* Centered Heading */}
         <div className="text-center mb-12 sm:mb-14 lg:mb-16">
-          <h2 className="text-[#0f172a] font-extrabold text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] leading-[1.2] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
-            {texts.heading}
-          </h2>
-          <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif] max-w-4xl mx-auto">
-            {isSv ? 'Tips för relocation och karriär i Norden' : 'Relocation and career tips for the Nordics'}
-          </p>
+          <div className="max-w-5xl mx-auto bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+            <h2 className="text-[#0f172a] font-extrabold text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] leading-[1.2] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              {texts.heading}
+            </h2>
+            <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif] mx-auto">
+              {isSv ? 'Tips för relocation och karriär i Norden' : 'Relocation and career tips for the Nordics'}
+            </p>
+          </div>
         </div>
 
         {/* Blog Layout: Featured on Left, Cards on Right */}
@@ -112,7 +114,7 @@ export default function BlogsSection() {
           {blogs.length > 0 && (
             <div
               key={blogs[0].id}
-              className="lg:col-span-1 group rounded-3xl bg-white overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2 border border-slate-100"
+              className="lg:col-span-1 group rounded-3xl bg-white overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2 border border-slate-100 border-b-4 border-b-blue-500"
               onMouseEnter={() => setHoveredBlog(blogs[0].id)}
               onMouseLeave={() => setHoveredBlog(null)}
             >
@@ -151,7 +153,7 @@ export default function BlogsSection() {
             {blogs.slice(1).map((blog) => (
               <article
                 key={blog.id}
-                className="group flex flex-col sm:flex-row gap-5 rounded-3xl bg-white border border-slate-100 shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-500 ease-out hover:-translate-y-2"
+                className="group flex flex-col sm:flex-row gap-5 rounded-3xl bg-white border border-slate-100 border-b-4 border-b-blue-500 shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-500 ease-out hover:-translate-y-2"
                 onMouseEnter={() => setHoveredBlog(blog.id)}
                 onMouseLeave={() => setHoveredBlog(null)}
               >

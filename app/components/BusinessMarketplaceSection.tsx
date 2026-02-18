@@ -85,19 +85,21 @@ export default function BusinessMarketplaceSection() {
     <section className="bg-white">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
         <div className="text-center mb-10 sm:mb-12 lg:mb-14">
-          <h2 className="text-[#0f172a] font-extrabold leading-[1.2] text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
-            {heading}
-          </h2>
-          <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
-            {subtitle}
-          </p>
+          <div className="max-w-5xl mx-auto bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+            <h2 className="text-[#0f172a] font-extrabold leading-[1.2] text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              {heading}
+            </h2>
+            <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              {subtitle}
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 lg:gap-8">
           {businessCards.map((card) => (
             <article
               key={card.id}
-              className="group relative rounded-3xl bg-slate-50 border border-slate-100 shadow-[0_24px_80px_rgba(15,23,42,0.06)] hover:shadow-[0_30px_90px_rgba(15,23,42,0.12)] hover:-translate-y-2 transition-all duration-500 overflow-hidden"
+              className="group relative rounded-3xl bg-slate-50 border border-slate-100 border-b-4 border-b-blue-500 shadow-[0_24px_80px_rgba(15,23,42,0.06)] hover:shadow-[0_30px_90px_rgba(15,23,42,0.12)] hover:-translate-y-2 transition-all duration-500 overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/0 to-purple-600/0 group-hover:from-blue-600/5 group-hover:to-purple-600/5 transition-all duration-500 pointer-events-none" />
 

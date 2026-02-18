@@ -52,7 +52,7 @@ const FlagIcon = ({ code, sx }) => {
       style={{
         width: sx?.width || 20,
         height: sx?.height || 20,
-        borderRadius: sx?.borderRadius || '2px',
+        borderRadius: sx?.borderRadius || '50%',
         objectFit: sx?.objectFit || 'cover',
         imageRendering: 'auto',
         marginRight: sx?.mr ? `${sx.mr * 8}px` : undefined,
@@ -128,7 +128,7 @@ export default function CountrySelector() {
       <li key={key} {...otherProps}>
         <FlagIcon
           code={country.code}
-          sx={{ mr: 0.75, width: 24, height: 16, borderRadius: '2px', objectFit: 'cover' }}
+          sx={{ mr: 0.75, width: 20, height: 20, borderRadius: '50%', objectFit: 'cover' }}
         />
         {country.label}
       </li>
@@ -152,7 +152,7 @@ export default function CountrySelector() {
             <InputAdornment position="start" sx={{ mr: 0.5 }}>
               <FlagIcon
                 code={country.code}
-                sx={{ width: 28, height: 20, borderRadius: '2px', objectFit: 'cover' }}
+                sx={{ width: 20, height: 20, borderRadius: '50%', objectFit: 'cover' }}
               />
             </InputAdornment>
           ) : null,
@@ -189,12 +189,14 @@ export default function CountrySelector() {
       {/* EXACT SAME CONTAINER AS HERO SECTION */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 relative z-10">
         <div className="text-center mb-8 sm:mb-10 lg:mb-14 xl:mb-16">
-          <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] font-extrabold text-[#0f172a] leading-[1.2] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
-            {texts.title}
-          </h2>
-          <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] text-[#2563eb] font-bold leading-[1.35] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
-            {texts.subtitle}
-          </p>
+          <div className="max-w-5xl mx-auto bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+            <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] font-extrabold text-[#0f172a] leading-[1.2] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              {texts.title}
+            </h2>
+            <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] text-[#2563eb] font-bold leading-[1.35] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              {texts.subtitle}
+            </p>
+          </div>
         </div>
 
         {/* Flexbox layout - left aligned, right pushed to end */}

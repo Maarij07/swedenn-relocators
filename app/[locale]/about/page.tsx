@@ -4,6 +4,418 @@ import Navbar from '../../components/Navbar';
 import Image from 'next/image';
 import { Briefcase, User, Globe, GraduationCap, Users, TrendingUp } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useRef, useEffect, useState } from 'react';
+import { Renderer, Program, Triangle, Mesh } from 'ogl';
+
+const DEFAULT_COLOR = '#ffffff';
+
+const hexToRgb = (hex: string): number[] => {
+  const m = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return m ? [parseInt(m[1], 16) / 255, parseInt(m[2], 16) / 255, parseInt(m[3], 16) / 255] : [1, 1, 1];
+};
+
+const getAnchorAndDir = (origin: string, w: number, h: number) => {
+  const outside = 0.2;
+  switch (origin) {
+    case 'top-left':
+      return { anchor: [0, -outside * h], dir: [0, 1] };
+    case 'top-right':
+      return { anchor: [w, -outside * h], dir: [0, 1] };
+    case 'left':
+      return { anchor: [-outside * w, 0.5 * h], dir: [1, 0] };
+    case 'right':
+      return { anchor: [(1 + outside) * w, 0.5 * h], dir: [-1, 0] };
+    case 'bottom-left':
+      return { anchor: [0, (1 + outside) * h], dir: [0, -1] };
+    case 'bottom-center':
+      return { anchor: [0.5 * w, (1 + outside) * h], dir: [0, -1] };
+    case 'bottom-right':
+      return { anchor: [w, (1 + outside) * h], dir: [0, -1] };
+    default: // "top-center"
+      return { anchor: [0.5 * w, -outside * h], dir: [0, 1] };
+  }
+};
+
+interface LightRaysProps {
+  raysOrigin?: string;
+  raysColor?: string;
+  raysSpeed?: number;
+  lightSpread?: number;
+  rayLength?: number;
+  pulsating?: boolean;
+  fadeDistance?: number;
+  saturation?: number;
+  followMouse?: boolean;
+  mouseInfluence?: number;
+  noiseAmount?: number;
+  distortion?: number;
+  className?: string;
+}
+
+const LightRays: React.FC<LightRaysProps> = ({
+  raysOrigin = 'top-center',
+  raysColor = DEFAULT_COLOR,
+  raysSpeed = 1,
+  lightSpread = 1,
+  rayLength = 2,
+  pulsating = false,
+  fadeDistance = 1.0,
+  saturation = 1.0,
+  followMouse = true,
+  mouseInfluence = 0.1,
+  noiseAmount = 0.0,
+  distortion = 0.0,
+  className = ''
+}) => {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const uniformsRef = useRef<any>(null);
+  const rendererRef = useRef<any>(null);
+  const mouseRef = useRef({ x: 0.5, y: 0.5 });
+  const smoothMouseRef = useRef({ x: 0.5, y: 0.5 });
+  const animationIdRef = useRef<number | null>(null);
+  const meshRef = useRef<any>(null);
+  const cleanupFunctionRef = useRef<(() => void) | null>(null);
+  const [isVisible, setIsVisible] = useState(false);
+  const observerRef = useRef<IntersectionObserver | null>(null);
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+
+    observerRef.current = new IntersectionObserver(
+      entries => {
+        const entry = entries[0];
+        setIsVisible(entry.isIntersecting);
+      },
+      { threshold: 0.1 }
+    );
+
+    observerRef.current.observe(containerRef.current);
+
+    return () => {
+      if (observerRef.current) {
+        observerRef.current.disconnect();
+        observerRef.current = null;
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!isVisible || !containerRef.current) return;
+
+    if (cleanupFunctionRef.current) {
+      cleanupFunctionRef.current();
+      cleanupFunctionRef.current = null;
+    }
+
+    const initializeWebGL = async () => {
+      if (!containerRef.current) return;
+
+      await new Promise(resolve => setTimeout(resolve, 10));
+
+      if (!containerRef.current) return;
+
+      const renderer = new Renderer({
+        dpr: Math.min(window.devicePixelRatio, 2),
+        alpha: true
+      });
+      rendererRef.current = renderer;
+
+      const gl = renderer.gl;
+      gl.canvas.style.width = '100%';
+      gl.canvas.style.height = '100%';
+
+      while (containerRef.current.firstChild) {
+        containerRef.current.removeChild(containerRef.current.firstChild);
+      }
+      containerRef.current.appendChild(gl.canvas);
+
+      const vert = `
+attribute vec2 position;
+varying vec2 vUv;
+void main() {
+  vUv = position * 0.5 + 0.5;
+  gl_Position = vec4(position, 0.0, 1.0);
+}`;
+
+      const frag = `precision highp float;
+
+uniform float iTime;
+uniform vec2  iResolution;
+
+uniform vec2  rayPos;
+uniform vec2  rayDir;
+uniform vec3  raysColor;
+uniform float raysSpeed;
+uniform float lightSpread;
+uniform float rayLength;
+uniform float pulsating;
+uniform float fadeDistance;
+uniform float saturation;
+uniform vec2  mousePos;
+uniform float mouseInfluence;
+uniform float noiseAmount;
+uniform float distortion;
+
+varying vec2 vUv;
+
+float noise(vec2 st) {
+  return fract(sin(dot(st.xy, vec2(12.9898,78.233))) * 43758.5453123);
+}
+
+float rayStrength(vec2 raySource, vec2 rayRefDirection, vec2 coord,
+                  float seedA, float seedB, float speed) {
+  vec2 sourceToCoord = coord - raySource;
+  vec2 dirNorm = normalize(sourceToCoord);
+  float cosAngle = dot(dirNorm, rayRefDirection);
+
+  float distortedAngle = cosAngle + distortion * sin(iTime * 2.0 + length(sourceToCoord) * 0.01) * 0.2;
+  
+  float spreadFactor = pow(max(distortedAngle, 0.0), 1.0 / max(lightSpread, 0.001));
+
+  float distance = length(sourceToCoord);
+  float maxDistance = iResolution.x * rayLength;
+  float lengthFalloff = clamp((maxDistance - distance) / maxDistance, 0.0, 1.0);
+  
+  float fadeFalloff = clamp((iResolution.x * fadeDistance - distance) / (iResolution.x * fadeDistance), 0.5, 1.0);
+  float pulse = pulsating > 0.5 ? (0.8 + 0.2 * sin(iTime * speed * 3.0)) : 1.0;
+
+  float baseStrength = clamp(
+    (0.45 + 0.15 * sin(distortedAngle * seedA + iTime * speed)) +
+    (0.3 + 0.2 * cos(-distortedAngle * seedB + iTime * speed)),
+    0.0, 1.0
+  );
+
+  return baseStrength * lengthFalloff * fadeFalloff * spreadFactor * pulse;
+}
+
+void mainImage(out vec4 fragColor, in vec2 fragCoord) {
+  vec2 coord = vec2(fragCoord.x, iResolution.y - fragCoord.y);
+  
+  vec2 finalRayDir = rayDir;
+  if (mouseInfluence > 0.0) {
+    vec2 mouseScreenPos = mousePos * iResolution.xy;
+    vec2 mouseDirection = normalize(mouseScreenPos - rayPos);
+    finalRayDir = normalize(mix(rayDir, mouseDirection, mouseInfluence));
+  }
+
+  vec4 rays1 = vec4(1.0) *
+               rayStrength(rayPos, finalRayDir, coord, 36.2214, 21.11349,
+                           1.5 * raysSpeed);
+  vec4 rays2 = vec4(1.0) *
+               rayStrength(rayPos, finalRayDir, coord, 22.3991, 18.0234,
+                           1.1 * raysSpeed);
+
+  fragColor = rays1 * 0.5 + rays2 * 0.4;
+
+  if (noiseAmount > 0.0) {
+    float n = noise(coord * 0.01 + iTime * 0.1);
+    fragColor.rgb *= (1.0 - noiseAmount + noiseAmount * n);
+  }
+
+  float brightness = 1.0 - (coord.y / iResolution.y);
+  fragColor.x *= 0.1 + brightness * 0.8;
+  fragColor.y *= 0.3 + brightness * 0.6;
+  fragColor.z *= 0.5 + brightness * 0.5;
+
+  if (saturation != 1.0) {
+    float gray = dot(fragColor.rgb, vec3(0.299, 0.587, 0.114));
+    fragColor.rgb = mix(vec3(gray), fragColor.rgb, saturation);
+  }
+
+  fragColor.rgb *= raysColor;
+}
+
+void main() {
+  vec4 color;
+  mainImage(color, gl_FragCoord.xy);
+  gl_FragColor  = color;
+}`;
+
+      const uniforms = {
+        iTime: { value: 0 },
+        iResolution: { value: [1, 1] },
+
+        rayPos: { value: [0, 0] },
+        rayDir: { value: [0, 1] },
+
+        raysColor: { value: hexToRgb(raysColor) },
+        raysSpeed: { value: raysSpeed },
+        lightSpread: { value: lightSpread },
+        rayLength: { value: rayLength },
+        pulsating: { value: pulsating ? 1.0 : 0.0 },
+        fadeDistance: { value: fadeDistance },
+        saturation: { value: saturation },
+        mousePos: { value: [0.5, 0.5] },
+        mouseInfluence: { value: mouseInfluence },
+        noiseAmount: { value: noiseAmount },
+        distortion: { value: distortion }
+      };
+      uniformsRef.current = uniforms;
+
+      const geometry = new Triangle(gl);
+      const program = new Program(gl, {
+        vertex: vert,
+        fragment: frag,
+        uniforms
+      });
+      const mesh = new Mesh(gl, { geometry, program });
+      meshRef.current = mesh;
+
+      const updatePlacement = () => {
+        if (!containerRef.current || !renderer) return;
+
+        renderer.dpr = Math.min(window.devicePixelRatio, 2);
+
+        const { clientWidth: wCSS, clientHeight: hCSS } = containerRef.current;
+        renderer.setSize(wCSS, hCSS);
+
+        const dpr = renderer.dpr;
+        const w = wCSS * dpr;
+        const h = hCSS * dpr;
+
+        uniforms.iResolution.value = [w, h];
+
+        const { anchor, dir } = getAnchorAndDir(raysOrigin, w, h);
+        uniforms.rayPos.value = anchor;
+        uniforms.rayDir.value = dir;
+      };
+
+      const loop = (t: number) => {
+        if (!rendererRef.current || !uniformsRef.current || !meshRef.current) {
+          return;
+        }
+
+        uniforms.iTime.value = t * 0.001;
+
+        if (followMouse && mouseInfluence > 0.0) {
+          const smoothing = 0.92;
+
+          smoothMouseRef.current.x = smoothMouseRef.current.x * smoothing + mouseRef.current.x * (1 - smoothing);
+          smoothMouseRef.current.y = smoothMouseRef.current.y * smoothing + mouseRef.current.y * (1 - smoothing);
+
+          uniforms.mousePos.value = [smoothMouseRef.current.x, smoothMouseRef.current.y];
+        }
+
+        try {
+          renderer.render({ scene: mesh });
+          animationIdRef.current = requestAnimationFrame(loop);
+        } catch (error) {
+          console.warn('WebGL rendering error:', error);
+          return;
+        }
+      };
+
+      window.addEventListener('resize', updatePlacement);
+      updatePlacement();
+      animationIdRef.current = requestAnimationFrame(loop);
+
+      cleanupFunctionRef.current = () => {
+        if (animationIdRef.current) {
+          cancelAnimationFrame(animationIdRef.current);
+          animationIdRef.current = null;
+        }
+
+        window.removeEventListener('resize', updatePlacement);
+
+        if (renderer) {
+          try {
+            const canvas = renderer.gl.canvas;
+            const loseContextExt = renderer.gl.getExtension('WEBGL_lose_context');
+            if (loseContextExt) {
+              loseContextExt.loseContext();
+            }
+
+            if (canvas && canvas.parentNode) {
+              canvas.parentNode.removeChild(canvas);
+            }
+          } catch (error) {
+            console.warn('Error during WebGL cleanup:', error);
+          }
+        }
+
+        rendererRef.current = null;
+        uniformsRef.current = null;
+        meshRef.current = null;
+      };
+    };
+
+    initializeWebGL();
+
+    return () => {
+      if (cleanupFunctionRef.current) {
+        cleanupFunctionRef.current();
+        cleanupFunctionRef.current = null;
+      }
+    };
+  }, [
+    isVisible,
+    raysOrigin,
+    raysColor,
+    raysSpeed,
+    lightSpread,
+    rayLength,
+    pulsating,
+    fadeDistance,
+    saturation,
+    followMouse,
+    mouseInfluence,
+    noiseAmount,
+    distortion
+  ]);
+
+  useEffect(() => {
+    if (!uniformsRef.current || !containerRef.current || !rendererRef.current) return;
+
+    const u = uniformsRef.current;
+    const renderer = rendererRef.current;
+
+    u.raysColor.value = hexToRgb(raysColor);
+    u.raysSpeed.value = raysSpeed;
+    u.lightSpread.value = lightSpread;
+    u.rayLength.value = rayLength;
+    u.pulsating.value = pulsating ? 1.0 : 0.0;
+    u.fadeDistance.value = fadeDistance;
+    u.saturation.value = saturation;
+    u.mouseInfluence.value = mouseInfluence;
+    u.noiseAmount.value = noiseAmount;
+    u.distortion.value = distortion;
+
+    const { clientWidth: wCSS, clientHeight: hCSS } = containerRef.current;
+    const dpr = renderer.dpr;
+    const { anchor, dir } = getAnchorAndDir(raysOrigin, wCSS * dpr, hCSS * dpr);
+    u.rayPos.value = anchor;
+    u.rayDir.value = dir;
+  }, [
+    raysColor,
+    raysSpeed,
+    lightSpread,
+    raysOrigin,
+    rayLength,
+    pulsating,
+    fadeDistance,
+    saturation,
+    mouseInfluence,
+    noiseAmount,
+    distortion
+  ]);
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      if (!containerRef.current || !rendererRef.current) return;
+      const rect = containerRef.current.getBoundingClientRect();
+      const x = (e.clientX - rect.left) / rect.width;
+      const y = (e.clientY - rect.top) / rect.height;
+      mouseRef.current = { x, y };
+    };
+
+    if (followMouse) {
+      window.addEventListener('mousemove', handleMouseMove);
+      return () => window.removeEventListener('mousemove', handleMouseMove);
+    }
+  }, [followMouse]);
+
+  return <div ref={containerRef} className={`light-rays-container ${className}`.trim()} />;
+};
 
 const fadeInUp = `
   @keyframes fadeInUp {
@@ -18,13 +430,26 @@ const fadeInUp = `
   }
 `;
 
+const lightRaysCSS = `
+  .light-rays-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+  }
+`;
+
 export default function AboutPage() {
     return (
         <main className="min-h-screen bg-white">
             <Navbar />
 
             {/* Animations keyframes */}
-            <style>{fadeInUp}</style>
+            <style>{fadeInUp + lightRaysCSS}</style>
 
             {/* Hero Section - Card Style */}
             <section className="relative overflow-hidden border border-gray-300 rounded-lg mx-auto" style={{
@@ -546,114 +971,216 @@ export default function AboutPage() {
             <section className="pb-16 sm:pb-20 lg:pb-24 bg-white">
                 <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
                     {/* Header */}
-                    <div className="text-center max-w-4xl mx-auto mb-12 sm:mb-16">
-                        <p className="text-blue-600 font-semibold tracking-wider uppercase text-sm sm:text-base mb-3">
-                            Specializations
-                        </p>
-                        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                            What we <span className="text-blue-600">do best</span>
-                        </h2>
+                    <div className="text-center mb-12 sm:mb-16">
+                        <div className="mx-auto bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
+                            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-2">
+                                Specializations
+                            </h2>
+                            <p className="text-base sm:text-lg text-blue-600 font-semibold">
+                                What we do best
+                            </p>
+                        </div>
                     </div>
 
                     {/* Cards Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 xl:gap-4 overflow-visible">
                         {/* Student Admission Services */}
                         <motion.div
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6, delay: 0.1 }}
-                            viewport={{ once: true }}
-                            className="bg-white rounded-2xl p-8 border border-gray-100 shadow-[0_8px_30px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1 transition-all duration-300"
+                            initial={{ opacity: 1, x: 190, y: -12, rotate: -8, scale: 0.94 }}
+                            whileInView={{ opacity: 1, x: 0, y: 0, rotate: 0, scale: 1 }}
+                            transition={{ 
+                                duration: 1.2, 
+                                delay: 0.25, 
+                                ease: [0.16, 1, 0.3, 1],
+                                type: "spring",
+                                stiffness: 60,
+                                damping: 20
+                            }}
+                            viewport={{ once: true, amount: 0.2 }}
+                            className="bg-white rounded-2xl border border-gray-100 border-b-4 border-b-blue-500 min-h-[360px] lg:min-h-[390px] xl:min-h-[430px] shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
                         >
-                            <div className="flex flex-col items-center text-center">
-                                <div className="w-20 h-20 rounded-2xl bg-blue-50 flex items-center justify-center mb-5">
-                                    <Image
-                                        src="/image5.png"
-                                        alt="Student Admission Services"
-                                        width={50}
-                                        height={50}
-                                        className="object-contain"
+                            <div className="flex flex-col h-full">
+                                <div className="w-full h-40 sm:h-44 md:h-48 bg-[#FAFBFC] flex items-center justify-center rounded-t-2xl relative" style={{ boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)' }}>
+                                    <LightRays
+                                        raysOrigin="top-center"
+                                        raysColor="#3b82f6"
+                                        raysSpeed={1}
+                                        lightSpread={0.4}
+                                        rayLength={3}
+                                        followMouse={true}
+                                        mouseInfluence={0.12}
+                                        noiseAmount={0}
+                                        distortion={0}
+                                        pulsating={false}
+                                        fadeDistance={1}
+                                        saturation={1}
                                     />
+                                    <div className="flex items-center justify-center relative z-10">
+                                        <Image
+                                            src="/s4.svg"
+                                            alt="Student Admission Services"
+                                            width={140}
+                                            height={140}
+                                            className="object-contain"
+                                        />
+                                    </div>
                                 </div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-3">Student Admission Services</h3>
-                                <p className="text-gray-600 text-[15px] leading-relaxed">
+                                <div className="flex flex-col items-center text-center p-8 xl:p-5 2xl:p-6">
+                                    <h3 className="text-xl xl:text-lg 2xl:text-xl font-bold text-gray-900 mb-3 leading-tight">Student Admission Services</h3>
+                                <p className="text-gray-600 text-[15px] xl:text-[14px] 2xl:text-[15px] leading-relaxed break-words">
                                     Assistance in choosing the right degree program and residence permit processing for international students.
                                 </p>
+                            </div>
                             </div>
                         </motion.div>
 
                         {/* Work & Business */}
                         <motion.div
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6, delay: 0.2 }}
-                            viewport={{ once: true }}
-                            className="bg-white rounded-2xl p-8 border border-gray-100 shadow-[0_8px_30px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1 transition-all duration-300"
+                            initial={{ opacity: 1, x: 70, y: -28, rotate: -3, scale: 0.98 }}
+                            whileInView={{ opacity: 1, x: 0, y: 0, rotate: 0, scale: 1 }}
+                            transition={{ 
+                                duration: 1.2, 
+                                delay: 0.35, 
+                                ease: [0.16, 1, 0.3, 1],
+                                type: "spring",
+                                stiffness: 60,
+                                damping: 20
+                            }}
+                            viewport={{ once: true, amount: 0.2 }}
+                            className="bg-white rounded-2xl border border-gray-100 border-b-4 border-b-blue-500 min-h-[360px] lg:min-h-[390px] xl:min-h-[430px] shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
                         >
-                            <div className="flex flex-col items-center text-center">
-                                <div className="w-20 h-20 rounded-2xl bg-blue-50 flex items-center justify-center mb-5">
-                                    <Image
-                                        src="/image2.png"
-                                        alt="Work & Business"
-                                        width={50}
-                                        height={50}
-                                        className="object-contain"
+                            <div className="flex flex-col h-full">
+                                <div className="w-full h-40 sm:h-44 md:h-48 bg-[#FAFBFC] flex items-center justify-center rounded-t-2xl relative" style={{ boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)' }}>
+                                    <LightRays
+                                        raysOrigin="top-center"
+                                        raysColor="#3b82f6"
+                                        raysSpeed={1}
+                                        lightSpread={0.4}
+                                        rayLength={3}
+                                        followMouse={true}
+                                        mouseInfluence={0.12}
+                                        noiseAmount={0}
+                                        distortion={0}
+                                        pulsating={false}
+                                        fadeDistance={1}
+                                        saturation={1}
                                     />
+                                    <div className="flex items-center justify-center relative z-10">
+                                        <Image
+                                            src="/s3.svg"
+                                            alt="Work & Business"
+                                            width={140}
+                                            height={140}
+                                            className="object-contain"
+                                        />
+                                    </div>
                                 </div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-3">Work & Business</h3>
-                                <p className="text-gray-600 text-[15px] leading-relaxed">
+                                <div className="flex flex-col items-center text-center p-8 xl:p-5 2xl:p-6">
+                                    <h3 className="text-xl xl:text-lg 2xl:text-xl font-bold text-gray-900 mb-3 leading-tight">Work & Business</h3>
+                                <p className="text-gray-600 text-[15px] xl:text-[14px] 2xl:text-[15px] leading-relaxed break-words">
                                     Assistance in registering a business, buying a new business, and preparing work permit applications for employees and employers.
                                 </p>
+                            </div>
                             </div>
                         </motion.div>
 
                         {/* Family Relocation */}
                         <motion.div
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6, delay: 0.3 }}
-                            viewport={{ once: true }}
-                            className="bg-white rounded-2xl p-8 border border-gray-100 shadow-[0_8px_30px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1 transition-all duration-300"
+                            initial={{ opacity: 1, x: -70, y: -28, rotate: 3, scale: 0.98 }}
+                            whileInView={{ opacity: 1, x: 0, y: 0, rotate: 0, scale: 1 }}
+                            transition={{ 
+                                duration: 1.2, 
+                                delay: 0.45, 
+                                ease: [0.16, 1, 0.3, 1],
+                                type: "spring",
+                                stiffness: 60,
+                                damping: 20
+                            }}
+                            viewport={{ once: true, amount: 0.2 }}
+                            className="bg-white rounded-2xl border border-gray-100 border-b-4 border-b-blue-500 min-h-[360px] lg:min-h-[390px] xl:min-h-[430px] shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
                         >
-                            <div className="flex flex-col items-center text-center">
-                                <div className="w-20 h-20 rounded-2xl bg-blue-50 flex items-center justify-center mb-5">
-                                    <Image
-                                        src="/image1.png"
-                                        alt="Family Relocation"
-                                        width={50}
-                                        height={50}
-                                        className="object-contain"
+                            <div className="flex flex-col h-full">
+                                <div className="w-full h-40 sm:h-44 md:h-48 bg-[#FAFBFC] flex items-center justify-center rounded-t-2xl relative" style={{ boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)' }}>
+                                    <LightRays
+                                        raysOrigin="top-center"
+                                        raysColor="#3b82f6"
+                                        raysSpeed={1}
+                                        lightSpread={0.4}
+                                        rayLength={3}
+                                        followMouse={true}
+                                        mouseInfluence={0.12}
+                                        noiseAmount={0}
+                                        distortion={0}
+                                        pulsating={false}
+                                        fadeDistance={1}
+                                        saturation={1}
                                     />
+                                    <div className="flex items-center justify-center relative z-10">
+                                        <Image
+                                            src="/s6.svg"
+                                            alt="Family Relocation"
+                                            width={140}
+                                            height={140}
+                                            className="object-contain"
+                                        />
+                                    </div>
                                 </div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-3">Family Relocation</h3>
-                                <p className="text-gray-600 text-[15px] leading-relaxed">
+                                <div className="flex flex-col items-center text-center p-8 xl:p-5 2xl:p-6">
+                                    <h3 className="text-xl xl:text-lg 2xl:text-xl font-bold text-gray-900 mb-3 leading-tight">Family Relocation</h3>
+                                <p className="text-gray-600 text-[15px] xl:text-[14px] 2xl:text-[15px] leading-relaxed break-words">
                                     We provide assistance in your family visa processing including your dependent parents and other family members.
                                 </p>
+                            </div>
                             </div>
                          </motion.div>
 
                         {/* Investment Solutions */}
                         <motion.div
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6, delay: 0.4 }}
-                            viewport={{ once: true }}
-                            className="bg-white rounded-2xl p-8 border border-gray-100 shadow-[0_8px_30px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_40px_rgba(0,0,0,0.12)] hover:-translate-y-1 transition-all duration-300"
+                            initial={{ opacity: 1, x: -190, y: -12, rotate: 8, scale: 0.94 }}
+                            whileInView={{ opacity: 1, x: 0, y: 0, rotate: 0, scale: 1 }}
+                            transition={{ 
+                                duration: 1.2, 
+                                delay: 0.55, 
+                                ease: [0.16, 1, 0.3, 1],
+                                type: "spring",
+                                stiffness: 60,
+                                damping: 20
+                            }}
+                            viewport={{ once: true, amount: 0.2 }}
+                            className="bg-white rounded-2xl border border-gray-100 border-b-4 border-b-blue-500 min-h-[360px] lg:min-h-[390px] xl:min-h-[430px] shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
                         >
-                            <div className="flex flex-col items-center text-center">
-                                <div className="w-20 h-20 rounded-2xl bg-blue-50 flex items-center justify-center mb-5">
-                                    <Image
-                                        src="/image4.png"
-                                        alt="Investment Solutions"
-                                        width={50}
-                                        height={50}
-                                        className="object-contain"
+                            <div className="flex flex-col h-full">
+                                <div className="w-full h-40 sm:h-44 md:h-48 bg-[#FAFBFC] flex items-center justify-center rounded-t-2xl relative" style={{ boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)' }}>
+                                    <LightRays
+                                        raysOrigin="top-center"
+                                        raysColor="#3b82f6"
+                                        raysSpeed={1}
+                                        lightSpread={0.4}
+                                        rayLength={3}
+                                        followMouse={true}
+                                        mouseInfluence={0.12}
+                                        noiseAmount={0}
+                                        distortion={0}
+                                        pulsating={false}
+                                        fadeDistance={1}
+                                        saturation={1}
                                     />
+                                    <div className="flex items-center justify-center relative z-10">
+                                        <Image
+                                            src="/s7.svg"
+                                            alt="Investment Solutions"
+                                            width={140}
+                                            height={140}
+                                            className="object-contain"
+                                        />
+                                    </div>
                                 </div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-3">Investment Solutions</h3>
-                                <p className="text-gray-600 text-[15px] leading-relaxed">
+                                <div className="flex flex-col items-center text-center p-8 xl:p-5 2xl:p-6">
+                                    <h3 className="text-xl xl:text-lg 2xl:text-xl font-bold text-gray-900 mb-3 leading-tight">Investment Solutions</h3>
+                                <p className="text-gray-600 text-[15px] xl:text-[14px] 2xl:text-[15px] leading-relaxed break-words">
                                     There are various opportunities for business ventures, look for the best opportunity to build your future.
                                 </p>
+                            </div>
                             </div>
                         </motion.div>
                     </div>

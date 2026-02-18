@@ -49,32 +49,42 @@ export default function CitizenshipResidencySection() {
     <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-14 lg:py-16 4k:py-20">
         <Box sx={{ mb: { xs: 5, sm: 6, lg: 8 }, textAlign: 'center' }}>
-          <Typography
+          <Box
             sx={{
-              fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
-              fontWeight: 800,
-              color: '#0f172a',
-              lineHeight: 1.2,
-              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-            }}
-          >
-            {texts.heading}
-          </Typography>
-          <Typography
-            sx={{
-              mt: 0.75,
-              fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
-              fontWeight: 700,
-              color: '#2563eb',
-              lineHeight: 1.35,
-              textTransform: 'none',
-              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-              maxWidth: '900px',
+              maxWidth: '80rem',
               mx: 'auto',
+              backgroundColor: '#eff6ff',
+              borderRadius: '0.5rem',
+              borderLeft: '4px solid #3b82f6',
+              px: { xs: 2, sm: 2.5 },
+              py: { xs: 1.5, sm: 2 },
             }}
           >
-            {texts.intro}
-          </Typography>
+            <Typography
+              sx={{
+                fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
+                fontWeight: 800,
+                color: '#0f172a',
+                lineHeight: 1.2,
+                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              }}
+            >
+              {texts.heading}
+            </Typography>
+            <Typography
+              sx={{
+                mt: 0.75,
+                fontSize: { xs: '1.1rem', sm: '1.25rem', lg: '1.5rem', xl: '1.75rem' },
+                fontWeight: 700,
+                color: '#2563eb',
+                lineHeight: 1.35,
+                textTransform: 'none',
+                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+              }}
+            >
+              {texts.intro}
+            </Typography>
+          </Box>
         </Box>
 
         {/* Centered passport image above the cards */}
@@ -152,10 +162,13 @@ export default function CitizenshipResidencySection() {
               position: 'relative',
               borderRadius: '24px',
               border: '1px solid rgba(148, 163, 184, 0.2)',
+              borderBottom: '4px solid #3b82f6',
               boxShadow: '0 10px 40px -10px rgba(15, 23, 42, 0.15), 0 4px 25px -5px rgba(59, 130, 246, 0.1)',
               '&:hover': {
                 boxShadow: '0 25px 60px -15px rgba(15, 23, 42, 0.25), 0 10px 40px -10px rgba(59, 130, 246, 0.2)',
                 borderColor: 'rgba(59, 130, 246, 0.3)',
+                borderBottomColor: '#3b82f6',
+                borderBottomWidth: '4px',
               },
               '&::before': {
                 content: '""',
@@ -305,10 +318,13 @@ export default function CitizenshipResidencySection() {
               position: 'relative',
               borderRadius: '24px',
               border: '1px solid rgba(148, 163, 184, 0.2)',
+              borderBottom: '4px solid #3b82f6',
               boxShadow: '0 10px 40px -10px rgba(15, 23, 42, 0.15), 0 4px 25px -5px rgba(59, 130, 246, 0.1)',
               '&:hover': {
                 boxShadow: '0 25px 60px -15px rgba(15, 23, 42, 0.25), 0 10px 40px -10px rgba(59, 130, 246, 0.2)',
                 borderColor: 'rgba(59, 130, 246, 0.3)',
+                borderBottomColor: '#3b82f6',
+                borderBottomWidth: '4px',
               },
               '&::before': {
                 content: '""',
