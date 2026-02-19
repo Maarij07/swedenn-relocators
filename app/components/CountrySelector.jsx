@@ -4,6 +4,18 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
+import Popper from '@mui/material/Popper';
+// Custom Popper to force dropdown to always open below the field and match input width
+function DownwardPopper(props) {
+  return (
+    <Popper
+      {...props}
+      placement="bottom-start"
+      modifiers={[{ name: 'flip', enabled: false }]}
+      style={{ width: props.anchorEl ? props.anchorEl.clientWidth : undefined }}
+    />
+  );
+}
 import InputAdornment from '@mui/material/InputAdornment';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -188,28 +200,29 @@ export default function CountrySelector() {
     <section className="pt-8 sm:pt-10 lg:pt-14 xl:pt-16 pb-10 sm:pb-12 lg:pb-14 xl:pb-16 bg-white relative overflow-hidden">
       {/* EXACT SAME CONTAINER AS HERO SECTION */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 relative z-10">
-        <div className="text-center mb-8 sm:mb-10 lg:mb-14 xl:mb-16">
-          <div className="max-w-5xl mx-auto bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+        <div className="bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 lg:px-6 xl:px-8 pt-5 sm:pt-6 lg:pt-8 pb-8 sm:pb-10 lg:pb-12">
+          <div className="text-center mb-8 sm:mb-10 lg:mb-14 xl:mb-16">
+            <div className="max-w-5xl mx-auto">
             <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] font-extrabold text-[#0f172a] leading-[1.2] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
               {texts.title}
             </h2>
             <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] text-[#2563eb] font-bold leading-[1.35] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
               {texts.subtitle}
             </p>
+            </div>
           </div>
-        </div>
 
-        {/* Flexbox layout - left aligned, right pushed to end */}
-        <Box
-          sx={{
-            display: 'flex',
-            flexDirection: { xs: 'column', lg: 'row' },
-            alignItems: { xs: 'stretch', lg: 'center' },
-            justifyContent: { xs: 'center', lg: 'space-between' },
-            gap: { xs: 3, lg: 0 },
-            width: '100%',
-          }}
-        >
+          {/* Flexbox layout - left aligned, right pushed to end */}
+          <Box
+            sx={{
+              display: 'flex',
+              flexDirection: { xs: 'column', lg: 'row' },
+              alignItems: { xs: 'stretch', lg: 'center' },
+              justifyContent: { xs: 'center', lg: 'space-between' },
+              gap: { xs: 3, lg: 0 },
+              width: '100%',
+            }}
+          >
           {/* LEFT - RELOCATING FROM - KEEPS CURRENT POSITION */}
           <Box 
             sx={{ 
@@ -231,6 +244,7 @@ export default function CountrySelector() {
               autoHighlight
               renderOption={renderOption}
               renderInput={(params) => renderInput(params, fromCountry)}
+              PopperComponent={DownwardPopper}
             />
           </Box>
 
@@ -290,10 +304,12 @@ export default function CountrySelector() {
                 autoHighlight
                 renderOption={renderOption}
                 renderInput={(params) => renderInput(params, toCountry)}
+                PopperComponent={DownwardPopper}
               />
             </Box>
           </Box>
-        </Box>
+          </Box>
+        </div>
       </div>
     </section>
   );
