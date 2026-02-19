@@ -518,7 +518,7 @@ export default function Navbar() {
                 {t('navbar.links.services')}
               </a>
               <a href={`/${locale}/about`} className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
-                {t('navbar.links.aboutUs')}
+                {t('navbar.links.about')}
               </a>
               <a href={`/${locale}/housing`} className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
                 {t('navbar.links.housing')}
@@ -527,15 +527,15 @@ export default function Navbar() {
                 {t('navbar.links.assessment')}
               </a>
               <a href={`/${locale}/contact`} className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors">
-                {t('navbar.links.contactUs')}
+                {t('navbar.links.contact')}
               </a>
 
               <div className="pt-4 space-y-3 border-t border-gray-100 mt-4">
                 <button className="w-full px-4 py-3 text-base text-black bg-white border-2 border-black rounded-lg hover:bg-gray-50 transition-colors">
-                  {t('navbar.buttons.bookAppointment')}
+                  {t('navbar.links.bookAppointment')}
                 </button>
                 <button className="w-full px-4 py-3 text-base text-white bg-black rounded-lg hover:bg-gray-800 transition-colors">
-                  {t('navbar.buttons.login')}
+                  {t('navbar.links.login')}
                 </button>
               </div>
             </div>

@@ -16,9 +16,9 @@ export default function Footer() {
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         <div className="py-12 sm:py-16 lg:py-20 4k:py-28 border-t border-[#1f2933] mt-10">
           {/* Top Row - Logo, Sections, Useful Links, Legal, Contact */}
-          <div className="grid grid-cols-5 gap-8 lg:gap-12 mb-12 lg:mb-16">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 xl:gap-12 mb-12 lg:mb-16">
             {/* Column 1 - Logo & description */}
-            <div className="col-span-1">
+            <div className="col-span-2 sm:col-span-3 lg:col-span-1">
               <div className="flex items-start gap-2 mb-2 -mt-2">
                 <div className="w-9 h-9 flex items-center justify-center flex-shrink-0">
                   <Image src="/favicon.ico" alt="Sweden Relocators" width={28} height={28} />
@@ -100,9 +100,9 @@ export default function Footer() {
           <div className="border-t border-[#1f2933] my-10 lg:my-12"></div>
 
           {/* Bottom Row - Reach Us, Visit Us, Get App, Partner Network */}
-          <div className="grid grid-cols-5 gap-8 lg:gap-12 mb-12 lg:mb-16">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 xl:gap-12 mb-12 lg:mb-16">
             {/* Reach Us */}
-            <div>
+            <div className="col-span-1 sm:col-span-1 lg:col-span-1">
               <h4 className="text-xs sm:text-sm font-semibold mb-3 tracking-wide uppercase text-[#e2e8f0]">
                 {isSv ? 'KONTAKTA OSS' : 'REACH US'}
               </h4>
@@ -135,7 +135,7 @@ export default function Footer() {
             </div>
 
             {/* Visit Us */}
-            <div className="col-span-2 ml-27">
+            <div className="col-span-2 sm:col-span-3 lg:col-span-2 lg:ml-0">
               <h4 className="text-xs sm:text-sm font-semibold mb-4 tracking-wide uppercase text-[#e2e8f0]">
                 {isSv ? 'BESÖK OSS' : 'VISIT US'}
               </h4>
@@ -165,7 +165,7 @@ export default function Footer() {
             </div>
 
             {/* Get Our Free App & Partner Network */}
-            <div className="col-span-2 flex flex-col max-w-md">
+            <div className="col-span-2 sm:col-span-3 lg:col-span-2 flex flex-col max-w-md">
               {/* Top: GET OUR FREE APP heading and JOIN OUR PARTNER NETWORK button */}
               <div className="flex items-start justify-between gap-4 mb-6">
                 <h4 className="text-xs sm:text-sm font-semibold tracking-wide uppercase text-[#e2e8f0] whitespace-nowrap">
