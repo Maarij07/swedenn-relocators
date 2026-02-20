@@ -1,0 +1,175 @@
+{
+  "businessSalePurchase": {
+    "hero": {
+      "title": "Sijoita Ruotsiin – Osta, myy ja sijoita kiinteistöihin",
+      "subtitle": "Asiantunteva ohjaus yritysten hankkimiseen tai myymiseen Ruotsissa kattavalla oikeudellisella ja taloudellisella tuella"
+    },
+    "intro": {
+      "heading": "Liiketoimintasijoitusmahdollisuudet Ruotsissa",
+      "description": "Ruotsi tunnetaan yhtenä Euroopan vakaimmista, innovatiivisimmista ja yrityksille ystävällisimmistä maista. Kukoistavan talouden, vahvien oikeudellisten suojien ja yrittäjyyden kulttuurin ansiosta Ruotsi tarjoaa sijoittajille lukemattomia mahdollisuuksia ostaa, myydä ja kehittää yrityksiä.\n\nSwedenRelocatorsissa olemme luoneet erityisen liiketoiminta- ja sijoitusosion digitaalisella portaalellamme, jossa asiakkaat voivat listata liiketoimintaansa myyntiin, etsiä yrityksiä ostettavaksi tai sijoittaa kumppaneina. Toisin kuin epävirallisilla alustoilla kuten Blocket, järjestelmämme takaa, että jokainen mahdollisuus on varmistettu, turvallinen ja ammattitaitoisen huolellisuuden tukemus."
+    },
+    "whyChoose": {
+      "heading": "Miksi valita Sweden Relocators yritysten ostamiseen ja myymiseen?",
+      "reasons": [
+        {
+          "title": "Ammatilliset liiketoimintalistat",
+          "description": "Valmistelemme listauksia tarkistetulla tiedolla, mukaan lukien taloudelliset tiedot, vaatimustenmukaisuuden tarkastukset ja sijoituspotentiaali."
+        },
+        {
+          "title": "Turvallinen vaihtoehto Blocketille",
+          "description": "Toisin kuin julkiset ilmoitukset, alustamme yhdistää sinut vakaviin, päteviin ostajiin ja sijoittajiin, mikä pienentää petoksen ja väärän tiedon riskiä."
+        },
+        {
+          "title": "Kokonaisvaltainen tuki",
+          "description": "Yrityksen arvioinnista ja neuvotteluista sopimuksiin, veroohjaukseen ja omistajuuden siirtoon, tuemme sinua jokaisessa vaiheessa."
+        },
+        {
+          "title": "Sijoittajaystävällinen ympäristö",
+          "description": "Sweden Relocators takaa noudattamisen Ruotsin laeista, EU-säädöksistä ja kansainvälisten sijoittajien vaatimuksista."
+        },
+        {
+          "title": "Digitaalinen markkinapaikka",
+          "description": "Suojaamamme portaalin kautta voit tutkia mahdollisuuksia, lähettää kyselyitä ja hallita sijoituksia täysin verkossa."
+        }
+      ]
+    },
+    "businessOpportunities": {
+      "heading": "Saatavilla olevat liiketoimintamahdollisuudet",
+      "opportunities": [
+        {
+          "number": "1",
+          "title": "Osta olemassa oleva yritys Ruotsissa",
+          "description": "Ulkomaiset ja paikalliset sijoittajat voivat ostaa toimivia yrityksiä vähittäiskaupassa, sähköisessä kaupassa, ravintoloissa, kiinteistöhallinnossa, IT-palveluissa, logistiikassa ja valmistuksessa. Olemassa olevan yrityksen ostaminen tarjoaa välittömän pääsyn infrastruktuuriin, asiakkaisiin ja tuloihin."
+        },
+        {
+          "number": "2",
+          "title": "Myy yrityksesi alustamme kautta",
+          "description": "Jos olet yrityksen omistaja Ruotsissa, voit listataa yrityksesi portaalissamme saavuttaaksesi maailmanlaajuisen ostajapooliin. Autamme arvionnilla, oikeudellisilla asiakirjoilla ja markkinoinnilla varmistaaksemme, että myyntisi saavuttaa maksimaalisen arvon."
+        },
+        {
+          "number": "3",
+          "title": "Kumppanuusmallit",
+          "description": "Aktiivinen kumppani – Työskentele paikallisten yritysten omistajien rinnalla, jaa johtamisvastuu ja edistä kasvua yhdessä.\n\nHiljainen kumppani – Sijoita hiljaisena osakkaaana ja saa voittoojakoa ammattimaiset johtajat hoitavat toiminnan. Tämä on ihanteellista sijoittajille, jotka haluavat tuottoa ilman päivittäistä osallistumista."
+        },
+        {
+          "number": "4",
+          "title": "Startup-sijoitukset",
+          "description": "Startup-ekosysteemi Ruotsissa, erityisesti Tukholmassa, Göteborgissa ja Malmössä, on yksi Euroopan vahvimmista. Yhdistämme sijoittajat innovatiivisiin startup-yrityksiin fintech, uusiutuvan energian, tekoälyn ja ruoka-tekniikan alalla."
+        },
+        {
+          "number": "5",
+          "title": "Franchise ja vähittäiskaupan laajeneminen",
+          "description": "Sijoittajat voivat ostaa vakiintuneiden brändien franchise-sopimuksia tai perustaa uusia vähittäismyyntiä. Ruotsin ympäristötietoinen markkinapaikka tarjoaa vahvoja mahdollisuuksia muodissa, kauneudessa, lifestyle-tuotteissa ja kestävissä kulutustuotteissa."
+        }
+      ]
+    },
+    "realEstate": {
+      "heading": "Kiinteistö- ja omaisuussijoitukset",
+      "intro": "Liiketoiminta-akuistion lisäksi Sweden Relocators tukee myös sijoittajia kaupallisissa ja asuntojen kiinteistöissä. Palvelumme kattavat:",
+      "services": [
+        {
+          "title": "Kaupalliset kiinteistöt",
+          "description": "Toimistot, varastot ja vähittäiskauppalaitteet kaupungin pääasemilla."
+        },
+        {
+          "title": "Asuntojen kiinteistösijoitukset",
+          "description": "Asunnot ja talot kasvaksi kaupunkialueilla, kuten Tukholmassa, Malmössä ja Göteborgissa."
+        },
+        {
+          "title": "Lyhytaikaiset vuokrat",
+          "description": "Korkeatuottoisia sijoituskiinteistöjä kansainvälisille vuokralaisille ja ammattilaisille."
+        },
+        {
+          "title": "Vihreät rakennusprojektit",
+          "description": "Ympäristöystävälliset kehityshankkeet, jotka ovat linjassaan Ruotsin vahvojen kestävyystavoitteiden kanssa."
+        }
+      ]
+    },
+    "howItWorks": {
+      "heading": "Kuinka se toimii – Osta tai myy yritys Sweden Relocatorsin kanssa",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Rekisteröidy portaalissamme",
+          "description": "Luo turvallinen tili ja hanki pääsy liiketoiminta- ja kiinteistömarkkinapaikallemme."
+        },
+        {
+          "number": "2",
+          "title": "Listaa tai etsi yrityksiä",
+          "description": "Myyjät listaavat yrityksensä tarkistetuilla tiedoilla, ostajat tutkivat saatavilla olevia mahdollisuuksia."
+        },
+        {
+          "number": "3",
+          "title": "Arviointi ja huolellisuus",
+          "description": "Tiimemme tarkistaa juridisia, taloudellisia ja operatiivisia yksityiskohtia läpinäkyvyyden varmistamiseksi."
+        },
+        {
+          "number": "4",
+          "title": "Kumppanuus tai osto",
+          "description": "Sijoittajat voivat joko ostaa suoraan, tulla kumppaniksi tai sijoittaa hiljaisina kumppaneina."
+        },
+        {
+          "number": "5",
+          "title": "Omistajuuden siirto ja vaatimuksenmukaisuus",
+          "description": "Autamme sopimuksissa, veroissa, rekisteröinneissä ja sijoittajien viisumituesta tarvittaessa."
+        }
+      ]
+    },
+    "additionalOpportunities": {
+      "heading": "Lisäsijoitusmahdollisuudet",
+      "opportunities": [
+        {
+          "title": "Ravintolat ja kahvilat",
+          "description": "Hyödynnä Ruotsin vilkkasta ruokakulttuuria ostamalla vakiintuneita ravintoloita tai avaamalla uusia."
+        },
+        {
+          "title": "Kauneus ja elämäntapa-vähittäiskauppa",
+          "description": "Käynnistä kestävät kauneus- ja muotimerkit, jotka vastaavat kuluttajien kysyntää."
+        },
+        {
+          "title": "Urheilun ja kuntoilun myymälät",
+          "description": "Hyödynnä Ruotsin aktiivista elämäntapamarkkinoita vähittäismyyntipisteillä ja verkkokaupalla."
+        },
+        {
+          "title": "Sähköisen kaupan yritykset",
+          "description": "Hanki toimivia verkkokauppoja tai käynnistä uusia yrityksiä integrointien, kuten Shopifyyn ja Klarnalla."
+        },
+        {
+          "title": "Sekuntainen vähittäiskaupallisuus ja kestävä vähittäiskauppa",
+          "description": "Ruotsin vahva kiertotalous tekee konseansio- ja vintage-myymälöistä erittäin kannattavia."
+        }
+      ]
+    },
+    "whyTrustedPartner": {
+      "heading": "Miksi Sweden Relocators on luotettava kumppanimme",
+      "reasons": [
+        {
+          "title": "Kaikki yhdessä -alusta",
+          "description": "Liiketoiminnot, kiinteistöt ja kumppanuudet hallitaan kaikki yhden järjestelmän alle."
+        },
+        {
+          "title": "Maailmanlaajuinen sijoittajien verkko",
+          "description": "Saavuta kansainvälisiä ostajia ja myyjiä vakiintuneen verkkomiemme kautta."
+        },
+        {
+          "title": "Räätälöidyt neuvontapalvelut",
+          "description": "Sijoitusstrategiat, jotka ovat linjassa tavoitteidesi kanssa, olipa kyse sitten lyhyen tai pitkän aikavälin kasvusta."
+        },
+        {
+          "title": "Turvallinen ja läpinäkyvä prosessi",
+          "description": "Jokainen vaihe listauksesta omistajuuden siirtoon käsitellään ammattimaisesti."
+        },
+        {
+          "title": "Monikieliset tuki",
+          "description": "Palvelut ovat saatavilla englanniksi, ruotsiksi, urduksi, arabiksi, pandžabiksi, serbiaksi, kurdiksi, persiaksi ja muilla kielillä."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Aloita liiketoimintamatkasi Ruotsissa",
+      "description": "Sweden Relocators tarjoaa asiantuntemusta, turvallisuutta ja vahvistettuja mahdollisuuksia tehdäkseen liiketoimintasijoituksestasi menestyksen. Ostit yritystä, myyt yritystäsi tai sijoitat kiinteistöihin, olemme luotettava kumppanimme.",
+      "buttonText": "Aloita tänään",
+      "subtext": "Ota yhteyttä maksuttoman neuvonpidon saamiseksi liiketoimintasijoitustavoitteistasi."
+    }
+  }
+}

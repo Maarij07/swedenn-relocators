@@ -1,0 +1,175 @@
+{
+  "businessSalePurchase": {
+    "hero": {
+      "title": "Investera i Sverige – Köp, sälj och investera i fastigheter",
+      "subtitle": "Professionell vägledning för att förvärva eller sälja företag i Sverige med fullständig juridisk och finansiell support"
+    },
+    "intro": {
+      "heading": "Affärsinvesteringsmöjligheter i Sverige",
+      "description": "Sverige är känd som ett av Europas mest stabila, innovativa och affärsvänsliga länder. Med en välutvecklad ekonomi, starkt juridiskt skydd och en solid affärskultur erbjuder Sverige rikliga möjligheter för företagsförvärv, försäljning och tillväxt.\n\nPå Sweden Relocators har vi skapat en dedikerad sektion för företagshandel på vår digitala plattform. Här kan företagsägare notera sina företag till försäljning, investerare kan hitta företag att köpa eller intressenter kan investera som partners. Till skillnad från offentliga plattformar som Blocket säkerställer vårt system att varje möjlighet verifieras, utvärderas och granskas av experter innan presentationen."
+    },
+    "whyChoose": {
+      "heading": "Varför välja Sweden Relocators för köp och försäljning av företag i Sverige?",
+      "reasons": [
+        {
+          "title": "Expertnotering av företag",
+          "description": "Vi upprättar noteringslister med detaljerad information, finansiella data, due diligence och investeringsramverk."
+        },
+        {
+          "title": "Säker älternativ till Blocket",
+          "description": "Istället för offentlig annonsering kopplar vår plattform dig till kvalificerade och granskade investerare, vilket minskar risken för bedrägeri och oseriösa erbjudanden."
+        },
+        {
+          "title": "Fullständig assistans från början till slut",
+          "description": "Från företagsvärdering till due diligence, skatterådgivning och ägaröverföring ger vi expertassistans vid varje steg."
+        },
+        {
+          "title": "Investerarvänlig miljö",
+          "description": "Sweden Relocators säkerställer att all verksamhet följer svensk lagstiftning, EU-regler och ger flerspråkiga investerare fullt stöd."
+        },
+        {
+          "title": "Digitalt instrumentpanel",
+          "description": "Med vår säkra instrumentpanel kan du granska möjligheter, skicka intresseanmälningar och hantera investeringar från början till slut."
+        }
+      ]
+    },
+    "businessOpportunities": {
+      "heading": "Tillgängliga företagsmöjligheter",
+      "opportunities": [
+        {
+          "number": "1",
+          "title": "Köp etablerade företag i Sverige",
+          "description": "Utländska och inhemska investerare kan köpa företag inom detaljhandel, e-handel, restaurering, fastighetsförvaltning, IT-tjänster, logistik och specialiserad tillverkning. Att köpa ett etablerat företag ger omedelbar omsättning, kundkrets och pågående inkomster."
+        },
+        {
+          "number": "2",
+          "title": "Sälj ditt företag på vår plattform",
+          "description": "Om du är företagsägare i Sverige kan du notera ditt företag på vår plattform för att nå globala köpare. Vi hanterar strukturering, juridisk dokumentation och verifikation för att säkerställa att ditt företag förblir attraktivt och säkert genom hela processen."
+        },
+        {
+          "number": "3",
+          "title": "Partnermodeller",
+          "description": "Aktivt partnerskap – Arbeta med etablerade företagsägare, dela ledning, ansvar och resultat.\n\nTyst partnerskap – Tillför kapital, få periodiska utdelningar och låt expertledare driva verksamheten. Detta tilltalar investerare som önskar passiv inkomst utan daglig operativ insats."
+        },
+        {
+          "number": "4",
+          "title": "Startup och venturekapitalinvestering",
+          "description": "Sverige har ett blomstrande startup-ekosystem, särskilt i Stockholm, Göteborg och Malmö. Vi kopplar investerare till seed-stage-företag inom teknik, förnybar energi, AI och jordbruk."
+        },
+        {
+          "number": "5",
+          "title": "Kommunala kontrakt och offentliga upphandlingsmöjligheter",
+          "description": "Investerare kan lämna anbud på offentliga kontrakt eller driva företag som levererar till myndigheter. Sveriges offentliga marknad, drift av daghem, skolor och hälsotjänster erbjuder stabila, återkommande intäkter."
+        }
+      ]
+    },
+    "realEstate": {
+      "heading": "Fastighets- och ägarinvestering",
+      "intro": "Utöver företagsförvärv stöder Sweden Relocators investerare i kommersiella och bostadsfastigheter. Våra tjänster omfattar:",
+      "services": [
+        {
+          "title": "Kommersiella fastigheter",
+          "description": "Kontorsbyggnader, butikscenter och industriarealer i stora stadcentra."
+        },
+        {
+          "title": "Bostadsfastighet",
+          "description": "Lägenhetshus och bostadsbyggnation på växande marknader som Stockholm, Malmö och Göteborg."
+        },
+        {
+          "title": "Leasingmöjligheter",
+          "description": "Flerspråkigt stöd och experthjälp för långsiktig fastighetsplacering."
+        },
+        {
+          "title": "Gröna byggprojekt",
+          "description": "Sveriges starka fokus på hållbarhet gör grön nybyggnation och renoveringsprojekt till värdefulla investeringar."
+        }
+      ]
+    },
+    "howItWorks": {
+      "heading": "Hur det fungerar – köp eller sälj företag med Sweden Relocators",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Skapa säker konto",
+          "description": "Registrera dig på vår plattform och få omedelbar tillgång till våra företags- och fastighetsnoteringar."
+        },
+        {
+          "number": "2",
+          "title": "Granska eller notera ditt företag",
+          "description": "Säljare noterar sitt företag med fullständig information; köpare granskar tillgängliga möjligheter."
+        },
+        {
+          "number": "3",
+          "title": "Verifikation och due diligence",
+          "description": "Vårt team granskar dina juridiska, finansiella och operativa detaljer för att säkerställa transparens."
+        },
+        {
+          "number": "4",
+          "title": "Köp, partnerskap eller investering",
+          "description": "Investerare kan köpa direkt, gå in som aktiv partner eller investera som tyst partner."
+        },
+        {
+          "number": "5",
+          "title": "Juridisk hjälp till avslutande",
+          "description": "Vi erbjuder kontrakt, skatt, registrering och vid behov visumstöd för investeraren."
+        }
+      ]
+    },
+    "additionalOpportunities": {
+      "heading": "Ytterligare investeringsmöjligheter",
+      "opportunities": [
+        {
+          "title": "Restauranger och kaféer",
+          "description": "Utnyttja Sveriges levande gastronomi genom att köpa befintliga restauranger eller starta nya."
+        },
+        {
+          "title": "Skönhets- och livsstilsdetaljhandel",
+          "description": "Lansera hållbara skönhets- och modemärken som motsvarar konsumenternas önskemål."
+        },
+        {
+          "title": "Fitness och wellness-detaljhandel",
+          "description": "Kapitalisera på Sveriges aktiva livsstil genom att öppna fitness- och wellnessanläggningar."
+        },
+        {
+          "title": "E-handelsföretag",
+          "description": "Köp och driva befintliga webbutiker eller starta nya med integrationer som Shopify och Klarna."
+        },
+        {
+          "title": "Begagnad och vintage-detaljhandel",
+          "description": "Sveriges starka cirkulära ekonomi gör försäljning av begagnade och vintage-varor mycket lönsam."
+        }
+      ]
+    },
+    "whyTrustedPartner": {
+      "heading": "Varför Sweden Relocators är en pålitlig partner",
+      "reasons": [
+        {
+          "title": "Allt-i-ett-plattform",
+          "description": "Företag, fastigheter och partnerskap hanteras under ett system."
+        },
+        {
+          "title": "Globalt investerarnätverk",
+          "description": "Få tillgång till internationella köpare och säljare genom vårt etablerade nätverk."
+        },
+        {
+          "title": "Personaliserad rådgivning",
+          "description": "Investerarutformningen anpassas till dina mål, oavsett om det är kortsiktig avkastning eller långsiktig tillväxt."
+        },
+        {
+          "title": "Säker och transparent process",
+          "description": "Från notering till ägaröverföring hanteras varje steg professionellt och konfidentiellt."
+        },
+        {
+          "title": "Flerspråkigt stöd",
+          "description": "Tjänster är tillgängliga på engelska, svenska, urdu, arabiska, punjabi, serbiska, kurdiska, farsi och andra språk."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Starta din affärsresa i Sverige idag",
+      "description": "Sweden Relocators ger dig expertkunskap, säkerhet och validerade möjligheter för att göra din affärsinvestering framgångsrik. Oavsett om du köper ett företag, säljer ditt eget företag eller investerar i fastigheter är vi din pålitliga partner.",
+      "buttonText": "Komma igång idag",
+      "subtext": "Kontakta oss för en gratis konsultation om dina målsättningar för affärsinvestering."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+<svg width="265" height="265" viewBox="0 0 265 265" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="265" height="265" fill="#F0F7FF" rx="20"/>
+  
+  <!-- Building/Business structure -->
+  <g transform="translate(60, 50)">
+    <!-- Main building -->
+    <rect x="20" y="40" width="90" height="110" fill="#247FE1" rx="4"/>
+    
+    <!-- Windows -->
+    <rect x="30" y="55" width="15" height="15" fill="#DEEEFF"/>
+    <rect x="55" y="55" width="15" height="15" fill="#DEEEFF"/>
+    <rect x="80" y="55" width="15" height="15" fill="#DEEEFF"/>
+    
+    <rect x="30" y="80" width="15" height="15" fill="#DEEEFF"/>
+    <rect x="55" y="80" width="15" height="15" fill="#DEEEFF"/>
+    <rect x="80" y="80" width="15" height="15" fill="#DEEEFF"/>
+    
+    <rect x="30" y="105" width="15" height="15" fill="#DEEEFF"/>
+    <rect x="55" y="105" width="15" height="15" fill="#DEEEFF"/>
+    <rect x="80" y="105" width="15" height="15" fill="#DEEEFF"/>
+    
+    <!-- Door -->
+    <rect x="55" y="130" width="15" height="20" fill="#1D2F43"/>
+    
+    <!-- Roof -->
+    <polygon points="20,40 65,10 110,40" fill="#032B5F"/>
+    
+    <!-- Growth arrow -->
+    <g transform="translate(110, 20)">
+      <path d="M 0 30 L 0 5 M 0 5 L -8 13 M 0 5 L 8 13" stroke="#6FAAEA" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    
+    <!-- Coins/Money symbol -->
+    <g transform="translate(15, 80)">
+      <circle cx="0" cy="0" r="6" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+      <circle cx="12" cy="8" r="6" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

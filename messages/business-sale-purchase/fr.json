@@ -1,0 +1,175 @@
+{
+  "businessSalePurchase": {
+    "hero": {
+      "title": "Investir en Suède – Acheter, vendre et investir dans l'immobilier",
+      "subtitle": "Conseils d'experts pour acquérir ou vendre des entreprises en Suède avec un soutien juridique et financier complet"
+    },
+    "intro": {
+      "heading": "Opportunités d'investissement en affaires en Suède",
+      "description": "La Suède est reconnue comme l'un des pays les plus stables, innovants et favorables aux entreprises d'Europe. Avec une économie florissante, des protections juridiques fortes et une culture d'entrepreneuriat, la Suède offre aux investisseurs des opportunités innombrables d'acheter, vendre et développer des entreprises.\n\nChes Sweden Relocators, nous avons créé une section dédiée aux affaires et aux investissements sur notre portail numérique où les clients peuvent lister leurs entreprises à la vente, trouver des entreprises à acheter ou investir en tant qu'associés. Contrairement aux plateformes informelles comme Blocket, notre système garantit que chaque opportunité est vérifiée, sécurisée et appuyée par une diligence raisonnable professionnelle.\n\nQue vous soyez un entrepreneur cherchant à recommencer en Suède, un investisseur mondial explorant l'acquisition de biens immobiliers et de sociétés, ou un propriétaire d'entreprise local prêt à vendre, notre plateforme offre un service de bout en bout conçu pour rendre l'investissement transparent et rentable."
+    },
+    "whyChoose": {
+      "heading": "Pourquoi choisir Sweden Relocators pour acheter et vendre des entreprises?",
+      "reasons": [
+        {
+          "title": "Annonces d'affaires professionnelles",
+          "description": "Nous préparons des annonces avec des informations vérifiées, y compris les données financières, les vérifications de conformité et le potentiel d'investissement."
+        },
+        {
+          "title": "Alternative sûre à Blocket",
+          "description": "Contrairement aux petites annonces publiques, notre plateforme vous met en contact avec des acheteurs et des investisseurs sérieux et qualifiés, réduisant les risques de fraude ou de désinformation."
+        },
+        {
+          "title": "Assistance complète",
+          "description": "De l'évaluation de l'entreprise et de la négociation aux contrats, aux conseils fiscaux et au transfert de propriété, nous vous soutenons à chaque étape."
+        },
+        {
+          "title": "Environnement favorable aux investisseurs",
+          "description": "Sweden Relocators garantit la conformité aux lois suédoises, à la réglementation de l'UE et aux exigences des investisseurs internationaux."
+        },
+        {
+          "title": "Marché numérique",
+          "description": "Grâce à notre portail sécurisé, vous pouvez explorer les opportunités, soumettre des demandes et gérer les investissements entièrement en ligne."
+        }
+      ]
+    },
+    "businessOpportunities": {
+      "heading": "Opportunités commerciales disponibles",
+      "opportunities": [
+        {
+          "number": "1",
+          "title": "Acheter une entreprise existante en Suède",
+          "description": "Les investisseurs étrangers et locaux peuvent acheter des entreprises fonctionnelles dans la vente au détail, le commerce électronique, les restaurants, la gestion immobilière, les services informatiques, la logistique et la fabrication. L'achat d'une entreprise existante offre un accès immédiat à l'infrastructure, aux clients et aux revenus."
+        },
+        {
+          "number": "2",
+          "title": "Vendre votre entreprise via notre plateforme",
+          "description": "Si vous êtes propriétaire d'une entreprise en Suède, vous pouvez lister votre entreprise sur notre portail pour atteindre un bassin mondial d'acheteurs potentiels. Nous vous aidons avec les évaluations, la documentation juridique et le marketing pour assurer que votre vente atteint la valeur maximale."
+        },
+        {
+          "number": "3",
+          "title": "Modèles de partenariat",
+          "description": "Associé actif – Travaillez aux côtés des propriétaires d'entreprises locaux, partagez les responsabilités de gestion et stimulez la croissance ensemble.\n\nAssocié silencieux – Investissez en tant qu'associé silencieux et recevez un partage des bénéfices tandis que les gestionnaires professionnels gèrent les opérations. C'est idéal pour les investisseurs qui préfèrent les rendements sans implication quotidienne."
+        },
+        {
+          "number": "4",
+          "title": "Investissements dans les startups",
+          "description": "La scène des startups suédoises, en particulier à Stockholm, Göteborg et Malmö, est l'une des plus fortes d'Europe. Nous relions les investisseurs aux startups innovantes dans la fintech, l'énergie verte, l'IA et la technologie alimentaire."
+        },
+        {
+          "number": "5",
+          "title": "Franchise et expansion du commerce de détail",
+          "description": "Les investisseurs peuvent acheter des franchises de marques établies ou créer de nouvelles entreprises de vente au détail. Le marché écologique de la Suède offre de fortes opportunités dans la mode, la beauté, le style de vie et les produits de consommation durables."
+        }
+      ]
+    },
+    "realEstate": {
+      "heading": "Investissements immobiliers et immobiliers",
+      "intro": "En plus des acquisitions d'entreprises, Sweden Relocators soutient également les investisseurs dans les biens immobiliers commerciaux et résidentiels. Nos services couvrent:",
+      "services": [
+        {
+          "title": "Propriétés commerciales",
+          "description": "Bureaux, entrepôts et locaux commerciaux dans les emplacements privilégiés des villes."
+        },
+        {
+          "title": "Investissements immobiliers résidentiels",
+          "description": "Appartements et maisons dans les zones urbaines en croissance comme Stockholm, Malmö et Göteborg."
+        },
+        {
+          "title": "Locations à court terme",
+          "description": "Propriétés locatives à haut rendement pour les locataires internationaux et les professionnels."
+        },
+        {
+          "title": "Projets de construction écologique",
+          "description": "Développements écologiques alignés sur les objectifs de durabilité forts de la Suède."
+        }
+      ]
+    },
+    "howItWorks": {
+      "heading": "Comment ça marche – Acheter ou vendre une entreprise avec Sweden Relocators",
+      "steps": [
+        {
+          "number": "1",
+          "title": "S'inscrire sur notre portail",
+          "description": "Créez un compte sécurisé et accédez à notre marché des affaires et des biens immobiliers."
+        },
+        {
+          "number": "2",
+          "title": "Lister ou rechercher des entreprises",
+          "description": "Les vendeurs listént leurs entreprises avec des détails vérifiés, les acheteurs explorent les opportunités disponibles."
+        },
+        {
+          "number": "3",
+          "title": "Évaluation et diligence raisonnable",
+          "description": "Notre équipe examine les détails juridiques, financiers et opérationnels pour assurer la transparence."
+        },
+        {
+          "number": "4",
+          "title": "Partenariat ou achat",
+          "description": "Les investisseurs peuvent soit acheter directement, entrer en tant qu'associés, ou investir en tant qu'associés silencieux."
+        },
+        {
+          "number": "5",
+          "title": "Transfert de propriété et conformité",
+          "description": "Nous vous aidons avec les contrats, la fiscalité, l'enregistrement et le soutien des visas d'investisseur si nécessaire."
+        }
+      ]
+    },
+    "additionalOpportunities": {
+      "heading": "Opportunités d'investissement supplémentaires",
+      "opportunities": [
+        {
+          "title": "Restaurants et cafés",
+          "description": "Profitez de la culture culinaire vibrante de la Suède en acquérant des restaurants établis ou en ouvrant de nouveaux locaux."
+        },
+        {
+          "title": "Commerce de détail de beauté et de style de vie",
+          "description": "Lancez des marques de beauté et de mode durables qui correspondent à la demande des consommateurs."
+        },
+        {
+          "title": "Magasins de sport et de remise en forme",
+          "description": "Profitez du marché du style de vie actif suédois avec des points de vente au détail et des magasins en ligne."
+        },
+        {
+          "title": "Entreprises de commerce électronique",
+          "description": "Acquérez des boutiques en ligne fonctionnelles ou lancez de nouvelles entreprises avec des intégrations comme Shopify et Klarna."
+        },
+        {
+          "title": "Commerce de seconde main et de détail durable",
+          "description": "L'économie circulaire forte de la Suède rend les magasins de consignation et de vintage hautement rentables."
+        }
+      ]
+    },
+    "whyTrustedPartner": {
+      "heading": "Pourquoi Sweden Relocators est votre partenaire de confiance",
+      "reasons": [
+        {
+          "title": "Plateforme tout-en-un",
+          "description": "Les affaires, les biens immobiliers et les partenariats sont tous gérés dans un seul système."
+        },
+        {
+          "title": "Réseau mondial d'investisseurs",
+          "description": "Atteindre les acheteurs et vendeurs internationaux via notre réseau établi."
+        },
+        {
+          "title": "Services de conseil personnalisés",
+          "description": "Stratégies d'investissement alignées sur vos objectifs, qu'il s'agisse de rendements à court terme ou de croissance à long terme."
+        },
+        {
+          "title": "Processus sûr et transparent",
+          "description": "Chaque étape, de l'inscription au transfert de propriété, est gérée professionnellement."
+        },
+        {
+          "title": "Support multilingue",
+          "description": "Les services sont disponibles en anglais, suédois, ourdou, arabe, pendjabi, serbe, kurde, persan et plus."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Commencez votre parcours commercial en Suède",
+      "description": "Sweden Relocators fournit l'expertise, la sécurité et les opportunités vérifiées pour réussir votre investissement commercial. Que vous achetiez une entreprise, vendiez votre entreprise ou investissiez dans l'immobilier, nous sommes votre partenaire de confiance.",
+      "buttonText": "Commencez aujourd'hui",
+      "subtext": "Contactez-nous pour une consultation gratuite sur vos objectifs d'investissement commercial."
+    }
+  }
+}

@@ -40,6 +40,8 @@ const serviceRoutes: Record<string, string> = {
   'Lawyers Assistance': '/services/lawyers',
   'Manpower Solutions': '/services/manpower-solutions',
   'Logistics Management': '/services/logistics-services',
+  'Pet Relocation': '/services/pet-relocation',
+  'Invest in Sweden - Business Sale Purchase': '/services/business-sale-purchase',
 };
 
 export default function ServicesPage() {
