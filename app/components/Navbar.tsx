@@ -205,13 +205,15 @@ export default function Navbar() {
                   animation: slideDown 0.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
                 }
                 .dropdown-menu--services {
-                  /* Narrower on laptops so all 4 columns stay fully visible */
-                  width: min(100vw - 40px, 820px);
+                  /* Narrower on laptops so all 5 columns stay fully visible */
+                  width: min(100vw - 40px, 1050px);
+                  left: calc(50% + 15vw) !important;
                 }
                 @media (min-width: 1280px) {
                   .dropdown-menu--services {
-                    width: 90vw;
-                    max-width: 1000px;
+                    width: 95vw;
+                    max-width: 1200px;
+                    left: calc(50% + 15vw) !important;
                   }
                 }
               `}</style>
@@ -254,95 +256,122 @@ export default function Navbar() {
                   <div
                     className="dropdown-menu dropdown-menu--services absolute left-1/2 -translate-x-1/2 mt-2 bg-white rounded-xl shadow-2xl border border-gray-100 py-8 sm:py-10 px-3 sm:px-6 xl:px-12 z-50"
                   >
-                    <div className="grid grid-cols-4 gap-8 xl:gap-12">
-                      {/* IMMIGRATION Column */}
+                    <div className="grid grid-cols-5 gap-8 xl:gap-12">
+                      {/* Column 1: Immigration */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.immigration')}</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">Immigration</h3>
                         <div className="space-y-4">
-                          <a href={`/${locale}/services/asylum`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.asylum')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.asylumDesc')}</div>
+                          <a href={`/${locale}/services/appeal-cases`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Appeal Cases</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Structured appeal strategies and documentation review for refusals.</div>
                           </a>
-                          <a href={`/${locale}/services/relocate-to-sweden`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.relocateToSweden')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.relocateToSwedenDesc')}</div>
-                          </a>
-                          <a href={`/${locale}/services/relocate-to-denmark`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.relocateToDenmark')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.relocateToDenmarkDesc')}</div>
-                          </a>
-                          <a href={`/${locale}/services/work-permit`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.workPermit')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.workPermitDesc')}</div>
+                          <a href={`/${locale}/services/family-reunification`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Family Reunification</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Support for reuniting with family under national and EU laws.</div>
                           </a>
                           <a href={`/${locale}/services/study-in-eu`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.studyInEu')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.studyInEuDesc')}</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Study in Sweden</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Application preparation and support for Swedish universities and colleges.</div>
                           </a>
-                          <a href={`/${locale}/services/global-visit-visas`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.globalVisitVisas')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.globalVisitVisasDesc')}</div>
-                          </a>
-                          <a href={`/${locale}/services/appeal-cases`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.appealCases')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.appealCasesDesc')}</div>
+                          <a href={`/${locale}/services/work-permit`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Work Permit Sweden</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">End-to-end assistance for Swedish work permits and employer documentation.</div>
                           </a>
                         </div>
                       </div>
 
-                      {/* BUSINESS Column */}
+                      {/* Column 2: Relocation & Lifestyle */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.business')}</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">Relocation & Lifestyle</h3>
                         <div className="space-y-4">
-                          <a href={`/${locale}/services/business-permit`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.businessPermit')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.businessPermitDesc')}</div>
+                          <a href={`/${locale}/services/au-pair-host-family`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">AU Pair and Host Family Solutions</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Holistic solutions for au pairs, host families and supportive placements.</div>
                           </a>
-                          <a href={`/${locale}/services/business-visit`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.businessVisit')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.businessVisitDesc')}</div>
+                          <a href={`/${locale}/services/destination-services`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Destination Services</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Orientation, local registrations and settling-in support on arrival.</div>
                           </a>
-                          <a href={`/${locale}/services/logistics-services`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.logisticsServices')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.logisticsServicesDesc')}</div>
+                          <a href={`/${locale}/services/housing`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Housing Solutions</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Short- and long-term housing search with landlord coordination.</div>
                           </a>
-                          <a href={`/${locale}/services/company-registration`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.companyRegistration')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.companyRegistrationDesc')}</div>
+                          <a href={`/${locale}/services/pet-relocation`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Pet Relocation</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Safe and compliant relocation of pets with full documentation support.</div>
+                          </a>
+                        </div>
+                      </div>
+
+                      {/* Column 3: Business & Finance */}
+                      <div>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">Business & Finance</h3>
+                        <div className="space-y-4">
+                          <a href={`/${locale}/services/bookkeeping-solutions`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Bookkeeping Solutions</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Accounting and bookkeeping services for individuals and companies.</div>
+                          </a>
+                          <a href={`/${locale}/services/business-sale-purchase`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Invest in Sweden - Business Sale Purchase</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Expert guidance for acquiring or selling businesses in Sweden.</div>
                           </a>
                           <a href={`/${locale}/services/eor-payroll`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.eorPayroll')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.eorPayrollDesc')}</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EOR & Payroll</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Employer of record and compliant payroll for your Swedish workforce.</div>
+                          </a>
+                          <a href={`/${locale}/services/financial-management`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Financial Management</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">End-to-end financial oversight and reporting for your operations.</div>
                           </a>
                         </div>
                       </div>
 
-                      {/* FAMILY Column */}
+                      {/* Column 4: EU & Citizenship */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.family')}</h3>
-                        <div className="space-y-4">
-                          <a href={`/${locale}/services/family-reunification`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.familyReunification')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.familyReunificationDesc')}</div>
-                          </a>
-                          <a href={`/${locale}/services/eu-citizens-parents-permit`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.euCitizensParentsPermit')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.euCitizensParentsPermitDesc')}</div>
-                          </a>
-                        </div>
-                      </div>
-
-                      {/* CITIZENSHIP Column */}
-                      <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.citizenship')}</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">EU & Citizenship</h3>
                         <div className="space-y-4">
                           <a href={`/${locale}/services/citizenship`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.citizenshipLabel')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.citizenshipDesc')}</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Swedish Citizenship</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Eligibility review and application support for becoming a Swedish citizen.</div>
+                          </a>
+                          <a href={`/${locale}/services/eu-citizens-parents-permit`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens Parents Permit</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Support for EU citizens bringing dependent parents to Sweden.</div>
                           </a>
                           <a href={`/${locale}/services/eu-citizens-relocation`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.euCitizensRelocation')}</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.euCitizensRelocationDesc')}</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens Relocation</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Relocation support for EU citizens and their families.</div>
+                          </a>
+                          <a href={`/${locale}/services/self-employed`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Self-Employed in Sweden</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Help to establish and manage your self-employed status in Sweden.</div>
+                          </a>
+                        </div>
+                      </div>
+
+                      {/* Column 5: Support Services */}
+                      <div>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">Support Services</h3>
+                        <div className="space-y-4">
+                          <a href={`/${locale}/services/buy-sell-property`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Buy / Sell Property</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Guidance across the full property purchase or sale lifecycle.</div>
+                          </a>
+                          <a href={`/${locale}/services/cbs-bb-programme`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">CBS/BB Programme</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Specialised programmes for business, investment and relocation planning.</div>
+                          </a>
+                          <a href={`/${locale}/services/lawyers`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Lawyers Assistance</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Access to legal expertise for complex relocation and immigration matters.</div>
+                          </a>
+                          <a href={`/${locale}/services/logistics-services`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Logistics Management</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Coordinated logistics for your move, shipments and relocations.</div>
+                          </a>
+                          <a href={`/${locale}/services/manpower-solutions`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Manpower Solutions</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Recruitment and staffing solutions tailored to Nordic markets.</div>
                           </a>
                         </div>
                       </div>
@@ -465,8 +494,8 @@ export default function Navbar() {
                           <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.workPermitDesc')}</div>
                         </a>
                         <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.assessment.longTermEU')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.longTermEUDesc')}</div>
+                          <div className="font-semibold">{t('navbar.dropdowns.assessment.longtermEuResidence')}</div>
+                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.longtermEuResidenceDesc')}</div>
                         </a>
                       </div>
                     </div>

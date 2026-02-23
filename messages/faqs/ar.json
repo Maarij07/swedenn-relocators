@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "الأسئلة الشائعة",
+      "description": "ابحث عن إجابات على الأسئلة الشائعة حول الانتقال والتأشيرات وخدماتنا."
+    },
+    "sectionHeading": {
+      "badge": "إرشادات واضحة، الدعم المناسب، طريقك للأمام",
+      "titlePart1": "أسئلتك",
+      "titlePart2": "الإجابة عليها"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "الحساب والملف الشخصي"
+      },
+      {
+        "title": "قسم الإدارة"
+      },
+      {
+        "title": "قسم الهجرة"
+      },
+      {
+        "title": "قسم الانتقال"
+      },
+      {
+        "title": "خدمات التأشيرات العالمية"
+      },
+      {
+        "title": "خدمات إضافية"
+      }
+    ],
+    "contactForm": {
+      "heading": "لم تجد المساعدة المناسبة؟",
+      "nameLabel": "الاسم",
+      "namePlaceholder": "الاسم",
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "البريد الإلكتروني",
+      "subjectLabel": "الموضوع",
+      "subjectPlaceholder": "الموضوع",
+      "messageLabel": "الرسالة",
+      "messagePlaceholder": "أدخل رسالتك هنا.",
+      "submitButton": "إرسال"
+    },
+    "noFaqs": "لا توجد أسئلة شائعة متاحة في الوقت الحالي."
+  }
+}

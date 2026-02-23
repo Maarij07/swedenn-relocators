@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Finden Sie Antworten auf häufig gestellte Fragen zu Umzug, Visa und unseren Dienstleistungen."
+    },
+    "sectionHeading": {
+      "badge": "Klare Anleitung, richtige Unterstützung, dein Weg nach vorne",
+      "titlePart1": "Deine Fragen",
+      "titlePart2": "Beantwortet"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "Konto und Profil"
+      },
+      {
+        "title": "Verwaltungsbereich"
+      },
+      {
+        "title": "Einwanderungsbereich"
+      },
+      {
+        "title": "Umzugsbereich"
+      },
+      {
+        "title": "Globale Visadienste"
+      },
+      {
+        "title": "Zusätzliche Dienstleistungen"
+      }
+    ],
+    "contactForm": {
+      "heading": "Haben Sie nicht die richtige Hilfe gefunden?",
+      "nameLabel": "Name",
+      "namePlaceholder": "Name",
+      "emailLabel": "E-Mail",
+      "emailPlaceholder": "E-Mail",
+      "subjectLabel": "Betreff",
+      "subjectPlaceholder": "Betreff",
+      "messageLabel": "Nachricht",
+      "messagePlaceholder": "Geben Sie Ihre Nachricht hier ein.",
+      "submitButton": "Absenden"
+    },
+    "noFaqs": "Derzeit sind keine häufig gestellten Fragen verfügbar."
+  }
+}

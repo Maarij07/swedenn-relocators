@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "Ofte stilte spørsmål",
+      "description": "Finn svar på vanlige spørsmål om flytting, visum og våre tjenester."
+    },
+    "sectionHeading": {
+      "badge": "Klar veiledning, riktig støtte, din vei fremover",
+      "titlePart1": "Dine spørsmål",
+      "titlePart2": "Besvart"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "Konto og profil"
+      },
+      {
+        "title": "Administrasjonsseksjon"
+      },
+      {
+        "title": "Immigrasjonsseksjon"
+      },
+      {
+        "title": "Flyttingsseksjon"
+      },
+      {
+        "title": "Globale visumtjenester"
+      },
+      {
+        "title": "Tilleggstjenester"
+      }
+    ],
+    "contactForm": {
+      "heading": "Fant du ikke riktig hjelp?",
+      "nameLabel": "Navn",
+      "namePlaceholder": "Navn",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "E-post",
+      "subjectLabel": "Emne",
+      "subjectPlaceholder": "Emne",
+      "messageLabel": "Melding",
+      "messagePlaceholder": "Skriv meldingen din her.",
+      "submitButton": "Send"
+    },
+    "noFaqs": "Ingen ofte stilte spørsmål tilgjengelig for øyeblikket."
+  }
+}

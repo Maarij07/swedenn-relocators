@@ -67,8 +67,8 @@ export default function Footer() {
                 {isSv ? 'NYTTIGA LÄNKAR' : 'USEFUL LINKS'}
               </h4>
               <ul className="space-y-1.5 text-[11px] sm:text-[12px] text-[#cbd5e1]">
-                <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Vanliga frågor' : 'FAQs'}</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Karriär' : 'Careers'}</a></li>
+                <li><a href={`/${locale}/faqs`} className="hover:text-white transition-colors">{isSv ? 'Vanliga frågor' : 'FAQs'}</a></li>
+                <li><a href={`/${locale}/career`} className="hover:text-white transition-colors">{isSv ? 'Karriär' : 'Careers'}</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Omdömen' : 'Testimonials'}</a></li>
               </ul>
             </div>

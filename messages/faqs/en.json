@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to common questions about relocation, visas, and our services."
+    },
+    "sectionHeading": {
+      "badge": "Clear Guidance, Right Support, Your Path Forward",
+      "titlePart1": "Your Questions",
+      "titlePart2": "Answered"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "Account & Profile"
+      },
+      {
+        "title": "Management Section"
+      },
+      {
+        "title": "Immigration Section"
+      },
+      {
+        "title": "Relocation Section"
+      },
+      {
+        "title": "Global Visa Services"
+      },
+      {
+        "title": "Additional Services"
+      }
+    ],
+    "contactForm": {
+      "heading": "Haven't found the right help?",
+      "nameLabel": "Name",
+      "namePlaceholder": "Name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Email",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Subject",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Enter your message here.",
+      "submitButton": "Submit"
+    },
+    "noFaqs": "No FAQs available at the moment."
+  }
+}

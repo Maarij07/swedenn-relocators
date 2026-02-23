@@ -4,6 +4,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomeShellExtras from './HomeShellExtras';
+import TrackingSnippets from './components/TrackingSnippets';
 import theme from './theme';
 import './globals.css';
 import ClientI18nProvider from './ClientI18nProvider';
@@ -26,6 +27,7 @@ export default function RootLayout({
           <ThemeProvider theme={theme}>
             <CssBaseline />
             <ClientI18nProvider>
+              <TrackingSnippets />
               <Navbar />
               {children}
               <HomeShellExtras />

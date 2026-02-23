@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "Veelgestelde vragen",
+      "description": "Vind antwoorden op veelgestelde vragen over verhuizing, visa's en onze diensten."
+    },
+    "sectionHeading": {
+      "badge": "Duidelijke begeleiding, juiste ondersteuning, jouw weg vooruit",
+      "titlePart1": "Jouw vragen",
+      "titlePart2": "Beantwoord"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "Account en profiel"
+      },
+      {
+        "title": "Beheersectie"
+      },
+      {
+        "title": "Immigratiesectie"
+      },
+      {
+        "title": "Verhuizingssectie"
+      },
+      {
+        "title": "Wereldwijde visadiensten"
+      },
+      {
+        "title": "Aanvullende diensten"
+      }
+    ],
+    "contactForm": {
+      "heading": "Heb je niet de juiste hulp gevonden?",
+      "nameLabel": "Naam",
+      "namePlaceholder": "Naam",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "E-mail",
+      "subjectLabel": "Onderwerp",
+      "subjectPlaceholder": "Onderwerp",
+      "messageLabel": "Bericht",
+      "messagePlaceholder": "Voer uw bericht hier in.",
+      "submitButton": "Verzenden"
+    },
+    "noFaqs": "Momenteel zijn er geen veelgestelde vragen beschikbaar."
+  }
+}

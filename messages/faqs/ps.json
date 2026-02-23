@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "مکررا پوښتل شوي پوښتنې",
+      "description": "د کډوالۍ، ویزې او زموږ خدمتونو په اړه عام پوښتنو ته ځوابونه ومومئ."
+    },
+    "sectionHeading": {
+      "badge": "روښانه لارښوونه، صحیح ملاتړ، ستاسو لار مخکې",
+      "titlePart1": "ستاسو پوښتنې",
+      "titlePart2": "ځوابول شوې"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "حساب او پروفائل"
+      },
+      {
+        "title": "مدیریت برخه"
+      },
+      {
+        "title": "مهاجرت برخه"
+      },
+      {
+        "title": "کډوالۍ برخه"
+      },
+      {
+        "title": "نړیوال ویزا خدمتونه"
+      },
+      {
+        "title": "اضافي خدمتونه"
+      }
+    ],
+    "contactForm": {
+      "heading": "آیا تاسو صحیح مرسته ونه موندلې؟",
+      "nameLabel": "نوم",
+      "namePlaceholder": "نوم",
+      "emailLabel": "ای میل",
+      "emailPlaceholder": "ای میل",
+      "subjectLabel": "موضوع",
+      "subjectPlaceholder": "موضوع",
+      "messageLabel": "پیغام",
+      "messagePlaceholder": "خپل پیغام دلته داخل کړئ.",
+      "submitButton": "واستول"
+    },
+    "noFaqs": "په حال کې کوم مکررا پوښتل شوي پوښتنې دستیاب نه دي."
+  }
+}

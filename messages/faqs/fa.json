@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "سوالات متداول",
+      "description": "پاسخ های سوالات متداول در مورد انتقال، ویزا و خدمات ما را بیابید."
+    },
+    "sectionHeading": {
+      "badge": "راهنمایی واضح، پشتیبانی مناسب، راه شما به جلو",
+      "titlePart1": "سوالات شما",
+      "titlePart2": "پاسخ داده شده"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "حساب و پروفایل"
+      },
+      {
+        "title": "بخش مدیریت"
+      },
+      {
+        "title": "بخش مهاجرت"
+      },
+      {
+        "title": "بخش انتقال"
+      },
+      {
+        "title": "خدمات ویزای جهانی"
+      },
+      {
+        "title": "خدمات اضافی"
+      }
+    ],
+    "contactForm": {
+      "heading": "کمک مناسب را پیدا نکردید؟",
+      "nameLabel": "نام",
+      "namePlaceholder": "نام",
+      "emailLabel": "ایمیل",
+      "emailPlaceholder": "ایمیل",
+      "subjectLabel": "موضوع",
+      "subjectPlaceholder": "موضوع",
+      "messageLabel": "پیام",
+      "messagePlaceholder": "پیام خود را اینجا وارد کنید.",
+      "submitButton": "ارسال"
+    },
+    "noFaqs": "هیچ سوال متداولی در حال حاضر در دسترس نیست."
+  }
+}

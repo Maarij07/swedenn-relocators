@@ -1,0 +1,145 @@
+{
+  "career": {
+    "hero": {
+      "title": "Sweden Relocators Careers",
+      "subtitle": "Explore Your Future with Us"
+    },
+    "intro": {
+      "description": "Welcome to the Careers page of Sweden Relocators! We're excited to offer a variety of career opportunities. Our commitment to excellence in relocation and workforce management means we are always seeking talented individuals who share our passion. Join us in making a difference for people and businesses around the globe."
+    },
+    "openPositions": {
+      "heading": "Open Positions",
+      "positions": [
+        {
+          "id": 1,
+          "title": "Immigration Consultant",
+          "location": "Stockholm, Sweden",
+          "type": "Full-time",
+          "deadline": "Open until filled"
+        },
+        {
+          "id": 2,
+          "title": "Payroll Specialist",
+          "location": "Remote",
+          "type": "Part-time",
+          "deadline": "November 30, 2024"
+        },
+        {
+          "id": 3,
+          "title": "Client Support Coordinator",
+          "location": "Gothenburg, Sweden",
+          "type": "Contract",
+          "deadline": "December 15, 2024"
+        }
+      ]
+    },
+    "positionDetails": {
+      "heading": "Position Details",
+      "positions": [
+        {
+          "id": 1,
+          "title": "Immigration Consultant",
+          "location": "Stockholm, Sweden",
+          "type": "Full-time",
+          "deadline": "Open until filled",
+          "summary": "As an Immigration Consultant, you'll guide clients through the immigration process, provide visa assistance, and ensure compliance with Swedish regulations.",
+          "responsibilities": [
+            "Guide clients through immigration processes",
+            "Liaise with Swedish authorities",
+            "Stay updated on immigration law changes"
+          ],
+          "requirements": [
+            "Minimum 3 years in immigration or relocation services",
+            "Fluent in Swedish and English",
+            "Excellent organizational skills"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Payroll Specialist",
+          "location": "Remote",
+          "type": "Part-time",
+          "deadline": "November 30, 2024",
+          "summary": "The Payroll Specialist oversees payroll processing for clients, ensuring compliance and benefit management.",
+          "responsibilities": [
+            "Process payroll and tax withholding",
+            "Administer benefits",
+            "Manage client inquiries"
+          ],
+          "requirements": [
+            "Payroll experience, ideally in international contexts",
+            "Familiarity with Swedish payroll laws",
+            "Strong attention to detail"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Client Support Coordinator",
+          "location": "Gothenburg, Sweden",
+          "type": "Contract",
+          "deadline": "December 15, 2024",
+          "summary": "The Client Support Coordinator will manage client relations, providing top-notch service and support.",
+          "responsibilities": [
+            "Handle client inquiries and provide solutions",
+            "Track client feedback and coordinate with teams",
+            "Prepare monthly reports"
+          ],
+          "requirements": [
+            "Strong interpersonal skills",
+            "Customer service experience preferred",
+            "Ability to problem-solve and act proactively"
+          ]
+        }
+      ]
+    },
+    "applicationForm": {
+      "heading": "Application Form",
+      "description": "To apply for a position, please fill out the form below with your details. We look forward to reviewing your application!",
+      "formTitle": "Sweden Relocators Job Application Form",
+      "fields": {
+        "position": "Position Applying For",
+        "fullName": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "resume": "Upload Resume",
+        "resumeNote": "Accepted formats: PDF, DOCX",
+        "coverLetter": "Cover Letter",
+        "coverLetterNote": "Accepted formats: PDF, DOCX",
+        "linkedin": "LinkedIn Profile",
+        "additionalInfo": "Additional Information",
+        "submit": "Submit Application"
+      }
+    },
+    "whyJoin": {
+      "heading": "Why Join Sweden Relocators?",
+      "description": "Sweden Relocators offers an innovative, collaborative work environment focused on growth, inclusion, and excellence. Here are some of the benefits of working with us:",
+      "benefits": [
+        {
+          "title": "Professional Growth",
+          "description": "Access to continuous learning opportunities and career advancement pathways"
+        },
+        {
+          "title": "Flexible Work Options",
+          "description": "Remote and hybrid roles available for select positions"
+        },
+        {
+          "title": "Inclusive Culture",
+          "description": "Work with a team that values diversity and collaboration"
+        },
+        {
+          "title": "Competitive Benefits",
+          "description": "Comprehensive health, retirement, and wellness plans"
+        },
+        {
+          "title": "Global Impact",
+          "description": "Be part of a team that makes a positive difference for individuals and businesses worldwide"
+        }
+      ]
+    },
+    "talentCommunity": {
+      "heading": "Stay Connected – Join Our Talent Community",
+      "description": "Not ready to apply but want to stay updated? Join our Talent Community! Receive updates about new job openings, career events, and company news.",
+      "button": "Sign Up for Job Alerts"
+    }
+  }
+}

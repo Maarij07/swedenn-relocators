@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "اکثر پوچھے جانے والے سوالات",
+      "description": "منتقلی، ویزے اور ہماری خدمات کے بارے میں عام سوالات کے جوابات تلاش کریں۔"
+    },
+    "sectionHeading": {
+      "badge": "واضح رہنمائی، صحیح معاونت، آپ کا راستہ آگے",
+      "titlePart1": "آپ کے سوالات",
+      "titlePart2": "جواب دیے گئے"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "اکاؤنٹ اور پروفائل"
+      },
+      {
+        "title": "انتظامیہ سیکشن"
+      },
+      {
+        "title": "امیگریشن سیکشن"
+      },
+      {
+        "title": "منتقلی سیکشن"
+      },
+      {
+        "title": "عالمی ویزا خدمات"
+      },
+      {
+        "title": "اضافی خدمات"
+      }
+    ],
+    "contactForm": {
+      "heading": "کیا آپ کو صحیح مدد نہیں ملی؟",
+      "nameLabel": "نام",
+      "namePlaceholder": "نام",
+      "emailLabel": "ای میل",
+      "emailPlaceholder": "ای میل",
+      "subjectLabel": "موضوع",
+      "subjectPlaceholder": "موضوع",
+      "messageLabel": "پیغام",
+      "messagePlaceholder": "اپنا پیغام یہاں درج کریں۔",
+      "submitButton": "جمع کریں"
+    },
+    "noFaqs": "فی الوقت کوئی اکثر پوچھے جانے والے سوالات دستیاب نہیں ہیں۔"
+  }
+}

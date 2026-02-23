@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "Preguntas frecuentes",
+      "description": "Encuentre respuestas a preguntas comunes sobre reubicación, visas y nuestros servicios."
+    },
+    "sectionHeading": {
+      "badge": "Orientación clara, apoyo adecuado, tu camino hacia adelante",
+      "titlePart1": "Tus preguntas",
+      "titlePart2": "Respondidas"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "Cuenta y perfil"
+      },
+      {
+        "title": "Sección de gestión"
+      },
+      {
+        "title": "Sección de inmigración"
+      },
+      {
+        "title": "Sección de reubicación"
+      },
+      {
+        "title": "Servicios de visa global"
+      },
+      {
+        "title": "Servicios adicionales"
+      }
+    ],
+    "contactForm": {
+      "heading": "¿No encontraste la ayuda adecuada?",
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Nombre",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "Correo electrónico",
+      "subjectLabel": "Asunto",
+      "subjectPlaceholder": "Asunto",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Ingrese su mensaje aquí.",
+      "submitButton": "Enviar"
+    },
+    "noFaqs": "No hay preguntas frecuentes disponibles en este momento."
+  }
+}

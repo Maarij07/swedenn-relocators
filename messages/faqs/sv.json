@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "Vanliga frågor",
+      "description": "Hitta svar på vanliga frågor om relokering, visum och våra tjänster."
+    },
+    "sectionHeading": {
+      "badge": "Tydlig vägledning, rätt stöd, din väg framåt",
+      "titlePart1": "Dina frågor",
+      "titlePart2": "Besvarade"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "Konto & Profil"
+      },
+      {
+        "title": "Hanteringssektionen"
+      },
+      {
+        "title": "Immigrationssektionen"
+      },
+      {
+        "title": "Relokationssektionen"
+      },
+      {
+        "title": "Globala visumtjänster"
+      },
+      {
+        "title": "Ytterligare tjänster"
+      }
+    ],
+    "contactForm": {
+      "heading": "Hittar du inte rätt hjälp?",
+      "nameLabel": "Namn",
+      "namePlaceholder": "Namn",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "E-post",
+      "subjectLabel": "Ämne",
+      "subjectPlaceholder": "Ämne",
+      "messageLabel": "Meddelande",
+      "messagePlaceholder": "Skriv ditt meddelande här.",
+      "submitButton": "Skicka"
+    },
+    "noFaqs": "Inga vanliga frågor tillgängliga för närvarande."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "Ofte stillede spørgsmål",
+      "description": "Find svar på almindelige spørgsmål om flytning, visa og vores tjenester."
+    },
+    "sectionHeading": {
+      "badge": "Klar vejledning, rigtig support, din vej fremad",
+      "titlePart1": "Dine spørgsmål",
+      "titlePart2": "Besvaret"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "Konto og profil"
+      },
+      {
+        "title": "Administrationssektionen"
+      },
+      {
+        "title": "Immigrationssektionen"
+      },
+      {
+        "title": "Flytningssektionen"
+      },
+      {
+        "title": "Globale visatjenester"
+      },
+      {
+        "title": "Yderligere tjenester"
+      }
+    ],
+    "contactForm": {
+      "heading": "Fandt du ikke den rigtige hjælp?",
+      "nameLabel": "Navn",
+      "namePlaceholder": "Navn",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "E-mail",
+      "subjectLabel": "Emne",
+      "subjectPlaceholder": "Emne",
+      "messageLabel": "Besked",
+      "messagePlaceholder": "Skriv din besked her.",
+      "submitButton": "Indsend"
+    },
+    "noFaqs": "Ingen ofte stillede spørgsmål tilgængelige i øjeblikket."
+  }
+}

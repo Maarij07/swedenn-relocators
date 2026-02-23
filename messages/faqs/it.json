@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "Domande frequenti",
+      "description": "Trova risposte alle domande comuni su trasferimento, visti e i nostri servizi."
+    },
+    "sectionHeading": {
+      "badge": "Guida chiara, supporto appropriato, il tuo percorso in avanti",
+      "titlePart1": "Le tue domande",
+      "titlePart2": "Risposte"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "Account e profilo"
+      },
+      {
+        "title": "Sezione gestione"
+      },
+      {
+        "title": "Sezione immigrazione"
+      },
+      {
+        "title": "Sezione trasferimento"
+      },
+      {
+        "title": "Servizi visti globali"
+      },
+      {
+        "title": "Servizi aggiuntivi"
+      }
+    ],
+    "contactForm": {
+      "heading": "Non hai trovato l'aiuto giusto?",
+      "nameLabel": "Nome",
+      "namePlaceholder": "Nome",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Email",
+      "subjectLabel": "Oggetto",
+      "subjectPlaceholder": "Oggetto",
+      "messageLabel": "Messaggio",
+      "messagePlaceholder": "Inserisci il tuo messaggio qui.",
+      "submitButton": "Invia"
+    },
+    "noFaqs": "Nessuna domanda frequente disponibile al momento."
+  }
+}

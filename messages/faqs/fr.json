@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "Questions fréquemment posées",
+      "description": "Trouvez des réponses aux questions courantes sur la relocalisation, les visas et nos services."
+    },
+    "sectionHeading": {
+      "badge": "Conseils clairs, soutien approprié, votre chemin vers l'avant",
+      "titlePart1": "Vos questions",
+      "titlePart2": "Répondues"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "Compte et profil"
+      },
+      {
+        "title": "Section gestion"
+      },
+      {
+        "title": "Section immigration"
+      },
+      {
+        "title": "Section relocalisation"
+      },
+      {
+        "title": "Services de visa mondiaux"
+      },
+      {
+        "title": "Services supplémentaires"
+      }
+    ],
+    "contactForm": {
+      "heading": "Vous n'avez pas trouvé l'aide appropriée?",
+      "nameLabel": "Nom",
+      "namePlaceholder": "Nom",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Email",
+      "subjectLabel": "Sujet",
+      "subjectPlaceholder": "Sujet",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Entrez votre message ici.",
+      "submitButton": "Soumettre"
+    },
+    "noFaqs": "Aucune question fréquemment posée disponible pour le moment."
+  }
+}

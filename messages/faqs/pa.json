@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "ਅਕਸਰ ਪੁੱਛੇ ਜਾਣ ਵਾਲੇ ਸਵਾਲ",
+      "description": "ਸਥਾਨਾਂਤਰਣ, ਵੀਜ਼ਾ ਅਤੇ ਸਾਡੀਆਂ ਸੇਵਾਵਾਂ ਬਾਰੇ ਆਮ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਲੱਭੋ।"
+    },
+    "sectionHeading": {
+      "badge": "ਸਪਸ਼ਟ ਮਾਰਗਦਰਸ਼ਨ, ਸਹੀ ਸਮਰਥਨ, ਤੁਹਾਡਾ ਰਸਤਾ ਅੱਗੇ",
+      "titlePart1": "ਤੁਹਾਡੇ ਸਵਾਲ",
+      "titlePart2": "ਜਵਾਬ ਦਿੱਤੇ"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "ਖਾਤਾ ਅਤੇ ਪ੍ਰੋਫਾਈਲ"
+      },
+      {
+        "title": "ਪ੍ਰਬੰਧਨ ਭਾਗ"
+      },
+      {
+        "title": "ਇਮੀਗ੍ਰੇਸ਼ਨ ਭਾਗ"
+      },
+      {
+        "title": "ਸਥਾਨਾਂਤਰਣ ਭਾਗ"
+      },
+      {
+        "title": "ਗਲੋਬਲ ਵੀਜ਼ਾ ਸੇਵਾਵਾਂ"
+      },
+      {
+        "title": "ਵਾਧੂ ਸੇਵਾਵਾਂ"
+      }
+    ],
+    "contactForm": {
+      "heading": "ਕੀ ਤੁਹਾਨੂੰ ਸਹੀ ਮਦਦ ਨਹੀਂ ਮਿਲੀ?",
+      "nameLabel": "ਨਾਮ",
+      "namePlaceholder": "ਨਾਮ",
+      "emailLabel": "ਈ-ਮੇਲ",
+      "emailPlaceholder": "ਈ-ਮੇਲ",
+      "subjectLabel": "ਵਿਸ਼ਾ",
+      "subjectPlaceholder": "ਵਿਸ਼ਾ",
+      "messageLabel": "ਸੁਨੇਹਾ",
+      "messagePlaceholder": "ਆਪਣਾ ਸੁਨੇਹਾ ਇੱਥੇ ਦਰਜ ਕਰੋ।",
+      "submitButton": "ਭੇਜੋ"
+    },
+    "noFaqs": "ਇਸ ਸਮੇਂ ਕੋਈ ਅਕਸਰ ਪੁੱਛੇ ਜਾਣ ਵਾਲੇ ਸਵਾਲ ਉਪਲਬਧ ਨਹੀਂ ਹਨ।"
+  }
+}

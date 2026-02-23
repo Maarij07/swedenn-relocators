@@ -1,0 +1,49 @@
+{
+  "faqs": {
+    "hero": {
+      "title": "Usein kysytyt kysymykset",
+      "description": "Etsi vastauksia yleisiin kysymyksiin muutosta, viisumista ja palveluistamme."
+    },
+    "sectionHeading": {
+      "badge": "Selkeä ohjaus, oikea tuki, sinun tiesi eteenpäin",
+      "titlePart1": "Sinun kysymyksesi",
+      "titlePart2": "Vastattu"
+    },
+    "cards": [
+      {
+        "title": "Show All"
+      },
+      {
+        "title": "Tili ja profiili"
+      },
+      {
+        "title": "Hallintaosio"
+      },
+      {
+        "title": "Maahanmuutto-osio"
+      },
+      {
+        "title": "Muuttoosio"
+      },
+      {
+        "title": "Globaalit viisumitpalvelut"
+      },
+      {
+        "title": "Lisäpalvelut"
+      }
+    ],
+    "contactForm": {
+      "heading": "Etkö löytänyt oikeaa apua?",
+      "nameLabel": "Nimi",
+      "namePlaceholder": "Nimi",
+      "emailLabel": "Sähköposti",
+      "emailPlaceholder": "Sähköposti",
+      "subjectLabel": "Aihe",
+      "subjectPlaceholder": "Aihe",
+      "messageLabel": "Viesti",
+      "messagePlaceholder": "Kirjoita viestisi tähän.",
+      "submitButton": "Lähetä"
+    },
+    "noFaqs": "Usein kysyttyjä kysymyksiä ei ole saatavilla tällä hetkellä."
+  }
+}
