@@ -3,8 +3,11 @@
 import { useState, useEffect, useRef } from 'react';
 import { useParams } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
+import { useForm, FormProvider } from 'react-hook-form';
 import Image from 'next/image';
 import Navbar from '../../components/Navbar';
+import { RHFTextField } from '../../components/fields/rhf-text-field';
+import { RHFTextarea } from '../../components/fields/rhf-textarea';
 import { translateFAQs } from '../../utils/translationService';
 
 interface FAQ {
@@ -45,6 +48,17 @@ export default function FAQsPage() {
   const [selectedCardIndex, setSelectedCardIndex] = useState(0);
   const [selectedRole, setSelectedRole] = useState<'client' | 'company'>('client');
   const isMountedRef = useRef(true);
+
+  const methods = useForm({
+    defaultValues: {
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+    },
+  });
+
+  const { handleSubmit } = methods;
 
   useEffect(() => {
     return () => {
@@ -364,51 +378,76 @@ export default function FAQsPage() {
                   {t('faqs.contactForm.heading')}
                 </h2>
 
-                <form className="space-y-5">
-                  {/* Name Input */}
-                  <div>
-                    <input
-                      type="text"
-                      placeholder={t('faqs.contactForm.namePlaceholder')}
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-[14px] sm:text-[15px]"
-                    />
-                  </div>
+                <FormProvider {...methods}>
+                  <form onSubmit={handleSubmit((data) => {
+                    console.log('FAQ Contact Form submitted:', data);
+                    // Add your form submission logic here
+                  })} className="space-y-6 sm:space-y-7">
+                    {/* Name Input */}
+                    <div>
+                      <RHFTextField
+                        name="name"
+                        label={t('faqs.contactForm.nameLabel')}
+                        placeholder={t('faqs.contactForm.namePlaceholder')}
+                        type="text"
+                        helperText=""
+                        slotProps={{}}
+                        rules={{ required: 'Name is required' }}
+                        sx={{}}
+                      />
+                    </div>
 
-                  {/* Email Input */}
-                  <div>
-                    <input
-                      type="email"
-                      placeholder={t('faqs.contactForm.emailPlaceholder')}
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-[14px] sm:text-[15px]"
-                    />
-                  </div>
+                    {/* Email Input */}
+                    <div>
+                      <RHFTextField
+                        name="email"
+                        label={t('faqs.contactForm.emailLabel')}
+                        placeholder={t('faqs.contactForm.emailPlaceholder')}
+                        type="email"
+                        helperText=""
+                        slotProps={{}}
+                        rules={{ required: 'Email is required' }}
+                        sx={{}}
+                      />
+                    </div>
 
-                  {/* Subject Input */}
-                  <div>
-                    <input
-                      type="text"
-                      placeholder={t('faqs.contactForm.subjectPlaceholder')}
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-[14px] sm:text-[15px]"
-                    />
-                  </div>
+                    {/* Subject Input */}
+                    <div>
+                      <RHFTextField
+                        name="subject"
+                        label={t('faqs.contactForm.subjectLabel')}
+                        placeholder={t('faqs.contactForm.subjectPlaceholder')}
+                        type="text"
+                        helperText=""
+                        slotProps={{}}
+                        rules={{ required: 'Subject is required' }}
+                        sx={{}}
+                      />
+                    </div>
 
-                  {/* Message Textarea */}
-                  <div>
-                    <textarea
-                      placeholder={t('faqs.contactForm.messagePlaceholder')}
-                      rows={6}
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-[14px] sm:text-[15px] resize-none"
-                    />
-                  </div>
+                    {/* Message Textarea */}
+                    <div>
+                      <RHFTextarea
+                        name="message"
+                        label={t('faqs.contactForm.messageLabel')}
+                        placeholder={t('faqs.contactForm.messagePlaceholder')}
+                        rows={6}
+                        helperText=""
+                        slotProps={{}}
+                        rules={{ required: 'Message is required' }}
+                        sx={{}}
+                      />
+                    </div>
 
-                  {/* Submit Button */}
-                  <button
-                    type="submit"
-                    className="w-full px-6 py-3 bg-gray-900 text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors text-[14px] sm:text-[15px]"
-                  >
-                    {t('faqs.contactForm.submitButton')}
-                  </button>
-                </form>
+                    {/* Submit Button */}
+                    <button
+                      type="submit"
+                      className="w-full px-6 py-3 bg-gray-900 text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors text-[14px] sm:text-[15px] mt-8"
+                    >
+                      {t('faqs.contactForm.submitButton')}
+                    </button>
+                  </form>
+                </FormProvider>
               </div>
             </div>
           </div>
