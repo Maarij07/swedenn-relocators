@@ -457,16 +457,15 @@ export default function AboutPage() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
-                width: '1400px',
-                maxWidth: 'calc(100% - 32px)',
                 height: '289px',
-                margin: '200px auto 0',
-                marginTop: '160px'
+                maxWidth: '1500px',
+                width: '100%',
+                margin: '160px auto 0'
             }}>
                 {/* Overlay - Dark with #141A21 at 88% opacity */}
                 <div className="absolute inset-0 rounded-lg" style={{ backgroundColor: 'rgba(20, 26, 33, 0.88)' }}></div>
 
-                <div className="relative h-full pt-6 sm:pt-8 pb-6 sm:pb-8 px-8 sm:px-10">
+                <div className="relative h-full pt-6 sm:pt-8 pb-6 sm:pb-8 px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
                     <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto h-full">
                         <div className="grid lg:grid-cols-2 gap-8 items-center h-full">
                             {/* Left Content */}
@@ -971,14 +970,16 @@ export default function AboutPage() {
             <section className="pb-16 sm:pb-20 lg:pb-24 bg-white">
                 <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
                     {/* Header */}
-                    <div className="text-center mb-12 sm:mb-16">
-                        <div className="mx-auto bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
-                            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-2">
-                                Specializations
-                            </h2>
-                            <p className="text-base sm:text-lg text-blue-600 font-semibold">
-                                What we do best
-                            </p>
+                    <div className="mb-12 sm:mb-16">
+                        <div className="bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+                            <div className="w-full text-center px-4 sm:px-6 lg:px-8 xl:px-12">
+                                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-2">
+                                    Specializations
+                                </h2>
+                                <p className="text-base sm:text-lg text-blue-600 font-semibold">
+                                    What we do best
+                                </p>
+                            </div>
                         </div>
                     </div>
 

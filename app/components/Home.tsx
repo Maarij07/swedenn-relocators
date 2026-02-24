@@ -6,6 +6,7 @@ import Hero from './Hero';
 import CountrySelector from './CountrySelector';
 import Services from './Services';
 import Offers from './Offers';
+import RelocationSuccessSection from './RelocationSuccessSection';
 
 const HousingCarousel = dynamic(() => import('./HousingCarousel').then(m => m.HousingCarousel));
 const GlobalVisaPlatform = dynamic(() => import('./GlobalVisaPlatform').then(m => m.GlobalVisaPlatform));
@@ -31,8 +32,9 @@ export default function Home() {
       <div className="home-snap-section"><HousingCarousel /></div>
       <div className="home-snap-section"><GlobalVisaPlatform /></div>
       <div className="home-snap-section"><VisaApplicationJourney /></div>
-      <div className="home-snap-section"><CitizenshipResidencySection /></div>
+      <div className="home-snap-section" ><CitizenshipResidencySection /></div>
       <div className="home-snap-section"><VerticalFeatureCarousel /></div>
+      <div className="home-snap-section"><RelocationSuccessSection /></div>
     </>
   );
 }

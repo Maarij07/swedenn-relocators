@@ -51,8 +51,6 @@ export default function CitizenshipResidencySection() {
         <Box sx={{ mb: { xs: 5, sm: 6, lg: 8 }, textAlign: 'center' }}>
           <Box
             sx={{
-              maxWidth: '80rem',
-              mx: 'auto',
               backgroundColor: '#eff6ff',
               borderRadius: '0.5rem',
               borderLeft: '4px solid #3b82f6',

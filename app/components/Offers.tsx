@@ -121,8 +121,6 @@ export default function Offers() {
         <Box sx={{ mb: { xs: 6, sm: 8, lg: 10 }, textAlign: 'center' }}>
           <Box
             sx={{
-              maxWidth: '80rem',
-              mx: 'auto',
               backgroundColor: '#eff6ff',
               borderRadius: '0.5rem',
               borderLeft: '4px solid #3b82f6',

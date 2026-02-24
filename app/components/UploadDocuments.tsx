@@ -3,6 +3,12 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+const PORTAL_URL = 'https://portal.swedenrelocators.se';
+
+const redirectToPortal = () => {
+  window.open(PORTAL_URL, '_blank', 'noopener,noreferrer');
+};
+
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Stack from '@mui/material/Stack';
@@ -279,6 +285,16 @@ export const UploadDocuments = () => {
               <Select
                 value={selectedApplicant}
                 label={isSv ? 'Vem är detta dokument för' : 'Who is this Document for'}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
                 onChange={(e) => {
                   setSelectedApplicant(e.target.value);
                   setSelectedDocType('');
@@ -296,6 +312,10 @@ export const UploadDocuments = () => {
                     borderColor: '#3366FF',
                     borderWidth: '2px',
                   },
+                  cursor: 'pointer',
+                  '&:hover': {
+                    cursor: 'pointer'
+                  },
                   fontSize: '0.875rem',
                   height: '56px',
                   '& .MuiSelect-select': {
@@ -307,7 +327,28 @@ export const UploadDocuments = () => {
                 }}
               >
                 {dummyApplicants.map((applicant) => (
-                  <MenuItem key={applicant.id} value={applicant.name}>
+                  <MenuItem 
+                    key={applicant.id} 
+                    value={applicant.name}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
+                    onMouseDown={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
+                    sx={{
+                      fontSize: '0.875rem',
+                      cursor: 'pointer',
+                      '&:hover': {
+                        cursor: 'pointer',
+                        backgroundColor: 'rgba(0, 0, 0, 0.04)'
+                      }
+                    }}
+                  >
                     <ListItemText 
                       primary={applicant.name} 
                       secondary={isSv ? applicant.type === 'Main Applicant' ? 'Huvudsökande' : applicant.type : applicant.type}
@@ -332,37 +373,74 @@ export const UploadDocuments = () => {
               <Select
                 value={selectedDocType}
                 label={isSv ? 'Dokumenttyp' : 'Document Type'}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
                 onChange={(e) => {
                   setSelectedDocType(e.target.value);
                   setSelectedSubType('');
                   setDocDetails('');
                 }}
-                sx={{
-                  '& .MuiOutlinedInput-notchedOutline': {
-                    borderColor: 'rgba(145, 158, 171, 0.32)',
-                  },
-                  '&:hover .MuiOutlinedInput-notchedOutline': {
-                    borderColor: 'rgba(145, 158, 171, 0.48)',
-                  },
-                  '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                    borderColor: '#3366FF',
-                    borderWidth: '2px',
-                  },
-                  '&.Mui-disabled': {
-                    bgcolor: 'rgba(145, 158, 171, 0.08)',
-                  },
-                  fontSize: '0.875rem',
-                  height: '56px',
-                  '& .MuiSelect-select': {
+                sx={
+                  {
+                    '& .MuiOutlinedInput-notchedOutline': {
+                      borderColor: 'rgba(145, 158, 171, 0.32)',
+                    },
+                    '&:hover .MuiOutlinedInput-notchedOutline': {
+                      borderColor: 'rgba(145, 158, 171, 0.48)',
+                    },
+                    '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+                      borderColor: '#3366FF',
+                      borderWidth: '2px',
+                    },
+                    '&.Mui-disabled': {
+                      bgcolor: 'rgba(145, 158, 171, 0.08)',
+                    },
+                    cursor: 'pointer',
+                    '&:hover': {
+                      cursor: 'pointer'
+                    },
+                    fontSize: '0.875rem',
                     height: '56px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    py: 0,
+                    '& .MuiSelect-select': {
+                      height: '56px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      py: 0,
+                    }
                   }
-                }}
+                }
               >
                 {DOC_TYPES.map((opt) => (
-                  <MenuItem key={opt.value} value={opt.value} sx={{ fontSize: '0.875rem' }}>
+                  <MenuItem 
+                    key={opt.value} 
+                    value={opt.value} 
+                    sx={{
+                      fontSize: '0.875rem',
+                      cursor: 'pointer',
+                      '&:hover': {
+                        cursor: 'pointer',
+                        backgroundColor: 'rgba(0, 0, 0, 0.04)'
+                      }
+                    }}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
+                    onMouseDown={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
+                  >
                     {opt.value}
                   </MenuItem>
                 ))}
@@ -382,36 +460,73 @@ export const UploadDocuments = () => {
               <Select
                 value={selectedSubType}
                 label={isSv ? 'Dokumentsubtyp' : 'Document Sub Type'}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
                 onChange={(e) => {
                   setSelectedSubType(e.target.value);
                   setDocDetails('');
                 }}
-                sx={{
-                  '& .MuiOutlinedInput-notchedOutline': {
-                    borderColor: 'rgba(145, 158, 171, 0.32)',
-                  },
-                  '&:hover .MuiOutlinedInput-notchedOutline': {
-                    borderColor: 'rgba(145, 158, 171, 0.48)',
-                  },
-                  '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                    borderColor: '#3366FF',
-                    borderWidth: '2px',
-                  },
-                  '&.Mui-disabled': {
-                    bgcolor: 'rgba(145, 158, 171, 0.08)',
-                  },
-                  fontSize: '0.875rem',
-                  height: '56px',
-                  '& .MuiSelect-select': {
+                sx={
+                  {
+                    '& .MuiOutlinedInput-notchedOutline': {
+                      borderColor: 'rgba(145, 158, 171, 0.32)',
+                    },
+                    '&:hover .MuiOutlinedInput-notchedOutline': {
+                      borderColor: 'rgba(145, 158, 171, 0.48)',
+                    },
+                    '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+                      borderColor: '#3366FF',
+                      borderWidth: '2px',
+                    },
+                    '&.Mui-disabled': {
+                      bgcolor: 'rgba(145, 158, 171, 0.08)',
+                    },
+                    cursor: 'pointer',
+                    '&:hover': {
+                      cursor: 'pointer'
+                    },
+                    fontSize: '0.875rem',
                     height: '56px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    py: 0,
+                    '& .MuiSelect-select': {
+                      height: '56px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      py: 0,
+                    }
                   }
-                }}
+                }
               >
                 {subTypeOptions.map((opt) => (
-                  <MenuItem key={opt} value={opt} sx={{ fontSize: '0.875rem' }}>
+                  <MenuItem 
+                    key={opt} 
+                    value={opt} 
+                    sx={{
+                      fontSize: '0.875rem',
+                      cursor: 'pointer',
+                      '&:hover': {
+                        cursor: 'pointer',
+                        backgroundColor: 'rgba(0, 0, 0, 0.04)'
+                      }
+                    }}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
+                    onMouseDown={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
+                  >
                     {opt}
                   </MenuItem>
                 ))}
@@ -426,10 +541,24 @@ export const UploadDocuments = () => {
               label={isSv ? 'Dokumentinformation' : 'Document Details'}
               placeholder={isSv ? 'Ange dokumentinformation' : 'Enter document details'}
               value={docDetails}
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                redirectToPortal();
+              }}
+              onMouseDown={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                redirectToPortal();
+              }}
               onChange={(e) => setDocDetails(e.target.value)}
               disabled={!selectedSubType}
               sx={{ 
                 gridColumn: '1 / -1',
+                cursor: 'pointer',
+                '&:hover': {
+                  cursor: 'pointer'
+                },
                 '& .MuiInputLabel-root': {
                   fontSize: '0.875rem',
                   '&.Mui-focused': { color: '#3366FF' },
@@ -481,7 +610,17 @@ export const UploadDocuments = () => {
                     borderColor: 'rgba(145, 158, 171, 0.48)',
                   },
                 }}
-                onClick={handleFileUploadClick}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  handleFileUploadClick();
+                  redirectToPortal();
+                }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
               >
                 <UploadPlaceholder />
               </Box>
@@ -566,7 +705,17 @@ export const UploadDocuments = () => {
                         size="small" 
                         variant="outlined" 
                         color="error" 
-                        onClick={() => handleRemoveFile(file.name)}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          handleRemoveFile(file.name);
+                          redirectToPortal();
+                        }}
+                        onMouseDown={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          redirectToPortal();
+                        }}
                         sx={{
                           borderRadius: '8px',
                           textTransform: 'capitalize',
@@ -577,9 +726,11 @@ export const UploadDocuments = () => {
                           minWidth: 'auto',
                           borderColor: 'rgba(255, 86, 48, 0.48)',
                           color: '#B71D18',
+                          cursor: 'pointer',
                           '&:hover': {
                             borderColor: '#B71D18',
                             bgcolor: 'rgba(255, 86, 48, 0.08)',
+                            cursor: 'pointer'
                           }
                         }}
                       >
@@ -592,7 +743,17 @@ export const UploadDocuments = () => {
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mt: 3, gap: 2 }}>
                   <Button 
                     variant="outlined" 
-                    onClick={handleAddAnother}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      handleAddAnother();
+                      redirectToPortal();
+                    }}
+                    onMouseDown={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
                     sx={{
                       borderRadius: '8px',
                       textTransform: 'none',
@@ -602,9 +763,11 @@ export const UploadDocuments = () => {
                       py: 1,
                       borderColor: 'rgba(145, 158, 171, 0.32)',
                       color: '#212B36',
+                      cursor: 'pointer',
                       '&:hover': {
                         borderColor: '#212B36',
                         bgcolor: 'rgba(145, 158, 171, 0.08)',
+                        cursor: 'pointer'
                       }
                     }}
                   >
@@ -613,7 +776,17 @@ export const UploadDocuments = () => {
                   
                   <Button
                     variant="contained"
-                    onClick={handleUploadAll}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      handleUploadAll();
+                      redirectToPortal();
+                    }}
+                    onMouseDown={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
                     sx={{
                       borderRadius: '8px',
                       textTransform: 'capitalize',
@@ -623,9 +796,11 @@ export const UploadDocuments = () => {
                       py: 1,
                       bgcolor: '#3366FF',
                       boxShadow: '0 8px 16px 0 rgba(51, 102, 255, 0.24)',
+                      cursor: 'pointer',
                       '&:hover': {
                         bgcolor: '#2952CC',
                         boxShadow: 'none',
+                        cursor: 'pointer'
                       }
                     }}
                   >
