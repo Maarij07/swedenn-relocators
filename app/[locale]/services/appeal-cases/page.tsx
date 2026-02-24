@@ -75,7 +75,12 @@ export default function AppealCasesPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {rights.map((right: any, idx: number) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
+            <div key={idx} className="bg-white border-l-4 border-blue-500 rounded-lg p-6 sm:p-8 lg:p-10 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-sm sm:text-base">
+                  {idx + 1}
+                </div>
+              </div>
               <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
                 {right.title}
               </Typography>
@@ -98,33 +103,31 @@ export default function AppealCasesPage() {
 
         <div className="space-y-6">
           {stages.map((stage: any, idx: number) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="flex-shrink-0 w-12 h-12 4k:w-16 4k:h-16 rounded-full bg-gradient-to-r from-blue-500 to-blue-400 flex items-center justify-center">
-                  <Typography sx={{ fontSize: { xs: '1.5rem', lg: '1.75rem', '4k': '2rem' }, fontWeight: 700, color: 'white' }}>
-                    {stage.number}
-                  </Typography>
+            <div key={idx} className="bg-white border-l-4 border-green-500 rounded-lg p-6 sm:p-8 lg:p-10 shadow-sm">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-sm sm:text-base">
+                  {stage.number}
                 </div>
-                <div>
-                  <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, color: '#1e293b' }}>
+                <div className="flex-1 min-w-0">
+                  <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
                     {stage.title}
                   </Typography>
                   {stage.description && (
-                    <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', mt: 1 }}>
+                    <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', mb: 3 }}>
                       {stage.description}
                     </Typography>
                   )}
+                  {stage.questions && (
+                    <div>
+                      {stage.questions.map((q: any, i: number) => (
+                        <Typography key={i} sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', mb: 1 }}>
+                          • {q}
+                        </Typography>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
-              {stage.questions && (
-                <div className="ml-16">
-                  {stage.questions.map((q: any, i: number) => (
-                    <Typography key={i} sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', mb: 1 }}>
-                      • {q}
-                    </Typography>
-                  ))}
-                </div>
-              )}
             </div>
           ))}
         </div>
@@ -141,7 +144,12 @@ export default function AppealCasesPage() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {steps.map((step: any, idx: number) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
+            <div key={idx} className="bg-white border-t-4 border-blue-500 rounded-lg p-6 sm:p-8 lg:p-10 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-4 sm:gap-5 mb-4">
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-blue-100 to-blue-50 text-blue-600 flex items-center justify-center font-bold text-sm sm:text-base">
+                  {idx + 1}
+                </div>
+              </div>
               <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
                 {step.title}
               </Typography>
@@ -159,9 +167,9 @@ export default function AppealCasesPage() {
           {commonCasesData.heading}
         </Typography>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
           {cases.map((caseItem: any, idx: number) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8">
+            <div key={idx} className="bg-white border-l-4 border-blue-500 rounded-lg p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow">
               <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
                 <span className="text-blue-600 font-bold mr-2">•</span>{caseItem}
               </Typography>
@@ -176,9 +184,9 @@ export default function AppealCasesPage() {
           {timelinesData.heading}
         </Typography>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
           {timelines.map((item: any, idx: number) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8">
+            <div key={idx} className="bg-white border-l-4 border-purple-500 rounded-lg p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow">
               <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.125rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
                 {item.label}
               </Typography>
@@ -199,9 +207,9 @@ export default function AppealCasesPage() {
           {whyWorksData.intro}
         </Typography>
 
-        <div className="space-y-3 mb-6">
+        <div className="space-y-4 mb-6">
           {reasons.map((reason: any, idx: number) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8">
+            <div key={idx} className="bg-white border-l-4 border-blue-500 rounded-lg p-6 sm:p-8">
               <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
                 <span className="text-blue-600 font-bold mr-2">•</span>{reason}
               </Typography>
@@ -209,7 +217,7 @@ export default function AppealCasesPage() {
           ))}
         </div>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 sm:p-8 lg:p-10">
+        <div className="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-6 sm:p-8 lg:p-10">
           <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
             {whyWorksData.conclusion}
           </Typography>
@@ -254,9 +262,14 @@ export default function AppealCasesPage() {
           {whyChooseData.heading}
         </Typography>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {advantages.map((adv: any, idx: number) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10">
+            <div key={idx} className="bg-white border-l-4 border-green-500 rounded-lg p-6 sm:p-8 lg:p-10 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-sm sm:text-base">
+                  {idx + 1}
+                </div>
+              </div>
               <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
                 {adv.title}
               </Typography>
@@ -269,19 +282,54 @@ export default function AppealCasesPage() {
       </div>
 
       {/* Disclaimer Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pb-16 sm:pb-20 lg:pb-24">
-        <div className="bg-gradient-to-r from-blue-500 to-blue-400 rounded-2xl p-8 sm:p-10 lg:p-12 4k:p-16 text-white">
-          <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 6, color: 'white' }}>
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
+        <div className="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-6 sm:p-8 lg:p-10">
+          <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
             {disclaimerData.heading}
           </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, lineHeight: 1.8, color: 'rgba(255,255,255,0.95)', mb: 6 }}>
+          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, lineHeight: 1.8, color: '#6B7280', mb: 4 }}>
             {disclaimerData.note}
           </Typography>
-          <div className="border-t border-blue-300 pt-6">
-            <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', md: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, lineHeight: 1.8, color: 'rgba(255,255,255,0.9)', fontStyle: 'italic' }}>
-              {disclaimerData.disclaimer}
-            </Typography>
-          </div>
+          <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', md: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, lineHeight: 1.8, color: '#6B7280', fontStyle: 'italic' }}>
+            {disclaimerData.disclaimer}
+          </Typography>
+        </div>
+      </div>
+
+      {/* CTA Section */}
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pb-16 sm:pb-20 lg:pb-24">
+        <div className="bg-black/85 rounded-2xl shadow-lg p-8 sm:p-10 lg:p-12 4k:p-16 text-center">
+          <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: { xs: 3, sm: 4 }, color: 'white' }}>
+            {t('appealCases.cta.heading')}
+          </Typography>
+          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: 'rgba(255,255,255,0.8)', mb: { xs: 6, sm: 8 }, maxWidth: '2xl', mx: 'auto', lineHeight: 1.8 }}>
+            {t('appealCases.cta.description')}
+          </Typography>
+          <Box sx={{ display: 'flex', justifyContent: 'center', mb: { xs: 4, sm: 5 } }}>
+            <Box
+              component="button"
+              sx={{
+                backgroundColor: '#ffffff',
+                color: '#000000',
+                fontSize: { xs: '0.875rem', sm: '1rem', lg: '1.125rem', '4k': '1.25rem' },
+                fontWeight: 600,
+                px: { xs: 4, sm: 6, lg: 8, '4k': 10 },
+                py: { xs: 1.2, sm: 1.5, lg: 1.8, '4k': 2 },
+                borderRadius: '9999px',
+                border: 'none',
+                cursor: 'pointer',
+                transition: 'all 0.3s ease',
+                '&:hover': {
+                  backgroundColor: '#f3f4f6',
+                },
+              }}
+            >
+              {t('appealCases.cta.button')}
+            </Box>
+          </Box>
+          <Typography sx={{ fontSize: { xs: '0.75rem', sm: '0.85rem', lg: '0.95rem', '4k': '1rem' }, color: 'rgba(255,255,255,0.6)' }}>
+            {t('appealCases.cta.subtext')}
+          </Typography>
         </div>
       </div>
     </div>

@@ -68,18 +68,28 @@ export default function AppealCasesPage() {
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 lg:mb-8">
             {yourRightsData.heading}
           </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8">
+            {yourRightsData.intro}
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {rights.map((right, idx) => (
               <div
                 key={idx}
                 className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-blue-500 hover:shadow-md transition-shadow"
               >
-                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
-                  {right.title}
-                </h3>
-                <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed">
-                  {right.description}
-                </p>
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <span className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-sm sm:text-base">
+                    {idx + 1}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                      {right.title}
+                    </h3>
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed">
+                      {right.description}
+                    </p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -127,24 +137,31 @@ export default function AppealCasesPage() {
 
         {/* How We Help Section */}
         <section className="mb-8 sm:mb-10 lg:mb-12">
-          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
             {howWeHelpData.heading}
           </h2>
-          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8 lg:mb-10 max-w-3xl leading-relaxed">
             {howWeHelpData.intro}
           </p>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
             {steps.map((step, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border-t-4 border-blue-500"
+                className="bg-white rounded-xl shadow-sm p-6 sm:p-7 lg:p-8 hover:shadow-md transition-shadow border-t-4 border-blue-500"
               >
-                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-3">
-                  {step.title}
-                </h3>
-                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
-                  {step.description}
-                </p>
+                <div className="flex items-start gap-4 sm:gap-5">
+                  <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-xs sm:text-sm">
+                    {idx + 1}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
+                      {step.title}
+                    </h3>
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                      {step.description}
+                    </p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -214,18 +231,25 @@ export default function AppealCasesPage() {
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
             {whyChooseData.heading}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {advantages.map((adv, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-green-500"
+                className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-green-500 hover:shadow-md transition-shadow"
               >
-                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-3">
-                  {adv.title}
-                </h3>
-                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
-                  {adv.description}
-                </p>
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <span className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-sm sm:text-base">
+                    {idx + 1}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
+                      {adv.title}
+                    </h3>
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                      {adv.description}
+                    </p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>

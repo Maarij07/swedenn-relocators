@@ -277,6 +277,10 @@ export default function Navbar() {
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Work Permit Sweden</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">End-to-end assistance for Swedish work permits and employer documentation.</div>
                           </a>
+                          <a href={`/${locale}/services/self-employed`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Self-Employed in Sweden</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Help to establish and manage your self-employed status in Sweden.</div>
+                          </a>
                         </div>
                       </div>
 
@@ -342,9 +346,9 @@ export default function Navbar() {
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens Relocation</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">Relocation support for EU citizens and their families.</div>
                           </a>
-                          <a href={`/${locale}/services/self-employed`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Self-Employed in Sweden</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Help to establish and manage your self-employed status in Sweden.</div>
+                          <a href={`/${locale}/services/cbi-rbi-programs`} className="block">
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">CBI - RBI Programs</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">Citizenship or Residence by investment specialized programmes for business, investment and relocation planning.</div>
                           </a>
                         </div>
                       </div>
@@ -356,10 +360,6 @@ export default function Navbar() {
                           <a href={`/${locale}/services/buy-sell-property`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Buy / Sell Property</div>
                             <div className="text-[13px] text-gray-600 leading-relaxed">Guidance across the full property purchase or sale lifecycle.</div>
-                          </a>
-                          <a href={`/${locale}/services/cbs-bb-programme`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">CBS/BB Programme</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Specialised programmes for business, investment and relocation planning.</div>
                           </a>
                           <a href={`/${locale}/services/lawyers`} className="block">
                             <div className="font-semibold text-[15px] text-gray-900 mb-1">Lawyers Assistance</div>

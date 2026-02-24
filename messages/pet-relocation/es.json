@@ -1,0 +1,156 @@
+{
+  "petRelocation": {
+    "hero": {
+      "title": "Servicios de Reubicación de Mascotas con Sweden Relocators",
+      "subtitle": "Mudarse a un nuevo país es un paso que cambia la vida, y cuando las mascotas son parte del viaje, se requiere cuidado especial. En Sweden Relocators, entendemos que las mascotas son familia. Por eso ofrecemos servicios completos de reubicación de mascotas a través de nuestra red de socios globales, garantizando un viaje seguro, cómodo y conforme a la normativa para sus animales."
+    },
+    "intro": {
+      "description": "Ya sea que se mude a Suecia o se reloque al extranjero, nos encargamos de todo, desde revisiones veterinarias y papeleo hasta reservas aéreas, aduanas y entrega en casa."
+    },
+    "whyChoose": {
+      "heading": "¿Por Qué Elegir a Sweden Relocators para la Reubicación de Mascotas?",
+      "reasons": [
+        {
+          "title": "Red Global Certificada",
+          "description": "Nos asociamos con especialistas internacionales acreditados en reubicación de mascotas por IATA e IPATA."
+        },
+        {
+          "title": "Servicio de Principio a Fin",
+          "description": "Desde certificados de salud hasta la entrega final, gestionamos cada paso del viaje de su mascota."
+        },
+        {
+          "title": "Experiencia sin Estrés",
+          "description": "Garantizamos cumplimiento con las leyes suecas e internacionales para evitar retrasos."
+        },
+        {
+          "title": "Soluciones Personalizadas",
+          "description": "Cada plan de reubicación se personaliza según la raza, tamaño y estado de salud de su mascota."
+        },
+        {
+          "title": "Comunicación Transparente",
+          "description": "Las actualizaciones regulares significan que siempre sabe el estado y ubicación de su mascota."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Qué Cubren Nuestros Servicios de Reubicación de Mascotas",
+      "categories": [
+        {
+          "title": "Requisitos Veterinarios y de Salud",
+          "items": [
+            "Microchip con chips compatibles con ISO.",
+            "Vacunación contra la rabia según normas internacionales.",
+            "Pasaporte de Mascota UE o certificado de salud veterinario según el destino.",
+            "Tratamiento de tenias para perros que entren en ciertos países como Reino Unido, Irlanda y Finlandia.",
+            "Arreglos de cuarentena cuando sea necesario (por ejemplo, Australia, Nueva Zelanda, Singapur)."
+          ]
+        },
+        {
+          "title": "Transporte y Traslado",
+          "items": [
+            "Cajas aprobadas por IATA para viajes seguros y cómodos.",
+            "Reservas aéreas con transportistas que manejan animales en condiciones controladas por clima.",
+            "Transporte terrestre seguro dentro de Suecia, los Nórdicos y Europa."
+          ]
+        },
+        {
+          "title": "Aduanas y Cumplimiento",
+          "items": [
+            "Permisos de importación, aprobaciones veterinarias y aduanas gestionados por nuestros expertos.",
+            "Coordinación con Aduanas Suecas (Tullverket) y Junta de Agricultura Sueca (Jordbruksverket) para mascotas que entran en Suecia.",
+            "Cumplimiento con regulaciones del país de destino para mascotas que se reubican al extranjero."
+          ]
+        },
+        {
+          "title": "Llegada y Asentamiento",
+          "items": [
+            "Revisiones veterinarias y aduanas a la llegada.",
+            "Entrega en casa después de la liberación.",
+            "Orientación sobre veterinarios locales, seguros para mascotas y vivienda apta para mascotas en Suecia."
+          ]
+        }
+      ]
+    },
+    "countryRequirements": {
+      "heading": "Requisitos Específicos por País para Reubicación de Mascotas",
+      "regions": [
+        {
+          "title": "Unión Europea y Área Schengen",
+          "items": [
+            "Microchip y vacunación contra la rabia requeridos.",
+            "Se acepta Pasaporte de Mascota UE.",
+            "Sin cuarentena si se cumplen los requisitos."
+          ]
+        },
+        {
+          "title": "Reino Unido e Irlanda",
+          "items": [
+            "Microchip, vacunación contra la rabia y tratamiento de tenias requeridos.",
+            "El viaje debe ser a través de transportistas y rutas aprobadas.",
+            "Sin cuarentena si se cumplen los requisitos de entrada."
+          ]
+        },
+        {
+          "title": "Estados Unidos y Canadá",
+          "items": [
+            "Microchip y vacunación contra la rabia obligatorios.",
+            "Certificado de salud veterinario dentro de 10 días antes del viaje.",
+            "Ciertos estados/provincias (por ejemplo, Hawái) requieren cuarentena."
+          ]
+        },
+        {
+          "title": "Australia y Nueva Zelanda",
+          "items": [
+            "Reglas de entrada más estrictas del mundo.",
+            "Permiso de importación, vacunación contra la rabia, prueba de anticuerpos antirrábicos y certificado de salud aprobado requeridos.",
+            "Cuarentena obligatoria a la llegada."
+          ]
+        },
+        {
+          "title": "Oriente Medio y Asia",
+          "items": [
+            "Los requisitos varían según el país.",
+            "La mayoría de destinos requieren microchip, vacunación contra la rabia y certificado de salud internacional.",
+            "Algunos países (por ejemplo, EAU, Japón, Singapur) requieren permisos de importación o análisis de sangre."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Cómo Funciona Nuestro Proceso",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Envíe una Solicitud de Servicio",
+          "description": "Proporcione los detalles de su mascota y destino a través de nuestro portal en línea."
+        },
+        {
+          "step": "2",
+          "title": "Consulta y Planificación",
+          "description": "Preparamos un plan de reubicación personalizado, incluidos requisitos veterinarios y logística de viaje."
+        },
+        {
+          "step": "3",
+          "title": "Papeleo y Apoyo Veterinario",
+          "description": "Certificados de salud, microchip, vacunaciones y aprobaciones organizadas."
+        },
+        {
+          "step": "4",
+          "title": "Transporte y Aduanas",
+          "description": "Vuelos, transporte terrestre y aduanas gestionados sin problemas."
+        },
+        {
+          "step": "5",
+          "title": "Llegada y Entrega en Casa",
+          "description": "Entrega segura en su hogar, con apoyo continuo para cuidado de mascota local."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Asociémonos con Sweden Relocators para Reubicación Segura de Mascotas",
+      "description": "Su mascota merece el mismo cuidado y atención que el resto de su familia durante la reubicación. Con Sweden Relocators y nuestra red de socios de confianza, puede estar seguro de que su mascota viajará de forma segura, cómoda y de acuerdo con todas las regulaciones internacionales.",
+      "button": "Enviar solicitud de reubicación de mascota",
+      "subtext": "Organizaremos todo por usted, desde documentación veterinaria y aduanas hasta vuelos y entrega en casa."
+    }
+  }
+}

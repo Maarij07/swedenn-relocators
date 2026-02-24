@@ -1,0 +1,156 @@
+{
+  "petRelocation": {
+    "hero": {
+      "title": "Servizi di Trasferimento Animali Domestici con Sweden Relocators",
+      "subtitle": "Trasferirsi in un nuovo paese è un passo che cambia la vita, e quando gli animali domestici fanno parte del viaggio, è necessaria una cura extra. In Sweden Relocators, comprendiamo che gli animali domestici sono famiglia. Ecco perché offriamo servizi completi di trasferimento animali domestici attraverso la nostra rete globale di partner, garantendo un viaggio sicuro, confortevole e conforme per i tuoi animali."
+    },
+    "intro": {
+      "description": "Che tu ti stia trasferendo in Svezia o all'estero, gestiamo tutto, dai controlli veterinari e dalla documentazione alle prenotazioni di voli, sdoganamento e consegna a domicilio."
+    },
+    "whyChoose": {
+      "heading": "Perché scegliere Sweden Relocators per il trasferimento di animali domestici?",
+      "reasons": [
+        {
+          "title": "Rete Globale Certificata",
+          "description": "Collaboriamo con specialisti affidabili nel trasferimento di animali domestici accreditati da IATA e IPATA."
+        },
+        {
+          "title": "Servizio Completo",
+          "description": "Dai certificati di salute alla consegna finale, gestiamo ogni fase del viaggio del tuo animale domestico."
+        },
+        {
+          "title": "Esperienza Senza Stress",
+          "description": "Garantiamo il rispetto delle leggi svedesi e internazionali per evitare ritardi."
+        },
+        {
+          "title": "Soluzioni Personalizzate",
+          "description": "Ogni piano di trasferimento è personalizzato in base alla razza, alle dimensioni e alle esigenze sanitarie del tuo animale domestico."
+        },
+        {
+          "title": "Comunicazione Trasparente",
+          "description": "Gli aggiornamenti regolari significano che conosci sempre lo stato e la posizione del tuo animale domestico."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Cosa coprono i nostri servizi di trasferimento animali domestici",
+      "categories": [
+        {
+          "title": "Requisiti Veterinari e Sanitari",
+          "items": [
+            "Microchip conformi agli standard ISO.",
+            "Vaccinazione antirabbica secondo le norme internazionali.",
+            "Passaporto per animali domestici dell'UE o certificato di salute veterinario a seconda della destinazione.",
+            "Trattamento della tenia per i cani che entrano in determinati paesi come Regno Unito, Irlanda e Finlandia.",
+            "Accordi di quarantena quando necessario (ad es. Australia, Nuova Zelanda, Singapore)."
+          ]
+        },
+        {
+          "title": "Viaggio e Trasporto",
+          "items": [
+            "Gabbie approvate IATA per un viaggio sicuro e confortevole.",
+            "Prenotazioni di voli con compagnie aeree che trasportano animali in condizioni climatizzate.",
+            "Trasporto terrestre sicuro in Svezia, nei paesi nordici e in tutta Europa."
+          ]
+        },
+        {
+          "title": "Dogana e Conformità",
+          "items": [
+            "Permessi di importazione, approvazioni veterinarie e sdoganamento gestiti dai nostri esperti.",
+            "Coordinamento con la dogana svedese (Tullverket) e Jordbruksverket (Consiglio svedese dell'agricoltura) per gli animali domestici che entrano in Svezia.",
+            "Conformità alle normative del paese di destinazione per gli animali domestici che si trasferiscono all'estero."
+          ]
+        },
+        {
+          "title": "Arrivo e Sistemazione",
+          "items": [
+            "Controlli veterinari e sdoganamento all'arrivo.",
+            "Consegna a domicilio degli animali domestici dopo il rilascio.",
+            "Guida su veterinari locali, assicurazione per animali domestici e alloggi pet-friendly in Svezia."
+          ]
+        }
+      ]
+    },
+    "countryRequirements": {
+      "heading": "Requisiti di Trasferimento Animali Domestici Specifici per Paese",
+      "regions": [
+        {
+          "title": "UE e Area Schengen",
+          "items": [
+            "Microchip e vaccinazione antirabbica richiesti.",
+            "Passaporto per animali domestici dell'UE accettato.",
+            "Nessuna quarantena se i requisiti sono soddisfatti."
+          ]
+        },
+        {
+          "title": "Regno Unito e Irlanda",
+          "items": [
+            "Microchip, vaccinazione antirabbica e trattamento della tenia richiesti.",
+            "Il viaggio deve avvenire tramite compagnie aeree e rotte approvate.",
+            "Nessuna quarantena se i requisiti di ingresso sono soddisfatti."
+          ]
+        },
+        {
+          "title": "Stati Uniti e Canada",
+          "items": [
+            "Microchip e vaccinazione antirabbica obbligatori.",
+            "Certificato di salute veterinario entro 10 giorni dal viaggio.",
+            "Alcuni stati/province (ad es. Hawaii) richiedono la quarantena."
+          ]
+        },
+        {
+          "title": "Australia e Nuova Zelanda",
+          "items": [
+            "Regole di ingresso più rigorose al mondo.",
+            "Permesso di importazione, vaccinazione antirabbica, test degli anticorpi antirabbici e certificato di salute approvato richiesti.",
+            "Quarantena obbligatoria all'arrivo."
+          ]
+        },
+        {
+          "title": "Medio Oriente e Asia",
+          "items": [
+            "I requisiti variano a seconda del paese.",
+            "La maggior parte delle destinazioni richiede microchip, vaccinazione antirabbica e certificato di salute internazionale.",
+            "Alcuni paesi (ad es. UAE, Giappone, Singapore) richiedono permessi di importazione o analisi del sangue."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Come funziona il nostro processo",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Invia una Richiesta di Servizio",
+          "description": "Fornisci i dettagli del tuo animale domestico e la destinazione tramite il nostro portale online."
+        },
+        {
+          "step": "2",
+          "title": "Consulenza e Pianificazione",
+          "description": "Prepariamo un piano di trasferimento personalizzato, inclusi i requisiti veterinari e la logistica."
+        },
+        {
+          "step": "3",
+          "title": "Documentazione e Supporto Veterinario",
+          "description": "Certificati di salute, microchip, vaccinazioni e approvazioni organizzati."
+        },
+        {
+          "step": "4",
+          "title": "Trasporto e Dogana",
+          "description": "Voli, trasporto terrestre e sdoganamento gestiti senza problemi."
+        },
+        {
+          "step": "5",
+          "title": "Arrivo e Consegna a Domicilio",
+          "description": "Consegna sicura a casa tua, con supporto continuo per l'assistenza locale agli animali domestici."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Collabora con Sweden Relocators per un Trasferimento Sicuro di Animali Domestici",
+      "description": "Il tuo animale domestico merita le stesse cure e attenzione del resto della tua famiglia durante il trasferimento. Con Sweden Relocators e la nostra rete affidabile di partner, puoi essere sicuro che il tuo animale domestico viaggerà in sicurezza, comodità e in conformità a tutti i regolamenti internazionali.",
+      "button": "Invia Richiesta di Trasferimento Animali Domestici",
+      "subtext": "Organizzeremo tutto per te, dalla documentazione veterinaria e dallo sdoganamento ai voli e alla consegna a domicilio."
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "petRelocation": {
+    "hero": {
+      "title": "Husdjursflyttning med Sweden Relocators",
+      "subtitle": "Att flytta till ett nytt land är ett livsförändrande steg, och när husdjur är en del av resan krävs extra omsorg. På Sweden Relocators förstår vi att husdjur är familj. Det är därför vi erbjuder kompletta husdjursflyttningsservices genom vårt globala partnernätverk, vilket säkerställer säker, bekväm och laglig transport för dina djur."
+    },
+    "intro": {
+      "description": "Oavsett om du flyttar till Sverige eller till utlandet hanterar vi allt från veterinärkontroller och pappersarbete till flygbokningar, tullklarering och hemleverans."
+    },
+    "whyChoose": {
+      "heading": "Varför välja Sweden Relocators för husdjursflyttning?",
+      "reasons": [
+        {
+          "title": "Certifierat globalt nätverk",
+          "description": "Vi samarbetar med pålitliga internationella husdjursflyttningsspecialister ackrediterade av IATA och IPATA."
+        },
+        {
+          "title": "Helhetslösning",
+          "description": "Från hälsocertifikat till slutlig leverans hanterar vi varje steg av ditt husdjurs resa."
+        },
+        {
+          "title": "Stressfri upplevelse",
+          "description": "Vi säkerställer efterlevnad av svensk och internationell lagstiftning för att undvika förseningar."
+        },
+        {
+          "title": "Skräddarsydda lösningar",
+          "description": "Varje flyttningsplan är anpassad efter ditt husdjurs ras, storlek och hälsobehov."
+        },
+        {
+          "title": "Transparent kommunikation",
+          "description": "Regelbundna uppdateringar innebär att du alltid vet ditt husdjurs status och plats."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Vad våra husdjursflyttningsservices täcker",
+      "categories": [
+        {
+          "title": "Veterinär- och hälsokrav",
+          "items": [
+            "Mikrochip med ISO-kompatibla chips.",
+            "Rabiesvaccination enligt internationella regler.",
+            "EU-husdjurspass eller veterinärt hälsocertifikat beroende på destination.",
+            "Maskbehandling för hundar som reser till vissa länder som Storbritannien, Irland och Finland.",
+            "Karantänarrangemang vid behov (t.ex. Australien, Nya Zeeland, Singapore)."
+          ]
+        },
+        {
+          "title": "Resa och transport",
+          "items": [
+            "IATA-godkända lådor för säker och bekväm resa.",
+            "Flygbokningar med flygbolag som transporterar djur under klimatkontrollerade förhållanden.",
+            "Säker landtransport inom Sverige, Norden och över Europa."
+          ]
+        },
+        {
+          "title": "Tull och efterlevnad",
+          "items": [
+            "Importtillstånd, veterinärgodkännanden och tullklarering hanterad av våra experter.",
+            "Samordning med svensk tull (Tullverket) och Jordbruksverket för husdjur som kommer till Sverige.",
+            "Efterlevnad av destinationslandet regler för husdjur som flyttar utomlands."
+          ]
+        },
+        {
+          "title": "Ankomst och etablering",
+          "items": [
+            "Veterinärkontroller och tullklarering vid ankomst.",
+            "Hemleverans av husdjur efter frigivning.",
+            "Vägledning om lokala veterinärer, husdjursförsäkring och husdjurvänlig boendet i Sverige."
+          ]
+        }
+      ]
+    },
+    "countryRequirements": {
+      "heading": "Landsspecifika krav för husdjursflyttning",
+      "regions": [
+        {
+          "title": "EU och Schengenområdet",
+          "items": [
+            "Mikrochip och rabiesvaccination krävs.",
+            "EU-husdjurspass accepteras.",
+            "Ingen karantän om kraven är uppfyllda."
+          ]
+        },
+        {
+          "title": "Storbritannien och Irland",
+          "items": [
+            "Mikrochip, rabiesvaccination och maskbehandling krävs.",
+            "Resan måste ske via godkända flygbolag och rutter.",
+            "Ingen karantän om inresevillkoren är uppfyllda."
+          ]
+        },
+        {
+          "title": "USA och Kanada",
+          "items": [
+            "Mikrochip och rabiesvaccination är obligatoriska.",
+            "Veterinärt hälsocertifikat inom 10 dagar före resan.",
+            "Vissa stater/provinser (t.ex. Hawaii) kräver karantän."
+          ]
+        },
+        {
+          "title": "Australien och Nya Zeeland",
+          "items": [
+            "Strängaste inreseregler i världen.",
+            "Importtillstånd, rabiesvaccination, rabiesantikroppstest och godkänt hälsocertifikat krävs.",
+            "Obligatorisk karantän vid ankomst."
+          ]
+        },
+        {
+          "title": "Mellanöstern och Asien",
+          "items": [
+            "Kraven varierar beroende på land.",
+            "De flesta destinationer kräver mikrochip, rabiesvaccination och internationellt hälsocertifikat.",
+            "Vissa länder (t.ex. UAE, Japan, Singapore) kräver importtillstånd eller blodprov."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Hur vår process fungerar",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Skicka en servicebegäran",
+          "description": "Ge ditt husdjurs detaljer och destination genom vår onlineportal."
+        },
+        {
+          "step": "2",
+          "title": "Konsultation och planering",
+          "description": "Vi förbereder en skräddarsydd flyttningsplan, inklusive veterinärkrav och logistik."
+        },
+        {
+          "step": "3",
+          "title": "Pappersarbete och veterinärstöd",
+          "description": "Hälsocertifikat, mikrochip, vaccinationer och godkännanden arrangerade."
+        },
+        {
+          "step": "4",
+          "title": "Transport och tull",
+          "description": "Flyg, landtransport och tullklarering hanterad sömlöst."
+        },
+        {
+          "step": "5",
+          "title": "Ankomst och hemleverans",
+          "description": "Säker leverans till ditt hem, med löpande stöd för lokal husdjursvård."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Samarbeta med Sweden Relocators för säker husdjursflyttning",
+      "description": "Ditt husdjur förtjänar samma omsorg och uppmärksamhet som resten av din familj under flytten. Med Sweden Relocators och vårt pålitliga partnernätverk kan du vara säker på att ditt husdjur reser säkert, bekvämt och i enlighet med alla internationella regler.",
+      "button": "Skicka husdjursflyttningsbegäran",
+      "subtext": "Vi ordnar allt för dig, från veterinär dokumentation och tullklarering till flyg och hemleverans."
+    }
+  }
+}

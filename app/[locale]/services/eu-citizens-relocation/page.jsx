@@ -231,7 +231,7 @@ export default function EUCitizensRelocationPage() {
         {/* Application Process */}
         <section className="mb-8 sm:mb-10 lg:mb-12">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
-            {t('euCitizensRelocation.applicationProcessHeading')}
+            Application Process
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {Array.isArray(applicationProcess) && applicationProcess.map((step, idx) => (
@@ -277,7 +277,7 @@ export default function EUCitizensRelocationPage() {
         {/* Why Sweden */}
         <section className="mb-8 sm:mb-10 lg:mb-12">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
-            {t('euCitizensRelocation.whySwedenHeading')}
+            Why Sweden?
           </h2>
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             {Array.isArray(whySweden) && whySweden.map((item, idx) => (

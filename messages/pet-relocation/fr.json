@@ -1,0 +1,156 @@
+{
+  "petRelocation": {
+    "hero": {
+      "title": "Services de Relocalisation d'Animaux de Compagnie avec Sweden Relocators",
+      "subtitle": "Déménager dans un nouveau pays est une étape qui change la vie, et quand les animaux de compagnie font partie du voyage, des soins supplémentaires sont nécessaires. Chez Sweden Relocators, nous comprenons que les animaux de compagnie sont une famille. C'est pourquoi nous offrons des services complets de relocalisation d'animaux de compagnie par le biais de notre réseau mondial de partenaires, garantissant un voyage sûr, confortable et conforme pour vos animaux."
+    },
+    "intro": {
+      "description": "Que vous déménagiez en Suède ou à l'étranger, nous gérons tout, des examens vétérinaires et des formalités administratives aux réservations de vols, au dédouanement et à la livraison à domicile."
+    },
+    "whyChoose": {
+      "heading": "Pourquoi choisir Sweden Relocators pour la relocalisation d'animaux de compagnie?",
+      "reasons": [
+        {
+          "title": "Réseau Mondial Certifié",
+          "description": "Nous partenaires avec des spécialistes de confiance en relocalisation d'animaux de compagnie accrédités par l'IATA et l'IPATA."
+        },
+        {
+          "title": "Service Complet",
+          "description": "Des certificats de santé à la livraison finale, nous gérons chaque étape du voyage de votre animal."
+        },
+        {
+          "title": "Expérience sans Stress",
+          "description": "Nous assurons le respect des lois suédoises et internationales pour éviter les retards."
+        },
+        {
+          "title": "Solutions Personnalisées",
+          "description": "Chaque plan de relocalisation est personnalisé selon la race, la taille et les besoins de santé de votre animal."
+        },
+        {
+          "title": "Communication Transparente",
+          "description": "Les mises à jour régulières signifient que vous connaissez toujours l'état et la localisation de votre animal."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Ce que couvrent nos services de relocalisation d'animaux de compagnie",
+      "categories": [
+        {
+          "title": "Exigences Vétérinaires et Sanitaires",
+          "items": [
+            "Micropuces conformes à la norme ISO.",
+            "Vaccination antirabique selon les normes internationales.",
+            "Passeport pour animaux de compagnie de l'UE ou certificat de santé vétérinaire selon la destination.",
+            "Traitement contre les vers pour les chiens entrant dans certains pays comme le Royaume-Uni, l'Irlande et la Finlande.",
+            "Arrangements de quarantaine si nécessaire (par exemple, Australie, Nouvelle-Zélande, Singapour)."
+          ]
+        },
+        {
+          "title": "Voyage et Transport",
+          "items": [
+            "Caisses approuvées par l'IATA pour un voyage sûr et confortable.",
+            "Réservations de vols auprès de compagnies aériennes qui transportent les animaux dans des conditions climatisées.",
+            "Transport terrestre sécurisé en Suède, dans les pays nordiques et à travers l'Europe."
+          ]
+        },
+        {
+          "title": "Douanes et Conformité",
+          "items": [
+            "Permis d'importation, approbations vétérinaires et dédouanement gérés par nos experts.",
+            "Coordination avec les douanes suédoises (Tullverket) et Jordbruksverket (Conseil suédois de l'agriculture) pour les animaux entrant en Suède.",
+            "Conformité avec les réglementations du pays de destination pour les animaux se relocalisent à l'étranger."
+          ]
+        },
+        {
+          "title": "Arrivée et Installation",
+          "items": [
+            "Examens vétérinaires et dédouanement à l'arrivée.",
+            "Livraison à domicile des animaux après libération.",
+            "Conseils sur les vétérinaires locaux, l'assurance pour animaux de compagnie et le logement adapté aux animaux en Suède."
+          ]
+        }
+      ]
+    },
+    "countryRequirements": {
+      "heading": "Exigences de Relocalisation d'Animaux de Compagnie Spécifiques par Pays",
+      "regions": [
+        {
+          "title": "UE et Espace Schengen",
+          "items": [
+            "Micropuce et vaccination antirabique requises.",
+            "Passeport pour animaux de compagnie de l'UE accepté.",
+            "Pas de quarantaine si les exigences sont remplies."
+          ]
+        },
+        {
+          "title": "Royaume-Uni et Irlande",
+          "items": [
+            "Micropuce, vaccination antirabique et traitement contre les vers requis.",
+            "Le voyage doit se faire par des compagnies aériennes et des itinéraires approuvés.",
+            "Pas de quarantaine si les conditions d'entrée sont remplies."
+          ]
+        },
+        {
+          "title": "États-Unis et Canada",
+          "items": [
+            "Micropuce et vaccination antirabique obligatoires.",
+            "Certificat de santé vétérinaire dans les 10 jours précédant le voyage.",
+            "Certains États/provinces (par exemple, Hawaï) exigent une quarantaine."
+          ]
+        },
+        {
+          "title": "Australie et Nouvelle-Zélande",
+          "items": [
+            "Règles d'entrée les plus strictes au monde.",
+            "Permis d'importation, vaccination antirabique, test d'anticorps antirabiques et certificat de santé approuvé requis.",
+            "Quarantaine obligatoire à l'arrivée."
+          ]
+        },
+        {
+          "title": "Moyen-Orient et Asie",
+          "items": [
+            "Les exigences varient selon le pays.",
+            "La plupart des destinations exigent une micropuce, une vaccination antirabique et un certificat de santé international.",
+            "Certains pays (par exemple, EAU, Japon, Singapour) exigent des permis d'importation ou des analyses de sang."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Comment fonctionne notre processus",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Soumettre une Demande de Service",
+          "description": "Fournissez les détails de votre animal et la destination via notre portail en ligne."
+        },
+        {
+          "step": "2",
+          "title": "Consultation et Planification",
+          "description": "Nous préparons un plan de relocalisation personnalisé, y compris les exigences vétérinaires et la logistique."
+        },
+        {
+          "step": "3",
+          "title": "Formalités Administratives et Support Vétérinaire",
+          "description": "Certificats de santé, micropuces, vaccinations et approbations arrangés."
+        },
+        {
+          "step": "4",
+          "title": "Transport et Douanes",
+          "description": "Vols, transport terrestre et dédouanement gérés sans problème."
+        },
+        {
+          "step": "5",
+          "title": "Arrivée et Livraison à Domicile",
+          "description": "Livraison sécurisée à votre domicile, avec support continu pour les soins locaux des animaux."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Partenaire avec Sweden Relocators pour une Relocalisation Sûre d'Animaux de Compagnie",
+      "description": "Votre animal mérite les mêmes soins et attention que le reste de votre famille lors de la relocalisation. Avec Sweden Relocators et notre réseau de partenaires de confiance, vous pouvez être assuré que votre animal voyagera en toute sécurité, confortablement et conformément à tous les règlements internationaux.",
+      "button": "Envoyer une Demande de Relocalisation d'Animaux de Compagnie",
+      "subtext": "Nous arrangerons tout pour vous, de la documentation vétérinaire et du dédouanement aux vols et à la livraison à domicile."
+    }
+  }
+}

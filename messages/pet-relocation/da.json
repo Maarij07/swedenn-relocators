@@ -1,0 +1,156 @@
+{
+  "petRelocation": {
+    "hero": {
+      "title": "Kæledyrflytning med Sweden Relocators",
+      "subtitle": "At flytte til et nyt land er et livsændrende skridt, og når kæledyr er en del af rejsen, kræves der ekstra omsorg. Hos Sweden Relocators forstår vi, at kæledyr er familie. Derfor tilbyder vi komplette kæledyrflytningsservices gennem vores globale partnernetværk, hvilket sikrer sikker, komfortabel og lovlig transport for dine dyr."
+    },
+    "intro": {
+      "description": "Uanset om du flytter til Sverige eller til udlandet, håndterer vi alt fra dyrlægekontroller og papirarbejde til flybookinger, toldklarering og hjemmelevering."
+    },
+    "whyChoose": {
+      "heading": "Hvorfor vælge Sweden Relocators til kæledyrflytning?",
+      "reasons": [
+        {
+          "title": "Certificeret globalt netværk",
+          "description": "Vi samarbejder med pålidelige internationale kæledyrflytningsspecialister akkrediteret af IATA og IPATA."
+        },
+        {
+          "title": "End-to-end service",
+          "description": "Fra sundhedscertifikater til endelig levering håndterer vi hvert trin af dit kæledyrs rejse."
+        },
+        {
+          "title": "Stressfri oplevelse",
+          "description": "Vi sikrer overholdelse af svensk og international lovgivning for at undgå forsinkelser."
+        },
+        {
+          "title": "Skræddersyede løsninger",
+          "description": "Hver flytningsplan tilpasses efter dit kæledyrs race, størrelse og sundhedsbehov."
+        },
+        {
+          "title": "Transparent kommunikation",
+          "description": "Regelmæssige opdateringer betyder, at du altid ved, hvor dit kæledyr er og dets status."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Hvad vores kæledyrflytningsservices dækker",
+      "categories": [
+        {
+          "title": "Dyrlægefaglige og sundhedskrav",
+          "items": [
+            "Microchipping med ISO-kompatible chips.",
+            "Rabiesvaccination efter internationale regler.",
+            "EU-kæledyrpas eller dyrlægefaglig sundhedscertifikat afhængigt af destination.",
+            "Ormekur til hunde, der rejser til visse lande som Storbritannien, Irland og Finland.",
+            "Karantænearrangementer når det er nødvendigt (f.eks. Australien, New Zealand, Singapore)."
+          ]
+        },
+        {
+          "title": "Rejse og transport",
+          "items": [
+            "IATA-godkendte kasser til sikker og komfortabel rejse.",
+            "Flybookinger med flyselskaber, der håndterer dyr i klimakontrollerede forhold.",
+            "Sikker jordtransport inden for Sverige, Skandinavien og på tværs af Europa."
+          ]
+        },
+        {
+          "title": "Told og overholdelse",
+          "items": [
+            "Importtilladelser, dyrlægefaglige godkendelser og toldklarering håndteret af vores eksperter.",
+            "Koordinering med svensk told (Tullverket) og Jordbruksverket (Svensk Landbrugsstyrelse) for kæledyr, der kommer til Sverige.",
+            "Overholdelse af bestemmelser i destinationslande for kæledyr, der flyttes til udlandet."
+          ]
+        },
+        {
+          "title": "Ankomst og etablering",
+          "items": [
+            "Dyrlægekontroller og toldklarering ved ankomst.",
+            "Hjemmelevering af kæledyr efter frigivelse.",
+            "Vejledning om lokale dyrlæger, kæledyrforsikring og kæledyrvenlige boliger i Sverige."
+          ]
+        }
+      ]
+    },
+    "countryRequirements": {
+      "heading": "Landspecifikke kæledyrflytningskrav",
+      "regions": [
+        {
+          "title": "EU og Schengen-området",
+          "items": [
+            "Microchip og rabiesvaccination påkrævet.",
+            "EU-kæledyrpas accepteret.",
+            "Ingen karantæne, hvis kravene er opfyldt."
+          ]
+        },
+        {
+          "title": "Storbritannien og Irland",
+          "items": [
+            "Microchip, rabiesvaccination og ormekur påkrævet.",
+            "Rejse skal være via godkendte flyselskaber og ruter.",
+            "Ingen karantæne, hvis indrejsekravene er opfyldt."
+          ]
+        },
+        {
+          "title": "USA og Canada",
+          "items": [
+            "Microchip og rabiesvaccination obligatorisk.",
+            "Dyrlægefaglig sundhedscertifikat inden for 10 dage før rejse.",
+            "Visse stater/provinser (f.eks. Hawaii) kræver karantæne."
+          ]
+        },
+        {
+          "title": "Australien og New Zealand",
+          "items": [
+            "Strengeste indrejseregler i verden.",
+            "Importtilladelse, rabiesvaccination, rabies-antistoftest og godkendt sundhedscertifikat påkrævet.",
+            "Obligatorisk karantæne ved ankomst."
+          ]
+        },
+        {
+          "title": "Mellemøsten og Asien",
+          "items": [
+            "Kravene varierer efter land.",
+            "De fleste destinationer kræver microchip, rabiesvaccination og internationalt sundhedscertifikat.",
+            "Nogle lande (f.eks. UAE, Japan, Singapore) kræver importtilladelser eller blodprøver."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "Sådan fungerer vores proces",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Indsend en serviceanmodning",
+          "description": "Giv dine kæledyrs detaljer og destination gennem vores onlineportal."
+        },
+        {
+          "step": "2",
+          "title": "Konsultation og planlægning",
+          "description": "Vi udarbejder en skræddersyet flytningsplan, herunder dyrlægekrav og logistik."
+        },
+        {
+          "step": "3",
+          "title": "Papirarbejde og dyrlægefaglig support",
+          "description": "Sundhedscertifikater, microchipping, vaccinationer og godkendelser arrangeret."
+        },
+        {
+          "step": "4",
+          "title": "Transport og told",
+          "description": "Flyvninger, jordtransport og toldklarering håndteret problemfrit."
+        },
+        {
+          "step": "5",
+          "title": "Ankomst og hjemmelevering",
+          "description": "Sikker levering til dit hjem med løbende support til lokal kæledyrspleje."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Samarbejd med Sweden Relocators for sikker kæledyrflytning",
+      "description": "Dit kæledyr fortjener samme omsorg og opmærksomhed som resten af din familie under flytning. Med Sweden Relocators og vores pålidelige partnernetværk kan du være sikker på, at dit kæledyr rejser sikkert, komfortabelt og i overensstemmelse med alle internationale regler.",
+      "button": "Send kæledyrflytningsanmodning",
+      "subtext": "Vi ordner alt for dig, fra dyrlægefaglig dokumentation og toldklarering til flyvninger og hjemmelevering."
+    }
+  }
+}

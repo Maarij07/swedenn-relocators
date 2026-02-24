@@ -1,0 +1,156 @@
+{
+  "petRelocation": {
+    "hero": {
+      "title": "Haustierumzugsdienste mit Sweden Relocators",
+      "subtitle": "Ein Umzug in ein neues Land ist ein lebensverändernder Schritt, und wenn Haustiere Teil der Reise sind, ist besondere Sorgfalt erforderlich. Bei Sweden Relocators verstehen wir, dass Haustiere Familie sind. Deshalb bieten wir umfassende Haustierumzugsdienste über unser globales Partnernetzwerk an und gewährleisten sichere, komfortable und konforme Reisen für Ihre Tiere."
+    },
+    "intro": {
+      "description": "Egal ob Sie nach Schweden oder ins Ausland umziehen, wir kümmern uns um alles von tierärztlichen Untersuchungen und Papierkram bis hin zu Flugbuchungen, Zollabfertigung und Hauslieferung."
+    },
+    "whyChoose": {
+      "heading": "Warum Sweden Relocators für Haustierumzüge wählen?",
+      "reasons": [
+        {
+          "title": "Zertifiziertes globales Netzwerk",
+          "description": "Wir arbeiten mit vertrauenswürdigen internationalen Haustierumzugsspezialisten zusammen, die von IATA und IPATA akkreditiert sind."
+        },
+        {
+          "title": "Umfassender Service",
+          "description": "Von Gesundheitszertifikaten bis zur endgültigen Lieferung verwalten wir jeden Schritt der Reise Ihres Haustieres."
+        },
+        {
+          "title": "Stressfreies Erlebnis",
+          "description": "Wir gewährleisten die Einhaltung schwedischer und internationaler Gesetze, um Verzögerungen zu vermeiden."
+        },
+        {
+          "title": "Maßgeschneiderte Lösungen",
+          "description": "Jeder Umzugsplan wird nach der Rasse, Größe und den Gesundheitsbedürfnissen Ihres Haustieres angepasst."
+        },
+        {
+          "title": "Transparente Kommunikation",
+          "description": "Regelmäßige Updates bedeuten, dass Sie immer den Status und Standort Ihres Haustieres kennen."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Was unsere Haustierumzugsdienste abdecken",
+      "categories": [
+        {
+          "title": "Tierärztliche und Gesundheitsanforderungen",
+          "items": [
+            "Mikrochipping mit ISO-konformen Chips.",
+            "Tollwutimpfung nach internationalen Vorschriften.",
+            "EU-Heimtierpass oder tierärztliches Gesundheitszertifikat je nach Zielort.",
+            "Wurmbehandlung für Hunde, die in bestimmte Länder wie Großbritannien, Irland und Finnland reisen.",
+            "Quarantäneregelungen bei Bedarf (z.B. Australien, Neuseeland, Singapur)."
+          ]
+        },
+        {
+          "title": "Reise und Transport",
+          "items": [
+            "IATA-zugelassene Kisten für sichere und komfortable Reisen.",
+            "Flugbuchungen bei Fluggesellschaften, die Tiere unter klimatisierten Bedingungen transportieren.",
+            "Sicherer Landtransport innerhalb Schwedens, Skandinaviens und quer durch Europa."
+          ]
+        },
+        {
+          "title": "Zoll und Compliance",
+          "items": [
+            "Einfuhrgenehmigungen, tierärztliche Genehmigungen und Zollabfertigung durch unsere Experten.",
+            "Koordination mit dem schwedischen Zoll (Tullverket) und Jordbruksverket (Schwedische Landwirtschaftsbehörde) für Haustiere, die nach Schweden einreisen.",
+            "Einhaltung der Bestimmungen des Ziellandes für Haustiere, die ins Ausland umziehen."
+          ]
+        },
+        {
+          "title": "Ankunft und Eingewöhnung",
+          "items": [
+            "Tierärztliche Untersuchungen und Zollabfertigung bei Ankunft.",
+            "Hauslieferung von Haustieren nach der Freigabe.",
+            "Beratung zu lokalen Tierärzten, Haustierversicherung und tierfreundlichem Wohnraum in Schweden."
+          ]
+        }
+      ]
+    },
+    "countryRequirements": {
+      "heading": "Länder- und regionsspezifische Anforderungen für Haustierumzüge",
+      "regions": [
+        {
+          "title": "EU und Schengen-Raum",
+          "items": [
+            "Mikrochip und Tollwutimpfung erforderlich.",
+            "EU-Heimtierpass akzeptiert.",
+            "Keine Quarantäne, wenn die Anforderungen erfüllt sind."
+          ]
+        },
+        {
+          "title": "Großbritannien und Irland",
+          "items": [
+            "Mikrochip, Tollwutimpfung und Wurmbehandlung erforderlich.",
+            "Reise muss über genehmigte Fluggesellschaften und Routen erfolgen.",
+            "Keine Quarantäne, wenn die Einreisebestimmungen erfüllt sind."
+          ]
+        },
+        {
+          "title": "USA und Kanada",
+          "items": [
+            "Mikrochip und Tollwutimpfung obligatorisch.",
+            "Tierärztliches Gesundheitszertifikat innerhalb von 10 Tagen vor der Reise.",
+            "Bestimmte Bundesstaaten/Provinzen (z.B. Hawaii) erfordern Quarantäne."
+          ]
+        },
+        {
+          "title": "Australien und Neuseeland",
+          "items": [
+            "Strengste Einreisebestimmungen weltweit.",
+            "Einfuhrgenehmigung, Tollwutimpfung, Tollwut-Antikörpertest und genehmigtes Gesundheitszertifikat erforderlich.",
+            "Obligatorische Quarantäne bei Ankunft."
+          ]
+        },
+        {
+          "title": "Naher Osten und Asien",
+          "items": [
+            "Die Anforderungen variieren je nach Land.",
+            "Die meisten Ziele erfordern Mikrochip, Tollwutimpfung und internationales Gesundheitszertifikat.",
+            "Einige Länder (z.B. VAE, Japan, Singapur) erfordern Einfuhrgenehmigungen oder Bluttests."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "So funktioniert unser Prozess",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Serviceanfrage einreichen",
+          "description": "Geben Sie die Details Ihres Haustieres und das Ziel über unser Online-Portal ein."
+        },
+        {
+          "step": "2",
+          "title": "Beratung und Planung",
+          "description": "Wir erstellen einen maßgeschneiderten Umzugsplan, einschließlich tierärztlicher Anforderungen und Logistik."
+        },
+        {
+          "step": "3",
+          "title": "Papierkram und tierärztliche Unterstützung",
+          "description": "Gesundheitszertifikate, Mikrochipping, Impfungen und Genehmigungen arrangiert."
+        },
+        {
+          "step": "4",
+          "title": "Transport und Zoll",
+          "description": "Flüge, Landtransport und Zollabfertigung nahtlos verwaltet."
+        },
+        {
+          "step": "5",
+          "title": "Ankunft und Hauslieferung",
+          "description": "Sichere Lieferung zu Ihrem Zuhause mit laufender Unterstützung für lokale Haustierbetreuung."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Partnern Sie mit Sweden Relocators für sichere Haustierumzüge",
+      "description": "Ihr Haustier verdient während des Umzugs die gleiche Sorgfalt und Aufmerksamkeit wie der Rest Ihrer Familie. Mit Sweden Relocators und unserem vertrauenswürdigen Partnernetzwerk können Sie sicher sein, dass Ihr Haustier sicher, komfortabel und gemäß allen internationalen Vorschriften reist.",
+      "button": "Haustierumzugsanfrage senden",
+      "subtext": "Wir kümmern uns um alles für Sie, von tierärztlicher Dokumentation und Zollabfertigung bis hin zu Flügen und Hauslieferung."
+    }
+  }
+}

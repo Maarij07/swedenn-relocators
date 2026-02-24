@@ -27,7 +27,7 @@ const serviceRoutes: Record<string, string> = {
   'Work Permit Sweden': '/services/work-permit',
   'Self-Employed in Sweden': '/services/self-employed',
   'Study in Sweden': '/services/study-in-eu',
-  'CBS/BB Programme': '/services/cbs-bb-programme',
+  'CBI - RBI Programs': '/services/cbi-rbi-programs',
   'Swedish Citizenship': '/services/citizenship',
   'AU Pair and Host Family Solutions': '/services/au-pair-host-family',
   'Appeal Cases': '/services/appeal-cases',

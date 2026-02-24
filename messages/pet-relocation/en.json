@@ -1,0 +1,156 @@
+{
+  "petRelocation": {
+    "hero": {
+      "title": "Pet Relocation Services with Sweden Relocators",
+      "subtitle": "Relocating to a new country is a life-changing step, and when pets are part of the journey, extra care is required. At Sweden Relocators, we understand that pets are family. That's why we provide complete pet relocation services through our global partner network, ensuring safe, comfortable, and compliant travel for your animals."
+    },
+    "intro": {
+      "description": "Whether you are moving to Sweden or relocating abroad, we handle everything from veterinary checks and paperwork to airline bookings, customs clearance, and home delivery."
+    },
+    "whyChoose": {
+      "heading": "Why Choose Sweden Relocators for Pet Relocation?",
+      "reasons": [
+        {
+          "title": "Certified Global Network",
+          "description": "We partner with trusted international pet relocation specialists accredited by IATA and IPATA."
+        },
+        {
+          "title": "End-to-End Service",
+          "description": "From health certificates to final delivery, we manage every step of your pet's journey."
+        },
+        {
+          "title": "Stress-Free Experience",
+          "description": "We ensure compliance with Swedish and international laws to avoid delays."
+        },
+        {
+          "title": "Tailored Solutions",
+          "description": "Each relocation plan is customized according to your pet's breed, size, and health needs."
+        },
+        {
+          "title": "Transparent Communication",
+          "description": "Regular updates mean you always know your pet's status and location."
+        }
+      ]
+    },
+    "services": {
+      "heading": "What Our Pet Relocation Services Cover",
+      "categories": [
+        {
+          "title": "Veterinary and Health Requirements",
+          "items": [
+            "Microchipping with ISO-compliant chips.",
+            "Rabies vaccination according to international rules.",
+            "EU Pet Passport or veterinary health certificate depending on destination.",
+            "Tapeworm treatment for dogs entering certain countries like the UK, Ireland, and Finland.",
+            "Quarantine arrangements when required (e.g., Australia, New Zealand, Singapore)."
+          ]
+        },
+        {
+          "title": "Travel and Transport",
+          "items": [
+            "IATA-approved crates for safe and comfortable travel.",
+            "Airline bookings with carriers that handle animals in climate-controlled conditions.",
+            "Secure ground transport within Sweden, the Nordics, and across Europe."
+          ]
+        },
+        {
+          "title": "Customs and Compliance",
+          "items": [
+            "Import permits, veterinary endorsements, and customs clearance managed by our experts.",
+            "Coordination with Swedish Customs (Tullverket) and Jordbruksverket (Swedish Board of Agriculture) for pets entering Sweden.",
+            "Compliance with destination country regulations for pets relocating abroad."
+          ]
+        },
+        {
+          "title": "Arrival and Settling-In",
+          "items": [
+            "Veterinary checks and customs clearance on arrival.",
+            "Home delivery of pets after release.",
+            "Guidance on local vets, pet insurance, and pet-friendly housing in Sweden."
+          ]
+        }
+      ]
+    },
+    "countryRequirements": {
+      "heading": "Country-Specific Pet Relocation Requirements",
+      "regions": [
+        {
+          "title": "EU and Schengen Area",
+          "items": [
+            "Microchip and rabies vaccination required.",
+            "EU Pet Passport accepted.",
+            "No quarantine if requirements are fulfilled."
+          ]
+        },
+        {
+          "title": "United Kingdom and Ireland",
+          "items": [
+            "Microchip, rabies vaccination, and tapeworm treatment required.",
+            "Travel must be via approved carriers and routes.",
+            "No quarantine if entry requirements are met."
+          ]
+        },
+        {
+          "title": "United States and Canada",
+          "items": [
+            "Microchip and rabies vaccination mandatory.",
+            "Veterinary health certificate within 10 days of travel.",
+            "Certain states/provinces (e.g., Hawaii) require quarantine."
+          ]
+        },
+        {
+          "title": "Australia and New Zealand",
+          "items": [
+            "Strictest entry rules worldwide.",
+            "Import permit, rabies vaccination, rabies antibody test, and approved health certificate required.",
+            "Mandatory quarantine upon arrival."
+          ]
+        },
+        {
+          "title": "Middle East and Asia",
+          "items": [
+            "Requirements vary by country.",
+            "Most destinations require microchip, rabies vaccination, and international health certificate.",
+            "Some countries (e.g., UAE, Japan, Singapore) require import permits or blood tests."
+          ]
+        }
+      ]
+    },
+    "process": {
+      "heading": "How Our Process Works",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Submit a Service Request",
+          "description": "Provide your pet's details and destination through our online portal."
+        },
+        {
+          "step": "2",
+          "title": "Consultation and Planning",
+          "description": "We prepare a tailored relocation plan, including vet requirements and travel logistics."
+        },
+        {
+          "step": "3",
+          "title": "Paperwork and Vet Support",
+          "description": "Health certificates, microchipping, vaccinations, and endorsements arranged."
+        },
+        {
+          "step": "4",
+          "title": "Transport and Customs",
+          "description": "Flights, ground transport, and customs clearance managed seamlessly."
+        },
+        {
+          "step": "5",
+          "title": "Arrival and Home Delivery",
+          "description": "Safe delivery to your home, with ongoing support for local pet care."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Partner with Sweden Relocators for Safe Pet Relocation",
+      "description": "Your pet deserves the same care and attention as the rest of your family during relocation. With Sweden Relocators and our trusted partner network, you can be confident that your pet will travel safely, comfortably, and according to all international regulations.",
+      "button": "Send Pet Relocation Request",
+      "subtext": "We will arrange everything for you, from veterinary documentation and customs clearance to flights and home delivery."
+    }
+  }
+}
