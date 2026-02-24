@@ -155,29 +155,27 @@ export function CountrySelect({
           helperText={helperText}
           hiddenLabel={hiddenLabel}
           error={!!error}
-          slotProps={{
-            htmlInput: {
-              ...params.inputProps,
-              autoComplete: 'new-password',
-            },
-            input: {
-              ...params.InputProps,
-              ...(hasAdornment && {
-                startAdornment: (
-                  <InputAdornment position="start">
-                    <FlagIcon
-                      code={country.code}
-                      sx={{
-                        width: 20,
-                        height: 15,
-                        borderRadius: '2px',
-                        boxShadow: '0 0 0 1px rgba(0,0,0,0.08)',
-                      }}
-                    />
-                  </InputAdornment>
-                ),
-              }),
-            },
+          inputProps={{
+            ...params.inputProps,
+            autoComplete: 'new-password',
+          }}
+          InputProps={{
+            ...params.InputProps,
+            ...(hasAdornment && {
+              startAdornment: (
+                <InputAdornment position="start">
+                  <FlagIcon
+                    code={country.code}
+                    sx={{
+                      width: 20,
+                      height: 15,
+                      borderRadius: '2px',
+                      boxShadow: '0 0 0 1px rgba(0,0,0,0.08)',
+                    }}
+                  />
+                </InputAdornment>
+              ),
+            }),
           }}
           sx={[!multiple && textFieldStyles]}
         />
@@ -186,13 +184,13 @@ export function CountrySelect({
     [error, helperText, hiddenLabel, label, multiple, placeholder, variant]
   );
 
-  const renderValue = useCallback(
-    (selected, getItemProps) =>
+  const renderTags = useCallback(
+    (selected, getTagProps) =>
       selected.map((option, index) => {
         const country = getCountry(option);
         return (
           <Chip
-            {...getItemProps({ index })}
+            {...getTagProps({ index })}
             key={country.label}
             label={country.label}
             size="small"
@@ -221,7 +219,7 @@ export function CountrySelect({
       getOptionLabel={getOptionLabel}
       renderOption={renderOption}
       renderInput={renderInput}
-      renderValue={multiple ? renderValue : undefined}
+      renderTags={multiple ? renderTags : undefined}
       PopperComponent={DownwardPopper}
       {...autocompleteProps}
     />

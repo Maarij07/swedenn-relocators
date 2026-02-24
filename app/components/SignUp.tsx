@@ -2,6 +2,12 @@
 
 import { useState, useEffect, memo } from 'react';
 
+const PORTAL_URL = 'https://portal.swedenrelocators.se';
+
+const redirectToPortal = () => {
+  window.open(PORTAL_URL, '_blank', 'noopener,noreferrer');
+};
+
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Select from '@mui/material/Select';
@@ -138,7 +144,11 @@ const LeftSection = memo(function LeftSection({ selectedAccount }: { selectedAcc
         {SOCIAL_MEDIA_LINKS.map((social) => (
           <Link
             key={social.label}
-            href={social.path}
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              redirectToPortal();
+            }}
             target="_blank"
             rel="noopener noreferrer"
             sx={{
@@ -153,6 +163,7 @@ const LeftSection = memo(function LeftSection({ selectedAccount }: { selectedAcc
               transition: "all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
               position: 'relative',
               overflow: 'hidden',
+              cursor: 'pointer',
               "&::before": {
                 content: '""',
                 position: 'absolute',
@@ -170,6 +181,7 @@ const LeftSection = memo(function LeftSection({ selectedAccount }: { selectedAcc
                 transform: "translateY(-6px)",
                 boxShadow: "0 12px 32px rgba(0, 167, 111, 0.25)",
                 backgroundColor: 'rgba(0, 184, 217, 0.05)',
+                cursor: 'pointer',
                 "&::before": {
                   width: '100%',
                   height: '100%'
@@ -439,6 +451,16 @@ const RightSection = memo(function RightSection() {
                 labelId="account-type-label"
                 value={selectedAccountType}
                 label="Account Type"
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
                 onChange={handleAccountTypeChange}
                 sx={{ 
                   '& .MuiSelect-select': { 
@@ -446,11 +468,35 @@ const RightSection = memo(function RightSection() {
                     fontSize: { xs: '0.8rem', md: '0.85rem' },
                     letterSpacing: '0.2px',
                     color: '#212B36',
+                  },
+                  cursor: 'pointer',
+                  '&:hover': {
+                    cursor: 'pointer'
                   }
                 }}
               >
                 {accountTypes.map((type) => (
-                  <MenuItem key={type.id} value={type.id}>
+                  <MenuItem 
+                    key={type.id} 
+                    value={type.id}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
+                    onMouseDown={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
+                    sx={{
+                      cursor: 'pointer',
+                      '&:hover': {
+                        cursor: 'pointer',
+                        backgroundColor: 'rgba(0, 0, 0, 0.04)'
+                      }
+                    }}
+                  >
                     <Box sx={{ display: 'flex', flexDirection: 'column', py: { xs: 0.3, md: 0.5 } }}>
                       <Typography variant="subtitle2" sx={{ fontWeight: 700, fontSize: { xs: '0.75rem', md: '0.8rem' }, color: '#212B36' }}>
                         {type.label}
@@ -507,6 +553,16 @@ const RightSection = memo(function RightSection() {
                 labelId="subtype-label"
                 value={selectedSubType}
                 label={`${selectedAccount?.label} Subtype`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
                 onChange={handleSubTypeChange}
                 disabled={!selectedAccountType}
                 MenuProps={{
@@ -522,11 +578,35 @@ const RightSection = memo(function RightSection() {
                     fontSize: { xs: '0.8rem', md: '0.85rem' },
                     letterSpacing: '0.2px',
                     color: '#212B36',
+                  },
+                  cursor: 'pointer',
+                  '&:hover': {
+                    cursor: 'pointer'
                   }
                 }}
               >
                 {selectedAccount?.subtypes?.map((subtype: any) => (
-                  <MenuItem key={subtype.id} value={subtype.id}>
+                  <MenuItem 
+                    key={subtype.id} 
+                    value={subtype.id}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
+                    onMouseDown={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      redirectToPortal();
+                    }}
+                    sx={{
+                      cursor: 'pointer',
+                      '&:hover': {
+                        cursor: 'pointer',
+                        backgroundColor: 'rgba(0, 0, 0, 0.04)'
+                      }
+                    }}
+                  >
                     <Box sx={{ display: 'flex', flexDirection: 'column', py: { xs: 0.3, md: 0.5 } }}>
                       <Typography variant="subtitle2" sx={{ fontWeight: 700, fontSize: { xs: '0.75rem', md: '0.8rem' }, color: '#212B36' }}>
                         {subtype.label}
@@ -548,7 +628,17 @@ const RightSection = memo(function RightSection() {
                 fullWidth
                 variant="contained"
                 size="large"
-                onClick={handleCreateAccount}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  handleCreateAccount();
+                  redirectToPortal();
+                }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
                 disabled={!selectedSubType}
                 sx={{
                   backgroundColor: !selectedSubType ? 'rgba(145, 158, 171, 0.24)' : 'rgba(145, 158, 171, 0.24)',
@@ -564,8 +654,10 @@ const RightSection = memo(function RightSection() {
                   justifyContent: 'space-between',
                   alignItems: 'center',
                   textTransform: 'none',
+                  cursor: !selectedSubType ? 'not-allowed' : 'pointer',
                   '&:hover': {
                     backgroundColor: 'rgba(145, 158, 171, 0.24)',
+                    cursor: !selectedSubType ? 'not-allowed' : 'pointer'
                   },
                   '&:disabled': {
                     backgroundColor: 'rgba(145, 158, 171, 0.24)',

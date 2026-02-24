@@ -156,17 +156,19 @@ export default function RelocationSuccessSection() {
   };
 
   return (
-    <section className="bg-[#EBF4FF]">
+    <section className="bg-white">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
         {/* Centered heading + sub-heading */}
-        <div className="text-center mb-10 sm:mb-12 lg:mb-14">
-          <div className="max-w-5xl mx-auto bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
-            <h2 className="text-[#0f172a] font-extrabold leading-[1.2] text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
-              {texts.teamProvide}
-            </h2>
-            <h3 className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
-              {texts.relocationServices}
-            </h3>
+        <div className="mb-10 sm:mb-12 lg:mb-14">
+          <div className="bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+            <div className="w-full text-center px-4 sm:px-6 lg:px-8 xl:px-12">
+              <h2 className="text-[#0f172a] font-extrabold leading-[1.2] text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+                {texts.teamProvide}
+              </h2>
+              <h3 className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+                {texts.relocationServices}
+              </h3>
+            </div>
           </div>
         </div>
 

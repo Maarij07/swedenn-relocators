@@ -121,7 +121,7 @@ export default function VerticalFeatureCarousel() {
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
 
         <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-16 xl:mb-20">
-          <div className="max-w-5xl mx-auto bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+          <div className="bg-white rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
             <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] leading-[1.2] font-extrabold text-[#0f172a] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
               {isSv ? 'Vi stärker företag med digitala lösningar' : 'Empowering Business with Digital Solutions'}
             </h2>

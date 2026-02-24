@@ -189,10 +189,6 @@ export default function VisaApplicationJourney() {
 
   return (
     <Box
-      onPointerDownCapture={handleUserInteraction}
-      onClickCapture={handleUserInteraction}
-      onChangeCapture={handleUserInteraction}
-      onKeyDownCapture={handleUserInteraction}
       sx={{
         width: '100%',
         backgroundColor: '#FFFFFF',
@@ -210,8 +206,6 @@ export default function VisaApplicationJourney() {
         <Box sx={{ mb: { xs: 7, sm: 9, lg: 12 }, textAlign: 'center' }}>
           <Box
             sx={{
-              maxWidth: '80rem',
-              mx: 'auto',
               backgroundColor: '#eff6ff',
               borderRadius: '0.5rem',
               borderLeft: '4px solid #3b82f6',
@@ -297,9 +291,12 @@ export default function VisaApplicationJourney() {
                 return (
                   <Box
                     key={s.name}
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
                       setIsManual(true);
                       setActiveStep(i as StepIndex);
+                      redirectToPortal();
                     }}
                     sx={{
                       position: 'absolute',
@@ -529,6 +526,16 @@ export default function VisaApplicationJourney() {
                           <TextField
                             placeholder="Demo"
                             fullWidth
+                            onClick={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
+                            onMouseDown={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
                             sx={{
                               '& .MuiOutlinedInput-root': {
                                 borderRadius: '10px',
@@ -553,6 +560,16 @@ export default function VisaApplicationJourney() {
                           <TextField
                             placeholder="Vemsen"
                             fullWidth
+                            onClick={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
+                            onMouseDown={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
                             sx={{
                               '& .MuiOutlinedInput-root': {
                                 borderRadius: '10px',
@@ -582,6 +599,16 @@ export default function VisaApplicationJourney() {
                             type="date"
                             defaultValue="2005-10-15"
                             fullWidth
+                            onClick={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
+                            onMouseDown={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
                             sx={{
                               '& .MuiOutlinedInput-root': {
                                 borderRadius: '10px',
@@ -605,8 +632,15 @@ export default function VisaApplicationJourney() {
                           </Typography>
                           <Box
                             onClick={(e) => {
+                              e.preventDefault();
                               e.stopPropagation();
                               setGender(gender === 'open' ? '' : 'open');
+                              redirectToPortal();
+                            }}
+                            onMouseDown={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
                             }}
                             sx={{
                               borderRadius: '10px',
@@ -666,7 +700,12 @@ export default function VisaApplicationJourney() {
                                 }}
                               >
                                 <Box
-                                  onClick={() => setGender('male')}
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    setGender('male');
+                                    redirectToPortal();
+                                  }}
                                   sx={{
                                     px: 2,
                                     py: 1.5,
@@ -681,7 +720,12 @@ export default function VisaApplicationJourney() {
                                   <Typography sx={{ fontSize: '0.9rem', color: '#0f172a' }}>Male</Typography>
                                 </Box>
                                 <Box
-                                  onClick={() => setGender('female')}
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    setGender('female');
+                                    redirectToPortal();
+                                  }}
                                   sx={{
                                     px: 2,
                                     py: 1.5,
@@ -711,6 +755,16 @@ export default function VisaApplicationJourney() {
                           <TextField
                             placeholder="Canada"
                             fullWidth
+                            onClick={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
+                            onMouseDown={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
                             sx={{
                               '& .MuiOutlinedInput-root': {
                                 borderRadius: '10px',
@@ -735,6 +789,16 @@ export default function VisaApplicationJourney() {
                           <TextField
                             placeholder="AB123456"
                             fullWidth
+                            onClick={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
+                            onMouseDown={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
                             sx={{
                               '& .MuiOutlinedInput-root': {
                                 borderRadius: '10px',
@@ -764,7 +828,18 @@ export default function VisaApplicationJourney() {
                             type="date"
                             defaultValue="2020-10-16"
                             fullWidth
+                            onClick={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
+                            onMouseDown={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
                             sx={{
+                              cursor: 'pointer',
                               '& .MuiOutlinedInput-root': {
                                 borderRadius: '10px',
                                 backgroundColor: '#ffffff',
@@ -789,7 +864,18 @@ export default function VisaApplicationJourney() {
                             type="date"
                             defaultValue="2030-10-15"
                             fullWidth
+                            onClick={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
+                            onMouseDown={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              redirectToPortal();
+                            }}
                             sx={{
+                              cursor: 'pointer',
                               '& .MuiOutlinedInput-root': {
                                 borderRadius: '10px',
                                 backgroundColor: '#ffffff',
@@ -816,7 +902,18 @@ export default function VisaApplicationJourney() {
                         <TextField
                           placeholder="+12345678540"
                           fullWidth
+                          onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            redirectToPortal();
+                          }}
+                          onMouseDown={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            redirectToPortal();
+                          }}
                           sx={{
+                            cursor: 'pointer',
                             '& .MuiOutlinedInput-root': {
                               borderRadius: '10px',
                               backgroundColor: '#ffffff',
@@ -843,7 +940,18 @@ export default function VisaApplicationJourney() {
                           placeholder="demovemsen@live.se"
                           type="email"
                           fullWidth
+                          onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            redirectToPortal();
+                          }}
+                          onMouseDown={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            redirectToPortal();
+                          }}
                           sx={{
+                            cursor: 'pointer',
                             '& .MuiOutlinedInput-root': {
                               borderRadius: '10px',
                               backgroundColor: '#ffffff',
@@ -871,7 +979,18 @@ export default function VisaApplicationJourney() {
                           multiline
                           rows={2}
                           fullWidth
+                          onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            redirectToPortal();
+                          }}
+                          onMouseDown={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            redirectToPortal();
+                          }}
                           sx={{
+                            cursor: 'pointer',
                             '& .MuiOutlinedInput-root': {
                               borderRadius: '10px',
                               backgroundColor: '#ffffff',
@@ -899,7 +1018,18 @@ export default function VisaApplicationJourney() {
                           multiline
                           rows={2}
                           fullWidth
+                          onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            redirectToPortal();
+                          }}
+                          onMouseDown={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            redirectToPortal();
+                          }}
                           sx={{
+                            cursor: 'pointer',
                             '& .MuiOutlinedInput-root': {
                               borderRadius: '10px',
                               backgroundColor: '#ffffff',
@@ -922,7 +1052,12 @@ export default function VisaApplicationJourney() {
                     <Box sx={{ display: 'flex', gap: 2, mt: 1.5 }}>
                       <Button
                         variant="outlined"
-                        onClick={() => setActiveStep(0)}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          setActiveStep(0);
+                          redirectToPortal();
+                        }}
                         sx={{
                           color: '#3b82f6',
                           borderColor: '#3b82f6',
@@ -931,6 +1066,7 @@ export default function VisaApplicationJourney() {
                           py: 1.2,
                           px: 3,
                           borderRadius: '10px',
+                          cursor: 'pointer',
                           '&:hover': {
                             borderColor: '#2563eb',
                             backgroundColor: '#eff6ff',
@@ -941,7 +1077,12 @@ export default function VisaApplicationJourney() {
                       </Button>
                       <Button
                         variant="contained"
-                        onClick={() => setActiveStep(2)}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          setActiveStep(2);
+                          redirectToPortal();
+                        }}
                         sx={{
                           backgroundColor: '#3b82f6',
                           textTransform: 'none',
@@ -949,6 +1090,7 @@ export default function VisaApplicationJourney() {
                           fontSize: '0.9rem',
                           py: 1.2,
                           borderRadius: '10px',
+                          cursor: 'pointer',
                           '&:hover': {
                             backgroundColor: '#2563eb',
                           },

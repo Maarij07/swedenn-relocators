@@ -1,6 +1,12 @@
 'use client';
 
 import { useMemo, useRef, useState, useCallback } from 'react';
+
+const PORTAL_URL = 'https://portal.swedenrelocators.se';
+
+const redirectToPortal = () => {
+  window.open(PORTAL_URL, '_blank', 'noopener,noreferrer');
+};
 import { useTranslation } from 'react-i18next';
 
 import Box from '@mui/material/Box';
@@ -268,11 +274,25 @@ export function UpcomingAppointments() {
             </Typography>
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
               <IconButton
-                onClick={handleDatePrev}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  handleDatePrev();
+                  redirectToPortal();
+                }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
                 sx={{
                   p: 1,
                   color: '#637381',
-                  '&:hover': { bgcolor: 'rgba(145, 158, 171, 0.08)' },
+                  cursor: 'pointer',
+                  '&:hover': { 
+                    bgcolor: 'rgba(145, 158, 171, 0.08)',
+                    cursor: 'pointer'
+                  },
                 }}
               >
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -286,7 +306,17 @@ export function UpcomingAppointments() {
                 </svg>
               </IconButton>
               <Button
-                onClick={handleDateToday}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  handleDateToday();
+                  redirectToPortal();
+                }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
                 sx={{
                   px: 2,
                   py: 0.75,
@@ -296,17 +326,35 @@ export function UpcomingAppointments() {
                   textTransform: 'capitalize',
                   fontSize: '0.875rem',
                   fontWeight: 600,
-                  '&:hover': { bgcolor: 'rgba(145, 158, 171, 0.08)' },
+                  cursor: 'pointer',
+                  '&:hover': { 
+                    bgcolor: 'rgba(145, 158, 171, 0.08)',
+                    cursor: 'pointer'
+                  },
                 }}
               >
                 {isSv ? 'Idag' : 'Today'}
               </Button>
               <IconButton
-                onClick={handleDateNext}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  handleDateNext();
+                  redirectToPortal();
+                }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  redirectToPortal();
+                }}
                 sx={{
                   p: 1,
                   color: '#637381',
-                  '&:hover': { bgcolor: 'rgba(145, 158, 171, 0.08)' },
+                  cursor: 'pointer',
+                  '&:hover': { 
+                    bgcolor: 'rgba(145, 158, 171, 0.08)',
+                    cursor: 'pointer'
+                  },
                 }}
               >
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -357,7 +405,17 @@ export function UpcomingAppointments() {
               ].map(({ key, label }) => (
                 <Button
                   key={key}
-                  onClick={() => handleChangeView(key)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    handleChangeView(key);
+                    redirectToPortal();
+                  }}
+                  onMouseDown={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    redirectToPortal();
+                  }}
                   sx={{
                     px: 2,
                     py: 0.75,
@@ -370,8 +428,10 @@ export function UpcomingAppointments() {
                     fontWeight: 600,
                     textTransform: 'capitalize',
                     transition: 'all 0.2s',
+                    cursor: 'pointer',
                     '&:hover': {
                       bgcolor: view === key ? '#FFFFFF' : 'rgba(145, 158, 171, 0.16)',
+                      cursor: 'pointer'
                     },
                   }}
                 >
@@ -554,7 +614,14 @@ export function UpcomingAppointments() {
             headerToolbar={false}
             dayMaxEventRows={3}
             eventDisplay="block"
-            eventClick={handleClickEvent}
+            dateClick={(info) => {
+              handleClickEvent(info);
+              redirectToPortal();
+            }}
+            eventClick={(info) => {
+              handleClickEvent(info);
+              redirectToPortal();
+            }}
             height="auto"
             plugins={[listPlugin, dayGridPlugin, timeGridPlugin, interactionPlugin]}
             eventContent={(eventInfo) => {

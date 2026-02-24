@@ -31,8 +31,6 @@ export function GlobalVisaPlatform() {
         <Box sx={{ textAlign: 'center', mb: { xs: '2rem', sm: '2.5rem', lg: '3rem' } }}>
           <Box
             sx={{
-              maxWidth: '80rem',
-              mx: 'auto',
               backgroundColor: '#eff6ff',
               borderRadius: '0.5rem',
               borderLeft: '4px solid #3b82f6',
