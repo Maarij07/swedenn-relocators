@@ -4,6 +4,10 @@
       "title": "Veelgestelde vragen",
       "description": "Vind antwoorden op veelgestelde vragen over verhuizing, visa's en onze diensten."
     },
+    "tabs": {
+      "client": "Klant",
+      "company": "Bedrijf"
+    },
     "sectionHeading": {
       "badge": "Duidelijke begeleiding, juiste ondersteuning, jouw weg vooruit",
       "titlePart1": "Jouw vragen",

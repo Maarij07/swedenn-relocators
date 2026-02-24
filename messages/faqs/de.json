@@ -4,6 +4,10 @@
       "title": "Häufig gestellte Fragen",
       "description": "Finden Sie Antworten auf häufig gestellte Fragen zu Umzug, Visa und unseren Dienstleistungen."
     },
+    "tabs": {
+      "client": "Kunde",
+      "company": "Unternehmen"
+    },
     "sectionHeading": {
       "badge": "Klare Anleitung, richtige Unterstützung, dein Weg nach vorne",
       "titlePart1": "Deine Fragen",

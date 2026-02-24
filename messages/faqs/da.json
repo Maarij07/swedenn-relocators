@@ -4,6 +4,10 @@
       "title": "Ofte stillede spørgsmål",
       "description": "Find svar på almindelige spørgsmål om flytning, visa og vores tjenester."
     },
+    "tabs": {
+      "client": "Klient",
+      "company": "Virksomhed"
+    },
     "sectionHeading": {
       "badge": "Klar vejledning, rigtig support, din vej fremad",
       "titlePart1": "Dine spørgsmål",

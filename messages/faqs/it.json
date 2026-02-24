@@ -4,6 +4,10 @@
       "title": "Domande frequenti",
       "description": "Trova risposte alle domande comuni su trasferimento, visti e i nostri servizi."
     },
+    "tabs": {
+      "client": "Cliente",
+      "company": "Azienda"
+    },
     "sectionHeading": {
       "badge": "Guida chiara, supporto appropriato, il tuo percorso in avanti",
       "titlePart1": "Le tue domande",

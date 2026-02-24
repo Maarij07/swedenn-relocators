@@ -4,6 +4,10 @@
       "title": "Vanliga frågor",
       "description": "Hitta svar på vanliga frågor om relokering, visum och våra tjänster."
     },
+    "tabs": {
+      "client": "Klient",
+      "company": "Företag"
+    },
     "sectionHeading": {
       "badge": "Tydlig vägledning, rätt stöd, din väg framåt",
       "titlePart1": "Dina frågor",

@@ -4,6 +4,10 @@
       "title": "Questions fréquemment posées",
       "description": "Trouvez des réponses aux questions courantes sur la relocalisation, les visas et nos services."
     },
+    "tabs": {
+      "client": "Client",
+      "company": "Entreprise"
+    },
     "sectionHeading": {
       "badge": "Conseils clairs, soutien approprié, votre chemin vers l'avant",
       "titlePart1": "Vos questions",

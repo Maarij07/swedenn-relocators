@@ -4,6 +4,10 @@
       "title": "Ofte stilte spørsmål",
       "description": "Finn svar på vanlige spørsmål om flytting, visum og våre tjenester."
     },
+    "tabs": {
+      "client": "Klient",
+      "company": "Bedrift"
+    },
     "sectionHeading": {
       "badge": "Klar veiledning, riktig støtte, din vei fremover",
       "titlePart1": "Dine spørsmål",

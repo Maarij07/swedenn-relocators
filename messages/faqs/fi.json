@@ -4,6 +4,10 @@
       "title": "Usein kysytyt kysymykset",
       "description": "Etsi vastauksia yleisiin kysymyksiin muutosta, viisumista ja palveluistamme."
     },
+    "tabs": {
+      "client": "Asiakas",
+      "company": "Yritys"
+    },
     "sectionHeading": {
       "badge": "Selkeä ohjaus, oikea tuki, sinun tiesi eteenpäin",
       "titlePart1": "Sinun kysymyksesi",

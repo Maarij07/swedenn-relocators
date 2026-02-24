@@ -4,6 +4,10 @@
       "title": "Preguntas frecuentes",
       "description": "Encuentre respuestas a preguntas comunes sobre reubicación, visas y nuestros servicios."
     },
+    "tabs": {
+      "client": "Cliente",
+      "company": "Empresa"
+    },
     "sectionHeading": {
       "badge": "Orientación clara, apoyo adecuado, tu camino hacia adelante",
       "titlePart1": "Tus preguntas",

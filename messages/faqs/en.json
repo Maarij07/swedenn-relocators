@@ -4,6 +4,10 @@
       "title": "Frequently Asked Questions",
       "description": "Find answers to common questions about relocation, visas, and our services."
     },
+    "tabs": {
+      "client": "Client",
+      "company": "Company"
+    },
     "sectionHeading": {
       "badge": "Clear Guidance, Right Support, Your Path Forward",
       "titlePart1": "Your Questions",

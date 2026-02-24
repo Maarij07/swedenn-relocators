@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useParams } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
@@ -26,6 +26,14 @@ interface APIResponse {
   data: FAQType[];
 }
 
+interface CachedFAQData {
+  allFaqTypes: FAQType[];
+  flattenedFaqs: FAQ[];
+}
+
+// Cache object to store FAQs data by role
+const faqCache = new Map<'client' | 'company', CachedFAQData>();
+
 export default function FAQsPage() {
   const { t } = useTranslation();
   const params = useParams();
@@ -35,20 +43,39 @@ export default function FAQsPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedCardIndex, setSelectedCardIndex] = useState(0);
+  const [selectedRole, setSelectedRole] = useState<'client' | 'company'>('client');
+  const isMountedRef = useRef(true);
+
+  useEffect(() => {
+    return () => {
+      isMountedRef.current = false;
+    };
+  }, []);
 
   useEffect(() => {
     const fetchFAQs = async () => {
+      // Check if data is already cached
+      if (faqCache.has(selectedRole)) {
+        const cachedData = faqCache.get(selectedRole)!;
+        if (isMountedRef.current) {
+          setAllFaqTypes(cachedData.allFaqTypes);
+          setFaqs(cachedData.flattenedFaqs);
+          setError(null);
+          setLoading(false);
+        }
+        return;
+      }
+
       try {
         setLoading(true);
         const baseUrl = process.env.NEXT_PUBLIC_API_URL;
-        const response = await fetch(`${baseUrl}/miscellaneous/faqs?faq_for=client`);
+        const response = await fetch(`${baseUrl}/miscellaneous/faqs?faq_for=${selectedRole}`);
         
         if (!response.ok) {
           throw new Error('Failed to fetch FAQs');
         }
 
         const data: APIResponse = await response.json();
-        setAllFaqTypes(data.data || []);
         
         // Flatten all FAQs for "Show All" view
         const flattenedFaqs: FAQ[] = [];
@@ -64,19 +91,32 @@ export default function FAQsPage() {
           });
         }
 
-        setFaqs(flattenedFaqs);
-        setError(null);
+        // Store in cache
+        faqCache.set(selectedRole, {
+          allFaqTypes: data.data || [],
+          flattenedFaqs
+        });
+
+        if (isMountedRef.current) {
+          setAllFaqTypes(data.data || []);
+          setFaqs(flattenedFaqs);
+          setError(null);
+        }
       } catch (err) {
         console.error('Error fetching FAQs:', err);
-        setError('Failed to load FAQs');
-        setFaqs([]);
+        if (isMountedRef.current) {
+          setError('Failed to load FAQs');
+          setFaqs([]);
+        }
       } finally {
-        setLoading(false);
+        if (isMountedRef.current) {
+          setLoading(false);
+        }
       }
     };
 
     fetchFAQs();
-  }, []);
+  }, [selectedRole]);
 
   const handleCardClick = (index: number) => {
     setSelectedCardIndex(index);
@@ -167,6 +207,38 @@ export default function FAQsPage() {
             width: '1400px',
             maxWidth: 'calc(100% - 32px)'
           }}>
+            {/* Role Tabs */}
+            <div className="flex gap-4 mb-8 sm:mb-12">
+              <button
+                onClick={() => {
+                  setSelectedRole('client');
+                  setSelectedCardIndex(0);
+                  setOpenIndex(null);
+                }}
+                className={`px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-[14px] sm:text-[15px] transition-all ${
+                  selectedRole === 'client'
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-white text-gray-900 border border-gray-300 hover:bg-gray-50'
+                }`}
+              >
+                {t('faqs.tabs.client')}
+              </button>
+              <button
+                onClick={() => {
+                  setSelectedRole('company');
+                  setSelectedCardIndex(0);
+                  setOpenIndex(null);
+                }}
+                className={`px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-[14px] sm:text-[15px] transition-all ${
+                  selectedRole === 'company'
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-white text-gray-900 border border-gray-300 hover:bg-gray-50'
+                }`}
+              >
+                {t('faqs.tabs.company')}
+              </button>
+            </div>
+
             <div className="grid lg:grid-cols-7 gap-4 sm:gap-6">
               {(() => {
                 const cards = t('faqs.cards', { returnObjects: true }) as Array<{ title: string }>;
