@@ -34,7 +34,6 @@ export default function Home() {
       <div className="home-snap-section"><VisaApplicationJourney /></div>
       <div className="home-snap-section" ><CitizenshipResidencySection /></div>
       <div className="home-snap-section"><VerticalFeatureCarousel /></div>
-      <div className="home-snap-section"><RelocationSuccessSection /></div>
     </>
   );
 }

@@ -9,7 +9,7 @@ import { useState } from 'react';
 const BLOGS = [
   {
     id: 1,
-    image: '/relocation.svg',
+    image: '/relocating-to-sweden.svg',
     date: '10 March 2023',
     title: "5 Things To Keep In Mind If You're Relocating To Sweden",
     description:
@@ -25,7 +25,7 @@ const BLOGS = [
   },
   {
     id: 3,
-    image: '/school.svg',
+    image: '/student-fee.svg',
     date: '10 March 2023',
     title: 'A Guide About Student Fee And Admissions In Sweden',
     description:
@@ -33,7 +33,7 @@ const BLOGS = [
   },
   {
     id: 4,
-    image: '/business-person-holding-cv.svg',
+    image: '/sweden-culture.svg',
     date: '15 April 2023',
     title: 'Understanding Swedish Workplace Culture & Employee Benefits',
     description:

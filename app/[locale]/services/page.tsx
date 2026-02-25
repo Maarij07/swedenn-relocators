@@ -71,6 +71,15 @@ export default function ServicesPage() {
 
       {/* Animations keyframes */}
       <style>{fadeInUp}</style>
+      <style>{`
+        .step-hover-anim {
+          transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .step-hover-anim:hover {
+          box-shadow: 0 4px 16px 0 rgba(36,127,225,0.10);
+          transform: scale(1.025);
+        }
+      `}</style>
 
       {/* Hero Section - CARD STYLE FROM FIGMA */}
       <section className="relative overflow-hidden border border-gray-300 rounded-lg mx-auto" style={{
@@ -117,36 +126,17 @@ export default function ServicesPage() {
       </section>
 
       {/* Section Heading - Our Services */}
-      <section className="bg-white">
-        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20">
-          <div className="text-center" style={{ animation: 'fadeInUp 0.8s ease-out' }}>
-            <p className="text-sm md:text-base lg:text-lg font-normal mb-4" style={{ color: '#002C5C', fontSize: '16px' }}>
-              {t('servicesPage.sectionHeading.badge')}
-            </p>
-            <h2 className="font-black leading-tight" style={{ fontSize: '40px' }}>
-              <span style={{ color: '#000000' }}>{t('servicesPage.sectionHeading.titlePart1')}&nbsp;</span>
-              <span style={{ color: '#6FAAEA' }}>{t('servicesPage.sectionHeading.titlePart2')}</span>
-            </h2>
-          </div>
-        </div>
-      </section>
 
-      {/* Immigration Solutions Band */}
-      <section className="bg-white py-6 sm:py-8 lg:py-10">
+      {/* Immigration Solutions Band - Styled like Home Page */}
+      <section className="py-6 sm:py-8 lg:py-10 mt-14 sm:mt-20">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-          <div className="rounded-lg p-8 sm:p-10 lg:p-12 text-center" style={{
-            backgroundColor: '#DEEEFF',
-            width: '1400px',
-            maxWidth: 'calc(100% - 32px)',
-            margin: '0 auto',
-            animation: 'fadeInUp 0.8s ease-out'
-          }}>
-            <h3 className="font-black leading-tight" style={{ fontSize: '42px', color: '#1D2F43', marginBottom: '8px' }}>
-              {t('servicesPage.immigrationBand.titlePart1')}
-            </h3>
-            <h3 className="font-black leading-tight" style={{ fontSize: '42px', color: '#247FE1' }}>
-              {t('servicesPage.immigrationBand.titlePart2')}
-            </h3>
+          <div className="bg-[#f2f7fd] border-l-4 border-[#247FE1] rounded-xl px-6 py-7 flex flex-col items-center max-w-[1400px] mx-auto" style={{width:'1400px', maxWidth:'calc(100% - 32px)'}}>
+            <h2 className="font-black text-[#10182b] text-center mb-2" style={{ fontSize: '2.5rem', lineHeight: 1.1 }}>
+              Immigration Solutions For
+            </h2>
+            <span className="block text-[#247FE1] text-[1.35rem] font-semibold text-center mt-1" style={{lineHeight:1.2}}>
+              Individual-Families- Businesses
+            </span>
           </div>
         </div>
       </section>
@@ -210,102 +200,101 @@ export default function ServicesPage() {
             width: '1400px',
             maxWidth: 'calc(100% - 32px)'
           }}>
-          {/* Heading */}
-          <div
-            className="text-center max-w-4xl mx-auto mb-10 sm:mb-12 lg:mb-14"
-            style={{ animation: 'fadeInUp 0.8s ease-out' }}
-          >
-            <p className="text-[14px] sm:text-[15px] text-[#647ACB] mb-4 font-medium">
-              Our Complete Digital Solutions Are Designed For Both
-            </p>
-            <h2 className="text-[36px] sm:text-[40px] md:text-[42px] lg:text-[44px] font-bold leading-tight">
-              <span className="text-[#1D2F43]">Individual Clients & </span>
-              <span className="text-[#247FE1]">Corporate Organizations</span>
-            </h2>
-          </div>
-
-          {/* Two-column how-to-start cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 items-stretch">
-            {/* Individual card */}
-            <article
-              className="w-full h-full flex flex-col"
-              style={{ animation: 'fadeInUp 0.8s ease-out', animationDelay: '80ms', animationFillMode: 'both' }}
+            {/* Heading */}
+            <div
+              className="mx-auto mb-10 sm:mb-12 lg:mb-14 mt-14 sm:mt-20"
+              style={{ animation: 'fadeInUp 0.8s ease-out', width: '1400px', maxWidth: 'calc(100% - 32px)' }}
             >
-              {/* Header bar */}
-              <div className="bg-[#DEEEFF] rounded-[12px] px-6 py-3 flex items-center shadow-[0_4px_12px_rgba(0,0,0,0.04)]">
-                <h3 className="text-sm sm:text-[0.95rem] font-medium text-[#174D87]">
-                  {t('servicesPage.howToStart.individual.title')}
-                </h3>
+              <div className="bg-[#f2f7fd] border-l-4 border-[#247FE1] rounded-xl px-6 py-7 flex flex-col items-center w-full">
+                <h2 className="font-black text-[#10182b] text-center mb-2" style={{ fontSize: '2.5rem', lineHeight: 1.1 }}>
+                  Individual Clients & Corporate Organizations
+                </h2>
+                <span className="block text-[#247FE1] text-[1.35rem] font-semibold text-center mt-1" style={{lineHeight:1.2}}>
+                  Our Complete Digital Solutions Are Designed For Both
+                </span>
               </div>
+            </div>
 
-              {/* Step cards */}
-              <div className="mt-4 flex flex-col gap-3">
-                {individualSteps.map((step, idx) => (
-                  <div
-                    key={idx}
-                    className="flex items-center gap-3 rounded-[12px] bg-white shadow-[0_4px_12px_rgba(0,0,0,0.08)] px-5 py-3 min-h-[56px] sm:min-h-[60px] text-[12px] sm:text-[13px] lg:text-[14px] text-gray-700"
-                  >
-                    <span className="inline-flex items-center justify-center w-5 text-[12px] font-semibold text-[#174D87]">
-                      {idx + 1}.
-                    </span>
-                    <span className="leading-snug">{step}</span>
-                  </div>
-                ))}
-              </div>
+            {/* Two-column how-to-start cards, each in its own card */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 items-stretch mb-10">
+              {/* Individual card */}
+              <article
+                className="w-full h-full flex flex-col rounded-2xl shadow-2xl bg-white p-4 sm:p-6 lg:p-8"
+              >
+                {/* Header bar */}
+                <div className="bg-[#DEEEFF] rounded-[12px] px-6 py-3 flex items-center shadow-[0_4px_12px_rgba(0,0,0,0.04)] border-l-4 border-[#247FE1]">
+                  <h3 className="text-sm sm:text-[0.95rem] font-medium text-[#174D87]">
+                    {t('servicesPage.howToStart.individual.title')}
+                  </h3>
+                </div>
 
-              {/* CTA */}
-              <button className="mt-6 w-full inline-flex items-center justify-center rounded-[999px] bg-[#0A3A78] px-6 py-3 text-[13px] sm:text-[14px] font-semibold text-white shadow-[0_8px_20px_rgba(10,58,120,0.35)] hover:bg-[#07294F] transition-colors">
-                {t('servicesPage.howToStart.individual.cta')}
-              </button>
+                {/* Step cards */}
+                <div className="mt-4 flex flex-col gap-3">
+                  {individualSteps.map((step, idx) => (
+                    <div
+                      key={idx}
+                      className="flex items-center gap-3 rounded-[12px] bg-white shadow-[0_4px_12px_rgba(0,0,0,0.08)] px-5 py-3 min-h-[56px] sm:min-h-[60px] text-[12px] sm:text-[13px] lg:text-[14px] text-gray-700 step-hover-anim"
+                    >
+                      <span className="inline-flex items-center justify-center w-5 text-[12px] font-semibold text-[#174D87]">
+                        {idx + 1}.
+                      </span>
+                      <span className="leading-snug">{step}</span>
+                    </div>
+                  ))}
+                </div>
 
-              <p className="mt-3 text-[10px] sm:text-[11px] text-gray-500 text-center leading-relaxed">
-                {t('servicesPage.howToStart.individual.note')}
-              </p>
-              <p className="mt-1 text-[11px] sm:text-xs font-semibold text-[#2F66D5] text-center">
-                {t('servicesPage.howToStart.individual.subNote')}
-              </p>
-            </article>
+                {/* CTA */}
+                <button className="mt-6 w-full inline-flex items-center justify-center rounded-[999px] bg-black hover:bg-gray-800 px-6 py-3 text-[13px] sm:text-[14px] font-semibold text-white shadow-[0_8px_20px_rgba(0,0,0,0.15)] transition-colors">
+                  {t('servicesPage.howToStart.individual.cta')}
+                </button>
 
-            {/* Company card */}
-            <article
-              className="w-full h-full flex flex-col"
-              style={{ animation: 'fadeInUp 0.8s ease-out', animationDelay: '140ms', animationFillMode: 'both' }}
-            >
-              {/* Header bar */}
-              <div className="bg-[#DEEEFF] rounded-[12px] px-6 py-3 flex items-center shadow-[0_4px_12px_rgba(0,0,0,0.04)]">
-                <h3 className="text-sm sm:text-[0.95rem] font-medium text-[#174D87]">
-                  {t('servicesPage.howToStart.company.title')}
-                </h3>
-              </div>
+                <p className="mt-3 text-[10px] sm:text-[11px] text-gray-500 text-center leading-relaxed">
+                  {t('servicesPage.howToStart.individual.note')}
+                </p>
+                <p className="mt-1 text-[11px] sm:text-xs font-semibold text-[#2F66D5] text-center">
+                  {t('servicesPage.howToStart.individual.subNote')}
+                </p>
+              </article>
 
-              {/* Step cards */}
-              <div className="mt-4 flex flex-col gap-3">
-                {companySteps.map((step, idx) => (
-                  <div
-                    key={idx}
-                    className="flex items-center gap-3 rounded-[12px] bg-white shadow-[0_4px_12px_rgba(0,0,0,0.08)] px-5 py-3 min-h-[56px] sm:min-h-[60px] text-[12px] sm:text-[13px] lg:text-[14px] text-gray-700"
-                  >
-                    <span className="inline-flex items-center justify-center w-5 text-[12px] font-semibold text-[#174D87]">
-                      {idx + 1}.
-                    </span>
-                    <span className="leading-snug">{step}</span>
-                  </div>
-                ))}
-              </div>
+              {/* Company card */}
+              <article
+                className="w-full h-full flex flex-col rounded-2xl shadow-2xl bg-white p-4 sm:p-6 lg:p-8"
+              >
+                {/* Header bar */}
+                <div className="bg-[#DEEEFF] rounded-[12px] px-6 py-3 flex items-center shadow-[0_4px_12px_rgba(0,0,0,0.04)] border-l-4 border-[#247FE1]">
+                  <h3 className="text-sm sm:text-[0.95rem] font-medium text-[#174D87]">
+                    {t('servicesPage.howToStart.company.title')}
+                  </h3>
+                </div>
 
-              {/* CTA */}
-              <button className="mt-6 w-full inline-flex items-center justify-center rounded-[999px] bg-[#0A3A78] px-6 py-3 text-[13px] sm:text-[14px] font-semibold text-white shadow-[0_8px_20px_rgba(10,58,120,0.35)] hover:bg-[#07294F] transition-colors">
-                {t('servicesPage.howToStart.company.cta')}
-              </button>
+                {/* Step cards */}
+                <div className="mt-4 flex flex-col gap-3">
+                  {companySteps.map((step, idx) => (
+                    <div
+                      key={idx}
+                      className="flex items-center gap-3 rounded-[12px] bg-white shadow-[0_4px_12px_rgba(0,0,0,0.08)] px-5 py-3 min-h-[56px] sm:min-h-[60px] text-[12px] sm:text-[13px] lg:text-[14px] text-gray-700 step-hover-anim"
+                    >
+                      <span className="inline-flex items-center justify-center w-5 text-[12px] font-semibold text-[#174D87]">
+                        {idx + 1}.
+                      </span>
+                      <span className="leading-snug">{step}</span>
+                    </div>
+                  ))}
+                </div>
 
-              <p className="mt-3 text-[10px] sm:text-[11px] text-gray-500 text-center leading-relaxed">
-                {t('servicesPage.howToStart.company.note')}
-              </p>
-              <p className="mt-1 text-[11px] sm:text-xs font-semibold text-[#2F66D5] text-center">
-                {t('servicesPage.howToStart.company.subNote')}
-              </p>
-            </article>
-          </div>
+                {/* CTA */}
+                <button className="mt-6 w-full inline-flex items-center justify-center rounded-[999px] bg-black hover:bg-gray-800 px-6 py-3 text-[13px] sm:text-[14px] font-semibold text-white shadow-[0_8px_20px_rgba(0,0,0,0.15)] transition-colors">
+                  {t('servicesPage.howToStart.company.cta')}
+                </button>
+
+                <p className="mt-3 text-[10px] sm:text-[11px] text-gray-500 text-center leading-relaxed">
+                  {t('servicesPage.howToStart.company.note')}
+                </p>
+                <p className="mt-1 text-[11px] sm:text-xs font-semibold text-[#2F66D5] text-center">
+                  {t('servicesPage.howToStart.company.subNote')}
+                </p>
+              </article>
+            </div>
           </div>
         </div>
       </section>

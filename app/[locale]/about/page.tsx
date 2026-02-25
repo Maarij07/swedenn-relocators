@@ -457,19 +457,19 @@ export default function AboutPage() {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
-                height: '289px',
+                width: '1500px',
                 maxWidth: '1500px',
-                width: '100%',
+                height: '289px',
                 margin: '160px auto 0'
             }}>
                 {/* Overlay - Dark with #141A21 at 88% opacity */}
                 <div className="absolute inset-0 rounded-lg" style={{ backgroundColor: 'rgba(20, 26, 33, 0.88)' }}></div>
 
-                <div className="relative h-full pt-6 sm:pt-8 pb-6 sm:pb-8 px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+                <div className="relative h-full px-8 sm:px-10">
                     <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto h-full">
-                        <div className="grid lg:grid-cols-2 gap-8 items-center h-full">
+                        <div className="grid lg:grid-cols-2 gap-8 items-center h-full" style={{height: '289px', minHeight: '289px'}}>
                             {/* Left Content */}
-                            <div>
+                            <div className="flex flex-col justify-center h-full">
                                 <h1 className="text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] lg:text-[2.25rem] leading-[1.1] font-bold text-white mb-2">
                                     About Us
                                 </h1>
@@ -482,15 +482,15 @@ export default function AboutPage() {
                             </div>
 
                             {/* Right - Illustration */}
-                            <div className="relative w-full flex justify-center lg:justify-end">
-                                <Image
-                                    src="/service-illustration.svg"
-                                    alt="About Sweden Relocators illustration"
-                                    width={300}
-                                    height={250}
-                                    className="object-contain"
-                                    priority
-                                />
+                            <div className="relative w-full flex justify-center lg:justify-end items-center h-full">
+                                    <Image
+                                        src="/employee-solution.svg"
+                                        alt="About Sweden Relocators illustration"
+                                        width={300}
+                                        height={250}
+                                        className="object-contain"
+                                        priority
+                                    />
                             </div>
                         </div>
                     </div>
@@ -854,7 +854,7 @@ export default function AboutPage() {
                                 className="relative z-0"
                             >
                                 <Image
-                                    src="/employee-solution.svg"
+                                    src="/employee-solutions.svg"
                                     alt="Employee Solutions"
                                     width={500}
                                     height={500}
@@ -932,7 +932,7 @@ export default function AboutPage() {
                                 className="relative z-0"
                             >
                                 <Image
-                                    src="/relocators-denmark.svg"
+                                    src="/Nordic-Relocators.svg"
                                     alt="Nordic Relocators Denmark"
                                     width={500}
                                     height={500}
@@ -1018,7 +1018,7 @@ export default function AboutPage() {
                                     />
                                     <div className="flex items-center justify-center relative z-10">
                                         <Image
-                                            src="/s4.svg"
+                                            src="/services/s4.svg"
                                             alt="Student Admission Services"
                                             width={140}
                                             height={140}
@@ -1068,7 +1068,7 @@ export default function AboutPage() {
                                     />
                                     <div className="flex items-center justify-center relative z-10">
                                         <Image
-                                            src="/s3.svg"
+                                            src="/services/s18.svg"
                                             alt="Work & Business"
                                             width={140}
                                             height={140}
@@ -1118,7 +1118,7 @@ export default function AboutPage() {
                                     />
                                     <div className="flex items-center justify-center relative z-10">
                                         <Image
-                                            src="/s6.svg"
+                                            src="/services/s6.svg"
                                             alt="Family Relocation"
                                             width={140}
                                             height={140}
@@ -1168,7 +1168,7 @@ export default function AboutPage() {
                                     />
                                     <div className="flex items-center justify-center relative z-10">
                                         <Image
-                                            src="/s7.svg"
+                                            src="/investment-solutions.svg"
                                             alt="Investment Solutions"
                                             width={140}
                                             height={140}
