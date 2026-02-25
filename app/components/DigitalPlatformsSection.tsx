@@ -9,25 +9,25 @@ const features = [
     id: 'visa-tracking',
     titleKey: 'digitalPlatforms.features.visaTracking.title',
     descKey: 'digitalPlatforms.features.visaTracking.desc',
-    icon: '/Work-permit-illustration.svg',
+    icon: '/visa-permit-tracking.svg',
   },
   {
     id: 'document-management',
     titleKey: 'digitalPlatforms.features.documentManagement.title',
     descKey: 'digitalPlatforms.features.documentManagement.desc',
-    icon: '/doc1.svg',
+    icon: '/secure-document-management.svg',
   },
   {
     id: 'housing-solutions',
     titleKey: 'digitalPlatforms.features.housingSolutions.title',
     descKey: 'digitalPlatforms.features.housingSolutions.desc',
-    icon: '/s5.svg',
+    icon: '/housing-accomodation.svg',
   },
   {
     id: 'compliance-management',
     titleKey: 'digitalPlatforms.features.complianceManagement.title',
     descKey: 'digitalPlatforms.features.complianceManagement.desc',
-    icon: '/service-illustration.svg',
+    icon: '/Compliance-Support.svg',
   },
 ];
 
