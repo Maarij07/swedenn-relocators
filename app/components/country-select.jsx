@@ -26,19 +26,41 @@ function DownwardPopper(props) {
 // Flag icon component using country code
 function FlagIcon({ code, sx }) {
   if (!code) return null;
-  
   return (
-    <img
-      src={`https://flagcdn.com/w20/${code.toLowerCase()}.png`}
-      srcSet={`https://flagcdn.com/w40/${code.toLowerCase()}.png 2x`}
-      alt={code}
+    <span
       style={{
-        width: '20px',
-        height: '15px',
-        borderRadius: '2px',
+        display: 'inline-flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: '32px',
+        height: '32px',
+        minWidth: '32px',
+        minHeight: '32px',
+        borderRadius: '50%',
+        overflow: 'hidden',
+        background: 'none',
+        border: 'none',
+        boxShadow: 'none',
+        outline: 'none',
         ...sx,
       }}
-    />
+    >
+      <img
+        src={`https://flagcdn.com/w40/${code.toLowerCase()}.png`}
+        alt={code}
+        style={{
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          borderRadius: '50%',
+          display: 'block',
+          margin: 0,
+          border: 'none',
+          boxShadow: 'none',
+          outline: 'none',
+        }}
+      />
+    </span>
   );
 }
 
@@ -106,9 +128,10 @@ export function CountrySelect({
             sx={{
               mr: 1.5,
               width: 24,
-              height: 18,
-              borderRadius: '2px',
-              boxShadow: '0 0 0 1px rgba(0,0,0,0.08)',
+              height: 24,
+              borderRadius: '50%',
+              boxShadow: 'none',
+              border: 'none',
             }}
           />
           <span style={{ marginLeft: '8px' }}>
