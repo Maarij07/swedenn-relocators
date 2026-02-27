@@ -234,20 +234,16 @@ export default function CitizenshipResidencySection() {
                     sx={{
                       width: 36,
                       height: 36,
-                      borderRadius: '12px',
+                      borderRadius: '50%',
                       overflow: 'hidden',
-                      boxShadow: '0 4px 8px rgba(15,23,42,0.08)',
-                      border: '2px solid #f8fafc',
-                      backgroundColor: '#ffffff',
+                      backgroundColor: '#fff',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      transition: 'all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
+                      transition: 'transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
                       cursor: 'pointer',
                       '&:hover': {
                         transform: 'scale(1.15) translateY(-2px)',
-                        boxShadow: '0 8px 20px rgba(15,23,42,0.15)',
-                        borderColor: '#e0f2fe',
                         zIndex: 10,
                       },
                     }}
@@ -261,6 +257,7 @@ export default function CitizenshipResidencySection() {
                         width: '100%',
                         height: '100%',
                         objectFit: 'cover',
+                        borderRadius: '50%',
                       }}
                     />
                   </Box>
@@ -390,20 +387,16 @@ export default function CitizenshipResidencySection() {
                     sx={{
                       width: 36,
                       height: 36,
-                      borderRadius: '12px',
+                      borderRadius: '50%',
                       overflow: 'hidden',
-                      boxShadow: '0 4px 8px rgba(15,23,42,0.08)',
-                      border: '2px solid #f8fafc',
-                      backgroundColor: '#ffffff',
+                      backgroundColor: '#fff',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      transition: 'all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
+                      transition: 'transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
                       cursor: 'pointer',
                       '&:hover': {
                         transform: 'scale(1.15) translateY(-2px)',
-                        boxShadow: '0 8px 20px rgba(15,23,42,0.15)',
-                        borderColor: '#e0f2fe',
                         zIndex: 10,
                       },
                     }}
@@ -417,6 +410,7 @@ export default function CitizenshipResidencySection() {
                         width: '100%',
                         height: '100%',
                         objectFit: 'cover',
+                        borderRadius: '50%',
                       }}
                     />
                   </Box>

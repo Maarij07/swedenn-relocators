@@ -108,16 +108,13 @@ export function MovingFlagsCarousel() {
                     sx={{
                       width: 34,
                       height: 34,
-                      borderRadius: '8px',
-                      border: '1.5px solid #f8fafc',
-                      backgroundColor: '#ffffff',
-                      boxShadow: '0 4px 8px rgba(15,23,42,0.12)',
+                      borderRadius: '50%',
+                      backgroundColor: '#fff',
                       objectFit: 'cover',
                       imageRendering: 'auto',
-                      transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                      transition: 'transform 0.3s ease',
                       '&:hover': {
                         transform: 'scale(1.15) translateY(-1px)',
-                        boxShadow: '0 8px 16px rgba(15,23,42,0.18)',
                       },
                     }}
                   />

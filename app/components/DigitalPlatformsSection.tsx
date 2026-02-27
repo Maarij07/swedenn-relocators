@@ -6,27 +6,39 @@ import { useTranslation } from 'react-i18next';
 
 const features = [
   {
-    id: 'visa-tracking',
-    titleKey: 'digitalPlatforms.features.visaTracking.title',
-    descKey: 'digitalPlatforms.features.visaTracking.desc',
+    id: 'smart-onboarding',
+    title: 'Smart Onboarding & Eligibility Assessment',
+    desc: 'Start with intelligent digital assessments tailored to your situation. Our system evaluates visa, work permit, study, business, family reunification, and long-term residence pathways and provides structured results before you proceed.',
+    icon: '/smart-onboarding.svg',
+  },
+  {
+    id: 'centralized-tracking',
+    title: 'Centralized Case & Visa Tracking',
+    desc: 'Monitor your entire immigration journey in real time. Track submissions, case numbers, authority updates, decision letters, and status changes directly from your dashboard with instant notifications.',
     icon: '/visa-permit-tracking.svg',
   },
   {
-    id: 'document-management',
-    titleKey: 'digitalPlatforms.features.documentManagement.title',
-    descKey: 'digitalPlatforms.features.documentManagement.desc',
+    id: 'digital-vault',
+    title: 'Secure Digital Document Vault',
+    desc: 'Everything stored in one encrypted space. Upload, organize, and manage documents, create folders, connect family members, e-sign Power of Attorney, and download embassy-ready combined files anytime.',
     icon: '/secure-document-management.svg',
   },
   {
-    id: 'housing-solutions',
-    titleKey: 'digitalPlatforms.features.housingSolutions.title',
-    descKey: 'digitalPlatforms.features.housingSolutions.desc',
-    icon: '/housing-accomodation.svg',
+    id: 'appointments-payments',
+    title: 'Automated Appointments & Payments',
+    desc: 'Book, manage, and pay in minutes. Select country, consultation type, available slots, and complete secure payments online. Track invoices, balances, and service history with full transparency.',
+    icon: '/automated-appointments.svg',
   },
   {
-    id: 'compliance-management',
-    titleKey: 'digitalPlatforms.features.complianceManagement.title',
-    descKey: 'digitalPlatforms.features.complianceManagement.desc',
+    id: 'housing-settlement',
+    title: 'Housing & Complete Settlement Solutions',
+    desc: 'Beyond immigration. Full relocation support. Access housing assistance, logistics, pet relocation, money management, insurance, business services, investor solutions, and partner services all coordinated through the same portal.',
+    icon: '/Housing-Accomodation.svg',
+  },
+  {
+    id: 'support-compliance',
+    title: 'Dedicated Support & Compliance Management',
+    desc: 'Professional guidance with full digital control. Communicate with your assigned advisor, receive structured updates, manage compliance requirements, review service charges, and keep your entire relocation process organized in one place.',
     icon: '/Compliance-Support.svg',
   },
 ];
@@ -96,32 +108,26 @@ export default function DigitalPlatformsSection() {
                 return (
                   <div
                     key={feature.id}
-                    className={`bg-white rounded-2xl shadow-lg border border-slate-100 overflow-hidden transition-all duration-300 hover:shadow-xl cursor-pointer ${
-                      isExpanded ? 'ring-2 ring-blue-400' : ''
-                    }`}
-                    style={{
-                      transitionDelay: `${index * 100}ms`,
-                    }}
+                    className={`bg-white rounded-2xl shadow-lg border border-slate-100 overflow-hidden transition-all duration-300 hover:shadow-xl cursor-pointer ${isExpanded ? 'ring-2 ring-blue-400' : ''}`}
+                    style={{ transitionDelay: `${index * 100}ms` }}
                     onClick={() => setExpandedFeature(feature.id)}
                   >
                     <div className="p-3 sm:p-4">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3">
                           <div className="w-12 h-12 rounded-full bg-[#EBF4FF] flex items-center justify-center flex-shrink-0 p-2.5">
-                            <img 
-                              src={feature.icon} 
-                              alt={t(feature.titleKey)} 
+                            <img
+                              src={feature.icon}
+                              alt={feature.title}
                               style={{ width: '100%', height: '100%', objectFit: 'contain' }}
                             />
                           </div>
-                          <h4 className="font-bold text-slate-900 text-[0.9rem] sm:text-[0.95rem]">
-                            {t(feature.titleKey)}
+                          <h4 className="font-bold text-slate-900 text-[1rem] sm:text-[1.1rem]">
+                            {feature.title}
                           </h4>
                         </div>
                         <svg
-                          className={`w-5 h-5 text-slate-400 transition-transform duration-300 ${
-                            isExpanded ? 'rotate-180' : ''
-                          }`}
+                          className={`w-5 h-5 text-slate-400 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -130,12 +136,10 @@ export default function DigitalPlatformsSection() {
                         </svg>
                       </div>
                       <div
-                        className={`overflow-hidden transition-all duration-300 ${
-                          isExpanded ? 'max-h-96 mt-3' : 'max-h-0'
-                        }`}
+                        className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-96 mt-3' : 'max-h-0'}`}
                       >
                         <p className="text-slate-600 text-sm leading-relaxed pl-[3.75rem]">
-                          {t(feature.descKey)}
+                          {feature.desc}
                         </p>
                       </div>
                     </div>
