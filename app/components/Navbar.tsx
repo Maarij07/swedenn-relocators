@@ -513,12 +513,22 @@ export default function Navbar() {
 
             {/* CTA Buttons */}
             <div className="hidden lg:flex items-center gap-3 4k:gap-6 flex-shrink-0">
-              <button className="px-5 xl:px-6 4k:px-12 py-2.5 xl:py-3 4k:py-6 text-sm xl:text-[15px] 4k:text-2xl font-medium text-black bg-white border-2 border-black rounded-lg hover:bg-gray-50 transition-all whitespace-nowrap">
+              <a 
+                href="https://portal.swedenrelocators.se/management/appointments/book/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-5 xl:px-6 4k:px-12 py-2.5 xl:py-3 4k:py-6 text-sm xl:text-[15px] 4k:text-2xl font-medium text-black bg-white border-2 border-black rounded-lg hover:bg-gray-50 transition-all whitespace-nowrap"
+              >
                 {t('navbar.links.bookAppointment')}
-              </button>
-              <button className="px-5 xl:px-6 4k:px-12 py-2.5 xl:py-3 4k:py-6 text-sm xl:text-[15px] 4k:text-2xl font-medium text-white bg-black rounded-lg hover:bg-gray-800 transition-all whitespace-nowrap">
+              </a>
+              <a 
+                href="https://portal.swedenrelocators.se/signin/?returnTo=%2F"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-5 xl:px-6 4k:px-12 py-2.5 xl:py-3 4k:py-6 text-sm xl:text-[15px] 4k:text-2xl font-medium text-white bg-black rounded-lg hover:bg-gray-800 transition-all whitespace-nowrap"
+              >
                 {t('navbar.links.login')}
-              </button>
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -560,12 +570,22 @@ export default function Navbar() {
               </a>
 
               <div className="pt-4 space-y-3 border-t border-gray-100 mt-4">
-                <button className="w-full px-4 py-3 text-base text-black bg-white border-2 border-black rounded-lg hover:bg-gray-50 transition-colors">
+                <a 
+                  href="https://portal.swedenrelocators.se/management/appointments/book/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full px-4 py-3 text-base text-black bg-white border-2 border-black rounded-lg hover:bg-gray-50 transition-colors inline-block text-center"
+                >
                   {t('navbar.links.bookAppointment')}
-                </button>
-                <button className="w-full px-4 py-3 text-base text-white bg-black rounded-lg hover:bg-gray-800 transition-colors">
+                </a>
+                <a 
+                  href="https://portal.swedenrelocators.se/signin/?returnTo=%2F"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full px-4 py-3 text-base text-white bg-black rounded-lg hover:bg-gray-800 transition-colors inline-block text-center"
+                >
                   {t('navbar.links.login')}
-                </button>
+                </a>
               </div>
             </div>
           )}

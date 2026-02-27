@@ -4,94 +4,117 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
+import { useState, useEffect, useRef, memo } from 'react';
 
-const BLOGS = [
-  {
-    id: 1,
-    image: '/relocating-to-sweden.svg',
-    date: '10 March 2023',
-    title: "5 Things To Keep In Mind If You're Relocating To Sweden",
-    description:
-      'The choice between a train or bus journey depends on various factors such as the distance of the journey, travel time and flexibility.',
-  },
-  {
-    id: 2,
-    image: '/l2.svg',
-    date: '10 March 2023',
-    title: '5 Swedish Foods You Must Try',
-    description:
-      'Capitalize on low hanging fruit to identify a ballpark value-added activity to beta test. Override the digital divide with additional clicks.',
-  },
-  {
-    id: 3,
-    image: '/student-fee.svg',
-    date: '10 March 2023',
-    title: 'A Guide About Student Fee And Admissions In Sweden',
-    description:
-      'Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.',
-  },
-  {
-    id: 4,
-    image: '/sweden-culture.svg',
-    date: '15 April 2023',
-    title: 'Understanding Swedish Workplace Culture & Employee Benefits',
-    description:
-      'Explore the unique aspects of Swedish work environment, including flexibility, equality, and comprehensive benefits that make Sweden attractive for professionals.',
-  },
-];
+interface Blog {
+  id: number;
+  title: string;
+  slug: string;
+  excerpt: string;
+  featured_image: string;
+  published_at: string;
+}
 
-const BLOGS_SV = [
-  {
-    id: 1,
-    image: '/relocation.svg',
-    date: '10 mars 2023',
-    title: '5 saker att tänka på när du flyttar till Sverige',
-    description:
-      'Valet mellan tåg eller buss beror på flera faktorer såsom sträckans längd, restid och hur flexibel du vill vara.',
-  },
-  {
-    id: 2,
-    image: '/l2.svg',
-    date: '10 mars 2023',
-    title: '5 svenska maträtter du måste prova',
-    description:
-      'Ta vara på möjligheterna – här får du en snabb introduktion till klassiska svenska smaker och hur du upplever dem bäst.',
-  },
-  {
-    id: 3,
-    image: '/school.svg',
-    date: '10 mars 2023',
-    title: 'Guide till studieavgifter och antagning i Sverige',
-    description:
-      'En översikt över studieavgifter, stipendier och antagningsprocessen för dig som vill studera i Sverige.',
-  },
-  {
-    id: 4,
-    image: '/business-person-holding-cv.svg',
-    date: '15 april 2023',
-    title: 'Förstå svensk arbetskulturen & anställningsförmåner',
-    description:
-      'Utforska de unika aspekterna av den svenska arbetsmiljön, inklusive flexibilitet, jämlikhet och omfattande förmåner som gör Sverige attraktivt för yrkespersoner.',
-  },
-];
+interface BlogsResponse {
+  data: {
+    blogs: Blog[];
+  };
+}
 
-export default function BlogsSection() {
+// Cache object to store blogs data
+const blogsCache = new Map<string, { data: Blog[]; timestamp: number }>();
+const CACHE_DURATION = 1000 * 60 * 60; // 1 hour in milliseconds
+
+function BlogsSectionContent() {
   const { i18n } = useTranslation();
   const params = useParams();
   const locale = (params?.locale as string) || i18n.language || 'en';
-  const isSv = i18n.language === 'sv';
+  const [blogs, setBlogs] = useState<Blog[]>([]);
+  const [loading, setLoading] = useState(true);
   const [hoveredBlog, setHoveredBlog] = useState<number | null>(null);
+  const isMountedRef = useRef(true);
 
-  // Select the appropriate blog data based on language
-  const blogs = isSv ? BLOGS_SV : BLOGS;
+  useEffect(() => {
+    return () => {
+      isMountedRef.current = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      const cacheKey = 'featured-blogs';
+      const now = Date.now();
+
+      // Check if data is in cache and not expired
+      if (blogsCache.has(cacheKey)) {
+        const cachedData = blogsCache.get(cacheKey)!;
+        if (now - cachedData.timestamp < CACHE_DURATION) {
+          if (isMountedRef.current) {
+            setBlogs(cachedData.data);
+            setLoading(false);
+          }
+          return;
+        }
+      }
+
+      try {
+        setLoading(true);
+        const baseUrl = process.env.NEXT_PUBLIC_API_URL;
+        const response = await fetch(`${baseUrl}/miscellaneous/blog/featured/lists`);
+        
+        if (!response.ok) {
+          throw new Error('Failed to fetch blogs');
+        }
+
+        const data: BlogsResponse = await response.json();
+        const blogsData = data.data.blogs || [];
+
+        // Store in cache
+        blogsCache.set(cacheKey, {
+          data: blogsData,
+          timestamp: now,
+        });
+
+        if (isMountedRef.current) {
+          setBlogs(blogsData);
+        }
+      } catch (error) {
+        console.error('Error fetching blogs:', error);
+        if (isMountedRef.current) {
+          setBlogs([]);
+        }
+      } finally {
+        if (isMountedRef.current) {
+          setLoading(false);
+        }
+      }
+    };
+
+    fetchBlogs();
+  }, []);
 
   // Translations for UI elements
   const texts = {
-    heading: isSv ? 'Våra bloggar' : 'Our Blogs',
-    readMore: isSv ? 'Läs mer' : 'Read More',
-    showMore: isSv ? 'Visa fler' : 'Show More',
+    heading: i18n.language === 'sv' ? 'Våra bloggar' : 'Our Blogs',
+    readMore: i18n.language === 'sv' ? 'Läs mer' : 'Read More',
+    showMore: i18n.language === 'sv' ? 'Visa fler' : 'Show More',
   };
+
+  if (loading) {
+    return (
+      <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
+          <div className="flex justify-center items-center py-20">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  if (!blogs || blogs.length === 0) {
+    return null;
+  }
 
   return (
     <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
@@ -104,7 +127,7 @@ export default function BlogsSection() {
                 {texts.heading}
               </h2>
               <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif] mx-auto">
-                {isSv ? 'Tips för relocation och karriär i Norden' : 'Relocation and career tips for the Nordics'}
+                Relocation and career tips for the Nordics
               </p>
             </div>
           </div>
@@ -122,11 +145,11 @@ export default function BlogsSection() {
             >
               <div className="relative w-full h-[320px] sm:h-[360px] lg:h-[400px] overflow-hidden bg-[#EBF4FF]">
                 <Image
-                  src={blogs[0].image}
+                  src={blogs[0].featured_image}
                   alt={blogs[0].title}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  className={`object-contain object-center transition-transform duration-500 ease-out ${
+                  className={`object-cover object-center transition-transform duration-500 ease-out ${
                     hoveredBlog === blogs[0].id ? 'scale-110' : 'scale-100'
                   }`}
                 />
@@ -134,18 +157,21 @@ export default function BlogsSection() {
               </div>
               <div className="p-6 sm:p-7 lg:p-6">
                 <p className="text-xs font-semibold uppercase tracking-widest text-sky-600 mb-2">
-                  {isSv ? 'ARTIKEL' : 'ARTICLE'}
+                  {i18n.language === 'sv' ? 'ARTIKEL' : 'ARTICLE'}
                 </p>
                 <h3 className="text-lg sm:text-xl lg:text-lg font-bold text-slate-900 mb-2 leading-tight line-clamp-2">
                   {blogs[0].title}
                 </h3>
                 <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4 line-clamp-2">
-                  {blogs[0].description}
+                  {blogs[0].excerpt}
                 </p>
-                <button className="inline-flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-slate-900 to-slate-800 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-xs sm:text-sm group/btn">
+                <a
+                  href={`/${locale}/blogs/${blogs[0].slug}`}
+                  className="inline-flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-slate-900 to-slate-800 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-xs sm:text-sm group/btn"
+                >
                   {texts.readMore}
                   <span className="inline-block transition-transform duration-300 group-hover/btn:translate-x-1">→</span>
-                </button>
+                </a>
               </div>
             </div>
           )}
@@ -162,11 +188,11 @@ export default function BlogsSection() {
                 {/* Image Section */}
                 <div className="relative w-full sm:w-[200px] lg:w-[180px] 4k:w-[240px] h-[220px] sm:h-[180px] lg:h-[160px] 4k:h-[200px] flex-shrink-0 overflow-hidden bg-[#EBF4FF]">
                   <Image
-                    src={blog.image}
+                    src={blog.featured_image}
                     alt={blog.title}
                     fill
                     sizes="(max-width: 640px) 100vw, 200px"
-                    className={`object-contain object-center transition-transform duration-500 ease-out ${
+                    className={`object-cover object-center transition-transform duration-500 ease-out ${
                       hoveredBlog === blog.id ? 'scale-110' : 'scale-100'
                     }`}
                   />
@@ -178,22 +204,25 @@ export default function BlogsSection() {
                 <div className="flex-1 p-5 sm:p-6 lg:p-5 flex flex-col justify-between">
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-widest text-sky-600 mb-2">
-                      {isSv ? 'ARTIKEL' : 'ARTICLE'}
+                      {i18n.language === 'sv' ? 'ARTIKEL' : 'ARTICLE'}
                     </p>
                     <h3 className="text-base sm:text-lg lg:text-[0.95rem] 4k:text-lg font-bold text-slate-900 mb-2 leading-tight line-clamp-2">
                       {blog.title}
                     </h3>
                     <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
-                      {blog.description}
+                      {blog.excerpt}
                     </p>
                   </div>
 
                   {/* Read More Button */}
                   <div className="flex items-center justify-start mt-3">
-                    <button className="inline-flex items-center gap-1.5 px-3 py-2 bg-gradient-to-r from-slate-900 to-slate-800 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-xs sm:text-sm group/btn">
+                    <a
+                      href={`/${locale}/blogs/${blog.slug}`}
+                      className="inline-flex items-center gap-1.5 px-3 py-2 bg-gradient-to-r from-slate-900 to-slate-800 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-xs sm:text-sm group/btn"
+                    >
                       {texts.readMore}
                       <span className="inline-block transition-transform duration-300 group-hover/btn:translate-x-1">→</span>
-                    </button>
+                    </a>
                   </div>
                 </div>
               </article>
@@ -213,3 +242,5 @@ export default function BlogsSection() {
     </section>
   );
 }
+
+export default memo(BlogsSectionContent);

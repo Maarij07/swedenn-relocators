@@ -79,8 +79,8 @@ export default function Footer() {
                 {isSv ? 'JURIDIK' : 'LEGAL'}
               </h4>
               <ul className="space-y-1.5 text-[11px] sm:text-[12px] text-[#cbd5e1]">
-                <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Villkor' : 'Terms and condition'}</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Integritetspolicy' : 'Privacy policy'}</a></li>
+                <li><a href={`/${locale}/terms-and-conditions`} className="hover:text-white transition-colors">{isSv ? 'Villkor' : 'Terms and condition'}</a></li>
+                <li><a href={`/${locale}/privacy-policy`} className="hover:text-white transition-colors">{isSv ? 'Integritetspolicy' : 'Privacy policy'}</a></li>
               </ul>
             </div>
 

@@ -21,8 +21,10 @@ export default function HomeShellExtras() {
   const isNewInSweden = pathname?.includes('/new-in-sweden');
   const isFaqs = pathname?.includes('/faqs');
   const isCareer = pathname?.includes('/career');
+  const isPrivacyPolicy = pathname?.includes('/privacy-policy');
+  const isTermsAndConditions = pathname?.includes('/terms-and-conditions');
 
-  if (isServices || isBlogs || isAbout || isContact || isNewInSweden || isFaqs || isCareer) {
+  if (isServices || isBlogs || isAbout || isContact || isNewInSweden || isFaqs || isCareer || isPrivacyPolicy || isTermsAndConditions) {
     return null;
   }
 
