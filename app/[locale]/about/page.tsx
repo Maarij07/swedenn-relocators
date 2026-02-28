@@ -482,15 +482,15 @@ export default function AboutPage() {
                             </div>
 
                             {/* Right - Illustration */}
-                            <div className="relative w-full flex justify-center lg:justify-end items-center h-full">
-                                    <Image
-                                        src="/employee-solution.svg"
-                                        alt="About Sweden Relocators illustration"
-                                        width={300}
-                                        height={250}
-                                        className="object-contain"
-                                        priority
-                                    />
+                            <div className="relative w-full flex justify-center lg:justify-end items-center h-full" style={{ marginLeft: '-80px' }}>
+                                <Image
+                                    src="/businessman-analyzing-data.svg"
+                                    alt="Business Collaboration Illustration"
+                                    width={240}
+                                    height={180}
+                                    className="object-contain drop-shadow-xl"
+                                    priority
+                                />
                             </div>
                         </div>
                     </div>
@@ -715,7 +715,7 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                             viewport={{ once: true }}
-                            className="order-1 lg:order-2"
+                            className="order-1 lg:order-2 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-b-4 border-b-blue-500"
                         >
                             <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-bold text-[#1a2332] leading-tight mb-4">
                                 Employer Solutions
@@ -756,7 +756,7 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                             viewport={{ once: true }}
-                            className="order-2 lg:order-1"
+                            className="order-2 lg:order-1 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-b-4 border-b-blue-500"
                         >
                             <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-bold text-[#1a2332] leading-tight mb-4">
                                 Employee Solutions
@@ -947,7 +947,7 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                             viewport={{ once: true }}
-                            className="order-1 lg:order-2"
+                            className="order-1 lg:order-2 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-b-4 border-b-blue-500"
                         >
                             <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-bold text-[#1a2332] leading-tight mb-4">
                                 Nordic Relocators - Denmark
