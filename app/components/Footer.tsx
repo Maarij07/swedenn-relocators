@@ -130,6 +130,22 @@ export default function Footer() {
                     />
                     <span>CVR 41200677</span>
                   </div>
+                  <div className="flex items-center gap-2">
+                    <img
+                      src="https://flagcdn.com/24x18/no.png"
+                      alt="Norway flag"
+                      className="w-4 h-4 rounded-full object-cover border border-[#1f2937]"
+                    />
+                    <span>Reg: 935 858 457</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <img
+                      src="https://flagcdn.com/24x18/pt.png"
+                      alt="Portugal flag"
+                      className="w-4 h-4 rounded-full object-cover border border-[#1f2937]"
+                    />
+                    <span>NIPC: 516843052</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -149,7 +165,7 @@ export default function Footer() {
                       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
                     </svg>
                     <div>
-                      <p className="font-semibold">Arenagatan 86E 214 37 Malmö, Sweden</p>
+                      <p className="font-semibold">Amiralsgatan 86E 214 37 Malmo, Sweden</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-2">
@@ -171,9 +187,14 @@ export default function Footer() {
                 <h4 className="text-xs sm:text-sm font-semibold tracking-wide uppercase text-[#e2e8f0] whitespace-nowrap">
                   {isSv ? 'VÅR APP' : 'GET OUR FREE APP'}
                 </h4>
-                <button className="px-3 py-1.5 bg-blue-600 hover:bg-blue-700 text-white text-[9px] sm:text-[10px] font-semibold rounded-lg transition-colors whitespace-nowrap">
+                <a
+                  href="https://portal.swedenrelocators.se/partner-signup/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-3 py-1.5 bg-blue-600 hover:bg-blue-700 text-white text-[9px] sm:text-[10px] font-semibold rounded-lg transition-colors whitespace-nowrap"
+                >
                   {isSv ? 'BLI VÅR PARTNER' : 'JOIN OUR PARTNER NETWORK'}
-                </button>
+                </a>
               </div>
 
               {/* Download our App text and buttons */}
@@ -183,7 +204,9 @@ export default function Footer() {
                 </p>
                 <div className="flex gap-3 mb-8">
                   <a
-                    href="#"
+                    href="https://apps.apple.com/ca/app/sweden-relocators/id1621885091"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.15)] transition-all duration-300"
                   >
                     <Image
@@ -204,7 +227,9 @@ export default function Footer() {
                   </a>
 
                   <a
-                    href="#"
+                    href="https://play.google.com/store/apps/details?id=se.swedenrelocators.sweden_relocators"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.15)] transition-all duration-300"
                   >
                     <Image
@@ -233,11 +258,11 @@ export default function Footer() {
                 </h4>
                 <div className="flex items-center gap-2.5">
                   {[
-                    { icon: '/f1.svg', url: 'https://facebook.com/swedenrelocators', label: 'Facebook' },
-                    { icon: '/f2.svg', url: 'https://instagram.com/swedenrelocators', label: 'Instagram' },
-                    { icon: '/f3.svg', url: 'https://linkedin.com/company/swedenrelocators', label: 'LinkedIn' },
-                    { icon: '/f4.svg', url: 'https://twitter.com/swedenrelocators', label: 'Twitter' },
-                    { icon: '/f5.svg', url: 'https://youtube.com/@swedenrelocators', label: 'YouTube' },
+                    { icon: '/f1.svg', url: 'https://www.facebook.com/Swedenrelocators/', label: 'Facebook' },
+                    { icon: '/f2.svg', url: 'https://www.instagram.com/sweden_relocators/', label: 'Instagram' },
+                    { icon: '/f3.svg', url: 'https://www.linkedin.com/in/swedenrelocators/', label: 'LinkedIn' },
+                    { icon: '/f4.svg', url: 'https://x.com/swedenrelocator', label: 'Twitter' },
+                    { icon: '/f5.svg', url: 'https://www.youtube.com/channel/UCa5vSxO9UajNMUluDBloi2w', label: 'YouTube' },
                     { icon: '/f6.svg', url: 'https://wa.me/46723276276', label: 'WhatsApp' },
                   ].map((social) => (
                     <a

@@ -1,14 +1,12 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { useParams } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import { useForm, FormProvider } from 'react-hook-form';
 import Image from 'next/image';
 import Navbar from '../../components/Navbar';
 import { RHFTextField } from '../../components/fields/rhf-text-field';
 import { RHFTextarea } from '../../components/fields/rhf-textarea';
-import { translateFAQs } from '../../utils/translationService';
 
 interface FAQ {
   question: string;
@@ -34,12 +32,11 @@ interface CachedFAQData {
   flattenedFaqs: FAQ[];
 }
 
-// Cache object to store FAQs data by role
-const faqCache = new Map<'client' | 'company', CachedFAQData>();
+// Cache object to store FAQs data by role and language
+const faqCache = new Map<string, CachedFAQData>();
 
 export default function FAQsPage() {
-  const { t } = useTranslation();
-  const params = useParams();
+  const { t, i18n } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [allFaqTypes, setAllFaqTypes] = useState<FAQType[]>([]);
   const [faqs, setFaqs] = useState<FAQ[]>([]);
@@ -68,7 +65,7 @@ export default function FAQsPage() {
 
   useEffect(() => {
     const fetchFAQs = async () => {
-      // Check if data is already cached
+      // Check if data is already cached for this role
       if (faqCache.has(selectedRole)) {
         const cachedData = faqCache.get(selectedRole)!;
         if (isMountedRef.current) {
@@ -105,7 +102,7 @@ export default function FAQsPage() {
           });
         }
 
-        // Store in cache
+        // Store in cache with role key (not language-specific)
         faqCache.set(selectedRole, {
           allFaqTypes: data.data || [],
           flattenedFaqs

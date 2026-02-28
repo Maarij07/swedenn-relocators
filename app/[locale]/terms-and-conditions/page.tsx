@@ -70,7 +70,7 @@ export default function TermsAndConditionsPage() {
           throw new Error('Failed to fetch terms and conditions');
         }
 
-        const data: TermsAndConditionsResponse = await response.json();
+        let data: TermsAndConditionsResponse = await response.json();
         
         // Store in cache - data.data is the array of TermsSection
         termsCache.set(selectedRole, {
