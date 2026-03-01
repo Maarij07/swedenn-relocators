@@ -254,28 +254,74 @@ export default function Footer() {
               {/* Follow Us */}
               <div className="space-y-3">
                 <h4 className="text-xs sm:text-sm font-semibold tracking-wide uppercase text-[#e2e8f0]">
-                  {isSv ? 'FÖLJ OSS' : 'FOLLOW US'}
+                  {isSv ? 'ANSLUT TILL OSS' : 'CONNECT WITH US'}
                 </h4>
                 <div className="flex items-center gap-2.5">
-                  {[
-                    { icon: '/f1.svg', url: 'https://www.facebook.com/Swedenrelocators/', label: 'Facebook' },
-                    { icon: '/f2.svg', url: 'https://www.instagram.com/sweden_relocators/', label: 'Instagram' },
-                    { icon: '/f3.svg', url: 'https://www.linkedin.com/in/swedenrelocators/', label: 'LinkedIn' },
-                    { icon: '/f4.svg', url: 'https://x.com/swedenrelocator', label: 'Twitter' },
-                    { icon: '/f5.svg', url: 'https://www.youtube.com/channel/UCa5vSxO9UajNMUluDBloi2w', label: 'YouTube' },
-                    { icon: '/f6.svg', url: 'https://wa.me/46723276276', label: 'WhatsApp' },
-                  ].map((social) => (
-                    <a
-                      key={social.icon}
-                      href={social.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-[0_4px_12px_rgba(15,23,42,0.3)] hover:bg-slate-100 transition-colors"
-                      aria-label={social.label}
-                    >
-                      <Image src={social.icon} alt={social.label} width={16} height={16} className="object-contain" />
-                    </a>
-                  ))}
+                  <a
+                    href="https://www.facebook.com/Swedenrelocators/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-[0_4px_12px_rgba(15,23,42,0.3)] hover:bg-slate-100 transition-colors"
+                    aria-label="Facebook"
+                  >
+                    <Image src="/f1.svg" alt="Facebook" width={16} height={16} className="object-contain" />
+                  </a>
+                  <a
+                    href="https://x.com/swedenrelocator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-[0_4px_12px_rgba(15,23,42,0.3)] hover:bg-slate-100 transition-colors"
+                    aria-label="Twitter"
+                  >
+                    <Image src="/f2.svg" alt="Twitter" width={16} height={16} className="object-contain" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/sweden_relocators/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-[0_4px_12px_rgba(15,23,42,0.3)] hover:bg-slate-100 transition-colors"
+                    aria-label="Instagram"
+                  >
+                    <Image src="/f3.svg" alt="Instagram" width={16} height={16} className="object-contain" />
+                  </a>
+                  <a
+                    href="https://www.youtube.com/channel/UCa5vSxO9UajNMUluDBloi2w"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-[0_4px_12px_rgba(15,23,42,0.3)] hover:bg-slate-100 transition-colors"
+                    aria-label="YouTube"
+                  >
+                    <Image src="/f4.svg" alt="YouTube" width={16} height={16} className="object-contain" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/swedenrelocators/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-[0_4px_12px_rgba(15,23,42,0.3)] hover:bg-slate-100 transition-colors"
+                    aria-label="LinkedIn"
+                  >
+                    <Image src="/f5.svg" alt="LinkedIn" width={16} height={16} className="object-contain" />
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@swedenrelocators"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-[0_4px_12px_rgba(15,23,42,0.3)] hover:bg-slate-100 transition-colors"
+                    aria-label="TikTok"
+                  >
+                    <Image src="/f6.svg" alt="TikTok" width={16} height={16} className="object-contain" />
+                  </a>
+                  <a
+                    href="https://wa.me/46723276276"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-[0_4px_12px_rgba(15,23,42,0.3)] hover:bg-slate-100 transition-colors"
+                    aria-label="WhatsApp"
+                  >
+                    <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.946 1.347l-.355.203-.368-.067c-1.264-.233-2.477-.571-3.644-1.095l.142 2.069c.469 1.209.942 2.323 1.414 3.34 2.26 1.541 4.144 2.628 5.857 3.27.529.196 1.083.382 1.622.547 1.728-.335 3.169-1.199 4.262-2.502a9.87 9.87 0 001.346-4.948 9.87 9.87 0 00-1.347-4.946 9.87 9.87 0 00-4.946-1.347z"/>
+                    </svg>
+                  </a>
                 </div>
               </div>
             </div>
