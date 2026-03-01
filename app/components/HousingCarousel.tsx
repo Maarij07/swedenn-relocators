@@ -314,17 +314,21 @@ export const HousingCarousel: React.FC = () => {
                               opacity: 0.8,
                             } : {},
                             py: 1,
-                            px: 2,
-                            backgroundColor: service.title.includes(isSv ? 'Korttidsuthyrning' : 'Short Term Rental') ? '#d1fae5' : 
-                                            service.title.includes(isSv ? 'Långtidsuthyrning' : 'Long Term Rental') ? '#fef3c7' : 
-                                            service.title.includes(isSv ? 'Köp - Sälj bostad' : 'Buy - Sell Property') ? '#cffafe' : 'transparent',
-                            color: service.title.includes(isSv ? 'Korttidsuthyrning' : 'Short Term Rental') ? '#065f46' : 
-                                   service.title.includes(isSv ? 'Långtidsuthyrning' : 'Long Term Rental') ? '#78350f' : 
-                                   service.title.includes(isSv ? 'Köp - Sälj bostad' : 'Buy - Sell Property') ? '#155e75' : 'inherit',
+                            backgroundColor: service.title.includes(isSv ? 'Korttidsuthyrning' : 'Short Term Rental') ? 'transparent' : 
+                                            service.title.includes(isSv ? 'Långtidsuthyrning' : 'Long Term Rental') ? 'transparent' : 
+                                            service.title.includes(isSv ? 'Köp - Sälj bostad' : 'Buy - Sell Property') ? 'transparent' : 'transparent',
+                            color: '#000000',
                             borderRadius: 1.5,
                           }}
                         >
-                          {service.title}
+                          <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 1, height: 24 }}>
+                            <Box component="span" sx={{ color: '#6b7280', display: 'inline-flex', alignItems: 'center', fontSize: 18, height: 20, mb: '2px' }}>
+                              <Icon icon="mingcute:building-2-line" />
+                            </Box>
+                            <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', fontWeight: 600, fontSize: '1rem', height: 20 }}>
+                              {service.title}
+                            </Box>
+                          </Box>
                         </Box>
                       </Box>
                       <Box

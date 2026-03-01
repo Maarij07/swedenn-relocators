@@ -405,6 +405,8 @@ export default function VisaApplicationJourney() {
             overflow: 'hidden',
             p: 0,
             height: { xs: 560, sm: 640, md: 740, lg: 820, '3xl': 920, '4k': 1120 },
+            display: 'flex',
+            flexDirection: 'column',
             '@keyframes stepFadeIn': {
               '0%': { opacity: 1, transform: 'translateY(12px)' },
               '100%': { opacity: 1, transform: 'translateY(0)' },
@@ -415,49 +417,46 @@ export default function VisaApplicationJourney() {
           <Box
             ref={contentScrollRef}
             sx={{
+              flex: 1,
+              minHeight: 0,
               height: '100%',
-              overflowY: 'auto',
-              overflowX: 'hidden',
-              pr: { xs: 0.5, sm: 1 },
-              scrollbarWidth: 'thin',
-              '&::-webkit-scrollbar': {
-                width: '8px',
-              },
-              '&::-webkit-scrollbar-track': {
-                backgroundColor: 'rgba(148, 163, 184, 0.15)',
-                borderRadius: '999px',
-              },
-              '&::-webkit-scrollbar-thumb': {
-                backgroundColor: 'rgba(59, 130, 246, 0.45)',
-                borderRadius: '999px',
-              },
+              overflow: 'hidden',
+              display: 'flex',
+              flexDirection: 'column',
             }}
           >
-          {/* Step 0 - Create Account */}
-          {activeStep === 0 && <SignUp />}
+            {/* Step 0 - Create Account */}
+            {activeStep === 0 && (
+              <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', height: '100%' }}>
+                <SignUp />
+              </Box>
+            )}
 
-          {/* Step 1 - Apply */}
-          {activeStep === 1 && (
-            <Box
-              sx={{
-                backgroundColor: '#ffffff',
-                borderRadius: '28px',
-                boxShadow: '0 24px 60px rgba(15,23,42,0.10)',
-                p: { xs: 2.25, sm: 2.75, md: 3.25 },
-                display: 'flex',
-              }}
-            >
+            {/* Step 1 - Apply */}
+            {activeStep === 1 && (
               <Box
                 sx={{
-                  display: 'grid',
-                  gridTemplateColumns: { xs: '1fr', lg: 'repeat(2, minmax(0, 1fr))' },
-                  gap: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '3.5rem', xl: '4rem', '2xl': '5rem', '3xl': '6rem', '4k': '8rem' },
-                  alignItems: 'stretch',
-                  width: '100%',
+                  backgroundColor: '#ffffff',
+                  borderRadius: '28px',
+                  boxShadow: '0 24px 60px rgba(15,23,42,0.10)',
+                  p: { xs: 2.25, sm: 2.75, md: 3.25 },
+                  display: 'flex',
+                  flex: 1,
+                  minHeight: 0,
                 }}
               >
+                <Box
+                  sx={{
+                    display: 'grid',
+                    gridTemplateColumns: { xs: '1fr', lg: 'repeat(2, minmax(0, 1fr))' },
+                    gap: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '3.5rem', xl: '4rem', '2xl': '5rem', '3xl': '6rem', '4k': '8rem' },
+                    alignItems: 'stretch',
+                    width: '100%',
+                    height: '100%',
+                  }}
+                >
                 {/* Left: Form */}
-                <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
                   {/* Inner card to match Figma spacing + shadow */}
                   <Box
                     sx={{
@@ -1119,6 +1118,7 @@ export default function VisaApplicationJourney() {
                     ml: { lg: 'auto' },
                     gap: 2,
                     height: '100%',
+                    minHeight: 0,
                   }}
                 >
                   {/* Top title */}
@@ -1226,31 +1226,33 @@ export default function VisaApplicationJourney() {
             </Box>
           )}
 
-          {/* Step 2 - Upload Documents */}
-          {activeStep === 2 && (
-            <Box sx={{ ml: { xs: 0, md: 4 }, mt: { xs: 2, md: 4 } }}>
-              <Typography variant="h5" sx={{ fontWeight: 700, mb: 1, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
-                {isSv ? 'Ladda upp dokument' : 'Upload Documents'}
-              </Typography>
+            {/* Step 2 - Upload Documents */}
+            {activeStep === 2 && (
+              <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', height: '100%', minHeight: 0, ml: { xs: 0, md: 4 }, mt: { xs: 2, md: 4 } }}>
+                <Typography variant="h5" sx={{ fontWeight: 700, mb: 1, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
+                  {isSv ? 'Ladda upp dokument' : 'Upload Documents'}
+                </Typography>
+                <Box sx={{ flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' }}>
+                  <UploadDocuments />
+                </Box>
+              </Box>
+            )}
 
-              <UploadDocuments />
-            </Box>
-          )}
+            {/* Step 3 - Schedule Appointment */}
+            {activeStep === 3 && (
+              <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', height: '100%', minHeight: 0, ml: { xs: 0, md: 4 }, mt: { xs: 2, md: 4 } }}>
+                <Typography variant="h5" sx={{ fontWeight: 700, mb: 3, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
+                  {isSv ? 'Kommande bokningar' : 'Upcoming Appointments'}
+                </Typography>
+                <Box sx={{ flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' }}>
+                  <UpcomingAppointments />
+                </Box>
+              </Box>
+            )}
 
-          {/* Step 3 - Schedule Appointment */}
-          {activeStep === 3 && (
-            <Box sx={{ ml: { xs: 0, md: 4 }, mt: { xs: 2, md: 4 } }}>
-              <Typography variant="h5" sx={{ fontWeight: 700, mb: 3, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
-                {isSv ? 'Kommande bokningar' : 'Upcoming Appointments'}
-              </Typography>
-
-              <UpcomingAppointments />
-            </Box>
-          )}
-
-          {/* Step 4 - Submit Application */}
-          {activeStep === 4 && (
-            <Box>
+            {/* Step 4 - Submit Application */}
+            {activeStep === 4 && (
+              <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', height: '100%', minHeight: 0 }}>
               <Typography variant="h5" sx={{ fontWeight: 700, mb: 1, fontSize: { xs: '1.25rem', sm: '1.4rem', '3xl': '1.65rem', '4k': '2.3rem' } }}>
                 {isSv ? 'Skicka in din ansökan' : 'Submit Your Application'}
               </Typography>

@@ -108,19 +108,15 @@ export default function DigitalPlatformsSection() {
                 return (
                   <div
                     key={feature.id}
-                    className={`bg-white rounded-2xl shadow-lg border border-slate-100 overflow-hidden transition-all duration-300 hover:shadow-xl cursor-pointer ${isExpanded ? 'ring-2 ring-blue-400' : ''}`}
-                    style={{ transitionDelay: `${index * 100}ms` }}
+                    className={`bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl cursor-pointer ${isExpanded ? 'border border-[#2563eb]' : 'border border-slate-100'}`}
+                    style={{ borderWidth: isExpanded ? '1px' : '1px', transitionDelay: `${index * 100}ms` }}
                     onClick={() => setExpandedFeature(feature.id)}
                   >
                     <div className="p-3 sm:p-4">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3">
-                          <div className="w-12 h-12 rounded-full bg-[#EBF4FF] flex items-center justify-center flex-shrink-0 p-2.5">
-                            <img
-                              src={feature.icon}
-                              alt={feature.title}
-                              style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-                            />
+                          <div className="w-12 h-12 rounded-full" style={{backgroundColor: '#2563eb', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.25rem', fontWeight: 700, userSelect: 'none'}}>
+                            {index + 1}
                           </div>
                           <h4 className="font-bold text-slate-900 text-[1rem] sm:text-[1.1rem]">
                             {feature.title}
@@ -155,22 +151,64 @@ export default function DigitalPlatformsSection() {
               isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'
             }`}
           >
-            <div className="relative w-full max-w-[600px] lg:max-w-full">
-              <div className="relative animate-float">
-                <Image
-                  src="/desktop-app-view.svg"
-                  alt="Digital Platform Desktop and Mobile App View"
-                  width={1200}
-                  height={600}
-                  className="w-full h-auto drop-shadow-2xl"
-                  priority
-                />
-              </div>
-              {/* Decorative elements */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-blue-400/10 rounded-full blur-2xl animate-pulse"></div>
-              <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-            </div>
-            
+            {/* Device Screens: Desktop and Mobile */}
+            {(() => {
+              // Map feature id to image filenames
+              const screenMap = {
+                main: 'main-screen',
+                'smart-onboarding': 'eligibility-check-screen',
+                'centralized-tracking': 'application-status-screen',
+                'digital-vault': 'document-screen',
+                'appointments-payments': 'appointment-screen',
+                'housing-settlement': 'housing-screen',
+                'support-compliance': 'support-screen',
+              } as const;
+              type ScreenKey = keyof typeof screenMap;
+              let screenKey: ScreenKey = 'main';
+              if (expandedFeature === 'smart-onboarding') screenKey = 'smart-onboarding';
+              else if (expandedFeature === 'centralized-tracking') screenKey = 'centralized-tracking';
+              else if (expandedFeature === 'digital-vault') screenKey = 'digital-vault';
+              else if (expandedFeature === 'appointments-payments') screenKey = 'appointments-payments';
+              else if (expandedFeature === 'housing-settlement') screenKey = 'housing-settlement';
+              else if (expandedFeature === 'support-compliance') screenKey = 'support-compliance';
+
+              // Desktop/tablet view
+              return (
+                <>
+                  <div className="relative w-full max-w-[600px] lg:max-w-full hidden sm:block">
+                    <div className="relative animate-float">
+                      <Image
+                        src={`/digital-platform/${screenMap[screenKey]}.svg`}
+                        alt="Digital Platform Desktop View"
+                        width={1200}
+                        height={600}
+                        className="w-full h-auto drop-shadow-2xl"
+                        priority
+                      />
+                    </div>
+                    {/* Decorative elements */}
+                    <div className="absolute -top-4 -right-4 w-24 h-24 bg-blue-400/10 rounded-full blur-2xl animate-pulse"></div>
+                    <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+                  </div>
+                  {/* Mobile view */}
+                  <div className="relative w-[220px] max-w-full block sm:hidden">
+                    <div className="relative animate-float">
+                      <Image
+                        src={`/digital-platform/${screenMap[screenKey]}.svg`}
+                        alt="Digital Platform Mobile View"
+                        width={300}
+                        height={600}
+                        className="w-full h-auto drop-shadow-2xl rounded-2xl"
+                        priority
+                      />
+                    </div>
+                    {/* Decorative elements */}
+                    <div className="absolute -top-2 -right-2 w-10 h-10 bg-blue-400/10 rounded-full blur-2xl animate-pulse"></div>
+                    <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-blue-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+                  </div>
+                </>
+              );
+            })()}
             {/* App Store Buttons */}
             <div className="flex gap-4">
               <a
