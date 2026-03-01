@@ -88,10 +88,16 @@ export default function ContactPage() {
             <section className="py-16 sm:py-20 lg:py-24 bg-white">
                 <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
                     {/* Section Header */}
-                    <div className="text-center max-w-4xl mx-auto mb-16 sm:mb-20">
-                        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                            Our Services for a Seamless <span className="text-blue-600">Move to Sweden</span>
-                        </h2>
+                    <div className="flex flex-col items-center mx-auto mb-16 sm:mb-20" style={{width:'1500px', maxWidth:'calc(100% - 12px)'}}>
+                        <div className="bg-[#f2f7fd] border-l-4 border-[#247FE1] rounded-xl px-6 py-7 flex flex-col items-center w-full">
+                            <h2 className="font-black text-[#10182b] text-center mb-2"
+                                style={{ fontSize: '2.5rem', lineHeight: 1.1 }}>
+                                Our Services for a Seamless
+                            </h2>
+                            <span className="block text-[#247FE1] text-[1.35rem] font-semibold text-center mt-1" style={{lineHeight:1.2}}>
+                                Move to Sweden
+                            </span>
+                        </div>
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
@@ -176,9 +182,9 @@ export default function ContactPage() {
             {/* Locations Section */}
             <section className="pb-16 sm:pb-20 lg:pb-24 bg-white">
                 <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {/* Sweden Card */}
-                        <div className="bg-white rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] overflow-hidden border border-gray-100">
+                        <div className="bg-white rounded-3xl shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] transition-all duration-300 overflow-hidden border border-gray-100 border-l-4 border-[#247FE1] border-b-4 border-b-blue-500">
                             <div className="bg-[#F0F5FF] px-6 py-4 flex items-center gap-3">
                                 <div className="w-8 h-8 rounded-full overflow-hidden relative shadow-sm">
                                     <Image
@@ -231,7 +237,7 @@ export default function ContactPage() {
                                 </div>
 
                                 <div className="pt-2">
-                                    <button className="w-full py-3 bg-[#0B3B7C] text-white text-sm font-bold rounded-full hover:bg-[#092e61] transition-colors shadow-lg shadow-blue-900/20">
+                                    <button className="w-full py-3 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
                                         View On Map
                                     </button>
                                 </div>
@@ -239,7 +245,7 @@ export default function ContactPage() {
                         </div>
 
                         {/* Denmark Card */}
-                        <div className="bg-white rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] overflow-hidden border border-gray-100">
+                        <div className="bg-white rounded-3xl shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] transition-all duration-300 overflow-hidden border border-gray-100 border-l-4 border-[#247FE1] border-b-4 border-b-blue-500">
                             <div className="bg-[#F0F5FF] px-6 py-4 flex items-center gap-3">
                                 <div className="w-8 h-8 rounded-full overflow-hidden relative shadow-sm">
                                     <Image
@@ -292,7 +298,68 @@ export default function ContactPage() {
                                 </div>
 
                                 <div className="pt-2">
-                                    <button className="w-full py-3 bg-[#0B3B7C] text-white text-sm font-bold rounded-full hover:bg-[#092e61] transition-colors shadow-lg shadow-blue-900/20">
+                                    <button className="w-full py-3 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
+                                        View On Map
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Norway Card */}
+                        <div className="bg-white rounded-3xl shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] transition-all duration-300 overflow-hidden border border-gray-100 border-l-4 border-[#247FE1] border-b-4 border-b-blue-500">
+                            <div className="bg-[#F0F5FF] px-6 py-4 flex items-center gap-3">
+                                <div className="w-8 h-8 rounded-full overflow-hidden relative shadow-sm">
+                                    <Image
+                                        src="https://flagcdn.com/w160/no.png"
+                                        alt="Norway Flag"
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
+                                <h3 className="text-lg font-bold text-gray-900">Norway</h3>
+                            </div>
+                            <div className="p-6 space-y-6">
+                                {/* Address */}
+                                <div>
+                                    <div className="flex items-center gap-2 mb-2">
+                                        <div className="w-6 h-6 relative flex-shrink-0">
+                                            <Image src="/place1.svg" alt="Address" fill className="object-contain" />
+                                        </div>
+                                        <span className="font-bold text-gray-900 text-sm">Address</span>
+                                    </div>
+                                    <p className="text-xs text-gray-500 pl-8">
+                                        Krukmakargatan 19, 118 51 Stockholm, Sweden
+                                    </p>
+                                </div>
+
+                                {/* Contact Number */}
+                                <div>
+                                    <div className="flex items-center gap-2 mb-2">
+                                        <div className="w-6 h-6 relative flex-shrink-0">
+                                            <Image src="/contact.svg" alt="Phone" fill className="object-contain" />
+                                        </div>
+                                        <span className="font-bold text-gray-900 text-sm">Contact Number</span>
+                                    </div>
+                                    <p className="text-xs text-gray-500 pl-8">
+                                        +46 72 327 62 76
+                                    </p>
+                                </div>
+
+                                {/* Email Address */}
+                                <div>
+                                    <div className="flex items-center gap-2 mb-2">
+                                        <div className="w-6 h-6 relative flex-shrink-0">
+                                            <Image src="/contact.svg" alt="Email" fill className="object-contain" />
+                                        </div>
+                                        <span className="font-bold text-gray-900 text-sm">Email Address</span>
+                                    </div>
+                                    <p className="text-xs text-gray-500 pl-8">
+                                        info@swedenrelocators.se
+                                    </p>
+                                </div>
+
+                                <div className="pt-2">
+                                    <button className="w-full py-3 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
                                         View On Map
                                     </button>
                                 </div>
@@ -300,7 +367,7 @@ export default function ContactPage() {
                         </div>
 
                         {/* Portugal Card */}
-                        <div className="bg-white rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] overflow-hidden border border-gray-100">
+                        <div className="bg-white rounded-3xl shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] transition-all duration-300 overflow-hidden border border-gray-100 border-l-4 border-[#247FE1] border-b-4 border-b-blue-500">
                             <div className="bg-[#F0F5FF] px-6 py-4 flex items-center gap-3">
                                 <div className="w-8 h-8 rounded-full overflow-hidden relative shadow-sm">
                                     <Image
@@ -353,7 +420,7 @@ export default function ContactPage() {
                                 </div>
 
                                 <div className="pt-2">
-                                    <button className="w-full py-3 bg-[#0B3B7C] text-white text-sm font-bold rounded-full hover:bg-[#092e61] transition-colors shadow-lg shadow-blue-900/20">
+                                    <button className="w-full py-3 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
                                         View On Map
                                     </button>
                                 </div>

@@ -182,7 +182,7 @@ export default function ServicesPage() {
                       {card.description}
                     </p>
 
-                    <Link href={`/${locale}${serviceRoutes[card.title] || '#'}`} className="mx-auto flex items-center justify-center px-8 py-2.5 text-[13px] font-semibold text-white bg-[#032B5F] rounded-full hover:bg-[#021C3D] transition-colors mt-0">
+                    <Link href={`/${locale}${serviceRoutes[card.title] || '#'}`} className="mx-auto flex items-center justify-center px-8 py-2.5 text-[13px] font-semibold text-white bg-black rounded-full hover:bg-gray-800 transition-colors mt-0 shadow-md">
                       {t('servicesPage.readMore')}
                     </Link>
                   </div>
