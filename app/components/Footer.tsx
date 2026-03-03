@@ -188,9 +188,7 @@ export default function Footer() {
                   {isSv ? 'VÅR APP' : 'GET OUR FREE APP'}
                 </h4>
                 <a
-                  href="https://portal.swedenrelocators.se/partner-signup/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`/${locale}/partners`}
                   className="px-3 py-1.5 bg-blue-600 hover:bg-blue-700 text-white text-[9px] sm:text-[10px] font-semibold rounded-lg transition-colors whitespace-nowrap"
                 >
                   {isSv ? 'BLI VÅR PARTNER' : 'JOIN OUR PARTNER NETWORK'}

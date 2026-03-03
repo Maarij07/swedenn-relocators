@@ -1,0 +1,218 @@
+{
+  "partners": {
+    "hero": {
+      "mainTitle": "RELOFYn kumppaniohjelma",
+      "poweredBy": "Powered by Sweden Relocators",
+      "tagline": "Yksi verkko. Yksi asiakasprofiile. Järjestelmälinen kasvu.",
+      "description": "Vahvistettu kumppaniverkko, joka on rakennettu tarjoamaan täydellinen muuttopalvelun matka yhdessä järjestelmässä."
+    },
+    "coreValues": {
+      "verified": {
+        "title": "Vahvistettu verkko",
+        "description": "Rakennettu täydellisten muuntopolujen tarjoamiseksi turvallisella järjestelmässä"
+      },
+      "protected": {
+        "title": "Suojattu prosessi",
+        "description": "Asiakkaat tulevat kumppaneiksi vain sopimuksen ja maksun jälkeen"
+      },
+      "global": {
+        "title": "Maailmanlaajuinen kasvu",
+        "description": "Laajene maailmanlaajuisesti rajat ylittävien viitteiden kautta ilman uusia toimistoja"
+      }
+    },
+    "whoCan": {
+      "heading": "Kuka voi liittyä",
+      "intro": "RELOFY on suunniteltu vahvistetuille alan ammattilaisille ja palveluntarjoajille näillä aloilla:",
+      "immigration": {
+        "title": "Maahanmuutto ja laki",
+        "description": "Neuvonantajat, valtuutetut asianajajat/toimistot, vaatimustenmukaisuuden asiantuntijat ja valitukset"
+      },
+      "relocation": {
+        "title": "Muutto ja määränpää",
+        "description": "Asettautumispalvelut, koulutuksen tuki, muuttopalvelut"
+      },
+      "housing": {
+        "title": "Asuminen ja kiinteistöt",
+        "description": "Vuokrat, kiinteistönvälitys, omaisuudenhoito, kaupalliset kiinteistöt"
+      },
+      "corporate": {
+        "title": "Yritys ja vaatimuksenmukaisuus",
+        "description": "Kirjanpitäjät, veroneuvojat, palkanlaskijapalveluntarjoajat, EOR, HR ja maailmanlaajuinen liikkuvuus"
+      },
+      "logistics": {
+        "title": "Logistiikka ja liikkuvuus",
+        "description": "Toimitus, lentoliput, lentoasemapalvelut, saapumis-/lähtöpalvelut"
+      },
+      "financial": {
+        "title": "Rahoitus ja vakuutus",
+        "description": "Sairausvakuutus, pääomansiirto, rahoituspalvelut ja neuvonta"
+      },
+      "business": {
+        "title": "Liiketoiminnan tuki ja investoinnit",
+        "description": "Liiketoiminnan osto-/myyntipalvelut, yritysperustamisen tuki, investointineuvonta"
+      },
+      "quote": "Jos tuet uudelle saapujalle elämää ja vaatimustenmukaisuutta uudessa maassa, kuulut tähän verkkoon."
+    },
+    "howitWorks": {
+      "heading": "Kuinka järjestelmä toimii (helppo + ammattimainen)",
+      "intro": "Prosessin pitämiseksi puhtaana RELOFY käyttää kahta vaihetta:",
+      "stage1": {
+        "title": "Vaihe 1: Johto (kiinnostus + seulonta)",
+        "description": "Kun joku rekisteröityy portaaliin/mobiilisovellukseen, häntä pidetään johtona. Johto voi tulla sisään kolmella tavalla:",
+        "entry1": "Asiakas rekisteröityy portaalin/mobiilisovelluksen kautta (johto luodaan automaattisesti)",
+        "entry2": "Kumppani lisää johtoa kumppanien portaaliin",
+        "entry3": "Sweden Relocators lisää johtoa markkinoinnin/yrityksen integroimisen kautta",
+        "during": "Johtovaiheessa teemme:",
+        "intake": "Strukturoitu ottaminen (tarkoitus, maa, tarvittavat palvelut)",
+        "documents": "Edeltävät tiedostovaatimukset (vain se, mikä on tarpeen arvioimiseen)",
+        "kyc": "Alkuperäiset KYC-tarkistukset (identiteetti- ja uskottavuustarkistukset, palvelun mukaan)",
+        "routing": "Sisäinen reititysarvostelu (mikä maa + mikä kumppani)",
+        "note": "Tässä vaiheessa kumppaania ei pakoteta palkattomaan työhön. Johtovaihe on olemassa suodattamaan melua ja suojaamaan kumppanin aikaa."
+      },
+      "stage2": {
+        "title": "Vaihe 2: Asiakas (sopimus + maksu = aktivointi)",
+        "description": "Johdosta tulee asiakas vain silloin, kun:",
+        "agreement": "Allekirjoittaa palvelusopimuksen, ja",
+        "payment": "Maksaa palvelun palkkion",
+        "then": "Sitten tapaus aktivoituu:",
+        "profile": "One Profile -tiedosto tulee \"live\"",
+        "responsibilities": "Vastuut määritetään",
+        "milestones": "Etapit alkavat",
+        "delivery": "Palvelun toimittaminen alkaa verkon työnkulun mukaisesti",
+        "benefit": "Tämä suojaa kumppaneita, suojaa asiakkaita ja luo ammatillisen standardin."
+      }
+    },
+    "oneProfile": {
+      "heading": "One Profile -järjestelmä (sinun todellinen etu)",
+      "intro": "Kun asiakas muuttuu, RELOFY aktivoi:",
+      "oneClient": {
+        "title": "Yksi asiakas = yksi digitaalinen tapausten tiedosto (profiili)",
+        "description": "Tämä profiili korvaa vanhat paperikansiot, hajalliset sähköpostit ja WhatsApp-ketjut."
+      },
+      "inside": {
+        "title": "Profiilin sisällä:",
+        "identity": "Vahvistetun identiteetin tila (suoritetun KYC-tason näyttäminen)",
+        "vault": "Turvallinen asiakirjaholvi (ladattu vain kerran)",
+        "checklist": "Palvelujen tarkistuslista + etapit (johdanto, biometria, päätös, siirto, toimittaminen jne.)",
+        "log": "Viestinnän loki (kaikki viestit ja päivitykset yhdessä paikassa)",
+        "audit": "Tarkastusketju (kuka teki mitä, milloin - kriittinen ammatilliselle luottamukselle)",
+        "assignment": "Kumppanin määrittelyt palvelua kohti"
+      },
+      "sharing": {
+        "title": "Roolipohjainen jakaminen",
+        "intro": "Kumppanit näkevät vain mitä he tarvitsevat:",
+        "immigration": "Maahanmuuttokumppani näkee maahanmuuttokentän + asiakirjat",
+        "housing": "Asumiskumppani näkee asumiskentän + vuokrasopimukset",
+        "accountant": "Kirjanpitäjä näkee verotus-/palkkakenttää + vaatimustenmukaisuusasiakirjoja",
+        "logistics": "Logistiikka näkee lähetyskenttään + toimittamisen tiedot",
+        "benefit": "Tämä suojaa yksityisyyttä ja vähentää hämminkiä."
+      }
+    },
+    "networkGrowth": {
+      "heading": "Verkon kasvu = liiketoimintasi kasvu (maailmanlaajuisesti ilman haaroja)",
+      "intro": "RELOFY on suunniteltu sallimaan kumppaneille kasvaa maailmanlaajuisesti ilman toimistojen avaamista ja ilman aikapallon viestinnän kaaosta.",
+      "example": {
+        "title": "Esimerkki: olet AE:lla",
+        "scenario": "Johto pyytää apua Tanskan työviisumilla. Sinä:",
+        "add": "Lisää johto portaaliin (tai tulee rekisteröinnin kautta)",
+        "leave": "Jätä huomautuksesi",
+        "select": "Valitse Tanskan palvelu",
+        "team": "Asiakastuen tiimimme:",
+        "screens": "Tarkistaa johtoa",
+        "completes": "Suorittaa vaaditut anto-/KYC-vaiheet",
+        "forwards": "Lähettää tapauksen oikealle Tanskan kumppanille muuntamisen jälkeen",
+        "benefit": "Jos johto allekirjoittaa + maksaa (tulee asiakkaaksi): profiili määritetään Tanskan kumppanille, lähde tallennetaan automaattisesti ja provisio tulee jäljitettäväksi.",
+        "reverse": "Käänteinen:",
+        "reverseSub": "Kumppani Ruotsissa saa johtoa sinun asiantuntemuksestasi (Kanada, AE, Australia, Yhdistynyt kuningaskunta jne.) → Haluaa sen → ohjaa sinulle → toimittaa → lasku B2B:ssä.",
+        "flow": "Tämä luo vastavuoroisen virtauksen: verkko ruokkii sinua, verkko ruokkii sinua."
+      }
+    },
+    "scenarios": {
+      "heading": "Todelliset kumppaniskenaariot",
+      "scenario1": {
+        "title": "Skenaario 1: Täydellinen perheen muutto (usean palvelun)",
+        "description": "Asiakas tarvitsee maahanmuuttoa + asumista + koulutuksen tukea + lähetystä + vakuutusta. Yksi profiili yhdistää kaikki palvelut. Asiakas näkee yhden polun. Kumppanit toimittavat nopeammin."
+      },
+      "scenario2": {
+        "title": "Skenaario 2: Rajat ylittävä viite (ansaita ilman laajennusta)",
+        "description": "Lisää Tanskan tapaus AE:stä. Tanskan kumppani toimittaa. Ansaitse referenssiprovision muuntamisen ja maksamisen jälkeen, ilman toimistoa Tanskassa tai lisenssiä."
+      },
+      "scenario3": {
+        "title": "Skenaario 3: Yritysten työntekijöiden siirto (korkea arvo)",
+        "description": "Yritys tarvitsee työvisumia + palkanlaskennan/veron asetusta + asumista. Maahanmuuttokumppani + kirjanpitäjä + asumiskumppani tekevät yhteistyötä profiilin sisällä."
+      },
+      "scenario4": {
+        "title": "Skenaario 4: Lisäpalvelut (tulojen kerroin)",
+        "description": "Viisumiasiakkaaksi aktivoidaan: lemmikkien siirto, rahahsiirto, lentoliput, saapumisen taxi, vakuutus. Enemmän palveluita = enemmän tuloja + parempi asiakaskokemus."
+      },
+      "scenario5": {
+        "title": "Skenaario 5: Pitkäaikainen elinkaari (toistuvat tulot)",
+        "description": "Asiakas tarvitsee myöhemmin uudistuksia, perhetapauksia, kirjanpitoa/veroja, omaisuuden ostoa. Profiilin historia pysyy jäsenneltynä → helpompi upsell ja pitkäaikainen säilyttäminen."
+      }
+    },
+    "compliance": {
+      "heading": "Vaatimuksenmukaisuus, turvallisuus ja luottamus (mitä kumppanit odottavat tänään)",
+      "intro": "Koska Sweden Relocators on etualalla oleva brändi, suoritamme seriaasin luottamustasoa:",
+      "clientTrust": {
+        "title": "Asiakkaan luottamustarkistukset (suhteellinen)",
+        "identity": "Henkilöllisyyden todentaminen / KYC",
+        "documents": "Asiakirjojen johdonmukaisuustarkistukset",
+        "fraud": "Petoksen torjunta/roskapostin suodatus",
+        "intake": "Jäsennellyn oton laatutarkistus"
+      },
+      "partnerVerification": {
+        "title": "Kumppanin tarkistus (ennen aktivoimista)",
+        "company": "Yrityksen tarkistus + kokemuksen tarkastelu",
+        "credentials": "Valtuudet/lisenssit, jos soveltuu",
+        "scope": "Palvelun kattavuus + alueellisen kattavuuden hyväksyntä",
+        "monitoring": "Laadun seuranta ajan mittaan (toimitus + luotettavuus)"
+      },
+      "dataProtection": {
+        "title": "Tietosuojan mentaliteetti",
+        "access": "Rooliperustainen pääsy",
+        "sharing": "Ohjattu jakaminen",
+        "documents": "Turvallinen asiakirjahallinta ja revisiotalletus",
+        "gdpr": "(Suunniteltu GDPR-yhteensopivalle tavalle.)"
+      }
+    },
+    "territory": {
+      "heading": "Alueen suojaus (kumppanin arvon suojaus)",
+      "intro": "Emme ahdista samaa aluetta samaan pääpalveluun. Jos meillä on jo riittävästi aktiivisia kumppaneita kaupungissa/maakunnassa:",
+      "onHold": "Hakemuksesi saattaa joutua odotukselle tai tilapäisesti hylätään",
+      "benefit": "Tämä pitää ohjelman kannattavana omistautuneille kumppaneille ja estää sen muuttumisen sotkuiseksi markkinaksi."
+    },
+    "fees": {
+      "heading": "Maksujen läpinäkyvyys + B2B-maksuvuo (yksinkertainen)",
+      "submit": {
+        "title": "Kumppanit toimittavat:",
+        "services": "Palveluluettelo + selkeät laajuus (mikä sisältyy/poissulkematta)",
+        "pricing": "Hintataulu (verrattuna markkinaan)"
+      },
+      "workingModel": {
+        "title": "Työn malli",
+        "flow": "Johto → sopimuksen allekirjoittaminen + maksu → tulee asiakkaaksi → kumppani toimittaa → kumppani laskutus → maksun käsittely"
+      },
+      "commissions": {
+        "title": "Referenssipalkkiot:",
+        "recorded": "Tallennettu profiilin sisällä",
+        "payable": "Tulevat maksettavaksi kun konversio-olosuhteita täytetään",
+        "paid": "Maksetaan sovitun aikavälin puitteissa (esim. 30 päivää, jos soveltuu)",
+        "traceable": "Kaikki pysyy profiilin jäljitettävänä."
+      }
+    },
+    "summary": {
+      "heading": "Tämä on RELOFY",
+      "step1": "Johto tulee järjestelmään (rekisteröinti / kumppanin lisääminen / yrityksen integroiminen).",
+      "step2": "Tarkastelemme + reititämme.",
+      "step3": "Kun sopimus allekirjoitetaan ja maksu suoritetaan, johdosta tulee asiakas.",
+      "step4": "Yksi profiilit on kotiutus aktiivinen.",
+      "step5": "Oikea kumppani toimittaa.",
+      "step6": "Laskutus ja palkkiot seurataan ja maksetaan ammatillisesti."
+    },
+    "cta": {
+      "heading": "Valmis kasvattamaan liiketoimintaasi?",
+      "description": "Liity RELOFYn kumppaniverkostoon ja muodosta yhteyksiä maailmanlaajuisesti asiakkaisiin. Rakenna omaa liiketoimintasi ilman toimiston laajentamista.",
+      "button": "Hae kumppanina"
+    }
+  }
+}

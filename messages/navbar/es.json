@@ -20,8 +20,38 @@
     },
     "dropdowns": {
       "services": {},
-      "housing": {},
-      "assessment": {}
+      "housing": {
+        "shortTermRentals": "Alquileres a corto plazo",
+        "shortTermRentalsDesc": "Estancias flexibles para empleados, visitantes y asignaciones cortas.",
+        "longTermRentals": "Alquileres a largo plazo",
+        "longTermRentalsDesc": "Soluciones de vivienda integral para empleados y reubicaciones corporativas.",
+        "buySellProperty": "Compra y venta de propiedades",
+        "buySellPropertyDesc": "Encuentra o enumera propiedades con el apoyo de nuestros agentes inmobiliarios registrados.",
+        "listYourProperty": "Enumera tu propiedad para alquilar",
+        "listYourPropertyDesc": "Alquila de forma segura a expatriados internacionales e inquilinos locales a través de un canal seguro."
+      },
+      "assessment": {
+        "familyReunificationEU": "Reunificación Familiar (Ruta UE)",
+        "familyReunificationEUDesc": "Verifique la elegibilidad para derechos familiares de la UE en Suecia.",
+        "familyReunificationNational": "Reunificación Familiar (Ley Nacional)",
+        "familyReunificationNationalDesc": "Evalúe los requisitos según las reglas nacionales suecas.",
+        "familyMaintenance": "Requisito de Manutención Familiar",
+        "familyMaintenanceDesc": "Calcule la elegibilidad de ingresos y vivienda para casos familiares.",
+        "selfEmployed": "Inmigración de Trabajadores Autónomos",
+        "selfEmployedDesc": "Evalúe la elegibilidad para iniciar y operar un negocio en Suecia.",
+        "studySweden": "Estudio en Suecia",
+        "studySwedenDesc": "Compruebe la admisión, fondos, seguros y disposición de permisos de estudio.",
+        "workPermit": "Permiso de Trabajo",
+        "workPermitDesc": "Evalúe la oferta de trabajo, nivel de salario y condiciones de permiso.",
+        "longtermEuStatus": "Estado a Largo Plazo desde Otro País de la UE",
+        "longtermEuStatusDesc": "Determine opciones de residencia sueca para residentes de largo plazo de la UE.",
+        "digitalNomadVisa": "Visa de Nómada Digital",
+        "digitalNomadVisaDesc": "Verificación rápida de elegibilidad para visa de trabajo remoto.",
+        "jobSeekerSweden": "Buscador de Empleo Suecia",
+        "jobSeekerSwedenDesc": "Evalúe la elegibilidad para solicitar el permiso de buscador de empleo de Suecia.",
+        "globalVisitVisa": "Visa de Visita Global",
+        "globalVisitVisaDesc": "Precomprobación de elegibilidad para visas de visitante en destinos clave."
+      }
     }
   }
 }

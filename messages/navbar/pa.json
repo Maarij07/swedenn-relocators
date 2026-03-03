@@ -16,6 +16,41 @@
       "contact": "ہم سے رابطہ کریں",
       "bookAppointment": "ملاقات بک کریں",
       "login": "لاگ ان"
+    },
+    "dropdowns": {
+      "services": {},
+      "housing": {
+        "shortTermRentals": "ਅਲਪ ਸਮਾਂ ਕਿਰਾਏ",
+        "shortTermRentalsDesc": "ਕਰਮਚਾਰੀਆਂ, ਮਹਿਮਾਨਾਂ ਅਤੇ ਛੋਟੀ ਮਿਆਦ ਦੀਆਂ ਨਿਯੁਕਤੀਆਂ ਲਈ ਲਚਕਦਾਰ ਰਹਾਇਸ਼।",
+        "longTermRentals": "ਲੰਬੇ ਸਮੇ ਦਾ ਕਿਰਾਇਆ",
+        "longTermRentalsDesc": "ਕਰਮਚਾਰੀਆਂ ਅਤੇ ਕਾਰਪੋਰੇਟ ਸਥਾਨ ਹਟਾਉਣ ਲਈ ਅੰਤ-ਤੋ-ਅੰਤ ਹਾਊਸਿੰਗ ਹੱਲ।",
+        "buySellProperty": "ਜਾਇਦਾਦ ਖ਼ਰੀਦਣਾ ਅਤੇ ਵੇਚਣਾ",
+        "buySellPropertyDesc": "ਸਾਡੇ ਰਜਿਸਟਰਡ ਜਾਇਦਾਦ ਬ੍ਰੋਕਰ ਦੀ ਸਹਾਇਤਾ ਨਾਲ ਜਾਇਦਾਦ ਲੱਭੋ ਜਾਂ ਸੂਚੀਬੱਧ ਕਰੋ।",
+        "listYourProperty": "ਆਪਣੀ ਜਾਇਦਾਦ ਕਿਰਾਏ ਲਈ ਸੂਚੀਬੱਧ ਕਰੋ",
+        "listYourPropertyDesc": "ਸੁਰਖਿਅਤ ਚੈਨਲ ਦੁਆਰਾ ਅੰਤਰਰਾਸ਼ਟੀ ਖਾਤੋਨ ਅਤੇ ਸਥਾਨਿਕ ਕਿਰਾਏਦਾਰਾਂ ਨੂੰ ਸੁਰਖਿਅਤ ਢੰਗ ਨਾਲ ਕਿਰਾਏ ਦਿਓ।"
+      },
+      "assessment": {
+        "familyReunificationEU": "ਪਰਿਵਾਰ ਮੁੜ ਮਿਲਾਪ (EU ਰੂਟ)",
+        "familyReunificationEUDesc": "ਸਵੀਡਨ ਵਿੱਚ EU ਪਰਿਵਾਰ ਅਧਿਕਾਰਾਂ ਲਈ ਪਾਤਰਤਾ ਦੀ ਜਾਂਚ ਕਰੋ।",
+        "familyReunificationNational": "ਪਰਿਵਾਰ ਪੁਨਰ ਮਿਲਾਪ (ਰਾਸ਼ਟਰੀ ਸਿਆਸਤ)",
+        "familyReunificationNationalDesc": "ਵਿਆਨਿਕ ਮਾਤ ਨਿਯਮਾਂ ਦੇ ਅਨੁਸਾਰ ਲੋੜਾਂ ਦਾ ਮੁਲਣਾ।",
+        "familyMaintenance": "ਪਰਿਵਾਰ ਦੀ ਦੇਖਭਾਲ ਦੀ ਲੋੜ",
+        "familyMaintenanceDesc": "ਪਰਿਵਾਰ ਦੇ ਮਾਮਲਿਆਂ ਲਈ ਆਮਦਨ ਅਤੇ ਹਾਊਸਿੰਗ ਕੀਮਤ ਦੀ ਲਨ।",
+        "selfEmployed": "ਸਵੈ ਰੋਜ਼ਗਾਰ ਮੂਵ",
+        "selfEmployedDesc": "ਸਵੀਡਨ ਵਿੱਚ ਇੱਕ ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰਨ ਅਤੇ ਚਲਾਉਣ ਦੀ ਪਾਤਰਤਾ ਦਾ ਮੁਲਣਾ।",
+        "studySweden": "ਸਵੀਡਨ ਵਿੱਚ ਅਧਿਐਨ",
+        "studySwedenDesc": "ਪ੍ਰਵੇਸ਼, ਫੰਡ, ਬੀਮਾ ਅਤੇ ਅਧਿਆਨ ਅਨੁਮਤੀ ਤਿਆਰੀ ਦੀ ਜਾਂਚ।",
+        "workPermit": "ਕਾਰ ਪਰਮਿਸ",
+        "workPermitDesc": "ਕੰਮ ਦੀ ਪੇਸਕਸ, ਤਨਖ਼ਾਹ ਦੇ ਪੱਧਰ ਅਤੇ ਅਨੁਮਤੀ ਸ਼ਰਤਾਂ ਦਾ ਮੁਲਣਾ।",
+        "longtermEuStatus": "ਇਤਲਾਫ ਦੇ ਇੱਕ ਅਨੁਸਾਰ EU ਦੇਸ ਤੋਂ ਦਾਮਲਮਿੰਡ ਤੰਦੀ",
+        "longtermEuStatusDesc": "EU ਲੰਬਿਆ ਆਸੀ ਲਈ ਸਵੀਡਿਸ਼ ਕਸ਼ਮੀਰ ਜੋ ਨਿਰਧਾਰਿਤ ਕਰੋ।",
+        "digitalNomadVisa": "ਡਿਜਿਟਲ ਨਮੂਨਾ ਪਰਮਿਸ",
+        "digitalNomadVisaDesc": "ਦੂਰਸਥ ਕਰਿਆ ਪਰਮਿਸ ਨਿਆਈ ਲਈ ਬਿਲਕੁਲ ਜਾਂਚ।",
+        "jobSeekerSweden": "ਕੰਮ ਲਤਕਿਤ ਪ੍ਰਕਤ",
+        "jobSeekerSwedenDesc": "ਸੀਨ ਦੀ ਮੌਜੂਦਾ ਤਾਲਾਬ ਪ੍ਰਢੋਪੌਨਜ਼ੇ ਲਕਪਾਨਾ ਦਾ ਮਨਣਾ।",
+        "globalVisitVisa": "ਵਿਸ਼ਮ ਵਿਦਲ ਪ੍ਰਮਿਸ",
+        "globalVisitVisaDesc": "ਪ੍ਰਭਾਸ਼ਞ ਕੱਮ ਵਿੱਚ ਪਰਿਵਾਤਾ ਅਲਨਯਨ ਨੋਲ ਜਂਚਾ।"
+      }
     }
   }
 }

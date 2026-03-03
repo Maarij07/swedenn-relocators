@@ -20,8 +20,38 @@
     },
     "dropdowns": {
       "services": {},
-      "housing": {},
-      "assessment": {}
+      "housing": {
+        "shortTermRentals": "Affitti a breve termine",
+        "shortTermRentalsDesc": "Alloggi flessibili per dipendenti, visitatori e incarichi brevi.",
+        "longTermRentals": "Affitti a lungo termine",
+        "longTermRentalsDesc": "Soluzioni abitative end-to-end per dipendenti e trasferimenti aziendali.",
+        "buySellProperty": "Acquisto e vendita di proprietà",
+        "buySellPropertyDesc": "Trova o elenca proprietà con il supporto dei nostri agenti immobiliari registrati.",
+        "listYourProperty": "Elenca la tua proprietà in affitto",
+        "listYourPropertyDesc": "Affitta in sicurezza a espatriati internazionali e inquilini locali tramite un canale sicuro."
+      },
+      "assessment": {
+        "familyReunificationEU": "Ricongiunzione familiare (rotta UE)",
+        "familyReunificationEUDesc": "Verificare l'idoneità ai diritti familiari dell'UE in Svezia.",
+        "familyReunificationNational": "Ricongiunzione familiare (diritto nazionale)",
+        "familyReunificationNationalDesc": "Valutare i requisiti secondo le normative nazionali svedesi.",
+        "familyMaintenance": "Requisito di mantenimento familiare",
+        "familyMaintenanceDesc": "Calcolare l'idoneità del reddito e dell'alloggio per i casi familiari.",
+        "selfEmployed": "Immigrazione dei lavoratori autonomi",
+        "selfEmployedDesc": "Valutare l'idoneità per avviare e gestire un'attività in Svezia.",
+        "studySweden": "Studio in Svezia",
+        "studySwedenDesc": "Controllare l'ammissione, i fondi, l'assicurazione e la prontezza del permesso di studio.",
+        "workPermit": "Permesso di lavoro",
+        "workPermitDesc": "Valutare l'offerta di lavoro, il livello salariale e le condizioni del permesso.",
+        "longtermEuStatus": "Stato a lungo termine da un altro paese dell'UE",
+        "longtermEuStatusDesc": "Determinare le opzioni di residenza svedesi per i residenti di lungo termine dell'UE.",
+        "digitalNomadVisa": "Visto da nomade digitale",
+        "digitalNomadVisaDesc": "Rapido controllo dell'idoneità per il visto di telelavoro.",
+        "jobSeekerSweden": "Cercatore di lavoro Svezia",
+        "jobSeekerSwedenDesc": "Valutare l'idoneità a richiedere il permesso di ricercatore di lavoro svedese.",
+        "globalVisitVisa": "Visto di visita globale",
+        "globalVisitVisaDesc": "Precontrollo dell'idoneità per visti di visita nelle principali destinazioni."
+      }
     }
   }
 }

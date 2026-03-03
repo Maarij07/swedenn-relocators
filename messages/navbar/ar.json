@@ -20,8 +20,38 @@
     },
     "dropdowns": {
       "services": {},
-      "housing": {},
-      "assessment": {}
+      "housing": {
+        "shortTermRentals": "شقق قصيرة الأجل",
+        "shortTermRentalsDesc": "إقامات مرنة للموظفين والزوار والمهام قصيرة الأجل.",
+        "longTermRentals": "إقامات طويلة الأجل",
+        "longTermRentalsDesc": "حلول سكنية شاملة للموظفين وإعادة التوطين المؤسسي.",
+        "buySellProperty": "شراء وبيع العقارات",
+        "buySellPropertyDesc": "ابحث عن العقارات أو اعرضها مع دعم من وسائطنا المسجلين.",
+        "listYourProperty": "أدرج عقارك للإيجار",
+        "listYourPropertyDesc": "استأجر بأمان للمغتربين الدوليين والمستأجرين المحليين من خلال قناة آمنة."
+      },
+      "assessment": {
+        "familyReunificationEU": "لم الشمل الأسري (الطريق الأوروبية)",
+        "familyReunificationEUDesc": "تحقق من الأهلية لحقوق الأسرة الأوروبية في السويد.",
+        "familyReunificationNational": "لم الشمل الأسري (القانون الوطني)",
+        "familyReunificationNationalDesc": "قيم المتطلبات بموجب القوانين السويدية الوطنية.",
+        "familyMaintenance": "متطلب إعالة الأسرة",
+        "familyMaintenanceDesc": "حساب الأهلية للدخل والسكن لقضايا الأسرة.",
+        "selfEmployed": "الهجرة للعاملين بحسابهم الخاص",
+        "selfEmployedDesc": "تقييم الأهلية لبدء وتشغيل عمل تجاري في السويد.",
+        "studySweden": "الدراسة في السويد",
+        "studySwedenDesc": "تحقق من القبول والأموال والتأمين وجاهزية تصريح الدراسة.",
+        "workPermit": "تصريح العمل",
+        "workPermitDesc": "تقييم عرض الوظيفة ومستوى الراتب وشروط التصريح.",
+        "longtermEuStatus": "الوضع طويل المدى من دولة أوروبية أخرى",
+        "longtermEuStatusDesc": "تحديد خيارات الإقامة السويدية للمقيمين طويلي المدى في الاتحاد الأوروبي.",
+        "digitalNomadVisa": "تأشيرة البدو الرقمية",
+        "digitalNomadVisaDesc": "فحص سريع لأهلية تأشيرة العمل عن بعد.",
+        "jobSeekerSweden": "باحث عن عمل السويد",
+        "jobSeekerSwedenDesc": "تقييم الأهلية للتقدم برخصة باحث العمل بالسويد.",
+        "globalVisitVisa": "تأشيرة الزيارة العالمية",
+        "globalVisitVisaDesc": "فحص مسبق للأهلية لتأشيرات الزيارة عبر الوجهات الرئيسية."
+      }
     }
   }
 }

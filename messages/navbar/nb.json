@@ -20,8 +20,38 @@
     },
     "dropdowns": {
       "services": {},
-      "housing": {},
-      "assessment": {}
+      "housing": {
+        "shortTermRentals": "Korttidsleigjthytter",
+        "shortTermRentalsDesc": "Fleksible opphold for ansatte, besøkende og kortsiktige oppdrag.",
+        "longTermRentals": "Langsiktige utleier",
+        "longTermRentalsDesc": "End-to-end boligløsninger for ansatte og bedriftsflytninger.",
+        "buySellProperty": "Kjøp og salg av eiendom",
+        "buySellPropertyDesc": "Finn eller opprett annonser for eiendommer med støtte fra våre registrerte eiendomsmeglere.",
+        "listYourProperty": "List din eiendom for utleie",
+        "listYourPropertyDesc": "Lei ut trygt til internasjonale utlendinger og lokale leietakere gjennom en sikker kanal."
+      },
+      "assessment": {
+        "familyReunificationEU": "Familiesammenføring (EU-ruten)",
+        "familyReunificationEUDesc": "Sjekk kvalifisering for EU-familierettigheter i Sverige.",
+        "familyReunificationNational": "Familiesammenføring (Nasjonal lov)",
+        "familyReunificationNationalDesc": "Vurder krav under egenregiering nasjonale regler.",
+        "familyMaintenance": "Familieunderholdskrav",
+        "familyMaintenanceDesc": "Beregn inntekts- og boligkvalitet kråv for familiespørsmål.",
+        "selfEmployed": "Innvandring av selvstendig næringsdrivende",
+        "selfEmployedDesc": "Vurdere kvalifisering for å starte og drive virksomhet i Sverige.",
+        "studySweden": "Studie i Sverige",
+        "studySwedenDesc": "Sjekk opptak, midler, forsikring og beredskap for studietillatelse.",
+        "workPermit": "Arbeidstillatelse",
+        "workPermitDesc": "Vurdere jobbkrav, lønnsnivå og tillatelseskravene.",
+        "longtermEuStatus": "Langtidsstatus fra et annet EU-land",
+        "longtermEuStatusDesc": "Bestem svenske boligalternativer for langvarig EU-innbyggere.",
+        "digitalNomadVisa": "Digital nomad visum",
+        "digitalNomadVisaDesc": "Rask sjekk for kompetanse for fjernarbeid visum.",
+        "jobSeekerSweden": "Jobsøkende Sverige",
+        "jobSeekerSwedenDesc": "Vurdere kvalifisering for å søke om Rikstrafikkstyret jobsøkende tillatelse.",
+        "globalVisitVisa": "Globalt besøksvisum",
+        "globalVisitVisaDesc": "Forhåndkontroll for besøksvisum berettigelse til nøkkelbestemmelser."
+      }
     }
   }
 }

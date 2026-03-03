@@ -20,8 +20,38 @@
     },
     "dropdowns": {
       "services": {},
-      "housing": {},
-      "assessment": {}
+      "housing": {
+        "shortTermRentals": "قلیل مدتی کرائے",
+        "shortTermRentalsDesc": "ملازمین، زائرین اور قلیل مدتی کاموں کے لیے لچکدار رہائش۔",
+        "longTermRentals": "طویل المدت کرائے",
+        "longTermRentalsDesc": "ملازمین اور کاروباری منتقلی کے لیے مکمل رہائش کے حل۔",
+        "buySellProperty": "ملک کی خریدو فروخت",
+        "buySellPropertyDesc": "ہمارے رجسٹرڈ ملک کے دلالوں کی مدد سے ملکیت تلاش کریں یا درج کریں۔",
+        "listYourProperty": "اپنی ملک کو کرائیہ کے لیے درج کریں",
+        "listYourPropertyDesc": "محفوظ چینل کے ذریعے بین الاقوامی غیر ملکیت اور مقامی کرائے دار کو محفوظ طریقے سے کرائیہ دیں۔"
+      },
+      "assessment": {
+        "familyReunificationEU": "خاندان کا دوبارہ ملاپ (یورپی راستہ)",
+        "familyReunificationEUDesc": "سویڈن میں EU خاندان کے حقوق کے لیے اہلیت کی جانچ کریں۔",
+        "familyReunificationNational": "خاندان کا دوبارہ ملاپ (قومی قانون)",
+        "familyReunificationNationalDesc": "سویڈش قومی قوانین کے تحت ضروریات کا اندازہ لگائیں۔",
+        "familyMaintenance": "خاندان کی دیکھ بھال کی ضرورت",
+        "familyMaintenanceDesc": "خاندان کے معاملات کے لیے آمدنی اور رہائش کی اہلیت کا حساب لگائیں۔",
+        "selfEmployed": "خودمختار کی ہجرت",
+        "selfEmployedDesc": "سویڈن میں کاروبار شروع اور چلانے کی اہلیت کا اندازہ لگائیں۔",
+        "studySweden": "سویڈن میں تعلیم",
+        "studySwedenDesc": "داخلے کی تصدیق کریں، فنڈز، بیمہ اور تعلیمی اجازت کی تیاری۔",
+        "workPermit": "کام کی اجازت",
+        "workPermitDesc": "ملازمت کی پیشکش، تنخواہ کی سطح اور اجازت کی شرائط کا اندازہ لگائیں۔",
+        "longtermEuStatus": "کسی اور EU ملک سے طویل مدتی حثیت",
+        "longtermEuStatusDesc": "EU میں طویل مدتی رہائش کنندگان کے لیے سویڈش رہائش کے اختیارات کا تعین کریں۔",
+        "digitalNomadVisa": "ڈیجیٹل خانہ بدوش ویزا",
+        "digitalNomadVisaDesc": "دور دراز کام ویزا کی اہلیت کی تیز رفتار جانچ۔",
+        "jobSeekerSweden": "ملازم تلاش کنندہ سویڈن",
+        "jobSeekerSwedenDesc": "سویڈن کی ملازم تلاش کی اجازت کے لیے درخواست کی اہلیت کا اندازہ لگائیں۔",
+        "globalVisitVisa": "عالمی دورہ کی ویزا",
+        "globalVisitVisaDesc": "اہم منزلوں پر دورہ کی ویزا کی اہلیت کی پہلے سے جانچ۔"
+      }
     }
   }
 }

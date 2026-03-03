@@ -20,8 +20,38 @@
     },
     "dropdowns": {
       "services": {},
-      "housing": {},
-      "assessment": {}
+      "housing": {
+        "shortTermRentals": "Korte termijn huurwoningen",
+        "shortTermRentalsDesc": "Flexibele accommodatie voor werknemers, bezoekers en korte opdrachten.",
+        "longTermRentals": "Huurwoningen op lange termijn",
+        "longTermRentalsDesc": "End-to-end huisvestingsoplossingen voor werknemers en bedrijfsverhuizingen.",
+        "buySellProperty": "Onroerend goed kopen en verkopen",
+        "buySellPropertyDesc": "Vind of vermeld onroerend goed met steun van onze geregistreerde makelaar.",
+        "listYourProperty": "Adverteer je eigendom te huur",
+        "listYourPropertyDesc": "Verhuur veilig aan internationale expats en lokale huurders via een beveiligd kanaal."
+      },
+      "assessment": {
+        "familyReunificationEU": "Gezinshereniging (EU-route)",
+        "familyReunificationEUDesc": "Controleer geschiktheid voor EU-familierechten in Zweden.",
+        "familyReunificationNational": "Gezinshereniging (Nationaal recht)",
+        "familyReunificationNationalDesc": "Evalueer vereisten volgens Zweedse nationale regels.",
+        "familyMaintenance": "Vereiste familiebijstand",
+        "familyMaintenanceDesc": "Bereken geschiktheid voor inkomsten en huisvesting voor familieuitzaken.",
+        "selfEmployed": "Immigratie zelfstandigen",
+        "selfEmployedDesc": "Evalueer geschiktheid om een bedrijf in Zweden op te starten en uit te voeren.",
+        "studySweden": "Studeren in Zweden",
+        "studySwedenDesc": "Controleer toelating, fondsen, verzekeringen en gereedheid van studietoestemming.",
+        "workPermit": "Werkvergunning",
+        "workPermitDesc": "Evalueer jobaanbod, salarislevel en vergunningsvoorwaarden.",
+        "longtermEuStatus": "Langdurige status van een ander EU-land",
+        "longtermEuStatusDesc": "Bepaal Zweedse verblijfsopties voor langdurig ingezetenen in de EU.",
+        "digitalNomadVisa": "Digital Nomad Visum",
+        "digitalNomadVisaDesc": "Snelle controle voor geschiktheid voor telewerk visum.",
+        "jobSeekerSweden": "Zoeker van baan Zweden",
+        "jobSeekerSwedenDesc": "Evalueer geschiktheid om een baanzoekervergunning van Zweden aan te vragen.",
+        "globalVisitVisa": "Wereldwijd bezoeksvisum",
+        "globalVisitVisaDesc": "Voorcontrole voor geschiktheid bezoeksvisa over sleutelbestemmingen."
+      }
     }
   }
 }

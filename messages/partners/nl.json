@@ -1,0 +1,218 @@
+{
+  "partners": {
+    "hero": {
+      "mainTitle": "RELOFY-partnerprogramma",
+      "poweredBy": "Aangedreven door Sweden Relocators",
+      "tagline": "Eén netwerk. Eén klantprofiel. Gestructureerde groei.",
+      "description": "Een geverifieerd partnernetwerk gebouwd om een volledig verhuisjourney in één systeem te leveren."
+    },
+    "coreValues": {
+      "verified": {
+        "title": "Geverifieerd netwerk",
+        "description": "Gebouwd om volledige verhuispaden in een veilig systeem te leveren"
+      },
+      "protected": {
+        "title": "Beschermd proces",
+        "description": "Klanten worden partners alleen na overeenkomst en betaling"
+      },
+      "global": {
+        "title": "Globale groei",
+        "description": "Breid wereldwijd uit via grensoverschrijdende verwijzingen zonder nieuwe kantoren"
+      }
+    },
+    "whoCan": {
+      "heading": "Wie kan deelnemen",
+      "intro": "RELOFY is gebouwd voor geverifieerde brancheprofessionals en serviceproviders in deze sectoren:",
+      "immigration": {
+        "title": "Immigratie en recht",
+        "description": "Adviseurs, erkende advocaten/kantoren, compliancespecialisten en beroepszaken"
+      },
+      "relocation": {
+        "title": "Verhuizen en bestemming",
+        "description": "Vestigingsdiensten, schoolondersteuning, verhuisdiensten"
+      },
+      "housing": {
+        "title": "Huisvesting en onroerend goed",
+        "description": "Verhuur, makelaarshuis, vastgoedmanagement, commercieel onroerend goed"
+      },
+      "corporate": {
+        "title": "Bedrijfs- en nalevingszaken",
+        "description": "Accountants, belastingadviseurs, salarisverwerkingleveranciers, EOR, HR en mondiale mobiliteit"
+      },
+      "logistics": {
+        "title": "Logistiek en mobiliteit",
+        "description": "Verzending, vliegtickets, luchthavenbijstand, aankomst-/vertrekdiensten"
+      },
+      "financial": {
+        "title": "Financiën en verzekeringen",
+        "description": "Gezondheidsverzekering, geldtransfer, financiële diensten en advies"
+      },
+      "business": {
+        "title": "Bedrijfsondersteuning en investeringen",
+        "description": "Bedrijfsaankoop/verkoopservices, startupondersteuning, investeringsadvies"
+      },
+      "quote": "Als je het leven en de compliance van een nieuwkomer in een nieuw land ondersteunt, hoor je thuis in dit netwerk."
+    },
+    "howitWorks": {
+      "heading": "Hoe het systeem werkt (eenvoudig + professioneel)",
+      "intro": "Om het proces schoon te houden, gebruikt RELOFY twee fasen:",
+      "stage1": {
+        "title": "Fase 1: Lead (interesse + screening)",
+        "description": "Als iemand zich registreert op de portal/mobiele app, wordt deze als een lead beschouwd. Een lead kan op drie manieren binnenkomen:",
+        "entry1": "Klant registreert zich via portal/mobiele app (lead wordt automatisch aangemaakt)",
+        "entry2": "Partner voegt lead toe aan het Partnerportaal",
+        "entry3": "Sweden Relocators voegt lead toe via marketing/bedrijfsintegratie",
+        "during": "Tijdens de leadfase doen we:",
+        "intake": "Gestructureerde intake (doel, land, benodigde diensten)",
+        "documents": "Vereiste documenten vooraf (alleen wat nodig is voor evaluatie)",
+        "kyc": "Initiële KYC-controles (identiteits- en betrouwbaarheidsverificatie, evenredig met service)",
+        "routing": "Interne routingbeoordeling (welk land + welke partner)",
+        "note": "In deze fase is geen partner verplicht tot onbetaald werk. De leadfase bestaat om ruis eruit te filteren en partnertijd te beschermen."
+      },
+      "stage2": {
+        "title": "Fase 2: Klant (overeenkomst + betaling = activering)",
+        "description": "Een lead wordt alleen een klant als:",
+        "agreement": "De serviceovereenkomst ondertekent, en",
+        "payment": "Het servicetarief betaalt",
+        "then": "Dan wordt de zaak geactiveerd:",
+        "profile": "One Profile-bestand gaat \"live\"",
+        "responsibilities": "Verantwoordelijkheden worden toegewezen",
+        "milestones": "Mijlpalen starten",
+        "delivery": "Servicelevering begint volgens netwerkworkflow",
+        "benefit": "Dit beschermt partners, beschermt klanten en creëert een professionele standaard."
+      }
+    },
+    "oneProfile": {
+      "heading": "Het One Profile-systeem (uw echte voordeel)",
+      "intro": "Zodra een klant wordt omgezet, activeert RELOFY:",
+      "oneClient": {
+        "title": "Een klant = één digitaal zaaksdossier (profiel)",
+        "description": "Dit profiel vervangt oude papieren mappen, verspreide e-mails en WhatsApp-threads."
+      },
+      "inside": {
+        "title": "Binnen een profiel:",
+        "identity": "Geverifieerde identiteitsstatus (voltooide KYC-niveau weergegeven)",
+        "vault": "Veilige documentkluis (slechts eenmaal geüpload)",
+        "checklist": "Servicelijst + mijlpalen (intake, biometrie, besluit, overdracht, levering, enz.)",
+        "log": "Communicatielogboek (alle berichten en updates op één plaats)",
+        "audit": "Controlepad (wie deed wat, wanneer - kritiek voor professioneel vertrouwen)",
+        "assignment": "Partnertoewijzingen per service"
+      },
+      "sharing": {
+        "title": "Delen op basis van rol",
+        "intro": "Partners zien alleen wat ze nodig hebben:",
+        "immigration": "Immigratiepartner ziet immigratieveld + documenten",
+        "housing": "Huisvestingspartner ziet huisvestingsveld + huurovereenkomsten",
+        "accountant": "Accountant ziet belastings-/salarissveld + compliancedocumenten",
+        "logistics": "Logistiek ziet verzendingsveld + leveringsdetails",
+        "benefit": "Dit beschermt privacy en vermindert verwarring."
+      }
+    },
+    "networkGrowth": {
+      "heading": "Netwerkgroei = groei van uw bedrijf (wereldwijd zonder filialen)",
+      "intro": "RELOFY is ontworpen om partners in staat te stellen wereldwijd te groeien zonder kantoren te openen en zonder tijdzone-communicatiechaos.",
+      "example": {
+        "title": "Voorbeeld: je bent in VAE",
+        "scenario": "Een lead vraagt hulp met Deens werkvisum. Jij:",
+        "add": "Voeg lead toe aan portaal (of komt via registratie)",
+        "leave": "Laat uw opmerking achter",
+        "select": "Selecteer Deense service",
+        "team": "Ons klantenondersteuningsteam:",
+        "screens": "Beoordeelt lead",
+        "completes": "Voltooit benodigde intake-/KYC-fasen",
+        "forwards": "Stuurt zaak na conversie naar juiste Deense partner",
+        "benefit": "Als lead ondertekenen + betaalt (wordt klant): profiel wordt toegewezen aan Deense partner, verwijzing wordt automatisch geregistreerd en commissie wordt traceerbaar.",
+        "reverse": "Omgekeerd:",
+        "reverseSub": "Partner in Zweden krijgt lead voor jouw expertise (Canada, VAE, Australië, VK, enz.) → Presenteert het → verwijst naar u → levert → facturen in B2B.",
+        "flow": "Dit creëert een wederkerige stroom: het netwerk voedt jou, het netwerk voedt jou."
+      }
+    },
+    "scenarios": {
+      "heading": "Echte partnerscenario's",
+      "scenario1": {
+        "title": "Scenario 1: Volledige familierelatie (multi-service)",
+        "description": "Klant heeft behoefte aan immigratie + huisvesting + schoolondersteuning + verzending + verzekering. Eén profiel verbindt alle services. Klant ziet één pad. Partners leveren sneller."
+      },
+      "scenario2": {
+        "title": "Scenario 2: Grensoverschrijdende referentie (verdien zonder expansie)",
+        "description": "Voeg Deense zaak vanuit VAE toe. Deense partner levert. Verdien referentieprovisies zodra deze zijn omgezet en betaald, zonder kantoor in Denemarken of licentie."
+      },
+      "scenario3": {
+        "title": "Scenario 3: Bedrijfsmedewerker-overdracht (hoge waarde)",
+        "description": "Bedrijf heeft behoefte aan werkvisum + salarisboeking/belastingopstelling + huisvesting. Immigratiepartner + accountant + huisvestingspartner werken samen in één profiel."
+      },
+      "scenario4": {
+        "title": "Scenario 4: Aanvullende services (omzetmultipplicator)",
+        "description": "Visumklant activeert: dierenverplaatsing, geldtransfer, vliegticket, aankomststaxi, verzekering. Meer services = meer inkomsten + betere klantervaring."
+      },
+      "scenario5": {
+        "title": "Scenario 5: Lange levenscyclus (herhaalde inkomsten)",
+        "description": "Klant heeft later behoefte aan verlengingen, familiestukken, boekhoudkunde/belastingen, aankoop onroerend goed. Profielgeschiedenis blijft gestructureerd → gemakkelijker upgraden en langetermijnbehoud."
+      }
+    },
+    "compliance": {
+      "heading": "Compliance, veiligheid en vertrouwen (wat partners vandaag verwachten)",
+      "intro": "Omdat Sweden Relocators het merk op de voorgrond is, implementeren we ernstig vertrouwensniveau:",
+      "clientTrust": {
+        "title": "Klantenvertrouwchecks (evenredig)",
+        "identity": "Identiteitsverificatie / KYC",
+        "documents": "Documentconsistentiecontroles",
+        "fraud": "Fraudefilter/spam",
+        "intake": "Kwaliteitscontrole gestructureerde intake"
+      },
+      "partnerVerification": {
+        "title": "Partnerverificatie (voor activering)",
+        "company": "Bedrijfsverificatie + ervaringsreview",
+        "credentials": "Referenties/licenties waar van toepassing",
+        "scope": "Goedkeuring servicebereik + grondgebiedsdekking",
+        "monitoring": "Kwaliteitsbewaking in de loop van de tijd (levering + betrouwbaarheid)"
+      },
+      "dataProtection": {
+        "title": "Gegevensbeschermingsmentaliteit",
+        "access": "Op rol gebaseerde toegang",
+        "sharing": "Gecontroleerde delen",
+        "documents": "Veilige documentafhandeling en audittrails",
+        "gdpr": "(Ontworpen voor GDPR-conforme werkwijze.)"
+      }
+    },
+    "territory": {
+      "heading": "Grondgebiedsbescherming (bescherming van partnerwaarde)",
+      "intro": "We verdringen niet hetzelfde grondgebied voor dezelfde hoofdservice. Als we al genoeg actieve partners in een stad/provincie hebben:",
+      "onHold": "Je aanvraag kan in de wachtrij worden geplaatst of tijdelijk worden geweigerd",
+      "benefit": "Dit houdt het programma winstgevend voor toegewijde partners en voorkomt dat het een rommelig marktje wordt."
+    },
+    "fees": {
+      "heading": "Tariftransparantie + B2B-betalingsstroom (eenvoudig)",
+      "submit": {
+        "title": "Partners dienen in:",
+        "services": "Servicelijst + duidelijk bereik (wat inclusief/exclusief)",
+        "pricing": "Prijstabel (vergeleken met markt)"
+      },
+      "workingModel": {
+        "title": "Werkmodellen",
+        "flow": "Lead → getekende overeenkomst + betaling → wordt klant → partner levert → partnerfactuur → betalingsverwerking"
+      },
+      "commissions": {
+        "title": "Referentiecommissies:",
+        "recorded": "Opgenomen binnen het profiel",
+        "payable": "Worden betaalbaar zodra conversievoorwaarden zijn voldaan",
+        "paid": "Betaald binnen overeengekomen termijn (bijv. 30 dagen indien van toepassing)",
+        "traceable": "Alles blijft herleidbaar tot het profiel."
+      }
+    },
+    "summary": {
+      "heading": "Dit is RELOFY",
+      "step1": "Lead komt het systeem in (registratie / partnertoewijzing / bedrijfsintegratie).",
+      "step2": "We beoordelen + routeren.",
+      "step3": "Wanneer het contract is getekend en de vergoeding is betaald, wordt de lead een klant.",
+      "step4": "One Profile is actief.",
+      "step5": "Juiste partner levert.",
+      "step6": "Facturatie en commissies worden bijgehouden en professioneel betaald."
+    },
+    "cta": {
+      "heading": "Klaar om uw bedrijf te laten groeien?",
+      "description": "Word lid van het RELOFY-partnernetwerk en maak wereldwijd verbinding met klanten. Bouw uw bedrijf uit zonder uw kantoor uit te breiden.",
+      "button": "Solliciteer als partner"
+    }
+  }
+}

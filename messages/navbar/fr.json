@@ -20,8 +20,38 @@
     },
     "dropdowns": {
       "services": {},
-      "housing": {},
-      "assessment": {}
+      "housing": {
+        "shortTermRentals": "Locations à court terme",
+        "shortTermRentalsDesc": "Hébergements flexibles pour les employés, les visiteurs et les missions courtes.",
+        "longTermRentals": "Locations à long terme",
+        "longTermRentalsDesc": "Solutions de logement complètes pour les employés et les réinstallations d'entreprise.",
+        "buySellProperty": "Achat et vente de propriétés",
+        "buySellPropertyDesc": "Trouvez ou listez des propriétés avec le soutien de nos agents immobiliers agréés.",
+        "listYourProperty": "Inscrivez votre propriété à louer",
+        "listYourPropertyDesc": "Louez en toute sécurité aux expatriés internationaux et aux locataires locaux via un canal sécurisé."
+      },
+      "assessment": {
+        "familyReunificationEU": "Regroupement familial (itinéraire UE)",
+        "familyReunificationEUDesc": "Vérifiez l'admissibilité aux droits familiaux de l'UE en Suède.",
+        "familyReunificationNational": "Regroupement familial (droit national)",
+        "familyReunificationNationalDesc": "Évaluer les exigences selon les règles nationales suédoises.",
+        "familyMaintenance": "Exigence d'entretien familial",
+        "familyMaintenanceDesc": "Calculez l'admissibilité aux revenus et au logement pour les cas familiaux.",
+        "selfEmployed": "Immigration des travailleurs indépendants",
+        "selfEmployedDesc": "Évaluer l'admissibilité à démarrer et exploiter une entreprise en Suède.",
+        "studySweden": "Étudier en Suède",
+        "studySwedenDesc": "Vérifiez l'admission, les fonds, l'assurance et la disponibilité des permis d'études.",
+        "workPermit": "Permis de travail",
+        "workPermitDesc": "Évaluer l'offre d'emploi, le niveau de rémunération et les conditions du permis.",
+        "longtermEuStatus": "Statut à long terme d'un autre pays de l'UE",
+        "longtermEuStatusDesc": "Déterminer les options de résidence suédoise pour les résidents de longue durée de l'UE.",
+        "digitalNomadVisa": "Visa Nomade Numérique",
+        "digitalNomadVisaDesc": "Vérification rapide de l'admissibilité au visa de travail à distance.",
+        "jobSeekerSweden": "Demandeur d'emploi Suède",
+        "jobSeekerSwedenDesc": "Évaluer l'admissibilité à demander le permis de demandeur d'emploi suédois.",
+        "globalVisitVisa": "Visa de visite mondiale",
+        "globalVisitVisaDesc": "Précontrôle de l'admissibilité aux visas de visite dans les principales destinations."
+      }
     }
   }
 }

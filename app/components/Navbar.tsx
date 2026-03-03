@@ -409,35 +409,25 @@ export default function Navbar() {
                 </button>
                 {openDropdowns.housing && (
                   <div
-                    className="dropdown-menu absolute left-0 mt-2 w-[28rem] 4k:w-[32rem] bg-white rounded-lg shadow-2xl border border-gray-200 py-6 px-6 z-50"
+                    className="dropdown-menu absolute left-0 mt-2 w-[32rem] 4k:w-[36rem] bg-white rounded-lg shadow-2xl border border-gray-200 py-6 px-6 z-50"
                   >
                     <div className="grid grid-cols-2 gap-8">
-                      <div>
-                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">{t('navbar.dropdowns.housing.availableHousing')}</h3>
-                        <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.housing.availableHousingLink')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.housing.availableHousingDesc')}</div>
-                        </a>
-                        <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.housing.rentalApartments')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.housing.rentalApartmentsDesc')}</div>
-                        </a>
-                        <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.housing.studentHousing')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.housing.studentHousingDesc')}</div>
-                        </a>
-                      </div>
-                      <div>
-                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">{t('navbar.dropdowns.housing.lookingForHousing')}</h3>
-                        <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.housing.housingSearch')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.housing.housingSearchDesc')}</div>
-                        </a>
-                        <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.housing.roommateMatching')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.housing.roommateMatchingDesc')}</div>
-                        </a>
-                      </div>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.housing.shortTermRentals')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.housing.shortTermRentalsDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.housing.longTermRentals')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.housing.longTermRentalsDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.housing.buySellProperty')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.housing.buySellPropertyDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.housing.listYourProperty')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.housing.listYourPropertyDesc')}</div>
+                      </a>
                     </div>
                   </div>
                 )}
@@ -465,39 +455,49 @@ export default function Navbar() {
                 </button>
                 {openDropdowns.assessment && (
                   <div
-                    className="dropdown-menu absolute left-0 mt-2 w-[28rem] 4k:w-[32rem] bg-white rounded-lg shadow-2xl border border-gray-200 py-6 px-6 z-50"
+                    className="dropdown-menu absolute left-0 mt-2 w-[32rem] 4k:w-[36rem] bg-white rounded-lg shadow-2xl border border-gray-200 py-6 px-6 z-50"
                   >
                     <div className="grid grid-cols-2 gap-8">
-                      <div>
-                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">{t('navbar.dropdowns.assessment.visaAssessments')}</h3>
-                        <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.assessment.businessVisa')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.businessVisaDesc')}</div>
-                        </a>
-                        <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.assessment.visitVisa')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.visitVisaDesc')}</div>
-                        </a>
-                        <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.assessment.studentVisa')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.studentVisaDesc')}</div>
-                        </a>
-                      </div>
-                      <div>
-                        <h3 className="font-bold text-gray-800 mb-3 text-xs 4k:text-sm tracking-wider">{t('navbar.dropdowns.assessment.permitsAndStatus')}</h3>
-                        <a href={`/${locale}/assessment/family-reunification`} className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.assessment.familyReunification')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.familyReunificationDesc')}</div>
-                        </a>
-                        <a href={`/${locale}/assessment/work-permit`} className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.assessment.workPermit')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.workPermitDesc')}</div>
-                        </a>
-                        <a href="#" className="block px-2 py-2.5 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                          <div className="font-semibold">{t('navbar.dropdowns.assessment.longtermEuResidence')}</div>
-                          <div className="text-xs text-gray-600 mt-0.5">{t('navbar.dropdowns.assessment.longtermEuResidenceDesc')}</div>
-                        </a>
-                      </div>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.familyReunificationEU')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.familyReunificationEUDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.workPermit')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.workPermitDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.familyReunificationNational')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.familyReunificationNationalDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.longtermEuStatus')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.longtermEuStatusDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.familyMaintenance')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.familyMaintenanceDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.digitalNomadVisa')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.digitalNomadVisaDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.selfEmployed')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.selfEmployedDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.jobSeekerSweden')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.jobSeekerSwedenDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.studySweden')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.studySwedenDesc')}</div>
+                      </a>
+                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
+                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.globalVisitVisa')}</div>
+                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.globalVisitVisaDesc')}</div>
+                      </a>
                     </div>
                   </div>
                 )}

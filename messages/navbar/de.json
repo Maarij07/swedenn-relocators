@@ -20,8 +20,38 @@
     },
     "dropdowns": {
       "services": {},
-      "housing": {},
-      "assessment": {}
+      "housing": {
+        "shortTermRentals": "Kurzzeitmietungen",
+        "shortTermRentalsDesc": "Flexible Aufenthalte für Mitarbeiter, Besucher und Kurzzeitaufgaben.",
+        "longTermRentals": "Langzeitmietungen",
+        "longTermRentalsDesc": "End-to-End-Wohnungslösungen für Mitarbeiter und Unternehmensumzüge.",
+        "buySellProperty": "Kauf und Verkauf von Immobilien",
+        "buySellPropertyDesc": "Finden oder listen Sie Immobilien mit Unterstützung unserer registrierten Immobilienmakler auf.",
+        "listYourProperty": "Ihre Immobilie zum Vermieten auflisten",
+        "listYourPropertyDesc": "Vermieten Sie sicher an internationale Auswanderer und lokale Mieter über einen sicheren Kanal."
+      },
+      "assessment": {
+        "familyReunificationEU": "Familienzusammenführung (EU-Route)",
+        "familyReunificationEUDesc": "Überprüfen Sie die Berechtigung für EU-Familienrechte in Schweden.",
+        "familyReunificationNational": "Familienzusammenführung (Nationales Recht)",
+        "familyReunificationNationalDesc": "Bewerten Sie Anforderungen gemäß schwedischen nationalen Regeln.",
+        "familyMaintenance": "Familienhauptsatzanforderung",
+        "familyMaintenanceDesc": "Berechnen Sie die Einkommens- und Wohnungsberechtigung für Familienangelegenheiten.",
+        "selfEmployed": "Zuwanderung von Selbstständigen",
+        "selfEmployedDesc": "Bewerten Sie die Berechtigung, in Schweden ein Unternehmen zu gründen und zu führen.",
+        "studySweden": "Studium in Schweden",
+        "studySwedenDesc": "Überprüfen Sie Zulassungs-, Mittel-, Versicherungs- und Studienerlaubnisbereitschaft.",
+        "workPermit": "Arbeitserlaubnis",
+        "workPermitDesc": "Bewerten Sie Stellenangebot, Gehaltsniveau und Genehmigungsbedingungen.",
+        "longtermEuStatus": "Langfristiger Status aus einem anderen EU-Land",
+        "longtermEuStatusDesc": "Bestimmen Sie schwedische Wohnoptionen für langfristig in der EU niedergelassene Personen.",
+        "digitalNomadVisa": "Digital Nomad Visum",
+        "digitalNomadVisaDesc": "Schnelle Überprüfung der Berechtigung für Fernarbeitsvisum.",
+        "jobSeekerSweden": "Arbeitssuchender Schweden",
+        "jobSeekerSwedenDesc": "Bewerten Sie die Berechtigung, einen schwedischen Arbeitssuchendengenehmigung zu beantragen.",
+        "globalVisitVisa": "Globales Besuchsvisum",
+        "globalVisitVisaDesc": "Vorprüfung der Berechtigung für Besuchsvisa über wichtige Ziele."
+      }
     }
   }
 }

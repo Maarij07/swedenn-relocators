@@ -1,0 +1,218 @@
+{
+  "partners": {
+    "hero": {
+      "mainTitle": "RELOFY-partnerprogrammet",
+      "poweredBy": "Drivs av Sweden Relocators",
+      "tagline": "Ett nätverk. En klientprofil. Strukturerad tillväxt.",
+      "description": "Ett verifierat partnernätverk byggt för att leverera en komplett omlokaliseringsresa under ett system."
+    },
+    "coreValues": {
+      "verified": {
+        "title": "Verifierat nätverk",
+        "description": "Byggt för att leverera kompletta omlokaliseringsresor under ett säkert system"
+      },
+      "protected": {
+        "title": "Skyddad process",
+        "description": "Klienter blir partners bara efter överenskommelse och betalning"
+      },
+      "global": {
+        "title": "Global tillväxt",
+        "description": "Expandera världsomfattande genom gränsöverskridande remisser utan nya kontor"
+      }
+    },
+    "whoCan": {
+      "heading": "Vem kan gå med",
+      "intro": "RELOFY är byggt för verifierade branschproffs och tjänsteleverantörer inom dessa sektorer:",
+      "immigration": {
+        "title": "Invandring & juridik",
+        "description": "Konsulter, licensierade advokater/advokatbyråer, efterlevnads- och omprövningsexperter"
+      },
+      "relocation": {
+        "title": "Omlokalisation & destination",
+        "description": "Etableringstjänster, skolstöd, flyttadministration"
+      },
+      "housing": {
+        "title": "Bostäder & egendom",
+        "description": "Bostadsuthyrning, fastighetsförmedling, fastighetsförvaltning, kommersiell fastighet"
+      },
+      "corporate": {
+        "title": "Corporate & compliance",
+        "description": "Revisorer, skatteadvisörer, lönehanterare, EOR, HR och global mobilitet"
+      },
+      "logistics": {
+        "title": "Logistik & mobilitet",
+        "description": "Frakt, flygbiljetter, flygplatstjänster, ankomst-/avgångstjänster"
+      },
+      "financial": {
+        "title": "Finans & försäkring",
+        "description": "Sjukförsäkring, pengaöverföring, finansiella tjänster och råd"
+      },
+      "business": {
+        "title": "Företag & investeringsstöd",
+        "description": "Företagsköp/försäljning, företagsstöd, investeringsrådgivning"
+      },
+      "quote": "Om du stöder en nykomlings liv och efterlevnad i ett nytt land hör du hemma i det här nätverket."
+    },
+    "howitWorks": {
+      "heading": "Hur systemet fungerar (enkelt + professionellt)",
+      "intro": "För att hålla processen ren använder RELOFY två steg:",
+      "stage1": {
+        "title": "Steg 1: Lead (intresse + screening)",
+        "description": "När någon registrerar sig på portalen/mobilappen betraktas de som ett lead. Ett lead kan komma in på tre sätt:",
+        "entry1": "Klient registrerar sig via portal/mobilapp (lead skapas automatiskt)",
+        "entry2": "Partner lägger till ett lead i partnerportalen",
+        "entry3": "Sweden Relocators lägger till ett lead via marknadsföring/företagsonboarding",
+        "during": "Under leadstadiet gör vi:",
+        "intake": "Strukturerad intag (syfte, land, tjänster som behövs)",
+        "documents": "Tidiga dokumentkrav (bara vad som behövs för bedömning)",
+        "kyc": "Initiala KYC-kontroller (identitets- och trovärdigherskontroller, proportionella mot tjänsten)",
+        "routing": "Intern ruttkontroll (vilket land + vilken partner)",
+        "note": "I detta skede tvingas ingen partner till opaid arbete. Leadstadiet existerar för att filtrera brus och skydda partnertid."
+      },
+      "stage2": {
+        "title": "Steg 2: Klient (överenskommelse + betalning = aktivering)",
+        "description": "Ett lead blir en klient bara när de:",
+        "agreement": "Signerar serviceavtalet, och",
+        "payment": "Betalar serviceavgiften",
+        "then": "Sedan aktiveras fallet:",
+        "profile": "One Profile File blir \"live\"",
+        "responsibilities": "Ansvar är tilldelade",
+        "milestones": "Milstolpar börjar",
+        "delivery": "Servicelevering börjar enligt nätverkets arbetsflöde",
+        "benefit": "Detta skyddar partners, skyddar klienter och skapar en professionell standard."
+      }
+    },
+    "oneProfile": {
+      "heading": "One Profile-systemet (din verkliga fördel)",
+      "intro": "När klienten är omvandlad aktiverar RELOFY:",
+      "oneClient": {
+        "title": "En klient = en digital ärendeFil (profil)",
+        "description": "Den här profilen ersätter gamla pappersfolders, spridda e-postmeddelanden och WhatsApp-trådar."
+      },
+      "inside": {
+        "title": "Inuti en profil:",
+        "identity": "Verifierad identitetsstatus (KYC-nivå slutförd visad)",
+        "vault": "Säker dokumentvalv (överfört en gång)",
+        "checklist": "Servicechecklista + milstolpar (inlämning, biometri, beslut, inflyttning, leverans, osv.)",
+        "log": "Kommunikationslogg (alla meddelanden och uppdateringar på ett ställe)",
+        "audit": "Audit trail (vem gjorde vad, när – kritiskt för professionell förtroende)",
+        "assignment": "Partnertilldelningar per service"
+      },
+      "sharing": {
+        "title": "Rollbaserad delning",
+        "intro": "Partners ser bara vad de behöver:",
+        "immigration": "Invandrarpartner ser invandringsnivå + dokument",
+        "housing": "Bostadspartner ser bostadsnivå + hyreskontrakt",
+        "accountant": "Revisor ser skatte-/lönenivå + efterlevnadsdokument",
+        "logistics": "Logistik ser fraktnivå + leveransdetaljer",
+        "benefit": "Detta skyddar sekretess och minskar förvirring."
+      }
+    },
+    "networkGrowth": {
+      "heading": "Nätverkstillväxt = din affärstillväxt (global utan grenar)",
+      "intro": "RELOFY är designat så att partners kan växa globalt utan att öppna kontor och utan tidszonskommunikationskhaos.",
+      "example": {
+        "title": "Exempel: Du är i UAE",
+        "scenario": "Ett lead frågar efter help med arbetsvistelse i Danmark. Du:",
+        "add": "Lägger till ledet i portalen (eller så kommer det via anmälan)",
+        "leave": "Lämnar ditt meddelande",
+        "select": "Väljer Danmark-service",
+        "team": "Vår kundsupport-team:",
+        "screens": "Screnar ledet",
+        "completes": "Slutför intag/KYC-stegen som behövs",
+        "forwards": "Vidarebefordrar ärendet till rätt Danmark-partner efter konvertering",
+        "benefit": "Om ledet signerar + betalar (blir klient): profilen tilldelas Danmark-partner, din remiss registreras automatiskt och din provision blir spårbar.",
+        "reverse": "Vänd det:",
+        "reverseSub": "En partner i Sverige får ett lead för din expertis (Kanada, UAE, Australien, UK osv.) → De skickar det → vi dirigerar det till dig → du leverera → du fakturerar enligt B2B.",
+        "flow": "Detta skapar ett ömsesidigt flöde: du matar nätverket, nätverket matar dig."
+      }
+    },
+    "scenarios": {
+      "heading": "Verkliga partnerscenarier",
+      "scenario1": {
+        "title": "Scenario 1: Helomfattande familjeomlokalisation (multi-service)",
+        "description": "Klient behöver invandring + bostäder + skolstöd + frakt + försäkring. En profil kopplar alla tjänster. Klient ser en resa. Partner leverera snabbare."
+      },
+      "scenario2": {
+        "title": "Scenario 2: Gränsöverskridande remiss (tjäna utan expansion)",
+        "description": "Du lägger till ett Danmark-fall från UAE. Danmark-partner levererar. Du tjänar remissprovisioner när ärendet konverteras och betalas, utan någon Danmark-kontor eller licensiering."
+      },
+      "scenario3": {
+        "title": "Scenario 3: Företagsomlokalisation för anställda (högt värderat fall)",
+        "description": "Företaget behöver arbetsvistelse + löne-/skatteinställning + bostäder. Invandring + revisor + bostadspartner samarbetar inuti en profil."
+      },
+      "scenario4": {
+        "title": "Scenario 4: Tilläggstjänster (intäktsmultiplikator)",
+        "description": "Visumklient utlöser: husdjursomlokalisation, pengaöverföring, flygbiljett, ankomst-taxi, försäkring. Fler tjänster = högre intäkter + bättre klientupplevelse."
+      },
+      "scenario5": {
+        "title": "Scenario 5: Långsiktig livscykel (upprepad intäkt)",
+        "description": "Klient behöver senare förnyelser, familjefall, redovisning/skatt, fastighetsköp. Profilhistorik förblir strukturerad → enklare uppföljning och långsiktig kundretention."
+      }
+    },
+    "compliance": {
+      "heading": "Compliance, säkerhet & förtroende (vad partners förväntar sig idag)",
+      "intro": "Eftersom Sweden Relocators är fronts-varumärket kör vi ett allvarligt förtroendelager:",
+      "clientTrust": {
+        "title": "Klientförtroendecheck (proportionerlig)",
+        "identity": "Identitetsverifiering / KYC",
+        "documents": "Dokumentkonsekvenskontroller",
+        "fraud": "Bedrägeri-/skämtfiltrering",
+        "intake": "Strukturerad intag av kvalitetskontroll"
+      },
+      "partnerVerification": {
+        "title": "Partnerverifiering (före aktivering)",
+        "company": "Företagsverifiering + erfarenhetsgranskning",
+        "credentials": "Legitimitet/licenser där tillämpligt",
+        "scope": "Servicenivågodsyn + territoriell täckning",
+        "monitoring": "Kvalitetsövervakning över tiden (leverans + tillförlitlighet)"
+      },
+      "dataProtection": {
+        "title": "Dataskyddstänkande",
+        "access": "Rollbaserad åtkomst",
+        "sharing": "Kontrolerad delning",
+        "documents": "Säker dokumenthantering och granskningsloggar",
+        "gdpr": "(Designat för ett GDPR-kompatibelt arbetssätt.)"
+      }
+    },
+    "territory": {
+      "heading": "Territorieskydd (partnervärdesskydd)",
+      "intro": "Vi överbefolkar inte samma territorium för samma huvudsakliga service. Om vi redan har tillräckligt med aktiva partners i en stad/provins:",
+      "onHold": "Din ansökan kan placeras på väntande eller tillfälligt avslås",
+      "benefit": "Detta håller programmet lönsamt för engagerade partners och undviker att förvandla det till en trängd marknadsplats."
+    },
+    "fees": {
+      "heading": "Geburtransparens + B2B-betalningsflöde (enkelt)",
+      "submit": {
+        "title": "Partners skickar:",
+        "services": "Servicelista + tydlig omfattning (vad som ingår/utesluts)",
+        "pricing": "Priskarta (jämförd mot marknaden)"
+      },
+      "workingModel": {
+        "title": "Arbetsmodell",
+        "flow": "Lead → signerar överenskommelse + betalar → blir klient → partner levererar → partner fakturerar → utbetalning bearbetas"
+      },
+      "commissions": {
+        "title": "Provisioner för remiss:",
+        "recorded": "Registreras inuti profilen",
+        "payable": "Blir betalbar när konverteringsvillkoren är uppfyllda",
+        "paid": "Betalas inom den överenskomna tidsramen (t.ex. 30 dagar där tillämpligt)",
+        "traceable": "Allt förblir spårbart till profilen."
+      }
+    },
+    "summary": {
+      "heading": "Det är RELOFY",
+      "step1": "Ledets går in i systemet (registrering / partneraddition / vår onboarding).",
+      "step2": "Vi screnar + dirigerar.",
+      "step3": "När överenskommelse är signerad och avgift är betald blir ledet klient.",
+      "step4": "One Profile går live.",
+      "step5": "Rätt partner levererar.",
+      "step6": "Fakturor och provisioner spåras och betalas professionellt."
+    },
+    "cta": {
+      "heading": "Redo att växa din affär?",
+      "description": "Gå med i RELOFY-partnernätverket och anslut dig globalt till klienter. Bygg din affär utan att expandera ditt kontor.",
+      "button": "Ansök som partner"
+    }
+  }
+}

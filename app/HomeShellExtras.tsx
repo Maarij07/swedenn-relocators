@@ -23,8 +23,9 @@ export default function HomeShellExtras() {
   const isCareer = pathname?.includes('/career');
   const isPrivacyPolicy = pathname?.includes('/privacy-policy');
   const isTermsAndConditions = pathname?.includes('/terms-and-conditions');
+  const isPartners = pathname?.includes('/partners');
 
-  if (isServices || isBlogs || isAbout || isContact || isNewInSweden || isFaqs || isCareer || isPrivacyPolicy || isTermsAndConditions) {
+  if (isServices || isBlogs || isAbout || isContact || isNewInSweden || isFaqs || isCareer || isPrivacyPolicy || isTermsAndConditions || isPartners) {
     return null;
   }
 

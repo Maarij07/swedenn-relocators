@@ -20,8 +20,38 @@
     },
     "dropdowns": {
       "services": {},
-      "housing": {},
-      "assessment": {}
+      "housing": {
+        "shortTermRentals": "اجارهٔ کوتاهمدت",
+        "shortTermRentalsDesc": "اقامتهای انعطاف‌پذیر برای کارمندان، بازدیدکنندگان و ماموریت‌های کوتاه‌مدت.",
+        "longTermRentals": "اجارهٔ بلندمدت",
+        "longTermRentalsDesc": "راهکارهای مسکونی جامع برای کارمندان و جابه‌جایی شرکتی.",
+        "buySellProperty": "خرید و فروش ملک",
+        "buySellPropertyDesc": "ملک‌ها را بیابید یا بفروشید با پشتیبانی دلالان ثبت‌شدهٔ ما.",
+        "listYourProperty": "لیست کردن ملک خود برای اجاره",
+        "listYourPropertyDesc": "با ایمنی برای تبعیدی‌های بین‌المللی و مستأجران محلی از طریق کانال امن اجاره کنید."
+      },
+      "assessment": {
+        "familyReunificationEU": "جمع‌کنندگی خانواده (مسیر اتحادیه اروپا)",
+        "familyReunificationEUDesc": "واجد شرایط بودن را برای حقوق خانوادگی اتحادیه اروپا در سوئد بررسی کنید.",
+        "familyReunificationNational": "جمع‌کنندگی خانواده (قانون ملی)",
+        "familyReunificationNationalDesc": "الزامات را مطابق قوانین ملی سوئد ارزیابی کنید.",
+        "familyMaintenance": "الزام نگهداری خانوار",
+        "familyMaintenanceDesc": "درآمد و واجد شرایط مسکن برای پرونده‌های خانوادگی را محاسبه کنید.",
+        "selfEmployed": "مهاجرت برای خود‌اشتغال",
+        "selfEmployedDesc": "واجد شرایط بودن برای شروع و اداره کسب‌وکار در سوئد را ارزیابی کنید.",
+        "studySweden": "تحصیل در سوئد",
+        "studySwedenDesc": "پذیرش، صندوق، بیمه و آمادگی مجوز تحصیل را بررسی کنید.",
+        "workPermit": "مجوز کار",
+        "workPermitDesc": "پیشنهاد شغل، سطح حقوق و شرایط مجوز را ارزیابی کنید.",
+        "longtermEuStatus": "وضعیت درازمدت از کشور دیگری در اتحادیه اروپا",
+        "longtermEuStatusDesc": "گزینه‌های اقامت سوئد را برای ساکنان درازمدت اتحادیه اروپا تعیین کنید.",
+        "digitalNomadVisa": "ویزای بدوی دیجیتالی",
+        "digitalNomadVisaDesc": "بررسی سریع واجد شرایط بودن برای ویزای کار از راه‌دور.",
+        "jobSeekerSweden": "جوینده شغل سوئد",
+        "jobSeekerSwedenDesc": "واجد شرایط بودن برای درخواست مجوز جوینده شغل سوئد را ارزیابی کنید.",
+        "globalVisitVisa": "ویزای بازدید جهانی",
+        "globalVisitVisaDesc": "پیش‌بررسی واجد شرایط بودن برای ویزای بازدید در مقاصد کلیدی."
+      }
     }
   }
 }

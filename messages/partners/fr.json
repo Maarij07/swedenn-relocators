@@ -1,0 +1,218 @@
+{
+  "partners": {
+    "hero": {
+      "mainTitle": "Programme Partenaires RELOFY",
+      "poweredBy": "Propulsé par Sweden Relocators",
+      "tagline": "Un réseau. Un profil client. Croissance structurée.",
+      "description": "Un réseau de partenaires vérifiés conçu pour fournir un parcours de relocalisation complet sous un système."
+    },
+    "coreValues": {
+      "verified": {
+        "title": "Réseau vérifié",
+        "description": "Construit pour fournir des parcours de relocalisation complets sous un système sécurisé"
+      },
+      "protected": {
+        "title": "Processus protégé",
+        "description": "Les clients deviennent partenaires uniquement après accord et paiement"
+      },
+      "global": {
+        "title": "Croissance mondiale",
+        "description": "Élargissez-vous mondialement grâce aux références transfrontalières sans nouveaux bureaux"
+      }
+    },
+    "whoCan": {
+      "heading": "Qui peut rejoindre",
+      "intro": "RELOFY est conçu pour les professionnels de l'industrie vérifiés et les fournisseurs de services dans ces secteurs:",
+      "immigration": {
+        "title": "Immigration et droit",
+        "description": "Consultants, avocats autorisés/cabinets juridiques, experts en conformité et appels"
+      },
+      "relocation": {
+        "title": "Relocalisation et destination",
+        "description": "Services d'installation, soutien scolaire, gestion du déménagement"
+      },
+      "housing": {
+        "title": "Logement et immobilier",
+        "description": "Locations, courtage immobilier, gestion immobilière, immobilier commercial"
+      },
+      "corporate": {
+        "title": "Entreprise et conformité",
+        "description": "Comptables, conseillers fiscaux, fournisseurs de paie, EOR, RH et mobilité mondiale"
+      },
+      "logistics": {
+        "title": "Logistique et mobilité",
+        "description": "Expédition, billets d'avion, services aéroportuaires, services d'arrivée/départ"
+      },
+      "financial": {
+        "title": "Finances et assurances",
+        "description": "Assurance maladie, transferts d'argent, services et conseil financiers"
+      },
+      "business": {
+        "title": "Soutien aux entreprises et investissements",
+        "description": "Services d'achat/vente d'entreprises, soutien à la création d'entreprises, conseil en investissement"
+      },
+      "quote": "Si vous soutinez la vie et la conformité d'un nouveau venu dans un nouveau pays, vous appartenez à ce réseau."
+    },
+    "howitWorks": {
+      "heading": "Comment fonctionne le système (facile + professionnel)",
+      "intro": "Pour maintenir le processus propre, RELOFY utilise deux phases:",
+      "stage1": {
+        "title": "Phase 1: Lead (Intérêt + Criblage)",
+        "description": "Quand quelqu'un s'inscrit sur le portail/l'application mobile, il est considéré comme un lead. Un lead peut entrer de trois façons:",
+        "entry1": "Le client s'inscrit via le portail/l'application mobile (le lead est créé automatiquement)",
+        "entry2": "Le partenaire ajoute un lead dans le Portail Partenaire",
+        "entry3": "Sweden Relocators ajoute un lead via le marketing/l'intégration d'entreprise",
+        "during": "Pendant la phase de lead, nous:",
+        "intake": "Prélèvement structuré (objectif, pays, services nécessaires)",
+        "documents": "Exigences en matière de documents précoces (uniquement ce qui est nécessaire pour évaluer)",
+        "kyc": "Contrôles KYC initiaux (vérifications d'identité et de crédibilité, proportionnelles au service)",
+        "routing": "Examen du routage interne (quel pays + quel partenaire)",
+        "note": "À ce stade, aucun partenaire n'est forcé à travailler sans salaire. La phase lead existe pour filtrer le bruit et protéger le temps des partenaires."
+      },
+      "stage2": {
+        "title": "Phase 2: Client (Accord + Paiement = Activation)",
+        "description": "Un lead devient un client uniquement lorsque:",
+        "agreement": "Signe l'accord de service, et",
+        "payment": "Payer les frais de service",
+        "then": "Ensuite, le dossier est activé:",
+        "profile": "One Profile File devient \"en direct\"",
+        "responsibilities": "Les responsabilités sont assignées",
+        "milestones": "Les jalons commencent",
+        "delivery": "La prestation de services commence selon le flux de travail du réseau",
+        "benefit": "Cela protège les partenaires, protège les clients et crée une norme professionnelle."
+      }
+    },
+    "oneProfile": {
+      "heading": "Le système One Profile (Votre vrai avantage)",
+      "intro": "Une fois le client converti, RELOFY active:",
+      "oneClient": {
+        "title": "Un client = un dossier de cas numérique (profil)",
+        "description": "Ce profil remplace les anciens dossiers papier, les e-mails dispersés et les fils WhatsApp."
+      },
+      "inside": {
+        "title": "Dans un profil:",
+        "identity": "Statut d'identité vérifié (niveau KYC complété s'affiche)",
+        "vault": "Coffre-fort de documents sécurisé (téléchargé une fois)",
+        "checklist": "Liste de vérification des services + jalons (soumission, biométrie, décision, installation, livraison, etc.)",
+        "log": "Journal de communication (tous les messages et mises à jour en un seul endroit)",
+        "audit": "Journal d'audit (qui a fait quoi, quand - critique pour la confiance professionnelle)",
+        "assignment": "Affectations de partenaires par service"
+      },
+      "sharing": {
+        "title": "Partage basé sur les rôles",
+        "intro": "Les partenaires ne voient que ce dont ils ont besoin:",
+        "immigration": "Le partenaire en immigration voit la portée de l'immigration + documents",
+        "housing": "Le partenaire en logement voit la portée du logement + contrats de location",
+        "accountant": "Le comptable voit la portée des impôts/paie + documents de conformité",
+        "logistics": "La logistique voit la portée de l'expédition + détails de livraison",
+        "benefit": "Cela protège la vie privée et réduit la confusion."
+      }
+    },
+    "networkGrowth": {
+      "heading": "Croissance du réseau = Croissance de votre entreprise (monde entier pour les branches)",
+      "intro": "RELOFY est conçu pour que les partenaires puissent se développer à l'échelle mondiale sans ouvrir de bureaux et sans chaos de communication de fuseau horaire.",
+      "example": {
+        "title": "Exemple: Vous êtes au EAU",
+        "scenario": "Un lead demande de l'aide pour m permis de travail au Danemark. Vous:",
+        "add": "Ajoutez le lead au portail (ou il provient de l'inscription)",
+        "leave": "Laissez votre note",
+        "select": "Sélectionnez le service Danemark",
+        "team": "Notre équipe d'support client:",
+        "screens": "Examine le lead",
+        "completes": "Complète les étapes de prélèvement/KYC nécessaires",
+        "forwards": "Transmet le dossier au bon partenaire danois après conversion",
+        "benefit": "Si le lead signe + paie (devient client): le profil est assigné au partenaire danois, votre référence est enregistrée automatiquement et votre commission devient traçable.",
+        "reverse": "Inverse:",
+        "reverseSub": "Un partenaire en Suède reçoit un lead pour votre expertise (Canada, EAU, Australie, Royaume-Uni, etc.) → Ils le soumettent → nous l'acheminons vers vous → vous livrez → vous facturez en B2B.",
+        "flow": "Cela crée un flux réciproque: vous alimentez le réseau, le réseau vous alimente."
+      }
+    },
+    "scenarios": {
+      "heading": "Scénarios de partenaires réels",
+      "scenario1": {
+        "title": "Scénario 1: Relocalisation familiale complète (services multiples)",
+        "description": "Le client a besoin d'immigration + logement + soutien scolaire + expédition + assurance. Un profil connecte tous les services. Le client voit un parcours. Les partenaires livrent plus rapidement."
+      },
+      "scenario2": {
+        "title": "Scénario 2: Référence transfrontalière (gagner sans expansion)",
+        "description": "Vous ajoutez un cas du Danemark à partir des EAU. Le partenaire danois livre. Vous gagnez des commissions de référence une fois converti et payé, sans bureau au Danemark ou licence."
+      },
+      "scenario3": {
+        "title": "Scénario 3: Relocalisation des employés de l'entreprise (cas de haute valeur)",
+        "description": "L'entreprise a besoin d'un permis de travail + configuration de la paie/imposition + logement. Partenaires immigration + comptable + logement collaborent dans un profil."
+      },
+      "scenario4": {
+        "title": "Scénario 4: Services complémentaires (multiplicateur de revenus)",
+        "description": "Le client de visa déclenche: relocalisation d'animaux de compagnie, transfert d'argent, billet d'avion, taxi d'arrivée, assurance. Plus de services = plus de revenus + meilleure expérience client."
+      },
+      "scenario5": {
+        "title": "Scénario 5: Cycle de vie à long terme (revenus répétés)",
+        "description": "Le client a besoin plus tard de renouvellements, de cas familiaux, de comptabilité/imposition, d'achat de propriété. L'historique du profil reste structuré → vente croisée plus facile et rétention à long terme."
+      }
+    },
+    "compliance": {
+      "heading": "Conformité, sécurité et confiance (ce que les partenaires attendent aujourd'hui)",
+      "intro": "Parce que Sweden Relocators est la marque de façade, nous gérons une couche de confiance sérieuse:",
+      "clientTrust": {
+        "title": "Vérifications de confiance client (proportionnées)",
+        "identity": "Vérification d'identité / KYC",
+        "documents": "Contrôles de cohérence des documents",
+        "fraud": "Filtrage de la fraude/spam",
+        "intake": "Contrôle de qualité des prélèvements structurés"
+      },
+      "partnerVerification": {
+        "title": "Vérification des partenaires (avant activation)",
+        "company": "Vérification de l'entreprise + examen de l'expérience",
+        "credentials": "Titres de compétences/licences selon le cas",
+        "scope": "Approbation de la portée du service + couverture territoriale",
+        "monitoring": "Surveillance de la qualité au fil du temps (livraison + fiabilité)"
+      },
+      "dataProtection": {
+        "title": "Mentalité de protection des données",
+        "access": "Accès basé sur les rôles",
+        "sharing": "Partage contrôlé",
+        "documents": "Gestion sécurisée des documents et journaux d'audit",
+        "gdpr": "(Conçu pour une façon de travailler alignée sur le RGPD.)"
+      }
+    },
+    "territory": {
+      "heading": "Protection territoriale (Protection de la valeur des partenaires)",
+      "intro": "Nous ne surpeuplons pas le même territoire pour le même service principal. Si nous avons déjà suffisamment de partenaires actifs dans une ville/province:",
+      "onHold": "Votre candidature peut être mise en attente ou rejetée temporairement",
+      "benefit": "Cela maintient le programme rentable pour les partenaires dédiés et évite de le transformer en marché encombré."
+    },
+    "fees": {
+      "heading": "Transparence des frais + Flux de paiement B2B (simple)",
+      "submit": {
+        "title": "Les partenaires soumettent:",
+        "services": "Liste des services + portée claire (ce qui est inclus/exclu)",
+        "pricing": "Tableau des prix (comparé au marché)"
+      },
+      "workingModel": {
+        "title": "Modèle de travail",
+        "flow": "Lead → signe accord + paie → devient client → partenaire livre → partenaire facture → traitement du paiement"
+      },
+      "commissions": {
+        "title": "Commissions de référence:",
+        "recorded": "Sont enregistrées dans le profil",
+        "payable": "Deviennent payables une fois les conditions de conversion remplies",
+        "paid": "Sont payées dans le délai convenu (p. ex., 30 jours selon le cas)",
+        "traceable": "Tout reste traçable au profil."
+      }
+    },
+    "summary": {
+      "heading": "C'est RELOFY",
+      "step1": "Le lead entre dans le système (inscription / ajout partenaire / notre accueil).",
+      "step2": "Nous examinons + routons.",
+      "step3": "Quand l'accord est signé et les frais payés, le lead devient client.",
+      "step4": "One Profile est en direct.",
+      "step5": "Le bon partenaire livre.",
+      "step6": "Les factures et les commissions sont suivies et payées professionnellement."
+    },
+    "cta": {
+      "heading": "Prêt à développer votre entreprise?",
+      "description": "Rejoignez le réseau de partenaires RELOFY et connectez-vous mondialement avec les clients. Développez votre entreprise sans élargir votre bureau.",
+      "button": "Postuler en tant que partenaire"
+    }
+  }
+}

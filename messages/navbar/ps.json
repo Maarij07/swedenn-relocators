@@ -20,8 +20,38 @@
     },
     "dropdowns": {
       "services": {},
-      "housing": {},
-      "assessment": {}
+      "housing": {
+        "shortTermRentals": "قلمي کال اجاره",
+        "shortTermRentalsDesc": "د کارمندانو، لیدونکو او لنډمدتي دندو لپاره لچک رہائش.",
+        "longTermRentals": "اوږده مياد اجاره",
+        "longTermRentalsDesc": "د کارمندانو او کاربارې د بدلون لپاره مکمل سکون حل.",
+        "buySellProperty": "د ملکیت خریدل او فروختل",
+        "buySellPropertyDesc": "د رجیسټر شوي ملک وسیله کار ونکې کی د سره د ملکیت لاشی کړی یا تیر کړي.",
+        "listYourProperty": "خپل ملک د کرائ لپاره فهرست کړئ",
+        "listYourPropertyDesc": "د محفوظ چینل له لارې بین الاقوامی نوموړيو او ځایی ودې ته په امن سره کرایه کړئ."
+      },
+      "assessment": {
+        "familyReunificationEU": "د کورنۍ ملونځ (EU لار)",
+        "familyReunificationEUDesc": "د سویډن کې د EU د کورنۍ اختیاراتو لپاره سمتیا وګورئ.",
+        "familyReunificationNational": "د کورنۍ ملونځ (ملي قانون)",
+        "familyReunificationNationalDesc": "د سویډن ملي قانونونو مطابق ضروريات ارزیابي کړئ.",
+        "familyMaintenance": "د کورنۍ ټیکاراندی اړتیا",
+        "familyMaintenanceDesc": "د کورنۍ قضیو لپاره درآمد او رهایش سمتیا محاسبه کړئ.",
+        "selfEmployed": "د خپلکار مهاجرت",
+        "selfEmployedDesc": "د سویډن کې کاروبار پیل او چلولو لپاره سمتیا ارزیابي کړئ.",
+        "studySweden": "د سویډن کې مطالعه",
+        "studySwedenDesc": "د قبولیت، بیسګو، بیمې او مطالعې اجازت تياري وګورئ.",
+        "workPermit": "د کار اجازت",
+        "workPermitDesc": "د کار پیشنهاد، معاشی سطح او اجازت شرایط ارزیابي کړئ.",
+        "longtermEuStatus": "د بل EU هیواد څخه د مدتې وده",
+        "longtermEuStatusDesc": "د EU د مدتې استوګنې کې د سویډن د رهایش خیارونه معین کړئ.",
+        "digitalNomadVisa": "ډیجیتل ټول ویزا",
+        "digitalNomadVisaDesc": "د ریموټ کار ویزا سمتیا لپاره ګړ ازمایږ.",
+        "jobSeekerSweden": "د کار تلاشو سویډن",
+        "jobSeekerSwedenDesc": "د سویډن د کار تلاشو اجازت لپاره درخواست کولو سمتیا ارزیابي کړئ.",
+        "globalVisitVisa": "د نړۍ بیلخواب ویزا",
+        "globalVisitVisaDesc": "د کلیدي منزلونو د بیلخواب ویزا سمتیا ازمایږ."
+      }
     }
   }
 }

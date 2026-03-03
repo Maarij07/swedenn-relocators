@@ -26,6 +26,40 @@
     },
     "language": {
       "english": "Svenska"
+    },
+    "dropdowns": {
+      "housing": {
+        "shortTermRentals": "Korttidshyresor",
+        "shortTermRentalsDesc": "Flexibla vistelser för anställda, besökare och kortare uppdrag.",
+        "longTermRentals": "Långtidshyresor",
+        "longTermRentalsDesc": "End-to-end bostadslösningar för anställda och företagsomflyttningar.",
+        "buySellProperty": "Köp och sälja fastigheter",
+        "buySellPropertyDesc": "Hitta eller annonsera fastigheter med stöd från våra registrerade mäklarfirmor.",
+        "listYourProperty": "Lista din fastighet för uthyrning",
+        "listYourPropertyDesc": "Hyr ut säkert till internationella expats och lokala hyresgäster via en säker kanal."
+      },
+      "assessment": {
+        "familyReunificationEU": "Familjeåterförening (EU-vägen)",
+        "familyReunificationEUDesc": "Kontrollera berättigande för EU-familjerättigheter i Sverige.",
+        "familyReunificationNational": "Familjeåterförening (Nationell lag)",
+        "familyReunificationNationalDesc": "Bedöm krav enligt svenska nationella regler.",
+        "familyMaintenance": "Underhållskrav för familj",
+        "familyMaintenanceDesc": "Beräkna inkomst- och bostadsberättigande för familjeärenden.",
+        "selfEmployed": "Egenföretagarinvandring",
+        "selfEmployedDesc": "Utvärdera berättigande att starta och driva ett företag i Sverige.",
+        "studySweden": "Studera i Sverige",
+        "studySwedenDesc": "Kontrollera antagning, medel, försäkring och möjlighet till studietillstånd.",
+        "workPermit": "Arbetstillstånd",
+        "workPermitDesc": "Bedöm jobberbjudande, lönenivå och tillståndsvillkor.",
+        "longtermEuStatus": "Långsiktig status från annat EU-land",
+        "longtermEuStatusDesc": "Bestäm svenska bostadsalternativ för långtidsboende i EU.",
+        "digitalNomadVisa": "Digital nomadvisa",
+        "digitalNomadVisaDesc": "Snabbkontroll av berättigande för fjärrarbetsvisa.",
+        "jobSeekerSweden": "Arbetssökande Sverige",
+        "jobSeekerSwedenDesc": "Bedöm berättigande att ansöka om Sveriges arbetssökande tillstånd.",
+        "globalVisitVisa": "Global besöksvisa",
+        "globalVisitVisaDesc": "Förkontroll av berättigande för besöksvisum för nyckelbestämmelser."
+      }
     }
   }
 }

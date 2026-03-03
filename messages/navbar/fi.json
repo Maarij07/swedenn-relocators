@@ -20,8 +20,38 @@
     },
     "dropdowns": {
       "services": {},
-      "housing": {},
-      "assessment": {}
+      "housing": {
+        "shortTermRentals": "Lyhytaikaiset vuokrat",
+        "shortTermRentalsDesc": "Joustavat majoitukset työntekijöille, vierailijoille ja lyhytaikaisille tehtäville.",
+        "longTermRentals": "Pitkäaikaiset vuokrat",
+        "longTermRentalsDesc": "Kattavat asuntolinjakset työntekijöille ja yritysmuutoille.",
+        "buySellProperty": "Omaisuuden osto ja myynti",
+        "buySellPropertyDesc": "Etsi tai listaa kiinteistöjä rekisteröidyillä kiinteistönvälittäjillä.",
+        "listYourProperty": "Listaa kiinteistösi vuokraukseen",
+        "listYourPropertyDesc": "Vuokraa turvallisesti kansainvälisille ulkomaalaistöille ja paikallisille vuokralaisille suojatun kanavan kautta."
+      },
+      "assessment": {
+        "familyReunificationEU": "Perheenyhdistäminen (EU-reitti)",
+        "familyReunificationEUDesc": "Tarkista kelpoisuus EU:n perheellisille oikeuksille Ruotsissa.",
+        "familyReunificationNational": "Perheenyhdistäminen (Valtiolaki)",
+        "familyReunificationNationalDesc": "Arvioi vaatimukset Ruotsin kansallisten sääntöjen mukaan.",
+        "familyMaintenance": "Perheen huoltovaatimus",
+        "familyMaintenanceDesc": "Laske perheasioiden tulon ja asumisen kelpoisuus.",
+        "selfEmployed": "Itsenäisten muuttoagentin maahanmuutto",
+        "selfEmployedDesc": "Arvioi kelpoisuus yrityksen perustamiseen ja hoitamiseen Ruotsissa.",
+        "studySweden": "Opiskelu Ruotsissa",
+        "studySwedenDesc": "Tarkista pääsy, varat, vakuutus ja opintolupavalmius.",
+        "workPermit": "Työntekijälupa",
+        "workPermitDesc": "Arvioi työtarjous, palkkatasoa ja luvata ehtoja.",
+        "longtermEuStatus": "Pitkäaikainen status toisesta EU-maasta",
+        "longtermEuStatusDesc": "Määritä Ruotsin asumisvaihtoehdot EU:n pitkäaikaisesti asuville.",
+        "digitalNomadVisa": "Digital Nomad Visa",
+        "digitalNomadVisaDesc": "Nopea tarkistus etätyöviisuman kelpoisuudesta.",
+        "jobSeekerSweden": "Työnhakija Ruotsi",
+        "jobSeekerSwedenDesc": "Arvioi kelpoisuus Ruotsin työnhakijaluvalle.",
+        "globalVisitVisa": "Maailmanlaajuinen vierailulupia",
+        "globalVisitVisaDesc": "Esitarkistus vierailuvisumien kelpoisuudesta keskeisissä kohteissa."
+      }
     }
   }
 }
