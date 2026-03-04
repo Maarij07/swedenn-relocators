@@ -5,6 +5,7 @@ import { useState, useEffect, useRef } from 'react';
 import LanguageSelector from './LanguageSelector';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'next/navigation';
+import { NavDropdownPaper } from './NavDropdown.styles';
 
 interface DropdownMenu {
   [key: string]: boolean;
@@ -101,7 +102,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent">
 
       {/* Top Info Bar with Scrolling Animation */}
-      <div className="bg-white/80 border-b border-gray-100 overflow-hidden backdrop-blur-sm">
+      <div className="bg-[#F8F9FE]/80 border-b border-gray-100 overflow-hidden backdrop-blur-sm">
         <style jsx>{`
           @keyframes scroll {
             0% { transform: translateX(0); }
@@ -171,7 +172,7 @@ export default function Navbar() {
       </div>
 
       {/* Main Navigation */}
-      <div className="bg-white">
+      <div className="bg-[#F8F9FE] shadow-sm">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           <div className="flex items-center justify-between h-16 sm:h-20 4k:h-32">
 
@@ -205,15 +206,16 @@ export default function Navbar() {
                   animation: slideDown 0.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
                 }
                 .dropdown-menu--services {
-                  /* Narrower on laptops so all 5 columns stay fully visible */
-                  width: min(100vw - 40px, 1050px);
-                  left: calc(50% + 15vw) !important;
+                  /* Force compact width for styling verification */
+                  width: min(90vw, 70vw) !important;
+                  left: 50% !important;
+                  transform: translateX(-50%) !important;
                 }
                 @media (min-width: 1280px) {
                   .dropdown-menu--services {
-                    width: 95vw;
-                    max-width: 1200px;
-                    left: calc(50% + 15vw) !important;
+                    width: min(90vw, 70vw) !important;
+                    left: 50% !important;
+                    transform: translateX(-50%) !important;
                   }
                 }
               `}</style>
@@ -253,130 +255,131 @@ export default function Navbar() {
                   </button>
                 </div>
                 {openDropdowns.services && (
-                  <div
-                    className="dropdown-menu dropdown-menu--services absolute left-1/2 -translate-x-1/2 mt-2 bg-white rounded-xl shadow-2xl border border-gray-100 py-8 sm:py-10 px-3 sm:px-6 xl:px-12 z-50"
+                  <NavDropdownPaper
+                    className="dropdown-menu dropdown-menu--services absolute left-1/2 mt-2 z-50"
+                    style={{ width: '70vw', maxWidth: '70vw', transform: 'translateX(-50%)' }}
                   >
-                    <div className="grid grid-cols-5 gap-8 xl:gap-12">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 xl:gap-8 2xl:gap-12">
                       {/* Column 1: Immigration */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">Immigration</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.immigration')}</h3>
                         <div className="space-y-4">
                           <a href={`/${locale}/services/appeal-cases`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Appeal Cases</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Structured appeal strategies and documentation review for refusals.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.appealCases')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.appealCasesDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/family-reunification`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Family Reunification</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Support for reuniting with family under national and EU laws.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.familyReunification')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.familyReunificationDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/study-in-eu`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Study in Sweden</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Application preparation and support for Swedish universities and colleges.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.studyInEu')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.studyInEuDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/work-permit`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Work Permit Sweden</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">End-to-end assistance for Swedish work permits and employer documentation.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.workPermit')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.workPermitDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/self-employed`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Self-Employed in Sweden</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Help to establish and manage your self-employed status in Sweden.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.selfEmployed')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.selfEmployedDesc')}</div>
                           </a>
                         </div>
                       </div>
 
                       {/* Column 2: Relocation & Lifestyle */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">Relocation & Lifestyle</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.relocation')}</h3>
                         <div className="space-y-4">
                           <a href={`/${locale}/services/au-pair-host-family`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">AU Pair and Host Family Solutions</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Holistic solutions for au pairs, host families and supportive placements.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.auPair')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.auPairDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/destination-services`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Destination Services</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Orientation, local registrations and settling-in support on arrival.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.destinationServices')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.destinationServicesDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/housing`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Housing Solutions</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Short- and long-term housing search with landlord coordination.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.housingServices')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.housingServicesDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/pet-relocation`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Pet Relocation</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Safe and compliant relocation of pets with full documentation support.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.petRelocation')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.petRelocationDesc')}</div>
                           </a>
                         </div>
                       </div>
 
                       {/* Column 3: Business & Finance */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">Business & Finance</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.business')}</h3>
                         <div className="space-y-4">
                           <a href={`/${locale}/services/bookkeeping-solutions`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Bookkeeping Solutions</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Accounting and bookkeeping services for individuals and companies.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.bookkeeping')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.bookkeepingDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/business-sale-purchase`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Invest in Sweden - Business Sale Purchase</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Expert guidance for acquiring or selling businesses in Sweden.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.businessSale')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.businessSaleDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/eor-payroll`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EOR & Payroll</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Employer of record and compliant payroll for your Swedish workforce.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.eorPayroll')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.eorPayrollDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/financial-management`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Financial Management</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">End-to-end financial oversight and reporting for your operations.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.financialManagement')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.financialManagementDesc')}</div>
                           </a>
                         </div>
                       </div>
 
                       {/* Column 4: EU & Citizenship */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">EU & Citizenship</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.citizenship')}</h3>
                         <div className="space-y-4">
                           <a href={`/${locale}/services/citizenship`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Swedish Citizenship</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Eligibility review and application support for becoming a Swedish citizen.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.swedishCitizenship')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.swedishCitizenshipDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/eu-citizens-parents-permit`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens Parents Permit</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Support for EU citizens bringing dependent parents to Sweden.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.euParentsPermit')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.euParentsPermitDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/eu-citizens-relocation`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">EU Citizens Relocation</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Relocation support for EU citizens and their families.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.euCitizensRelocation')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.euCitizensRelocationDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/cbi-rbi-programs`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">CBI - RBI Programs</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Citizenship or Residence by investment specialized programmes for business, investment and relocation planning.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.cbiRbi')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.cbiRbiDesc')}</div>
                           </a>
                         </div>
                       </div>
 
                       {/* Column 5: Support Services */}
                       <div>
-                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">Support Services</h3>
+                        <h3 className="text-[10px] font-bold text-gray-400 mb-5 tracking-[0.15em] uppercase">{t('navbar.dropdowns.services.support')}</h3>
                         <div className="space-y-4">
                           <a href={`/${locale}/services/buy-sell-property`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Buy / Sell Property</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Guidance across the full property purchase or sale lifecycle.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.buySellProperty')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.buySellPropertyDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/lawyers`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Lawyers Assistance</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Access to legal expertise for complex relocation and immigration matters.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.lawyers')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.lawyersDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/logistics-services`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Logistics Management</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Coordinated logistics for your move, shipments and relocations.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.logistics')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.logisticsDesc')}</div>
                           </a>
                           <a href={`/${locale}/services/manpower-solutions`} className="block">
-                            <div className="font-semibold text-[15px] text-gray-900 mb-1">Manpower Solutions</div>
-                            <div className="text-[13px] text-gray-600 leading-relaxed">Recruitment and staffing solutions tailored to Nordic markets.</div>
+                            <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.services.manpower')}</div>
+                            <div className="text-[13px] text-gray-600 leading-relaxed">{t('navbar.dropdowns.services.manpowerDesc')}</div>
                           </a>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </NavDropdownPaper>
                 )}
               </div>
 
@@ -408,28 +411,33 @@ export default function Navbar() {
                   </svg>
                 </button>
                 {openDropdowns.housing && (
-                  <div
-                    className="dropdown-menu absolute left-0 mt-2 w-[32rem] 4k:w-[36rem] bg-white rounded-lg shadow-2xl border border-gray-200 py-6 px-6 z-50"
+                  <NavDropdownPaper
+                    className="dropdown-menu absolute left-1/2 mt-2 z-50"
+                    style={{ width: '40vw', maxWidth: '40vw', transform: 'translateX(-50%)' }}
                   >
                     <div className="grid grid-cols-2 gap-8">
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.housing.shortTermRentals')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.housing.shortTermRentalsDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.housing.longTermRentals')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.housing.longTermRentalsDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.housing.buySellProperty')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.housing.buySellPropertyDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.housing.listYourProperty')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.housing.listYourPropertyDesc')}</div>
-                      </a>
+                      <div className="space-y-4">
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.housing.shortTermRentals')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.housing.shortTermRentalsDesc')}</div>
+                        </a>
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.housing.buySellProperty')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.housing.buySellPropertyDesc')}</div>
+                        </a>
+                      </div>
+                      <div className="space-y-4">
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.housing.longTermRentals')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.housing.longTermRentalsDesc')}</div>
+                        </a>
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.housing.listYourProperty')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.housing.listYourPropertyDesc')}</div>
+                        </a>
+                      </div>
                     </div>
-                  </div>
+                  </NavDropdownPaper>
                 )}
               </div>
 
@@ -454,52 +462,57 @@ export default function Navbar() {
                   </svg>
                 </button>
                 {openDropdowns.assessment && (
-                  <div
-                    className="dropdown-menu absolute left-0 mt-2 w-[32rem] 4k:w-[36rem] bg-white rounded-lg shadow-2xl border border-gray-200 py-6 px-6 z-50"
+                  <NavDropdownPaper
+                    className="dropdown-menu absolute left-1/2 mt-2 z-50"
+                    style={{ width: '40vw', maxWidth: '40vw', transform: 'translateX(-50%)' }}
                   >
                     <div className="grid grid-cols-2 gap-8">
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.familyReunificationEU')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.familyReunificationEUDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.workPermit')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.workPermitDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.familyReunificationNational')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.familyReunificationNationalDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.longtermEuStatus')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.longtermEuStatusDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.familyMaintenance')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.familyMaintenanceDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.digitalNomadVisa')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.digitalNomadVisaDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.selfEmployed')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.selfEmployedDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.jobSeekerSweden')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.jobSeekerSwedenDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.studySweden')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.studySwedenDesc')}</div>
-                      </a>
-                      <a href="#" className="block px-2 py-3 text-sm 4k:text-base text-gray-700 hover:text-blue-600 transition-colors">
-                        <div className="font-semibold mb-1">{t('navbar.dropdowns.assessment.globalVisitVisa')}</div>
-                        <div className="text-xs text-gray-600">{t('navbar.dropdowns.assessment.globalVisitVisaDesc')}</div>
-                      </a>
+                      <div className="space-y-4">
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.familyReunificationEU')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.familyReunificationEUDesc')}</div>
+                        </a>
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.familyReunificationNational')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.familyReunificationNationalDesc')}</div>
+                        </a>
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.familyMaintenance')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.familyMaintenanceDesc')}</div>
+                        </a>
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.selfEmployed')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.selfEmployedDesc')}</div>
+                        </a>
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.studySweden')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.studySwedenDesc')}</div>
+                        </a>
+                      </div>
+                      <div className="space-y-4">
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.workPermit')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.workPermitDesc')}</div>
+                        </a>
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.longtermEuStatus')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.longtermEuStatusDesc')}</div>
+                        </a>
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.digitalNomadVisa')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.digitalNomadVisaDesc')}</div>
+                        </a>
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.jobSeekerSweden')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.jobSeekerSwedenDesc')}</div>
+                        </a>
+                        <a href="#" className="block">
+                          <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.globalVisitVisa')}</div>
+                          <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.globalVisitVisaDesc')}</div>
+                        </a>
+                      </div>
                     </div>
-                  </div>
+                  </NavDropdownPaper>
                 )}
               </div>
 

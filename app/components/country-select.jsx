@@ -15,10 +15,33 @@ function DownwardPopper(props) {
       {...props}
       placement="bottom-start"
       modifiers={[
-        { name: 'flip', enabled: false },
-        { name: 'offset', options: { offset: [0, 8] } },
+        { 
+          name: 'flip', 
+          enabled: false 
+        },
+        { 
+          name: 'preventOverflow', 
+          enabled: true,
+          options: { 
+            padding: 16,
+            rootBoundary: 'viewport',
+          } 
+        },
+        { 
+          name: 'offset', 
+          options: { 
+            offset: [0, 12] 
+          } 
+        },
+        {
+          name: 'arrow',
+          enabled: false,
+        },
       ]}
-      style={{ width: props.anchorEl ? props.anchorEl.clientWidth : undefined }}
+      style={{
+        width: props.anchorEl ? props.anchorEl.clientWidth : undefined,
+        zIndex: 2000,
+      }}
     />
   );
 }
@@ -244,6 +267,27 @@ export function CountrySelect({
       renderInput={renderInput}
       renderTags={multiple ? renderTags : undefined}
       PopperComponent={DownwardPopper}
+      slotProps={{
+        listbox: {
+          style: {
+            maxHeight: '300px',
+          },
+        },
+        paper: {
+          sx: {
+            boxShadow: '0 8px 24px rgba(0, 0, 0, 0.12)',
+            borderRadius: '8px',
+            marginTop: '4px',
+            position: 'relative',
+            zIndex: 2000,
+          },
+        },
+        popper: {
+          sx: {
+            zIndex: 2000,
+          },
+        },
+      }}
       {...autocompleteProps}
     />
   );
