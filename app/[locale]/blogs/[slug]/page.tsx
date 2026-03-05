@@ -130,39 +130,153 @@ export default function BlogDetailPage() {
     <main className="min-h-screen bg-[#F8FAFC]">
       <Navbar />
 
-      {/* Hero Section with Featured Image - Full Width */}
-      <section className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px] overflow-hidden mt-[80px] sm:mt-[100px] lg:mt-[120px]">
-        <Image
-          src={blog.featured_image}
-          alt={blog.title}
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent" />
-        
-        <div className="absolute inset-0 flex items-end">
-          <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pb-8 sm:pb-12 lg:pb-16">
-            <h1 className="text-[28px] sm:text-[36px] lg:text-[48px] font-bold text-white leading-tight mb-4">
-              {blog.title}
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-white text-sm sm:text-base">
-              <span>{publishDate}</span>
-              <span>•</span>
-              <span>By {blog.created_by}</span>
+      {/* Hero Section - Split Layout */}
+      <section className="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] overflow-hidden mt-[80px] sm:mt-[100px] lg:mt-[120px] bg-gray-900">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 h-full w-full">
+          {/* Left Side - Content */}
+          <div className="relative bg-gradient-to-br from-black/70 via-black/50 to-gray-900/70 flex flex-col justify-between p-8 sm:p-12 lg:p-16 order-2 lg:order-1 h-full">
+            {/* Title at Top */}
+            <div>
+              <h1 className="text-[32px] sm:text-[40px] lg:text-[44px] font-bold text-white leading-tight">
+                {blog.title}
+              </h1>
+            </div>
+            
+            {/* Author & Categories at Bottom */}
+            <div className="space-y-6">
+              {/* Author Section with Avatar */}
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-gray-300 flex-shrink-0 overflow-hidden border-2 border-white">
+                  <img
+                    src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${blog.created_by}`}
+                    alt={blog.created_by}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div>
+                  <p className="text-white font-semibold text-sm">{blog.created_by}</p>
+                  <p className="text-gray-300 text-xs">{publishDate}</p>
+                </div>
+              </div>
+
+              {/* Categories */}
               {blog.categories.length > 0 && (
-                <>
-                  <span>•</span>
-                  <div className="flex gap-2">
-                    {blog.categories.map((cat) => (
-                      <span key={cat.id} className="bg-blue-600 px-3 py-1 rounded-full text-xs sm:text-sm">
-                        {cat.name}
-                      </span>
-                    ))}
-                  </div>
-                </>
+                <div className="flex flex-wrap gap-2">
+                  {blog.categories.map((cat) => (
+                    <span
+                      key={cat.id}
+                      className="inline-block bg-blue-600 text-white px-3 py-1 rounded-full text-xs sm:text-sm font-medium"
+                    >
+                      {cat.name}
+                    </span>
+                  ))}
+                </div>
               )}
             </div>
+
+            {/* Shadow effect on left */}
+            <div className="absolute -right-32 lg:-right-20 top-1/2 -translate-y-1/2 w-96 h-96 bg-black/30 rounded-full blur-3xl pointer-events-none" />
+          </div>
+
+          {/* Right Side - Featured Image */}
+          <div className="relative w-full h-full order-1 lg:order-2 overflow-hidden">
+            <Image
+              src={blog.featured_image}
+              alt={blog.title}
+              fill
+              className="object-cover w-full h-full"
+              priority
+            />
+            
+            {/* Share Button - Bottom Right */}
+            <div className="absolute bottom-6 right-6 z-10">
+              <div className="relative group">
+                {/* Hidden Social Links - Appear on Hover */}
+                <div className="absolute bottom-16 right-0 flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none group-hover:pointer-events-auto">
+                  {/* Twitter/X */}
+                  <a
+                    href="https://x.com/swedenrelocator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-11 h-11 rounded-full bg-white flex items-center justify-center shadow-lg hover:bg-slate-100 transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100"
+                    style={{
+                      transitionDelay: '0ms',
+                    }}
+                    aria-label="Share on Twitter"
+                  >
+                    <Image src="/f2.svg" alt="Twitter" width={18} height={18} className="object-contain" />
+                  </a>
+
+                  {/* LinkedIn */}
+                  <a
+                    href="https://www.linkedin.com/in/swedenrelocators/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-11 h-11 rounded-full bg-white flex items-center justify-center shadow-lg hover:bg-slate-100 transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100"
+                    style={{
+                      transitionDelay: '50ms',
+                    }}
+                    aria-label="Share on LinkedIn"
+                  >
+                    <Image src="/f5.svg" alt="LinkedIn" width={18} height={18} className="object-contain" />
+                  </a>
+
+                  {/* Instagram */}
+                  <a
+                    href="https://www.instagram.com/sweden_relocators/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-11 h-11 rounded-full bg-white flex items-center justify-center shadow-lg hover:bg-slate-100 transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100"
+                    style={{
+                      transitionDelay: '100ms',
+                    }}
+                    aria-label="Share on Instagram"
+                  >
+                    <Image src="/f3.svg" alt="Instagram" width={18} height={18} className="object-contain" />
+                  </a>
+
+                  {/* Facebook */}
+                  <a
+                    href="https://www.facebook.com/Swedenrelocators/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-11 h-11 rounded-full bg-white flex items-center justify-center shadow-lg hover:bg-slate-100 transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100"
+                    style={{
+                      transitionDelay: '150ms',
+                    }}
+                    aria-label="Share on Facebook"
+                  >
+                    <Image src="/f1.svg" alt="Facebook" width={18} height={18} className="object-contain" />
+                  </a>
+                </div>
+
+                {/* Main Share Button */}
+                <button
+                  onClick={() => {
+                    if (navigator.share) {
+                      navigator.share({
+                        title: blog.title,
+                        text: blog.excerpt,
+                        url: window.location.href,
+                      });
+                    }
+                  }}
+                  className="w-14 h-14 bg-teal-500 hover:bg-teal-600 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110"
+                  aria-label="Share"
+                >
+                  <svg
+                    className="w-6 h-6 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.06c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            {/* Shadow effect overlay */}
+            <div className="absolute inset-0 shadow-[inset_-100px_0_80px_rgba(0,0,0,0.3)] pointer-events-none" />
           </div>
         </div>
       </section>

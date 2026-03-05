@@ -1,428 +1,605 @@
-# New in Sweden Page - Layout & Content Structure
-
-## Page Overview
-**File Location**: `app/[locale]/new-in-sweden/page.jsx`
-**Type**: Informational guide page for newcomers to Sweden
-**Design Pattern**: Unique from service pages (uses custom styling with dark header card)
+# POST PAGE - UI & LAYOUT DESIGN GUIDE
+## Frontend Components & Styling Only
 
 ---
 
-## 1. HERO SECTION (Custom Card Style)
-**Background**: Dark blue/black overlay (#141A21 at 88% opacity) with background image
-**Container**: 
-- Max-width: 1400px
-- Padding: responsive (pt-6 to pt-12)
-- Border radius: rounded-lg
-- Margin-top: 160px (responsive)
+## 1. HERO SECTION
 
-**Content Layout**: 2-column grid (lg:grid-cols-2)
+### Layout
+- Full-width container with background image
+- Dark overlay gradient for text contrast
+- Height: 480px (desktop), responsive on mobile
 
-**Left Content**:
-```
-- h1: "New in Sweden" (responsive text sizes)
-  - text-2xl sm:text-4xl lg:text-5xl
-  - color: white
-  - font-bold
-  
-- p.subtitle: "Starting a new chapter in Sweden?" 
-  - color: gray-300
-  - font-medium
-  - font-size: 13px → 16px
-  
-- p.description: Long supporting text
-  - color: gray-400
-  - font-normal
-  - font-size: 13px → 16px
-```
+### Components Used
+- `Box` - Main container
+- `Container` - Content wrapper
+- `Typography` - Title (h3 variant)
+- `Avatar` - Author image
+- `ListItemText` - Author name + date
+- `SpeedDial` - Share buttons
 
-**Right Content**:
-```
-- Image: /illustration-seo.svg
-  - Centered right-aligned on lg screens
-  - Responsive sizing
-```
+### Styling
+```jsx
+<Box
+  sx={{
+    backgroundImage: `linear-gradient(...), url(${coverUrl})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    height: 480,
+    overflow: 'hidden',
+  }}
+>
+  <Container sx={{ height: 1, position: 'relative' }}>
+    {/* Title */}
+    <Typography
+      variant="h3"
+      sx={{
+        zIndex: 9,
+        maxWidth: 480,
+        position: 'absolute',
+        pt: { xs: 2, md: 8 },
+        color: 'common.white',
+      }}
+    >
+      {title}
+    </Typography>
 
----
+    {/* Author Info - Bottom Left */}
+    <Box sx={{ left: 0, width: 1, bottom: 0, position: 'absolute' }}>
+      <Box sx={{ display: 'flex', alignItems: 'center', px: { xs: 2, md: 3 }, pb: { xs: 3, md: 8 } }}>
+        <Avatar alt={author.name} src={author.avatarUrl} sx={{ width: 64, height: 64, mr: 2 }} />
+        <ListItemText
+          sx={{ color: 'common.white' }}
+          primary={author.name}
+          secondary={createdAt}
+        />
+      </Box>
 
-## 2. STATS SECTION (Post-Hero)
-**Container**: 
-- Padding: py-14 to py-20
-- Background: transparent (shows white page background)
-- Max-width: 1400px
+      {/* Share Buttons - Bottom Right */}
+      <SpeedDial
+        direction={smUp ? 'left' : 'up'}
+        ariaLabel="Share post"
+        icon={<ShareIcon />}
+        sx={{
+          position: 'absolute',
+          bottom: { xs: 32, md: 64 },
+          right: { xs: 16, md: 24 },
+        }}
+      >
+        {/* Social icons */}
+      </SpeedDial>
+    </Box>
+  </Container>
+</Box>
 
-**Layout**: 4-column grid (responsive: 1 col, 2 cols on sm, 4 cols on lg)
+Key Styling Points
+Background overlay: rgba(20, 26, 33, 0.64) (dark grey with transparency)
+Text color: #FFFFFF (white)
+Absolute positioning for author info and share buttons
+Responsive padding: px: { xs: 2, md: 3 }
+2. BREADCRUMBS SECTION
+Layout
+Centered below hero
+Max width: 720px
+Padding: py: 3, mb: 5
+Components
+Container - Full width wrapper
+CustomBreadcrumbs - Navigation links
+Styling
+<Container
+  maxWidth={false}
+  sx={{
+    py: 3,
+    mb: 5,
+    borderBottom: `solid 1px ${theme.vars.palette.divider}`,
+  }}
+>
+  <CustomBreadcrumbs
+    links={[
+      { name: 'Home', href: '/' },
+      { name: 'Blog', href: '/blog' },
+      { name: 'Post Title' },
+    ]}
+    sx={{ maxWidth: 720, mx: 'auto' }}
+  />
+</Container>
+3. MAIN CONTENT SECTION
+Layout
+Max width: 720px (centered)
+Vertical stack layout
+Padding: py varies by section
+Components
+Container - Full width wrapper
+Stack - Vertical layout
+Typography - Text content
+Markdown - Rich content rendering
+Styling
+<Container maxWidth={false}>
+  <Stack sx={{ maxWidth: 720, mx: 'auto' }}>
+    {/* Description */}
+    <Typography variant="subtitle1">
+      {description}
+    </Typography>
 
-**Each Stat Card**:
-```
-{
-  background: white
-  border: 1px solid #e5e7eb
-  shadow: shadow-lg
-  border-radius: rounded-lg
-  padding: p-4
-  dimensions: width 301.5px, height 123px
-  
-  Layout: flex
-  - left: text content
-    - small label (11px, gray-600, uppercase, bold)
-    - large number (1.5rem, bold, gray-900)
-  - right: icon/image (40x40)
+    {/* Markdown Content */}
+    <Markdown>{content}</Markdown>
+
+    {/* Rest of sections */}
+  </Stack>
+</Container>
+4. TAGS SECTION
+Layout
+Horizontal flex wrap
+Gap between tags: 8px
+Components
+Box - Container
+Chip - Individual tags
+Styling
+<Box sx={{ gap: 1, display: 'flex', flexWrap: 'wrap' }}>
+  {tags.map((tag) => (
+    <Chip key={tag} label={tag} variant="soft" />
+  ))}
+</Box>
+<Box sx={{ gap: 1, display: 'flex', flexWrap: 'wrap' }}>
+  {tags.map((tag) => (
+    <Chip key={tag} label={tag} variant="soft" />
+  ))}
+</Box>
+Chip Variants
+variant="soft" - Light background with colored text
+variant="outlined" - Border only
+variant="filled" - Solid background
+5. ENGAGEMENT METRICS SECTION
+Layout
+Horizontal flex
+Favorite checkbox + avatar group
+Bordered top and bottom (dashed)
+Components
+Box - Container
+FormControlLabel - Checkbox with label
+Checkbox - Heart icon checkbox
+AvatarGroup - Stack of avatars
+Avatar - Individual user avatars
+Styling
+<Stack
+  spacing={3}
+  sx={{
+    py: 3,
+    borderTop: `dashed 1px ${theme.vars.palette.divider}`,
+    borderBottom: `dashed 1px ${theme.vars.palette.divider}`,
+  }}
+>
+  {/* Favorites */}
+  <Box sx={{ display: 'flex', alignItems: 'center' }}>
+    <FormControlLabel
+      label={favoriteCount}
+      control={
+        <Checkbox
+          defaultChecked
+          size="small"
+          color="error"
+          icon={<HeartIcon />}
+          checkedIcon={<HeartIcon />}
+        />
+      }
+      sx={{ mr: 1 }}
+    />
+
+    <AvatarGroup
+      sx={{
+        [`& .${avatarGroupClasses.avatar}`]: {
+          width: 32,
+          height: 32,
+        },
+      }}
+    >
+      {favoritePeople.map((person) => (
+        <Avatar key={person.name} alt={person.name} src={person.avatarUrl} />
+      ))}
+    </AvatarGroup>
+  </Box>
+</Stack>
+6. COMMENTS SECTION
+Layout
+Title with comment count
+Comment form
+Divider
+Comment list
+Components
+Typography - Section title
+PostCommentForm - Input form
+Divider - Visual separator
+PostCommentList - Comments display
+Styling
+{/* Title */}
+<Box sx={{ mb: 3, mt: 5, display: 'flex' }}>
+  <Typography variant="h4">Comments</Typography>
+  <Typography variant="subtitle2" sx={{ color: 'text.disabled' }}>
+    ({commentCount})
+  </Typography>
+</Box>
+
+{/* Form */}
+<PostCommentForm />
+
+{/* Divider */}
+<Divider sx={{ mt: 5, mb: 2 }} />
+
+{/* Comments List */}
+<PostCommentList comments={comments} />
+7. COMMENT FORM
+Layout
+Multiline text input (4 rows)
+Action buttons (image, attachment, emoji)
+Submit button on right
+Components
+Box - Container
+TextField - Text input (multiline)
+IconButton - Action buttons
+Button - Submit button
+Styling
+<Box sx={{ gap: 3, display: 'flex', flexDirection: 'column' }}>
+  {/* Input */}
+  <TextField
+    fullWidth
+    multiline
+    rows={4}
+    placeholder="Write some of your comments..."
+    variant="outlined"
+  />
+
+  {/* Actions */}
+  <Box sx={{ display: 'flex', alignItems: 'center' }}>
+    <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
+      <IconButton>
+        <GalleryIcon />
+      </IconButton>
+      <IconButton>
+        <AttachmentIcon />
+      </IconButton>
+      <IconButton>
+        <EmojiIcon />
+      </IconButton>
+    </Box>
+
+    <Button type="submit" variant="contained">
+      Post comment
+    </Button>
+  </Box>
+</Box>
+8. COMMENT ITEM
+Layout
+Avatar on left
+Comment content on right
+Nested replies indented (pl: 8)
+Reply button on right
+Components
+Box - Container
+Avatar - User avatar
+Typography - Name, date, message
+Button - Reply button
+TextField - Reply input (hidden by default)
+Styling
+<Box
+  sx={{
+    pt: 3,
+    gap: 2,
+    display: 'flex',
+    position: 'relative',
+    ...(isReply && { pl: 8 }), // Indent nested replies
+  }}
+>
+  {/* Avatar */}
+  <Avatar alt={name} src={avatarUrl} sx={{ width: 48, height: 48 }} />
+
+  {/* Content */}
+  <Box
+    sx={{
+      pb: 3,
+      display: 'flex',
+      flex: '1 1 auto',
+      flexDirection: 'column',
+      borderBottom: `solid 1px ${theme.vars.palette.divider}`,
+    }}
+  >
+    <Typography variant="subtitle2" sx={{ mb: 0.5 }}>
+      {name}
+    </Typography>
+
+    <Typography variant="caption" sx={{ color: 'text.disabled' }}>
+      {date}
+    </Typography>
+
+    <Typography variant="body2" sx={{ mt: 1 }}>
+      {message}
+    </Typography>
+
+    {/* Reply input - shown on demand */}
+    {showReplyInput && (
+      <TextField fullWidth autoFocus placeholder="Write comment..." sx={{ mt: 2 }} />
+    )}
+  </Box>
+
+  {/* Reply button */}
+  {!isReply && (
+    <Button
+      size="small"
+      color={showReplyInput ? 'primary' : 'inherit'}
+      startIcon={<PenIcon />}
+      onClick={toggleReply}
+      sx={{ right: 0, position: 'absolute' }}
+    >
+      Reply
+    </Button>
+  )}
+</Box>
+9. COMMENT LIST
+Layout
+Vertical stack of comments
+Nested replies indented
+Pagination at bottom
+Components
+Box - Container
+PostCommentItem - Individual comments
+Pagination - Page navigation
+Styling
+<>
+  {comments.map((comment) => (
+    <Box key={comment.id}>
+      {/* Main comment */}
+      <PostCommentItem {...comment} />
+
+      {/* Nested replies */}
+      {comment.replies.map((reply) => (
+        <PostCommentItem key={reply.id} {...reply} isReply />
+      ))}
+    </Box>
+  ))}
+
+  {/* Pagination */}
+  <Pagination
+    count={8}
+    sx={{
+      display: 'flex',
+      justifyContent: 'center',
+      my: { xs: 5, md: 8 },
+    }}
+  />
+</>
+10. RELATED POSTS SECTION
+Layout
+Grid layout: 4 columns (desktop), 3 (tablet), 2 (mobile), 1 (xs)
+Spacing: 24px between items
+Padding bottom: 120px
+Components
+Container - Full width wrapper
+Typography - Section title
+Grid - Grid layout
+PostItem - Individual post cards
+Styling
+<Container sx={{ pb: 15 }}>
+  <Typography variant="h4" sx={{ mb: 5 }}>
+    Recent Posts
+  </Typography>
+
+  <Grid container spacing={3}>
+    {posts.map((post) => (
+      <Grid
+        key={post.id}
+        size={{
+          xs: 12,  // 1 column on mobile
+          sm: 6,   // 2 columns on tablet
+          md: 4,   // 3 columns on desktop
+          lg: 3,   // 4 columns on large desktop
+        }}
+      >
+        <PostItem post={post} />
+      </Grid>
+    ))}
+  </Grid>
+</Container>
+11. POST ITEM CARD
+Layout
+Cover image (4:3 aspect ratio)
+Author avatar overlay (bottom-left)
+Content below image
+Engagement metrics at bottom
+Components
+Card - Card container
+Box - Image wrapper
+Image - Cover image
+Avatar - Author avatar
+CardContent - Text content
+Typography - Title, date
+Link - Clickable title
+Styling
+<Card>
+  {/* Image Section */}
+  <Box sx={{ position: 'relative' }}>
+    {/* Avatar Shape Background */}
+    <AvatarShape
+      sx={{
+        left: 0,
+        zIndex: 9,
+        width: 88,
+        height: 36,
+        bottom: -16,
+        position: 'absolute',
+      }}
+    />
+
+    {/* Author Avatar */}
+    <Avatar
+      alt={author.name}
+      src={author.avatarUrl}
+      sx={{
+        left: 24,
+        zIndex: 9,
+        bottom: -24,
+        position: 'absolute',
+      }}
+    />
+
+    {/* Cover Image */}
+    <Image alt={title} src={coverUrl} ratio="4/3" />
+  </Box>
+
+  {/* Content Section */}
+  <CardContent sx={{ pt: 6 }}>
+    {/* Date */}
+    <Typography variant="caption" component="div" sx={{ mb: 1, color: 'text.disabled' }}>
+      {date}
+    </Typography>
+
+    {/* Title */}
+    <Link
+      href={detailsHref}
+      color="inherit"
+      variant="subtitle2"
+      sx={{
+        ...maxLine({ line: 2 }), // Max 2 lines with ellipsis
+      }}
+    >
+      {title}
+    </Link>
+
+    {/* Engagement Metrics */}
+    <Box
+      sx={{
+        mt: 3,
+        gap: 1.5,
+        display: 'flex',
+        typography: 'caption',
+        color: 'text.disabled',
+        justifyContent: 'flex-end',
+      }}
+    >
+      <Box sx={{ gap: 0.5, display: 'flex', alignItems: 'center' }}>
+        <ChatIcon width={16} />
+        {commentCount}
+      </Box>
+      <Box sx={{ gap: 0.5, display: 'flex', alignItems: 'center' }}>
+        <EyeIcon width={16} />
+        {viewCount}
+      </Box>
+      <Box sx={{ gap: 0.5, display: 'flex', alignItems: 'center' }}>
+        <ShareIcon width={16} />
+        {shareCount}
+      </Box>
+    </Box>
+  </CardContent>
+</Card>
+THEME & COLORS
+Primary Colors
+primary: {
+  main: '#00A76F',      // Green
+  light: '#5BE49B',
+  lighter: '#C8FAD6',
+  dark: '#007867',
+  darker: '#004B50',
 }
-```
 
-**Cards**:
-1. Employment Rate: 69.7% + icon
-2. Yearly GDP: SEK 6.38T + icon
-3. Total Population: 10.66 M + icon
-4. Global Innovation List: 2 + icon
-
----
-
-## 3. MAIN SYSTEM GUIDE SECTION
-**Container**: 
-- Padding: py-14 to py-20
-- Background: white
-- Max-width: 1400px
-- Uses 20-column grid system
-
-**Layout**: 2-column layout
-- **Left Column** (13 cols, ~65%): Main content sections
-- **Right Column** (7 cols, ~35%): Quick links panel
-
-### LEFT COLUMN - Main Content Section
-
-**Header (Centered)**:
-```
-- p.tagline: Color #6FAAEA, font-normal, 14px
-  "Helping you navigate, so you move one step way"
-  
-- h2: Color #6FAAEA, font-extrabold, 38px
-  "Your First Steps to Success in Sweden"
-  
-- h3: Color #002C5C, font-extrabold, 42px
-  "A Clear Roadmap for Every Newcomer"
-```
-
-**Content Cards** (Repeating pattern):
-```
-{
-  background: white
-  border: 1px solid #e5e7eb
-  shadow: 0_2px_8px_rgba(0,0,0,0.15)
-  padding: p-6
-  spacing: space-y-8 between cards
-  
-  Layout:
-  1. Section title (uppercase, 12px, bold, tracking-wider)
-     - Color: #6FAAEA or #174D87
-     
-  2. h4.title (24px, bold, #000000)
-  
-  3. Content div (space-y-4)
-     - Multiple paragraphs (12px, #898A9C, leading-relaxed)
-     - Bullet lists with dots (#174D87)
-     - Nested sections with blue headers (#174D87)
+secondary: {
+  main: '#8E33FF',      // Purple
+  light: '#C684FF',
+  lighter: '#EFD6FF',
 }
-```
 
-**Specific Content Sections** (in order):
-
-#### 1. ACCOMMODATION
-- **Section Title**: "ACCOMMODATION"
-- **Title**: "Finding Home"
-- Content: 4 paragraphs about housing options
-
-#### 2. SOCIAL SECURITY NUMBER (Personnummer)
-- **Section Title**: "SOCIAL SECURITY NUMBER"
-- **Title**: "Personnummer"
-- Content:
-  - Intro paragraph
-  - Importance paragraph
-  - Requirements subsection (blue header box with bullet points)
-
-#### 3. IDENTIFICATION CARD
-- **Section Title**: "IDENTIFICATION CARD"
-- **Title**: "Swedish ID Card"
-- Content: 2 paragraphs
-
-#### 4. BANK ACCOUNT
-- **Section Title**: "Opening of a"
-- **Title**: "Bank Account"
-- Content:
-  - Intro
-  - Identification methods (3 bullets)
-  - Requirements subsection (blue header)
-  - Before visiting subsection (blue header)
-
-#### 5. EMPLOYMENT
-- **Section Title**: "LOOKING"
-- **Title**: "For Work In Sweden"
-- Content: Paragraph with embedded link to Arbetsförmedlingen
-
-#### 6. HEALTHCARE
-- **Section Title**: "HEALTH CARE"
-- **Title**: "Health Centre"
-- Content sections:
-  - Main description
-  - **Maternity Clinics** (full-width blue header + gray content box)
-  - **Healthcare Grid** (2 columns):
-    - Child Health Care Centre
-    - Costs and Fees
-  - **Dental Care Grid** (2 columns):
-    - Costs is covered
-    - Where do I find a dentist
-
-#### 7. DRIVING LICENSE
-- **Section Title**: "HOW TO GET A"
-- **Title**: "Driving License"
-- Content:
-  - EU license paragraph
-  - Non-EU license paragraph
-  - Steps subsection (blue header with bullet list)
-
-#### 8. PARENTAL ALLOWANCE
-- **Section Title**: "PARENTAL"
-- **Title**: "Allowance"
-- Content:
-  - Registration subsection (blue header)
-  - Details paragraph
-  - Child Care Allowance subsection (blue header)
-
-#### 9. EDUCATION
-- **Section Title**: "SWEDISH EDUCATION SYSTEM"
-- **Title**: "School Admissions"
-- Content: 4 paragraphs covering preschool, compulsory school, free education
-
-#### 10. QUALIFICATION RECOGNITION
-- **Section Title**: "RECOGNITION OF"
-- **Title**: "Higher Education Qualifications"
-- Content: 3 paragraphs about ECTS and Swedish authorities
-
-#### 11. UNEMPLOYMENT INSURANCE
-- **Section Title**: "UNEMPLOYMENT"
-- **Title**: "Insurance"
-- Content: 3 paragraphs about unemployment benefits
-
-#### 12. LANGUAGE COURSES
-- **Section Title**: "LANGUAGE"
-- **Title**: "Courses"
-- Content:
-  - Intro
-  - 3 bullet options
-  - SFI description
-
----
-
-### RIGHT COLUMN - Quick Links Panel (7 cols)
-**Sticky position** (fixed on right side)
-
-**Header**:
-```
-h3: "Quick Links" or similar label
-subtitle color, larger font
-```
-
-**Quick Link Items** (Accordion/Expandable):
-```
-{
-  border: 1px solid #e5e7eb
-  border-radius: rounded-lg
-  padding: varies
-  
-  Summary (Click to expand):
-  - Circle badge (40x40, bg-#174D87)
-    - Icon inside (SVG)
-  - Title text (75rem, font-600, gray-900)
-  
-  Details (Collapsed by default):
-  - Paragraph text (70rem, gray-600)
+error: {
+  main: '#FF5630',      // Red (for heart icon)
 }
-```
-
-**Quick Link Items List**:
-1. Emergency Services
-2. Banks
-3. Healthcare
-4. Driving License
-5. Public Transport
-6. Language School
-7. Studies
-8. Government Services
-9. Housing
-10. Employment
-
-Each has:
-- Title
-- Icon (SVG from /public)
-- Content description
-
----
-
-## 4. SYSTEM GUIDE AUTHORITIES SECTION
-**Background**: Light background (alternating from white)
-**Layout**: Grid based on data categories
-
-**Categories** (from authorityCategories array):
-- Immigration & Population
-- Work & Labour
-- Housing Support
-- Education & Skills
-- Rights & Equality
-- Law & Order
-- Health & Safety
-- Environment & Infrastructure
-- Emergency Services
-- Democracy & civics
-- Oversight & Data Protection
-
-Each category contains:
-- **Title**: e.g., "Immigration & Population"
-- **Authorities** (list items):
-  - Authority name
-  - Description paragraph
-
----
-
-## 5. EMERGENCY NUMBERS SECTION
-**Background**: Different background color (accent)
-**Layout**: Grid or list format
-
-**Content**:
-- Section title: "Emergency Numbers"
-- List of emergency contacts with:
-  - Service name
-  - Phone number
-  - Brief description
-
----
-
-## 6. USEFUL LINKS SECTION
-**Layout**: 2-column or 3-column grid
-
-**Each Link Card**:
-```
-{
-  background: white
-  border: subtle
-  padding: p-4 to p-6
-  
-  Content:
-  - Link title (clickable)
-  - URL
-  - Optional: category or description
+Typography
+fontFamily: {
+  primary: 'Public Sans Variable',
+  secondary: 'Barlow',
 }
-```
 
-**Links Groups**:
-- Government Agencies
-- Banks
-- Telecom/Energy
-- Cities
-- EU Resources
-- Other services
+// Variants used:
+h3: Hero title
+h4: Section titles
+subtitle1: Post description
+subtitle2: Post title in cards
+body2: Comment message
+caption: Dates, metadata
+Spacing
+// MUI uses 8px base unit
+gap: 1 = 8px
+gap: 2 = 16px
+gap: 3 = 24px
+px: 2 = 16px
+py: 3 = 24px
+RESPONSIVE BREAKPOINTS
+xs: 0px      // Mobile (< 600px)
+sm: 600px    // Tablet (600px - 960px)
+md: 960px    // Desktop (960px - 1280px)
+lg: 1280px   // Large (1280px - 1920px)
+xl: 1920px   // Extra large (> 1920px)
+Common Responsive Patterns
+// Responsive padding
+px: { xs: 2, md: 3 }    // 16px mobile, 24px desktop
+py: { xs: 3, md: 8 }    // 24px mobile, 64px desktop
 
-**Total**: 50+ links organized by category
+// Responsive display
+display: { xs: 'none', md: 'flex' }  // Hidden on mobile, shown on desktop
 
----
+// Responsive grid
+size={{ xs: 12, sm: 6, md: 4, lg: 3 }}  // 1, 2, 3, 4 columns
 
-## 7. CTA SECTION (Final)
-**Background**: Accent color or gradient
-**Layout**: Centered content
+// Responsive direction
+direction: smUp ? 'left' : 'up'  // Horizontal on desktop, vertical on mobile
+QUICK COPY-PASTE COMPONENTS
+Hero Section Template
+<Box sx={{ backgroundImage: `url(${coverUrl})`, height: 480, overflow: 'hidden' }}>
+  <Container sx={{ height: 1, position: 'relative' }}>
+    <Typography variant="h3" sx={{ position: 'absolute', pt: { xs: 2, md: 8 }, color: 'common.white' }}>
+      {title}
+    </Typography>
+    <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: 1, pb: { xs: 3, md: 8 }, px: { xs: 2, md: 3 } }}>
+      <Box sx={{ display: 'flex', alignItems: 'center' }}>
+        <Avatar src={author.avatarUrl} sx={{ width: 64, height: 64, mr: 2 }} />
+        <Box>
+          <Typography sx={{ color: 'common.white' }}>{author.name}</Typography>
+          <Typography sx={{ color: 'common.white', opacity: 0.64 }}>{date}</Typography>
+        </Box>
+      </Box>
+    </Box>
+  </Container>
+</Box>
+Post Card Template
+<Card>
+  <Box sx={{ position: 'relative' }}>
+    <Avatar src={author.avatarUrl} sx={{ position: 'absolute', left: 24, bottom: -24, zIndex: 9 }} />
+    <Image src={coverUrl} ratio="4/3" />
+  </Box>
+  <CardContent sx={{ pt: 6 }}>
+    <Typography variant="caption" sx={{ color: 'text.disabled' }}>{date}</Typography>
+    <Typography variant="subtitle2">{title}</Typography>
+    <Box sx={{ mt: 3, display: 'flex', gap: 1.5, justifyContent: 'flex-end', typography: 'caption', color: 'text.disabled' }}>
+      <Box sx={{ display: 'flex', gap: 0.5, alignItems: 'center' }}><ChatIcon width={16} />{comments}</Box>
+      <Box sx={{ display: 'flex', gap: 0.5, alignItems: 'center' }}><EyeIcon width={16} />{views}</Box>
+      <Box sx={{ display: 'flex', gap: 0.5, alignItems: 'center' }}><ShareIcon width={16} />{shares}</Box>
+    </Box>
+  </CardContent>
+</Card>
 
-**Content**:
-- Heading: Call-to-action message
-- Paragraph: Descriptive text
-- Button: "Contact Us" or "Get Started"
-- Subtext: Additional info
+Comment Item Template
+<Box sx={{ pt: 3, gap: 2, display: 'flex', position: 'relative', ...(isReply && { pl: 8 }) }}>
+  <Avatar src={avatarUrl} sx={{ width: 48, height: 48 }} />
+  <Box sx={{ pb: 3, flex: 1, borderBottom: `solid 1px ${theme.vars.palette.divider}` }}>
+    <Typography variant="subtitle2">{name}</Typography>
+    <Typography variant="caption" sx={{ color: 'text.disabled' }}>{date}</Typography>
+    <Typography variant="body2" sx={{ mt: 1 }}>{message}</Typography>
+  </Box>
+  {!isReply && <Button size="small" onClick={toggleReply}>Reply</Button>}
+</Box>
+SUMMARY
+Key Takeaways:
 
----
-
-## STYLING PATTERNS USED
-
-### Colors
-```
-Primary: #174D87 (Dark blue) - Headers, accents
-Secondary: #6FAAEA (Light blue) - Section labels
-Text: #000000 (Black) - Headings
-Text: #898A9C (Gray) - Body text
-Text: #6B7280 (Medium gray) - Secondary text
-Backgrounds: #FFFFFF (White), #F8FAFC (Light gray)
-```
-
-### Typography
-```
-H1: 1.5rem → 2.25rem (responsive)
-H2: 38px, font-extrabold (#6FAAEA)
-H3: 42px, font-extrabold (#002C5C)
-H4: 24px, bold (#000000)
-Body: 12px → 16px, #898A9C
-```
-
-### Spacing
-```
-Between sections: space-y-8
-Card padding: p-6
-Gap in grids: gap-6 to gap-8
-Top padding (hero): pt-160px to pt-260px
-Bottom padding: pb-20 to pb-40
-```
-
-### Components
-```
-Cards: rounded-lg, shadow-sm to shadow-lg, border-1 gray-100
-Buttons: rounded-full, padding-responsive
-Input fields: rounded-lg, border-gray-200
-Accordions: Material-UI Accordion
-Icons: SVG images from /public
-```
-
----
-
-## RESPONSIVE BREAKPOINTS
-
-```
-Mobile: 1 column layout, full width
-Tablet (md:): 2 column layouts, adjusted padding
-Desktop (lg:): 20-column grid, full features
-4K (4k:): Larger padding, bigger fonts
-```
-
----
-
-## KEY DIFFERENCES FROM SERVICE PAGES
-
-1. **No traditional hero section** - Uses custom dark card hero
-2. **2-column main layout** - Left content, right sticky panel
-3. **Custom styling** - Not using the service page card patterns as much
-4. **Blue color scheme** - Different from purple/blue gradient accent system
-5. **Accordion components** - Quick links use expandable accordions
-6. **More detailed content** - Longer narrative format vs cards
-7. **Statistics cards** - Unique stat display section
-8. **Full-width boxes** - Less grid-based layout
-
----
-
-## TRANSLATION KEYS (i18n)
-
-```
-newInSweden.mainContent
-newInSweden.accommodation
-newInSweden.socialSecurity
-newInSweden.identificationCard
-newInSweden.bankAccount
-newInSweden.employment
-newInSweden.healthcare
-newInSweden.drivingLicense
-newInSweden.parentalAllowance
-newInSweden.education
-newInSweden.qualificationRecognition
-newInSweden.unemployment
-newInSweden.language
-newInSweden.systemGuide.quickLinks
-newInSweden.authorityCategories
-newInSweden.emergencyNumbers
-(+ many more nested properties)
-```
-
----
-
+Use MUI Grid for responsive layouts
+Max content width: 720px (centered)
+Hero height: 480px with absolute positioning
+Comments: Nested with 32px (pl: 8) indentation
+Related posts: 4 columns (lg), 3 (md), 2 (sm), 1 (xs)
+Colors: Green (#00A76F) primary, Purple (#8E33FF) secondary
+Spacing: Use MUI's 8px base unit system
+Responsive: Always use breakpoint objects { xs, sm, md, lg }

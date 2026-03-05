@@ -92,8 +92,7 @@ export const NavDropdownPaper = styled('div')(({ theme }) => ({
   
   // ========== SHADOW ==========
   // Dropdown shadow (depth effect)
-  boxShadow: theme.vars?.customShadows?.dropdown || 
-    '0px 12px 24px -4px rgba(145, 158, 171, 0.08)',
+  boxShadow: '0px 12px 24px -4px rgba(145, 158, 171, 0.08)',
 }));
 
 // ============================================
