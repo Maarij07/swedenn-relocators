@@ -33,7 +33,7 @@ const PlaneCircle = styled(Box)(({ theme }) => ({
 
 export default function CountrySelector() {
   const { i18n } = useTranslation();
-  
+
   const methods = useForm({
     defaultValues: {
       fromCountry: '',
@@ -63,9 +63,8 @@ export default function CountrySelector() {
     lineHeight: 1.2,
   };
 
-  // Filter countries for from and to
   const fromCountriesList = useMemo(
-    () => countries.filter(c => 
+    () => countries.filter(c =>
       ['AD', 'AL', 'AT', 'BY', 'BE', 'BA', 'BG', 'HR', 'CY', 'CZ'].includes(c.code)
     ),
     []
@@ -81,6 +80,14 @@ export default function CountrySelector() {
     if (fromCountry && !toCountry) return '50%';
     if (fromCountry && toCountry) return 'calc(100% - 3.5rem)';
     return '0%';
+  };
+
+  // Shared sx override to disable MUI portal and anchor dropdown under the field
+  const selectSxOverrides = {
+    '& .MuiAutocomplete-popper': {
+      // Ensures the popper is positioned relative to the field, not the body
+      position: 'absolute !important',
+    },
   };
 
   return (
@@ -112,13 +119,15 @@ export default function CountrySelector() {
               }}
             >
               {/* LEFT - RELOCATING FROM */}
-              <Box 
-                sx={{ 
+              <Box
+                sx={{
                   width: { xs: '100%', lg: '230px', xl: '250px' },
                   maxWidth: { xs: '280px', lg: 'none' },
                   mx: { xs: 'auto', lg: 0 },
+                  // KEY FIX: relative + high zIndex so the popper renders under this field
                   position: 'relative',
-                  zIndex: 10,
+                  zIndex: 20,
+                  ...selectSxOverrides,
                 }}
               >
                 <Typography sx={labelSx}>
@@ -131,13 +140,37 @@ export default function CountrySelector() {
                   hideCode={true}
                   availableCountries={fromCountriesList.map(c => c.label)}
                   rules={{}}
+                  // KEY FIX: disablePortal prevents MUI from teleporting the dropdown
+                  // to <body>, so it stays anchored directly under the input field
+                  componentsProps={{
+                    popper: {
+                      disablePortal: true,
+                      placement: 'bottom-start',
+                      modifiers: [
+                        {
+                          name: 'flip',
+                          enabled: false,
+                        },
+                        {
+                          name: 'preventOverflow',
+                          enabled: false,
+                        },
+                      ],
+                    },
+                  }}
+                  slotProps={{
+                    popper: {
+                      disablePortal: true,
+                      placement: 'bottom-start',
+                    },
+                  }}
                   sx={{}}
                 />
               </Box>
 
               {/* CENTER - PLANE WITH HYPHENS */}
-              <Box 
-                sx={{ 
+              <Box
+                sx={{
                   position: 'relative',
                   display: 'flex',
                   alignItems: 'center',
@@ -145,6 +178,7 @@ export default function CountrySelector() {
                   flex: { lg: 1 },
                   mx: { lg: 4, xl: 5 },
                   height: { xs: '60px', lg: '56px' },
+                  zIndex: 1,
                 }}
               >
                 <Box
@@ -156,9 +190,9 @@ export default function CountrySelector() {
                   }}
                 >
                   <PlaneCircle sx={{ left: getPlanePosition(), transform: 'translate(-50%, -50%)' }}>
-                    <svg 
-                      style={{ width: '2rem', height: '2rem', color: '#000000', transform: 'rotate(90deg)' }} 
-                      fill="currentColor" 
+                    <svg
+                      style={{ width: '2rem', height: '2rem', color: '#000000', transform: 'rotate(90deg)' }}
+                      fill="currentColor"
                       viewBox="0 0 24 24"
                     >
                       <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" />
@@ -168,15 +202,17 @@ export default function CountrySelector() {
               </Box>
 
               {/* RIGHT - RELOCATING TO */}
-              <Box 
-                sx={{ 
+              <Box
+                sx={{
                   width: { xs: '100%', lg: '230px', xl: '250px' },
                   maxWidth: { xs: '280px', lg: 'none' },
                   mx: { xs: 'auto', lg: 0 },
                   display: { lg: 'flex' },
                   justifyContent: { lg: 'flex-end' },
+                  // KEY FIX: relative + high zIndex so the popper renders under this field
                   position: 'relative',
-                  zIndex: 10,
+                  zIndex: 20,
+                  ...selectSxOverrides,
                 }}
               >
                 <Box sx={{ width: { xs: '100%', lg: '230px', xl: '250px' } }}>
@@ -190,6 +226,30 @@ export default function CountrySelector() {
                     hideCode={true}
                     availableCountries={toCountriesList.map(c => c.label)}
                     rules={{}}
+                    // KEY FIX: disablePortal prevents MUI from teleporting the dropdown
+                    // to <body>, so it stays anchored directly under the input field
+                    componentsProps={{
+                      popper: {
+                        disablePortal: true,
+                        placement: 'bottom-start',
+                        modifiers: [
+                          {
+                            name: 'flip',
+                            enabled: false,
+                          },
+                          {
+                            name: 'preventOverflow',
+                            enabled: false,
+                          },
+                        ],
+                      },
+                    }}
+                    slotProps={{
+                      popper: {
+                        disablePortal: true,
+                        placement: 'bottom-start',
+                      },
+                    }}
                     sx={{}}
                   />
                 </Box>
