@@ -7,6 +7,7 @@ import BusinessMarketplaceSection from './components/BusinessMarketplaceSection'
 import RelocationSuccessSection from './components/RelocationSuccessSection';
 import DigitalPlatformsSection from './components/DigitalPlatformsSection';
 import BlogsSection from './components/BlogsSection';
+import TestimonialsSection from './components/TestimonialsSection';
 
 export default function HomeShellExtras() {
   const pathname = usePathname();
@@ -24,8 +25,9 @@ export default function HomeShellExtras() {
   const isPrivacyPolicy = pathname?.includes('/privacy-policy');
   const isTermsAndConditions = pathname?.includes('/terms-and-conditions');
   const isPartners = pathname?.includes('/partners');
+  const isTestimonials = pathname?.includes('/testimonials');
 
-  if (isServices || isBlogs || isAbout || isContact || isNewInSweden || isFaqs || isCareer || isPrivacyPolicy || isTermsAndConditions || isPartners) {
+  if (isServices || isBlogs || isAbout || isContact || isNewInSweden || isFaqs || isCareer || isPrivacyPolicy || isTermsAndConditions || isPartners || isTestimonials) {
     return null;
   }
 
@@ -37,6 +39,7 @@ export default function HomeShellExtras() {
       <div className="home-snap-section"><RelocationSuccessSection /></div>
       <div className="home-snap-section"><DigitalPlatformsSection /></div>
       <div className="home-snap-section"><BlogsSection /></div>
+      <div className="home-snap-section"><TestimonialsSection /></div>
     </>
   );
 }

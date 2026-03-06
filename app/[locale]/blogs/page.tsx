@@ -189,7 +189,7 @@ export default function BlogsPage() {
                           src={blog.featured_image}
                           alt={blog.title}
                           fill
-                          className="object-cover"
+                          className="object-contain"
                         />
                       </div>
                     </div>
