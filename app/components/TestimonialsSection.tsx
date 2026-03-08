@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import {
@@ -35,8 +35,8 @@ const generateMockName = (index: number) => {
   return names[index % names.length];
 };
 
-// Testimonials data
-const TESTIMONIALS = [
+// Local fallback testimonials (used if API not available)
+const FALLBACK_TESTIMONIALS = [
   {
     id: 1,
     name: generateMockName(1),
@@ -118,23 +118,125 @@ const TESTIMONIALS = [
 export function TestimonialsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [direction, setDirection] = useState('next');
+  const [testimonials, setTestimonials] = useState<
+    Array<{
+      id: number | string;
+      name: string;
+      avatar?: string; // initials
+      avatarUrl?: string;
+      rating: number;
+      category: string;
+      content: string;
+      postedAt: string;
+    }>
+  >([]);
+  const [loading, setLoading] = useState(true);
+  const isMountedRef = useRef(true);
   const params = useParams();
   const locale = (params?.locale as string) || 'en';
   const itemsPerView = 3;
 
+  const featuredCache = (globalThis as any).__srFeaturedTestimonialsCache || new Map<string, { data: any[]; timestamp: number }>();
+  (globalThis as any).__srFeaturedTestimonialsCache = featuredCache;
+  const CACHE_TTL = 1000 * 60 * 10; // 10 minutes
+
+  useEffect(() => {
+    return () => {
+      isMountedRef.current = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    const fetchFeatured = async () => {
+      const cacheKey = 'featured-reviews';
+      const now = Date.now();
+
+      const cleanAvatarUrl = (raw?: string | null): string | undefined => {
+        if (!raw) return undefined;
+        const trimmed = String(raw).replace(/[`'"]/g, '').trim();
+        if (!trimmed) return undefined;
+        if (/^https?:\/\//i.test(trimmed)) return trimmed;
+        const apiBase = (process.env.NEXT_PUBLIC_API_URL || '').replace(/\/api\/?$/i, '');
+        if (!apiBase) return trimmed;
+        if (trimmed.startsWith('/')) return `${apiBase}${trimmed}`;
+        return `${apiBase}/${trimmed}`;
+      };
+
+      // Cache check
+      if (featuredCache.has(cacheKey)) {
+        const cached = featuredCache.get(cacheKey)!;
+        if (now - cached.timestamp < CACHE_TTL) {
+          if (isMountedRef.current) {
+            setTestimonials(cached.data);
+            setLoading(false);
+          }
+          return;
+        }
+      }
+
+      try {
+        setLoading(true);
+        const baseUrl = process.env.NEXT_PUBLIC_API_URL;
+        const res = await fetch(`${baseUrl}/miscellaneous/review/lists/featured`);
+        if (!res.ok) throw new Error('Failed to fetch featured reviews');
+        const raw: any = await res.json();
+        const list: any[] = Array.isArray(raw?.data) ? raw.data : Array.isArray(raw) ? raw : [];
+        const mapped = list.map((it: any, idx: number) => {
+          const name = it.username || 'Anonymous';
+          const initials = name
+            .split(' ')
+            .map((p: string) => p[0])
+            .slice(0, 2)
+            .join('')
+            .toUpperCase();
+          const ratingNum = typeof it.rating === 'string' ? parseFloat(it.rating) : it.rating ?? 5;
+          const finalRating = Number.isFinite(Number(ratingNum))
+            ? Math.max(0, Math.min(5, Number(ratingNum)))
+            : 5;
+          return {
+            id: it.id ?? `f-${idx}`,
+            name,
+            avatar: initials,
+            avatarUrl: cleanAvatarUrl(it.user_profile_pic || it.avatar),
+            rating: finalRating,
+            category: (it.title || 'Review')?.toString().trim(),
+            content: (it.review || '')?.toString(),
+            postedAt: (it.created_at || '')?.toString(),
+          };
+        });
+        featuredCache.set(cacheKey, { data: mapped, timestamp: now });
+        if (isMountedRef.current) {
+          setTestimonials(mapped);
+        }
+      } catch (e) {
+        if (isMountedRef.current) {
+          // Fallback to static content
+          setTestimonials(FALLBACK_TESTIMONIALS);
+        }
+      } finally {
+        if (isMountedRef.current) {
+          setLoading(false);
+        }
+      }
+    };
+    fetchFeatured();
+  }, []);
+
+  const dataSource = testimonials.length ? testimonials : FALLBACK_TESTIMONIALS;
+
   // Infinite carousel logic - always gets 3 items and wraps around
   const visibleTestimonials = Array.from({ length: itemsPerView }).map(
-    (_, i) => TESTIMONIALS[(activeIndex + i) % TESTIMONIALS.length]
+    (_, i) => dataSource[(activeIndex + i) % dataSource.length]
   );
 
   const handlePrevious = () => {
     setDirection('prev');
-    setActiveIndex((prev) => (prev - 1 + TESTIMONIALS.length) % TESTIMONIALS.length);
+    setActiveIndex((prev) => (prev - 1 + dataSource.length) % dataSource.length);
   };
 
   const handleNext = () => {
     setDirection('next');
-    setActiveIndex((prev) => (prev + 1) % TESTIMONIALS.length);
+    setActiveIndex((prev) => (prev + 1) % dataSource.length);
   };
 
   const AvatarColor = ({
@@ -319,14 +421,22 @@ export function TestimonialsSection() {
                     mt: 'auto',
                   }}
                 >
-                  <AvatarColor
-                    initials={item.avatar}
-                    color={
-                      ['1f2937', '3b82f6', '8b5cf6', 'f97316', '10b981'][
-                        item.id % 5
-                      ]
-                    }
-                  />
+                  {(item as any).avatarUrl ? (
+                    <Avatar
+                      src={(item as any).avatarUrl}
+                      sx={{ width: 48, height: 48 }}
+                      alt={item.name}
+                    />
+                  ) : (
+                    <AvatarColor
+                      initials={item.avatar || generateMockAvatar(Number(item.id) || 0)}
+                      color={
+                        ['1f2937', '3b82f6', '8b5cf6', 'f97316', '10b981'][
+                          Number(item.id) % 5
+                        ]
+                      }
+                    />
+                  )}
                   <Stack spacing={0.5}>
                     <Typography
                       variant="subtitle2"
@@ -363,7 +473,7 @@ export function TestimonialsSection() {
           >
             {/* Dots Navigation */}
             <Stack direction="row" spacing={1}>
-              {Array.from({ length: TESTIMONIALS.length }).map((_, index) => (
+              {Array.from({ length: dataSource.length }).map((_, index) => (
                 <Box
                   key={`dot-${index}`}
                   onClick={() => {

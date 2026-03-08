@@ -1,156 +1,40 @@
 'use client';
 
 import Navbar from '../../components/Navbar';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Avatar, Box, Rating, Stack, Typography, Container } from '@mui/material';
 
 interface Testimonial {
-  id: number;
+  id: number | string;
   name: string;
-  avatar: string;
+  avatarUrl?: string;
+  initials?: string;
   rating: number;
   category: string;
   content: string;
   postedAt: string;
 }
 
-// Mock data generator
-const generateMockAvatar = (index: number) => {
-  const colors = ['1f2937', '3b82f6', '8b5cf6', 'f97316', '10b981'];
-  const initials = ['AB', 'CD', 'EF', 'GH', 'IJ', 'KL', 'MN', 'OP'][index % 8];
-  return initials;
-};
+interface APIItem {
+  id: number | string;
+  username: string;
+  user_profile_pic?: string | null;
+  title?: string | null;
+  review?: string | null;
+  rating?: number | string | null;
+  created_at?: string | null;
+}
 
-const generateMockName = (index: number) => {
-  const names = [
-    'Sarah Anderson',
-    'John Developer',
-    'Emma Wilson',
-    'Michael Chen',
-    'Lisa Johnson',
-    'David Smith',
-    'Rachel Green',
-    'Tom Brown',
-  ];
-  return names[index % names.length];
-};
+interface APIResponse {
+  data: APIItem[];
+}
 
-// All testimonials data
-const ALL_TESTIMONIALS: Testimonial[] = [
-  {
-    id: 1,
-    name: generateMockName(1),
-    avatar: generateMockAvatar(1),
-    rating: 5,
-    category: 'Design Quality',
-    content:
-      'The quality of this service is exceptional. The team is professional and responsive. I would highly recommend to anyone looking for relocation assistance.',
-    postedAt: 'April 20, 2024',
-  },
-  {
-    id: 2,
-    name: generateMockName(2),
-    avatar: generateMockAvatar(2),
-    rating: 5,
-    category: 'Customer Support',
-    content:
-      'Amazing experience! The entire process was smooth and the support team was incredibly helpful throughout the relocation journey.',
-    postedAt: 'March 19, 2024',
-  },
-  {
-    id: 3,
-    name: generateMockName(3),
-    avatar: generateMockAvatar(3),
-    rating: 5,
-    category: 'Service Quality',
-    content: 'Professional service with excellent attention to detail. Every step was handled perfectly.',
-    postedAt: 'April 19, 2023',
-  },
-  {
-    id: 4,
-    name: generateMockName(4),
-    avatar: generateMockAvatar(4),
-    rating: 4.5,
-    category: 'Customer Support',
-    content:
-      'Great support and helpful guidance throughout the entire process. Highly satisfied with the service.',
-    postedAt: 'May 19, 2023',
-  },
-  {
-    id: 5,
-    name: generateMockName(5),
-    avatar: generateMockAvatar(5),
-    rating: 5,
-    category: 'Service Quality',
-    content:
-      'Outstanding team with deep knowledge. They made the relocation process seamless and stress-free.',
-    postedAt: 'June 19, 2023',
-  },
-  {
-    id: 6,
-    name: generateMockName(6),
-    avatar: generateMockAvatar(6),
-    rating: 5,
-    category: 'Professionalism',
-    content: 'Could not have asked for better service. Highly professional and thoroughly knowledgeable.',
-    postedAt: 'July 19, 2023',
-  },
-  {
-    id: 7,
-    name: generateMockName(7),
-    avatar: generateMockAvatar(7),
-    rating: 5,
-    category: 'Overall Experience',
-    content: 'Fantastic experience from start to finish. The team goes above and beyond expectations.',
-    postedAt: 'August 19, 2023',
-  },
-  {
-    id: 8,
-    name: generateMockName(8),
-    avatar: generateMockAvatar(8),
-    rating: 4.5,
-    category: 'Value for Money',
-    content: 'Excellent value and comprehensive service. Definitely worth the investment.',
-    postedAt: 'September 19, 2023',
-  },
-  {
-    id: 9,
-    name: generateMockName(1),
-    avatar: generateMockAvatar(1),
-    rating: 5,
-    category: 'Communication',
-    content:
-      'Excellent communication throughout the entire process. They kept me informed every step of the way.',
-    postedAt: 'October 19, 2023',
-  },
-  {
-    id: 10,
-    name: generateMockName(2),
-    avatar: generateMockAvatar(2),
-    rating: 5,
-    category: 'Professionalism',
-    content: 'Top-tier service with a highly professional team. Exceeded all expectations.',
-    postedAt: 'November 19, 2023',
-  },
-  {
-    id: 11,
-    name: generateMockName(3),
-    avatar: generateMockAvatar(3),
-    rating: 4.5,
-    category: 'Value for Money',
-    content: 'Great pricing with exceptional quality. Very satisfied with the overall experience.',
-    postedAt: 'December 19, 2023',
-  },
-  {
-    id: 12,
-    name: generateMockName(4),
-    avatar: generateMockAvatar(4),
-    rating: 5,
-    category: 'Customer Support',
-    content: 'Amazing support team. They answered all my questions and concerns promptly.',
-    postedAt: 'January 19, 2024',
-  },
-];
+const reviewsCache = new Map<
+  string,
+  { data: Testimonial[]; timestamp: number }
+>();
+const CACHE_TTL = 1000 * 60 * 10; // 10 minutes
 
 const fadeInUp = `
   @keyframes fadeInUp {
@@ -191,6 +75,109 @@ const AvatarColor = ({ initials, color }: { initials: string; color: string }) =
 
 export default function TestimonialsPage() {
   const { t, i18n } = useTranslation();
+  const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const isMountedRef = useRef(true);
+
+  useEffect(() => {
+    return () => {
+      isMountedRef.current = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    const fetchReviews = async () => {
+      const cacheKey = 'reviews';
+      const now = Date.now();
+
+      const cleanAvatarUrl = (raw?: string | null): string | undefined => {
+        if (!raw) return undefined;
+        // Strip accidental quotes/backticks and whitespace
+        const trimmed = String(raw).replace(/[`'"]/g, '').trim();
+        if (!trimmed) return undefined;
+        if (/^https?:\/\//i.test(trimmed)) return trimmed;
+        // Build absolute URL using API base (strip trailing /api)
+        const apiBase = (process.env.NEXT_PUBLIC_API_URL || '').replace(/\/api\/?$/i, '');
+        if (!apiBase) return trimmed;
+        if (trimmed.startsWith('/')) return `${apiBase}${trimmed}`;
+        return `${apiBase}/${trimmed}`;
+      };
+
+      if (reviewsCache.has(cacheKey)) {
+        const cached = reviewsCache.get(cacheKey)!;
+        if (now - cached.timestamp < CACHE_TTL) {
+          if (isMountedRef.current) {
+            setTestimonials(cached.data);
+            setLoading(false);
+          }
+          return;
+        }
+      }
+
+      try {
+        setLoading(true);
+        const baseUrl = process.env.NEXT_PUBLIC_API_URL;
+        const res = await fetch(`${baseUrl}/miscellaneous/review/lists`);
+        if (!res.ok) {
+          throw new Error('Failed to fetch reviews');
+        }
+        const raw: any = await res.json();
+        let list: any[] = [];
+        if (Array.isArray(raw)) list = raw;
+        else if (Array.isArray(raw?.data)) list = raw.data;
+        else if (Array.isArray(raw?.data?.data)) list = raw.data.data;
+        else if (Array.isArray(raw?.results)) list = raw.results;
+        else if (Array.isArray(raw?.reviews)) list = raw.reviews;
+        else if (Array.isArray(raw?.data?.reviews)) list = raw.data.reviews;
+        else list = [];
+
+        const mapped: Testimonial[] = list.map((it: any, idx: number) => {
+          // Fallbacks and mapping
+          const name = it.username || it.name || 'Anonymous';
+          const initials = name
+            .split(' ')
+            .map((p: string) => p[0])
+            .slice(0, 2)
+            .join('')
+            .toUpperCase();
+          const ratingNum =
+            typeof it.rating === 'string' ? parseFloat(it.rating) : it.rating ?? 5;
+          const finalRating = Number.isFinite(Number(ratingNum))
+            ? Math.max(0, Math.min(5, Number(ratingNum)))
+            : 5;
+          return {
+            id: it.id ?? it._id ?? `r-${idx}`,
+            name,
+            avatarUrl: cleanAvatarUrl(it.user_profile_pic || it.avatar),
+            initials,
+            rating: finalRating,
+            category: (it.title || it.category || 'Review')?.toString().trim(),
+            content: (it.review || it.content || '')?.toString(),
+            postedAt: (it.created_at || it.postedAt || '')?.toString(),
+          };
+        });
+
+        reviewsCache.set(cacheKey, { data: mapped, timestamp: now });
+        if (isMountedRef.current) {
+          setTestimonials(mapped);
+          setError(null);
+        }
+      } catch (e) {
+        console.error('Error loading reviews', e);
+        if (isMountedRef.current) {
+          setError('Failed to load reviews');
+          setTestimonials([]);
+        }
+      } finally {
+        if (isMountedRef.current) {
+          setLoading(false);
+        }
+      }
+    };
+
+    fetchReviews();
+  }, []);
 
   const texts = {
     title: i18n.language === 'sv' ? 'Vad säger våra kunder' : 'What Our Clients Say',
@@ -229,6 +216,16 @@ export default function TestimonialsPage() {
       {/* Testimonials Grid */}
       <section className="py-12 sm:py-16 lg:py-20 bg-white">
         <Container maxWidth="lg">
+          {loading && (
+            <Typography variant="body2" sx={{ color: '#6B7280', mb: 2 }}>
+              Loading reviews…
+            </Typography>
+          )}
+          {error && (
+            <Typography variant="body2" sx={{ color: '#b91c1c', mb: 2 }}>
+              {error}
+            </Typography>
+          )}
           <Box
             sx={{
               display: 'grid',
@@ -236,9 +233,9 @@ export default function TestimonialsPage() {
               gap: 4,
             }}
           >
-            {ALL_TESTIMONIALS.map((testimonial, index) => (
+            {testimonials.map((testimonial, index) => (
               <Box
-                key={testimonial.id}
+                key={String(testimonial.id)}
                 sx={{
                   p: 6,
                   backgroundColor: '#FFFFFF',
@@ -306,10 +303,18 @@ export default function TestimonialsPage() {
                     mt: 'auto',
                   }}
                 >
-                  <AvatarColor
-                    initials={testimonial.avatar}
-                    color={['1f2937', '3b82f6', '8b5cf6', 'f97316', '10b981'][testimonial.id % 5]}
-                  />
+                  {testimonial.avatarUrl ? (
+                    <Avatar
+                      src={testimonial.avatarUrl}
+                      sx={{ width: 48, height: 48 }}
+                      alt={testimonial.name}
+                    />
+                  ) : (
+                    <AvatarColor
+                      initials={testimonial.initials || 'SR'}
+                      color={['1f2937', '3b82f6', '8b5cf6', 'f97316', '10b981'][index % 5]}
+                    />
+                  )}
                   <Stack spacing={0.5}>
                     <Typography
                       variant="subtitle2"

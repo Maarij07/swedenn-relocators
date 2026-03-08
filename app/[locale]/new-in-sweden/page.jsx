@@ -1,41 +1,34 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import Box from '@mui/material/Box';
 
-// Pattern Box Component for Stats
-function PatternBox() {
+// Icon Box for Stats
+function StatIcon({ src, alt }) {
   return (
     <Box
       sx={{
         width: 56,
         height: 56,
         borderRadius: '12px',
-        background: 'linear-gradient(135deg, #f0f4f8 0%, #e8ecf1 100%)',
+        background: 'linear-gradient(135deg, #eef5ff 0%, #e6efff 100%)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        position: 'relative',
         overflow: 'hidden',
-        '&::before': {
-          content: '""',
-          position: 'absolute',
-          width: '80%',
-          height: '2px',
-          background: '#cbd5e1',
-          transform: 'rotate(45deg)',
-        },
-        '&::after': {
-          content: '""',
-          position: 'absolute',
-          width: '80%',
-          height: '2px',
-          background: '#cbd5e1',
-          transform: 'rotate(-45deg)',
-        },
       }}
-    />
+    >
+      <Image
+        src={src}
+        alt={alt}
+        width={40}
+        height={40}
+        style={{ objectFit: 'contain' }}
+        priority
+      />
+    </Box>
   );
 }
 
@@ -93,7 +86,7 @@ export default function NewInSwedenPage() {
                     69.7%
                   </h3>
                 </div>
-                <PatternBox />
+                <StatIcon src={"/new-in-sweden/Employment%20Rate.png"} alt="Employment Rate" />
               </div>
               <p className="text-xs sm:text-sm text-gray-600">
                 Strong job market and employment opportunities
@@ -111,7 +104,7 @@ export default function NewInSwedenPage() {
                     SEK 6.38T
                   </h3>
                 </div>
-                <PatternBox />
+                <StatIcon src={"/new-in-sweden/Yearly%20GDP.png"} alt="Yearly GDP" />
               </div>
               <p className="text-xs sm:text-sm text-gray-600">
                 One of the world's largest economies by GDP per capita
@@ -129,7 +122,7 @@ export default function NewInSwedenPage() {
                     10.66 M
                   </h3>
                 </div>
-                <PatternBox />
+                <StatIcon src={"/new-in-sweden/Total%20Population.png"} alt="Total Population" />
               </div>
               <p className="text-xs sm:text-sm text-gray-600">
                 Welcoming communities across all regions
@@ -147,7 +140,7 @@ export default function NewInSwedenPage() {
                     #2
                   </h3>
                 </div>
-                <PatternBox />
+                <StatIcon src={"/new-in-sweden/Global%20Innovation.png"} alt="Global Innovation" />
               </div>
               <p className="text-xs sm:text-sm text-gray-600">
                 World leader in innovation and technology

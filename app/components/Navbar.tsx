@@ -419,21 +419,21 @@ export default function Navbar() {
                   >
                     <div className="grid grid-cols-2 gap-8">
                       <div className="space-y-4">
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/property-management/housing/short-rental/book-now/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.housing.shortTermRentals')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.housing.shortTermRentalsDesc')}</div>
                         </a>
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/property-management/housing/buy-property/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.housing.buySellProperty')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.housing.buySellPropertyDesc')}</div>
                         </a>
                       </div>
                       <div className="space-y-4">
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/property-management/housing/long-rental/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.housing.longTermRentals')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.housing.longTermRentalsDesc')}</div>
                         </a>
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/property-management/housing/list-property/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.housing.listYourProperty')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.housing.listYourPropertyDesc')}</div>
                         </a>
@@ -470,45 +470,45 @@ export default function Navbar() {
                   >
                     <div className="grid grid-cols-2 gap-8">
                       <div className="space-y-4">
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/immigration-services/eligibility/assessment/sweden/familyReunification/eu-family-reunification-eu-directive/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.familyReunificationEU')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.familyReunificationEUDesc')}</div>
                         </a>
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/immigration-services/eligibility/assessment/sweden/familyReunification/family-reunification-national-law/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.familyReunificationNational')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.familyReunificationNationalDesc')}</div>
                         </a>
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/immigration-services/eligibility/assessment/sweden/familyReunification/family-maintenance-requirement/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.familyMaintenance')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.familyMaintenanceDesc')}</div>
                         </a>
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/immigration-services/eligibility/assessment/sweden/self-employed/self-employed-permit-assessment/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.selfEmployed')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.selfEmployedDesc')}</div>
                         </a>
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/immigration-services/eligibility/assessment/sweden/studyingSweden/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.studySweden')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.studySwedenDesc')}</div>
                         </a>
                       </div>
                       <div className="space-y-4">
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/immigration-services/eligibility/assessment/sweden/workPermit/work-permit-sweden/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.workPermit')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.workPermitDesc')}</div>
                         </a>
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/immigration-services/eligibility/assessment/sweden/workPermit/eu-long-term-residence-holders/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.longtermEuStatus')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.longtermEuStatusDesc')}</div>
                         </a>
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/immigration-services/eligibility/assessment/GeneralAssessment/EuropeDigitalNomadVisa/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.digitalNomadVisa')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.digitalNomadVisaDesc')}</div>
                         </a>
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/immigration-services/eligibility/assessment/sweden/workPermit/job-seeker-visa-eligibility/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.jobSeekerSweden')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.jobSeekerSwedenDesc')}</div>
                         </a>
-                        <a href="#" className="block">
+                        <a href="https://portal.swedenrelocators.se/immigration-services/visa/visit/" target="_blank" rel="noopener noreferrer" className="block">
                           <div className="font-semibold text-[15px] text-gray-900 mb-1">{t('navbar.dropdowns.assessment.globalVisitVisa')}</div>
                           <div className="text-[13px] text-gray-600">{t('navbar.dropdowns.assessment.globalVisitVisaDesc')}</div>
                         </a>

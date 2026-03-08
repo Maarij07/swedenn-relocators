@@ -79,6 +79,16 @@ export default function ServicesPage() {
           box-shadow: 0 4px 16px 0 rgba(36,127,225,0.10);
           transform: scale(1.025);
         }
+
+        .sr-service-card {
+          transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+          will-change: transform, box-shadow;
+        }
+        .sr-service-card:hover {
+          transform: translateY(-6px);
+          box-shadow: 0 16px 36px rgba(0,0,0,0.16), 0 6px 14px rgba(36,127,225,0.18);
+          border-color: rgba(148,163,184,0.28);
+        }
       `}</style>
 
       {/* Hero Section - CARD STYLE FROM FIGMA */}
@@ -152,11 +162,12 @@ export default function ServicesPage() {
               {servicesCards.map((card, index) => (
                 <article
                   key={card.id}
-                  className="bg-white rounded-[20px] border border-gray-100 flex flex-col overflow-hidden transition-transform duration-300 hover:-translate-y-1"
+                  className="bg-white rounded-[20px] border border-gray-100 flex flex-col overflow-hidden sr-service-card"
                   style={{
                     width: '445px',
                     height: '577px',
                     boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
+                    borderBottom: '4px solid #3b82f6',
                     animation: 'fadeInUp 0.7s ease-out',
                     animationDelay: `${index * 60}ms`,
                     animationFillMode: 'both',

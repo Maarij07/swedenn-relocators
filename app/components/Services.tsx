@@ -4,69 +4,112 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import axiosInstance from '../utils/axios';
 
 interface Service {
   id: string;
-  titleKey: string;
-  descriptionKey: string;
-  coverImage: string;
-  thumbImage: string;
+  title: string;
+  description: string;
+  short_description: string;
+  featured_image: string;
+  counter: number;
+  duration: string;
+  fees: string;
+  button_url: string;
 }
 
-const services: Service[] = [
-  {
-    id: 'business',
-    titleKey: 'services.cards.business.title',
-    descriptionKey: 'services.cards.business.description',
-    coverImage: '/businessman-analyzing-data.svg',
-    thumbImage: '/image2.png',
-  },
-  {
-    id: 'family',
-    titleKey: 'services.cards.family.title',
-    descriptionKey: 'services.cards.family.description',
-    coverImage: '/fr.svg',
-    thumbImage: '/image1.png',
-  },
-  {
-    id: 'work',
-    titleKey: 'services.cards.work.title',
-    descriptionKey: 'services.cards.work.description',
-    coverImage: '/Work-permit-illustration.svg',
-    thumbImage: '/image3.png',
-  },
-  {
-    id: 'parents',
-    titleKey: 'services.cards.parents.title',
-    descriptionKey: 'services.cards.parents.description',
-    coverImage: '/pr.svg',
-    thumbImage: '/image4.png',
-  },
-  {
-    id: 'study',
-    titleKey: 'services.cards.study.title',
-    descriptionKey: 'services.cards.study.description',
-    coverImage: '/study-in-sweden-illustration.svg',
-    thumbImage: '/image5.png',
-  },
-  {
-    id: 'ltr',
-    titleKey: 'services.cards.ltr.title',
-    descriptionKey: 'services.cards.ltr.description',
-    coverImage: '/LTR-permit-illustration.svg',
-    thumbImage: '/image6.png',
-  },
-];
+// Cache configuration
+const CACHE_KEY = 'services_cache';
+const CACHE_DURATION = 60 * 60 * 1000; // 1 hour
+
+// Cache utility
+const getCache = (): { data: Service[]; timestamp: number } | null => {
+  if (typeof window === 'undefined') return null;
+  try {
+    const cached = localStorage.getItem(CACHE_KEY);
+    if (!cached) return null;
+    const parsed = JSON.parse(cached);
+    const now = Date.now();
+    if (now - parsed.timestamp > CACHE_DURATION) {
+      localStorage.removeItem(CACHE_KEY);
+      return null;
+    }
+    return parsed;
+  } catch {
+    return null;
+  }
+};
+
+const setCache = (data: Service[]): void => {
+  if (typeof window === 'undefined') return;
+  try {
+    localStorage.setItem(CACHE_KEY, JSON.stringify({ data, timestamp: Date.now() }));
+  } catch {
+    // Silently fail if localStorage is not available
+  }
+};
 
 export default function Services() {
   const { t } = useTranslation();
+  const [services, setServices] = useState<Service[]>([]);
+  const [loading, setLoading] = useState(true);
   const [activeIndex, setActiveIndex] = useState(0);
   const trackRef = useRef<HTMLDivElement | null>(null);
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
   const rafRef = useRef<number | null>(null);
   const isPausedRef = useRef(false);
   const resumeTimeoutRef = useRef<number | null>(null);
+
+  // Fetch services data
+  useEffect(() => {
+    const fetchServices = async () => {
+      try {
+        // Check cache first
+        const cached = getCache();
+        if (cached) {
+          console.log('Using cached services:', cached.data.length);
+          setServices(cached.data);
+          setLoading(false);
+          return;
+        }
+
+        console.log('Fetching services from API...');
+        // Fetch from API
+        const response = await axiosInstance.get('/miscellaneous/query/services');
+        
+        console.log('API Response:', response.data);
+        
+        if (response.data && response.data.data && Array.isArray(response.data.data)) {
+          const apiServices = response.data.data.map((item: any) => ({
+            id: String(item.id || item.slug),
+            title: item.title || '',
+            description: item.description || item.short_description || '',
+            short_description: item.short_description || '',
+            featured_image: item.featured_image || '',
+            counter: item.counter || 0,
+            duration: item.duration || '',
+            fees: item.fees || '',
+            button_url: item.button_url || '',
+          }));
+
+          console.log('Mapped services:', apiServices);
+          setServices(apiServices);
+          setCache(apiServices);
+        } else {
+          console.error('Invalid API response structure:', response.data);
+          setServices([]);
+        }
+      } catch (error) {
+        console.error('Failed to fetch services:', error);
+        // Fallback to empty array on error
+        setServices([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchServices();
+  }, []);
 
   const setCardRef = useCallback((index: number) => (node: HTMLDivElement | null) => {
     cardRefs.current[index] = node;
@@ -120,12 +163,16 @@ export default function Services() {
     });
   }, [pauseAutoplay, updateActiveFromScroll]);
 
-  const handleWheel = useCallback((event: React.WheelEvent<HTMLDivElement>) => {
+  useEffect(() => {
     const track = trackRef.current;
     if (!track) return;
-    if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
-    event.preventDefault();
-    track.scrollLeft += event.deltaY;
+    const handleWheel = (event: WheelEvent) => {
+      if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
+      event.preventDefault();
+      track.scrollLeft += event.deltaY;
+    };
+    track.addEventListener('wheel', handleWheel, { passive: false });
+    return () => track.removeEventListener('wheel', handleWheel);
   }, []);
 
   useEffect(() => {
@@ -134,7 +181,7 @@ export default function Services() {
 
   useEffect(() => {
     const autoplay = window.setInterval(() => {
-      if (isPausedRef.current) return;
+      if (isPausedRef.current || services.length === 0) return;
       setActiveIndex((prev) => {
         const next = (prev + 1) % services.length;
         scrollToIndex(next);
@@ -151,7 +198,51 @@ export default function Services() {
         window.clearTimeout(resumeTimeoutRef.current);
       }
     };
-  }, [scrollToIndex]);
+  }, [scrollToIndex, services.length]);
+
+  // Show loading skeleton
+  if (loading) {
+    return (
+      <Box
+        component="section"
+        sx={{
+          pt: { xs: 4, sm: 6, lg: 7, xl: 8 },
+          pb: { xs: 8, sm: 10, lg: 12, xl: 14 },
+          background: '#f8fafc',
+        }}
+      >
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+          <Box sx={{ textAlign: 'center', py: 8 }}>
+            <Typography variant="h6" color="text.secondary">
+              {t('common.loading') || 'Loading services...'}
+            </Typography>
+          </Box>
+        </div>
+      </Box>
+    );
+  }
+
+  // Show error or empty state
+  if (!loading && services.length === 0) {
+    return (
+      <Box
+        component="section"
+        sx={{
+          pt: { xs: 4, sm: 6, lg: 7, xl: 8 },
+          pb: { xs: 8, sm: 10, lg: 12, xl: 14 },
+          background: '#f8fafc',
+        }}
+      >
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+          <Box sx={{ textAlign: 'center', py: 8 }}>
+            <Typography variant="h6" color="text.secondary">
+              {t('common.noData') || 'No services available'}
+            </Typography>
+          </Box>
+        </div>
+      </Box>
+    );
+  }
 
   return (
     <Box
@@ -214,7 +305,6 @@ export default function Services() {
           <Box
             ref={trackRef}
             onScroll={handleScroll}
-            onWheel={handleWheel}
             sx={{
               display: 'flex',
               gap: { xs: 2.5, sm: 3.5, lg: 4 },
@@ -238,7 +328,8 @@ export default function Services() {
                 <Box
                   key={service.id}
                   ref={setCardRef(index)}
-                  onClick={() => {
+                  onClick={(e) => {
+                    if ((e.target as Element).closest('a, button')) return;
                     setActiveIndex(index);
                     scrollToIndex(index);
                   }}
@@ -277,8 +368,8 @@ export default function Services() {
                       }}
                     >
                       <img
-                        src={service.coverImage}
-                        alt={`${t(service.titleKey)} illustration`}
+                        src={service.featured_image}
+                        alt={service.title}
                         style={{
                           width: '78%',
                           height: '78%',
@@ -304,7 +395,7 @@ export default function Services() {
                             color: '#0f172a',
                           }}
                         >
-                          {t(service.titleKey)}
+                          {service.title}
                         </Typography>
                       </Box>
 
@@ -315,29 +406,45 @@ export default function Services() {
                           lineHeight: 1.6,
                         }}
                       >
-                        {t(service.descriptionKey)}
+                        {service.description}
                       </Typography>
 
-                      <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                        <Button
-                          sx={{
-                            px: 2.5,
-                            py: 1,
+                      <Box sx={{ display: 'flex', gap: 1, alignItems: 'center', fontSize: '0.85rem', color: '#94a3b8', mb: 1 }}>
+                        <span>⏱ {service.duration || 'N/A'}</span>
+                        <span>•</span>
+                        <span>👥 {service.counter || 0}</span>
+                      </Box>
+
+                      <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+                        <Box>
+                          <Typography sx={{ fontSize: '1.3rem', fontWeight: 700, color: '#0f172a' }}>
+                            €{parseFloat(service.fees || '0').toFixed(2)}
+                          </Typography>
+                          <Typography sx={{ fontSize: '0.8rem', color: '#94a3b8' }}>
+                            / handling fee
+                          </Typography>
+                        </Box>
+                        <a
+                          href={service.button_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          style={{
+                            display: 'inline-block',
+                            padding: '8px 20px',
                             borderRadius: '10px',
-                            textTransform: 'none',
                             fontWeight: 600,
-                            border: 'none',
+                            fontSize: '0.875rem',
                             color: '#ffffff',
                             background: 'linear-gradient(135deg, #000000 0%, #1a1a1a 100%)',
                             boxShadow: '0 10px 24px rgba(15, 23, 42, 0.25)',
-                            '&:hover': {
-                              background: 'linear-gradient(135deg, #0a0a0a 0%, #1f1f1f 100%)',
-                              boxShadow: '0 12px 28px rgba(15, 23, 42, 0.32)',
-                            },
+                            cursor: 'pointer',
+                            textDecoration: 'none',
+                            fontFamily: 'inherit',
                           }}
                         >
-                          {t('services.viewDetails')}
-                        </Button>
+                          {t('services.viewDetails') || 'Send Request'}
+                        </a>
                       </Box>
                     </Box>
                   </Box>
@@ -352,6 +459,8 @@ export default function Services() {
               justifyContent: 'center',
               gap: 1,
               mt: { xs: 1.5, sm: 2 },
+              visibility: 'hidden',
+              height: 0,
             }}
           >
             {services.map((service, index) => (
@@ -359,7 +468,7 @@ export default function Services() {
                 key={`${service.id}-dot`}
                 component="button"
                 type="button"
-                aria-label={`Go to ${t(service.titleKey)}`}
+                aria-label={`Go to ${service.title}`}
                 onClick={() => {
                   setActiveIndex(index);
                   scrollToIndex(index);

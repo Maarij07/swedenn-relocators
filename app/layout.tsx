@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import HomeShellExtras from './HomeShellExtras';
 import TrackingSnippets from './components/TrackingSnippets';
 import ChatWidget from './components/ChatWidget';
+import BackToTop from './components/BackToTop';
 import theme from './theme';
 import './globals.css';
 import ClientI18nProvider from './ClientI18nProvider';
@@ -34,6 +35,7 @@ export default function RootLayout({
               <HomeShellExtras />
               <Footer />
               <CookieConsent />
+              <BackToTop />
               <ChatWidget />
             </ClientI18nProvider>
           </ThemeProvider>
