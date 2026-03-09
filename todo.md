@@ -6,7 +6,7 @@ Background Colour must be same as minimal, minor element merging to enhance the 
 - Home Page Design Improvements
 - Service Page Design Improvements according to minimal (Add 3D illustration from same family) 
 - About Us Bottom Design Improvements according to minimal and 3D illustration Size
-- Blogs Page Header and page content setting according to minimal
+- Blogs Page Header and page content setting according to minimal (Done)
 
 - Contact Us Page 3D illustration, Map APIs, contact us form connect with Support@swedenrelocators.se email (Design Improvement according to minimal)
 - Partner Program page (Sketch, images to make process understandable)
