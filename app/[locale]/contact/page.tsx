@@ -1,5 +1,8 @@
+'use client';
+
 import Navbar from '../../components/Navbar';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 const fadeInUp = `
   @keyframes fadeInUp {
@@ -15,6 +18,132 @@ const fadeInUp = `
 `;
 
 export default function ContactPage() {
+    interface ContactItem {
+        name: string;
+        registration_no: string;
+        address: string;
+        country: string;
+        contact_number: string;
+        secondary_contact_number?: string;
+        email: string;
+        latitude?: number | null;
+        longitude?: number | null;
+        is_head_office?: boolean;
+    }
+
+    const [contacts, setContacts] = useState<ContactItem[]>([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState<string | null>(null);
+    const [submitting, setSubmitting] = useState(false);
+    const [submitMsg, setSubmitMsg] = useState<string | null>(null);
+    const [submitErr, setSubmitErr] = useState<string | null>(null);
+    const [form, setForm] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+    });
+
+    const onChange =
+        (key: keyof typeof form) =>
+        (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+            setForm((f) => ({ ...f, [key]: e.target.value }));
+        };
+
+    const validEmail = (value: string) =>
+        /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim());
+
+    const handleSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setSubmitMsg(null);
+        setSubmitErr(null);
+        // basic validation
+        if (!form.name.trim() || !form.email.trim() || !form.subject.trim() || !form.message.trim()) {
+            setSubmitErr('Please fill out all fields.');
+            return;
+        }
+        if (!validEmail(form.email)) {
+            setSubmitErr('Please enter a valid email address.');
+            return;
+        }
+        try {
+            setSubmitting(true);
+            const baseUrl = process.env.NEXT_PUBLIC_API_URL;
+            const fd = new FormData();
+            fd.append('name', form.name.trim());
+            fd.append('email', form.email.trim());
+            fd.append('subject', form.subject.trim());
+            fd.append('message', form.message.trim());
+            const res = await fetch(`${baseUrl}/miscellaneous/contact/form/email`, {
+                method: 'POST',
+                body: fd,
+            });
+            if (!res.ok) {
+                const text = await res.text().catch(() => '');
+                throw new Error(text || 'Failed to send email');
+            }
+            const payload: any = await res.json().catch(() => ({}));
+            setSubmitMsg(payload?.message || 'Email sent successfully.');
+            setForm({ name: '', email: '', subject: '', message: '' });
+        } catch (err: any) {
+            setSubmitErr('Unable to send your message. Please try again.');
+        } finally {
+            setSubmitting(false);
+        }
+    };
+
+    // simple in-memory cache with TTL
+    const CACHE_KEY = '__srContactsCache';
+    const CACHE_TTL = 1000 * 60 * 60; // 1 hour
+
+    useEffect(() => {
+        const fetchContacts = async () => {
+            try {
+                const now = Date.now();
+                const g: any = globalThis as any;
+                if (g[CACHE_KEY] && now - g[CACHE_KEY].ts < CACHE_TTL) {
+                    setContacts(g[CACHE_KEY].data as ContactItem[]);
+                    setLoading(false);
+                    return;
+                }
+                const baseUrl = process.env.NEXT_PUBLIC_API_URL;
+                const res = await fetch(`${baseUrl}/miscellaneous/contact/details`);
+                if (!res.ok) throw new Error('Failed to fetch contact details');
+                const raw: any = await res.json();
+                const list: ContactItem[] = Array.isArray(raw?.data) ? raw.data : [];
+                // Keep a stable order: Sweden, Denmark, Norway, Portugal; include others if present
+                const order = ['Sweden', 'Denmark', 'Norway', 'Portugal'];
+                const sorted = [
+                    ...order.map(c => list.find(i => i.country === c)).filter(Boolean) as ContactItem[],
+                    ...list.filter(i => !order.includes(i.country)),
+                ];
+                setContacts(sorted);
+                g[CACHE_KEY] = { data: sorted, ts: now };
+                setError(null);
+            } catch (e) {
+                setError('Failed to load contact locations');
+                setContacts([]);
+            } finally {
+                setLoading(false);
+            }
+        };
+        fetchContacts();
+    }, []);
+
+    const flagCodeFor = (country: string) => {
+        const map: Record<string, string> = {
+            Sweden: 'se',
+            Denmark: 'dk',
+            Norway: 'no',
+            Portugal: 'pt',
+            'United Kingdom': 'gb',
+        };
+        return map[country] || 'se';
+    };
+
+    const mapsLink = (address: string) =>
+        `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+
     return (
         <main className="min-h-screen bg-white">
             <Navbar />
@@ -112,13 +241,15 @@ export default function ContactPage() {
                                 </h3>
                             </div>
 
-                            <form className="space-y-6">
+                            <form className="space-y-6" onSubmit={handleSubmit}>
                                 <div>
                                     <label htmlFor="name" className="sr-only">Name</label>
                                     <input
                                         type="text"
                                         id="name"
                                         placeholder="Name"
+                                        value={form.name}
+                                        onChange={onChange('name')}
                                         className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-colors bg-white text-gray-900 placeholder-gray-400"
                                     />
                                 </div>
@@ -128,6 +259,8 @@ export default function ContactPage() {
                                         type="email"
                                         id="email"
                                         placeholder="Email"
+                                        value={form.email}
+                                        onChange={onChange('email')}
                                         className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-colors bg-white text-gray-900 placeholder-gray-400"
                                     />
                                 </div>
@@ -137,6 +270,8 @@ export default function ContactPage() {
                                         type="text"
                                         id="subject"
                                         placeholder="Subject"
+                                        value={form.subject}
+                                        onChange={onChange('subject')}
                                         className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-colors bg-white text-gray-900 placeholder-gray-400"
                                     />
                                 </div>
@@ -146,6 +281,8 @@ export default function ContactPage() {
                                         id="message"
                                         rows={6}
                                         placeholder="Enter your message here"
+                                        value={form.message}
+                                        onChange={onChange('message')}
                                         className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-colors bg-white text-gray-900 placeholder-gray-400 resize-none"
                                     ></textarea>
                                 </div>
@@ -153,11 +290,18 @@ export default function ContactPage() {
                                 <div>
                                     <button
                                         type="submit"
-                                        className="px-8 py-3 bg-[#1e293b] text-white font-semibold rounded-lg hover:bg-[#0f172a] transition-colors"
+                                        disabled={submitting}
+                                        className="px-8 py-3 bg-[#1e293b] text-white font-semibold rounded-lg hover:bg-[#0f172a] transition-colors disabled:opacity-60"
                                     >
-                                        Submit Now
+                                        {submitting ? 'Sending…' : 'Submit Now'}
                                     </button>
                                 </div>
+                                {submitErr && (
+                                    <p className="text-sm text-red-600">{submitErr}</p>
+                                )}
+                                {submitMsg && (
+                                    <p className="text-sm text-green-600">{submitMsg}</p>
+                                )}
                             </form>
                         </div>
 
@@ -182,251 +326,80 @@ export default function ContactPage() {
             {/* Locations Section */}
             <section className="pb-16 sm:pb-20 lg:pb-24 bg-white">
                 <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {/* Sweden Card */}
-                        <div className="bg-white rounded-3xl shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] transition-all duration-300 overflow-hidden border border-gray-100 border-l-4 border-[#247FE1] border-b-4 border-b-blue-500">
-                            <div className="bg-[#F0F5FF] px-6 py-4 flex items-center gap-3">
-                                <div className="w-8 h-8 rounded-full overflow-hidden relative shadow-sm">
-                                    <Image
-                                        src="https://flagcdn.com/w160/se.png"
-                                        alt="Sweden Flag"
-                                        fill
-                                        className="object-cover"
-                                    />
-                                </div>
-                                <h3 className="text-lg font-bold text-gray-900">Sweden</h3>
-                            </div>
-                            <div className="p-6 space-y-6">
-                                {/* Address */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/place1.svg" alt="Address" fill className="object-contain" />
+                    {loading && (
+                        <p className="text-gray-600 text-sm">Loading locations…</p>
+                    )}
+                    {error && (
+                        <p className="text-red-600 text-sm">{error}</p>
+                    )}
+                    {!loading && !error && (
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
+                            {contacts.slice(0, 4).map((loc) => (
+                                <div
+                                  key={`${loc.country}-${loc.registration_no}`}
+                                  className="bg-white rounded-3xl shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] transition-all duration-300 overflow-hidden border border-gray-100 border-l-4 border-[#247FE1] border-b-4 border-b-blue-500 h-full flex flex-col"
+                                  style={{ minHeight: '420px' }}
+                                >
+                                    <div className="bg-[#F0F5FF] px-6 py-4 flex items-center gap-3">
+                                        <div className="w-8 h-8 rounded-full overflow-hidden relative shadow-sm">
+                                            <Image
+                                                src={`https://flagcdn.com/w160/${flagCodeFor(loc.country)}.png`}
+                                                alt={`${loc.country} Flag`}
+                                                fill
+                                                className="object-cover"
+                                            />
                                         </div>
-                                        <span className="font-bold text-gray-900 text-sm">Address</span>
+                                        <h3 className="text-lg font-bold text-gray-900">{loc.country}</h3>
                                     </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        Krukmakargatan 19, 118 51 Stockholm, Sweden
-                                    </p>
-                                </div>
-
-                                {/* Contact Number */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/contact.svg" alt="Phone" fill className="object-contain" />
+                                    <div className="p-6 flex flex-col gap-6 flex-1">
+                                        <div>
+                                            <div className="flex items-center gap-2 mb-2">
+                                                <div className="w-6 h-6 relative flex-shrink-0">
+                                                    <Image src="/place1.svg" alt="Address" fill className="object-contain" />
+                                                </div>
+                                                <span className="font-bold text-gray-900 text-sm">Address</span>
+                                            </div>
+                                            <p className="text-xs text-gray-500 pl-8">
+                                                {loc.address}
+                                            </p>
                                         </div>
-                                        <span className="font-bold text-gray-900 text-sm">Contact Number</span>
-                                    </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        +46 72 327 62 76
-                                    </p>
-                                </div>
-
-                                {/* Email Address */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/contact.svg" alt="Email" fill className="object-contain" />
+                                        <div>
+                                            <div className="flex items-center gap-2 mb-2">
+                                                <div className="w-6 h-6 relative flex-shrink-0">
+                                                    <Image src="/contact.svg" alt="Phone" fill className="object-contain" />
+                                                </div>
+                                                <span className="font-bold text-gray-900 text-sm">Contact Number</span>
+                                            </div>
+                                            <p className="text-xs text-gray-500 pl-8">
+                                                {loc.contact_number}
+                                            </p>
                                         </div>
-                                        <span className="font-bold text-gray-900 text-sm">Email Address</span>
+                                        <div>
+                                            <div className="flex items-center gap-2 mb-2">
+                                                <div className="w-6 h-6 relative flex-shrink-0">
+                                                    <Image src="/contact.svg" alt="Email" fill className="object-contain" />
+                                                </div>
+                                                <span className="font-bold text-gray-900 text-sm">Email Address</span>
+                                            </div>
+                                            <p className="text-xs text-gray-500 pl-8">
+                                                {loc.email}
+                                            </p>
+                                        </div>
+                                        <div className="pt-2 mt-auto">
+                                            <a
+                                                href={mapsLink(loc.address)}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="w-full inline-flex justify-center py-3 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg"
+                                            >
+                                                View On Map
+                                            </a>
+                                        </div>
                                     </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        info@swedenrelocators.se
-                                    </p>
                                 </div>
-
-                                <div className="pt-2">
-                                    <button className="w-full py-3 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
-                                        View On Map
-                                    </button>
-                                </div>
-                            </div>
+                            ))}
                         </div>
-
-                        {/* Denmark Card */}
-                        <div className="bg-white rounded-3xl shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] transition-all duration-300 overflow-hidden border border-gray-100 border-l-4 border-[#247FE1] border-b-4 border-b-blue-500">
-                            <div className="bg-[#F0F5FF] px-6 py-4 flex items-center gap-3">
-                                <div className="w-8 h-8 rounded-full overflow-hidden relative shadow-sm">
-                                    <Image
-                                        src="https://flagcdn.com/w160/dk.png"
-                                        alt="Denmark Flag"
-                                        fill
-                                        className="object-cover"
-                                    />
-                                </div>
-                                <h3 className="text-lg font-bold text-gray-900">Denmark</h3>
-                            </div>
-                            <div className="p-6 space-y-6">
-                                {/* Address */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/place1.svg" alt="Address" fill className="object-contain" />
-                                        </div>
-                                        <span className="font-bold text-gray-900 text-sm">Address</span>
-                                    </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        Krukmakargatan 19, 118 51 Stockholm, Sweden
-                                    </p>
-                                </div>
-
-                                {/* Contact Number */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/contact.svg" alt="Phone" fill className="object-contain" />
-                                        </div>
-                                        <span className="font-bold text-gray-900 text-sm">Contact Number</span>
-                                    </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        +46 72 327 62 76
-                                    </p>
-                                </div>
-
-                                {/* Email Address */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/contact.svg" alt="Email" fill className="object-contain" />
-                                        </div>
-                                        <span className="font-bold text-gray-900 text-sm">Email Address</span>
-                                    </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        info@swedenrelocators.se
-                                    </p>
-                                </div>
-
-                                <div className="pt-2">
-                                    <button className="w-full py-3 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
-                                        View On Map
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Norway Card */}
-                        <div className="bg-white rounded-3xl shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] transition-all duration-300 overflow-hidden border border-gray-100 border-l-4 border-[#247FE1] border-b-4 border-b-blue-500">
-                            <div className="bg-[#F0F5FF] px-6 py-4 flex items-center gap-3">
-                                <div className="w-8 h-8 rounded-full overflow-hidden relative shadow-sm">
-                                    <Image
-                                        src="https://flagcdn.com/w160/no.png"
-                                        alt="Norway Flag"
-                                        fill
-                                        className="object-cover"
-                                    />
-                                </div>
-                                <h3 className="text-lg font-bold text-gray-900">Norway</h3>
-                            </div>
-                            <div className="p-6 space-y-6">
-                                {/* Address */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/place1.svg" alt="Address" fill className="object-contain" />
-                                        </div>
-                                        <span className="font-bold text-gray-900 text-sm">Address</span>
-                                    </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        Krukmakargatan 19, 118 51 Stockholm, Sweden
-                                    </p>
-                                </div>
-
-                                {/* Contact Number */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/contact.svg" alt="Phone" fill className="object-contain" />
-                                        </div>
-                                        <span className="font-bold text-gray-900 text-sm">Contact Number</span>
-                                    </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        +46 72 327 62 76
-                                    </p>
-                                </div>
-
-                                {/* Email Address */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/contact.svg" alt="Email" fill className="object-contain" />
-                                        </div>
-                                        <span className="font-bold text-gray-900 text-sm">Email Address</span>
-                                    </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        info@swedenrelocators.se
-                                    </p>
-                                </div>
-
-                                <div className="pt-2">
-                                    <button className="w-full py-3 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
-                                        View On Map
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Portugal Card */}
-                        <div className="bg-white rounded-3xl shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] transition-all duration-300 overflow-hidden border border-gray-100 border-l-4 border-[#247FE1] border-b-4 border-b-blue-500">
-                            <div className="bg-[#F0F5FF] px-6 py-4 flex items-center gap-3">
-                                <div className="w-8 h-8 rounded-full overflow-hidden relative shadow-sm">
-                                    <Image
-                                        src="https://flagcdn.com/w160/pt.png"
-                                        alt="Portugal Flag"
-                                        fill
-                                        className="object-cover"
-                                    />
-                                </div>
-                                <h3 className="text-lg font-bold text-gray-900">Portugal</h3>
-                            </div>
-                            <div className="p-6 space-y-6">
-                                {/* Address */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/place1.svg" alt="Address" fill className="object-contain" />
-                                        </div>
-                                        <span className="font-bold text-gray-900 text-sm">Address</span>
-                                    </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        Krukmakargatan 19, 118 51 Stockholm, Sweden
-                                    </p>
-                                </div>
-
-                                {/* Contact Number */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/contact.svg" alt="Phone" fill className="object-contain" />
-                                        </div>
-                                        <span className="font-bold text-gray-900 text-sm">Contact Number</span>
-                                    </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        +46 72 327 62 76
-                                    </p>
-                                </div>
-
-                                {/* Email Address */}
-                                <div>
-                                    <div className="flex items-center gap-2 mb-2">
-                                        <div className="w-6 h-6 relative flex-shrink-0">
-                                            <Image src="/contact.svg" alt="Email" fill className="object-contain" />
-                                        </div>
-                                        <span className="font-bold text-gray-900 text-sm">Email Address</span>
-                                    </div>
-                                    <p className="text-xs text-gray-500 pl-8">
-                                        info@swedenrelocators.se
-                                    </p>
-                                </div>
-
-                                <div className="pt-2">
-                                    <button className="w-full py-3 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
-                                        View On Map
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    )}
                 </div>
             </section>
         </main>
