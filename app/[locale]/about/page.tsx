@@ -759,7 +759,7 @@ export default function AboutPage() {
                             className="order-2 lg:order-1 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-b-4 border-b-blue-500"
                         >
                             <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-bold text-[#1a2332] leading-tight mb-4">
-                                Employee Solutions
+                                Employee & Family Solutions
                             </h2>
                             <p className="text-[#5f6c7b] text-[15px] sm:text-[16px] leading-relaxed mb-6">
                                 For individuals and their families, we provide end-to-end support to ease their transition into their new Nordic home.

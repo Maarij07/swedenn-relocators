@@ -99,10 +99,10 @@ export default function Footer() {
           {/* Divider */}
           <div className="border-t border-[#1f2933] my-10 lg:my-12"></div>
 
-          {/* Bottom Row - Reach Us, Visit Us, Get App, Partner Network */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 xl:gap-12 mb-12 lg:mb-16">
+          {/* Bottom Row - Reach Us, Visit Us, GDPR, Get App, Partner Network */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-12 gap-4 sm:gap-6 lg:gap-6 xl:gap-8 mb-12 lg:mb-16">
             {/* Reach Us */}
-            <div className="col-span-1 sm:col-span-1 lg:col-span-1">
+            <div className="col-span-1 sm:col-span-1 lg:col-span-2">
               <h4 className="text-xs sm:text-sm font-semibold mb-3 tracking-wide uppercase text-[#e2e8f0]">
                 {isSv ? 'KONTAKTA OSS' : 'REACH US'}
               </h4>
@@ -151,7 +151,7 @@ export default function Footer() {
             </div>
 
             {/* Visit Us */}
-            <div className="col-span-2 sm:col-span-3 lg:col-span-2 lg:ml-0">
+            <div className="col-span-2 sm:col-span-2 lg:col-span-3 lg:ml-0">
               <h4 className="text-xs sm:text-sm font-semibold mb-4 tracking-wide uppercase text-[#e2e8f0]">
                 {isSv ? 'BESÖK OSS' : 'VISIT US'}
               </h4>
@@ -180,8 +180,19 @@ export default function Footer() {
               </div>
             </div>
 
+            {/* GDPR Badge */}
+            <div className="col-span-1 sm:col-span-1 lg:col-span-2 flex items-center justify-center">
+              <Image
+                src="/GDPR.svg"
+                alt="GDPR Compliant"
+                width={168}
+                height={168}
+                className="w-40 h-40 lg:w-42 lg:h-42 object-contain"
+              />
+            </div>
+
             {/* Get Our Free App & Partner Network */}
-            <div className="col-span-2 sm:col-span-3 lg:col-span-2 flex flex-col max-w-md">
+            <div className="col-span-2 sm:col-span-2 lg:col-span-5 flex flex-col">
               {/* Top: GET OUR FREE APP heading and JOIN OUR PARTNER NETWORK button */}
               <div className="flex items-start justify-between gap-4 mb-6">
                 <h4 className="text-xs sm:text-sm font-semibold tracking-wide uppercase text-[#e2e8f0] whitespace-nowrap">
@@ -316,7 +327,9 @@ export default function Footer() {
                     className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-[0_4px_12px_rgba(15,23,42,0.3)] hover:bg-slate-100 transition-colors"
                     aria-label="WhatsApp"
                   >
-                    <Image src="/icons8-whatsapp.svg" alt="WhatsApp" width={16} height={16} className="object-contain" />
+                    <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.946 1.347l-.355.203-.368-.067c-1.264-.233-2.477-.571-3.644-1.095l.142 2.069c.469 1.209.942 2.323 1.414 3.34 2.26 1.541 4.144 2.628 5.857 3.27.529.196 1.083.382 1.622.547 1.728-.335 3.169-1.199 4.262-2.502a9.87 9.87 0 001.346-4.948 9.87 9.87 0 00-1.347-4.946 9.87 9.87 0 00-4.946-1.347z"/>
+                    </svg>
                   </a>
                 </div>
               </div>
