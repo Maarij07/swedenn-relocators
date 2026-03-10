@@ -145,7 +145,7 @@ export default function ContactPage() {
         `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 
     return (
-        <main className="min-h-screen bg-white">
+        <main className="min-h-screen bg-[#F8F9FE]">
             <Navbar />
 
             {/* Animations keyframes */}
@@ -214,7 +214,7 @@ export default function ContactPage() {
             </section>
 
             {/* Contact Form Section */}
-            <section className="py-16 sm:py-20 lg:py-24 bg-white">
+            <section className="py-16 sm:py-20 lg:py-24 bg-transparent">
                 <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
                     {/* Section Header */}
                     <div className="flex flex-col items-center mx-auto mb-16 sm:mb-20" style={{width:'1500px', maxWidth:'calc(100% - 12px)'}}>
@@ -324,7 +324,7 @@ export default function ContactPage() {
             </section>
 
             {/* Locations Section */}
-            <section className="pb-16 sm:pb-20 lg:pb-24 bg-white">
+            <section className="pb-16 sm:pb-20 lg:pb-24 bg-transparent">
                 <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
                     {loading && (
                         <p className="text-gray-600 text-sm">Loading locations…</p>

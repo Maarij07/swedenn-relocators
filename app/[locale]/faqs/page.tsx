@@ -166,7 +166,7 @@ export default function FAQsPage() {
   };
 
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-[#F8F9FE]">
       <Navbar />
 
       {/* Hero Section */}
@@ -301,7 +301,7 @@ export default function FAQsPage() {
       </section>
 
       {/* FAQs Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-white">
+      <section className="py-12 sm:py-16 lg:py-20 bg-transparent">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           <div className="mx-auto" style={{
             width: '1400px',

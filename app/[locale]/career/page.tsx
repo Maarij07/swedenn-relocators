@@ -55,7 +55,7 @@ export default function CareerPage() {
   };
 
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-[#F8F9FE]">
       <Navbar />
 
       {/* Hero Section */}
@@ -97,7 +97,7 @@ export default function CareerPage() {
       </section>
 
       {/* Intro Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-white">
+      <section className="py-12 sm:py-16 lg:py-20 bg-transparent">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           <div className="mx-auto" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
             <div className="bg-blue-50 rounded-2xl p-6 sm:p-8 lg:p-10 border-l-4 border-blue-500">
@@ -110,7 +110,7 @@ export default function CareerPage() {
       </section>
 
       {/* Open Positions Table Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 lg:py-20 bg-transparent">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           <div className="mx-auto" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-8 sm:mb-10 lg:mb-12">
@@ -152,7 +152,7 @@ export default function CareerPage() {
       </section>
 
       {/* Position Details Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-white">
+      <section className="py-12 sm:py-16 lg:py-20 bg-transparent">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           <div className="mx-auto" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-8 sm:mb-10 lg:mb-12">
@@ -261,7 +261,7 @@ export default function CareerPage() {
       </section>
 
       {/* Application Form Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 lg:py-20 bg-transparent">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           <div className="mx-auto" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
@@ -428,7 +428,7 @@ export default function CareerPage() {
       </section>
 
       {/* Talent Community Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 lg:py-20 bg-[#F8F9FE]">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
           <div className="mx-auto" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
             <div className="bg-white rounded-2xl shadow-sm p-8 sm:p-10 lg:p-12 text-center border-t-4 border-blue-500">

@@ -66,7 +66,7 @@ export default function ServicesPage() {
   const companySteps = t('servicesPage.howToStart.company.steps', { returnObjects: true }) as string[];
 
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-[#F8F9FE]">
       <Navbar />
 
       {/* Animations keyframes */}
@@ -310,74 +310,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Video Section */}
-      <section className="bg-white py-16 sm:py-20 lg:py-24">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto" style={{
-            width: '1400px',
-            maxWidth: 'calc(100% - 32px)'
-          }}>
-            {/* Video Container */}
-            <div className="relative rounded-[20px] sm:rounded-3xl overflow-hidden shadow-2xl mb-8 sm:mb-10 lg:mb-12">
-              <div className="relative w-full aspect-video bg-black">
-                {showVideo ? (
-                  <iframe
-                    src="https://share.synthesia.io/embeds/videos/7ffc5155-81ff-4153-b235-6fa60d54a4ef"
-                    className="w-full h-full"
-                    loading="lazy"
-                    allow="autoplay; fullscreen"
-                    allowFullScreen
-                    style={{ border: 'none' }}
-                    title="Immigration & Relocation"
-                  />
-                ) : (
-                  <button
-                    type="button"
-                    onClick={() => setShowVideo(true)}
-                    className="w-full h-full relative flex items-center justify-center text-white"
-                  >
-                    <span className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/40 to-black/20" />
-                    <div className="relative z-10 flex items-center justify-center">
-                      <Image
-                        src="/services-video-button-icon.svg"
-                        alt="Play video"
-                        width={80}
-                        height={80}
-                        className="hover:opacity-80 transition-opacity"
-                      />
-                    </div>
-                  </button>
-                )}
-              </div>
-            </div>
-
-            {/* Subscribe Button */}
-            <div className="flex justify-center mt-6 sm:mt-8 lg:mt-10">
-              <a
-                href="https://www.youtube.com/@swedenrelocators"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2.5 px-7 sm:px-9 py-2.5 sm:py-3 bg-blue-50 hover:bg-blue-100 font-semibold rounded-full transition-colors shadow-sm hover:shadow-md"
-                style={{ color: '#174D87' }}
-              >
-                <span>
-                  {isInitialized 
-                    ? (t('servicesPage.subscribeButton')?.toString().startsWith('servicesPage') 
-                        ? 'Subscribe For More Videos' 
-                        : t('servicesPage.subscribeButton'))
-                    : 'Subscribe For More Videos'}
-                </span>
-                <Image
-                  src="/services-video-button-icon.svg"
-                  alt="Subscribe"
-                  width={20}
-                  height={20}
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Video Section removed per request */}
     </main>
   );
 }
