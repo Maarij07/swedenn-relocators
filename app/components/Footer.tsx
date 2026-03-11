@@ -156,7 +156,7 @@ export default function Footer() {
                 {isSv ? 'BESÖK OSS' : 'VISIT US'}
               </h4>
               <div className="space-y-4">
-                <div className="relative w-fit h-32 rounded-lg overflow-hidden bg-[#1a2332]">
+                <div className="relative w-fit h-32 rounded-lg overflow-hidden ">
                   <Image src="/map.svg" alt="Our offices" width={280} height={128} className="object-cover" />
                 </div>
                 <div className="space-y-2 text-sm xl:text-[15px] 4k:text-2xl text-[#cbd5e1]">
@@ -177,7 +177,7 @@ export default function Footer() {
                       className="w-5 h-4 rounded-sm flex-shrink-0 mt-0.5 object-cover border border-gray-600"
                     />
                     <div>
-                      <p className="font-semibold">Roskildevel 30B, 2620 Albertslund, Denmark</p>
+                      <p className="font-semibold">Roskildevej 30B, 2620 Albertslund, Denmark</p>
                     </div>
                   </div>
                 </div>
