@@ -451,49 +451,60 @@ export default function AboutPage() {
             {/* Animations keyframes */}
             <style>{fadeInUp + lightRaysCSS}</style>
 
-            {/* Hero Section - Card Style */}
-            <section className="relative overflow-hidden border border-gray-300 rounded-lg mx-auto" style={{
-                backgroundImage: 'url(/bg-new-in-sweden.svg)',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                width: '1500px',
-                maxWidth: '1500px',
-                height: '289px',
-                margin: '160px auto 0'
-            }}>
-                {/* Overlay - Dark with #141A21 at 88% opacity */}
-                <div className="absolute inset-0 rounded-lg" style={{ backgroundColor: 'rgba(20, 26, 33, 0.88)' }}></div>
-
-                <div className="relative h-full px-8 sm:px-10">
-                    <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto h-full">
-                        <div className="grid lg:grid-cols-2 gap-8 items-center h-full" style={{height: '289px', minHeight: '289px'}}>
-                            {/* Left Content */}
-                            <div className="flex flex-col justify-center h-full">
-                                <h1 className="text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] lg:text-[2.25rem] leading-[1.1] font-bold text-white mb-2">
-                                    About Us
+            {/* Hero Section - Contact Style */}
+            <section className="relative overflow-hidden bg-gradient-to-b from-transparent via-[#EBF4FF]/50 to-[#EBF4FF]">
+                <div className="pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 3xl:pb-36 4k:pb-40">
+                    <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+                        <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16 2xl:gap-20 3xl:gap-24 4k:gap-32 items-center">
+                            {/* LEFT SIDE */}
+                            <div className="space-y-6 sm:space-y-7 md:space-y-8 lg:space-y-9 3xl:space-y-12 4k:space-y-16" style={{ animation: 'fadeInUp 0.8s ease-out' }}>
+                                <h1 className="text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 3xl:text-[3.25rem] 4k:text-[4rem] leading-[1.2] font-extrabold">
+                                    <span className="block text-gray-900">About Us</span>
                                 </h1>
-                                <p className="text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] text-gray-300 leading-[1.5] mb-2 font-medium">
+
+                                <p className="text-[14px] sm:text-[15px] md:text-base lg:text-[17px] xl:text-[18px] 3xl:text-[20px] 4k:text-[2rem] text-gray-600 leading-[1.7] max-w-xl 3xl:max-w-2xl 4k:max-w-5xl font-medium">
                                     Your Trusted Nordic Relocation Partner Since 2015
                                 </p>
-                                <p className="text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] text-gray-400 leading-[1.5] pr-12 font-normal">
+
+                                <p className="text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 3xl:text-[19px] 4k:text-[2rem] text-gray-600 leading-[1.6] max-w-2xl 3xl:max-w-3xl 4k:max-w-6xl">
                                     We transform complex relocations into seamless journeys. From visa processing to finding your perfect home, from business setup to cultural integration—we handle every detail so you can focus on your new beginning in the Nordic region.
                                 </p>
                             </div>
 
-                            {/* Right - Illustration */}
-                            <div className="relative w-full flex justify-center lg:justify-end items-center h-full" style={{ marginLeft: '-80px' }}>
-                                <Image
-                                    src="/businessman-analyzing-data.svg"
-                                    alt="Business Collaboration Illustration"
-                                    width={240}
-                                    height={180}
-                                    className="object-contain drop-shadow-xl"
-                                    priority
-                                />
+                            {/* RIGHT SIDE - ILLUSTRATION */}
+                            <div className="relative w-full max-w-2xl 3xl:max-w-3xl 4k:max-w-6xl mx-auto lg:mx-0 lg:ml-auto" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>
+                                <div className="relative rounded-2xl sm:rounded-3xl 3xl:rounded-[2.5rem] 4k:rounded-[4rem] overflow-hidden">
+                                    <Image
+                                        src="/businessman-analyzing-data.svg"
+                                        alt="About Us Illustration"
+                                        width={600}
+                                        height={600}
+                                        className="w-full h-auto object-contain"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                {/* WAVE */}
+                <div className="absolute bottom-0 left-0 right-0 w-full overflow-hidden leading-[0]">
+                    <svg
+                        className="relative block w-full h-[100px] sm:h-[120px] lg:h-[140px] 3xl:h-[180px] 4k:h-[240px]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 1440 100"
+                    >
+                        <path
+                            d="M0,50 C360,80 720,80 1080,50 C1260,35 1350,20 1440,20 L1440,100 L0,100 Z"
+                            fill="white"
+                            opacity="0.9"
+                        />
+                        <path
+                            d="M0,60 C360,90 720,90 1080,60 C1260,45 1350,30 1440,30 L1440,100 L0,100 Z"
+                            fill="white"
+                        />
+                    </svg>
                 </div>
             </section>
 
@@ -507,7 +518,7 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                             viewport={{ once: true }}
-                            className="bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] order-2 lg:order-1"
+                            className="bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] order-2 lg:order-1 border-l-4 border-l-blue-500"
                         >
                             <p className="text-blue-600 font-semibold tracking-wider uppercase text-sm sm:text-base mb-3">
                                 Who We Are
@@ -715,7 +726,7 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                             viewport={{ once: true }}
-                            className="order-1 lg:order-2 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-b-4 border-b-blue-500"
+                            className="order-1 lg:order-2 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-r-4 border-r-blue-500"
                         >
                             <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-bold text-[#1a2332] leading-tight mb-4">
                                 Employer Solutions
@@ -756,7 +767,7 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                             viewport={{ once: true }}
-                            className="order-2 lg:order-1 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-b-4 border-b-blue-500"
+                            className="order-2 lg:order-1 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-l-4 border-l-blue-500"
                         >
                             <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-bold text-[#1a2332] leading-tight mb-4">
                                 Employee & Family Solutions
@@ -947,7 +958,7 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                             viewport={{ once: true }}
-                            className="order-1 lg:order-2 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-b-4 border-b-blue-500"
+                            className="order-1 lg:order-2 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-r-4 border-r-blue-500"
                         >
                             <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-bold text-[#1a2332] leading-tight mb-4">
                                 Nordic Relocators - Denmark

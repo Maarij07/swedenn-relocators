@@ -4,10 +4,31 @@ import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import { ChevronDown } from 'lucide-react';
+
+const countryFlags = {
+  'sweden': 'SE',
+  'denmark': 'DK',
+  'norway': 'NO',
+  'finland': 'FI',
+  'iceland': 'IS',
+  'germany': 'DE',
+  'latvia': 'LV',
+  'netherlands': 'NL',
+  'uk': 'GB',
+  'france': 'FR',
+  'italy': 'IT',
+  'spain': 'ES',
+  'poland': 'PL',
+  'portugal': 'PT',
+  'lithuania': 'LT',
+  'czechRepublic': 'CZ',
+};
 
 export default function StudyInEuPage() {
   const { t, i18n } = useTranslation();
   const [isReady, setIsReady] = useState(false);
+  const [expandedCountry, setExpandedCountry] = useState(null);
 
   useEffect(() => {
     if (i18n.isInitialized) {
@@ -21,6 +42,10 @@ export default function StudyInEuPage() {
 
   const countries = t('studyInEu.countries', { returnObjects: true }) || [];
   const services = t('studyInEu.whyChoose.services', { returnObjects: true }) || [];
+
+  const toggleCountry = (countryId) => {
+    setExpandedCountry(expandedCountry === countryId ? null : countryId);
+  };
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
@@ -47,91 +72,115 @@ export default function StudyInEuPage() {
 
         {/* Countries Section */}
         <section className="mb-8 sm:mb-10 lg:mb-12">
-          <div className="space-y-8 sm:space-y-10 lg:space-y-12">
+          <div className="space-y-4 sm:space-y-5 lg:space-y-6">
             {Array.isArray(countries) && countries.map((country) => (
-              <div key={country.id} className="border-l-4 border-blue-500 pl-6 sm:pl-8 lg:pl-10">
-                {/* Country Title */}
-                <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-                  {country.name}
-                </h2>
-
-                {/* Country Intro */}
-                <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed mb-6">
-                  {country.intro}
-                </p>
-
-                {/* Tuition Fees */}
-                <div className="mb-8">
-                  <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
-                    {country.tuitionFees.heading}
-                  </h3>
-                  <div className="space-y-3 mb-6">
-                    {Array.isArray(country.tuitionFees.fees) && country.tuitionFees.fees.map((fee, idx) => (
-                      <div key={idx} className="flex flex-col sm:flex-row sm:justify-between gap-2 bg-gray-50 rounded-lg p-3 sm:p-4">
-                        <p className="text-xs sm:text-sm lg:text-base font-semibold text-gray-900 min-w-[250px]">
-                          {fee.category}
-                        </p>
-                        <p className="text-xs sm:text-sm lg:text-base text-gray-700">
-                          {fee.amount}
-                        </p>
-                      </div>
-                    ))}
+              <div key={country.id} className="border-l-4 border-blue-500 rounded-lg overflow-hidden bg-white shadow-sm">
+                {/* Accordion Header */}
+                <button
+                  onClick={() => toggleCountry(country.id)}
+                  className="w-full px-6 sm:px-8 lg:px-10 py-5 sm:py-6 lg:py-7 flex items-center justify-between hover:bg-gray-50 transition-colors"
+                >
+                  <div className="flex items-center gap-4 text-left">
+                    {/* Flag */}
+                    <img
+                      src={`https://flagcdn.com/w320/${(countryFlags[country.id] || 'XX').toLowerCase()}.png`}
+                      alt={country.name}
+                      className="rounded w-10 h-7 object-cover"
+                    />
+                    <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900">
+                      {country.name}
+                    </h2>
                   </div>
-                </div>
+                  <ChevronDown
+                    size={24}
+                    className={`text-blue-600 transition-transform duration-300 flex-shrink-0 ${
+                      expandedCountry === country.id ? 'rotate-180' : ''
+                    }`}
+                  />
+                </button>
 
-                {/* Admission Intakes */}
-                <div className="mb-8">
-                  <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
-                    {country.admissionIntakes.heading}
-                  </h3>
-                  <div className="space-y-3 mb-6">
-                    {Array.isArray(country.admissionIntakes.intakes) && country.admissionIntakes.intakes.map((intake, idx) => (
-                      <div key={idx} className="bg-white rounded-lg p-4 sm:p-5 border-l-4 border-green-500">
-                        <p className="text-xs sm:text-sm lg:text-base font-semibold text-gray-900 mb-1">
-                          {intake.period}
+                {/* Accordion Body */}
+                {expandedCountry === country.id && (
+                  <div className="px-6 sm:px-8 lg:px-10 py-6 sm:py-7 lg:py-8 border-t border-gray-100">
+                    {/* Country Intro */}
+                    <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed mb-6">
+                      {country.intro}
+                    </p>
+
+                    {/* Tuition Fees */}
+                    <div className="mb-8">
+                      <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
+                        {country.tuitionFees.heading}
+                      </h3>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6">
+                        {Array.isArray(country.tuitionFees.fees) && country.tuitionFees.fees.map((fee, idx) => (
+                          <div key={idx} className="bg-[#EFF6FF] rounded-lg p-4 border border-blue-200 hover:shadow-md transition-shadow">
+                            <p className="text-xs sm:text-sm font-semibold text-gray-700 mb-2">
+                              {fee.category}
+                            </p>
+                            <p className="text-lg sm:text-xl font-bold text-blue-600">
+                              {fee.amount}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Admission Intakes */}
+                    <div className="mb-8">
+                      <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
+                        {country.admissionIntakes.heading}
+                      </h3>
+                      <div className="space-y-3 mb-6">
+                        {Array.isArray(country.admissionIntakes.intakes) && country.admissionIntakes.intakes.map((intake, idx) => (
+                          <div key={idx} className="bg-white rounded-lg p-4 sm:p-5 border-l-4 border-green-500">
+                            <p className="text-xs sm:text-sm lg:text-base font-semibold text-gray-900 mb-1">
+                              {intake.period}
+                            </p>
+                            <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                              {intake.details}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Popular Fields */}
+                    <div className="mb-8">
+                      <p className="text-xs sm:text-sm font-semibold text-blue-600 mb-2 uppercase tracking-wide">
+                        Popular Fields
+                      </p>
+                      <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                        {country.popularFields}
+                      </p>
+                    </div>
+
+                    {/* Visa Requirements */}
+                    <div className="mb-8">
+                      <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
+                        {country.visaRequirements.heading}
+                      </h3>
+                      <div className="space-y-2 mb-6">
+                        {Array.isArray(country.visaRequirements.requirements) && country.visaRequirements.requirements.map((req, idx) => (
+                          <div key={idx} className="flex items-start gap-3">
+                            <span className="text-blue-600 font-bold text-sm flex-shrink-0 mt-0.5">•</span>
+                            <p className="text-xs sm:text-sm lg:text-base text-gray-700">{req}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Work Rights */}
+                    {country.workRights && (
+                      <div className="bg-blue-50 rounded-lg p-4 sm:p-5 border-l-4 border-blue-500">
+                        <p className="text-xs sm:text-sm font-semibold text-blue-600 mb-2 uppercase">
+                          Work Rights
                         </p>
                         <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
-                          {intake.details}
+                          {country.workRights}
                         </p>
                       </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Popular Fields */}
-                <div className="mb-8">
-                  <p className="text-xs sm:text-sm font-semibold text-blue-600 mb-2 uppercase tracking-wide">
-                    Popular Fields
-                  </p>
-                  <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
-                    {country.popularFields}
-                  </p>
-                </div>
-
-                {/* Visa Requirements */}
-                <div className="mb-8">
-                  <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
-                    {country.visaRequirements.heading}
-                  </h3>
-                  <div className="space-y-2 mb-6">
-                    {Array.isArray(country.visaRequirements.requirements) && country.visaRequirements.requirements.map((req, idx) => (
-                      <div key={idx} className="flex items-start gap-3">
-                        <span className="text-blue-600 font-bold text-sm flex-shrink-0 mt-0.5">•</span>
-                        <p className="text-xs sm:text-sm lg:text-base text-gray-700">{req}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Work Rights */}
-                {country.workRights && (
-                  <div className="bg-blue-50 rounded-lg p-4 sm:p-5 border-l-4 border-blue-500">
-                    <p className="text-xs sm:text-sm font-semibold text-blue-600 mb-2 uppercase">
-                      Work Rights
-                    </p>
-                    <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
-                      {country.workRights}
-                    </p>
+                    )}
                   </div>
                 )}
               </div>

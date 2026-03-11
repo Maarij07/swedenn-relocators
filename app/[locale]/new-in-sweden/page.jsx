@@ -157,6 +157,9 @@ export default function NewInSwedenPage() {
         {/* Accommodation Section */}
         {content.accommodation && (
           <section className="mb-8 sm:mb-10 lg:mb-12">
+            <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
+              Accommodation
+            </span>
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
               {content.accommodation.title}
             </h2>
@@ -164,7 +167,7 @@ export default function NewInSwedenPage() {
               {content.accommodation.intro}
             </p>
             <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 border-l-4 border-blue-500">
-              <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
+            <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4">
                 {t('newInSweden.accommodation.sectionTitle')}
               </h3>
               <div className="space-y-4">
@@ -185,6 +188,9 @@ export default function NewInSwedenPage() {
         {/* Social Security Section */}
         {content.socialSecurity && (
           <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+            <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
+              Social Security
+            </span>
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
               {content.socialSecurity.title}
             </h2>
@@ -195,7 +201,7 @@ export default function NewInSwedenPage() {
               {content.socialSecurity.importance}
             </p>
             <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
-              <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
+              <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4">
                 {content.socialSecurity.requirements.subtitle}
               </h3>
               <ul className="space-y-3">
@@ -217,7 +223,7 @@ export default function NewInSwedenPage() {
               <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
                 {content.identificationCard.sectionTitle}
               </span>
-              <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
+              <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4">
                 {content.identificationCard.title}
               </h3>
               <div className="space-y-4">
@@ -235,6 +241,9 @@ export default function NewInSwedenPage() {
         {/* Bank Account Section */}
         {content.bankAccount && (
           <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+            <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
+              Bank Account
+            </span>
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
               {content.bankAccount.title}
             </h2>
@@ -244,7 +253,7 @@ export default function NewInSwedenPage() {
             <div className="space-y-6 sm:space-y-8 lg:space-y-10">
               {/* Identification Methods */}
               <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4">
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4">
                   Identification Methods
                 </h3>
                 <ul className="space-y-3">
@@ -303,7 +312,7 @@ export default function NewInSwedenPage() {
               <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
                 {content.employment.sectionTitle}
               </span>
-              <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
+              <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4">
                 {content.employment.title}
               </h3>
               <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
@@ -325,6 +334,9 @@ export default function NewInSwedenPage() {
         {/* Healthcare Section */}
         {content.healthcare && (
           <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+            <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
+              Healthcare
+            </span>
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
               {content.healthcare.title}
             </h2>
@@ -409,7 +421,7 @@ export default function NewInSwedenPage() {
               <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
                 {content.drivingLicense.sectionTitle}
               </span>
-              <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-4">
+              <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4">
                 {content.drivingLicense.title}
               </h3>
               <div className="space-y-4 mb-6">
@@ -442,6 +454,9 @@ export default function NewInSwedenPage() {
         {/* Parental Allowance Section */}
         {content.parentalAllowance && (
           <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+            <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
+              Parental Allowance
+            </span>
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
               {content.parentalAllowance.title}
             </h2>
@@ -481,6 +496,9 @@ export default function NewInSwedenPage() {
         {/* Education Section */}
         {content.education && (
           <section className="mb-8 sm:mb-10 lg:mb-12">
+            <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
+              Education
+            </span>
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
               {content.education.title}
             </h2>
@@ -510,6 +528,9 @@ export default function NewInSwedenPage() {
         {/* Language Section */}
         {content.language && (
           <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+            <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
+              Language
+            </span>
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
               {content.language.title}
             </h2>
@@ -545,7 +566,7 @@ export default function NewInSwedenPage() {
               <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
                 {content.qualificationRecognition.sectionTitle}
               </span>
-              <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-6">
+              <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-6">
                 {content.qualificationRecognition.title}
               </h3>
               <div className="space-y-4">
@@ -566,6 +587,9 @@ export default function NewInSwedenPage() {
         {/* Unemployment Section */}
         {content.unemployment && (
           <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+            <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
+              Unemployment
+            </span>
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
               {content.unemployment.title}
             </h2>
@@ -597,126 +621,224 @@ export default function NewInSwedenPage() {
             {/* Important Links Sidebar */}
             <div className="sticky top-32 space-y-6 sm:space-y-8">
               
-              {/* Quick Links Card */}
+              {/* Immigration & Identity */}
               <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
-                  Quick Access
-                </h3>
-                <ul className="space-y-3">
-                  <li>
-                    <a href="#accommodation" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
-                      → Accommodation
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#personal-number" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
-                      → Personal ID Number
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#banking" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
-                      → Bank Account
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#healthcare" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
-                      → Healthcare
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#employment" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
-                      → Employment
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#education" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
-                      → Education
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#language" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
-                      → Language Learning
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Important Resources Card */}
-              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-green-500">
-                  Important Resources
-                </h3>
-                <ul className="space-y-3">
-                  <li>
-                    <a 
-                      href="https://www.migrationsverket.se" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium"
-                    >
-                      Migration Agency
-                    </a>
-                  </li>
-                  <li>
-                    <a 
-                      href="https://skr.se/englishpages.411.html" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium"
-                    >
-                      Swedish Municipalities
-                    </a>
-                  </li>
-                  <li>
-                    <a 
-                      href="https://www.skatteverket.se/english.html" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium"
-                    >
-                      Tax Agency
-                    </a>
-                  </li>
-                  <li>
-                    <a 
-                      href="https://www.infoturism.se" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium"
-                    >
-                      Info Center
-                    </a>
-                  </li>
-                  <li>
-                    <a 
-                      href="https://www.1177.se/en/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium"
-                    >
-                      Healthcare Information
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Helpful Tips Card */}
-              <div className="bg-blue-50 rounded-xl shadow-sm p-6 sm:p-8 border border-blue-200">
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4">
-                  💡 Pro Tips
+                  🛂 Immigration & Identity
                 </h3>
                 <ul className="space-y-2">
-                  <li className="text-xs sm:text-sm text-gray-700">
-                    ✓ Apply for personal number as soon as possible
+                  <li>
+                    <a href="https://www.migrationsverket.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Migrationsverket (Migration Agency)
+                    </a>
                   </li>
-                  <li className="text-xs sm:text-sm text-gray-700">
-                    ✓ Register with local municipality within 3 months
+                  <li>
+                    <a href="https://www.skatteverket.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Skatteverket (Tax Agency – Personnummer)
+                    </a>
                   </li>
-                  <li className="text-xs sm:text-sm text-gray-700">
-                    ✓ Open bank account with your personal number
+                  <li>
+                    <a href="https://polisen.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Polisen (Police Authority – ID)
+                    </a>
                   </li>
-                  <li className="text-xs sm:text-sm text-gray-700">
-                    ✓ Register with Swedish Tax Agency
+                </ul>
+              </div>
+
+              {/* Work & Social Security */}
+              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
+                  💼 Work & Social Security
+                </h3>
+                <ul className="space-y-2">
+                  <li>
+                    <a href="https://www.arbetsformedlingen.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Arbetsförmedlingen (Empl. Service)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.forsakringskassan.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Försäkringskassan (Social Insurance)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.pensionsmyndigheten.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Pensionsmyndigheten (Pensions)
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Health & Welfare */}
+              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
+                  🏥 Health & Welfare
+                </h3>
+                <ul className="space-y-2">
+                  <li>
+                    <a href="https://www.1177.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      1177 Vårdguiden (Healthcare)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.lakemedelsverket.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Läkemedelsverket (Medical Products)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.msb.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      MSB (Civil Contingencies)
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Education & Studies */}
+              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
+                  🎓 Education & Studies
+                </h3>
+                <ul className="space-y-2">
+                  <li>
+                    <a href="https://www.skolverket.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Skolverket (Education Agency)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.uhr.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      UHR (Higher Education)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.csn.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      CSN (Student Finance)
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Housing & Transport */}
+              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
+                  🏠 Housing & Transport
+                </h3>
+                <ul className="space-y-2">
+                  <li>
+                    <a href="https://www.boverket.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Boverket (Housing & Planning)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.transportstyrelsen.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Transportstyrelsen
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.trafikverket.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Trafikverket (Transport Admin)
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Business & Economy */}
+              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
+                  📊 Business & Economy
+                </h3>
+                <ul className="space-y-2">
+                  <li>
+                    <a href="https://www.bolagsverket.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Bolagsverket (Companies Registration)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.scb.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      SCB (Statistics Sweden)
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Banks & Telecom */}
+              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
+                  🏦 Banks & Daily Services
+                </h3>
+                <ul className="space-y-1">
+                  <li className="text-xs sm:text-sm font-semibold text-gray-700 mb-2">Banks:</li>
+                  <li>
+                    <a href="https://www.swedbank.se" target="_blank" rel="noopener noreferrer" className="text-xs sm:text-sm text-blue-600 hover:text-blue-700 hover:underline">
+                      Swedbank
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://handelsbanken.se" target="_blank" rel="noopener noreferrer" className="text-xs sm:text-sm text-blue-600 hover:text-blue-700 hover:underline">
+                      Handelsbanken
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.nordea.se" target="_blank" rel="noopener noreferrer" className="text-xs sm:text-sm text-blue-600 hover:text-blue-700 hover:underline">
+                      Nordea
+                    </a>
+                  </li>
+                  <li className="text-xs sm:text-sm font-semibold text-gray-700 mt-2 mb-1">Telecom:</li>
+                  <li>
+                    <a href="https://www.telia.se" target="_blank" rel="noopener noreferrer" className="text-xs sm:text-sm text-blue-600 hover:text-blue-700 hover:underline">
+                      Telia
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.telenor.se" target="_blank" rel="noopener noreferrer" className="text-xs sm:text-sm text-blue-600 hover:text-blue-700 hover:underline">
+                      Telenor
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.tre.se" target="_blank" rel="noopener noreferrer" className="text-xs sm:text-sm text-blue-600 hover:text-blue-700 hover:underline">
+                      Tre (3)
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Legal & Consumer */}
+              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
+                  ⚖️ Legal & Consumer Rights
+                </h3>
+                <ul className="space-y-2">
+                  <li>
+                    <a href="https://www.konsumentverket.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      Konsumentverket (Consumer Agency)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.do.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      DO (Equality Ombudsman)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.jo.se" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 hover:underline font-medium">
+                      JO (Parliamentary Ombudsman)
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Emergency Numbers */}
+              <div className="bg-blue-50 rounded-xl shadow-sm p-6 sm:p-8 border border-blue-200">
+                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4">
+                  📞 Emergency Numbers
+                </h3>
+                <ul className="space-y-2">
+                  <li className="text-sm text-gray-700 font-semibold">
+                    112 <span className="font-normal text-gray-600">– All Emergencies</span>
+                  </li>
+                  <li className="text-sm text-gray-700 font-semibold">
+                    114 14 <span className="font-normal text-gray-600">– Police (non-emergency)</span>
+                  </li>
+                  <li className="text-sm text-gray-700 font-semibold">
+                    1177 <span className="font-normal text-gray-600">– Healthcare Advice</span>
                   </li>
                 </ul>
               </div>
