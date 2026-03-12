@@ -31,8 +31,16 @@ export default function Hero() {
     btnAppointment: isSv ? 'Boka möte' : 'Book Appointment',
   };
   return (
-   <section className="relative overflow-hidden bg-gradient-to-b from-transparent via-[#EBF4FF]/50 to-[#EBF4FF]">
+   <section className="relative overflow-hidden bg-[#FDFDFD]">
       <style>{fadeInUp}</style>
+      
+      {/* Decorative dots - similar to the reference image */}
+      <div className="absolute top-8 left-16 w-3 h-3 rounded-full bg-orange-400 opacity-70"></div>
+      <div className="absolute top-1/4 left-20 w-2 h-2 rounded-full bg-yellow-400 opacity-60"></div>
+      <div className="absolute top-1/3 right-24 w-2.5 h-2.5 rounded-full bg-cyan-400 opacity-75"></div>
+      <div className="absolute top-32 right-32 w-2 h-2 rounded-full bg-purple-400 opacity-65"></div>
+      <div className="absolute bottom-1/3 left-1/3 w-2.5 h-2.5 rounded-full bg-green-400 opacity-60"></div>
+      <div className="absolute bottom-24 right-1/4 w-2 h-2 rounded-full bg-blue-400 opacity-70"></div>
       
       {/* Top spacing = navbar height + extra breathing */}
       <div className="pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 3xl:pb-36 4k:pb-40">
