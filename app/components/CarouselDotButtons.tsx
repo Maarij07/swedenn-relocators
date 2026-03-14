@@ -79,7 +79,7 @@ export function CarouselDotButtons({
 }
 
 const DotItem = styled(ButtonBase, {
-  shouldForwardProp: (prop) => !['variant', 'selected'].includes(prop),
+  shouldForwardProp: (prop) => !['variant', 'selected'].includes(prop as string),
 })<{
   variant: 'circular' | 'rounded' | 'number';
   selected: boolean;
@@ -127,7 +127,7 @@ const DotItem = styled(ButtonBase, {
     ...(selected && {
       color: theme.palette.common.white,
       backgroundColor: theme.palette.text.primary,
-      fontWeight: theme.typography.fontWeightSemiBold,
+      fontWeight: 600,
     }),
   };
 });
