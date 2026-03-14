@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import axiosInstance from '../utils/axios';
+import { useScrollReveal } from '../utils/useScrollReveal';
 
 interface Service {
   id: string;
@@ -59,6 +60,7 @@ export default function Services() {
   const rafRef = useRef<number | null>(null);
   const isPausedRef = useRef(false);
   const resumeTimeoutRef = useRef<number | null>(null);
+  const { ref: sectionRef, isVisible } = useScrollReveal();
 
   // Fetch services data
   useEffect(() => {
@@ -208,7 +210,7 @@ export default function Services() {
         sx={{
           pt: { xs: 4, sm: 6, lg: 7, xl: 8 },
           pb: { xs: 8, sm: 10, lg: 12, xl: 14 },
-          background: '#f8fafc',
+          background: '#F4F6F8',
         }}
       >
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
@@ -230,7 +232,7 @@ export default function Services() {
         sx={{
           pt: { xs: 4, sm: 6, lg: 7, xl: 8 },
           pb: { xs: 8, sm: 10, lg: 12, xl: 14 },
-          background: '#f8fafc',
+          background: '#F4F6F8',
         }}
       >
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
@@ -246,11 +248,12 @@ export default function Services() {
 
   return (
     <Box
+      ref={sectionRef}
       component="section"
       sx={{
         pt: { xs: 4, sm: 6, lg: 7, xl: 8 },
         pb: { xs: 8, sm: 10, lg: 12, xl: 14 },
-        background: '#f8fafc',
+        background: '#F4F6F8',
       }}
     >
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
@@ -263,6 +266,9 @@ export default function Services() {
               borderLeft: '4px solid #3b82f6',
               px: { xs: 2, sm: 2.5 },
               py: { xs: 1.5, sm: 2 },
+              transition: 'opacity 0.7s ease, transform 0.7s ease',
+              opacity: isVisible ? 1 : 0,
+              transform: isVisible ? 'translateY(0)' : 'translateY(-16px)',
             }}
           >
             <Typography
@@ -271,7 +277,7 @@ export default function Services() {
                 fontWeight: 800,
                 color: '#0f172a',
                 lineHeight: 1.2,
-                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+                fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
               }}
             >
               {t('services.title')}
@@ -284,7 +290,7 @@ export default function Services() {
                 color: '#2563eb',
                 lineHeight: 1.35,
                 textTransform: 'none',
-                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+                fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
               }}
             >
               {t('services.subtitle')}
@@ -429,6 +435,7 @@ export default function Services() {
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={(e) => e.stopPropagation()}
+                          className="btn-service-dark"
                           style={{
                             display: 'inline-block',
                             padding: '8px 20px',
@@ -436,11 +443,22 @@ export default function Services() {
                             fontWeight: 600,
                             fontSize: '0.875rem',
                             color: '#ffffff',
-                            background: 'linear-gradient(135deg, #000000 0%, #1a1a1a 100%)',
-                            boxShadow: '0 10px 24px rgba(15, 23, 42, 0.25)',
+                            background: '#1C252E',
+                            boxShadow: '0 4px 12px rgba(28, 37, 46, 0.25)',
                             cursor: 'pointer',
                             textDecoration: 'none',
                             fontFamily: 'inherit',
+                            transition: 'background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease',
+                          }}
+                          onMouseEnter={e => {
+                            (e.currentTarget as HTMLAnchorElement).style.backgroundColor = '#2C3A47';
+                            (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0px 8px 16px -4px rgba(28,37,46,0.48)';
+                            (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(-1px)';
+                          }}
+                          onMouseLeave={e => {
+                            (e.currentTarget as HTMLAnchorElement).style.backgroundColor = '#1C252E';
+                            (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 4px 12px rgba(28, 37, 46, 0.25)';
+                            (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(0)';
                           }}
                         >
                           {t('services.viewDetails') || 'Send Request'}

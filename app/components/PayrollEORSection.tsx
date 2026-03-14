@@ -1,7 +1,9 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
+import { useScrollReveal } from '../utils/useScrollReveal';
 
 const SERVICES_EN = [
   {
@@ -68,6 +70,7 @@ const SERVICES_SV = [
 export default function PayrollEORSection() {
   const { i18n } = useTranslation();
   const isSv = i18n.language === 'sv';
+  const { ref, isVisible } = useScrollReveal();
 
   // Select the appropriate services based on language
   const services = isSv ? SERVICES_SV : SERVICES_EN;
@@ -79,10 +82,10 @@ export default function PayrollEORSection() {
   };
 
   return (
-    <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
+    <section ref={ref as React.Ref<HTMLElement>} className="bg-[#F4F6F8]">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-28">
         <div className="text-center mb-8 sm:mb-10 lg:mb-12">
-          <div className="bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+          <div className={`bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
             <h2 className="text-slate-900 font-extrabold leading-tight text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 4k:text-[4rem]">
               {texts.mainHeading}
             </h2>
@@ -92,7 +95,7 @@ export default function PayrollEORSection() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
+        <div className={`grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           {services.map((service) => (
             <div
               key={service.id}
@@ -144,7 +147,17 @@ export default function PayrollEORSection() {
                   ))}
                 </ul>
                 <div className="flex justify-end">
-                  <button className="group/btn px-6 py-3 rounded-xl bg-gradient-to-r from-slate-900 to-slate-800 text-white text-sm sm:text-base font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 flex items-center gap-2">
+                  <button
+                    className="group/btn px-6 py-3 rounded-xl bg-[#1C252E] text-white text-sm sm:text-base font-semibold shadow-lg transition-all duration-300 hover:-translate-y-0.5 flex items-center gap-2"
+                    onMouseEnter={e => {
+                      (e.currentTarget as HTMLButtonElement).style.backgroundColor = '#2C3A47';
+                      (e.currentTarget as HTMLButtonElement).style.boxShadow = '0px 8px 16px -4px rgba(28,37,46,0.48)';
+                    }}
+                    onMouseLeave={e => {
+                      (e.currentTarget as HTMLButtonElement).style.backgroundColor = '#1C252E';
+                      (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 10px 15px -3px rgba(0,0,0,0.1)';
+                    }}
+                  >
                     {service.buttonText}
                     <span className="inline-block transition-transform duration-300 group-hover/btn:translate-x-1">→</span>
                   </button>

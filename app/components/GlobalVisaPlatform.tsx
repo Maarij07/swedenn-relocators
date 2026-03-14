@@ -7,10 +7,12 @@ import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import { useTranslation } from 'react-i18next';
 import { MovingFlagsCarousel } from './MovingFlagsCarousel';
+import { useScrollReveal } from '../utils/useScrollReveal';
 
 export function GlobalVisaPlatform() {
   const { i18n } = useTranslation();
   const isSv = i18n.language === 'sv';
+  const { ref: sectionRef, isVisible } = useScrollReveal();
 
   const texts = {
     mainTitle: isSv ? 'Allt-i-ett global visumplattform' : 'All-in-One Global Visa Platform',
@@ -20,10 +22,11 @@ export function GlobalVisaPlatform() {
 
   return (
     <Box
+      ref={sectionRef}
       sx={{
         pt: { xs: '4rem', sm: '5rem', lg: '6rem', xl: '7rem' },
         pb: { xs: '2rem', sm: '2.5rem', lg: '3rem', xl: '3.5rem' },
-        backgroundColor: '#ffffff',
+        backgroundColor: '#F4F6F8',
       }}
     >
       {/* Container */}
@@ -36,6 +39,9 @@ export function GlobalVisaPlatform() {
               borderLeft: '4px solid #3b82f6',
               px: { xs: 2, sm: 2.5 },
               py: { xs: 1.5, sm: 2 },
+              transition: 'opacity 0.7s ease, transform 0.7s ease',
+              opacity: isVisible ? 1 : 0,
+              transform: isVisible ? 'translateY(0)' : 'translateY(-16px)',
             }}
           >
             <Typography
@@ -44,7 +50,7 @@ export function GlobalVisaPlatform() {
                 fontWeight: 800,
                 color: '#0f172a',
                 lineHeight: 1.2,
-                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+                fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
               }}
             >
               {texts.mainTitle}
@@ -57,7 +63,7 @@ export function GlobalVisaPlatform() {
                 color: '#2563eb',
                 lineHeight: 1.35,
                 textTransform: 'none',
-                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+                fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
               }}
             >
               {texts.subheading}
@@ -184,17 +190,18 @@ export function GlobalVisaPlatform() {
                     fontSize: { xs: '0.875rem', sm: '0.9375rem', md: '1rem' },
                     fontWeight: 600,
                     textTransform: 'none',
-                    backgroundColor: '#1e293b',
+                    backgroundColor: '#1C252E',
                     color: 'white',
                     borderRadius: '6px',
                     width: 'fit-content',
                     '&:hover': {
-                      backgroundColor: '#0f172a',
+                      backgroundColor: '#2C3A47',
                       transform: 'translateY(-1px)',
+                      boxShadow: '0px 8px 16px -4px rgba(28,37,46,0.48)',
                     },
-                    boxShadow: '0 4px 12px rgba(15, 23, 42, 0.18)',
+                    boxShadow: '0 4px 12px rgba(28, 37, 46, 0.25)',
                     animation: 'ctaBreath 2.8s ease-in-out infinite',
-                    transition: 'transform 0.25s ease, background-color 0.25s ease',
+                    transition: 'transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease',
                   }}
                 >
                   {texts.button}

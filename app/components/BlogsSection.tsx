@@ -1,10 +1,12 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect, useRef, memo } from 'react';
+import { useScrollReveal } from '../utils/useScrollReveal';
 
 interface Blog {
   id: number;
@@ -33,6 +35,7 @@ function BlogsSectionContent() {
   const [loading, setLoading] = useState(true);
   const [hoveredBlog, setHoveredBlog] = useState<number | null>(null);
   const isMountedRef = useRef(true);
+  const { ref: sectionRef, isVisible } = useScrollReveal();
 
   useEffect(() => {
     return () => {
@@ -102,7 +105,7 @@ function BlogsSectionContent() {
 
   if (loading) {
     return (
-      <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section className="bg-[#F4F6F8]">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
           <div className="flex justify-center items-center py-20">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
@@ -117,16 +120,16 @@ function BlogsSectionContent() {
   }
 
   return (
-    <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
+    <section ref={sectionRef as React.Ref<HTMLElement>} className="bg-[#F4F6F8]">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
         {/* Centered Heading */}
         <div className="mb-12 sm:mb-14 lg:mb-16">
-          <div className="bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+          <div className={`bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
             <div className="w-full text-center px-4 sm:px-6 lg:px-8 xl:px-12">
-              <h2 className="text-[#0f172a] font-extrabold text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] leading-[1.2] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              <h2 className="text-[#0f172a] font-extrabold text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] leading-[1.2] [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
                 {texts.heading}
               </h2>
-              <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif] mx-auto">
+              <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif] mx-auto">
                 Relocation and career tips for the Nordics
               </p>
             </div>
@@ -134,7 +137,7 @@ function BlogsSectionContent() {
         </div>
 
         {/* Blog Layout: Featured on Left, Cards on Right */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 mb-12 sm:mb-14 lg:mb-16">
+        <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 mb-12 sm:mb-14 lg:mb-16 transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           {/* Featured Blog Card - Left (50%) */}
           {blogs.length > 0 && (
             <div
@@ -167,7 +170,16 @@ function BlogsSectionContent() {
                 </p>
                 <a
                   href={`/${locale}/blogs/${blogs[0].slug}`}
-                  className="inline-flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-slate-900 to-slate-800 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-xs sm:text-sm group/btn"
+                  className="inline-flex items-center gap-1.5 px-4 py-2 bg-[#1C252E] text-white font-semibold rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-0.5 text-xs sm:text-sm group/btn"
+                  style={{ transition: 'background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease' }}
+                  onMouseEnter={e => {
+                    (e.currentTarget as HTMLAnchorElement).style.backgroundColor = '#2C3A47';
+                    (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0px 8px 16px -4px rgba(28,37,46,0.48)';
+                  }}
+                  onMouseLeave={e => {
+                    (e.currentTarget as HTMLAnchorElement).style.backgroundColor = '#1C252E';
+                    (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 10px 15px -3px rgba(0,0,0,0.1)';
+                  }}
                 >
                   {texts.readMore}
                   <span className="inline-block transition-transform duration-300 group-hover/btn:translate-x-1">→</span>
@@ -218,7 +230,16 @@ function BlogsSectionContent() {
                   <div className="flex items-center justify-start mt-3">
                     <a
                       href={`/${locale}/blogs/${blog.slug}`}
-                      className="inline-flex items-center gap-1.5 px-3 py-2 bg-gradient-to-r from-slate-900 to-slate-800 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-xs sm:text-sm group/btn"
+                      className="inline-flex items-center gap-1.5 px-3 py-2 bg-[#1C252E] text-white font-semibold rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-0.5 text-xs sm:text-sm group/btn"
+                      style={{ transition: 'background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease' }}
+                      onMouseEnter={e => {
+                        (e.currentTarget as HTMLAnchorElement).style.backgroundColor = '#2C3A47';
+                        (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0px 8px 16px -4px rgba(28,37,46,0.48)';
+                      }}
+                      onMouseLeave={e => {
+                        (e.currentTarget as HTMLAnchorElement).style.backgroundColor = '#1C252E';
+                        (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 10px 15px -3px rgba(0,0,0,0.1)';
+                      }}
                     >
                       {texts.readMore}
                       <span className="inline-block transition-transform duration-300 group-hover/btn:translate-x-1">→</span>
@@ -233,7 +254,7 @@ function BlogsSectionContent() {
         {/* Show more button */}
         <div className="flex justify-center">
           <Link href={`/${locale}/blogs`}>
-            <button className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-8 sm:px-10 py-3 text-sm sm:text-base font-semibold text-slate-900 shadow-lg hover:shadow-xl hover:bg-slate-50 transition-all duration-300 hover:-translate-y-0.5">
+            <button className="px-5 py-2.5 text-sm font-medium text-[#1C252E] bg-transparent border border-[#1C252E]/40 rounded-lg hover:border-[#1C252E] hover:shadow-[0_0_0_0.75px_#1C252E] transition-all duration-200 whitespace-nowrap">
               {texts.showMore}
             </button>
           </Link>

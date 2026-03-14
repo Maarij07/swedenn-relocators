@@ -91,15 +91,15 @@ export default function CountrySelector() {
   };
 
   return (
-    <section className="pt-8 sm:pt-10 lg:pt-14 xl:pt-16 pb-10 sm:pb-12 lg:pb-14 xl:pb-16 bg-white relative overflow-visible z-0">
+    <section className="pt-8 sm:pt-10 lg:pt-14 xl:pt-16 pb-10 sm:pb-12 lg:pb-14 xl:pb-16 bg-[#F4F6F8] relative overflow-visible z-0">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 relative z-10">
-        <div className="bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 lg:px-6 xl:px-8 pt-5 sm:pt-6 lg:pt-8 pb-8 sm:pb-10 lg:pb-12 relative overflow-visible">
-          <div className="text-center mb-8 sm:mb-10 lg:mb-14 xl:mb-16">
+        <div className="bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 lg:px-6 xl:px-8 pt-8 sm:pt-10 lg:pt-12 pb-12 sm:pb-14 lg:pb-16 relative overflow-visible">
+          <div className="text-center mb-12 sm:mb-14 lg:mb-18 xl:mb-20">
             <div className="max-w-5xl mx-auto">
-              <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] font-extrabold text-[#0f172a] leading-[1.2] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] font-extrabold text-[#0f172a] leading-[1.2] [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
                 {texts.title}
               </h2>
-              <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] text-[#2563eb] font-bold leading-[1.35] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] text-[#2563eb] font-bold leading-[1.35] [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
                 {texts.subtitle}
               </p>
             </div>
