@@ -4,8 +4,8 @@
 @import "@fontsource-variable/public-sans";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F4F6F8;
+  --foreground: #1C252E;
   --header-height: 112px;
 }
 
@@ -23,7 +23,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  /* Font stack copied from the Minimal kit */
+  /* Font stack — Public Sans Variable (Minimal kit) */
   font-family: "Public Sans Variable",
     -apple-system,
     BlinkMacSystemFont,
@@ -35,6 +35,24 @@ body {
     "Apple Color Emoji",
     "Segoe UI Emoji",
     "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* Force Public Sans on all MUI components */
+.MuiTypography-root,
+.MuiButton-root,
+.MuiInputBase-root,
+.MuiMenuItem-root,
+.MuiFormLabel-root,
+.MuiChip-root,
+.MuiTab-root {
+  font-family: "Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+/* Override any hardcoded Inter font-family across the app */
+* {
+  font-family: inherit;
 }
 
 /* Ensure smooth scaling on all screen sizes */
@@ -49,6 +67,37 @@ button,
 .MuiButton-root,
 .MuiIconButton-root {
   cursor: pointer;
+}
+
+/* ─── Global button hover system (Minimal kit) ─────────────────────────────
+   Contained dark buttons: darken bg + elevation shadow on hover
+   Outlined buttons: blue border + blue ring shadow on hover
+   ─────────────────────────────────────────────────────────────────────── */
+
+/* Contained dark (bg-slate-900 / bg-[#1C252E] / bg-gradient from-slate-900) */
+.btn-contained,
+button.bg-slate-900,
+button.bg-\[\#1C252E\],
+a.bg-slate-900,
+a.bg-\[\#1C252E\] {
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-contained:hover,
+button.bg-slate-900:hover,
+a.bg-slate-900:hover {
+  background-color: #2C3A47 !important;
+  box-shadow: 0px 8px 16px -4px rgba(28, 37, 46, 0.48) !important;
+}
+
+/* White card buttons (bg-white with border) */
+button.bg-white:not([class*="MuiButton"]):hover,
+a.bg-white:not([class*="MuiButton"]):hover {
+  box-shadow: 0px 8px 16px -4px rgba(28, 37, 46, 0.16) !important;
+}
+
+/* MUI contained inherit buttons (dark ones used in cards) */
+.MuiButton-containedInherit:hover {
+  box-shadow: 0px 8px 16px -4px rgba(28, 37, 46, 0.48) !important;
 }
 
 

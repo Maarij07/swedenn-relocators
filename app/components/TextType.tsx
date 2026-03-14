@@ -1,0 +1,160 @@
+'use client';
+
+import { useEffect, useRef, useState, useMemo, useCallback } from 'react';
+
+interface VariableSpeed {
+  min: number;
+  max: number;
+}
+
+interface TextTypeProps {
+  text: string | string[];
+  typingSpeed?: number;
+  initialDelay?: number;
+  pauseDuration?: number;
+  deletingSpeed?: number;
+  loop?: boolean;
+  className?: string;
+  style?: React.CSSProperties;
+  showCursor?: boolean;
+  hideCursorWhileTyping?: boolean;
+  cursorCharacter?: string;
+  cursorClassName?: string;
+  cursorStyle?: React.CSSProperties;
+  cursorBlinkDuration?: number;
+  textColors?: string[];
+  variableSpeed?: VariableSpeed;
+  onSentenceComplete?: (text: string, index: number) => void;
+  startOnVisible?: boolean;
+  reverseMode?: boolean;
+}
+
+export default function TextType({
+  text,
+  typingSpeed = 50,
+  initialDelay = 0,
+  pauseDuration = 2000,
+  deletingSpeed = 30,
+  loop = true,
+  className = '',
+  style = {},
+  showCursor = true,
+  hideCursorWhileTyping = false,
+  cursorCharacter = '|',
+  cursorClassName = '',
+  cursorStyle = {},
+  cursorBlinkDuration = 0.5,
+  textColors = [],
+  variableSpeed,
+  onSentenceComplete,
+  startOnVisible = false,
+  reverseMode = false,
+}: TextTypeProps) {
+  const [displayedText, setDisplayedText] = useState('');
+  const [currentCharIndex, setCurrentCharIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  const [isVisible, setIsVisible] = useState(!startOnVisible);
+  const [cursorOpacity, setCursorOpacity] = useState(1);
+  const containerRef = useRef<HTMLSpanElement>(null);
+
+  const textArray = useMemo(() => (Array.isArray(text) ? text : [text]), [text]);
+
+  const getRandomSpeed = useCallback(() => {
+    if (!variableSpeed) return typingSpeed;
+    return Math.random() * (variableSpeed.max - variableSpeed.min) + variableSpeed.min;
+  }, [variableSpeed, typingSpeed]);
+
+  const getCurrentTextColor = () => {
+    if (textColors.length === 0) return 'inherit';
+    return textColors[currentTextIndex % textColors.length];
+  };
+
+  useEffect(() => {
+    if (!startOnVisible || !containerRef.current) return;
+    const observer = new IntersectionObserver(
+      entries => entries.forEach(e => { if (e.isIntersecting) setIsVisible(true); }),
+      { threshold: 0.1 }
+    );
+    observer.observe(containerRef.current);
+    return () => observer.disconnect();
+  }, [startOnVisible]);
+
+  useEffect(() => {
+    if (!showCursor) return;
+    const half = cursorBlinkDuration * 500;
+    const interval = setInterval(() => {
+      setCursorOpacity(o => (o === 1 ? 0 : 1));
+    }, half);
+    return () => clearInterval(interval);
+  }, [showCursor, cursorBlinkDuration]);
+
+  useEffect(() => {
+    if (!isVisible) return;
+    let timeout: ReturnType<typeof setTimeout>;
+    const currentText = textArray[currentTextIndex];
+    const processedText = reverseMode ? currentText.split('').reverse().join('') : currentText;
+
+    const run = () => {
+      if (isDeleting) {
+        if (displayedText === '') {
+          setIsDeleting(false);
+          if (currentTextIndex === textArray.length - 1 && !loop) return;
+          if (onSentenceComplete) onSentenceComplete(textArray[currentTextIndex], currentTextIndex);
+          setCurrentTextIndex(prev => (prev + 1) % textArray.length);
+          setCurrentCharIndex(0);
+        } else {
+          timeout = setTimeout(() => {
+            setDisplayedText(prev => prev.slice(0, -1));
+          }, deletingSpeed);
+        }
+      } else {
+        if (currentCharIndex < processedText.length) {
+          timeout = setTimeout(() => {
+            setDisplayedText(prev => prev + processedText[currentCharIndex]);
+            setCurrentCharIndex(prev => prev + 1);
+          }, variableSpeed ? getRandomSpeed() : typingSpeed);
+        } else if (textArray.length >= 1) {
+          if (!loop && currentTextIndex === textArray.length - 1) return;
+          timeout = setTimeout(() => setIsDeleting(true), pauseDuration);
+        }
+      }
+    };
+
+    if (currentCharIndex === 0 && !isDeleting && displayedText === '') {
+      timeout = setTimeout(run, initialDelay);
+    } else {
+      run();
+    }
+
+    return () => clearTimeout(timeout);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentCharIndex, displayedText, isDeleting, currentTextIndex, isVisible]);
+
+  const shouldHideCursor =
+    hideCursorWhileTyping && (currentCharIndex < textArray[currentTextIndex].length || isDeleting);
+
+  return (
+    <span
+      ref={containerRef}
+      className={className}
+      style={{ display: 'inline-block', whiteSpace: 'pre-wrap', ...style }}
+    >
+      <span style={{ color: getCurrentTextColor() }}>{displayedText}</span>
+      {showCursor && (
+        <span
+          className={cursorClassName}
+          style={{
+            marginLeft: '0.1em',
+            display: shouldHideCursor ? 'none' : 'inline-block',
+            opacity: cursorOpacity,
+            transition: `opacity ${cursorBlinkDuration * 0.5}s ease`,
+            ...cursorStyle,
+          }}
+        >
+          {cursorCharacter}
+        </span>
+      )}
+    </span>
+  );
+}

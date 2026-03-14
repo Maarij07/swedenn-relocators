@@ -224,7 +224,7 @@ export default function Navbar() {
 
               <a
                 href={`/${locale}/new-in-sweden`}
-                className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
+                className="text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
               >
                 {t('navbar.links.newInSweden')}
               </a>
@@ -234,7 +234,7 @@ export default function Navbar() {
                 <div className="flex items-center gap-1">
                   <a
                     href={`/${locale}/services`}
-                    className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
+                    className="text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
                   >
                     {t('navbar.links.services')}
                   </a>
@@ -248,7 +248,7 @@ export default function Navbar() {
                         toggleDropdown('services');
                       }
                     }}
-                    className="p-1 hover:text-blue-600 transition-colors"
+                    className="p-1 hover:text-[#2563eb] transition-colors"
                     aria-label="Toggle services menu"
                   >
                     <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.services ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -387,7 +387,7 @@ export default function Navbar() {
 
               <a
                 href={`/${locale}/about`}
-                className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
+                className="text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
               >
                 {t('navbar.links.about')}
               </a>
@@ -404,7 +404,7 @@ export default function Navbar() {
                       toggleDropdown('housing');
                     }
                   }}
-                  className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
+                  className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
                   aria-label="Toggle housing menu"
                 >
                   {t('navbar.links.housing')}
@@ -455,7 +455,7 @@ export default function Navbar() {
                       toggleDropdown('assessment');
                     }
                   }}
-                  className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
+                  className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
                   aria-label="Toggle assessment menu"
                 >
                   {t('navbar.links.assessment')}
@@ -520,7 +520,7 @@ export default function Navbar() {
 
               <a
                 href={`/${locale}/contact`}
-                className="text-sm xl:text-[15px] 4k:text-2xl text-gray-700 hover:text-blue-600 transition-colors whitespace-nowrap font-medium"
+                className="text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
               >
                 {t('navbar.links.contact')}
               </a>

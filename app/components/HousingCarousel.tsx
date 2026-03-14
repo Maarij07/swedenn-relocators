@@ -16,6 +16,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 import { alpha } from '@mui/material/styles';
 import { Icon } from '@iconify/react';
+import { useScrollReveal } from '../utils/useScrollReveal';
 
 const slideUpAnimation = keyframes`
   from {
@@ -43,6 +44,7 @@ export const HousingCarousel: React.FC = () => {
 
   const { i18n } = useTranslation();
   const isSv = i18n.language === 'sv';
+  const { ref: sectionRef, isVisible } = useScrollReveal();
 
   const housingServices = [
     {
@@ -141,7 +143,7 @@ export const HousingCarousel: React.FC = () => {
   };
 
   return (
-    <Box sx={{ py: { xs: 6, sm: 8, lg: 10, xl: 12 }, backgroundColor: '#EBF4FF' }}>
+    <Box ref={sectionRef} sx={{ py: { xs: 6, sm: 8, lg: 10, xl: 12 }, backgroundColor: '#EBF4FF' }}>
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         <Box sx={{ mb: { xs: 6, sm: 8, lg: 10 }, textAlign: 'center' }}>
           <Box
@@ -151,6 +153,9 @@ export const HousingCarousel: React.FC = () => {
               borderLeft: '4px solid #3b82f6',
               px: { xs: 2, sm: 2.5 },
               py: { xs: 1.5, sm: 2 },
+              transition: 'opacity 0.7s ease, transform 0.7s ease',
+              opacity: isVisible ? 1 : 0,
+              transform: isVisible ? 'translateY(0)' : 'translateY(-16px)',
             }}
           >
             <Typography
@@ -159,7 +164,7 @@ export const HousingCarousel: React.FC = () => {
                 fontWeight: 800,
                 color: '#0f172a',
                 lineHeight: 1.2,
-                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+                fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
               }}
             >
               {isSv ? 'Helhetslösningar för bostad & fastigheter' : 'End-to-End Housing & Real Estate Support'}
@@ -172,7 +177,7 @@ export const HousingCarousel: React.FC = () => {
                 color: '#2563eb',
                 lineHeight: 1.35,
                 textTransform: 'none',
-                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+                fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
               }}
             >
               {isSv ? 'Trygga bostadslösningar, levererade i tid' : 'Housing Solutions You Can Trust, Delivered on Time'}
@@ -415,10 +420,11 @@ export const HousingCarousel: React.FC = () => {
                               textTransform: 'none',
                               fontWeight: 600,
                               height: 40,
-                              bgcolor: '#1e293b',
+                              bgcolor: '#1C252E',
                               color: 'common.white',
                               '&:hover': {
-                                bgcolor: '#334155',
+                                bgcolor: '#2C3A47',
+                                boxShadow: '0px 8px 16px -4px rgba(28,37,46,0.48)',
                               }
                             }}
                           >

@@ -12,6 +12,7 @@ import CardContent from '@mui/material/CardContent';
 import IconButton from '@mui/material/IconButton';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { useScrollReveal } from '../utils/useScrollReveal';
 
 interface Offer {
   id: string;
@@ -47,6 +48,7 @@ const AnimatedCard = styled(Card)({
 export default function Offers() {
   const { i18n } = useTranslation();
   const isSv = i18n.language === 'sv';
+  const { ref: sectionRef, isVisible } = useScrollReveal();
 
   const texts = {
     heading: isSv ? 'Viktiga tjänster för alla' : 'Essential Services for Both',
@@ -116,7 +118,7 @@ export default function Offers() {
   };
 
   return (
-    <Box component="section" sx={{ py: { xs: 6, sm: 8, lg: 10, xl: 12 }, backgroundColor: '#ffffff' }}>
+    <Box ref={sectionRef} component="section" sx={{ py: { xs: 6, sm: 8, lg: 10, xl: 12 }, backgroundColor: '#F4F6F8' }}>
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         <Box sx={{ mb: { xs: 6, sm: 8, lg: 10 }, textAlign: 'center' }}>
           <Box
@@ -126,6 +128,9 @@ export default function Offers() {
               borderLeft: '4px solid #3b82f6',
               px: { xs: 2, sm: 2.5 },
               py: { xs: 1.5, sm: 2 },
+              transition: 'opacity 0.7s ease, transform 0.7s ease',
+              opacity: isVisible ? 1 : 0,
+              transform: isVisible ? 'translateY(0)' : 'translateY(-16px)',
             }}
           >
             <Typography
@@ -134,7 +139,7 @@ export default function Offers() {
                 fontWeight: 800,
                 color: '#0f172a',
                 lineHeight: 1.2,
-                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+                fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
               }}
             >
               {texts.heading}
@@ -147,7 +152,7 @@ export default function Offers() {
                 color: '#2563eb',
                 lineHeight: 1.35,
                 textTransform: 'none',
-                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+                fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
               }}
             >
               {texts.subheading}
@@ -172,11 +177,11 @@ export default function Offers() {
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}><img src="/watch.svg" alt="Duration" style={{ width: '15px', height: '15px', opacity: 0.6 }} /><span>{offer.days}</span></Box>
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}><img src="/people.svg" alt="People" style={{ width: '15px', height: '15px', opacity: 0.6 }} /><span>{offer.count}</span></Box>
                       </Box>
-                      <Typography sx={{ fontSize: { xs: '1rem', sm: '1.1rem', md: '1.15rem' }, fontWeight: 700, color: '#1F2937', lineHeight: 1.4, minHeight: '2.8em', fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif' }}>{offer.title}</Typography>
-                      <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem' }, color: '#6B7280', lineHeight: 1.6, flex: 1, fontWeight: 400, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden', fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif' }}>{offer.description}</Typography>
+                      <Typography sx={{ fontSize: { xs: '1rem', sm: '1.1rem', md: '1.15rem' }, fontWeight: 700, color: '#1F2937', lineHeight: 1.4, minHeight: '2.8em', fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif' }}>{offer.title}</Typography>
+                      <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem' }, color: '#6B7280', lineHeight: 1.6, flex: 1, fontWeight: 400, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden', fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif' }}>{offer.description}</Typography>
                       <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 2, pt: 2, mt: 'auto' }}>
-                        <Typography sx={{ fontSize: { xs: '1.35rem', sm: '1.45rem' }, fontWeight: 700, color: '#1F2937', fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif' }}>{offer.price}<Typography component="span" sx={{ fontSize: '0.75rem', color: '#9CA3AF', fontWeight: 500, ml: 0.75 }}>{texts.handlingFee}</Typography></Typography>
-                        <Button sx={{ px: { xs: 2, sm: 2.5 }, py: { xs: 1, sm: 1.25 }, fontSize: { xs: '0.8rem', sm: '0.85rem' }, fontWeight: 600, textTransform: 'none', background: 'linear-gradient(135deg, #1F2937 0%, #111827 100%)', color: '#ffffff', borderRadius: '12px', whiteSpace: 'nowrap', boxShadow: '0 4px 12px rgba(31, 41, 55, 0.2)', fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif', '&:hover': { background: 'linear-gradient(135deg, #111827 0%, #000000 100%)', boxShadow: '0 6px 16px rgba(31, 41, 55, 0.3)' } }}>{texts.sendRequest}</Button>
+                        <Typography sx={{ fontSize: { xs: '1.35rem', sm: '1.45rem' }, fontWeight: 700, color: '#1F2937', fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif' }}>{offer.price}<Typography component="span" sx={{ fontSize: '0.75rem', color: '#9CA3AF', fontWeight: 500, ml: 0.75 }}>{texts.handlingFee}</Typography></Typography>
+                        <Button sx={{ px: { xs: 2, sm: 2.5 }, py: { xs: 1, sm: 1.25 }, fontSize: { xs: '0.8rem', sm: '0.85rem' }, fontWeight: 600, textTransform: 'none', background: 'linear-gradient(135deg, #1F2937 0%, #111827 100%)', color: '#ffffff', borderRadius: '12px', whiteSpace: 'nowrap', boxShadow: '0 4px 12px rgba(31, 41, 55, 0.2)', fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif', '&:hover': { background: 'linear-gradient(135deg, #111827 0%, #000000 100%)', boxShadow: '0 6px 16px rgba(31, 41, 55, 0.3)' } }}>{texts.sendRequest}</Button>
                       </Box>
                     </CardContent>
                   </AnimatedCard>

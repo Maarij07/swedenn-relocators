@@ -8,6 +8,7 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
+import { useScrollReveal } from '../utils/useScrollReveal';
 
 const citizenshipFlags = ['ag', 'dm', 'gd', 'kn', 'lc', 'vc', 'mt', 'cy'];
 const residencyFlags = ['pt', 'gr', 'es', 'it', 'ie', 'ca', 'au', 'ae'];
@@ -35,6 +36,7 @@ const countryNames: Record<string, string> = {
 export default function CitizenshipResidencySection() {
   const { i18n } = useTranslation();
   const isSv = i18n.language === 'sv';
+  const { ref: sectionRef, isVisible } = useScrollReveal();
 
   const texts = {
     heading: isSv ? 'Medborgarskap & uppehållstillstånd genom investering' : 'Citizenship & Residency by Investment',
@@ -46,7 +48,7 @@ export default function CitizenshipResidencySection() {
   };
 
   return (
-    <section className="bg-gradient-to-br from-slate-50 to-blue-50/30">
+    <section ref={sectionRef as React.Ref<HTMLElement>} className="bg-[#F4F6F8]">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-14 lg:py-16 4k:py-20">
         <Box sx={{ mb: { xs: 5, sm: 6, lg: 8 }, textAlign: 'center' }}>
           <Box
@@ -56,6 +58,9 @@ export default function CitizenshipResidencySection() {
               borderLeft: '4px solid #3b82f6',
               px: { xs: 2, sm: 2.5 },
               py: { xs: 1.5, sm: 2 },
+              transition: 'opacity 0.7s ease, transform 0.7s ease',
+              opacity: isVisible ? 1 : 0,
+              transform: isVisible ? 'translateY(0)' : 'translateY(-16px)',
             }}
           >
             <Typography
@@ -64,7 +69,7 @@ export default function CitizenshipResidencySection() {
                 fontWeight: 800,
                 color: '#0f172a',
                 lineHeight: 1.2,
-                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+                fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
               }}
             >
               {texts.heading}
@@ -77,7 +82,7 @@ export default function CitizenshipResidencySection() {
                 color: '#2563eb',
                 lineHeight: 1.35,
                 textTransform: 'none',
-                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+                fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
               }}
             >
               {texts.intro}
@@ -272,33 +277,23 @@ export default function CitizenshipResidencySection() {
                   fontSize: { xs: '0.9rem', sm: '0.95rem' },
                   fontWeight: 600,
                   textTransform: 'none',
-                  background: 'linear-gradient(to right, #0f172a, #1e293b)',
+                  backgroundColor: '#1C252E',
                   color: '#ffffff',
                   borderRadius: '12px',
                   alignSelf: 'flex-end',
                   border: 'none',
                   transition: 'all 0.3s ease',
-                  boxShadow: '0 4px 14px 0 rgba(0, 0, 0, 0.15)',
+                  boxShadow: '0 4px 14px 0 rgba(28, 37, 46, 0.25)',
                   '&:hover': {
+                    backgroundColor: '#2C3A47',
                     transform: 'translateY(-2px)',
-                    boxShadow: '0 6px 20px 0 rgba(0, 0, 0, 0.2)',
+                    boxShadow: '0px 8px 16px -4px rgba(28,37,46,0.48)',
                   },
                 }}
               >
                 <Box component="span" sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                   {texts.cbiButton}
-                  <Box
-                    component="span"
-                    sx={{
-                      display: 'inline-block',
-                      transition: 'transform 0.3s ease',
-                      '.MuiButton-root:hover &': {
-                        transform: 'translateX(4px)',
-                      },
-                    }}
-                  >
-                    →
-                  </Box>
+                  <Box component="span" sx={{ display: 'inline-block', transition: 'transform 0.3s ease', '.MuiButton-root:hover &': { transform: 'translateX(4px)' } }}>→</Box>
                 </Box>
               </Button>
             </CardContent>
@@ -425,33 +420,23 @@ export default function CitizenshipResidencySection() {
                   fontSize: { xs: '0.9rem', sm: '0.95rem' },
                   fontWeight: 600,
                   textTransform: 'none',
-                  background: 'linear-gradient(to right, #0f172a, #1e293b)',
+                  backgroundColor: '#1C252E',
                   color: '#ffffff',
                   borderRadius: '12px',
                   alignSelf: 'flex-end',
                   border: 'none',
                   transition: 'all 0.3s ease',
-                  boxShadow: '0 4px 14px 0 rgba(0, 0, 0, 0.15)',
+                  boxShadow: '0 4px 14px 0 rgba(28, 37, 46, 0.25)',
                   '&:hover': {
+                    backgroundColor: '#2C3A47',
                     transform: 'translateY(-2px)',
-                    boxShadow: '0 6px 20px 0 rgba(0, 0, 0, 0.2)',
+                    boxShadow: '0px 8px 16px -4px rgba(28,37,46,0.48)',
                   },
                 }}
               >
                 <Box component="span" sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                   {texts.rbiButton}
-                  <Box
-                    component="span"
-                    sx={{
-                      display: 'inline-block',
-                      transition: 'transform 0.3s ease',
-                      '.MuiButton-root:hover &': {
-                        transform: 'translateX(4px)',
-                      },
-                    }}
-                  >
-                    →
-                  </Box>
+                  <Box component="span" sx={{ display: 'inline-block', transition: 'transform 0.3s ease', '.MuiButton-root:hover &': { transform: 'translateX(4px)' } }}>→</Box>
                 </Box>
               </Button>
             </CardContent>

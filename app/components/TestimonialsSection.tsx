@@ -8,7 +8,6 @@ import {
   Stack,
   Avatar,
   Rating,
-  Container,
   Typography,
   Button,
 } from '@mui/material';
@@ -275,44 +274,43 @@ export function TestimonialsSection() {
       sx={{
         py: 10,
         position: 'relative',
-        background: '#F8F9FE',
+        background: '#F4F6F8',
       }}
     >
-      <Container maxWidth="lg">
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         {/* Section Header */}
-        <Box sx={{ mb: 8 }}>
-          <Stack spacing={3} sx={{ alignItems: 'center', textAlign: 'center' }}>
+        <Box sx={{ mb: 8, textAlign: 'center' }}>
+          <Box
+            sx={{
+              backgroundColor: '#eff6ff',
+              borderRadius: '0.5rem',
+              borderLeft: '4px solid #3b82f6',
+              px: { xs: 2, sm: 2.5 },
+              py: { xs: 1.5, sm: 2 },
+            }}
+          >
             <Typography
-              variant="overline"
               sx={{
-                color: '#9CA3AF',
-                letterSpacing: '1px',
-                fontWeight: 600,
-              }}
-            >
-              Testimonials
-            </Typography>
-            <Typography
-              variant="h3"
-              sx={{
-                fontWeight: 700,
-                color: '#1F2937',
-                fontSize: { xs: '28px', md: '42px' },
+                fontSize: { xs: '1.75rem', sm: '2rem', lg: '2.5rem', xl: '2.75rem' },
+                fontWeight: 800,
+                color: '#0f172a',
+                lineHeight: 1.2,
               }}
             >
               What Our Clients Say
             </Typography>
             <Typography
               sx={{
-                color: '#6B7280',
-                maxWidth: '600px',
-                fontSize: '16px',
-                textAlign: 'center',
+                mt: 0.75,
+                fontSize: { xs: '1rem', sm: '1.1rem', lg: '1.25rem', xl: '1.35rem' },
+                fontWeight: 700,
+                color: '#2563eb',
+                lineHeight: 1.35,
               }}
             >
-              Join thousands of satisfied clients who have successfully relocated with our expert guidance and support.
+              Real stories from clients who relocated successfully.
             </Typography>
-          </Stack>
+          </Box>
         </Box>
 
         {/* Testimonials Carousel */}
@@ -497,28 +495,9 @@ export function TestimonialsSection() {
 
             {/* Show More Button */}
             <Link href={`/${locale}/testimonials`}>
-              <Box
-                component="button"
-                sx={{
-                  borderRadius: '9999px',
-                  border: '1px solid #E5E7EB',
-                  backgroundColor: '#FFFFFF',
-                  px: { xs: 6, sm: 8 },
-                  py: 1.5,
-                  fontSize: { xs: '13px', sm: '14px' },
-                  fontWeight: 600,
-                  color: '#1F2937',
-                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.08)',
-                  transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-                  '&:hover': {
-                    boxShadow: '0 10px 25px rgba(0, 0, 0, 0.15)',
-                    backgroundColor: '#F3F4F6',
-                    transform: 'translateY(-2px)',
-                  },
-                }}
-              >
+              <button className="px-5 py-2.5 text-sm font-medium text-[#1C252E] bg-transparent border border-[#1C252E]/40 rounded-lg hover:border-[#1C252E] hover:shadow-[0_0_0_0.75px_#1C252E] transition-all duration-200 whitespace-nowrap">
                 Show More
-              </Box>
+              </button>
             </Link>
 
             {/* Arrow Navigation */}
@@ -534,8 +513,9 @@ export function TestimonialsSection() {
                   borderColor: '#E5E7EB',
                   color: '#1F2937',
                   '&:hover': {
-                    borderColor: '#8B5CF6',
-                    backgroundColor: '#F8F9FE',
+                    borderColor: '#1C252E',
+                    backgroundColor: '#F3F4F6',
+                    boxShadow: '0 0 0 0.75px #1C252E',
                   },
                 }}
               >
@@ -552,8 +532,9 @@ export function TestimonialsSection() {
                   borderColor: '#E5E7EB',
                   color: '#1F2937',
                   '&:hover': {
-                    borderColor: '#8B5CF6',
-                    backgroundColor: '#F8F9FE',
+                    borderColor: '#1C252E',
+                    backgroundColor: '#F3F4F6',
+                    boxShadow: '0 0 0 0.75px #1C252E',
                   },
                 }}
               >
@@ -564,7 +545,7 @@ export function TestimonialsSection() {
 
           {/* Remove the separate Show More button */}
         </Box>
-      </Container>
+      </div>
     </Box>
   );
 }
