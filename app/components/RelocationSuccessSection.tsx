@@ -1,10 +1,12 @@
 'use client';
 
+import React from 'react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
 import { useTranslation } from 'react-i18next';
+import { useScrollReveal } from '../utils/useScrollReveal';
 
 const SUCCESS_ITEMS_EN = [
   {
@@ -89,6 +91,7 @@ export default function RelocationSuccessSection() {
   // Select the appropriate success items based on language
   const successItems = isSv ? SUCCESS_ITEMS_SV : SUCCESS_ITEMS_EN;
   const [animatedValues, setAnimatedValues] = useState(() => successItems.map(() => 0));
+  const { ref: sectionRef, isVisible: isSectionVisible } = useScrollReveal();
   const graphRef = useRef<HTMLDivElement | null>(null);
   const rafRef = useRef<number | null>(null);
   const hasAnimatedRef = useRef(false);
@@ -156,16 +159,16 @@ export default function RelocationSuccessSection() {
   };
 
   return (
-    <section className="bg-white">
+    <section ref={sectionRef as React.Ref<HTMLElement>} className="bg-[#F4F6F8]">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
         {/* Centered heading + sub-heading */}
         <div className="mb-10 sm:mb-12 lg:mb-14">
-          <div className="bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
+          <div className={`bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4 transition-all duration-700 ${isSectionVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
             <div className="w-full text-center px-4 sm:px-6 lg:px-8 xl:px-12">
-              <h2 className="text-[#0f172a] font-extrabold leading-[1.2] text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              <h2 className="text-[#0f172a] font-extrabold leading-[1.2] text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
                 {texts.teamProvide}
               </h2>
-              <h3 className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              <h3 className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
                 {texts.relocationServices}
               </h3>
             </div>
@@ -359,7 +362,17 @@ export default function RelocationSuccessSection() {
             </Box>
 
             <div className="pt-4 sm:pt-5 flex justify-end">
-              <button className="inline-flex items-center justify-center rounded-lg bg-slate-900 text-white text-[0.75rem] sm:text-[0.85rem] font-semibold px-4 sm:px-5 py-2 sm:py-2.5 whitespace-nowrap shadow-[0_12px_30px_rgba(15,23,42,0.25)] hover:bg-slate-800 transition-colors">
+              <button
+                className="inline-flex items-center justify-center rounded-lg bg-[#1C252E] text-white text-[0.75rem] sm:text-[0.85rem] font-semibold px-4 sm:px-5 py-2 sm:py-2.5 whitespace-nowrap shadow-[0_12px_30px_rgba(28,37,46,0.25)] transition-all duration-200"
+                onMouseEnter={e => {
+                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = '#2C3A47';
+                  (e.currentTarget as HTMLButtonElement).style.boxShadow = '0px 8px 16px -4px rgba(28,37,46,0.48)';
+                }}
+                onMouseLeave={e => {
+                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = '#1C252E';
+                  (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 12px 30px rgba(28,37,46,0.25)';
+                }}
+              >
                 {texts.readMore}
               </button>
             </div>

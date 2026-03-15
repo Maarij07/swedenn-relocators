@@ -2,6 +2,7 @@
 
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
+import TextType from './TextType';
 
 const fadeInUp = `
   @keyframes fadeInUp {
@@ -31,7 +32,7 @@ export default function Hero() {
     btnAppointment: isSv ? 'Boka möte' : 'Book Appointment',
   };
   return (
-   <section className="relative overflow-hidden bg-[#FDFDFD]">
+   <section className="relative overflow-hidden bg-[#F4F6F8]">
       <style>{fadeInUp}</style>
       
       {/* Decorative dots - similar to the reference image */}
@@ -53,8 +54,30 @@ export default function Hero() {
             <div className="space-y-6 sm:space-y-7 md:space-y-8 lg:space-y-9 3xl:space-y-12 4k:space-y-16" style={{ animation: 'fadeInUp 0.8s ease-out' }}>
               
               <h1 className="text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 3xl:text-[3.25rem] 4k:text-[4rem] leading-[1.2] font-extrabold">
-                <span className="block text-slate-900">{texts.titleLine1}</span>
-                <span className="block text-blue-600">{texts.titleLine2}</span>
+                {/* Line 1 — types immediately */}
+                <span className="block text-slate-900" style={{ minHeight: '1.2em' }}>
+                  <TextType
+                    text={[texts.titleLine1]}
+                    typingSpeed={60}
+                    pauseDuration={99999}
+                    loop={false}
+                    showCursor={false}
+                    hideCursorWhileTyping={true}
+                    initialDelay={200}
+                  />
+                </span>
+                {/* Line 2 — starts after line 1 finishes (titleLine1.length * 60ms + 200ms delay) */}
+                <span className="block text-blue-600" style={{ minHeight: '1.2em' }}>
+                  <TextType
+                    text={[texts.titleLine2]}
+                    typingSpeed={60}
+                    pauseDuration={99999}
+                    loop={false}
+                    showCursor={false}
+                    hideCursorWhileTyping={true}
+                    initialDelay={200 + texts.titleLine1.length * 60 + 100}
+                  />
+                </span>
               </h1>
 
               <p className="text-[14px] sm:text-[15px] md:text-base lg:text-[17px] xl:text-[18px] 3xl:text-[20px] 4k:text-[2rem] text-gray-600 leading-[1.7] max-w-xl 3xl:max-w-2xl 4k:max-w-5xl font-medium">
@@ -63,10 +86,10 @@ export default function Hero() {
 
               <div className="flex flex-col sm:flex-row gap-4 3xl:gap-6 4k:gap-8 pt-2">
                 {/* BOTH buttons BLACK with white text */}
-                <button className="px-7 sm:px-8 md:px-9 3xl:px-14 4k:px-22 py-3 sm:py-3.5 md:py-4 3xl:py-6 4k:py-9 text-[14px] sm:text-[15px] md:text-base 3xl:text-lg 4k:text-3xl font-semibold text-white bg-black rounded-lg hover:bg-gray-800 transition-all duration-300 shadow-md">
+                <button className="px-7 sm:px-8 md:px-9 3xl:px-14 4k:px-22 py-3 sm:py-3.5 md:py-4 3xl:py-6 4k:py-9 text-[14px] sm:text-[15px] md:text-base 3xl:text-lg 4k:text-3xl font-semibold text-white bg-[#1C252E] rounded-lg hover:bg-[#2C3A47] hover:shadow-[0px_8px_16px_-4px_rgba(28,37,46,0.48)] transition-all duration-200 shadow-md">
                   {texts.btnServices}
                 </button>
-                <button className="px-7 sm:px-8 md:px-9 3xl:px-14 4k:px-22 py-3 sm:py-3.5 md:py-4 3xl:py-6 4k:py-9 text-[14px] sm:text-[15px] md:text-base 3xl:text-lg 4k:text-3xl font-semibold text-white bg-black rounded-lg hover:bg-gray-800 transition-all duration-300 shadow-md">
+                <button className="px-7 sm:px-8 md:px-9 3xl:px-14 4k:px-22 py-3 sm:py-3.5 md:py-4 3xl:py-6 4k:py-9 text-[14px] sm:text-[15px] md:text-base 3xl:text-lg 4k:text-3xl font-semibold text-[#1C252E] bg-transparent border border-[#1C252E]/40 rounded-lg hover:border-[#1C252E] hover:shadow-[0_0_0_0.75px_#1C252E] transition-all duration-200">
                   {texts.btnAppointment}
                 </button>
               </div>

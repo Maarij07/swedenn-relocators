@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion"
 import { useTranslation } from 'react-i18next';
+import { useScrollReveal } from '../utils/useScrollReveal';
 
 interface FeatureItem {
   id: number;
@@ -114,18 +115,19 @@ export default function VerticalFeatureCarousel() {
   const isSv = i18n.language === 'sv';
 
   const featureSet = isSv ? featuresSv : featuresEn;
-  const [hoveredId, setHoveredId] = useState<number | 2>(2); // Default to card 2 (All-in-One Employee Management)
+  const [hoveredId, setHoveredId] = useState<number | 2>(2);
+  const { ref: sectionRef, isVisible } = useScrollReveal();
 
   return (
-    <section className="w-full bg-[#EBF4FF] py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 3xl:py-36 4k:py-44 overflow-x-hidden">
+    <section ref={sectionRef as React.Ref<HTMLElement>} className="w-full bg-[#EBF4FF] py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 3xl:py-36 4k:py-44 overflow-x-hidden">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
 
         <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-16 xl:mb-20">
-          <div className="bg-white rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
-            <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] leading-[1.2] font-extrabold text-[#0f172a] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+          <div className={`bg-white rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
+            <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] leading-[1.2] font-extrabold text-[#0f172a] [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
               {isSv ? 'Vi stärker företag med digitala lösningar' : 'Empowering Business with Digital Solutions'}
             </h2>
-            <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold text-[#2563eb] leading-[1.35] normal-case [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+            <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold text-[#2563eb] leading-[1.35] normal-case [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
               {isSv ? 'Våra tjänster' : 'Our Services'}
             </p>
           </div>

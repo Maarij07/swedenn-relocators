@@ -79,12 +79,12 @@ export default function DigitalPlatformsSection() {
             }`}
           >
             <div className="w-full text-center px-4 sm:px-6 lg:px-8 xl:px-12">
-              <h2 className="text-[#0f172a] font-extrabold text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] leading-[1.2] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              <h2 className="text-[#0f172a] font-extrabold text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] leading-[1.2] [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
                 {isSv
                   ? 'Vår allt-i-ett digitala plattform'
                   : 'Our All-in-One Digital Platform'}
               </h2>
-              <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+              <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
                 {isSv
                   ? 'För privatpersoner, familjer och företag'
                   : 'For Individuals, Families, and Companies'}

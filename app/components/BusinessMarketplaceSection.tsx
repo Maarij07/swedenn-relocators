@@ -1,7 +1,9 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
+import { useScrollReveal } from '../utils/useScrollReveal';
 
 const BUSINESS_CARDS_EN = [
   {
@@ -68,6 +70,7 @@ const BUSINESS_CARDS_SV = [
 export default function BusinessMarketplaceSection() {
   const { i18n } = useTranslation();
   const isSv = i18n.language === 'sv';
+  const { ref, isVisible } = useScrollReveal();
 
   // Select the appropriate business cards based on language
   const businessCards = isSv ? BUSINESS_CARDS_SV : BUSINESS_CARDS_EN;
@@ -82,20 +85,20 @@ export default function BusinessMarketplaceSection() {
     : 'Explore opportunities or publish your business on the marketplace.';
 
   return (
-    <section className="bg-white">
+    <section ref={ref as React.Ref<HTMLElement>} className="bg-[#F4F6F8]">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-12 sm:py-16 lg:py-20 4k:py-24">
         <div className="text-center mb-10 sm:mb-12 lg:mb-14">
-          <div className="bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
-            <h2 className="text-[#0f172a] font-extrabold leading-[1.2] text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+          <div className={`bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
+            <h2 className="text-[#0f172a] font-extrabold leading-[1.2] text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] xl:text-[2.75rem] [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
               {heading}
             </h2>
-            <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
+            <p className="mt-2 text-[1.1rem] sm:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-bold leading-[1.35] text-[#2563eb] [font-family:'Public_Sans_Variable',-apple-system,BlinkMacSystemFont,'Segoe_UI',sans-serif]">
               {subtitle}
             </p>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 lg:gap-8">
+        <div className={`grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 lg:gap-8 transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           {businessCards.map((card) => (
             <article
               key={card.id}
@@ -161,7 +164,17 @@ export default function BusinessMarketplaceSection() {
                 </div>
 
                 <div className="pt-3 flex justify-center">
-                  <button className="group/btn flex items-center justify-between gap-2 rounded-xl border border-slate-300 bg-white px-6 py-2.5 text-[0.8rem] font-semibold text-slate-900 shadow-[0_12px_30px_rgba(15,23,42,0.06)] hover:bg-slate-50 hover:shadow-[0_16px_36px_rgba(15,23,42,0.12)] transition-all duration-300 w-fit">
+                  <button
+                    className="group/btn flex items-center justify-between gap-2 rounded-xl border border-slate-300 bg-white px-6 py-2.5 text-[0.8rem] font-semibold text-slate-900 shadow-[0_12px_30px_rgba(15,23,42,0.06)] transition-all duration-300 w-fit"
+                    onMouseEnter={e => {
+                      (e.currentTarget as HTMLButtonElement).style.boxShadow = '0px 8px 16px -4px rgba(28,37,46,0.16)';
+                      (e.currentTarget as HTMLButtonElement).style.borderColor = '#1C252E';
+                    }}
+                    onMouseLeave={e => {
+                      (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 12px 30px rgba(15,23,42,0.06)';
+                      (e.currentTarget as HTMLButtonElement).style.borderColor = 'rgb(203,213,225)';
+                    }}
+                  >
                     <span>{card.buttonText}</span>
                     <span className="transition-transform duration-300 group-hover/btn:translate-x-1">→</span>
                   </button>

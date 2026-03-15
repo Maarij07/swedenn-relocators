@@ -17,7 +17,7 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: '#2563eb', // Blue color matching your inspiration
+      main: '#2563eb',
       dark: '#1e40af',
       light: '#3b82f6',
     },
@@ -25,21 +25,25 @@ const theme = createTheme({
       main: '#10b981',
     },
     background: {
-      default: '#ffffff',
-      paper: '#f8fafc',
+      default: '#F4F6F8',
+      paper: '#FFFFFF',
     },
     text: {
-      primary: '#1e293b',
-      secondary: '#64748b',
+      primary: '#1C252E',
+      secondary: '#637381',
     },
     grey: {
-      300: '#cbd5e1',
-      400: '#94a3b8',
-      500: '#64748b',
+      300: '#DFE3E8',
+      400: '#C4CDD5',
+      500: '#919EAB',
+      600: '#637381',
+      700: '#454F5B',
+      800: '#1C252E',
     },
   },
   typography: {
-    fontFamily: 'inherit',
+    fontFamily: '"Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+    fontSize: 14,
   },
   shadows: [
     'none',
