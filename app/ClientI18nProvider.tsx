@@ -8,7 +8,7 @@ import i18n from '../i18n';
 export default function ClientI18nProvider({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
-  // Load service-specific
+  // Load service-
   useEffect(() => {
     const loadServiceTranslations = async () => {
       console.log('Current pathname:', pathname);
