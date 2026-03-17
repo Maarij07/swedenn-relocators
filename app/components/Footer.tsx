@@ -19,16 +19,10 @@ export default function Footer() {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 xl:gap-12 mb-12 lg:mb-16">
             {/* Column 1 - Logo & description */}
             <div className="col-span-2 sm:col-span-3 lg:col-span-1">
-              <div className="flex items-start gap-2 mb-2 -mt-2">
-                <div className="w-9 h-9 flex items-center justify-center flex-shrink-0">
-                  <Image src="/favicon.ico" alt="Sweden Relocators" width={28} height={28} />
-                </div>
-              </div>
-
               <p className="text-sm sm:text-base text-[#cbd5e1] leading-relaxed">
                 {isSv
-                  ? 'Vi är en relocation‑leverantör som arbetar med alla typer av laglig flytt till Sverige. Vi erbjuder digitalt stödda ansökningsprocesser och hjälper dig med rådgivning och tjänster för att etablera dig i landet.'
-                  : 'We are a Relocation Services Provider Company which deals with all sort of legal relocation to Sweden. We offers quality guidance, effective advice and provides information to our clients to settle down in the country.'}
+                  ? 'Vi är en relocation‑leverantör som arbetar med alla typer av laglig flytt från och till Sverige. Vi erbjuder digitalt stödda ansökningsprocesser och hjälper dig med rådgivning och tjänster för att etablera dig i landet.'
+                  : 'We are a Relocation Services Provider Company which deals with all sort of legal relocation from and to Sweden. We offers quality guidance, effective advice and provides information to our clients to settle down in the country.'}
               </p>
             </div>
 
@@ -70,6 +64,7 @@ export default function Footer() {
                 <li><a href={`/${locale}/faqs`} className="hover:text-white transition-colors">{isSv ? 'Vanliga frågor' : 'FAQs'}</a></li>
                 <li><a href={`/${locale}/career`} className="hover:text-white transition-colors">{isSv ? 'Karriär' : 'Careers'}</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Omdömen' : 'Testimonials'}</a></li>
+                <li><a href={`/${locale}/gallery`} className="hover:text-white transition-colors">{isSv ? 'Galleri' : 'Gallery'}</a></li>
               </ul>
             </div>
 
@@ -93,6 +88,36 @@ export default function Footer() {
                 <p>info@swedenrelocators.se</p>
                 <p>support@swedenrelocators.se</p>
               </div>
+            </div>
+          </div>
+
+          {/* Newsletter */}
+          <div className="border-t border-[#1f2933] mt-10 lg:mt-12 pt-10 lg:pt-12">
+            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+              <div>
+                <h4 className="text-base sm:text-lg font-bold text-[#e2e8f0] mb-1">
+                  Subscribe to our Newsletter
+                </h4>
+                <p className="text-xs sm:text-sm text-[#cbd5e1]">
+                  Stay updated with relocation news, tips, and offers.
+                </p>
+              </div>
+              <form
+                onSubmit={(e) => e.preventDefault()}
+                className="flex w-full lg:w-auto gap-2"
+              >
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="flex-1 lg:w-72 bg-[#1a2332] border border-[#2d3f55] text-[#cbd5e1] placeholder-[#4a5568] text-xs sm:text-sm rounded-lg px-4 py-2.5 outline-none focus:border-[#247FE1] transition-colors"
+                />
+                <button
+                  type="submit"
+                  className="px-5 py-2.5 bg-[#247FE1] hover:bg-[#1a6fd4] text-white text-xs sm:text-sm font-semibold rounded-lg transition-colors whitespace-nowrap"
+                >
+                  Subscribe
+                </button>
+              </form>
             </div>
           </div>
 

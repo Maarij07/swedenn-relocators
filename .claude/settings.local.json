@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find app/[locale]/services app/[locale]/blogs app/[locale]/privacy-policy app/[locale]/terms-and-conditions app/[locale]/assessment -name \"*.jsx\" -o -name \"*.tsx\")",
+      "Bash(xargs sed:*)",
+      "Bash(find app/[locale]/services -name \"*.jsx\" -o -name \"*.tsx\")",
+      "Bash(for f:*)",
+      "Bash(do sed:*)",
+      "Bash(done)",
+      "Bash(node -e \":*)"
+    ]
+  }
+}

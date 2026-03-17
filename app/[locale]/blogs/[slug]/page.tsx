@@ -127,7 +127,7 @@ export default function BlogDetailPage() {
   });
 
   return (
-    <main className="min-h-screen bg-[#F8FAFC]">
+    <main className="min-h-screen bg-[#F8F9FE]">
       <Navbar />
 
       {/* Hero Section - Split Layout */}

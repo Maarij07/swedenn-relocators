@@ -63,7 +63,7 @@ export default function NewInSwedenPage() {
         </section>
 
         {/* Intro Section */}
-        <section className="bg-white rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+        <section className="bg-[#F8F9FE] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-5">
             {t('newInSweden.intro.heading')}
           </h2>
@@ -76,7 +76,7 @@ export default function NewInSwedenPage() {
         <section className="mb-8 sm:mb-10 lg:mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Employment Rate Card */}
-            <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border-t-4 border-blue-500">
+            <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border-t-4 border-blue-500">
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <p className="text-xs sm:text-sm font-bold text-gray-600 uppercase tracking-wider mb-2">
@@ -94,7 +94,7 @@ export default function NewInSwedenPage() {
             </div>
 
             {/* Yearly GDP Card */}
-            <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border-t-4 border-green-500">
+            <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border-t-4 border-green-500">
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <p className="text-xs sm:text-sm font-bold text-gray-600 uppercase tracking-wider mb-2">
@@ -112,7 +112,7 @@ export default function NewInSwedenPage() {
             </div>
 
             {/* Total Population Card */}
-            <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border-t-4 border-orange-500">
+            <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border-t-4 border-orange-500">
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <p className="text-xs sm:text-sm font-bold text-gray-600 uppercase tracking-wider mb-2">
@@ -130,7 +130,7 @@ export default function NewInSwedenPage() {
             </div>
 
             {/* Global Innovation Card */}
-            <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border-t-4 border-purple-500">
+            <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border-t-4 border-purple-500">
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <p className="text-xs sm:text-sm font-bold text-gray-600 uppercase tracking-wider mb-2">
@@ -166,7 +166,7 @@ export default function NewInSwedenPage() {
             <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed max-w-3xl">
               {content.accommodation.intro}
             </p>
-            <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 border-l-4 border-blue-500">
+            <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 border-l-4 border-blue-500">
             <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4">
                 {t('newInSweden.accommodation.sectionTitle')}
               </h3>
@@ -200,7 +200,7 @@ export default function NewInSwedenPage() {
             <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
               {content.socialSecurity.importance}
             </p>
-            <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
+            <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
               <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4">
                 {content.socialSecurity.requirements.subtitle}
               </h3>
@@ -219,7 +219,7 @@ export default function NewInSwedenPage() {
         {/* Identification Card Section */}
         {content.identificationCard && (
           <section className="mb-8 sm:mb-10 lg:mb-12">
-            <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 lg:p-10 border-l-4 border-blue-500">
+            <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 lg:p-10 border-l-4 border-blue-500">
               <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
                 {content.identificationCard.sectionTitle}
               </span>
@@ -252,7 +252,7 @@ export default function NewInSwedenPage() {
             </p>
             <div className="space-y-6 sm:space-y-8 lg:space-y-10">
               {/* Identification Methods */}
-              <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
+              <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
                 <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4">
                   Identification Methods
                 </h3>
@@ -273,7 +273,7 @@ export default function NewInSwedenPage() {
               </div>
 
               {/* Requirements */}
-              <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
+              <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4">
                   {content.bankAccount.requirements.title}
                 </h3>
@@ -288,7 +288,7 @@ export default function NewInSwedenPage() {
               </div>
 
               {/* Before Visiting */}
-              <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-orange-500">
+              <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-orange-500">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4">
                   {content.bankAccount.beforeVisiting.title}
                 </h3>
@@ -308,7 +308,7 @@ export default function NewInSwedenPage() {
         {/* Employment Section */}
         {content.employment && (
           <section className="mb-8 sm:mb-10 lg:mb-12">
-            <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 lg:p-10 border-t-4 border-blue-500">
+            <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 lg:p-10 border-t-4 border-blue-500">
               <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
                 {content.employment.sectionTitle}
               </span>
@@ -346,7 +346,7 @@ export default function NewInSwedenPage() {
 
             {/* Maternity Clinics */}
             {content.healthcare.maternity && (
-              <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-purple-500 mb-6 sm:mb-8">
+              <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-purple-500 mb-6 sm:mb-8">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-3">
                   {content.healthcare.maternity.title}
                 </h3>
@@ -360,7 +360,7 @@ export default function NewInSwedenPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-8">
               {/* Child Care */}
               {content.healthcare.childCare && (
-                <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
+                <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
                   <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-3">
                     {content.healthcare.childCare.title}
                   </h3>
@@ -372,7 +372,7 @@ export default function NewInSwedenPage() {
 
               {/* Costs */}
               {content.healthcare.costs && (
-                <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
+                <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
                   <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-3">
                     {content.healthcare.costs.title}
                   </h3>
@@ -388,7 +388,7 @@ export default function NewInSwedenPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
                 {/* Coverage */}
                 {content.healthcare.dentalCare.coverage && (
-                  <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-orange-500">
+                  <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-orange-500">
                     <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-3">
                       {content.healthcare.dentalCare.coverage.title}
                     </h3>
@@ -400,7 +400,7 @@ export default function NewInSwedenPage() {
 
                 {/* Find Dentist */}
                 {content.healthcare.dentalCare.findDentist && (
-                  <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
+                  <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
                     <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-3">
                       {content.healthcare.dentalCare.findDentist.title}
                     </h3>
@@ -417,7 +417,7 @@ export default function NewInSwedenPage() {
         {/* Driving License Section */}
         {content.drivingLicense && (
           <section className="mb-8 sm:mb-10 lg:mb-12">
-            <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 lg:p-10 border-t-4 border-blue-500">
+            <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 lg:p-10 border-t-4 border-blue-500">
               <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
                 {content.drivingLicense.sectionTitle}
               </span>
@@ -463,7 +463,7 @@ export default function NewInSwedenPage() {
             <div className="space-y-6 sm:space-y-8">
               {/* Registration */}
               {content.parentalAllowance.registration && (
-                <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
+                <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
                   <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-3">
                     {content.parentalAllowance.registration.title}
                   </h3>
@@ -480,7 +480,7 @@ export default function NewInSwedenPage() {
 
               {/* Child Care Allowance */}
               {content.parentalAllowance.childCareAllowance && (
-                <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
+                <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
                   <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-3">
                     {content.parentalAllowance.childCareAllowance.title}
                   </h3>
@@ -511,7 +511,7 @@ export default function NewInSwedenPage() {
               ].map((item, idx) => (
                 <div 
                   key={idx}
-                  className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-blue-500"
+                  className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-blue-500"
                 >
                   <h3 className="text-sm sm:text-base font-bold text-gray-900 mb-3">
                     {item.label}
@@ -541,7 +541,7 @@ export default function NewInSwedenPage() {
               {content.language.options.map((option, idx) => (
                 <div 
                   key={idx}
-                  className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-blue-500"
+                  className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-blue-500"
                 >
                   <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                     {option}
@@ -550,7 +550,7 @@ export default function NewInSwedenPage() {
               ))}
             </div>
             {content.language.sfiDescription && (
-              <div className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
+              <div className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
                 <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                   <strong>SFI (Swedish for Immigrants):</strong> {content.language.sfiDescription}
                 </p>
@@ -562,7 +562,7 @@ export default function NewInSwedenPage() {
         {/* Qualification Recognition Section */}
         {content.qualificationRecognition && (
           <section className="mb-8 sm:mb-10 lg:mb-12">
-            <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 lg:p-10">
+            <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 lg:p-10">
               <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-widest mb-2 sm:mb-3">
                 {content.qualificationRecognition.sectionTitle}
               </span>
@@ -601,7 +601,7 @@ export default function NewInSwedenPage() {
               ].map((item, idx) => (
                 <div 
                   key={idx}
-                  className="bg-white rounded-lg p-4 sm:p-6 border-t-4 border-blue-500"
+                  className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-t-4 border-blue-500"
                 >
                   <h3 className="text-sm sm:text-base font-bold text-gray-900 mb-3">
                     {item.title}
@@ -622,7 +622,7 @@ export default function NewInSwedenPage() {
             <div className="sticky top-32 space-y-6 sm:space-y-8">
               
               {/* Immigration & Identity */}
-              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+              <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
                   🛂 Immigration & Identity
                 </h3>
@@ -646,7 +646,7 @@ export default function NewInSwedenPage() {
               </div>
 
               {/* Work & Social Security */}
-              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+              <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
                   💼 Work & Social Security
                 </h3>
@@ -670,7 +670,7 @@ export default function NewInSwedenPage() {
               </div>
 
               {/* Health & Welfare */}
-              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+              <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
                   🏥 Health & Welfare
                 </h3>
@@ -694,7 +694,7 @@ export default function NewInSwedenPage() {
               </div>
 
               {/* Education & Studies */}
-              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+              <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
                   🎓 Education & Studies
                 </h3>
@@ -718,7 +718,7 @@ export default function NewInSwedenPage() {
               </div>
 
               {/* Housing & Transport */}
-              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+              <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
                   🏠 Housing & Transport
                 </h3>
@@ -742,7 +742,7 @@ export default function NewInSwedenPage() {
               </div>
 
               {/* Business & Economy */}
-              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+              <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
                   📊 Business & Economy
                 </h3>
@@ -761,7 +761,7 @@ export default function NewInSwedenPage() {
               </div>
 
               {/* Banks & Telecom */}
-              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+              <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
                   🏦 Banks & Daily Services
                 </h3>
@@ -802,7 +802,7 @@ export default function NewInSwedenPage() {
               </div>
 
               {/* Legal & Consumer */}
-              <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
+              <div className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-8 border border-gray-100">
                 <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-4 pb-4 border-b-2 border-blue-500">
                   ⚖️ Legal & Consumer Rights
                 </h3>

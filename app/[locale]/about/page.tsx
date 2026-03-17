@@ -458,15 +458,15 @@ export default function AboutPage() {
                         <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16 2xl:gap-20 3xl:gap-24 4k:gap-32 items-center">
                             {/* LEFT SIDE */}
                             <div className="space-y-6 sm:space-y-7 md:space-y-8 lg:space-y-9 3xl:space-y-12 4k:space-y-16" style={{ animation: 'fadeInUp 0.8s ease-out' }}>
-                                <h1 className="text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 3xl:text-[3.25rem] 4k:text-[4rem] leading-[1.2] font-extrabold">
-                                    <span className="block text-gray-900">About Us</span>
+                                <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 4k:text-6xl font-bold text-gray-900 leading-tight">
+                                    About Us
                                 </h1>
 
-                                <p className="text-[14px] sm:text-[15px] md:text-base lg:text-[17px] xl:text-[18px] 3xl:text-[20px] 4k:text-[2rem] text-gray-600 leading-[1.7] max-w-xl 3xl:max-w-2xl 4k:max-w-5xl font-medium">
+                                <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl leading-relaxed">
                                     Your Trusted Nordic Relocation Partner Since 2015
                                 </p>
 
-                                <p className="text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 3xl:text-[19px] 4k:text-[2rem] text-gray-600 leading-[1.6] max-w-2xl 3xl:max-w-3xl 4k:max-w-6xl">
+                                <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed max-w-2xl">
                                     We transform complex relocations into seamless journeys. From visa processing to finding your perfect home, from business setup to cultural integration—we handle every detail so you can focus on your new beginning in the Nordic region.
                                 </p>
                             </div>
@@ -497,12 +497,12 @@ export default function AboutPage() {
                     >
                         <path
                             d="M0,50 C360,80 720,80 1080,50 C1260,35 1350,20 1440,20 L1440,100 L0,100 Z"
-                            fill="white"
+                            fill="#F8F9FE"
                             opacity="0.9"
                         />
                         <path
                             d="M0,60 C360,90 720,90 1080,60 C1260,45 1350,30 1440,30 L1440,100 L0,100 Z"
-                            fill="white"
+                            fill="#F8F9FE"
                         />
                     </svg>
                 </div>
@@ -523,10 +523,10 @@ export default function AboutPage() {
                             <p className="text-blue-600 font-semibold tracking-wider uppercase text-sm sm:text-base mb-3">
                                 Who We Are
                             </p>
-                            <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-bold text-[#1a2332] leading-tight mb-6">
+                            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight mb-6">
                                 Your Trusted <span className="text-blue-600">Relocation</span> Partner
                             </h2>
-                            <div className="space-y-5 text-[#5f6c7b] text-[15px] sm:text-[16px] leading-relaxed">
+                            <div className="space-y-5 text-gray-700 text-sm sm:text-base leading-relaxed">
                                 <p>
                                     Founded in 2015, Sweden Relocators AB specializes in providing tailored relocation and mobility solutions for individuals and organizations moving to Nordic countries. We simplify the process of settling into a new country by offering comprehensive services that cater to both employers and employees.
                                 </p>
@@ -537,13 +537,6 @@ export default function AboutPage() {
                                     Our web- and app-based portal provides an innovative solution for managing relocations. Employers can oversee the progress of employee transfers, while employees can track applications, explore housing and schools, and manage expenses efficiently—all in one place.
                                 </p>
                             </div>
-                            <motion.button
-                                whileHover={{ scale: 1.05 }}
-                                whileTap={{ scale: 0.95 }}
-                                className="mt-8 px-8 py-3.5 bg-[#1a2332] text-white text-[15px] font-semibold rounded-lg hover:bg-[#2a3442] transition-colors duration-300 shadow-md"
-                            >
-                                Learn More
-                            </motion.button>
                         </motion.div>
 
                         {/* Right - Illustration with Decorative Elements */}
@@ -575,7 +568,7 @@ export default function AboutPage() {
                                 viewport={{ once: true }}
                                 animate={{ y: [-5, 5, -5] }}
                                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.4 }}
-                                className="absolute top-8 left-4 bg-white p-4 rounded-2xl shadow-xl z-10 border border-gray-100"
+                                className="absolute top-8 left-4 bg-[#F8F9FE] p-4 rounded-2xl shadow-xl z-10 border border-gray-100"
                                 style={{ transform: 'rotate(-8deg)' }}
                             >
                                 <div className="flex items-center gap-3">
@@ -591,7 +584,7 @@ export default function AboutPage() {
                                 viewport={{ once: true }}
                                 animate={{ y: [5, -5, 5] }}
                                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                                className="absolute bottom-24 left-8 bg-white p-4 rounded-2xl shadow-xl z-10 border border-gray-100"
+                                className="absolute bottom-24 left-8 bg-[#F8F9FE] p-4 rounded-2xl shadow-xl z-10 border border-gray-100"
                                 style={{ transform: 'rotate(5deg)' }}
                             >
                                 <div className="flex items-center gap-2">
@@ -639,7 +632,7 @@ export default function AboutPage() {
             </section>
 
             {/* Our Solutions Section */}
-            <section className="py-16 sm:py-20 lg:py-24 bg-white">
+            <section className="py-16 sm:py-20 lg:py-24 bg-[#F8F9FE]">
                 <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
                     
                     {/* Employer Solutions */}
@@ -677,7 +670,7 @@ export default function AboutPage() {
                                 viewport={{ once: true }}
                                 animate={{ y: [-5, 5, -5] }}
                                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.4 }}
-                                className="absolute top-12 left-8 bg-white p-4 rounded-2xl shadow-xl z-10 border border-gray-100"
+                                className="absolute top-12 left-8 bg-[#F8F9FE] p-4 rounded-2xl shadow-xl z-10 border border-gray-100"
                                 style={{ transform: 'rotate(-8deg)' }}
                             >
                                 <div className="flex items-center gap-2">
@@ -693,7 +686,7 @@ export default function AboutPage() {
                                 viewport={{ once: true }}
                                 animate={{ y: [5, -5, 5] }}
                                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-                                className="absolute bottom-20 left-12 bg-white p-3 rounded-xl shadow-xl z-10 border border-gray-100"
+                                className="absolute bottom-20 left-12 bg-[#F8F9FE] p-3 rounded-xl shadow-xl z-10 border border-gray-100"
                                 style={{ transform: 'rotate(5deg)' }}
                             >
                                 <svg className="w-6 h-6 text-green-500" fill="currentColor" viewBox="0 0 20 20">
@@ -726,12 +719,12 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                             viewport={{ once: true }}
-                            className="order-1 lg:order-2 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-r-4 border-r-blue-500"
+                            className="order-1 lg:order-2 bg-[#F8F9FE] rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-r-4 border-r-blue-500"
                         >
-                            <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-bold text-[#1a2332] leading-tight mb-4">
+                            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight mb-4">
                                 Employer Solutions
                             </h2>
-                            <p className="text-[#5f6c7b] text-[15px] sm:text-[16px] leading-relaxed mb-6">
+                            <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6">
                                 We assist employers in managing the complexities of relocating their workforce. Our comprehensive services ensure smooth transitions for your entire team.
                             </p>
                             <ul className="space-y-4 mb-8">
@@ -747,7 +740,7 @@ export default function AboutPage() {
                                         whileInView={{ opacity: 1, x: 0 }}
                                         transition={{ duration: 0.5, delay: i * 0.1 }}
                                         viewport={{ once: true }}
-                                        className="flex items-start gap-3 text-[#5f6c7b]"
+                                        className="flex items-start gap-3 text-gray-700"
                                     >
                                         <svg className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -767,12 +760,12 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                             viewport={{ once: true }}
-                            className="order-2 lg:order-1 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-l-4 border-l-blue-500"
+                            className="order-2 lg:order-1 bg-[#F8F9FE] rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-l-4 border-l-blue-500"
                         >
-                            <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-bold text-[#1a2332] leading-tight mb-4">
+                            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight mb-4">
                                 Employee & Family Solutions
                             </h2>
-                            <p className="text-[#5f6c7b] text-[15px] sm:text-[16px] leading-relaxed mb-6">
+                            <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6">
                                 For individuals and their families, we provide end-to-end support to ease their transition into their new Nordic home.
                             </p>
                             <ul className="space-y-4 mb-8">
@@ -788,7 +781,7 @@ export default function AboutPage() {
                                         whileInView={{ opacity: 1, x: 0 }}
                                         transition={{ duration: 0.5, delay: i * 0.1 }}
                                         viewport={{ once: true }}
-                                        className="flex items-start gap-3 text-[#5f6c7b]"
+                                        className="flex items-start gap-3 text-gray-700"
                                     >
                                         <svg className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -832,7 +825,7 @@ export default function AboutPage() {
                                 viewport={{ once: true }}
                                 animate={{ y: [-5, 5, -5] }}
                                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.4 }}
-                                className="absolute top-12 right-8 bg-white p-4 rounded-2xl shadow-xl z-10 border border-gray-100"
+                                className="absolute top-12 right-8 bg-[#F8F9FE] p-4 rounded-2xl shadow-xl z-10 border border-gray-100"
                                 style={{ transform: 'rotate(8deg)' }}
                             >
                                 <div className="flex items-center gap-2">
@@ -848,7 +841,7 @@ export default function AboutPage() {
                                 viewport={{ once: true }}
                                 animate={{ y: [5, -5, 5] }}
                                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-                                className="absolute bottom-20 right-12 bg-white p-3 rounded-xl shadow-xl z-10 border border-gray-100"
+                                className="absolute bottom-20 right-12 bg-[#F8F9FE] p-3 rounded-xl shadow-xl z-10 border border-gray-100"
                                 style={{ transform: 'rotate(-5deg)' }}
                             >
                                 <svg className="w-6 h-6 text-green-500" fill="currentColor" viewBox="0 0 20 20">
@@ -910,7 +903,7 @@ export default function AboutPage() {
                                 viewport={{ once: true }}
                                 animate={{ y: [-5, 5, -5] }}
                                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.4}}
-                                className="absolute top-12 left-8 bg-white p-4 rounded-2xl shadow-xl z-10 border border-gray-100"
+                                className="absolute top-12 left-8 bg-[#F8F9FE] p-4 rounded-2xl shadow-xl z-10 border border-gray-100"
                                 style={{ transform: 'rotate(-8deg)' }}
                             >
                                 <div className="flex items-center gap-2">
@@ -926,7 +919,7 @@ export default function AboutPage() {
                                 viewport={{ once: true }}
                                 animate={{ y: [5, -5, 5] }}
                                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-                                className="absolute bottom-20 left-12 bg-white p-3 rounded-xl shadow-xl z-10 border border-gray-100"
+                                className="absolute bottom-20 left-12 bg-[#F8F9FE] p-3 rounded-xl shadow-xl z-10 border border-gray-100"
                                 style={{ transform: 'rotate(5deg)' }}
                             >
                                 <svg className="w-6 h-6 text-green-500" fill="currentColor" viewBox="0 0 20 20">
@@ -958,12 +951,12 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                             viewport={{ once: true }}
-                            className="order-1 lg:order-2 bg-white rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-r-4 border-r-blue-500"
+                            className="order-1 lg:order-2 bg-[#F8F9FE] rounded-3xl p-8 sm:p-10 lg:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.08)] border-r-4 border-r-blue-500"
                         >
-                            <h2 className="text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-bold text-[#1a2332] leading-tight mb-4">
+                            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight mb-4">
                                 Nordic Relocators - Denmark
                             </h2>
-                            <div className="space-y-5 text-[#5f6c7b] text-[15px] sm:text-[16px] leading-relaxed mb-6">
+                            <div className="space-y-5 text-gray-700 text-sm sm:text-base leading-relaxed mb-6">
                                 <p>
                                     Expanding our expertise across the Nordic region, Nordic Relocators offers specialized services for moving to Denmark. Whether you're relocating an entire team or a single employee, we provide tailored solutions to address Denmark's specific requirements.
                                 </p>
@@ -974,228 +967,6 @@ export default function AboutPage() {
                         </motion.div>
                     </div>
 
-                </div>
-            </section>
-
-            {/* Specializations Section */}
-            <section className="pb-16 sm:pb-20 lg:pb-24 bg-white">
-                <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-                    {/* Header */}
-                    <div className="mb-12 sm:mb-16">
-                        <div className="bg-blue-50 rounded-lg border-l-4 border-blue-500 px-4 sm:px-5 py-3 sm:py-4">
-                            <div className="w-full text-center px-4 sm:px-6 lg:px-8 xl:px-12">
-                                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-2">
-                                    Specializations
-                                </h2>
-                                <p className="text-base sm:text-lg text-blue-600 font-semibold">
-                                    What we do best
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Cards Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 xl:gap-4 overflow-visible">
-                        {/* Student Admission Services */}
-                        <motion.div
-                            initial={{ opacity: 1, x: 190, y: -12, rotate: -8, scale: 0.94 }}
-                            whileInView={{ opacity: 1, x: 0, y: 0, rotate: 0, scale: 1 }}
-                            transition={{ 
-                                duration: 1.2, 
-                                delay: 0.25, 
-                                ease: [0.16, 1, 0.3, 1],
-                                type: "spring",
-                                stiffness: 60,
-                                damping: 20
-                            }}
-                            viewport={{ once: true, amount: 0.2 }}
-                            className="bg-white rounded-2xl border border-gray-100 border-b-4 border-b-blue-500 min-h-[360px] lg:min-h-[390px] xl:min-h-[430px] shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
-                        >
-                            <div className="flex flex-col h-full">
-                                <div className="w-full h-40 sm:h-44 md:h-48 bg-[#FAFBFC] flex items-center justify-center rounded-t-2xl relative" style={{ boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)' }}>
-                                    <LightRays
-                                        raysOrigin="top-center"
-                                        raysColor="#3b82f6"
-                                        raysSpeed={1}
-                                        lightSpread={0.4}
-                                        rayLength={3}
-                                        followMouse={true}
-                                        mouseInfluence={0.12}
-                                        noiseAmount={0}
-                                        distortion={0}
-                                        pulsating={false}
-                                        fadeDistance={1}
-                                        saturation={1}
-                                    />
-                                    <div className="flex items-center justify-center relative z-10">
-                                        <Image
-                                            src="/services/s4.svg"
-                                            alt="Student Admission Services"
-                                            width={140}
-                                            height={140}
-                                            className="object-contain"
-                                        />
-                                    </div>
-                                </div>
-                                <div className="flex flex-col items-center text-center p-8 xl:p-5 2xl:p-6">
-                                    <h3 className="text-xl xl:text-lg 2xl:text-xl font-bold text-gray-900 mb-3 leading-tight">Student Admission Services</h3>
-                                <p className="text-gray-600 text-[15px] xl:text-[14px] 2xl:text-[15px] leading-relaxed break-words">
-                                    Assistance in choosing the right degree program and residence permit processing for international students.
-                                </p>
-                            </div>
-                            </div>
-                        </motion.div>
-
-                        {/* Work & Business */}
-                        <motion.div
-                            initial={{ opacity: 1, x: 70, y: -28, rotate: -3, scale: 0.98 }}
-                            whileInView={{ opacity: 1, x: 0, y: 0, rotate: 0, scale: 1 }}
-                            transition={{ 
-                                duration: 1.2, 
-                                delay: 0.35, 
-                                ease: [0.16, 1, 0.3, 1],
-                                type: "spring",
-                                stiffness: 60,
-                                damping: 20
-                            }}
-                            viewport={{ once: true, amount: 0.2 }}
-                            className="bg-white rounded-2xl border border-gray-100 border-b-4 border-b-blue-500 min-h-[360px] lg:min-h-[390px] xl:min-h-[430px] shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
-                        >
-                            <div className="flex flex-col h-full">
-                                <div className="w-full h-40 sm:h-44 md:h-48 bg-[#FAFBFC] flex items-center justify-center rounded-t-2xl relative" style={{ boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)' }}>
-                                    <LightRays
-                                        raysOrigin="top-center"
-                                        raysColor="#3b82f6"
-                                        raysSpeed={1}
-                                        lightSpread={0.4}
-                                        rayLength={3}
-                                        followMouse={true}
-                                        mouseInfluence={0.12}
-                                        noiseAmount={0}
-                                        distortion={0}
-                                        pulsating={false}
-                                        fadeDistance={1}
-                                        saturation={1}
-                                    />
-                                    <div className="flex items-center justify-center relative z-10">
-                                        <Image
-                                            src="/services/s18.svg"
-                                            alt="Work & Business"
-                                            width={140}
-                                            height={140}
-                                            className="object-contain"
-                                        />
-                                    </div>
-                                </div>
-                                <div className="flex flex-col items-center text-center p-8 xl:p-5 2xl:p-6">
-                                    <h3 className="text-xl xl:text-lg 2xl:text-xl font-bold text-gray-900 mb-3 leading-tight">Work & Business</h3>
-                                <p className="text-gray-600 text-[15px] xl:text-[14px] 2xl:text-[15px] leading-relaxed break-words">
-                                    Assistance in registering a business, buying a new business, and preparing work permit applications for employees and employers.
-                                </p>
-                            </div>
-                            </div>
-                        </motion.div>
-
-                        {/* Family Relocation */}
-                        <motion.div
-                            initial={{ opacity: 1, x: -70, y: -28, rotate: 3, scale: 0.98 }}
-                            whileInView={{ opacity: 1, x: 0, y: 0, rotate: 0, scale: 1 }}
-                            transition={{ 
-                                duration: 1.2, 
-                                delay: 0.45, 
-                                ease: [0.16, 1, 0.3, 1],
-                                type: "spring",
-                                stiffness: 60,
-                                damping: 20
-                            }}
-                            viewport={{ once: true, amount: 0.2 }}
-                            className="bg-white rounded-2xl border border-gray-100 border-b-4 border-b-blue-500 min-h-[360px] lg:min-h-[390px] xl:min-h-[430px] shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
-                        >
-                            <div className="flex flex-col h-full">
-                                <div className="w-full h-40 sm:h-44 md:h-48 bg-[#FAFBFC] flex items-center justify-center rounded-t-2xl relative" style={{ boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)' }}>
-                                    <LightRays
-                                        raysOrigin="top-center"
-                                        raysColor="#3b82f6"
-                                        raysSpeed={1}
-                                        lightSpread={0.4}
-                                        rayLength={3}
-                                        followMouse={true}
-                                        mouseInfluence={0.12}
-                                        noiseAmount={0}
-                                        distortion={0}
-                                        pulsating={false}
-                                        fadeDistance={1}
-                                        saturation={1}
-                                    />
-                                    <div className="flex items-center justify-center relative z-10">
-                                        <Image
-                                            src="/services/s6.svg"
-                                            alt="Family Relocation"
-                                            width={140}
-                                            height={140}
-                                            className="object-contain"
-                                        />
-                                    </div>
-                                </div>
-                                <div className="flex flex-col items-center text-center p-8 xl:p-5 2xl:p-6">
-                                    <h3 className="text-xl xl:text-lg 2xl:text-xl font-bold text-gray-900 mb-3 leading-tight">Family Relocation</h3>
-                                <p className="text-gray-600 text-[15px] xl:text-[14px] 2xl:text-[15px] leading-relaxed break-words">
-                                    We provide assistance in your family visa processing including your dependent parents and other family members.
-                                </p>
-                            </div>
-                            </div>
-                         </motion.div>
-
-                        {/* Investment Solutions */}
-                        <motion.div
-                            initial={{ opacity: 1, x: -190, y: -12, rotate: 8, scale: 0.94 }}
-                            whileInView={{ opacity: 1, x: 0, y: 0, rotate: 0, scale: 1 }}
-                            transition={{ 
-                                duration: 1.2, 
-                                delay: 0.55, 
-                                ease: [0.16, 1, 0.3, 1],
-                                type: "spring",
-                                stiffness: 60,
-                                damping: 20
-                            }}
-                            viewport={{ once: true, amount: 0.2 }}
-                            className="bg-white rounded-2xl border border-gray-100 border-b-4 border-b-blue-500 min-h-[360px] lg:min-h-[390px] xl:min-h-[430px] shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
-                        >
-                            <div className="flex flex-col h-full">
-                                <div className="w-full h-40 sm:h-44 md:h-48 bg-[#FAFBFC] flex items-center justify-center rounded-t-2xl relative" style={{ boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)' }}>
-                                    <LightRays
-                                        raysOrigin="top-center"
-                                        raysColor="#3b82f6"
-                                        raysSpeed={1}
-                                        lightSpread={0.4}
-                                        rayLength={3}
-                                        followMouse={true}
-                                        mouseInfluence={0.12}
-                                        noiseAmount={0}
-                                        distortion={0}
-                                        pulsating={false}
-                                        fadeDistance={1}
-                                        saturation={1}
-                                    />
-                                    <div className="flex items-center justify-center relative z-10">
-                                        <Image
-                                            src="/investment-solutions.svg"
-                                            alt="Investment Solutions"
-                                            width={140}
-                                            height={140}
-                                            className="object-contain"
-                                        />
-                                    </div>
-                                </div>
-                                <div className="flex flex-col items-center text-center p-8 xl:p-5 2xl:p-6">
-                                    <h3 className="text-xl xl:text-lg 2xl:text-xl font-bold text-gray-900 mb-3 leading-tight">Investment Solutions</h3>
-                                <p className="text-gray-600 text-[15px] xl:text-[14px] 2xl:text-[15px] leading-relaxed break-words">
-                                    There are various opportunities for business ventures, look for the best opportunity to build your future.
-                                </p>
-                            </div>
-                            </div>
-                        </motion.div>
-                    </div>
                 </div>
             </section>
         </main>
