@@ -4,9 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useForm, FormProvider } from 'react-hook-form';
 import Image from 'next/image';
-import MenuItem from '@mui/material/MenuItem';
 import Navbar from '../../components/Navbar';
-import { RHFSelect } from '../../components/fields/rhf-select';
 import { RHFTextField } from '../../components/fields/rhf-text-field';
 import { RHFTextarea } from '../../components/fields/rhf-textarea';
 import { RHFUpload } from '../../components/fields/rhf-upload';
@@ -66,7 +64,7 @@ export default function CareerPage() {
     },
   });
 
-  const { handleSubmit, setValue, reset } = methods;
+  const { handleSubmit, setValue, reset, register, formState: { errors } } = methods;
 
   useEffect(() => {
     if (i18n.isInitialized) {
@@ -649,22 +647,33 @@ export default function CareerPage() {
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-5 sm:space-y-6">
                   {/* Position Dropdown */}
                   <div>
-                    <RHFSelect
-                      name="position"
-                      label={addAsterisk(t('career.applicationForm.fields.position'))}
-                      helperText=""
-                      rules={{ required: 'Position is required' }}
-                      sx={{}}
-                    >
-                      <MenuItem value="">
-                        <em>Select a position</em>
-                      </MenuItem>
-                      {positions.map((pos) => (
-                        <MenuItem key={pos.id} value={pos.title}>
-                          {pos.title}
-                        </MenuItem>
-                      ))}
-                    </RHFSelect>
+                    <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5">
+                      {t('career.applicationForm.fields.position')}
+                      <span className="text-red-500 ml-1">*</span>
+                    </label>
+                    <div className="relative">
+                      <select
+                        {...register('position', { required: 'Position is required' })}
+                        className={`w-full appearance-none bg-[#F4F6F8] border rounded-lg px-4 py-3 pr-10 text-xs sm:text-sm lg:text-base text-gray-800 outline-none transition-colors cursor-pointer
+                          ${errors.position ? 'border-red-400 focus:border-red-500' : 'border-gray-200 focus:border-[#247FE1]'}`}
+                      >
+                        <option value="">Select a position</option>
+                        {positions.map((pos) => (
+                          <option key={pos.id} value={pos.title}>
+                            {pos.title}
+                          </option>
+                        ))}
+                      </select>
+                      {/* Custom chevron */}
+                      <div className="pointer-events-none absolute inset-y-0 right-3 flex items-center">
+                        <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </div>
+                    </div>
+                    {errors.position && (
+                      <p className="mt-1 text-xs text-red-500">{errors.position.message as string}</p>
+                    )}
                   </div>
 
                   {/* Full Name & Email - 2 columns */}

@@ -1,23 +1,109 @@
 'use client';
 
 import Navbar from '../../components/Navbar';
-import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
-import Button from '@mui/material/Button';
 
-const fadeInUp = `
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-`;
+const INDUSTRY_PROFESSIONALS = [
+  { label: 'Immigration Consultant', icon: '⚖️' },
+  { label: 'Freelancer / Independent Expert', icon: '🧑‍💻' },
+  { label: 'Property Broker', icon: '🏠' },
+  { label: 'Relocation Company', icon: '🚚' },
+  { label: 'Immigration Firm', icon: '🏛️' },
+  { label: 'Lawyer / Legal Advisor / Law Firm', icon: '📜' },
+  { label: 'Visa & Travel Consultant', icon: '✈️' },
+  { label: 'Self Employed Specialist', icon: '💼' },
+  { label: 'University / Education Provider', icon: '🎓' },
+];
+
+const SERVICE_PROVIDERS = [
+  { label: 'Expat & Business Support Services', icon: '🌍' },
+  { label: 'Health Insurance Companies', icon: '🏥' },
+  { label: 'Logistics Partners', icon: '📦' },
+  { label: 'Pet Relocation Firms', icon: '🐾' },
+  { label: 'Accounting Firms', icon: '📊' },
+  { label: 'Money Transfer Firms', icon: '💳' },
+  { label: 'Property Management Firms', icon: '🏢' },
+];
+
+const BENEFITS = [
+  {
+    title: 'Qualified Client Pipeline',
+    description: 'Access a steady stream of pre-screened, ready-to-act clients who need exactly what you offer. No cold outreach. Every lead is already in motion.',
+    accent: 'bg-blue-50 border-blue-200',
+    dot: 'bg-blue-500',
+  },
+  {
+    title: 'Zero Office Overhead',
+    description: 'Expand your service reach across Sweden and the Nordics without opening new offices or hiring extra staff. Grow through the platform.',
+    accent: 'bg-green-50 border-green-200',
+    dot: 'bg-green-500',
+  },
+  {
+    title: 'Transparent Commissions',
+    description: 'Every referral, every conversion, every payment tracked in real time on your dashboard. No black box. No chasing invoices.',
+    accent: 'bg-purple-50 border-purple-200',
+    dot: 'bg-purple-500',
+  },
+  {
+    title: 'One Verified Profile',
+    description: 'Your credentials, services, pricing, and availability in one digital profile. Clients and the RELOFY system match you automatically.',
+    accent: 'bg-orange-50 border-orange-200',
+    dot: 'bg-orange-500',
+  },
+  {
+    title: 'GDPR-Compliant by Design',
+    description: 'You only see the client data you need, when you need it. Privacy-first architecture protects both you and your clients.',
+    accent: 'bg-red-50 border-red-200',
+    dot: 'bg-red-500',
+  },
+  {
+    title: 'Cross-Referral Network',
+    description: 'Partners refer clients to each other within the network. A property broker refers to an immigration consultant. A law firm refers to a relocation company. Everyone grows.',
+    accent: 'bg-indigo-50 border-indigo-200',
+    dot: 'bg-indigo-500',
+  },
+];
+
+const HOW_IT_WORKS = [
+  {
+    step: '01',
+    title: 'Apply & Get Verified',
+    description: 'Submit your partner application through the portal. Our team reviews your credentials, company registration, and service area. Verified partners gain full access.',
+    color: 'text-[#247FE1]',
+    bg: 'bg-[#EBF4FF]',
+  },
+  {
+    step: '02',
+    title: 'Build Your Profile',
+    description: 'Set up your one digital profile: specialisations, pricing, availability, languages, and coverage area. This is what the system uses to match you with clients.',
+    color: 'text-green-600',
+    bg: 'bg-green-50',
+  },
+  {
+    step: '03',
+    title: 'Receive Matched Leads',
+    description: "When a client's case matches your profile, you receive a notification. Review the case, accept or decline. You are always in control.",
+    color: 'text-purple-600',
+    bg: 'bg-purple-50',
+  },
+  {
+    step: '04',
+    title: 'Deliver & Earn',
+    description: 'Complete the service, update milestones on the platform, and get paid. Commissions are tracked automatically and paid on confirmed conversions.',
+    color: 'text-orange-600',
+    bg: 'bg-orange-50',
+  },
+];
+
+const TRUST_POINTS = [
+  { label: 'Identity & credential verification for all partners', icon: '🔐' },
+  { label: 'Client KYC and document validation before case assignment', icon: '📋' },
+  { label: 'Fraud prevention built into the intake process', icon: '🛡️' },
+  { label: "GDPR-compliant data sharing. Only what's needed, when it's needed", icon: '🔒' },
+  { label: 'All commissions recorded and traceable on your dashboard', icon: '📈' },
+  { label: 'Professional standards enforced across the network', icon: '✅' },
+];
 
 export default function PartnersPage() {
   const { t, i18n } = useTranslation();
@@ -31,498 +117,469 @@ export default function PartnersPage() {
     }
   }, [i18n]);
 
-  if (!isReady) {
-    return null;
-  }
-
-  // Get all translation data
-  const heroData = (t('partners.hero', { returnObjects: true }) || {}) as any;
-  const coreValuesData = (t('partners.coreValues', { returnObjects: true }) || {}) as any;
-  const whoCanData = (t('partners.whoCan', { returnObjects: true }) || {}) as any;
-  const howitWorksData = (t('partners.howitWorks', { returnObjects: true }) || {}) as any;
-  const oneProfileData = (t('partners.oneProfile', { returnObjects: true }) || {}) as any;
-  const networkGrowthData = (t('partners.networkGrowth', { returnObjects: true }) || {}) as any;
-  const scenariosData = (t('partners.scenarios', { returnObjects: true }) || {}) as any;
-  const complianceData = (t('partners.compliance', { returnObjects: true }) || {}) as any;
-  const territoryData = (t('partners.territory', { returnObjects: true }) || {}) as any;
-  const feesData = (t('partners.fees', { returnObjects: true }) || {}) as any;
-  const summaryData = (t('partners.summary', { returnObjects: true }) || {}) as any;
-  const ctaData = (t('partners.cta', { returnObjects: true }) || {}) as any;
+  if (!isReady) return null;
 
   return (
-    <div className="min-h-screen bg-white pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
-      <style>{fadeInUp}</style>
+    <div className="min-h-screen bg-[#F8F9FE]">
       <Navbar />
-      
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-        {/* Hero Section */}
-        <section className="mb-12 sm:mb-16 lg:mb-20">
-          <div className="space-y-4 sm:space-y-6 mb-8">
-            <h1 className="text-3xl xs:text-3.5xl sm:text-4xl lg:text-5xl xl:text-6xl 4k:text-7xl font-extrabold text-gray-900 leading-tight">
-              {heroData.mainTitle}
-            </h1>
-            <p className="text-lg sm:text-xl lg:text-2xl text-blue-600 font-semibold">
-              {heroData.poweredBy}
-            </p>
-            <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-3xl leading-relaxed">
-              {heroData.tagline}
-            </p>
-          </div>
 
-          {/* Core Value Propositions */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mt-8">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 rounded-xl p-5 sm:p-6 lg:p-7 border border-blue-200">
-              <div>
-                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">{coreValuesData.verified?.title}</h3>
-                <p className="text-xs sm:text-sm lg:text-base text-gray-700">{coreValuesData.verified?.description}</p>
-              </div>
-            </div>
+      {/* ── HERO ─────────────────────────────────────────────── */}
+      <section className="pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] pb-20 sm:pb-24 lg:pb-28 bg-[#F8F9FE]">
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-            <div className="bg-gradient-to-br from-green-50 to-green-100/50 rounded-xl p-5 sm:p-6 lg:p-7 border border-green-200">
-              <div>
-                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">{coreValuesData.protected?.title}</h3>
-                <p className="text-xs sm:text-sm lg:text-base text-gray-700">{coreValuesData.protected?.description}</p>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100/50 rounded-xl p-5 sm:p-6 lg:p-7 border border-purple-200">
-              <div>
-                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">{coreValuesData.global?.title}</h3>
-                <p className="text-xs sm:text-sm lg:text-base text-gray-700">{coreValuesData.global?.description}</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Who Can Join - List View with Illustration */}
-        <section className="mb-16 sm:mb-20 lg:mb-24 py-12">
-          {/* Heading + List + Image in one grid so image aligns with heading */}
-          <div className="grid lg:grid-cols-2 gap-8 items-start">
+            {/* Left — copy */}
             <div>
-              <div className="mb-6 sm:mb-8">
-                <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-gray-900 mb-4">
-                  {whoCanData.heading}
-                </h2>
-                <p className="text-base sm:text-lg text-gray-600 max-w-3xl">
-                  {whoCanData.intro}
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 4k:text-6xl font-bold text-gray-900 leading-tight mb-4 sm:mb-6">
+                Grow Your Business.<br />
+                <span className="text-[#247FE1]">Join the Network</span> That<br />
+                Moves People Forward.
+              </h1>
+
+              <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-xl leading-relaxed mb-8">
+                RELOFY is Sweden Relocators' verified partner ecosystem, connecting immigration professionals, legal experts, property specialists, and service providers with qualified clients across the Nordic region and beyond.
+              </p>
+
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="https://portal.swedenrelocators.se/partner-signup/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-black text-white text-sm sm:text-base font-semibold rounded-full hover:bg-gray-800 transition-colors shadow-md"
+                >
+                  Become a Partner
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </a>
+                <a
+                  href="#how-it-works"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-white text-gray-800 text-sm sm:text-base font-semibold rounded-full border border-gray-200 hover:border-gray-400 transition-colors"
+                >
+                  See How It Works
+                </a>
+              </div>
+
+              {/* Mini stats */}
+              <div className="flex flex-wrap gap-8 mt-10 pt-10 border-t border-gray-200">
+                {[
+                  { value: '4', label: 'Countries' },
+                  { value: '21+', label: 'Service Categories' },
+                  { value: '19+', label: 'Languages Served' },
+                  { value: '2015', label: 'Established' },
+                ].map((stat) => (
+                  <div key={stat.label}>
+                    <p className="text-xl sm:text-2xl font-bold text-gray-900">{stat.value}</p>
+                    <p className="text-xs sm:text-sm text-gray-500">{stat.label}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right — visual placeholder */}
+            <div className="hidden lg:flex items-center justify-center">
+              <div className="w-full max-w-[480px] aspect-square rounded-3xl border-2 border-dashed border-gray-300 bg-white flex flex-col items-center justify-center gap-3 text-gray-400">
+                <svg className="w-12 h-12 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <p className="text-sm font-medium text-gray-400">Visual — Napkin AI</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ── WHO CAN JOIN ─────────────────────────────────────── */}
+      <section className="py-16 sm:py-20 lg:py-24 bg-white">
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3">
+              Who Can Join RELOFY?
+            </h2>
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto">
+              Two distinct partner tracks, each designed to match the way you already work.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-10">
+
+            {/* Industry Professionals */}
+            <div className="bg-[#F8F9FE] rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
+              <div className="bg-[#0f172a] px-6 sm:px-8 py-5 flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full bg-[#247FE1]/20 flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-[#247FE1]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-base sm:text-lg font-bold text-white">Industry Professionals</h3>
+                  <p className="text-xs sm:text-sm text-white/60">Experts who guide clients through the process</p>
+                </div>
+              </div>
+              <div className="p-6 sm:p-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {INDUSTRY_PROFESSIONALS.map((item) => (
+                    <div
+                      key={item.label}
+                      className="flex items-center gap-3 bg-white rounded-xl px-4 py-3 border border-gray-100 hover:border-[#247FE1]/40 hover:shadow-sm transition-all duration-200"
+                    >
+                      <span className="text-lg flex-shrink-0">{item.icon}</span>
+                      <span className="text-xs sm:text-sm font-medium text-gray-800 leading-snug">{item.label}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Service Providers */}
+            <div className="bg-[#F8F9FE] rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
+              <div className="bg-[#0f172a] px-6 sm:px-8 py-5 flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full bg-green-400/20 flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-base sm:text-lg font-bold text-white">Service Providers</h3>
+                  <p className="text-xs sm:text-sm text-white/60">Companies that deliver on-the-ground services</p>
+                </div>
+              </div>
+              <div className="p-6 sm:p-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {SERVICE_PROVIDERS.map((item) => (
+                    <div
+                      key={item.label}
+                      className="flex items-center gap-3 bg-white rounded-xl px-4 py-3 border border-gray-100 hover:border-green-400/50 hover:shadow-sm transition-all duration-200"
+                    >
+                      <span className="text-lg flex-shrink-0">{item.icon}</span>
+                      <span className="text-xs sm:text-sm font-medium text-gray-800 leading-snug">{item.label}</span>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Visual placeholder inside card */}
+                <div className="mt-6 w-full h-36 rounded-xl border-2 border-dashed border-gray-200 bg-[#F8F9FE] flex flex-col items-center justify-center gap-2 text-gray-400">
+                  <svg className="w-7 h-7 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                  <p className="text-xs font-medium">Visual — Napkin AI</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Callout */}
+          <div className="mt-10 bg-[#EBF4FF] border-l-4 border-[#247FE1] rounded-xl px-6 sm:px-8 py-5 sm:py-6">
+            <p className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900">
+              ✓ Whether you work independently or run a firm, if you serve people relocating to or from Sweden, RELOFY has a place for you.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ── WHY JOIN ─────────────────────────────────────────── */}
+      <section className="py-16 sm:py-20 lg:py-24 bg-[#F8F9FE]">
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+
+          <div className="mb-12 sm:mb-16">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3">
+              What You Get as a Partner
+            </h2>
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl">
+              RELOFY isn't just a referral list. It's a structured business growth platform built for relocation professionals.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+            {BENEFITS.map((benefit) => (
+              <div
+                key={benefit.title}
+                className={`rounded-2xl border p-6 sm:p-7 ${benefit.accent} hover:shadow-md transition-shadow duration-300`}
+              >
+                <div className={`w-3 h-3 rounded-full ${benefit.dot} mb-4`} />
+                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
+                  {benefit.title}
+                </h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                  {benefit.description}
                 </p>
               </div>
-              {/* List View */}
-              <div className="space-y-4 sm:space-y-6 mb-12">
-            {/* Immigration & Legal */}
-            <div className="flex items-start gap-4 sm:gap-6 p-5 sm:p-6 border border-gray-200 rounded-lg hover:border-blue-400 hover:bg-blue-50/30 transition-all duration-300">
-              <div className="text-3xl sm:text-4xl flex-shrink-0 mt-1">⚖️</div>
-              <div className="flex-1">
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2">{whoCanData.immigration?.title}</h3>
-                <p className="text-sm sm:text-base text-gray-600">{whoCanData.immigration?.description}</p>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
+      {/* ── HOW IT WORKS ─────────────────────────────────────── */}
+      <section id="how-it-works" className="py-16 sm:py-20 lg:py-24 bg-white">
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+            <div>
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3">
+                How RELOFY Works
+              </h2>
+              <p className="text-base sm:text-lg lg:text-xl text-gray-600 mb-10">
+                From application to active partnership. A clear, protected process that puts you in control.
+              </p>
+
+              <div className="space-y-6">
+                {HOW_IT_WORKS.map((step, idx) => (
+                  <div key={step.step} className="flex gap-5">
+                    <div className={`w-12 h-12 rounded-2xl ${step.bg} flex items-center justify-center flex-shrink-0`}>
+                      <span className={`text-sm font-bold ${step.color}`}>{step.step}</span>
+                    </div>
+                    <div className="pt-1">
+                      <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-1">{step.title}</h3>
+                      <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">{step.description}</p>
+                      {idx < HOW_IT_WORKS.length - 1 && (
+                        <div className="mt-4 ml-[-29px] pl-[29px] border-l-2 border-dashed border-gray-200 h-4" />
+                      )}
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
 
-            {/* Relocation & Destination */}
-            <div className="flex items-start gap-4 sm:gap-6 p-5 sm:p-6 border border-gray-200 rounded-lg hover:border-green-400 hover:bg-green-50/30 transition-all duration-300">
-              <div className="text-3xl sm:text-4xl flex-shrink-0 mt-1">🏠</div>
-              <div className="flex-1">
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2">{whoCanData.relocation?.title}</h3>
-                <p className="text-sm sm:text-base text-gray-600">{whoCanData.relocation?.description}</p>
-              </div>
-            </div>
-
-            {/* Housing & Property */}
-            <div className="flex items-start gap-4 sm:gap-6 p-5 sm:p-6 border border-gray-200 rounded-lg hover:border-yellow-400 hover:bg-yellow-50/30 transition-all duration-300">
-              <div className="text-3xl sm:text-4xl flex-shrink-0 mt-1">🏢</div>
-              <div className="flex-1">
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2">{whoCanData.housing?.title}</h3>
-                <p className="text-sm sm:text-base text-gray-600">{whoCanData.housing?.description}</p>
-              </div>
-            </div>
-
-            {/* Corporate & Compliance */}
-            <div className="flex items-start gap-4 sm:gap-6 p-5 sm:p-6 border border-gray-200 rounded-lg hover:border-purple-400 hover:bg-purple-50/30 transition-all duration-300">
-              <div className="text-3xl sm:text-4xl flex-shrink-0 mt-1">📊</div>
-              <div className="flex-1">
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2">{whoCanData.corporate?.title}</h3>
-                <p className="text-sm sm:text-base text-gray-600">{whoCanData.corporate?.description}</p>
-              </div>
-            </div>
-
-            {/* Logistics & Mobility */}
-            <div className="flex items-start gap-4 sm:gap-6 p-5 sm:p-6 border border-gray-200 rounded-lg hover:border-red-400 hover:bg-red-50/30 transition-all duration-300">
-              <div className="text-3xl sm:text-4xl flex-shrink-0 mt-1">🚚</div>
-              <div className="flex-1">
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2">{whoCanData.logistics?.title}</h3>
-                <p className="text-sm sm:text-base text-gray-600">{whoCanData.logistics?.description}</p>
-              </div>
-            </div>
-
-            {/* Financial & Insurance */}
-            <div className="flex items-start gap-4 sm:gap-6 p-5 sm:p-6 border border-gray-200 rounded-lg hover:border-orange-400 hover:bg-orange-50/30 transition-all duration-300">
-              <div className="text-3xl sm:text-4xl flex-shrink-0 mt-1">💰</div>
-              <div className="flex-1">
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2">{whoCanData.financial?.title}</h3>
-                <p className="text-sm sm:text-base text-gray-600">{whoCanData.financial?.description}</p>
-              </div>
-            </div>
-
-            {/* Business & Investment Support */}
-            <div className="flex items-start gap-4 sm:gap-6 p-5 sm:p-6 border border-gray-200 rounded-lg hover:border-indigo-400 hover:bg-indigo-50/30 transition-all duration-300">
-              <div className="text-3xl sm:text-4xl flex-shrink-0 mt-1">💼</div>
-              <div className="flex-1">
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2">{whoCanData.business?.title}</h3>
-                <p className="text-sm sm:text-base text-gray-600">{whoCanData.business?.description}</p>
-              </div>
-            </div>
-              </div>
-            </div>
-
-            {/* Illustration */}
-            <div className="hidden lg:flex justify-center">
-              <div className="rounded-2xl overflow-hidden shadow-[0_20px_60px_rgba(15,23,42,0.15)] border border-gray-200 bg-white w-[85%] max-w-[520px]">
-                <Image
-                  src="/understanding-partner.jpeg"
-                  alt="Understanding the Partner Program"
-                  width={520}
-                  height={520}
-                  style={{ width: '100%', height: 'auto', display: 'block' }}
-                  priority
-                />
+            {/* Visual placeholder */}
+            <div className="lg:sticky lg:top-32">
+              <div className="w-full aspect-[4/3] rounded-3xl border-2 border-dashed border-gray-300 bg-[#F8F9FE] flex flex-col items-center justify-center gap-3 text-gray-400">
+                <svg className="w-12 h-12 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <p className="text-sm font-medium text-gray-400">How It Works Flow — Napkin AI</p>
               </div>
             </div>
           </div>
 
-          {/* Motivational callout */}
-          <div className="p-6 sm:p-8 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl border-l-4 border-blue-600">
-            <p className="text-base sm:text-lg lg:text-xl text-gray-900 font-semibold">
-              ✓ {whoCanData.quote}
-            </p>
-          </div>
-        </section>
+        </div>
+      </section>
 
-        {/* The System - Lead to Client to Delivery */}
-        <section className="mb-16 sm:mb-20 lg:mb-24 py-12">
-          <div className="mb-12 sm:mb-14">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-gray-900 mb-4">
-              How RELOFY Works
+      {/* ── ONE PROFILE SYSTEM ───────────────────────────────── */}
+      <section className="py-16 sm:py-20 lg:py-24 bg-[#0f172a]">
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div>
+              <div className="inline-flex items-center gap-2 bg-white/10 text-white text-xs sm:text-sm font-semibold px-4 py-2 rounded-full mb-6">
+                Your Biggest Advantage
+              </div>
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-4">
+                The One Profile System
+              </h2>
+              <p className="text-base sm:text-lg text-white/70 leading-relaxed mb-8">
+                One verified digital profile is all you need. Your credentials, services, pricing, availability, and coverage area in one place. The RELOFY system automatically matches you with the right clients.
+              </p>
+
+              <div className="space-y-4">
+                {[
+                  { label: 'Verified identity & company registration', desc: 'Your profile is backed by real verification. Clients trust you before you even speak.' },
+                  { label: 'Document vault & checklist tracking', desc: 'Every case has its own secure space. Nothing falls through the cracks.' },
+                  { label: 'Privacy by design', desc: 'Only the partners who need specific data receive it: housing, immigration, legal, logistics. Each sees only their part.' },
+                  { label: 'Real-time milestone tracking', desc: 'You, the client, and Sweden Relocators all see progress at the same time. Total transparency.' },
+                ].map((item) => (
+                  <div key={item.label} className="flex items-start gap-4 bg-white/5 rounded-xl px-5 py-4 border border-white/10">
+                    <div className="w-5 h-5 rounded-full bg-[#247FE1] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="text-xs sm:text-sm font-semibold text-white mb-0.5">{item.label}</p>
+                      <p className="text-xs text-white/60 leading-relaxed">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Visual placeholder */}
+            <div className="w-full aspect-square rounded-3xl border-2 border-dashed border-white/20 bg-white/5 flex flex-col items-center justify-center gap-3 text-white/30">
+              <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              <p className="text-sm font-medium">One Profile Visual — Napkin AI</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ── TRUST & COMPLIANCE ───────────────────────────────── */}
+      <section className="py-16 sm:py-20 lg:py-24 bg-[#F8F9FE]">
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+
+            {/* Visual placeholder */}
+            <div className="hidden lg:flex w-full aspect-[4/3] rounded-3xl border-2 border-dashed border-gray-300 bg-white items-center justify-center gap-3 text-gray-400 flex-col">
+              <svg className="w-12 h-12 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              <p className="text-sm font-medium text-gray-400">Trust Framework — Napkin AI</p>
+            </div>
+
+            <div>
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3">
+                Built on Trust. Protected by Design.
+              </h2>
+              <p className="text-base sm:text-lg lg:text-xl text-gray-600 mb-8 leading-relaxed">
+                We protect both partners and clients with verified processes, professional standards, and transparent financial flows.
+              </p>
+
+              <div className="space-y-3">
+                {TRUST_POINTS.map((point) => (
+                  <div key={point.label} className="flex items-start gap-4 bg-white rounded-xl px-5 py-4 border border-gray-100 shadow-sm">
+                    <span className="text-xl flex-shrink-0">{point.icon}</span>
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">{point.label}</p>
+                  </div>
+                ))}
+              </div>
+
+              {/* Commission clarity */}
+              <div className="mt-8 rounded-2xl bg-[#EBF4FF] border-l-4 border-[#247FE1] p-6">
+                <h3 className="text-sm sm:text-base font-bold text-gray-900 mb-3">How Commissions Work</h3>
+                <div className="space-y-2 text-xs sm:text-sm text-gray-700">
+                  <p>• You submit your services and pricing to your profile</p>
+                  <p>• When a client converts, the commission is automatically recorded</p>
+                  <p>• Payments are traceable on your dashboard. No chasing required</p>
+                  <p>• No hidden fees. No ambiguity. What you see is what you earn.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* ── REAL SCENARIOS ───────────────────────────────────── */}
+      <section className="py-16 sm:py-20 lg:py-24 bg-white">
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+
+          <div className="text-center mb-12 sm:mb-14">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3">
+              Real Scenarios. Real Growth.
             </h2>
-            <p className="text-base sm:text-lg text-gray-600 max-w-3xl">
-              {howitWorksData.intro} From first touch to active partnership, the system is designed to protect both partners and clients.
+            <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
+              See how partners across different specialisations grow within the RELOFY network.
             </p>
           </div>
 
-          {/* Two-part flow visualization */}
-          <div className="grid lg:grid-cols-2 gap-8 mb-12">
-            {/* Stage 1: Lead */}
-            <div className="bg-blue-50 rounded-2xl p-8 border-2 border-blue-200">
-              <div className="flex items-start gap-4 mb-6">
-                <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg flex-shrink-0">1</div>
-                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mt-1">{howitWorksData.stage1?.title}</h3>
-              </div>
-              <p className="text-gray-700 mb-6 leading-relaxed">{howitWorksData.stage1?.description}</p>
-              
-              <div className="space-y-3 mb-6 bg-white rounded-lg p-5">
-                <p className="text-xs uppercase tracking-wide text-blue-600 font-semibold">Entry Points:</p>
-                <div className="space-y-2">
-                  <p className="text-sm text-gray-700">• {howitWorksData.stage1?.entry1}</p>
-                  <p className="text-sm text-gray-700">• {howitWorksData.stage1?.entry2}</p>
-                  <p className="text-sm text-gray-700">• {howitWorksData.stage1?.entry3}</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+            {[
+              {
+                role: 'Immigration Consultant',
+                scenario: 'A client arrives on the platform needing a work permit. You handle the permit. The system assigns a housing partner and an accountant automatically. Everyone delivers. Everyone earns.',
+                border: 'border-blue-200',
+                tag: 'Industry Professional',
+                tagColor: 'bg-blue-50 text-blue-700',
+              },
+              {
+                role: 'Property Broker',
+                scenario: "A relocation case comes in. The immigration side is handled by a verified consultant. You receive the housing component. Your listings are pre-matched to the client's budget and preferred area.",
+                border: 'border-green-200',
+                tag: 'Industry Professional',
+                tagColor: 'bg-green-50 text-green-700',
+              },
+              {
+                role: 'Logistics Partner',
+                scenario: 'A family relocating from Germany needs their belongings moved to Malmö. The platform assigns you the logistics component. You deliver, update milestones, and get paid.',
+                border: 'border-purple-200',
+                tag: 'Service Provider',
+                tagColor: 'bg-purple-50 text-purple-700',
+              },
+              {
+                role: 'Health Insurance Company',
+                scenario: 'Every client who arrives in Sweden needs health coverage. You are pre-listed as a verified insurance partner. Eligible clients see your offerings at the right moment in their journey.',
+                border: 'border-orange-200',
+                tag: 'Service Provider',
+                tagColor: 'bg-orange-50 text-orange-700',
+              },
+              {
+                role: 'Accounting Firm',
+                scenario: 'Self-employed professionals and new business owners need local tax and bookkeeping support. You receive referrals from immigration cases that reach the financial setup stage.',
+                border: 'border-red-200',
+                tag: 'Service Provider',
+                tagColor: 'bg-red-50 text-red-700',
+              },
+              {
+                role: 'University / Education Provider',
+                scenario: 'Families relocating with children need school placement. Your institution is listed and matched with incoming families in your catchment area. Qualified leads. Zero cold outreach.',
+                border: 'border-indigo-200',
+                tag: 'Industry Professional',
+                tagColor: 'bg-indigo-50 text-indigo-700',
+              },
+            ].map((s) => (
+              <div key={s.role} className={`bg-[#F8F9FE] rounded-2xl border ${s.border} p-6 sm:p-7 hover:shadow-md transition-shadow duration-300`}>
+                <div className="flex items-start justify-between gap-3 mb-4">
+                  <h3 className="text-sm sm:text-base font-bold text-gray-900">{s.role}</h3>
+                  <span className={`text-[10px] font-semibold px-2.5 py-1 rounded-full whitespace-nowrap ${s.tagColor}`}>{s.tag}</span>
                 </div>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">{s.scenario}</p>
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
+      {/* ── CTA ──────────────────────────────────────────────── */}
+      <section className="py-16 sm:py-20 lg:py-24 bg-[#F8F9FE]">
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
+
+          <div className="bg-[#0f172a] rounded-3xl p-10 sm:p-14 lg:p-16 text-center relative overflow-hidden">
+            {/* Subtle grid background */}
+            <div className="absolute inset-0 opacity-[0.03]" style={{
+              backgroundImage: 'linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)',
+              backgroundSize: '40px 40px',
+            }} />
+
+            <div className="relative">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-4 max-w-2xl mx-auto leading-tight">
+                Ready to Grow Within a Network That Actually Works?
+              </h2>
+              <p className="text-base sm:text-lg text-white/60 max-w-xl mx-auto mb-10 leading-relaxed">
+                Apply today. Get verified. Start receiving matched client cases across the Nordic region, with full transparency and zero overhead.
+              </p>
+
+              {/* 3 quick wins */}
+              <div className="flex flex-wrap justify-center gap-4 mb-10">
+                {['Zero office overhead', 'Transparent commissions', 'Qualified client pipeline'].map((point) => (
+                  <div key={point} className="flex items-center gap-2 bg-white/10 text-white text-xs sm:text-sm px-4 py-2 rounded-full border border-white/10">
+                    <svg className="w-3.5 h-3.5 text-[#247FE1]" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    {point}
+                  </div>
+                ))}
               </div>
 
-              <div className="space-y-3 bg-white rounded-lg p-5">
-                <p className="text-xs uppercase tracking-wide text-blue-600 font-semibold">During this stage:</p>
-                <div className="space-y-2">
-                  <p className="text-sm text-gray-700">✓ {howitWorksData.stage1?.intake}</p>
-                  <p className="text-sm text-gray-700">✓ {howitWorksData.stage1?.documents}</p>
-                  <p className="text-sm text-gray-700">✓ {howitWorksData.stage1?.kyc}</p>
-                  <p className="text-sm text-gray-700">✓ {howitWorksData.stage1?.routing}</p>
-                </div>
-              </div>
+              <a
+                href="https://portal.swedenrelocators.se/partner-signup/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 px-10 py-4 bg-white text-gray-900 text-sm sm:text-base font-bold rounded-full hover:bg-gray-100 transition-colors shadow-lg"
+              >
+                Join RELOFY. Apply Now
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
 
-              <p className="text-xs text-gray-600 mt-6 italic">{howitWorksData.stage1?.note}</p>
-            </div>
-
-            {/* Stage 2: Client */}
-            <div className="bg-green-50 rounded-2xl p-8 border-2 border-green-200">
-              <div className="flex items-start gap-4 mb-6">
-                <div className="w-12 h-12 rounded-full bg-green-600 text-white flex items-center justify-center font-bold text-lg flex-shrink-0">2</div>
-                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mt-1">{howitWorksData.stage2?.title}</h3>
-              </div>
-              <p className="text-gray-700 mb-6 leading-relaxed">{howitWorksData.stage2?.description}</p>
-              
-              <div className="space-y-3 mb-6 bg-white rounded-lg p-5">
-                <p className="text-xs uppercase tracking-wide text-green-600 font-semibold">Conversion Happens When:</p>
-                <div className="space-y-2">
-                  <p className="text-sm text-gray-700">✓ {howitWorksData.stage2?.agreement}</p>
-                  <p className="text-sm text-gray-700">✓ {howitWorksData.stage2?.payment}</p>
-                </div>
-              </div>
-
-              <div className="space-y-3 bg-white rounded-lg p-5">
-                <p className="text-xs uppercase tracking-wide text-green-600 font-semibold">Then Immediately:</p>
-                <div className="space-y-2">
-                  <p className="text-sm text-gray-700">• {howitWorksData.stage2?.profile}</p>
-                  <p className="text-sm text-gray-700">• {howitWorksData.stage2?.responsibilities}</p>
-                  <p className="text-sm text-gray-700">• {howitWorksData.stage2?.milestones}</p>
-                  <p className="text-sm text-gray-700">• {howitWorksData.stage2?.delivery}</p>
-                </div>
-              </div>
-
-              <p className="text-xs text-gray-600 mt-6 italic">{howitWorksData.stage2?.benefit}</p>
+              <p className="mt-5 text-xs text-white/40">
+                Applications are reviewed within 3–5 business days. Verified partners gain immediate portal access.
+              </p>
             </div>
           </div>
 
-          {/* The One Profile Advantage */}
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 sm:p-10 text-white">
-            <h3 className="text-2xl sm:text-3xl font-bold mb-4">Your Real Advantage: The One Profile System</h3>
-            <p className="text-blue-100 mb-6 leading-relaxed">{oneProfileData.intro}</p>
-            
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-bold text-lg mb-3 text-blue-100">What's Inside:</h4>
-                <div className="space-y-2">
-                  <p className="text-sm">✓ {oneProfileData.inside?.identity}</p>
-                  <p className="text-sm">✓ {oneProfileData.inside?.vault}</p>
-                  <p className="text-sm">✓ {oneProfileData.inside?.checklist}</p>
-                  <p className="text-sm">✓ {oneProfileData.inside?.log}</p>
-                  <p className="text-sm">✓ {oneProfileData.inside?.audit}</p>
-                  <p className="text-sm">✓ {oneProfileData.inside?.assignment}</p>
-                </div>
-              </div>
-              <div>
-                <h4 className="font-bold text-lg mb-3 text-blue-100">Privacy by Design:</h4>
-                <p className="text-sm text-blue-100 mb-3">{oneProfileData.sharing?.intro}</p>
-                <div className="space-y-2 text-sm">
-                  <p>• {oneProfileData.sharing?.immigration}</p>
-                  <p>• {oneProfileData.sharing?.housing}</p>
-                  <p>• {oneProfileData.sharing?.accountant}</p>
-                  <p>• {oneProfileData.sharing?.logistics}</p>
-                </div>
-              </div>
-            </div>
+        </div>
+      </section>
 
-            <p className="text-blue-100 text-sm mt-6 italic">{oneProfileData.sharing?.benefit}</p>
-          </div>
-        </section>
-
-        {/* Visual: How Partner Works */}
-        <section className="mb-16 sm:mb-20 lg:mb-24">
-          <div className="mb-6 sm:mb-8 text-center">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900">
-              How Partner Works
-            </h2>
-            <p className="text-sm sm:text-base text-gray-600 mt-2 max-w-2xl mx-auto">
-              A quick visual of the journey from interest to onboarding and delivery.
-            </p>
-          </div>
-          <div className="flex justify-center">
-            <div className="rounded-2xl overflow-hidden shadow-[0_20px_60px_rgba(15,23,42,0.12)] border border-gray-200 bg-white w-full max-w-[980px]">
-              <Image
-                src="/How%20Partner%20Works.png"
-                alt="How Partner Works"
-                width={980}
-                height={980}
-                style={{ width: '100%', height: 'auto', display: 'block' }}
-                priority
-              />
-            </div>
-          </div>
-        </section>
-
-        {/* For Your Business - Combined Growth + Scenarios */}
-        <section className="mb-16 sm:mb-20 lg:mb-24 py-12">
-          <div className="mb-12 sm:mb-14">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-gray-900 mb-4">
-              {networkGrowthData.heading}
-            </h2>
-            <p className="text-base sm:text-lg text-gray-600 max-w-3xl">
-              {networkGrowthData.intro}
-            </p>
-          </div>
-
-          {/* Use Case Cards */}
-          <div className="grid md:grid-cols-2 gap-6 sm:gap-8 mb-8">
-            <div className="bg-white rounded-2xl p-7 sm:p-8 border-2 border-blue-200 hover:border-blue-400 transition-colors">
-              <div className="text-3xl mb-3">🌍</div>
-              <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3">{networkGrowthData.example?.title}</h3>
-              <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed">{networkGrowthData.example?.scenario}</p>
-              <div className="text-xs sm:text-sm space-y-2 text-gray-700">
-                <p><strong>You:</strong> {networkGrowthData.example?.add}</p>
-                <p><strong>Support Team:</strong> {networkGrowthData.example?.screens}</p>
-                <p><strong>Result:</strong> {networkGrowthData.example?.benefit}</p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-7 sm:p-8 border-2 border-green-200 hover:border-green-400 transition-colors">
-              <div className="text-3xl mb-3">↔️</div>
-              <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3">Reverse Flow: Partners Feed You</h3>
-              <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed">{networkGrowthData.example?.reverseSub}</p>
-              <p className="text-xs sm:text-sm text-gray-700 italic">{networkGrowthData.example?.flow}</p>
-            </div>
-          </div>
-
-          {/* Real scenarios showcase */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
-              <h4 className="font-bold text-gray-900 mb-2">{scenariosData.scenario1?.title}</h4>
-              <p className="text-sm text-gray-700">{scenariosData.scenario1?.description}</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
-              <h4 className="font-bold text-gray-900 mb-2">{scenariosData.scenario2?.title}</h4>
-              <p className="text-sm text-gray-700">{scenariosData.scenario2?.description}</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
-              <h4 className="font-bold text-gray-900 mb-2">{scenariosData.scenario3?.title}</h4>
-              <p className="text-sm text-gray-700">{scenariosData.scenario3?.description}</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-6 border border-orange-200">
-              <h4 className="font-bold text-gray-900 mb-2">{scenariosData.scenario4?.title}</h4>
-              <p className="text-sm text-gray-700">{scenariosData.scenario4?.description}</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-xl p-6 border border-pink-200 md:col-span-2 lg:col-span-1">
-              <h4 className="font-bold text-gray-900 mb-2">{scenariosData.scenario5?.title}</h4>
-              <p className="text-sm text-gray-700">{scenariosData.scenario5?.description}</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Built on Trust - Compressed Compliance + Territory + Fees */}
-        <section className="mb-20 sm:mb-24 lg:mb-28 py-12">
-          <div className="mb-12 sm:mb-14">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-gray-900 mb-4">
-              Built on Trust
-            </h2>
-            <p className="text-base sm:text-lg text-gray-600 max-w-3xl">
-              We protect both clients and partners with verified processes, clear fees, and professional standards.
-            </p>
-          </div>
-
-          {/* Three-column trust factors */}
-          <div className="grid md:grid-cols-3 gap-6 sm:gap-8 mb-12">
-            {/* Compliance */}
-            <div className="bg-blue-50 rounded-xl p-7 border border-blue-200">
-              <h3 className="text-lg font-bold text-gray-900 mb-4">🔒 {complianceData.heading}</h3>
-              <div className="space-y-3 text-sm text-gray-700">
-                <div>
-                  <p className="font-semibold text-blue-600 mb-2">Client Trust:</p>
-                  <p>• {complianceData.clientTrust?.identity}</p>
-                  <p>• {complianceData.clientTrust?.documents}</p>
-                  <p>• {complianceData.clientTrust?.fraud}</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-blue-600 mb-2">Partner Verification:</p>
-                  <p>• {complianceData.partnerVerification?.company}</p>
-                  <p>• {complianceData.partnerVerification?.credentials}</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Territory + Fees */}
-            <div className="bg-green-50 rounded-xl p-7 border border-green-200">
-              <h3 className="text-lg font-bold text-gray-900 mb-4">💰 Growth Opportunities</h3>
-              <div className="space-y-3 text-sm text-gray-700">
-                <div>
-                  <p className="font-semibold text-green-600 mb-1">{territoryData.heading}</p>
-                  <p className="text-xs text-gray-600">{territoryData.benefit}</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-green-600 mb-2">Clear Payment Flow:</p>
-                  <p>{feesData.workingModel?.flow}</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Data Protection */}
-            <div className="bg-purple-50 rounded-xl p-7 border border-purple-200">
-              <h3 className="text-lg font-bold text-gray-900 mb-4">🛡️ Your Data is Safe</h3>
-              <div className="space-y-2 text-sm text-gray-700">
-                <p>• {complianceData.dataProtection?.access}</p>
-                <p>• {complianceData.dataProtection?.sharing}</p>
-                <p>• {complianceData.dataProtection?.documents}</p>
-                <p className="text-xs text-gray-600 italic mt-3">{complianceData.dataProtection?.gdpr}</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Commission clarity box */}
-          <div className="bg-gradient-to-r from-blue-100 to-blue-50 rounded-xl p-7 border border-blue-300">
-            <h3 className="font-bold text-gray-900 mb-3">How Commissions Work</h3>
-            <div className="grid md:grid-cols-2 gap-6 text-sm text-gray-700">
-              <div>
-                <p className="font-semibold text-blue-600 mb-2">You Submit:</p>
-                <p>• {feesData.submit?.services}</p>
-                <p>• {feesData.submit?.pricing}</p>
-              </div>
-              <div>
-                <p className="font-semibold text-blue-600 mb-2">We Track:</p>
-                <p>• {feesData.commissions?.recorded}</p>
-                <p>• {feesData.commissions?.paid}</p>
-                <p className="italic text-xs text-gray-600 mt-2">{feesData.commissions?.traceable}</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA Section (match services page style) */}
-        <section className="bg-black/85 rounded-2xl shadow-lg p-8 sm:p-10 lg:p-12 text-center">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4 leading-tight">
-              {ctaData.heading}
-            </h2>
-            <p className="text-sm sm:text-base lg:text-lg text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
-              {ctaData.description}
-            </p>
-
-            {/* Benefits */}
-            <div className="grid md:grid-cols-3 gap-4 sm:gap-6 mb-8 max-w-3xl mx-auto">
-              <div className="bg-neutral-900/60 rounded-lg p-4 border border-neutral-700">
-                <p className="text-2xl mb-2 text-gray-200">✓</p>
-                <p className="text-sm text-gray-200">Zero Office Overhead</p>
-              </div>
-              <div className="bg-neutral-900/60 rounded-lg p-4 border border-neutral-700">
-                <p className="text-2xl mb-2 text-gray-200">✓</p>
-                <p className="text-sm text-gray-200">Global Referrals</p>
-              </div>
-              <div className="bg-neutral-900/60 rounded-lg p-4 border border-neutral-700">
-                <p className="text-2xl mb-2 text-gray-200">✓</p>
-                <p className="text-sm text-gray-200">Transparent Commissions</p>
-              </div>
-            </div>
-
-            {/* CTA Button */}
-            <Button
-              variant="contained"
-              sx={{
-                backgroundColor: '#ffffff',
-                color: '#000000',
-                fontSize: { xs: '0.875rem', sm: '1rem', lg: '1.125rem' },
-                fontWeight: 600,
-                px: { xs: 6, sm: 8, lg: 10 },
-                py: { xs: 1.5, sm: 1.8, lg: 2 },
-                borderRadius: '9999px',
-                textTransform: 'none',
-                boxShadow: '0 10px 24px rgba(0,0,0,0.25)',
-                transition: 'all 0.3s ease',
-                '&:hover': {
-                  backgroundColor: '#f3f4f6',
-                },
-              }}
-              href="https://portal.swedenrelocators.se/partner-signup/"
-              target="_blank"
-              rel="noopener noreferrer"
-              component="a"
-            >
-              {ctaData.button}
-            </Button>
-
-            <p className="text-xs sm:text-sm text-gray-400 mt-4 sm:mt-5">
-              🔒 Verified network. Professional standards. Real partnerships.
-            </p>
-          </div>
-        </section>
-      </div>
     </div>
   );
 }

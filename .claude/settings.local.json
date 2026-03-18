@@ -7,7 +7,12 @@
       "Bash(for f:*)",
       "Bash(do sed:*)",
       "Bash(done)",
-      "Bash(node -e \":*)"
+      "Bash(node -e \":*)",
+      "Bash(find /d/temp/development/next/swedenn-relocators/app/[locale] -name \"page.tsx\" -type f)",
+      "Bash(ls -la /d/temp/development/next/swedenn-relocators/app/[locale]/)",
+      "Bash(find /d/temp/development/next/swedenn-relocators/app/[locale]/services -type f -name \"page.tsx\")",
+      "Bash(find /d/temp/development/next/swedenn-relocators -path */api/* -type f)",
+      "Bash(find /d/temp/development/next/swedenn-relocators -name axios* -o -name *axios*)"
     ]
   }
 }

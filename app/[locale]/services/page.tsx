@@ -245,9 +245,9 @@ export default function ServicesPage() {
                 </div>
 
                 {/* CTA */}
-                <button className="mt-auto w-full inline-flex items-center justify-center rounded-[999px] bg-black hover:bg-gray-800 px-6 py-3 text-xs sm:text-sm lg:text-base font-semibold text-white shadow-[0_8px_20px_rgba(0,0,0,0.15)] transition-colors">
+                <a href="https://portal.swedenrelocators.se/signup/" target="_blank" rel="noopener noreferrer" className="mt-8 w-full inline-flex items-center justify-center rounded-[999px] bg-black hover:bg-gray-800 px-6 py-3 text-xs sm:text-sm lg:text-base font-semibold text-white shadow-[0_8px_20px_rgba(0,0,0,0.15)] transition-colors">
                   {t('servicesPage.howToStart.individual.cta')}
-                </button>
+                </a>
 
                 <p className="mt-3 text-xs sm:text-sm text-gray-500 text-center leading-relaxed">
                   {t('servicesPage.howToStart.individual.note')}
@@ -284,9 +284,9 @@ export default function ServicesPage() {
                 </div>
 
                 {/* CTA */}
-                <button className="mt-auto w-full inline-flex items-center justify-center rounded-[999px] bg-black hover:bg-gray-800 px-6 py-3 text-xs sm:text-sm lg:text-base font-semibold text-white shadow-[0_8px_20px_rgba(0,0,0,0.15)] transition-colors">
+                <a href="https://portal.swedenrelocators.se/signup/" target="_blank" rel="noopener noreferrer" className="mt-8 w-full inline-flex items-center justify-center rounded-[999px] bg-black hover:bg-gray-800 px-6 py-3 text-xs sm:text-sm lg:text-base font-semibold text-white shadow-[0_8px_20px_rgba(0,0,0,0.15)] transition-colors">
                   {t('servicesPage.howToStart.company.cta')}
-                </button>
+                </a>
 
                 <p className="mt-3 text-xs sm:text-sm text-gray-500 text-center leading-relaxed">
                   {t('servicesPage.howToStart.company.note')}

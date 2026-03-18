@@ -229,27 +229,23 @@ export default function Footer() {
                 <p className="text-sm xl:text-[15px] 4k:text-2xl text-[#cbd5e1] mb-3">
                   {isSv ? 'Ladda ner vår app' : 'Download our App'}
                 </p>
-                <div className="flex gap-3 mb-8">
+                <div className="flex flex-wrap gap-3 mb-8">
                   <a
                     href="https://apps.apple.com/ca/app/sweden-relocators/id1621885091"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.15)] transition-all duration-300"
+                    className="inline-flex items-center gap-2.5 px-4 py-2.5 bg-white border border-slate-200 rounded-xl hover:shadow-md transition-all duration-300"
                   >
                     <Image
                       src="/apple.svg"
                       alt="Apple"
-                      width={16}
-                      height={16}
-                      className="w-4 h-4"
+                      width={20}
+                      height={20}
+                      className="w-5 h-5 flex-shrink-0"
                     />
-                    <div className="flex flex-col items-start">
-                      <span className="text-[0.4rem] sm:text-[0.45rem] font-light text-slate-600 uppercase tracking-wide">
-                        DOWNLOAD ON THE
-                      </span>
-                      <span className="font-semibold text-[0.6rem] sm:text-[0.65rem] text-slate-900 -mt-0.5">
-                        App Store
-                      </span>
+                    <div className="flex flex-col items-start leading-tight">
+                      <span className="text-[10px] font-normal text-slate-500 uppercase tracking-wide">Download on the</span>
+                      <span className="text-sm font-semibold text-slate-900">App Store</span>
                     </div>
                   </a>
 
@@ -257,22 +253,18 @@ export default function Footer() {
                     href="https://play.google.com/store/apps/details?id=se.swedenrelocators.sweden_relocators"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.15)] transition-all duration-300"
+                    className="inline-flex items-center gap-2.5 px-4 py-2.5 bg-white border border-slate-200 rounded-xl hover:shadow-md transition-all duration-300"
                   >
                     <Image
                       src="/playstore.svg"
                       alt="Google Play"
-                      width={16}
-                      height={16}
-                      className="w-4 h-4"
+                      width={20}
+                      height={20}
+                      className="w-5 h-5 flex-shrink-0"
                     />
-                    <div className="flex flex-col items-start">
-                      <span className="text-[0.4rem] sm:text-[0.45rem] font-light text-slate-600 uppercase tracking-wide">
-                        GET IT ON
-                      </span>
-                      <span className="font-semibold text-[0.6rem] sm:text-[0.65rem] text-slate-900 -mt-0.5">
-                        Google Play
-                      </span>
+                    <div className="flex flex-col items-start leading-tight">
+                      <span className="text-[10px] font-normal text-slate-500 uppercase tracking-wide">Get it on</span>
+                      <span className="text-sm font-semibold text-slate-900">Google Play</span>
                     </div>
                   </a>
                 </div>
