@@ -1,8 +1,8 @@
 'use client';
 
 import Image from 'next/image';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-
 import { useParams } from 'next/navigation';
 
 export default function Footer() {
@@ -10,6 +10,35 @@ export default function Footer() {
   const params = useParams();
   const locale = params?.locale as string || 'en';
   const isSv = i18n.language === 'sv';
+
+  const [newsletterName, setNewsletterName] = useState('');
+  const [newsletterEmail, setNewsletterEmail] = useState('');
+  const [newsletterStatus, setNewsletterStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [newsletterMsg, setNewsletterMsg] = useState('');
+
+  const handleNewsletterSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!newsletterEmail || !newsletterName) return;
+    setNewsletterStatus('loading');
+    try {
+      const formData = new FormData();
+      formData.append('email', newsletterEmail);
+      formData.append('full_name', newsletterName);
+      formData.append('source', 'website');
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/miscellaneous/newsletter/subscribe`, {
+        method: 'POST',
+        body: formData,
+      });
+      if (!res.ok) throw new Error('Failed');
+      setNewsletterStatus('success');
+      setNewsletterMsg('You\'re subscribed! Thanks for joining.');
+      setNewsletterName('');
+      setNewsletterEmail('');
+    } catch {
+      setNewsletterStatus('error');
+      setNewsletterMsg('Something went wrong. Please try again.');
+    }
+  };
 
   return (
     <footer className="bg-[#0f141a] text-white">
@@ -103,22 +132,40 @@ export default function Footer() {
                 </p>
               </div>
               <form
-                onSubmit={(e) => e.preventDefault()}
-                className="flex w-full lg:w-auto gap-2"
+                onSubmit={handleNewsletterSubmit}
+                className="flex flex-col sm:flex-row w-full lg:w-auto gap-2"
               >
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  value={newsletterName}
+                  onChange={(e) => setNewsletterName(e.target.value)}
+                  required
+                  className="flex-1 lg:w-48 bg-[#1a2332] border border-[#2d3f55] text-[#cbd5e1] placeholder-[#4a5568] text-xs sm:text-sm rounded-lg px-4 py-2.5 outline-none focus:border-[#247FE1] transition-colors"
+                />
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="flex-1 lg:w-72 bg-[#1a2332] border border-[#2d3f55] text-[#cbd5e1] placeholder-[#4a5568] text-xs sm:text-sm rounded-lg px-4 py-2.5 outline-none focus:border-[#247FE1] transition-colors"
+                  value={newsletterEmail}
+                  onChange={(e) => setNewsletterEmail(e.target.value)}
+                  required
+                  className="flex-1 lg:w-64 bg-[#1a2332] border border-[#2d3f55] text-[#cbd5e1] placeholder-[#4a5568] text-xs sm:text-sm rounded-lg px-4 py-2.5 outline-none focus:border-[#247FE1] transition-colors"
                 />
                 <button
                   type="submit"
-                  className="px-5 py-2.5 bg-[#247FE1] hover:bg-[#1a6fd4] text-white text-xs sm:text-sm font-semibold rounded-lg transition-colors whitespace-nowrap"
+                  disabled={newsletterStatus === 'loading'}
+                  className="px-5 py-2.5 bg-[#247FE1] hover:bg-[#1a6fd4] disabled:opacity-60 text-white text-xs sm:text-sm font-semibold rounded-lg transition-colors whitespace-nowrap"
                 >
-                  Subscribe
+                  {newsletterStatus === 'loading' ? 'Subscribing...' : 'Subscribe'}
                 </button>
               </form>
             </div>
+            {newsletterStatus === 'success' && (
+              <p className="mt-3 text-xs sm:text-sm text-green-400">{newsletterMsg}</p>
+            )}
+            {newsletterStatus === 'error' && (
+              <p className="mt-3 text-xs sm:text-sm text-red-400">{newsletterMsg}</p>
+            )}
           </div>
 
           {/* Divider */}
