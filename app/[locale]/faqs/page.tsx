@@ -170,54 +170,47 @@ export default function FAQsPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden border border-gray-300 rounded-lg mx-auto" style={{
-        backgroundImage: 'url(/bg-new-in-sweden.svg)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        width: '1400px',
-        maxWidth: 'calc(100% - 32px)',
-        height: '289px',
-        margin: '200px auto 0',
-        marginTop: '160px'
-      }}>
-        <div className="absolute inset-0 rounded-lg" style={{ backgroundColor: 'rgba(20, 26, 33, 0.88)' }}></div>
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 mt-[160px]">
+        <section className="relative overflow-hidden border border-gray-300 rounded-xl" style={{
+          backgroundImage: 'url(/bg-new-in-sweden.svg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}>
+          <div className="absolute inset-0 rounded-xl" style={{ backgroundColor: 'rgba(20, 26, 33, 0.88)' }}></div>
 
-        <div className="relative h-full pt-6 sm:pt-8 pb-6 sm:pb-8 px-8 sm:px-10">
-          <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto h-full">
-            <div className="grid lg:grid-cols-2 gap-8 items-center h-full">
-              <div>
-                <p className="text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] lg:text-[2.25rem] leading-[1.1] font-bold text-white mb-2">
-                  {t('faqs.hero.title')}
-                </p>
-                <p className="text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] text-gray-400 leading-[1.5] pr-12 font-normal">
-                  {t('faqs.hero.description')}
-                </p>
-              </div>
+          <div className="relative py-8 sm:py-10 lg:py-0 lg:h-[289px] flex items-center px-8 sm:px-10">
+            <div className="w-full">
+              <div className="grid lg:grid-cols-2 gap-8 items-center">
+                <div>
+                  <p className="text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] lg:text-[2.25rem] leading-[1.1] font-bold text-white mb-2">
+                    {t('faqs.hero.title')}
+                  </p>
+                  <p className="text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] text-gray-400 leading-[1.5] pr-4 lg:pr-12 font-normal">
+                    {t('faqs.hero.description')}
+                  </p>
+                </div>
 
-              {/* Right - Illustration */}
-              <div className="relative w-full flex justify-center lg:justify-end">
-                <Image
-                  src="/service-illustration.svg"
-                  alt="FAQs illustration"
-                  width={300}
-                  height={250}
-                  className="object-contain"
-                  priority
-                />
+                {/* Right - Illustration */}
+                <div className="relative w-full hidden lg:flex justify-center lg:justify-end">
+                  <Image
+                    src="/service-illustration.svg"
+                    alt="FAQs illustration"
+                    width={300}
+                    height={250}
+                    className="object-contain"
+                    priority
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       {/* Cards Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-          <div className="mx-auto" style={{
-            width: '1400px',
-            maxWidth: 'calc(100% - 32px)'
-          }}>
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
             {/* Role Tabs */}
             <div className="flex gap-4 mb-8 sm:mb-12">
               <button
@@ -250,7 +243,7 @@ export default function FAQsPage() {
               </button>
             </div>
 
-            <div className="grid lg:grid-cols-7 gap-4 sm:gap-6">
+            <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7 gap-3 sm:gap-4 lg:gap-6">
               {(() => {
                 const cards = t('faqs.cards', { returnObjects: true }) as Array<{ title: string }>;
                 const iconMap = [
@@ -266,13 +259,13 @@ export default function FAQsPage() {
                   <button
                     key={index}
                     onClick={() => handleCardClick(index)}
-                    className={`rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-md transition-all cursor-pointer text-left ${
+                    className={`rounded-2xl p-3 sm:p-5 lg:p-6 xl:p-8 shadow-sm hover:shadow-md transition-all cursor-pointer text-left ${
                       selectedCardIndex === index
                         ? 'bg-blue-600 text-white'
                         : 'bg-white'
                     }`}
                   >
-                    <div className={`w-16 h-16 rounded-lg mb-4 flex items-center justify-center ${
+                    <div className={`w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 rounded-lg mb-3 lg:mb-4 flex items-center justify-center ${
                       selectedCardIndex === index
                         ? 'bg-blue-500'
                         : 'bg-gray-200'
@@ -282,10 +275,10 @@ export default function FAQsPage() {
                         alt={card.title}
                         width={48}
                         height={48}
-                        className="object-contain"
+                        className="object-contain w-6 h-6 sm:w-7 sm:h-7 lg:w-10 lg:h-10"
                       />
                     </div>
-                    <h3 className={`font-semibold text-[15px] sm:text-[16px] mb-2 ${
+                    <h3 className={`font-semibold text-[11px] sm:text-[13px] lg:text-[15px] xl:text-[16px] leading-tight mb-2 ${
                       selectedCardIndex === index
                         ? 'text-white'
                         : 'text-gray-900'
@@ -296,23 +289,18 @@ export default function FAQsPage() {
                 )) : null;
               })()}
             </div>
-          </div>
         </div>
       </section>
 
       {/* FAQs Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-transparent">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-          <div className="mx-auto" style={{
-            width: '1400px',
-            maxWidth: 'calc(100% - 32px)'
-          }}>
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
               {/* Left - FAQs Accordion */}
               <div>
                 {/* Section Heading */}
                 <div className="mb-8 sm:mb-12">
-                  <h2 className="font-black leading-tight text-[32px] sm:text-[36px] text-gray-900">
+                  <h2 className="font-black leading-tight text-[24px] sm:text-[28px] lg:text-[36px] text-gray-900">
                     {t('faqs.sectionHeading.titlePart1')} {t('faqs.sectionHeading.titlePart2')}
                   </h2>
                 </div>
@@ -371,7 +359,7 @@ export default function FAQsPage() {
 
               {/* Right - Contact Form */}
               <div>
-                <h2 className="font-black leading-tight text-[32px] sm:text-[36px] text-gray-900 mb-8">
+                <h2 className="font-black leading-tight text-[24px] sm:text-[28px] lg:text-[36px] text-gray-900 mb-8">
                   {t('faqs.contactForm.heading')}
                 </h2>
 
@@ -447,7 +435,6 @@ export default function FAQsPage() {
                 </FormProvider>
               </div>
             </div>
-          </div>
         </div>
       </section>
     </main>

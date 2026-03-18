@@ -156,60 +156,55 @@ export default function CareerPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden border border-gray-300 rounded-lg mx-auto mt-[160px] sm:mt-[180px] lg:mt-[200px]" style={{
-        backgroundImage: 'url(/bg-new-in-sweden.svg)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        width: '1400px',
-        maxWidth: 'calc(100% - 32px)',
-        height: '289px',
-        margin: '160px auto 0',
-      }}>
-        <div className="absolute inset-0 rounded-lg" style={{ backgroundColor: 'rgba(20, 26, 33, 0.88)' }}></div>
-        <div className="relative h-full pt-6 sm:pt-8 pb-6 sm:pb-8 px-8 sm:px-10">
-          <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto h-full">
-            <div className="grid lg:grid-cols-2 gap-8 items-center h-full">
-              <div>
-                <p className="text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] lg:text-[2.25rem] leading-[1.1] font-bold text-white mb-2">
-                  {t('career.hero.title')}
-                </p>
-                <p className="text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] text-gray-400 leading-[1.5] pr-12 font-normal">
-                  {t('career.hero.subtitle')}
-                </p>
-              </div>
-              <div className="relative w-full flex justify-center lg:justify-end">
-                <Image
-                  src="/service-illustration.svg"
-                  alt="Careers illustration"
-                  width={300}
-                  height={250}
-                  className="object-contain"
-                  priority
-                />
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 mt-[160px] sm:mt-[180px] lg:mt-[200px]">
+        <section className="relative overflow-hidden border border-gray-300 rounded-xl" style={{
+          backgroundImage: 'url(/bg-new-in-sweden.svg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}>
+          <div className="absolute inset-0 rounded-xl" style={{ backgroundColor: 'rgba(20, 26, 33, 0.88)' }}></div>
+          <div className="relative py-8 sm:py-10 lg:py-0 lg:h-[289px] flex items-center px-8 sm:px-10">
+            <div className="w-full">
+              <div className="grid lg:grid-cols-2 gap-8 items-center">
+                <div>
+                  <p className="text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] lg:text-[2.25rem] leading-[1.1] font-bold text-white mb-2">
+                    {t('career.hero.title')}
+                  </p>
+                  <p className="text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] text-gray-400 leading-[1.5] pr-4 lg:pr-12 font-normal">
+                    {t('career.hero.subtitle')}
+                  </p>
+                </div>
+                <div className="relative w-full hidden lg:flex justify-center lg:justify-end">
+                  <Image
+                    src="/service-illustration.svg"
+                    alt="Careers illustration"
+                    width={300}
+                    height={250}
+                    className="object-contain"
+                    priority
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       {/* Intro Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-transparent">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-          <div className="mx-auto" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
             <div className="bg-blue-50 rounded-2xl p-6 sm:p-8 lg:p-10 border-l-4 border-blue-500">
               <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
                 {t('career.intro.description')}
               </p>
             </div>
-          </div>
         </div>
       </section>
 
       {/* Open Positions Table Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-transparent">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-          <div className="mx-auto" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-8 sm:mb-10 lg:mb-12">
               {t('career.openPositions.heading')}
             </h2>
@@ -277,14 +272,12 @@ export default function CareerPage() {
                 <p className="text-gray-500 text-sm mt-2">Please check back later for new opportunities.</p>
               </div>
             )}
-          </div>
         </div>
       </section>
 
       {/* Position Details Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-transparent">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-          <div className="mx-auto" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-8 sm:mb-10 lg:mb-12">
               Position Details
             </h2>
@@ -614,14 +607,12 @@ export default function CareerPage() {
                 </div>
               )}
             </div>
-          </div>
         </div>
       </section>
 
       {/* Application Form Section */}
       <section ref={applicationFormRef} className="py-12 sm:py-16 lg:py-20 bg-transparent">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-          <div className="mx-auto" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
               {t('career.applicationForm.heading')}
             </h2>
@@ -789,14 +780,12 @@ export default function CareerPage() {
                 </form>
               </FormProvider>
             </div>
-          </div>
         </div>
       </section>
 
       {/* Why Join Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-white">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-          <div className="mx-auto" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
+        <div className="max-w-[1400px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
               {t('career.whyJoin.heading')}
             </h2>
@@ -819,26 +808,6 @@ export default function CareerPage() {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Talent Community Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-[#F8F9FE]">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
-          <div className="mx-auto" style={{ width: '1400px', maxWidth: 'calc(100% - 32px)' }}>
-            <div className="bg-white rounded-2xl shadow-sm p-8 sm:p-10 lg:p-12 text-center border-t-4 border-blue-500">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-5">
-                {t('career.talentCommunity.heading')}
-              </h2>
-              <p className="text-sm sm:text-base lg:text-lg text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed">
-                {t('career.talentCommunity.description')}
-              </p>
-              <button className="px-6 sm:px-8 py-3 sm:py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors text-sm sm:text-base">
-                {t('career.talentCommunity.button')}
-              </button>
-            </div>
-          </div>
         </div>
       </section>
     </main>

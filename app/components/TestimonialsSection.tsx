@@ -460,20 +460,78 @@ export function TestimonialsSection() {
           </Box>
 
           {/* Navigation */}
-          <Stack
-            direction="row"
-            spacing={2}
-            sx={{
-              justifyContent: 'space-between',
-              alignItems: 'center',
-              pt: 4,
-            }}
-          >
-            {/* Dots Navigation */}
-            <Stack direction="row" spacing={1}>
+          <Box sx={{ pt: 4 }}>
+            {/* Mobile: arrows + button row */}
+            <Stack
+              direction="row"
+              sx={{
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                mb: { xs: 2, sm: 0 },
+                display: { xs: 'flex', sm: 'none' },
+              }}
+            >
+              <Stack direction="row" spacing={2}>
+                <Button
+                  onClick={handlePrevious}
+                  variant="outlined"
+                  sx={{
+                    minWidth: '44px',
+                    width: '44px',
+                    height: '44px',
+                    p: 0,
+                    borderColor: '#E5E7EB',
+                    color: '#1F2937',
+                    '&:hover': {
+                      borderColor: '#1C252E',
+                      backgroundColor: '#F3F4F6',
+                      boxShadow: '0 0 0 0.75px #1C252E',
+                    },
+                  }}
+                >
+                  <ChevronLeft size={20} />
+                </Button>
+                <Button
+                  onClick={handleNext}
+                  variant="outlined"
+                  sx={{
+                    minWidth: '44px',
+                    width: '44px',
+                    height: '44px',
+                    p: 0,
+                    borderColor: '#E5E7EB',
+                    color: '#1F2937',
+                    '&:hover': {
+                      borderColor: '#1C252E',
+                      backgroundColor: '#F3F4F6',
+                      boxShadow: '0 0 0 0.75px #1C252E',
+                    },
+                  }}
+                >
+                  <ChevronRight size={20} />
+                </Button>
+              </Stack>
+
+              <Link href={`/${locale}/testimonials`}>
+                <button className="px-4 py-2 text-sm font-medium text-[#1C252E] bg-transparent border border-[#1C252E]/40 rounded-lg hover:border-[#1C252E] hover:shadow-[0_0_0_0.75px_#1C252E] transition-all duration-200 whitespace-nowrap">
+                  Show More
+                </button>
+              </Link>
+            </Stack>
+
+            {/* Mobile: dots centered below */}
+            <Stack
+              direction="row"
+              sx={{
+                flexWrap: 'wrap',
+                justifyContent: 'center',
+                gap: '6px',
+                display: { xs: 'flex', sm: 'none' },
+              }}
+            >
               {Array.from({ length: dataSource.length }).map((_, index) => (
                 <Box
-                  key={`dot-${index}`}
+                  key={`dot-mobile-${index}`}
                   onClick={() => {
                     setDirection(index > activeIndex ? 'next' : 'prev');
                     setActiveIndex(index);
@@ -485,65 +543,94 @@ export function TestimonialsSection() {
                     backgroundColor: activeIndex === index ? '#1F2937' : '#D1D5DB',
                     cursor: 'pointer',
                     transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-                    '&:hover': {
-                      backgroundColor: '#6B7280',
-                    },
+                    '&:hover': { backgroundColor: '#6B7280' },
                   }}
                 />
               ))}
             </Stack>
 
-            {/* Show More Button */}
-            <Link href={`/${locale}/testimonials`}>
-              <button className="px-5 py-2.5 text-sm font-medium text-[#1C252E] bg-transparent border border-[#1C252E]/40 rounded-lg hover:border-[#1C252E] hover:shadow-[0_0_0_0.75px_#1C252E] transition-all duration-200 whitespace-nowrap">
-                Show More
-              </button>
-            </Link>
+            {/* Desktop: dots | show more | arrows in a row */}
+            <Stack
+              direction="row"
+              spacing={2}
+              sx={{
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                display: { xs: 'none', sm: 'flex' },
+              }}
+            >
+              {/* Dots */}
+              <Stack direction="row" spacing={1} sx={{ flexWrap: 'wrap' }}>
+                {Array.from({ length: dataSource.length }).map((_, index) => (
+                  <Box
+                    key={`dot-${index}`}
+                    onClick={() => {
+                      setDirection(index > activeIndex ? 'next' : 'prev');
+                      setActiveIndex(index);
+                    }}
+                    sx={{
+                      width: activeIndex === index ? '24px' : '8px',
+                      height: '8px',
+                      borderRadius: '4px',
+                      backgroundColor: activeIndex === index ? '#1F2937' : '#D1D5DB',
+                      cursor: 'pointer',
+                      transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                      '&:hover': { backgroundColor: '#6B7280' },
+                    }}
+                  />
+                ))}
+              </Stack>
 
-            {/* Arrow Navigation */}
-            <Stack direction="row" spacing={2}>
-              <Button
-                onClick={handlePrevious}
-                variant="outlined"
-                sx={{
-                  minWidth: '48px',
-                  width: '48px',
-                  height: '48px',
-                  p: 0,
-                  borderColor: '#E5E7EB',
-                  color: '#1F2937',
-                  '&:hover': {
-                    borderColor: '#1C252E',
-                    backgroundColor: '#F3F4F6',
-                    boxShadow: '0 0 0 0.75px #1C252E',
-                  },
-                }}
-              >
-                <ChevronLeft size={20} />
-              </Button>
-              <Button
-                onClick={handleNext}
-                variant="outlined"
-                sx={{
-                  minWidth: '48px',
-                  width: '48px',
-                  height: '48px',
-                  p: 0,
-                  borderColor: '#E5E7EB',
-                  color: '#1F2937',
-                  '&:hover': {
-                    borderColor: '#1C252E',
-                    backgroundColor: '#F3F4F6',
-                    boxShadow: '0 0 0 0.75px #1C252E',
-                  },
-                }}
-              >
-                <ChevronRight size={20} />
-              </Button>
+              {/* Show More Button */}
+              <Link href={`/${locale}/testimonials`}>
+                <button className="px-5 py-2.5 text-sm font-medium text-[#1C252E] bg-transparent border border-[#1C252E]/40 rounded-lg hover:border-[#1C252E] hover:shadow-[0_0_0_0.75px_#1C252E] transition-all duration-200 whitespace-nowrap">
+                  Show More
+                </button>
+              </Link>
+
+              {/* Arrow Navigation */}
+              <Stack direction="row" spacing={2}>
+                <Button
+                  onClick={handlePrevious}
+                  variant="outlined"
+                  sx={{
+                    minWidth: '48px',
+                    width: '48px',
+                    height: '48px',
+                    p: 0,
+                    borderColor: '#E5E7EB',
+                    color: '#1F2937',
+                    '&:hover': {
+                      borderColor: '#1C252E',
+                      backgroundColor: '#F3F4F6',
+                      boxShadow: '0 0 0 0.75px #1C252E',
+                    },
+                  }}
+                >
+                  <ChevronLeft size={20} />
+                </Button>
+                <Button
+                  onClick={handleNext}
+                  variant="outlined"
+                  sx={{
+                    minWidth: '48px',
+                    width: '48px',
+                    height: '48px',
+                    p: 0,
+                    borderColor: '#E5E7EB',
+                    color: '#1F2937',
+                    '&:hover': {
+                      borderColor: '#1C252E',
+                      backgroundColor: '#F3F4F6',
+                      boxShadow: '0 0 0 0.75px #1C252E',
+                    },
+                  }}
+                >
+                  <ChevronRight size={20} />
+                </Button>
+              </Stack>
             </Stack>
-          </Stack>
-
-          {/* Remove the separate Show More button */}
+          </Box>
         </Box>
       </div>
     </Box>
