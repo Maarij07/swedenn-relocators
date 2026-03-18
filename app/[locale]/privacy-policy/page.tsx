@@ -102,7 +102,7 @@ export default function PrivacyPolicyPage() {
 
   if (loading) {
     return (
-      <main className="min-h-screen bg-[#F8FAFC]">
+      <main className="min-h-screen bg-[#F8F9FE]">
         <Navbar />
         <div className="flex justify-center items-center py-40">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
@@ -113,7 +113,7 @@ export default function PrivacyPolicyPage() {
 
   if (error || !policy) {
     return (
-      <main className="min-h-screen bg-[#F8FAFC]">
+      <main className="min-h-screen bg-[#F8F9FE]">
         <Navbar />
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-20">
           <div className="text-center">
@@ -125,7 +125,7 @@ export default function PrivacyPolicyPage() {
   }
 
   return (
-    <main className="min-h-screen bg-[#F8FAFC]">
+    <main className="min-h-screen bg-[#F8F9FE]">
       <Navbar />
 
       <div className="max-w-[1600px] 2xl:max-w-[1800px] 4k:max-w-[2400px] mx-auto pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">

@@ -55,4 +55,9 @@ export const endpoints = {
     details: '/api/product/details',
     search: '/api/product/search',
   },
+  vacancy: {
+    listings: '/miscellaneous/vacancy/listings',
+    details: (id) => `/miscellaneous/vacancy/${id}/details`,
+    apply: '/miscellaneous/vacancy/apply',
+  },
 };

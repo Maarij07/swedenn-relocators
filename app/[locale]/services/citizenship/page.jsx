@@ -2,9 +2,6 @@
 
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 
 export default function CitizenshipPage() {
   const { t, i18n } = useTranslation();
@@ -29,9 +26,9 @@ export default function CitizenshipPage() {
   const services = t('citizenship.support.services', { returnObjects: true }) || [];
 
   return (
-    <Box sx={{ minHeight: '100vh', bg: '#ffffff' }}>
+    <div className="min-h-screen bg-[#F8F9FE] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
       {/* Hero Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-12 sm:pb-16 lg:pb-20">
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pb-12 sm:pb-16 lg:pb-20">
         <h1 className="text-2xl xs:text-2.5xl sm:text-3xl lg:text-4xl xl:text-5xl 4k:text-6xl font-bold text-gray-900 mb-3 sm:mb-4 leading-tight">
           {t('citizenship.hero.title')}
         </h1>
@@ -69,19 +66,19 @@ export default function CitizenshipPage() {
                   {idx + 1}
                 </div>
               </div>
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.875rem' }, fontWeight: 700, mb: 2, color: '#1e293b' }}>
+              <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
                 {req.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.7 }}>
+              </h3>
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                 {req.description}
-              </Typography>
+              </p>
             </div>
           ))}
         </div>
       </div>
 
       {/* Special Categories */}
-      <div className="bg-[#F8FAFC]">
+      <div className="bg-[#F8F9FE]">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
             {t('citizenship.specialCategories.heading')}
@@ -95,17 +92,17 @@ export default function CitizenshipPage() {
                     {idx + 1}
                   </div>
                 </div>
-                <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.375rem', lg: '1.5rem', '4k': '2rem' }, fontWeight: 700, mb: 2, color: '#1e293b' }}>
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
                   {cat.title}
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 3 }}>
+                </h3>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed mb-3">
                   {cat.description}
-                </Typography>
+                </p>
                 <div className="space-y-2 pl-4">
                   {Array.isArray(cat.details) && cat.details.map((detail, i) => (
-                    <Typography key={i} sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.6 }}>
+                    <p key={i} className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                       • {detail}
-                    </Typography>
+                    </p>
                   ))}
                 </div>
               </div>
@@ -131,19 +128,19 @@ export default function CitizenshipPage() {
                   {idx + 1}
                 </div>
               </div>
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.875rem' }, fontWeight: 700, mb: 2, color: '#1e293b' }}>
+              <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
                 {step.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.7 }}>
+              </h3>
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                 {step.description}
-              </Typography>
+              </p>
             </div>
           ))}
         </div>
       </div>
 
       {/* Waiting Times */}
-      <div className="bg-[#F8FAFC]">
+      <div className="bg-[#F8F9FE]">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
             {t('citizenship.waitingTimes.heading')}
@@ -155,12 +152,12 @@ export default function CitizenshipPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             {Array.isArray(times) && times.map((item, idx) => (
               <div key={idx} className="bg-white border-l-4 border-green-500 rounded-lg p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow">
-                <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.25rem' }, color: '#6B7280', fontWeight: 600, mb: 2 }}>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed font-semibold mb-2">
                   {item.category}
-                </Typography>
-                <Typography sx={{ fontSize: { xs: '1rem', sm: '1.0625rem', lg: '1.125rem', '4k': '1.375rem' }, fontWeight: 700, color: '#1e293b' }}>
+                </p>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed font-bold">
                   {item.time}
-                </Typography>
+                </p>
               </div>
             ))}
           </div>
@@ -184,12 +181,12 @@ export default function CitizenshipPage() {
                   {idx + 1}
                 </div>
               </div>
-              <Typography sx={{ fontSize: { xs: '1.0625rem', sm: '1.125rem', lg: '1.25rem', '4k': '1.75rem' }, fontWeight: 700, mb: 2, color: '#1e293b' }}>
+              <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
                 {service.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.125rem' }, color: '#6B7280', lineHeight: 1.7 }}>
+              </h3>
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                 {service.description}
-              </Typography>
+              </p>
             </div>
           ))}
         </div>
@@ -198,39 +195,24 @@ export default function CitizenshipPage() {
       {/* CTA Section */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pb-16 sm:pb-20 lg:pb-24">
         <div className="bg-black/85 rounded-2xl shadow-lg p-8 sm:p-10 lg:p-12 4k:p-16 text-center">
-          <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: { xs: 3, sm: 4 }, color: 'white' }}>
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-3 sm:mb-4">
             {t('citizenship.cta.heading')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: 'rgba(255,255,255,0.8)', mb: { xs: 6, sm: 8 }, maxWidth: '2xl', mx: 'auto', lineHeight: 1.8 }}>
+          </h2>
+          <p className="text-base sm:text-lg lg:text-xl text-white/80 max-w-3xl mx-auto mb-6 sm:mb-8 leading-relaxed">
             {t('citizenship.cta.description')}
-          </Typography>
-          <Box sx={{ display: 'flex', justifyContent: 'center', mb: { xs: 4, sm: 5 } }}>
-            <Box
-              component="button"
-              sx={{
-                backgroundColor: '#ffffff',
-                color: '#000000',
-                fontSize: { xs: '0.875rem', sm: '1rem', lg: '1.125rem', '4k': '1.25rem' },
-                fontWeight: 600,
-                px: { xs: 4, sm: 6, lg: 8, '4k': 10 },
-                py: { xs: 1.2, sm: 1.5, lg: 1.8, '4k': 2 },
-                borderRadius: '9999px',
-                border: 'none',
-                cursor: 'pointer',
-                transition: 'all 0.3s ease',
-                '&:hover': {
-                  backgroundColor: '#f3f4f6',
-                },
-              }}
+          </p>
+          <div className="flex justify-center mb-4 sm:mb-5">
+            <button
+              className="bg-white text-black text-sm sm:text-base lg:text-lg font-semibold px-8 sm:px-12 lg:px-16 py-3 sm:py-4 rounded-full border-none cursor-pointer transition-all duration-300 hover:bg-gray-100"
             >
               {t('citizenship.cta.button')}
-            </Box>
-          </Box>
-          <Typography sx={{ fontSize: { xs: '0.75rem', sm: '0.85rem', lg: '0.95rem', '4k': '1rem' }, color: 'rgba(255,255,255,0.6)' }}>
+            </button>
+          </div>
+          <p className="text-xs sm:text-sm lg:text-base text-white/60">
             {t('citizenship.cta.subtext')}
-          </Typography>
+          </p>
         </div>
       </div>
-    </Box>
+    </div>
   );
 }

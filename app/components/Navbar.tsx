@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 import LanguageSelector from './LanguageSelector';
 import { useTranslation } from 'react-i18next';
-import { useParams } from 'next/navigation';
+import { useParams, usePathname } from 'next/navigation';
 import { NavDropdownPaper } from './NavDropdown.styles';
 import OutlinedNavButton from './OutlinedNavButton';
 import ContainedNavButton from './ContainedNavButton';
@@ -46,6 +46,9 @@ export default function Navbar() {
   const { i18n, t } = useTranslation();
   const params = useParams();
   const locale = params?.locale as string || 'en';
+  const pathname = usePathname();
+
+  const isActive = (path: string) => pathname === path || pathname?.startsWith(path + '/');
   const [isOpen, setIsOpen] = useState(false);
   const [languageSelectorOpen, setLanguageSelectorOpen] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState('en');
@@ -220,22 +223,31 @@ export default function Navbar() {
                     transform: translateX(-50%) !important;
                   }
                 }
+
               `}</style>
 
               <a
                 href={`/${locale}/new-in-sweden`}
-                className="text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
+                className={`inline-flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/new-in-sweden`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
               >
+                {isActive(`/${locale}/new-in-sweden`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
                 {t('navbar.links.newInSweden')}
               </a>
+
+              <style>{`
+                .dropdown-menu a:hover > div:first-child {
+                  color: #2563eb;
+                }
+              `}</style>
 
               {/* Services Dropdown - label navigates to /services on click */}
               <div className="relative group" ref={(el: HTMLDivElement | null) => { if (el) dropdownRefs.current['services'] = el; }}>
                 <div className="flex items-center gap-1">
                   <a
                     href={`/${locale}/services`}
-                    className="text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
+                    className={`inline-flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/services`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
                   >
+                    {isActive(`/${locale}/services`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
                     {t('navbar.links.services')}
                   </a>
                   <button
@@ -387,8 +399,9 @@ export default function Navbar() {
 
               <a
                 href={`/${locale}/about`}
-                className="text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
+                className={`inline-flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/about`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
               >
+                {isActive(`/${locale}/about`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
                 {t('navbar.links.about')}
               </a>
 
@@ -404,9 +417,10 @@ export default function Navbar() {
                       toggleDropdown('housing');
                     }
                   }}
-                  className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
+                  className={`flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/housing`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
                   aria-label="Toggle housing menu"
                 >
+                  {isActive(`/${locale}/housing`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
                   {t('navbar.links.housing')}
                   <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.housing ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -455,9 +469,10 @@ export default function Navbar() {
                       toggleDropdown('assessment');
                     }
                   }}
-                  className="flex items-center gap-1 text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
+                  className={`flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/assessment`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
                   aria-label="Toggle assessment menu"
                 >
+                  {isActive(`/${locale}/assessment`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
                   {t('navbar.links.assessment')}
                   <svg className={`w-4 h-4 4k:w-7 4k:h-7 transition-transform duration-200 ${openDropdowns.assessment ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -520,8 +535,9 @@ export default function Navbar() {
 
               <a
                 href={`/${locale}/contact`}
-                className="text-sm xl:text-[15px] 4k:text-2xl text-[#637381] hover:text-[#2563eb] transition-colors whitespace-nowrap font-medium"
+                className={`inline-flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/contact`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
               >
+                {isActive(`/${locale}/contact`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
                 {t('navbar.links.contact')}
               </a>
             </div>

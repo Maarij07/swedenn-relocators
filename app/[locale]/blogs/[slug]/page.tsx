@@ -127,7 +127,7 @@ export default function BlogDetailPage() {
   });
 
   return (
-    <main className="min-h-screen bg-[#F8FAFC]">
+    <main className="min-h-screen bg-[#F8F9FE]">
       <Navbar />
 
       {/* Hero Section - Split Layout */}
@@ -292,13 +292,11 @@ export default function BlogDetailPage() {
           </div>
 
           {/* Main Content */}
-          <div className="space-y-6 sm:space-y-8">
-            {blog.content.split('\n\n').map((paragraph, index) => (
-              <p key={index} className="text-gray-700 text-base sm:text-lg leading-relaxed">
-                {paragraph.trim()}
-              </p>
-            ))}
-          </div>
+          <div 
+            className="prose prose-sm sm:prose-base prose-p:text-gray-700 prose-p:leading-relaxed prose-h1:text-2xl prose-h1:font-bold prose-h1:text-gray-900 prose-h2:text-xl prose-h2:font-bold prose-h2:text-gray-900 prose-h3:text-lg prose-h3:font-semibold prose-h3:text-gray-900 prose-strong:font-semibold prose-strong:text-gray-900 prose-em:text-gray-700 prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-700 prose-ul:list-disc prose-ul:ml-6 prose-ol:list-decimal prose-ol:ml-6 prose-li:text-gray-700 prose-li:leading-relaxed"
+            dangerouslySetInnerHTML={{ __html: blog.content }}
+          />
+
         </section>
       </div>
     </main>

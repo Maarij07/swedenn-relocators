@@ -32,7 +32,7 @@ export default function GlobalVisitVisasPage() {
   const benefits = t('globalVisitVisas.whyChoose.benefits', { returnObjects: true }) || [];
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
+    <div className="min-h-screen bg-[#F8F9FE] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         {/* Hero Section */}
         <section className="mb-8 sm:mb-12 lg:mb-16">
@@ -118,7 +118,7 @@ export default function GlobalVisitVisasPage() {
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             {Array.isArray(purposes) && purposes.map((purpose) => (
               <div key={purpose.id} className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
-                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
                   {purpose.title}
                 </h3>
                 <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
@@ -137,7 +137,7 @@ export default function GlobalVisitVisasPage() {
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             {Array.isArray(steps) && steps.map((step) => (
               <div key={step.number} className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
-                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
                   {step.number}. {step.title}
                 </h3>
                 <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
@@ -156,7 +156,7 @@ export default function GlobalVisitVisasPage() {
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             {Array.isArray(faqs) && faqs.map((faq) => (
               <div key={faq.id} className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-purple-500">
-                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
                   {faq.question}
                 </h3>
                 <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
@@ -175,7 +175,7 @@ export default function GlobalVisitVisasPage() {
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             {Array.isArray(benefits) && benefits.map((benefit) => (
               <div key={benefit.id} className="bg-white rounded-lg p-4 sm:p-6 border-l-4 border-orange-500">
-                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
                   {benefit.title}
                 </h3>
                 <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">

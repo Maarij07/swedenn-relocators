@@ -19,16 +19,10 @@ export default function Footer() {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 xl:gap-12 mb-12 lg:mb-16">
             {/* Column 1 - Logo & description */}
             <div className="col-span-2 sm:col-span-3 lg:col-span-1">
-              <div className="flex items-start gap-2 mb-2 -mt-2">
-                <div className="w-9 h-9 flex items-center justify-center flex-shrink-0">
-                  <Image src="/favicon.ico" alt="Sweden Relocators" width={28} height={28} />
-                </div>
-              </div>
-
               <p className="text-sm sm:text-base text-[#cbd5e1] leading-relaxed">
                 {isSv
-                  ? 'Vi är en relocation‑leverantör som arbetar med alla typer av laglig flytt till Sverige. Vi erbjuder digitalt stödda ansökningsprocesser och hjälper dig med rådgivning och tjänster för att etablera dig i landet.'
-                  : 'We are a Relocation Services Provider Company which deals with all sort of legal relocation to Sweden. We offers quality guidance, effective advice and provides information to our clients to settle down in the country.'}
+                  ? 'Vi är en relocation‑leverantör som arbetar med alla typer av laglig flytt från och till Sverige. Vi erbjuder digitalt stödda ansökningsprocesser och hjälper dig med rådgivning och tjänster för att etablera dig i landet.'
+                  : 'We are a Relocation Services Provider Company which deals with all sort of legal relocation from and to Sweden. We offers quality guidance, effective advice and provides information to our clients to settle down in the country.'}
               </p>
             </div>
 
@@ -70,6 +64,7 @@ export default function Footer() {
                 <li><a href={`/${locale}/faqs`} className="hover:text-white transition-colors">{isSv ? 'Vanliga frågor' : 'FAQs'}</a></li>
                 <li><a href={`/${locale}/career`} className="hover:text-white transition-colors">{isSv ? 'Karriär' : 'Careers'}</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">{isSv ? 'Omdömen' : 'Testimonials'}</a></li>
+                <li><a href={`/${locale}/gallery`} className="hover:text-white transition-colors">{isSv ? 'Galleri' : 'Gallery'}</a></li>
               </ul>
             </div>
 
@@ -93,6 +88,36 @@ export default function Footer() {
                 <p>info@swedenrelocators.se</p>
                 <p>support@swedenrelocators.se</p>
               </div>
+            </div>
+          </div>
+
+          {/* Newsletter */}
+          <div className="border-t border-[#1f2933] mt-10 lg:mt-12 pt-10 lg:pt-12">
+            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+              <div>
+                <h4 className="text-base sm:text-lg font-bold text-[#e2e8f0] mb-1">
+                  Subscribe to our Newsletter
+                </h4>
+                <p className="text-xs sm:text-sm text-[#cbd5e1]">
+                  Stay updated with relocation news, tips, and offers.
+                </p>
+              </div>
+              <form
+                onSubmit={(e) => e.preventDefault()}
+                className="flex w-full lg:w-auto gap-2"
+              >
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="flex-1 lg:w-72 bg-[#1a2332] border border-[#2d3f55] text-[#cbd5e1] placeholder-[#4a5568] text-xs sm:text-sm rounded-lg px-4 py-2.5 outline-none focus:border-[#247FE1] transition-colors"
+                />
+                <button
+                  type="submit"
+                  className="px-5 py-2.5 bg-[#247FE1] hover:bg-[#1a6fd4] text-white text-xs sm:text-sm font-semibold rounded-lg transition-colors whitespace-nowrap"
+                >
+                  Subscribe
+                </button>
+              </form>
             </div>
           </div>
 
@@ -204,27 +229,23 @@ export default function Footer() {
                 <p className="text-sm xl:text-[15px] 4k:text-2xl text-[#cbd5e1] mb-3">
                   {isSv ? 'Ladda ner vår app' : 'Download our App'}
                 </p>
-                <div className="flex gap-3 mb-8">
+                <div className="flex flex-wrap gap-3 mb-8">
                   <a
                     href="https://apps.apple.com/ca/app/sweden-relocators/id1621885091"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.15)] transition-all duration-300"
+                    className="inline-flex items-center gap-2.5 px-4 py-2.5 bg-white border border-slate-200 rounded-xl hover:shadow-md transition-all duration-300"
                   >
                     <Image
                       src="/apple.svg"
                       alt="Apple"
-                      width={16}
-                      height={16}
-                      className="w-4 h-4"
+                      width={20}
+                      height={20}
+                      className="w-5 h-5 flex-shrink-0"
                     />
-                    <div className="flex flex-col items-start">
-                      <span className="text-[0.4rem] sm:text-[0.45rem] font-light text-slate-600 uppercase tracking-wide">
-                        DOWNLOAD ON THE
-                      </span>
-                      <span className="font-semibold text-[0.6rem] sm:text-[0.65rem] text-slate-900 -mt-0.5">
-                        App Store
-                      </span>
+                    <div className="flex flex-col items-start leading-tight">
+                      <span className="text-[10px] font-normal text-slate-500 uppercase tracking-wide">Download on the</span>
+                      <span className="text-sm font-semibold text-slate-900">App Store</span>
                     </div>
                   </a>
 
@@ -232,22 +253,18 @@ export default function Footer() {
                     href="https://play.google.com/store/apps/details?id=se.swedenrelocators.sweden_relocators"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.15)] transition-all duration-300"
+                    className="inline-flex items-center gap-2.5 px-4 py-2.5 bg-white border border-slate-200 rounded-xl hover:shadow-md transition-all duration-300"
                   >
                     <Image
                       src="/playstore.svg"
                       alt="Google Play"
-                      width={16}
-                      height={16}
-                      className="w-4 h-4"
+                      width={20}
+                      height={20}
+                      className="w-5 h-5 flex-shrink-0"
                     />
-                    <div className="flex flex-col items-start">
-                      <span className="text-[0.4rem] sm:text-[0.45rem] font-light text-slate-600 uppercase tracking-wide">
-                        GET IT ON
-                      </span>
-                      <span className="font-semibold text-[0.6rem] sm:text-[0.65rem] text-slate-900 -mt-0.5">
-                        Google Play
-                      </span>
+                    <div className="flex flex-col items-start leading-tight">
+                      <span className="text-[10px] font-normal text-slate-500 uppercase tracking-wide">Get it on</span>
+                      <span className="text-sm font-semibold text-slate-900">Google Play</span>
                     </div>
                   </a>
                 </div>
