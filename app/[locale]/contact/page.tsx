@@ -158,11 +158,11 @@ export default function ContactPage() {
                         <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16 2xl:gap-20 3xl:gap-24 4k:gap-32 items-center">
                             {/* LEFT SIDE */}
                             <div className="space-y-6 sm:space-y-7 md:space-y-8 lg:space-y-9 3xl:space-y-12 4k:space-y-16" style={{ animation: 'fadeInUp 0.8s ease-out' }}>
-                                <h1 className="text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] lg:text-[2.5rem] xl:text-[2.75rem] 2xl:text-[3rem] 3xl:text-[3.25rem] 4k:text-[4rem] leading-[1.2] font-extrabold">
-                                    <span className="block text-gray-900">Contact Us</span>
+                                <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 4k:text-6xl font-bold text-gray-900 leading-tight">
+                                    Contact Us
                                 </h1>
 
-                                <p className="text-[14px] sm:text-[15px] md:text-base lg:text-[17px] xl:text-[18px] 3xl:text-[20px] 4k:text-[2rem] text-gray-600 leading-[1.7] max-w-xl 3xl:max-w-2xl 4k:max-w-5xl font-medium">
+                                <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl leading-relaxed">
                                     Find us at your nearest location, or reach us digitally anytime through our web and app.
                                 </p>
 
@@ -202,12 +202,12 @@ export default function ContactPage() {
                     >
                         <path
                             d="M0,50 C360,80 720,80 1080,50 C1260,35 1350,20 1440,20 L1440,100 L0,100 Z"
-                            fill="white"
+                            fill="#F8F9FE"
                             opacity="0.9"
                         />
                         <path
                             d="M0,60 C360,90 720,90 1080,60 C1260,45 1350,30 1440,30 L1440,100 L0,100 Z"
-                            fill="white"
+                            fill="#F8F9FE"
                         />
                     </svg>
                 </div>
@@ -219,11 +219,10 @@ export default function ContactPage() {
                     {/* Section Header */}
                     <div className="flex flex-col items-center mx-auto mb-16 sm:mb-20" style={{width:'1500px', maxWidth:'calc(100% - 12px)'}}>
                         <div className="bg-[#f2f7fd] border-l-4 border-[#247FE1] rounded-xl px-6 py-7 flex flex-col items-center w-full">
-                            <h2 className="font-black text-[#10182b] text-center mb-2"
-                                style={{ fontSize: '2.5rem', lineHeight: 1.1 }}>
+                            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 text-center mb-2">
                                 Our Services for a Seamless
                             </h2>
-                            <span className="block text-[#247FE1] text-[1.35rem] font-semibold text-center mt-1" style={{lineHeight:1.2}}>
+                            <span className="block text-[#247FE1] text-base sm:text-lg lg:text-xl font-semibold text-center mt-1">
                                 Move to Sweden
                             </span>
                         </div>
@@ -250,7 +249,7 @@ export default function ContactPage() {
                                         placeholder="Name"
                                         value={form.name}
                                         onChange={onChange('name')}
-                                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-colors bg-white text-gray-900 placeholder-gray-400"
+                                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-colors bg-[#F4F6F8] text-gray-900 placeholder-gray-400"
                                     />
                                 </div>
                                 <div>
@@ -261,7 +260,7 @@ export default function ContactPage() {
                                         placeholder="Email"
                                         value={form.email}
                                         onChange={onChange('email')}
-                                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-colors bg-white text-gray-900 placeholder-gray-400"
+                                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-colors bg-[#F4F6F8] text-gray-900 placeholder-gray-400"
                                     />
                                 </div>
                                 <div>
@@ -272,7 +271,7 @@ export default function ContactPage() {
                                         placeholder="Subject"
                                         value={form.subject}
                                         onChange={onChange('subject')}
-                                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-colors bg-white text-gray-900 placeholder-gray-400"
+                                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-colors bg-[#F4F6F8] text-gray-900 placeholder-gray-400"
                                     />
                                 </div>
                                 <div>
@@ -333,71 +332,113 @@ export default function ContactPage() {
                         <p className="text-red-600 text-sm">{error}</p>
                     )}
                     {!loading && !error && (
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
-                            {contacts.slice(0, 4).map((loc) => (
-                                <div
-                                  key={`${loc.country}-${loc.registration_no}`}
-                                  className="bg-white rounded-3xl shadow-[0_10px_28px_rgba(15,23,42,0.08),0_4px_10px_rgba(59,130,246,0.10)] hover:shadow-[0_18px_38px_rgba(15,23,42,0.14),0_8px_16px_rgba(59,130,246,0.16)] transition-all duration-300 overflow-hidden border border-gray-100 border-l-4 border-[#247FE1] border-b-4 border-b-blue-500 h-full flex flex-col"
-                                  style={{ minHeight: '420px' }}
-                                >
-                                    <div className="bg-[#F0F5FF] px-6 py-4 flex items-center gap-3">
-                                        <div className="w-8 h-8 rounded-full overflow-hidden relative shadow-sm">
-                                            <Image
-                                                src={`https://flagcdn.com/w160/${flagCodeFor(loc.country)}.png`}
-                                                alt={`${loc.country} Flag`}
-                                                fill
-                                                className="object-cover"
-                                            />
-                                        </div>
-                                        <h3 className="text-lg font-bold text-gray-900">{loc.country}</h3>
-                                    </div>
-                                    <div className="p-6 flex flex-col gap-6 flex-1">
-                                        <div>
-                                            <div className="flex items-center gap-2 mb-2">
-                                                <div className="w-6 h-6 relative flex-shrink-0">
-                                                    <Image src="/place1.svg" alt="Address" fill className="object-contain" />
-                                                </div>
-                                                <span className="font-bold text-gray-900 text-sm">Address</span>
+                        <div className="rounded-2xl overflow-hidden shadow-[0_20px_60px_rgba(15,23,42,0.12)] border border-gray-100">
+                            {/* Header */}
+                            <div className="bg-[#0f172a] px-8 py-6 flex items-center gap-4">
+                                <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
+                                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h2 className="text-white text-base sm:text-lg lg:text-xl font-bold">Our Global Offices</h2>
+                                    <p className="text-white/60 text-xs sm:text-sm">Find us across Europe</p>
+                                </div>
+                            </div>
+
+                            {/* Office columns — row-based layout for perfect cross-column alignment */}
+                            <div className="bg-[#F8F9FE]">
+
+                                {/* Row 1: Country names */}
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-gray-200 border-b border-gray-200">
+                                    {contacts.slice(0, 4).map((loc) => (
+                                        <div key={`name-${loc.country}`} className="px-6 sm:px-8 py-5 flex items-center gap-3">
+                                            <div className="w-10 h-10 rounded-full overflow-hidden relative shadow flex-shrink-0">
+                                                <Image
+                                                    src={`https://flagcdn.com/w160/${flagCodeFor(loc.country)}.png`}
+                                                    alt={`${loc.country} Flag`}
+                                                    fill
+                                                    className="object-cover"
+                                                />
                                             </div>
-                                            <p className="text-xs text-gray-500 pl-8">
-                                                {loc.address}
-                                            </p>
+                                            <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900">{loc.country}</h3>
                                         </div>
-                                        <div>
-                                            <div className="flex items-center gap-2 mb-2">
-                                                <div className="w-6 h-6 relative flex-shrink-0">
-                                                    <Image src="/contact.svg" alt="Phone" fill className="object-contain" />
-                                                </div>
-                                                <span className="font-bold text-gray-900 text-sm">Contact Number</span>
+                                    ))}
+                                </div>
+
+                                {/* Row 2: Address */}
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-gray-200 border-b border-gray-200">
+                                    {contacts.slice(0, 4).map((loc) => (
+                                        <div key={`addr-${loc.country}`} className="px-6 sm:px-8 py-5 flex items-start gap-3">
+                                            <div className="w-9 h-9 rounded-lg bg-blue-50 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                                <svg className="w-5 h-5 text-[#247FE1]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                </svg>
                                             </div>
-                                            <p className="text-xs text-gray-500 pl-8">
-                                                {loc.contact_number}
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <div className="flex items-center gap-2 mb-2">
-                                                <div className="w-6 h-6 relative flex-shrink-0">
-                                                    <Image src="/contact.svg" alt="Email" fill className="object-contain" />
-                                                </div>
-                                                <span className="font-bold text-gray-900 text-sm">Email Address</span>
+                                            <div>
+                                                <p className="text-xs uppercase tracking-widest text-gray-400 font-semibold mb-1">Address</p>
+                                                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">{loc.address}</p>
                                             </div>
-                                            <p className="text-xs text-gray-500 pl-8">
-                                                {loc.email}
-                                            </p>
                                         </div>
-                                        <div className="pt-2 mt-auto">
+                                    ))}
+                                </div>
+
+                                {/* Row 3: Phone */}
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-gray-200 border-b border-gray-200">
+                                    {contacts.slice(0, 4).map((loc) => (
+                                        <div key={`phone-${loc.country}`} className="px-6 sm:px-8 py-5 flex items-start gap-3">
+                                            <div className="w-9 h-9 rounded-lg bg-blue-50 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                                <svg className="w-5 h-5 text-[#247FE1]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <p className="text-xs uppercase tracking-widest text-gray-400 font-semibold mb-1">Phone</p>
+                                                <p className="text-xs sm:text-sm lg:text-base text-gray-700">{loc.contact_number}</p>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+
+                                {/* Row 4: Email */}
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-gray-200 border-b border-gray-200">
+                                    {contacts.slice(0, 4).map((loc) => (
+                                        <div key={`email-${loc.country}`} className="px-6 sm:px-8 py-5 flex items-start gap-3">
+                                            <div className="w-9 h-9 rounded-lg bg-blue-50 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                                <svg className="w-5 h-5 text-[#247FE1]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <p className="text-xs uppercase tracking-widest text-gray-400 font-semibold mb-1">Email</p>
+                                                <p className="text-xs sm:text-sm lg:text-base text-gray-700 break-all">{loc.email}</p>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+
+                                {/* Row 5: View on Map */}
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-gray-200">
+                                    {contacts.slice(0, 4).map((loc) => (
+                                        <div key={`map-${loc.country}`} className="px-6 sm:px-8 py-5">
                                             <a
                                                 href={mapsLink(loc.address)}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                className="w-full inline-flex justify-center py-3 bg-black text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg"
+                                                className="inline-flex items-center gap-2 text-[#247FE1] text-xs sm:text-sm lg:text-base font-semibold hover:gap-3 transition-all duration-200"
                                             >
-                                                View On Map
+                                                <span>View on Map</span>
+                                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                                </svg>
                                             </a>
                                         </div>
-                                    </div>
+                                    ))}
                                 </div>
-                            ))}
+
+                            </div>
                         </div>
                     )}
                 </div>

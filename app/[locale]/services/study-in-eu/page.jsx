@@ -48,7 +48,7 @@ export default function StudyInEuPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
+    <div className="min-h-screen bg-[#F8F9FE] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         {/* Hero Section */}
         <section className="mb-8 sm:mb-12 lg:mb-16">
@@ -203,7 +203,7 @@ export default function StudyInEuPage() {
                 key={idx}
                 className="bg-white rounded-lg p-4 sm:p-5 border-l-4 border-purple-500"
               >
-                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
                   {service.title}
                 </h3>
                 <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">

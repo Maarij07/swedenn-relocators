@@ -39,7 +39,7 @@ export default function AsylumPage() {
   const ctaData = t('asylum.cta', { returnObjects: true }) || {};
 
   return (
-    <main className="min-h-screen bg-[#F8FAFC] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
+    <main className="min-h-screen bg-[#F8F9FE] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         {/* Hero Section */}
         <section className="mb-8 sm:mb-12 lg:mb-16">
@@ -79,10 +79,10 @@ export default function AsylumPage() {
                 key={idx}
                 className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-blue-500 hover:shadow-md transition-shadow"
               >
-                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
                   {benefit.title}
                 </h3>
-                <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed">
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                   {benefit.description}
                 </p>
               </div>
@@ -100,10 +100,10 @@ export default function AsylumPage() {
               <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-3">
                 {t('asylum.eligibility.whoCanApply.heading')}
               </h3>
-              <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed mb-2">
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed mb-2">
                 {t('asylum.eligibility.whoCanApply.intro')}
               </p>
-              <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed">
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                 {t('asylum.eligibility.whoCanApply.description')}
               </p>
             </div>
@@ -112,7 +112,7 @@ export default function AsylumPage() {
               <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-3">
                 {t('asylum.eligibility.refugeeDefinition.heading')}
               </h3>
-              <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed mb-3">
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed mb-3">
                 {t('asylum.eligibility.refugeeDefinition.intro')}
               </p>
               <ul className="space-y-2 mb-3">
@@ -123,7 +123,7 @@ export default function AsylumPage() {
                   </li>
                 ))}
               </ul>
-              <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed">
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                 {t('asylum.eligibility.refugeeDefinition.additionalInfo')}
               </p>
             </div>
@@ -146,7 +146,7 @@ export default function AsylumPage() {
                     {step.step}
                   </span>
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                    <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
                       {step.title}
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
@@ -198,7 +198,7 @@ export default function AsylumPage() {
               <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-3">
                 {t('asylum.familyReunification.whoCanApply.heading')}
               </h3>
-              <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed mb-3">
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed mb-3">
                 {t('asylum.familyReunification.whoCanApply.intro')}
               </p>
               <ul className="space-y-2">
@@ -215,7 +215,7 @@ export default function AsylumPage() {
               <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-3">
                 {t('asylum.familyReunification.euEeaCitizens.heading')}
               </h3>
-              <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed">
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                 {t('asylum.familyReunification.euEeaCitizens.description')}
               </p>
             </div>
@@ -224,13 +224,13 @@ export default function AsylumPage() {
               <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-3">
                 {t('asylum.familyReunification.temporaryPermit.heading')}
               </h3>
-              <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed mb-2">
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed mb-2">
                 {t('asylum.familyReunification.temporaryPermit.description')}
               </p>
-              <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed mb-2">
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed mb-2">
                 {t('asylum.familyReunification.temporaryPermit.familyMembers')}
               </p>
-              <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed">
+              <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                 {t('asylum.familyReunification.temporaryPermit.maintenance')}
               </p>
             </div>
@@ -251,10 +251,10 @@ export default function AsylumPage() {
                 key={idx}
                 className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-blue-500 hover:shadow-md transition-shadow"
               >
-                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
                   {service.title}
                 </h3>
-                <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed">
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                   {service.description}
                 </p>
               </div>
@@ -276,10 +276,10 @@ export default function AsylumPage() {
                 key={idx}
                 className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-green-500 hover:shadow-md transition-shadow"
               >
-                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
                   {service.title}
                 </h3>
-                <p className="text-xs sm:text-sm lg:text-base text-gray-600 leading-relaxed">
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
                   {service.description}
                 </p>
               </div>

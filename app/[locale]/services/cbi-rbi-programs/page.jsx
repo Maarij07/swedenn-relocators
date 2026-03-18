@@ -36,7 +36,7 @@ export default function CBSBBProgrammePage() {
   const reasons = t('cbiBbi.whoShould.reasons', { returnObjects: true }) || [];
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
+    <div className="min-h-screen bg-[#F8F9FE] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         {/* Hero Section */}
         <section className="mb-8 sm:mb-12 lg:mb-16">
@@ -69,7 +69,7 @@ export default function CBSBBProgrammePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-6">
             {Array.isArray(definitions) && definitions.map((def, idx) => (
               <div key={idx} className="bg-white rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-blue-500">
-                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
                   {def.title}
                 </h3>
                 <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
@@ -114,7 +114,7 @@ export default function CBSBBProgrammePage() {
                 <p className="text-xs sm:text-sm text-gray-600 mb-3 italic">{country.type}</p>
                 <div className="space-y-3">
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Investment Options:</h4>
+                    <h4 className="text-sm font-bold text-gray-900 mb-2">Investment Options:</h4>
                     <ul className="space-y-1">
                       {Array.isArray(country.investmentOptions) && country.investmentOptions.map((opt, i) => (
                         <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
@@ -125,10 +125,10 @@ export default function CBSBBProgrammePage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Family Members: {country.familyMembers}</h4>
+                    <h4 className="text-sm font-bold text-gray-900 mb-2">Family Members: {country.familyMembers}</h4>
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Benefits:</h4>
+                    <h4 className="text-sm font-bold text-gray-900 mb-2">Benefits:</h4>
                     <ul className="space-y-1">
                       {Array.isArray(country.benefits) && country.benefits.map((benefit, i) => (
                         <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
@@ -161,7 +161,7 @@ export default function CBSBBProgrammePage() {
                 <p className="text-xs sm:text-sm text-gray-600 mb-3 italic">{country.type}</p>
                 <div className="space-y-3">
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Investment Options:</h4>
+                    <h4 className="text-sm font-bold text-gray-900 mb-2">Investment Options:</h4>
                     <ul className="space-y-1">
                       {Array.isArray(country.investmentOptions) && country.investmentOptions.map((opt, i) => (
                         <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
@@ -172,10 +172,10 @@ export default function CBSBBProgrammePage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Family Members: {country.familyMembers}</h4>
+                    <h4 className="text-sm font-bold text-gray-900 mb-2">Family Members: {country.familyMembers}</h4>
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Benefits:</h4>
+                    <h4 className="text-sm font-bold text-gray-900 mb-2">Benefits:</h4>
                     <ul className="space-y-1">
                       {Array.isArray(country.benefits) && country.benefits.map((benefit, i) => (
                         <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
@@ -205,7 +205,7 @@ export default function CBSBBProgrammePage() {
                 <p className="text-xs sm:text-sm text-gray-600 mb-3 italic">{country.type}</p>
                 <div className="space-y-3">
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Investment Options:</h4>
+                    <h4 className="text-sm font-bold text-gray-900 mb-2">Investment Options:</h4>
                     <ul className="space-y-1">
                       {Array.isArray(country.investmentOptions) && country.investmentOptions.map((opt, i) => (
                         <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
@@ -216,10 +216,10 @@ export default function CBSBBProgrammePage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Family Members: {country.familyMembers}</h4>
+                    <h4 className="text-sm font-bold text-gray-900 mb-2">Family Members: {country.familyMembers}</h4>
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Benefits:</h4>
+                    <h4 className="text-sm font-bold text-gray-900 mb-2">Benefits:</h4>
                     <ul className="space-y-1">
                       {Array.isArray(country.benefits) && country.benefits.map((benefit, i) => (
                         <li key={i} className="text-xs sm:text-sm text-gray-700 flex gap-2">
@@ -248,7 +248,7 @@ export default function CBSBBProgrammePage() {
                     {step.number}
                   </span>
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 mb-2">
+                    <h3 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2">
                       {step.title}
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">

@@ -42,7 +42,7 @@ export default function WorkPermitPage() {
       </div>
 
       {/* Intro Section */}
-      <div className="bg-[#F8FAFC] border-t border-gray-200">
+      <div className="bg-[#F8F9FE] border-t border-gray-200">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
           <Typography sx={{ fontSize: { xs: '1.25rem', sm: '1.5rem', lg: '1.75rem', '4k': '2.5rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
             {t('workPermit.intro.heading')}
@@ -114,7 +114,7 @@ export default function WorkPermitPage() {
       </div>
 
       {/* Waiting Times */}
-      <div className="bg-[#F8FAFC]">
+      <div className="bg-[#F8F9FE]">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
           <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 3, color: '#1e293b' }}>
             {t('workPermit.process.heading')}
@@ -162,7 +162,7 @@ export default function WorkPermitPage() {
       </div>
 
       {/* How We Help */}
-      <div className="bg-[#F8FAFC]">
+      <div className="bg-[#F8F9FE]">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
           <Typography sx={{ fontSize: { xs: '2rem', sm: '2.25rem', lg: '2.5rem', '4k': '3.5rem' }, fontWeight: 800, mb: 10, color: '#1e293b' }}>
             {t('workPermit.support.heading')}

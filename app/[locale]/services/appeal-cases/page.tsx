@@ -2,8 +2,6 @@
 
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
 
 export default function AppealCasesPage() {
   const { t, i18n } = useTranslation();
@@ -19,7 +17,7 @@ export default function AppealCasesPage() {
   }, [i18n]);
 
   if (!isReady) {
-    return <div>Loading...</div>;
+    return null;
   }
 
   const heroData = (t('appealCases.hero', { returnObjects: true }) || {}) as any;
@@ -44,293 +42,266 @@ export default function AppealCasesPage() {
   const advantages = Array.isArray(whyChooseData.advantages) ? whyChooseData.advantages : [];
 
   return (
-    <div className="min-h-screen bg-[#F8F9FE]">
-      {/* Hero Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-12 sm:pb-16 lg:pb-20">
-        <Typography sx={{ fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '4.5rem', '4k': '6rem' }, fontWeight: 800, mb: 3, color: '#1e293b', lineHeight: 1.1 }}>
-          {heroData.title}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', md: '1.375rem', lg: '1.625rem', '4k': '2rem' }, color: '#3B82F6', fontWeight: 600 }}>
-          {heroData.subtitle}
-        </Typography>
-      </div>
+    <div className="min-h-screen bg-[#F8F9FE] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
+      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
 
-      {/* Intro Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <div className="bg-white rounded-2xl p-6 sm:p-8 lg:p-10 4k:p-12 shadow-sm">
-          <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 6, color: '#1e293b' }}>
+        {/* Hero Section */}
+        <section className="mb-8 sm:mb-12 lg:mb-16">
+          <h1 className="text-2xl xs:text-2.5xl sm:text-3xl lg:text-4xl xl:text-5xl 4k:text-6xl font-bold text-gray-900 mb-3 sm:mb-4 leading-tight">
+            {heroData.title}
+          </h1>
+          <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl">
+            {heroData.subtitle}
+          </p>
+        </section>
+
+        {/* Intro Section */}
+        <section className="bg-[#F8F9FE] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-5">
             {introData.heading}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, whiteSpace: 'pre-wrap' }}>
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
             {introData.description}
-          </Typography>
-        </div>
-      </div>
+          </p>
+        </section>
 
-      {/* Your Rights Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 8, color: '#1e293b' }}>
-          {yourRightsData.heading}
-        </Typography>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {rights.map((right: any, idx: number) => (
-            <div key={idx} className="bg-white border-l-4 border-blue-500 rounded-lg p-6 sm:p-8 lg:p-10 shadow-sm hover:shadow-md transition-shadow">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-sm sm:text-base">
-                  {idx + 1}
+        {/* Your Rights Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 lg:mb-8">
+            {yourRightsData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
+            {yourRightsData.intro}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+            {rights.map((right: any, idx: number) => (
+              <div key={idx} className="bg-[#F8F9FE] rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-blue-500 hover:shadow-md transition-shadow">
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <span className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-sm sm:text-base">
+                    {idx + 1}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
+                      {right.title}
+                    </h3>
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                      {right.description}
+                    </p>
+                  </div>
                 </div>
               </div>
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-                {right.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                {right.description}
-              </Typography>
-            </div>
-          ))}
-        </div>
-      </div>
+            ))}
+          </div>
+        </section>
 
-      {/* Review Process Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-          {reviewData.heading}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 8 }}>
-          {reviewData.intro}
-        </Typography>
-
-        <div className="space-y-6">
-          {stages.map((stage: any, idx: number) => (
-            <div key={idx} className="bg-white border-l-4 border-green-500 rounded-lg p-6 sm:p-8 lg:p-10 shadow-sm">
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-sm sm:text-base">
-                  {stage.number}
-                </div>
-                <div className="flex-1 min-w-0">
-                  <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
-                    {stage.title}
-                  </Typography>
-                  {stage.description && (
-                    <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', mb: 3 }}>
-                      {stage.description}
-                    </Typography>
-                  )}
-                  {stage.questions && (
-                    <div>
-                      {stage.questions.map((q: any, i: number) => (
-                        <Typography key={i} sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', mb: 1 }}>
-                          • {q}
-                        </Typography>
-                      ))}
-                    </div>
-                  )}
+        {/* Review Process Section */}
+        <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
+            {reviewData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
+            {reviewData.intro}
+          </p>
+          <div className="space-y-4 sm:space-y-6 lg:space-y-8">
+            {stages.map((stage: any, idx: number) => (
+              <div key={idx} className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <span className="flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-xs sm:text-sm">
+                    {stage.number}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
+                      {stage.title}
+                    </h3>
+                    {stage.description && (
+                      <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed mb-2">
+                        {stage.description}
+                      </p>
+                    )}
+                    {stage.questions && (
+                      <ul className="space-y-1">
+                        {stage.questions.map((q: any, i: number) => (
+                          <li key={i} className="text-xs sm:text-sm lg:text-base text-gray-700">• {q}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
-      </div>
+            ))}
+          </div>
+        </section>
 
-      {/* How We Help Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-          {howWeHelpData.heading}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 8 }}>
-          {howWeHelpData.intro}
-        </Typography>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {steps.map((step: any, idx: number) => (
-            <div key={idx} className="bg-white border-t-4 border-blue-500 rounded-lg p-6 sm:p-8 lg:p-10 shadow-sm hover:shadow-md transition-shadow">
-              <div className="flex items-start gap-4 sm:gap-5 mb-4">
-                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-blue-100 to-blue-50 text-blue-600 flex items-center justify-center font-bold text-sm sm:text-base">
-                  {idx + 1}
+        {/* How We Help Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
+            {howWeHelpData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8 lg:mb-10 max-w-3xl leading-relaxed">
+            {howWeHelpData.intro}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+            {steps.map((step: any, idx: number) => (
+              <div key={idx} className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-7 lg:p-8 hover:shadow-md transition-shadow border-t-4 border-blue-500">
+                <div className="flex items-start gap-4 sm:gap-5">
+                  <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-xs sm:text-sm">
+                    {idx + 1}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
+                      {step.title}
+                    </h3>
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                      {step.description}
+                    </p>
+                  </div>
                 </div>
               </div>
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-                {step.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                {step.description}
-              </Typography>
-            </div>
-          ))}
-        </div>
-      </div>
+            ))}
+          </div>
+        </section>
 
-      {/* Common Cases Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 8, color: '#1e293b' }}>
-          {commonCasesData.heading}
-        </Typography>
+        {/* Common Cases Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
+            {commonCasesData.heading}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+            {cases.map((caseItem: any, idx: number) => (
+              <div key={idx} className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">• {caseItem}</p>
+              </div>
+            ))}
+          </div>
+        </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-          {cases.map((caseItem: any, idx: number) => (
-            <div key={idx} className="bg-white border-l-4 border-blue-500 rounded-lg p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow">
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                <span className="text-blue-600 font-bold mr-2">•</span>{caseItem}
-              </Typography>
-            </div>
-          ))}
-        </div>
-      </div>
+        {/* Timelines Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
+            {timelinesData.heading}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+            {timelines.map((item: any, idx: number) => (
+              <div key={idx} className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-purple-500">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
+                  {item.label}
+                </h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700">
+                  {item.time}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
 
-      {/* Timelines Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 8, color: '#1e293b' }}>
-          {timelinesData.heading}
-        </Typography>
+        {/* Why Works Section */}
+        <section className="bg-[#F3F4F6] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
+            {whyWorksData.heading}
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
+            {whyWorksData.intro}
+          </p>
+          <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
+            {reasons.map((reason: any, idx: number) => (
+              <div key={idx} className="bg-[#F8F9FE] rounded-lg p-4 sm:p-5 border-l-4 border-blue-500">
+                <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">• {reason}</p>
+              </div>
+            ))}
+          </div>
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-4 sm:p-5 rounded-lg">
+            <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+              {whyWorksData.conclusion}
+            </p>
+          </div>
+        </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-          {timelines.map((item: any, idx: number) => (
-            <div key={idx} className="bg-white border-l-4 border-purple-500 rounded-lg p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow">
-              <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.125rem' }, fontWeight: 700, color: '#1e293b', mb: 2 }}>
-                {item.label}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280' }}>
-                {item.time}
-              </Typography>
-            </div>
-          ))}
-        </div>
-      </div>
+        {/* FAQs Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
+            {faqsData.heading}
+          </h2>
+          <div className="space-y-4">
+            {faqs.map((faq: any, idx: number) => (
+              <div key={idx} className="bg-[#F8F9FE] border border-gray-200 rounded-lg overflow-hidden">
+                <button
+                  onClick={() => setExpandedFAQ(expandedFAQ === idx ? null : idx)}
+                  className="w-full flex items-center justify-between p-6 hover:bg-gray-100 transition-colors text-left"
+                >
+                  <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 pr-4">
+                    {faq.q}
+                  </h3>
+                  <span className={`text-blue-600 font-bold text-xl flex-shrink-0 transition-transform duration-300 ${expandedFAQ === idx ? 'rotate-180' : ''}`}>▼</span>
+                </button>
+                {expandedFAQ === idx && (
+                  <div className="border-t border-gray-200 px-6 py-4 bg-gray-50">
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">{faq.a}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
 
-      {/* Why Works Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 3, color: '#1e293b' }}>
-          {whyWorksData.heading}
-        </Typography>
-        <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8, mb: 6 }}>
-          {whyWorksData.intro}
-        </Typography>
-
-        <div className="space-y-4 mb-6">
-          {reasons.map((reason: any, idx: number) => (
-            <div key={idx} className="bg-white border-l-4 border-blue-500 rounded-lg p-6 sm:p-8">
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                <span className="text-blue-600 font-bold mr-2">•</span>{reason}
-              </Typography>
-            </div>
-          ))}
-        </div>
-
-        <div className="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-6 sm:p-8 lg:p-10">
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-            {whyWorksData.conclusion}
-          </Typography>
-        </div>
-      </div>
-
-      {/* FAQs Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 8, color: '#1e293b' }}>
-          {faqsData.heading}
-        </Typography>
-
-        <div className="space-y-4">
-          {faqs.map((faq: any, idx: number) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-lg overflow-hidden">
-              <button
-                onClick={() => setExpandedFAQ(expandedFAQ === idx ? null : idx)}
-                className="w-full flex items-center justify-between p-6 hover:bg-gray-50 transition-colors"
-              >
-                <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', lg: '1.0625rem', '4k': '1.125rem' }, fontWeight: 700, color: '#1e293b', textAlign: 'left' }}>
-                  {faq.q}
-                </Typography>
-                <span className={`text-blue-600 font-bold text-xl transition-transform duration-300 ${expandedFAQ === idx ? 'rotate-180' : ''}`}>
-                  ▼
-                </span>
-              </button>
-              {expandedFAQ === idx && (
-                <div className="border-t border-gray-200 px-6 py-4 bg-gray-50">
-                  <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                    {faq.a}
-                  </Typography>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Why Choose Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: 8, color: '#1e293b' }}>
-          {whyChooseData.heading}
-        </Typography>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {advantages.map((adv: any, idx: number) => (
-            <div key={idx} className="bg-white border-l-4 border-green-500 rounded-lg p-6 sm:p-8 lg:p-10 shadow-sm hover:shadow-md transition-shadow">
-              <div className="flex items-start gap-4 mb-4">
-                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-sm sm:text-base">
-                  {idx + 1}
+        {/* Why Choose Section */}
+        <section className="mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 lg:mb-10">
+            {whyChooseData.heading}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+            {advantages.map((adv: any, idx: number) => (
+              <div key={idx} className="bg-[#F8F9FE] rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-green-500 hover:shadow-md transition-shadow">
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <span className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-sm sm:text-base">
+                    {idx + 1}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
+                      {adv.title}
+                    </h3>
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">
+                      {adv.description}
+                    </p>
+                  </div>
                 </div>
               </div>
-              <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
-                {adv.title}
-              </Typography>
-              <Typography sx={{ fontSize: { xs: '0.9rem', sm: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, color: '#6B7280', lineHeight: 1.8 }}>
-                {adv.description}
-              </Typography>
-            </div>
-          ))}
-        </div>
-      </div>
+            ))}
+          </div>
+        </section>
 
-      {/* Disclaimer Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 mb-12 sm:mb-16 lg:mb-20">
-        <div className="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-6 sm:p-8 lg:p-10">
-          <Typography sx={{ fontSize: { xs: '1.125rem', sm: '1.25rem', lg: '1.375rem', '4k': '1.625rem' }, fontWeight: 700, mb: 4, color: '#1e293b' }}>
+        {/* Disclaimer Section */}
+        <section className="bg-gradient-to-r from-blue-500 to-blue-400 rounded-2xl shadow-lg p-8 sm:p-10 lg:p-12 text-white mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-4 sm:mb-6">
             {disclaimerData.heading}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, lineHeight: 1.8, color: '#6B7280', mb: 4 }}>
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-blue-50 mb-6 sm:mb-8 leading-relaxed">
             {disclaimerData.note}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.9rem', md: '0.95rem', lg: '1rem', '4k': '1.0625rem' }, lineHeight: 1.8, color: '#6B7280', fontStyle: 'italic' }}>
-            {disclaimerData.disclaimer}
-          </Typography>
-        </div>
-      </div>
+          </p>
+          <div className="border-t border-blue-300 pt-6">
+            <p className="text-xs sm:text-sm lg:text-base text-blue-50 leading-relaxed italic">
+              {disclaimerData.disclaimer}
+            </p>
+          </div>
+        </section>
 
-      {/* CTA Section */}
-      <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pb-16 sm:pb-20 lg:pb-24">
-        <div className="bg-black/85 rounded-2xl shadow-lg p-8 sm:p-10 lg:p-12 4k:p-16 text-center">
-          <Typography sx={{ fontSize: { xs: '1.375rem', sm: '1.5rem', md: '1.75rem', lg: '2rem', '4k': '2.5rem' }, fontWeight: 700, mb: { xs: 3, sm: 4 }, color: 'white' }}>
+        {/* CTA Section */}
+        <section className="bg-black/85 rounded-2xl shadow-lg p-8 sm:p-10 lg:p-12 text-center">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-3 sm:mb-4">
             {t('appealCases.cta.heading')}
-          </Typography>
-          <Typography sx={{ fontSize: { xs: '0.95rem', sm: '1rem', md: '1.0625rem', lg: '1.125rem', '4k': '1.25rem' }, color: 'rgba(255,255,255,0.8)', mb: { xs: 6, sm: 8 }, maxWidth: '2xl', mx: 'auto', lineHeight: 1.8 }}>
+          </h2>
+          <p className="text-sm sm:text-base lg:text-lg text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
             {t('appealCases.cta.description')}
-          </Typography>
-          <Box sx={{ display: 'flex', justifyContent: 'center', mb: { xs: 4, sm: 5 } }}>
-            <Box
-              component="button"
-              sx={{
-                backgroundColor: '#ffffff',
-                color: '#000000',
-                fontSize: { xs: '0.875rem', sm: '1rem', lg: '1.125rem', '4k': '1.25rem' },
-                fontWeight: 600,
-                px: { xs: 4, sm: 6, lg: 8, '4k': 10 },
-                py: { xs: 1.2, sm: 1.5, lg: 1.8, '4k': 2 },
-                borderRadius: '9999px',
-                border: 'none',
-                cursor: 'pointer',
-                transition: 'all 0.3s ease',
-                '&:hover': {
-                  backgroundColor: '#f3f4f6',
-                },
-              }}
-            >
-              {t('appealCases.cta.button')}
-            </Box>
-          </Box>
-          <Typography sx={{ fontSize: { xs: '0.75rem', sm: '0.85rem', lg: '0.95rem', '4k': '1rem' }, color: 'rgba(255,255,255,0.6)' }}>
+          </p>
+          <button
+            className="px-8 sm:px-12 lg:px-16 py-3 sm:py-4 bg-white text-black text-sm sm:text-base lg:text-lg font-semibold rounded-full hover:bg-gray-100 transition-colors"
+          >
+            {t('appealCases.cta.button')}
+          </button>
+          <p className="text-xs sm:text-sm text-gray-400 mt-4 sm:mt-5">
             {t('appealCases.cta.subtext')}
-          </Typography>
-        </div>
+          </p>
+        </section>
+
       </div>
     </div>
   );
