@@ -36,7 +36,7 @@ export default function CompanyRegistrationPage() {
   const whyChooseUsReasons = t('companyRegistration.whyChooseUs.reasons', { returnObjects: true }) || [];
 
   return (
-    <div className="min-h-screen bg-[#F8F9FE] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
+    <div className="min-h-screen bg-[#FFFFFF] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
         {/* Hero Section */}
         <section className="mb-8 sm:mb-12 lg:mb-16">

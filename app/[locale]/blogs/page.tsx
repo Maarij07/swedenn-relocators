@@ -172,11 +172,11 @@ export default function BlogsPage() {
             </div>
           ) : blogs.length > 0 ? (
             <>
-              <div className="grid gap-8 sm:gap-10 md:gap-12 lg:gap-10 xl:gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="grid gap-4 sm:gap-8 md:gap-10 lg:gap-10 xl:gap-12 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
                 {blogs.map((blog, index) => (
                   <article
                     key={blog.id}
-                    className="bg-white rounded-[24px] shadow-[0_18px_45px_rgba(15,23,42,0.08)] border border-gray-100 flex flex-col overflow-hidden transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(15,23,42,0.12)]"
+                    className="bg-white rounded-2xl sm:rounded-[24px] shadow-[0_18px_45px_rgba(15,23,42,0.08)] border border-gray-100 flex flex-col overflow-hidden transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(15,23,42,0.12)]"
                     style={{
                       animation: 'fadeInUp 0.7s ease-out',
                       animationDelay: `${index * 60}ms`,
@@ -184,7 +184,7 @@ export default function BlogsPage() {
                     }}
                   >
                     <div className="relative w-full bg-gray-50">
-                      <div className="relative w-full h-44 sm:h-48 md:h-52 flex items-center justify-center">
+                      <div className="relative w-full h-32 sm:h-48 md:h-52 flex items-center justify-center">
                         <Image
                           src={blog.featured_image}
                           alt={blog.title}
@@ -194,18 +194,18 @@ export default function BlogsPage() {
                       </div>
                     </div>
 
-                    <div className="flex-1 flex flex-col px-6 pb-6 pt-4 space-y-3">
-                      <h3 className="text-[15px] sm:text-[16px] lg:text-[17px] font-semibold text-gray-900 leading-snug">
+                    <div className="flex-1 flex flex-col px-3 sm:px-6 pb-4 sm:pb-6 pt-3 sm:pt-4 space-y-2 sm:space-y-3">
+                      <h3 className="text-[12px] sm:text-[15px] lg:text-[17px] font-semibold text-gray-900 leading-snug line-clamp-2">
                         {blog.title}
                       </h3>
-                      <p className="text-[12px] sm:text-[13px] md:text-[13px] lg:text-[14px] text-gray-600 leading-relaxed line-clamp-3">
+                      <p className="hidden sm:block text-[12px] sm:text-[13px] lg:text-[14px] text-gray-600 leading-relaxed line-clamp-3">
                         {blog.excerpt}
                       </p>
 
-                      <div className="pt-2 mt-auto">
+                      <div className="pt-1 sm:pt-2 mt-auto">
                         <a
                           href={`/${locale}/blogs/${blog.slug}`}
-                          className="inline-flex items-center justify-center px-5 py-2.5 text-[13px] sm:text-[14px] font-semibold text-white bg-[#032B5F] rounded-full hover:bg-[#021C3D] transition-colors"
+                          className="inline-flex items-center justify-center px-3 sm:px-5 py-1.5 sm:py-2.5 text-[11px] sm:text-[14px] font-semibold text-white bg-[#032B5F] rounded-full hover:bg-[#021C3D] transition-colors"
                         >
                           {t('blogsPage.readMore')}
                         </a>

@@ -42,7 +42,7 @@ export default function AppealCasesPage() {
   const advantages = Array.isArray(whyChooseData.advantages) ? whyChooseData.advantages : [];
 
   return (
-    <div className="min-h-screen bg-[#F8F9FE] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
+    <div className="min-h-screen bg-[#FFFFFF] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24">
 
         {/* Hero Section */}
@@ -56,7 +56,7 @@ export default function AppealCasesPage() {
         </section>
 
         {/* Intro Section */}
-        <section className="bg-[#F8F9FE] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
+        <section className="bg-[#FFFFFF] rounded-2xl shadow-sm p-6 sm:p-8 lg:p-10 mb-8 sm:mb-10 lg:mb-12">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-5">
             {introData.heading}
           </h2>
@@ -75,7 +75,7 @@ export default function AppealCasesPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {rights.map((right: any, idx: number) => (
-              <div key={idx} className="bg-[#F8F9FE] rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-blue-500 hover:shadow-md transition-shadow">
+              <div key={idx} className="bg-[#FFFFFF] rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-blue-500 hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-3 sm:gap-4">
                   <span className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-sm sm:text-base">
                     {idx + 1}
@@ -104,7 +104,7 @@ export default function AppealCasesPage() {
           </p>
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             {stages.map((stage: any, idx: number) => (
-              <div key={idx} className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
+              <div key={idx} className="bg-[#FFFFFF] rounded-lg p-4 sm:p-6 border-l-4 border-green-500">
                 <div className="flex items-start gap-3 sm:gap-4">
                   <span className="flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-xs sm:text-sm">
                     {stage.number}
@@ -142,7 +142,7 @@ export default function AppealCasesPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
             {steps.map((step: any, idx: number) => (
-              <div key={idx} className="bg-[#F8F9FE] rounded-xl shadow-sm p-6 sm:p-7 lg:p-8 hover:shadow-md transition-shadow border-t-4 border-blue-500">
+              <div key={idx} className="bg-[#FFFFFF] rounded-xl shadow-sm p-6 sm:p-7 lg:p-8 hover:shadow-md transition-shadow border-t-4 border-blue-500">
                 <div className="flex items-start gap-4 sm:gap-5">
                   <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-xs sm:text-sm">
                     {idx + 1}
@@ -168,7 +168,7 @@ export default function AppealCasesPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             {cases.map((caseItem: any, idx: number) => (
-              <div key={idx} className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
+              <div key={idx} className="bg-[#FFFFFF] rounded-lg p-4 sm:p-6 border-l-4 border-blue-500">
                 <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">• {caseItem}</p>
               </div>
             ))}
@@ -182,7 +182,7 @@ export default function AppealCasesPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             {timelines.map((item: any, idx: number) => (
-              <div key={idx} className="bg-[#F8F9FE] rounded-lg p-4 sm:p-6 border-l-4 border-purple-500">
+              <div key={idx} className="bg-[#FFFFFF] rounded-lg p-4 sm:p-6 border-l-4 border-purple-500">
                 <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2">
                   {item.label}
                 </h3>
@@ -204,7 +204,7 @@ export default function AppealCasesPage() {
           </p>
           <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
             {reasons.map((reason: any, idx: number) => (
-              <div key={idx} className="bg-[#F8F9FE] rounded-lg p-4 sm:p-5 border-l-4 border-blue-500">
+              <div key={idx} className="bg-[#FFFFFF] rounded-lg p-4 sm:p-5 border-l-4 border-blue-500">
                 <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed">• {reason}</p>
               </div>
             ))}
@@ -223,7 +223,7 @@ export default function AppealCasesPage() {
           </h2>
           <div className="space-y-4">
             {faqs.map((faq: any, idx: number) => (
-              <div key={idx} className="bg-[#F8F9FE] border border-gray-200 rounded-lg overflow-hidden">
+              <div key={idx} className="bg-[#FFFFFF] border border-gray-200 rounded-lg overflow-hidden">
                 <button
                   onClick={() => setExpandedFAQ(expandedFAQ === idx ? null : idx)}
                   className="w-full flex items-center justify-between p-6 hover:bg-gray-100 transition-colors text-left"
@@ -250,7 +250,7 @@ export default function AppealCasesPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {advantages.map((adv: any, idx: number) => (
-              <div key={idx} className="bg-[#F8F9FE] rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-green-500 hover:shadow-md transition-shadow">
+              <div key={idx} className="bg-[#FFFFFF] rounded-xl shadow-sm p-5 sm:p-6 border-l-4 border-green-500 hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-3 sm:gap-4">
                   <span className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-sm sm:text-base">
                     {idx + 1}

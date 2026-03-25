@@ -37,7 +37,7 @@ export default function ContainedNavButton({
   onClick,
 }: ContainedNavButtonProps) {
   const baseStyles =
-    'px-5 xl:px-6 4k:px-12 py-2.5 xl:py-3 4k:py-6 text-sm xl:text-[15px] 4k:text-2xl font-semibold text-white bg-[#1C252E] rounded-lg hover:bg-[#2C3A47] hover:shadow-[0px_8px_16px_-4px_rgba(28,37,46,0.48)] transition-all duration-200 whitespace-nowrap';
+    'px-4 4k:px-12 py-[6px] 4k:py-6 text-[0.875rem] leading-[1.75] 4k:text-2xl font-bold text-white bg-[#1C252E] rounded-lg shadow-[0px_3px_1px_-2px_rgba(0,0,0,0.2),0px_2px_2px_0px_rgba(0,0,0,0.14),0px_1px_5px_0px_rgba(0,0,0,0.12)] hover:bg-[#2C3A47] hover:shadow-[0px_2px_4px_-1px_rgba(0,0,0,0.2),0px_4px_5px_0px_rgba(0,0,0,0.14),0px_1px_10px_0px_rgba(0,0,0,0.12)] transition-all duration-200 whitespace-nowrap';
 
   return (
     <a

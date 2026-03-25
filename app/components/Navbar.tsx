@@ -228,7 +228,7 @@ export default function Navbar() {
 
               <a
                 href={`/${locale}/new-in-sweden`}
-                className={`inline-flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/new-in-sweden`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
+                className={`inline-flex items-center gap-1.5 text-[0.875rem] leading-[1.57] 4k:text-2xl transition-colors whitespace-nowrap ${isActive(`/${locale}/new-in-sweden`) ? 'text-[#2563eb] font-semibold' : 'text-[#637381] font-medium hover:text-[#2563eb]'}`}
               >
                 {isActive(`/${locale}/new-in-sweden`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
                 {t('navbar.links.newInSweden')}
@@ -245,7 +245,7 @@ export default function Navbar() {
                 <div className="flex items-center gap-1">
                   <a
                     href={`/${locale}/services`}
-                    className={`inline-flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/services`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
+                    className={`inline-flex items-center gap-1.5 text-[0.875rem] leading-[1.57] 4k:text-2xl transition-colors whitespace-nowrap ${isActive(`/${locale}/services`) ? 'text-[#2563eb] font-semibold' : 'text-[#637381] font-medium hover:text-[#2563eb]'}`}
                   >
                     {isActive(`/${locale}/services`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
                     {t('navbar.links.services')}
@@ -399,7 +399,7 @@ export default function Navbar() {
 
               <a
                 href={`/${locale}/about`}
-                className={`inline-flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/about`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
+                className={`inline-flex items-center gap-1.5 text-[0.875rem] leading-[1.57] 4k:text-2xl transition-colors whitespace-nowrap ${isActive(`/${locale}/about`) ? 'text-[#2563eb] font-semibold' : 'text-[#637381] font-medium hover:text-[#2563eb]'}`}
               >
                 {isActive(`/${locale}/about`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
                 {t('navbar.links.about')}
@@ -417,7 +417,7 @@ export default function Navbar() {
                       toggleDropdown('housing');
                     }
                   }}
-                  className={`flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/housing`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
+                  className={`flex items-center gap-1.5 text-[0.875rem] leading-[1.57] 4k:text-2xl transition-colors whitespace-nowrap ${isActive(`/${locale}/housing`) ? 'text-[#2563eb] font-semibold' : 'text-[#637381] font-medium hover:text-[#2563eb]'}`}
                   aria-label="Toggle housing menu"
                 >
                   {isActive(`/${locale}/housing`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
@@ -469,7 +469,7 @@ export default function Navbar() {
                       toggleDropdown('assessment');
                     }
                   }}
-                  className={`flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/assessment`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
+                  className={`flex items-center gap-1.5 text-[0.875rem] leading-[1.57] 4k:text-2xl transition-colors whitespace-nowrap ${isActive(`/${locale}/assessment`) ? 'text-[#2563eb] font-semibold' : 'text-[#637381] font-medium hover:text-[#2563eb]'}`}
                   aria-label="Toggle assessment menu"
                 >
                   {isActive(`/${locale}/assessment`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
@@ -535,7 +535,7 @@ export default function Navbar() {
 
               <a
                 href={`/${locale}/contact`}
-                className={`inline-flex items-center gap-1.5 text-sm xl:text-[15px] 4k:text-2xl transition-colors whitespace-nowrap font-medium ${isActive(`/${locale}/contact`) ? 'text-[#2563eb]' : 'text-[#637381] hover:text-[#2563eb]'}`}
+                className={`inline-flex items-center gap-1.5 text-[0.875rem] leading-[1.57] 4k:text-2xl transition-colors whitespace-nowrap ${isActive(`/${locale}/contact`) ? 'text-[#2563eb] font-semibold' : 'text-[#637381] font-medium hover:text-[#2563eb]'}`}
               >
                 {isActive(`/${locale}/contact`) && <span className="w-2 h-2 rounded-full bg-[#2563eb] flex-shrink-0" />}
                 {t('navbar.links.contact')}

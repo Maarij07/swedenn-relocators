@@ -26,7 +26,7 @@ export default function CitizenshipPage() {
   const services = t('citizenship.support.services', { returnObjects: true }) || [];
 
   return (
-    <div className="min-h-screen bg-[#F8F9FE] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
+    <div className="min-h-screen bg-[#FFFFFF] pt-[160px] sm:pt-[180px] lg:pt-[200px] xl:pt-[220px] 4k:pt-[260px] pb-20 sm:pb-24 lg:pb-28 xl:pb-32 4k:pb-40">
       {/* Hero Section */}
       <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 pb-12 sm:pb-16 lg:pb-20">
         <h1 className="text-2xl xs:text-2.5xl sm:text-3xl lg:text-4xl xl:text-5xl 4k:text-6xl font-bold text-gray-900 mb-3 sm:mb-4 leading-tight">
@@ -78,7 +78,7 @@ export default function CitizenshipPage() {
       </div>
 
       {/* Special Categories */}
-      <div className="bg-[#F8F9FE]">
+      <div className="bg-[#FFFFFF]">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
             {t('citizenship.specialCategories.heading')}
@@ -140,7 +140,7 @@ export default function CitizenshipPage() {
       </div>
 
       {/* Waiting Times */}
-      <div className="bg-[#F8F9FE]">
+      <div className="bg-[#FFFFFF]">
         <div className="max-w-[1400px] 2xl:max-w-[1600px] 4k:max-w-[2400px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 4k:px-24 py-16 sm:py-20 lg:py-24 xl:py-32">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
             {t('citizenship.waitingTimes.heading')}
