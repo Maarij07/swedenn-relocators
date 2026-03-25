@@ -37,7 +37,7 @@ export default function OutlinedNavButton({
   onClick,
 }: OutlinedNavButtonProps) {
   const baseStyles =
-    'px-5 xl:px-6 4k:px-12 py-2.5 xl:py-3 4k:py-6 text-sm xl:text-[15px] 4k:text-2xl font-medium text-[#1C252E] bg-transparent border border-[#1C252E]/40 rounded-lg hover:border-[#1C252E] hover:shadow-[0_0_0_0.75px_#1C252E] transition-all duration-200 whitespace-nowrap';
+    'px-[15px] 4k:px-12 py-[5px] 4k:py-6 text-[0.875rem] leading-[1.75] 4k:text-2xl font-bold text-[#1C252E] bg-transparent border border-[#1C252E]/50 rounded-lg hover:bg-[#1C252E]/[0.04] hover:border-[#1C252E] transition-all duration-200 whitespace-nowrap';
 
   return (
     <a

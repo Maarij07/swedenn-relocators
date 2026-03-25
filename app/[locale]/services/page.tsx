@@ -83,19 +83,22 @@ export default function ServicesPage() {
         }
 
         .sr-service-card {
-          transition: transform 350ms cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 350ms cubic-bezier(0.25, 0.46, 0.45, 0.94), border-color 350ms ease;
-          will-change: transform, box-shadow, border-color;
+          transition: transform 280ms cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 280ms ease, border-color 200ms ease, background-color 200ms ease;
+          will-change: transform, box-shadow;
+          position: relative;
+          z-index: 1;
         }
-        @media (hover: hover) {
-          .sr-service-card:hover {
-            transform: translateY(-20px) scale(1.15);
-            box-shadow: 0 40px 70px rgba(0,0,0,0.22), 0 20px 32px rgba(36,127,225,0.35);
-            border-color: rgba(59,130,246,0.9);
-          }
-          .sr-service-card:active {
-            transform: translateY(-8px) scale(1.06);
-            transition-duration: 120ms;
-          }
+        .sr-service-card:hover {
+          transform: translateY(-20px) scale(1.08) !important;
+          box-shadow: 0 40px 80px rgba(0,0,0,0.22), 0 16px 32px rgba(36,127,225,0.35) !important;
+          border-color: #3b82f6 !important;
+          background-color: #fff !important;
+          cursor: pointer;
+          z-index: 20;
+        }
+        .sr-service-card:active {
+          transform: translateY(-6px) scale(1.02) !important;
+          transition-duration: 80ms;
         }
       `}</style>
 
@@ -238,7 +241,7 @@ export default function ServicesPage() {
           </div>
 
           {/* ── CARD GRID — card mode on mobile + always on sm+ ── */}
-          <div className={`grid grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-5 lg:gap-8 ${viewMode === 'card' ? 'grid' : 'hidden sm:grid'}`}>
+          <div style={{ isolation: 'isolate' }} className={`grid grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-5 lg:gap-8 ${viewMode === 'card' ? 'grid' : 'hidden sm:grid'}`}>
             {servicesCards
               .filter(card => !searchQuery || card.title.toLowerCase().includes(searchQuery.toLowerCase()))
               .map((card, index) => (

@@ -544,7 +544,7 @@ export default function PartnersPage() {
                 Ready to Grow Within a Network That Actually Works?
               </h2>
               <p className="text-base sm:text-lg text-white/60 max-w-xl mx-auto mb-10 leading-relaxed">
-                Apply today. Get verified. Start receiving matched client cases across the Nordic region, with full transparency and zero overhead.
+                Apply today and get verified to unlock global client opportunities. Receive matched cases, work through a structured system, and scale your services with zero overhead.
               </p>
 
               {/* 3 quick wins */}
